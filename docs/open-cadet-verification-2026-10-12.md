@@ -110,3 +110,6 @@ The exact published replacement DAT occurs at offset0 in the checked-in runtime 
 
 
 2026-10-12 actualverbose-linkreview: fullbuildpassesandlinkcommandretainedinverbose-link-review.log; actual-link-input-review.json inventoriesSDL2/SDLmixer-ogg/Vorbis/Ogg andEmscriptenGL/AL/HTML5/C/allocator/compiler/C++supportlibraries. PCHitselfrecordsImGui7b913dbandrenderer01deb04pins; rendererheaderexactmatchespin, cppreviewedcodechangesretained. This narrowsfinalnoticeclosuretoactuallinkinputs, notcachedunusedports; notper-symbollicencecertificate. Productionunchanged.
+
+
+2026-10-12 runtime licence mapping: correctedlinkparserrequireswhitespace-delimited-loptions, removesfalse-ld.exe/-lsrsubstringmatches. Actual16libraryfamiliesmapped toretainedSDLzlib/OggVorbisBSD/muslMIT/LLVMruntimeexceptions/EmscriptenMIT-NCSA/dlmallocpublicdomainCC0notices; muslcompleteCOPYRIGHT anddlmallocdeclarationevidence retained. No wholepackageCC0claim. runtime-license-map.json recordsfamilies/scope; finalrefreshedpackage/noticeconsistencyreview remains. No runtimebehaviorchange/deploy.
