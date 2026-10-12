@@ -1,0 +1,29 @@
+{
+  "scope": "Muted production visual checks: normal F2, sustained Space release launches ball into upper table; Z and slash visibly raise both flippers and release returns lowered positions. Numeric score not readable; no played high-score claim.",
+  "runtime": "0bc12d3ca97a-8d0f687e47",
+  "errors": [],
+  "audio": "Sound off and browser mute; audible unverified",
+  "cleanup": "Stop pressed; browsers closed",
+  "privateCaptures": [
+    {
+      "file": "cadet-launch-before.png",
+      "sha256": "fb8cc1e54f7014cfa41a3e83e371d52179bfb3aea370dbfe70b1256060688a35"
+    },
+    {
+      "file": "cadet-launch-held.png",
+      "sha256": "49c2a2c3087c2c6eac7a2e825b82fa398b561ce6a77025fb3d24ad665938371d"
+    },
+    {
+      "file": "cadet-launch-after.png",
+      "sha256": "1a646a19613627078d97be7e87974aa956bbb71cb9d7821f19f90795b0828934"
+    },
+    {
+      "file": "cadet-flippers-held.png",
+      "sha256": "bda6013f6918c6c44749b0d6b0a61dd7e2ee1b65c4422ea328293c52375da38e"
+    },
+    {
+      "file": "cadet-flippers-released.png",
+      "sha256": "36c73e40f0ced5bac760dac8ec1cf4a52f262f9c2b3d5aa6eab6f57f7e870f0d"
+    }
+  ]
+}
