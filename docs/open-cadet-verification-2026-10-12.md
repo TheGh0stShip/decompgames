@@ -74,3 +74,6 @@ The exact published replacement DAT occurs at offset0 in the checked-in runtime 
 
 
 2026-10-12 ImGuihistoricalsnapshotidentified: engineimportcommit e0638c598d36771a0291dee17f904c811883df1f dated2021-09-05. Bundled1.85WIPheaderexactmatchesocornut/imgui73a5e82e04666640ab072e7177b656fda6650ad7 afterlineendingnormalization; matchedsnapshotMITnotice retained. imgui_draw/tables/demo/imconfig andthreeimstbheaders alsoexactmatch; imgui.cpp/widgets/internal differ and requireboundedcodereview. imgui-snapshot-match.json retainsfilehashes/results. This resolvesfontdatavendoridentity, notallmodifiedcode/linkclosure. No runtime/deploychange.
+
+
+2026-10-12 remainingImGui differencesresolved: neighboringhistoricalcommit7b913db1ce9dd2fd98e5790aa59974dd4496be3b exactlymatchesbundledimgui.cpp. Reviewedcomparisonagainstlater73a5snapshotwasnavigationrefactor/commentdifferences, noexpressivemedia additions. Matchingheader/widgets/internal comparisonrecordedprivately. KeepupstreamMITnoticeandexactsourcehashreferences; vendorisolderWIPsnapshot, notfinal1.85. Runtimeunchanged; finaldependencyclosure and hook-freeearnedscoreUIreload remainreleasegates.
