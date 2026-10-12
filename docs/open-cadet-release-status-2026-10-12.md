@@ -8,6 +8,7 @@ Passed: launch/flipper visual response, readable played scores and messages, set
 
 Remaining gates:
 - Completed: final build earned 191,750, confirmed normally, restored exact save bytes and displayed Player 1 / 191,750 in the reopened High Scores UI.
+- Replace/review embedded expressive resource strings in `pinball.cpp`, preserving format contracts and required notices.
 - Complete linked-runtime dependency inventory and refresh all source/notices.
 - Integrate exact artifacts, run local release checks, reconcile main, commit/push before deployment, then verify production.
 

@@ -83,3 +83,6 @@ The exact published replacement DAT occurs at offset0 in the checked-in runtime 
 
 
 2026-10-12 finalhook-freehighscoreUI PASS: normalplay earned191750, visibleearned-dialog/ordinaryOk accepted, filepositiveandFSsync/reloadexactmatched. AfterreloadnormalGame>HighScoresmenuclick opensread-onlytable; screenshotinspected showsPlayer1/191750. This verifiesenginechecksum/read/UIrestoration, notonlyfilepresence. No score/lifeinjection/diagnostichooks; errors/missing/external empty; mutedbrowser/serverclosed. final-earned-score-test.json retainsfileevidenceandUIreview. Release stillrequiresfinallinkeddependencyinventory/refreshedsource/notices/siteintegration, productionunchanged.
+
+
+2026-10-12 embeddedtextreleaseblocker: sourcepinball.cpp rc_strings containsoriginaltitle/mission/credits/messagesoutsideDAT, includingexplicitMicrosoft/Maxiscredit/title. ReplacementDATCC0andfontreplacement doNOTestablishcompleteauthoredtextcoverage. Privateembedded-text-inventory.json recordsresourceIDs/printf-tokencontracts/functionalpathflags; independentlyauthor expressive replacements whilepreservingcontracts and requiredattribution. Earliercandidategameplay/save/rebuildresults remainvalidforoldtextversion, notclearancefornewtextversion. No deployment.
