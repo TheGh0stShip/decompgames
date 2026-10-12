@@ -98,3 +98,6 @@ Published intake entries now include Tennis SDL, Craft, OpenDuelyst local Sandbo
 
 
 2026-10-12 privateOpenLara runningjumpcheckpoint: independently authored six-frame run cycle nowincludescontrollerframe4/5window; actualArrowUp waitsrunindex0/frame>=4 thenSpace. Sampledtransition0->forwardtakeoff19/air20 andlatergroundstand11, ascent/descentminy-42, errorsmissingexternalempty/mutedbrowserclosed. Heldjump200ms alsoobservedlatercompress17, so traceincludespossibleadditionaljump; notisolatedsinglecycle/exhaustivecoverage. 85,908byteauthoredfixture/generator/sourceprivate; no retailassets/controlphysicschanges. Running-jump teststilluseslimitedy/velocityscope, horizontaldisplacement/persistence/newsourcepackrebuild notverified. No publicOpenLaraentry.
+
+
+2026-10-12 isolatedrunningjumpPASS: actualrunframe4/5 thenjump, releasebothkeyswhenactualtakeoff19observed. Samples0->19->20->11, exactlyonesampledtakeoffentry/noadditionalcompress17; negative/positivevy/miny-42, positivezmovementwhileairborne, finalx2048/z2426/y0/velocity0/groundstand1. Errorsmissingexternalempty/mutedbrowser/serverclosed. isolated-running-jump-test.json preservesprecisescope; notallterrain/state/gameplayororiginalmotionparity. Independentfixtureprivate; no cataloguepromotion.
