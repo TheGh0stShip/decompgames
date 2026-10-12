@@ -110,3 +110,6 @@ Published intake entries now include Tennis SDL, Craft, OpenDuelyst local Sandbo
 
 
 2026-10-12 position-save contractenforced: privateexportnowrequiresactualSTAND_GROUND/index11/y0; restorealsoacceptsonlyy0/index11 pluspreviouslength/room/frame/boundsvalidation. ActualArrowUprunindex0 exportreturns0; groundedbuttonsave/reload/reset/malformedframerejectionregressionspass. grounded-position-save-test.json retainsscope, errorsmissingexternalempty/mutedbrowserclosed. HostlabelnowSave standing position. No full/airborne/healthsaveclaim; oldsourcepackagepredatesvalidationchangeandmustrefreshbeforeversionreproclaim. No publicruntimechanges.
+
+
+2026-10-12 groundedpositionpackagePASS: private76entry333,071byteopenlara-authored-grounded-position-source.tar.gz SHA76e5ec7290826e392688bef8fefb0e60bd98ecac17734752f2d92cfb1fc9df06 includesstrictstandingexport/restore andmovingrejectiontest. SeparatefolderJS/WASM/data rebuildbyteidentical; WASMbf80c33ca96ff9ea10f218cef4fb655a0177e7082a692af83d7db3be873e19e6. Thispositionvariantusesolderturnfixture, notlatest85,908byterunningjumpfixture; twoindependentpackages/scopesremainexplicit. Notfullgame/crossplatformcertificate; archiveprivate/no publicentry.
