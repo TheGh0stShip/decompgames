@@ -89,3 +89,6 @@ The exact published replacement DAT occurs at offset0 in the checked-in runtime 
 
 
 2026-10-12 private authoredresource-text adaptation: all192rc_stringIDsretained, 40format-token sequences preservedexactly; threefunctionalentries retainedforseparatereview. Expressivetext replacedwithindependentCC0labels/objectiveinstructions/title/credits; genericTableeventlabels remainunpolished outside selectedUI messages. Existingengine/dependencyattributionretainedseparately. Fullbuildpasses; mutednormalboot/launch runswithnoerrorsmissingexternal/browserclosed; screenshotreviewrecorded. Oldearnedscore/reproducibilitytestsapplypriorversion, notnewtextversion; finalUX/persistenceregression/sourcepackrefreshstillneeded. No publicchanges.
+
+
+2026-10-12 resourcecontractcorrection: authoredrewrite mistakenlychangedID158numericprefix(1 UseBitmapFont), disablingmessages. Restoredfunctionalbitmapfontflag; fullrebuild/mutednormalbootlaunch nowshowsPLAYER1 andauthoredtargetinstruction, noerrorsmissingexternal/browserclosed. Screenshotrevealsinstructionclippedbeforefinalword; shortenandreviewbeforeUIacceptance. IDs156(filename),159..168(configuration/key/registry/GUID/dataidentifiers) requireexplicitfunctionalpreservationreview; notallresourcesexpressivetext. EarlierblankpanelbuildnotUIpass. Candidateprivate; no deployment.
