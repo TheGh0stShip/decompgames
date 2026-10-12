@@ -92,3 +92,6 @@ The exact published replacement DAT occurs at offset0 in the checked-in runtime 
 
 
 2026-10-12 resourcecontractcorrection: authoredrewrite mistakenlychangedID158numericprefix(1 UseBitmapFont), disablingmessages. Restoredfunctionalbitmapfontflag; fullrebuild/mutednormalbootlaunch nowshowsPLAYER1 andauthoredtargetinstruction, noerrorsmissingexternal/browserclosed. Screenshotrevealsinstructionclippedbeforefinalword; shortenandreviewbeforeUIacceptance. IDs156(filename),159..168(configuration/key/registry/GUID/dataidentifiers) requireexplicitfunctionalpreservationreview; notallresourcesexpressivetext. EarlierblankpanelbuildnotUIpass. Candidateprivate; no deployment.
+
+
+2026-10-12 authoredinstruction/functonalcontract refinement: IDs156/158..168 restoredforfilename/numericconfiguration/key/registry/GUID/dataidentifierinteroperability; expressiveUI remainsauthored. ID104shortenedtoHit targets/Pick a task; ID106Use ramp/Start task/%s retainsformatcontract. Fullrebuildpasses, mutednormalbootlaunch screenshotinspected showsentiretwo-lineinstructionwithoutclipping; alloriginalprintf-token sequences preserved (zero mismatches). Errors/missing/externalempty/browserclosed. OthergenericTableeventmessagesstillneedmeaningfulauthoredlabels; finaltextversionhighscore/rebuildpackage proofsremainpending. Productionunchanged.
