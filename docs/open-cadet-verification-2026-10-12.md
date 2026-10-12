@@ -71,3 +71,6 @@ The exact published replacement DAT occurs at offset0 in the checked-in runtime 
 
 
 2026-10-12 renderer provenance comparison: bundledimgui_sdl.h exactlymatchesTyyppi77/imgui_sdl masterSHAba1cb0c0533422058995b9975b8373aeb2f9925c4ccbe64178fa2113eea1245c. cppdiff reviewed: C++11make_uniquecompatibility, cacheReset/device-lostevents, squarestyle adjustments; noembeddedassetadditions. RetainupstreamImGuiSDLMITandengineMITmodificationnotices; diff/sourcehashes privatelyvendor-comparison.json. BundledImGui1.85WIPdoesnotexactmatchfinalv1.85header, historicalsnapshotmatching stillpending; notblanketunclearedcodeclaim norrootlicenseassumption. No runtimechanges or deployment.
+
+
+2026-10-12 ImGuihistoricalsnapshotidentified: engineimportcommit e0638c598d36771a0291dee17f904c811883df1f dated2021-09-05. Bundled1.85WIPheaderexactmatchesocornut/imgui73a5e82e04666640ab072e7177b656fda6650ad7 afterlineendingnormalization; matchedsnapshotMITnotice retained. imgui_draw/tables/demo/imconfig andthreeimstbheaders alsoexactmatch; imgui.cpp/widgets/internal differ and requireboundedcodereview. imgui-snapshot-match.json retainsfilehashes/results. This resolvesfontdatavendoridentity, notallmodifiedcode/linkclosure. No runtime/deploychange.
