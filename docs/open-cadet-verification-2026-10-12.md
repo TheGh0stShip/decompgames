@@ -95,3 +95,6 @@ The exact published replacement DAT occurs at offset0 in the checked-in runtime 
 
 
 2026-10-12 authoredinstruction/functonalcontract refinement: IDs156/158..168 restoredforfilename/numericconfiguration/key/registry/GUID/dataidentifierinteroperability; expressiveUI remainsauthored. ID104shortenedtoHit targets/Pick a task; ID106Use ramp/Start task/%s retainsformatcontract. Fullrebuildpasses, mutednormalbootlaunch screenshotinspected showsentiretwo-lineinstructionwithoutclipping; alloriginalprintf-token sequences preserved (zero mismatches). Errors/missing/externalempty/browserclosed. OthergenericTableeventmessagesstillneedmeaningfulauthoredlabels; finaltextversionhighscore/rebuildpackage proofsremainpending. Productionunchanged.
+
+
+2026-10-12 meaningfulauthoredlabels: replaced122genericplaceholderswithindependentobjective/rank/reward/actionlabels (e.g. Aim test, Ramp test, Use portal, Hold Space/Release to fire), retainingoriginalformatargumentorder/types. Fullbuildsucceeds; mutedsettingsreloadregression exactbytes/errorsmissingexternalempty/browserclosed. This isnotallmessagevisualcoverage; tasknamewrappingandallmissionpathsremainunverified. Remaininggenericerror/configlabels andIDs178helpfilename/189fontcolor requirefinalfunctionalreview. Priorhighscorepassappliesoldertextversion; newfinalpack/rebuild/playtestrequired. Productionunchanged.
