@@ -68,3 +68,6 @@ The exact published replacement DAT occurs at offset0 in the checked-in runtime 
 
 
 2026-10-12 notice-refreshed sourcepackage: private authored-cadet-noticed-source.tar.gz223files/1,470,083bytes SHAe1d196902b064009fd83ca18731a1d39fd0cfd515c149a11a139d1ff527020a0. Allnonnoticebuild/code/resources byteidentical toisolated-rebuiltv2archive, so nopointlessrebuild; perfilehashes recordedandmediaexclusionsasserted. Includes resolvedProggyMIT/runtime-supportnotices alongsideengine/dependencies/authoredCC0. Exactvendorprovenance/finaldependencyclosure and hook-freeearnedscoreUIreload remainopen. Archiveprivate, no deployment or eligibilitycertification.
+
+
+2026-10-12 renderer provenance comparison: bundledimgui_sdl.h exactlymatchesTyyppi77/imgui_sdl masterSHAba1cb0c0533422058995b9975b8373aeb2f9925c4ccbe64178fa2113eea1245c. cppdiff reviewed: C++11make_uniquecompatibility, cacheReset/device-lostevents, squarestyle adjustments; noembeddedassetadditions. RetainupstreamImGuiSDLMITandengineMITmodificationnotices; diff/sourcehashes privatelyvendor-comparison.json. BundledImGui1.85WIPdoesnotexactmatchfinalv1.85header, historicalsnapshotmatching stillpending; notblanketunclearedcodeclaim norrootlicenseassumption. No runtimechanges or deployment.
