@@ -4496,5 +4496,51 @@
     "shelf": "classic",
     "platform": "PC",
     "color": "#39876d"
+  },
+  {
+    "id": "2048",
+    "title": "2048",
+    "aliases": [],
+    "year": 2014,
+    "genre": "Puzzle",
+    "kind": "Original implementation",
+    "mode": "embed",
+    "launch": "tab",
+    "embedUrl": "https://decompgames.com/games/2048/player.html",
+    "engine": "2048 JavaScript",
+    "description": "Slide and merge matching numbers toward the 2048 tile.",
+    "overview": "Gabriele Cirulli’s MIT browser puzzle runs locally with CSS tiles and system fonts. This original JavaScript game requires no ROM or downloaded assets; it is not a WebAssembly build or decompilation.",
+    "source": "https://github.com/gabrielecirulli/2048",
+    "engineLicense": "MIT",
+    "assetLicense": "MIT CSS and text; system fonts",
+    "assetRequirements": "No ROM or original game files needed.",
+    "controls": [
+      "Arrow keys — slide tiles",
+      "New Game — restart"
+    ],
+    "saveInstructions": "Board and best score save automatically in this browser. Clearing site storage removes them.",
+    "limitations": [
+      "Modern browser required.",
+      "2048 victory, terminal loss and touch controls unverified.",
+      "No audio implementation."
+    ],
+    "inputs": [
+      "Keyboard",
+      "Mouse"
+    ],
+    "downloadMB": 0.04,
+    "complete": false,
+    "color": "#edc53f",
+    "shelf": "classic",
+    "platform": "PC",
+    "verification": {
+      "status": "gameplay-tested",
+      "date": "2026-10-12",
+      "browsers": [
+        "Edge (headless, muted)"
+      ],
+      "scope": "Real keyboard merging/score, exact board save reload and restart verified with no errors, missing resources or external requests. No victory or loss claim.",
+      "playthrough": false
+    }
   }
 ]

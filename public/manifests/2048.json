@@ -1,0 +1,70 @@
+{
+  "id": "2048",
+  "sourceRevision": "478b6ec346e3787f589e4af751378d06ded4cbbc",
+  "repository": "https://github.com/gabrielecirulli/2048",
+  "base": "/games/2048/",
+  "sourceArchive": "/sources/2048-478b6ec-local-browser-source.tar.gz",
+  "sourceArchiveSha256": "f354a1fca0ffb13751347f792d92b065e6a3810ec19f0615a771b3254bc72d5a",
+  "files": [
+    {
+      "path": "BUILD-NOTES.md",
+      "sha256": "c6bbbffa7574fae14514b86b54d035b91da1b66af3d713fdd657be9029526e6e",
+      "bytes": 516
+    },
+    {
+      "path": "js/application.js",
+      "sha256": "5fc43863225b371c458615ef431fac73003546f437aa32026641de48817bd27a",
+      "bytes": 197
+    },
+    {
+      "path": "js/game_manager.js",
+      "sha256": "b02baa6b75f8c8cad8606e680b6f73b7c843c61e3a643ee48410022499a649f0",
+      "bytes": 7627
+    },
+    {
+      "path": "js/grid.js",
+      "sha256": "169428f5ff7f726c38112fcf1c918028cbca3a1d9f9239838fbc7eb4396b9f9a",
+      "bytes": 2526
+    },
+    {
+      "path": "js/html_actuator.js",
+      "sha256": "67b796d4f640b927e517b2281f8230c4f65c08b07558001e2c0dc9ea2e2145cf",
+      "bytes": 4040
+    },
+    {
+      "path": "js/keyboard_input_manager.js",
+      "sha256": "7d579ab5b67dddf339cf28a7d06e4e24eca08b0187204ce352d67c49ae1e48de",
+      "bytes": 4005
+    },
+    {
+      "path": "js/local_storage_manager.js",
+      "sha256": "be0d2396f410b71b5d3cd9f372e44ca6568a66669312631548439893384112e4",
+      "bytes": 1709
+    },
+    {
+      "path": "js/tile.js",
+      "sha256": "13699e51d62179a6d36874108831a29901a98d6e11329918e64cfb5ee82d58e3",
+      "bytes": 594
+    },
+    {
+      "path": "LICENSE.txt",
+      "sha256": "57e12c39a6ad9d98b2e451065bfdfbd15fc9e0c2ed3bf4dc1d09acab41ff02fc",
+      "bytes": 1083
+    },
+    {
+      "path": "player.html",
+      "sha256": "7a3be48626148030b70f36b66a767c604cf23e91d8a5b044d4dab149548780fd",
+      "bytes": 3279
+    },
+    {
+      "path": "README.md",
+      "sha256": "3b624490f45eb6315b00bcaac65cefa713678401c42971b0e65cad8d8ff0ccfc",
+      "bytes": 2350
+    },
+    {
+      "path": "style/main.css",
+      "sha256": "28819a27b243b4d5940267a5afb4ceb229e6e3d68d7af523a65f639c88ed2c82",
+      "bytes": 21368
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "initialTiles": 2,
+  "mergeScore": 4,
+  "saveRestored": true,
+  "restartTiles": 2,
+  "errors": [],
+  "missing": [],
+  "external": [],
+  "scope": "Real keyboard move/merge/score, exact reload save and restart; no 2048 victory or loss/touch claim"
+}
