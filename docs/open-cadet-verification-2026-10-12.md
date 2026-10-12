@@ -107,3 +107,6 @@ The exact published replacement DAT occurs at offset0 in the checked-in runtime 
 
 
 2026-10-12 currentauthoredsourcearchive/rebuildPASS: private236-entry1,484,565byte archiveSHAe02ecd2545ff50651ce13e299bd0c2bdf47b25676b0a58aa0e8a2d17d2989bf5 nowcontainslatestresource-textsource/provenance, matchedvendor/noticeevidence and112750earnedscoreUIreloadtest. SeparateisolatedcurrentrebuildproducesbyteidenticalJS/WASM/data; WASM06edc08c83025f2de2d7024111186a2ebf8059081f929c17eb4ca554e243d891. Sameinstalledtoolchainonly, notcrossplatformcertificate. Originalfont/icon/splash/samplebankexclusionsasserted, archivepayloadhashesretained. Remainingfinallinkeddependencyreview and siteintegration/releasechecks; productionunchanged.
+
+
+2026-10-12 actualverbose-linkreview: fullbuildpassesandlinkcommandretainedinverbose-link-review.log; actual-link-input-review.json inventoriesSDL2/SDLmixer-ogg/Vorbis/Ogg andEmscriptenGL/AL/HTML5/C/allocator/compiler/C++supportlibraries. PCHitselfrecordsImGui7b913dbandrenderer01deb04pins; rendererheaderexactmatchespin, cppreviewedcodechangesretained. This narrowsfinalnoticeclosuretoactuallinkinputs, notcachedunusedports; notper-symbollicencecertificate. Productionunchanged.
