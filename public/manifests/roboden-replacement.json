@@ -1,0 +1,196 @@
+{
+  "id": "roboden-replacement",
+  "repository": "https://github.com/quasilyte/roboden-game",
+  "sourceRevision": "9a5d355f3ddcd0767c9083233bc814f0b54246cf",
+  "base": "/games/roboden-replacement/",
+  "sourceArchive": "/sources/roboden-9a5d355-geometric-browser-source.tar.gz",
+  "sourceArchiveSha256": "06263cfa4fd5f5bea497b747a587897b1877369aeb60a924b1cdb92927d9a0a4",
+  "classification": "Original MIT game in WebAssembly with authored CC0 geometric replacements; experimental",
+  "files": [
+    {
+      "path": "ASSET-LICENSE-CC0.txt",
+      "sha256": "f4e7f373b9b996950337e8d41a4a2939c2d90b7725e9baf3d5084a22717ad328",
+      "bytes": 7169
+    },
+    {
+      "path": "BUILD-NOTES.md",
+      "sha256": "6ec4a648c9aefcc939e793de58d9d9e6212dfb7cc62ec719694f65bde5db89ea",
+      "bytes": 2082
+    },
+    {
+      "path": "LICENSE.md",
+      "sha256": "a5fb6e525163fbddc55eec7c4acf21ea4cc9be1e56894cefd804efc55b1e0e4b",
+      "bytes": 1087
+    },
+    {
+      "path": "licenses/bitsweetfont@v0.0.0-20240424114113-2e6ac9bf3724.txt",
+      "sha256": "c925a486f26c9232716f8aad3beac34576de208c3d821d79870610fc84df7fcc",
+      "bytes": 1066
+    },
+    {
+      "path": "licenses/ebitengine-Apache-2.0.txt",
+      "sha256": "b40930bbcf80744c86c46a12bc9da056641d722716c378f5659b9e555ef833e1",
+      "bytes": 11357
+    },
+    {
+      "path": "licenses/ebitengine-resource@v0.5.1-0.20231101125830-f1fc00a87be0.txt",
+      "sha256": "3fd6d4b81144ffb4edcbd1617de5e946d9a67fddb34cd14a8fd9e1844c12b166",
+      "bytes": 1066
+    },
+    {
+      "path": "licenses/ebitenui@v0.0.0-20240328111513-e06549c63653.txt",
+      "sha256": "2aa326969e237e851adec0aabace8456b61e6d344b3818fd99a1c5634a92a179",
+      "bytes": 1054
+    },
+    {
+      "path": "licenses/ge@v0.0.0-20240401194036-d365e4a24b88.txt",
+      "sha256": "cbced3709b06818c8be4ecc678f6722d988a88d402732dc2820c3ca78ab346b1",
+      "bytes": 1093
+    },
+    {
+      "path": "licenses/go-runtime-BSD.txt",
+      "sha256": "911f8f5782931320f5b8d1160a76365b83aea6447ee6c04fa6d5591467db9dad",
+      "bytes": 1453
+    },
+    {
+      "path": "licenses/SDL_GameControllerDB-zlib.txt",
+      "sha256": "97f35b302b361680ec1e891e95d2d52097bb95abff361434916d99dc1305f127",
+      "bytes": 884
+    },
+    {
+      "path": "licenses/transitive/github.com_ebitengine_oto_v3__LICENSE",
+      "sha256": "b40930bbcf80744c86c46a12bc9da056641d722716c378f5659b9e555ef833e1",
+      "bytes": 11357
+    },
+    {
+      "path": "licenses/transitive/github.com_ebitenui_ebitenui__AUTHORS",
+      "sha256": "8ea18bbd6313397eaf6331ffabd01b9ddaf4f9dc44b8b48c15276192e0511182",
+      "bytes": 331
+    },
+    {
+      "path": "licenses/transitive/github.com_ebitenui_ebitenui__LICENSE",
+      "sha256": "2aa326969e237e851adec0aabace8456b61e6d344b3818fd99a1c5634a92a179",
+      "bytes": 1054
+    },
+    {
+      "path": "licenses/transitive/github.com_hajimehoshi_ebiten_v2__LICENSE",
+      "sha256": "b40930bbcf80744c86c46a12bc9da056641d722716c378f5659b9e555ef833e1",
+      "bytes": 11357
+    },
+    {
+      "path": "licenses/transitive/github.com_jfreymuth_oggvorbis__LICENSE",
+      "sha256": "e833f898bbaf0633803636011c6e5bfc5e22d1d822dc7fb62517c8dcec82f123",
+      "bytes": 1072
+    },
+    {
+      "path": "licenses/transitive/github.com_jfreymuth_vorbis__LICENSE",
+      "sha256": "e833f898bbaf0633803636011c6e5bfc5e22d1d822dc7fb62517c8dcec82f123",
+      "bytes": 1072
+    },
+    {
+      "path": "licenses/transitive/github.com_quasilyte_bitsweetfont__LICENSE",
+      "sha256": "c925a486f26c9232716f8aad3beac34576de208c3d821d79870610fc84df7fcc",
+      "bytes": 1066
+    },
+    {
+      "path": "licenses/transitive/github.com_quasilyte_ebitengine-resource__LICENSE",
+      "sha256": "3fd6d4b81144ffb4edcbd1617de5e946d9a67fddb34cd14a8fd9e1844c12b166",
+      "bytes": 1066
+    },
+    {
+      "path": "licenses/transitive/github.com_quasilyte_gdata__LICENSE",
+      "sha256": "3fd6d4b81144ffb4edcbd1617de5e946d9a67fddb34cd14a8fd9e1844c12b166",
+      "bytes": 1066
+    },
+    {
+      "path": "licenses/transitive/github.com_quasilyte_ge__input_LICENSE",
+      "sha256": "cbced3709b06818c8be4ecc678f6722d988a88d402732dc2820c3ca78ab346b1",
+      "bytes": 1093
+    },
+    {
+      "path": "licenses/transitive/github.com_quasilyte_ge__LICENSE",
+      "sha256": "cbced3709b06818c8be4ecc678f6722d988a88d402732dc2820c3ca78ab346b1",
+      "bytes": 1093
+    },
+    {
+      "path": "licenses/transitive/github.com_quasilyte_gmath__LICENSE",
+      "sha256": "cbced3709b06818c8be4ecc678f6722d988a88d402732dc2820c3ca78ab346b1",
+      "bytes": 1093
+    },
+    {
+      "path": "licenses/transitive/github.com_quasilyte_gsignal__LICENSE",
+      "sha256": "3fd6d4b81144ffb4edcbd1617de5e946d9a67fddb34cd14a8fd9e1844c12b166",
+      "bytes": 1066
+    },
+    {
+      "path": "licenses/transitive/github.com_quasilyte_roboden-game__LICENSE",
+      "sha256": "a5fb6e525163fbddc55eec7c4acf21ea4cc9be1e56894cefd804efc55b1e0e4b",
+      "bytes": 1087
+    },
+    {
+      "path": "licenses/transitive/golang.org_x_exp__LICENSE",
+      "sha256": "2d36597f7117c38b006835ae7f537487207d8ec407aa9d9980794b2030cbc067",
+      "bytes": 1479
+    },
+    {
+      "path": "licenses/transitive/golang.org_x_exp__PATENTS",
+      "sha256": "96f408bfae65bf137fc2525d3ecb030271c50c1e90799f87abf8846d8dd505cc",
+      "bytes": 1303
+    },
+    {
+      "path": "licenses/transitive/golang.org_x_image__LICENSE",
+      "sha256": "2d36597f7117c38b006835ae7f537487207d8ec407aa9d9980794b2030cbc067",
+      "bytes": 1479
+    },
+    {
+      "path": "licenses/transitive/golang.org_x_image__PATENTS",
+      "sha256": "96f408bfae65bf137fc2525d3ecb030271c50c1e90799f87abf8846d8dd505cc",
+      "bytes": 1303
+    },
+    {
+      "path": "licenses/transitive/golang.org_x_sync__LICENSE",
+      "sha256": "2d36597f7117c38b006835ae7f537487207d8ec407aa9d9980794b2030cbc067",
+      "bytes": 1479
+    },
+    {
+      "path": "licenses/transitive/golang.org_x_sync__PATENTS",
+      "sha256": "96f408bfae65bf137fc2525d3ecb030271c50c1e90799f87abf8846d8dd505cc",
+      "bytes": 1303
+    },
+    {
+      "path": "licenses/transitive/golang.org_x_text__LICENSE",
+      "sha256": "2d36597f7117c38b006835ae7f537487207d8ec407aa9d9980794b2030cbc067",
+      "bytes": 1479
+    },
+    {
+      "path": "licenses/transitive/golang.org_x_text__PATENTS",
+      "sha256": "96f408bfae65bf137fc2525d3ecb030271c50c1e90799f87abf8846d8dd505cc",
+      "bytes": 1303
+    },
+    {
+      "path": "main.wasm",
+      "sha256": "d5ad6f9a671f3ee33abdb6f61cfa3b66ee6574f4ace302a4e6411a9a05fa40d2",
+      "bytes": 22282502
+    },
+    {
+      "path": "player.html",
+      "sha256": "296cb2c93afcf32ed4785b66181cf39729a426e6647c366dfd9cf7a2e023bab6",
+      "bytes": 2700
+    },
+    {
+      "path": "replacement-asset-manifest.json",
+      "sha256": "e090c605164bf15b1023f4f4a2839a5c2613a3a73b848ed73b0862a291ae679c",
+      "bytes": 337300
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "sha256": "ed44963d002dbea2d39b99a5babccf3b859c9e58950f86d0bd57da41e7532038",
+      "bytes": 24413
+    },
+    {
+      "path": "wasm_exec.js",
+      "sha256": "0c949f4996f9a89698e4b5c586de32249c3b69b7baadb64d220073cc04acba14",
+      "bytes": 16992
+    }
+  ]
+}

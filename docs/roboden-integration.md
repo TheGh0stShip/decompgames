@@ -1,0 +1,3 @@
+Experimental release files staged locally from verified build20 WASM d5ad6f9a671f3ee33abdb6f61cfa3b66ee6574f4ace302a4e6411a9a05fa40d2. Source archive, 557 replacement asset provenance records, MIT font and dependency notices retained. No catalogue promotion, commit, upload, or deployment yet. Latest build20 Blitz interaction/profile reload; prior build19 tutorial victory. See private EXPERIMENTAL-RELEASE-SCOPE.md and public build notes for limitations.
+
+2026-10-12: Staged build20 normal Blitz input/render/profile reload passed, errors=[], diagnosticAbsent=true, profileRestored=true; muted browser/server closed. Site check and build pass; catalogue validates 81 entries. No full Blitz match claim. Footer wording changed only. Release publication pending.

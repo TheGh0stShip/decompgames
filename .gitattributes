@@ -1,3 +1,6 @@
 
 public/games/openduelyst/** -text
 public/sources/openduelyst-2843f240-local-browser-source.tar.gz -text
+
+public/games/roboden-replacement/** -text
+public/sources/roboden-9a5d355-geometric-browser-source.tar.gz -text

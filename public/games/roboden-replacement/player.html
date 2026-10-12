@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+
+<style>
+body {
+    margin: 0;
+}
+
+.app_loader_block {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    margin: 0;
+    padding: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: black;
+}
+
+#app_spinner {
+    display: inline-block;
+    width: 120px;
+    height: 120px;
+    border: 8px solid #164b50;
+    border-radius: 50%;
+    border-top-color: #29bac7;
+    animation: spin 1s ease-in-out infinite;
+    -webkit-animation: spin 1s ease-in-out infinite;
+}
+
+@keyframes spin {
+    to { -webkit-transform: rotate(360deg); }
+}
+@-webkit-keyframes spin {
+    to { -webkit-transform: rotate(360deg); }
+}
+</style>
+
+<div id="app_loader" class="app_loader_block">
+    <div id="app_spinner"></div>
+</div>
+
+<details id="review-help">
+ <summary>Controls and experimental edition status</summary>
+ <p>Private replacement-content preview. Sound is off.</p>
+ <p>Choose Keyboard, then Play, then Intro Mission. Click tutorial messages to continue. Arrow keys move the camera; right-click a destination to relocate the selected colony. Number keys 1 through 5 choose priorities or commands. Space pauses, F changes game speed, Alt shows recipes, Escape opens the menu.</p>
+ <p>Progress is stored in this browser for this site address. Clearing site data removes it. Saves are not verified across devices or private browsing sessions.</p>
+ <p>This version uses independently authored geometric graphics and silent audio with MIT game code and separately licensed dependencies. All modes and full gameplay on this uninstrumented build remain under review.</p>
+</details>
+<style>
+#review-help{position:fixed;left:8px;bottom:8px;z-index:20;max-width:min(480px,calc(100vw - 34px));max-height:70vh;overflow:auto;color:#e7eef7;background:#172333;padding:8px;border:1px solid #5c819f;font:14px/1.4 sans-serif}
+#review-help summary{cursor:pointer}#review-help p{margin:8px 0}
+</style>
+<script src="wasm_exec.js"></script>
+
+<script>
+(function () {
+    let spinnerInterval = null;
+
+    if (!WebAssembly.instantiateStreaming) {
+        WebAssembly.instantiateStreaming = async (resp, importObject) => {
+            const source = await (await resp).arrayBuffer();
+            return await WebAssembly.instantiate(source, importObject);
+        };
+    }
+
+    const go = new Go();
+    WebAssembly.instantiateStreaming(fetch("main.wasm"), go.importObject).then(result => {
+        document.getElementById("app_loader").remove();
+        go.run(result.instance);
+    });
+
+    window.addEventListener("load", function() {
+        document.body.focus();
+    });
+})();
+</script>
+
+
+
