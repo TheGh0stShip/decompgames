@@ -77,3 +77,6 @@ The exact published replacement DAT occurs at offset0 in the checked-in runtime 
 
 
 2026-10-12 remainingImGui differencesresolved: neighboringhistoricalcommit7b913db1ce9dd2fd98e5790aa59974dd4496be3b exactlymatchesbundledimgui.cpp. Reviewedcomparisonagainstlater73a5snapshotwasnavigationrefactor/commentdifferences, noexpressivemedia additions. Matchingheader/widgets/internal comparisonrecordedprivately. KeepupstreamMITnoticeandexactsourcehashreferences; vendorisolderWIPsnapshot, notfinal1.85. Runtimeunchanged; finaldependencyclosure and hook-freeearnedscoreUIreload remainreleasegates.
+
+
+2026-10-12 hook-freeearnedscore PASS: finalcandidate normalF2/Space launch/drain inputs reached screenshot-observedHighScoresdialog110750. Privatevisualdetectorcheckedknownpopupheaderpixels; captureinspected, ordinaryOkclick thenpositive0.Score110750verified, FSsync/reloadexactfilematches. Noengineobservationhooks/scoreinjection. final-earned-score-test.json retainsbefore/restoredfiles; errors/missing/external empty, mutedbrowser/serverclosed. ReopenedHighScoresUIafterreloadstillpending(separatefromfile/formatproof). Finaldependencyclosure/packageupdate and integrationremain; productionunchanged.
