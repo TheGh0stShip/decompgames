@@ -1,0 +1,16 @@
+{
+  "initialTiles": 2,
+  "mergeScore": 4,
+  "saveRestored": true,
+  "restartTiles": 2,
+  "errors": [],
+  "missing": [],
+  "external": [
+    "https://static.cloudflareinsights.com/beacon.min.js/v4bc70e2c01a94c73b74392e4234840661791215815920",
+    "https://static.cloudflareinsights.com/beacon.min.js/v4bc70e2c01a94c73b74392e4234840661791215815920"
+  ],
+  "scope": "Real keyboard move/merge/score, exact reload save and restart; no 2048 victory or loss/touch claim",
+  "externalRequestExplanation": "Cloudflare-injected analytics beacon blocked by test; no external gameplay dependency. Harness flagged beacon requests, while merge/save/restart checks passed.",
+  "releaseFileHashes": "All runtime files and source archive matched manifest",
+  "preservedPages": 9
+}
