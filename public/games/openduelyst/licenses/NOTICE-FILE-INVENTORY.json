@@ -1,0 +1,1450 @@
+{
+  "files": [
+    {
+      "path": "licenses/migration-closure-notices/@socket.io_component-emitter__LICENSE",
+      "sha256": "0f0b408b8b871d983e767528c6dc51e0ad7efaa022890c449fe2b2e1ee24dbb7",
+      "bytes": 1104,
+      "scope": "runtime"
+    },
+    {
+      "path": "licenses/migration-closure-notices/available-typed-arrays__LICENSE",
+      "sha256": "6d0917530cf3b3dca12c1ab7798e4d38ad0a6798ecc1bd27849a3048ba91d265",
+      "bytes": 1067,
+      "scope": "runtime"
+    },
+    {
+      "path": "licenses/migration-closure-notices/backbone-virtual-collection-author-linked-MIT.txt",
+      "sha256": "a9a289f7f9a2f774076be7da2e87b4d979f4ce911a7c18f77f24cbe38bdace2b",
+      "bytes": 1094,
+      "scope": "runtime"
+    },
+    {
+      "path": "licenses/migration-closure-notices/backbone__LICENSE",
+      "sha256": "dd04fe5cb4aff9c7b815514e8c8e7052d6e1a6d7c97e5e278c1d550fe9316b35",
+      "bytes": 1079,
+      "scope": "runtime"
+    },
+    {
+      "path": "licenses/migration-closure-notices/base64-js__LICENSE",
+      "sha256": "5b37224c080cdcc97c871ada971c224e9926370fe74f11b539aa1cf9f3b1aca1",
+      "bytes": 1081,
+      "scope": "runtime"
+    },
+    {
+      "path": "licenses/migration-closure-notices/bluebird__LICENSE",
+      "sha256": "bd92858f2261ae179cd4c4f56aaa6fa628dee927cc33808044bd7f676198c0fc",
+      "bytes": 1086,
+      "scope": "runtime"
+    },
+    {
+      "path": "licenses/migration-closure-notices/browser-resolve__LICENSE",
+      "sha256": "0e91be39cb38da2972a6e0649dcd4e8a49595996b3ab4b04e72ef9ea71de9079",
+      "bytes": 1107,
+      "scope": "runtime"
+    },
+    {
+      "path": "licenses/migration-closure-notices/browserify__LICENSE",
+      "sha256": "bb7da48ab7381422d8e23c9d3d7823f180dc37de702e5ba046232d08c2b70aae",
+      "bytes": 1071,
+      "scope": "runtime"
+    },
+    {
+      "path": "licenses/migration-closure-notices/buffer__LICENSE",
+      "sha256": "06bafa45fdad2579ba0e43b0c9b2c6290287c99c4203c300254a462b38a307f6",
+      "bytes": 1106,
+      "scope": "runtime"
+    },
+    {
+      "path": "licenses/migration-closure-notices/call-bind-apply-helpers__LICENSE",
+      "sha256": "5e325595b4ea8cfec3802f545b1def5d7b73e4a5b8e9ba63e32a320f67732292",
+      "bytes": 1071,
+      "scope": "runtime"
+    },
+    {
+      "path": "licenses/migration-closure-notices/call-bind__LICENSE",
+      "sha256": "39c5ec504cf6bd5cd782a7c695828e09189df79f5d94840e4f08feb97b9fd416",
+      "bytes": 1071,
+      "scope": "runtime"
+    },
+    {
+      "path": "licenses/migration-closure-notices/call-bound__LICENSE",
+      "sha256": "5e325595b4ea8cfec3802f545b1def5d7b73e4a5b8e9ba63e32a320f67732292",
+      "bytes": 1071,
+      "scope": "runtime"
+    },
+    {
+      "path": "licenses/migration-closure-notices/colors__LICENSE",
+      "sha256": "77ffe84006509949525fd57df06f4a6a80ad862c5314b66ab5bb6ac4cee6280b",
+      "bytes": 1187,
+      "scope": "runtime"
+    },
+    {
+      "path": "licenses/migration-closure-notices/convict__LICENSE",
+      "sha256": "8a0d5565773209b06930ba8fb719ddbc1e663ad4256f95e48ca40b1959822f1d",
+      "bytes": 554,
+      "scope": "runtime"
+    },
+    {
+      "path": "licenses/migration-closure-notices/debug__LICENSE",
+      "sha256": "3a61c6c96caf5c1d9b623fb9b04c822b783dfcb78aa7e49c76a3f643e6ed7f95",
+      "bytes": 1139,
+      "scope": "runtime"
+    },
+    {
+      "path": "licenses/migration-closure-notices/define-data-property__LICENSE",
+      "sha256": "b41d08bc3624d8c436fc80237d73ebb361985a67f4504bbcd703e5ca2b27254c",
+      "bytes": 1071,
+      "scope": "runtime"
+    },
+    {
+      "path": "licenses/migration-closure-notices/dunder-proto__LICENSE",
+      "sha256": "2b770a704c15de238c3f622b01b0044ddd60b49ee30608ea6991ebf19db7a7a1",
+      "bytes": 1073,
+      "scope": "runtime"
+    },
+    {
+      "path": "licenses/migration-closure-notices/engine.io-client__LICENSE",
+      "sha256": "bb996a5665c8e18041251e833e52b590f0da5050c1878aa3e3a47f71bb16fa6d",
+      "bytes": 1096,
+      "scope": "runtime"
+    },
+    {
+      "path": "licenses/migration-closure-notices/engine.io-parser__LICENSE",
+      "sha256": "d96e657000a00ad35280309c8a3d66db9c575efaa652720b82e619185581c835",
+      "bytes": 1112,
+      "scope": "runtime"
+    },
+    {
+      "path": "licenses/migration-closure-notices/enum__licence",
+      "sha256": "c53789973553dc3cea8f2068837beb94314f2eb5a6e86195a7f54e62be16fc9d",
+      "bytes": 1077,
+      "scope": "runtime"
+    },
+    {
+      "path": "licenses/migration-closure-notices/es-define-property__LICENSE",
+      "sha256": "5e325595b4ea8cfec3802f545b1def5d7b73e4a5b8e9ba63e32a320f67732292",
+      "bytes": 1071,
+      "scope": "runtime"
+    },
+    {
+      "path": "licenses/migration-closure-notices/es-errors__LICENSE",
+      "sha256": "5e325595b4ea8cfec3802f545b1def5d7b73e4a5b8e9ba63e32a320f67732292",
+      "bytes": 1071,
+      "scope": "runtime"
+    },
+    {
+      "path": "licenses/migration-closure-notices/es-object-atoms__LICENSE",
+      "sha256": "5e325595b4ea8cfec3802f545b1def5d7b73e4a5b8e9ba63e32a320f67732292",
+      "bytes": 1071,
+      "scope": "runtime"
+    },
+    {
+      "path": "licenses/migration-closure-notices/events__LICENSE",
+      "sha256": "631987b7616a325a5b97566c232418481ddf7dbb5ecadefb991e791876cc2599",
+      "bytes": 1081,
+      "scope": "runtime"
+    },
+    {
+      "path": "licenses/migration-closure-notices/Firebase-build-5cfbafd-APACHE-2.0.txt",
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "bytes": 11358,
+      "scope": "runtime"
+    },
+    {
+      "path": "licenses/migration-closure-notices/for-each__LICENSE",
+      "sha256": "d07913d776eef217a95d7ee3ee83577fc3c365b9c870f5a3411f785b81090614",
+      "bytes": 1075,
+      "scope": "runtime"
+    },
+    {
+      "path": "licenses/migration-closure-notices/function-bind__LICENSE",
+      "sha256": "773e131a7684726005a7e4688a80b4620033bc08499bc1404dd1a1eb3bca725e",
+      "bytes": 1052,
+      "scope": "runtime"
+    },
+    {
+      "path": "licenses/migration-closure-notices/generator-function__LICENSE.md",
+      "sha256": "1ac0263302bfb8eedc54a10a44175b0df51419306d5bc1539bfd7a7da121bd08",
+      "bytes": 1070,
+      "scope": "runtime"
+    },
+    {
+      "path": "licenses/migration-closure-notices/get-intrinsic__LICENSE",
+      "sha256": "39c5ec504cf6bd5cd782a7c695828e09189df79f5d94840e4f08feb97b9fd416",
+      "bytes": 1071,
+      "scope": "runtime"
+    },
+    {
+      "path": "licenses/migration-closure-notices/get-proto__LICENSE",
+      "sha256": "be46ce1e3b0479af9ce82d22b465a6d7d2ff084fca0aaf3d54172da2b5eb5781",
+      "bytes": 1071,
+      "scope": "runtime"
+    },
+    {
+      "path": "licenses/migration-closure-notices/gopd__LICENSE",
+      "sha256": "d90bf0a089da4cf43d644ed240a0b3825dcdb705e64e38371d56995a4cc9e4c5",
+      "bytes": 1071,
+      "scope": "runtime"
+    },
+    {
+      "path": "licenses/migration-closure-notices/handlebars__LICENSE",
+      "sha256": "8a48a335d7dcc06e3da2bea89220cfe978394b1bc84a3e628e60bc4864917915",
+      "bytes": 1063,
+      "scope": "runtime"
+    },
+    {
+      "path": "licenses/migration-closure-notices/has-property-descriptors__LICENSE",
+      "sha256": "0f0ca96f50793990031ebc488a38f7292ff70bce8ab6a8e5eeda674abc32ccdf",
+      "bytes": 1067,
+      "scope": "runtime"
+    },
+    {
+      "path": "licenses/migration-closure-notices/has-symbols__LICENSE",
+      "sha256": "206c1adcf206dc0031b11232f5b054ec5f1662407ab1ca415247921cab2068ab",
+      "bytes": 1071,
+      "scope": "runtime"
+    },
+    {
+      "path": "licenses/migration-closure-notices/has-tostringtag__LICENSE",
+      "sha256": "e2560e002e13281578c75c850061d9255c33d16d732939e8c2db64c2506642fa",
+      "bytes": 1067,
+      "scope": "runtime"
+    },
+    {
+      "path": "licenses/migration-closure-notices/hasown__LICENSE",
+      "sha256": "bf9b0d665be2a689851eea667ca9f42066ea1d903b38349c51e6a44b2577680a",
+      "bytes": 1083,
+      "scope": "runtime"
+    },
+    {
+      "path": "licenses/migration-closure-notices/hbsfy__LICENSE",
+      "sha256": "a963703403c84e4d0ebbe439ee19a29b8c35f9493121799afad410b4d01a7a20",
+      "bytes": 1100,
+      "scope": "runtime"
+    },
+    {
+      "path": "licenses/migration-closure-notices/i18next__LICENSE",
+      "sha256": "a392b56d5d99eafc1cde7730206bd87250d4732723028aeec9a47d86a2543404",
+      "bytes": 1074,
+      "scope": "runtime"
+    },
+    {
+      "path": "licenses/migration-closure-notices/ieee754__LICENSE",
+      "sha256": "18d45466ba3253deae04667e267a91ea8de8548f18c1125264d1c9db28194cc1",
+      "bytes": 1465,
+      "scope": "runtime"
+    },
+    {
+      "path": "licenses/migration-closure-notices/inherits__LICENSE",
+      "sha256": "5ffe28e7ade7d8f10d85d5337a73fd793dac5c462fb9a28fbf8c5046c7fbca3b",
+      "bytes": 749,
+      "scope": "runtime"
+    },
+    {
+      "path": "licenses/migration-closure-notices/is-arguments__LICENSE",
+      "sha256": "dc0fe5a22d9336f345ee984f9bf56f11f22877a3aa5fd16a1db9a8ca0e23a5d1",
+      "bytes": 1081,
+      "scope": "runtime"
+    },
+    {
+      "path": "licenses/migration-closure-notices/is-buffer__LICENSE",
+      "sha256": "c7cc929b57080f4b9d0c6cf57669f0463fc5b39906344dfc8d3bc43426b30eac",
+      "bytes": 1081,
+      "scope": "runtime"
+    },
+    {
+      "path": "licenses/migration-closure-notices/is-callable__LICENSE",
+      "sha256": "c61652db3d2808f667b48af0a358f0d85fd07ad4a0d0b1a50882dec3b764c522",
+      "bytes": 1082,
+      "scope": "runtime"
+    },
+    {
+      "path": "licenses/migration-closure-notices/is-generator-function__LICENSE",
+      "sha256": "dc0fe5a22d9336f345ee984f9bf56f11f22877a3aa5fd16a1db9a8ca0e23a5d1",
+      "bytes": 1081,
+      "scope": "runtime"
+    },
+    {
+      "path": "licenses/migration-closure-notices/is-regex__LICENSE",
+      "sha256": "dc0fe5a22d9336f345ee984f9bf56f11f22877a3aa5fd16a1db9a8ca0e23a5d1",
+      "bytes": 1081,
+      "scope": "runtime"
+    },
+    {
+      "path": "licenses/migration-closure-notices/is-typed-array__LICENSE",
+      "sha256": "c61652db3d2808f667b48af0a358f0d85fd07ad4a0d0b1a50882dec3b764c522",
+      "bytes": 1082,
+      "scope": "runtime"
+    },
+    {
+      "path": "licenses/migration-closure-notices/isomorphic-fetch__LICENSE",
+      "sha256": "4db62091452bb75599fe174df10e9cbaa645df1f09fe1e182a3ae8f0a63d379e",
+      "bytes": 1079,
+      "scope": "runtime"
+    },
+    {
+      "path": "licenses/migration-closure-notices/js-base64__LICENSE.md",
+      "sha256": "fcf06aacb36ee29237110d6b3a9fbd6296e85ad4324263abf5f8a5cfb5706c81",
+      "bytes": 1480,
+      "scope": "runtime"
+    },
+    {
+      "path": "licenses/migration-closure-notices/lodash.clonedeep__LICENSE",
+      "sha256": "ffd8b33b354585f4ce119f19c53728281e48a97b074491eb6bf6d5c5ff305272",
+      "bytes": 1951,
+      "scope": "runtime"
+    },
+    {
+      "path": "licenses/migration-closure-notices/math-intrinsics__LICENSE",
+      "sha256": "2b770a704c15de238c3f622b01b0044ddd60b49ee30608ea6991ebf19db7a7a1",
+      "bytes": 1073,
+      "scope": "runtime"
+    },
+    {
+      "path": "licenses/migration-closure-notices/moment__LICENSE",
+      "sha256": "8f38f320bbf5eb84c08e08676f7ee1d2204ebe5797f6a090d077329cf212fca3",
+      "bytes": 1075,
+      "scope": "runtime"
+    },
+    {
+      "path": "licenses/migration-closure-notices/ms__license.md",
+      "sha256": "1662fae9b5314d11cf51284e2dcd1f006a354f7343f08712a730fcff9a359801",
+      "bytes": 1079,
+      "scope": "runtime"
+    },
+    {
+      "path": "licenses/migration-closure-notices/object-inspect__LICENSE",
+      "sha256": "bd40cc437e28a3ad7bef2ad34e6b72e757b182e67bda1acadbab4ef0476f8232",
+      "bytes": 1071,
+      "scope": "runtime"
+    },
+    {
+      "path": "licenses/migration-closure-notices/os-browserify__LICENSE",
+      "sha256": "d25d1d6d28c35cb6f358e2833e405c4e53fec2fa24d156323ddea5cd438d3407",
+      "bytes": 1077,
+      "scope": "runtime"
+    },
+    {
+      "path": "licenses/migration-closure-notices/parse-ms__license",
+      "sha256": "48da2f39e100d4085767e94966b43f4fa95ff6a0698fba57ed460914e35f94a0",
+      "bytes": 1109,
+      "scope": "runtime"
+    },
+    {
+      "path": "licenses/migration-closure-notices/path-browserify__LICENSE",
+      "sha256": "a22b9d5763f574e5db347c30acc0b33eaf4846767c03d2e27d012e864e79a824",
+      "bytes": 1071,
+      "scope": "runtime"
+    },
+    {
+      "path": "licenses/migration-closure-notices/possible-typed-array-names__LICENSE",
+      "sha256": "5e325595b4ea8cfec3802f545b1def5d7b73e4a5b8e9ba63e32a320f67732292",
+      "bytes": 1071,
+      "scope": "runtime"
+    },
+    {
+      "path": "licenses/migration-closure-notices/pretty-ms__license",
+      "sha256": "48da2f39e100d4085767e94966b43f4fa95ff6a0698fba57ed460914e35f94a0",
+      "bytes": 1109,
+      "scope": "runtime"
+    },
+    {
+      "path": "licenses/migration-closure-notices/process__LICENSE",
+      "sha256": "59a400d04c5078579acc27ddd6452c1bdf763f9506e01364700935fbb1a7c91b",
+      "bytes": 1098,
+      "scope": "runtime"
+    },
+    {
+      "path": "licenses/migration-closure-notices/promise-polyfill__LICENSE",
+      "sha256": "453a712c58161b74efa998578aaf10fd7ad8204120730de38ca04d7f47f3ea46",
+      "bytes": 1090,
+      "scope": "runtime"
+    },
+    {
+      "path": "licenses/migration-closure-notices/punycode__LICENSE-MIT.txt",
+      "sha256": "483acb265f182907d1caf6cff9c16c96f31325ed23792832cc5d8b12d5f88c8a",
+      "bytes": 1077,
+      "scope": "runtime"
+    },
+    {
+      "path": "licenses/migration-closure-notices/qs__LICENSE.md",
+      "sha256": "e7dc37bf662d7f786efcb46c545615e70c1daf458a38385521c63cf6607cdfe1",
+      "bytes": 1600,
+      "scope": "runtime"
+    },
+    {
+      "path": "licenses/migration-closure-notices/safe-regex-test__LICENSE",
+      "sha256": "d90bf0a089da4cf43d644ed240a0b3825dcdb705e64e38371d56995a4cc9e4c5",
+      "bytes": 1071,
+      "scope": "runtime"
+    },
+    {
+      "path": "licenses/migration-closure-notices/semver__LICENSE",
+      "sha256": "4ec3d4c66cd87f5c8d8ad911b10f99bf27cb00cdfcff82621956e379186b016b",
+      "bytes": 765,
+      "scope": "runtime"
+    },
+    {
+      "path": "licenses/migration-closure-notices/set-function-length__LICENSE",
+      "sha256": "bf9b0d665be2a689851eea667ca9f42066ea1d903b38349c51e6a44b2577680a",
+      "bytes": 1083,
+      "scope": "runtime"
+    },
+    {
+      "path": "licenses/migration-closure-notices/side-channel-list__LICENSE",
+      "sha256": "5e325595b4ea8cfec3802f545b1def5d7b73e4a5b8e9ba63e32a320f67732292",
+      "bytes": 1071,
+      "scope": "runtime"
+    },
+    {
+      "path": "licenses/migration-closure-notices/side-channel-map__LICENSE",
+      "sha256": "5e325595b4ea8cfec3802f545b1def5d7b73e4a5b8e9ba63e32a320f67732292",
+      "bytes": 1071,
+      "scope": "runtime"
+    },
+    {
+      "path": "licenses/migration-closure-notices/side-channel-weakmap__LICENSE",
+      "sha256": "cfc3f455254c0af0655cc3ff46a41ed644b67599f6043346169d285bf2b3cf3b",
+      "bytes": 1071,
+      "scope": "runtime"
+    },
+    {
+      "path": "licenses/migration-closure-notices/side-channel__LICENSE",
+      "sha256": "cfc3f455254c0af0655cc3ff46a41ed644b67599f6043346169d285bf2b3cf3b",
+      "bytes": 1071,
+      "scope": "runtime"
+    },
+    {
+      "path": "licenses/migration-closure-notices/socket.io-client__LICENSE",
+      "sha256": "62e2032a1e1458b1d92a62f5fc51be48e08b95062295c91a9f3bd3686809d37e",
+      "bytes": 1082,
+      "scope": "runtime"
+    },
+    {
+      "path": "licenses/migration-closure-notices/socket.io-parser__LICENSE",
+      "sha256": "7fcf6b69636551493328a8cd9a5241843d7b246b3c42ed7b06c777fc5f044b86",
+      "bytes": 1113,
+      "scope": "runtime"
+    },
+    {
+      "path": "licenses/migration-closure-notices/store2-2.14.2-LICENSE-MIT.txt",
+      "sha256": "86ba5809b96a10a509a6d2ca5d5bed2ab3d5cb2048c519fd233ffc13733745b9",
+      "bytes": 1056,
+      "scope": "runtime"
+    },
+    {
+      "path": "licenses/migration-closure-notices/timers-browserify__LICENSE.md",
+      "sha256": "d5f14c3258420dfe5a3b641a143d6e6dd90eabb5962244d937e25699c3a45ec9",
+      "bytes": 2505,
+      "scope": "runtime"
+    },
+    {
+      "path": "licenses/migration-closure-notices/tiny-emitter__LICENSE",
+      "sha256": "aada4c7da6a5be46beadf9d4f40d7dba9e222e57180d46289b2bb9112e65daae",
+      "bytes": 1080,
+      "scope": "runtime"
+    },
+    {
+      "path": "licenses/migration-closure-notices/tslib__LICENSE.txt",
+      "sha256": "210b19e543130388c68654b7497e967119ce17145f66ab7d85688fbd70f08751",
+      "bytes": 655,
+      "scope": "runtime"
+    },
+    {
+      "path": "licenses/migration-closure-notices/underscore__LICENSE",
+      "sha256": "57c78146cd350e9c88c82d4fa0c8a5369e7a8c4ae9fa47e80fe13e13aa9ff00e",
+      "bytes": 1117,
+      "scope": "runtime"
+    },
+    {
+      "path": "licenses/migration-closure-notices/url__LICENSE",
+      "sha256": "00bfc53d658b2173d23e8c2a0f52332a5cfc6044525dafc5ecbe9a733bc3a49d",
+      "bytes": 1104,
+      "scope": "runtime"
+    },
+    {
+      "path": "licenses/migration-closure-notices/util__LICENSE",
+      "sha256": "6239c6144c31e58cf925c34483606969c555574d64ffa96518ab5d7f45c75d43",
+      "bytes": 1096,
+      "scope": "runtime"
+    },
+    {
+      "path": "licenses/migration-closure-notices/validator__LICENSE",
+      "sha256": "79086f680af534c026fc6db5bc1439932fbc5ac76d5e5800becdf6ddd6c49194",
+      "bytes": 1077,
+      "scope": "runtime"
+    },
+    {
+      "path": "licenses/migration-closure-notices/web-animations-js-2.1.3-COPYING",
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "bytes": 11358,
+      "scope": "runtime"
+    },
+    {
+      "path": "licenses/migration-closure-notices/whatwg-fetch__LICENSE",
+      "sha256": "c887d1c97797646dbb216925ab44a93c6b3e7f03bbe6ef6e0f92b8b8ade63014",
+      "bytes": 1061,
+      "scope": "runtime"
+    },
+    {
+      "path": "licenses/migration-closure-notices/which-typed-array__LICENSE",
+      "sha256": "c61652db3d2808f667b48af0a358f0d85fd07ad4a0d0b1a50882dec3b764c522",
+      "bytes": 1082,
+      "scope": "runtime"
+    },
+    {
+      "path": "licenses/migration-closure-notices/yargs-parser__LICENSE.txt",
+      "sha256": "365496ca1f56da40b23c9815fc40fa9005847b2f8f8fd1c1a4929ef25ec8cd1d",
+      "bytes": 731,
+      "scope": "runtime"
+    },
+    {
+      "path": "licenses/migration-closure-notices/zenorocha-author-linked-MIT.html",
+      "sha256": "1ef2e63a6fe3e312e23c6e97a67134563b7c8871f220679f1ca9bf888a0e92c0",
+      "bytes": 3573,
+      "scope": "runtime"
+    },
+    {
+      "path": "licenses/migration-closure-notices/zenorocha-author-linked-MIT.txt",
+      "sha256": "088608e46c4ad3766214ec0ee7c70e1db6d8e67dc987d63fe2154a898952932f",
+      "bytes": 1218,
+      "scope": "runtime"
+    },
+    {
+      "path": "licenses/separate-vendor-notices/backbone__header.txt",
+      "sha256": "055d6b6d8501da604a049dce50d24aa086e89184d927860ad455f26708d31471",
+      "bytes": 1752,
+      "scope": "runtime"
+    },
+    {
+      "path": "licenses/separate-vendor-notices/backbone__LICENSE",
+      "sha256": "dd04fe5cb4aff9c7b815514e8c8e7052d6e1a6d7c97e5e278c1d550fe9316b35",
+      "bytes": 1079,
+      "scope": "runtime"
+    },
+    {
+      "path": "licenses/separate-vendor-notices/backfire__header.txt",
+      "sha256": "2152121b78ea2c2417656cb002e5f8b71af36f2d088a60ac52f0da36e48dd2d5",
+      "bytes": 1440,
+      "scope": "runtime"
+    },
+    {
+      "path": "licenses/separate-vendor-notices/backfire__LICENSE",
+      "sha256": "db27cb6fa0c3aeb6a89c994b9392753c0a8ce71a131ff6d121a3f72a95b9e9e6",
+      "bytes": 1102,
+      "scope": "runtime"
+    },
+    {
+      "path": "licenses/separate-vendor-notices/ccConfig__header.txt",
+      "sha256": "671ae8dbfbee76a4980d54166f7ceb6ade6b81c333c4b754ce35bb33d94a4dce",
+      "bytes": 130,
+      "scope": "runtime"
+    },
+    {
+      "path": "licenses/separate-vendor-notices/CCPNGReader-pinned-MIT.txt",
+      "sha256": "0571d6ee623da3624db325070a74445b190af163dae75bad624505a207f9c8ed",
+      "bytes": 1413,
+      "scope": "runtime"
+    },
+    {
+      "path": "licenses/separate-vendor-notices/CCTIFFReader-pinned-MIT.txt",
+      "sha256": "f41d7fc6b95700bb92f2cd29ab0e6e66f7864bef8153c19fa73766db6e2a4eea",
+      "bytes": 1442,
+      "scope": "runtime"
+    },
+    {
+      "path": "licenses/separate-vendor-notices/cocos__header.txt",
+      "sha256": "85d83605b1a146bdc5b5766be446ea1b215f991c71f7679ebdf874313debdb1e",
+      "bytes": 20416,
+      "scope": "runtime"
+    },
+    {
+      "path": "licenses/separate-vendor-notices/cocos__LICENSE_cocos2d-html5.txt",
+      "sha256": "fb3510066e6f88c89612b1b622ba89980f9b8c4584d9e0332b98467113adbd98",
+      "bytes": 1189,
+      "scope": "runtime"
+    },
+    {
+      "path": "licenses/separate-vendor-notices/cocos__LICENSE_cocos2d-x.txt",
+      "sha256": "7f886c6ab3327b7c2bae26601e2c427817b883e672948d2a50f8e9d6e6f58789",
+      "bytes": 1184,
+      "scope": "runtime"
+    },
+    {
+      "path": "licenses/separate-vendor-notices/cocos__LICENSE_zlib.js.txt",
+      "sha256": "c165359ada714817ef4fcb220e8dd68e4f6f9f32ce914dcbe5a9eca42f33fb2d",
+      "bytes": 1250,
+      "scope": "runtime"
+    },
+    {
+      "path": "licenses/separate-vendor-notices/GLSL-FXAA-Armin-Ronacher-BSD-3-Clause.txt",
+      "sha256": "a01d8c9fb8a205a687801ed951ee767cdecbf1bd65d3c4f8ba9f479cd73d0d19",
+      "bytes": 1751,
+      "scope": "runtime"
+    },
+    {
+      "path": "licenses/separate-vendor-notices/jquery-2.1.4-MIT-LICENSE.txt",
+      "sha256": "44254c9a91a4647b9192584f17b2d27bf43696ba1ea16b0e88ac7bd6bf0780f1",
+      "bytes": 1099,
+      "scope": "runtime"
+    },
+    {
+      "path": "licenses/separate-vendor-notices/jquery__header.txt",
+      "sha256": "c8ffe2bc59a2570f7b3241e0bce265bc8e2a45f8bdce639de96b9f570ea08a33",
+      "bytes": 1433,
+      "scope": "runtime"
+    },
+    {
+      "path": "licenses/separate-vendor-notices/marionette__header.txt",
+      "sha256": "b6dfc3c1affcec1254b79901a914c96d0c9d2fdb786662107aa5d6f25b760023",
+      "bytes": 1155,
+      "scope": "runtime"
+    },
+    {
+      "path": "licenses/separate-vendor-notices/marionette__license.txt",
+      "sha256": "5e46ca72f75d2eaf8daba7dbf01421d9348965e46daabf6312d14ea797335a1e",
+      "bytes": 89,
+      "scope": "runtime"
+    },
+    {
+      "path": "licenses/separate-vendor-notices/underscore__header.txt",
+      "sha256": "0c97293c0088471d715220a46ac5024ed0a111bf91a3cc8981b9548858b37aa5",
+      "bytes": 1545,
+      "scope": "runtime"
+    },
+    {
+      "path": "licenses/separate-vendor-notices/underscore__LICENSE",
+      "sha256": "57c78146cd350e9c88c82d4fa0c8a5369e7a8c4ae9fa47e80fe13e13aa9ff00e",
+      "bytes": 1117,
+      "scope": "runtime"
+    },
+    {
+      "path": "licenses/build-tool-notices/acorn-7.4.1__LICENSE",
+      "sha256": "cb3984acf8a000bc42bfbe319b836507bd268ef1d0d53e37363e2d5cac1137e0",
+      "bytes": 1099,
+      "scope": "rebuild tools/support"
+    },
+    {
+      "path": "licenses/build-tool-notices/acorn-node-1.8.2__LICENSE.md",
+      "sha256": "166aa093cd0709045ee7c3c32dda663ff409a697efca312e1d0a55b04e191269",
+      "bytes": 4433,
+      "scope": "rebuild tools/support"
+    },
+    {
+      "path": "licenses/build-tool-notices/acorn-walk-7.2.0__LICENSE",
+      "sha256": "7cdb44aabddbdd78998119d68a39c87424119b663945c79891fc1b022301824c",
+      "bytes": 1086,
+      "scope": "rebuild tools/support"
+    },
+    {
+      "path": "licenses/build-tool-notices/browser-pack-6.1.0__LICENSE",
+      "sha256": "435a6722c786b0a56fbe7387028f1d9d3f3a2d0fb615bb8fee118727c3f59b7b",
+      "bytes": 1073,
+      "scope": "rebuild tools/support"
+    },
+    {
+      "path": "licenses/build-tool-notices/browser-resolve-2.0.0__LICENSE",
+      "sha256": "0e91be39cb38da2972a6e0649dcd4e8a49595996b3ab4b04e72ef9ea71de9079",
+      "bytes": 1107,
+      "scope": "rebuild tools/support"
+    },
+    {
+      "path": "licenses/build-tool-notices/browserify-17.0.1__LICENSE",
+      "sha256": "bb7da48ab7381422d8e23c9d3d7823f180dc37de702e5ba046232d08c2b70aae",
+      "bytes": 1071,
+      "scope": "rebuild tools/support"
+    },
+    {
+      "path": "licenses/build-tool-notices/buffer-from-1.1.2__LICENSE",
+      "sha256": "14275f5c8139d02054c5259d52a88ccbba662a86af18c30f071c8d082dc6004c",
+      "bytes": 1078,
+      "scope": "rebuild tools/support"
+    },
+    {
+      "path": "licenses/build-tool-notices/cached-path-relative-1.1.0-README-LICENSE.txt",
+      "sha256": "338cbe94bbb83aa335ae03d71e7f94c42c6d977dd405a696608db4a4c68cf71e",
+      "bytes": 1104,
+      "scope": "rebuild tools/support"
+    },
+    {
+      "path": "licenses/build-tool-notices/coffee-script-1.12.7__LICENSE",
+      "sha256": "9bad517ace6e36cf17d7fec7dadb4ccf24600447b19b47f439331e61c2ea736f",
+      "bytes": 1064,
+      "scope": "rebuild tools/support"
+    },
+    {
+      "path": "licenses/build-tool-notices/coffeeify-1.1.0__LICENSE",
+      "sha256": "435a6722c786b0a56fbe7387028f1d9d3f3a2d0fb615bb8fee118727c3f59b7b",
+      "bytes": 1073,
+      "scope": "rebuild tools/support"
+    },
+    {
+      "path": "licenses/build-tool-notices/combine-source-map-0.8.0__LICENSE",
+      "sha256": "1fa6ee8bb95a81ae3d73a5bd074a3ac380ffec13697051063ca1a601921b91db",
+      "bytes": 1078,
+      "scope": "rebuild tools/support"
+    },
+    {
+      "path": "licenses/build-tool-notices/concat-stream-1.6.2__LICENSE",
+      "sha256": "96b29c9aaa611a05349b362d48c2ffce0966fe408401a2d1a157be312c035b5f",
+      "bytes": 1084,
+      "scope": "rebuild tools/support"
+    },
+    {
+      "path": "licenses/build-tool-notices/convert-source-map-1.1.3__LICENSE",
+      "sha256": "1fa6ee8bb95a81ae3d73a5bd074a3ac380ffec13697051063ca1a601921b91db",
+      "bytes": 1078,
+      "scope": "rebuild tools/support"
+    },
+    {
+      "path": "licenses/build-tool-notices/convert-source-map-1.9.0__LICENSE",
+      "sha256": "1fa6ee8bb95a81ae3d73a5bd074a3ac380ffec13697051063ca1a601921b91db",
+      "bytes": 1078,
+      "scope": "rebuild tools/support"
+    },
+    {
+      "path": "licenses/build-tool-notices/core-util-is-1.0.3__LICENSE",
+      "sha256": "33b734d60042d0fe0c92dd1fc1e874193a1c899ec3e276a2eb935d2d0bf5b710",
+      "bytes": 1077,
+      "scope": "rebuild tools/support"
+    },
+    {
+      "path": "licenses/build-tool-notices/dash-ast-1.0.0__LICENSE.md",
+      "sha256": "5d83ddb7fb889de1f15166a51b6b2079acdf09f478a5fb58552f4d29a9188a4b",
+      "bytes": 628,
+      "scope": "rebuild tools/support"
+    },
+    {
+      "path": "licenses/build-tool-notices/defined-1.0.1__LICENSE",
+      "sha256": "435a6722c786b0a56fbe7387028f1d9d3f3a2d0fb615bb8fee118727c3f59b7b",
+      "bytes": 1073,
+      "scope": "rebuild tools/support"
+    },
+    {
+      "path": "licenses/build-tool-notices/deps-sort-2.0.1__LICENSE",
+      "sha256": "9097c443ff7a59eb1c688481de0d218404d514d46bf57f43708577f0e9fd46a4",
+      "bytes": 1104,
+      "scope": "rebuild tools/support"
+    },
+    {
+      "path": "licenses/build-tool-notices/detective-5.2.1__LICENSE",
+      "sha256": "435a6722c786b0a56fbe7387028f1d9d3f3a2d0fb615bb8fee118727c3f59b7b",
+      "bytes": 1073,
+      "scope": "rebuild tools/support"
+    },
+    {
+      "path": "licenses/build-tool-notices/duplexer2-0.0.2__LICENSE.md",
+      "sha256": "252a200ba7a38686f7954ec4cb09b3ad7788fa099eb724de167d7ab16b1244b9",
+      "bytes": 1535,
+      "scope": "rebuild tools/support"
+    },
+    {
+      "path": "licenses/build-tool-notices/duplexer2-0.1.4__LICENSE.md",
+      "sha256": "252a200ba7a38686f7954ec4cb09b3ad7788fa099eb724de167d7ab16b1244b9",
+      "bytes": 1535,
+      "scope": "rebuild tools/support"
+    },
+    {
+      "path": "licenses/build-tool-notices/es-errors-1.3.0__LICENSE",
+      "sha256": "5e325595b4ea8cfec3802f545b1def5d7b73e4a5b8e9ba63e32a320f67732292",
+      "bytes": 1071,
+      "scope": "rebuild tools/support"
+    },
+    {
+      "path": "licenses/build-tool-notices/escodegen-0.0.28__escodegen.js__notice0.txt",
+      "sha256": "69817ea5819756b76569f630cb29b77ba5fe3365621462678578def243ccc4e9",
+      "bytes": 1352,
+      "scope": "rebuild tools/support"
+    },
+    {
+      "path": "licenses/build-tool-notices/escodegen-0.0.28__esgenerate.js__notice0.txt",
+      "sha256": "69817ea5819756b76569f630cb29b77ba5fe3365621462678578def243ccc4e9",
+      "bytes": 1352,
+      "scope": "rebuild tools/support"
+    },
+    {
+      "path": "licenses/build-tool-notices/escodegen-0.0.28__Gruntfile.js__notice0.txt",
+      "sha256": "4a27fa4599b5f0fc85955dd27a667712d2eb692d5fe7d3aadb761c4d61052cfe",
+      "bytes": 1352,
+      "scope": "rebuild tools/support"
+    },
+    {
+      "path": "licenses/build-tool-notices/escodegen-0.0.28__LICENSE.BSD",
+      "sha256": "0e74697a68cebdcd61502c30fe80ab7f9e341d995dcd452023654d57133534b1",
+      "bytes": 1231,
+      "scope": "rebuild tools/support"
+    },
+    {
+      "path": "licenses/build-tool-notices/escodegen-0.0.28__LICENSE.source-map",
+      "sha256": "c9d85a24226fa4dd8c0756961de362cee34f6e9b1d19938bd480239950ad9a93",
+      "bytes": 1525,
+      "scope": "rebuild tools/support"
+    },
+    {
+      "path": "licenses/build-tool-notices/escodegen-1.3.3__escodegen.js__notice0.txt",
+      "sha256": "69817ea5819756b76569f630cb29b77ba5fe3365621462678578def243ccc4e9",
+      "bytes": 1352,
+      "scope": "rebuild tools/support"
+    },
+    {
+      "path": "licenses/build-tool-notices/escodegen-1.3.3__esgenerate.js__notice0.txt",
+      "sha256": "69817ea5819756b76569f630cb29b77ba5fe3365621462678578def243ccc4e9",
+      "bytes": 1352,
+      "scope": "rebuild tools/support"
+    },
+    {
+      "path": "licenses/build-tool-notices/escodegen-1.3.3__gulpfile.js__notice0.txt",
+      "sha256": "ae73c31a1344106948787bef87629c005a351ab2cec584d92d1719adc82b0057",
+      "bytes": 1352,
+      "scope": "rebuild tools/support"
+    },
+    {
+      "path": "licenses/build-tool-notices/escodegen-1.3.3__LICENSE.BSD",
+      "sha256": "0e74697a68cebdcd61502c30fe80ab7f9e341d995dcd452023654d57133534b1",
+      "bytes": 1231,
+      "scope": "rebuild tools/support"
+    },
+    {
+      "path": "licenses/build-tool-notices/escodegen-1.3.3__LICENSE.source-map",
+      "sha256": "c9d85a24226fa4dd8c0756961de362cee34f6e9b1d19938bd480239950ad9a93",
+      "bytes": 1525,
+      "scope": "rebuild tools/support"
+    },
+    {
+      "path": "licenses/build-tool-notices/estraverse-1.3.2__estraverse.js__notice0.txt",
+      "sha256": "0164d6073b02b3d84d342152391a2d8b6ec3730b94e152d980c5d58c4fae4cb0",
+      "bytes": 1419,
+      "scope": "rebuild tools/support"
+    },
+    {
+      "path": "licenses/build-tool-notices/estraverse-1.3.2__LICENSE.BSD",
+      "sha256": "0e74697a68cebdcd61502c30fe80ab7f9e341d995dcd452023654d57133534b1",
+      "bytes": 1231,
+      "scope": "rebuild tools/support"
+    },
+    {
+      "path": "licenses/build-tool-notices/estraverse-1.5.1__estraverse.js__notice0.txt",
+      "sha256": "0164d6073b02b3d84d342152391a2d8b6ec3730b94e152d980c5d58c4fae4cb0",
+      "bytes": 1419,
+      "scope": "rebuild tools/support"
+    },
+    {
+      "path": "licenses/build-tool-notices/estraverse-1.5.1__LICENSE.BSD",
+      "sha256": "0e74697a68cebdcd61502c30fe80ab7f9e341d995dcd452023654d57133534b1",
+      "bytes": 1231,
+      "scope": "rebuild tools/support"
+    },
+    {
+      "path": "licenses/build-tool-notices/esutils-1.0.0__code.js__notice0.txt",
+      "sha256": "4a27fa4599b5f0fc85955dd27a667712d2eb692d5fe7d3aadb761c4d61052cfe",
+      "bytes": 1352,
+      "scope": "rebuild tools/support"
+    },
+    {
+      "path": "licenses/build-tool-notices/esutils-1.0.0__keyword.js__notice0.txt",
+      "sha256": "4a27fa4599b5f0fc85955dd27a667712d2eb692d5fe7d3aadb761c4d61052cfe",
+      "bytes": 1352,
+      "scope": "rebuild tools/support"
+    },
+    {
+      "path": "licenses/build-tool-notices/esutils-1.0.0__utils.js__notice0.txt",
+      "sha256": "4a27fa4599b5f0fc85955dd27a667712d2eb692d5fe7d3aadb761c4d61052cfe",
+      "bytes": 1352,
+      "scope": "rebuild tools/support"
+    },
+    {
+      "path": "licenses/build-tool-notices/events-3.3.0__LICENSE",
+      "sha256": "631987b7616a325a5b97566c232418481ddf7dbb5ecadefb991e791876cc2599",
+      "bytes": 1081,
+      "scope": "rebuild tools/support"
+    },
+    {
+      "path": "licenses/build-tool-notices/falafel-2.2.5__LICENSE",
+      "sha256": "60acd7711e6c138e6041836e32d922705254cc1568a30fdf16aa8f59bb87aeaa",
+      "bytes": 1071,
+      "scope": "rebuild tools/support"
+    },
+    {
+      "path": "licenses/build-tool-notices/fast-safe-stringify-2.1.1__LICENSE",
+      "sha256": "f0ffe1359ba08038bb99f194c80fbb4f2aae216e749e97b2cd6b006d1861e27b",
+      "bytes": 1218,
+      "scope": "rebuild tools/support"
+    },
+    {
+      "path": "licenses/build-tool-notices/function-bind-1.1.2__LICENSE",
+      "sha256": "773e131a7684726005a7e4688a80b4620033bc08499bc1404dd1a1eb3bca725e",
+      "bytes": 1052,
+      "scope": "rebuild tools/support"
+    },
+    {
+      "path": "licenses/build-tool-notices/get-assigned-identifiers-1.2.0__LICENSE.md",
+      "sha256": "7eb14a7bb0599785afd77bf111ddcf81ae619aaa4fff9fcd0562a12744ad9d47",
+      "bytes": 628,
+      "scope": "rebuild tools/support"
+    },
+    {
+      "path": "licenses/build-tool-notices/glsl-inject-defines-1.0.3__LICENSE.md",
+      "sha256": "aa084193c84505fcea25068c7dc2eb1643a2ad2a744a586a22a14bc459b0eeb1",
+      "bytes": 1256,
+      "scope": "rebuild tools/support"
+    },
+    {
+      "path": "licenses/build-tool-notices/glsl-resolve-0.0.1__LICENSE.md",
+      "sha256": "74afb88a7aa7f8db6735c014cba3f9f7b1b1fde39d7b56ba9b2c1f1f2d5d10ec",
+      "bytes": 1085,
+      "scope": "rebuild tools/support"
+    },
+    {
+      "path": "licenses/build-tool-notices/glsl-token-assignments-2.0.2__LICENSE.md",
+      "sha256": "aa084193c84505fcea25068c7dc2eb1643a2ad2a744a586a22a14bc459b0eeb1",
+      "bytes": 1256,
+      "scope": "rebuild tools/support"
+    },
+    {
+      "path": "licenses/build-tool-notices/glsl-token-defines-1.0.0__LICENSE.md",
+      "sha256": "aa084193c84505fcea25068c7dc2eb1643a2ad2a744a586a22a14bc459b0eeb1",
+      "bytes": 1256,
+      "scope": "rebuild tools/support"
+    },
+    {
+      "path": "licenses/build-tool-notices/glsl-token-depth-1.1.2__LICENSE.md",
+      "sha256": "aa084193c84505fcea25068c7dc2eb1643a2ad2a744a586a22a14bc459b0eeb1",
+      "bytes": 1256,
+      "scope": "rebuild tools/support"
+    },
+    {
+      "path": "licenses/build-tool-notices/glsl-token-descope-1.0.2__LICENSE.md",
+      "sha256": "aa084193c84505fcea25068c7dc2eb1643a2ad2a744a586a22a14bc459b0eeb1",
+      "bytes": 1256,
+      "scope": "rebuild tools/support"
+    },
+    {
+      "path": "licenses/build-tool-notices/glsl-token-inject-block-1.1.0__LICENSE.md",
+      "sha256": "fb153e8eaf70c10aa169bc3d7401946a9d51163cafaca23458cea8e67de972f4",
+      "bytes": 1071,
+      "scope": "rebuild tools/support"
+    },
+    {
+      "path": "licenses/build-tool-notices/glsl-token-properties-1.0.1__LICENSE.md",
+      "sha256": "aa084193c84505fcea25068c7dc2eb1643a2ad2a744a586a22a14bc459b0eeb1",
+      "bytes": 1256,
+      "scope": "rebuild tools/support"
+    },
+    {
+      "path": "licenses/build-tool-notices/glsl-token-scope-1.1.2__LICENSE.md",
+      "sha256": "aa084193c84505fcea25068c7dc2eb1643a2ad2a744a586a22a14bc459b0eeb1",
+      "bytes": 1256,
+      "scope": "rebuild tools/support"
+    },
+    {
+      "path": "licenses/build-tool-notices/glsl-token-string-1.0.1__LICENSE.md",
+      "sha256": "aa084193c84505fcea25068c7dc2eb1643a2ad2a744a586a22a14bc459b0eeb1",
+      "bytes": 1256,
+      "scope": "rebuild tools/support"
+    },
+    {
+      "path": "licenses/build-tool-notices/glsl-tokenizer-2.1.5__LICENSE.md",
+      "sha256": "d3ec8ff484cdc71fcd1a6591730d54ed55d426350e80dfaf9c01cb27952b82c9",
+      "bytes": 1150,
+      "scope": "rebuild tools/support"
+    },
+    {
+      "path": "licenses/build-tool-notices/glslify-2.1.2__LICENSE.md",
+      "sha256": "10f1945ac47db03b7532264ae7addaccf22058af1dcb302c9e9dfed479e760c0",
+      "bytes": 1339,
+      "scope": "rebuild tools/support"
+    },
+    {
+      "path": "licenses/build-tool-notices/glslify-bundle-2.0.4__LICENSE.md",
+      "sha256": "aa084193c84505fcea25068c7dc2eb1643a2ad2a744a586a22a14bc459b0eeb1",
+      "bytes": 1256,
+      "scope": "rebuild tools/support"
+    },
+    {
+      "path": "licenses/build-tool-notices/graceful-fs-4.2.11__LICENSE",
+      "sha256": "f65c5d9f22a317b2a10803bd1868461ce6499c2ed7217bc80c0cc772a748789c",
+      "bytes": 791,
+      "scope": "rebuild tools/support"
+    },
+    {
+      "path": "licenses/build-tool-notices/handlebars-4.5.3__LICENSE",
+      "sha256": "8a48a335d7dcc06e3da2bea89220cfe978394b1bc84a3e628e60bc4864917915",
+      "bytes": 1063,
+      "scope": "rebuild tools/support"
+    },
+    {
+      "path": "licenses/build-tool-notices/has-1.0.4__LICENSE-MIT",
+      "sha256": "4fe5fd7b3318def0b74f8bf8c9276403f01da628fa8888822661519d80f237d3",
+      "bytes": 1060,
+      "scope": "rebuild tools/support"
+    },
+    {
+      "path": "licenses/build-tool-notices/hasown-2.0.4__LICENSE",
+      "sha256": "bf9b0d665be2a689851eea667ca9f42066ea1d903b38349c51e6a44b2577680a",
+      "bytes": 1083,
+      "scope": "rebuild tools/support"
+    },
+    {
+      "path": "licenses/build-tool-notices/hbsfy-2.8.1__LICENSE",
+      "sha256": "a963703403c84e4d0ebbe439ee19a29b8c35f9493121799afad410b4d01a7a20",
+      "bytes": 1100,
+      "scope": "rebuild tools/support"
+    },
+    {
+      "path": "licenses/build-tool-notices/htmlescape-1.1.1__LICENSE",
+      "sha256": "cdc92407a341221453152235dcdc0a9e102db9d535ef0cec9e3ca23a8143f90f",
+      "bytes": 1080,
+      "scope": "rebuild tools/support"
+    },
+    {
+      "path": "licenses/build-tool-notices/inherits-2.0.4__LICENSE",
+      "sha256": "5ffe28e7ade7d8f10d85d5337a73fd793dac5c462fb9a28fbf8c5046c7fbca3b",
+      "bytes": 749,
+      "scope": "rebuild tools/support"
+    },
+    {
+      "path": "licenses/build-tool-notices/inline-source-map-0.6.3__LICENSE",
+      "sha256": "1fa6ee8bb95a81ae3d73a5bd074a3ac380ffec13697051063ca1a601921b91db",
+      "bytes": 1078,
+      "scope": "rebuild tools/support"
+    },
+    {
+      "path": "licenses/build-tool-notices/insert-module-globals-7.2.1__LICENSE",
+      "sha256": "435a6722c786b0a56fbe7387028f1d9d3f3a2d0fb615bb8fee118727c3f59b7b",
+      "bytes": 1073,
+      "scope": "rebuild tools/support"
+    },
+    {
+      "path": "licenses/build-tool-notices/is-core-module-2.17.0__LICENSE",
+      "sha256": "5c496ce5ae47eb8e5ddcaa5e29c27c446a3855b19e3a66991b52f361bed22b28",
+      "bytes": 1078,
+      "scope": "rebuild tools/support"
+    },
+    {
+      "path": "licenses/build-tool-notices/isarray-0.0.1-README-LICENSE.txt",
+      "sha256": "ee6d7d21b7eedf6fff394ffaa0c39fb02f3dbbedcef9831bfaa41e03df4b5327",
+      "bytes": 1125,
+      "scope": "rebuild tools/support"
+    },
+    {
+      "path": "licenses/build-tool-notices/isarray-1.0.0-README-LICENSE.txt",
+      "sha256": "ee6d7d21b7eedf6fff394ffaa0c39fb02f3dbbedcef9831bfaa41e03df4b5327",
+      "bytes": 1125,
+      "scope": "rebuild tools/support"
+    },
+    {
+      "path": "licenses/build-tool-notices/isarray-2.0.5__LICENSE",
+      "sha256": "68f12f6e2c33688699249c01d8f9623c534da20aa71989c57b061b7bc1676d14",
+      "bytes": 1096,
+      "scope": "rebuild tools/support"
+    },
+    {
+      "path": "licenses/build-tool-notices/jsonparse-1.3.1__LICENSE",
+      "sha256": "ed251dc3a48522399fffe95fe04d94fbcadcd9edd0e7689f3b71cf73403a6138",
+      "bytes": 1087,
+      "scope": "rebuild tools/support"
+    },
+    {
+      "path": "licenses/build-tool-notices/JSONStream-1.3.5__LICENSE.APACHE2",
+      "sha256": "e8734448285a2dd773d40136ed5d5e8163a70701dd540cdc796cfca232f67d55",
+      "bytes": 586,
+      "scope": "rebuild tools/support"
+    },
+    {
+      "path": "licenses/build-tool-notices/JSONStream-1.3.5__LICENSE.MIT",
+      "sha256": "d72dea1a8cdf3f4dfa2f594253d0c5b37baefc76e806f5ecb0e426393edcd505",
+      "bytes": 1088,
+      "scope": "rebuild tools/support"
+    },
+    {
+      "path": "licenses/build-tool-notices/labeled-stream-splicer-2.0.2__LICENSE",
+      "sha256": "9097c443ff7a59eb1c688481de0d218404d514d46bf57f43708577f0e9fd46a4",
+      "bytes": 1104,
+      "scope": "rebuild tools/support"
+    },
+    {
+      "path": "licenses/build-tool-notices/lodash.memoize-3.0.4__LICENSE.txt",
+      "sha256": "90df9e2220f682e1f77e24b1c0f72d2de18b818096c957a65698e74c41a4826f",
+      "bytes": 1233,
+      "scope": "rebuild tools/support"
+    },
+    {
+      "path": "licenses/build-tool-notices/map-limit-0.0.1__LICENSE.md",
+      "sha256": "74afb88a7aa7f8db6735c014cba3f9f7b1b1fde39d7b56ba9b2c1f1f2d5d10ec",
+      "bytes": 1085,
+      "scope": "rebuild tools/support"
+    },
+    {
+      "path": "licenses/build-tool-notices/module-deps-6.2.3__LICENSE",
+      "sha256": "435a6722c786b0a56fbe7387028f1d9d3f3a2d0fb615bb8fee118727c3f59b7b",
+      "bytes": 1073,
+      "scope": "rebuild tools/support"
+    },
+    {
+      "path": "licenses/build-tool-notices/object-inspect-0.4.0__LICENSE",
+      "sha256": "435a6722c786b0a56fbe7387028f1d9d3f3a2d0fb615bb8fee118727c3f59b7b",
+      "bytes": 1073,
+      "scope": "rebuild tools/support"
+    },
+    {
+      "path": "licenses/build-tool-notices/object-keys-origin-es5-shim-v2.0.0-MIT.txt",
+      "sha256": "b9db14ab1db6d769f184558b9f7e109c94f7b939ab5e5b766aa9f8e0261551a0",
+      "bytes": 1092,
+      "scope": "rebuild tools/support"
+    },
+    {
+      "path": "licenses/build-tool-notices/object-keys-origin-lodash-2.0.0-MIT.txt",
+      "sha256": "13966207cdf044b73cf848e9cbcb35c7bacc7ffce77fdb38877a81f3f8ae0eed",
+      "bytes": 1238,
+      "scope": "rebuild tools/support"
+    },
+    {
+      "path": "licenses/build-tool-notices/once-1.3.3__LICENSE",
+      "sha256": "4ec3d4c66cd87f5c8d8ad911b10f99bf27cb00cdfcff82621956e379186b016b",
+      "bytes": 765,
+      "scope": "rebuild tools/support"
+    },
+    {
+      "path": "licenses/build-tool-notices/parents-1.0.1__LICENSE",
+      "sha256": "435a6722c786b0a56fbe7387028f1d9d3f3a2d0fb615bb8fee118727c3f59b7b",
+      "bytes": 1073,
+      "scope": "rebuild tools/support"
+    },
+    {
+      "path": "licenses/build-tool-notices/path-platform-0.11.15__LICENSE",
+      "sha256": "eec9236e5590cd72c0c9ee85b9eb08e6f5857b97b093cdf5cb6b922c3da4e9a3",
+      "bytes": 97,
+      "scope": "rebuild tools/support"
+    },
+    {
+      "path": "licenses/build-tool-notices/process-nextick-args-2.0.1__license.md",
+      "sha256": "ecdccbcf39024f624ded480c01c0b25458e1eca8f26ecf040933865ce56d9a4f",
+      "bytes": 1064,
+      "scope": "rebuild tools/support"
+    },
+    {
+      "path": "licenses/build-tool-notices/read-only-stream-2.0.0__LICENSE",
+      "sha256": "435a6722c786b0a56fbe7387028f1d9d3f3a2d0fb615bb8fee118727c3f59b7b",
+      "bytes": 1073,
+      "scope": "rebuild tools/support"
+    },
+    {
+      "path": "licenses/build-tool-notices/readable-stream-1.0.34__LICENSE",
+      "sha256": "6239c6144c31e58cf925c34483606969c555574d64ffa96518ab5d7f45c75d43",
+      "bytes": 1096,
+      "scope": "rebuild tools/support"
+    },
+    {
+      "path": "licenses/build-tool-notices/readable-stream-1.1.14__LICENSE",
+      "sha256": "6239c6144c31e58cf925c34483606969c555574d64ffa96518ab5d7f45c75d43",
+      "bytes": 1096,
+      "scope": "rebuild tools/support"
+    },
+    {
+      "path": "licenses/build-tool-notices/readable-stream-2.3.8__LICENSE",
+      "sha256": "ec62dc96da0099b87f4511736c87309335527fb7031639493e06c95728dc8c54",
+      "bytes": 2337,
+      "scope": "rebuild tools/support"
+    },
+    {
+      "path": "licenses/build-tool-notices/resolve-0.6.3__LICENSE",
+      "sha256": "435a6722c786b0a56fbe7387028f1d9d3f3a2d0fb615bb8fee118727c3f59b7b",
+      "bytes": 1073,
+      "scope": "rebuild tools/support"
+    },
+    {
+      "path": "licenses/build-tool-notices/resolve-1.22.13__LICENSE",
+      "sha256": "60acd7711e6c138e6041836e32d922705254cc1568a30fdf16aa8f59bb87aeaa",
+      "bytes": 1071,
+      "scope": "rebuild tools/support"
+    },
+    {
+      "path": "licenses/build-tool-notices/safe-buffer-5.1.2__LICENSE",
+      "sha256": "c7cc929b57080f4b9d0c6cf57669f0463fc5b39906344dfc8d3bc43426b30eac",
+      "bytes": 1081,
+      "scope": "rebuild tools/support"
+    },
+    {
+      "path": "licenses/build-tool-notices/safe-buffer-5.2.1__LICENSE",
+      "sha256": "c7cc929b57080f4b9d0c6cf57669f0463fc5b39906344dfc8d3bc43426b30eac",
+      "bytes": 1081,
+      "scope": "rebuild tools/support"
+    },
+    {
+      "path": "licenses/build-tool-notices/shallow-copy-0.0.1__LICENSE",
+      "sha256": "435a6722c786b0a56fbe7387028f1d9d3f3a2d0fb615bb8fee118727c3f59b7b",
+      "bytes": 1073,
+      "scope": "rebuild tools/support"
+    },
+    {
+      "path": "licenses/build-tool-notices/shasum-object-1.0.1__LICENSE.md",
+      "sha256": "cfdf96102be93c66aea0c07420a55dbbbad8c9a091efec20d16f33be935695c1",
+      "bytes": 628,
+      "scope": "rebuild tools/support"
+    },
+    {
+      "path": "licenses/build-tool-notices/source-map-0.5.7__LICENSE",
+      "sha256": "6cb0631f71c7749763fd3dd1d5bee52dd1070ec17f2edc1710079ad070bd2fbd",
+      "bytes": 1526,
+      "scope": "rebuild tools/support"
+    },
+    {
+      "path": "licenses/build-tool-notices/source-map-0.6.1__LICENSE",
+      "sha256": "6cb0631f71c7749763fd3dd1d5bee52dd1070ec17f2edc1710079ad070bd2fbd",
+      "bytes": 1526,
+      "scope": "rebuild tools/support"
+    },
+    {
+      "path": "licenses/build-tool-notices/SPDX-ISC-reference.txt",
+      "sha256": "521c6f0ed8e64736684f89843d16a4df6b4b7449acbcfc6ca6630a3037ca8c53",
+      "bytes": 737,
+      "scope": "rebuild tools/support"
+    },
+    {
+      "path": "licenses/build-tool-notices/SPDX-MIT-reference.txt",
+      "sha256": "b05785f9f18e6716bab63424b11454513b9943a222595b70411009202fc592b5",
+      "bytes": 1078,
+      "scope": "rebuild tools/support"
+    },
+    {
+      "path": "licenses/build-tool-notices/static-eval-0.2.4__LICENSE",
+      "sha256": "435a6722c786b0a56fbe7387028f1d9d3f3a2d0fb615bb8fee118727c3f59b7b",
+      "bytes": 1073,
+      "scope": "rebuild tools/support"
+    },
+    {
+      "path": "licenses/build-tool-notices/static-module-1.5.0__LICENSE",
+      "sha256": "435a6722c786b0a56fbe7387028f1d9d3f3a2d0fb615bb8fee118727c3f59b7b",
+      "bytes": 1073,
+      "scope": "rebuild tools/support"
+    },
+    {
+      "path": "licenses/build-tool-notices/stream-combiner2-1.1.1__LICENSE",
+      "sha256": "6d11f0c1826a10e8343e091e4b707ab02e33b9176154e6c15e8900274706c0d9",
+      "bytes": 1073,
+      "scope": "rebuild tools/support"
+    },
+    {
+      "path": "licenses/build-tool-notices/stream-splicer-2.0.1__LICENSE",
+      "sha256": "9097c443ff7a59eb1c688481de0d218404d514d46bf57f43708577f0e9fd46a4",
+      "bytes": 1104,
+      "scope": "rebuild tools/support"
+    },
+    {
+      "path": "licenses/build-tool-notices/syntax-error-1.4.0__LICENSE",
+      "sha256": "435a6722c786b0a56fbe7387028f1d9d3f3a2d0fb615bb8fee118727c3f59b7b",
+      "bytes": 1073,
+      "scope": "rebuild tools/support"
+    },
+    {
+      "path": "licenses/build-tool-notices/through-2.3.8__LICENSE.APACHE2",
+      "sha256": "e8734448285a2dd773d40136ed5d5e8163a70701dd540cdc796cfca232f67d55",
+      "bytes": 586,
+      "scope": "rebuild tools/support"
+    },
+    {
+      "path": "licenses/build-tool-notices/through-2.3.8__LICENSE.MIT",
+      "sha256": "d72dea1a8cdf3f4dfa2f594253d0c5b37baefc76e806f5ecb0e426393edcd505",
+      "bytes": 1088,
+      "scope": "rebuild tools/support"
+    },
+    {
+      "path": "licenses/build-tool-notices/through2-0.4.2__LICENSE",
+      "sha256": "2cb181dde66fd7dea0dd4f728497bf41672f3b848c0278e98a67b54c53d80f00",
+      "bytes": 1811,
+      "scope": "rebuild tools/support"
+    },
+    {
+      "path": "licenses/build-tool-notices/through2-0.6.5__LICENSE",
+      "sha256": "2cb181dde66fd7dea0dd4f728497bf41672f3b848c0278e98a67b54c53d80f00",
+      "bytes": 1811,
+      "scope": "rebuild tools/support"
+    },
+    {
+      "path": "licenses/build-tool-notices/through2-2.0.5__LICENSE.md",
+      "sha256": "faae57631e1c7d641c3b6f9b110c2a7a28c8b383d08d7796ac472c509f075850",
+      "bytes": 1128,
+      "scope": "rebuild tools/support"
+    },
+    {
+      "path": "licenses/build-tool-notices/umd-3.0.3__LICENSE",
+      "sha256": "5519d0442a0d5e5e17fd32cd8ffd6d19581964509eb94c5b6ef56c363f5fbd17",
+      "bytes": 1076,
+      "scope": "rebuild tools/support"
+    },
+    {
+      "path": "licenses/build-tool-notices/undeclared-identifiers-1.1.3__LICENSE.md",
+      "sha256": "5d83ddb7fb889de1f15166a51b6b2079acdf09f478a5fb58552f4d29a9188a4b",
+      "bytes": 628,
+      "scope": "rebuild tools/support"
+    },
+    {
+      "path": "licenses/build-tool-notices/util-deprecate-1.0.2__LICENSE",
+      "sha256": "0154425673db15cdfa80ecba2c9b1f1a867f7197a006764712849bfc3a93cbb7",
+      "bytes": 1102,
+      "scope": "rebuild tools/support"
+    },
+    {
+      "path": "licenses/build-tool-notices/wrappy-1.0.2__LICENSE",
+      "sha256": "4ec3d4c66cd87f5c8d8ad911b10f99bf27cb00cdfcff82621956e379186b016b",
+      "bytes": 765,
+      "scope": "rebuild tools/support"
+    },
+    {
+      "path": "licenses/build-tool-notices/xtend-2.1.2__LICENCE",
+      "sha256": "19338d17a974d1c747b3f6c618f08975b8908fdebccbc047c0e72b09daf6ddd3",
+      "bytes": 1050,
+      "scope": "rebuild tools/support"
+    },
+    {
+      "path": "licenses/build-tool-notices/xtend-2.2.0__LICENCE",
+      "sha256": "19338d17a974d1c747b3f6c618f08975b8908fdebccbc047c0e72b09daf6ddd3",
+      "bytes": 1050,
+      "scope": "rebuild tools/support"
+    },
+    {
+      "path": "licenses/build-tool-notices/xtend-3.0.0__LICENCE",
+      "sha256": "7b9a2c90ea0aceda46c0c1f4cc6d4bf2cf37c7bf0f1a7502f981dae2c8c01d71",
+      "bytes": 1056,
+      "scope": "rebuild tools/support"
+    },
+    {
+      "path": "licenses/build-tool-notices/xtend-4.0.2__LICENSE",
+      "sha256": "82e67379203d5794e7c44549847d8d64ae6904591381682360470898bd306821",
+      "bytes": 1078,
+      "scope": "rebuild tools/support"
+    },
+    {
+      "path": "licenses/support-package-notices/assert-1.5.1__LICENSE",
+      "sha256": "6239c6144c31e58cf925c34483606969c555574d64ffa96518ab5d7f45c75d43",
+      "bytes": 1096,
+      "scope": "rebuild tools/support"
+    },
+    {
+      "path": "licenses/support-package-notices/browserify-zlib-0.2.0__LICENSE",
+      "sha256": "ddd770379e07bf0574dfaa4485be80a23b3248b36d09f33ec79276c09b829daf",
+      "bytes": 3486,
+      "scope": "rebuild tools/support"
+    },
+    {
+      "path": "licenses/support-package-notices/console-browserify-1.2.0__LICENCE",
+      "sha256": "19338d17a974d1c747b3f6c618f08975b8908fdebccbc047c0e72b09daf6ddd3",
+      "bytes": 1050,
+      "scope": "rebuild tools/support"
+    },
+    {
+      "path": "licenses/support-package-notices/constants-browserify-1.0.0-embedded-license.txt",
+      "sha256": "ab5cc67640b3d313dd8710b4402c51c59384ef5260a5fdf02fd24942cdc1f8e7",
+      "bytes": 1116,
+      "scope": "rebuild tools/support"
+    },
+    {
+      "path": "licenses/support-package-notices/crypto-browserify-3.12.1__LICENSE",
+      "sha256": "6134c69bc22c8289252e70de3af20bd67071233459055be74d83acfcc4865e7e",
+      "bytes": 1087,
+      "scope": "rebuild tools/support"
+    },
+    {
+      "path": "licenses/support-package-notices/domain-browser-1.2.0__LICENSE.md",
+      "sha256": "8ffaa1b117e1c280023c8ef997a84a461133b972c8bade4579050e3e41835902",
+      "bytes": 1348,
+      "scope": "rebuild tools/support"
+    },
+    {
+      "path": "licenses/support-package-notices/esprima-1.0.4-embedded-license.txt",
+      "sha256": "6ca86d8cdfc6acea9545a01a6219da281f4142263ee4fa3b8afcd142dc2faa9e",
+      "bytes": 1723,
+      "scope": "rebuild tools/support"
+    },
+    {
+      "path": "licenses/support-package-notices/glsl-fxaa-3.0.0__LICENSE.md",
+      "sha256": "91515553fda3d86e82454bab0eb876a2cb9a31c0dcb8be640870fed624e53697",
+      "bytes": 1083,
+      "scope": "rebuild tools/support"
+    },
+    {
+      "path": "licenses/support-package-notices/https-browserify-1.0.0__LICENSE",
+      "sha256": "ff151c00207c908581639851dd8504ce4255be0650b2b236edec2aa90342b0cd",
+      "bytes": 1103,
+      "scope": "rebuild tools/support"
+    },
+    {
+      "path": "licenses/support-package-notices/inherits-2.0.3__LICENSE",
+      "sha256": "5ffe28e7ade7d8f10d85d5337a73fd793dac5c462fb9a28fbf8c5046c7fbca3b",
+      "bytes": 749,
+      "scope": "rebuild tools/support"
+    },
+    {
+      "path": "licenses/support-package-notices/querystring-es3-0.2.1__License.md",
+      "sha256": "cb72d9714ddc21e758d63f423be0caddf909d23ccbb10a2f5201a870818e4f57",
+      "bytes": 1081,
+      "scope": "rebuild tools/support"
+    },
+    {
+      "path": "licenses/support-package-notices/readable-stream-3.6.2__LICENSE",
+      "sha256": "ec62dc96da0099b87f4511736c87309335527fb7031639493e06c95728dc8c54",
+      "bytes": 2337,
+      "scope": "rebuild tools/support"
+    },
+    {
+      "path": "licenses/support-package-notices/socket.io-client-4.7.2__LICENSE",
+      "sha256": "62e2032a1e1458b1d92a62f5fc51be48e08b95062295c91a9f3bd3686809d37e",
+      "bytes": 1082,
+      "scope": "rebuild tools/support"
+    },
+    {
+      "path": "licenses/support-package-notices/source-map-0.1.43__LICENSE",
+      "sha256": "6cb0631f71c7749763fd3dd1d5bee52dd1070ec17f2edc1710079ad070bd2fbd",
+      "bytes": 1526,
+      "scope": "rebuild tools/support"
+    },
+    {
+      "path": "licenses/support-package-notices/stream-browserify-3.0.0__LICENSE",
+      "sha256": "96e5193183476a03da6667d217ce14110191d26ee105338086e94339edf40d5a",
+      "bytes": 1066,
+      "scope": "rebuild tools/support"
+    },
+    {
+      "path": "licenses/support-package-notices/stream-http-3.2.0__LICENSE",
+      "sha256": "a0e6357a5e8ea65827addeb383e0948a1874d2f46bc7feaf6349b7a376ed6e98",
+      "bytes": 1086,
+      "scope": "rebuild tools/support"
+    },
+    {
+      "path": "licenses/support-package-notices/string_decoder-0.10.31__LICENSE",
+      "sha256": "21a82bbee91262a076c2e34533d51d73475d55e889f1c42cf884c86b2a0d5773",
+      "bytes": 1076,
+      "scope": "rebuild tools/support"
+    },
+    {
+      "path": "licenses/support-package-notices/string_decoder-1.1.1__LICENSE",
+      "sha256": "11f2aafb37d06b3ee5bdaf06e9811141d0da05263c316f3d627f45c20d43261b",
+      "bytes": 2338,
+      "scope": "rebuild tools/support"
+    },
+    {
+      "path": "licenses/support-package-notices/string_decoder-1.3.0__LICENSE",
+      "sha256": "11f2aafb37d06b3ee5bdaf06e9811141d0da05263c316f3d627f45c20d43261b",
+      "bytes": 2338,
+      "scope": "rebuild tools/support"
+    },
+    {
+      "path": "licenses/support-package-notices/tty-browserify-0.0.1__LICENSE",
+      "sha256": "435a6722c786b0a56fbe7387028f1d9d3f3a2d0fb615bb8fee118727c3f59b7b",
+      "bytes": 1073,
+      "scope": "rebuild tools/support"
+    },
+    {
+      "path": "licenses/support-package-notices/util-0.10.4__LICENSE",
+      "sha256": "6239c6144c31e58cf925c34483606969c555574d64ffa96518ab5d7f45c75d43",
+      "bytes": 1096,
+      "scope": "rebuild tools/support"
+    },
+    {
+      "path": "licenses/support-package-notices/vm-browserify-1.1.2__LICENSE",
+      "sha256": "3a62887f73cd035ac1068bc0127ce94291f7a03843391f56df3520e2ca2037f8",
+      "bytes": 1036,
+      "scope": "rebuild tools/support"
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+OpenDuelyst first-party code and media: CC0-1.0. Dependencies retain their separate MIT, ISC, BSD, Apache-2.0 and 0BSD licenses; see licenses/ and NOTICE-FILE-INVENTORY.json. The full distribution is not CC0. Adaptations and exclusions are documented in BUILD-NOTES.md.

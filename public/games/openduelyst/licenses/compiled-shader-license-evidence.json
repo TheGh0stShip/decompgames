@@ -1,0 +1,10 @@
+{
+  "scope": "Compiled shader attribution supplement; wrapper MIT and inherited FXAA BSD-3-Clause retained separately",
+  "package": "glsl-fxaa",
+  "version": "3.0.0",
+  "wrapperLicense": "MIT, Copyright 2014 Matt DesLauriers",
+  "inheritedShaderLicense": "BSD-3-Clause, Copyright 2011 Armin Ronacher",
+  "sourceSHA256": "64ce9324771891eb1187e62fb2b7f010f60fe841ae85a722bb4e471b9fd0e86d",
+  "notice": "GLSL-FXAA-Armin-Ronacher-BSD-3-Clause.txt",
+  "noticeSHA256": "a01d8c9fb8a205a687801ed951ee767cdecbf1bd65d3c4f8ba9f479cd73d0d19"
+}

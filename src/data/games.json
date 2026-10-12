@@ -4394,5 +4394,56 @@
    "scope": "Reassembly is byte-identical to the USA Rev 0 (PRG0) dump — all 131072 PRG bytes and all 131088 file bytes, confirmed by cmp and by sha1. In the browser: boots, 60 fps sustained, name registration, overworld movement, sword cave, Wooden Sword acquired, and battery save verified across a reload by reading the save data back. No dungeon was entered and audio was never enabled.",
    "playthrough": false
   }
- }
+ },
+  {
+    "id": "openduelyst",
+    "title": "OpenDuelyst",
+    "aliases": [
+      "Duelyst"
+    ],
+    "year": 2016,
+    "genre": "Strategy",
+    "kind": "Original implementation",
+    "mode": "embed",
+    "launch": "tab",
+    "embedUrl": "https://decompgames.com/games/openduelyst/player.html",
+    "engine": "OpenDuelyst local Sandbox",
+    "description": "Play a local two-player tactical card Sandbox with original Duelyst artwork.",
+    "overview": "The CC0 OpenDuelyst JavaScript game is adapted for local two-player play in one browser. Project artwork is retained under CC0; browser libraries and shaders keep their separate permissive licenses. This is an original implementation, not a decompilation or WebAssembly build.",
+    "source": "https://github.com/open-duelyst/duelyst",
+    "engineLicense": "CC0-1.0 first-party code; MIT, ISC, BSD, Apache-2.0 and 0BSD dependencies",
+    "assetLicense": "CC0-1.0 project media; separately licensed shaders; system fonts",
+    "assetRequirements": "No ROM, retail files or account needed.",
+    "controls": [
+      "Click a unit, then a valid tile or target.",
+      "Click a card, then a valid tile or target.",
+      "End turn switches the local player.",
+      "Save stores the current local game; New game resets it."
+    ],
+    "saveInstructions": "Use Save before leaving. The same browser can restore the saved Sandbox. Clearing site storage removes the save.",
+    "limitations": [
+      "Experimental starter-deck Sandbox; exhaustive card and effect coverage unverified.",
+      "Two players share one browser; online accounts and multiplayer unsupported.",
+      "Desktop mouse tested; touch unverified.",
+      "Audio disabled.",
+      "General combat reached a draw; decisive combat victory and full campaign unverified."
+    ],
+    "inputs": [
+      "Mouse"
+    ],
+    "downloadMB": 36.8,
+    "complete": false,
+    "color": "#446da6",
+    "shelf": "classic",
+    "platform": "PC",
+    "verification": {
+      "status": "gameplay-tested",
+      "date": "2026-10-12",
+      "browsers": [
+        "Edge (headless, muted)"
+      ],
+      "scope": "Isolated staged runtime under game URL prefix passed movement, save/reload, reset, turn switching and concession with no errors, missing resources or external requests. Separate starter-deck general combat ended in a draw. Production verification pending.",
+      "playthrough": false
+    }
+  }
 ]

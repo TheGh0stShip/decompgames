@@ -1,0 +1,32 @@
+{
+  "scope": "License declaration/reference evidence only, unresolved origin attribution remains explicit",
+  "packages": [
+    {
+      "name": "object-keys",
+      "version": "0.4.0",
+      "publisherDeclaredLicense": "MIT",
+      "packageAuthor": "Jordan Harband",
+      "packageMetadataSHA256": "30193093be2534063605235a552fdb81e68ecf5b6f924a6051c73b6988496eb6",
+      "standardReference": "SPDX-MIT-reference.txt",
+      "status": "Published SPDX declaration retained; reference text does not recover missing original copyright or clear credited origins"
+    },
+    {
+      "name": "glslify-deps",
+      "version": "1.3.2",
+      "publisherDeclaredLicense": "ISC",
+      "packageAuthor": "Hugh Kennedy <hughskennedy@gmail.com> (http://hughsk.io/)",
+      "packageMetadataSHA256": "141d8289e28b7819f2c8498f2a3402bd58c13582c2ec5f740bc33baee698a053",
+      "standardReference": "SPDX-ISC-reference.txt",
+      "status": "Published SPDX declaration retained; reference text does not recover missing original copyright or clear credited origins"
+    },
+    {
+      "name": "@choojs/findup",
+      "version": "0.2.1",
+      "publisherDeclaredLicense": "MIT",
+      "packageAuthor": "Filirom1 <filirom1@gmail.com>",
+      "packageMetadataSHA256": "4d792de1695343094e5153fff7006f99a936d4c6b0a47243e4df18642f67a073",
+      "standardReference": "SPDX-MIT-reference.txt",
+      "status": "Published SPDX declaration retained; reference text does not recover missing original copyright or clear credited origins"
+    }
+  ]
+}

@@ -1,0 +1,2638 @@
+{
+  "pin": "2843f2400854136598631288c2e8dfb8f5173de7",
+  "scope": "Private materialized media only, not complete shipped release or clean-room certification",
+  "codeLicense": "CC0 project with independently licensed dependency exceptions",
+  "files": [
+    {
+      "path": "app/resources/arena/card_fade_particles.plist",
+      "bytes": 2749,
+      "sha256": "96d0c70423d310b314f7cf66c374f7f6f57e4e4611f78f6ef7df955b7dce5080",
+      "gitBlob": "fe47eed160991d0f5f7c2df562974bf10e170d84",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": true,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/arena/card_fade_particles.png",
+      "bytes": 3760,
+      "sha256": "b1d73edca8d00ebb34e49fa5a94856c138a41ebab480ba5932b390ab964b1e62",
+      "gitBlob": "da5e789d2ea6a45f6dc4ca3559ad285e8d398044",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": false,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/arena/fx_fluid_sphere_large.jpg",
+      "bytes": 644053,
+      "sha256": "0af5bb5b0d1d0a8e0b110087d2bea6fda3279516de7a7a9945db8ae65b3bbbbe",
+      "gitBlob": "33e8f3c84d8b220af4d5c93dab3316d342e48e43",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": false,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/arena/fx_fluid_sphere_large.plist",
+      "bytes": 30243,
+      "sha256": "c12c4d5dbc827825bb965d398a9d92fe4547c1dbbb73a7f92b117ed236a7db01",
+      "gitBlob": "f737746381e1d99a0592e1b3687288f4de7109ee",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": true,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/battlelog/battlelog_button_collapse.png",
+      "bytes": 235,
+      "sha256": "85c64f8ce7190b3c98b65f220bcd9589917bb164d1c08af5952b7c0c73694e47",
+      "gitBlob": "f324df286a603f13c1d50e673eb62cab7f5f93ed",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": false,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/battlelog/battlelog_button_collapse_glow.png",
+      "bytes": 1070,
+      "sha256": "96701cb1e9ff324cf0b21d5c4b9399b2f13e5bbca6c9bbcba807db1840c41580",
+      "gitBlob": "d21276862d63d6c2af761123b792d1bdd2348c0f",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": false,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/battlelog/battlelog_button_expand.png",
+      "bytes": 299,
+      "sha256": "76c7a69eac1264cf2be9b51797f1de82d7334a695bda67aec51f06c4445fdc41",
+      "gitBlob": "bd59cd224e06b1717e742d28894d191d5926f1ca",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": false,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/battlelog/battlelog_button_expand_glow.png",
+      "bytes": 3123,
+      "sha256": "991d468980b2fc04b957b2d49fef51c9153cf51997ff20880c2949b9e1bfff59",
+      "gitBlob": "5345697b973b7f6f450c7e3dc2fce696dd4c3912",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": false,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/battlelog/battlelog_entry_frame_enemy.png",
+      "bytes": 1395,
+      "sha256": "5b513d99bdf8aef2e78f02100175af2b7edad228f41a85bfcba262d56c0ae7dc",
+      "gitBlob": "e40a2319ba3944713924cbaa1f65d8d91745be57",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": false,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/battlelog/battlelog_entry_frame_friendly.png",
+      "bytes": 1403,
+      "sha256": "a605ea94084278219739c0802d9db90d8af0267c83d49d08db8affb35b558bc9",
+      "gitBlob": "8299974f21a0f45b9f24773fdaaa0668d4ee5ca6",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": false,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/battlelog/battlelog_frame.png",
+      "bytes": 9759,
+      "sha256": "cc114dbdd392e67f9311ba43e913c10d57950b583eff11a6a3e5fd802dbe8996",
+      "gitBlob": "73e255101ba37b60c4813e01e9a890b73aed1b5d",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": false,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/booster_pack_opening/explosion_small_particles.plist",
+      "bytes": 2785,
+      "sha256": "8fb517c61f7a103854447f8ebed9e6af068b82ee86907c82203929cf71516ab8",
+      "gitBlob": "1f19993811e538a3b0ed7749ebbc1778f16ceb5a",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": true,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/booster_pack_opening/explosion_small_particles.png",
+      "bytes": 3760,
+      "sha256": "b1d73edca8d00ebb34e49fa5a94856c138a41ebab480ba5932b390ab964b1e62",
+      "gitBlob": "da5e789d2ea6a45f6dc4ca3559ad285e8d398044",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": false,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/card_backgrounds/card_shadow_map.png",
+      "bytes": 23136,
+      "sha256": "c1386de35c373996122924b156585238d1533e7f41147f933aa720066515ea57",
+      "gitBlob": "d9f479c1e4d758f4c26c6fea95ddda62a55b4198",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": false,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/card_backgrounds/neutral_artifact.png",
+      "bytes": 28853,
+      "sha256": "d98c7ac0e4ef1f3f025ac209bfaa157df69ffb514f79f81c0d5cbf452cce6fb8",
+      "gitBlob": "490dd5a79581288e97cbcbc0631302695d995f6e",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": false,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/card_backgrounds/neutral_prismatic_artifact.png",
+      "bytes": 25215,
+      "sha256": "866cb2a23d223814a337c6fbc7b90c476f7bb62e571a602cb6aa75dc69b5b314",
+      "gitBlob": "7ff7861b13a8e92bf1c5ccb4148656fe30384136",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": false,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/card_backgrounds/neutral_prismatic_spell.png",
+      "bytes": 26234,
+      "sha256": "fff676fcddc934d65ce5df5aaa598a0b5de5d0c6aa976cc369e03f21f3d65010",
+      "gitBlob": "fd1a689f2fd0af8e5f901a72262f9d3df63d8dd1",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": false,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/card_backgrounds/neutral_prismatic_unit.png",
+      "bytes": 24679,
+      "sha256": "a37f4fb227aa087feab6b16e853902e6d4bb52e41d36e0422749c1708f020c03",
+      "gitBlob": "194337c0fbcf0e1e6f575477e394c138f3222acd",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": false,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/card_backgrounds/neutral_spell.png",
+      "bytes": 30185,
+      "sha256": "3d952974699d3ef05ce00cfad4fe34b53575fe258d6b81622c13729ac426edf6",
+      "gitBlob": "909a530c16f8edefb990c963db18a5928c8c2cf7",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": false,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/card_backgrounds/neutral_unit.png",
+      "bytes": 26164,
+      "sha256": "d720cef72dbf5886576462390db5a7194de9f2c56c85e6f917d3a43e55998cb7",
+      "gitBlob": "b7380bea0dfde710b5f9a0bde61efef597e30efd",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": false,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/card_backgrounds/reveal_glow_artifact.png",
+      "bytes": 27196,
+      "sha256": "d32cc408aabc9afe3581bab12ac0b0ff5dc61494b07a19ba828fec6b35d1fba0",
+      "gitBlob": "b12691a3cc15380ae9bfa0555379016fdf15de28",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": false,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/card_backgrounds/reveal_glow_artifact_blurred.jpg",
+      "bytes": 9488,
+      "sha256": "daa98dead0dd7be859d5fffe981848085d503dcb94f5208f2b3261b6fe4b5a7f",
+      "gitBlob": "8c5c260d836e43861e9f04796c1fc94ba12ff789",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": false,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/card_backgrounds/reveal_glow_spell.png",
+      "bytes": 34919,
+      "sha256": "65254f66830e0db047043fe15160fee64aceb98a7effe647d3d3a938c3cbe6fe",
+      "gitBlob": "a39ac7543d098c624e0fe8b8514e79e6e2417c7f",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": false,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/card_backgrounds/reveal_glow_spell_blurred.jpg",
+      "bytes": 10272,
+      "sha256": "543bde71660e459f365c2bd53c5a089c1261892f3a2e80287d19a2dc692652b9",
+      "gitBlob": "62539fb22fe79559918726bdffef31d5ba668f7f",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": false,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/card_backgrounds/reveal_glow_unit.png",
+      "bytes": 24119,
+      "sha256": "3eb1e18bf48c2008547fed5526eb12bf8f4cadfaed72161aea07b6051bc9a007",
+      "gitBlob": "91011b7f771350671055c6701259c67bcd50f79b",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": false,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/card_backgrounds/reveal_glow_unit_blurred.jpg",
+      "bytes": 9061,
+      "sha256": "2261ee71b22ae63b26106bcf368878b9cf473df8b4a303113ebf542dd56ea51f",
+      "gitBlob": "edfc552d653ed6caa16ddae5429981f5ace53070",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": false,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/card_backgrounds/signature_card_glow.png",
+      "bytes": 21448,
+      "sha256": "987066c37491227bce5369ae532037b30149b40e53b31b97a6035ce5ed926f76",
+      "gitBlob": "713e023484f64754fb089a8fd84520d5964d3801",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": false,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/card_backgrounds/signature_card_ring.png",
+      "bytes": 7477,
+      "sha256": "8d9ca7e5e7aa337280391d87e8118f235e7fe3115ca0c0a0900a43cd86a9ea52",
+      "gitBlob": "f9ac0b593ebd4fd53a34b2b6db023a98ac53e8fc",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": false,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/card_backgrounds/signature_card_ring_small.png",
+      "bytes": 3864,
+      "sha256": "3188dfe52c8f4a063182dc1059fb2919baccff5f33007f64558c23becc2693c5",
+      "gitBlob": "e19d9113a7d3b86668c1a0eb3456c242f383d7e0",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": false,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/card_backgrounds/stats_atk_simple_bg.png",
+      "bytes": 21162,
+      "sha256": "1fa3ad3d89cd8e1dd2d62c7b9dcdccb86a665c3bad8f9fb7dc1f7e620b55d332",
+      "gitBlob": "6d3e32449c913a574bc6db005deb31b118911648",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": false,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/card_backgrounds/stats_hp_simple_bg.png",
+      "bytes": 20743,
+      "sha256": "203e3f5d61ff9e3b56068f616889ebeb6ed1120060011a34e642e9d61f679628",
+      "gitBlob": "03e6fd68a93e41c61605132a3a16d13bfed10423",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": false,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/core_gem/core_gem_particle.png",
+      "bytes": 2142,
+      "sha256": "284a18ea21d06bfe6c4af9dbec45ceff333815328ecd1088ac57df1e6efd8c04",
+      "gitBlob": "775b1060588833b80f40a9d7901362aace7696df",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": false,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/core_gem/core_gem_particles.plist",
+      "bytes": 2736,
+      "sha256": "e58ec8f730cc20de01513f01b41871102e9be86eded519b6d474c383b862645b",
+      "gitBlob": "b21bf517e1ef76541729e37b675cf89242569994",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": true,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/decals/artifact.png",
+      "bytes": 4102,
+      "sha256": "db3350d0ff48f1a0918e5e07e428698412d327f6328f0ca2445b7ccde4247c04",
+      "gitBlob": "8b94cb6c8e17b9c2ae8f0f67a72b9d9fdeb13851",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": false,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/decals/banded.png",
+      "bytes": 4102,
+      "sha256": "db3350d0ff48f1a0918e5e07e428698412d327f6328f0ca2445b7ccde4247c04",
+      "gitBlob": "8b94cb6c8e17b9c2ae8f0f67a72b9d9fdeb13851",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": false,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/decals/provoke.png",
+      "bytes": 8054,
+      "sha256": "40a3fdb7b8e1e37e90cc59047b252c5ff9007c776127afa1a2712878bf9b5cbd",
+      "gitBlob": "3532fc48ee2cc3cbe17ea5ca7f728ff01b3c5554",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": false,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/decals/provoked.png",
+      "bytes": 9140,
+      "sha256": "6ed952a88c592641ede0baccb916979a826c8a31055522177f81cecdfa45ecf7",
+      "gitBlob": "c9eb1e179a4bdd2c1ad5eb99878cf687e9356972",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": false,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/dialogue/speech_portrait_lyonar_side.png",
+      "bytes": 8413,
+      "sha256": "c58548237229796b179e767266d78154b08771a5cbba7281b1c68a7214cd79ed",
+      "gitBlob": "721f1482fa5164c9796a578d94204e9be2ce5001",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": false,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/dialogue/speech_portrait_songhai.png",
+      "bytes": 6885,
+      "sha256": "f2eb041377618aa19fd9b78bc26ea2e6ae2d706e219b502c7813b606cc328fea",
+      "gitBlob": "e1d929e653d7e2b0e526ba6ec71426f74b638b72",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": false,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/fx/fx_artifactbreak.plist",
+      "bytes": 4659,
+      "sha256": "4d42f0761b27e29c3c288bafe7d0d74e0e8869ae963a1943af1c98301013bca8",
+      "gitBlob": "334aa66229b890e6e915ca902cd43d4ddbaad74f",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": true,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/fx/fx_artifactbreak.png",
+      "bytes": 3438,
+      "sha256": "c85ed9082694e73a03da7db3e6eb1f6ae161fa1d55e89ba094f85b5d1fd69a14",
+      "gitBlob": "af7dc403f1185e59a9e8c1f3fc3ff0ceb0a642d6",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": false,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/fx/fx_artifacthit.plist",
+      "bytes": 4629,
+      "sha256": "565f5745af9796c976d28cba8e830a75993adc7efefbb53da728e4e58c58ed42",
+      "gitBlob": "edd3cab3574ab437fe2248a00c4a23c76130197f",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": true,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/fx/fx_artifacthit.png",
+      "bytes": 1497,
+      "sha256": "9bbaad7336823e2d6ed8170749fe088ac7791a9b2872894cb9340a7f60ebc538",
+      "gitBlob": "e38bd78a350478bec6fc0166facf9a13ca73e64f",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": false,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/fx/fx_bladestorm.plist",
+      "bytes": 4539,
+      "sha256": "446681cdbd6e3cbd23079839606d0f2c310a8ffb47145b6aaf725ffe62dfcbce",
+      "gitBlob": "fdc6be8a9aa3e7beb56c2542727f255ee2e35d77",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": true,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/fx/fx_bladestorm.png",
+      "bytes": 1165,
+      "sha256": "4acbfb0fef35bdee7fbc9e99827e40983c472b762d8b9746fa195dfc3fdb1e99",
+      "gitBlob": "00b707b355dfd812cbcf6ca9545388a324c51d70",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": false,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/fx/fx_blood_explosion.plist",
+      "bytes": 16552,
+      "sha256": "9743bac0f72dd392eb7bc796db56742676ea8771dbe7de0fdb8438d0407514d3",
+      "gitBlob": "fa9347659d1c4551ec6a5b6a025e8ed2f0f5f062",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": true,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/fx/fx_blood_explosion.png",
+      "bytes": 8705,
+      "sha256": "d113a48c17716aba026196b5727f35d0331fe89292c7803054d2709a5e1aba6f",
+      "gitBlob": "1e63975b88277ed56f0cf2370aa9b2ca0df3d425",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": false,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/fx/fx_bloodground.plist",
+      "bytes": 12781,
+      "sha256": "7fc105d1b3059b881e407dcbec08aa9424b37903caaa5e50f94c3534eb9f1c5b",
+      "gitBlob": "b1d1ee54f5fed7e2da7cf1dcedf7300eb471a314",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": true,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/fx/fx_bloodground.png",
+      "bytes": 1601,
+      "sha256": "3d5f94be4b1df904db81426dbf532c44a472494760d86ca70fae8d9a018f5138",
+      "gitBlob": "96670e34e526ed0d01bd4ca757aa8c4644cff6cb",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": false,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/fx/fx_buff.plist",
+      "bytes": 4462,
+      "sha256": "d827e7531a3024b12fb2082a6d1f2613f916b809a1f95c6bbe146ed1769dbb68",
+      "gitBlob": "ee208998846b362f6a7d4415af174e445997d161",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": true,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/fx/fx_buff.png",
+      "bytes": 674,
+      "sha256": "d2063dbd8e5c7de8c2a48802157ff3de58efda2bf9ed7e8a2b85ce2a8b905bf4",
+      "gitBlob": "b84f30fe8399dae36d4a3f252f5b76d5107b7e52",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": false,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/fx/fx_carddraw.plist",
+      "bytes": 10131,
+      "sha256": "ca89f076b811510ed894509018f7075a36c37c345f107c642999da7cacac01a9",
+      "gitBlob": "ca35ef98dca6a040204ce5d5e6bb297ef4b446e7",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": true,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/fx/fx_carddraw.png",
+      "bytes": 68376,
+      "sha256": "e52570e9912da8fdc79b1065b3de4db1f89e8e01577dd35061a623bf1cf2f057",
+      "gitBlob": "73f6e660e586d02c06feed9ddffc7ec1409d1416",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": false,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/fx/fx_clawslash.plist",
+      "bytes": 2150,
+      "sha256": "395154fe65b013d0d162027ebbc0b8a0027cf96b58d772c656b272e87d2007d3",
+      "gitBlob": "43eb7ef179772525a436e22ec396eca5f7230ea3",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": true,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/fx/fx_clawslash.png",
+      "bytes": 518,
+      "sha256": "9e7dff7eef76200d2441c8dc83098844d678eabbefd4867a9afe77d1ca8efbaa",
+      "gitBlob": "dc7272e9d8f6c484843e2354ae0cde522727af80",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": false,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/fx/fx_collision.plist",
+      "bytes": 10196,
+      "sha256": "66e9827791679c94ce4dda7874ae5966f332cbb62a38b453848224a4e02a7f2c",
+      "gitBlob": "05f295c0735b31c21a0f903f139573ad88d4769e",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": true,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/fx/fx_collision.png",
+      "bytes": 1576,
+      "sha256": "8e614bec63ad79ebcae9c90ac65f10265b5399973462f2bd1bf9ec0a9c6936bd",
+      "gitBlob": "3254cbc4331c3aa80a79608dfdbd5aa3d63e501a",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": false,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/fx/fx_collisionsparkred.plist",
+      "bytes": 5344,
+      "sha256": "072ec2b32f057ded702cd7eadd2381e2266b0229295142159d1ae1fca5234a44",
+      "gitBlob": "7ea8671089022072b6cff99db5801f539e746db2",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": true,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/fx/fx_collisionsparkred.png",
+      "bytes": 811,
+      "sha256": "059ca08703dbb6a2e6cae9144166ea003a4398dc8965aa7707c8b8684ec29762",
+      "gitBlob": "afdfa30d1b42a295ffb870d18554727b7ffed7a8",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": false,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/fx/fx_defense.plist",
+      "bytes": 5242,
+      "sha256": "a8f2ad5842c64083fddd908b0cba7d4e27fcf4a00c073240d6f98109c841f8ab",
+      "gitBlob": "5862679f0201d59adc4d56f42248325c9dc6f3fb",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": true,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/fx/fx_defense.png",
+      "bytes": 2459,
+      "sha256": "115e9e478fc4387ff3c17dfa46457755ef8dbc3a52e9bf6a82ce115ec69cd5ce",
+      "gitBlob": "ef27e542b87ac17cc4e54e44db3db96c124dc945",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": false,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/fx/fx_distortion_water_bubble.plist",
+      "bytes": 1365,
+      "sha256": "c807fbd09048c4dc1a29cb9517cad8dba3123c1dd868d4470a48a5ac95f40c32",
+      "gitBlob": "366daa7c137dd2be58967375c9b2d74d21efebf1",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": true,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/fx/fx_distortion_water_bubble.png",
+      "bytes": 65135,
+      "sha256": "04c5f1e882a3588565ce3a82cf03b4e0002ce6b2d4bc79fa9d1b2110e5f022e1",
+      "gitBlob": "4ee2116f7afcc98a3e137ee36148b3f931824503",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": false,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/fx/fx_energyhaloground.plist",
+      "bytes": 2538,
+      "sha256": "57f5539ecdee7e5207fcffcc9bacd890c78ae689267bf1cf151c0276108cc71c",
+      "gitBlob": "42c98109281545a1ca74f71cb7139eef8fd47c44",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": true,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/fx/fx_energyhaloground.png",
+      "bytes": 897,
+      "sha256": "e30845281079d25c5661d658f41105ab4e36bb32df5ec508a0b445e501713368",
+      "gitBlob": "d2d48c52a03fba0fb88290f5dbc62a659f2b29a8",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": false,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/fx/fx_explosionblue.plist",
+      "bytes": 3664,
+      "sha256": "19af793b5226464f16bdecd7e53b53419a21c7805448b26cff9ba7e50998f7bd",
+      "gitBlob": "47b76e973d3ac0402eb6d081e2f46f85cc4c3264",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": true,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/fx/fx_explosionblue.png",
+      "bytes": 943,
+      "sha256": "5ed05c18bfe83c3b8137a44b8b34181971006d509950187ed58f69e3df17d595",
+      "gitBlob": "db8f66b37c25289ba6c032135ef7180f53c5a269",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": false,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/fx/fx_f1_bbs_roar.plist",
+      "bytes": 14408,
+      "sha256": "919dce7348e963de6894643d9fb274faf653429c780c5266a6c3c3a3623de2d7",
+      "gitBlob": "9cb54a216ca9830a8bec3cf3402d59bfa6382b9e",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": true,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/fx/fx_f1_bbs_roar.png",
+      "bytes": 60729,
+      "sha256": "1d1a5a45fc8c87e476f22a895c38a3c7e1b70de339cc7409b87a852dba45210a",
+      "gitBlob": "babe550eee54ee260002b2807c4496a1b0903941",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": false,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/fx/fx_f1_inmolation.plist",
+      "bytes": 8364,
+      "sha256": "4fc82e4ebff8564d8edbf58c3858d17ff1520b99e7fc05c35030ef8acaed2357",
+      "gitBlob": "96b374e73518b708b2b7fdda9e7999089b857c3e",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": true,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/fx/fx_f1_inmolation.png",
+      "bytes": 7085,
+      "sha256": "45403e966d987bff25a9a4b565ae71faf944dfb03c6704133cddbe98124e4198",
+      "gitBlob": "652f3d1fa7d131d6e374fadd41b79cbea8531f4f",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": false,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/fx/fx_f1_truestrike.plist",
+      "bytes": 6415,
+      "sha256": "5ac728aaefb2fabaa6efb85d182297043cb867c513f2ba474a2c074045d7955e",
+      "gitBlob": "5daa7d28fc4068a0ced9e0fae333d2087639748b",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": true,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/fx/fx_f1_truestrike.png",
+      "bytes": 8710,
+      "sha256": "22964d74c0792b5d9de5ffb57c1f4adac29137bd6887235cd9a8c30556de9766",
+      "gitBlob": "5d466e005818714165bad3156599a3efd4141c91",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": false,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/fx/fx_f1_warsurge.plist",
+      "bytes": 7426,
+      "sha256": "e6a247a74c2581aa835b3edaa4086d4c59e197fd1a690c5c10a92f9b1f59d9a1",
+      "gitBlob": "b2b95715fc53c0edabe3004d61e11507b66c4dae",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": true,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/fx/fx_f1_warsurge.png",
+      "bytes": 15300,
+      "sha256": "e311b71b84ced7f691e0c46621580cfa08716232d8c7b59bef379afbcf07415e",
+      "gitBlob": "63b95c6a6ae78ce3656ef722d28dd3571d1c0c8b",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": false,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/fx/fx_f2.plist",
+      "bytes": 7749,
+      "sha256": "e8216038d01e168807f0266c673951b10a382834c309698f8dd88456318bd740",
+      "gitBlob": "40e4903537d776b3452f0b6c730262d0b109081b",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": true,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/fx/fx_f2.png",
+      "bytes": 1556,
+      "sha256": "7d952965971226fb78d5860ba8d508b900db4c19c1ba5659b28bd93b54ecbec4",
+      "gitBlob": "3231053ca3d89b2534a3a7657d9dcc40555fca93",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": false,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/fx/fx_f2_backstab.plist",
+      "bytes": 3242,
+      "sha256": "ec9bd691bddbe61741f6ae28e5e5d49c0bde71f6432072d27763e3bd59c428e3",
+      "gitBlob": "4102b21dc94cfb3937105277f5f38118125ecea0",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": true,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/fx/fx_f2_backstab.png",
+      "bytes": 1993,
+      "sha256": "6ff9e46378b23dd6d984fbe460358ec43a95cc60f047bcaab0cbbc8b46d53ee8",
+      "gitBlob": "f12468164cd42d5fcb3ed47bda62fb90b495ec4e",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": false,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/fx/fx_f2_bbs_blink.plist",
+      "bytes": 15851,
+      "sha256": "8b0c94be52ffeb67458c7e4c9237512ff437589f22736d459a295d7b89c4bb78",
+      "gitBlob": "ce31dfd2c755e7b742c693fcd129315a3b520e4e",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": true,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/fx/fx_f2_bbs_blink.png",
+      "bytes": 48092,
+      "sha256": "6dc802891ff3a8850f53fafd9feb538775dab651fefca49b77cde537d5baa9f6",
+      "gitBlob": "737d07b7d0187752e05e421b4a278f62b5a20fa2",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": false,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/fx/fx_f2_killingedge.plist",
+      "bytes": 15237,
+      "sha256": "13a912cb9475d6370cca9a8ad40570ab004deffd5d6ad3a924faefc1c7a85f4e",
+      "gitBlob": "6ed4d835d4d4888844f09364f2c7d64ce9389b84",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": true,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/fx/fx_f2_killingedge.png",
+      "bytes": 90833,
+      "sha256": "7c93ba27e87702c8600e3d01ccbdd3d552c3c4ac624473eb33913e2055a220fa",
+      "gitBlob": "7af1a65814774009a6912bd3fb2bedb22cffb044",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": false,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/fx/fx_f2_phoenixfire.plist",
+      "bytes": 13827,
+      "sha256": "1eadd9a8c9a2ec7ef920f562bb50bf512e8a59ff06d607f340e22b31e314cb5c",
+      "gitBlob": "7297e1c21cf5458161772fd67cf73f8fb522a70d",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": true,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/fx/fx_f2_phoenixfire.png",
+      "bytes": 23320,
+      "sha256": "2bfb95e84d86dbd83973bef255da7030d68ea871637c25ecbb5024afe5872226",
+      "gitBlob": "a4975598b735fd4181a57ec36f8709cdaa41debf",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": false,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/fx/fx_f2_teleport.plist",
+      "bytes": 3242,
+      "sha256": "0aafeb0970500e75727a3e99e88cdb7011a2dec3a177e6407da1f1a011a7411f",
+      "gitBlob": "7d7a74729da5d9597d49d22f11dcdc133739b4d2",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": true,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/fx/fx_f2_teleport.png",
+      "bytes": 1900,
+      "sha256": "28ce0d1153ec618994a2ee915eadafb1f79d861397e59c658f0527cffe02422c",
+      "gitBlob": "7e1359a0acad4dd4b4b447f2afd578a95249a66f",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": false,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/fx/fx_fairiefire.plist",
+      "bytes": 12911,
+      "sha256": "087f1a6547c5729e2a97f5b1af173ceb739b22ac37a5242f47626e6fa5066839",
+      "gitBlob": "f0b6da303b58b1fab6a47b5d9dd645c63e877247",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": true,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/fx/fx_fairiefire.png",
+      "bytes": 32566,
+      "sha256": "4646f866682358efe5c77d60cb72340d370e527eadb1a4dc351b84728f2c400f",
+      "gitBlob": "df0e8eae0c8eab211a62fd36ccc2af232f98bb33",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": false,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/fx/fx_firetornado.plist",
+      "bytes": 4898,
+      "sha256": "d7871bfdfe82eef0a75e9f821c1308cc29544d716815eaa7e8155956c1434c78",
+      "gitBlob": "779705af46d064733a74641cc69564165ea7cc65",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": true,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/fx/fx_firetornado.png",
+      "bytes": 3342,
+      "sha256": "25214918f1b16aec1ad25f3eea220b66760641c555f3ed3f78f92603cf0edd82",
+      "gitBlob": "941df927257ad43276773f92ab8ee25a088216b3",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": false,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/fx/fx_fluid_card_shape_puff.plist",
+      "bytes": 11299,
+      "sha256": "3d8cfcc30218b295c45bc0677f8a9c8fc53c7619bc40698d6b22638fa36e00ee",
+      "gitBlob": "1abb96a7b05fac08ca25cdea8f56955830d37349",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": true,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/fx/fx_fluid_card_shape_puff.png",
+      "bytes": 51013,
+      "sha256": "c0a4ce02a2b66fd2ba90c291429302c78043067d743bdb1a92621c1aca87d824",
+      "gitBlob": "db64e7b8111102d0406a4119c79d5ff7369dba25",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": false,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/fx/fx_heal.plist",
+      "bytes": 5471,
+      "sha256": "4d70c67e9135539a386ab4736a54482dfcd9a9def6a9b95b6d4c636c77dc52c9",
+      "gitBlob": "039a22147e86afcf04a1cf2842f4c1485eed6730",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": true,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/fx/fx_heal.png",
+      "bytes": 1048,
+      "sha256": "b110ac5711694cfb2edb8fde086b96926f75b0b20d3e4c104d8b74c753e9d456",
+      "gitBlob": "767d702dadce7b9063071f52e1d5c2857e4c5216",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": false,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/fx/fx_impact.plist",
+      "bytes": 6703,
+      "sha256": "77240abbea728e469f59fb1c71e1365625ff6e59325a7f12ff8af53f42c85fda",
+      "gitBlob": "415d3f7e958750f687f97833f71d3c05d98c5648",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": true,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/fx/fx_impact.png",
+      "bytes": 3646,
+      "sha256": "aa3f7910bdf37104760b2f42bfb8de2fa70cda15c0cf1bba92604c27580a568c",
+      "gitBlob": "cc748f139f9b5782ffa9e99cb9d42846aae4863e",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": false,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/fx/fx_impact2.plist",
+      "bytes": 4310,
+      "sha256": "a3ec30b9a6dcab2da42d19f9d9b1a2b6744502d72db3dfffac336bc70b39bda5",
+      "gitBlob": "1351d30f7cf7ac60f22c72cd0fdf512f4e347fc6",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": true,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/fx/fx_impact2.png",
+      "bytes": 1860,
+      "sha256": "6ec31fe23beaf19dae01f9b0a6e14c53c555ac7bf18406f9804026ee0266a028",
+      "gitBlob": "6a31fd7055c5d83e364222166678e0e592fde2a9",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": false,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/fx/fx_impact_verticalring.plist",
+      "bytes": 2909,
+      "sha256": "f13798c0b2c2a7ac63df72dfcdede132924da72af7e1673ee038faf171b0e956",
+      "gitBlob": "054a1db65a9c71c7a462deb50bcd8007c8dfaf4a",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": true,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/fx/fx_impact_verticalring.png",
+      "bytes": 1280,
+      "sha256": "745c43824ba500f2ce94c5bdfe013b345ad4c3be3fe1da18d12f4b21bef2139b",
+      "gitBlob": "29f4ef40092d7edcc91c1b8bf9abde415238fb4d",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": false,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/fx/fx_martyrdom.plist",
+      "bytes": 6630,
+      "sha256": "e374644845b2944899658d8670e3a7a9cf788a10eac98eee0af1ad0a145fcbc1",
+      "gitBlob": "9745f8b43e289819f238d6fbbfbeb32edecadd91",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": true,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/fx/fx_martyrdom.png",
+      "bytes": 11929,
+      "sha256": "191056b93e816c9c6810dbcd096a8a993b1f39260367a2f69686755a02b12d78",
+      "gitBlob": "9b0b824d07aed34062369cd7704f6f94cdb87457",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": false,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/fx/fx_plasma.plist",
+      "bytes": 3172,
+      "sha256": "f9887585355bf04384fece1e050a3759f9a750b448e535b55501fbb3f25ff622",
+      "gitBlob": "9fd60d67298950d7d7207af79b1af3191c03c437",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": true,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/fx/fx_plasma.png",
+      "bytes": 1180,
+      "sha256": "3c0d58fa82b9bc631183cab3db953195ff7569264e9c71ef5d3ff80fd20edd48",
+      "gitBlob": "c87301e8d98d00bda511cc9403c3ff41acc7297d",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": false,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/fx/fx_searingchasm.plist",
+      "bytes": 3883,
+      "sha256": "ebbc1e3711cccd6e1b8af8470420e9b5b376913fffd2be1b945d91afa2d0b4a2",
+      "gitBlob": "dc61270b483c23e46a246f754b42302358de3591",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": true,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/fx/fx_searingchasm.png",
+      "bytes": 2146,
+      "sha256": "aa7d19b8c407228536edbdcb96a209515c59a2c65e65ab8eb034d42f52eee50f",
+      "gitBlob": "fce0660cdb256679559982f11f4f9c878927c36b",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": false,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/fx/fx_smoke.plist",
+      "bytes": 9200,
+      "sha256": "549f702ee87cf0ad655a81ac9087c49a0a3d0f3da7c670c238326da5673b1e6c",
+      "gitBlob": "2cce7f39144e8196fd05dcddf1ec8d9143fc7d81",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": true,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/fx/fx_smoke.png",
+      "bytes": 2731,
+      "sha256": "d5e30f5ba031aef910560c356fddcd672f248fbb6e7f8e564b97d9fd8ac09e65",
+      "gitBlob": "692e7a603449738033ffce448f50343968f4fd3c",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": false,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/fx/fx_smoke2.plist",
+      "bytes": 3179,
+      "sha256": "1e23fa135325b6b773bc1cda57140b5cbec7f1e6774ae6889d8dfec2f6da9176",
+      "gitBlob": "8e39d16b05db002bcdbfa7fe6eb3c331bb772706",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": true,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/fx/fx_smoke2.png",
+      "bytes": 1069,
+      "sha256": "1babff98264310d4d90f8476676ae38746b1cded9f39f30955c07036107806e4",
+      "gitBlob": "49bf2ef5f9adf42c201c20dce2cfbf7b8f32206c",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": false,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/fx/fx_summonlegendary.plist",
+      "bytes": 9624,
+      "sha256": "150bc9dcea9ad1a7ad94d962e7e0850a859d13638fa6ccc20b07da8b704f4a00",
+      "gitBlob": "dab5e9e2958dd033e162a79ea1b310dd0a319dfd",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": true,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/fx/fx_summonlegendary.png",
+      "bytes": 12600,
+      "sha256": "4fc9064cea2401d04a44ff9c6dfd2206df8e23f837a1a192117a823c6f59f9ef",
+      "gitBlob": "b9250ec8f325a98e54709ebbff8097bfed2a410f",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": false,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/fx/fx_swirl.plist",
+      "bytes": 2823,
+      "sha256": "6eeee409aca5be8c3bf4cf3f34769c5a60ec8b2ec4b59a90c468fbc6b251864a",
+      "gitBlob": "cb838e5c6df16f155f12450ac6e23f6f5e05a360",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": true,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/fx/fx_swirl.png",
+      "bytes": 846,
+      "sha256": "99b3a639fcd258f0b079690597ff90dc33bf45e3936d0c70c0af94b6210dd72b",
+      "gitBlob": "816c29b1fa66701a60813b1c56531e41c4fcfac7",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": false,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/fx/fx_teleportrecall2.plist",
+      "bytes": 5300,
+      "sha256": "9e75a34d703dae9b4b85d0dcab82acf028a8da7ffdfb3a32f535ef5c8a33dc8e",
+      "gitBlob": "1142b1a16fc57468ca444dfa580642980d1c9945",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": true,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/fx/fx_teleportrecall2.png",
+      "bytes": 2601,
+      "sha256": "1542b4042888690831e67d2c13b78a953b6040eac43b32fb983b49690c84c35e",
+      "gitBlob": "4741ea1a9a0bc4665d2c88ca1be1736ff4c67f5b",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": false,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/fx/fx_teleportrecallblue.plist",
+      "bytes": 5345,
+      "sha256": "1b64aa24542ea6eeb03eb219ce95430e519fa2fa3ab40a81d946d51f778bc70b",
+      "gitBlob": "42a64768e98c32985e2fac1b22d98be944ed374f",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": true,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/fx/fx_teleportrecallblue.png",
+      "bytes": 2436,
+      "sha256": "d87e85fa0a7334d2750a6415114f93093fbe9689effb7e31fd1df60f67c719d8",
+      "gitBlob": "a92013d8cae712ab17f8b38cc9fd272fb441b55e",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": false,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/fx/fx_teleportrecallwhite.plist",
+      "bytes": 5360,
+      "sha256": "ec8fb88d9d61c13934900b57d5930982e65a4ed6f0736ffff9a7d7965d624a49",
+      "gitBlob": "0f1134fd27c6fc401197ee54aa173ef2c2d693a1",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": true,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/fx/fx_teleportrecallwhite.png",
+      "bytes": 2436,
+      "sha256": "3c65437346e1eb3d0f0a34342c86fcaf90148a3d63fdb262efd623b9a7e18838",
+      "gitBlob": "f362b8c4271cc080237895c5ded5f2d3e68a03e5",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": false,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/fx/fx_winner.plist",
+      "bytes": 11411,
+      "sha256": "2b16cb3befff93df1852ab655f86bc784bdae4209a0427ca7acda544bec41480",
+      "gitBlob": "1bf7cb88f329fcfb8b4c4a1320cf2e887b1b083e",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": true,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/fx/fx_winner.png",
+      "bytes": 45656,
+      "sha256": "67e25717688723b61d3a54fbefe3c2abb0dc553a7209854e0f50d09c0f6cd3a0",
+      "gitBlob": "743315d94f481dfe146d415a53460f57e965b5aa",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": false,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/icons/artifact_f1_sunstonebracers.plist",
+      "bytes": 11236,
+      "sha256": "f690968daa7f4f4fae64d6b40a737ab0f5895cc4b3f669488dda3d7f2ce27183",
+      "gitBlob": "533a5978b16ba35558af22239d8eb0db5820bded",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": true,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/icons/artifact_f1_sunstonebracers.png",
+      "bytes": 6831,
+      "sha256": "d657226ef9d9af978622ab6a5bd0805bdd73a120edd9a5b597f04c9dc4096009",
+      "gitBlob": "5ab35cb11de230699900333335c8a00655ad8194",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": false,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/icons/artifact_f2_bloodleechmask.plist",
+      "bytes": 11205,
+      "sha256": "a36d8d8469f81d7af18c790b423d63c12f4514455b0304f2a16a76b1e514a426",
+      "gitBlob": "7a85ff281f344a422c1267d476d77621b7749811",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": true,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/icons/artifact_f2_bloodleechmask.png",
+      "bytes": 6990,
+      "sha256": "f877fac822895d8c636f6ed94e5d5eba0a2361ee23d698cea04d9cb90a7729d9",
+      "gitBlob": "64d71abb6411c26e52f0fb129ee8b20b2dbf4ca1",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": false,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/icons/generalspell_f1_roar.plist",
+      "bytes": 11691,
+      "sha256": "9e41a6866bbef0345b6c5a5582da96efbe50e08d987f6ecd7a5354643e384a94",
+      "gitBlob": "c4c72a5563c595909a19cd4529084d1501858aa7",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": true,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/icons/generalspell_f1_roar.png",
+      "bytes": 4656,
+      "sha256": "008e220c1583cc3fe5c40c12f2bd045b2da6b1fd182f7460c51666cc97f3f1b1",
+      "gitBlob": "fd814e76dcfd59d9f8d03d0692dbd1e82e5b490e",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": false,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/icons/generalspell_f2_blink.plist",
+      "bytes": 11726,
+      "sha256": "9b6a0f9e587e55e9b4662a783409547e80e037b57d60639c871a8a71ee08fd5c",
+      "gitBlob": "4469efa094daf8f483b49f846ba08deadb2595a9",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": true,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/icons/generalspell_f2_blink.png",
+      "bytes": 6323,
+      "sha256": "bbb46c2682fa15093d3d0300f8058bc34e60c1571eeceba307a7cbd0e64345c5",
+      "gitBlob": "92a97b04ab45017cdda51a23acbde2aa1a31bd69",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": false,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/icons/icon_f1_truestrike.plist",
+      "bytes": 8539,
+      "sha256": "ac2a2583616d047d49fc1a7bac7593e7ccbf6db114afec9013e2d492eb9fcebf",
+      "gitBlob": "a62145b2a267a3f75ddde3fdf8eb43ecbc6297a6",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": true,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/icons/icon_f1_truestrike.png",
+      "bytes": 4073,
+      "sha256": "751c6e0b0a735c29424e83026f1f1f60a04d4fa19ccecacbe804b12d04032390",
+      "gitBlob": "be40f7e315adfad1e0b1f9feae3535fdc9db1a2c",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": false,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/icons/icon_f1_warsurge.plist",
+      "bytes": 6737,
+      "sha256": "cdc2bf7bb3a6bab313a945fe11a507a70932dbd2a99b6a68215f73f652ff409e",
+      "gitBlob": "f740533ff35651d39e53bf140f552aad50db107f",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": true,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/icons/icon_f1_warsurge.png",
+      "bytes": 3587,
+      "sha256": "6ad45d62ab8ce175729835288d6592dcb44b8f75c5e44372b086ea724d19a6c2",
+      "gitBlob": "071a16c130b0607e12e84aae58daec2b578204a5",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": false,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/icons/icon_f2_killingedge.plist",
+      "bytes": 6092,
+      "sha256": "218c1f5c535b3c8bc920575d283d28fa3de4cce0b18f37bb9df5f57af8ddf495",
+      "gitBlob": "1c1e1812a44f1c0faaffb2b09d7087bda803e200",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": true,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/icons/icon_f2_killingedge.png",
+      "bytes": 4305,
+      "sha256": "fbec3eb1caf84ae0728e643c985c2eab301e1512e0e19146fa96f28abc39c6f0",
+      "gitBlob": "82fdff799dea964679869fcfd512ec93516bf129",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": false,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/icons/icon_f2_phoenixfire02.plist",
+      "bytes": 4343,
+      "sha256": "5800e5725623b2a29ab950cf14bbf3b33eeac56588275e2a660da8a7d952b160",
+      "gitBlob": "85009830a74c5801733334d3a2d72279c3e3c808",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": true,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/icons/icon_f2_phoenixfire02.png",
+      "bytes": 2841,
+      "sha256": "605c005caf2a80492ba6a1a8a9b6a08b348aca7170ad9f3d2c724d4676f90c92",
+      "gitBlob": "2f67374a96cb72e2deebadd9ccfd5175f4a9d8ca",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": false,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/maps/battlemap0_background.png",
+      "bytes": 281749,
+      "sha256": "f94f87379a822d6574cb28999688147118cd6aae7eaeae002bbb7aad56ef7f19",
+      "gitBlob": "a4f9b3e9efeeeba681d647252d22fc46186e885e",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": false,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/maps/battlemap0_foreground_001.png",
+      "bytes": 27544,
+      "sha256": "f12470fce0fb8e0285e9a3ed672109f162f1aef6ff443a0e880db06416a39946",
+      "gitBlob": "271a4507ad227676eb6d4d0bffc038522d14d536",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": false,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/maps/battlemap0_foreground_002.png",
+      "bytes": 268372,
+      "sha256": "f6ab35fc632deff73de13539acbf2e9be595d8c6abfc25f5251e4a4269c4d79d",
+      "gitBlob": "ac455728c93101eca6a39b038e7f5262a810efd8",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": false,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/maps/battlemap0_middleground.png",
+      "bytes": 1687197,
+      "sha256": "b250908b819673c40e2c500784092f427aca5e9ef816e32f10af80375d7183f4",
+      "gitBlob": "fa85b13671e4aaea5f0514be14ccc2c7b7b6de7c",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": false,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/maps/battlemap1_background.png",
+      "bytes": 487731,
+      "sha256": "046f3705ccb80e024f72b53e7d7a2f7c8e9c73bf7fae6b70821e49157c63eb2a",
+      "gitBlob": "9d56a1653fde73a6463db1eae54985ee34af6e81",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": false,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/maps/battlemap1_middleground.png",
+      "bytes": 783568,
+      "sha256": "2a60725a13400a3ed946f00f0699de37346cea4c66a327c7390d2126aa1dbf18",
+      "gitBlob": "b2046756f4ff68d0a1bd635853deab9ad6061cae",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": false,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/maps/battlemap2_background.png",
+      "bytes": 156415,
+      "sha256": "2503c3a038a9ca9209e78004535b4d173211346db82510a5b0087008b5c99481",
+      "gitBlob": "77fa2422e2c9c6c716ead7e7049ed43046173f9b",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": false,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/maps/battlemap2_foreground_001.png",
+      "bytes": 48452,
+      "sha256": "162e432dee4007e9c7714b8d7c2bd3e2beaa0b350c9638623b6b96256882493a",
+      "gitBlob": "ae304fe132fab464ccc147e0255a160954bfe8b3",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": false,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/maps/battlemap2_foreground_002.png",
+      "bytes": 47653,
+      "sha256": "351face867cc263b5c8c906764da630241107626d26de497e91f4feca6d21489",
+      "gitBlob": "4f62960b217fd2d4967af6f114d69aaed9e4c82c",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": false,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/maps/battlemap2_middleground.png",
+      "bytes": 992372,
+      "sha256": "5637607018a2fd38d9d514956db95c1ba84e9bae5329b5f39b273b87eaf83558",
+      "gitBlob": "fab25967c86786dd09d216cc8e504ef7c4cff59a",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": false,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/maps/battlemap3_background.png",
+      "bytes": 514968,
+      "sha256": "4195214c8dc01a6189a802dc2c9cf7d1c561d00e74502fd82624660f40598f51",
+      "gitBlob": "9874c84d9684ecc98c7e0ea9669e521ddb6aef72",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": false,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/maps/battlemap3_foreground.png",
+      "bytes": 38943,
+      "sha256": "1eea26f2df655b7637dc6998a07d3fcb5d5902784993968cf96e710d96253765",
+      "gitBlob": "034f12ac3a854713063a574ad3af7d1a5ee7d331",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": false,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/maps/battlemap3_middleground.png",
+      "bytes": 981118,
+      "sha256": "e78cabc188d76caa145aac9528c82fd0d446927180dd61e8f3f7f997a5e0821f",
+      "gitBlob": "3e3511c5f28ee046014e4e401062a75e666ec2b6",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": false,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/maps/battlemap4_background.png",
+      "bytes": 45524,
+      "sha256": "324535a9c29ff6328889ec6c54515499841de5727883598f26f7d72ad4e2cb45",
+      "gitBlob": "b2ea8d94e30e2408ca83f87981a84245f5affc6a",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": false,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/maps/battlemap4_foreground_001.png",
+      "bytes": 33081,
+      "sha256": "d580537638e727242f450a64018199a874fef0d511cc4a99c03b924b8bf7cf33",
+      "gitBlob": "9f49fe189ae563008c3213ed71fb576010ed4568",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": false,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/maps/battlemap4_foreground_002.png",
+      "bytes": 38896,
+      "sha256": "99adb6328c9a1f7aed339d286f226cbbf12d0df43c4bf640a6e82db06d5b42ed",
+      "gitBlob": "635f534de7aa90be82e9d1fb79bcbb2b6749e70f",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": false,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/maps/battlemap4_middleground.png",
+      "bytes": 1212443,
+      "sha256": "8e965c178b4c15e59ce80e69bcafc9ca39162ccdea2d414ca002e14a2c9aefc1",
+      "gitBlob": "bb3fe56c924e78ca45f822cb7d64a23d8c1ef067",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": false,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/maps/battlemap5_background.jpg",
+      "bytes": 132159,
+      "sha256": "5b3a64eea773cc861347b0810efc1237fb6130c5eaa79485c08b4c348e9dc160",
+      "gitBlob": "d5c3301ad5ddd290c05a993def98704e7a663371",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": false,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/maps/battlemap5_foreground_001.png",
+      "bytes": 233988,
+      "sha256": "cc41fc1c85d5a868f4be2646bf00101dfa10b8c9733b4e633968311365b34120",
+      "gitBlob": "76aa45c6a27d82646391227a6b7860f938f9b4ea",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": false,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/maps/battlemap5_foreground_002.png",
+      "bytes": 46458,
+      "sha256": "ec51772ed82d647964ec109058dacbbdbf8117d85dd04e637d58e0b8f72334c2",
+      "gitBlob": "ee2871a40f08b53a9560cbb9ccfc906de24fafc0",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": false,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/maps/battlemap5_middleground.png",
+      "bytes": 1490782,
+      "sha256": "b0aca6261f28cdf6a4e2b50bef754171fd32de742817002dc981a49722d0f5dc",
+      "gitBlob": "eca1bc2cd4204a5ca591dda293449e1a8c1bb9cb",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": false,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/maps/battlemap6_middleground.png",
+      "bytes": 806478,
+      "sha256": "655a62325373bb317eddc58b91f2edfd31f18ac9cdbc853fba67839362add00c",
+      "gitBlob": "967a7506a32073c07985f43be4c5c686f75f3460",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": false,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/maps/battlemap7_background.png",
+      "bytes": 377521,
+      "sha256": "a9e0a5c58aa91f7e83ce1ba23050520e3eb50bdcc78589c3b4e6b309124ec6f5",
+      "gitBlob": "c398e86404d069b782e1367b94ff5b849cc6ec08",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": false,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/maps/battlemap7_foreground.png",
+      "bytes": 46172,
+      "sha256": "b3783043c042ed420e23c9f8714693e5b9af7620cff844456b2480c4b4dab29e",
+      "gitBlob": "2b565113daf64a60193d1a2ce6f21e0d231c86ed",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": false,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/maps/battlemap7_middleground.png",
+      "bytes": 1980800,
+      "sha256": "6cabefd6b2cf9f539135abfc414eca7aa8dd1ca4f8c6bc6f025df7330eb1c49b",
+      "gitBlob": "66587f932886a1203b0f600055ed3f2205bb1ab2",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": false,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/modifiers/death_watch.png",
+      "bytes": 1885,
+      "sha256": "6fb35f53d9bf908fd2cb832180cf15f63ab6bed7ac1cbc5417f538e507ffac30",
+      "gitBlob": "98d35a08ef6ae53a369f9989125c06f64413f66d",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": false,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/modifiers/triggered.png",
+      "bytes": 462,
+      "sha256": "f24885af5392dd44b1b67cddbc3966db029b2b6e569e15b1e47f03b124355b39",
+      "gitBlob": "aa7751437108566d358a13f7a220e764bc1b0024",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": false,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/noise.png",
+      "bytes": 12445,
+      "sha256": "59eb82ed6c888fc752f7ea0a13fbdc50bed1bddc3f4beaac0269eb88ab82c882",
+      "gitBlob": "40d538b5f77ee66d7db3d36061d46df75c0b21fc",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": false,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/particles/bluedustfloating.plist",
+      "bytes": 5749,
+      "sha256": "bb5050f667a0d57bfd02ea47a064a0c62f0c43b02ed8c5333f012c9ad83046c6",
+      "gitBlob": "c3663bf816367d3064b77231bdbd88d1b8d585ec",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": true,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/particles/card_appear_particles.plist",
+      "bytes": 10446,
+      "sha256": "2b789c6e48cc49dce8c0b533b017e4893a945c6b896627d59d2bc7453bef5d84",
+      "gitBlob": "7fe959552e777b2b80545dfd8ad9d0c74a4bb74e",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": true,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/particles/cloud_001.plist",
+      "bytes": 3099,
+      "sha256": "38510954430f6c7f219fb70f4ca76edd85808b1b79b7ea1983d9fad01994f7d7",
+      "gitBlob": "15125958fd32d2cc2cb426c74249b1c4b65ae4f9",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": true,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/particles/cloud_001.png",
+      "bytes": 25861,
+      "sha256": "b9ac90197c556204873b7c6767107f4ee7b3516dddccb6d2c36bfe44024bf802",
+      "gitBlob": "a9c16175d6c34c81cf8cd63dee3014fb58c41f62",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": false,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/particles/cloud_002.plist",
+      "bytes": 3099,
+      "sha256": "a33211f98aa98594d276ed24ed7ccc16c0ac299b1167f6813ea9491bf7d53aeb",
+      "gitBlob": "28fb21ec0c07d711426ab7bccd8bc8e235061fe6",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": true,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/particles/cloud_002.png",
+      "bytes": 217103,
+      "sha256": "1691c1aa6cc6928e43029e5748a577d20d775c14ce6548cdc0cb4be6c9439942",
+      "gitBlob": "1d6a562c424545be2fa16a5eaccf5ec993f2fe4a",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": false,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/particles/cloud_003.plist",
+      "bytes": 3099,
+      "sha256": "babf3a6331fdfaedabdfd0798dac4a81999656450afe7b89dcc864f8b103e8f3",
+      "gitBlob": "0bc7bb4dc4c08e840dc7f31f3d3b60dae2ceb2a2",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": true,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/particles/cloud_003.png",
+      "bytes": 42672,
+      "sha256": "c6c290b5c24f2fe8b405acdf46193a1ea218cdbe9b245953110c2374cfcc509b",
+      "gitBlob": "79e822ac562573c467644354ee3472d192776633",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": false,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/particles/cloud_004.plist",
+      "bytes": 3099,
+      "sha256": "bf4fc6545e8eaa426355428c8371d17857686b5601bfb9071feb90be9e5f769c",
+      "gitBlob": "54be5c8acccce8740d1bb3198b990114f1341c2a",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": true,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/particles/cloud_004.png",
+      "bytes": 93895,
+      "sha256": "70f7d290b607b05d4958297f4c8cdb6f82fabaa8a0529a614bc28af8a986abcf",
+      "gitBlob": "3750f9c94fd77c333259ba2cfebbcc57024de707",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": false,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/particles/cloud_005.plist",
+      "bytes": 3099,
+      "sha256": "df168bfa0347893090e050d2cf2cb26eb5bcf82b7ea9ecc285f3cf4b34796ac0",
+      "gitBlob": "e0942b46bb0b80c4accb8d09188359fd586b61b9",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": true,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/particles/cloud_005.png",
+      "bytes": 36767,
+      "sha256": "ebbf5e40f71592a787682e1b44246eaf8325702487476cad46088420621c2c50",
+      "gitBlob": "bf334c7f3e20df57acaf8f139e17040fb780d7f5",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": false,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/particles/cloud_006.plist",
+      "bytes": 3099,
+      "sha256": "0811302f9e65490aee93b4ea64286a8d197d5152efee6f87d08257c346bf6ea3",
+      "gitBlob": "aa3d247c8e3e6f368b612ec8ab5454bf605bb1d5",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": true,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/particles/cloud_006.png",
+      "bytes": 73121,
+      "sha256": "70c6b94d39ce8bb42a29a48dd3d3870cbdd96f9c8fef3ccb862c091894946a4c",
+      "gitBlob": "40d77d515014047bb0b3727aba91dfdcebeba09e",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": false,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/particles/cloud_007.plist",
+      "bytes": 3099,
+      "sha256": "46331ea5f42d04acb7f4163a527b4f5fbbdc041ed7c5b0e7649dda351a021053",
+      "gitBlob": "9fffa739dc44f5daf58dd23b2208839eba92c5fb",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": true,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/particles/cloud_007.png",
+      "bytes": 42800,
+      "sha256": "528d386c8e0b59ef2fa045ca16ace2eec06e219cd78bb5fd9fe685a9a4589399",
+      "gitBlob": "175ca8c8d843f3a94cc567029aa275eb058f5d28",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": false,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/particles/dotselectunit.plist",
+      "bytes": 4807,
+      "sha256": "a74d190a4c5705e701ae1df179941bfb6bb214a59bd661c844c69979f5af299f",
+      "gitBlob": "6c1539ce51695dd9bcb6b4e43192e50497b20d49",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": true,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/particles/dotsquaregreen.plist",
+      "bytes": 6963,
+      "sha256": "d330551c8168ca6e566b00dff5cef32cb922cbe42cb454002ce5638895b04cde",
+      "gitBlob": "8541f1ea5471ee7bb867701874b76bb7c7c10aae",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": true,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/particles/fireexplosion.plist",
+      "bytes": 2936,
+      "sha256": "bcd498ed58aa7b1d4c61f6eb220925a4fa78f4c4ec653e17bc47b7bc17868a2c",
+      "gitBlob": "bcdce7993571ba36aa2f881a22bb123f4d8c91c7",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": true,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/particles/fireexplosion.png",
+      "bytes": 660,
+      "sha256": "01d121337344990db3683d502de96f60bb3966d68a67e4c39ed1392824ce0597",
+      "gitBlob": "6ab7cc1f4caec812ab5e22f2422b7a3241c2f475",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": false,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/particles/maelstrom_dust.plist",
+      "bytes": 7659,
+      "sha256": "42f20a5f9db21832282edecf93f935eeffab8a1a4db49715a8771c97c101010d",
+      "gitBlob": "dd978d5d83fb4334f8c2be48dbe35b0605ce3fe5",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": true,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/particles/manaspring.plist",
+      "bytes": 3024,
+      "sha256": "fb19b05b0a2ae900b0941fed26765890301bfba03bb3ca49c433bc5944d708a7",
+      "gitBlob": "1e912f9513db1d5ffca950ac3381e32201b55e77",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": true,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/particles/manaspring.png",
+      "bytes": 175,
+      "sha256": "c83032ad3dd85428d6f7056391132d26dee47760de919b235732b4b882af0542",
+      "gitBlob": "6981f7d843345e9084bed6cec6a276d02523b1ec",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": false,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/particles/manaswirl.plist",
+      "bytes": 2829,
+      "sha256": "f3ddc11d5aecf629b4cb47bcc2e53bfbeea14e67e81ba023c733d7bb5ea097ea",
+      "gitBlob": "d2df3ba81c08af69e31fa96ac0c8da759d5f1c23",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": true,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/particles/manaswirl.png",
+      "bytes": 175,
+      "sha256": "c83032ad3dd85428d6f7056391132d26dee47760de919b235732b4b882af0542",
+      "gitBlob": "6981f7d843345e9084bed6cec6a276d02523b1ec",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": false,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/particles/pixelpuff.plist",
+      "bytes": 9328,
+      "sha256": "eb722dc18022112c9a9a8ad810ebfaa177ba203913fc591eaf45a701de289b70",
+      "gitBlob": "0f19b5f95cd822a3d5dde904053cb3b49ec27f57",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": true,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/particles/pixelteleport.plist",
+      "bytes": 9331,
+      "sha256": "787250b21edf0a143880ef7a634effe1171fa8dac796918f0bd88b28264f872d",
+      "gitBlob": "d9dc5f07a9235ee74a32aa446ceae79009b48cf8",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": true,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/particles/projectile_trail_particles.plist",
+      "bytes": 2782,
+      "sha256": "0c6b5123bc8591bcf6f858a0be2bfa9865e99d1c0d57a6dd51d03d730a128188",
+      "gitBlob": "ec3d34869b97478ebee506b0a75666fea9691c9c",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": true,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/particles/projectile_trail_particles.png",
+      "bytes": 18787,
+      "sha256": "b58d809252a558aa9980c46b17c22da3bc512ff0f630dd21b3da2dcf2c93ec7e",
+      "gitBlob": "7eeb4271d133558fd344bf05ff87deb18b262863",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": false,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/particles/rain.plist",
+      "bytes": 2964,
+      "sha256": "0447e3c0a845110f581008922d46de0d116ec589684cfe9170b8c89dbc4f4748",
+      "gitBlob": "20cc914527d62d90c6b0da0a81d20b606d2e56a7",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": true,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/particles/rain.png",
+      "bytes": 76,
+      "sha256": "f8bf6685723b611d74ba6bee7218775150033bd8e13bed5ddd02abd2838f2d16",
+      "gitBlob": "8ab0f291035f7deeb99c9c1eae2499487634c5d2",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": false,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/particles/rays.plist",
+      "bytes": 3719,
+      "sha256": "7d5cbb1e9b352132935bef4a5d3546ba5cd3a73f56027593e144619cadab1c5b",
+      "gitBlob": "386c9c476f7c6cc905a71b807fc03b96d99b4884",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": true,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/particles/rays.png",
+      "bytes": 63271,
+      "sha256": "3e93672c81626c2a0c11c5350adf440c4195b10e4cb7b4b1592ac8bb06d3a55d",
+      "gitBlob": "a8b70fd5439b4598deacb0999bdaffd1731ed4e6",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": false,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/particles/readiness.plist",
+      "bytes": 2931,
+      "sha256": "119e0efe800b71d6ce7d0b6eaf46cc8aa950eeb6eac349ec80de9670328c187b",
+      "gitBlob": "5898da90d072e32c4bbfba7c6f8929edb08bf9da",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": true,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/particles/readiness.png",
+      "bytes": 3065,
+      "sha256": "4dd51ab05acaebccddbeb29fb5489fdb4e5ae2fd48067e532aa4ca7939690fda",
+      "gitBlob": "799f2b5ee51f1d63c9ba3b497244bd87e1161db5",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": false,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/particles/ring_glow_circle.plist",
+      "bytes": 2746,
+      "sha256": "11b50708b7b59f21445f610ebe804751eb1111a943f4434e49b57a297678eab3",
+      "gitBlob": "ed04ee32e439d6035618bd1ae64bbe9c53c5767e",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": true,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/particles/ring_glow_circle.png",
+      "bytes": 4170,
+      "sha256": "9b1fbba1ea4ac204e06980d33dafcac92bb97f36a7a19c94e7b51f9a2792b2fb",
+      "gitBlob": "717c9b3e1c53e46d677515171739ac98ab7d0dfc",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": false,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/particles/ripple.plist",
+      "bytes": 3024,
+      "sha256": "adbc32f59071af448b3f6a1361a0d346075afbaf35a1caaa7abd021f5bd44b2a",
+      "gitBlob": "9ca53da27317a4fcf92f8fd4821454e2b8fc6166",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": true,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/particles/ripple.png",
+      "bytes": 224,
+      "sha256": "829042fdcdf40ce1746d6d9a4df12e8e869e61391cfd8e94b88b16cf046161ac",
+      "gitBlob": "6d2023f99e9581b6c37e7884c8f9ad8c92366cab",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": false,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/particles/snow.plist",
+      "bytes": 2920,
+      "sha256": "0ed09e9f613f94b3b809fe7101e5cf1626748da68a51e8cbe81fddf8c64b58aa",
+      "gitBlob": "bb5dadd436f9364db86c173f0cd34ab19c1e5bb0",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": true,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/particles/snow.png",
+      "bytes": 175,
+      "sha256": "c83032ad3dd85428d6f7056391132d26dee47760de919b235732b4b882af0542",
+      "gitBlob": "6981f7d843345e9084bed6cec6a276d02523b1ec",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": false,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/particles/snowground.plist",
+      "bytes": 2919,
+      "sha256": "75b604405aea127aea19a14d2fa9f67eec6fdfcd43dbd543a298d1ee42f63dc0",
+      "gitBlob": "aa2facc94057d7f3a05a9dbf0c83ed2798daea73",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": true,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/particles/snowground.png",
+      "bytes": 175,
+      "sha256": "c83032ad3dd85428d6f7056391132d26dee47760de919b235732b4b882af0542",
+      "gitBlob": "6981f7d843345e9084bed6cec6a276d02523b1ec",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": false,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/particles/snowsideways.plist",
+      "bytes": 9984,
+      "sha256": "23e759d83ca6c1291be14eed3945a714cdf6a5353756db3cf2dd2b0728e1ff8a",
+      "gitBlob": "4136d3717ca10ce2b112d60c9b9c26a3a4ec97ea",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": true,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/particles/soot_ball.plist",
+      "bytes": 6630,
+      "sha256": "33d62b57bafa7df699fd8c747df8eef1566c49f3e5c51b6e744854275e6bc62c",
+      "gitBlob": "0b760f20fe9278aa5c8e84a8e541a878bd86db87",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": true,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/particles/unit_dissolve.plist",
+      "bytes": 9260,
+      "sha256": "c692ad1d9a4a36dbdb6fd4280f476a8ecbc0109463b38ecf798ac9c347588517",
+      "gitBlob": "3a326d46973dbe8c17ddacd8e9c0d4c7d79af553",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": true,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/particles/victory_decal_fireworks.plist",
+      "bytes": 2804,
+      "sha256": "e404d1c469786b53e72e475206029994e160ee3c6adab3534908c1fd2bf53dd3",
+      "gitBlob": "37a10b323881c58fb7c0c060555228f3e0d88215",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": true,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/particles/victory_decal_fireworks.png",
+      "bytes": 1282,
+      "sha256": "42aaff7368591bce684b3cf629ee3d08aac07bd88a9f02530895054950e7ad5a",
+      "gitBlob": "55e39fe1595193238c1d33f09d486b7ba5820ac7",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": false,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/tiles/tile_mana.plist",
+      "bytes": 1798,
+      "sha256": "626afd7e801d539d23d06f4a77c637af06cf636c6fba7067427928be6b339735",
+      "gitBlob": "eeca51f4dc2dc1ef7c5e926d57df690ebc1b7704",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": true,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/tiles/tile_mana.png",
+      "bytes": 1294,
+      "sha256": "9fbacc8e78409e93db400653b12c1176badbae29d497d4f8a962ee6e75a7d38a",
+      "gitBlob": "8362c71f37f6d6da6173c9b9d32eda18143407e6",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": false,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/tiles/tiles_action.plist",
+      "bytes": 5196,
+      "sha256": "d9c2205f764781b993a908f09e041087b1a5b247f846049df47816c34c2150b1",
+      "gitBlob": "8622d1ed5067f2fdae7c8c63d417d64f1c778beb",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": true,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/tiles/tiles_action.png",
+      "bytes": 19088,
+      "sha256": "78fdbf404356eb1ea629da7c8071c85db54f8dd0300db247ad0692b3a2ea37e3",
+      "gitBlob": "c9eb22378dfb8cb560cef0b93271027e31e84c05",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": false,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/tiles/tiles_board.plist",
+      "bytes": 12183,
+      "sha256": "7e71eca85288852f44bf9a8a70071ef35893abf66ddbbfd42f94dfb35c822b66",
+      "gitBlob": "a41e7e98a725f9dbde96b96594a7693f291d6a11",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": true,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/tiles/tiles_board.png",
+      "bytes": 13550,
+      "sha256": "707dea6f084f9677386ef2143f523b0686897726935accb76770d22719a84ec8",
+      "gitBlob": "4538dc445d84c3c5f0b98c9b8cd8d766893b30c2",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": false,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/tutorial/dialog_plate.png",
+      "bytes": 8709,
+      "sha256": "e44f62aaa37ad89bf0493d44fa42ee6cb1fd6739731a92c97e2642d023922541",
+      "gitBlob": "80e5859b783c88c849ff12da0c9358d9da4ab7b9",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": false,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/tutorial/dialog_plate_glow.png",
+      "bytes": 10487,
+      "sha256": "c0f4544e6388a0cef2308c03252618e2aa04758aa1f7eefe38be0558433f9b9b",
+      "gitBlob": "a54c5da759ba1f10746e45f53fb860a7e2f64de3",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": false,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/ui/artifact_durability_point.png",
+      "bytes": 334,
+      "sha256": "d76f625b03268e51c4d7905e3f38a49063d5d73c5b3d95ed7e0106947f0b9337",
+      "gitBlob": "10b6f680c1e76c162e56655644df730ae2c80e63",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": false,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/ui/bottom_bar_background.png",
+      "bytes": 6878,
+      "sha256": "ccebf5004e6f5899442a4360fc20da94079b0bebd2cd9243c30af179af3e7268",
+      "gitBlob": "42fdd255137e9b0cd8c645c82deca7aad0b32946",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": false,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/ui/card_background.png",
+      "bytes": 2080,
+      "sha256": "796ba1d61dcb51840b3edf86c8faf19cc3ca947fb3c363a1d9c42d0b900e6cbd",
+      "gitBlob": "86c0ed441ecd58d3dde750e05d3338cc1ff7c7d4",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": false,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/ui/card_background_disabled.png",
+      "bytes": 1516,
+      "sha256": "11fe6f68e18b8df9305a7ba8145ffd99621b2032a50486724f4120e42cb65fa3",
+      "gitBlob": "bee72aae0003342e597bad3f76d4d65a6d0737ee",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": false,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/ui/card_background_highlight.png",
+      "bytes": 5099,
+      "sha256": "99fc706d52ca1faff11fe7d03e34bea0453cc5b7bb163c6b8d83f2b7a0ca2e69",
+      "gitBlob": "d3158632c3c660d6af559cd14f4012fe8bff400c",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": false,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/ui/card_background_replaced.png",
+      "bytes": 2416,
+      "sha256": "ed49cb21b5bce58f8c3e5d06ddf6761efa530c9b9b25aec267e17bd2347d8bbd",
+      "gitBlob": "de02abdd269b896b058a3ba236d1a93084c0496b",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": false,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/ui/card_silenced.png",
+      "bytes": 12396,
+      "sha256": "a94bfae0d9d5f79704008831a8483c507528fb5a48e56370f8fff4aa30864616",
+      "gitBlob": "7b1d7618168cb3d93207461e9d8d334fb2ae6416",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": false,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/ui/collection_card_rarity_common.png",
+      "bytes": 23710,
+      "sha256": "7a3f3c4c470c48f9ac424a2c8c08f089dc5cf0c8b1d98a890b2155f81bf229d3",
+      "gitBlob": "9b1a5254ea00609f98cb5e040647b22f09d30180",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": false,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/ui/collection_card_rarity_epic.png",
+      "bytes": 23495,
+      "sha256": "90722127ce1fc73888dd743c575df6813d919dafd51e516c5c2d0e661590de7f",
+      "gitBlob": "950973c1f6b877d083f0f16182460c4a1cdbd757",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": false,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/ui/collection_card_rarity_legendary.png",
+      "bytes": 23632,
+      "sha256": "0a55e66177219ab17874ff7b60b15b1f1afba53bf14af727fdb640003128bb6e",
+      "gitBlob": "c5a1aa1d0dd52b60ba2e6b9ff869f565aaf5fa0d",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": false,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/ui/collection_card_rarity_mythron.png",
+      "bytes": 2266,
+      "sha256": "d40f6b08a5b7c875a31af2670dad167d092c60a3a307176d307b247c171c9978",
+      "gitBlob": "afe1072f9736fc8ff076db90e43781824f2a1a66",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": false,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/ui/collection_card_rarity_rare.png",
+      "bytes": 23558,
+      "sha256": "96f6566f80fdf0748199b91c507fbfc317ba1c8be0baf72c41c8c269f5344f3a",
+      "gitBlob": "9f2bc86353a73e57629bfa03183129058f97d8a1",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": false,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/ui/dialogue_border.png",
+      "bytes": 5464,
+      "sha256": "5f84b276223eee39203be3785fd6bca84d36de47e5da02cfaa6889667bec1e61",
+      "gitBlob": "3c6d19e32adbf68248a215eb10afe64c2d81966d",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": false,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/ui/dialogue_carat.png",
+      "bytes": 1933,
+      "sha256": "1f81f1f64f8e9c9776991f92b7ec0ef32629dc794f8c59a03344f06a056ad6b4",
+      "gitBlob": "ea5a56790ee39d148f1f8c2a0786053c1c947a10",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": false,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/ui/icon_atk.png",
+      "bytes": 2540,
+      "sha256": "a22e0f2c5e1c6738351ae9a05032aa593ceba568946b6c4a7b1250b81df2c870",
+      "gitBlob": "f048cb9c8b8e514b63860c3d023bcff491cee143",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": false,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/ui/icon_atk_bw.png",
+      "bytes": 2605,
+      "sha256": "ed2c89da4c2184c93b501a86ad187545087cb65d489d3300c899732ea63c8744",
+      "gitBlob": "677a33c9e576d562074142e67c5c0794c276f1de",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": false,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/ui/icon_cooldown_counter.png",
+      "bytes": 3998,
+      "sha256": "c54282289e37b0e2223d0dc1fa6f710db3091b9e4674c23412afff9a9bf98972",
+      "gitBlob": "bce1ac23da1f32006a98a57a10b6ec968991a928",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": false,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/ui/icon_heal.png",
+      "bytes": 2559,
+      "sha256": "a553bce5c48cc13039b05c6db4442f7d9d44dc80642ff3d817fcd6ad5cb32d9c",
+      "gitBlob": "a986e3c1a7ece1fd9cd361285eec74d56e27fa76",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": false,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/ui/icon_hp.png",
+      "bytes": 2734,
+      "sha256": "f60067f347b1598046679336f9f9000413ce537694724de285e373d554309015",
+      "gitBlob": "f34d39a7478d517b5c2f5df71c3fed37cf5dcb91",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": false,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/ui/icon_hp_bw.png",
+      "bytes": 2565,
+      "sha256": "89ade26d65d71a4391107165a66f557afcc5f7e1f3ec52cc1f358af9c365d5ec",
+      "gitBlob": "5f22ad10f15f71d8808a8650f6652543477ae87a",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": false,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/ui/icon_mana.png",
+      "bytes": 3081,
+      "sha256": "9bb368360150f715a6602ed8581531dc2ee263a7fb447db146c388f7c070b21f",
+      "gitBlob": "645d49fce989ab48b4d98677b1246a377a22a07d",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": false,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/ui/instructional_arrow.png",
+      "bytes": 3800,
+      "sha256": "400f3e04ab2a94c6a4100c4ab05590162b29bf24c27a90996afe9ac62a6389b8",
+      "gitBlob": "7c86383159a3c2a5f60bb42c4b35231763a7d204",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": false,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/ui/mulligan_replaced.png",
+      "bytes": 2016,
+      "sha256": "f1646a928991416d3d503c2060fa2952432ca8a3bc702d88f6130fe4a301a02c",
+      "gitBlob": "dfbbce32dbc3b8de8da7e52a56e2c0375b67cad8",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": false,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/ui/mulligan_x.png",
+      "bytes": 432,
+      "sha256": "4c97106484b956bcf6f97e4266d4bb3a376d136845e74cfa075cf9d4a22958fc",
+      "gitBlob": "116d1d5e4847e762b040d2f2822e48bc2d5101b9",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": false,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/ui/notification_enemy_turn.png",
+      "bytes": 145910,
+      "sha256": "cecb3d3669524b8a9c1410e82a69d22c467d666a0cb7458595382f9f4c5e4660",
+      "gitBlob": "ed690dc340723631ea0870f57479f011deff1d7b",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": false,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/ui/notification_go.png",
+      "bytes": 142150,
+      "sha256": "3bae53f7070d118902697f30f12a0684c2770b4909891858733acec46511f4af",
+      "gitBlob": "ee8bdb68613b7d59be5bc2d26cfceb8003f7cb6b",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": false,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/ui/notification_your_turn.png",
+      "bytes": 142150,
+      "sha256": "3bae53f7070d118902697f30f12a0684c2770b4909891858733acec46511f4af",
+      "gitBlob": "ee8bdb68613b7d59be5bc2d26cfceb8003f7cb6b",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": false,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/ui/replace_background.png",
+      "bytes": 29505,
+      "sha256": "bd8959f2c31da3f15be18450d3afb7d6c9091a71165a8a75a56e3df16b899d14",
+      "gitBlob": "4ca10b2303f8e97eb6cd38ba3b2e34f7041fca32",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": false,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/ui/replace_indicator.png",
+      "bytes": 3750,
+      "sha256": "95e4dc15ba43757526550b2a80565f45f005a99abc4ea67e62d9d972391b4e02",
+      "gitBlob": "3c1d3e0f71f85570324b9733d72fc04cfc0d535a",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": false,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/ui/replace_inner_glow.png",
+      "bytes": 40435,
+      "sha256": "a6093bf796a566b7f92e191d0cc08443a35acca7454e78698c00346099fde9e7",
+      "gitBlob": "0eb055b86ce5d3fe5cd3cdf35371ebddabe46831",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": false,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/ui/replace_inner_ring.png",
+      "bytes": 7686,
+      "sha256": "291b63094a1120480859c9764da45ba9e6d4d21fb7f6e5d474e64ae633d7a20f",
+      "gitBlob": "1d585e905f98837c2847a63af1f486aff1b3c194",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": false,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/ui/replace_outer_ring_shine.png",
+      "bytes": 34316,
+      "sha256": "793b826949c24ef32800730adad1aa15b426ea4f4fcee81db2f727d3c1354159",
+      "gitBlob": "59d3ff85042a9bef41e6f848999b6524c679ac6b",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": false,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/ui/replace_outer_ring_smoke.png",
+      "bytes": 39925,
+      "sha256": "6d661abd219383f32de535315be9bb2446da518ec4a617aa510889407122e19a",
+      "gitBlob": "9cdfe19775f0c558c6cde6ff6efdcfafe44f8c3d",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": false,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/ui/unit_shadow.png",
+      "bytes": 1167,
+      "sha256": "b209f9eeb4b093c45f8228e75af46f54b60c481eaea2f7ff76d928d405a66674",
+      "gitBlob": "822eb29d29572f0e9385fc95d367e9bbc1dc065c",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": false,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/ui/unit_stats_instructional_bg.png",
+      "bytes": 610,
+      "sha256": "5d286865537aeb2e2f3801ccec1705100c4c0d9b8aa368f96cd8df17c3c45120",
+      "gitBlob": "5c053daca7f95e4395d6d77078d29e0ff7e2e3f9",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": false,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/units/f1_general.plist",
+      "bytes": 34535,
+      "sha256": "4a72c9128393f142aa776b161406af378973ee49654d16bb5e747e4abe0aece9",
+      "gitBlob": "04367a7ecabde47481f124703ba8a1ff460a3926",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": true,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/units/f1_general.png",
+      "bytes": 37904,
+      "sha256": "c579d5a5d5d93d7fbdc4a944f6bd4a1af689b06418ec8350476cf128cb9ddf7c",
+      "gitBlob": "eb6230f29ae8f7f177c9b4263bfe0aeaf51f54ac",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": false,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/units/f1_melee.plist",
+      "bytes": 18969,
+      "sha256": "8c818f222ac70e2af2d24ccb4d9bebfccbf6bff5208cb8c3fd4fca5fbb9ef3d0",
+      "gitBlob": "aa63a83aa4f67d686d2e39a37930908b6626e515",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": true,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/units/f1_melee.png",
+      "bytes": 10518,
+      "sha256": "eb4fc48845f449581eabeb1f9ccd3e87c2cb421f50274962465c2c17441f11ad",
+      "gitBlob": "28fc07ab532582cad0b68a1371c218401b3b401e",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": false,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/units/f1_silvermanevanguard.plist",
+      "bytes": 23230,
+      "sha256": "92cd1878a64bcdb7462f38ffc25dbcdce55c0cb67811fe2ca43bb739622e305d",
+      "gitBlob": "a1b6a67d68d03f8741103fa8b28cd56ba3951682",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": true,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/units/f1_silvermanevanguard.png",
+      "bytes": 20424,
+      "sha256": "d7211c3e97e44ecfe9df1ab922a516d6ccad1956676c14832f7f2f940f97e36a",
+      "gitBlob": "00126755047085d1a8a459f89f55fc6304910c00",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": false,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/units/f2_general.plist",
+      "bytes": 38082,
+      "sha256": "9bf1f6e25a83e233556bf22a4a6ad367e2c318fc1c95f7d15ffa92554a0c51af",
+      "gitBlob": "fef7c991bf21b84c4709dbdbc3ceeeee0cd93997",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": true,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/units/f2_general.png",
+      "bytes": 42639,
+      "sha256": "3810bb9d46aa76c093b111d0e55652d684c9c6f310e94e3fa34043ca1ec279cc",
+      "gitBlob": "f3ab7a055d16084ded9522ab6d07e6070b5bbe94",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": false,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/units/f2_melee.plist",
+      "bytes": 17942,
+      "sha256": "a394fb373ecc86cb3ecdab543f7f9166c3a6ea88275de4afd4fb7f5482fa6eab",
+      "gitBlob": "456713a650c61cfdb8f17e8ea407e5fb37235cc2",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": true,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/units/f2_melee.png",
+      "bytes": 8106,
+      "sha256": "e2ed81699908f62aa24a7973a85075337cfa23813f9b959d9939e3f1b8bfc090",
+      "gitBlob": "884f6f59e904612cd7dcd6cac9c787a0bc66ad3c",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": false,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/units/f2_ranged.plist",
+      "bytes": 20756,
+      "sha256": "90069ecd4e647f8a4b737454a2ed308a5d9849a32aa297b046e4a29a00ab8232",
+      "gitBlob": "8cba21f4b10b43cf3f1418be8230ab4290af7d03",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": true,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/units/f2_ranged.png",
+      "bytes": 10196,
+      "sha256": "6ad920cdc87d2b60ca2e002ec5143956f40f85fc22e5ef1f8055c38b59631304",
+      "gitBlob": "80a782d649296fd78e33159355649eb4de827e09",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": false,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/units/neutral_beastsaberspinetiger.plist",
+      "bytes": 18233,
+      "sha256": "e176fd5c174a895f31636fc2c7acb190381ea69d496b8ea1100509da8acf5adf",
+      "gitBlob": "72bf66b8741fb2e2d1cedc1f94d93bb1c33c2a63",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": true,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/units/neutral_beastsaberspinetiger.png",
+      "bytes": 10237,
+      "sha256": "43623c9a1f710e96b9a071dc7b395dd0bc9d18604f59c6a35c138f6a579003b7",
+      "gitBlob": "7ea046e7aabe47d46a9286fa3adb8967f6c14d70",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": false,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/units/neutral_golembloodshard.plist",
+      "bytes": 21569,
+      "sha256": "5040e191c9c9a757416e00b630928f1fe8c9b60b30d6d5464433a84809e3d1e3",
+      "gitBlob": "79fa060b84bed0c183742ff13dd3ac74f7f09aed",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": true,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/units/neutral_golembloodshard.png",
+      "bytes": 13535,
+      "sha256": "9c370ddf3362ae19184dfcdbfafa10dacb7968d5e4351c3b5ab0c48e1aaf5a03",
+      "gitBlob": "23d050c79a5ab1c88ca7d7a3c10cd8f1f2d42b28",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": false,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/units/neutral_golemdragonbone.plist",
+      "bytes": 22290,
+      "sha256": "55df14ce184d2cd136e2507e94e94c9fa79aceea749db5873a737a52563a3c77",
+      "gitBlob": "f1a1a66869d404af570957382e2904c014290ea3",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": true,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/units/neutral_golemdragonbone.png",
+      "bytes": 22743,
+      "sha256": "a65a7df7e2ad5340a466403b7a5aa1cca315422a3c08c94b74f17b9ca1058e21",
+      "gitBlob": "ff7c99e00444d639763b94196d81590cd7829c89",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": false,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/units/neutral_golemice.plist",
+      "bytes": 20445,
+      "sha256": "6046a9e41319321a96797bffd5f35860acad02c7e57f24e5951e62e21f36b5cf",
+      "gitBlob": "4b24d630b0f0ba7ec97d2ac756130f8c46024cb7",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": true,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/units/neutral_golemice.png",
+      "bytes": 13192,
+      "sha256": "3a37ca55a1559494fe6a619a6a9e38712f8b41ac452eade5ce9c22c4f9b610bb",
+      "gitBlob": "eb23a945e0c3b22bd2293eb4843361ee00b7b246",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": false,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/units/neutral_golemstormmetal.plist",
+      "bytes": 23007,
+      "sha256": "53b13a33b0531475c4470d52898924172d2ac9d69fa90f7a95f7a39627cd9b8b",
+      "gitBlob": "08de14a30cf52457eb7ea8aadcde2b20a98cb52d",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": true,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/units/neutral_golemstormmetal.png",
+      "bytes": 14636,
+      "sha256": "1d8f2125a2047e4943b1529642cddbbd7c7c322e30feed654c1de6950d570148",
+      "gitBlob": "47098f7185511ba42ad7e471d6d9fbc8759c968c",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": false,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/units/neutral_mechaz0rsuper.plist",
+      "bytes": 30384,
+      "sha256": "77ac965a16c62851946816d7bb77f0392c4c080f2a383702c2a16fe34a9f5f75",
+      "gitBlob": "c5feef9fc314f9d0d4f281c8b192f0c9e1dd9eab",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": true,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/units/neutral_mechaz0rsuper.png",
+      "bytes": 71690,
+      "sha256": "8b95972a120f50aa05965c0a5423f9bc6d5b9fcea87a279ce2240e67faf3f1fa",
+      "gitBlob": "3edf483c022f937e04ea5fc247e6544925353074",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": false,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/units/neutral_mercmelee3.plist",
+      "bytes": 17405,
+      "sha256": "a3199744afb5d6f036978f96f01f6f95a23afb5c2bf671ac6345c6c5968f6f1c",
+      "gitBlob": "04a5d57466b1aa6ac336bc55b08b227883244b8c",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": true,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/units/neutral_mercmelee3.png",
+      "bytes": 4735,
+      "sha256": "f49d7b45d6014722e6a613b71be099c74d14e4c2831d821aed50f03c07c935e0",
+      "gitBlob": "33b021ca16866401e995bfc61e445cdeb6150e42",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": false,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/units/neutral_mercneedler.plist",
+      "bytes": 20623,
+      "sha256": "467e5e7d96fbcecea6c60ea83e43a5c0aa1608527aa5c74fcefcd3a7c0f9147d",
+      "gitBlob": "12b59d6a3bb49087bc14a6021e2e4be24930c6cf",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": true,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/units/neutral_mercneedler.png",
+      "bytes": 12298,
+      "sha256": "8b694bff3f96b42a3991e38bec216480b62e5252183354afaf82361b66ea75fb",
+      "gitBlob": "024ee57eb2ac95a2e8e62ebceb784417ffda9531",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": false,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/units/neutral_monsterputridmindflayer.plist",
+      "bytes": 27924,
+      "sha256": "93755cc48b91885ffe785d33142288fd4905865e4ea3c2def0f11344e6aadfcd",
+      "gitBlob": "03b3bd9d03e5d95931b76f14dc759c9d8651ffbc",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": true,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/units/neutral_monsterputridmindflayer.png",
+      "bytes": 14782,
+      "sha256": "781b36ba29d64f675c7f38aab1d577a05c4fefdefc090df19bf9a2bc97c5eb8f",
+      "gitBlob": "1788cc8d24a354aac59ecffa53dc04b6bbd5e97a",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": false,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/units/neutral_primusshieldmaster.plist",
+      "bytes": 28979,
+      "sha256": "b0c5770c670db4cd20d725ce7fb46e610b854e1dab70ad450b0fd30fd8c226f1",
+      "gitBlob": "c08df698130417eefda95102ac295a881c4904a0",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": true,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/units/neutral_primusshieldmaster.png",
+      "bytes": 24225,
+      "sha256": "73a819666735e022a57325574fff5f4a39d467c906d053fcf9c784cb1c8768c0",
+      "gitBlob": "ccd18293a8911af1ccdca4c297afddf0c00a9f7b",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": false,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/units/neutral_tribalcaster.plist",
+      "bytes": 20691,
+      "sha256": "41fdf2d405e8b91292140076361da6b420ca4a04676c80cd2394bfb3215c5303",
+      "gitBlob": "ed7573b3ea62c76b3669cc7ff00afad4cf9176f1",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": true,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    },
+    {
+      "path": "app/resources/units/neutral_tribalcaster.png",
+      "bytes": 6944,
+      "sha256": "daaed0a048f2d5b53865dc3da6c338d699afeb78b3924246f17a2226719ab040",
+      "gitBlob": "20d80a05428a34cd031f96363008bec5201d4f6e",
+      "pinnedTreeMatch": true,
+      "checkoutLineEndingConversion": false,
+      "permissionStatus": "project-first-party CC0 candidate; exceptions and complete release scope pending"
+    }
+  ],
+  "mismatches": [],
+  "fontPayloads": [],
+  "audioPayloads": []
+}

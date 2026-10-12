@@ -1,0 +1,26 @@
+{
+  "scope": "Credited-origin notice evidence; exact source-copy version not established",
+  "derivedPackage": {
+    "name": "object-keys",
+    "version": "0.4.0",
+    "metadataSHA256": "30193093be2534063605235a552fdb81e68ecf5b6f924a6051c73b6988496eb6",
+    "readmeSHA256": "c0ee5375493f43c463e65a7972d661bb114fc50cd0a2c58d7850f3ef29294620",
+    "shimSHA256": "d8646729545c38996ca6524fc139bdf9aa4fae155161c89a8731f5632fb9d1ec"
+  },
+  "origins": [
+    {
+      "project": "es5-shim",
+      "referenceVersion": "v2.0.0",
+      "source": "https://raw.githubusercontent.com/es-shims/es5-shim/v2.0.0/LICENSE",
+      "notice": "object-keys-origin-es5-shim-v2.0.0-MIT.txt",
+      "sha256": "b9db14ab1db6d769f184558b9f7e109c94f7b939ab5e5b766aa9f8e0261551a0"
+    },
+    {
+      "project": "lodash (with Underscore attribution)",
+      "referenceVersion": "2.0.0",
+      "source": "https://raw.githubusercontent.com/lodash/lodash/2.0.0/LICENSE.txt",
+      "notice": "object-keys-origin-lodash-2.0.0-MIT.txt",
+      "sha256": "13966207cdf044b73cf848e9cbcb35c7bacc7ffce77fdb38877a81f3f8ae0eed"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+/*!
+ * BackFire is the officially supported Backbone binding for Firebase. The
+ * bindings let you use special model and collection types that will
+ * automatically synchronize with Firebase, and also allow you to use regular
+ * Backbone.Sync based synchronization methods.
+ *
+ * BackFire 0.4.0
+ * https://github.com/firebase/backfire/
+ * License: MIT
+ */
+
+"use strict";
+
+(function() {
+
+  var _ = window._;
+  var Backbone = window.Backbone;
+
+  Backbone.Firebase = function(ref) {
+    this._fbref = ref;
+    this._children = [];
+    if (typeof ref == "string") {
+      this._fbref = new Firebase(ref);
+    }
+
+    this._fbref.on("child_added", this._childAdded, this);
+    this._fbref.on("child_moved", this._childMoved, this);
+    this._fbref.on("child_changed", this._childChanged, this);
+    this._fbref.on("child_removed", this._childRemoved, this);
+  };
+
+  _.extend(Backbone.Firebase.prototype, {
+
+   /**
+    * A utility for retrieving the key name of a Firebase ref or
+    * DataSnapshot. This is backwards-compatible with `name()`
+    * from Firebase 1.x.x and `key()` from Firebase 2.0.0+. Once
+    * support for Firebase 1.x.x is dropped in BackFire, this
+    * helper can be removed.
+    */
+    _getKey: function(refOrSnapshot) {
+      return (typeof refOrSnapshot.key === 'function') ? refOrSnapshot.key() : refOrSnapshot.name();
+    },
+
+    _childAdded: function(childSnap, prevChild) {

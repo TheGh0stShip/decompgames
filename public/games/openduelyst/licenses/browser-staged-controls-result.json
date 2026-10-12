@@ -1,0 +1,28 @@
+{
+  "turn": {
+    "number": 1,
+    "user": "local-playertest",
+    "current": "local-playertest"
+  },
+  "terminal": {
+    "over": true,
+    "winner": "local-player",
+    "loser": "local-playertest"
+  },
+  "moved": {
+    "x": 1,
+    "y": 2
+  },
+  "restored": {
+    "x": 1,
+    "y": 2
+  },
+  "fresh": {
+    "x": 0,
+    "y": 2
+  },
+  "errors": [],
+  "missingResources": [],
+  "externalRequests": [],
+  "scope": "Isolated staged files under game URL prefix; move/save/reload/new/end-turn/concede; no full match claim"
+}

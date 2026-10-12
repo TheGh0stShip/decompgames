@@ -1,0 +1,8 @@
+{
+  "archive": "openduelyst-private-rebuild-source.tar.gz",
+  "archiveSHA256": "aee6bf25264c9b317405570ab482c5ba200bf8f1af00d4462131c97e2d0e3443",
+  "bundleByteIdentical": true,
+  "bundleSHA256": "22b56c43c86d83caecb13b625081aa03474d0fc14e6a615194578b2ac88392e6",
+  "engineByteIdentical": true,
+  "scope": "Fresh archive extraction build and adapted-engine identity only; final attribution review remains separate"
+}

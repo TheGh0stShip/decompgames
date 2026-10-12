@@ -1,0 +1,830 @@
+{
+  "combat": {
+    "over": true,
+    "turn": 16,
+    "user": "local-player",
+    "current": "local-player",
+    "me": {
+      "position": {
+        "x": 4,
+        "y": 2
+      },
+      "hp": 0,
+      "canMove": false,
+      "canAttack": false
+    },
+    "enemy": {
+      "position": {
+        "x": 5,
+        "y": 2
+      },
+      "hp": 0
+    }
+  },
+  "combatBlocker": null,
+  "rounds": [
+    {
+      "action": "move",
+      "before": {
+        "over": false,
+        "turn": 0,
+        "user": "local-player",
+        "current": "local-player",
+        "me": {
+          "position": {
+            "x": 0,
+            "y": 2
+          },
+          "hp": 25,
+          "canMove": true,
+          "canAttack": true
+        },
+        "enemy": {
+          "position": {
+            "x": 8,
+            "y": 2
+          },
+          "hp": 25
+        }
+      },
+      "after": {
+        "over": false,
+        "turn": 0,
+        "user": "local-player",
+        "current": "local-player",
+        "me": {
+          "position": {
+            "x": 2,
+            "y": 2
+          },
+          "hp": 25,
+          "canMove": false,
+          "canAttack": true
+        },
+        "enemy": {
+          "position": {
+            "x": 8,
+            "y": 2
+          },
+          "hp": 25
+        }
+      }
+    },
+    {
+      "action": "move",
+      "before": {
+        "over": false,
+        "turn": 1,
+        "user": "local-playertest",
+        "current": "local-playertest",
+        "me": {
+          "position": {
+            "x": 8,
+            "y": 2
+          },
+          "hp": 25,
+          "canMove": true,
+          "canAttack": true
+        },
+        "enemy": {
+          "position": {
+            "x": 2,
+            "y": 2
+          },
+          "hp": 25
+        }
+      },
+      "after": {
+        "over": false,
+        "turn": 1,
+        "user": "local-playertest",
+        "current": "local-playertest",
+        "me": {
+          "position": {
+            "x": 6,
+            "y": 2
+          },
+          "hp": 25,
+          "canMove": false,
+          "canAttack": true
+        },
+        "enemy": {
+          "position": {
+            "x": 2,
+            "y": 2
+          },
+          "hp": 25
+        }
+      }
+    },
+    {
+      "action": "move",
+      "before": {
+        "over": false,
+        "turn": 2,
+        "user": "local-player",
+        "current": "local-player",
+        "me": {
+          "position": {
+            "x": 2,
+            "y": 2
+          },
+          "hp": 25,
+          "canMove": true,
+          "canAttack": true
+        },
+        "enemy": {
+          "position": {
+            "x": 6,
+            "y": 2
+          },
+          "hp": 25
+        }
+      },
+      "after": {
+        "over": false,
+        "turn": 2,
+        "user": "local-player",
+        "current": "local-player",
+        "me": {
+          "position": {
+            "x": 4,
+            "y": 2
+          },
+          "hp": 25,
+          "canMove": false,
+          "canAttack": true
+        },
+        "enemy": {
+          "position": {
+            "x": 6,
+            "y": 2
+          },
+          "hp": 25
+        }
+      }
+    },
+    {
+      "action": "move",
+      "before": {
+        "over": false,
+        "turn": 3,
+        "user": "local-playertest",
+        "current": "local-playertest",
+        "me": {
+          "position": {
+            "x": 6,
+            "y": 2
+          },
+          "hp": 25,
+          "canMove": true,
+          "canAttack": true
+        },
+        "enemy": {
+          "position": {
+            "x": 4,
+            "y": 2
+          },
+          "hp": 25
+        }
+      },
+      "after": {
+        "over": false,
+        "turn": 3,
+        "user": "local-playertest",
+        "current": "local-playertest",
+        "me": {
+          "position": {
+            "x": 5,
+            "y": 2
+          },
+          "hp": 25,
+          "canMove": false,
+          "canAttack": true
+        },
+        "enemy": {
+          "position": {
+            "x": 4,
+            "y": 2
+          },
+          "hp": 25
+        }
+      }
+    },
+    {
+      "action": "attack",
+      "before": {
+        "over": false,
+        "turn": 4,
+        "user": "local-player",
+        "current": "local-player",
+        "me": {
+          "position": {
+            "x": 4,
+            "y": 2
+          },
+          "hp": 25,
+          "canMove": true,
+          "canAttack": true
+        },
+        "enemy": {
+          "position": {
+            "x": 5,
+            "y": 2
+          },
+          "hp": 25
+        }
+      },
+      "after": {
+        "over": false,
+        "turn": 4,
+        "user": "local-player",
+        "current": "local-player",
+        "me": {
+          "position": {
+            "x": 4,
+            "y": 2
+          },
+          "hp": 23,
+          "canMove": false,
+          "canAttack": false
+        },
+        "enemy": {
+          "position": {
+            "x": 5,
+            "y": 2
+          },
+          "hp": 23
+        }
+      }
+    },
+    {
+      "action": "attack",
+      "before": {
+        "over": false,
+        "turn": 5,
+        "user": "local-playertest",
+        "current": "local-playertest",
+        "me": {
+          "position": {
+            "x": 5,
+            "y": 2
+          },
+          "hp": 23,
+          "canMove": true,
+          "canAttack": true
+        },
+        "enemy": {
+          "position": {
+            "x": 4,
+            "y": 2
+          },
+          "hp": 23
+        }
+      },
+      "after": {
+        "over": false,
+        "turn": 5,
+        "user": "local-playertest",
+        "current": "local-playertest",
+        "me": {
+          "position": {
+            "x": 5,
+            "y": 2
+          },
+          "hp": 21,
+          "canMove": false,
+          "canAttack": false
+        },
+        "enemy": {
+          "position": {
+            "x": 4,
+            "y": 2
+          },
+          "hp": 21
+        }
+      }
+    },
+    {
+      "action": "attack",
+      "before": {
+        "over": false,
+        "turn": 6,
+        "user": "local-player",
+        "current": "local-player",
+        "me": {
+          "position": {
+            "x": 4,
+            "y": 2
+          },
+          "hp": 21,
+          "canMove": true,
+          "canAttack": true
+        },
+        "enemy": {
+          "position": {
+            "x": 5,
+            "y": 2
+          },
+          "hp": 21
+        }
+      },
+      "after": {
+        "over": false,
+        "turn": 6,
+        "user": "local-player",
+        "current": "local-player",
+        "me": {
+          "position": {
+            "x": 4,
+            "y": 2
+          },
+          "hp": 19,
+          "canMove": false,
+          "canAttack": false
+        },
+        "enemy": {
+          "position": {
+            "x": 5,
+            "y": 2
+          },
+          "hp": 19
+        }
+      }
+    },
+    {
+      "action": "attack",
+      "before": {
+        "over": false,
+        "turn": 7,
+        "user": "local-playertest",
+        "current": "local-playertest",
+        "me": {
+          "position": {
+            "x": 5,
+            "y": 2
+          },
+          "hp": 19,
+          "canMove": true,
+          "canAttack": true
+        },
+        "enemy": {
+          "position": {
+            "x": 4,
+            "y": 2
+          },
+          "hp": 19
+        }
+      },
+      "after": {
+        "over": false,
+        "turn": 7,
+        "user": "local-playertest",
+        "current": "local-playertest",
+        "me": {
+          "position": {
+            "x": 5,
+            "y": 2
+          },
+          "hp": 17,
+          "canMove": false,
+          "canAttack": false
+        },
+        "enemy": {
+          "position": {
+            "x": 4,
+            "y": 2
+          },
+          "hp": 17
+        }
+      }
+    },
+    {
+      "action": "attack",
+      "before": {
+        "over": false,
+        "turn": 8,
+        "user": "local-player",
+        "current": "local-player",
+        "me": {
+          "position": {
+            "x": 4,
+            "y": 2
+          },
+          "hp": 17,
+          "canMove": true,
+          "canAttack": true
+        },
+        "enemy": {
+          "position": {
+            "x": 5,
+            "y": 2
+          },
+          "hp": 17
+        }
+      },
+      "after": {
+        "over": false,
+        "turn": 8,
+        "user": "local-player",
+        "current": "local-player",
+        "me": {
+          "position": {
+            "x": 4,
+            "y": 2
+          },
+          "hp": 15,
+          "canMove": false,
+          "canAttack": false
+        },
+        "enemy": {
+          "position": {
+            "x": 5,
+            "y": 2
+          },
+          "hp": 15
+        }
+      }
+    },
+    {
+      "action": "attack",
+      "before": {
+        "over": false,
+        "turn": 9,
+        "user": "local-playertest",
+        "current": "local-playertest",
+        "me": {
+          "position": {
+            "x": 5,
+            "y": 2
+          },
+          "hp": 15,
+          "canMove": true,
+          "canAttack": true
+        },
+        "enemy": {
+          "position": {
+            "x": 4,
+            "y": 2
+          },
+          "hp": 15
+        }
+      },
+      "after": {
+        "over": false,
+        "turn": 9,
+        "user": "local-playertest",
+        "current": "local-playertest",
+        "me": {
+          "position": {
+            "x": 5,
+            "y": 2
+          },
+          "hp": 13,
+          "canMove": false,
+          "canAttack": false
+        },
+        "enemy": {
+          "position": {
+            "x": 4,
+            "y": 2
+          },
+          "hp": 13
+        }
+      }
+    },
+    {
+      "action": "attack",
+      "before": {
+        "over": false,
+        "turn": 10,
+        "user": "local-player",
+        "current": "local-player",
+        "me": {
+          "position": {
+            "x": 4,
+            "y": 2
+          },
+          "hp": 13,
+          "canMove": true,
+          "canAttack": true
+        },
+        "enemy": {
+          "position": {
+            "x": 5,
+            "y": 2
+          },
+          "hp": 13
+        }
+      },
+      "after": {
+        "over": false,
+        "turn": 10,
+        "user": "local-player",
+        "current": "local-player",
+        "me": {
+          "position": {
+            "x": 4,
+            "y": 2
+          },
+          "hp": 11,
+          "canMove": false,
+          "canAttack": false
+        },
+        "enemy": {
+          "position": {
+            "x": 5,
+            "y": 2
+          },
+          "hp": 11
+        }
+      }
+    },
+    {
+      "action": "attack",
+      "before": {
+        "over": false,
+        "turn": 11,
+        "user": "local-playertest",
+        "current": "local-playertest",
+        "me": {
+          "position": {
+            "x": 5,
+            "y": 2
+          },
+          "hp": 11,
+          "canMove": true,
+          "canAttack": true
+        },
+        "enemy": {
+          "position": {
+            "x": 4,
+            "y": 2
+          },
+          "hp": 11
+        }
+      },
+      "after": {
+        "over": false,
+        "turn": 11,
+        "user": "local-playertest",
+        "current": "local-playertest",
+        "me": {
+          "position": {
+            "x": 5,
+            "y": 2
+          },
+          "hp": 9,
+          "canMove": false,
+          "canAttack": false
+        },
+        "enemy": {
+          "position": {
+            "x": 4,
+            "y": 2
+          },
+          "hp": 9
+        }
+      }
+    },
+    {
+      "action": "attack",
+      "before": {
+        "over": false,
+        "turn": 12,
+        "user": "local-player",
+        "current": "local-player",
+        "me": {
+          "position": {
+            "x": 4,
+            "y": 2
+          },
+          "hp": 9,
+          "canMove": true,
+          "canAttack": true
+        },
+        "enemy": {
+          "position": {
+            "x": 5,
+            "y": 2
+          },
+          "hp": 9
+        }
+      },
+      "after": {
+        "over": false,
+        "turn": 12,
+        "user": "local-player",
+        "current": "local-player",
+        "me": {
+          "position": {
+            "x": 4,
+            "y": 2
+          },
+          "hp": 7,
+          "canMove": false,
+          "canAttack": false
+        },
+        "enemy": {
+          "position": {
+            "x": 5,
+            "y": 2
+          },
+          "hp": 7
+        }
+      }
+    },
+    {
+      "action": "attack",
+      "before": {
+        "over": false,
+        "turn": 13,
+        "user": "local-playertest",
+        "current": "local-playertest",
+        "me": {
+          "position": {
+            "x": 5,
+            "y": 2
+          },
+          "hp": 7,
+          "canMove": true,
+          "canAttack": true
+        },
+        "enemy": {
+          "position": {
+            "x": 4,
+            "y": 2
+          },
+          "hp": 7
+        }
+      },
+      "after": {
+        "over": false,
+        "turn": 13,
+        "user": "local-playertest",
+        "current": "local-playertest",
+        "me": {
+          "position": {
+            "x": 5,
+            "y": 2
+          },
+          "hp": 5,
+          "canMove": false,
+          "canAttack": false
+        },
+        "enemy": {
+          "position": {
+            "x": 4,
+            "y": 2
+          },
+          "hp": 5
+        }
+      }
+    },
+    {
+      "action": "attack",
+      "before": {
+        "over": false,
+        "turn": 14,
+        "user": "local-player",
+        "current": "local-player",
+        "me": {
+          "position": {
+            "x": 4,
+            "y": 2
+          },
+          "hp": 5,
+          "canMove": true,
+          "canAttack": true
+        },
+        "enemy": {
+          "position": {
+            "x": 5,
+            "y": 2
+          },
+          "hp": 5
+        }
+      },
+      "after": {
+        "over": false,
+        "turn": 14,
+        "user": "local-player",
+        "current": "local-player",
+        "me": {
+          "position": {
+            "x": 4,
+            "y": 2
+          },
+          "hp": 3,
+          "canMove": false,
+          "canAttack": false
+        },
+        "enemy": {
+          "position": {
+            "x": 5,
+            "y": 2
+          },
+          "hp": 3
+        }
+      }
+    },
+    {
+      "action": "attack",
+      "before": {
+        "over": false,
+        "turn": 15,
+        "user": "local-playertest",
+        "current": "local-playertest",
+        "me": {
+          "position": {
+            "x": 5,
+            "y": 2
+          },
+          "hp": 3,
+          "canMove": true,
+          "canAttack": true
+        },
+        "enemy": {
+          "position": {
+            "x": 4,
+            "y": 2
+          },
+          "hp": 3
+        }
+      },
+      "after": {
+        "over": false,
+        "turn": 15,
+        "user": "local-playertest",
+        "current": "local-playertest",
+        "me": {
+          "position": {
+            "x": 5,
+            "y": 2
+          },
+          "hp": 1,
+          "canMove": false,
+          "canAttack": false
+        },
+        "enemy": {
+          "position": {
+            "x": 4,
+            "y": 2
+          },
+          "hp": 1
+        }
+      }
+    },
+    {
+      "action": "attack",
+      "before": {
+        "over": false,
+        "turn": 16,
+        "user": "local-player",
+        "current": "local-player",
+        "me": {
+          "position": {
+            "x": 4,
+            "y": 2
+          },
+          "hp": 1,
+          "canMove": true,
+          "canAttack": true
+        },
+        "enemy": {
+          "position": {
+            "x": 5,
+            "y": 2
+          },
+          "hp": 1
+        }
+      },
+      "after": {
+        "over": true,
+        "turn": 16,
+        "user": "local-player",
+        "current": "local-player",
+        "me": {
+          "position": {
+            "x": 4,
+            "y": 2
+          },
+          "hp": 0,
+          "canMove": false,
+          "canAttack": false
+        },
+        "enemy": {
+          "position": {
+            "x": 5,
+            "y": 2
+          },
+          "hp": 0
+        }
+      }
+    }
+  ],
+  "errors": [],
+  "missingResources": [],
+  "externalRequests": [],
+  "scope": "Muted normal starter-deck general-only local combat through actual mouse/turn controls; no health/state result injection"
+}
