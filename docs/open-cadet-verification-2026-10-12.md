@@ -29,3 +29,6 @@ The exact published replacement DAT occurs at offset0 in the checked-in runtime 
 
 
 2026-10-12 authoredfont spacing refinement: fontheight18 now contains2blankrows above/below14pxstrokes; binary17,329bytes SHA75b5ec563eaa852fd43da170f2d6201d6ce71c614d0bb0678efd606a49d2ccb6. Fullrebuild succeeded; muted normal launch/played2000 score and PLAYER1/multiline mission instructions inspected with readable separatedrows. Errors/missing/external empty, browser/serverclosed. Limitedmessagesonly, nofullUI/playthroughclaim. Separate ImGui embeddedProggyClean font declaresMIT copyright2004/2005TristanGrimmer inimgui_draw.cpp; retain its fullnotice separately, do notlabelCC0. Finalnoticeclosure/sourcepackage and newenginepersistence remainopen; productionunchanged.
+
+
+2026-10-12 rebuiltengine IDBFS settings check: privatehost mounts /libsdl, restores beforeengine run using add/removeRunDependency and FS.syncfs(true), matching site design. NormalF2+6sec runtime producesimgui_pb.ini; FS.syncfs(false), freshpagereload and restoration yield exactsamebytes. settings-reload-test.json retainedprivately; errors/missing/external empty, mutedbrowser/serverclosed. This verifies rebuiltengine settings persistence only, not naturallyplayed highscore or ball-in-progress save. Productionunchanged; finalnestednotice/sourceclosure stillrequired.
