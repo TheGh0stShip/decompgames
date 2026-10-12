@@ -1999,7 +1999,7 @@
   "overview": "Open Cadet pairs the reverse-engineered SpaceCadetPinball engine with an original neon playfield and synthesized sounds. It recreates the familiar tableâ€™s behavior without distributing Microsoftâ€™s PINBALL.DAT. The replacement artwork is intentionally different from the Windows original.",
   "source": "https://github.com/andrewnakas/open-cadet",
   "engineLicense": "MIT",
-  "assetLicense": "CC0-1.0",
+  "assetLicense": "CC0-1.0 replacement data; MIT menu font",
   "assetRequirements": "No original game files needed.",
   "controls": [
    "Z â€” left flipper",
@@ -2009,23 +2009,24 @@
   ],
   "saveInstructions": "High scores and table settings are saved locally. A ball in progress is not a portable save state.",
   "limitations": [
-   "Browser integration is undergoing verification."
+   "Representative play and high-score persistence verified; all objectives and full playthrough unverified.",
+   "Music is not provided; audible audio remains unverified."
   ],
   "inputs": [
    "Keyboard",
    "Mouse"
   ],
   "downloadMB": 6.2,
-  "complete": true,
+  "complete": false,
   "color": "#427fff",
   "runtime": "cadet",
   "verification": {
-   "status": "smoke-tested",
-   "date": "2026-09-18",
+   "status": "gameplay-tested",
+   "date": "2026-10-12",
    "browsers": [
-    "Chromium-based in-app browser on Windows"
+    "Headless Microsoft Edge on Windows; muted"
    ],
-   "scope": "Engine startup and rendering observed. Gameplay, audible audio, and save persistence remain unverified.",
+   "scope": "Authored-font/digit/resource-text build: normal launch/flipper visual response, naturally earned high score confirmed and displayed after reload in isolated player; shared shell startup/settings Stop/Start checked locally. All objectives and audible audio unverified.",
    "playthrough": false
   },
   "image": "/images/open-cadet.png",

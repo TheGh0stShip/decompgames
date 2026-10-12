@@ -113,3 +113,9 @@ The exact published replacement DAT occurs at offset0 in the checked-in runtime 
 
 
 2026-10-12 runtime licence mapping: correctedlinkparserrequireswhitespace-delimited-loptions, removesfalse-ld.exe/-lsrsubstringmatches. Actual16libraryfamiliesmapped toretainedSDLzlib/OggVorbisBSD/muslMIT/LLVMruntimeexceptions/EmscriptenMIT-NCSA/dlmallocpublicdomainCC0notices; muslcompleteCOPYRIGHT anddlmallocdeclarationevidence retained. No wholepackageCC0claim. runtime-license-map.json recordsfamilies/scope; finalrefreshedpackage/noticeconsistencyreview remains. No runtimebehaviorchange/deploy.
+
+
+2026-10-12 localintegrationstaging: repairedruntimecopiedtonewpublicrevision0bc12d3ca97a-authored-c51f8473a6 andlocalmanifestpointsit; correspondingnoticedsourceSHA33d4502ff6f3d8023b0248b9fff68c2a1f709a12cee9584625618be658f04a42 stagedinpublic/sources, originalruntimepreserved. Addedbytepreservationattributes. npmruncheckpasses97files0errors/82catalogentries(existing2hints). This islocalonly, notdeployed; localsharedshellmutedplay/saveintegration stillrequired, thencommit/pushreleasefilesbeforewhole-sitedeployfromexactmain. No newentrycount.
+
+
+2026-10-12 sharedshelllocalPASS: stagedrevision boots throughnormal/play/open-cadet and/engine shell; Soundoff, controlsinputssubmitted, settingsfileexactbyteStop/Startrestorationpasses/errorsnone. Localdevexcludesobjectstoragefiles, soPlaywrightroutefulfilledstagedruntimebytesfrompublic; notproductionnetworktest. ScreenshotshowsauthoredPLAYER1/launchinstruction/readabledigit0; balllaunch/scoringnotprovenbythiscapture. InitialIPv4connectionrefusedbecauseAstrolistened::1; localhostaddressfixed. Browserstopped/closed, devserverstopped. Deploymentstillpendingreleasecommit/mainreconciliation/objectstorageupload/buildchecks.

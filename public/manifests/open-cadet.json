@@ -1,40 +1,47 @@
 {
   "id": "cadet",
   "engine": "cadet",
-  "packageRevision": "0bc12d3ca97a-8d0f687e47",
+  "packageRevision": "0bc12d3ca97a-authored-c51f8473a6",
   "sourceRevision": "0bc12d3ca97a30a61e1e325cfde1eeec379bb9b9",
   "repository": "https://github.com/alula/SpaceCadetPinball",
-  "toolchain": "Emscripten 4.0.10",
-  "recipe": "scripts/build-engines.sh",
-  "sourceArchive": "/sources/cadet-0bc12d3ca97a-8d0f687e47.tar.gz",
+  "toolchain": "Emscripten emcc (Emscripten gcc/clang-like replacement + linker emulating GNU ld) 6.0.10 (d6c521a7f05449857c76bd99e396895583cf2083)",
+  "recipe": "build-authored.py in corresponding source archive",
+  "sourceArchive": "/sources/cadet-0bc12d3ca97a-authored-c51f8473a6.tar.gz",
   "requirements": [
     "WebAssembly",
     "Keyboard and mouse"
   ],
   "files": [
     {
-      "path": "SpaceCadetPinball.js",
-      "sha256": "562d69a21ae7c6a4990219a860865334ba06105d783d7a50c1f7ffd1f72708d7",
-      "bytes": 203190
+      "path": "authored-cadet.data",
+      "bytes": 1431942,
+      "sha256": "9e23da41ba60e652eb48116ec32b0daf2d4f0b0d32d87e3ec7320d863f953520"
     },
     {
-      "path": "SpaceCadetPinball.wasm",
-      "sha256": "f099ef1a1a8a283453fc8e0b7c8779f67a41af3db6310a4b752fe8db60a6f652",
-      "bytes": 4741910
+      "path": "authored-cadet.js",
+      "bytes": 372771,
+      "sha256": "5c882e2f16428d096ef10dc36b57158c737cfb645b0e573b6877ae4a9a49e96f"
     },
     {
-      "path": "SpaceCadetPinball.data",
-      "sha256": "a26a18eee2ddc07d28a80ac4acb6e8693046733d17fd0dfcea54fcc51001fad8",
-      "bytes": 1431942
+      "path": "authored-cadet.wasm",
+      "bytes": 2071849,
+      "sha256": "06edc08c83025f2de2d7024111186a2ebf8059081f929c17eb4ca554e243d891"
     }
   ],
-  "base": "/runtime/cadet/0bc12d3ca97a-8d0f687e47/",
-  "script": "SpaceCadetPinball.js",
+  "base": "/runtime/cadet/0bc12d3ca97a-authored-c51f8473a6/",
+  "script": "authored-cadet.js",
   "saveVersion": "1",
   "saveRoots": [
     "/libsdl"
   ],
   "mountSave": true,
   "assets": [],
-  "args": []
+  "args": [],
+  "sourceArchiveSHA256": "33d4502ff6f3d8023b0248b9fff68c2a1f709a12cee9584625618be658f04a42",
+  "limitations": [
+    "Audible audio unverified; MIDI music not provided",
+    "Representative play and earned high-score UI reload verified; all objectives unverified"
+  ],
+  "assetScope": "CC0-declared replacement pack plus independently authored numeric/font/resource text; functional interoperability data documented separately; ProggyClean menu font MIT",
+  "cleanRoomCertified": false
 }
