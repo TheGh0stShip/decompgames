@@ -65,3 +65,6 @@ The exact published replacement DAT occurs at offset0 in the checked-in runtime 
 
 
 2026-10-12 menu-font notice resolved: retained upstream bluescan/proggyfonts LICENSE fromhttps://raw.githubusercontent.com/bluescan/proggyfonts/master/LICENSE; MITcopyright2004/2005TristanGrimmer matchesembeddedProggyCleandeclarationinimgui_draw.cpp. Legacyfontziphosts failed; authoritativeprojectlicenceobtainedinstead. Keepmenu-fontMITnotice separatefromauthoredCC0message/digitdata. Also retainedinstalled libcxx/libcxxabi/compiler-rt/libunwind licences, hashesinruntime-support-notices.json. Remainingexactvendorrevision/renderer provenance/linkclosure and refreshedpackagewithnewnotices stillopen, no blanketclearance. Productionunchanged.
+
+
+2026-10-12 notice-refreshed sourcepackage: private authored-cadet-noticed-source.tar.gz223files/1,470,083bytes SHAe1d196902b064009fd83ca18731a1d39fd0cfd515c149a11a139d1ff527020a0. Allnonnoticebuild/code/resources byteidentical toisolated-rebuiltv2archive, so nopointlessrebuild; perfilehashes recordedandmediaexclusionsasserted. Includes resolvedProggyMIT/runtime-supportnotices alongsideengine/dependencies/authoredCC0. Exactvendorprovenance/finaldependencyclosure and hook-freeearnedscoreUIreload remainopen. Archiveprivate, no deployment or eligibilitycertification.
