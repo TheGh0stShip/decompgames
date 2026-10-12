@@ -107,3 +107,6 @@ Published intake entries now include Tennis SDL, Craft, OpenDuelyst local Sandbo
 
 
 2026-10-12 fullcharactersavecontract audit: actualLaraextensionserializesvelocity/health/oxygen/pitch/weapons/holster/status; restorecanwpnSet/wpnDraw/meshSwap andsetsnonwaterSTAND_AIR. Privateauthoredfixturelacksweapon/inventorymodelcoverage, so simplycallingfulloverrideisnotvalidatedsaveintegration. full-character-save-contract.json recordspreciserequiredfields/enumeration/rangevalidation/sideeffects andairborne-resumetestrequirements. Existing28byteControllerpositionUIremainsgroundedpositionscope; nohealth/world/inventorysaveclaim. Nextunarmededitiondesignorindependentlyauthoredweaponpackmustbescopedexplicitly. No runtime/publicchanges.
+
+
+2026-10-12 position-save contractenforced: privateexportnowrequiresactualSTAND_GROUND/index11/y0; restorealsoacceptsonlyy0/index11 pluspreviouslength/room/frame/boundsvalidation. ActualArrowUprunindex0 exportreturns0; groundedbuttonsave/reload/reset/malformedframerejectionregressionspass. grounded-position-save-test.json retainsscope, errorsmissingexternalempty/mutedbrowserclosed. HostlabelnowSave standing position. No full/airborne/healthsaveclaim; oldsourcepackagepredatesvalidationchangeandmustrefreshbeforeversionreproclaim. No publicruntimechanges.
