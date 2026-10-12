@@ -1,0 +1,55 @@
+{
+  "revision": "0bc12d3ca97a-authored-c51f8473a6",
+  "checks": [
+    {
+      "url": "/runtime/cadet/0bc12d3ca97a-authored-c51f8473a6/authored-cadet.data",
+      "status": 206,
+      "sha256": "9e23da41ba60e652eb48116ec32b0daf2d4f0b0d32d87e3ec7320d863f953520",
+      "matches": true
+    },
+    {
+      "url": "/runtime/cadet/0bc12d3ca97a-authored-c51f8473a6/authored-cadet.js",
+      "status": 206,
+      "sha256": "5c882e2f16428d096ef10dc36b57158c737cfb645b0e573b6877ae4a9a49e96f",
+      "matches": true
+    },
+    {
+      "url": "/runtime/cadet/0bc12d3ca97a-authored-c51f8473a6/authored-cadet.wasm",
+      "status": 206,
+      "sha256": "06edc08c83025f2de2d7024111186a2ebf8059081f929c17eb4ca554e243d891",
+      "matches": true
+    },
+    {
+      "url": "/sources/cadet-0bc12d3ca97a-authored-c51f8473a6.tar.gz",
+      "status": 206,
+      "sha256": "33d4502ff6f3d8023b0248b9fff68c2a1f709a12cee9584625618be658f04a42",
+      "matches": true
+    }
+  ],
+  "preserved": [
+    {
+      "id": "halo-combat-evolved",
+      "status": 200
+    },
+    {
+      "id": "mario-party-2",
+      "status": 200
+    },
+    {
+      "id": "craft",
+      "status": 200
+    },
+    {
+      "id": "tennis-sdl",
+      "status": 200
+    },
+    {
+      "id": "openduelyst",
+      "status": 200
+    },
+    {
+      "id": "roboden-replacement",
+      "status": 200
+    }
+  ]
+}
