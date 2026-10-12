@@ -86,3 +86,6 @@ The exact published replacement DAT occurs at offset0 in the checked-in runtime 
 
 
 2026-10-12 embeddedtextreleaseblocker: sourcepinball.cpp rc_strings containsoriginaltitle/mission/credits/messagesoutsideDAT, includingexplicitMicrosoft/Maxiscredit/title. ReplacementDATCC0andfontreplacement doNOTestablishcompleteauthoredtextcoverage. Privateembedded-text-inventory.json recordsresourceIDs/printf-tokencontracts/functionalpathflags; independentlyauthor expressive replacements whilepreservingcontracts and requiredattribution. Earliercandidategameplay/save/rebuildresults remainvalidforoldtextversion, notclearancefornewtextversion. No deployment.
+
+
+2026-10-12 private authoredresource-text adaptation: all192rc_stringIDsretained, 40format-token sequences preservedexactly; threefunctionalentries retainedforseparatereview. Expressivetext replacedwithindependentCC0labels/objectiveinstructions/title/credits; genericTableeventlabels remainunpolished outside selectedUI messages. Existingengine/dependencyattributionretainedseparately. Fullbuildpasses; mutednormalboot/launch runswithnoerrorsmissingexternal/browserclosed; screenshotreviewrecorded. Oldearnedscore/reproducibilitytestsapplypriorversion, notnewtextversion; finalUX/persistenceregression/sourcepackrefreshstillneeded. No publicchanges.
