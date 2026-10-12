@@ -32,3 +32,9 @@ The exact published replacement DAT occurs at offset0 in the checked-in runtime 
 
 
 2026-10-12 rebuiltengine IDBFS settings check: privatehost mounts /libsdl, restores beforeengine run using add/removeRunDependency and FS.syncfs(true), matching site design. NormalF2+6sec runtime producesimgui_pb.ini; FS.syncfs(false), freshpagereload and restoration yield exactsamebytes. settings-reload-test.json retainedprivately; errors/missing/external empty, mutedbrowser/serverclosed. This verifies rebuiltengine settings persistence only, not naturallyplayed highscore or ball-in-progress save. Productionunchanged; finalnestednotice/sourceclosure stillrequired.
+
+
+2026-10-12 naturallyplayed highscore attempt: muted rebuiltengine normalF2 and fiveSpace launch/drain intervals (no injectedscore/lives/simulation acceleration) yields readable8750 atRE-DEPLOY and laterball2/score24250/AWAITINGDEPLOYMENT. Gameover/highscore-entry not reached; saved highscore slots remain-999. DoNOTmarkplayedhighscorepersistencepassed. played-highscore-diagnostic.json/privatecaptures retained, errors/missing/external empty; browser/serverclosed. Next longer completegame/input route and actualnameentry, thenFSsync/reload. Previous settingspersistencetest remainsvalid separately.
+
+
+2026-10-12 longer playedgame review: first12-interval normal launch/drain run reached actual gameover/HighScoresdialog with earned91750, awaitingconfirmation; savedslots remained-999 because dialogwasnotaccepted. Follow-up ordinarymouseaccept+FSsync/reload attempt FAILEDpositivehighscore assertion despite settingsrestoration and noerrors/missing/external. Fixedcoordinate click is not proof of successfuldialogacceptance; inspect endcapture/actualUIposition and settingswrite timing before attributing this toIDBFS. DoNOTclaimplayedhighscorepersistence. Muted browsers/serversclosedfinally; private diagnostic retained. Productionunchanged.
