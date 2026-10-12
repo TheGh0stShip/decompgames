@@ -101,3 +101,6 @@ Published intake entries now include Tennis SDL, Craft, OpenDuelyst local Sandbo
 
 
 2026-10-12 isolatedrunningjumpPASS: actualrunframe4/5 thenjump, releasebothkeyswhenactualtakeoff19observed. Samples0->19->20->11, exactlyonesampledtakeoffentry/noadditionalcompress17; negative/positivevy/miny-42, positivezmovementwhileairborne, finalx2048/z2426/y0/velocity0/groundstand1. Errorsmissingexternalempty/mutedbrowser/serverclosed. isolated-running-jump-test.json preservesprecisescope; notallterrain/state/gameplayororiginalmotionparity. Independentfixtureprivate; no cataloguepromotion.
+
+
+2026-10-12 runningfixture sourcepackagePASS: private79entry337,897byteopenlara-authored-running-source.tar.gz SHA891428ab4f93ab4abe54443c31803936d1ccb8ccfccb1552eea21097eb324de5 includeslatestcontroller/fixture/generator/noticeinputs andisolatedrunningjump evidence. SeparatefolderbuildJS/WASM/dataallbyteidentical; regenerated85,908byteauthoredfixturealsoexactmatchesSHA49a5634ccbd70d1583dbd402d8cf5477b732b4e3d285b0635cf65506943e72ec. Plainhost/no saveUIinthisvariant; priorsavepackagesremainseparatescope. Unsupportedneutralstates/inventory/enemies/puzzles/progressionstillunfinished; no publicOpenLaraentry/fullgame/cleanroomclaim.
