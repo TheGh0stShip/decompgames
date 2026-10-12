@@ -80,3 +80,6 @@ The exact published replacement DAT occurs at offset0 in the checked-in runtime 
 
 
 2026-10-12 hook-freeearnedscore PASS: finalcandidate normalF2/Space launch/drain inputs reached screenshot-observedHighScoresdialog110750. Privatevisualdetectorcheckedknownpopupheaderpixels; captureinspected, ordinaryOkclick thenpositive0.Score110750verified, FSsync/reloadexactfilematches. Noengineobservationhooks/scoreinjection. final-earned-score-test.json retainsbefore/restoredfiles; errors/missing/external empty, mutedbrowser/serverclosed. ReopenedHighScoresUIafterreloadstillpending(separatefromfile/formatproof). Finaldependencyclosure/packageupdate and integrationremain; productionunchanged.
+
+
+2026-10-12 finalhook-freehighscoreUI PASS: normalplay earned191750, visibleearned-dialog/ordinaryOk accepted, filepositiveandFSsync/reloadexactmatched. AfterreloadnormalGame>HighScoresmenuclick opensread-onlytable; screenshotinspected showsPlayer1/191750. This verifiesenginechecksum/read/UIrestoration, notonlyfilepresence. No score/lifeinjection/diagnostichooks; errors/missing/external empty; mutedbrowser/serverclosed. final-earned-score-test.json retainsfileevidenceandUIreview. Release stillrequiresfinallinkeddependencyinventory/refreshedsource/notices/siteintegration, productionunchanged.
