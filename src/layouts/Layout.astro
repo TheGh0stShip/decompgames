@@ -4,7 +4,7 @@ import '../styles/details.css';
 interface Props { title?: string; description?: string; noindex?: boolean; image?: string; }
 const {
   title = 'Play decompiled games in your browser',
-  description = 'Clean-room N64 builds, Skate 3 and open-source classics that run in your browser. No downloads, no ROMs, with gamepad and touch controls.',
+  description = 'Browse decompilations, source ports, engine recreations and emulated games, with per-game licences, content requirements and controls.',
   noindex = false,
   image = '/og.png',
 } = Astro.props;
@@ -14,7 +14,7 @@ const path = Astro.url.pathname;
 const gaId = import.meta.env.PUBLIC_GA_ID || 'G-GQ6627GN8H';
 const nav = [
   ['/', 'Games', path === '/' || path.startsWith('/games') || path.startsWith('/platform')],
-  ['/clean-room/', 'Clean room', path.startsWith('/clean-room')],
+  ['/clean-room/', 'Asset provenance', path.startsWith('/clean-room')],
   ['/guides/', 'Guides', path.startsWith('/guides')],
   ['/updates/', 'Updates', path.startsWith('/updates')],
   ['/about/', 'About', path.startsWith('/about')],
@@ -67,13 +67,13 @@ const nav = [
   <footer class="site-footer">
     <nav aria-label="Footer">
       <a href="/">Games</a>
-      <a href="/clean-room/">Clean room</a>
+      <a href="/clean-room/">Asset provenance</a>
       <a href="/licenses/">Licenses &amp; credits</a>
       <a href="/privacy/">Privacy</a>
       <a href="/contribute/">Contribute</a>
       <a href="https://exebrowser.com/">ExeBrowser</a>
     </nav>
-    <small>Independent community project. Game names belong to their respective owners. No retail game data is distributed.</small>
+    <small>Independent community project. Game names belong to their respective owners. See each game's licences, content requirements and verification scope.</small>
   </footer>
 </body>
 </html>

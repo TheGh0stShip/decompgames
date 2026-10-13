@@ -1,7 +1,7 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import Catalog from '../components/Catalog.astro';
-import { games, cleanroom } from '../lib/catalog';
+import { games } from '../lib/catalog';
 const list = {
   '@context': 'https://schema.org', '@type': 'ItemList', name: 'Decomp Games',
   itemListElement: games.map((g, i) => ({ '@type': 'ListItem', position: i + 1, name: g.title, url: new URL(`/games/${g.id}/`, Astro.site) })),
@@ -11,8 +11,8 @@ const list = {
   <Catalog />
   <section class="card prose">
     <h2 style="margin-top:0">What you are playing</h2>
-    <p>Decompilation projects turn a game's machine code back into source that can be rebuilt for new platforms, including the web. The {cleanroom.length} clean-room builds here go a step further: the game logic runs from decompiled or rewritten code, and every texture, model skin and sound has been regenerated, so nothing from the retail release is shipped. <a href="/clean-room/">How the clean room works</a>.</p>
-    <p>Connect a controller and it is picked up automatically. On a phone or tablet, on-screen controls appear when no controller is connected. Every game is free, and nothing needs installing.</p>
+    <p>This collection includes decompilations, source ports, engine recreations, original implementations and emulated games. Each game page describes its runtime, licences, content requirements and test scope. Replacement media does not by itself establish that all game content is independently authored. <a href="/clean-room/">Read about asset provenance</a>.</p>
+    <p>Controller and touch support vary by game. Check the controls and requirements on its page before starting.</p>
   </section>
   <script type="application/ld+json" set:html={JSON.stringify(list).replace(/</g, '\\u003c')} />
 </Layout>

@@ -4,7 +4,7 @@ import { games, cleanroom, classics, genres, platforms, slug } from '../lib/cata
 // `only` pre-filters the grid for the crawlable /platform/ pages.
 const { only = '', heading = 'Play in your browser' } = Astro.props as { only?: string; heading?: string };
 const chips: [string, string][] = [
-  ['', 'All'], ['cleanroom', 'Clean room'],
+  ['', 'All'], ['cleanroom', 'Community builds'],
   ...platforms.map(p => [slug(p), p] as [string, string]),
   ...genres.map(g => [slug(g), g] as [string, string]),
 ];
@@ -23,11 +23,11 @@ const chips: [string, string][] = [
     {chips.map(([value, label]) => <button type="button" class:list={['gf-chip', { 'is-on': value === only }]} data-cat={value} aria-pressed={value === only}>{label}</button>)}
   </div>
   <div class="shelf" data-shelf>
-    <div class="shelf-title" style="margin-top:0"><h2>Clean-room builds</h2><a class="muted" href="/clean-room/">What is this?</a></div>
+    <div class="shelf-title" style="margin-top:0"><h2>Community builds</h2><a class="muted" href="/clean-room/">Asset provenance</a></div>
     <ul class="poster-grid">{cleanroom.map((game, i) => <GameCard game={game} eager={i < 4} />)}</ul>
   </div>
   <div class="shelf" data-shelf>
-    <div class="shelf-title"><h2>Open-source classics</h2><span class="muted">Free replacement assets, hosted here</span></div>
+    <div class="shelf-title"><h2>Classic projects</h2><span class="muted">Licences and requirements vary by game</span></div>
     <ul class="poster-grid">{classics.map(game => <GameCard game={game} />)}</ul>
   </div>
   <div class="gf-empty" id="gf-empty" hidden>
