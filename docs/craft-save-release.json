@@ -1,0 +1,53 @@
+{
+  "deployment": "https://6b88d0b1.decompgames.pages.dev",
+  "commit": "9abdd06",
+  "scope": "Craft verification metadata only; unchanged native runtime tested live before publication",
+  "checks": [
+    {
+      "id": "craft",
+      "status": 200,
+      "scopePresent": true,
+      "limitsPresent": true,
+      "oldGapAbsent": true
+    },
+    {
+      "id": "mario-party-2",
+      "status": 200
+    },
+    {
+      "id": "mario-party-3",
+      "status": 200
+    },
+    {
+      "id": "halo-combat-evolved",
+      "status": 200
+    },
+    {
+      "id": "open-cadet",
+      "status": 200
+    },
+    {
+      "id": "2048",
+      "status": 200
+    },
+    {
+      "id": "tennis-sdl",
+      "status": 200
+    },
+    {
+      "id": "zzt-demo",
+      "status": 200
+    }
+  ],
+  "mainDomain": {
+    "status": 200,
+    "scopePresent": true,
+    "oldGapAbsent": true
+  },
+  "catalogEntries": 83,
+  "validation": "check0errors/0warnings/2existinghints; build147pages/109indexable and648distribution records across7auditedentries",
+  "noRuntimeChanges": true,
+  "playersClosed": true,
+  "noNewBrowserTestsAfterPublication": true,
+  "pass": true
+}
