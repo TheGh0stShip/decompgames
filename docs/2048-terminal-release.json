@@ -1,0 +1,37 @@
+{
+  "deployment": "https://ef9b1048.decompgames.pages.dev",
+  "commit": "275303c",
+  "scope": "Metadata-only publication HTTP/text checks; unchanged runtime was tested on production before deployment",
+  "results": [
+    {
+      "id": "2048",
+      "status": 200,
+      "scopePresent": true,
+      "touchLimitation": true
+    },
+    {
+      "id": "mario-party-2",
+      "status": 200
+    },
+    {
+      "id": "mario-party-3",
+      "status": 200
+    },
+    {
+      "id": "halo-combat-evolved",
+      "status": 200
+    },
+    {
+      "id": "zzt-demo",
+      "status": 200
+    },
+    {
+      "id": "open-cadet",
+      "status": 200
+    }
+  ],
+  "mainDomain": {
+    "status": 200,
+    "scopePresent": true
+  }
+}
