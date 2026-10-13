@@ -24,3 +24,5 @@ The original developers released source code and a community adapted it to new p
 ## Where emulation fits
 
 An emulator reproduces a machine’s behavior so original software can run. It is valuable preservation work, but an ordinary emulated game is not counted as a decompilation here. For a broader browser-emulation collection, visit [ExeBrowser](https://exebrowser.com/).
+
+A decompilation can also produce a console ROM that runs through an emulator. In that case, the source project is a decompilation and the browser execution is emulation; it is not a native WebAssembly game port. A modified retail ROM with replacement media is classified as emulation when this distribution does not establish a source rebuild. Having a ROM supplied by the hosting site does not make the distribution ROM-free.

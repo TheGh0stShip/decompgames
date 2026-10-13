@@ -1,37 +1,30 @@
 ---
 layout: ../layouts/Article.astro
-title: How the clean room works
-description: Clean-room builds run decompiled game code with every retail asset regenerated, so no original ROM, texture or sound is distributed.
+title: Asset provenance and clean-room claims
+description: How we distinguish replacement media, retained game content, source licensing, and evidence of independent implementation.
 ---
-A clean-room build is a game you can play in the browser that contains nothing copied from the retail release. The game logic runs from a decompilation or a from-scratch engine. Everything else is regenerated.
+A project name containing “cleanroom” does not establish how its code or content was created. Each game page describes the evidence available for that particular build. Some older external projects regenerate selected media while retaining game code, geometry, animation, text or music sequences.
 
-## Two rooms
+## Code and content are separate
 
-The work is split in two, and only one side is ever published.
+A source licence must cover the code being distributed, including dependencies. A permissive licence for a browser wrapper or port layer does not establish permission for reconstructed game code, embedded SDK code or the game's content.
 
-- **The dirty room** reads the retail game. It extracts a short list of coarse facts and nothing more.
-- **The clean room** sees only those facts. It generates new textures, new audio and new art from them, and builds the game.
+Content review includes graphics, models, animation, audio, text, maps and expressive data embedded in source files. Replacing textures and sound samples leaves the other categories to be checked. A free download or a public repository is not a complete redistribution licence.
 
-## What is kept
+## Independently authored replacements
 
-- Geometry and collision, so levels have the right shape.
-- Code, from the public decompilation projects.
-- Text and sequence data.
-- For textures: a coarse colour grid and a two-bit alpha outline, not the image.
-- For sounds: an outline of the sample, not the recording.
+For audited replacement packs, we record the authorship, licence, source inputs and file inventory. Licensed CC0 media can be used where its provenance is documented; separately licensed fonts and dependencies retain their own notices. Retained game content is disclosed rather than described as wholly original replacement content.
 
-## What is never published
+## What a comparison can establish
 
-- ROMs or disc images.
-- The dirty tree, development builds, or clips of the retail game.
-- Retail textures, music, sound effects or voice recordings. Voices are never cloned from the original performers.
+A byte comparison can find shared data in the files it examines. Passing it does not establish independent authorship, permission to redistribute, or separation between researchers and implementers. Colour grids, silhouettes, geometry and music sequences require their own provenance review even when generated output has different bytes.
 
-## The taint scan
+## Browser builds and ROMs
 
-Before a build is published, every generated file is compared against the retail data. The scan has to report zero failing files, or the build does not go out.
+Some external players load a ROM supplied by their hosting site. Playing without uploading your own ROM does not establish that the distribution is ROM-free. A decompilation-built ROM can still run through an emulator; that is different from compiling the game directly to WebAssembly.
 
-## What that means when you play
+## Verification limits
 
-The games look and sound different from the originals. Textures are simpler and audio is regenerated. The layout, the physics and the way each game plays come from the decompiled code.
+We do not certify formal clean-room isolation without evidence of the process and information boundaries. Gameplay testing, source licensing, asset provenance and runtime classification are separate checks. Startup is not a completed gameplay test, and a short gameplay test is not a full playthrough.
 
-Each build has its own repository, linked from its game page, with the generators and a status log.
+Each game page links its source and states its requirements, limitations and verification scope. Existing entries with unresolved provenance remain part of the broader classic collection; they are not counted as new audited permissive, ROM-free releases.
