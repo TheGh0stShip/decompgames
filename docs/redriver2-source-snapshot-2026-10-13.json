@@ -1,0 +1,55 @@
+{
+  "repository": "OpenDriver2/REDRIVER2",
+  "revision": "b2d8857426f815007486def9bd23f9a6007a2c64",
+  "starsAtRead": 1397,
+  "observedDateUTC": "2026-10-13",
+  "scope": "Read-only source documents, build scripts, dependency notices and installation instructions; no game content/executable downloaded, no build or browser test",
+  "hashEncoding": "SHA-256 of UTF-8 encoded decoded text preserved in the private snapshot; not an independently verified raw-byte download hash",
+  "fileHashes": {
+    ".gitmodules": "cdf01e6f24c3aee7b441f3412481ad118c10f298d5b518434317d9ad9a365509",
+    "LICENSE": "db3b97ec54bd96f5219e94039156ed1f05e2c9f1c7284db9c12fc70e1c7a63eb",
+    "README.md": "2fa9135040b5292578959c88b0df31dea54b793135969d40c45bf869ebfece57",
+    "src_rebuild/premake_modules/emscripten/_manifest.lua": "95e0de24cf9abbadc19dcb6f8f039b07af3c62739c6392795eaa9d477d087919",
+    "src_rebuild/premake_modules/emscripten/_preload.lua": "1b0fd9cadf0fdade786dd9da2014a77c02fc62130601e41f6baa71b0d588a396",
+    "src_rebuild/premake_modules/emscripten/emscripten.lua": "ada2f863dc154d33da46afc6a6e824ae3576bcb7d946405212cae7b86a3fd898",
+    "src_rebuild/premake_modules/emscripten/emscripten_emcc.lua": "cbadd9c877f8b1149e12df39f64fbbbb2599287b74ec87e32114af45c6e74353",
+    "src_rebuild/premake_modules/emscripten/emscripten_vstudio.lua": "81985c3e882934e3297c4338b253ea3f27c7cdfa073e37d1ce967d31e34e40f2",
+    "src_rebuild/premake5.lua": "2b24f22d1f8ba412e0cfc1139e8f85b7d006df963d1bf87e36757e52c55b9208",
+    "src_rebuild/platform/Emscripten/emscripten_exports.cpp": "0099986ff13b8fa3f397a2c2c590235eb990c7902fa206287de2e6e2bae7ba19",
+    "src_rebuild/platform/Emscripten/lsfs.js": "ad0f51ecf7cbdd91fc30cff00e893003d5406da433f2011a292eda6cce998661",
+    "src_rebuild/premake_modules/emscripten/LICENSE.txt": "b18cc959a8727ea428a77ffd0455374c17ed973dd46fac25586be8a04ecf5663",
+    "src_rebuild/premake_modules/emscripten/README.md": "db394e30bcc302e1c6eb213a075d4a46aa727175524d7c7eba6f7ea967ca2cd6",
+    "src_rebuild/premake5_psycross.lua": "9e153679e9f5c613c9c2c2128f92b5125fdc55be15713a6f9456e5dc10e97a6d"
+  },
+  "submodules": [
+    {
+      "path": "src_rebuild/PsyCross",
+      "mode": "160000",
+      "type": "commit",
+      "sha": "e56e4cde1c2b8a15e0d4e38b26cdd9202e0d17e6"
+    }
+  ],
+  "psyCross": {
+    "repository": "OpenDriver2/PsyCross",
+    "revision": "e56e4cde1c2b8a15e0d4e38b26cdd9202e0d17e6",
+    "fileHashes": {
+      "LICENSE": "fa03bfe5810413a38d363e003472bd9e7b36384ac5f82ad8d7c902fd83b51539",
+      "README.md": "f55eb10b2705d711a86c15711ec503ff1574c90b89d809e8ffb252306b0df3e5"
+    }
+  },
+  "installationWiki": {
+    "url": "https://github.com/OpenDriver2/REDRIVER2/wiki/Installation-instructions",
+    "revision": null,
+    "status": "Unpinned wiki text at read; distinct from pinned repository files",
+    "textSHA256": "8d8e13650cf48e396e01b3ea96e72f1269998640e4cade57dba622a3f57db1cf"
+  },
+  "catalogDeduplication": {
+    "catalogEntries": 83,
+    "matches": [],
+    "searchedTitles": [
+      "Driver 2",
+      "REDRIVER2"
+    ]
+  },
+  "disposition": "Blocked for current permissive ROM-free intake; browser potential observed, no integration or gameplay certification"
+}
