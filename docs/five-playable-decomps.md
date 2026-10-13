@@ -8,6 +8,8 @@ Each counted addition needs documented decompilation provenance, an open-source 
 
 ## Candidate findings
 
+October 13 licensing follow-up: the later GitHub intake uses the user's permissive-code preference. SDLPoP's earlier open-source-engine/levelset lead below remains historical research; its pinned GPL-3.0-or-later source is outside that current route. Cosmore/native adapter, Duke II, Thief 3 and God Hand also remain unintegrated for the precise code/content/runtime gates in the [new audit](cosmo-duke-thief-godhand-source-intake-2026-10-13.md). No fifth qualifying addition or new gameplay verification is claimed.
+
 | Candidate | Evidence | Current decision |
 | --- | --- | --- |
 | Supaplex / OpenSupaplex | Pinned GPL decompilation builds to WASM; the Open Paths package contains only independently generated CC0 data | **Released as Open Paths; addition 2/5.** Its six-level navigation campaign has a null audio backend. Muted local and production tests passed title/menu input, player creation, movement, first-level completion, fresh-start progress, backup export, deletion, import, and restoration. |

@@ -1,0 +1,443 @@
+{
+  "retrievedAt": "2026-10-13T17:52:34.612716+00:00",
+  "scope": "Pinned metadata, tree paths and selected textual source/documentation/notice reads, including legacy startup source; no media, game executable, SDK packages, library binaries or release bundles fetched. No build, gameplay, browser or audible test; no clean-room certificate or rights clearance.",
+  "snapshots": [
+    {
+      "repository": "smitelli/cosmore",
+      "revision": "80418d1ee9026594e4dcc8445ec801d374074d84",
+      "starsAtRead": 145,
+      "defaultBranch": "master",
+      "files": {
+        "LICENSE": {
+          "sha256": "8eb3d0fec9c1440598172ec3e51eafaddf765f2ea2f712eed8f1c65bb6fc3b0d",
+          "bytes": 1199,
+          "url": "https://github.com/smitelli/cosmore/blob/80418d1ee9026594e4dcc8445ec801d374074d84/LICENSE"
+        },
+        "MODERN-COMPILERS.md": {
+          "sha256": "614d9d34488b730f051cf4dd23e036e34ffef36d63f925fadbee5eaf4907372e",
+          "bytes": 3418,
+          "url": "https://github.com/smitelli/cosmore/blob/80418d1ee9026594e4dcc8445ec801d374074d84/MODERN-COMPILERS.md"
+        },
+        "README.md": {
+          "sha256": "bcf52732fdcd7e14bce4abee64d89280b82d15774a294ca93e9a8b693a96125e",
+          "bytes": 16411,
+          "url": "https://github.com/smitelli/cosmore/blob/80418d1ee9026594e4dcc8445ec801d374074d84/README.md"
+        },
+        "src/def.h": {
+          "sha256": "3233e04a4386f694bffa8f275dae8cf719f0ec2b534b9481d64a95dddc4afa44",
+          "bytes": 4717,
+          "url": "https://github.com/smitelli/cosmore/blob/80418d1ee9026594e4dcc8445ec801d374074d84/src/def.h"
+        },
+        "src/graphics.h": {
+          "sha256": "4f71262f485dcdab57998e0c8652cd17c509d935a654e9070d822c33058894a7",
+          "bytes": 5785,
+          "url": "https://github.com/smitelli/cosmore/blob/80418d1ee9026594e4dcc8445ec801d374074d84/src/graphics.h"
+        },
+        "src/episode1.h": {
+          "sha256": "eeb8df0fb4dc7b0c804bf8485b1efae16b41d3a29e4fb3cbc12019f958d4e9cb",
+          "bytes": 1545,
+          "url": "https://github.com/smitelli/cosmore/blob/80418d1ee9026594e4dcc8445ec801d374074d84/src/episode1.h"
+        },
+        "src/main.c": {
+          "sha256": "65c1ecac71d7e4afae0e4a02629e9ecd3db95a25f06298b25573d2c3883a9da8",
+          "bytes": 1938,
+          "url": "https://github.com/smitelli/cosmore/blob/80418d1ee9026594e4dcc8445ec801d374074d84/src/main.c"
+        },
+        "src/game1.c": {
+          "sha256": "96b6ea815ec9e9c02627237e3997033e783c2b0dbe2d486ff246b59136f53d1c",
+          "bytes": 316787,
+          "url": "https://github.com/smitelli/cosmore/blob/80418d1ee9026594e4dcc8445ec801d374074d84/src/game1.c"
+        },
+        "src/game2.c": {
+          "sha256": "f665c1acf97cc47aa84390d79b1e55ed5077bea4fba766282cabe78960f91c8a",
+          "bytes": 118316,
+          "url": "https://github.com/smitelli/cosmore/blob/80418d1ee9026594e4dcc8445ec801d374074d84/src/game2.c"
+        },
+        "src/Makefile": {
+          "sha256": "a1023ee9f907c60b17902bf786a4f3a529ca88073c6ac7ddb908d11824f9e7c7",
+          "bytes": 2409,
+          "url": "https://github.com/smitelli/cosmore/blob/80418d1ee9026594e4dcc8445ec801d374074d84/src/Makefile"
+        },
+        "C-DRAWING.md": {
+          "sha256": "4b7c280fdc5ce5e804a4b007b50123a12bd4f899772c84b51897a0d9082e6a75",
+          "bytes": 7158,
+          "url": "https://github.com/smitelli/cosmore/blob/80418d1ee9026594e4dcc8445ec801d374074d84/C-DRAWING.md"
+        }
+      },
+      "submodules": {},
+      "gameIdentity": "Cosmo's Cosmic Adventure",
+      "classification": "Disassembly-derived DOS source reconstruction",
+      "catalogExactTitlePresent": false,
+      "decision": "not-integrated",
+      "blocker": "Conditional: inherited game-code provenance/grant, embedded expressive data, complete independent resource pack and native browser runtime unresolved."
+    },
+    {
+      "repository": "digows/cosmo",
+      "revision": "7844b9126c54f074e643e0d5806c69e1e382d94b",
+      "starsAtRead": 5,
+      "defaultBranch": "main",
+      "files": {
+        ".gitmodules": {
+          "sha256": "4f2a120482db359410863537c4990551e0b6389504829479fb6981a3bbc1c626",
+          "bytes": 192,
+          "url": "https://github.com/digows/cosmo/blob/7844b9126c54f074e643e0d5806c69e1e382d94b/.gitmodules"
+        },
+        "ATTRIBUTION.md": {
+          "sha256": "9040179d61a2c1c7cdb93f82a44e4f4f47d88b57411353428cfe9e531dc02122",
+          "bytes": 1865,
+          "url": "https://github.com/digows/cosmo/blob/7844b9126c54f074e643e0d5806c69e1e382d94b/ATTRIBUTION.md"
+        },
+        "CMakeLists.txt": {
+          "sha256": "757a564af3ee1842dda53006736ddfe694db2679bcc3d69f9d0cb7a1befbc2dc",
+          "bytes": 12814,
+          "url": "https://github.com/digows/cosmo/blob/7844b9126c54f074e643e0d5806c69e1e382d94b/CMakeLists.txt"
+        },
+        "LICENSE": {
+          "sha256": "3622da6f554d06671446d35221cc55a02d45189f2d838926691cca6c86e584ba",
+          "bytes": 1073,
+          "url": "https://github.com/digows/cosmo/blob/7844b9126c54f074e643e0d5806c69e1e382d94b/LICENSE"
+        },
+        "README.md": {
+          "sha256": "fd90455ca74e7bfd6ee84dc71474ebfa251b9dff3e2c97d99029a3f8960798f8",
+          "bytes": 12644,
+          "url": "https://github.com/digows/cosmo/blob/7844b9126c54f074e643e0d5806c69e1e382d94b/README.md"
+        },
+        "cmake/PrepareCosmoreSources.cmake": {
+          "sha256": "a90dde9755b4b0293e4e875c162fa5cb2e7e75020372a82ba8ba5c8b8e2c4451",
+          "bytes": 7242,
+          "url": "https://github.com/digows/cosmo/blob/7844b9126c54f074e643e0d5806c69e1e382d94b/cmake/PrepareCosmoreSources.cmake"
+        },
+        "src/platform/platform_main.c": {
+          "sha256": "ad1e8433c09ad746365e20fe6f998030d85ad6572c40b0704b330ddc43ff2aa3",
+          "bytes": 18445,
+          "url": "https://github.com/digows/cosmo/blob/7844b9126c54f074e643e0d5806c69e1e382d94b/src/platform/platform_main.c"
+        },
+        "src/platform/font.c": {
+          "sha256": "0b51baaa758da94d223cb094dfe77fcd2ecbd1fbd3cc259c594264526be4274c",
+          "bytes": 3201,
+          "url": "https://github.com/digows/cosmo/blob/7844b9126c54f074e643e0d5806c69e1e382d94b/src/platform/font.c"
+        },
+        "src/platform/paths.c": {
+          "sha256": "5fde0e8c9a13ac3f75cf3fd2b1b46c4a41b1eb5f3d844fc706278abba43e9e74",
+          "bytes": 9341,
+          "url": "https://github.com/digows/cosmo/blob/7844b9126c54f074e643e0d5806c69e1e382d94b/src/platform/paths.c"
+        },
+        "tools/make-episode.py": {
+          "sha256": "ecae8c1f11f40c9ad2aabe387891442f7a71a30104079f239732e2dbfbd9848d",
+          "bytes": 6807,
+          "url": "https://github.com/digows/cosmo/blob/7844b9126c54f074e643e0d5806c69e1e382d94b/tools/make-episode.py"
+        },
+        "tools/cosmo_data.py": {
+          "sha256": "8c58d1cd84c76a00790c03ad929f34cffb53eb553fa2753121a54bf19141442d",
+          "bytes": 5297,
+          "url": "https://github.com/digows/cosmo/blob/7844b9126c54f074e643e0d5806c69e1e382d94b/tools/cosmo_data.py"
+        },
+        "patches/README.md": {
+          "sha256": "e4d76264fe3b15b54b235a2774224874bf09e502a3994831953beef247e2e086",
+          "bytes": 2735,
+          "url": "https://github.com/digows/cosmo/blob/7844b9126c54f074e643e0d5806c69e1e382d94b/patches/README.md"
+        },
+        ".github/workflows/ci.yml": {
+          "sha256": "38b4d664c0718c7929dbe981f76674e2d326349d56c8b2579b3e823568df94d8",
+          "bytes": 5044,
+          "url": "https://github.com/digows/cosmo/blob/7844b9126c54f074e643e0d5806c69e1e382d94b/.github/workflows/ci.yml"
+        }
+      },
+      "submodules": {
+        "vendor/cosmore": "80418d1ee9026594e4dcc8445ec801d374074d84",
+        "vendor/ymfm": "17decfae857b92ab55fbb30ade2287ace095a381"
+      },
+      "gameIdentity": "Cosmo's Cosmic Adventure",
+      "classification": "Native adapter of Cosmore with hardware compatibility/emulation",
+      "catalogExactTitlePresent": false,
+      "decision": "not-integrated",
+      "blocker": "Same game identity as Cosmore; current new-episode tool copies original resources; no verified browser runtime or cleared independent game distribution."
+    },
+    {
+      "repository": "lethal-guitar/Duke2Reconstructed",
+      "revision": "980cee990879fa5f9e53706ef63ad25df8e32d2d",
+      "starsAtRead": 370,
+      "defaultBranch": "main",
+      "files": {
+        "LICENSE.md": {
+          "sha256": "62f171d4d8b6726df61f18a6bbc0a70f79c4bc2134d837d35c81fc6289a2d84d",
+          "bytes": 17941,
+          "url": "https://github.com/lethal-guitar/Duke2Reconstructed/blob/980cee990879fa5f9e53706ef63ad25df8e32d2d/LICENSE.md"
+        },
+        "LICENSE_Cosmore": {
+          "sha256": "8105adecda068721e738c0e3037d697fc2cfd27181b2fdcc434d257778906ada",
+          "bytes": 1182,
+          "url": "https://github.com/lethal-guitar/Duke2Reconstructed/blob/980cee990879fa5f9e53706ef63ad25df8e32d2d/LICENSE_Cosmore"
+        },
+        "README.md": {
+          "sha256": "857c0c92c2c94a8e1a2df33c3ffaa457a3c8b6e7162654d1919cfe6f29ac4b95",
+          "bytes": 14682,
+          "url": "https://github.com/lethal-guitar/Duke2Reconstructed/blob/980cee990879fa5f9e53706ef63ad25df8e32d2d/README.md"
+        },
+        "SRC/BUILD.BAT": {
+          "sha256": "666135f5dff5c1444f3988ec006c8800283a98dbb5b26145f7055df4425a5822",
+          "bytes": 1268,
+          "url": "https://github.com/lethal-guitar/Duke2Reconstructed/blob/980cee990879fa5f9e53706ef63ad25df8e32d2d/SRC/BUILD.BAT"
+        },
+        "SRC/DIGISND/SRC/DIGISND.C": {
+          "sha256": "483c778c2a8faa42d057a45b78e85c17e401e11f2b850aade514cef457fee817",
+          "bytes": 57020,
+          "url": "https://github.com/lethal-guitar/Duke2Reconstructed/blob/980cee990879fa5f9e53706ef63ad25df8e32d2d/SRC/DIGISND/SRC/DIGISND.C"
+        },
+        "SRC/C0.ASM": {
+          "sha256": "f1ef57ca2138a544b2734a2e92e070950fa3ccaca00f7ce1e1ab7d6fc7858c65",
+          "bytes": 27351,
+          "url": "https://github.com/lethal-guitar/Duke2Reconstructed/blob/980cee990879fa5f9e53706ef63ad25df8e32d2d/SRC/C0.ASM"
+        }
+      },
+      "submodules": {},
+      "gameIdentity": "Duke Nukem II",
+      "classification": "Original DOS source reconstruction",
+      "catalogExactTitlePresent": false,
+      "decision": "not-integrated",
+      "blocker": "GPL-2.0 outside currently accepted permissive route; original data, legacy startup/sound dependency grants and browser port unresolved."
+    },
+    {
+      "repository": "lethal-guitar/RigelEngine",
+      "revision": "30afeff8f0b105eac77ee0a2fbd54b06e1a49b60",
+      "starsAtRead": 1007,
+      "defaultBranch": "master",
+      "files": {
+        ".gitmodules": {
+          "sha256": "6d209d76a986c9bcca01f0a0f0e7e762f413d606cb83ebc1e5f1f402e672307c",
+          "bytes": 308,
+          "url": "https://github.com/lethal-guitar/RigelEngine/blob/30afeff8f0b105eac77ee0a2fbd54b06e1a49b60/.gitmodules"
+        },
+        "BUILDING.md": {
+          "sha256": "bd074a31bca27a19ca85803c6187daca81a0b84e386fe6c9d54bdc3e997c4c8b",
+          "bytes": 14741,
+          "url": "https://github.com/lethal-guitar/RigelEngine/blob/30afeff8f0b105eac77ee0a2fbd54b06e1a49b60/BUILDING.md"
+        },
+        "CMakeLists.txt": {
+          "sha256": "351d63ec3f686a8b6796828abbbbd632601769521517da7c48785b689cdbb222",
+          "bytes": 3250,
+          "url": "https://github.com/lethal-guitar/RigelEngine/blob/30afeff8f0b105eac77ee0a2fbd54b06e1a49b60/CMakeLists.txt"
+        },
+        "LICENSE.md": {
+          "sha256": "62f171d4d8b6726df61f18a6bbc0a70f79c4bc2134d837d35c81fc6289a2d84d",
+          "bytes": 17941,
+          "url": "https://github.com/lethal-guitar/RigelEngine/blob/30afeff8f0b105eac77ee0a2fbd54b06e1a49b60/LICENSE.md"
+        },
+        "README.md": {
+          "sha256": "2b6b6c6abd42b0554530bca012d9ed4cac6233f5010b970a8d3cec21f7954741",
+          "bytes": 6976,
+          "url": "https://github.com/lethal-guitar/RigelEngine/blob/30afeff8f0b105eac77ee0a2fbd54b06e1a49b60/README.md"
+        },
+        "3rd_party/CMakeLists.txt": {
+          "sha256": "40ccf61140d4c5b84064810eaef3ad6caf9213b8534186983f34eb2f7e015e82",
+          "bytes": 1478,
+          "url": "https://github.com/lethal-guitar/RigelEngine/blob/30afeff8f0b105eac77ee0a2fbd54b06e1a49b60/3rd_party/CMakeLists.txt"
+        },
+        "src/CMakeLists.txt": {
+          "sha256": "c7936931b6140b0f854a10ab32834079b17d133c118b7bb7dbe616b0adcf850d",
+          "bytes": 15492,
+          "url": "https://github.com/lethal-guitar/RigelEngine/blob/30afeff8f0b105eac77ee0a2fbd54b06e1a49b60/src/CMakeLists.txt"
+        },
+        "3rd_party/nuked-opl3/LICENSE": {
+          "sha256": "20c17d8b8c48a600800dfd14f95d5cb9ff47066a9641ddeab48dc54aec96e331",
+          "bytes": 26526,
+          "url": "https://github.com/lethal-guitar/RigelEngine/blob/30afeff8f0b105eac77ee0a2fbd54b06e1a49b60/3rd_party/nuked-opl3/LICENSE"
+        }
+      },
+      "submodules": {
+        "3rd_party/entityx": "87ca0003248bdf5a5b8e8e8f957e0ff3efbf5aae",
+        "3rd_party/glm": "9749727c2db4742369219e1d452f43e918734b4e",
+        "3rd_party/imgui/imgui": "eda7792b151d138e15df951578253b821ceed5a3"
+      },
+      "gameIdentity": "Duke Nukem II",
+      "classification": "Rewritten engine informed by disassembly",
+      "catalogExactTitlePresent": false,
+      "decision": "not-integrated",
+      "blocker": "Same game identity as Duke2Reconstructed; GPL-2.0, original data required, upstream browser demo marked unavailable; broad recreation expansion paused."
+    },
+    {
+      "repository": "Veradictus/Thief3-Decomp",
+      "revision": "0022f3be04fa1e0b8900cb575e6113fae3d30120",
+      "starsAtRead": 6,
+      "defaultBranch": "main",
+      "files": {
+        "LICENSE": {
+          "sha256": "51cd12030fc1f5914bf24aa5aa4a7650ae4e306b9364caf2baf0cd5995dea9d6",
+          "bytes": 1079,
+          "url": "https://github.com/Veradictus/Thief3-Decomp/blob/0022f3be04fa1e0b8900cb575e6113fae3d30120/LICENSE"
+        },
+        "README.md": {
+          "sha256": "e85a04706d5a30ed916239b0d2220bffafcc60a11483434eff9e32738ab9342f",
+          "bytes": 17246,
+          "url": "https://github.com/Veradictus/Thief3-Decomp/blob/0022f3be04fa1e0b8900cb575e6113fae3d30120/README.md"
+        },
+        "THIRD_PARTY_NOTICES.md": {
+          "sha256": "035a61fc2ed84f4e3839679fdb10b93aee49a8852beb0c3649f6f43b08e3bd51",
+          "bytes": 6116,
+          "url": "https://github.com/Veradictus/Thief3-Decomp/blob/0022f3be04fa1e0b8900cb575e6113fae3d30120/THIRD_PARTY_NOTICES.md"
+        },
+        "progress/PC_20040610/report.json": {
+          "sha256": "c2b0d64f687f5e3153547af96635bcf27f50db1e0b6b911fd160001cf0235af7",
+          "bytes": 6188828,
+          "url": "https://github.com/Veradictus/Thief3-Decomp/blob/0022f3be04fa1e0b8900cb575e6113fae3d30120/progress/PC_20040610/report.json"
+        },
+        "configure.py": {
+          "sha256": "1cca474eeadf28f77dc03b27f4b2169c724e9bff5491f9d52bf96235ca50c596",
+          "bytes": 16743,
+          "url": "https://github.com/Veradictus/Thief3-Decomp/blob/0022f3be04fa1e0b8900cb575e6113fae3d30120/configure.py"
+        },
+        "sdk/CMakeLists.txt": {
+          "sha256": "6742a6b0516c951461f220c68c6ee0195c6a7120259aed6136da15bf2d1639c3",
+          "bytes": 2112,
+          "url": "https://github.com/Veradictus/Thief3-Decomp/blob/0022f3be04fa1e0b8900cb575e6113fae3d30120/sdk/CMakeLists.txt"
+        }
+      },
+      "submodules": {},
+      "gameIdentity": "Thief: Deadly Shadows",
+      "classification": "Partial matching decompilation and Windows modding SDK",
+      "catalogExactTitlePresent": false,
+      "decision": "not-integrated",
+      "blocker": "Contributor MIT scope excludes original game executable/content rights; installed retail executable required; incomplete portable logic, full independent content and browser/dependency closure unresolved."
+    },
+    {
+      "repository": "LucasPicoli/god-hand-decomp",
+      "revision": "58bcee16a279f8ee2bc2a7e9d341a33b325d4151",
+      "starsAtRead": 53,
+      "defaultBranch": "main",
+      "files": {
+        "LICENSE": {
+          "sha256": "f79e08664141c5b6c75df008e9abc18715f1579ea538d56495ef64c139d381bc",
+          "bytes": 1102,
+          "url": "https://github.com/LucasPicoli/god-hand-decomp/blob/58bcee16a279f8ee2bc2a7e9d341a33b325d4151/LICENSE"
+        },
+        "README.md": {
+          "sha256": "df1bbdbd318c01bbfdea12aeabcb36db1a86986804c470634af5a1ad3f325a12",
+          "bytes": 9591,
+          "url": "https://github.com/LucasPicoli/god-hand-decomp/blob/58bcee16a279f8ee2bc2a7e9d341a33b325d4151/README.md"
+        },
+        "progress/report.json": {
+          "sha256": "58a24db4c64e2b38e47f9148fa18f8807d682609dc454a6259dd00e9fcd80e92",
+          "bytes": 11773536,
+          "url": "https://github.com/LucasPicoli/god-hand-decomp/blob/58bcee16a279f8ee2bc2a7e9d341a33b325d4151/progress/report.json"
+        },
+        "config/versions.json": {
+          "sha256": "f25ee9d76d755c35a815a4cd81f2b4f66507f91ec7b853395454452ece652745",
+          "bytes": 1081,
+          "url": "https://github.com/LucasPicoli/god-hand-decomp/blob/58bcee16a279f8ee2bc2a7e9d341a33b325d4151/config/versions.json"
+        },
+        "compile.py": {
+          "sha256": "3a64c5ad0d510e19b6df2da84633b90a59f4d7f630db8d350b2135551275d5aa",
+          "bytes": 135000,
+          "url": "https://github.com/LucasPicoli/god-hand-decomp/blob/58bcee16a279f8ee2bc2a7e9d341a33b325d4151/compile.py"
+        }
+      },
+      "submodules": {},
+      "gameIdentity": "God Hand",
+      "classification": "Partial matching PS2 decompilation",
+      "catalogExactTitlePresent": false,
+      "decision": "not-integrated",
+      "blocker": "Contributor MIT scope excludes original game/code/content rights; original-derived assembly and PS2 tooling required, no port; independent content and browser/dependency closure unresolved."
+    },
+    {
+      "repository": "NagyD/SDLPoP",
+      "revision": "3c5add5fb7f83d4ceb542823ab66d00146c4271b",
+      "starsAtRead": 1296,
+      "files": {
+        "README.md": {
+          "sha256": "c08a42a7c6afd1bea84e7729697cf846ef0e5b95027914636bb2f95ec689a3b8",
+          "bytes": 21474,
+          "url": "https://github.com/NagyD/SDLPoP/blob/3c5add5fb7f83d4ceb542823ab66d00146c4271b/README.md"
+        },
+        "COPYING": {
+          "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
+          "bytes": 35149,
+          "url": "https://github.com/NagyD/SDLPoP/blob/3c5add5fb7f83d4ceb542823ab66d00146c4271b/COPYING"
+        },
+        "SDLPoP.ini": {
+          "sha256": "e1454e8d77f6a5aec83d3ce7fb74b46f6f72e8c8caf15dddb165be9430cbb5e0",
+          "bytes": 22039,
+          "url": "https://github.com/NagyD/SDLPoP/blob/3c5add5fb7f83d4ceb542823ab66d00146c4271b/SDLPoP.ini"
+        },
+        "src/CMakeLists.txt": {
+          "sha256": "5a734e9c62f648a822fad5020a39b30fe8d9f36fc5889fa427d7241622614f8d",
+          "bytes": 4932,
+          "url": "https://github.com/NagyD/SDLPoP/blob/3c5add5fb7f83d4ceb542823ab66d00146c4271b/src/CMakeLists.txt"
+        },
+        "src/data.h": {
+          "sha256": "6f9527f7c1e9d4ccde9f673a07c0fdb5c43acf722471eadb1f3e7f6aa68243ce",
+          "bytes": 25725,
+          "url": "https://github.com/NagyD/SDLPoP/blob/3c5add5fb7f83d4ceb542823ab66d00146c4271b/src/data.h"
+        }
+      },
+      "gameIdentity": "Prince of Persia",
+      "classification": "Disassembly-derived native port",
+      "catalogExactTitlePresent": false,
+      "decision": "not-integrated",
+      "blocker": "GPL-3.0-or-later outside current permissive route; original code/content and exact browser dependency closure not cleared."
+    }
+  ],
+  "dependencies": [
+    {
+      "repository": "aaronsgiles/ymfm",
+      "revision": "17decfae857b92ab55fbb30ade2287ace095a381",
+      "scope": "Selected dependency notice/header review, not an exact linked dependency closure",
+      "files": {
+        "LICENSE": {
+          "sha256": "2d2e9213c170a9866c616fa85b6da993a6724e10befc61f468ed9bfb84c4691c",
+          "bytes": 1519,
+          "url": "https://github.com/aaronsgiles/ymfm/blob/17decfae857b92ab55fbb30ade2287ace095a381/LICENSE"
+        },
+        "src/ymfm_opl.cpp": {
+          "sha256": "e745673678d0de9733488427397e794d42348bb000dd45f6665d6f063963d517",
+          "bytes": 65403,
+          "url": "https://github.com/aaronsgiles/ymfm/blob/17decfae857b92ab55fbb30ade2287ace095a381/src/ymfm_opl.cpp"
+        },
+        "src/ymfm_adpcm.cpp": {
+          "sha256": "74e5ded129ea7e532112e5b637d0a7bd4e127fd83331f1fac32011723051d4e0",
+          "bytes": 22040,
+          "url": "https://github.com/aaronsgiles/ymfm/blob/17decfae857b92ab55fbb30ade2287ace095a381/src/ymfm_adpcm.cpp"
+        },
+        "src/ymfm_pcm.cpp": {
+          "sha256": "3099d770b876dcdcb8a4c15df48fcc3475f22eca5a144b66581bfa7ebbf499ab",
+          "bytes": 21684,
+          "url": "https://github.com/aaronsgiles/ymfm/blob/17decfae857b92ab55fbb30ade2287ace095a381/src/ymfm_pcm.cpp"
+        }
+      }
+    },
+    {
+      "repository": "libsdl-org/SDL",
+      "revision": "f87239e71e42da91ca317a12eefb82cfbf3393eb",
+      "scope": "Selected dependency notice/header review, not an exact linked dependency closure",
+      "files": {
+        "LICENSE.txt": {
+          "sha256": "1c040b8271b37e5076359f8fd54240e371114112924d2df81ef87c7d6a1dfdfd",
+          "bytes": 884,
+          "url": "https://github.com/libsdl-org/SDL/blob/f87239e71e42da91ca317a12eefb82cfbf3393eb/LICENSE.txt"
+        }
+      }
+    }
+  ],
+  "reviewCompletedAt": "2026-10-13T17:58:23.942857+00:00",
+  "fileHashEncoding": "SHA-256 of exact downloaded raw bytes; private text reads decoded UTF-8 with replacement only when needed",
+  "counts": {
+    "gameIdentities": 5,
+    "repositories": 7,
+    "dependencyRepositories": 2,
+    "hashedTextFiles": 59,
+    "hashedTextBytes": 19145822,
+    "catalogEntries": 84,
+    "newEligibleIntegrations": 0
+  },
+  "catalogSha256": "580d16b8772b4b36de0ba02d991f73c3a6428a4bccd8b09b897f14c40d0c6da2",
+  "catalogDeduplication": "Five exact game identities absent; Cosmore/native adapter share one identity, and Duke2Reconstructed/RigelEngine share one identity. Existing Duke Nukem: Zero Hour is a different game.",
+  "verification": {
+    "rawFileHashesChecked": true,
+    "exactLinkedDependencyClosure": false,
+    "compileAttempted": false,
+    "gameplayAttempted": false,
+    "browserLaunched": false,
+    "retailInputsFetched": false,
+    "sourceRightsCertified": false
+  },
+  "nextPriority": "Cosmore native adapter is a conditional actual reconstruction lead; reopen only when inherited-code provenance/grant and all independent-content gates can be closed. Do not promote the original-asset episode generator."
+}
