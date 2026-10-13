@@ -1,0 +1,513 @@
+{
+  "date": "2026-10-13T21:50:17.271231+00:00",
+  "scope": "36 pinned textual files only, including seven dependency files. Raw payloads/trees retained privately. No media, original game data, executables, compiler/SDK binaries, release bundles or players fetched.",
+  "snapshots": [
+    {
+      "requestedRepository": "gta-reversed/gta-reversed-modern",
+      "repository": "gta-reversed/gta-reversed",
+      "revision": "04c5b6643a9059e879f6015ec02e618f141fb27a",
+      "starsAtRead": 1048,
+      "apiLicense": null,
+      "description": "Reimplementation of GTA:SA 1.0 US",
+      "treeTruncated": false,
+      "rootFiles": [
+        ".clang-format",
+        ".clang-tidy",
+        ".editorconfig",
+        ".git-blame-ignore-revs",
+        ".gitattributes",
+        ".gitignore",
+        "CMakeLists.txt",
+        "CMakePresets.json",
+        "README.md",
+        "conanfile.py",
+        "setup.py"
+      ],
+      "selectedTextFiles": [
+        {
+          "path": "CMakeLists.txt",
+          "bytes": 1751,
+          "sha256": "b3e6fad4fdb2828dde72e4022a20c1cedb723a193905cf1d7802369081ae79fc",
+          "url": "https://github.com/gta-reversed/gta-reversed/blob/04c5b6643a9059e879f6015ec02e618f141fb27a/CMakeLists.txt"
+        },
+        {
+          "path": "README.md",
+          "bytes": 5713,
+          "sha256": "bd91b0033079609577f59e02dc7609910c0b4e5ac737fcb55b01b2f4811bb1be",
+          "url": "https://github.com/gta-reversed/gta-reversed/blob/04c5b6643a9059e879f6015ec02e618f141fb27a/README.md"
+        },
+        {
+          "path": "conanfile.py",
+          "bytes": 3588,
+          "sha256": "740dcb6d6c6348ac859ccc91fb56a3b61eea067e775ee2507a60d0619ad76530",
+          "url": "https://github.com/gta-reversed/gta-reversed/blob/04c5b6643a9059e879f6015ec02e618f141fb27a/conanfile.py"
+        }
+      ],
+      "grantNamedFiles": [],
+      "treeEvidence": {
+        "revision": "04c5b6643a9059e879f6015ec02e618f141fb27a",
+        "entryCount": 2456,
+        "truncated": false,
+        "privateTreeSha256": "e2fd467465c19ee3221b9dc710ea203d06de275870575750d78ae5c9d9c2990d"
+      }
+    },
+    {
+      "requestedRepository": "Gh0stBlade/KAIN2",
+      "repository": "Gh0stBlade/KAIN2",
+      "revision": "e9fa662a02ab597af1e2b2b8e4d1a6af02c180ef",
+      "starsAtRead": 175,
+      "apiLicense": {
+        "key": "unlicense",
+        "name": "The Unlicense",
+        "spdx_id": "Unlicense",
+        "url": "https://api.github.com/licenses/unlicense",
+        "node_id": "MDc6TGljZW5zZTE1"
+      },
+      "description": "Legacy of Kain: Soul Reaver Decompile",
+      "treeTruncated": false,
+      "rootFiles": [
+        ".gitattributes",
+        ".gitignore",
+        ".gitmodules",
+        "CMakeLists.txt",
+        "CONTRIBUTING.MD",
+        "Makefile",
+        "README.MD",
+        "appveyor.yml"
+      ],
+      "selectedTextFiles": [
+        {
+          "path": ".gitmodules",
+          "bytes": 314,
+          "sha256": "a4249fe98358283a847e4809ccea84bdd25aa2f1e43b7f1380599e134d84284e",
+          "url": "https://github.com/Gh0stBlade/KAIN2/blob/e9fa662a02ab597af1e2b2b8e4d1a6af02c180ef/.gitmodules"
+        },
+        {
+          "path": "CMakeLists.txt",
+          "bytes": 1496,
+          "sha256": "eaa400dc93a81c5cbe0d720a5737ccdf0a2cc49abcae6f9ab1f4aaafd0661542",
+          "url": "https://github.com/Gh0stBlade/KAIN2/blob/e9fa662a02ab597af1e2b2b8e4d1a6af02c180ef/CMakeLists.txt"
+        },
+        {
+          "path": "README.MD",
+          "bytes": 1948,
+          "sha256": "011c7378df2b2ac2f7b89536afe9201701250c16460b0a72665fb8bff14987a0",
+          "url": "https://github.com/Gh0stBlade/KAIN2/blob/e9fa662a02ab597af1e2b2b8e4d1a6af02c180ef/README.MD"
+        },
+        {
+          "path": "CONTRIBUTING.MD",
+          "bytes": 5135,
+          "sha256": "48c65394b9e48b1e655cf81428c65185f4cc4fc0cc706fc872b18aa2846ec5a8",
+          "url": "https://github.com/Gh0stBlade/KAIN2/blob/e9fa662a02ab597af1e2b2b8e4d1a6af02c180ef/CONTRIBUTING.MD"
+        },
+        {
+          "path": "External/CMakeLists.txt",
+          "bytes": 1098,
+          "sha256": "9c8dfd5c0c9c504ebbf660f4f3c6384a3dfdd21f1fb093e28168ee8ee3eefc19",
+          "url": "https://github.com/Gh0stBlade/KAIN2/blob/e9fa662a02ab597af1e2b2b8e4d1a6af02c180ef/External/CMakeLists.txt"
+        },
+        {
+          "path": "KAIN2/CMakeLists.txt",
+          "bytes": 252,
+          "sha256": "a6b8e932477d456da575553005ac6224b82dfbb631286cd30a56405ab0acea1b",
+          "url": "https://github.com/Gh0stBlade/KAIN2/blob/e9fa662a02ab597af1e2b2b8e4d1a6af02c180ef/KAIN2/CMakeLists.txt"
+        },
+        {
+          "path": "KAIN2/Game/CMakeLists.txt",
+          "bytes": 5364,
+          "sha256": "1155ec40c936a6d10f70fa50c6f4c404055e5674902c04cab76bc108d17a55c4",
+          "url": "https://github.com/Gh0stBlade/KAIN2/blob/e9fa662a02ab597af1e2b2b8e4d1a6af02c180ef/KAIN2/Game/CMakeLists.txt"
+        },
+        {
+          "path": "KAIN2/Game/Platform/Emscripten.cmake",
+          "bytes": 1188,
+          "sha256": "11047ba36117e7223a06c8fa46e01c222dfde847daf4c878a2236e198f6cfb26",
+          "url": "https://github.com/Gh0stBlade/KAIN2/blob/e9fa662a02ab597af1e2b2b8e4d1a6af02c180ef/KAIN2/Game/Platform/Emscripten.cmake"
+        },
+        {
+          "path": "KAIN2/Game/LOAD3D.C",
+          "bytes": 29190,
+          "sha256": "7f871419c216915f658c12da04810d1cd48173e73a86c95ef2e46b02700707cb",
+          "url": "https://github.com/Gh0stBlade/KAIN2/blob/e9fa662a02ab597af1e2b2b8e4d1a6af02c180ef/KAIN2/Game/LOAD3D.C"
+        },
+        {
+          "path": "KAIN2/Game/LOAD3D.H",
+          "bytes": 6135,
+          "sha256": "5d7e62cb913144cf3dd792577fddfc39a8413eb047219be19ba7e2a3ffa85b5e",
+          "url": "https://github.com/Gh0stBlade/KAIN2/blob/e9fa662a02ab597af1e2b2b8e4d1a6af02c180ef/KAIN2/Game/LOAD3D.H"
+        },
+        {
+          "path": "Makefile",
+          "bytes": 4251,
+          "sha256": "337bf6cc73d611937653df63d70346be18a111cb5fd3e1bf607bc7ed9c614190",
+          "url": "https://github.com/Gh0stBlade/KAIN2/blob/e9fa662a02ab597af1e2b2b8e4d1a6af02c180ef/Makefile"
+        }
+      ],
+      "grantNamedFiles": [],
+      "treeEvidence": {
+        "revision": "e9fa662a02ab597af1e2b2b8e4d1a6af02c180ef",
+        "entryCount": 397,
+        "truncated": false,
+        "privateTreeSha256": "f290c4e94ae7f9ea6aba32b5629179ad32b90864d88ba302982ca96dd567a167"
+      }
+    },
+    {
+      "requestedRepository": "lethal-guitar/BioMenaceDecomp",
+      "repository": "lethal-guitar/BioMenaceDecomp",
+      "revision": "4471bcfc03ff2ebe10620011fa45e9a1d086c841",
+      "starsAtRead": 15,
+      "apiLicense": {
+        "key": "gpl-2.0",
+        "name": "GNU General Public License v2.0",
+        "spdx_id": "GPL-2.0",
+        "url": "https://api.github.com/licenses/gpl-2.0",
+        "node_id": "MDc6TGljZW5zZTg="
+      },
+      "description": "Work in progress BioMenace decompilation",
+      "treeTruncated": false,
+      "rootFiles": [
+        ".gitignore",
+        "COPYING",
+        "README.md"
+      ],
+      "selectedTextFiles": [
+        {
+          "path": "COPYING",
+          "bytes": 18092,
+          "sha256": "8177f97513213526df2cf6184d8ff986c675afb514d4e68a404010521b880643",
+          "url": "https://github.com/lethal-guitar/BioMenaceDecomp/blob/4471bcfc03ff2ebe10620011fa45e9a1d086c841/COPYING"
+        },
+        {
+          "path": "README.md",
+          "bytes": 2131,
+          "sha256": "cc5c271152a2675b676000a910480ccf606eb3bacf70ff643eb1b3674c8bb0e8",
+          "url": "https://github.com/lethal-guitar/BioMenaceDecomp/blob/4471bcfc03ff2ebe10620011fa45e9a1d086c841/README.md"
+        },
+        {
+          "path": "SRC/MAKEFILE",
+          "bytes": 851,
+          "sha256": "4673012ab4d41bed3178adb86d7a05cd3d03c41d79ba5a76bc479ca5a4acd08c",
+          "url": "https://github.com/lethal-guitar/BioMenaceDecomp/blob/4471bcfc03ff2ebe10620011fa45e9a1d086c841/SRC/MAKEFILE"
+        }
+      ],
+      "grantNamedFiles": [
+        "COPYING"
+      ],
+      "treeEvidence": {
+        "revision": "4471bcfc03ff2ebe10620011fa45e9a1d086c841",
+        "entryCount": 50,
+        "truncated": false,
+        "privateTreeSha256": "6dd60c7ab8e7f391e11a634b6007c78ec2141c33e9296ded4e124e1427e7aed5"
+      }
+    },
+    {
+      "requestedRepository": "MBU-Team/OpenMBU",
+      "repository": "MBU-Team/OpenMBU",
+      "revision": "3d6516e1c9cb43e61aead3369d1f7210d08b83ef",
+      "starsAtRead": 258,
+      "apiLicense": {
+        "key": "other",
+        "name": "Other",
+        "spdx_id": "NOASSERTION",
+        "url": null,
+        "node_id": "MDc6TGljZW5zZTA="
+      },
+      "description": "OpenMBU is a revival of Marble Blast Ultra, the 2006 Xbox 360 arcade classic.",
+      "treeTruncated": false,
+      "rootFiles": [
+        ".gitignore",
+        "CMakeLists.txt",
+        "LICENSE.md",
+        "README.md"
+      ],
+      "selectedTextFiles": [
+        {
+          "path": "CMakeLists.txt",
+          "bytes": 113,
+          "sha256": "6cfb8efe141964dde0c7d6236a89b183dd6243ca9422ef140a3268534811bf7d",
+          "url": "https://github.com/MBU-Team/OpenMBU/blob/3d6516e1c9cb43e61aead3369d1f7210d08b83ef/CMakeLists.txt"
+        },
+        {
+          "path": "LICENSE.md",
+          "bytes": 1548,
+          "sha256": "292540e2acf39f6e671cee9d389cff1e6d2fb4bc440d33429750b87f0d0eac41",
+          "url": "https://github.com/MBU-Team/OpenMBU/blob/3d6516e1c9cb43e61aead3369d1f7210d08b83ef/LICENSE.md"
+        },
+        {
+          "path": "README.md",
+          "bytes": 3391,
+          "sha256": "96491b7280a6f36804e6dda3a2a695667db7d57f6b97bd269b22a948bc111525",
+          "url": "https://github.com/MBU-Team/OpenMBU/blob/3d6516e1c9cb43e61aead3369d1f7210d08b83ef/README.md"
+        },
+        {
+          "path": "tools/cmake/CMakeLists.txt",
+          "bytes": 88,
+          "sha256": "be74cc8a972179b8fb2d80379607ced32595af6b40b69599f155e2a769829fdb",
+          "url": "https://github.com/MBU-Team/OpenMBU/blob/3d6516e1c9cb43e61aead3369d1f7210d08b83ef/tools/cmake/CMakeLists.txt"
+        },
+        {
+          "path": "tools/cmake/marbleblast.cmake",
+          "bytes": 14227,
+          "sha256": "c26ce315d234e9fb66ba68da59a3ad807b3def558a8850ba58e1b3246a43e20d",
+          "url": "https://github.com/MBU-Team/OpenMBU/blob/3d6516e1c9cb43e61aead3369d1f7210d08b83ef/tools/cmake/marbleblast.cmake"
+        },
+        {
+          "path": "tools/cmake/basics.cmake",
+          "bytes": 16612,
+          "sha256": "be58a05e4d08ddddbd235c1afc13d299cf4b95a68add7205852a653b2c41318d",
+          "url": "https://github.com/MBU-Team/OpenMBU/blob/3d6516e1c9cb43e61aead3369d1f7210d08b83ef/tools/cmake/basics.cmake"
+        },
+        {
+          "path": "tools/cmake/libraries/assimp.cmake",
+          "bytes": 6224,
+          "sha256": "f3353dee8651b64f883a8db345a053caceb799143c2834949fbd21f2e7157cb5",
+          "url": "https://github.com/MBU-Team/OpenMBU/blob/3d6516e1c9cb43e61aead3369d1f7210d08b83ef/tools/cmake/libraries/assimp.cmake"
+        },
+        {
+          "path": "engine/lib/assimp/LICENSE",
+          "bytes": 3791,
+          "sha256": "147874443d242b4e2bae97036e26ec9d6b37f706174c1bd5ecfcc8c1294cef51",
+          "url": "https://github.com/MBU-Team/OpenMBU/blob/3d6516e1c9cb43e61aead3369d1f7210d08b83ef/engine/lib/assimp/LICENSE"
+        },
+        {
+          "path": "engine/lib/curl/COPYING",
+          "bytes": 1088,
+          "sha256": "b1d7feb949ea5023552029fbe0bf5db4f23c2f85e9b8e51e18536f0ecbf9c524",
+          "url": "https://github.com/MBU-Team/OpenMBU/blob/3d6516e1c9cb43e61aead3369d1f7210d08b83ef/engine/lib/curl/COPYING"
+        },
+        {
+          "path": "engine/lib/discord-rpc/LICENSE",
+          "bytes": 1053,
+          "sha256": "12054cc15e274c9a10966fd7d8740c12dbd679dec2468e370818d899f9a3a634",
+          "url": "https://github.com/MBU-Team/OpenMBU/blob/3d6516e1c9cb43e61aead3369d1f7210d08b83ef/engine/lib/discord-rpc/LICENSE"
+        },
+        {
+          "path": "engine/lib/rapidjson/license.txt",
+          "bytes": 5152,
+          "sha256": "a140e5d46fe734a1c78f1a3c3ef207871dd75648be71fdda8e309b23ab8b1f32",
+          "url": "https://github.com/MBU-Team/OpenMBU/blob/3d6516e1c9cb43e61aead3369d1f7210d08b83ef/engine/lib/rapidjson/license.txt"
+        },
+        {
+          "path": "engine/lib/vorbis/Ogg-Vorbis-License.html",
+          "bytes": 2225,
+          "sha256": "ad55e1ca4f8c3f16d401ed42e9f1d530f627d6ba30915e99bb9b2f54aafd9987",
+          "url": "https://github.com/MBU-Team/OpenMBU/blob/3d6516e1c9cb43e61aead3369d1f7210d08b83ef/engine/lib/vorbis/Ogg-Vorbis-License.html"
+        }
+      ],
+      "grantNamedFiles": [
+        "LICENSE.md",
+        "assets/old_projects/example_old/common/help/2. License.hfl",
+        "assets/old_projects/example_old/demo/client/ui/license/license_corp.gui",
+        "assets/old_projects/example_old/demo/client/ui/license/license_corp.txt",
+        "assets/old_projects/example_old/demo/client/ui/license/license_indie.gui",
+        "assets/old_projects/example_old/demo/client/ui/license/license_indie.txt",
+        "assets/old_projects/example_old/demo/client/ui/license/license_main.gui",
+        "assets/old_projects/example_old/demo/client/ui/license/license_main.txt",
+        "assets/old_projects/example_old/demo/client/ui/license/publishing.gui",
+        "assets/old_projects/example_old/demo/client/ui/license/publishing.txt",
+        "engine/bin/nasm/Licence",
+        "engine/lib/assimp/LICENSE",
+        "engine/lib/assimp/contrib/clipper/License.txt",
+        "engine/lib/assimp/contrib/draco/LICENSE",
+        "engine/lib/assimp/contrib/gtest/LICENSE",
+        "engine/lib/assimp/contrib/openddlparser/LICENSE",
+        "engine/lib/assimp/contrib/poly2tri/LICENSE",
+        "engine/lib/assimp/contrib/rapidjson/license.txt",
+        "engine/lib/assimp/contrib/zip/UNLICENSE",
+        "engine/lib/assimp/contrib/zlib/contrib/dotzlib/LICENSE_1_0.txt",
+        "engine/lib/curl/COPYING",
+        "engine/lib/discord-rpc/LICENSE",
+        "engine/lib/rapidjson/license.txt",
+        "engine/lib/vorbis/Ogg-Vorbis-License.html",
+        "tools/unix/tplib_template/COPYING.GPL",
+        "tools/unix/tplib_template/COPYING.LGPL"
+      ],
+      "treeEvidence": {
+        "revision": "3d6516e1c9cb43e61aead3369d1f7210d08b83ef",
+        "entryCount": 11417,
+        "truncated": false,
+        "privateTreeSha256": "31003ceac1b6474272a89076f97571d95009410209b60cfbf2dfadde700d9253"
+      }
+    }
+  ],
+  "dependencies": [
+    {
+      "repository": "Gh0stBlade/libValkyrie",
+      "revision": "d9c65047db93698b1c32b4d84cb4318c566f3a50",
+      "role": "KAIN2 pinned compatibility dependency, not a separate game",
+      "treeTruncated": false,
+      "selectedTextFiles": [
+        {
+          "path": "CMakeLists.txt",
+          "bytes": 3096,
+          "sha256": "b0c64775a48650b6d8bab12d4deb2c5f97dfd1bd71036b42653cfeed04e4c9f6",
+          "url": "https://github.com/Gh0stBlade/libValkyrie/blob/d9c65047db93698b1c32b4d84cb4318c566f3a50/CMakeLists.txt"
+        },
+        {
+          "path": "Platform/Emscripten.cmake",
+          "bytes": 622,
+          "sha256": "86d37bdbd6ddc9e0f2a43a81d5bc10259a6950794d5bcb4f259afb807e72dcd1",
+          "url": "https://github.com/Gh0stBlade/libValkyrie/blob/d9c65047db93698b1c32b4d84cb4318c566f3a50/Platform/Emscripten.cmake"
+        },
+        {
+          "path": "Core/Public/EMULATOR_PUBLIC.H",
+          "bytes": 2418,
+          "sha256": "626a18f4349a3de3cff7de82279ded856e7732d82969eea8a83beec0873705c6",
+          "url": "https://github.com/Gh0stBlade/libValkyrie/blob/d9c65047db93698b1c32b4d84cb4318c566f3a50/Core/Public/EMULATOR_PUBLIC.H"
+        },
+        {
+          "path": "Library/LIBGPU.H",
+          "bytes": 26653,
+          "sha256": "dae240a9f81d1f4153e8f3661bd88508f68c917dd336177a832105516ffed5fc",
+          "url": "https://github.com/Gh0stBlade/libValkyrie/blob/d9c65047db93698b1c32b4d84cb4318c566f3a50/Library/LIBGPU.H"
+        },
+        {
+          "path": "Library/LIBGTE.C",
+          "bytes": 175519,
+          "sha256": "7224843b371e3362c21eb5b244183e11132febe7f3961a75cbe9c8f2bcaac5f8",
+          "url": "https://github.com/Gh0stBlade/libValkyrie/blob/d9c65047db93698b1c32b4d84cb4318c566f3a50/Library/LIBGTE.C"
+        }
+      ],
+      "grantNamedFiles": [],
+      "treeEvidence": {
+        "revision": "d9c65047db93698b1c32b4d84cb4318c566f3a50",
+        "entryCount": 214,
+        "truncated": false,
+        "privateTreeSha256": "85e4721e3e920e909505c9a44c8ed3e94e9eb1df8b32fa225e70d6721fb413cd"
+      }
+    },
+    {
+      "repository": "libsdl-org/SDL",
+      "revision": "031912c4b6c5db80b443f04aa56fec3e4e645153",
+      "role": "KAIN2 native SDL gitlink or build SDK gitlink; browser USE_SDL=2 selection not resolved",
+      "selectedTextFiles": [
+        {
+          "path": "LICENSE.txt",
+          "bytes": 884,
+          "sha256": "9928507f684c1965d07f2b6ef4b4723d5efc2f6b4ab731f743a413c51c319927",
+          "url": "https://github.com/libsdl-org/SDL/blob/031912c4b6c5db80b443f04aa56fec3e4e645153/LICENSE.txt"
+        }
+      ]
+    },
+    {
+      "repository": "emscripten-core/emsdk",
+      "revision": "e2627e265d940db5ea58dffa63e490375bfc92e5",
+      "role": "KAIN2 native SDL gitlink or build SDK gitlink; browser USE_SDL=2 selection not resolved",
+      "selectedTextFiles": [
+        {
+          "path": "LICENSE",
+          "bytes": 1326,
+          "sha256": "99d9a9616fbde3f5ee22a71d8645799a8522d48526130c5ba6dc27ad15ce01f1",
+          "url": "https://github.com/emscripten-core/emsdk/blob/e2627e265d940db5ea58dffa63e490375bfc92e5/LICENSE"
+        }
+      ]
+    }
+  ],
+  "reviewedAt": "2026-10-13T21:59:35.158626+00:00",
+  "phase": "Pinned source/documentation/selected-notice screen; no build or gameplay",
+  "selectedTextFileCount": 36,
+  "catalog": {
+    "count": 85,
+    "workingFileSha256": "ec94172af1358d4247fcb572b14ead8f044d6e727f1367fc816f4e6193dc55de",
+    "gitBlob": "10a69b5a9dc3e20ba9a75b4b51f34e02d271d81c",
+    "valuesIdenticalToHead": true,
+    "gitBlobMatchesHead": true,
+    "deduplication": [
+      {
+        "game": "Grand Theft Auto: San Andreas",
+        "aliasesChecked": [
+          "Grand Theft Auto San Andreas",
+          "GTA San Andreas",
+          "GTA SA",
+          "gta-reversed"
+        ],
+        "matchingCatalogIds": []
+      },
+      {
+        "game": "Legacy of Kain: Soul Reaver",
+        "aliasesChecked": [
+          "Legacy of Kain Soul Reaver",
+          "Soul Reaver",
+          "KAIN2"
+        ],
+        "matchingCatalogIds": []
+      },
+      {
+        "game": "BioMenace",
+        "aliasesChecked": [
+          "BioMenace",
+          "Bio Menace",
+          "BioMenaceDecomp"
+        ],
+        "matchingCatalogIds": []
+      },
+      {
+        "game": "Marble Blast Ultra",
+        "aliasesChecked": [
+          "Marble Blast Ultra",
+          "OpenMBU"
+        ],
+        "matchingCatalogIds": []
+      }
+    ]
+  },
+  "licenseMetadataDiscrepancy": {
+    "repository": "Gh0stBlade/KAIN2",
+    "metadataSpdx": "Unlicense",
+    "pinnedLicenseEndpoint": "https://api.github.com/repos/Gh0stBlade/KAIN2/license?ref=e9fa662a02ab597af1e2b2b8e4d1a6af02c180ef",
+    "httpStatus": 404,
+    "interpretation": "No corresponding grant established in the pinned tree/selected documentation; metadata alone is not clearance."
+  },
+  "limitations": [
+    "Selected notices are not an exact linked dependency closure",
+    "No claim of whole inherited-game-code rights or independent retail assets",
+    "No local match/build/browser/gameplay/audio results",
+    "No clean-room certification"
+  ],
+  "decisions": [
+    {
+      "repository": "gta-reversed/gta-reversed",
+      "classification": "Partial reverse engineering/reimplementation with retail Windows DLL injection",
+      "eligible": false,
+      "blockers": [
+        "Whole-code permissive grant not established",
+        "Original Compact executable and content needed",
+        "Standalone recipe lacks complete playable mode",
+        "Native DirectX/Windows route; browser adaptation and dependency closure unverified"
+      ]
+    },
+    {
+      "repository": "Gh0stBlade/KAIN2",
+      "classification": "Partial matching decompilation with native compatibility library",
+      "eligible": false,
+      "blockers": [
+        "Unlicense metadata without corresponding pinned grant",
+        "libValkyrie inherited provenance/grant unresolved",
+        "Original BIGFILE.DAT and LOCALS.TBL required; no independent pack",
+        "Emscripten files exist, contribution Web instructions crossed out; exact dependency selection, build output alignment and gameplay unverified"
+      ]
+    },
+    {
+      "repository": "lethal-guitar/BioMenaceDecomp",
+      "classification": "Original DOS episode-one source reconstruction",
+      "eligible": false,
+      "blockers": [
+        "GPL-2.0 outside current accepted permissive route",
+        "Original data required",
+        "Borland/runtime/intro-object grants separate and unresolved",
+        "No verified native browser port; episodes two/three not covered by this repository"
+      ]
+    },
+    {
+      "repository": "MBU-Team/OpenMBU",
+      "classification": "Marble Blast Ultra fan revival/recreation; matching-decomp status not established",
+      "eligible": false,
+      "blockers": [
+        "Noncommercial custom code terms outside accepted permissive route",
+        "License excludes original IP rights; no cleared independent content",
+        "Desktop dependencies/platform route; exact browser closure unverified",
+        "Broad engine recreation expansion paused"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "reviewedAt": "2026-10-13T21:59:35.158626+00:00",
+  "audit": "gta-kain-biomenace-openmbu-source-intake-2026-10-13.md",
+  "evidence": "gta-kain-biomenace-openmbu-source-snapshots-2026-10-13.json",
+  "gameIdentitiesReviewed": 4,
+  "sourceRepositoriesReviewed": 4,
+  "selectedTextFiles": 36,
+  "eligibleIntegrations": 0,
+  "catalogCount": 85,
+  "catalogWorkingFileSha256": "ec94172af1358d4247fcb572b14ead8f044d6e727f1367fc816f4e6193dc55de",
+  "catalogValuesIdenticalToHead": true,
+  "catalogGitBlobMatchesHead": true,
+  "runtimeChanged": false,
+  "buildAttempted": false,
+  "browserOpened": false,
+  "gameplayTested": false,
+  "audioTested": false,
+  "deployed": false,
+  "historicalFiveDecompMilestone": "4/5 unchanged",
+  "protectedWork": "Mario Party 2/3 and Halo untouched; prior ROM research private",
+  "nextAction": "Pursue other actual decompilation leads; revisit these pins only after their precise code/content/build blockers change."
+}
