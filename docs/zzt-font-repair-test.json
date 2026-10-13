@@ -13,5 +13,6 @@
   "playersClosed": true,
   "wasmUnchanged": true,
   "sourceArchiveSha256": "815d6a462854ec57f3656dc6a95da1ede5c497153cb6a191f04f6a51a2d9bf7c",
-  "production": "pending"
+  "production": "https://c33129a5.decompgames.pages.dev",
+  "productionEvidence": "zzt-font-production-release.json"
 }
