@@ -1,0 +1,41 @@
+{
+  "deployment": "https://cd527cfe.decompgames.pages.dev",
+  "commit": "e77d075",
+  "scope": "Verification metadata publication only; unchanged native runtime was tested on production before deployment",
+  "checks": [
+    {
+      "id": "zzt-demo",
+      "status": 200,
+      "scopePresent": true,
+      "limitsPresent": true
+    },
+    {
+      "id": "mario-party-2",
+      "status": 200
+    },
+    {
+      "id": "mario-party-3",
+      "status": 200
+    },
+    {
+      "id": "halo-combat-evolved",
+      "status": 200
+    },
+    {
+      "id": "open-cadet",
+      "status": 200
+    },
+    {
+      "id": "2048",
+      "status": 200
+    },
+    {
+      "id": "tennis-sdl",
+      "status": 200
+    }
+  ],
+  "mainDomain": {
+    "status": 200,
+    "scopePresent": true
+  }
+}
