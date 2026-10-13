@@ -48,7 +48,7 @@ if (ENVIRONMENT_IS_NODE) {
 
 // --pre-jses are emitted after the Module integration code, so that they can
 // refer to Module (if they choose; they can also define Module)
-// include: C:\Users\andre\AppData\Local\Temp\tmpxyoy6txc.js
+// include: C:\Users\andre\AppData\Local\Temp\tmpkwz24nfo.js
 if (!Module["expectedDataFileDownloads"]) Module["expectedDataFileDownloads"] = 0;
 
 Module["expectedDataFileDownloads"]++;
@@ -67,7 +67,7 @@ Module["expectedDataFileDownloads"]++;
       // web worker
       PACKAGE_PATH = encodeURIComponent(location.pathname.substring(0, location.pathname.lastIndexOf("/")) + "/");
     }
-    var PACKAGE_NAME = "C:/Users/andre/AppData/Local/decomp-builds/zzt-permissive-intake/native-font-padding-probe/build/openzoo.data";
+    var PACKAGE_NAME = "C:/Users/andre/AppData/Local/decomp-builds/zzt-permissive-intake/native-symbol-repair/build/openzoo.data";
     var REMOTE_PACKAGE_BASE = "openzoo.data";
     var REMOTE_PACKAGE_NAME = Module["locateFile"] ? Module["locateFile"](REMOTE_PACKAGE_BASE, "") : REMOTE_PACKAGE_BASE;
     var REMOTE_PACKAGE_SIZE = metadata["remote_package_size"];
@@ -141,9 +141,9 @@ Module["expectedDataFileDownloads"]++;
           // canOwn this data in the filesystem, it is a slice into the heap that will never change
           Module["FS_createDataFile"](name, null, data, true, true, true);
         }
-        Module["removeRunDependency"]("datafile_C:/Users/andre/AppData/Local/decomp-builds/zzt-permissive-intake/native-font-padding-probe/build/openzoo.data");
+        Module["removeRunDependency"]("datafile_C:/Users/andre/AppData/Local/decomp-builds/zzt-permissive-intake/native-symbol-repair/build/openzoo.data");
       }
-      Module["addRunDependency"]("datafile_C:/Users/andre/AppData/Local/decomp-builds/zzt-permissive-intake/native-font-padding-probe/build/openzoo.data");
+      Module["addRunDependency"]("datafile_C:/Users/andre/AppData/Local/decomp-builds/zzt-permissive-intake/native-symbol-repair/build/openzoo.data");
       if (!Module["preloadResults"]) Module["preloadResults"] = {};
       Module["preloadResults"][PACKAGE_NAME] = {
         fromCache: false
@@ -179,7 +179,7 @@ Module["expectedDataFileDownloads"]++;
   });
 })();
 
-// end include: C:\Users\andre\AppData\Local\Temp\tmpxyoy6txc.js
+// end include: C:\Users\andre\AppData\Local\Temp\tmpkwz24nfo.js
 var programArgs = [];
 
 var thisProgram = "./this.program";

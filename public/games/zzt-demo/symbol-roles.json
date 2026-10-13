@@ -1,0 +1,17 @@
+{
+  "license": "CC0-1.0",
+  "origin": "Independent geometric designs from textual roles; no bitmap/font image references imported",
+  "codepoints": {
+    "12": "key",
+    "24": "up arrow",
+    "25": "down arrow",
+    "26": "right arrow",
+    "27": "left arrow",
+    "30": "up triangle",
+    "31": "down triangle",
+    "132": "ammo cartridge",
+    "157": "torch",
+    "232": "scroll",
+    "240": "passage portal"
+  }
+}

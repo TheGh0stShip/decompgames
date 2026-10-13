@@ -1,0 +1,20 @@
+{
+  "scope": "Independently authored arrow/item/punctuation bitmap repair; local actual public host muted keyboard/save/exact reload/visible restore and inspected screenshot",
+  "checks": {
+    "openzoo.wasm": true,
+    "openzoo.data": true,
+    "host": true,
+    "generator": true
+  },
+  "wasmUnchanged": true,
+  "saveBytes": 26465,
+  "errors": [],
+  "missing": [],
+  "external": [],
+  "playersClosed": true,
+  "sourceArchiveSha256": "3d9c8f973e4a49ebea9190ab0ba87727a2e7b07e856c316d786d67b1d0a8c79e",
+  "sourceArchiveBytes": 111357,
+  "sourceFiles": 68,
+  "production": "pending",
+  "limits": "Same installed toolchain WASM/data reproduced; generatedJS path-dependent. Remaining unassigned glyphs/full demo traversal/audio unverified."
+}

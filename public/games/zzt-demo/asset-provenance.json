@@ -1,8 +1,9 @@
 {
   "license": "CC0-1.0 for authored glyph/about/host; DEMO remains MIT",
-  "glyphInputs": "Explicit authored 5x7 letter/digit patterns reused from our Open Cadet replacements, new geometric CP437 role definitions; no upstream font pixels; 10-pixel letter rows centered in 14-pixel cells to separate adjacent text lines",
+  "glyphInputs": "Explicit authored 5x7 letter/digit patterns reused from our Open Cadet replacements, new geometric CP437 role definitions; no upstream font pixels; 10-pixel letter rows centered in 14-pixel cells to separate adjacent text lines; additional independently drawn punctuation, arrows and item-role symbols described in symbol-roles.json",
   "limitations": "Uppercase substitution, unsupported symbols question glyph; no formal clean-room certification",
-  "fontSha256": "86b2ca2db760740977105ffa58a85fccfb9f9b97b74f7cfcdfd60b38820bec47",
-  "generatorSha256": "c643ed3630ee319011ca4459f197c441771ae49f187ae1bd0eecf0fe4373e10c",
-  "reproducedByteIdentically": true
+  "fontSha256": "8bc5ff3005cf902fd2089ddabb0fd082f6a1558f1c550ed06fa802452111a859",
+  "generatorSha256": "fa660149f363c20f70b8f1e548f50cea2e2f823ab9621138567b47aa8a28ca62",
+  "reproducedByteIdentically": true,
+  "symbolRoleManifest": "symbol-roles.json"
 }

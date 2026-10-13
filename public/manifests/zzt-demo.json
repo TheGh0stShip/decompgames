@@ -4,13 +4,13 @@
   "repository": "https://github.com/OpenZoo/openzoo-prototype-cpp",
   "sourceRevision": "442ff28c423faa947793e8a69a99a0e98f52796d",
   "classification": "Reconstruction-derived native C++ source port/rewrite; not emulation or clean-room certified",
-  "sourceArchive": "/sources/zzt-demo-442ff28-font86b2ca-source.tar.gz",
-  "sourceArchiveSha256": "815d6a462854ec57f3656dc6a95da1ede5c497153cb6a191f04f6a51a2d9bf7c",
+  "sourceArchive": "/sources/zzt-demo-442ff28-symbol8bc5ff-source.tar.gz",
+  "sourceArchiveSha256": "3d9c8f973e4a49ebea9190ab0ba87727a2e7b07e856c316d786d67b1d0a8c79e",
   "files": [
     {
       "path": "asset-provenance.json",
-      "bytes": 656,
-      "sha256": "e5b5b232f55470923a83572a318dca973f247a8b27529f6ac8ce9502e8e869d7"
+      "bytes": 807,
+      "sha256": "54bebafaafd9bb78b01793e20695e1ee66b9538848ca8f19dce624624bd38de9"
     },
     {
       "path": "notices/authored-content-CC0.txt",
@@ -70,12 +70,12 @@
     {
       "path": "openzoo.data",
       "bytes": 112635,
-      "sha256": "a53e1223e6a9131cb6a5c79cfa4914d323c745786402b5e15fe0af22983c95ac"
+      "sha256": "d5c8d16a4a8ea8f99fb05ee7813f64df4311a000c1cf2c5dcdd27618534565a0"
     },
     {
       "path": "openzoo.js",
-      "bytes": 376267,
-      "sha256": "58c125d9016e414fc4b45f8b01c4b0291af419ff1be449f04552d3c7f4a676dc"
+      "bytes": 376252,
+      "sha256": "e19e8742508a84e15384bd21f3b4892327c7d88b7d9955ef56ba863732c32f35"
     },
     {
       "path": "openzoo.wasm",
@@ -84,14 +84,19 @@
     },
     {
       "path": "player.html",
-      "bytes": 1755,
-      "sha256": "a68ba2ba1af19c7ccd96fa1b4689a221b705753f48e65eb4b83c17a7aad58405"
+      "bytes": 1757,
+      "sha256": "6e5bb839d5c591bd1876a1f39a0e878352d559f5dff262bc105afbe140028628"
     },
     {
       "path": "save-validator.js",
       "bytes": 721,
       "sha256": "100f86ede242f3889bfb7243720eba1520389c5733eb555224f5100414afa447"
+    },
+    {
+      "path": "symbol-roles.json",
+      "bytes": 435,
+      "sha256": "5fe6925bdeaec699993bf893b018a06ab2abf1e11b41b037a506c1a70f2b3fb6"
     }
   ],
-  "sourceArchiveBytes": 110228
+  "sourceArchiveBytes": 111357
 }
