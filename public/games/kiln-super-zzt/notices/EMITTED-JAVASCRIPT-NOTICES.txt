@@ -1,0 +1,205 @@
+EMITTED JAVASCRIPT LIBRARY NOTICES
+Exact compiler-observed top-level library definitions for this build; not a count of every nested method or boilerplate line. Templates have separate SDK root provenance. Own host/storage/validator are MIT; authored payloads are CC0.
+
+
+SELECTED LIBRARY: src/lib/libasync.js
+/**
+ * @license
+ * Copyright 2014 The Emscripten Authors
+ * SPDX-License-Identifier: MIT
+ */
+
+SELECTED LIBRARY: src/lib/libatomic.js
+/**
+ * @license
+ * Copyright 2023 The Emscripten Authors
+ * SPDX-License-Identifier: MIT
+ */
+
+SELECTED LIBRARY: src/lib/libbrowser.js
+/**
+ * @license
+ * Copyright 2011 The Emscripten Authors
+ * SPDX-License-Identifier: MIT
+ */
+
+SELECTED LIBRARY: src/lib/libcore.js
+/**
+ * @license
+ * Copyright 2010 The Emscripten Authors
+ * SPDX-License-Identifier: MIT
+ */
+
+SELECTED LIBRARY: src/lib/libegl.js
+/**
+ * @license
+ * Copyright 2012 The Emscripten Authors
+ * SPDX-License-Identifier: MIT
+ */
+
+SELECTED LIBRARY: src/lib/libeventloop.js
+/**
+ * @license
+ * Copyright 2010 The Emscripten Authors
+ * SPDX-License-Identifier: MIT
+ */
+
+SELECTED LIBRARY: src/lib/libexceptions.js
+/**
+ * @license
+ * Copyright 2010 The Emscripten Authors
+ * SPDX-License-Identifier: MIT
+ */
+
+SELECTED LIBRARY: src/lib/libfs.js
+/**
+ * @license
+ * Copyright 2013 The Emscripten Authors
+ * SPDX-License-Identifier: MIT
+ */
+
+SELECTED LIBRARY: src/lib/libfs_shared.js
+/**
+ * @license
+ * Copyright 2032 The Emscripten Authors
+ * SPDX-License-Identifier: MIT
+ */
+
+SELECTED LIBRARY: src/lib/libgetvalue.js
+/**
+ * @license
+ * Copyright 2022 The Emscripten Authors
+ * SPDX-License-Identifier: MIT
+ */
+
+SELECTED LIBRARY: src/lib/libhtml5.js
+/**
+ * @license
+ * Copyright 2014 The Emscripten Authors
+ * SPDX-License-Identifier: MIT
+ */
+
+SELECTED LIBRARY: src/lib/libint53.js
+/**
+ * @license
+ * Copyright 2020 The Emscripten Authors
+ * SPDX-License-Identifier: MIT
+ */
+
+SELECTED LIBRARY: src/lib/libmemfs.js
+/**
+ * @license
+ * Copyright 2013 The Emscripten Authors
+ * SPDX-License-Identifier: MIT
+ */
+
+SELECTED LIBRARY: src/lib/libpath.js
+/**
+ * @license
+ * Copyright 2013 The Emscripten Authors
+ * SPDX-License-Identifier: MIT
+ */
+
+SELECTED LIBRARY: src/lib/libpthread.js
+/**
+ * @license
+ * Copyright 2015 The Emscripten Authors
+ * SPDX-License-Identifier: MIT
+ *
+ * Because only modern JS engines support SAB we can use modern JS language
+ * features within this file (ES2020).
+ */
+
+SELECTED LIBRARY: src/lib/libstrings.js
+/**
+ * @license
+ * Copyright 2020 The Emscripten Authors
+ * SPDX-License-Identifier: MIT
+ */
+
+SELECTED LIBRARY: src/lib/libsyscall.js
+/**
+ * @license
+ * Copyright 2015 The Emscripten Authors
+ * SPDX-License-Identifier: MIT
+ */
+
+SELECTED LIBRARY: src/lib/libtty.js
+/**
+ * @license
+ * Copyright 2013 The Emscripten Authors
+ * SPDX-License-Identifier: MIT
+ */
+
+SELECTED LIBRARY: src/lib/libunwind.js
+/**
+ * @license
+ * Copyright 2026 The Emscripten Authors
+ * SPDX-License-Identifier: MIT
+ */
+
+SELECTED LIBRARY: src/lib/libwasi.js
+/**
+ * @license
+ * Copyright 2019 The Emscripten Authors
+ * SPDX-License-Identifier: MIT
+ */
+
+SELECTED LIBRARY: src/lib/libwebgl.js
+/**
+ * @license
+ * Copyright 2010 The Emscripten Authors
+ * SPDX-License-Identifier: MIT
+ */
+
+EMITTED TEMPLATE: src/memoryprofiler.js
+SHA-256 5292117f0a8bba66e654ce5a204a9944b03ff389d858e5c192a17e701808510a
+Emscripten MIT/NCSA root; individual SPDX MIT where present
+
+EMITTED TEMPLATE: src/minimum_runtime_check.js
+SHA-256 72bb00be1c332f30e181de0fa2018f87885fd9eb3f9df80fb4b32db977ef7463
+Emscripten MIT/NCSA root; individual SPDX MIT where present
+
+EMITTED TEMPLATE: src/node_shell_read.js
+SHA-256 9f1c6c53453d3d2401d133b5e5fdcfc89965118ae235e1030af39365dfb866c2
+Emscripten MIT/NCSA root; individual SPDX MIT where present
+
+EMITTED TEMPLATE: src/postamble.js
+SHA-256 8bd4017f9d0de243ca673fde1ffe9e7210f1594cc7e44f3ae4339c8f3ec6b4f3
+Emscripten MIT/NCSA root; individual SPDX MIT where present
+
+EMITTED TEMPLATE: src/postlibrary.js
+SHA-256 c37cb2bf03e50a35821686fe5a66c0ec11f9f677c39e1701325f386d170f7beb
+Emscripten MIT/NCSA root; individual SPDX MIT where present
+
+EMITTED TEMPLATE: src/preamble.js
+SHA-256 4ae888724c2e12dd2839c966435d95a029653606102c9da1bb55a4e9f2de3fcf
+Emscripten MIT/NCSA root; individual SPDX MIT where present
+
+EMITTED TEMPLATE: src/runtime_common.js
+SHA-256 57af904032948eb099f816fd3af522a91385b17cd31e1bbe25074d974363f574
+Emscripten MIT/NCSA root; individual SPDX MIT where present
+
+EMITTED TEMPLATE: src/runtime_debug.js
+SHA-256 8ff3e5c671042b81c21bf3b4d0126de3f4e7bd05b01c08ee794a3aa2f892f216
+Emscripten MIT/NCSA root; individual SPDX MIT where present
+
+EMITTED TEMPLATE: src/runtime_exceptions.js
+SHA-256 a381d1190c951d9a7b5de71c06ff50a174948eaabf2614bc58cf2a2ebb5920ae
+Emscripten MIT/NCSA root; individual SPDX MIT where present
+
+EMITTED TEMPLATE: src/runtime_init_memory.js
+SHA-256 e717c6a89dc3030eb0a2dab88bb13dc941e379acda187a2c1cc9dec0e0695c38
+Emscripten MIT/NCSA root; individual SPDX MIT where present
+
+EMITTED TEMPLATE: src/runtime_pthread.js
+SHA-256 7d762af6caa07eb9b5a7a7c7691fb566287724c58b1db0e19540ba2c9640c0c4
+Emscripten MIT/NCSA root; individual SPDX MIT where present
+
+EMITTED TEMPLATE: src/shell.js
+SHA-256 c24264b2c433aa57318e07705faa78414811bf5ee201dba91f2c053d0d61850a
+Emscripten MIT/NCSA root; individual SPDX MIT where present
+
+EMITTED TEMPLATE: src/web_or_worker_shell_read.js
+SHA-256 cd90708a2e1f9897f4d3827c37412d4821c9da0277ac7f30127edfac1f23cba0
+Emscripten MIT/NCSA root; individual SPDX MIT where present

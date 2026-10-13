@@ -4656,5 +4656,62 @@
   "scope": "Exact local public candidate: native brightness/GO, normal keys heat damage/death/frozen controls/retry, timed jump avoidance; damaged HP50 course-one native save at (52,190) restored byte-for-byte after full browser restart and ordinary L. Both authored courses completed with HP75, Enter restart at HP100. Host Stop and browser menu verified separately. Current public/live acceptance is recorded in the dated distribution report; no retail campaign or audible audio claim.",
   "playthrough": true
  }
+},
+{
+ "id": "kiln-super-zzt",
+ "title": "Kiln (Super ZZT port)",
+ "aliases": [
+  "Kiln",
+  "Super ZZT"
+ ],
+ "year": 2026,
+ "genre": "Puzzle adventure",
+ "kind": "Source port",
+ "mode": "embed",
+ "launch": "tab",
+ "embedUrl": "https://decompgames.com/games/kiln-super-zzt/player.html",
+ "engine": "OpenZoo reconstruction-derived native Super ZZT C++ port in WebAssembly",
+ "description": "Find a key and power stone to activate two relays in an original four-board puzzle.",
+ "overview": "Kiln runs independently authored CC0 maps, scripts, help text and glyphs in a native C++ port/rewrite derived from the permission-backed Super ZZT reconstruction. The edition is a small original relay puzzle. It is not the original Super ZZT campaign, a matching Pascal/DOS decompilation build, emulation or a certified clean-room reconstruction. No ROM or original retail files are needed.",
+ "source": "https://github.com/OpenZoo/openzoo-prototype-cpp",
+ "engineLicense": "MIT OpenZoo and permission-backed reconstruction; own adapters MIT; SDL2 zlib/yuv2rgb BSD-3-Clause and separately noticed permissive Emscripten/musl/LLVM runtime",
+ "assetLicense": "CC0-1.0 independently authored maps/scripts/help/glyphs; host and world/build generators MIT; font generator CC0; system fonts retain their terms",
+ "assetRequirements": "No ROM or original game files needed. Original commercial worlds, art, fonts, animations and audio are excluded.",
+ "controls": [
+  "Click game to focus",
+  "Enter — close introduction/select",
+  "P — play or start again from the menu",
+  "Arrow keys — move; after Play/Restore, move to resume",
+  "S, then Enter — save checkpoint",
+  "R — restore from the start menu",
+  "Escape, then Y — return to the menu",
+  "Stop — unload the game and return to this page"
+ ],
+ "saveInstructions": "Native SAV files persist in this browser under decompgames-kiln-super-zzt-saves-v2. Wait for Checkpoint saved locally before closing. R restores from the start menu; move to resume. Clearing site data removes saves; no portable transfer/export.",
+ "limitations": [
+  "Original four-board puzzle, not the retail campaign or all legacy engine/editor/help features.",
+  "Opens as a separate tab; requires cross-origin isolation, WebAssembly threads and keyboard. Other browsers, touch and controllers unverified.",
+  "One earned stone checkpoint tested through full browser restart. Crash/rapid-close/storage refusal/quota/corruption/transfer and other save states remain unverified.",
+  "No authored lethal hazards or combat; death/combat coverage is not claimed.",
+  "Audio device omitted and all tests muted; no audible verification.",
+  "19 retained compiler warnings and unexercised legacy paths remain; glyph inventory is scoped to this authored puzzle."
+ ],
+ "inputs": [
+  "Keyboard"
+ ],
+ "downloadMB": 1.4,
+ "complete": false,
+ "color": "#336a91",
+ "shelf": "classic",
+ "platform": "PC",
+ "verification": {
+  "status": "gameplay-tested",
+  "date": "2026-10-13",
+  "browsers": [
+   "Headless Microsoft Edge on Windows; muted"
+  ],
+  "scope": "Archive-rebuilt release candidate: normal keyboard key/door consumption, passages, scrolling, east-current carrying, stone pickup and gated relay, final KILN_DONE/score150 and native menu restart to score0/flags cleared. Earned stone native save restored byte-for-byte after full browser restart and ordinary R/menu/up-step; 37 native checkpoints independently checked and 34 malformed cases rejected. Player Stop unload tested locally; published acceptance is recorded separately in the dated distribution report. No retail campaign, lethal/combat/audio or all-engine claim.",
+  "playthrough": true
+ }
 }
 ]

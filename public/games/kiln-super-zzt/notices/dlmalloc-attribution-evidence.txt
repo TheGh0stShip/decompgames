@@ -1,0 +1,75 @@
+d.
+  See https://github.com/emscripten-core/emscripten/issues/10072
+*/
+_Static_assert(MALLOC_ALIGNMENT == 8, "max_align_t must be 8");
+#endif
+
+#endif // __EMSCRIPTEN__
+
+
+#define __THROW
+#define __attribute_malloc__
+#define __wur
+
+
+/*
+ This is a version (aka dlmalloc) of malloc/free/realloc written by
+ Doug Lea and released to the public domain, as explained at
+ http://creativecommons.org/publicdomain/zero/1.0/ Send questions,
+ comments, complaints, performance data, etc to dl@cs.oswego.edu
+ 
+ * Version 2.8.6 Wed Aug 29 06:57:58 2012  Doug Lea
+ Note: There may be an updated version of this malloc obtainable at
+ ftp://gee.cs.oswego.edu/pub/misc/malloc.c
+ Check before installing!
+ 
+ * Quickstart
+ 
+ This library is all in one file to simplify the most common usage:
+ ftp it, compile it (-O3), and link it into another program. All of
+ the compile-time options default to reasonable values for use on
+ most platforms.  You might later want to step through various
+ compile-time and dynamic tuning options.
+ 
+ For convenience, an include file for code using this malloc is at:
+ ftp://gee.cs.oswego.edu/pub/misc/malloc-2.8.6.h
+ You don't really need this .h file unless you call functions not
+ defined in your system include files.  The .h file contains only the
+ excerpts from this file needed for using this malloc on ANSI C/C++
+ systems, so long as you haven't changed compile-time options about
+ naming and tuning parameters.  If you do, then you can create your
+ own malloc.h that does include all settings by cutting at the point
+ indicated below. Note that you may already by default be using a C
+ library containing a malloc that is based on some version of this
+ malloc (for example in linux). You might still want to use the one
+ in this file to customize settings or to avoid overheads associated
+ with library versions.
+ 
+ * Vital statistics:
+ 
+ Supported pointer/size_t representation:       4 or 8 bytes
+ size_t MUST be an unsigned type of the same width as
+ pointers. (If you are using an ancient system that declares
+ size_t as a signed type, or need it to be a different width
+ than pointers, you can use a previous release of this malloc
+ (e.g. 2.7.2) supporting these.)
+ 
+ Alignment:                                     8 bytes (minimum)
+ This suffices for nearly all current machines and C compilers.
+ However, you can define MALLOC_ALIGNMENT to be wider than this
+ if necessary (up to 128bytes), at the expense of using more space.
+ 
+ Minimum overhead per allocated chunk:   4 or  8 bytes (if 4byte sizes)
+ 8 or 16 bytes (if 8byte sizes)
+ Each malloced chunk has a hidden word of overhead holding size
+ and status information, and additional cross-check word
+ if FOOTERS is defined.
+ 
+ Minimum allocated size: 4-byte ptrs:  16 bytes    (including overhead)
+ 8-byte ptrs:  32 bytes    (including overhead)
+ 
+ Even a request for zero bytes (i.e., malloc(0)) returns a
+ pointer to something of the minimum allocatable size.
+ The maximum overhead wastage (i.e., number of extra bytes
+ allocated than were requested in malloc) is less than or equal
+ to the minimum size, except for

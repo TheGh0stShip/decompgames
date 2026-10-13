@@ -18,3 +18,6 @@ public/sources/zzt-demo-442ff28-authored-source.tar.gz -text
 
 public/games/cinder-abuse/** -text
 public/sources/cinder-abuse-*.zip -text
+
+public/games/kiln-super-zzt/** -text
+public/sources/kiln-super-zzt-*.zip -text

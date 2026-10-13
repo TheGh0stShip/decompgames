@@ -1,0 +1,46 @@
+{
+  "contentComplete": true,
+  "scope": "Original four-board key, current, power-stone and relay challenge; not the retail campaign",
+  "worldDimensions": [
+    96,
+    80
+  ],
+  "boards": [
+    "Kiln title",
+    "Relay Hall",
+    "Current Gallery",
+    "Kiln complete"
+  ],
+  "retailInputFiles": [],
+  "content": [
+    {
+      "path": "KILN.SZT",
+      "bytes": 3078,
+      "sha256": "50cf37536395f9c520893e520643bca16d66fefd30f2c695188707adaf823a8f",
+      "license": "CC0-1.0",
+      "origin": "DecompGames independently authored generator"
+    },
+    {
+      "path": "ABOUT.HLP",
+      "bytes": 389,
+      "sha256": "dea6c1972be2a050846ddb969e57b217d603011c832aea12d8aa4bbdf2ef166f",
+      "license": "CC0-1.0",
+      "origin": "DecompGames independently authored generator"
+    },
+    {
+      "path": "ASCII.BMP",
+      "bytes": 86070,
+      "sha256": "52b4d8e5b1a4d6ecf1479847ba4399b27b4a6f7785fb3cef51347ca2e7592782",
+      "license": "CC0-1.0",
+      "origin": "Existing independently authored DecompGames glyph generator; no original PC font"
+    }
+  ],
+  "generatorLicense": "MIT",
+  "generatedContentLicense": "CC0-1.0",
+  "audioAssets": [],
+  "engineAudioPatterns": "Upstream MIT engine source; device disabled, no audible testing",
+  "completion": "Native KILN_DONE flag and total score 150 after touching F",
+  "verificationRecord": "https://github.com/andrewnakas/decompgames/blob/main/docs/kiln-super-zzt-release.json",
+  "animations": "Native changing stone letter/color rendered with independently authored glyphs; no original animation-frame inputs",
+  "hostAndBuildCodeLicense": "MIT; generated content/font code CC0 separately"
+}

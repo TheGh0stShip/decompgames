@@ -1,0 +1,6 @@
+Kiln independently authored maps, world scripts, help text, glyph definitions and generated ASCII.BMP/KILN.SZT/ABOUT.HLP are dedicated to CC0-1.0:
+https://creativecommons.org/publicdomain/zero/1.0/
+
+To the extent possible under law, DecompGames contributors waive copyright and related or neighboring rights in this independently authored content under CC0-1.0. No original retail world, demo, screen, font bitmap, animation, sound recording or executable was an input.
+
+The world generator, browser host, storage and structural validator are separately MIT-licensed under AUTHORED-ADAPTER-LICENSE.txt. The reused font generator declares CC0-1.0. Native game source, embedded engine messages and procedural tone patterns retain the separate upstream MIT terms; runtime dependencies retain their own notices. No original DEMO.ZZT is included in this edition. System fonts are not distributed here. Formal clean-room isolation is not certified.

@@ -6,6 +6,7 @@ import { games, playerUrl, slug, statusLabel } from '../../lib/catalog';
 export function getStaticPaths(){return games.map(game=>({params:{slug:game.id},props:{game}}));}
 const {game:g}=Astro.props;
 const embed=g.mode==='embed';
+const scopedSilent=g.id==='cinder-abuse'||g.id==='kiln-super-zzt';
 const manifestPath=`public/manifests/${g.id}.json`;
 const runtime=existsSync(manifestPath)?JSON.parse(readFileSync(manifestPath,'utf8')):null;
 const related=games.filter(x=>x.id!==g.id&&x.shelf===g.shelf&&(x.genre===g.genre||x.platform===g.platform)).slice(0,4);
@@ -31,7 +32,7 @@ const schema=[
           {g.image && <img class="stage-poster" src={g.image} alt="" />}
           <div class="stage-overlay" id="stage-overlay">
             <button type="button" class="play-button" id="play">▶ Play</button>
-            <p id="stage-note">{g.launch==='tab'?'Opens in a new tab. ':''}{size?`${size} on first load. `:''}{g.id==='cinder-abuse'?'Silent edition; no audio device.':'Sound starts after your first tap or key press in the game.'}</p>
+            <p id="stage-note">{g.launch==='tab'?'Opens in a new tab. ':''}{size?`${size} on first load. `:''}{scopedSilent?'Silent edition; no audio device.':'Sound starts after your first tap or key press in the game.'}</p>
           </div>
           <button type="button" class="stage-close" id="stage-close" aria-label="Close game">✕</button>
         </div>
@@ -69,8 +70,9 @@ const schema=[
     <h2>What has been tested</h2>
     <p>{g.verification.scope}</p>
     {g.verification.date&&<p class="muted">Last tested {g.verification.date} in {g.verification.browsers.join(', ')}. Full playthrough: {g.verification.playthrough?'verified':'not verified'}. <a href="/guides/verification/">How games are tested</a>.</p>}
-    {embed&&g.id!=='cinder-abuse'&&<p class="muted">The build's own test log is in <a href={`${g.source}/blob/main/STATUS.md`} target="_blank" rel="noopener">STATUS.md</a> in its repository.</p>}
+    {embed&&!scopedSilent&&<p class="muted">The build's own test log is in <a href={`${g.source}/blob/main/STATUS.md`} target="_blank" rel="noopener">STATUS.md</a> in its repository.</p>}
     {g.id==='cinder-abuse'&&<p class="muted">See the <a href="https://github.com/andrewnakas/decompgames/blob/main/docs/cinder-abuse-release.json">dated distribution and gameplay record</a>.</p>}
+    {g.id==='kiln-super-zzt'&&<p class="muted">See the <a href="https://github.com/andrewnakas/decompgames/blob/main/docs/kiln-super-zzt-release.json">dated distribution and gameplay record</a>.</p>}
     {g.limitations.length>0&&<Fragment><h2>Known limitations</h2><ul>{g.limitations.map(l=><li>{l}</li>)}</ul></Fragment>}
     <h2>Saves</h2>
     <p>{g.saveInstructions}</p>

@@ -1,0 +1,3213 @@
+{
+  "scope": "Exact compiler-observed emitted library definition origins, plus separate template and file-packager provenance; compiler-read pool is an overinclusive superset",
+  "observation": "Build-only Node vm property-write observer and forwarded-data capture; no SDK or game edits",
+  "definitions": [
+    {
+      "symbol": "ExitStatus",
+      "rawKey": "$ExitStatus",
+      "source": "src/lib/libwasi.js",
+      "sourceSHA256": "b9a37514b016c1d2ffcd5994dcab319f89259984d57df77706c2923ff0cb2e84"
+    },
+    {
+      "symbol": "HEAP8",
+      "rawKey": "$HEAP8",
+      "source": "src/lib/libcore.js",
+      "sourceSHA256": "3541e1c16fab338449bf7267954cb15b85f742e7221557499f08e3aefe57b487"
+    },
+    {
+      "symbol": "PThread",
+      "rawKey": "$PThread",
+      "source": "src/lib/libpthread.js",
+      "sourceSHA256": "de9c71c105acf52d2f2f31a9659ae8071454815d47b6110403fb345732eb475a"
+    },
+    {
+      "symbol": "terminateWorker",
+      "rawKey": "$terminateWorker",
+      "source": "src/lib/libpthread.js",
+      "sourceSHA256": "de9c71c105acf52d2f2f31a9659ae8071454815d47b6110403fb345732eb475a"
+    },
+    {
+      "symbol": "cleanupThread",
+      "rawKey": "$cleanupThread",
+      "source": "src/lib/libpthread.js",
+      "sourceSHA256": "de9c71c105acf52d2f2f31a9659ae8071454815d47b6110403fb345732eb475a"
+    },
+    {
+      "symbol": "addOnPreRun",
+      "rawKey": "$addOnPreRun",
+      "source": "src/lib/libcore.js",
+      "sourceSHA256": "3541e1c16fab338449bf7267954cb15b85f742e7221557499f08e3aefe57b487"
+    },
+    {
+      "symbol": "onPreRuns",
+      "rawKey": "$onPreRuns",
+      "source": "src/lib/libcore.js",
+      "sourceSHA256": "3541e1c16fab338449bf7267954cb15b85f742e7221557499f08e3aefe57b487"
+    },
+    {
+      "symbol": "callRuntimeCallbacks",
+      "rawKey": "$callRuntimeCallbacks",
+      "source": "src/lib/libcore.js",
+      "sourceSHA256": "3541e1c16fab338449bf7267954cb15b85f742e7221557499f08e3aefe57b487"
+    },
+    {
+      "symbol": "addRunDependency",
+      "rawKey": "$addRunDependency",
+      "source": "src/lib/libcore.js",
+      "sourceSHA256": "3541e1c16fab338449bf7267954cb15b85f742e7221557499f08e3aefe57b487"
+    },
+    {
+      "symbol": "runDependencies",
+      "rawKey": "$runDependencies",
+      "source": "src/lib/libcore.js",
+      "sourceSHA256": "3541e1c16fab338449bf7267954cb15b85f742e7221557499f08e3aefe57b487"
+    },
+    {
+      "symbol": "resolveRunDependencies",
+      "rawKey": "$resolveRunDependencies",
+      "source": "src/lib/libcore.js",
+      "sourceSHA256": "3541e1c16fab338449bf7267954cb15b85f742e7221557499f08e3aefe57b487"
+    },
+    {
+      "symbol": "dependenciesPromise",
+      "rawKey": "$dependenciesPromise",
+      "source": "src/lib/libcore.js",
+      "sourceSHA256": "3541e1c16fab338449bf7267954cb15b85f742e7221557499f08e3aefe57b487"
+    },
+    {
+      "symbol": "removeRunDependency",
+      "rawKey": "$removeRunDependency",
+      "source": "src/lib/libcore.js",
+      "sourceSHA256": "3541e1c16fab338449bf7267954cb15b85f742e7221557499f08e3aefe57b487"
+    },
+    {
+      "symbol": "dependenciesPromiseResolve",
+      "rawKey": "$dependenciesPromiseResolve",
+      "source": "src/lib/libcore.js",
+      "sourceSHA256": "3541e1c16fab338449bf7267954cb15b85f742e7221557499f08e3aefe57b487"
+    },
+    {
+      "symbol": "spawnThread",
+      "rawKey": "$spawnThread",
+      "source": "src/lib/libpthread.js",
+      "sourceSHA256": "de9c71c105acf52d2f2f31a9659ae8071454815d47b6110403fb345732eb475a"
+    },
+    {
+      "symbol": "_exit",
+      "rawKey": "exit",
+      "source": "src/lib/libcore.js",
+      "sourceSHA256": "3541e1c16fab338449bf7267954cb15b85f742e7221557499f08e3aefe57b487"
+    },
+    {
+      "symbol": "exitJS",
+      "rawKey": "$exitJS",
+      "source": "src/lib/libcore.js",
+      "sourceSHA256": "3541e1c16fab338449bf7267954cb15b85f742e7221557499f08e3aefe57b487"
+    },
+    {
+      "symbol": "_proc_exit",
+      "rawKey": "proc_exit",
+      "source": "src/lib/libwasi.js",
+      "sourceSHA256": "b9a37514b016c1d2ffcd5994dcab319f89259984d57df77706c2923ff0cb2e84"
+    },
+    {
+      "symbol": "keepRuntimeAlive",
+      "rawKey": "$keepRuntimeAlive",
+      "source": "src/lib/libcore.js",
+      "sourceSHA256": "3541e1c16fab338449bf7267954cb15b85f742e7221557499f08e3aefe57b487"
+    },
+    {
+      "symbol": "runtimeKeepaliveCounter",
+      "rawKey": "$runtimeKeepaliveCounter",
+      "source": "src/lib/libcore.js",
+      "sourceSHA256": "3541e1c16fab338449bf7267954cb15b85f742e7221557499f08e3aefe57b487"
+    },
+    {
+      "symbol": "proxyToMainThread",
+      "rawKey": "$proxyToMainThread",
+      "source": "src/lib/libpthread.js",
+      "sourceSHA256": "de9c71c105acf52d2f2f31a9659ae8071454815d47b6110403fb345732eb475a"
+    },
+    {
+      "symbol": "stackSave",
+      "rawKey": "$stackSave",
+      "source": "src/lib/libcore.js",
+      "sourceSHA256": "3541e1c16fab338449bf7267954cb15b85f742e7221557499f08e3aefe57b487"
+    },
+    {
+      "symbol": "stackRestore",
+      "rawKey": "$stackRestore",
+      "source": "src/lib/libcore.js",
+      "sourceSHA256": "3541e1c16fab338449bf7267954cb15b85f742e7221557499f08e3aefe57b487"
+    },
+    {
+      "symbol": "stackAlloc",
+      "rawKey": "$stackAlloc",
+      "source": "src/lib/libcore.js",
+      "sourceSHA256": "3541e1c16fab338449bf7267954cb15b85f742e7221557499f08e3aefe57b487"
+    },
+    {
+      "symbol": "HEAPF64",
+      "rawKey": "$HEAPF64",
+      "source": "src/lib/libcore.js",
+      "sourceSHA256": "3541e1c16fab338449bf7267954cb15b85f742e7221557499f08e3aefe57b487"
+    },
+    {
+      "symbol": "HEAP64",
+      "rawKey": "$HEAP64",
+      "source": "src/lib/libcore.js",
+      "sourceSHA256": "3541e1c16fab338449bf7267954cb15b85f742e7221557499f08e3aefe57b487"
+    },
+    {
+      "symbol": "exitOnMainThread",
+      "rawKey": "$exitOnMainThread",
+      "source": "src/lib/libpthread.js",
+      "sourceSHA256": "de9c71c105acf52d2f2f31a9659ae8071454815d47b6110403fb345732eb475a"
+    },
+    {
+      "symbol": "runtimeKeepalivePop",
+      "rawKey": "$runtimeKeepalivePop",
+      "source": "src/lib/libcore.js",
+      "sourceSHA256": "3541e1c16fab338449bf7267954cb15b85f742e7221557499f08e3aefe57b487"
+    },
+    {
+      "symbol": "waitAsyncPolyfilled",
+      "rawKey": "$waitAsyncPolyfilled",
+      "source": "src/lib/libatomic.js",
+      "sourceSHA256": "3353a1899f15c3abdb23075aa2abac9ff1369e16a1b3d3a6663aec9c9ea67638"
+    },
+    {
+      "symbol": "HEAP32",
+      "rawKey": "$HEAP32",
+      "source": "src/lib/libcore.js",
+      "sourceSHA256": "3541e1c16fab338449bf7267954cb15b85f742e7221557499f08e3aefe57b487"
+    },
+    {
+      "symbol": "addOnPostRun",
+      "rawKey": "$addOnPostRun",
+      "source": "src/lib/libcore.js",
+      "sourceSHA256": "3541e1c16fab338449bf7267954cb15b85f742e7221557499f08e3aefe57b487"
+    },
+    {
+      "symbol": "onPostRuns",
+      "rawKey": "$onPostRuns",
+      "source": "src/lib/libcore.js",
+      "sourceSHA256": "3541e1c16fab338449bf7267954cb15b85f742e7221557499f08e3aefe57b487"
+    },
+    {
+      "symbol": "establishStackSpace",
+      "rawKey": "$establishStackSpace",
+      "source": "src/lib/libpthread.js",
+      "sourceSHA256": "de9c71c105acf52d2f2f31a9659ae8071454815d47b6110403fb345732eb475a"
+    },
+    {
+      "symbol": "HEAPU32",
+      "rawKey": "$HEAPU32",
+      "source": "src/lib/libcore.js",
+      "sourceSHA256": "3541e1c16fab338449bf7267954cb15b85f742e7221557499f08e3aefe57b487"
+    },
+    {
+      "symbol": "invokeEntryPoint",
+      "rawKey": "$invokeEntryPoint",
+      "source": "src/lib/libpthread.js",
+      "sourceSHA256": "de9c71c105acf52d2f2f31a9659ae8071454815d47b6110403fb345732eb475a"
+    },
+    {
+      "symbol": "getWasmTableEntry",
+      "rawKey": "$getWasmTableEntry",
+      "source": "src/lib/libcore.js",
+      "sourceSHA256": "3541e1c16fab338449bf7267954cb15b85f742e7221557499f08e3aefe57b487"
+    },
+    {
+      "symbol": "wasmTableMirror",
+      "rawKey": "$wasmTableMirror",
+      "source": "src/lib/libcore.js",
+      "sourceSHA256": "3541e1c16fab338449bf7267954cb15b85f742e7221557499f08e3aefe57b487"
+    },
+    {
+      "symbol": "wasmTable",
+      "rawKey": "$wasmTable",
+      "source": "src/lib/libcore.js",
+      "sourceSHA256": "3541e1c16fab338449bf7267954cb15b85f742e7221557499f08e3aefe57b487"
+    },
+    {
+      "symbol": "noExitRuntime",
+      "rawKey": "$noExitRuntime",
+      "source": "src/lib/libcore.js",
+      "sourceSHA256": "3541e1c16fab338449bf7267954cb15b85f742e7221557499f08e3aefe57b487"
+    },
+    {
+      "symbol": "registerTLSInit",
+      "rawKey": "$registerTLSInit",
+      "source": "src/lib/libpthread.js",
+      "sourceSHA256": "de9c71c105acf52d2f2f31a9659ae8071454815d47b6110403fb345732eb475a"
+    },
+    {
+      "symbol": "runtimeKeepalivePush",
+      "rawKey": "$runtimeKeepalivePush",
+      "source": "src/lib/libcore.js",
+      "sourceSHA256": "3541e1c16fab338449bf7267954cb15b85f742e7221557499f08e3aefe57b487"
+    },
+    {
+      "symbol": "wasmMemory",
+      "rawKey": "$wasmMemory",
+      "source": "src/lib/libcore.js",
+      "sourceSHA256": "3541e1c16fab338449bf7267954cb15b85f742e7221557499f08e3aefe57b487"
+    },
+    {
+      "symbol": "___assert_fail",
+      "rawKey": "__assert_fail",
+      "source": "src/lib/libcore.js",
+      "sourceSHA256": "3541e1c16fab338449bf7267954cb15b85f742e7221557499f08e3aefe57b487"
+    },
+    {
+      "symbol": "UTF8ToString",
+      "rawKey": "$UTF8ToString",
+      "source": "src/lib/libstrings.js",
+      "sourceSHA256": "7653dc2ececa66ef48de81fa378a463c2dde203958b6180a18979bce99ee7cbf"
+    },
+    {
+      "symbol": "UTF8ArrayToString",
+      "rawKey": "$UTF8ArrayToString",
+      "source": "src/lib/libstrings.js",
+      "sourceSHA256": "7653dc2ececa66ef48de81fa378a463c2dde203958b6180a18979bce99ee7cbf"
+    },
+    {
+      "symbol": "UTF8Decoder",
+      "rawKey": "$UTF8Decoder",
+      "source": "src/lib/libstrings.js",
+      "sourceSHA256": "7653dc2ececa66ef48de81fa378a463c2dde203958b6180a18979bce99ee7cbf"
+    },
+    {
+      "symbol": "findStringEnd",
+      "rawKey": "$findStringEnd",
+      "source": "src/lib/libstrings.js",
+      "sourceSHA256": "7653dc2ececa66ef48de81fa378a463c2dde203958b6180a18979bce99ee7cbf"
+    },
+    {
+      "symbol": "HEAPU8",
+      "rawKey": "$HEAPU8",
+      "source": "src/lib/libcore.js",
+      "sourceSHA256": "3541e1c16fab338449bf7267954cb15b85f742e7221557499f08e3aefe57b487"
+    },
+    {
+      "symbol": "___call_sighandler",
+      "rawKey": "__call_sighandler",
+      "source": "src/lib/libcore.js",
+      "sourceSHA256": "3541e1c16fab338449bf7267954cb15b85f742e7221557499f08e3aefe57b487"
+    },
+    {
+      "symbol": "___cxa_throw",
+      "rawKey": "__cxa_throw",
+      "source": "src/lib/libexceptions.js",
+      "sourceSHA256": "9fb0d8d524c175ee239b86635d164fdcd0e7d77cb728b7dfa908d377fe652ee1"
+    },
+    {
+      "symbol": "ExceptionInfo",
+      "rawKey": "$ExceptionInfo",
+      "source": "src/lib/libexceptions.js",
+      "sourceSHA256": "9fb0d8d524c175ee239b86635d164fdcd0e7d77cb728b7dfa908d377fe652ee1"
+    },
+    {
+      "symbol": "uncaughtExceptionCount",
+      "rawKey": "$uncaughtExceptionCount",
+      "source": "src/lib/libexceptions.js",
+      "sourceSHA256": "9fb0d8d524c175ee239b86635d164fdcd0e7d77cb728b7dfa908d377fe652ee1"
+    },
+    {
+      "symbol": "__Unwind_RaiseException",
+      "rawKey": "_Unwind_RaiseException",
+      "source": "src/lib/libunwind.js",
+      "sourceSHA256": "a42dbe41ba1a2151382338c86183b86b5717440e6ad896d6e9fee37426776e91"
+    },
+    {
+      "symbol": "___pthread_create_js",
+      "rawKey": "__pthread_create_js",
+      "source": "src/lib/libpthread.js",
+      "sourceSHA256": "de9c71c105acf52d2f2f31a9659ae8071454815d47b6110403fb345732eb475a"
+    },
+    {
+      "symbol": "pthreadCreateProxied",
+      "rawKey": "$pthreadCreateProxied",
+      "source": "src/lib/libpthread.js",
+      "sourceSHA256": "de9c71c105acf52d2f2f31a9659ae8071454815d47b6110403fb345732eb475a"
+    },
+    {
+      "symbol": "_emscripten_has_threading_support",
+      "rawKey": "emscripten_has_threading_support",
+      "source": "src/lib/libatomic.js",
+      "sourceSHA256": "3353a1899f15c3abdb23075aa2abac9ff1369e16a1b3d3a6663aec9c9ea67638"
+    },
+    {
+      "symbol": "___syscall_fcntl64",
+      "rawKey": "__syscall_fcntl64",
+      "source": "src/lib/libsyscall.js",
+      "sourceSHA256": "0ad371d407ec380ef43acc24de4cf4d3c0d2fd48e688bbbb419ed3228bb254e1"
+    },
+    {
+      "symbol": "syscallGetVarargP",
+      "rawKey": "$syscallGetVarargP",
+      "source": "src/lib/libsyscall.js",
+      "sourceSHA256": "0ad371d407ec380ef43acc24de4cf4d3c0d2fd48e688bbbb419ed3228bb254e1"
+    },
+    {
+      "symbol": "syscallGetVarargI",
+      "rawKey": "$syscallGetVarargI",
+      "source": "src/lib/libsyscall.js",
+      "sourceSHA256": "0ad371d407ec380ef43acc24de4cf4d3c0d2fd48e688bbbb419ed3228bb254e1"
+    },
+    {
+      "symbol": "SYSCALLS",
+      "rawKey": "$SYSCALLS",
+      "source": "src/lib/libsyscall.js",
+      "sourceSHA256": "0ad371d407ec380ef43acc24de4cf4d3c0d2fd48e688bbbb419ed3228bb254e1"
+    },
+    {
+      "symbol": "PATH",
+      "rawKey": "$PATH",
+      "source": "src/lib/libpath.js",
+      "sourceSHA256": "6c6244b89ce194d50b25f277e5688e8729937aff77a57b8d6aca49174bf87140"
+    },
+    {
+      "symbol": "FS",
+      "rawKey": "$FS",
+      "source": "src/lib/libfs.js",
+      "sourceSHA256": "9413d73126f19892ea8bc1d7403f12cdb3f269a3b57e70741ec0dd358b76750c"
+    },
+    {
+      "symbol": "randomFill",
+      "rawKey": "$randomFill",
+      "source": "src/lib/libwasi.js",
+      "sourceSHA256": "b9a37514b016c1d2ffcd5994dcab319f89259984d57df77706c2923ff0cb2e84"
+    },
+    {
+      "symbol": "initRandomFill",
+      "rawKey": "$initRandomFill",
+      "source": "src/lib/libwasi.js",
+      "sourceSHA256": "b9a37514b016c1d2ffcd5994dcab319f89259984d57df77706c2923ff0cb2e84"
+    },
+    {
+      "symbol": "PATH_FS",
+      "rawKey": "$PATH_FS",
+      "source": "src/lib/libpath.js",
+      "sourceSHA256": "6c6244b89ce194d50b25f277e5688e8729937aff77a57b8d6aca49174bf87140"
+    },
+    {
+      "symbol": "TTY",
+      "rawKey": "$TTY",
+      "source": "src/lib/libtty.js",
+      "sourceSHA256": "d1eecb978ae971917a50fbf29d44037095c95242451190abf196d16643857516"
+    },
+    {
+      "symbol": "FS_stdin_getChar",
+      "rawKey": "$FS_stdin_getChar",
+      "source": "src/lib/libfs_shared.js",
+      "sourceSHA256": "276cff202d83ea05ad764df526109e2bad874276e3474dbb2fd53da5949d8839"
+    },
+    {
+      "symbol": "FS_stdin_getChar_buffer",
+      "rawKey": "$FS_stdin_getChar_buffer",
+      "source": "src/lib/libfs_shared.js",
+      "sourceSHA256": "276cff202d83ea05ad764df526109e2bad874276e3474dbb2fd53da5949d8839"
+    },
+    {
+      "symbol": "intArrayFromString",
+      "rawKey": "$intArrayFromString",
+      "source": "src/lib/libstrings.js",
+      "sourceSHA256": "7653dc2ececa66ef48de81fa378a463c2dde203958b6180a18979bce99ee7cbf"
+    },
+    {
+      "symbol": "lengthBytesUTF8",
+      "rawKey": "$lengthBytesUTF8",
+      "source": "src/lib/libstrings.js",
+      "sourceSHA256": "7653dc2ececa66ef48de81fa378a463c2dde203958b6180a18979bce99ee7cbf"
+    },
+    {
+      "symbol": "stringToUTF8Array",
+      "rawKey": "$stringToUTF8Array",
+      "source": "src/lib/libstrings.js",
+      "sourceSHA256": "7653dc2ececa66ef48de81fa378a463c2dde203958b6180a18979bce99ee7cbf"
+    },
+    {
+      "symbol": "MEMFS",
+      "rawKey": "$MEMFS",
+      "source": "src/lib/libmemfs.js",
+      "sourceSHA256": "33c41f5a0e30aa178f709d8633aa237c038e2b39671ed78f429fb2a0db18f16a"
+    },
+    {
+      "symbol": "mmapAlloc",
+      "rawKey": "$mmapAlloc",
+      "source": "src/lib/libcore.js",
+      "sourceSHA256": "3541e1c16fab338449bf7267954cb15b85f742e7221557499f08e3aefe57b487"
+    },
+    {
+      "symbol": "FS_modeStringToFlags",
+      "rawKey": "$FS_modeStringToFlags",
+      "source": "src/lib/libfs_shared.js",
+      "sourceSHA256": "276cff202d83ea05ad764df526109e2bad874276e3474dbb2fd53da5949d8839"
+    },
+    {
+      "symbol": "FS_fileDataToTypedArray",
+      "rawKey": "$FS_fileDataToTypedArray",
+      "source": "src/lib/libfs_shared.js",
+      "sourceSHA256": "276cff202d83ea05ad764df526109e2bad874276e3474dbb2fd53da5949d8839"
+    },
+    {
+      "symbol": "FS_getMode",
+      "rawKey": "$FS_getMode",
+      "source": "src/lib/libfs_shared.js",
+      "sourceSHA256": "276cff202d83ea05ad764df526109e2bad874276e3474dbb2fd53da5949d8839"
+    },
+    {
+      "symbol": "FS_createPreloadedFile",
+      "rawKey": "$FS_createPreloadedFile",
+      "source": "src/lib/libfs_shared.js",
+      "sourceSHA256": "276cff202d83ea05ad764df526109e2bad874276e3474dbb2fd53da5949d8839"
+    },
+    {
+      "symbol": "FS_preloadFile",
+      "rawKey": "$FS_preloadFile",
+      "source": "src/lib/libfs_shared.js",
+      "sourceSHA256": "276cff202d83ea05ad764df526109e2bad874276e3474dbb2fd53da5949d8839"
+    },
+    {
+      "symbol": "asyncLoad",
+      "rawKey": "$asyncLoad",
+      "source": "src/lib/libcore.js",
+      "sourceSHA256": "3541e1c16fab338449bf7267954cb15b85f742e7221557499f08e3aefe57b487"
+    },
+    {
+      "symbol": "FS_createDataFile",
+      "rawKey": "$FS_createDataFile",
+      "source": "src/lib/libfs.js",
+      "sourceSHA256": "9413d73126f19892ea8bc1d7403f12cdb3f269a3b57e70741ec0dd358b76750c"
+    },
+    {
+      "symbol": "getUniqueRunDependency",
+      "rawKey": "$getUniqueRunDependency",
+      "source": "src/lib/libcore.js",
+      "sourceSHA256": "3541e1c16fab338449bf7267954cb15b85f742e7221557499f08e3aefe57b487"
+    },
+    {
+      "symbol": "FS_handledByPreloadPlugin",
+      "rawKey": "$FS_handledByPreloadPlugin",
+      "source": "src/lib/libfs_shared.js",
+      "sourceSHA256": "276cff202d83ea05ad764df526109e2bad874276e3474dbb2fd53da5949d8839"
+    },
+    {
+      "symbol": "preloadPlugins",
+      "rawKey": "$preloadPlugins",
+      "source": "src/lib/libfs_shared.js",
+      "sourceSHA256": "276cff202d83ea05ad764df526109e2bad874276e3474dbb2fd53da5949d8839"
+    },
+    {
+      "symbol": "HEAP16",
+      "rawKey": "$HEAP16",
+      "source": "src/lib/libcore.js",
+      "sourceSHA256": "3541e1c16fab338449bf7267954cb15b85f742e7221557499f08e3aefe57b487"
+    },
+    {
+      "symbol": "___syscall_fstat64",
+      "rawKey": "__syscall_fstat64",
+      "source": "src/lib/libsyscall.js",
+      "sourceSHA256": "0ad371d407ec380ef43acc24de4cf4d3c0d2fd48e688bbbb419ed3228bb254e1"
+    },
+    {
+      "symbol": "___syscall_getcwd",
+      "rawKey": "__syscall_getcwd",
+      "source": "src/lib/libsyscall.js",
+      "sourceSHA256": "0ad371d407ec380ef43acc24de4cf4d3c0d2fd48e688bbbb419ed3228bb254e1"
+    },
+    {
+      "symbol": "stringToUTF8",
+      "rawKey": "$stringToUTF8",
+      "source": "src/lib/libstrings.js",
+      "sourceSHA256": "7653dc2ececa66ef48de81fa378a463c2dde203958b6180a18979bce99ee7cbf"
+    },
+    {
+      "symbol": "___syscall_getdents64",
+      "rawKey": "__syscall_getdents64",
+      "source": "src/lib/libsyscall.js",
+      "sourceSHA256": "0ad371d407ec380ef43acc24de4cf4d3c0d2fd48e688bbbb419ed3228bb254e1"
+    },
+    {
+      "symbol": "___syscall_ioctl",
+      "rawKey": "__syscall_ioctl",
+      "source": "src/lib/libsyscall.js",
+      "sourceSHA256": "0ad371d407ec380ef43acc24de4cf4d3c0d2fd48e688bbbb419ed3228bb254e1"
+    },
+    {
+      "symbol": "___syscall_lstat64",
+      "rawKey": "__syscall_lstat64",
+      "source": "src/lib/libsyscall.js",
+      "sourceSHA256": "0ad371d407ec380ef43acc24de4cf4d3c0d2fd48e688bbbb419ed3228bb254e1"
+    },
+    {
+      "symbol": "___syscall_newfstatat",
+      "rawKey": "__syscall_newfstatat",
+      "source": "src/lib/libsyscall.js",
+      "sourceSHA256": "0ad371d407ec380ef43acc24de4cf4d3c0d2fd48e688bbbb419ed3228bb254e1"
+    },
+    {
+      "symbol": "___syscall_openat",
+      "rawKey": "__syscall_openat",
+      "source": "src/lib/libsyscall.js",
+      "sourceSHA256": "0ad371d407ec380ef43acc24de4cf4d3c0d2fd48e688bbbb419ed3228bb254e1"
+    },
+    {
+      "symbol": "___syscall_readlinkat",
+      "rawKey": "__syscall_readlinkat",
+      "source": "src/lib/libsyscall.js",
+      "sourceSHA256": "0ad371d407ec380ef43acc24de4cf4d3c0d2fd48e688bbbb419ed3228bb254e1"
+    },
+    {
+      "symbol": "___syscall_stat64",
+      "rawKey": "__syscall_stat64",
+      "source": "src/lib/libsyscall.js",
+      "sourceSHA256": "0ad371d407ec380ef43acc24de4cf4d3c0d2fd48e688bbbb419ed3228bb254e1"
+    },
+    {
+      "symbol": "__abort_js",
+      "rawKey": "_abort_js",
+      "source": "src/lib/libcore.js",
+      "sourceSHA256": "3541e1c16fab338449bf7267954cb15b85f742e7221557499f08e3aefe57b487"
+    },
+    {
+      "symbol": "__emscripten_init_main_thread_js",
+      "rawKey": "_emscripten_init_main_thread_js",
+      "source": "src/lib/libpthread.js",
+      "sourceSHA256": "de9c71c105acf52d2f2f31a9659ae8071454815d47b6110403fb345732eb475a"
+    },
+    {
+      "symbol": "__emscripten_notify_mailbox_postmessage",
+      "rawKey": "_emscripten_notify_mailbox_postmessage",
+      "source": "src/lib/libpthread.js",
+      "sourceSHA256": "de9c71c105acf52d2f2f31a9659ae8071454815d47b6110403fb345732eb475a"
+    },
+    {
+      "symbol": "checkMailbox",
+      "rawKey": "$checkMailbox",
+      "source": "src/lib/libpthread.js",
+      "sourceSHA256": "de9c71c105acf52d2f2f31a9659ae8071454815d47b6110403fb345732eb475a"
+    },
+    {
+      "symbol": "callUserCallback",
+      "rawKey": "$callUserCallback",
+      "source": "src/lib/libcore.js",
+      "sourceSHA256": "3541e1c16fab338449bf7267954cb15b85f742e7221557499f08e3aefe57b487"
+    },
+    {
+      "symbol": "handleException",
+      "rawKey": "$handleException",
+      "source": "src/lib/libcore.js",
+      "sourceSHA256": "3541e1c16fab338449bf7267954cb15b85f742e7221557499f08e3aefe57b487"
+    },
+    {
+      "symbol": "maybeExit",
+      "rawKey": "$maybeExit",
+      "source": "src/lib/libcore.js",
+      "sourceSHA256": "3541e1c16fab338449bf7267954cb15b85f742e7221557499f08e3aefe57b487"
+    },
+    {
+      "symbol": "__emscripten_thread_mailbox_await",
+      "rawKey": "_emscripten_thread_mailbox_await",
+      "source": "src/lib/libpthread.js",
+      "sourceSHA256": "de9c71c105acf52d2f2f31a9659ae8071454815d47b6110403fb345732eb475a"
+    },
+    {
+      "symbol": "__emscripten_receive_on_main_thread_js",
+      "rawKey": "_emscripten_receive_on_main_thread_js",
+      "source": "src/lib/libpthread.js",
+      "sourceSHA256": "de9c71c105acf52d2f2f31a9659ae8071454815d47b6110403fb345732eb475a"
+    },
+    {
+      "symbol": "proxiedJSCallArgs",
+      "rawKey": "$proxiedJSCallArgs",
+      "source": "src/lib/libpthread.js",
+      "sourceSHA256": "de9c71c105acf52d2f2f31a9659ae8071454815d47b6110403fb345732eb475a"
+    },
+    {
+      "symbol": "__emscripten_runtime_keepalive_clear",
+      "rawKey": "_emscripten_runtime_keepalive_clear",
+      "source": "src/lib/libcore.js",
+      "sourceSHA256": "3541e1c16fab338449bf7267954cb15b85f742e7221557499f08e3aefe57b487"
+    },
+    {
+      "symbol": "__emscripten_thread_cleanup",
+      "rawKey": "_emscripten_thread_cleanup",
+      "source": "src/lib/libpthread.js",
+      "sourceSHA256": "de9c71c105acf52d2f2f31a9659ae8071454815d47b6110403fb345732eb475a"
+    },
+    {
+      "symbol": "__emscripten_thread_set_strongref",
+      "rawKey": "_emscripten_thread_set_strongref",
+      "source": "src/lib/libpthread.js",
+      "sourceSHA256": "de9c71c105acf52d2f2f31a9659ae8071454815d47b6110403fb345732eb475a"
+    },
+    {
+      "symbol": "_clock_time_get",
+      "rawKey": "clock_time_get",
+      "source": "src/lib/libwasi.js",
+      "sourceSHA256": "b9a37514b016c1d2ffcd5994dcab319f89259984d57df77706c2923ff0cb2e84"
+    },
+    {
+      "symbol": "_emscripten_get_now",
+      "rawKey": "emscripten_get_now",
+      "source": "src/lib/libcore.js",
+      "sourceSHA256": "3541e1c16fab338449bf7267954cb15b85f742e7221557499f08e3aefe57b487"
+    },
+    {
+      "symbol": "_emscripten_date_now",
+      "rawKey": "emscripten_date_now",
+      "source": "src/lib/libcore.js",
+      "sourceSHA256": "3541e1c16fab338449bf7267954cb15b85f742e7221557499f08e3aefe57b487"
+    },
+    {
+      "symbol": "nowIsMonotonic",
+      "rawKey": "$nowIsMonotonic",
+      "source": "src/lib/libcore.js",
+      "sourceSHA256": "3541e1c16fab338449bf7267954cb15b85f742e7221557499f08e3aefe57b487"
+    },
+    {
+      "symbol": "checkWasiClock",
+      "rawKey": "$checkWasiClock",
+      "source": "src/lib/libwasi.js",
+      "sourceSHA256": "b9a37514b016c1d2ffcd5994dcab319f89259984d57df77706c2923ff0cb2e84"
+    },
+    {
+      "symbol": "bigintToI53Checked",
+      "rawKey": "$bigintToI53Checked",
+      "source": "src/lib/libint53.js",
+      "sourceSHA256": "4484cfc6db24c39d37e872e16fc39256ef0f6feb9427f0ebea20e76ce45a2499"
+    },
+    {
+      "symbol": "INT53_MAX",
+      "rawKey": "$INT53_MAX",
+      "source": "src/lib/libint53.js",
+      "sourceSHA256": "4484cfc6db24c39d37e872e16fc39256ef0f6feb9427f0ebea20e76ce45a2499"
+    },
+    {
+      "symbol": "INT53_MIN",
+      "rawKey": "$INT53_MIN",
+      "source": "src/lib/libint53.js",
+      "sourceSHA256": "4484cfc6db24c39d37e872e16fc39256ef0f6feb9427f0ebea20e76ce45a2499"
+    },
+    {
+      "symbol": "_eglBindAPI",
+      "rawKey": "eglBindAPI",
+      "source": "src/lib/libegl.js",
+      "sourceSHA256": "5dcac7a6204a57c974dbbbcd74edd2cbd62ade618cb7759f332ca4516d493346"
+    },
+    {
+      "symbol": "EGL",
+      "rawKey": "$EGL",
+      "source": "src/lib/libegl.js",
+      "sourceSHA256": "5dcac7a6204a57c974dbbbcd74edd2cbd62ade618cb7759f332ca4516d493346"
+    },
+    {
+      "symbol": "Browser",
+      "rawKey": "$Browser",
+      "source": "src/lib/libbrowser.js",
+      "sourceSHA256": "47e749623daf9f8856df98fb9c8505fab0807d2a404e4a0e9f1143e84bf77231"
+    },
+    {
+      "symbol": "getFullscreenElement",
+      "rawKey": "$getFullscreenElement",
+      "source": "src/lib/libhtml5.js",
+      "sourceSHA256": "55d0f01efe316ba26e84f2427f0d865a65923a4edf9f092ba01c9a8f52ffe69a"
+    },
+    {
+      "symbol": "safeSetTimeout",
+      "rawKey": "$safeSetTimeout",
+      "source": "src/lib/libeventloop.js",
+      "sourceSHA256": "e54ad5e934dc036fa6176bbc297f8f1a6ac832aa13b3103e47bc25340b5ead8f"
+    },
+    {
+      "symbol": "warnOnce",
+      "rawKey": "$warnOnce",
+      "source": "src/lib/libcore.js",
+      "sourceSHA256": "3541e1c16fab338449bf7267954cb15b85f742e7221557499f08e3aefe57b487"
+    },
+    {
+      "symbol": "_eglChooseConfig",
+      "rawKey": "eglChooseConfig",
+      "source": "src/lib/libegl.js",
+      "sourceSHA256": "5dcac7a6204a57c974dbbbcd74edd2cbd62ade618cb7759f332ca4516d493346"
+    },
+    {
+      "symbol": "_eglCreateContext",
+      "rawKey": "eglCreateContext",
+      "source": "src/lib/libegl.js",
+      "sourceSHA256": "5dcac7a6204a57c974dbbbcd74edd2cbd62ade618cb7759f332ca4516d493346"
+    },
+    {
+      "symbol": "GL",
+      "rawKey": "$GL",
+      "source": "src/lib/libwebgl.js",
+      "sourceSHA256": "cce23f36fe13811d6989d175346532c8bbe4fda5783949aff2d6d095d4824ebb"
+    },
+    {
+      "symbol": "GLctx",
+      "rawKey": "$GLctx",
+      "source": "src/lib/libwebgl.js",
+      "sourceSHA256": "cce23f36fe13811d6989d175346532c8bbe4fda5783949aff2d6d095d4824ebb"
+    },
+    {
+      "symbol": "webgl_enable_ANGLE_instanced_arrays",
+      "rawKey": "$webgl_enable_ANGLE_instanced_arrays",
+      "source": "src/lib/libwebgl.js",
+      "sourceSHA256": "cce23f36fe13811d6989d175346532c8bbe4fda5783949aff2d6d095d4824ebb"
+    },
+    {
+      "symbol": "webgl_enable_OES_vertex_array_object",
+      "rawKey": "$webgl_enable_OES_vertex_array_object",
+      "source": "src/lib/libwebgl.js",
+      "sourceSHA256": "cce23f36fe13811d6989d175346532c8bbe4fda5783949aff2d6d095d4824ebb"
+    },
+    {
+      "symbol": "webgl_enable_WEBGL_draw_buffers",
+      "rawKey": "$webgl_enable_WEBGL_draw_buffers",
+      "source": "src/lib/libwebgl.js",
+      "sourceSHA256": "cce23f36fe13811d6989d175346532c8bbe4fda5783949aff2d6d095d4824ebb"
+    },
+    {
+      "symbol": "webgl_enable_EXT_polygon_offset_clamp",
+      "rawKey": "$webgl_enable_EXT_polygon_offset_clamp",
+      "source": "src/lib/libwebgl.js",
+      "sourceSHA256": "cce23f36fe13811d6989d175346532c8bbe4fda5783949aff2d6d095d4824ebb"
+    },
+    {
+      "symbol": "webgl_enable_EXT_clip_control",
+      "rawKey": "$webgl_enable_EXT_clip_control",
+      "source": "src/lib/libwebgl.js",
+      "sourceSHA256": "cce23f36fe13811d6989d175346532c8bbe4fda5783949aff2d6d095d4824ebb"
+    },
+    {
+      "symbol": "webgl_enable_WEBGL_polygon_mode",
+      "rawKey": "$webgl_enable_WEBGL_polygon_mode",
+      "source": "src/lib/libwebgl.js",
+      "sourceSHA256": "cce23f36fe13811d6989d175346532c8bbe4fda5783949aff2d6d095d4824ebb"
+    },
+    {
+      "symbol": "webgl_enable_WEBGL_multi_draw",
+      "rawKey": "$webgl_enable_WEBGL_multi_draw",
+      "source": "src/lib/libwebgl.js",
+      "sourceSHA256": "cce23f36fe13811d6989d175346532c8bbe4fda5783949aff2d6d095d4824ebb"
+    },
+    {
+      "symbol": "getEmscriptenSupportedExtensions",
+      "rawKey": "$getEmscriptenSupportedExtensions",
+      "source": "src/lib/libwebgl.js",
+      "sourceSHA256": "cce23f36fe13811d6989d175346532c8bbe4fda5783949aff2d6d095d4824ebb"
+    },
+    {
+      "symbol": "_eglCreateWindowSurface",
+      "rawKey": "eglCreateWindowSurface",
+      "source": "src/lib/libegl.js",
+      "sourceSHA256": "5dcac7a6204a57c974dbbbcd74edd2cbd62ade618cb7759f332ca4516d493346"
+    },
+    {
+      "symbol": "_eglDestroyContext",
+      "rawKey": "eglDestroyContext",
+      "source": "src/lib/libegl.js",
+      "sourceSHA256": "5dcac7a6204a57c974dbbbcd74edd2cbd62ade618cb7759f332ca4516d493346"
+    },
+    {
+      "symbol": "_eglDestroySurface",
+      "rawKey": "eglDestroySurface",
+      "source": "src/lib/libegl.js",
+      "sourceSHA256": "5dcac7a6204a57c974dbbbcd74edd2cbd62ade618cb7759f332ca4516d493346"
+    },
+    {
+      "symbol": "_eglGetConfigAttrib",
+      "rawKey": "eglGetConfigAttrib",
+      "source": "src/lib/libegl.js",
+      "sourceSHA256": "5dcac7a6204a57c974dbbbcd74edd2cbd62ade618cb7759f332ca4516d493346"
+    },
+    {
+      "symbol": "_eglGetDisplay",
+      "rawKey": "eglGetDisplay",
+      "source": "src/lib/libegl.js",
+      "sourceSHA256": "5dcac7a6204a57c974dbbbcd74edd2cbd62ade618cb7759f332ca4516d493346"
+    },
+    {
+      "symbol": "_eglGetError",
+      "rawKey": "eglGetError",
+      "source": "src/lib/libegl.js",
+      "sourceSHA256": "5dcac7a6204a57c974dbbbcd74edd2cbd62ade618cb7759f332ca4516d493346"
+    },
+    {
+      "symbol": "_eglInitialize",
+      "rawKey": "eglInitialize",
+      "source": "src/lib/libegl.js",
+      "sourceSHA256": "5dcac7a6204a57c974dbbbcd74edd2cbd62ade618cb7759f332ca4516d493346"
+    },
+    {
+      "symbol": "_eglMakeCurrent",
+      "rawKey": "eglMakeCurrent",
+      "source": "src/lib/libegl.js",
+      "sourceSHA256": "5dcac7a6204a57c974dbbbcd74edd2cbd62ade618cb7759f332ca4516d493346"
+    },
+    {
+      "symbol": "_eglQueryString",
+      "rawKey": "eglQueryString",
+      "source": "src/lib/libegl.js",
+      "sourceSHA256": "5dcac7a6204a57c974dbbbcd74edd2cbd62ade618cb7759f332ca4516d493346"
+    },
+    {
+      "symbol": "stringToNewUTF8",
+      "rawKey": "$stringToNewUTF8",
+      "source": "src/lib/libstrings.js",
+      "sourceSHA256": "7653dc2ececa66ef48de81fa378a463c2dde203958b6180a18979bce99ee7cbf"
+    },
+    {
+      "symbol": "_eglSwapBuffers",
+      "rawKey": "eglSwapBuffers",
+      "source": "src/lib/libegl.js",
+      "sourceSHA256": "5dcac7a6204a57c974dbbbcd74edd2cbd62ade618cb7759f332ca4516d493346"
+    },
+    {
+      "symbol": "_eglSwapInterval",
+      "rawKey": "eglSwapInterval",
+      "source": "src/lib/libegl.js",
+      "sourceSHA256": "5dcac7a6204a57c974dbbbcd74edd2cbd62ade618cb7759f332ca4516d493346"
+    },
+    {
+      "symbol": "_emscripten_set_main_loop_timing",
+      "rawKey": "emscripten_set_main_loop_timing",
+      "source": "src/lib/libeventloop.js",
+      "sourceSHA256": "e54ad5e934dc036fa6176bbc297f8f1a6ac832aa13b3103e47bc25340b5ead8f"
+    },
+    {
+      "symbol": "MainLoop",
+      "rawKey": "$MainLoop",
+      "source": "src/lib/libeventloop.js",
+      "sourceSHA256": "e54ad5e934dc036fa6176bbc297f8f1a6ac832aa13b3103e47bc25340b5ead8f"
+    },
+    {
+      "symbol": "setMainLoop",
+      "rawKey": "$setMainLoop",
+      "source": "src/lib/libeventloop.js",
+      "sourceSHA256": "e54ad5e934dc036fa6176bbc297f8f1a6ac832aa13b3103e47bc25340b5ead8f"
+    },
+    {
+      "symbol": "_eglTerminate",
+      "rawKey": "eglTerminate",
+      "source": "src/lib/libegl.js",
+      "sourceSHA256": "5dcac7a6204a57c974dbbbcd74edd2cbd62ade618cb7759f332ca4516d493346"
+    },
+    {
+      "symbol": "_eglWaitGL",
+      "rawKey": "eglWaitGL",
+      "source": "src/lib/libegl.js",
+      "sourceSHA256": "5dcac7a6204a57c974dbbbcd74edd2cbd62ade618cb7759f332ca4516d493346"
+    },
+    {
+      "symbol": "_eglWaitClient",
+      "rawKey": "eglWaitClient",
+      "source": "src/lib/libegl.js",
+      "sourceSHA256": "5dcac7a6204a57c974dbbbcd74edd2cbd62ade618cb7759f332ca4516d493346"
+    },
+    {
+      "symbol": "_eglWaitNative",
+      "rawKey": "eglWaitNative",
+      "source": "src/lib/libegl.js",
+      "sourceSHA256": "5dcac7a6204a57c974dbbbcd74edd2cbd62ade618cb7759f332ca4516d493346"
+    },
+    {
+      "symbol": "_emscripten_asm_const_int",
+      "rawKey": "emscripten_asm_const_int",
+      "source": "src/lib/libcore.js",
+      "sourceSHA256": "3541e1c16fab338449bf7267954cb15b85f742e7221557499f08e3aefe57b487"
+    },
+    {
+      "symbol": "runEmAsmFunction",
+      "rawKey": "$runEmAsmFunction",
+      "source": "src/lib/libcore.js",
+      "sourceSHA256": "3541e1c16fab338449bf7267954cb15b85f742e7221557499f08e3aefe57b487"
+    },
+    {
+      "symbol": "readEmAsmArgs",
+      "rawKey": "$readEmAsmArgs",
+      "source": "src/lib/libcore.js",
+      "sourceSHA256": "3541e1c16fab338449bf7267954cb15b85f742e7221557499f08e3aefe57b487"
+    },
+    {
+      "symbol": "readEmAsmArgsArray",
+      "rawKey": "$readEmAsmArgsArray",
+      "source": "src/lib/libcore.js",
+      "sourceSHA256": "3541e1c16fab338449bf7267954cb15b85f742e7221557499f08e3aefe57b487"
+    },
+    {
+      "symbol": "_emscripten_asm_const_int_sync_on_main_thread",
+      "rawKey": "emscripten_asm_const_int_sync_on_main_thread",
+      "source": "src/lib/libcore.js",
+      "sourceSHA256": "3541e1c16fab338449bf7267954cb15b85f742e7221557499f08e3aefe57b487"
+    },
+    {
+      "symbol": "runMainThreadEmAsm",
+      "rawKey": "$runMainThreadEmAsm",
+      "source": "src/lib/libcore.js",
+      "sourceSHA256": "3541e1c16fab338449bf7267954cb15b85f742e7221557499f08e3aefe57b487"
+    },
+    {
+      "symbol": "_emscripten_asm_const_ptr_sync_on_main_thread",
+      "rawKey": "emscripten_asm_const_ptr_sync_on_main_thread",
+      "source": "src/lib/libcore.js",
+      "sourceSHA256": "3541e1c16fab338449bf7267954cb15b85f742e7221557499f08e3aefe57b487"
+    },
+    {
+      "symbol": "_emscripten_cancel_main_loop",
+      "rawKey": "emscripten_cancel_main_loop",
+      "source": "src/lib/libeventloop.js",
+      "sourceSHA256": "e54ad5e934dc036fa6176bbc297f8f1a6ac832aa13b3103e47bc25340b5ead8f"
+    },
+    {
+      "symbol": "_emscripten_check_blocking_allowed",
+      "rawKey": "emscripten_check_blocking_allowed",
+      "source": "src/lib/libpthread.js",
+      "sourceSHA256": "de9c71c105acf52d2f2f31a9659ae8071454815d47b6110403fb345732eb475a"
+    },
+    {
+      "symbol": "_emscripten_exit_fullscreen",
+      "rawKey": "emscripten_exit_fullscreen",
+      "source": "src/lib/libhtml5.js",
+      "sourceSHA256": "55d0f01efe316ba26e84f2427f0d865a65923a4edf9f092ba01c9a8f52ffe69a"
+    },
+    {
+      "symbol": "JSEvents",
+      "rawKey": "$JSEvents",
+      "source": "src/lib/libhtml5.js",
+      "sourceSHA256": "55d0f01efe316ba26e84f2427f0d865a65923a4edf9f092ba01c9a8f52ffe69a"
+    },
+    {
+      "symbol": "addOnExit",
+      "rawKey": "$addOnExit",
+      "source": "src/lib/libcore.js",
+      "sourceSHA256": "3541e1c16fab338449bf7267954cb15b85f742e7221557499f08e3aefe57b487"
+    },
+    {
+      "symbol": "onExits",
+      "rawKey": "$onExits",
+      "source": "src/lib/libcore.js",
+      "sourceSHA256": "3541e1c16fab338449bf7267954cb15b85f742e7221557499f08e3aefe57b487"
+    },
+    {
+      "symbol": "specialHTMLTargets",
+      "rawKey": "$specialHTMLTargets",
+      "source": "src/lib/libhtml5.js",
+      "sourceSHA256": "55d0f01efe316ba26e84f2427f0d865a65923a4edf9f092ba01c9a8f52ffe69a"
+    },
+    {
+      "symbol": "JSEvents_requestFullscreen",
+      "rawKey": "$JSEvents_requestFullscreen",
+      "source": "src/lib/libhtml5.js",
+      "sourceSHA256": "55d0f01efe316ba26e84f2427f0d865a65923a4edf9f092ba01c9a8f52ffe69a"
+    },
+    {
+      "symbol": "JSEvents_resizeCanvasForFullscreen",
+      "rawKey": "$JSEvents_resizeCanvasForFullscreen",
+      "source": "src/lib/libhtml5.js",
+      "sourceSHA256": "55d0f01efe316ba26e84f2427f0d865a65923a4edf9f092ba01c9a8f52ffe69a"
+    },
+    {
+      "symbol": "registerRestoreOldStyle",
+      "rawKey": "$registerRestoreOldStyle",
+      "source": "src/lib/libhtml5.js",
+      "sourceSHA256": "55d0f01efe316ba26e84f2427f0d865a65923a4edf9f092ba01c9a8f52ffe69a"
+    },
+    {
+      "symbol": "getCanvasElementSize",
+      "rawKey": "$getCanvasElementSize",
+      "source": "src/lib/libhtml5.js",
+      "sourceSHA256": "55d0f01efe316ba26e84f2427f0d865a65923a4edf9f092ba01c9a8f52ffe69a"
+    },
+    {
+      "symbol": "_emscripten_get_canvas_element_size",
+      "rawKey": "emscripten_get_canvas_element_size",
+      "source": "src/lib/libhtml5.js",
+      "sourceSHA256": "55d0f01efe316ba26e84f2427f0d865a65923a4edf9f092ba01c9a8f52ffe69a"
+    },
+    {
+      "symbol": "getCanvasSizeCallingThread",
+      "rawKey": "$getCanvasSizeCallingThread",
+      "source": "src/lib/libhtml5.js",
+      "sourceSHA256": "55d0f01efe316ba26e84f2427f0d865a65923a4edf9f092ba01c9a8f52ffe69a"
+    },
+    {
+      "symbol": "findCanvasEventTarget",
+      "rawKey": "$findCanvasEventTarget",
+      "source": "src/lib/libhtml5.js",
+      "sourceSHA256": "55d0f01efe316ba26e84f2427f0d865a65923a4edf9f092ba01c9a8f52ffe69a"
+    },
+    {
+      "symbol": "findEventTarget",
+      "rawKey": "$findEventTarget",
+      "source": "src/lib/libhtml5.js",
+      "sourceSHA256": "55d0f01efe316ba26e84f2427f0d865a65923a4edf9f092ba01c9a8f52ffe69a"
+    },
+    {
+      "symbol": "maybeCStringToJsString",
+      "rawKey": "$maybeCStringToJsString",
+      "source": "src/lib/libhtml5.js",
+      "sourceSHA256": "55d0f01efe316ba26e84f2427f0d865a65923a4edf9f092ba01c9a8f52ffe69a"
+    },
+    {
+      "symbol": "getCanvasSizeMainThread",
+      "rawKey": "$getCanvasSizeMainThread",
+      "source": "src/lib/libhtml5.js",
+      "sourceSHA256": "55d0f01efe316ba26e84f2427f0d865a65923a4edf9f092ba01c9a8f52ffe69a"
+    },
+    {
+      "symbol": "stringToUTF8OnStack",
+      "rawKey": "$stringToUTF8OnStack",
+      "source": "src/lib/libstrings.js",
+      "sourceSHA256": "7653dc2ececa66ef48de81fa378a463c2dde203958b6180a18979bce99ee7cbf"
+    },
+    {
+      "symbol": "setCanvasElementSize",
+      "rawKey": "$setCanvasElementSize",
+      "source": "src/lib/libhtml5.js",
+      "sourceSHA256": "55d0f01efe316ba26e84f2427f0d865a65923a4edf9f092ba01c9a8f52ffe69a"
+    },
+    {
+      "symbol": "_emscripten_set_canvas_element_size",
+      "rawKey": "emscripten_set_canvas_element_size",
+      "source": "src/lib/libhtml5.js",
+      "sourceSHA256": "55d0f01efe316ba26e84f2427f0d865a65923a4edf9f092ba01c9a8f52ffe69a"
+    },
+    {
+      "symbol": "setCanvasElementSizeCallingThread",
+      "rawKey": "$setCanvasElementSizeCallingThread",
+      "source": "src/lib/libhtml5.js",
+      "sourceSHA256": "55d0f01efe316ba26e84f2427f0d865a65923a4edf9f092ba01c9a8f52ffe69a"
+    },
+    {
+      "symbol": "setCanvasElementSizeMainThread",
+      "rawKey": "$setCanvasElementSizeMainThread",
+      "source": "src/lib/libhtml5.js",
+      "sourceSHA256": "55d0f01efe316ba26e84f2427f0d865a65923a4edf9f092ba01c9a8f52ffe69a"
+    },
+    {
+      "symbol": "currentFullscreenStrategy",
+      "rawKey": "$currentFullscreenStrategy",
+      "source": "src/lib/libhtml5.js",
+      "sourceSHA256": "55d0f01efe316ba26e84f2427f0d865a65923a4edf9f092ba01c9a8f52ffe69a"
+    },
+    {
+      "symbol": "callCanvasResizedCallback",
+      "rawKey": "$callCanvasResizedCallback",
+      "source": "src/lib/libhtml5.js",
+      "sourceSHA256": "55d0f01efe316ba26e84f2427f0d865a65923a4edf9f092ba01c9a8f52ffe69a"
+    },
+    {
+      "symbol": "setLetterbox",
+      "rawKey": "$setLetterbox",
+      "source": "src/lib/libhtml5.js",
+      "sourceSHA256": "55d0f01efe316ba26e84f2427f0d865a65923a4edf9f092ba01c9a8f52ffe69a"
+    },
+    {
+      "symbol": "getBoundingClientRect",
+      "rawKey": "$getBoundingClientRect",
+      "source": "src/lib/libhtml5.js",
+      "sourceSHA256": "55d0f01efe316ba26e84f2427f0d865a65923a4edf9f092ba01c9a8f52ffe69a"
+    },
+    {
+      "symbol": "_emscripten_exit_pointerlock",
+      "rawKey": "emscripten_exit_pointerlock",
+      "source": "src/lib/libhtml5.js",
+      "sourceSHA256": "55d0f01efe316ba26e84f2427f0d865a65923a4edf9f092ba01c9a8f52ffe69a"
+    },
+    {
+      "symbol": "requestPointerLock",
+      "rawKey": "$requestPointerLock",
+      "source": "src/lib/libhtml5.js",
+      "sourceSHA256": "55d0f01efe316ba26e84f2427f0d865a65923a4edf9f092ba01c9a8f52ffe69a"
+    },
+    {
+      "symbol": "_emscripten_exit_with_live_runtime",
+      "rawKey": "emscripten_exit_with_live_runtime",
+      "source": "src/lib/libcore.js",
+      "sourceSHA256": "3541e1c16fab338449bf7267954cb15b85f742e7221557499f08e3aefe57b487"
+    },
+    {
+      "symbol": "_emscripten_force_exit",
+      "rawKey": "emscripten_force_exit",
+      "source": "src/lib/libcore.js",
+      "sourceSHA256": "3541e1c16fab338449bf7267954cb15b85f742e7221557499f08e3aefe57b487"
+    },
+    {
+      "symbol": "_emscripten_get_device_pixel_ratio",
+      "rawKey": "emscripten_get_device_pixel_ratio",
+      "source": "src/lib/libhtml5.js",
+      "sourceSHA256": "55d0f01efe316ba26e84f2427f0d865a65923a4edf9f092ba01c9a8f52ffe69a"
+    },
+    {
+      "symbol": "_emscripten_get_element_css_size",
+      "rawKey": "emscripten_get_element_css_size",
+      "source": "src/lib/libhtml5.js",
+      "sourceSHA256": "55d0f01efe316ba26e84f2427f0d865a65923a4edf9f092ba01c9a8f52ffe69a"
+    },
+    {
+      "symbol": "_emscripten_get_gamepad_status",
+      "rawKey": "emscripten_get_gamepad_status",
+      "source": "src/lib/libhtml5.js",
+      "sourceSHA256": "55d0f01efe316ba26e84f2427f0d865a65923a4edf9f092ba01c9a8f52ffe69a"
+    },
+    {
+      "symbol": "fillGamepadEventData",
+      "rawKey": "$fillGamepadEventData",
+      "source": "src/lib/libhtml5.js",
+      "sourceSHA256": "55d0f01efe316ba26e84f2427f0d865a65923a4edf9f092ba01c9a8f52ffe69a"
+    },
+    {
+      "symbol": "_emscripten_get_num_gamepads",
+      "rawKey": "emscripten_get_num_gamepads",
+      "source": "src/lib/libhtml5.js",
+      "sourceSHA256": "55d0f01efe316ba26e84f2427f0d865a65923a4edf9f092ba01c9a8f52ffe69a"
+    },
+    {
+      "symbol": "_emscripten_get_screen_size",
+      "rawKey": "emscripten_get_screen_size",
+      "source": "src/lib/libbrowser.js",
+      "sourceSHA256": "47e749623daf9f8856df98fb9c8505fab0807d2a404e4a0e9f1143e84bf77231"
+    },
+    {
+      "symbol": "_emscripten_glActiveTexture",
+      "rawKey": "emscripten_glActiveTexture",
+      "source": "src/lib/libwebgl.js",
+      "sourceSHA256": "cce23f36fe13811d6989d175346532c8bbe4fda5783949aff2d6d095d4824ebb"
+    },
+    {
+      "symbol": "_emscripten_glAttachShader",
+      "rawKey": "emscripten_glAttachShader",
+      "source": "src/lib/libwebgl.js",
+      "sourceSHA256": "cce23f36fe13811d6989d175346532c8bbe4fda5783949aff2d6d095d4824ebb"
+    },
+    {
+      "symbol": "_emscripten_glBeginQueryEXT",
+      "rawKey": "emscripten_glBeginQueryEXT",
+      "source": "src/lib/libwebgl.js",
+      "sourceSHA256": "cce23f36fe13811d6989d175346532c8bbe4fda5783949aff2d6d095d4824ebb"
+    },
+    {
+      "symbol": "_emscripten_glBindAttribLocation",
+      "rawKey": "emscripten_glBindAttribLocation",
+      "source": "src/lib/libwebgl.js",
+      "sourceSHA256": "cce23f36fe13811d6989d175346532c8bbe4fda5783949aff2d6d095d4824ebb"
+    },
+    {
+      "symbol": "_emscripten_glBindBuffer",
+      "rawKey": "emscripten_glBindBuffer",
+      "source": "src/lib/libwebgl.js",
+      "sourceSHA256": "cce23f36fe13811d6989d175346532c8bbe4fda5783949aff2d6d095d4824ebb"
+    },
+    {
+      "symbol": "_emscripten_glBindFramebuffer",
+      "rawKey": "emscripten_glBindFramebuffer",
+      "source": "src/lib/libwebgl.js",
+      "sourceSHA256": "cce23f36fe13811d6989d175346532c8bbe4fda5783949aff2d6d095d4824ebb"
+    },
+    {
+      "symbol": "_emscripten_glBindRenderbuffer",
+      "rawKey": "emscripten_glBindRenderbuffer",
+      "source": "src/lib/libwebgl.js",
+      "sourceSHA256": "cce23f36fe13811d6989d175346532c8bbe4fda5783949aff2d6d095d4824ebb"
+    },
+    {
+      "symbol": "_emscripten_glBindTexture",
+      "rawKey": "emscripten_glBindTexture",
+      "source": "src/lib/libwebgl.js",
+      "sourceSHA256": "cce23f36fe13811d6989d175346532c8bbe4fda5783949aff2d6d095d4824ebb"
+    },
+    {
+      "symbol": "_emscripten_glBlendColor",
+      "rawKey": "emscripten_glBlendColor",
+      "source": "src/lib/libwebgl.js",
+      "sourceSHA256": "cce23f36fe13811d6989d175346532c8bbe4fda5783949aff2d6d095d4824ebb"
+    },
+    {
+      "symbol": "_emscripten_glBlendEquation",
+      "rawKey": "emscripten_glBlendEquation",
+      "source": "src/lib/libwebgl.js",
+      "sourceSHA256": "cce23f36fe13811d6989d175346532c8bbe4fda5783949aff2d6d095d4824ebb"
+    },
+    {
+      "symbol": "_emscripten_glBlendEquationSeparate",
+      "rawKey": "emscripten_glBlendEquationSeparate",
+      "source": "src/lib/libwebgl.js",
+      "sourceSHA256": "cce23f36fe13811d6989d175346532c8bbe4fda5783949aff2d6d095d4824ebb"
+    },
+    {
+      "symbol": "_emscripten_glBlendFunc",
+      "rawKey": "emscripten_glBlendFunc",
+      "source": "src/lib/libwebgl.js",
+      "sourceSHA256": "cce23f36fe13811d6989d175346532c8bbe4fda5783949aff2d6d095d4824ebb"
+    },
+    {
+      "symbol": "_emscripten_glBlendFuncSeparate",
+      "rawKey": "emscripten_glBlendFuncSeparate",
+      "source": "src/lib/libwebgl.js",
+      "sourceSHA256": "cce23f36fe13811d6989d175346532c8bbe4fda5783949aff2d6d095d4824ebb"
+    },
+    {
+      "symbol": "_emscripten_glBufferData",
+      "rawKey": "emscripten_glBufferData",
+      "source": "src/lib/libwebgl.js",
+      "sourceSHA256": "cce23f36fe13811d6989d175346532c8bbe4fda5783949aff2d6d095d4824ebb"
+    },
+    {
+      "symbol": "_emscripten_glBufferSubData",
+      "rawKey": "emscripten_glBufferSubData",
+      "source": "src/lib/libwebgl.js",
+      "sourceSHA256": "cce23f36fe13811d6989d175346532c8bbe4fda5783949aff2d6d095d4824ebb"
+    },
+    {
+      "symbol": "webglBufferSubData",
+      "rawKey": "$webglBufferSubData",
+      "source": "src/lib/libwebgl.js",
+      "sourceSHA256": "cce23f36fe13811d6989d175346532c8bbe4fda5783949aff2d6d095d4824ebb"
+    },
+    {
+      "symbol": "_emscripten_glCheckFramebufferStatus",
+      "rawKey": "emscripten_glCheckFramebufferStatus",
+      "source": "src/lib/libwebgl.js",
+      "sourceSHA256": "cce23f36fe13811d6989d175346532c8bbe4fda5783949aff2d6d095d4824ebb"
+    },
+    {
+      "symbol": "_emscripten_glClear",
+      "rawKey": "emscripten_glClear",
+      "source": "src/lib/libwebgl.js",
+      "sourceSHA256": "cce23f36fe13811d6989d175346532c8bbe4fda5783949aff2d6d095d4824ebb"
+    },
+    {
+      "symbol": "_emscripten_glClearColor",
+      "rawKey": "emscripten_glClearColor",
+      "source": "src/lib/libwebgl.js",
+      "sourceSHA256": "cce23f36fe13811d6989d175346532c8bbe4fda5783949aff2d6d095d4824ebb"
+    },
+    {
+      "symbol": "_emscripten_glClearDepthf",
+      "rawKey": "emscripten_glClearDepthf",
+      "source": "src/lib/libwebgl.js",
+      "sourceSHA256": "cce23f36fe13811d6989d175346532c8bbe4fda5783949aff2d6d095d4824ebb"
+    },
+    {
+      "symbol": "_emscripten_glClearStencil",
+      "rawKey": "emscripten_glClearStencil",
+      "source": "src/lib/libwebgl.js",
+      "sourceSHA256": "cce23f36fe13811d6989d175346532c8bbe4fda5783949aff2d6d095d4824ebb"
+    },
+    {
+      "symbol": "_emscripten_glColorMask",
+      "rawKey": "emscripten_glColorMask",
+      "source": "src/lib/libwebgl.js",
+      "sourceSHA256": "cce23f36fe13811d6989d175346532c8bbe4fda5783949aff2d6d095d4824ebb"
+    },
+    {
+      "symbol": "_emscripten_glCompileShader",
+      "rawKey": "emscripten_glCompileShader",
+      "source": "src/lib/libwebgl.js",
+      "sourceSHA256": "cce23f36fe13811d6989d175346532c8bbe4fda5783949aff2d6d095d4824ebb"
+    },
+    {
+      "symbol": "_emscripten_glCompressedTexImage2D",
+      "rawKey": "emscripten_glCompressedTexImage2D",
+      "source": "src/lib/libwebgl.js",
+      "sourceSHA256": "cce23f36fe13811d6989d175346532c8bbe4fda5783949aff2d6d095d4824ebb"
+    },
+    {
+      "symbol": "_emscripten_glCompressedTexSubImage2D",
+      "rawKey": "emscripten_glCompressedTexSubImage2D",
+      "source": "src/lib/libwebgl.js",
+      "sourceSHA256": "cce23f36fe13811d6989d175346532c8bbe4fda5783949aff2d6d095d4824ebb"
+    },
+    {
+      "symbol": "_emscripten_glCopyTexImage2D",
+      "rawKey": "emscripten_glCopyTexImage2D",
+      "source": "src/lib/libwebgl.js",
+      "sourceSHA256": "cce23f36fe13811d6989d175346532c8bbe4fda5783949aff2d6d095d4824ebb"
+    },
+    {
+      "symbol": "_emscripten_glCopyTexSubImage2D",
+      "rawKey": "emscripten_glCopyTexSubImage2D",
+      "source": "src/lib/libwebgl.js",
+      "sourceSHA256": "cce23f36fe13811d6989d175346532c8bbe4fda5783949aff2d6d095d4824ebb"
+    },
+    {
+      "symbol": "_emscripten_glCreateProgram",
+      "rawKey": "emscripten_glCreateProgram",
+      "source": "src/lib/libwebgl.js",
+      "sourceSHA256": "cce23f36fe13811d6989d175346532c8bbe4fda5783949aff2d6d095d4824ebb"
+    },
+    {
+      "symbol": "_emscripten_glCreateShader",
+      "rawKey": "emscripten_glCreateShader",
+      "source": "src/lib/libwebgl.js",
+      "sourceSHA256": "cce23f36fe13811d6989d175346532c8bbe4fda5783949aff2d6d095d4824ebb"
+    },
+    {
+      "symbol": "_emscripten_glCullFace",
+      "rawKey": "emscripten_glCullFace",
+      "source": "src/lib/libwebgl.js",
+      "sourceSHA256": "cce23f36fe13811d6989d175346532c8bbe4fda5783949aff2d6d095d4824ebb"
+    },
+    {
+      "symbol": "_emscripten_glDeleteBuffers",
+      "rawKey": "emscripten_glDeleteBuffers",
+      "source": "src/lib/libwebgl.js",
+      "sourceSHA256": "cce23f36fe13811d6989d175346532c8bbe4fda5783949aff2d6d095d4824ebb"
+    },
+    {
+      "symbol": "_emscripten_glDeleteFramebuffers",
+      "rawKey": "emscripten_glDeleteFramebuffers",
+      "source": "src/lib/libwebgl.js",
+      "sourceSHA256": "cce23f36fe13811d6989d175346532c8bbe4fda5783949aff2d6d095d4824ebb"
+    },
+    {
+      "symbol": "_emscripten_glDeleteProgram",
+      "rawKey": "emscripten_glDeleteProgram",
+      "source": "src/lib/libwebgl.js",
+      "sourceSHA256": "cce23f36fe13811d6989d175346532c8bbe4fda5783949aff2d6d095d4824ebb"
+    },
+    {
+      "symbol": "_emscripten_glDeleteQueriesEXT",
+      "rawKey": "emscripten_glDeleteQueriesEXT",
+      "source": "src/lib/libwebgl.js",
+      "sourceSHA256": "cce23f36fe13811d6989d175346532c8bbe4fda5783949aff2d6d095d4824ebb"
+    },
+    {
+      "symbol": "_emscripten_glDeleteRenderbuffers",
+      "rawKey": "emscripten_glDeleteRenderbuffers",
+      "source": "src/lib/libwebgl.js",
+      "sourceSHA256": "cce23f36fe13811d6989d175346532c8bbe4fda5783949aff2d6d095d4824ebb"
+    },
+    {
+      "symbol": "_emscripten_glDeleteShader",
+      "rawKey": "emscripten_glDeleteShader",
+      "source": "src/lib/libwebgl.js",
+      "sourceSHA256": "cce23f36fe13811d6989d175346532c8bbe4fda5783949aff2d6d095d4824ebb"
+    },
+    {
+      "symbol": "_emscripten_glDeleteTextures",
+      "rawKey": "emscripten_glDeleteTextures",
+      "source": "src/lib/libwebgl.js",
+      "sourceSHA256": "cce23f36fe13811d6989d175346532c8bbe4fda5783949aff2d6d095d4824ebb"
+    },
+    {
+      "symbol": "_emscripten_glDepthFunc",
+      "rawKey": "emscripten_glDepthFunc",
+      "source": "src/lib/libwebgl.js",
+      "sourceSHA256": "cce23f36fe13811d6989d175346532c8bbe4fda5783949aff2d6d095d4824ebb"
+    },
+    {
+      "symbol": "_emscripten_glDepthMask",
+      "rawKey": "emscripten_glDepthMask",
+      "source": "src/lib/libwebgl.js",
+      "sourceSHA256": "cce23f36fe13811d6989d175346532c8bbe4fda5783949aff2d6d095d4824ebb"
+    },
+    {
+      "symbol": "_emscripten_glDepthRangef",
+      "rawKey": "emscripten_glDepthRangef",
+      "source": "src/lib/libwebgl.js",
+      "sourceSHA256": "cce23f36fe13811d6989d175346532c8bbe4fda5783949aff2d6d095d4824ebb"
+    },
+    {
+      "symbol": "_emscripten_glDetachShader",
+      "rawKey": "emscripten_glDetachShader",
+      "source": "src/lib/libwebgl.js",
+      "sourceSHA256": "cce23f36fe13811d6989d175346532c8bbe4fda5783949aff2d6d095d4824ebb"
+    },
+    {
+      "symbol": "_emscripten_glDisable",
+      "rawKey": "emscripten_glDisable",
+      "source": "src/lib/libwebgl.js",
+      "sourceSHA256": "cce23f36fe13811d6989d175346532c8bbe4fda5783949aff2d6d095d4824ebb"
+    },
+    {
+      "symbol": "_emscripten_glDisableVertexAttribArray",
+      "rawKey": "emscripten_glDisableVertexAttribArray",
+      "source": "src/lib/libwebgl.js",
+      "sourceSHA256": "cce23f36fe13811d6989d175346532c8bbe4fda5783949aff2d6d095d4824ebb"
+    },
+    {
+      "symbol": "_emscripten_glDrawArrays",
+      "rawKey": "emscripten_glDrawArrays",
+      "source": "src/lib/libwebgl.js",
+      "sourceSHA256": "cce23f36fe13811d6989d175346532c8bbe4fda5783949aff2d6d095d4824ebb"
+    },
+    {
+      "symbol": "_emscripten_glDrawElements",
+      "rawKey": "emscripten_glDrawElements",
+      "source": "src/lib/libwebgl.js",
+      "sourceSHA256": "cce23f36fe13811d6989d175346532c8bbe4fda5783949aff2d6d095d4824ebb"
+    },
+    {
+      "symbol": "_emscripten_glEnable",
+      "rawKey": "emscripten_glEnable",
+      "source": "src/lib/libwebgl.js",
+      "sourceSHA256": "cce23f36fe13811d6989d175346532c8bbe4fda5783949aff2d6d095d4824ebb"
+    },
+    {
+      "symbol": "_emscripten_glEnableVertexAttribArray",
+      "rawKey": "emscripten_glEnableVertexAttribArray",
+      "source": "src/lib/libwebgl.js",
+      "sourceSHA256": "cce23f36fe13811d6989d175346532c8bbe4fda5783949aff2d6d095d4824ebb"
+    },
+    {
+      "symbol": "_emscripten_glEndQueryEXT",
+      "rawKey": "emscripten_glEndQueryEXT",
+      "source": "src/lib/libwebgl.js",
+      "sourceSHA256": "cce23f36fe13811d6989d175346532c8bbe4fda5783949aff2d6d095d4824ebb"
+    },
+    {
+      "symbol": "_emscripten_glFinish",
+      "rawKey": "emscripten_glFinish",
+      "source": "src/lib/libwebgl.js",
+      "sourceSHA256": "cce23f36fe13811d6989d175346532c8bbe4fda5783949aff2d6d095d4824ebb"
+    },
+    {
+      "symbol": "_emscripten_glFlush",
+      "rawKey": "emscripten_glFlush",
+      "source": "src/lib/libwebgl.js",
+      "sourceSHA256": "cce23f36fe13811d6989d175346532c8bbe4fda5783949aff2d6d095d4824ebb"
+    },
+    {
+      "symbol": "_emscripten_glFramebufferRenderbuffer",
+      "rawKey": "emscripten_glFramebufferRenderbuffer",
+      "source": "src/lib/libwebgl.js",
+      "sourceSHA256": "cce23f36fe13811d6989d175346532c8bbe4fda5783949aff2d6d095d4824ebb"
+    },
+    {
+      "symbol": "_emscripten_glFramebufferTexture2D",
+      "rawKey": "emscripten_glFramebufferTexture2D",
+      "source": "src/lib/libwebgl.js",
+      "sourceSHA256": "cce23f36fe13811d6989d175346532c8bbe4fda5783949aff2d6d095d4824ebb"
+    },
+    {
+      "symbol": "_emscripten_glFrontFace",
+      "rawKey": "emscripten_glFrontFace",
+      "source": "src/lib/libwebgl.js",
+      "sourceSHA256": "cce23f36fe13811d6989d175346532c8bbe4fda5783949aff2d6d095d4824ebb"
+    },
+    {
+      "symbol": "_emscripten_glGenBuffers",
+      "rawKey": "emscripten_glGenBuffers",
+      "source": "src/lib/libwebgl.js",
+      "sourceSHA256": "cce23f36fe13811d6989d175346532c8bbe4fda5783949aff2d6d095d4824ebb"
+    },
+    {
+      "symbol": "_emscripten_glGenFramebuffers",
+      "rawKey": "emscripten_glGenFramebuffers",
+      "source": "src/lib/libwebgl.js",
+      "sourceSHA256": "cce23f36fe13811d6989d175346532c8bbe4fda5783949aff2d6d095d4824ebb"
+    },
+    {
+      "symbol": "_emscripten_glGenQueriesEXT",
+      "rawKey": "emscripten_glGenQueriesEXT",
+      "source": "src/lib/libwebgl.js",
+      "sourceSHA256": "cce23f36fe13811d6989d175346532c8bbe4fda5783949aff2d6d095d4824ebb"
+    },
+    {
+      "symbol": "_emscripten_glGenRenderbuffers",
+      "rawKey": "emscripten_glGenRenderbuffers",
+      "source": "src/lib/libwebgl.js",
+      "sourceSHA256": "cce23f36fe13811d6989d175346532c8bbe4fda5783949aff2d6d095d4824ebb"
+    },
+    {
+      "symbol": "_emscripten_glGenTextures",
+      "rawKey": "emscripten_glGenTextures",
+      "source": "src/lib/libwebgl.js",
+      "sourceSHA256": "cce23f36fe13811d6989d175346532c8bbe4fda5783949aff2d6d095d4824ebb"
+    },
+    {
+      "symbol": "_emscripten_glGenerateMipmap",
+      "rawKey": "emscripten_glGenerateMipmap",
+      "source": "src/lib/libwebgl.js",
+      "sourceSHA256": "cce23f36fe13811d6989d175346532c8bbe4fda5783949aff2d6d095d4824ebb"
+    },
+    {
+      "symbol": "_emscripten_glGetActiveAttrib",
+      "rawKey": "emscripten_glGetActiveAttrib",
+      "source": "src/lib/libwebgl.js",
+      "sourceSHA256": "cce23f36fe13811d6989d175346532c8bbe4fda5783949aff2d6d095d4824ebb"
+    },
+    {
+      "symbol": "__glGetActiveAttribOrUniform",
+      "rawKey": "$__glGetActiveAttribOrUniform",
+      "source": "src/lib/libwebgl.js",
+      "sourceSHA256": "cce23f36fe13811d6989d175346532c8bbe4fda5783949aff2d6d095d4824ebb"
+    },
+    {
+      "symbol": "_emscripten_glGetActiveUniform",
+      "rawKey": "emscripten_glGetActiveUniform",
+      "source": "src/lib/libwebgl.js",
+      "sourceSHA256": "cce23f36fe13811d6989d175346532c8bbe4fda5783949aff2d6d095d4824ebb"
+    },
+    {
+      "symbol": "_emscripten_glGetAttachedShaders",
+      "rawKey": "emscripten_glGetAttachedShaders",
+      "source": "src/lib/libwebgl.js",
+      "sourceSHA256": "cce23f36fe13811d6989d175346532c8bbe4fda5783949aff2d6d095d4824ebb"
+    },
+    {
+      "symbol": "_emscripten_glGetAttribLocation",
+      "rawKey": "emscripten_glGetAttribLocation",
+      "source": "src/lib/libwebgl.js",
+      "sourceSHA256": "cce23f36fe13811d6989d175346532c8bbe4fda5783949aff2d6d095d4824ebb"
+    },
+    {
+      "symbol": "_emscripten_glGetBooleanv",
+      "rawKey": "emscripten_glGetBooleanv",
+      "source": "src/lib/libwebgl.js",
+      "sourceSHA256": "cce23f36fe13811d6989d175346532c8bbe4fda5783949aff2d6d095d4824ebb"
+    },
+    {
+      "symbol": "emscriptenWebGLGet",
+      "rawKey": "$emscriptenWebGLGet",
+      "source": "src/lib/libwebgl.js",
+      "sourceSHA256": "cce23f36fe13811d6989d175346532c8bbe4fda5783949aff2d6d095d4824ebb"
+    },
+    {
+      "symbol": "writeI53ToI64",
+      "rawKey": "$writeI53ToI64",
+      "source": "src/lib/libint53.js",
+      "sourceSHA256": "4484cfc6db24c39d37e872e16fc39256ef0f6feb9427f0ebea20e76ce45a2499"
+    },
+    {
+      "symbol": "HEAPF32",
+      "rawKey": "$HEAPF32",
+      "source": "src/lib/libcore.js",
+      "sourceSHA256": "3541e1c16fab338449bf7267954cb15b85f742e7221557499f08e3aefe57b487"
+    },
+    {
+      "symbol": "_emscripten_glGetBufferParameteriv",
+      "rawKey": "emscripten_glGetBufferParameteriv",
+      "source": "src/lib/libwebgl.js",
+      "sourceSHA256": "cce23f36fe13811d6989d175346532c8bbe4fda5783949aff2d6d095d4824ebb"
+    },
+    {
+      "symbol": "_emscripten_glGetError",
+      "rawKey": "emscripten_glGetError",
+      "source": "src/lib/libwebgl.js",
+      "sourceSHA256": "cce23f36fe13811d6989d175346532c8bbe4fda5783949aff2d6d095d4824ebb"
+    },
+    {
+      "symbol": "_emscripten_glGetFloatv",
+      "rawKey": "emscripten_glGetFloatv",
+      "source": "src/lib/libwebgl.js",
+      "sourceSHA256": "cce23f36fe13811d6989d175346532c8bbe4fda5783949aff2d6d095d4824ebb"
+    },
+    {
+      "symbol": "_emscripten_glGetFramebufferAttachmentParameteriv",
+      "rawKey": "emscripten_glGetFramebufferAttachmentParameteriv",
+      "source": "src/lib/libwebgl.js",
+      "sourceSHA256": "cce23f36fe13811d6989d175346532c8bbe4fda5783949aff2d6d095d4824ebb"
+    },
+    {
+      "symbol": "_emscripten_glGetIntegerv",
+      "rawKey": "emscripten_glGetIntegerv",
+      "source": "src/lib/libwebgl.js",
+      "sourceSHA256": "cce23f36fe13811d6989d175346532c8bbe4fda5783949aff2d6d095d4824ebb"
+    },
+    {
+      "symbol": "_emscripten_glGetProgramInfoLog",
+      "rawKey": "emscripten_glGetProgramInfoLog",
+      "source": "src/lib/libwebgl.js",
+      "sourceSHA256": "cce23f36fe13811d6989d175346532c8bbe4fda5783949aff2d6d095d4824ebb"
+    },
+    {
+      "symbol": "_emscripten_glGetProgramiv",
+      "rawKey": "emscripten_glGetProgramiv",
+      "source": "src/lib/libwebgl.js",
+      "sourceSHA256": "cce23f36fe13811d6989d175346532c8bbe4fda5783949aff2d6d095d4824ebb"
+    },
+    {
+      "symbol": "_emscripten_glGetQueryObjecti64vEXT",
+      "rawKey": "emscripten_glGetQueryObjecti64vEXT",
+      "source": "src/lib/libwebgl.js",
+      "sourceSHA256": "cce23f36fe13811d6989d175346532c8bbe4fda5783949aff2d6d095d4824ebb"
+    },
+    {
+      "symbol": "_emscripten_glGetQueryObjectivEXT",
+      "rawKey": "emscripten_glGetQueryObjectivEXT",
+      "source": "src/lib/libwebgl.js",
+      "sourceSHA256": "cce23f36fe13811d6989d175346532c8bbe4fda5783949aff2d6d095d4824ebb"
+    },
+    {
+      "symbol": "_emscripten_glGetQueryObjectui64vEXT",
+      "rawKey": "emscripten_glGetQueryObjectui64vEXT",
+      "source": "src/lib/libwebgl.js",
+      "sourceSHA256": "cce23f36fe13811d6989d175346532c8bbe4fda5783949aff2d6d095d4824ebb"
+    },
+    {
+      "symbol": "_glGetQueryObjecti64vEXT",
+      "rawKey": "glGetQueryObjecti64vEXT",
+      "source": "src/lib/libwebgl.js",
+      "sourceSHA256": "cce23f36fe13811d6989d175346532c8bbe4fda5783949aff2d6d095d4824ebb"
+    },
+    {
+      "symbol": "_emscripten_glGetQueryObjectuivEXT",
+      "rawKey": "emscripten_glGetQueryObjectuivEXT",
+      "source": "src/lib/libwebgl.js",
+      "sourceSHA256": "cce23f36fe13811d6989d175346532c8bbe4fda5783949aff2d6d095d4824ebb"
+    },
+    {
+      "symbol": "_glGetQueryObjectivEXT",
+      "rawKey": "glGetQueryObjectivEXT",
+      "source": "src/lib/libwebgl.js",
+      "sourceSHA256": "cce23f36fe13811d6989d175346532c8bbe4fda5783949aff2d6d095d4824ebb"
+    },
+    {
+      "symbol": "_emscripten_glGetQueryivEXT",
+      "rawKey": "emscripten_glGetQueryivEXT",
+      "source": "src/lib/libwebgl.js",
+      "sourceSHA256": "cce23f36fe13811d6989d175346532c8bbe4fda5783949aff2d6d095d4824ebb"
+    },
+    {
+      "symbol": "_emscripten_glGetRenderbufferParameteriv",
+      "rawKey": "emscripten_glGetRenderbufferParameteriv",
+      "source": "src/lib/libwebgl.js",
+      "sourceSHA256": "cce23f36fe13811d6989d175346532c8bbe4fda5783949aff2d6d095d4824ebb"
+    },
+    {
+      "symbol": "_emscripten_glGetShaderInfoLog",
+      "rawKey": "emscripten_glGetShaderInfoLog",
+      "source": "src/lib/libwebgl.js",
+      "sourceSHA256": "cce23f36fe13811d6989d175346532c8bbe4fda5783949aff2d6d095d4824ebb"
+    },
+    {
+      "symbol": "_emscripten_glGetShaderPrecisionFormat",
+      "rawKey": "emscripten_glGetShaderPrecisionFormat",
+      "source": "src/lib/libwebgl.js",
+      "sourceSHA256": "cce23f36fe13811d6989d175346532c8bbe4fda5783949aff2d6d095d4824ebb"
+    },
+    {
+      "symbol": "_emscripten_glGetShaderSource",
+      "rawKey": "emscripten_glGetShaderSource",
+      "source": "src/lib/libwebgl.js",
+      "sourceSHA256": "cce23f36fe13811d6989d175346532c8bbe4fda5783949aff2d6d095d4824ebb"
+    },
+    {
+      "symbol": "_emscripten_glGetShaderiv",
+      "rawKey": "emscripten_glGetShaderiv",
+      "source": "src/lib/libwebgl.js",
+      "sourceSHA256": "cce23f36fe13811d6989d175346532c8bbe4fda5783949aff2d6d095d4824ebb"
+    },
+    {
+      "symbol": "_emscripten_glGetString",
+      "rawKey": "emscripten_glGetString",
+      "source": "src/lib/libwebgl.js",
+      "sourceSHA256": "cce23f36fe13811d6989d175346532c8bbe4fda5783949aff2d6d095d4824ebb"
+    },
+    {
+      "symbol": "webglGetExtensions",
+      "rawKey": "$webglGetExtensions",
+      "source": "src/lib/libwebgl.js",
+      "sourceSHA256": "cce23f36fe13811d6989d175346532c8bbe4fda5783949aff2d6d095d4824ebb"
+    },
+    {
+      "symbol": "_emscripten_glGetTexParameterfv",
+      "rawKey": "emscripten_glGetTexParameterfv",
+      "source": "src/lib/libwebgl.js",
+      "sourceSHA256": "cce23f36fe13811d6989d175346532c8bbe4fda5783949aff2d6d095d4824ebb"
+    },
+    {
+      "symbol": "_emscripten_glGetTexParameteriv",
+      "rawKey": "emscripten_glGetTexParameteriv",
+      "source": "src/lib/libwebgl.js",
+      "sourceSHA256": "cce23f36fe13811d6989d175346532c8bbe4fda5783949aff2d6d095d4824ebb"
+    },
+    {
+      "symbol": "_emscripten_glGetUniformLocation",
+      "rawKey": "emscripten_glGetUniformLocation",
+      "source": "src/lib/libwebgl.js",
+      "sourceSHA256": "cce23f36fe13811d6989d175346532c8bbe4fda5783949aff2d6d095d4824ebb"
+    },
+    {
+      "symbol": "jstoi_q",
+      "rawKey": "$jstoi_q",
+      "source": "src/lib/libcore.js",
+      "sourceSHA256": "3541e1c16fab338449bf7267954cb15b85f742e7221557499f08e3aefe57b487"
+    },
+    {
+      "symbol": "webglPrepareUniformLocationsBeforeFirstUse",
+      "rawKey": "$webglPrepareUniformLocationsBeforeFirstUse",
+      "source": "src/lib/libwebgl.js",
+      "sourceSHA256": "cce23f36fe13811d6989d175346532c8bbe4fda5783949aff2d6d095d4824ebb"
+    },
+    {
+      "symbol": "webglGetLeftBracePos",
+      "rawKey": "$webglGetLeftBracePos",
+      "source": "src/lib/libwebgl.js",
+      "sourceSHA256": "cce23f36fe13811d6989d175346532c8bbe4fda5783949aff2d6d095d4824ebb"
+    },
+    {
+      "symbol": "_emscripten_glGetUniformfv",
+      "rawKey": "emscripten_glGetUniformfv",
+      "source": "src/lib/libwebgl.js",
+      "sourceSHA256": "cce23f36fe13811d6989d175346532c8bbe4fda5783949aff2d6d095d4824ebb"
+    },
+    {
+      "symbol": "emscriptenWebGLGetUniform",
+      "rawKey": "$emscriptenWebGLGetUniform",
+      "source": "src/lib/libwebgl.js",
+      "sourceSHA256": "cce23f36fe13811d6989d175346532c8bbe4fda5783949aff2d6d095d4824ebb"
+    },
+    {
+      "symbol": "webglGetProgramUniformLocation",
+      "rawKey": "$webglGetProgramUniformLocation",
+      "source": "src/lib/libwebgl.js",
+      "sourceSHA256": "cce23f36fe13811d6989d175346532c8bbe4fda5783949aff2d6d095d4824ebb"
+    },
+    {
+      "symbol": "_emscripten_glGetUniformiv",
+      "rawKey": "emscripten_glGetUniformiv",
+      "source": "src/lib/libwebgl.js",
+      "sourceSHA256": "cce23f36fe13811d6989d175346532c8bbe4fda5783949aff2d6d095d4824ebb"
+    },
+    {
+      "symbol": "_emscripten_glGetVertexAttribPointerv",
+      "rawKey": "emscripten_glGetVertexAttribPointerv",
+      "source": "src/lib/libwebgl.js",
+      "sourceSHA256": "cce23f36fe13811d6989d175346532c8bbe4fda5783949aff2d6d095d4824ebb"
+    },
+    {
+      "symbol": "_emscripten_glGetVertexAttribfv",
+      "rawKey": "emscripten_glGetVertexAttribfv",
+      "source": "src/lib/libwebgl.js",
+      "sourceSHA256": "cce23f36fe13811d6989d175346532c8bbe4fda5783949aff2d6d095d4824ebb"
+    },
+    {
+      "symbol": "emscriptenWebGLGetVertexAttrib",
+      "rawKey": "$emscriptenWebGLGetVertexAttrib",
+      "source": "src/lib/libwebgl.js",
+      "sourceSHA256": "cce23f36fe13811d6989d175346532c8bbe4fda5783949aff2d6d095d4824ebb"
+    },
+    {
+      "symbol": "_emscripten_glGetVertexAttribiv",
+      "rawKey": "emscripten_glGetVertexAttribiv",
+      "source": "src/lib/libwebgl.js",
+      "sourceSHA256": "cce23f36fe13811d6989d175346532c8bbe4fda5783949aff2d6d095d4824ebb"
+    },
+    {
+      "symbol": "_emscripten_glHint",
+      "rawKey": "emscripten_glHint",
+      "source": "src/lib/libwebgl.js",
+      "sourceSHA256": "cce23f36fe13811d6989d175346532c8bbe4fda5783949aff2d6d095d4824ebb"
+    },
+    {
+      "symbol": "_emscripten_glIsBuffer",
+      "rawKey": "emscripten_glIsBuffer",
+      "source": "src/lib/libwebgl.js",
+      "sourceSHA256": "cce23f36fe13811d6989d175346532c8bbe4fda5783949aff2d6d095d4824ebb"
+    },
+    {
+      "symbol": "_emscripten_glIsEnabled",
+      "rawKey": "emscripten_glIsEnabled",
+      "source": "src/lib/libwebgl.js",
+      "sourceSHA256": "cce23f36fe13811d6989d175346532c8bbe4fda5783949aff2d6d095d4824ebb"
+    },
+    {
+      "symbol": "_emscripten_glIsFramebuffer",
+      "rawKey": "emscripten_glIsFramebuffer",
+      "source": "src/lib/libwebgl.js",
+      "sourceSHA256": "cce23f36fe13811d6989d175346532c8bbe4fda5783949aff2d6d095d4824ebb"
+    },
+    {
+      "symbol": "_emscripten_glIsProgram",
+      "rawKey": "emscripten_glIsProgram",
+      "source": "src/lib/libwebgl.js",
+      "sourceSHA256": "cce23f36fe13811d6989d175346532c8bbe4fda5783949aff2d6d095d4824ebb"
+    },
+    {
+      "symbol": "_emscripten_glIsQueryEXT",
+      "rawKey": "emscripten_glIsQueryEXT",
+      "source": "src/lib/libwebgl.js",
+      "sourceSHA256": "cce23f36fe13811d6989d175346532c8bbe4fda5783949aff2d6d095d4824ebb"
+    },
+    {
+      "symbol": "_emscripten_glIsRenderbuffer",
+      "rawKey": "emscripten_glIsRenderbuffer",
+      "source": "src/lib/libwebgl.js",
+      "sourceSHA256": "cce23f36fe13811d6989d175346532c8bbe4fda5783949aff2d6d095d4824ebb"
+    },
+    {
+      "symbol": "_emscripten_glIsShader",
+      "rawKey": "emscripten_glIsShader",
+      "source": "src/lib/libwebgl.js",
+      "sourceSHA256": "cce23f36fe13811d6989d175346532c8bbe4fda5783949aff2d6d095d4824ebb"
+    },
+    {
+      "symbol": "_emscripten_glIsTexture",
+      "rawKey": "emscripten_glIsTexture",
+      "source": "src/lib/libwebgl.js",
+      "sourceSHA256": "cce23f36fe13811d6989d175346532c8bbe4fda5783949aff2d6d095d4824ebb"
+    },
+    {
+      "symbol": "_emscripten_glLineWidth",
+      "rawKey": "emscripten_glLineWidth",
+      "source": "src/lib/libwebgl.js",
+      "sourceSHA256": "cce23f36fe13811d6989d175346532c8bbe4fda5783949aff2d6d095d4824ebb"
+    },
+    {
+      "symbol": "_emscripten_glLinkProgram",
+      "rawKey": "emscripten_glLinkProgram",
+      "source": "src/lib/libwebgl.js",
+      "sourceSHA256": "cce23f36fe13811d6989d175346532c8bbe4fda5783949aff2d6d095d4824ebb"
+    },
+    {
+      "symbol": "_emscripten_glPixelStorei",
+      "rawKey": "emscripten_glPixelStorei",
+      "source": "src/lib/libwebgl.js",
+      "sourceSHA256": "cce23f36fe13811d6989d175346532c8bbe4fda5783949aff2d6d095d4824ebb"
+    },
+    {
+      "symbol": "_emscripten_glPolygonOffset",
+      "rawKey": "emscripten_glPolygonOffset",
+      "source": "src/lib/libwebgl.js",
+      "sourceSHA256": "cce23f36fe13811d6989d175346532c8bbe4fda5783949aff2d6d095d4824ebb"
+    },
+    {
+      "symbol": "_emscripten_glQueryCounterEXT",
+      "rawKey": "emscripten_glQueryCounterEXT",
+      "source": "src/lib/libwebgl.js",
+      "sourceSHA256": "cce23f36fe13811d6989d175346532c8bbe4fda5783949aff2d6d095d4824ebb"
+    },
+    {
+      "symbol": "_emscripten_glReadPixels",
+      "rawKey": "emscripten_glReadPixels",
+      "source": "src/lib/libwebgl.js",
+      "sourceSHA256": "cce23f36fe13811d6989d175346532c8bbe4fda5783949aff2d6d095d4824ebb"
+    },
+    {
+      "symbol": "emscriptenWebGLGetTexPixelData",
+      "rawKey": "$emscriptenWebGLGetTexPixelData",
+      "source": "src/lib/libwebgl.js",
+      "sourceSHA256": "cce23f36fe13811d6989d175346532c8bbe4fda5783949aff2d6d095d4824ebb"
+    },
+    {
+      "symbol": "computeUnpackAlignedImageSize",
+      "rawKey": "$computeUnpackAlignedImageSize",
+      "source": "src/lib/libwebgl.js",
+      "sourceSHA256": "cce23f36fe13811d6989d175346532c8bbe4fda5783949aff2d6d095d4824ebb"
+    },
+    {
+      "symbol": "colorChannelsInGlTextureFormat",
+      "rawKey": "$colorChannelsInGlTextureFormat",
+      "source": "src/lib/libwebgl.js",
+      "sourceSHA256": "cce23f36fe13811d6989d175346532c8bbe4fda5783949aff2d6d095d4824ebb"
+    },
+    {
+      "symbol": "heapObjectForWebGLType",
+      "rawKey": "$heapObjectForWebGLType",
+      "source": "src/lib/libwebgl.js",
+      "sourceSHA256": "cce23f36fe13811d6989d175346532c8bbe4fda5783949aff2d6d095d4824ebb"
+    },
+    {
+      "symbol": "HEAPU16",
+      "rawKey": "$HEAPU16",
+      "source": "src/lib/libcore.js",
+      "sourceSHA256": "3541e1c16fab338449bf7267954cb15b85f742e7221557499f08e3aefe57b487"
+    },
+    {
+      "symbol": "toTypedArrayIndex",
+      "rawKey": "$toTypedArrayIndex",
+      "source": "src/lib/libwebgl.js",
+      "sourceSHA256": "cce23f36fe13811d6989d175346532c8bbe4fda5783949aff2d6d095d4824ebb"
+    },
+    {
+      "symbol": "_emscripten_glReleaseShaderCompiler",
+      "rawKey": "emscripten_glReleaseShaderCompiler",
+      "source": "src/lib/libwebgl.js",
+      "sourceSHA256": "cce23f36fe13811d6989d175346532c8bbe4fda5783949aff2d6d095d4824ebb"
+    },
+    {
+      "symbol": "_emscripten_glRenderbufferStorage",
+      "rawKey": "emscripten_glRenderbufferStorage",
+      "source": "src/lib/libwebgl.js",
+      "sourceSHA256": "cce23f36fe13811d6989d175346532c8bbe4fda5783949aff2d6d095d4824ebb"
+    },
+    {
+      "symbol": "_emscripten_glSampleCoverage",
+      "rawKey": "emscripten_glSampleCoverage",
+      "source": "src/lib/libwebgl.js",
+      "sourceSHA256": "cce23f36fe13811d6989d175346532c8bbe4fda5783949aff2d6d095d4824ebb"
+    },
+    {
+      "symbol": "_emscripten_glScissor",
+      "rawKey": "emscripten_glScissor",
+      "source": "src/lib/libwebgl.js",
+      "sourceSHA256": "cce23f36fe13811d6989d175346532c8bbe4fda5783949aff2d6d095d4824ebb"
+    },
+    {
+      "symbol": "_emscripten_glShaderBinary",
+      "rawKey": "emscripten_glShaderBinary",
+      "source": "src/lib/libwebgl.js",
+      "sourceSHA256": "cce23f36fe13811d6989d175346532c8bbe4fda5783949aff2d6d095d4824ebb"
+    },
+    {
+      "symbol": "_emscripten_glShaderSource",
+      "rawKey": "emscripten_glShaderSource",
+      "source": "src/lib/libwebgl.js",
+      "sourceSHA256": "cce23f36fe13811d6989d175346532c8bbe4fda5783949aff2d6d095d4824ebb"
+    },
+    {
+      "symbol": "_emscripten_glStencilFunc",
+      "rawKey": "emscripten_glStencilFunc",
+      "source": "src/lib/libwebgl.js",
+      "sourceSHA256": "cce23f36fe13811d6989d175346532c8bbe4fda5783949aff2d6d095d4824ebb"
+    },
+    {
+      "symbol": "_emscripten_glStencilFuncSeparate",
+      "rawKey": "emscripten_glStencilFuncSeparate",
+      "source": "src/lib/libwebgl.js",
+      "sourceSHA256": "cce23f36fe13811d6989d175346532c8bbe4fda5783949aff2d6d095d4824ebb"
+    },
+    {
+      "symbol": "_emscripten_glStencilMask",
+      "rawKey": "emscripten_glStencilMask",
+      "source": "src/lib/libwebgl.js",
+      "sourceSHA256": "cce23f36fe13811d6989d175346532c8bbe4fda5783949aff2d6d095d4824ebb"
+    },
+    {
+      "symbol": "_emscripten_glStencilMaskSeparate",
+      "rawKey": "emscripten_glStencilMaskSeparate",
+      "source": "src/lib/libwebgl.js",
+      "sourceSHA256": "cce23f36fe13811d6989d175346532c8bbe4fda5783949aff2d6d095d4824ebb"
+    },
+    {
+      "symbol": "_emscripten_glStencilOp",
+      "rawKey": "emscripten_glStencilOp",
+      "source": "src/lib/libwebgl.js",
+      "sourceSHA256": "cce23f36fe13811d6989d175346532c8bbe4fda5783949aff2d6d095d4824ebb"
+    },
+    {
+      "symbol": "_emscripten_glStencilOpSeparate",
+      "rawKey": "emscripten_glStencilOpSeparate",
+      "source": "src/lib/libwebgl.js",
+      "sourceSHA256": "cce23f36fe13811d6989d175346532c8bbe4fda5783949aff2d6d095d4824ebb"
+    },
+    {
+      "symbol": "_emscripten_glTexImage2D",
+      "rawKey": "emscripten_glTexImage2D",
+      "source": "src/lib/libwebgl.js",
+      "sourceSHA256": "cce23f36fe13811d6989d175346532c8bbe4fda5783949aff2d6d095d4824ebb"
+    },
+    {
+      "symbol": "_emscripten_glTexParameterf",
+      "rawKey": "emscripten_glTexParameterf",
+      "source": "src/lib/libwebgl.js",
+      "sourceSHA256": "cce23f36fe13811d6989d175346532c8bbe4fda5783949aff2d6d095d4824ebb"
+    },
+    {
+      "symbol": "_emscripten_glTexParameterfv",
+      "rawKey": "emscripten_glTexParameterfv",
+      "source": "src/lib/libwebgl.js",
+      "sourceSHA256": "cce23f36fe13811d6989d175346532c8bbe4fda5783949aff2d6d095d4824ebb"
+    },
+    {
+      "symbol": "_emscripten_glTexParameteri",
+      "rawKey": "emscripten_glTexParameteri",
+      "source": "src/lib/libwebgl.js",
+      "sourceSHA256": "cce23f36fe13811d6989d175346532c8bbe4fda5783949aff2d6d095d4824ebb"
+    },
+    {
+      "symbol": "_emscripten_glTexParameteriv",
+      "rawKey": "emscripten_glTexParameteriv",
+      "source": "src/lib/libwebgl.js",
+      "sourceSHA256": "cce23f36fe13811d6989d175346532c8bbe4fda5783949aff2d6d095d4824ebb"
+    },
+    {
+      "symbol": "_emscripten_glTexSubImage2D",
+      "rawKey": "emscripten_glTexSubImage2D",
+      "source": "src/lib/libwebgl.js",
+      "sourceSHA256": "cce23f36fe13811d6989d175346532c8bbe4fda5783949aff2d6d095d4824ebb"
+    },
+    {
+      "symbol": "_emscripten_glUniform1f",
+      "rawKey": "emscripten_glUniform1f",
+      "source": "src/lib/libwebgl.js",
+      "sourceSHA256": "cce23f36fe13811d6989d175346532c8bbe4fda5783949aff2d6d095d4824ebb"
+    },
+    {
+      "symbol": "webglGetUniformLocation",
+      "rawKey": "$webglGetUniformLocation",
+      "source": "src/lib/libwebgl.js",
+      "sourceSHA256": "cce23f36fe13811d6989d175346532c8bbe4fda5783949aff2d6d095d4824ebb"
+    },
+    {
+      "symbol": "_emscripten_glUniform1fv",
+      "rawKey": "emscripten_glUniform1fv",
+      "source": "src/lib/libwebgl.js",
+      "sourceSHA256": "cce23f36fe13811d6989d175346532c8bbe4fda5783949aff2d6d095d4824ebb"
+    },
+    {
+      "symbol": "miniTempWebGLFloatBuffers",
+      "rawKey": "$miniTempWebGLFloatBuffers",
+      "source": "src/lib/libwebgl.js",
+      "sourceSHA256": "cce23f36fe13811d6989d175346532c8bbe4fda5783949aff2d6d095d4824ebb"
+    },
+    {
+      "symbol": "_emscripten_glUniform1i",
+      "rawKey": "emscripten_glUniform1i",
+      "source": "src/lib/libwebgl.js",
+      "sourceSHA256": "cce23f36fe13811d6989d175346532c8bbe4fda5783949aff2d6d095d4824ebb"
+    },
+    {
+      "symbol": "_emscripten_glUniform1iv",
+      "rawKey": "emscripten_glUniform1iv",
+      "source": "src/lib/libwebgl.js",
+      "sourceSHA256": "cce23f36fe13811d6989d175346532c8bbe4fda5783949aff2d6d095d4824ebb"
+    },
+    {
+      "symbol": "miniTempWebGLIntBuffers",
+      "rawKey": "$miniTempWebGLIntBuffers",
+      "source": "src/lib/libwebgl.js",
+      "sourceSHA256": "cce23f36fe13811d6989d175346532c8bbe4fda5783949aff2d6d095d4824ebb"
+    },
+    {
+      "symbol": "_emscripten_glUniform2f",
+      "rawKey": "emscripten_glUniform2f",
+      "source": "src/lib/libwebgl.js",
+      "sourceSHA256": "cce23f36fe13811d6989d175346532c8bbe4fda5783949aff2d6d095d4824ebb"
+    },
+    {
+      "symbol": "_emscripten_glUniform2fv",
+      "rawKey": "emscripten_glUniform2fv",
+      "source": "src/lib/libwebgl.js",
+      "sourceSHA256": "cce23f36fe13811d6989d175346532c8bbe4fda5783949aff2d6d095d4824ebb"
+    },
+    {
+      "symbol": "_emscripten_glUniform2i",
+      "rawKey": "emscripten_glUniform2i",
+      "source": "src/lib/libwebgl.js",
+      "sourceSHA256": "cce23f36fe13811d6989d175346532c8bbe4fda5783949aff2d6d095d4824ebb"
+    },
+    {
+      "symbol": "_emscripten_glUniform2iv",
+      "rawKey": "emscripten_glUniform2iv",
+      "source": "src/lib/libwebgl.js",
+      "sourceSHA256": "cce23f36fe13811d6989d175346532c8bbe4fda5783949aff2d6d095d4824ebb"
+    },
+    {
+      "symbol": "_emscripten_glUniform3f",
+      "rawKey": "emscripten_glUniform3f",
+      "source": "src/lib/libwebgl.js",
+      "sourceSHA256": "cce23f36fe13811d6989d175346532c8bbe4fda5783949aff2d6d095d4824ebb"
+    },
+    {
+      "symbol": "_emscripten_glUniform3fv",
+      "rawKey": "emscripten_glUniform3fv",
+      "source": "src/lib/libwebgl.js",
+      "sourceSHA256": "cce23f36fe13811d6989d175346532c8bbe4fda5783949aff2d6d095d4824ebb"
+    },
+    {
+      "symbol": "_emscripten_glUniform3i",
+      "rawKey": "emscripten_glUniform3i",
+      "source": "src/lib/libwebgl.js",
+      "sourceSHA256": "cce23f36fe13811d6989d175346532c8bbe4fda5783949aff2d6d095d4824ebb"
+    },
+    {
+      "symbol": "_emscripten_glUniform3iv",
+      "rawKey": "emscripten_glUniform3iv",
+      "source": "src/lib/libwebgl.js",
+      "sourceSHA256": "cce23f36fe13811d6989d175346532c8bbe4fda5783949aff2d6d095d4824ebb"
+    },
+    {
+      "symbol": "_emscripten_glUniform4f",
+      "rawKey": "emscripten_glUniform4f",
+      "source": "src/lib/libwebgl.js",
+      "sourceSHA256": "cce23f36fe13811d6989d175346532c8bbe4fda5783949aff2d6d095d4824ebb"
+    },
+    {
+      "symbol": "_emscripten_glUniform4fv",
+      "rawKey": "emscripten_glUniform4fv",
+      "source": "src/lib/libwebgl.js",
+      "sourceSHA256": "cce23f36fe13811d6989d175346532c8bbe4fda5783949aff2d6d095d4824ebb"
+    },
+    {
+      "symbol": "_emscripten_glUniform4i",
+      "rawKey": "emscripten_glUniform4i",
+      "source": "src/lib/libwebgl.js",
+      "sourceSHA256": "cce23f36fe13811d6989d175346532c8bbe4fda5783949aff2d6d095d4824ebb"
+    },
+    {
+      "symbol": "_emscripten_glUniform4iv",
+      "rawKey": "emscripten_glUniform4iv",
+      "source": "src/lib/libwebgl.js",
+      "sourceSHA256": "cce23f36fe13811d6989d175346532c8bbe4fda5783949aff2d6d095d4824ebb"
+    },
+    {
+      "symbol": "_emscripten_glUniformMatrix2fv",
+      "rawKey": "emscripten_glUniformMatrix2fv",
+      "source": "src/lib/libwebgl.js",
+      "sourceSHA256": "cce23f36fe13811d6989d175346532c8bbe4fda5783949aff2d6d095d4824ebb"
+    },
+    {
+      "symbol": "_emscripten_glUniformMatrix3fv",
+      "rawKey": "emscripten_glUniformMatrix3fv",
+      "source": "src/lib/libwebgl.js",
+      "sourceSHA256": "cce23f36fe13811d6989d175346532c8bbe4fda5783949aff2d6d095d4824ebb"
+    },
+    {
+      "symbol": "_emscripten_glUniformMatrix4fv",
+      "rawKey": "emscripten_glUniformMatrix4fv",
+      "source": "src/lib/libwebgl.js",
+      "sourceSHA256": "cce23f36fe13811d6989d175346532c8bbe4fda5783949aff2d6d095d4824ebb"
+    },
+    {
+      "symbol": "_emscripten_glUseProgram",
+      "rawKey": "emscripten_glUseProgram",
+      "source": "src/lib/libwebgl.js",
+      "sourceSHA256": "cce23f36fe13811d6989d175346532c8bbe4fda5783949aff2d6d095d4824ebb"
+    },
+    {
+      "symbol": "_emscripten_glValidateProgram",
+      "rawKey": "emscripten_glValidateProgram",
+      "source": "src/lib/libwebgl.js",
+      "sourceSHA256": "cce23f36fe13811d6989d175346532c8bbe4fda5783949aff2d6d095d4824ebb"
+    },
+    {
+      "symbol": "_emscripten_glVertexAttrib1f",
+      "rawKey": "emscripten_glVertexAttrib1f",
+      "source": "src/lib/libwebgl.js",
+      "sourceSHA256": "cce23f36fe13811d6989d175346532c8bbe4fda5783949aff2d6d095d4824ebb"
+    },
+    {
+      "symbol": "_emscripten_glVertexAttrib1fv",
+      "rawKey": "emscripten_glVertexAttrib1fv",
+      "source": "src/lib/libwebgl.js",
+      "sourceSHA256": "cce23f36fe13811d6989d175346532c8bbe4fda5783949aff2d6d095d4824ebb"
+    },
+    {
+      "symbol": "_emscripten_glVertexAttrib2f",
+      "rawKey": "emscripten_glVertexAttrib2f",
+      "source": "src/lib/libwebgl.js",
+      "sourceSHA256": "cce23f36fe13811d6989d175346532c8bbe4fda5783949aff2d6d095d4824ebb"
+    },
+    {
+      "symbol": "_emscripten_glVertexAttrib2fv",
+      "rawKey": "emscripten_glVertexAttrib2fv",
+      "source": "src/lib/libwebgl.js",
+      "sourceSHA256": "cce23f36fe13811d6989d175346532c8bbe4fda5783949aff2d6d095d4824ebb"
+    },
+    {
+      "symbol": "_emscripten_glVertexAttrib3f",
+      "rawKey": "emscripten_glVertexAttrib3f",
+      "source": "src/lib/libwebgl.js",
+      "sourceSHA256": "cce23f36fe13811d6989d175346532c8bbe4fda5783949aff2d6d095d4824ebb"
+    },
+    {
+      "symbol": "_emscripten_glVertexAttrib3fv",
+      "rawKey": "emscripten_glVertexAttrib3fv",
+      "source": "src/lib/libwebgl.js",
+      "sourceSHA256": "cce23f36fe13811d6989d175346532c8bbe4fda5783949aff2d6d095d4824ebb"
+    },
+    {
+      "symbol": "_emscripten_glVertexAttrib4f",
+      "rawKey": "emscripten_glVertexAttrib4f",
+      "source": "src/lib/libwebgl.js",
+      "sourceSHA256": "cce23f36fe13811d6989d175346532c8bbe4fda5783949aff2d6d095d4824ebb"
+    },
+    {
+      "symbol": "_emscripten_glVertexAttrib4fv",
+      "rawKey": "emscripten_glVertexAttrib4fv",
+      "source": "src/lib/libwebgl.js",
+      "sourceSHA256": "cce23f36fe13811d6989d175346532c8bbe4fda5783949aff2d6d095d4824ebb"
+    },
+    {
+      "symbol": "_emscripten_glVertexAttribPointer",
+      "rawKey": "emscripten_glVertexAttribPointer",
+      "source": "src/lib/libwebgl.js",
+      "sourceSHA256": "cce23f36fe13811d6989d175346532c8bbe4fda5783949aff2d6d095d4824ebb"
+    },
+    {
+      "symbol": "_emscripten_glViewport",
+      "rawKey": "emscripten_glViewport",
+      "source": "src/lib/libwebgl.js",
+      "sourceSHA256": "cce23f36fe13811d6989d175346532c8bbe4fda5783949aff2d6d095d4824ebb"
+    },
+    {
+      "symbol": "_emscripten_has_asyncify",
+      "rawKey": "emscripten_has_asyncify",
+      "source": "src/lib/libcore.js",
+      "sourceSHA256": "3541e1c16fab338449bf7267954cb15b85f742e7221557499f08e3aefe57b487"
+    },
+    {
+      "symbol": "_emscripten_request_fullscreen_strategy",
+      "rawKey": "emscripten_request_fullscreen_strategy",
+      "source": "src/lib/libhtml5.js",
+      "sourceSHA256": "55d0f01efe316ba26e84f2427f0d865a65923a4edf9f092ba01c9a8f52ffe69a"
+    },
+    {
+      "symbol": "doRequestFullscreen",
+      "rawKey": "$doRequestFullscreen",
+      "source": "src/lib/libhtml5.js",
+      "sourceSHA256": "55d0f01efe316ba26e84f2427f0d865a65923a4edf9f092ba01c9a8f52ffe69a"
+    },
+    {
+      "symbol": "_emscripten_request_pointerlock",
+      "rawKey": "emscripten_request_pointerlock",
+      "source": "src/lib/libhtml5.js",
+      "sourceSHA256": "55d0f01efe316ba26e84f2427f0d865a65923a4edf9f092ba01c9a8f52ffe69a"
+    },
+    {
+      "symbol": "_emscripten_resize_heap",
+      "rawKey": "emscripten_resize_heap",
+      "source": "src/lib/libcore.js",
+      "sourceSHA256": "3541e1c16fab338449bf7267954cb15b85f742e7221557499f08e3aefe57b487"
+    },
+    {
+      "symbol": "getHeapMax",
+      "rawKey": "$getHeapMax",
+      "source": "src/lib/libcore.js",
+      "sourceSHA256": "3541e1c16fab338449bf7267954cb15b85f742e7221557499f08e3aefe57b487"
+    },
+    {
+      "symbol": "alignMemory",
+      "rawKey": "$alignMemory",
+      "source": "src/lib/libcore.js",
+      "sourceSHA256": "3541e1c16fab338449bf7267954cb15b85f742e7221557499f08e3aefe57b487"
+    },
+    {
+      "symbol": "growMemory",
+      "rawKey": "$growMemory",
+      "source": "src/lib/libcore.js",
+      "sourceSHA256": "3541e1c16fab338449bf7267954cb15b85f742e7221557499f08e3aefe57b487"
+    },
+    {
+      "symbol": "_emscripten_runtime_keepalive_check",
+      "rawKey": "emscripten_runtime_keepalive_check",
+      "source": "src/lib/libcore.js",
+      "sourceSHA256": "3541e1c16fab338449bf7267954cb15b85f742e7221557499f08e3aefe57b487"
+    },
+    {
+      "symbol": "_emscripten_sample_gamepad_data",
+      "rawKey": "emscripten_sample_gamepad_data",
+      "source": "src/lib/libhtml5.js",
+      "sourceSHA256": "55d0f01efe316ba26e84f2427f0d865a65923a4edf9f092ba01c9a8f52ffe69a"
+    },
+    {
+      "symbol": "_emscripten_set_beforeunload_callback_on_thread",
+      "rawKey": "emscripten_set_beforeunload_callback_on_thread",
+      "source": "src/lib/libhtml5.js",
+      "sourceSHA256": "55d0f01efe316ba26e84f2427f0d865a65923a4edf9f092ba01c9a8f52ffe69a"
+    },
+    {
+      "symbol": "registerBeforeUnloadEventCallback",
+      "rawKey": "$registerBeforeUnloadEventCallback",
+      "source": "src/lib/libhtml5.js",
+      "sourceSHA256": "55d0f01efe316ba26e84f2427f0d865a65923a4edf9f092ba01c9a8f52ffe69a"
+    },
+    {
+      "symbol": "_emscripten_set_blur_callback_on_thread",
+      "rawKey": "emscripten_set_blur_callback_on_thread",
+      "source": "src/lib/libhtml5.js",
+      "sourceSHA256": "55d0f01efe316ba26e84f2427f0d865a65923a4edf9f092ba01c9a8f52ffe69a"
+    },
+    {
+      "symbol": "registerFocusEventCallback",
+      "rawKey": "$registerFocusEventCallback",
+      "source": "src/lib/libhtml5.js",
+      "sourceSHA256": "55d0f01efe316ba26e84f2427f0d865a65923a4edf9f092ba01c9a8f52ffe69a"
+    },
+    {
+      "symbol": "_emscripten_set_element_css_size",
+      "rawKey": "emscripten_set_element_css_size",
+      "source": "src/lib/libhtml5.js",
+      "sourceSHA256": "55d0f01efe316ba26e84f2427f0d865a65923a4edf9f092ba01c9a8f52ffe69a"
+    },
+    {
+      "symbol": "_emscripten_set_focus_callback_on_thread",
+      "rawKey": "emscripten_set_focus_callback_on_thread",
+      "source": "src/lib/libhtml5.js",
+      "sourceSHA256": "55d0f01efe316ba26e84f2427f0d865a65923a4edf9f092ba01c9a8f52ffe69a"
+    },
+    {
+      "symbol": "_emscripten_set_fullscreenchange_callback_on_thread",
+      "rawKey": "emscripten_set_fullscreenchange_callback_on_thread",
+      "source": "src/lib/libhtml5.js",
+      "sourceSHA256": "55d0f01efe316ba26e84f2427f0d865a65923a4edf9f092ba01c9a8f52ffe69a"
+    },
+    {
+      "symbol": "registerFullscreenChangeEventCallback",
+      "rawKey": "$registerFullscreenChangeEventCallback",
+      "source": "src/lib/libhtml5.js",
+      "sourceSHA256": "55d0f01efe316ba26e84f2427f0d865a65923a4edf9f092ba01c9a8f52ffe69a"
+    },
+    {
+      "symbol": "fillFullscreenChangeEventData",
+      "rawKey": "$fillFullscreenChangeEventData",
+      "source": "src/lib/libhtml5.js",
+      "sourceSHA256": "55d0f01efe316ba26e84f2427f0d865a65923a4edf9f092ba01c9a8f52ffe69a"
+    },
+    {
+      "symbol": "_emscripten_set_gamepadconnected_callback_on_thread",
+      "rawKey": "emscripten_set_gamepadconnected_callback_on_thread",
+      "source": "src/lib/libhtml5.js",
+      "sourceSHA256": "55d0f01efe316ba26e84f2427f0d865a65923a4edf9f092ba01c9a8f52ffe69a"
+    },
+    {
+      "symbol": "registerGamepadEventCallback",
+      "rawKey": "$registerGamepadEventCallback",
+      "source": "src/lib/libhtml5.js",
+      "sourceSHA256": "55d0f01efe316ba26e84f2427f0d865a65923a4edf9f092ba01c9a8f52ffe69a"
+    },
+    {
+      "symbol": "_emscripten_set_gamepaddisconnected_callback_on_thread",
+      "rawKey": "emscripten_set_gamepaddisconnected_callback_on_thread",
+      "source": "src/lib/libhtml5.js",
+      "sourceSHA256": "55d0f01efe316ba26e84f2427f0d865a65923a4edf9f092ba01c9a8f52ffe69a"
+    },
+    {
+      "symbol": "_emscripten_set_keydown_callback_on_thread",
+      "rawKey": "emscripten_set_keydown_callback_on_thread",
+      "source": "src/lib/libhtml5.js",
+      "sourceSHA256": "55d0f01efe316ba26e84f2427f0d865a65923a4edf9f092ba01c9a8f52ffe69a"
+    },
+    {
+      "symbol": "registerKeyEventCallback",
+      "rawKey": "$registerKeyEventCallback",
+      "source": "src/lib/libhtml5.js",
+      "sourceSHA256": "55d0f01efe316ba26e84f2427f0d865a65923a4edf9f092ba01c9a8f52ffe69a"
+    },
+    {
+      "symbol": "_emscripten_set_keypress_callback_on_thread",
+      "rawKey": "emscripten_set_keypress_callback_on_thread",
+      "source": "src/lib/libhtml5.js",
+      "sourceSHA256": "55d0f01efe316ba26e84f2427f0d865a65923a4edf9f092ba01c9a8f52ffe69a"
+    },
+    {
+      "symbol": "_emscripten_set_keyup_callback_on_thread",
+      "rawKey": "emscripten_set_keyup_callback_on_thread",
+      "source": "src/lib/libhtml5.js",
+      "sourceSHA256": "55d0f01efe316ba26e84f2427f0d865a65923a4edf9f092ba01c9a8f52ffe69a"
+    },
+    {
+      "symbol": "_emscripten_set_main_loop_arg",
+      "rawKey": "emscripten_set_main_loop_arg",
+      "source": "src/lib/libeventloop.js",
+      "sourceSHA256": "e54ad5e934dc036fa6176bbc297f8f1a6ac832aa13b3103e47bc25340b5ead8f"
+    },
+    {
+      "symbol": "_emscripten_set_mousedown_callback_on_thread",
+      "rawKey": "emscripten_set_mousedown_callback_on_thread",
+      "source": "src/lib/libhtml5.js",
+      "sourceSHA256": "55d0f01efe316ba26e84f2427f0d865a65923a4edf9f092ba01c9a8f52ffe69a"
+    },
+    {
+      "symbol": "registerMouseEventCallback",
+      "rawKey": "$registerMouseEventCallback",
+      "source": "src/lib/libhtml5.js",
+      "sourceSHA256": "55d0f01efe316ba26e84f2427f0d865a65923a4edf9f092ba01c9a8f52ffe69a"
+    },
+    {
+      "symbol": "fillMouseEventData",
+      "rawKey": "$fillMouseEventData",
+      "source": "src/lib/libhtml5.js",
+      "sourceSHA256": "55d0f01efe316ba26e84f2427f0d865a65923a4edf9f092ba01c9a8f52ffe69a"
+    },
+    {
+      "symbol": "_emscripten_set_mouseenter_callback_on_thread",
+      "rawKey": "emscripten_set_mouseenter_callback_on_thread",
+      "source": "src/lib/libhtml5.js",
+      "sourceSHA256": "55d0f01efe316ba26e84f2427f0d865a65923a4edf9f092ba01c9a8f52ffe69a"
+    },
+    {
+      "symbol": "_emscripten_set_mouseleave_callback_on_thread",
+      "rawKey": "emscripten_set_mouseleave_callback_on_thread",
+      "source": "src/lib/libhtml5.js",
+      "sourceSHA256": "55d0f01efe316ba26e84f2427f0d865a65923a4edf9f092ba01c9a8f52ffe69a"
+    },
+    {
+      "symbol": "_emscripten_set_mousemove_callback_on_thread",
+      "rawKey": "emscripten_set_mousemove_callback_on_thread",
+      "source": "src/lib/libhtml5.js",
+      "sourceSHA256": "55d0f01efe316ba26e84f2427f0d865a65923a4edf9f092ba01c9a8f52ffe69a"
+    },
+    {
+      "symbol": "_emscripten_set_mouseup_callback_on_thread",
+      "rawKey": "emscripten_set_mouseup_callback_on_thread",
+      "source": "src/lib/libhtml5.js",
+      "sourceSHA256": "55d0f01efe316ba26e84f2427f0d865a65923a4edf9f092ba01c9a8f52ffe69a"
+    },
+    {
+      "symbol": "_emscripten_set_pointerlockchange_callback_on_thread",
+      "rawKey": "emscripten_set_pointerlockchange_callback_on_thread",
+      "source": "src/lib/libhtml5.js",
+      "sourceSHA256": "55d0f01efe316ba26e84f2427f0d865a65923a4edf9f092ba01c9a8f52ffe69a"
+    },
+    {
+      "symbol": "registerPointerlockChangeEventCallback",
+      "rawKey": "$registerPointerlockChangeEventCallback",
+      "source": "src/lib/libhtml5.js",
+      "sourceSHA256": "55d0f01efe316ba26e84f2427f0d865a65923a4edf9f092ba01c9a8f52ffe69a"
+    },
+    {
+      "symbol": "fillPointerlockChangeEventData",
+      "rawKey": "$fillPointerlockChangeEventData",
+      "source": "src/lib/libhtml5.js",
+      "sourceSHA256": "55d0f01efe316ba26e84f2427f0d865a65923a4edf9f092ba01c9a8f52ffe69a"
+    },
+    {
+      "symbol": "_emscripten_set_resize_callback_on_thread",
+      "rawKey": "emscripten_set_resize_callback_on_thread",
+      "source": "src/lib/libhtml5.js",
+      "sourceSHA256": "55d0f01efe316ba26e84f2427f0d865a65923a4edf9f092ba01c9a8f52ffe69a"
+    },
+    {
+      "symbol": "registerUiEventCallback",
+      "rawKey": "$registerUiEventCallback",
+      "source": "src/lib/libhtml5.js",
+      "sourceSHA256": "55d0f01efe316ba26e84f2427f0d865a65923a4edf9f092ba01c9a8f52ffe69a"
+    },
+    {
+      "symbol": "_emscripten_set_touchcancel_callback_on_thread",
+      "rawKey": "emscripten_set_touchcancel_callback_on_thread",
+      "source": "src/lib/libhtml5.js",
+      "sourceSHA256": "55d0f01efe316ba26e84f2427f0d865a65923a4edf9f092ba01c9a8f52ffe69a"
+    },
+    {
+      "symbol": "registerTouchEventCallback",
+      "rawKey": "$registerTouchEventCallback",
+      "source": "src/lib/libhtml5.js",
+      "sourceSHA256": "55d0f01efe316ba26e84f2427f0d865a65923a4edf9f092ba01c9a8f52ffe69a"
+    },
+    {
+      "symbol": "_emscripten_set_touchend_callback_on_thread",
+      "rawKey": "emscripten_set_touchend_callback_on_thread",
+      "source": "src/lib/libhtml5.js",
+      "sourceSHA256": "55d0f01efe316ba26e84f2427f0d865a65923a4edf9f092ba01c9a8f52ffe69a"
+    },
+    {
+      "symbol": "_emscripten_set_touchmove_callback_on_thread",
+      "rawKey": "emscripten_set_touchmove_callback_on_thread",
+      "source": "src/lib/libhtml5.js",
+      "sourceSHA256": "55d0f01efe316ba26e84f2427f0d865a65923a4edf9f092ba01c9a8f52ffe69a"
+    },
+    {
+      "symbol": "_emscripten_set_touchstart_callback_on_thread",
+      "rawKey": "emscripten_set_touchstart_callback_on_thread",
+      "source": "src/lib/libhtml5.js",
+      "sourceSHA256": "55d0f01efe316ba26e84f2427f0d865a65923a4edf9f092ba01c9a8f52ffe69a"
+    },
+    {
+      "symbol": "_emscripten_set_visibilitychange_callback_on_thread",
+      "rawKey": "emscripten_set_visibilitychange_callback_on_thread",
+      "source": "src/lib/libhtml5.js",
+      "sourceSHA256": "55d0f01efe316ba26e84f2427f0d865a65923a4edf9f092ba01c9a8f52ffe69a"
+    },
+    {
+      "symbol": "registerVisibilityChangeEventCallback",
+      "rawKey": "$registerVisibilityChangeEventCallback",
+      "source": "src/lib/libhtml5.js",
+      "sourceSHA256": "55d0f01efe316ba26e84f2427f0d865a65923a4edf9f092ba01c9a8f52ffe69a"
+    },
+    {
+      "symbol": "fillVisibilityChangeEventData",
+      "rawKey": "$fillVisibilityChangeEventData",
+      "source": "src/lib/libhtml5.js",
+      "sourceSHA256": "55d0f01efe316ba26e84f2427f0d865a65923a4edf9f092ba01c9a8f52ffe69a"
+    },
+    {
+      "symbol": "_emscripten_set_wheel_callback_on_thread",
+      "rawKey": "emscripten_set_wheel_callback_on_thread",
+      "source": "src/lib/libhtml5.js",
+      "sourceSHA256": "55d0f01efe316ba26e84f2427f0d865a65923a4edf9f092ba01c9a8f52ffe69a"
+    },
+    {
+      "symbol": "registerWheelEventCallback",
+      "rawKey": "$registerWheelEventCallback",
+      "source": "src/lib/libhtml5.js",
+      "sourceSHA256": "55d0f01efe316ba26e84f2427f0d865a65923a4edf9f092ba01c9a8f52ffe69a"
+    },
+    {
+      "symbol": "_emscripten_set_window_title",
+      "rawKey": "emscripten_set_window_title",
+      "source": "src/lib/libbrowser.js",
+      "sourceSHA256": "47e749623daf9f8856df98fb9c8505fab0807d2a404e4a0e9f1143e84bf77231"
+    },
+    {
+      "symbol": "_emscripten_sleep",
+      "rawKey": "emscripten_sleep",
+      "source": "src/lib/libasync.js",
+      "sourceSHA256": "b32ed147daafc5406faf23d1dee1410c2ae2b78b6b68f0e1b0c425f812970e1b"
+    },
+    {
+      "symbol": "_environ_get",
+      "rawKey": "environ_get",
+      "source": "src/lib/libwasi.js",
+      "sourceSHA256": "b9a37514b016c1d2ffcd5994dcab319f89259984d57df77706c2923ff0cb2e84"
+    },
+    {
+      "symbol": "getEnvStrings",
+      "rawKey": "$getEnvStrings",
+      "source": "src/lib/libwasi.js",
+      "sourceSHA256": "b9a37514b016c1d2ffcd5994dcab319f89259984d57df77706c2923ff0cb2e84"
+    },
+    {
+      "symbol": "ENV",
+      "rawKey": "$ENV",
+      "source": "src/lib/libcore.js",
+      "sourceSHA256": "3541e1c16fab338449bf7267954cb15b85f742e7221557499f08e3aefe57b487"
+    },
+    {
+      "symbol": "getExecutableName",
+      "rawKey": "$getExecutableName",
+      "source": "src/lib/libcore.js",
+      "sourceSHA256": "3541e1c16fab338449bf7267954cb15b85f742e7221557499f08e3aefe57b487"
+    },
+    {
+      "symbol": "_environ_sizes_get",
+      "rawKey": "environ_sizes_get",
+      "source": "src/lib/libwasi.js",
+      "sourceSHA256": "b9a37514b016c1d2ffcd5994dcab319f89259984d57df77706c2923ff0cb2e84"
+    },
+    {
+      "symbol": "_fd_close",
+      "rawKey": "fd_close",
+      "source": "src/lib/libwasi.js",
+      "sourceSHA256": "b9a37514b016c1d2ffcd5994dcab319f89259984d57df77706c2923ff0cb2e84"
+    },
+    {
+      "symbol": "_fd_read",
+      "rawKey": "fd_read",
+      "source": "src/lib/libwasi.js",
+      "sourceSHA256": "b9a37514b016c1d2ffcd5994dcab319f89259984d57df77706c2923ff0cb2e84"
+    },
+    {
+      "symbol": "doReadv",
+      "rawKey": "$doReadv",
+      "source": "src/lib/libwasi.js",
+      "sourceSHA256": "b9a37514b016c1d2ffcd5994dcab319f89259984d57df77706c2923ff0cb2e84"
+    },
+    {
+      "symbol": "_fd_seek",
+      "rawKey": "fd_seek",
+      "source": "src/lib/libwasi.js",
+      "sourceSHA256": "b9a37514b016c1d2ffcd5994dcab319f89259984d57df77706c2923ff0cb2e84"
+    },
+    {
+      "symbol": "_fd_write",
+      "rawKey": "fd_write",
+      "source": "src/lib/libwasi.js",
+      "sourceSHA256": "b9a37514b016c1d2ffcd5994dcab319f89259984d57df77706c2923ff0cb2e84"
+    },
+    {
+      "symbol": "doWritev",
+      "rawKey": "$doWritev",
+      "source": "src/lib/libwasi.js",
+      "sourceSHA256": "b9a37514b016c1d2ffcd5994dcab319f89259984d57df77706c2923ff0cb2e84"
+    },
+    {
+      "symbol": "_glBindVertexArrayOES",
+      "rawKey": "glBindVertexArrayOES",
+      "source": "src/lib/libwebgl.js",
+      "sourceSHA256": "cce23f36fe13811d6989d175346532c8bbe4fda5783949aff2d6d095d4824ebb"
+    },
+    {
+      "symbol": "_emscripten_glBindVertexArrayOES",
+      "rawKey": "emscripten_glBindVertexArrayOES",
+      "source": "src/lib/libwebgl.js",
+      "sourceSHA256": "cce23f36fe13811d6989d175346532c8bbe4fda5783949aff2d6d095d4824ebb"
+    },
+    {
+      "symbol": "_glBindVertexArray",
+      "rawKey": "glBindVertexArray",
+      "source": "src/lib/libwebgl.js",
+      "sourceSHA256": "cce23f36fe13811d6989d175346532c8bbe4fda5783949aff2d6d095d4824ebb"
+    },
+    {
+      "symbol": "_emscripten_glBindVertexArray",
+      "rawKey": "emscripten_glBindVertexArray",
+      "source": "src/lib/libwebgl.js",
+      "sourceSHA256": "cce23f36fe13811d6989d175346532c8bbe4fda5783949aff2d6d095d4824ebb"
+    },
+    {
+      "symbol": "_glClipControlEXT",
+      "rawKey": "glClipControlEXT",
+      "source": "src/lib/libwebgl.js",
+      "sourceSHA256": "cce23f36fe13811d6989d175346532c8bbe4fda5783949aff2d6d095d4824ebb"
+    },
+    {
+      "symbol": "_emscripten_glClipControlEXT",
+      "rawKey": "emscripten_glClipControlEXT",
+      "source": "src/lib/libwebgl.js",
+      "sourceSHA256": "cce23f36fe13811d6989d175346532c8bbe4fda5783949aff2d6d095d4824ebb"
+    },
+    {
+      "symbol": "_glDeleteVertexArraysOES",
+      "rawKey": "glDeleteVertexArraysOES",
+      "source": "src/lib/libwebgl.js",
+      "sourceSHA256": "cce23f36fe13811d6989d175346532c8bbe4fda5783949aff2d6d095d4824ebb"
+    },
+    {
+      "symbol": "_emscripten_glDeleteVertexArraysOES",
+      "rawKey": "emscripten_glDeleteVertexArraysOES",
+      "source": "src/lib/libwebgl.js",
+      "sourceSHA256": "cce23f36fe13811d6989d175346532c8bbe4fda5783949aff2d6d095d4824ebb"
+    },
+    {
+      "symbol": "_glDeleteVertexArrays",
+      "rawKey": "glDeleteVertexArrays",
+      "source": "src/lib/libwebgl.js",
+      "sourceSHA256": "cce23f36fe13811d6989d175346532c8bbe4fda5783949aff2d6d095d4824ebb"
+    },
+    {
+      "symbol": "_emscripten_glDeleteVertexArrays",
+      "rawKey": "emscripten_glDeleteVertexArrays",
+      "source": "src/lib/libwebgl.js",
+      "sourceSHA256": "cce23f36fe13811d6989d175346532c8bbe4fda5783949aff2d6d095d4824ebb"
+    },
+    {
+      "symbol": "_glDrawArraysInstancedANGLE",
+      "rawKey": "glDrawArraysInstancedANGLE",
+      "source": "src/lib/libwebgl.js",
+      "sourceSHA256": "cce23f36fe13811d6989d175346532c8bbe4fda5783949aff2d6d095d4824ebb"
+    },
+    {
+      "symbol": "_emscripten_glDrawArraysInstancedANGLE",
+      "rawKey": "emscripten_glDrawArraysInstancedANGLE",
+      "source": "src/lib/libwebgl.js",
+      "sourceSHA256": "cce23f36fe13811d6989d175346532c8bbe4fda5783949aff2d6d095d4824ebb"
+    },
+    {
+      "symbol": "_glDrawArraysInstanced",
+      "rawKey": "glDrawArraysInstanced",
+      "source": "src/lib/libwebgl.js",
+      "sourceSHA256": "cce23f36fe13811d6989d175346532c8bbe4fda5783949aff2d6d095d4824ebb"
+    },
+    {
+      "symbol": "_emscripten_glDrawArraysInstanced",
+      "rawKey": "emscripten_glDrawArraysInstanced",
+      "source": "src/lib/libwebgl.js",
+      "sourceSHA256": "cce23f36fe13811d6989d175346532c8bbe4fda5783949aff2d6d095d4824ebb"
+    },
+    {
+      "symbol": "_glDrawBuffersWEBGL",
+      "rawKey": "glDrawBuffersWEBGL",
+      "source": "src/lib/libwebgl.js",
+      "sourceSHA256": "cce23f36fe13811d6989d175346532c8bbe4fda5783949aff2d6d095d4824ebb"
+    },
+    {
+      "symbol": "_emscripten_glDrawBuffersWEBGL",
+      "rawKey": "emscripten_glDrawBuffersWEBGL",
+      "source": "src/lib/libwebgl.js",
+      "sourceSHA256": "cce23f36fe13811d6989d175346532c8bbe4fda5783949aff2d6d095d4824ebb"
+    },
+    {
+      "symbol": "_glDrawBuffers",
+      "rawKey": "glDrawBuffers",
+      "source": "src/lib/libwebgl.js",
+      "sourceSHA256": "cce23f36fe13811d6989d175346532c8bbe4fda5783949aff2d6d095d4824ebb"
+    },
+    {
+      "symbol": "_emscripten_glDrawBuffers",
+      "rawKey": "emscripten_glDrawBuffers",
+      "source": "src/lib/libwebgl.js",
+      "sourceSHA256": "cce23f36fe13811d6989d175346532c8bbe4fda5783949aff2d6d095d4824ebb"
+    },
+    {
+      "symbol": "tempFixedLengthArray",
+      "rawKey": "$tempFixedLengthArray",
+      "source": "src/lib/libwebgl.js",
+      "sourceSHA256": "cce23f36fe13811d6989d175346532c8bbe4fda5783949aff2d6d095d4824ebb"
+    },
+    {
+      "symbol": "_glDrawElementsInstancedANGLE",
+      "rawKey": "glDrawElementsInstancedANGLE",
+      "source": "src/lib/libwebgl.js",
+      "sourceSHA256": "cce23f36fe13811d6989d175346532c8bbe4fda5783949aff2d6d095d4824ebb"
+    },
+    {
+      "symbol": "_emscripten_glDrawElementsInstancedANGLE",
+      "rawKey": "emscripten_glDrawElementsInstancedANGLE",
+      "source": "src/lib/libwebgl.js",
+      "sourceSHA256": "cce23f36fe13811d6989d175346532c8bbe4fda5783949aff2d6d095d4824ebb"
+    },
+    {
+      "symbol": "_glDrawElementsInstanced",
+      "rawKey": "glDrawElementsInstanced",
+      "source": "src/lib/libwebgl.js",
+      "sourceSHA256": "cce23f36fe13811d6989d175346532c8bbe4fda5783949aff2d6d095d4824ebb"
+    },
+    {
+      "symbol": "_emscripten_glDrawElementsInstanced",
+      "rawKey": "emscripten_glDrawElementsInstanced",
+      "source": "src/lib/libwebgl.js",
+      "sourceSHA256": "cce23f36fe13811d6989d175346532c8bbe4fda5783949aff2d6d095d4824ebb"
+    },
+    {
+      "symbol": "_glGenVertexArraysOES",
+      "rawKey": "glGenVertexArraysOES",
+      "source": "src/lib/libwebgl.js",
+      "sourceSHA256": "cce23f36fe13811d6989d175346532c8bbe4fda5783949aff2d6d095d4824ebb"
+    },
+    {
+      "symbol": "_emscripten_glGenVertexArraysOES",
+      "rawKey": "emscripten_glGenVertexArraysOES",
+      "source": "src/lib/libwebgl.js",
+      "sourceSHA256": "cce23f36fe13811d6989d175346532c8bbe4fda5783949aff2d6d095d4824ebb"
+    },
+    {
+      "symbol": "_glGenVertexArrays",
+      "rawKey": "glGenVertexArrays",
+      "source": "src/lib/libwebgl.js",
+      "sourceSHA256": "cce23f36fe13811d6989d175346532c8bbe4fda5783949aff2d6d095d4824ebb"
+    },
+    {
+      "symbol": "_emscripten_glGenVertexArrays",
+      "rawKey": "emscripten_glGenVertexArrays",
+      "source": "src/lib/libwebgl.js",
+      "sourceSHA256": "cce23f36fe13811d6989d175346532c8bbe4fda5783949aff2d6d095d4824ebb"
+    },
+    {
+      "symbol": "_glIsVertexArrayOES",
+      "rawKey": "glIsVertexArrayOES",
+      "source": "src/lib/libwebgl.js",
+      "sourceSHA256": "cce23f36fe13811d6989d175346532c8bbe4fda5783949aff2d6d095d4824ebb"
+    },
+    {
+      "symbol": "_emscripten_glIsVertexArrayOES",
+      "rawKey": "emscripten_glIsVertexArrayOES",
+      "source": "src/lib/libwebgl.js",
+      "sourceSHA256": "cce23f36fe13811d6989d175346532c8bbe4fda5783949aff2d6d095d4824ebb"
+    },
+    {
+      "symbol": "_glIsVertexArray",
+      "rawKey": "glIsVertexArray",
+      "source": "src/lib/libwebgl.js",
+      "sourceSHA256": "cce23f36fe13811d6989d175346532c8bbe4fda5783949aff2d6d095d4824ebb"
+    },
+    {
+      "symbol": "_emscripten_glIsVertexArray",
+      "rawKey": "emscripten_glIsVertexArray",
+      "source": "src/lib/libwebgl.js",
+      "sourceSHA256": "cce23f36fe13811d6989d175346532c8bbe4fda5783949aff2d6d095d4824ebb"
+    },
+    {
+      "symbol": "_glPolygonModeWEBGL",
+      "rawKey": "glPolygonModeWEBGL",
+      "source": "src/lib/libwebgl.js",
+      "sourceSHA256": "cce23f36fe13811d6989d175346532c8bbe4fda5783949aff2d6d095d4824ebb"
+    },
+    {
+      "symbol": "_emscripten_glPolygonModeWEBGL",
+      "rawKey": "emscripten_glPolygonModeWEBGL",
+      "source": "src/lib/libwebgl.js",
+      "sourceSHA256": "cce23f36fe13811d6989d175346532c8bbe4fda5783949aff2d6d095d4824ebb"
+    },
+    {
+      "symbol": "_glPolygonOffsetClampEXT",
+      "rawKey": "glPolygonOffsetClampEXT",
+      "source": "src/lib/libwebgl.js",
+      "sourceSHA256": "cce23f36fe13811d6989d175346532c8bbe4fda5783949aff2d6d095d4824ebb"
+    },
+    {
+      "symbol": "_emscripten_glPolygonOffsetClampEXT",
+      "rawKey": "emscripten_glPolygonOffsetClampEXT",
+      "source": "src/lib/libwebgl.js",
+      "sourceSHA256": "cce23f36fe13811d6989d175346532c8bbe4fda5783949aff2d6d095d4824ebb"
+    },
+    {
+      "symbol": "_glVertexAttribDivisorANGLE",
+      "rawKey": "glVertexAttribDivisorANGLE",
+      "source": "src/lib/libwebgl.js",
+      "sourceSHA256": "cce23f36fe13811d6989d175346532c8bbe4fda5783949aff2d6d095d4824ebb"
+    },
+    {
+      "symbol": "_emscripten_glVertexAttribDivisorANGLE",
+      "rawKey": "emscripten_glVertexAttribDivisorANGLE",
+      "source": "src/lib/libwebgl.js",
+      "sourceSHA256": "cce23f36fe13811d6989d175346532c8bbe4fda5783949aff2d6d095d4824ebb"
+    },
+    {
+      "symbol": "_glVertexAttribDivisor",
+      "rawKey": "glVertexAttribDivisor",
+      "source": "src/lib/libwebgl.js",
+      "sourceSHA256": "cce23f36fe13811d6989d175346532c8bbe4fda5783949aff2d6d095d4824ebb"
+    },
+    {
+      "symbol": "_emscripten_glVertexAttribDivisor",
+      "rawKey": "emscripten_glVertexAttribDivisor",
+      "source": "src/lib/libwebgl.js",
+      "sourceSHA256": "cce23f36fe13811d6989d175346532c8bbe4fda5783949aff2d6d095d4824ebb"
+    },
+    {
+      "symbol": "autoResumeAudioContext",
+      "rawKey": "$autoResumeAudioContext",
+      "source": "src/lib/libcore.js",
+      "sourceSHA256": "3541e1c16fab338449bf7267954cb15b85f742e7221557499f08e3aefe57b487"
+    },
+    {
+      "symbol": "dynCall",
+      "rawKey": "$dynCall",
+      "source": "src/lib/libcore.js",
+      "sourceSHA256": "3541e1c16fab338449bf7267954cb15b85f742e7221557499f08e3aefe57b487"
+    },
+    {
+      "symbol": "setValue",
+      "rawKey": "$setValue",
+      "source": "src/lib/libgetvalue.js",
+      "sourceSHA256": "a270f6401911845af7c50b20dc81234557ab7b4b0e2c23b722c576ca6af7e532"
+    },
+    {
+      "symbol": "FS_createPath",
+      "rawKey": "$FS_createPath",
+      "source": "src/lib/libfs.js",
+      "sourceSHA256": "9413d73126f19892ea8bc1d7403f12cdb3f269a3b57e70741ec0dd358b76750c"
+    },
+    {
+      "symbol": "FS_unlink",
+      "rawKey": "$FS_unlink",
+      "source": "src/lib/libfs.js",
+      "sourceSHA256": "9413d73126f19892ea8bc1d7403f12cdb3f269a3b57e70741ec0dd358b76750c"
+    },
+    {
+      "symbol": "FS_createLazyFile",
+      "rawKey": "$FS_createLazyFile",
+      "source": "src/lib/libfs.js",
+      "sourceSHA256": "9413d73126f19892ea8bc1d7403f12cdb3f269a3b57e70741ec0dd358b76750c"
+    },
+    {
+      "symbol": "FS_createDevice",
+      "rawKey": "$FS_createDevice",
+      "source": "src/lib/libfs.js",
+      "sourceSHA256": "9413d73126f19892ea8bc1d7403f12cdb3f269a3b57e70741ec0dd358b76750c"
+    },
+    {
+      "symbol": "createContext",
+      "rawKey": "$createContext",
+      "source": "src/lib/libbrowser.js",
+      "sourceSHA256": "47e749623daf9f8856df98fb9c8505fab0807d2a404e4a0e9f1143e84bf77231"
+    }
+  ],
+  "libraryDefinitions": 480,
+  "sourceLibraries": [
+    {
+      "path": "src/lib/libasync.js",
+      "emittedDefinitions": 1,
+      "bytes": 23604,
+      "sha256": "b32ed147daafc5406faf23d1dee1410c2ae2b78b6b68f0e1b0c425f812970e1b",
+      "license": "MIT",
+      "notice": "/**\n * @license\n * Copyright 2014 The Emscripten Authors\n * SPDX-License-Identifier: MIT\n */"
+    },
+    {
+      "path": "src/lib/libatomic.js",
+      "emittedDefinitions": 2,
+      "bytes": 8405,
+      "sha256": "3353a1899f15c3abdb23075aa2abac9ff1369e16a1b3d3a6663aec9c9ea67638",
+      "license": "MIT",
+      "notice": "/**\n * @license\n * Copyright 2023 The Emscripten Authors\n * SPDX-License-Identifier: MIT\n */"
+    },
+    {
+      "path": "src/lib/libbrowser.js",
+      "emittedDefinitions": 4,
+      "bytes": 31218,
+      "sha256": "47e749623daf9f8856df98fb9c8505fab0807d2a404e4a0e9f1143e84bf77231",
+      "license": "MIT",
+      "notice": "/**\n * @license\n * Copyright 2011 The Emscripten Authors\n * SPDX-License-Identifier: MIT\n */"
+    },
+    {
+      "path": "src/lib/libcore.js",
+      "emittedDefinitions": 70,
+      "bytes": 94963,
+      "sha256": "3541e1c16fab338449bf7267954cb15b85f742e7221557499f08e3aefe57b487",
+      "license": "MIT",
+      "notice": "/**\n * @license\n * Copyright 2010 The Emscripten Authors\n * SPDX-License-Identifier: MIT\n */"
+    },
+    {
+      "path": "src/lib/libegl.js",
+      "emittedDefinitions": 19,
+      "bytes": 27801,
+      "sha256": "5dcac7a6204a57c974dbbbcd74edd2cbd62ade618cb7759f332ca4516d493346",
+      "license": "MIT",
+      "notice": "/**\n * @license\n * Copyright 2012 The Emscripten Authors\n * SPDX-License-Identifier: MIT\n */"
+    },
+    {
+      "path": "src/lib/libeventloop.js",
+      "emittedDefinitions": 6,
+      "bytes": 19729,
+      "sha256": "e54ad5e934dc036fa6176bbc297f8f1a6ac832aa13b3103e47bc25340b5ead8f",
+      "license": "MIT",
+      "notice": "/**\n * @license\n * Copyright 2010 The Emscripten Authors\n * SPDX-License-Identifier: MIT\n */"
+    },
+    {
+      "path": "src/lib/libexceptions.js",
+      "emittedDefinitions": 3,
+      "bytes": 17411,
+      "sha256": "9fb0d8d524c175ee239b86635d164fdcd0e7d77cb728b7dfa908d377fe652ee1",
+      "license": "MIT",
+      "notice": "/**\n * @license\n * Copyright 2010 The Emscripten Authors\n * SPDX-License-Identifier: MIT\n */"
+    },
+    {
+      "path": "src/lib/libfs.js",
+      "emittedDefinitions": 6,
+      "bytes": 65497,
+      "sha256": "9413d73126f19892ea8bc1d7403f12cdb3f269a3b57e70741ec0dd358b76750c",
+      "license": "MIT",
+      "notice": "/**\n * @license\n * Copyright 2013 The Emscripten Authors\n * SPDX-License-Identifier: MIT\n */"
+    },
+    {
+      "path": "src/lib/libfs_shared.js",
+      "emittedDefinitions": 9,
+      "bytes": 7069,
+      "sha256": "276cff202d83ea05ad764df526109e2bad874276e3474dbb2fd53da5949d8839",
+      "license": "MIT",
+      "notice": "/**\n * @license\n * Copyright 2032 The Emscripten Authors\n * SPDX-License-Identifier: MIT\n */"
+    },
+    {
+      "path": "src/lib/libgetvalue.js",
+      "emittedDefinitions": 1,
+      "bytes": 2125,
+      "sha256": "a270f6401911845af7c50b20dc81234557ab7b4b0e2c23b722c576ca6af7e532",
+      "license": "MIT",
+      "notice": "/**\n * @license\n * Copyright 2022 The Emscripten Authors\n * SPDX-License-Identifier: MIT\n */"
+    },
+    {
+      "path": "src/lib/libhtml5.js",
+      "emittedDefinitions": 71,
+      "bytes": 116558,
+      "sha256": "55d0f01efe316ba26e84f2427f0d865a65923a4edf9f092ba01c9a8f52ffe69a",
+      "license": "MIT",
+      "notice": "/**\n * @license\n * Copyright 2014 The Emscripten Authors\n * SPDX-License-Identifier: MIT\n */"
+    },
+    {
+      "path": "src/lib/libint53.js",
+      "emittedDefinitions": 4,
+      "bytes": 6134,
+      "sha256": "4484cfc6db24c39d37e872e16fc39256ef0f6feb9427f0ebea20e76ce45a2499",
+      "license": "MIT",
+      "notice": "/**\n * @license\n * Copyright 2020 The Emscripten Authors\n * SPDX-License-Identifier: MIT\n */"
+    },
+    {
+      "path": "src/lib/libmemfs.js",
+      "emittedDefinitions": 1,
+      "bytes": 13662,
+      "sha256": "33c41f5a0e30aa178f709d8633aa237c038e2b39671ed78f429fb2a0db18f16a",
+      "license": "MIT",
+      "notice": "/**\n * @license\n * Copyright 2013 The Emscripten Authors\n * SPDX-License-Identifier: MIT\n */"
+    },
+    {
+      "path": "src/lib/libpath.js",
+      "emittedDefinitions": 2,
+      "bytes": 4485,
+      "sha256": "6c6244b89ce194d50b25f277e5688e8729937aff77a57b8d6aca49174bf87140",
+      "license": "MIT",
+      "notice": "/**\n * @license\n * Copyright 2013 The Emscripten Authors\n * SPDX-License-Identifier: MIT\n */"
+    },
+    {
+      "path": "src/lib/libpthread.js",
+      "emittedDefinitions": 20,
+      "bytes": 53416,
+      "sha256": "de9c71c105acf52d2f2f31a9659ae8071454815d47b6110403fb345732eb475a",
+      "license": "MIT",
+      "notice": "/**\n * @license\n * Copyright 2015 The Emscripten Authors\n * SPDX-License-Identifier: MIT\n *\n * Because only modern JS engines support SAB we can use modern JS language\n * features within this file (ES2020).\n */"
+    },
+    {
+      "path": "src/lib/libstrings.js",
+      "emittedDefinitions": 10,
+      "bytes": 20311,
+      "sha256": "7653dc2ececa66ef48de81fa378a463c2dde203958b6180a18979bce99ee7cbf",
+      "license": "MIT",
+      "notice": "/**\n * @license\n * Copyright 2020 The Emscripten Authors\n * SPDX-License-Identifier: MIT\n */"
+    },
+    {
+      "path": "src/lib/libsyscall.js",
+      "emittedDefinitions": 13,
+      "bytes": 45068,
+      "sha256": "0ad371d407ec380ef43acc24de4cf4d3c0d2fd48e688bbbb419ed3228bb254e1",
+      "license": "MIT",
+      "notice": "/**\n * @license\n * Copyright 2015 The Emscripten Authors\n * SPDX-License-Identifier: MIT\n */"
+    },
+    {
+      "path": "src/lib/libtty.js",
+      "emittedDefinitions": 1,
+      "bytes": 5581,
+      "sha256": "d1eecb978ae971917a50fbf29d44037095c95242451190abf196d16643857516",
+      "license": "MIT",
+      "notice": "/**\n * @license\n * Copyright 2013 The Emscripten Authors\n * SPDX-License-Identifier: MIT\n */"
+    },
+    {
+      "path": "src/lib/libunwind.js",
+      "emittedDefinitions": 1,
+      "bytes": 903,
+      "sha256": "a42dbe41ba1a2151382338c86183b86b5717440e6ad896d6e9fee37426776e91",
+      "license": "MIT",
+      "notice": "/**\n * @license\n * Copyright 2026 The Emscripten Authors\n * SPDX-License-Identifier: MIT\n */"
+    },
+    {
+      "path": "src/lib/libwasi.js",
+      "emittedDefinitions": 15,
+      "bytes": 21751,
+      "sha256": "b9a37514b016c1d2ffcd5994dcab319f89259984d57df77706c2923ff0cb2e84",
+      "license": "MIT",
+      "notice": "/**\n * @license\n * Copyright 2019 The Emscripten Authors\n * SPDX-License-Identifier: MIT\n */"
+    },
+    {
+      "path": "src/lib/libwebgl.js",
+      "emittedDefinitions": 221,
+      "bytes": 175668,
+      "sha256": "cce23f36fe13811d6989d175346532c8bbe4fda5783949aff2d6d095d4824ebb",
+      "license": "MIT",
+      "notice": "/**\n * @license\n * Copyright 2010 The Emscripten Authors\n * SPDX-License-Identifier: MIT\n */"
+    }
+  ],
+  "uniqueSourceLibraries": 21,
+  "unresolvedOrigins": [],
+  "templates": [
+    {
+      "path": "src/memoryprofiler.js",
+      "bytes": 28987,
+      "sha256": "5292117f0a8bba66e654ce5a204a9944b03ff389d858e5c192a17e701808510a",
+      "terms": "Emscripten MIT/NCSA root; individual SPDX MIT where present",
+      "SPDX": [
+        "MIT"
+      ]
+    },
+    {
+      "path": "src/minimum_runtime_check.js",
+      "bytes": 3920,
+      "sha256": "72bb00be1c332f30e181de0fa2018f87885fd9eb3f9df80fb4b32db977ef7463",
+      "terms": "Emscripten MIT/NCSA root; individual SPDX MIT where present",
+      "SPDX": [
+        "MIT"
+      ]
+    },
+    {
+      "path": "src/node_shell_read.js",
+      "bytes": 688,
+      "sha256": "9f1c6c53453d3d2401d133b5e5fdcfc89965118ae235e1030af39365dfb866c2",
+      "terms": "Emscripten MIT/NCSA root; individual SPDX MIT where present",
+      "SPDX": [
+        "MIT"
+      ]
+    },
+    {
+      "path": "src/postamble.js",
+      "bytes": 9751,
+      "sha256": "8bd4017f9d0de243ca673fde1ffe9e7210f1594cc7e44f3ae4339c8f3ec6b4f3",
+      "terms": "Emscripten MIT/NCSA root; individual SPDX MIT where present",
+      "SPDX": [
+        "MIT"
+      ]
+    },
+    {
+      "path": "src/postlibrary.js",
+      "bytes": 3026,
+      "sha256": "c37cb2bf03e50a35821686fe5a66c0ec11f9f677c39e1701325f386d170f7beb",
+      "terms": "Emscripten MIT/NCSA root; individual SPDX MIT where present",
+      "SPDX": []
+    },
+    {
+      "path": "src/preamble.js",
+      "bytes": 31284,
+      "sha256": "4ae888724c2e12dd2839c966435d95a029653606102c9da1bb55a4e9f2de3fcf",
+      "terms": "Emscripten MIT/NCSA root; individual SPDX MIT where present",
+      "SPDX": [
+        "MIT"
+      ]
+    },
+    {
+      "path": "src/runtime_common.js",
+      "bytes": 6209,
+      "sha256": "57af904032948eb099f816fd3af522a91385b17cd31e1bbe25074d974363f574",
+      "terms": "Emscripten MIT/NCSA root; individual SPDX MIT where present",
+      "SPDX": [
+        "MIT"
+      ]
+    },
+    {
+      "path": "src/runtime_debug.js",
+      "bytes": 8870,
+      "sha256": "8ff3e5c671042b81c21bf3b4d0126de3f4e7bd05b01c08ee794a3aa2f892f216",
+      "terms": "Emscripten MIT/NCSA root; individual SPDX MIT where present",
+      "SPDX": [
+        "MIT"
+      ]
+    },
+    {
+      "path": "src/runtime_exceptions.js",
+      "bytes": 746,
+      "sha256": "a381d1190c951d9a7b5de71c06ff50a174948eaabf2614bc58cf2a2ebb5920ae",
+      "terms": "Emscripten MIT/NCSA root; individual SPDX MIT where present",
+      "SPDX": [
+        "MIT"
+      ]
+    },
+    {
+      "path": "src/runtime_init_memory.js",
+      "bytes": 1871,
+      "sha256": "e717c6a89dc3030eb0a2dab88bb13dc941e379acda187a2c1cc9dec0e0695c38",
+      "terms": "Emscripten MIT/NCSA root; individual SPDX MIT where present",
+      "SPDX": [
+        "MIT"
+      ]
+    },
+    {
+      "path": "src/runtime_pthread.js",
+      "bytes": 7280,
+      "sha256": "7d762af6caa07eb9b5a7a7c7691fb566287724c58b1db0e19540ba2c9640c0c4",
+      "terms": "Emscripten MIT/NCSA root; individual SPDX MIT where present",
+      "SPDX": [
+        "MIT"
+      ]
+    },
+    {
+      "path": "src/shell.js",
+      "bytes": 14812,
+      "sha256": "c24264b2c433aa57318e07705faa78414811bf5ee201dba91f2c053d0d61850a",
+      "terms": "Emscripten MIT/NCSA root; individual SPDX MIT where present",
+      "SPDX": [
+        "MIT"
+      ]
+    },
+    {
+      "path": "src/web_or_worker_shell_read.js",
+      "bytes": 1610,
+      "sha256": "cd90708a2e1f9897f4d3827c37412d4821c9da0277ac7f30127edfac1f23cba0",
+      "terms": "Emscripten MIT/NCSA root; individual SPDX MIT where present",
+      "SPDX": [
+        "MIT"
+      ]
+    }
+  ],
+  "ownScripts": [
+    {
+      "path": "player.html",
+      "sha256": "fe96c25ea55ae99ef5479d3c08333b1f332fec65661e70f6455fe2f8207ff8c6",
+      "license": "MIT"
+    },
+    {
+      "path": "save-storage.js",
+      "sha256": "c42a3e0e5978a14f7dd6b5b850c2b3101b60ca437d901702514b240d5c318411",
+      "license": "MIT"
+    },
+    {
+      "path": "save-validator.js",
+      "sha256": "23c62d59bcf4934062a2bea97dadd1dccc728a71eb2bdcb06b2562379983c547",
+      "license": "MIT"
+    }
+  ],
+  "preloadGenerator": {
+    "path": "tools/file_packager.py",
+    "sha256": "020e748741cf97deee839e0a720fc246dba16f088ee753b85fca0f63933e5ad4",
+    "terms": "Emscripten MIT/NCSA; emitted loader holds independently authored CC0 payload only"
+  },
+  "verification": {
+    "normalizedJSByteEqual": true,
+    "normalizations": [
+      "Include/end-include path comments",
+      "Output .data absolute path and corresponding run-dependency token"
+    ],
+    "WasmByteEqual": true,
+    "dataByteEqual": true,
+    "normalizedJS_SHA256": "a45b8986056cefa03a35d103176caaf1b4d3de99f820ed88f541602da73a9ad3"
+  },
+  "noticeSha256": "578b17a1f7bd9353bbf97b76ccf5be85b0adf73b79bdb76ce3497c525d703d11",
+  "notClaimed": [
+    "Every boilerplate/nested function has not been counted as a library definition",
+    "No original retail content grant or clean-room certificate from this mapping"
+  ]
+}

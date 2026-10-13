@@ -1,0 +1,151 @@
+{
+  "id": "kiln-super-zzt",
+  "base": "/games/kiln-super-zzt/",
+  "repository": "https://github.com/OpenZoo/openzoo-prototype-cpp",
+  "sourceRevision": "442ff28c423faa947793e8a69a99a0e98f52796d",
+  "reconstructionRevision": "012df7266760e6d5cc9f49cecc3a3ac093ea26b9",
+  "packageRevision": "kiln-relay-v2-2026-10-13",
+  "classification": "Reconstruction-derived native C++ source port/rewrite with independently authored original puzzle; not matching Pascal/DOS binary, emulation or clean-room certified",
+  "toolchain": "Emscripten 6.0.10 / SDL2 2.32.10 / C++20",
+  "sourceArchive": "/sources/kiln-super-zzt-442ff28-relay-v2-source.zip",
+  "sourceArchiveSha256": "f223079b79466b63f687fed28b0e2f08fc6d575b9dacaa8bbf81dc16dea55e69",
+  "sourceArchiveBytes": 246793,
+  "requirements": [
+    "WebAssembly threads",
+    "cross-origin isolation",
+    "Keyboard",
+    "No ROM or original game files"
+  ],
+  "files": [
+    {
+      "path": "asset-provenance.json",
+      "bytes": 1697,
+      "sha256": "2ec11cc7bf4cd3b13c69df413417450644c167cf0543de233e7aed09595bf3c8"
+    },
+    {
+      "path": "AUTHORED-ADAPTER-LICENSE.txt",
+      "bytes": 1526,
+      "sha256": "ba128fc47f1b24678b8a08c705ba3374072ab8d9afae4627872514cb36632dc5"
+    },
+    {
+      "path": "BUILD-NOTES.md",
+      "bytes": 3688,
+      "sha256": "c20c760a81901f1f8c54247d99a21be887ded01ed16f877e5e93ac46461b1f7b"
+    },
+    {
+      "path": "emitted-js-audit.json",
+      "bytes": 124773,
+      "sha256": "28d2186fd16248d5abe1743a28c623c2c0319b9a20994e5320228d2dc080bf9d"
+    },
+    {
+      "path": "notices/authored-content-CC0.txt",
+      "bytes": 943,
+      "sha256": "f9e2c8469bee267dfb266e76d6e6396378cdc33fdef0b55e09c609a88a426a34"
+    },
+    {
+      "path": "notices/compiler-rt-LICENSE.TXT",
+      "bytes": 16708,
+      "sha256": "1a8f1058753f1ba890de984e48f0242a3a5c29a6a8f2ed9fd813f36985387e8d"
+    },
+    {
+      "path": "notices/dlmalloc-attribution-evidence.txt",
+      "bytes": 3174,
+      "sha256": "8173822397c688270fdd7384f4929610ef35c4eea9e94b3e370a37994c912c51"
+    },
+    {
+      "path": "notices/EMITTED-JAVASCRIPT-NOTICES.txt",
+      "bytes": 5647,
+      "sha256": "578b17a1f7bd9353bbf97b76ccf5be85b0adf73b79bdb76ce3497c525d703d11"
+    },
+    {
+      "path": "notices/Emscripten.txt",
+      "bytes": 5093,
+      "sha256": "620a78084fc7ca97c0b5dea9abf891f3ffcadfdbf305276f099c9c4e12fc1d86"
+    },
+    {
+      "path": "notices/libcxx-LICENSE.TXT",
+      "bytes": 16703,
+      "sha256": "539dd7aed86e8a4f12cbdd0e6c50c189c7d74847e4fecc64ce2c6ee3a01da38b"
+    },
+    {
+      "path": "notices/libcxxabi-LICENSE.TXT",
+      "bytes": 16706,
+      "sha256": "e2b35be49f7284a45b7baca8fc7b3ab7440e7902392b2528a457816b5bb2a15c"
+    },
+    {
+      "path": "notices/libunwind-LICENSE.TXT",
+      "bytes": 16706,
+      "sha256": "b5efebcaca80879234098e52d1725e6d9eb8fb96a19fce625d39184b705f7b6d"
+    },
+    {
+      "path": "notices/musl-COPYRIGHT.txt",
+      "bytes": 6196,
+      "sha256": "b870108ec5e7790e9f9919064f1b9421d62d5f9b0e6c230c6adf7ea2da62e97b"
+    },
+    {
+      "path": "notices/OpenZoo-MIT.txt",
+      "bytes": 1257,
+      "sha256": "cff84c162ea0da2ee692dc0fd3517d33b778a20882db69e0dacf53ed836c1296"
+    },
+    {
+      "path": "notices/SDL2-yuv2rgb-BSD-3-Clause.txt",
+      "bytes": 1480,
+      "sha256": "f7d74004cc75778cae46c5f0139f244d67c07ef64cf51937e8272352197dcb18"
+    },
+    {
+      "path": "notices/SDL2-zlib.txt",
+      "bytes": 884,
+      "sha256": "97f35b302b361680ec1e891e95d2d52097bb95abff361434916d99dc1305f127"
+    },
+    {
+      "path": "notices/SELECTED-RUNTIME-NOTICES.txt",
+      "bytes": 688395,
+      "sha256": "8f13dcd2d25961688e35e4cbf7a647542ee7ec66184eab7d5fc241d2d7512a89"
+    },
+    {
+      "path": "notices/Super-ZZT-reconstruction-MIT.txt",
+      "bytes": 1188,
+      "sha256": "7b2e3fb03f87df815aeed379a7fa5fa079d8f9406f7fb1ccc45d13bfb1467891"
+    },
+    {
+      "path": "notices/ZZT-reconstruction-MIT.txt",
+      "bytes": 1182,
+      "sha256": "5f39ab5913a6bf1d8f3cad869d5ddd2486b5efd41a863246173780d731adf7f6"
+    },
+    {
+      "path": "openzoo.data",
+      "bytes": 89537,
+      "sha256": "e05befa440e37cc7af2ab2f9263240f9cfb2fa4d133b15387c518180727603cf"
+    },
+    {
+      "path": "openzoo.js",
+      "bytes": 376286,
+      "sha256": "aaf058d33e1c14a74b8be37af45ebdf0c758b324846f3e567d45e1d72b92650b"
+    },
+    {
+      "path": "openzoo.wasm",
+      "bytes": 922006,
+      "sha256": "88a2e5c9ef1f86608d70907302bea167fd55ab555e78985648c7f1ba70fed9f0"
+    },
+    {
+      "path": "player.html",
+      "bytes": 2003,
+      "sha256": "d4beff308f84f8dea6efb6ba3903c541cbf199c1709c793cd99db0718f9be6f1"
+    },
+    {
+      "path": "save-storage.js",
+      "bytes": 1867,
+      "sha256": "c42a3e0e5978a14f7dd6b5b850c2b3101b60ca437d901702514b240d5c318411"
+    },
+    {
+      "path": "save-validator.js",
+      "bytes": 3522,
+      "sha256": "23c62d59bcf4934062a2bea97dadd1dccc728a71eb2bdcb06b2562379983c547"
+    },
+    {
+      "path": "symbol-roles.json",
+      "bytes": 544,
+      "sha256": "236f90cf1c25745b9212113ac4062ce555980ad4d6c693015ba4b730d8c0d6b5"
+    }
+  ]
+}
