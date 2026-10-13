@@ -1,0 +1,48 @@
+{
+  "repository": "Patoke/re-plants-vs-zombies",
+  "revision": "c4692036c5e11d227c8fb7c593b734dac96da028",
+  "starsAtRead": 233,
+  "observedDateUTC": "2026-10-13",
+  "treeEntryCount": 387,
+  "scope": "Read-only licence/docs/build and selected source review. No original game media, cursor/image, executable, DLL, compile, browser or audio test. Not a whole-source-rights or actual-link certification.",
+  "hashEncoding": "SHA-256 of UTF-8 encoded decoded text preserved privately; not independently verified raw-byte hashes.",
+  "fileHashes": {
+    "LICENSE": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+    "README.md": "dc511ba9acfaf5735d5029b4c1d2f89f3c8e4d0fe427dc82e9907b1c7e0992b1",
+    "CMakeLists.txt": "49703a2c41edd191fc4ce082d2199093cd7d132e5b2b65cc7d362bafbb67349b",
+    "SexyAppFramework/CMakeLists.txt": "0a7576a2d4868971eaa362c666cd2d6ac3c88fa25a89df6d9ef43e7cc3401615",
+    "SexyAppFramework/graphics/CMakeLists.txt": "902340b263e4e0b4304b83ef5d394ddfae282fac04b8fc98d0e784b5a751b1be",
+    "SexyAppFramework/imagelib/CMakeLists.txt": "728d7e89def6a4bf3079a0595003e176be7fe650a3ec5042cf5d8f555163d506",
+    "SexyAppFramework/misc/CMakeLists.txt": "f3629268d28510f20fd47ac6f629ba0552585f4253bca6b9ab48fe23eb6d8d20",
+    "SexyAppFramework/ogg/CMakeLists.txt": "9d4f6a91dcf3e95ab869b3626281b599fcaf374d7262af05c6254001c6d02d4c",
+    "SexyAppFramework/ogg/COPYING": "d2ab5758336489da61c12cc5bb757da5339c4ae9001f9bb0562b4370249af814",
+    "SexyAppFramework/sound/CMakeLists.txt": "e6c4218685139c35743e65236174f4bb204947221cac7683d495d7a50daf5e50",
+    "main.cpp": "64b24ebdca1c463b6456978c2f9f492731e11256996eb7a8cba8739647bb99aa",
+    "LawnApp.cpp": "22db2c822ed6a1eee8955de65d314eace09010f7647582d77b628444bd80bc39",
+    "SexyAppFramework/sound/BassLoader.cpp": "a1d5cf6e178db4880e202a8ae192cd36458ebc72285e295b8a05a37e7052535b",
+    "SexyAppFramework/sound/bass.h": "5ba3c3ad5f1df8ceecdb1e608a9660f4a98ef9d578d96021eb4f95ade90f49a8",
+    "SexyAppFramework/sound/FModLoader.cpp": "2ce9fdf372706b6253da70846f2b768e7ba0d7e23d1ae6cec91aa087a4176527",
+    "SexyAppFramework/SexyAppBase.cpp": "8de65cd88e102d081472437449c3a0b670df5291d26c9845f9dd30bfdfbc4a70",
+    "SexyAppFramework/graphics/DDInterface.cpp": "b3c08a14328aa41247f4ff9004ced76628b1e91e1985d1481be4a7eaa3977a8e",
+    "SexyAppFramework/graphics/D3DInterface.cpp": "5515e151f1cc2cc75f8b2dfe3436d935d54dac5e2313051eb9107075a4d81a35",
+    "Sexy.TodLib/TodStringFile.cpp": "766be977de1270003ef33bb4b7c3ed3a834601ce658154182a153e998a2a9b89"
+  },
+  "externalBuildTags": {
+    "libjpeg-turbo": "3.0.1",
+    "zlib": "v1.3",
+    "libpng": "v1.6.40"
+  },
+  "providerNotice": {
+    "name": "BASS",
+    "url": "https://www.un4seen.com/bass.html",
+    "observedDateUTC": "2026-10-13",
+    "revision": null,
+    "htmlTextSHA256": "5bcfadceed70e36f3e459ec040b92cd1db011f4b5727dc54d4afbf76999470f3",
+    "limitation": "Current unpinned provider page, not an exact packaged DLL licence/version audit."
+  },
+  "catalog": {
+    "entries": 83,
+    "titleMatches": []
+  },
+  "disposition": "Blocked: reconstructed-code/framework grant scope, independent full content, DLL/dependency closure and Windows-to-browser adaptation."
+}
