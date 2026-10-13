@@ -1,0 +1,277 @@
+{
+  "scope": "Live authored Open Cadet release: normal F2/Space launch-and-drain score-recording round, ordinary Ok high-score acceptance, native Stop game synchronization, full browser close/reopen, read-only settings and visible Game > High Scores confirmation. No game memory/score/save/RNG edits or cheats.",
+  "intervals": [
+    {
+      "attempt": 0,
+      "pixels": 0,
+      "width": 600,
+      "height": 441,
+      "bounds": null
+    },
+    {
+      "attempt": 1,
+      "pixels": 0,
+      "width": 600,
+      "height": 441,
+      "bounds": null
+    },
+    {
+      "attempt": 2,
+      "pixels": 0,
+      "width": 600,
+      "height": 441,
+      "bounds": null
+    },
+    {
+      "attempt": 3,
+      "pixels": 0,
+      "width": 600,
+      "height": 441,
+      "bounds": null
+    },
+    {
+      "attempt": 4,
+      "pixels": 0,
+      "width": 600,
+      "height": 441,
+      "bounds": null
+    },
+    {
+      "attempt": 5,
+      "pixels": 0,
+      "width": 600,
+      "height": 441,
+      "bounds": null
+    },
+    {
+      "attempt": 6,
+      "pixels": 0,
+      "width": 600,
+      "height": 441,
+      "bounds": null
+    },
+    {
+      "attempt": 7,
+      "pixels": 0,
+      "width": 600,
+      "height": 441,
+      "bounds": null
+    },
+    {
+      "attempt": 8,
+      "pixels": 0,
+      "width": 600,
+      "height": 441,
+      "bounds": null
+    },
+    {
+      "attempt": 9,
+      "pixels": 0,
+      "width": 600,
+      "height": 441,
+      "bounds": null
+    },
+    {
+      "attempt": 10,
+      "pixels": 5361,
+      "width": 600,
+      "height": 441,
+      "bounds": [
+        146,
+        137,
+        452,
+        154
+      ]
+    }
+  ],
+  "errors": [],
+  "consoleErrors": [],
+  "expectedConsoleFailures": [
+    {
+      "text": "Failed to load resource: net::ERR_FAILED",
+      "location": {
+        "url": "https://static.cloudflareinsights.com/beacon.min.js/v4bc70e2c01a94c73b74392e4234840661791215815920",
+        "line": 0,
+        "column": 0,
+        "lineNumber": 0,
+        "columnNumber": 0
+      }
+    },
+    {
+      "text": "Failed to load resource: net::ERR_FAILED",
+      "location": {
+        "url": "https://www.googletagmanager.com/gtag/js?id=G-GQ6627GN8H",
+        "line": 0,
+        "column": 0,
+        "lineNumber": 0,
+        "columnNumber": 0
+      }
+    },
+    {
+      "text": "Failed to load resource: net::ERR_FAILED",
+      "location": {
+        "url": "https://static.cloudflareinsights.com/beacon.min.js/v4bc70e2c01a94c73b74392e4234840661791215815920",
+        "line": 0,
+        "column": 0,
+        "lineNumber": 0,
+        "columnNumber": 0
+      }
+    },
+    {
+      "text": "Failed to load resource: net::ERR_FAILED",
+      "location": {
+        "url": "https://static.cloudflareinsights.com/beacon.min.js/v4bc70e2c01a94c73b74392e4234840661791215815920",
+        "line": 0,
+        "column": 0,
+        "lineNumber": 0,
+        "columnNumber": 0
+      }
+    },
+    {
+      "text": "Failed to load resource: net::ERR_FAILED",
+      "location": {
+        "url": "https://www.googletagmanager.com/gtag/js?id=G-GQ6627GN8H",
+        "line": 0,
+        "column": 0,
+        "lineNumber": 0,
+        "columnNumber": 0
+      }
+    },
+    {
+      "text": "Failed to load resource: net::ERR_FAILED",
+      "location": {
+        "url": "https://static.cloudflareinsights.com/beacon.min.js/v4bc70e2c01a94c73b74392e4234840661791215815920",
+        "line": 0,
+        "column": 0,
+        "lineNumber": 0,
+        "columnNumber": 0
+      }
+    }
+  ],
+  "missing": [],
+  "blocked": [
+    "https://static.cloudflareinsights.com/beacon.min.js/v4bc70e2c01a94c73b74392e4234840661791215815920",
+    "https://www.googletagmanager.com/gtag/js?id=G-GQ6627GN8H",
+    "https://static.cloudflareinsights.com/beacon.min.js/v4bc70e2c01a94c73b74392e4234840661791215815920",
+    "https://static.cloudflareinsights.com/beacon.min.js/v4bc70e2c01a94c73b74392e4234840661791215815920",
+    "https://www.googletagmanager.com/gtag/js?id=G-GQ6627GN8H",
+    "https://static.cloudflareinsights.com/beacon.min.js/v4bc70e2c01a94c73b74392e4234840661791215815920"
+  ],
+  "requestFailures": [
+    {
+      "url": "https://static.cloudflareinsights.com/beacon.min.js/v4bc70e2c01a94c73b74392e4234840661791215815920",
+      "error": {
+        "errorText": "net::ERR_FAILED"
+      },
+      "expectedBlocked": true
+    },
+    {
+      "url": "https://www.googletagmanager.com/gtag/js?id=G-GQ6627GN8H",
+      "error": {
+        "errorText": "net::ERR_FAILED"
+      },
+      "expectedBlocked": true
+    },
+    {
+      "url": "https://static.cloudflareinsights.com/beacon.min.js/v4bc70e2c01a94c73b74392e4234840661791215815920",
+      "error": {
+        "errorText": "net::ERR_FAILED"
+      },
+      "expectedBlocked": true
+    },
+    {
+      "url": "https://static.cloudflareinsights.com/beacon.min.js/v4bc70e2c01a94c73b74392e4234840661791215815920",
+      "error": {
+        "errorText": "net::ERR_FAILED"
+      },
+      "expectedBlocked": true
+    },
+    {
+      "url": "https://www.googletagmanager.com/gtag/js?id=G-GQ6627GN8H",
+      "error": {
+        "errorText": "net::ERR_FAILED"
+      },
+      "expectedBlocked": true
+    },
+    {
+      "url": "https://static.cloudflareinsights.com/beacon.min.js/v4bc70e2c01a94c73b74392e4234840661791215815920",
+      "error": {
+        "errorText": "net::ERR_FAILED"
+      },
+      "expectedBlocked": true
+    }
+  ],
+  "soundOff": "Sound: off",
+  "before": {
+    "label": "before",
+    "sha256": "87e5c0ffc477a8534687fbc704d4743f37e96b7f1e34e2d50d79b7d171c27fec",
+    "score": -999,
+    "name": ""
+  },
+  "confirmed": {
+    "label": "confirmed",
+    "sha256": "cfb5906888b995aab06e4d363c83387efec75fac2b4640d6097c8413db0dd7e3",
+    "score": 144000,
+    "name": "Player 1"
+  },
+  "restored": {
+    "label": "browser-restored",
+    "sha256": "cfb5906888b995aab06e4d363c83387efec75fac2b4640d6097c8413db0dd7e3",
+    "score": 144000,
+    "name": "Player 1"
+  },
+  "pass": true,
+  "playersClosed": true,
+  "audio": "Shared shell Sound: off plus Edge --mute-audio throughout; audible audio unverified",
+  "settingsByteIdentical": true,
+  "fullBrowserRestart": true,
+  "roundInputScope": "Space launches only; no manual flipper assistance in this run. Eleven launch/wait intervals are not eleven balls. One end-round score dialog observed; not all missions/objectives/full playthrough.",
+  "saveTiming": "Waited16seconds after high-score acceptance, then used Stop game and waited for its synchronization confirmation before closing the browser. Rapid-close/crash durability not tested.",
+  "screenshotsInspected": [
+    "earned-dialog.png",
+    "reopened-game-menu.png",
+    "reopened-high-scores.png"
+  ],
+  "harnessCorrections": [
+    "Initial live attempt read settings before native creation; added a6second post-ready wait.",
+    "Next attempt reached130250 visibly but its UI handoff timed out; score field parsing also lost an escaped digit matcher. That run did not establish saved/restored score. Final run uses literal ini field prefixes and a screenshot-verified ordinary Ok click. Failed reports retained privately."
+  ],
+  "limitations": [
+    "One score-recording round/one default player; all missions, message paths, difficulty, all objectives and full playthrough unverified.",
+    "Live flipper response not newly measured here; earlier exact-binary local visual test remains separate.",
+    "Save transfer/rapid-close/crash/multi-browser/touch/controller behavior unverified.",
+    "Sound: off and Edge muted throughout; no audible audio test, no MIDI music supplied."
+  ],
+  "harnessSHA256": "9118d7c5e4e9fac812ea35278b136bcb0cc2eaed7c56db67a04e7842a001aada",
+  "dialogDetectorSHA256": "9a46533f1e054c96e8c000ab8cfe410bab1aba7eed924e21793f8168d085cb49",
+  "distributionVerification": {
+    "scope": "Live current Open Cadet authored runtime and source byte verification, separate from gameplay",
+    "records": [
+      {
+        "path": "/runtime/cadet/0bc12d3ca97a-authored-c51f8473a6/authored-cadet.data",
+        "status": 206,
+        "sha256": "9e23da41ba60e652eb48116ec32b0daf2d4f0b0d32d87e3ec7320d863f953520",
+        "pass": true
+      },
+      {
+        "path": "/runtime/cadet/0bc12d3ca97a-authored-c51f8473a6/authored-cadet.js",
+        "status": 206,
+        "sha256": "5c882e2f16428d096ef10dc36b57158c737cfb645b0e573b6877ae4a9a49e96f",
+        "pass": true
+      },
+      {
+        "path": "/runtime/cadet/0bc12d3ca97a-authored-c51f8473a6/authored-cadet.wasm",
+        "status": 206,
+        "sha256": "06edc08c83025f2de2d7024111186a2ebf8059081f929c17eb4ca554e243d891",
+        "pass": true
+      },
+      {
+        "path": "/sources/cadet-0bc12d3ca97a-authored-c51f8473a6.tar.gz",
+        "status": 206,
+        "sha256": "33d4502ff6f3d8023b0248b9fff68c2a1f709a12cee9584625618be658f04a42",
+        "pass": true
+      }
+    ],
+    "pass": true
+  }
+}

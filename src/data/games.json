@@ -2024,11 +2024,11 @@
   "runtime": "cadet",
   "verification": {
    "status": "gameplay-tested",
-   "date": "2026-10-12",
+   "date": "2026-10-13",
    "browsers": [
     "Headless Microsoft Edge on Windows; muted"
    ],
-   "scope": "Authored-font/digit/resource-text build: normal launch/flipper visual response, naturally earned high score confirmed and displayed after reload in isolated player; shared shell startup/settings Stop/Start checked locally. All objectives and audible audio unverified.",
+   "scope": "Live authored build in the shared player: a normal launch-and-drain round earned 144,000; High Scores Ok confirmed it and Stop game saved it. A full browser restart restored settings byte-for-byte, and Game > High Scores visibly shows Player 1 / 144,000. All four runtime/source hashes match; Sound: off throughout. Prior flipper-response evidence is from the exact binary tested locally. All missions/objectives, full playthrough, rapid-close durability and audible audio remain unverified.",
    "playthrough": false
   },
   "image": "/images/open-cadet.png",
