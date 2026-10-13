@@ -1,0 +1,1039 @@
+{
+  "date": "2026-10-13",
+  "repo": "videogamepreservation/abuse",
+  "pin": "01cce80eaf2ae82bafb9981162e205e42d0fae2f",
+  "classification": "Original developer-released source port, not decompilation or matching-binary proof",
+  "scope": "Private original-core translation-unit compilation to WASM object files only; no linked browser engine, assets, startup or gameplay",
+  "sourceInventory": {
+    "selectedTextCount": 294,
+    "recordSHA256": "5b84aa57b5d5356fb428d7efb038ee283a2191c01b009cb85e4486b9b982c8d1",
+    "payloadBytes": 1752559,
+    "mediaBinariesPlatformPortsExcluded": true
+  },
+  "initialCompile": {
+    "passed": 88,
+    "total": 97,
+    "failedPaths": [
+      "abuse/src/ant.c",
+      "abuse/src/cache.c",
+      "abuse/src/demo.c",
+      "abuse/src/dev.c",
+      "abuse/src/gamma.c",
+      "abuse/src/net/unix/gclient.c",
+      "abuse/src/net/unix/gserver.c",
+      "abuse/src/nfclient.c",
+      "abuse/src/view.c"
+    ],
+    "failureCategories": [
+      "Missing HAVE_ATEXIT configuration define",
+      "Historical or identifier now alternative-operator keyword",
+      "ushort/ulong preprocessor names colliding with system typedefs",
+      "Explicit function/data and const casts required by modern C++"
+    ]
+  },
+  "compatibility": {
+    "definedHAVE_ATEXIT": true,
+    "disabledAlternativeOperatorKeywords": true,
+    "preincludedSysTypes": true,
+    "standard": "C++98",
+    "sourceEdits": [
+      {
+        "path": "abuse/src/ant.c",
+        "originalSHA256": "b6ddc00859944d810bf12cfdfa2b560fc2b49b4d3e6df495d444d153d19f4d43",
+        "adaptedSHA256": "09cbda254e90edc62a747c6c4f544bbfc11591204e8154ebf43452b70089e0ad",
+        "edits": [
+          {
+            "from": "return ant_ai;",
+            "to": "return (void*)ant_ai;"
+          }
+        ]
+      },
+      {
+        "path": "abuse/src/demo.c",
+        "originalSHA256": "ca11cc56311b8608e8649680a6b7f2789220579c9af92afc43bd0e5f982eea9b",
+        "adaptedSHA256": "00c250071c3251147c3dd12620c9fd1a9c4d539dff90d1a29974d854c586704c",
+        "edits": [
+          {
+            "from": "record_file->write(\"DEMO,VERSION:2\",14);",
+            "to": "record_file->write((void*)\"DEMO,VERSION:2\",14);"
+          }
+        ]
+      },
+      {
+        "path": "abuse/src/dev.c",
+        "originalSHA256": "8116ca6d81be38e5b1e09bcfa90f4b737b79c6e8bb7132526f1628ca7d46c848",
+        "adaptedSHA256": "6ee73e72b5799de702f94a48ad8894ecaf908ce4f2e6caea939f138484364708",
+        "edits": [
+          {
+            "from": "current_level ? current_level->name() : \"\",",
+            "to": "(char*)(current_level ? current_level->name() : \"\"),"
+          },
+          {
+            "from": "current_level ? current_level->name() : \"untitled.spe\",",
+            "to": "(char*)(current_level ? current_level->name() : \"untitled.spe\"),"
+          }
+        ]
+      },
+      {
+        "path": "abuse/src/view.c",
+        "originalSHA256": "5b72df82dc79ae60f69080140088d4bbdf6834d4cf49eff64fc274d3cc59b0f5",
+        "adaptedSHA256": "99584c81f4f71b317300fa36aa4c216c2cda87a0d6e391736e8950ee682a8c73",
+        "edits": [
+          {
+            "from": "return (getlogin() ? getlogin() : \"unknown\");",
+            "to": "return (char*)(getlogin() ? getlogin() : \"unknown\");"
+          }
+        ]
+      }
+    ],
+    "executionSemanticsUnverified": true
+  },
+  "compiler": "emcc (Emscripten gcc/clang-like replacement + linker emulating GNU ld) 6.0.10 (d6c521a7f05449857c76bd99e396895583cf2083)",
+  "coreCompile": {
+    "passed": 97,
+    "total": 97,
+    "allObjectsHaveWasmMagic": true,
+    "warningDiagnosticCount": 218,
+    "records": [
+      {
+        "path": "abuse/src/ability.c",
+        "originalSourceSHA256": "047303815e649a21fa847c3a7d538e13c8a13a5cca8b71c30bf3efcdb872d5fe",
+        "adaptedSourceSHA256": "047303815e649a21fa847c3a7d538e13c8a13a5cca8b71c30bf3efcdb872d5fe",
+        "objectSHA256": "a10a316fa4f80e66a4c572c1bc44bf1a03f8e102b8e5d24f1fd0d74cf91d4504",
+        "objectBytes": 1372,
+        "exitCode": 0,
+        "warningDiagnosticCount": 0
+      },
+      {
+        "path": "abuse/src/ant.c",
+        "originalSourceSHA256": "b6ddc00859944d810bf12cfdfa2b560fc2b49b4d3e6df495d444d153d19f4d43",
+        "adaptedSourceSHA256": "09cbda254e90edc62a747c6c4f544bbfc11591204e8154ebf43452b70089e0ad",
+        "objectSHA256": "17bf5d5daa76b98a374be8508299c527e782ce7d4e7c2f18d796f2f2ad7fe91e",
+        "objectBytes": 16227,
+        "exitCode": 0,
+        "warningDiagnosticCount": 4
+      },
+      {
+        "path": "abuse/src/automap.c",
+        "originalSourceSHA256": "cbb9fc6d472cb9cbe4f22fdf1c4444189c08f9a4713226c75d2cc526d9759532",
+        "adaptedSourceSHA256": "cbb9fc6d472cb9cbe4f22fdf1c4444189c08f9a4713226c75d2cc526d9759532",
+        "objectSHA256": "b6cf4393105d16c209290a09c700cc05744d8be6d0eff5392336bfea3b58d975",
+        "objectBytes": 5421,
+        "exitCode": 0,
+        "warningDiagnosticCount": 6
+      },
+      {
+        "path": "abuse/src/cache.c",
+        "originalSourceSHA256": "6afd8830dc7ac0972d013e317a3b0d7ba1bda32df8bb3b8294c85ac997e6faf6",
+        "adaptedSourceSHA256": "6afd8830dc7ac0972d013e317a3b0d7ba1bda32df8bb3b8294c85ac997e6faf6",
+        "objectSHA256": "85cca9a0b82dd2e641d14de7142b2c8baa00f134ca8e36d7d1bb7aedc3253843",
+        "objectBytes": 32522,
+        "exitCode": 0,
+        "warningDiagnosticCount": 6
+      },
+      {
+        "path": "abuse/src/chars.c",
+        "originalSourceSHA256": "58785c37899a4a0739705404f71a7420da5f8dc0c258255c1b35f0085798427b",
+        "adaptedSourceSHA256": "58785c37899a4a0739705404f71a7420da5f8dc0c258255c1b35f0085798427b",
+        "objectSHA256": "3b303c84aecb2a8cbcfaf8cc748551217eb524368b5c0d44910cf352235ec092",
+        "objectBytes": 16070,
+        "exitCode": 0,
+        "warningDiagnosticCount": 4
+      },
+      {
+        "path": "abuse/src/chat.c",
+        "originalSourceSHA256": "eaffafb18378ae299a81e0a6042ff7465d9a20e5d22777c40a94dae4304739b7",
+        "adaptedSourceSHA256": "eaffafb18378ae299a81e0a6042ff7465d9a20e5d22777c40a94dae4304739b7",
+        "objectSHA256": "a1bb7df69373968039509476aadcf7cb2a5b0dd5026b27363f366277e1a85a01",
+        "objectBytes": 2387,
+        "exitCode": 0,
+        "warningDiagnosticCount": 0
+      },
+      {
+        "path": "abuse/src/clisp.c",
+        "originalSourceSHA256": "11b24f1a8de2ac15162a4c1670a985995afc0a28533ded30c595ee5769c53390",
+        "adaptedSourceSHA256": "11b24f1a8de2ac15162a4c1670a985995afc0a28533ded30c595ee5769c53390",
+        "objectSHA256": "5b2b03c3b41acb9919166d6e9d8b20d62d6079b9f529739c9ad0a8062e6b44a0",
+        "objectBytes": 113889,
+        "exitCode": 0,
+        "warningDiagnosticCount": 9
+      },
+      {
+        "path": "abuse/src/collide.c",
+        "originalSourceSHA256": "8f5df78228839046593ad118e446a5d7978b9d7b1c2960fa312855a60196ff8d",
+        "adaptedSourceSHA256": "8f5df78228839046593ad118e446a5d7978b9d7b1c2960fa312855a60196ff8d",
+        "objectSHA256": "bb6a6ef426ad23db992977dd9d375ac9644b7c7f4de189d55c5d164cf6abc6db",
+        "objectBytes": 6911,
+        "exitCode": 0,
+        "warningDiagnosticCount": 4
+      },
+      {
+        "path": "abuse/src/compiled.c",
+        "originalSourceSHA256": "9208f6d2d1729a638a39b49f2da4711dc5c3997a6ee9a18795a9c24e77c90a4f",
+        "adaptedSourceSHA256": "9208f6d2d1729a638a39b49f2da4711dc5c3997a6ee9a18795a9c24e77c90a4f",
+        "objectSHA256": "7a240348e8cf2c460316976e4534e395e46d78f237e115fafeccdf8adaa25c04",
+        "objectBytes": 10334,
+        "exitCode": 0,
+        "warningDiagnosticCount": 0
+      },
+      {
+        "path": "abuse/src/config.c",
+        "originalSourceSHA256": "ec2ce5f9135fb779b92218e0638eed2c53328ef1df3ca55ce1b42f411915540e",
+        "adaptedSourceSHA256": "ec2ce5f9135fb779b92218e0638eed2c53328ef1df3ca55ce1b42f411915540e",
+        "objectSHA256": "a7926bc4d083c4f04d6e14af393b9d021cca31a99e5ae057fea4ea75f4f40455",
+        "objectBytes": 5687,
+        "exitCode": 0,
+        "warningDiagnosticCount": 4
+      },
+      {
+        "path": "abuse/src/console.c",
+        "originalSourceSHA256": "a2b762c850e6b945296aa7f5fde3087230c25429255e0c9c0fb012aafb36c9cc",
+        "adaptedSourceSHA256": "a2b762c850e6b945296aa7f5fde3087230c25429255e0c9c0fb012aafb36c9cc",
+        "objectSHA256": "3e3bbf854784d0453f29378fa540adbb5e690c52288ba0035a4d6e01ed876d06",
+        "objectBytes": 7724,
+        "exitCode": 0,
+        "warningDiagnosticCount": 0
+      },
+      {
+        "path": "abuse/src/cop.c",
+        "originalSourceSHA256": "1e5255b71b352874558712a802cfcf883689c4e7c54b989aa128f884190ab75f",
+        "adaptedSourceSHA256": "1e5255b71b352874558712a802cfcf883689c4e7c54b989aa128f884190ab75f",
+        "objectSHA256": "b9b6c368893fac24479966b7185e3035e4e04f12b65ab2b7dfb0651a1df09091",
+        "objectBytes": 29741,
+        "exitCode": 0,
+        "warningDiagnosticCount": 9
+      },
+      {
+        "path": "abuse/src/crc.c",
+        "originalSourceSHA256": "5af4fd0b061ec2cd796c9247a9eb9cf673e20461876387a41e02496c90b4d7ca",
+        "adaptedSourceSHA256": "5af4fd0b061ec2cd796c9247a9eb9cf673e20461876387a41e02496c90b4d7ca",
+        "objectSHA256": "f6def3ff065e7c9fca1bffcbf45faa0616e3f25b4d0e97519f615da8f0c4a4fd",
+        "objectBytes": 1455,
+        "exitCode": 0,
+        "warningDiagnosticCount": 0
+      },
+      {
+        "path": "abuse/src/demo.c",
+        "originalSourceSHA256": "ca11cc56311b8608e8649680a6b7f2789220579c9af92afc43bd0e5f982eea9b",
+        "adaptedSourceSHA256": "00c250071c3251147c3dd12620c9fd1a9c4d539dff90d1a29974d854c586704c",
+        "objectSHA256": "793187483b24af53207e911183a9a016c40f4609a9cdff827e33f8df8b9b5d18",
+        "objectBytes": 11139,
+        "exitCode": 0,
+        "warningDiagnosticCount": 6
+      },
+      {
+        "path": "abuse/src/dev.c",
+        "originalSourceSHA256": "8116ca6d81be38e5b1e09bcfa90f4b737b79c6e8bb7132526f1628ca7d46c848",
+        "adaptedSourceSHA256": "6ee73e72b5799de702f94a48ad8894ecaf908ce4f2e6caea939f138484364708",
+        "objectSHA256": "973ca796701f6aceb7172c0086ebb6b5b7fb4274847d99498fc1cbd17e365ff7",
+        "objectBytes": 135317,
+        "exitCode": 0,
+        "warningDiagnosticCount": 12
+      },
+      {
+        "path": "abuse/src/devsel.c",
+        "originalSourceSHA256": "43904fb87839618bb8e603b2f7344aababcda93d549afa35ae1bc2229b5d9fc4",
+        "adaptedSourceSHA256": "43904fb87839618bb8e603b2f7344aababcda93d549afa35ae1bc2229b5d9fc4",
+        "objectSHA256": "89c0aa6362a01cde4f047b1a0a8cbfd84aedaa8df48c5a3508f1daad17c187a2",
+        "objectBytes": 8464,
+        "exitCode": 0,
+        "warningDiagnosticCount": 4
+      },
+      {
+        "path": "abuse/src/director.c",
+        "originalSourceSHA256": "d0d0f91c2166b551fbb973451d86fc1b1fce4c4dd492fa7c8a2179b8c73ee7f3",
+        "adaptedSourceSHA256": "d0d0f91c2166b551fbb973451d86fc1b1fce4c4dd492fa7c8a2179b8c73ee7f3",
+        "objectSHA256": "4b46cb9d322022509a2181d8b8d2b301e2374a6a15fdd9251d8e9a0aaff44b1a",
+        "objectBytes": 7165,
+        "exitCode": 0,
+        "warningDiagnosticCount": 6
+      },
+      {
+        "path": "abuse/src/endgame.c",
+        "originalSourceSHA256": "619304147acb3fa431eda396f8b53f41e8e4c8aa1b34b056674dec18cf12f739",
+        "adaptedSourceSHA256": "619304147acb3fa431eda396f8b53f41e8e4c8aa1b34b056674dec18cf12f739",
+        "objectSHA256": "2583df4dd088f87dcd38d486e96860892c7e74b94a40f4f7ad236794626cf4b9",
+        "objectBytes": 21541,
+        "exitCode": 0,
+        "warningDiagnosticCount": 4
+      },
+      {
+        "path": "abuse/src/extend.c",
+        "originalSourceSHA256": "7082f757a0845b396305130713ee70adbed18de65c699aba035bbfcf1f324af9",
+        "adaptedSourceSHA256": "7082f757a0845b396305130713ee70adbed18de65c699aba035bbfcf1f324af9",
+        "objectSHA256": "ceae7e12a45e1d9880b957afa3bf9d1e610328fc99a87bc986d4e484bbb10fa7",
+        "objectBytes": 3272,
+        "exitCode": 0,
+        "warningDiagnosticCount": 4
+      },
+      {
+        "path": "abuse/src/fnt6x13.c",
+        "originalSourceSHA256": "7ae64489ab96c0f5afa83c37e6b226748fa438081dd3e590c5416b347159f1e4",
+        "adaptedSourceSHA256": "7ae64489ab96c0f5afa83c37e6b226748fa438081dd3e590c5416b347159f1e4",
+        "objectSHA256": "20faa187eec27e2598d8db46089a785efbbb2a8f1b658a5fba60e9e488cef3c2",
+        "objectBytes": 20367,
+        "exitCode": 0,
+        "warningDiagnosticCount": 0
+      },
+      {
+        "path": "abuse/src/game.c",
+        "originalSourceSHA256": "9505ca69f0698dbd2c18034ce5d149c57a81beff3f5f8d14577624c617f1329a",
+        "adaptedSourceSHA256": "9505ca69f0698dbd2c18034ce5d149c57a81beff3f5f8d14577624c617f1329a",
+        "objectSHA256": "ed971c4fbf4877a8e7c5162972af67dc5056fdc14de187a1423c11dfd978a069",
+        "objectBytes": 80863,
+        "exitCode": 0,
+        "warningDiagnosticCount": 8
+      },
+      {
+        "path": "abuse/src/gamma.c",
+        "originalSourceSHA256": "25c9919af7b32acc26b0b4638e40eea9b6e38a141ae2163fec5d8be76ac4228e",
+        "adaptedSourceSHA256": "25c9919af7b32acc26b0b4638e40eea9b6e38a141ae2163fec5d8be76ac4228e",
+        "objectSHA256": "6cf362f79007a5b093dd7f9c6ae100bdc15ac3247adf971503b86d41e1c455d5",
+        "objectBytes": 12708,
+        "exitCode": 0,
+        "warningDiagnosticCount": 1
+      },
+      {
+        "path": "abuse/src/gui.c",
+        "originalSourceSHA256": "66e46639bb1def64872eb0038e35cc87c34e8e68c4c29d73cc77bd05ee9e0937",
+        "adaptedSourceSHA256": "66e46639bb1def64872eb0038e35cc87c34e8e68c4c29d73cc77bd05ee9e0937",
+        "objectSHA256": "404d3070811b7dba3e5096cd611509fec322cf513c05721040f412576d999a92",
+        "objectBytes": 10427,
+        "exitCode": 0,
+        "warningDiagnosticCount": 0
+      },
+      {
+        "path": "abuse/src/help.c",
+        "originalSourceSHA256": "cf43c4a1c25f334e47bb7ebde32648d2524524877faa0a00d9ffe80cfb21b19c",
+        "adaptedSourceSHA256": "cf43c4a1c25f334e47bb7ebde32648d2524524877faa0a00d9ffe80cfb21b19c",
+        "objectSHA256": "d97c1e2944d93f1deba917aa4fd992fbe92810bb91fe965fd05be37d831b94ca",
+        "objectBytes": 2165,
+        "exitCode": 0,
+        "warningDiagnosticCount": 4
+      },
+      {
+        "path": "abuse/src/innet.c",
+        "originalSourceSHA256": "43fb8e52ad1813298b4839b75d63fcea8307901d868a5f4f31406f0d964eeb34",
+        "adaptedSourceSHA256": "43fb8e52ad1813298b4839b75d63fcea8307901d868a5f4f31406f0d964eeb34",
+        "objectSHA256": "238229cd6bb6723e7c634950a99fb3c24a9c1b7b001d569f5171d5a7b7f59aec",
+        "objectBytes": 28101,
+        "exitCode": 0,
+        "warningDiagnosticCount": 16
+      },
+      {
+        "path": "abuse/src/intsect.c",
+        "originalSourceSHA256": "0532595ac4f06b71329103cf0668a9ed7ae4a0463de12b390175657dfd7af5a3",
+        "adaptedSourceSHA256": "0532595ac4f06b71329103cf0668a9ed7ae4a0463de12b390175657dfd7af5a3",
+        "objectSHA256": "0e981ee97545b25d5b1f0142d97b1ba0ca0b26960067fb55a61e171e316e6fdf",
+        "objectBytes": 2001,
+        "exitCode": 0,
+        "warningDiagnosticCount": 0
+      },
+      {
+        "path": "abuse/src/items.c",
+        "originalSourceSHA256": "b4087cffd7c02e075bc6083de38bdfae28926fab24168a61f66f3684f036b25b",
+        "adaptedSourceSHA256": "b4087cffd7c02e075bc6083de38bdfae28926fab24168a61f66f3684f036b25b",
+        "objectSHA256": "c399ed115d8eb19fc0c99a469b151f12afffa1a7dade96ad51810ba9c68b9f68",
+        "objectBytes": 9433,
+        "exitCode": 0,
+        "warningDiagnosticCount": 4
+      },
+      {
+        "path": "abuse/src/language.c",
+        "originalSourceSHA256": "2bc61069eecb0823f2137924148443c0ee077d5b4c985eb3d12c0dfc2818ff95",
+        "adaptedSourceSHA256": "2bc61069eecb0823f2137924148443c0ee077d5b4c985eb3d12c0dfc2818ff95",
+        "objectSHA256": "88dca2c693c7ba6da3efe4ea0a95a6f706b113ca9fd3a057c058a37b47c9e3b7",
+        "objectBytes": 794,
+        "exitCode": 0,
+        "warningDiagnosticCount": 0
+      },
+      {
+        "path": "abuse/src/lcache.c",
+        "originalSourceSHA256": "f25f4512a4be150ad5c3e0394a1535d6969e6af8d146e6b2915816f5347dd07b",
+        "adaptedSourceSHA256": "f25f4512a4be150ad5c3e0394a1535d6969e6af8d146e6b2915816f5347dd07b",
+        "objectSHA256": "c2729330918bf5ead2a62fa27ad8e1b575ca2a8b36da62bd91fef698656d0082",
+        "objectBytes": 3210,
+        "exitCode": 0,
+        "warningDiagnosticCount": 0
+      },
+      {
+        "path": "abuse/src/level.c",
+        "originalSourceSHA256": "98ba2c6d90d00ccb85d2b1da20c389fd935364eb4fd29b3baf769b7d1328338c",
+        "adaptedSourceSHA256": "98ba2c6d90d00ccb85d2b1da20c389fd935364eb4fd29b3baf769b7d1328338c",
+        "objectSHA256": "ff1aaffacd8ea40511efeda3108941cc4a9d64f992edd8b36a66aae52c80390b",
+        "objectBytes": 79905,
+        "exitCode": 0,
+        "warningDiagnosticCount": 8
+      },
+      {
+        "path": "abuse/src/light.c",
+        "originalSourceSHA256": "4e41a0239797205f147c96d4698b52c6d21074a7d33e453ed963d4137e8c0870",
+        "adaptedSourceSHA256": "4e41a0239797205f147c96d4698b52c6d21074a7d33e453ed963d4137e8c0870",
+        "objectSHA256": "a3cbc0738b98a58ce1f9ca9391a2520154b7469ded3f32e4ce8be23750bdf26d",
+        "objectBytes": 26844,
+        "exitCode": 0,
+        "warningDiagnosticCount": 5
+      },
+      {
+        "path": "abuse/src/lisp.c",
+        "originalSourceSHA256": "55539773d4837fff596095053e90c72455f2a70bbe1165dbd0a676e75dd63dba",
+        "adaptedSourceSHA256": "55539773d4837fff596095053e90c72455f2a70bbe1165dbd0a676e75dd63dba",
+        "objectSHA256": "3fc58f02e25bd215b8ca0a748b3b57d2bdc2d423e2110c4e9e6f4f325a91a996",
+        "objectBytes": 72728,
+        "exitCode": 0,
+        "warningDiagnosticCount": 7
+      },
+      {
+        "path": "abuse/src/lisp_gc.c",
+        "originalSourceSHA256": "bd2fb2cbab1cb3ba453602d570598569528eadf4e9356508d6952cdd8c618f77",
+        "adaptedSourceSHA256": "bd2fb2cbab1cb3ba453602d570598569528eadf4e9356508d6952cdd8c618f77",
+        "objectSHA256": "d022c3b2155075704900c0b0a0caa149d66e946754dc1bd7caa14b1bb462c5b4",
+        "objectBytes": 6483,
+        "exitCode": 0,
+        "warningDiagnosticCount": 0
+      },
+      {
+        "path": "abuse/src/lisp_opt.c",
+        "originalSourceSHA256": "84e49d95b27e944dc3e9278c157f2f1db113c33ba41e08ca21ab9e7e14ddeebf",
+        "adaptedSourceSHA256": "84e49d95b27e944dc3e9278c157f2f1db113c33ba41e08ca21ab9e7e14ddeebf",
+        "objectSHA256": "daec7c6cdf1d1ff0ed3543734b306cb24409565a8f576ae80682aff82f4692be",
+        "objectBytes": 6251,
+        "exitCode": 0,
+        "warningDiagnosticCount": 0
+      },
+      {
+        "path": "abuse/src/loader2.c",
+        "originalSourceSHA256": "02aa71cf04abb065821baaccab5b4ee35355497f6089b1c32fc2618c5f9f04e9",
+        "adaptedSourceSHA256": "02aa71cf04abb065821baaccab5b4ee35355497f6089b1c32fc2618c5f9f04e9",
+        "objectSHA256": "ccf815948580f7fa08d7305e321a0343a91b6e15552edd5ebc321c7568fb6e92",
+        "objectBytes": 20007,
+        "exitCode": 0,
+        "warningDiagnosticCount": 5
+      },
+      {
+        "path": "abuse/src/loadgame.c",
+        "originalSourceSHA256": "d3516944cf18516470ccc712acefd104c1e9d75ebb29a5fad07d09b9c5acd127",
+        "adaptedSourceSHA256": "d3516944cf18516470ccc712acefd104c1e9d75ebb29a5fad07d09b9c5acd127",
+        "objectSHA256": "c08f32af0c400d69f51e6d79cdd8d90a36f5a1d92f2b672520a5cb5ae7e8f2cf",
+        "objectBytes": 9179,
+        "exitCode": 0,
+        "warningDiagnosticCount": 4
+      },
+      {
+        "path": "abuse/src/menu.c",
+        "originalSourceSHA256": "bc66212467be6725c5e7bd65350318cbc4deee79562685813bf6d1d6011db9ef",
+        "adaptedSourceSHA256": "bc66212467be6725c5e7bd65350318cbc4deee79562685813bf6d1d6011db9ef",
+        "objectSHA256": "305dfa32f448927743334cb5a5a12e0467e3d804d81298354fc61e89e78abbf2",
+        "objectBytes": 27351,
+        "exitCode": 0,
+        "warningDiagnosticCount": 4
+      },
+      {
+        "path": "abuse/src/morpher.c",
+        "originalSourceSHA256": "2ccbdd8b7b527c3ca33e537fa6a126ef7115d36e03b0734deeb249c6d70fbde3",
+        "adaptedSourceSHA256": "2ccbdd8b7b527c3ca33e537fa6a126ef7115d36e03b0734deeb249c6d70fbde3",
+        "objectSHA256": "0462db319c27b913a0bec9e4d7070fb5905993a69d1cf8ec87a22624e9ad26c6",
+        "objectBytes": 4688,
+        "exitCode": 0,
+        "warningDiagnosticCount": 4
+      },
+      {
+        "path": "abuse/src/net/unix/fileman.c",
+        "originalSourceSHA256": "ae897438d5677262d6c87450804421418ff1d55d45b425f26faaad4434ff0eb7",
+        "adaptedSourceSHA256": "ae897438d5677262d6c87450804421418ff1d55d45b425f26faaad4434ff0eb7",
+        "objectSHA256": "a97adde3543c9235338ce1bcccf30ea8392f58972b484c559ae8f97bc270299e",
+        "objectBytes": 13589,
+        "exitCode": 0,
+        "warningDiagnosticCount": 2
+      },
+      {
+        "path": "abuse/src/net/unix/gclient.c",
+        "originalSourceSHA256": "6c3d6fd63344cfcd0f86e53ae6460b8515cbb6619199a15112df6770d2999ba9",
+        "adaptedSourceSHA256": "6c3d6fd63344cfcd0f86e53ae6460b8515cbb6619199a15112df6770d2999ba9",
+        "objectSHA256": "23f51463c4fd1f2880a2adca1b42699e75dea0932d537b915afca28f7409d141",
+        "objectBytes": 8448,
+        "exitCode": 0,
+        "warningDiagnosticCount": 2
+      },
+      {
+        "path": "abuse/src/net/unix/gserver.c",
+        "originalSourceSHA256": "36acf461023d6ded4f120685873baab9b4f81fa25673084ef324b14ca46199fc",
+        "adaptedSourceSHA256": "36acf461023d6ded4f120685873baab9b4f81fa25673084ef324b14ca46199fc",
+        "objectSHA256": "a94bdab378aedeec64cfe0049129351a871aa5bf11a1919dae33a493f72133ef",
+        "objectBytes": 19693,
+        "exitCode": 0,
+        "warningDiagnosticCount": 2
+      },
+      {
+        "path": "abuse/src/netcfg.c",
+        "originalSourceSHA256": "60fc398db81c0d5794609264fec9a2fb1aa6d75d93500a5581c787b1adb6a88a",
+        "adaptedSourceSHA256": "60fc398db81c0d5794609264fec9a2fb1aa6d75d93500a5581c787b1adb6a88a",
+        "objectSHA256": "83cbc896339bd4a26d24f1a79f2c64109da0a1807c2c037e6113a2d69e4561c6",
+        "objectBytes": 19957,
+        "exitCode": 0,
+        "warningDiagnosticCount": 4
+      },
+      {
+        "path": "abuse/src/nfclient.c",
+        "originalSourceSHA256": "d3aeae79d45f8041cda83805db697e54bf067992d22b9f7261a4cbff1063ada2",
+        "adaptedSourceSHA256": "d3aeae79d45f8041cda83805db697e54bf067992d22b9f7261a4cbff1063ada2",
+        "objectSHA256": "4b65b8e63e79d3e9138bd7c313c2f79ede9e8bdd8786b5bc76e3fb540ddf9f6d",
+        "objectBytes": 6607,
+        "exitCode": 0,
+        "warningDiagnosticCount": 1
+      },
+      {
+        "path": "abuse/src/objects.c",
+        "originalSourceSHA256": "a6ee2730dceb66103dba4cd5ae957cde71dd60b575032e8977d33f611cea2f5f",
+        "adaptedSourceSHA256": "a6ee2730dceb66103dba4cd5ae957cde71dd60b575032e8977d33f611cea2f5f",
+        "objectSHA256": "ef5486c16738c95653d800414e22fe04e1897090a5f9f2b25aeea19ca4cd6525",
+        "objectBytes": 44501,
+        "exitCode": 0,
+        "warningDiagnosticCount": 5
+      },
+      {
+        "path": "abuse/src/particle.c",
+        "originalSourceSHA256": "12e8552369511a3f43389ea642129f653c1034051cfb91ef5ce2a11ae2ddc892",
+        "adaptedSourceSHA256": "12e8552369511a3f43389ea642129f653c1034051cfb91ef5ce2a11ae2ddc892",
+        "objectSHA256": "afe25f34bb7280e498559c610bf3bddb24a243d52225169e160bc13a6db67d5a",
+        "objectBytes": 8514,
+        "exitCode": 0,
+        "warningDiagnosticCount": 0
+      },
+      {
+        "path": "abuse/src/points.c",
+        "originalSourceSHA256": "9bddf0e0b237a94d3bd45f6eba6dccf9ce8cd6605129930a198ff3cbdab7a083",
+        "adaptedSourceSHA256": "9bddf0e0b237a94d3bd45f6eba6dccf9ce8cd6605129930a198ff3cbdab7a083",
+        "objectSHA256": "2b09bbf4acf974016e3212cd123ca567fac137cce7570c9a722e92e43765530d",
+        "objectBytes": 1570,
+        "exitCode": 0,
+        "warningDiagnosticCount": 4
+      },
+      {
+        "path": "abuse/src/profile.c",
+        "originalSourceSHA256": "78e2c904cc42e72837ef4d760a076bbdb4d2a7a0e5393ba22acf019c4161e03b",
+        "adaptedSourceSHA256": "78e2c904cc42e72837ef4d760a076bbdb4d2a7a0e5393ba22acf019c4161e03b",
+        "objectSHA256": "1f3336562724b4ffc744d3267b6f74bafba40f7ec46781f027ecd918b4576e95",
+        "objectBytes": 4361,
+        "exitCode": 0,
+        "warningDiagnosticCount": 4
+      },
+      {
+        "path": "abuse/src/property.c",
+        "originalSourceSHA256": "1ca19e0765da217e0e746e0e1a463e3a5e64cbb8abda5aa6ba66493d5be7d288",
+        "adaptedSourceSHA256": "1ca19e0765da217e0e746e0e1a463e3a5e64cbb8abda5aa6ba66493d5be7d288",
+        "objectSHA256": "f3a879df3a288daa7215d62aef918479ce3053f04d769f8727f064c57316700a",
+        "objectBytes": 5360,
+        "exitCode": 0,
+        "warningDiagnosticCount": 0
+      },
+      {
+        "path": "abuse/src/sensor.c",
+        "originalSourceSHA256": "32428afa23b9b287dd76a9c01ae943735249b489e08b8db90bc8556d1de2de57",
+        "adaptedSourceSHA256": "32428afa23b9b287dd76a9c01ae943735249b489e08b8db90bc8556d1de2de57",
+        "objectSHA256": "897511946f487527a1dc5ffb39a3808bd4758c0dd9e713d0d0b15105feabbbbe",
+        "objectBytes": 2311,
+        "exitCode": 0,
+        "warningDiagnosticCount": 4
+      },
+      {
+        "path": "abuse/src/seq.c",
+        "originalSourceSHA256": "4e62bd279cc9331ab3291da4163b08712728709da27c38748c5b85638a0c4f50",
+        "adaptedSourceSHA256": "4e62bd279cc9331ab3291da4163b08712728709da27c38748c5b85638a0c4f50",
+        "objectSHA256": "c940aab4dac657501b4ee5d1db2d465ebb72055912c256ffc357773f53e98a75",
+        "objectBytes": 1920,
+        "exitCode": 0,
+        "warningDiagnosticCount": 0
+      },
+      {
+        "path": "abuse/src/setup.c",
+        "originalSourceSHA256": "9e6c5e5ed555f232be674322f635693c00747e97b1d62c489700b8617da9233f",
+        "adaptedSourceSHA256": "9e6c5e5ed555f232be674322f635693c00747e97b1d62c489700b8617da9233f",
+        "objectSHA256": "8764253fdfabe2ce849698d1c326e1a0784df2ff43f65cc9184bde2ad3b7140b",
+        "objectBytes": 462,
+        "exitCode": 0,
+        "warningDiagnosticCount": 0
+      },
+      {
+        "path": "abuse/src/smallfnt.c",
+        "originalSourceSHA256": "8ee41859261306191227edd1856d1ac05c1692af67bb912afe1a6f025f815ca3",
+        "adaptedSourceSHA256": "8ee41859261306191227edd1856d1ac05c1692af67bb912afe1a6f025f815ca3",
+        "objectSHA256": "9aba71964655aa2ef466befbce1725a50fa2bb26e44516da79fbd88fc6356cca",
+        "objectBytes": 9619,
+        "exitCode": 0,
+        "warningDiagnosticCount": 0
+      },
+      {
+        "path": "abuse/src/specache.c",
+        "originalSourceSHA256": "aa0e7cba2293d958b1859ebd504db49bf4257f76b75df3210f0fabdcda2574eb",
+        "adaptedSourceSHA256": "aa0e7cba2293d958b1859ebd504db49bf4257f76b75df3210f0fabdcda2574eb",
+        "objectSHA256": "64d1493ed1d40f0ea330eeafff99fbfb896d402cc4130e746d730b0ab6c24be3",
+        "objectBytes": 3799,
+        "exitCode": 0,
+        "warningDiagnosticCount": 0
+      },
+      {
+        "path": "abuse/src/statbar.c",
+        "originalSourceSHA256": "45738627952e2c0427fc607a219142bfad970dc9dfc2b7f5a164869943f2f915",
+        "adaptedSourceSHA256": "45738627952e2c0427fc607a219142bfad970dc9dfc2b7f5a164869943f2f915",
+        "objectSHA256": "9d53847c2e656415c9a3cc3455c2891c61d683bcc9f31a1480027744841d5cd0",
+        "objectBytes": 10855,
+        "exitCode": 0,
+        "warningDiagnosticCount": 4
+      },
+      {
+        "path": "abuse/src/text_gui.c",
+        "originalSourceSHA256": "c47c2cb80d3fef909b0a2ae3735bf65a1968f313e77d90deb132763fb28cb4d6",
+        "adaptedSourceSHA256": "c47c2cb80d3fef909b0a2ae3735bf65a1968f313e77d90deb132763fb28cb4d6",
+        "objectSHA256": "caed2ed71f9c7179abe2ced8dbd5444daa95400da3d106573d8dd8d0f61897c3",
+        "objectBytes": 4476,
+        "exitCode": 0,
+        "warningDiagnosticCount": 1
+      },
+      {
+        "path": "abuse/src/transp.c",
+        "originalSourceSHA256": "5d63240a51eea5466a0e3786431a3fd800aacde8b0935c1fcf684736aaf87cd5",
+        "adaptedSourceSHA256": "5d63240a51eea5466a0e3786431a3fd800aacde8b0935c1fcf684736aaf87cd5",
+        "objectSHA256": "90a5756a5c76669648e16a9b22f0376791d7e0a8dccd1cfb772c04f17c5c8801",
+        "objectBytes": 1976,
+        "exitCode": 0,
+        "warningDiagnosticCount": 0
+      },
+      {
+        "path": "abuse/src/trig.c",
+        "originalSourceSHA256": "0a9927e1cc4d748f88ec122964fd4747ff5b8738ba200138125a3fc8f5c90848",
+        "adaptedSourceSHA256": "0a9927e1cc4d748f88ec122964fd4747ff5b8738ba200138125a3fc8f5c90848",
+        "objectSHA256": "dc1c940b2acf130c045c2187150ea32b6c34bf6ae79151c094a8eade2de257ad",
+        "objectBytes": 5208,
+        "exitCode": 0,
+        "warningDiagnosticCount": 0
+      },
+      {
+        "path": "abuse/src/username.c",
+        "originalSourceSHA256": "e0ae03fa0d9890e54d6b7137c2671af7131c4b86c79dfa4d611e367c8dd50b19",
+        "adaptedSourceSHA256": "e0ae03fa0d9890e54d6b7137c2671af7131c4b86c79dfa4d611e367c8dd50b19",
+        "objectSHA256": "6879cbb8635c0ef6eb871a0527204253dfae208c3412435fce8e0a5f48cbd7d7",
+        "objectBytes": 727,
+        "exitCode": 0,
+        "warningDiagnosticCount": 0
+      },
+      {
+        "path": "abuse/src/version.c",
+        "originalSourceSHA256": "0566d6b260e307366eac50558fe25b305689b7c96ff8ab967b663743da5f23d8",
+        "adaptedSourceSHA256": "0566d6b260e307366eac50558fe25b305689b7c96ff8ab967b663743da5f23d8",
+        "objectSHA256": "97f21a77d5f6810db650c20d9894d8bc93254c2dc62b80eef42a03fa0b4c94cc",
+        "objectBytes": 1366,
+        "exitCode": 0,
+        "warningDiagnosticCount": 0
+      },
+      {
+        "path": "abuse/src/view.c",
+        "originalSourceSHA256": "5b72df82dc79ae60f69080140088d4bbdf6834d4cf49eff64fc274d3cc59b0f5",
+        "adaptedSourceSHA256": "99584c81f4f71b317300fa36aa4c216c2cda87a0d6e391736e8950ee682a8c73",
+        "objectSHA256": "b909306ae48186bfde6318cd9302805b85b36f3c7a6ab39cc2044f3277e4f8c1",
+        "objectBytes": 27028,
+        "exitCode": 0,
+        "warningDiagnosticCount": 4
+      },
+      {
+        "path": "imlib/decoder.c",
+        "originalSourceSHA256": "92f6cb8d2114b1d171a22ef7681f053ab45136f199fa6d91d1acbc8446fe2585",
+        "adaptedSourceSHA256": "92f6cb8d2114b1d171a22ef7681f053ab45136f199fa6d91d1acbc8446fe2585",
+        "objectSHA256": "2fe9e2ef8c20bf7e62f6650d49af8a7d3427265dc01e39a4bbd7949a5057dfd6",
+        "objectBytes": 21293,
+        "exitCode": 0,
+        "warningDiagnosticCount": 0
+      },
+      {
+        "path": "imlib/dprint.c",
+        "originalSourceSHA256": "25783032e6b6fb6f5a59fc6d29c7c10d43c62f09be9cb00cb900a8fb57e573e4",
+        "adaptedSourceSHA256": "25783032e6b6fb6f5a59fc6d29c7c10d43c62f09be9cb00cb900a8fb57e573e4",
+        "objectSHA256": "a2a837d5409198e8a4a588d29613016a03ac4045f8bdc4b33fc4c57d0102d076",
+        "objectBytes": 1496,
+        "exitCode": 0,
+        "warningDiagnosticCount": 0
+      },
+      {
+        "path": "imlib/filesel.c",
+        "originalSourceSHA256": "5614840828c897f365ef0470b6f27f1b80828abf9275ee9385e627f07fcb4442",
+        "adaptedSourceSHA256": "5614840828c897f365ef0470b6f27f1b80828abf9275ee9385e627f07fcb4442",
+        "objectSHA256": "a7d92b2b4e359a8d25855e51c8db768f653940b1e17bfb14df2a37fd7ec42bb6",
+        "objectBytes": 8854,
+        "exitCode": 0,
+        "warningDiagnosticCount": 0
+      },
+      {
+        "path": "imlib/filter.c",
+        "originalSourceSHA256": "d0d15ce06cbe0b48eb14b87aa2a594a9eb6560798524546b157d655a110e5896",
+        "adaptedSourceSHA256": "d0d15ce06cbe0b48eb14b87aa2a594a9eb6560798524546b157d655a110e5896",
+        "objectSHA256": "e94150039e81065a8de641f5e1c9bc39ed4732ee1a4cbc13e802c2d9b8defaad",
+        "objectBytes": 6997,
+        "exitCode": 0,
+        "warningDiagnosticCount": 0
+      },
+      {
+        "path": "imlib/fonts.c",
+        "originalSourceSHA256": "e991a6b099c2e97d450d6c7f7dbca9c34c6c63c21062e3f38df357b6f4b8b506",
+        "adaptedSourceSHA256": "e991a6b099c2e97d450d6c7f7dbca9c34c6c63c21062e3f38df357b6f4b8b506",
+        "objectSHA256": "069cbe98c31b5a27b1b9d09a5556ce4a69e7ce5a4e450e807cd8843cc9620e47",
+        "objectBytes": 3414,
+        "exitCode": 0,
+        "warningDiagnosticCount": 0
+      },
+      {
+        "path": "imlib/gifread.c",
+        "originalSourceSHA256": "cf3f1c56c9f532d2f1751e842ad169b95f446b79acee0cb8cf58d93429eec6fc",
+        "adaptedSourceSHA256": "cf3f1c56c9f532d2f1751e842ad169b95f446b79acee0cb8cf58d93429eec6fc",
+        "objectSHA256": "59e9f098e1bb237645dedfdb9b7da9657ceeac67014dac1a083765206d70dfe5",
+        "objectBytes": 2737,
+        "exitCode": 0,
+        "warningDiagnosticCount": 0
+      },
+      {
+        "path": "imlib/globals.c",
+        "originalSourceSHA256": "d78478b1ba93f733f0a8b47a626ba4f80172e58f4a12510ba66fbd563d34362d",
+        "adaptedSourceSHA256": "d78478b1ba93f733f0a8b47a626ba4f80172e58f4a12510ba66fbd563d34362d",
+        "objectSHA256": "54a355509116153b6e8cc428f9a997c96a66a850c208da4a845e26e56a4d50d0",
+        "objectBytes": 423,
+        "exitCode": 0,
+        "warningDiagnosticCount": 0
+      },
+      {
+        "path": "imlib/glread.c",
+        "originalSourceSHA256": "d0f19a72880bed5989443e924b143a32a5b60941e6cc87fd268115287f07beba",
+        "adaptedSourceSHA256": "d0f19a72880bed5989443e924b143a32a5b60941e6cc87fd268115287f07beba",
+        "objectSHA256": "cf0122b67b39778a395ad72b044da03e70dff5d09fd5431edb8e175ef5b2c3bb",
+        "objectBytes": 4594,
+        "exitCode": 0,
+        "warningDiagnosticCount": 0
+      },
+      {
+        "path": "imlib/guistat.c",
+        "originalSourceSHA256": "58b7b5eb242f783bbca7f3fb374c315476a30891b7b6ea1b0f7edb2801f1d393",
+        "adaptedSourceSHA256": "58b7b5eb242f783bbca7f3fb374c315476a30891b7b6ea1b0f7edb2801f1d393",
+        "objectSHA256": "b8fc3338201c78bea0060d3b64d7e3e8a370c4708c9a9a2e4d98e53ce43e73f5",
+        "objectBytes": 6466,
+        "exitCode": 0,
+        "warningDiagnosticCount": 1
+      },
+      {
+        "path": "imlib/image.c",
+        "originalSourceSHA256": "08fa5110879f3393063f167096a42ab83020d2c93ab1dde7d7330b4511536325",
+        "adaptedSourceSHA256": "08fa5110879f3393063f167096a42ab83020d2c93ab1dde7d7330b4511536325",
+        "objectSHA256": "80c317e31c66c7d1f9bc67bae99eeeff114c93f2771300f057d6d18640d6a610",
+        "objectBytes": 40249,
+        "exitCode": 0,
+        "warningDiagnosticCount": 0
+      },
+      {
+        "path": "imlib/image24.c",
+        "originalSourceSHA256": "5a05f44e06c6c6eb6ce5f332808379ef9699ca03afc9892a8d6f80fa46408902",
+        "adaptedSourceSHA256": "5a05f44e06c6c6eb6ce5f332808379ef9699ca03afc9892a8d6f80fa46408902",
+        "objectSHA256": "cd167c50345cad5a6285d378956fdddd4f0eac18483c44558ed8f42dbcd8162c",
+        "objectBytes": 3117,
+        "exitCode": 0,
+        "warningDiagnosticCount": 0
+      },
+      {
+        "path": "imlib/include.c",
+        "originalSourceSHA256": "a2409b5fc9cdfb0b9742ec694647c873779450d0366da5bbbdb9431c53001c81",
+        "adaptedSourceSHA256": "a2409b5fc9cdfb0b9742ec694647c873779450d0366da5bbbdb9431c53001c81",
+        "objectSHA256": "82c7c7e1291e926a6fdf286caa57401c0878075f95da3bc164656c9cd77fcbe0",
+        "objectBytes": 2739,
+        "exitCode": 0,
+        "warningDiagnosticCount": 0
+      },
+      {
+        "path": "imlib/input.c",
+        "originalSourceSHA256": "5ad284f7540c75d69da64f750391d4493e79134fd5f115f877c4f460847cf2ea",
+        "adaptedSourceSHA256": "5ad284f7540c75d69da64f750391d4493e79134fd5f115f877c4f460847cf2ea",
+        "objectSHA256": "dc8ff7f58bd514c7e8787a8008d3beaefc0dc6539af11cd10d09e68f0246a7e6",
+        "objectBytes": 23197,
+        "exitCode": 0,
+        "warningDiagnosticCount": 0
+      },
+      {
+        "path": "imlib/jmalloc.c",
+        "originalSourceSHA256": "4926b4240bdaf6fd07744558ee014d1aac8f75676fd60eebb12930c20bff7bdd",
+        "adaptedSourceSHA256": "4926b4240bdaf6fd07744558ee014d1aac8f75676fd60eebb12930c20bff7bdd",
+        "objectSHA256": "210167d0fe9590624f75ea0e7ac835acf479ff94c53c17b57ef1d9d6a103c132",
+        "objectBytes": 21149,
+        "exitCode": 0,
+        "warningDiagnosticCount": 11
+      },
+      {
+        "path": "imlib/jrand.c",
+        "originalSourceSHA256": "2b0f5f32bda0234003d8607b8a13df41f24ade95ee449db229118ea54c6cf2a5",
+        "adaptedSourceSHA256": "2b0f5f32bda0234003d8607b8a13df41f24ade95ee449db229118ea54c6cf2a5",
+        "objectSHA256": "94b0e3d7a1fa61d72adcdaba7b7fda4d2f2008260e75649a97aaaa93892320a5",
+        "objectBytes": 2807,
+        "exitCode": 0,
+        "warningDiagnosticCount": 0
+      },
+      {
+        "path": "imlib/jwindow.c",
+        "originalSourceSHA256": "8dd660b9d5cf98d183988b4cbd1bf97a0481d859d842425a5169b69cadc84cb0",
+        "adaptedSourceSHA256": "8dd660b9d5cf98d183988b4cbd1bf97a0481d859d842425a5169b69cadc84cb0",
+        "objectSHA256": "4df7033aa8efd78b613f956f89c0814d2163fbfe8e9d06ee5a6a166081d13b88",
+        "objectBytes": 20142,
+        "exitCode": 0,
+        "warningDiagnosticCount": 0
+      },
+      {
+        "path": "imlib/keys.c",
+        "originalSourceSHA256": "1a8702ba0eae0ab8ed2e58402eb2f84e2eada089a20a447c8a14e9bfc4d5a8a4",
+        "adaptedSourceSHA256": "1a8702ba0eae0ab8ed2e58402eb2f84e2eada089a20a447c8a14e9bfc4d5a8a4",
+        "objectSHA256": "ab10bebbadc991f22df9271fbf0f1f3cec239e5615aec9d051fb3fa42422f78c",
+        "objectBytes": 2934,
+        "exitCode": 0,
+        "warningDiagnosticCount": 0
+      },
+      {
+        "path": "imlib/lbmread.c",
+        "originalSourceSHA256": "f3c47fec370a79778e0dc74d27a7f63844ae94104f3dd29eb1863b11e45000fb",
+        "adaptedSourceSHA256": "f3c47fec370a79778e0dc74d27a7f63844ae94104f3dd29eb1863b11e45000fb",
+        "objectSHA256": "35ae665ab204620b07944628d403f1030a0a8053395e31aa572e7fbff45a43c4",
+        "objectBytes": 3043,
+        "exitCode": 0,
+        "warningDiagnosticCount": 0
+      },
+      {
+        "path": "imlib/linked.c",
+        "originalSourceSHA256": "779b9cd00fd57cb37f24f949b6af15fa693db0b3ee4317738684279ef9beb9c7",
+        "adaptedSourceSHA256": "779b9cd00fd57cb37f24f949b6af15fa693db0b3ee4317738684279ef9beb9c7",
+        "objectSHA256": "c71d1edaf4101cfa77b050854839a9229710417edafe3711278761250f85edd2",
+        "objectBytes": 3625,
+        "exitCode": 0,
+        "warningDiagnosticCount": 0
+      },
+      {
+        "path": "imlib/loader.c",
+        "originalSourceSHA256": "67e3cc38d4599839d3faa4bc27632ab38e984eb22cc54250a685bc8c15d10953",
+        "adaptedSourceSHA256": "67e3cc38d4599839d3faa4bc27632ab38e984eb22cc54250a685bc8c15d10953",
+        "objectSHA256": "2eba58fdf3984da260dfc1019b8727af857f4f024b6315048ceb2dbfd48d3df5",
+        "objectBytes": 3956,
+        "exitCode": 0,
+        "warningDiagnosticCount": 2
+      },
+      {
+        "path": "imlib/mdlread.c",
+        "originalSourceSHA256": "8d93fd197f681356a6d82662bf26441b95afee75e2409e53a9add89dfe99972d",
+        "adaptedSourceSHA256": "8d93fd197f681356a6d82662bf26441b95afee75e2409e53a9add89dfe99972d",
+        "objectSHA256": "78c7b6759fb52d37ff4b330c1ecaf41dce8518ec3cc180c0c6e9ca7635b81df2",
+        "objectBytes": 5171,
+        "exitCode": 0,
+        "warningDiagnosticCount": 1
+      },
+      {
+        "path": "imlib/packet.c",
+        "originalSourceSHA256": "4b68b71d14f6a20994bb85de67439512d9ab5d168d3573c636a64f5a41e85e59",
+        "adaptedSourceSHA256": "4b68b71d14f6a20994bb85de67439512d9ab5d168d3573c636a64f5a41e85e59",
+        "objectSHA256": "21e217c983dbefcf2e5f7f221e8e7ffa22d6bb892460be1b6eaf9d8f2c9155b0",
+        "objectBytes": 2753,
+        "exitCode": 0,
+        "warningDiagnosticCount": 0
+      },
+      {
+        "path": "imlib/palette.c",
+        "originalSourceSHA256": "9d70b1d56c26f2fa1bdccf8a2a32826e362b1d5972229e74f51e378e61390f5d",
+        "adaptedSourceSHA256": "9d70b1d56c26f2fa1bdccf8a2a32826e362b1d5972229e74f51e378e61390f5d",
+        "objectSHA256": "ba5b3bd02b8203bf2f06fe7a3e5733c167ce3c451bbab159ee7ec17880c3dc73",
+        "objectBytes": 16444,
+        "exitCode": 0,
+        "warningDiagnosticCount": 5
+      },
+      {
+        "path": "imlib/pcxread.c",
+        "originalSourceSHA256": "b6d6b941ec40ea83302fc6c1b12791b5d223883ca7e613591c8795500680fcae",
+        "adaptedSourceSHA256": "b6d6b941ec40ea83302fc6c1b12791b5d223883ca7e613591c8795500680fcae",
+        "objectSHA256": "9335256eccfd020e3b310dafe8b44efe237a122ca4954d093f4416cea6ac091d",
+        "objectBytes": 6538,
+        "exitCode": 0,
+        "warningDiagnosticCount": 0
+      },
+      {
+        "path": "imlib/pmenu.c",
+        "originalSourceSHA256": "66718bf4200b8ef8183bc41d47511d5f645166555506874f98844ddad8450af9",
+        "adaptedSourceSHA256": "66718bf4200b8ef8183bc41d47511d5f645166555506874f98844ddad8450af9",
+        "objectSHA256": "b06a1da69b55d565e143bbfbe61251953df7c653cf7c98179f519a08577d79d0",
+        "objectBytes": 16125,
+        "exitCode": 0,
+        "warningDiagnosticCount": 1
+      },
+      {
+        "path": "imlib/ppmread.c",
+        "originalSourceSHA256": "7d15f2ed72b83b6e029fe01f778a0a937f7720d5197031e64d392565c505fadc",
+        "adaptedSourceSHA256": "7d15f2ed72b83b6e029fe01f778a0a937f7720d5197031e64d392565c505fadc",
+        "objectSHA256": "32ee5afb97f21ae5f14ee76748b3ccb032d871e83cb56a24bcd5c7df1dae14c9",
+        "objectBytes": 3967,
+        "exitCode": 0,
+        "warningDiagnosticCount": 0
+      },
+      {
+        "path": "imlib/scroller.c",
+        "originalSourceSHA256": "afed635ef29ec473ecddac464f10b78e940f20e2431357b0f5ef51535e5f7a2b",
+        "adaptedSourceSHA256": "afed635ef29ec473ecddac464f10b78e940f20e2431357b0f5ef51535e5f7a2b",
+        "objectSHA256": "32c45fed589002fbe76f10a50c599e70571e3ed8585ece8002b9d7cabbca93a9",
+        "objectBytes": 26740,
+        "exitCode": 0,
+        "warningDiagnosticCount": 0
+      },
+      {
+        "path": "imlib/specs.c",
+        "originalSourceSHA256": "a1ca6d3f3c5fcdc333aa4aaf7d9d60b11bf12e9e6aa5a0df2a7b22442e89dca1",
+        "adaptedSourceSHA256": "a1ca6d3f3c5fcdc333aa4aaf7d9d60b11bf12e9e6aa5a0df2a7b22442e89dca1",
+        "objectSHA256": "73377ca6887340fce87052dd6201e9ef5b3923db8630ee3f65c421dffb6c8545",
+        "objectBytes": 25230,
+        "exitCode": 0,
+        "warningDiagnosticCount": 5
+      },
+      {
+        "path": "imlib/sprite.c",
+        "originalSourceSHA256": "f1013c87a9394fdbdb44aac3e38b182405253e17279930a73a5f393f604461d1",
+        "adaptedSourceSHA256": "f1013c87a9394fdbdb44aac3e38b182405253e17279930a73a5f393f604461d1",
+        "objectSHA256": "fcd6f257b1c9565c89242c9c45b4015f20b8a75fd802e806f91458b12cd469af",
+        "objectBytes": 5737,
+        "exitCode": 0,
+        "warningDiagnosticCount": 0
+      },
+      {
+        "path": "imlib/status.c",
+        "originalSourceSHA256": "849d328b80eb41e3ac1cede738a19bdd3f3178076ce18a5d57b2d452cb07738d",
+        "adaptedSourceSHA256": "849d328b80eb41e3ac1cede738a19bdd3f3178076ce18a5d57b2d452cb07738d",
+        "objectSHA256": "0a5f5c84231e86f39c2190861805e2ab40f36f3e3d2a5b2439800581df2a2a2c",
+        "objectBytes": 3418,
+        "exitCode": 0,
+        "warningDiagnosticCount": 1
+      },
+      {
+        "path": "imlib/supmorph.c",
+        "originalSourceSHA256": "0ed7165fb1cec0c7e7b8baca7f8d8d4533d8fbb510ddf2c2f12e90b305b88b7a",
+        "adaptedSourceSHA256": "0ed7165fb1cec0c7e7b8baca7f8d8d4533d8fbb510ddf2c2f12e90b305b88b7a",
+        "objectSHA256": "a41870afc28619d8814d579b246cd481e3046c71064b046d2439bf5c4a55cf20",
+        "objectBytes": 10043,
+        "exitCode": 0,
+        "warningDiagnosticCount": 0
+      },
+      {
+        "path": "imlib/targa.c",
+        "originalSourceSHA256": "54b8da9f9b3516d78063489aa585bc8e6045ca3e17c024fbb7dce6eff08f15a0",
+        "adaptedSourceSHA256": "54b8da9f9b3516d78063489aa585bc8e6045ca3e17c024fbb7dce6eff08f15a0",
+        "objectSHA256": "2f156dd05cc54c2faea6dbfbc1d30d2907b5574a625ce9995a65f8dcf12966e1",
+        "objectBytes": 2576,
+        "exitCode": 0,
+        "warningDiagnosticCount": 0
+      },
+      {
+        "path": "imlib/texture.c",
+        "originalSourceSHA256": "8ba965e9e41562a72d05c3b143a9b624f35fc8fb9d136c4fbf7662b65c0cd9c0",
+        "adaptedSourceSHA256": "8ba965e9e41562a72d05c3b143a9b624f35fc8fb9d136c4fbf7662b65c0cd9c0",
+        "objectSHA256": "be07d4e0b39a39c399b56ab8c77540c80312bd527bc973310e4771096d0b6eab",
+        "objectBytes": 11291,
+        "exitCode": 0,
+        "warningDiagnosticCount": 0
+      },
+      {
+        "path": "imlib/timage.c",
+        "originalSourceSHA256": "9707205613f68c007ec508c2ade95b042261aaee7bbb25a737bef1b77e0bea6b",
+        "adaptedSourceSHA256": "9707205613f68c007ec508c2ade95b042261aaee7bbb25a737bef1b77e0bea6b",
+        "objectSHA256": "6563ea6c4ed13186fa4eb102a05e085a3191a63e66d601c2150e6bf9e001d921",
+        "objectBytes": 17272,
+        "exitCode": 0,
+        "warningDiagnosticCount": 0
+      },
+      {
+        "path": "imlib/tools.c",
+        "originalSourceSHA256": "97a767593eb51ea60c05d6548d3d3b2dff5b3013742d0f40019e483b3d3aa9f6",
+        "adaptedSourceSHA256": "97a767593eb51ea60c05d6548d3d3b2dff5b3013742d0f40019e483b3d3aa9f6",
+        "objectSHA256": "4908a962dbe0c919be1d242867312d50e22e3c82d75da634ff9ee201385a49f7",
+        "objectBytes": 8375,
+        "exitCode": 0,
+        "warningDiagnosticCount": 1
+      },
+      {
+        "path": "imlib/visobj.c",
+        "originalSourceSHA256": "0bbb723642ccf32112f9e9d62fd94a9f90366cdcddb5f1b1638b214169abaf8e",
+        "adaptedSourceSHA256": "0bbb723642ccf32112f9e9d62fd94a9f90366cdcddb5f1b1638b214169abaf8e",
+        "objectSHA256": "b5412721f370e57f69aca030e1afac4e041acfd3ab10396783471ee2ea5ee403",
+        "objectBytes": 4551,
+        "exitCode": 0,
+        "warningDiagnosticCount": 0
+      },
+      {
+        "path": "imlib/xwdread.c",
+        "originalSourceSHA256": "c691624c62bc87185463b69951a0955988520ed982e0257bccdc1f880acfb1f5",
+        "adaptedSourceSHA256": "c691624c62bc87185463b69951a0955988520ed982e0257bccdc1f880acfb1f5",
+        "objectSHA256": "4a21007859673d64828e5bfdb637e5315a274e0422a651f6499caa2a59c46da3",
+        "objectBytes": 13161,
+        "exitCode": 0,
+        "warningDiagnosticCount": 1
+      }
+    ]
+  },
+  "strictLink": {
+    "scope": "Strict link of97coreobjects, all diagnostics enabled to inventory omitted platform/network implementations; not a playable browser build",
+    "exitCode": 1,
+    "objectCount": 97,
+    "logSHA256": "97dee306a8c4e9caac7336cb150bbcf44c3606213a4b99cf32ccb933176b46eb",
+    "undefinedSymbols": [
+      "JCMouse::set_position(int, int)",
+      "JCMouse::set_shape(image*, int, int)",
+      "close_graphics()",
+      "current_background",
+      "event_handler::event_handler(image*, palette*)",
+      "event_handler::event_waiting()",
+      "event_handler::get_event(event&)",
+      "event_handler::~event_handler()",
+      "get_directory(char*, char**&, int&, char**&, int&)",
+      "image::delete_page()",
+      "image::make_page(short, short, unsigned char*)",
+      "joy_calibrate()",
+      "joy_init(int, char**)",
+      "joy_status(int&, int&, int&, int&, int&)",
+      "milli_wait(unsigned int)",
+      "net_protocol::first",
+      "palette::load()",
+      "screen",
+      "set_mode(int, int, char**)",
+      "song::play(unsigned char)",
+      "song::playing()",
+      "song::set_volume(int)",
+      "song::song(char*)",
+      "song::stop(long)",
+      "song::~song()",
+      "sound_effect::play(int, int, int)",
+      "sound_effect::sound_effect(char*)",
+      "sound_effect::~sound_effect()",
+      "sound_init(int, char**)",
+      "sound_uninit()",
+      "time_marker::diff_time(time_marker*)",
+      "time_marker::get_time()",
+      "time_marker::time_marker()",
+      "timer_init()",
+      "timer_uninit()",
+      "update_dirty(image*, int, int)"
+    ],
+    "undefinedSymbolCount": 36
+  },
+  "codeScope": [
+    "Archived Crack dot Com source release retained; no generic root-license inference for third-party files.",
+    "Selected GIF decoder carries Steven A. Bennett permission requiring credit; it is not all-public-domain.",
+    "Watcom wildargv.c has a restrictive notice, is not in the selected original Automake/core-probe source list, and stays excluded.",
+    "Modern GPL SDL adapter and retail/source platform/SDK binaries were not used. Complete future linked dependency/source closure remains unaudited."
+  ],
+  "limitations": [
+    "97 object compilations do not constitute a linked engine or playable ROM-free game.",
+    "36 unresolved platform/network symbols remain; browser rendering/input/timing/filesystem/save/scheduling not implemented.",
+    "Legacy warnings and function-pointer execution semantics remain unverified; no runtime tests performed.",
+    "No shareware per-file mapping or complete independent graphics/animation/audio/text/maps pack established.",
+    "No assets, no browser player, no audio, no integration/deployment/title count or clean-room certification."
+  ],
+  "buildScripts": {
+    "initialSHA256": "b90a15a4669612723080662e4a06770836155b643164232d4f0603e366c10466",
+    "compatibleSHA256": "8f41f0ff207a46892576e749ab77005b3138e205a776d895c9b2d6c4fc393fe6"
+  },
+  "componentCompilePass": true,
+  "browserBuildPass": false,
+  "gameplayTested": false,
+  "catalogEntries": 83
+}
