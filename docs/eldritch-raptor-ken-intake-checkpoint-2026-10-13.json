@@ -1,0 +1,31 @@
+{
+  "reviewedAt": "2026-10-13T23:25:32.418948+00:00",
+  "audit": "eldritch-raptor-ken-source-intake-2026-10-13.md",
+  "evidence": "eldritch-raptor-ken-source-snapshots-2026-10-13.json",
+  "gameIdentities": 3,
+  "sourceRepositories": 4,
+  "officialArchiveReleases": 1,
+  "unresolvedRepositoryLookups": 1,
+  "selectedTextFiles": 48,
+  "eligibleIntegrations": 0,
+  "developerLicensedCandidatesPendingPortProbe": [
+    "Eldritch official 2019-04-16 source release"
+  ],
+  "blockedByCodeLicense": [
+    "Raptor GPL route",
+    "Ken Labyrinth inherited noncommercial/Internet-only route"
+  ],
+  "catalogEntries": 85,
+  "catalogValuesIdenticalToHead": true,
+  "catalogGitBlobMatchesHead": true,
+  "runtimeChanged": false,
+  "sourceDistributionsChanged": false,
+  "buildAttempted": false,
+  "browserOpened": false,
+  "gameplayTested": false,
+  "audioTested": false,
+  "deployed": false,
+  "historicalFiveDecompMilestone": "4/5 unchanged",
+  "protectedWork": "Mario Party 2/3 and Halo untouched; prior ROM research private",
+  "nextAction": "Private source-only Emscripten probe for Eldritch 2019: platform selection, event loop, WebGL and muted audio adapters; exact selected dependency closure, then independent replacement content and gameplay. This remains an original-source port candidate, not a decomp addition."
+}

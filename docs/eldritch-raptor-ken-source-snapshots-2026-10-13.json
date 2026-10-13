@@ -1,0 +1,877 @@
+{
+  "reviewedAt": "2026-10-13T23:25:32.418948+00:00",
+  "scope": "Four pinned repository trees and 20 selected repository texts, two official documents, and 26 selected CRC-validated official source-archive texts. No complete archive/body hash, original media, executable/dependency/tool binary, retail package or ROM imported. No build or player.",
+  "snapshots": [
+    {
+      "repository": "MinorKeyGames/Eldritch",
+      "revision": "a6554a05c55920d32ed2f6c5d3f9770e8e2cf517",
+      "starsAtRead": 105,
+      "apiLicense": {
+        "key": "other",
+        "name": "Other",
+        "spdx_id": "NOASSERTION",
+        "url": null,
+        "node_id": "MDc6TGljZW5zZTA="
+      },
+      "treeTruncated": false,
+      "treeEntryCount": 1764,
+      "privateTreeSha256": "8b42598a614f20580f2f0c07281a4da0017b4d9540b24f914f6682b3ada6fc4f",
+      "rootFiles": [
+        "Eldritch-Release.exe",
+        "license.txt",
+        "readme.txt"
+      ],
+      "grantNamedFiles": [
+        "license.txt"
+      ],
+      "selectedTextFiles": [
+        {
+          "path": "license.txt",
+          "bytes": 4415,
+          "sha256": "45283f97421a41f1b05f8e18f80df667c9a77e17d37f4bde4de0604dcbd90087",
+          "url": "https://github.com/MinorKeyGames/Eldritch/blob/a6554a05c55920d32ed2f6c5d3f9770e8e2cf517/license.txt"
+        },
+        {
+          "path": "readme.txt",
+          "bytes": 2112,
+          "sha256": "57d34d13244621e0a235f3ec73928255287103c15d57f4dfa2b1eaf808f6e580",
+          "url": "https://github.com/MinorKeyGames/Eldritch/blob/a6554a05c55920d32ed2f6c5d3f9770e8e2cf517/readme.txt"
+        }
+      ]
+    },
+    {
+      "repository": "skynettx/dosraptor",
+      "revision": "4403569505c215c6cebe02cc3344e670499def1d",
+      "starsAtRead": 340,
+      "apiLicense": {
+        "key": "gpl-2.0",
+        "name": "GNU General Public License v2.0",
+        "spdx_id": "GPL-2.0",
+        "url": "https://api.github.com/licenses/gpl-2.0",
+        "node_id": "MDc6TGljZW5zZTg="
+      },
+      "treeTruncated": false,
+      "treeEntryCount": 233,
+      "privateTreeSha256": "d56febbbd99ba21367c4961c3253c7e9628216747040871be116ecc46d6b6c64",
+      "rootFiles": [
+        "LICENSE",
+        "README.md"
+      ],
+      "grantNamedFiles": [
+        "LICENSE"
+      ],
+      "selectedTextFiles": [
+        {
+          "path": "LICENSE",
+          "bytes": 18092,
+          "sha256": "8177f97513213526df2cf6184d8ff986c675afb514d4e68a404010521b880643",
+          "url": "https://github.com/skynettx/dosraptor/blob/4403569505c215c6cebe02cc3344e670499def1d/LICENSE"
+        },
+        {
+          "path": "README.md",
+          "bytes": 906,
+          "sha256": "98a0de946c2cbfc573384ddecbf0b81ff5633978764fab8a927c58ee82a59e31",
+          "url": "https://github.com/skynettx/dosraptor/blob/4403569505c215c6cebe02cc3344e670499def1d/README.md"
+        }
+      ]
+    },
+    {
+      "repository": "skynettx/raptor",
+      "revision": "746c35a256bfa2afc6732c7923be9e2e777d6bf0",
+      "starsAtRead": 130,
+      "apiLicense": {
+        "key": "gpl-2.0",
+        "name": "GNU General Public License v2.0",
+        "spdx_id": "GPL-2.0",
+        "url": "https://api.github.com/licenses/gpl-2.0",
+        "node_id": "MDc6TGljZW5zZTg="
+      },
+      "treeTruncated": false,
+      "treeEntryCount": 880,
+      "privateTreeSha256": "0fe73c9e86b891e7c1af8a0d7fefeb704cc1a8c7451d80139714e98a8c678f8e",
+      "rootFiles": [
+        ".gitignore",
+        "CMakeLists.txt",
+        "LICENSE",
+        "README.md",
+        "SETUP(ADLIB).INI",
+        "SETUP(MIDI).INI",
+        "osxbuild.sh",
+        "win32build.bat"
+      ],
+      "grantNamedFiles": [
+        "LICENSE",
+        "include/SDL2-devel-2.28.2-VC/SDL2-2.28.2/COPYING.txt",
+        "include/SDL2-devel-2.28.2-mingw/SDL2-2.28.2/COPYING.txt",
+        "include/SDL2-devel-2.28.2-mingw/SDL2-2.28.2/test/COPYING",
+        "include/SDL2-devel-2.28.2-mingw/SDL2-2.28.2/test/unifont-13.0.06-license.txt",
+        "include/TinySoundFont/LICENSE",
+        "pkg/android/license/LICENSE",
+        "pkg/osx/create-dmg/LICENSE"
+      ],
+      "selectedTextFiles": [
+        {
+          "path": "CMakeLists.txt",
+          "bytes": 7538,
+          "sha256": "a07849925a62879e5824b6e5b3e4ac349f8ddc52c8c12ae901e0d8850439500e",
+          "url": "https://github.com/skynettx/raptor/blob/746c35a256bfa2afc6732c7923be9e2e777d6bf0/CMakeLists.txt"
+        },
+        {
+          "path": "LICENSE",
+          "bytes": 18092,
+          "sha256": "8177f97513213526df2cf6184d8ff986c675afb514d4e68a404010521b880643",
+          "url": "https://github.com/skynettx/raptor/blob/746c35a256bfa2afc6732c7923be9e2e777d6bf0/LICENSE"
+        },
+        {
+          "path": "README.md",
+          "bytes": 9562,
+          "sha256": "5fd099e03c481e461feacafb8eaf8dd66552ec3290541c703f546f759a1f48c0",
+          "url": "https://github.com/skynettx/raptor/blob/746c35a256bfa2afc6732c7923be9e2e777d6bf0/README.md"
+        },
+        {
+          "path": "include/TinySoundFont/LICENSE",
+          "bytes": 1155,
+          "sha256": "7111bf1e87fbf50e036fbf3ad7827e14b6f0ecc46e47eb6247ea03bbd37c5e44",
+          "url": "https://github.com/skynettx/raptor/blob/746c35a256bfa2afc6732c7923be9e2e777d6bf0/include/TinySoundFont/LICENSE"
+        },
+        {
+          "path": "include/textscreen/include/txt_sdl.c",
+          "bytes": 37453,
+          "sha256": "0ffeb30a743296e98070ef9e1cbe66ebc41746676dfb99ecd5234380afca9859",
+          "url": "https://github.com/skynettx/raptor/blob/746c35a256bfa2afc6732c7923be9e2e777d6bf0/include/textscreen/include/txt_sdl.c"
+        },
+        {
+          "path": "include/textscreen/include/CMakeLists.txt",
+          "bytes": 1315,
+          "sha256": "6f0dad96117818428c841bff99c1792238b0a419a232f88a7ee4354327ff5fea",
+          "url": "https://github.com/skynettx/raptor/blob/746c35a256bfa2afc6732c7923be9e2e777d6bf0/include/textscreen/include/CMakeLists.txt"
+        }
+      ]
+    },
+    {
+      "repository": "EXL/KenLab3d",
+      "revision": "3f6a18272f41c027870f2207e63703d05be624d6",
+      "starsAtRead": 12,
+      "apiLicense": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdx_id": "MIT",
+        "url": "https://api.github.com/licenses/mit",
+        "node_id": "MDc6TGljZW5zZTEz"
+      },
+      "treeTruncated": false,
+      "treeEntryCount": 465,
+      "privateTreeSha256": "2ddb8708793a92109a1e450c55f6c01c7f3b32f2e25bf013cc98d3cca36aabb0",
+      "rootFiles": [
+        ".gitignore",
+        "License.md",
+        "ReadMe.md",
+        "build.gradle",
+        "gradlew",
+        "gradlew.bat",
+        "settings.gradle"
+      ],
+      "grantNamedFiles": [
+        "License.md",
+        "docs/Glues/License.txt",
+        "docs/LodePNG/License.txt",
+        "docs/SDL2/COPYING.txt",
+        "kenlab3d/src/main/cpp/SDL2/include/SDL_copying.h"
+      ],
+      "selectedTextFiles": [
+        {
+          "path": "License.md",
+          "bytes": 1088,
+          "sha256": "9a857fbdf10385c50b72993482bf23b2a2280b12a316fc153ac51585cfa369ba",
+          "url": "https://github.com/EXL/KenLab3d/blob/3f6a18272f41c027870f2207e63703d05be624d6/License.md"
+        },
+        {
+          "path": "ReadMe.md",
+          "bytes": 1957,
+          "sha256": "051d1a316b5bbc47674b641021fb6669b3dfe542de9833e9f89899e56d7f4821",
+          "url": "https://github.com/EXL/KenLab3d/blob/3f6a18272f41c027870f2207e63703d05be624d6/ReadMe.md"
+        },
+        {
+          "path": "build.gradle",
+          "bytes": 335,
+          "sha256": "748eee052416e04e6c5fee63348586bfc706a1b2e6de5b81f4e2e20e3a757924",
+          "url": "https://github.com/EXL/KenLab3d/blob/3f6a18272f41c027870f2207e63703d05be624d6/build.gradle"
+        },
+        {
+          "path": "docs/KenLab3d/ReadMe.txt",
+          "bytes": 9836,
+          "sha256": "41a7854c78d7033dff03d95f9228bd9e6b0322e657612fb61313d024a312ea0d",
+          "url": "https://github.com/EXL/KenLab3d/blob/3f6a18272f41c027870f2207e63703d05be624d6/docs/KenLab3d/ReadMe.txt"
+        },
+        {
+          "path": "kenlab3d/src/main/assets/KenLabData/README.TXT",
+          "bytes": 2245,
+          "sha256": "4e48ed6fbef520c9c78d5989a8d1830b693b4afe4a0b1caf2b23e31d31828f83",
+          "url": "https://github.com/EXL/KenLab3d/blob/3f6a18272f41c027870f2207e63703d05be624d6/kenlab3d/src/main/assets/KenLabData/README.TXT"
+        },
+        {
+          "path": "kenlab3d/src/main/cpp/Android.mk",
+          "bytes": 37,
+          "sha256": "b944a6752c2da4cee1de8afafd928931d326210d19e4eee51850d7aa1a28281f",
+          "url": "https://github.com/EXL/KenLab3d/blob/3f6a18272f41c027870f2207e63703d05be624d6/kenlab3d/src/main/cpp/Android.mk"
+        },
+        {
+          "path": "kenlab3d/src/main/cpp/KenLab3D/Android.mk",
+          "bytes": 1579,
+          "sha256": "9a93ebc502e91fc501f8e2513e791960afce6334f9bb30e7ab1b5709e57c870d",
+          "url": "https://github.com/EXL/KenLab3d/blob/3f6a18272f41c027870f2207e63703d05be624d6/kenlab3d/src/main/cpp/KenLab3D/Android.mk"
+        },
+        {
+          "path": "docs/Glues/License.txt",
+          "bytes": 1483,
+          "sha256": "823deb4673d3f26aa8c90e704888299648f00be3262f9363eaeecedcd65b936d",
+          "url": "https://github.com/EXL/KenLab3d/blob/3f6a18272f41c027870f2207e63703d05be624d6/docs/Glues/License.txt"
+        },
+        {
+          "path": "docs/LodePNG/License.txt",
+          "bytes": 907,
+          "sha256": "c85a5c3062b3265f3bc76af9565add5c3161570bee5466ef21447d18303736bd",
+          "url": "https://github.com/EXL/KenLab3d/blob/3f6a18272f41c027870f2207e63703d05be624d6/docs/LodePNG/License.txt"
+        },
+        {
+          "path": "docs/SDL2/COPYING.txt",
+          "bytes": 910,
+          "sha256": "15abc560c4b69357124dcfc6e36e0b5a7f29fa123618e7dc84ee46a301af48f3",
+          "url": "https://github.com/EXL/KenLab3d/blob/3f6a18272f41c027870f2207e63703d05be624d6/docs/SDL2/COPYING.txt"
+        }
+      ]
+    }
+  ],
+  "officialDocuments": [
+    {
+      "url": "https://eldritchgame.com/bin/license.txt",
+      "bytes": 5327,
+      "sha256": "df9dcef32958a8c0098c9ecb6e665920e046497269c5fac9a8eae39d8f693d81"
+    },
+    {
+      "url": "https://eldritchgame.com/bin/readme.txt",
+      "bytes": 1886,
+      "sha256": "f9579ba8a8e61978c352f2e25f92193baae703f362143d7e61ddcbf323f53eae"
+    }
+  ],
+  "official2019Archive": {
+    "url": "https://eldritchgame.com/bin/Eldritch-Source-2019-04-16.zip",
+    "archiveBytes": 7625114,
+    "entryCount": 2339,
+    "httpHeaders": {
+      "last-modified": "Wed, 17 Apr 2019 05:16:39 GMT",
+      "etag": "\"74599a-586b2fd81dbc0\"",
+      "accept-ranges": "bytes",
+      "content-length": "7625114",
+      "content-type": "application/zip"
+    },
+    "selectedTextMembers": [
+      {
+        "path": "license.txt",
+        "bytes": 5443,
+        "sha256": "5e4fac1879aa4417c954d682b1f44ef8b460bf784e97f987c94eb6bb30467c30",
+        "crc32": 2785535158,
+        "localHeaderOffset": 6324375
+      },
+      {
+        "path": "readme.txt",
+        "bytes": 1930,
+        "sha256": "9f38cf96bfa7ff1b8fd07250d83443a9b2624b45e2c485a7560ae9f0de0a4c49",
+        "crc32": 2552642269,
+        "localHeaderOffset": 7258547
+      },
+      {
+        "path": "Code/Projects/Eld/Eld.cbp",
+        "bytes": 26476,
+        "sha256": "995371a2f570615f1a0e528292a744e410764d1d536c189a1de8032b0dfaaea3",
+        "crc32": 2325865623,
+        "localHeaderOffset": 1607447
+      },
+      {
+        "path": "Code/Libraries/SoLoud/SoLoud.cbp",
+        "bytes": 4695,
+        "sha256": "b8b26d390d55a77bbf39ff232c636e6f318adf55883b5bf3eee750aeb056f947",
+        "crc32": 3277932481,
+        "localHeaderOffset": 1159000
+      },
+      {
+        "path": "Code/Libraries/3D/3D.cbp",
+        "bytes": 7411,
+        "sha256": "d30e7b75adec4d676678328ac365d2e693b5eabdfc0739c1a5bf63f1f9ee5868",
+        "crc32": 1103968443,
+        "localHeaderOffset": 5711
+      },
+      {
+        "path": "Code/Libraries/Framework/Framework.cbp",
+        "bytes": 3522,
+        "sha256": "f7b2ea90a1fdb398fc8e8e998f30c1099ac9609ff4e3905f223f7d87ad3042dc",
+        "crc32": 1300125482,
+        "localHeaderOffset": 772493
+      },
+      {
+        "path": "Code/Libraries/Core/Core.cbp",
+        "bytes": 8536,
+        "sha256": "ff30afd6c5c76d19cbd08abe48c613ac9a10ad9da8852a4fa3cb64d868740afc",
+        "crc32": 1185820580,
+        "localHeaderOffset": 172409
+      },
+      {
+        "path": "Code/Libraries/Framework/src/framework3d.cpp",
+        "bytes": 28042,
+        "sha256": "a43e27cb2188d2e92a0c61b569b90216b5faf153f4892ae080fb1a96b15587da",
+        "crc32": 2264783673,
+        "localHeaderOffset": 776412
+      },
+      {
+        "path": "Code/Libraries/3D/src/GL2/gl2renderer.cpp",
+        "bytes": 36654,
+        "sha256": "a063705e85129d1db6d2623c8bb275a38600df137c2847cac01e8406f8c75408",
+        "crc32": 309536527,
+        "localHeaderOffset": 70838
+      },
+      {
+        "path": "Code/Libraries/3D/src/GL2/gl2.h",
+        "bytes": 1579,
+        "sha256": "b93e3c9fbf179acfcfdec3304e6ede9326d715eaf262dfcb467b37413ef11543",
+        "crc32": 723329415,
+        "localHeaderOffset": 64120
+      },
+      {
+        "path": "Code/Libraries/SoLoud/src/soloud.h",
+        "bytes": 19285,
+        "sha256": "52d12cce3a46171e3319ccbc407b5cd2d819afeddde90e73495bfc311118ede0",
+        "crc32": 3728718960,
+        "localHeaderOffset": 1298385
+      },
+      {
+        "path": "Code/Libraries/SoLoud/src/core/soloud.cpp",
+        "bytes": 43826,
+        "sha256": "7c1b1687528f81d68181248e3c7557a62ea8235f053e6e87b839725d5cd4496c",
+        "crc32": 230401594,
+        "localHeaderOffset": 1246800
+      },
+      {
+        "path": "Code/Libraries/SoLoud/src/backend/null/soloud_null.cpp",
+        "bytes": 1709,
+        "sha256": "c947b4c9c43e1eb06140d54455bc45648c891f8bf28b5a1ae8214fe12b8fb651",
+        "crc32": 717452742,
+        "localHeaderOffset": 1221348
+      },
+      {
+        "path": "Code/Libraries/SoLoud/src/backend/sdl2_static/soloud_sdl2_static.cpp",
+        "bytes": 2786,
+        "sha256": "8d67561e8693ccbad6529ee8f8830a4554e282bcc07a9d4c4e74feab1acbbd52",
+        "crc32": 2652412702,
+        "localHeaderOffset": 1234310
+      },
+      {
+        "path": "Code/Libraries/SoLoud/src/audiosource/wav/stb_vorbis.h",
+        "bytes": 55,
+        "sha256": "cc67e0f1b5ad813a68c9b4a18f915f567cda8d9dc30511dbd4d0c61f5c9551ea",
+        "crc32": 2069032407,
+        "localHeaderOffset": 1217530
+      },
+      {
+        "path": "Code/Libraries/Core/src/SDL2/SDL_copying.h",
+        "bytes": 939,
+        "sha256": "9c727c723fc57927cba119b981188393bddec9894a9fbbb505f6ea901da87cb8",
+        "crc32": 207196439,
+        "localHeaderOffset": 413527
+      },
+      {
+        "path": "Code/Libraries/SoLoud/src/audiosource/wav/stb_vorbis.c",
+        "bytes": 193015,
+        "sha256": "1714639331203b68ffabc5336746ce117a868f66e38d8888d8b5117570430845",
+        "crc32": 4059369806,
+        "localHeaderOffset": 1169457
+      },
+      {
+        "path": "Code/Libraries/Core/src/TinyXML/tinyxml.h",
+        "bytes": 65163,
+        "sha256": "bce725e06a63372b5c00edb498987483c2d30c500c4ee44b3f5fe2a67b903e0b",
+        "crc32": 3119817337,
+        "localHeaderOffset": 736125
+      },
+      {
+        "path": "Code/Libraries/3D/src/GL2/gl2vertexshader.cpp",
+        "bytes": 1791,
+        "sha256": "e788923f1c9fd984c6698535113d72d59fc74832cf10d2a6871cb15122b9311b",
+        "crc32": 471073151,
+        "localHeaderOffset": 89407
+      },
+      {
+        "path": "Code/Libraries/3D/src/GL2/gl2pixelshader.cpp",
+        "bytes": 1780,
+        "sha256": "e72b88aa16db4b505fb683478e11c241ef9d9adf914d179a586868e2ff4533e0",
+        "crc32": 3801053424,
+        "localHeaderOffset": 69586
+      },
+      {
+        "path": "Code/Libraries/3D/src/GL2/gl2texture.cpp",
+        "bytes": 5226,
+        "sha256": "9d7449b723fd168b90c92145ee0b487d38393291c339de9640ffb09b5e9142aa",
+        "crc32": 2146328696,
+        "localHeaderOffset": 84589
+      },
+      {
+        "path": "Code/Libraries/Audio/Audio.cbp",
+        "bytes": 3458,
+        "sha256": "2703e682156f14ae4d05fb3cc25a7f42f15420ea03fcd66e8f21b32cbcb8fb5d",
+        "crc32": 1168256470,
+        "localHeaderOffset": 148011
+      },
+      {
+        "path": "Code/Projects/Eld/Eld.vcxproj",
+        "bytes": 39950,
+        "sha256": "ba1c7ea52307a1a8c3fbd242b921d8ec24cda31da0ba52951a17ee0e26a82699",
+        "crc32": 1757486923,
+        "localHeaderOffset": 1616152
+      },
+      {
+        "path": "Code/Libraries/Core/src/core.h",
+        "bytes": 4929,
+        "sha256": "143f371205c7f56c1ca2c8bd2843cdcd977a84d992905799bf71765f4e43f9f5",
+        "crc32": 894709651,
+        "localHeaderOffset": 288305
+      },
+      {
+        "path": "Code/Libraries/Core/src/versions.h",
+        "bytes": 947,
+        "sha256": "0fcf4cf5200d2e55ea0f63a7c8059ceed07802332d462a7c01b1bee9a996cf3e",
+        "crc32": 3043322530,
+        "localHeaderOffset": 763406
+      },
+      {
+        "path": "Code/Projects/Eld/src/Achievements/achievementmanager_steam.cpp",
+        "bytes": 2096,
+        "sha256": "c6fddb7f9519083f18cb60d3f0a8c96ec245db2c7213153d962451e4c151edc2",
+        "crc32": 1849172450,
+        "localHeaderOffset": 1624209
+      }
+    ],
+    "rangeReads": [
+      {
+        "offset": 6324375,
+        "bytes": 30,
+        "sha256": "3eeec4e54d40e8812132d3fcc90939be1deaa656927693480c8d8e816e82febc"
+      },
+      {
+        "offset": 6324405,
+        "bytes": 38,
+        "sha256": "0df38e56da1359db6ed642081c0f845dbd28ec4de47a1069c5643a61a136234e"
+      },
+      {
+        "offset": 6324443,
+        "bytes": 1787,
+        "sha256": "ac0bacdbb028b298e392af4d06a41fc011bdb47fd215fbc2d69c8fb5403d0140"
+      },
+      {
+        "offset": 7258547,
+        "bytes": 30,
+        "sha256": "c93525016821303daed8ed9549158298375d5c4a9bd32688f646632b2f4b9b68"
+      },
+      {
+        "offset": 7258577,
+        "bytes": 37,
+        "sha256": "902cdc949f15fee8f0fe0cc5c7a1fec890e10a408195b941066a6ae110c2a9ca"
+      },
+      {
+        "offset": 7258614,
+        "bytes": 967,
+        "sha256": "4e3c6e75d3e4c868248328b438e425fe21d464cecc096591a33b656c49abce5d"
+      },
+      {
+        "offset": 1607447,
+        "bytes": 30,
+        "sha256": "6999299f9cc97f988ce6a987d2b79908e22da2a5aad3f4aaa918377ad2c276f4"
+      },
+      {
+        "offset": 1607477,
+        "bytes": 52,
+        "sha256": "d0e4da479925423143eff6373a4b3478f04b3e566412a4e902d363c928afc28d"
+      },
+      {
+        "offset": 1607529,
+        "bytes": 2830,
+        "sha256": "8ee5b7d5c345e62f9f10b1bfd5c15e68af8ad6c3da063341c4be695f2180e112"
+      },
+      {
+        "offset": 1159000,
+        "bytes": 30,
+        "sha256": "3608dbf22e24ca5332e9a5d78aa080c4750c798779bce3ea17924b61295709ec"
+      },
+      {
+        "offset": 1159030,
+        "bytes": 59,
+        "sha256": "1004fbb3359cce7ebef5466813abdaeb33fce675aaefbaf45e677605e8235388"
+      },
+      {
+        "offset": 1159089,
+        "bytes": 786,
+        "sha256": "9ae6e87f72dfa02a370ac3bc3caee1f4e6db268c39229e0eec0fd508502471b3"
+      },
+      {
+        "offset": 5711,
+        "bytes": 30,
+        "sha256": "a8222f9fe24394cff13207eeb37b70e61cbb404fed0f0e5930d23cbe9b414800"
+      },
+      {
+        "offset": 5741,
+        "bytes": 51,
+        "sha256": "4fd79c92c55f1ee6374e6d78aaa5b135076d031edee5836635cd5ee67554699a"
+      },
+      {
+        "offset": 5792,
+        "bytes": 992,
+        "sha256": "978ebcb423cf08fbc6925efd72a556f9599dcafc101cdccc2130cf4df554a976"
+      },
+      {
+        "offset": 772493,
+        "bytes": 30,
+        "sha256": "0afbdffddaac63f81d6f628243974491c3dbdf1185aba58372683f85d5cc000c"
+      },
+      {
+        "offset": 772523,
+        "bytes": 65,
+        "sha256": "76801b2972557abd00049e70e9026f24844300aebaab8b8703138acd1b6e7952"
+      },
+      {
+        "offset": 772588,
+        "bytes": 543,
+        "sha256": "4c7f09bf38be7d435d385c06c069c5d8b86ba1595358cf0ed5e9f55f5618dbe5"
+      },
+      {
+        "offset": 172409,
+        "bytes": 30,
+        "sha256": "e43c8f3fd9a2f75c10253368431897da4b244cc041c38a673d55b5b65f8482ef"
+      },
+      {
+        "offset": 172439,
+        "bytes": 55,
+        "sha256": "09961cacd7ea94614f454524537f59389daa84b38ce3c501cc1c4f381ec6f0b4"
+      },
+      {
+        "offset": 172494,
+        "bytes": 1268,
+        "sha256": "5003a8572a7036129362c20212418459c1baaaa2a46262fa483539eb8b77db44"
+      },
+      {
+        "offset": 776412,
+        "bytes": 30,
+        "sha256": "fd68aeffdf8d4d24f86d0c7fac61d78bb660e1f163b8920e1579558efa59e60c"
+      },
+      {
+        "offset": 776442,
+        "bytes": 71,
+        "sha256": "5df9413e98e659d55a11d4675e1fbb8d951bfcc8b7a9b7fdbc98e65f952c6d90"
+      },
+      {
+        "offset": 776513,
+        "bytes": 6952,
+        "sha256": "f35271333f25b09b22ebdac5394e83cf72ecdd7a008ee8fceb1bdcb2d9c61d9c"
+      },
+      {
+        "offset": 70838,
+        "bytes": 30,
+        "sha256": "68973723e4159095494e4144506481a2eb6780a3063c7a88840ff7dac313200b"
+      },
+      {
+        "offset": 70868,
+        "bytes": 68,
+        "sha256": "f81523e153dfb7ee91c9ce93fa7955eedb40edd3601be7649192e482cd9bd8e4"
+      },
+      {
+        "offset": 70936,
+        "bytes": 7450,
+        "sha256": "12f8be5443d7fe68b23f4f72c4444dbb14eee0978206fa2cfc0171b9b2730ee0"
+      },
+      {
+        "offset": 64120,
+        "bytes": 30,
+        "sha256": "7d57e507f3126e43b8f44f25762a1bacc7cba09575af4b978908b3fdd9c0201f"
+      },
+      {
+        "offset": 64150,
+        "bytes": 58,
+        "sha256": "b69b12c98440f2ce858538d3b77d72968e3c3c9439c1bf8c02d87bdade3694cf"
+      },
+      {
+        "offset": 64208,
+        "bytes": 537,
+        "sha256": "ffa009fb27be52ec9e87c0e5189e0a60190d464eb4186867dd9c6706f178a567"
+      },
+      {
+        "offset": 1298385,
+        "bytes": 30,
+        "sha256": "fc48d2bf4edab03946aef1fd27d5569d10f861d79f27a30997372d92b1ae56ec"
+      },
+      {
+        "offset": 1298415,
+        "bytes": 61,
+        "sha256": "65cfec612ad3b0678acd13d5e6abc581f37d6b0b6d439b33ff084fc8091f094c"
+      },
+      {
+        "offset": 1298476,
+        "bytes": 5277,
+        "sha256": "46dd2f6f1322cf47e017467d3e0a819cdad86b4bd05e5ea21e1e3689d801378c"
+      },
+      {
+        "offset": 1246800,
+        "bytes": 30,
+        "sha256": "d7b2b1278c30bf38d7b9c851d86d918152593ec31ababde0e2cd3669b90f9570"
+      },
+      {
+        "offset": 1246830,
+        "bytes": 68,
+        "sha256": "b3b4f189ca00629701225659a91f5dfe5cf6eed9a4dba9ecbee6855420e587da"
+      },
+      {
+        "offset": 1246898,
+        "bytes": 8237,
+        "sha256": "8c0d04c17eeb751a50a6087c7efc65827e7049c18e7b3ca8f9edb056af8e4935"
+      },
+      {
+        "offset": 1221348,
+        "bytes": 30,
+        "sha256": "9538b285c4418110b65d04e6024a890007f3ee19578eb3cef7be624d4c960b84"
+      },
+      {
+        "offset": 1221378,
+        "bytes": 81,
+        "sha256": "875e7af95061371758e4fc75c30fb0b1302b7ace3652b3675cea906a84c4d776"
+      },
+      {
+        "offset": 1221459,
+        "bytes": 816,
+        "sha256": "0f98fc71ae225281b7ac8df85437def2f65ef6b5090bb8bb07dec27ea68998d5"
+      },
+      {
+        "offset": 1234310,
+        "bytes": 30,
+        "sha256": "53568b436c3ead84fe9260320c99f76537b9ef1223a2876b03f7ad51751610d6"
+      },
+      {
+        "offset": 1234340,
+        "bytes": 95,
+        "sha256": "9e69237fb83582e6ba3e354b4f2397a320624c835cbf4b3aabae8ad6c80190fe"
+      },
+      {
+        "offset": 1234435,
+        "bytes": 1159,
+        "sha256": "4d992d63144dca60fc07d39c9dd80ed578eb6fbe145c5ecc3844ba23cc2cd357"
+      },
+      {
+        "offset": 1217530,
+        "bytes": 30,
+        "sha256": "72aeea681f29abf3561ce7b6866de916a4d563ad4b6454cf6216635ec95b325c"
+      },
+      {
+        "offset": 1217560,
+        "bytes": 81,
+        "sha256": "6f9d5d974ee46c997899a2bf3939c980c7888c54d17b62181c23ffb94ad30de3"
+      },
+      {
+        "offset": 1217641,
+        "bytes": 55,
+        "sha256": "cc67e0f1b5ad813a68c9b4a18f915f567cda8d9dc30511dbd4d0c61f5c9551ea"
+      },
+      {
+        "offset": 413527,
+        "bytes": 30,
+        "sha256": "ac59722d6e4688fae3d2a0a9e8a98bab32715333dce6ae5a44dedd9031546bc9"
+      },
+      {
+        "offset": 413557,
+        "bytes": 69,
+        "sha256": "69d18193a82354c1b9e749d397a4fbb6f9fdb148873bf04e271aba17f0505393"
+      },
+      {
+        "offset": 413626,
+        "bytes": 509,
+        "sha256": "7af0d41d6c6cdd5d7956207f718131e1e5b86b74c202d9ce6ddfaf2d75e5de44"
+      },
+      {
+        "offset": 1169457,
+        "bytes": 30,
+        "sha256": "dab1761ed036e8c9ea121f0a337b6dc23b1cb6af1cd3cb5b0c4765b7078978a3"
+      },
+      {
+        "offset": 1169487,
+        "bytes": 81,
+        "sha256": "c4817d45495062bf4673c1114ad0e6c11071440ddf520c65dda2d115e9ebf067"
+      },
+      {
+        "offset": 1169568,
+        "bytes": 47962,
+        "sha256": "630af046b214693556fba143936c8aa62bcae20496cc0283aeb5a6e7a0e38e27"
+      },
+      {
+        "offset": 736125,
+        "bytes": 30,
+        "sha256": "9555ff130965cbd27b0c7849ae957358de5650c1350ade79d66c432141225362"
+      },
+      {
+        "offset": 736155,
+        "bytes": 68,
+        "sha256": "b92425064dc2e9c4e7271467291e9f7829bb9b98f75ce3be2ecbf43b4b0433ee"
+      },
+      {
+        "offset": 736223,
+        "bytes": 16251,
+        "sha256": "2bc39a331578282b1627e8f27fb0097a4dce81d410ed51f6dce4a019cf7aa1ac"
+      },
+      {
+        "offset": 89407,
+        "bytes": 30,
+        "sha256": "296ee3922bb3a9bb8a2b17b71c3790bfe4986ed8397e3ca5ba2e567ddafee478"
+      },
+      {
+        "offset": 89437,
+        "bytes": 72,
+        "sha256": "00544d915ac8bc5fdebdb2eb1913dd2d2d909c2f89a5e837f886413693eb30e9"
+      },
+      {
+        "offset": 89509,
+        "bytes": 781,
+        "sha256": "3d02b06a86d6667ba777b8b854c47bf58514a5f837e4670274ba8e822df71081"
+      },
+      {
+        "offset": 69586,
+        "bytes": 30,
+        "sha256": "f19c033f2605dca68963683dd8ff51402b85bc3aff0c4e2974919a4a788b1cf5"
+      },
+      {
+        "offset": 69616,
+        "bytes": 71,
+        "sha256": "d6d44a2cde77612c1543c6cdcf09b049d017665153c3988bbad811878b9aadc3"
+      },
+      {
+        "offset": 69687,
+        "bytes": 788,
+        "sha256": "f080fdc48ef77d599594eb644b4b94f818ebfbae0f805937ab85c7a3cecb79b6"
+      },
+      {
+        "offset": 84589,
+        "bytes": 30,
+        "sha256": "fd77cee1da8641fffd332b84256734012ef11fd9c015a971cefcbf143eb02bc2"
+      },
+      {
+        "offset": 84619,
+        "bytes": 67,
+        "sha256": "59e9be40f6c9874a61b7b01ebb67ebc9d3bf4afa7fb589bb5266982ceb752391"
+      },
+      {
+        "offset": 84686,
+        "bytes": 1667,
+        "sha256": "26afd96832d05503befa5eaa3dcfa285b23beb35db8f6b7b4a6b1047eb844a30"
+      },
+      {
+        "offset": 148011,
+        "bytes": 30,
+        "sha256": "6efafa0b0c32dc8ff3a2329edfc60c8bd191afedfb47ecb502b15976fbe81ade"
+      },
+      {
+        "offset": 148041,
+        "bytes": 57,
+        "sha256": "a6ec60fbadf9b00285062083f9c5aa6097d2f8ac2b0fb835d656fa9719e3cc51"
+      },
+      {
+        "offset": 148098,
+        "bytes": 591,
+        "sha256": "131029982553c6f150a5e7029f12f97f712ea0117f3736d4e95f6211c0acc029"
+      },
+      {
+        "offset": 1616152,
+        "bytes": 30,
+        "sha256": "4b16c1541d0d8587d0c40c9c5c5f329a879631a8bbc5977586433c4f6ba8c102"
+      },
+      {
+        "offset": 1616182,
+        "bytes": 56,
+        "sha256": "ae64e5ed889833d01c8a3b735704287e793f0e7d4b70289680f077ad05b2026c"
+      },
+      {
+        "offset": 1616238,
+        "bytes": 4493,
+        "sha256": "7d28bc0a586c33972c7f8e40fa5d50a6636d35545a293d8a114c5367999c737a"
+      },
+      {
+        "offset": 288305,
+        "bytes": 30,
+        "sha256": "4ba6c0b082b7454c684b7f3b73833825a8252ffd12abbe32beb5474b1991ccf7"
+      },
+      {
+        "offset": 288335,
+        "bytes": 57,
+        "sha256": "bf383d8da4625af76cd02e79090ad7871db833123b15f5e127d966c3ae491d4c"
+      },
+      {
+        "offset": 288392,
+        "bytes": 1640,
+        "sha256": "e9b27366bc503a31909243109e4c27887f5e3b987e491bd70edcfdf4fa72f207"
+      },
+      {
+        "offset": 763406,
+        "bytes": 30,
+        "sha256": "a8c86b02c2fc9ce0f25747080f12b871aa146c92e2f132c8d72c9d1bf40b21b9"
+      },
+      {
+        "offset": 763436,
+        "bytes": 61,
+        "sha256": "fa19a9ee50197cb2b6673e52eb57091609059480fa8365d0f34be4b700c55a00"
+      },
+      {
+        "offset": 763497,
+        "bytes": 291,
+        "sha256": "87b3bcc3044caa30543b049c6f75887bd6ae6722f5f88efed3b04b8618f0f78b"
+      },
+      {
+        "offset": 1624209,
+        "bytes": 30,
+        "sha256": "02c22fcfdb08e92d7195cf70898bfd70bd508b213ef6621c1f46ab55ecedbd41"
+      },
+      {
+        "offset": 1624239,
+        "bytes": 90,
+        "sha256": "96954636d09845199a787ec50234d37cf9d497e3617b4b98313dab2ddff440fc"
+      },
+      {
+        "offset": 1624329,
+        "bytes": 386,
+        "sha256": "8e9155f21c754f13e713c24074da3e811fe39cb49c06e97d79fe3495684fe514"
+      }
+    ],
+    "metadataRangeReads": [
+      {
+        "offset": 7625092,
+        "bytes": 22,
+        "sha256": "55e6bd4f5e91f1fcedce0291c2a7d1cff4cecaa4e4bf8a0007bca9752afa4eb0"
+      },
+      {
+        "offset": 7259581,
+        "bytes": 365511,
+        "sha256": "370d016ed1035f9db602604aa784c7ef7d7c14b9316c254eb09afcd37b8d2605"
+      }
+    ],
+    "wholeArchiveDownloaded": false,
+    "wholeArchiveHashVerified": false,
+    "scope": "Selected bounded text members only, local header, length and CRC validated; no binaries/media/content payloads."
+  },
+  "unresolvedRepository": {
+    "repository": "kandowontu/kens-labyrinth-native-windows",
+    "status": 404,
+    "scope": "Current API lookup failed; no pin, licence or build claim established; same Ken Labyrinth identity."
+  },
+  "selectedTextFileCount": 48,
+  "catalogCheck": {
+    "entries": 85,
+    "valuesMatchHead": true,
+    "gitBlob": "10a69b5a9dc3e20ba9a75b4b51f34e02d271d81c",
+    "gitBlobMatchesHead": true,
+    "aliasMatches": [],
+    "gameIdentities": 3,
+    "pinnedRepositories": 4,
+    "officialArchiveReleases": 1,
+    "unresolvedRepositoryLookups": 1
+  }
+}
