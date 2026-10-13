@@ -1,0 +1,436 @@
+{
+  "date": "2026-10-13",
+  "repo": "videogamepreservation/abuse",
+  "pin": "01cce80eaf2ae82bafb9981162e205e42d0fae2f",
+  "classification": "Developer-released original source port using independently authored incomplete content; not decompilation or original retail campaign",
+  "scope": "Private normal-control course-one checkpoint, awaited native-save browser persistence and full browser-close/reopen load test; not a completed game or public runtime",
+  "implementation": {
+    "savePath": "/saves/course-save.spe",
+    "filesystem": "Emscripten IDBFS on /saves",
+    "startup": "Populate IDBFS before native main using run dependency; original owned pack preloaded separately at root",
+    "nativeSave": "Game generates native SPEC save; authored hook waits for FS.syncfs(false) callback before successful result/status",
+    "load": "New fixed-path native predicate checks SPEC signature, own attribution marker and player_info; ordinary L requests original native level/save loader",
+    "storageErrors": "Restore errors displayed as unavailable; sync errors return save failure, not saved status",
+    "strictLink": {
+      "exitCode": 0,
+      "undefinedSymbolsAllowed": false,
+      "coreObjects": 96,
+      "ownObjects": 4,
+      "originalEmbeddedFontExcluded": true
+    },
+    "sourcePatch": {
+      "path": "abuse/src/clisp.c",
+      "beforeSHA256": "11b24f1a8de2ac15162a4c1670a985995afc0a28533ded30c595ee5769c53390",
+      "afterSHA256": "2ead060202a7e58e73cd3ff009322b08b069d558f017d23bf4e240368c904de4",
+      "changes": [
+        "Own fixed-path save-availability predicate verifies native SPEC signature/owned marker/player_info without rewriting save",
+        "Successful native save waits for IDBFS synchronization and returns real completion status; no synthetic save/data edits"
+      ]
+    }
+  },
+  "additionalDependency": {
+    "component": "Emscripten IDBFS/FS/MEMFS JavaScript runtime",
+    "toolchainVersion": "6.0.10",
+    "toolchainPin": "d6c521a7f05449857c76bd99e396895583cf2083",
+    "IDBFSNotice": "Copyright 2013 The Emscripten Authors; SPDX MIT",
+    "rootTerms": "MIT or University of Illinois/NCSA Open Source License; selected-source notice only, not entire native dependency closure",
+    "files": [
+      {
+        "path": "LICENSE",
+        "bytes": 5093,
+        "sha256": "620a78084fc7ca97c0b5dea9abf891f3ffcadfdbf305276f099c9c4e12fc1d86"
+      },
+      {
+        "path": "src/lib/libidbfs.js",
+        "bytes": 13496,
+        "sha256": "a250ef1bd2e9c2ae7816c887576b85f32a5aebb63db1dd31ea7d651b6091c375"
+      },
+      {
+        "path": "src/lib/libfs.js",
+        "bytes": 65497,
+        "sha256": "9413d73126f19892ea8bc1d7403f12cdb3f269a3b57e70741ec0dd358b76750c"
+      },
+      {
+        "path": "src/lib/libmemfs.js",
+        "bytes": 13662,
+        "sha256": "33c41f5a0e30aa178f709d8633aa237c038e2b39671ed78f429fb2a0db18f16a"
+      }
+    ]
+  },
+  "content": {
+    "complete": false,
+    "ownContentLicense": "CC0-1.0; generator and own adapters MIT; native code/dependencies separate",
+    "filesChecked": 14,
+    "resources": 181,
+    "originalRetailInputs": false,
+    "noSaveIncludedInPreloadedPack": true
+  },
+  "verification": {
+    "audio": "No audio device; headless Edge --mute-audio",
+    "normalControlOnly": true,
+    "testSaveMemoryRNGEdits": false,
+    "firstRunSave": {
+      "bytes": 26018,
+      "sha256": "b070bbd9f634b107fab22b0c1e1f298e8f59854855f57c34fb7c85190db40a9f",
+      "values": [
+        0,
+        50,
+        100,
+        190,
+        2,
+        0,
+        100,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "flushes": 1
+    },
+    "fullRestartSave": {
+      "bytes": 26018,
+      "sha256": "b070bbd9f634b107fab22b0c1e1f298e8f59854855f57c34fb7c85190db40a9f"
+    },
+    "nativeSaveDecoded": {
+      "x": 100,
+      "y": 190,
+      "hp": 100
+    },
+    "ownMarker": true,
+    "retailMarker": false,
+    "sameOriginAndProfile": true,
+    "fullBrowserCloseReopen": true,
+    "ordinaryNativeLoad": {
+      "values": [
+        0,
+        56,
+        100,
+        190,
+        2,
+        0,
+        100,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "normalLoadVerified": true,
+      "byteIdentical": true
+    },
+    "states": [
+      {
+        "label": "first browser native menu",
+        "values": [
+          6,
+          -1,
+          50,
+          50,
+          2,
+          0,
+          100,
+          1,
+          0,
+          0,
+          0,
+          1
+        ],
+        "storage": {
+          "phase": "ready",
+          "flushes": 0,
+          "restoreError": null,
+          "lastError": null
+        }
+      },
+      {
+        "label": "first browser course started",
+        "values": [
+          0,
+          26,
+          50,
+          190,
+          2,
+          0,
+          100,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "storage": {
+          "phase": "ready",
+          "flushes": 0,
+          "restoreError": null,
+          "lastError": null
+        }
+      },
+      {
+        "label": "normal movement checkpoint",
+        "values": [
+          0,
+          44,
+          100,
+          190,
+          2,
+          0,
+          100,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "storage": {
+          "phase": "ready",
+          "flushes": 0,
+          "restoreError": null,
+          "lastError": null
+        }
+      },
+      {
+        "label": "normal S committed save",
+        "values": [
+          0,
+          50,
+          100,
+          190,
+          2,
+          0,
+          100,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "storage": {
+          "phase": "saved",
+          "flushes": 1,
+          "restoreError": null,
+          "lastError": null
+        }
+      },
+      {
+        "label": "moved away without resaving",
+        "values": [
+          0,
+          62,
+          80,
+          190,
+          2,
+          0,
+          100,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "storage": {
+          "phase": "saved",
+          "flushes": 1,
+          "restoreError": null,
+          "lastError": null
+        }
+      },
+      {
+        "label": "reopened browser native menu",
+        "values": [
+          6,
+          -1,
+          50,
+          50,
+          2,
+          0,
+          100,
+          1,
+          0,
+          0,
+          0,
+          1
+        ],
+        "storage": {
+          "phase": "ready",
+          "flushes": 0,
+          "restoreError": null,
+          "lastError": null
+        }
+      },
+      {
+        "label": "reopened browser course started",
+        "values": [
+          0,
+          26,
+          50,
+          190,
+          2,
+          0,
+          100,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "storage": {
+          "phase": "ready",
+          "flushes": 0,
+          "restoreError": null,
+          "lastError": null
+        }
+      },
+      {
+        "label": "fresh course before native L",
+        "values": [
+          0,
+          27,
+          50,
+          190,
+          2,
+          0,
+          100,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "storage": {
+          "phase": "ready",
+          "flushes": 0,
+          "restoreError": null,
+          "lastError": null
+        }
+      },
+      {
+        "label": "ordinary L restored persisted native game",
+        "values": [
+          0,
+          56,
+          100,
+          190,
+          2,
+          0,
+          100,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "storage": {
+          "phase": "ready",
+          "flushes": 0,
+          "restoreError": null,
+          "lastError": null
+        }
+      }
+    ],
+    "pageErrors": [],
+    "consoleErrors": [],
+    "missing": [],
+    "screenshotsInspected": true,
+    "closures": [
+      "First browser process/context fully closed after completed sync",
+      "Final browser process/context closed"
+    ],
+    "playersClosed": true,
+    "pass": true
+  },
+  "limitations": [
+    "One stationary course-one checkpoint and save, not all campaign/completion/damage/death save semantics or overwrites",
+    "Waited for successful browser storage commit before closing; rapid-close/crash/quota/storage-denial/corruption recovery unverified",
+    "Same origin/profile/headless Edge only; transfer, clearing data, other browsers and mobile/touch unverified",
+    "Root native gamma settings not persisted by /saves mount; native brightness dialog accepted again on reopen",
+    "Previous two-course progression/completion/restart evidence is for preceding runtime; this scoped storage test does not repeat that full route",
+    "Native help/HUD overlap remains visible; fuller authored content/challenge, code/toolchain/dependency closure and retained native warnings remain gates",
+    "Audio unavailable, no audible verification; offline edition/controller unavailable"
+  ],
+  "privateArtifacts": [
+    {
+      "name": "authored-storage.cpp",
+      "bytes": 565,
+      "sha256": "db68b88a7617044afe541edc1f9af64952d6f4b362a67a2ab9b04b3cc39faa90"
+    },
+    {
+      "name": "authored-storage-patches.json",
+      "bytes": 489,
+      "sha256": "fd7c80e997bcc75092abdd06694d7b8143ee8b18b8c433accb04d4ed9bfced7d"
+    },
+    {
+      "name": "clisp-authored-storage-compile.log",
+      "bytes": 5790,
+      "sha256": "06a46049f127cc01d54de5680bb78ca809fadfc6408c8938f9961881c207eb70"
+    },
+    {
+      "name": "build-authored-boot.py",
+      "bytes": 2123,
+      "sha256": "7d6e77ecc481658c8b26f84f3a32165193918656bf20956e407a25067688274b"
+    },
+    {
+      "name": "author-pack.py",
+      "bytes": 16476,
+      "sha256": "a26b667b730e330649ccb762866c8ceed482d4fd3b1342580e47fe5ee3d04946"
+    },
+    {
+      "name": "authored-boot.html",
+      "bytes": 1614,
+      "sha256": "41f9d8ab35d6d24d09287ba5c3c27de7015dde5bf519eb2233f3efa08acdcd9f"
+    },
+    {
+      "name": "authored-boot.js",
+      "bytes": 234880,
+      "sha256": "309c81dfafdc98a15b2fe3d895c588bfd81c96d30a91e4c29cabe504e3f26389"
+    },
+    {
+      "name": "authored-boot.wasm",
+      "bytes": 2607357,
+      "sha256": "aa37db9d641d4819a274f398b2806c3f642cba674d31de84946b72db8bbd02e5"
+    },
+    {
+      "name": "authored-boot.data",
+      "bytes": 275071,
+      "sha256": "2bd16c31ba07d699bd9b5df8e333be2b123915096e937b028472d913b8206798"
+    },
+    {
+      "name": "test-authored-persistence.cjs",
+      "bytes": 6062,
+      "sha256": "f01d9eaa7aa910e519b78556e650ce817c46afcb51eed47f6eb8c62b072500e9"
+    },
+    {
+      "name": "authored-persistence-report.json",
+      "bytes": 4381,
+      "sha256": "42fc38bfadb4c367cbc624a6e91d411b2cf1166be201093ac7232d7cefe2d0f8"
+    },
+    {
+      "name": "authored-persist-before.spe",
+      "bytes": 26018,
+      "sha256": "b070bbd9f634b107fab22b0c1e1f298e8f59854855f57c34fb7c85190db40a9f"
+    },
+    {
+      "name": "authored-persist-after.spe",
+      "bytes": 26018,
+      "sha256": "b070bbd9f634b107fab22b0c1e1f298e8f59854855f57c34fb7c85190db40a9f"
+    },
+    {
+      "name": "authored-persist-saved.png",
+      "bytes": 58337,
+      "sha256": "4d2b962494837790e8fa79574fe318c3257a2eff5528a712a5e92839d00a72f5"
+    },
+    {
+      "name": "authored-persist-restored.png",
+      "bytes": 58159,
+      "sha256": "1f36a58ed6877af2c08cd7e840213260e72829d1bc698d12e3f2c664c0be19ff"
+    }
+  ],
+  "integration": {
+    "catalogCount": 83,
+    "entryAdded": false,
+    "publicRuntime": false,
+    "deployment": false,
+    "claudeGamesTouched": false,
+    "cleanRoomCertified": false
+  }
+}
