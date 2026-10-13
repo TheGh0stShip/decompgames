@@ -1,0 +1,161 @@
+{
+  "scope": "Live native licensed DEMO normal keyboard traversal through Menu/Items/A Dark Room. Route selection reads game-created native S/Enter saves and licensed demo board contract; no RAM/save/map/score edits. Item counters, torch lighting and return passage verified.",
+  "checkpoints": [
+    {
+      "label": "menu",
+      "board": 1,
+      "ammo": 0,
+      "gems": 0,
+      "health": 100,
+      "torches": 0,
+      "torchTicks": 0,
+      "score": 0,
+      "boardName": "Menu",
+      "player": [
+        30,
+        13
+      ]
+    },
+    {
+      "label": "items-before",
+      "board": 2,
+      "ammo": 0,
+      "gems": 0,
+      "health": 100,
+      "torches": 0,
+      "torchTicks": 0,
+      "score": 0,
+      "boardName": "Items",
+      "player": [
+        30,
+        13
+      ]
+    },
+    {
+      "label": "ammo",
+      "board": 2,
+      "ammo": 15,
+      "gems": 0,
+      "health": 100,
+      "torches": 0,
+      "torchTicks": 0,
+      "score": 0,
+      "boardName": "Items",
+      "player": [
+        17,
+        5
+      ]
+    },
+    {
+      "label": "torch",
+      "board": 2,
+      "ammo": 15,
+      "gems": 0,
+      "health": 100,
+      "torches": 1,
+      "torchTicks": 0,
+      "score": 0,
+      "boardName": "Items",
+      "player": [
+        17,
+        7
+      ]
+    },
+    {
+      "label": "gem",
+      "board": 2,
+      "ammo": 15,
+      "gems": 1,
+      "health": 101,
+      "torches": 1,
+      "torchTicks": 0,
+      "score": 10,
+      "boardName": "Items",
+      "player": [
+        17,
+        9
+      ]
+    },
+    {
+      "label": "dark-before",
+      "board": 7,
+      "ammo": 15,
+      "gems": 1,
+      "health": 101,
+      "torches": 3,
+      "torchTicks": 0,
+      "score": 10,
+      "boardName": "A Dark Room",
+      "player": [
+        31,
+        13
+      ]
+    },
+    {
+      "label": "dark-lit",
+      "board": 7,
+      "ammo": 15,
+      "gems": 1,
+      "health": 101,
+      "torches": 2,
+      "torchTicks": 193,
+      "score": 10,
+      "boardName": "A Dark Room",
+      "player": [
+        31,
+        14
+      ]
+    },
+    {
+      "label": "items-return",
+      "board": 2,
+      "ammo": 15,
+      "gems": 1,
+      "health": 101,
+      "torches": 2,
+      "torchTicks": 180,
+      "score": 10,
+      "boardName": "Items",
+      "player": [
+        24,
+        7
+      ]
+    }
+  ],
+  "errors": [],
+  "missing": [],
+  "blocked": [
+    "https://static.cloudflareinsights.com/beacon.min.js/v4bc70e2c01a94c73b74392e4234840661791215815920"
+  ],
+  "itemChanges": {
+    "ammo": 15,
+    "torches": 1,
+    "gems": 1,
+    "score": 10
+  },
+  "torchActivation": {
+    "consumed": 1,
+    "ticks": 193
+  },
+  "pass": true,
+  "playersClosed": true,
+  "audio": "Native device omitted; Edge --mute-audio; audible audio unverified",
+  "saveFileHashes": {
+    "ammo.SAV": "783130dd9dafaecfe569c34bc35968c2ff8355ca3d0e2a027ffd24c51fcf9353",
+    "dark-before.SAV": "8681bfa01f5b6a9b3f05ce9349720111a02df057193b46dc4cdb5c37d3a5db90",
+    "dark-lit.SAV": "ba1cbb00fbc0b2c469b06fac7d850390ffff2fd38ee979f603bc167c8e7e25a0",
+    "gem.SAV": "ea2109033156965f5eaa4980110730764ef961d9a13851fd0bddc8d27e7a1559",
+    "items-before.SAV": "677642a5a0e34be66e6bbc41ca6160546505f5a778213c1bed777990e3e86f52",
+    "items-return.SAV": "5f2061a978f1daff86b78539c42d6d79dc5ac69694583de7b98a65a177f12a3c",
+    "menu.SAV": "5ecf7b0f71175d8bf8818570781438166d88a9c6033188aef6dd9c787863ea02",
+    "torch.SAV": "6f31211ae9259fd4775295b732d04f8e01d89638be27f2fd630a2cf90b622f74"
+  },
+  "screenshotsInspected": [
+    "gem",
+    "dark-before",
+    "dark-lit",
+    "items-return"
+  ],
+  "limits": "Three boards and selected items only; not full demo traversal, every enemy/puzzle or audio verification. Prior save/reload proof is separate.",
+  "harnessCorrections": "Initial S was ignored while paused. A movement into walkable space was required; right adjacent to return-passage text could not unpause. Corrected item x coordinate16 to17. Failed attempts do not count as interaction passes."
+}

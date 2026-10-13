@@ -41,3 +41,5 @@ Checkpoint publication: reconciled maincb76df1 deployed at https://b5c331ef.deco
 Additional reviewed released-source ports: [Pangea audit](pangea-source-intake-2026-10-13.md), Nanosaur/Bugdom/Otto Matic, each noncommercial game licence; explicit permission for re-release does not establish current permissive-code eligibility. Separate content/runtime/browser gates retained. No new entry.
 
 Additional actual-decompilation lead: [OpenJKDF2](openjkdf2-source-intake-2026-10-13.md) has upstream browser potential but unresolved reconstructed-code/content permission, selected dependency closure and current mixer migration gates. No new entry or browser test.
+
+ZZT interaction scope expanded on unchanged native release: selected ammo/torch/gem collection and counters/health/score, dark-roomtorchlighting/consumption and returnpassage through3boards verified using ordinarykeys and game-written saves. [Scoped item evidence](zzt-items-production-test.json). Full demo remains unverified, no count/classification change.

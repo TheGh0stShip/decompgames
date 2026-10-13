@@ -4592,11 +4592,11 @@
  "platform": "PC",
  "verification": {
   "status": "gameplay-tested",
-  "date": "2026-10-12",
+  "date": "2026-10-13",
   "browsers": [
    "Edge (headless, muted)"
   ],
-  "scope": "Native rebuilt candidate: keyboard movement and Creatures board transition. Live release: movement, ordinary save/exact-byte reload/visible restore; padded-font sidebar screenshot inspected, no errors/missing/external requests. Runtime/source hashes verified. Full demo traversal and audible audio unverified.",
+  "scope": "Live muted native build: keyboard movement/Creatures transition; ordinary save/exact reload/visible restore; authored glyph screenshots inspected. Menu/Items/A Dark Room traversal, ammo/torch/gem collection with counters/health/score changes, torch consumption/visible lighting and return passage verified via normal keyboard and game-written saves. Full demo traversal, remaining glyphs and audible audio unverified.",
   "playthrough": false
  }
 }
