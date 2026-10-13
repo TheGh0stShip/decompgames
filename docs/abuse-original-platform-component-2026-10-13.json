@@ -1,0 +1,230 @@
+{
+  "date": "2026-10-13",
+  "repo": "videogamepreservation/abuse",
+  "pin": "01cce80eaf2ae82bafb9981162e205e42d0fae2f",
+  "scope": "Private strict original native core + independently authored browser platform link, plus component fixture tests; no gamepack, game startup or gameplay",
+  "classification": "Original developer-released source port, not decompilation or original replacement game",
+  "strictEngineLink": {
+    "coreObjects": 97,
+    "adapterObjects": 1,
+    "exitCode": 0,
+    "undefinedSymbolsAllowed": false,
+    "logSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "prior36SymbolLinkGapClosed": true
+  },
+  "platformImplementation": [
+    "Canvas2D rendering of native8-bit image through native palette",
+    "Native keyboard/mouse event bridge, releases and blur releases",
+    "Image-page allocation/ownership and cursor shape copy",
+    "Emscripten clock/Asyncify yielding delay",
+    "Actual POSIX virtual directory listing/sorting"
+  ],
+  "featureExclusions": [
+    "No audio device: sound_init returns unavailable; no audio assets loaded, audible audio unverified",
+    "No controller driver: joy_init returns unavailable",
+    "Offline prototype: no installed network protocol, multiplayer absent"
+  ],
+  "browserComponentTest": {
+    "scope": "Private authored platform component fixture using original native image/palette/event APIs; no Abuse assets or gameplay",
+    "audio": "No audio device; headless Edge --mute-audio",
+    "errors": [],
+    "consoleErrors": [],
+    "expectedNativeStderr": [
+      {
+        "text": "Added himem block (3072000 bytes)",
+        "location": {
+          "url": "http://127.0.0.1:62643/component.html",
+          "line": 5,
+          "column": 144,
+          "lineNumber": 5,
+          "columnNumber": 144
+        }
+      },
+      {
+        "text": "Memory available : 3071864",
+        "location": {
+          "url": "http://127.0.0.1:62643/component.html",
+          "line": 5,
+          "column": 144,
+          "lineNumber": 5,
+          "columnNumber": 144
+        }
+      }
+    ],
+    "missing": [],
+    "pass": true,
+    "playersClosed": true,
+    "before": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      25,
+      1,
+      2,
+      1,
+      1,
+      30
+    ],
+    "palettePixels": {
+      "red": [
+        200,
+        23,
+        45,
+        255
+      ],
+      "green": [
+        33,
+        177,
+        72,
+        255
+      ]
+    },
+    "afterKey": [
+      1,
+      1,
+      1,
+      259,
+      0,
+      0,
+      0,
+      25,
+      1,
+      2,
+      1,
+      1,
+      37
+    ],
+    "mouseDown": [
+      1,
+      1,
+      1,
+      259,
+      100,
+      75,
+      1,
+      25,
+      1,
+      2,
+      1,
+      1,
+      37
+    ],
+    "mouseUp": [
+      1,
+      1,
+      1,
+      259,
+      100,
+      75,
+      0,
+      25,
+      1,
+      2,
+      1,
+      1,
+      37
+    ],
+    "markerPixel": [
+      90,
+      100,
+      255,
+      255
+    ],
+    "afterBlur": [
+      1,
+      2,
+      2,
+      97,
+      100,
+      75,
+      0,
+      25,
+      1,
+      2,
+      1,
+      1,
+      37
+    ]
+  },
+  "screenshotInspected": true,
+  "screenshotSHA256": "46aa8a7a9d986d407e85c7bf9a1cbfceb42faa9881149ef5bba292bef962f360",
+  "artifactsPrivateNotShipped": [
+    {
+      "name": "abuse-original-platform.js",
+      "bytes": 211990,
+      "sha256": "340071a647bf1ca54161f25081cecb85f71733598155f25d7a2c8a9a4c82fc51"
+    },
+    {
+      "name": "abuse-original-platform.wasm",
+      "bytes": 2602741,
+      "sha256": "41bb9522aece7e6bbdd2fcabed46a2cdb13fdafd4c49995cb2288142310ff55c"
+    },
+    {
+      "name": "component.js",
+      "bytes": 201179,
+      "sha256": "c1102d906b9cc28e910ecb9f307b8e27d3957e0be03456d0296253aa1599135b"
+    },
+    {
+      "name": "component.wasm",
+      "bytes": 258282,
+      "sha256": "16402bcf6449f8a94f641a9638cc387db42d45435795799bdc8c7a81369a4507"
+    },
+    {
+      "name": "browser-platform.cpp",
+      "bytes": 10473,
+      "sha256": "6fa8c936e9be4632e4eb505fb7fb7d39e69cc57248546419fda486e4b7975964"
+    },
+    {
+      "name": "component-main.cpp",
+      "bytes": 2672,
+      "sha256": "e0ba2e025af8b7ac487e8310e1760199ea22933dedaf973b900262eb14f621b2"
+    },
+    {
+      "name": "component.html",
+      "bytes": 585,
+      "sha256": "25c56f209a280795a82e3b4c54b08e1c244fa902574f2832dc1476d833d96334"
+    },
+    {
+      "name": "build-platform.py",
+      "bytes": 1912,
+      "sha256": "b6ea77d29bb207f16f4d66001be0d4d5f226d2d5d0ae4b065c7f817aca856cd5"
+    },
+    {
+      "name": "build-component.py",
+      "bytes": 1759,
+      "sha256": "3be5ed7402274ce47d9868fc1c915168a2d00d704d389568b8c9a39d7407e8d4"
+    },
+    {
+      "name": "test-component.cjs",
+      "bytes": 4571,
+      "sha256": "cb9e8cbb9eb7c297311d7713640b44cadab3ea30ee7095f647715b6356d3d646"
+    }
+  ],
+  "harnessCorrections": [
+    "An initial inline Python build command had list-concatenation syntax error before compilation; corrected saved builder.",
+    "Initial adapter compile collided with legacy min/max macros; adapter undefines them after reading original headers, without modifying original source.",
+    "First browser component run passed functional assertions but failed its generic console assertion on two original allocator stderr messages. Source lines727/759 verified; final harness attributes only those exact texts at component host location and retains them separately. Both contexts closed."
+  ],
+  "limitations": [
+    "Strict link and procedural component pixels are not Abuse startup, levels, enemies, objectives, animation or full gameplay.",
+    "Original main/game loop and function-pointer semantics remain untested against permitted content; warnings from core remain.",
+    "Only default320x200 platform and selected keyboard/mouse behavior measured; all keys/menu/cursor/cross-browser/touch/controller behavior unverified.",
+    "Directory test exercises ephemeral virtual files, not persistent game saves or restart durability.",
+    "Complete permitted content/provenance manifest or authored replacement pack and exact linked source/toolchain/dependency closure still required.",
+    "No retail or shareware assets fetched, no catalog integration/production deployment/clean-room certificate."
+  ],
+  "strictEngineLinkPass": true,
+  "browserPlatformComponentPass": true,
+  "gameStartupTested": false,
+  "gameplayTested": false,
+  "catalogEntries": 83,
+  "authoredLicense": {
+    "name": "MIT",
+    "scope": "Own adapter/build/harness/component files only, not original source or full distribution",
+    "noticeSHA256": "0e8926ea60b6cc80325c7fdd1e347c215e3595afbbafb9cea9fa5053d93fba9f"
+  }
+}
