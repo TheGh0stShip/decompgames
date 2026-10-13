@@ -1,0 +1,821 @@
+{
+  "date": "2026-10-13",
+  "repo": "videogamepreservation/abuse",
+  "pin": "01cce80eaf2ae82bafb9981162e205e42d0fae2f",
+  "classification": "Original developer-released source port with independently authored private content; not a matching decompilation, retail campaign, emulation or clean-room certificate",
+  "scope": "Own two-course heat survival prototype: native damage/death/retry, jump avoidance, damaged-state browser persistence and ordinary-input two-course completion/restart",
+  "change": {
+    "content": "Own generator adds foreground heat tile4 with geometric bright stripe/grate, two own collapse poses, per-course three two-tile heat strips, energy bar and own behavior/HUD text",
+    "nativeCPPChanged": false,
+    "nativeWASMUnchanged": true,
+    "damage": "Own rules read native fg_tile under player feet, call native do_damage(25,me) on heat contact, use own 12-tick cooldown; native hurtable flag and HP storage",
+    "death": "At native HP0 own mover stops motion/gravity, selects native dieing sequence with own frames and advances to native dead; ordinary Enter restores HP100, own state and first map",
+    "completion": "Own second-course exit at x>720 while alive stops motion/gravity; Enter resets to first course",
+    "hud": "Native post_render hook after lighting; own title/instructions/ENERGY label, 100-unit bar with native gamma-adjusted palette, red when damaged and empty at HP0",
+    "ownPlayerVariablesAdded": [
+      "pack_heat_wait",
+      "pack_dead"
+    ],
+    "sourceGrant": "Original developer public-domain source release; separate Bennett GIF credit/permission and linked-runtime notices retained; no root license assumption about retail content",
+    "ownCodeLicense": "MIT generator/browser/storage/diagnostic code; generated own graphics, glyphs, animations, text, rules and maps CC0",
+    "audio": "Explicitly unavailable audio device in this private prototype; no audible verification"
+  },
+  "content": {
+    "pass": true,
+    "files": 14,
+    "resources": 185,
+    "archives": 11,
+    "workerFrames": 14,
+    "tileIndices": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "maps": [
+      {
+        "path": "maps/course.spe",
+        "heatColumns": [
+          5,
+          6,
+          23,
+          24,
+          41,
+          42
+        ],
+        "heatRow": 12
+      },
+      {
+        "path": "maps/return.spe",
+        "heatColumns": [
+          5,
+          6,
+          20,
+          21,
+          36,
+          37
+        ],
+        "heatRow": 12
+      }
+    ],
+    "resourcePayloadBoundsAndHashesVerified": true,
+    "ownEmbeddedFontPixels": 19968,
+    "originalRetailInputs": false,
+    "complete": false,
+    "retailMediaScriptsFontsMapsOrAudioUsed": false
+  },
+  "normalControlTests": {
+    "environment": "Private headless Edge --mute-audio, isolated persistent profile and loopback origin; ordinary native brightness/GO and keyboard controls",
+    "damageDeathPersistence": {
+      "pass": true,
+      "states": [
+        {
+          "label": "first menu",
+          "values": [
+            6,
+            -1,
+            50,
+            50,
+            2,
+            0,
+            100,
+            1,
+            0,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "label": "first course",
+          "values": [
+            0,
+            18,
+            50,
+            190,
+            2,
+            0,
+            100,
+            0,
+            0,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "label": "entered heat",
+          "values": [
+            0,
+            40,
+            94,
+            190,
+            10,
+            3,
+            75,
+            0,
+            4,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "label": "standing heat native damage",
+          "values": [
+            0,
+            42,
+            100,
+            190,
+            10,
+            1,
+            75,
+            0,
+            2,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "label": "left heat with damaged native HP",
+          "values": [
+            0,
+            63,
+            58,
+            190,
+            10,
+            0,
+            50,
+            0,
+            -4,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "label": "safe damaged checkpoint",
+          "values": [
+            0,
+            67,
+            52,
+            190,
+            2,
+            0,
+            50,
+            0,
+            0,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "label": "safe floor does not damage",
+          "values": [
+            0,
+            83,
+            52,
+            190,
+            2,
+            0,
+            50,
+            0,
+            0,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "label": "reopened menu",
+          "values": [
+            6,
+            -1,
+            50,
+            50,
+            2,
+            0,
+            100,
+            1,
+            0,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "label": "reopened course",
+          "values": [
+            0,
+            18,
+            50,
+            190,
+            2,
+            0,
+            100,
+            0,
+            0,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "label": "ordinary L restored damaged checkpoint",
+          "values": [
+            0,
+            94,
+            52,
+            190,
+            2,
+            0,
+            50,
+            0,
+            0,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "label": "reentered heat after damaged load",
+          "values": [
+            0,
+            102,
+            80,
+            190,
+            10,
+            3,
+            25,
+            0,
+            4,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "label": "heat exhausted native HP and reached dead state",
+          "values": [
+            0,
+            116,
+            86,
+            190,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "label": "dead controls cannot move",
+          "values": [
+            0,
+            137,
+            86,
+            190,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "label": "ordinary Enter healthy retry",
+          "values": [
+            0,
+            18,
+            50,
+            190,
+            2,
+            0,
+            100,
+            0,
+            0,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "label": "approached heat before jump",
+          "values": [
+            0,
+            33,
+            74,
+            190,
+            10,
+            2,
+            100,
+            0,
+            4,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "label": "jump crossed first visible heat strip",
+          "values": [
+            0,
+            51,
+            142,
+            147,
+            5,
+            0,
+            100,
+            1,
+            4,
+            6,
+            0,
+            1
+          ]
+        },
+        {
+          "label": "jumped heat without damage",
+          "values": [
+            0,
+            58,
+            146,
+            190,
+            2,
+            0,
+            100,
+            0,
+            0,
+            0,
+            0,
+            1
+          ]
+        }
+      ],
+      "nativeSave": {
+        "x": 52,
+        "y": 190,
+        "hp": 50,
+        "bytes": 26110,
+        "sha256": "e2868cfa4d3ad73abc299feef2aa716af014bfd069c850d53bde2ada8f425d8b",
+        "ownMarker": true,
+        "retailMarker": false,
+        "normalLoadVerified": true
+      },
+      "persisted": {
+        "bytes": 26110,
+        "sha256": "e2868cfa4d3ad73abc299feef2aa716af014bfd069c850d53bde2ada8f425d8b",
+        "byteIdentical": true
+      },
+      "normalJumpAvoidedHeat": true,
+      "hudChecks": [
+        {
+          "label": "full energy",
+          "title": "COURSE 1 - REACH THE RIGHT EXIT",
+          "message": "UP JUMPS HEAT / S SAVE / L LOAD",
+          "hp": 100,
+          "fullGlyphRowsAndEnergyBarVerified": true
+        },
+        {
+          "label": "heat removed one quarter energy",
+          "title": "COURSE 1 - REACH THE RIGHT EXIT",
+          "message": "UP JUMPS HEAT / S SAVE / L LOAD",
+          "hp": 75,
+          "fullGlyphRowsAndEnergyBarVerified": true
+        },
+        {
+          "label": "damaged safe checkpoint",
+          "title": "COURSE 1 - REACH THE RIGHT EXIT",
+          "message": "UP JUMPS HEAT / S SAVE / L LOAD",
+          "hp": 50,
+          "fullGlyphRowsAndEnergyBarVerified": true
+        },
+        {
+          "label": "death and empty energy",
+          "title": "ENERGY EMPTY - ENTER RETRY",
+          "message": "UP JUMPS HEAT / S SAVE / L LOAD",
+          "hp": 0,
+          "fullGlyphRowsAndEnergyBarVerified": true
+        },
+        {
+          "label": "healthy retry",
+          "title": "COURSE 1 - REACH THE RIGHT EXIT",
+          "message": "UP JUMPS HEAT / S SAVE / L LOAD",
+          "hp": 100,
+          "fullGlyphRowsAndEnergyBarVerified": true
+        }
+      ],
+      "closures": [
+        "First complete browser/context closed after IDBFS saved phase",
+        "Final complete browser/context closed"
+      ]
+    },
+    "twoCourseSurvival": {
+      "pass": true,
+      "controlMethod": "Right plus timed Up near own obstacles/heat based on read-only position/gravity; ordinary inputs only",
+      "completionHP": 75,
+      "minimumHPObservedByCourse": {
+        "1": 100,
+        "2": 75
+      },
+      "selectedStates": [
+        {
+          "label": "native menu",
+          "values": [
+            6,
+            -1,
+            50,
+            50,
+            2,
+            0,
+            100,
+            1,
+            0,
+            0,
+            0,
+            1
+          ],
+          "logTail": [
+            "\r(load \"boot.lsp\") [..                                      ]\r(load \"boot.lsp\") [....                                    ]\r(load \"boot.lsp\") [......                                  ]\r(load \"boot.lsp\") [........                                ]\r(load \"boot.lsp\") [..........                              ]\r(load \"boot.lsp\") [............                            ]\r(load \"boot.lsp\") [..............                          ]\r(load \"boot.lsp\") [................                        ]\r(load \"boot.lsp\") [..................                      ]\r(load \"boot.lsp\") [....................                    ]\r(load \"boot.lsp\") [......................                  ]\r(load \"boot.lsp\") [........................                ]\r(load \"boot.lsp\") [..........................              ]\r(load \"boot.lsp\") [............................            ]\r(load \"boot.lsp\") [................................        ]\r(load \"boot.lsp\") [...................................     ]\r(load \"boot.lsp\") [......................................  ]",
+            "Lisp : tmp space resized to 16384",
+            "engine : registering base graphics",
+            "Palette has changed, recalculating light table...",
+            "\rwhite light [..                                      ]\rwhite light [....                                    ]\rwhite light [......                                  ]\rwhite light [........                                ]\rwhite light [..........                              ]\rwhite light [............                            ]\rwhite light [..............                          ]\rwhite light [................                        ]\rwhite light [..................                      ]\rwhite light [....................                    ]\rwhite light [......................                  ]\rwhite light [........................                ]\rwhite light [..........................              ]\rwhite light [............................            ]\rwhite light [..............................          ]\rwhite light [................................        ]\rwhite light [..................................      ]\rwhite light [....................................    ]\rwhite light [......................................  ]",
+            "\rtints [....                                    ]\rtints [..........                              ]\rtints [..............                          ]\rtints [....................                    ]\rtints [........................                ]\rtints [..............................          ]\rtints [..................................      ]"
+          ]
+        },
+        {
+          "label": "course started",
+          "values": [
+            0,
+            28,
+            50,
+            190,
+            2,
+            0,
+            100,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "logTail": [
+            "\r(load \"boot.lsp\") [..                                      ]\r(load \"boot.lsp\") [....                                    ]\r(load \"boot.lsp\") [......                                  ]\r(load \"boot.lsp\") [........                                ]\r(load \"boot.lsp\") [..........                              ]\r(load \"boot.lsp\") [............                            ]\r(load \"boot.lsp\") [..............                          ]\r(load \"boot.lsp\") [................                        ]\r(load \"boot.lsp\") [..................                      ]\r(load \"boot.lsp\") [....................                    ]\r(load \"boot.lsp\") [......................                  ]\r(load \"boot.lsp\") [........................                ]\r(load \"boot.lsp\") [..........................              ]\r(load \"boot.lsp\") [............................            ]\r(load \"boot.lsp\") [................................        ]\r(load \"boot.lsp\") [...................................     ]\r(load \"boot.lsp\") [......................................  ]",
+            "Lisp : tmp space resized to 16384",
+            "engine : registering base graphics",
+            "Palette has changed, recalculating light table...",
+            "\rwhite light [..                                      ]\rwhite light [....                                    ]\rwhite light [......                                  ]\rwhite light [........                                ]\rwhite light [..........                              ]\rwhite light [............                            ]\rwhite light [..............                          ]\rwhite light [................                        ]\rwhite light [..................                      ]\rwhite light [....................                    ]\rwhite light [......................                  ]\rwhite light [........................                ]\rwhite light [..........................              ]\rwhite light [............................            ]\rwhite light [..............................          ]\rwhite light [................................        ]\rwhite light [..................................      ]\rwhite light [....................................    ]\rwhite light [......................................  ]",
+            "\rtints [....                                    ]\rtints [..........                              ]\rtints [..............                          ]\rtints [....................                    ]\rtints [........................                ]\rtints [..............................          ]\rtints [..................................      ]"
+          ]
+        },
+        {
+          "label": "first heat course reached",
+          "values": [
+            0,
+            211,
+            50,
+            50,
+            2,
+            0,
+            100,
+            1,
+            0,
+            0,
+            0,
+            2
+          ],
+          "logTail": [
+            "\r(load \"boot.lsp\") [..                                      ]\r(load \"boot.lsp\") [....                                    ]\r(load \"boot.lsp\") [......                                  ]\r(load \"boot.lsp\") [........                                ]\r(load \"boot.lsp\") [..........                              ]\r(load \"boot.lsp\") [............                            ]\r(load \"boot.lsp\") [..............                          ]\r(load \"boot.lsp\") [................                        ]\r(load \"boot.lsp\") [..................                      ]\r(load \"boot.lsp\") [....................                    ]\r(load \"boot.lsp\") [......................                  ]\r(load \"boot.lsp\") [........................                ]\r(load \"boot.lsp\") [..........................              ]\r(load \"boot.lsp\") [............................            ]\r(load \"boot.lsp\") [................................        ]\r(load \"boot.lsp\") [...................................     ]\r(load \"boot.lsp\") [......................................  ]",
+            "Lisp : tmp space resized to 16384",
+            "engine : registering base graphics",
+            "Palette has changed, recalculating light table...",
+            "\rwhite light [..                                      ]\rwhite light [....                                    ]\rwhite light [......                                  ]\rwhite light [........                                ]\rwhite light [..........                              ]\rwhite light [............                            ]\rwhite light [..............                          ]\rwhite light [................                        ]\rwhite light [..................                      ]\rwhite light [....................                    ]\rwhite light [......................                  ]\rwhite light [........................                ]\rwhite light [..........................              ]\rwhite light [............................            ]\rwhite light [..............................          ]\rwhite light [................................        ]\rwhite light [..................................      ]\rwhite light [....................................    ]\rwhite light [......................................  ]",
+            "\rtints [....                                    ]\rtints [..........                              ]\rtints [..............                          ]\rtints [....................                    ]\rtints [........................                ]\rtints [..............................          ]\rtints [..................................      ]"
+          ]
+        },
+        {
+          "label": "second map arrived",
+          "values": [
+            0,
+            7,
+            78,
+            111,
+            10,
+            3,
+            100,
+            1,
+            4,
+            21,
+            0,
+            2
+          ],
+          "logTail": [
+            "\r(load \"boot.lsp\") [..                                      ]\r(load \"boot.lsp\") [....                                    ]\r(load \"boot.lsp\") [......                                  ]\r(load \"boot.lsp\") [........                                ]\r(load \"boot.lsp\") [..........                              ]\r(load \"boot.lsp\") [............                            ]\r(load \"boot.lsp\") [..............                          ]\r(load \"boot.lsp\") [................                        ]\r(load \"boot.lsp\") [..................                      ]\r(load \"boot.lsp\") [....................                    ]\r(load \"boot.lsp\") [......................                  ]\r(load \"boot.lsp\") [........................                ]\r(load \"boot.lsp\") [..........................              ]\r(load \"boot.lsp\") [............................            ]\r(load \"boot.lsp\") [................................        ]\r(load \"boot.lsp\") [...................................     ]\r(load \"boot.lsp\") [......................................  ]",
+            "Lisp : tmp space resized to 16384",
+            "engine : registering base graphics",
+            "Palette has changed, recalculating light table...",
+            "\rwhite light [..                                      ]\rwhite light [....                                    ]\rwhite light [......                                  ]\rwhite light [........                                ]\rwhite light [..........                              ]\rwhite light [............                            ]\rwhite light [..............                          ]\rwhite light [................                        ]\rwhite light [..................                      ]\rwhite light [....................                    ]\rwhite light [......................                  ]\rwhite light [........................                ]\rwhite light [..........................              ]\rwhite light [............................            ]\rwhite light [..............................          ]\rwhite light [................................        ]\rwhite light [..................................      ]\rwhite light [....................................    ]\rwhite light [......................................  ]",
+            "\rtints [....                                    ]\rtints [..........                              ]\rtints [..............                          ]\rtints [....................                    ]\rtints [........................                ]\rtints [..............................          ]\rtints [..................................      ]"
+          ]
+        },
+        {
+          "label": "second heat course reached",
+          "values": [
+            0,
+            200,
+            724,
+            190,
+            2,
+            0,
+            75,
+            0,
+            0,
+            0,
+            1,
+            2
+          ],
+          "logTail": [
+            "\r(load \"boot.lsp\") [..                                      ]\r(load \"boot.lsp\") [....                                    ]\r(load \"boot.lsp\") [......                                  ]\r(load \"boot.lsp\") [........                                ]\r(load \"boot.lsp\") [..........                              ]\r(load \"boot.lsp\") [............                            ]\r(load \"boot.lsp\") [..............                          ]\r(load \"boot.lsp\") [................                        ]\r(load \"boot.lsp\") [..................                      ]\r(load \"boot.lsp\") [....................                    ]\r(load \"boot.lsp\") [......................                  ]\r(load \"boot.lsp\") [........................                ]\r(load \"boot.lsp\") [..........................              ]\r(load \"boot.lsp\") [............................            ]\r(load \"boot.lsp\") [................................        ]\r(load \"boot.lsp\") [...................................     ]\r(load \"boot.lsp\") [......................................  ]",
+            "Lisp : tmp space resized to 16384",
+            "engine : registering base graphics",
+            "Palette has changed, recalculating light table...",
+            "\rwhite light [..                                      ]\rwhite light [....                                    ]\rwhite light [......                                  ]\rwhite light [........                                ]\rwhite light [..........                              ]\rwhite light [............                            ]\rwhite light [..............                          ]\rwhite light [................                        ]\rwhite light [..................                      ]\rwhite light [....................                    ]\rwhite light [......................                  ]\rwhite light [........................                ]\rwhite light [..........................              ]\rwhite light [............................            ]\rwhite light [..............................          ]\rwhite light [................................        ]\rwhite light [..................................      ]\rwhite light [....................................    ]\rwhite light [......................................  ]",
+            "\rtints [....                                    ]\rtints [..........                              ]\rtints [..............                          ]\rtints [....................                    ]\rtints [........................                ]\rtints [..............................          ]\rtints [..................................      ]"
+          ]
+        },
+        {
+          "label": "ordinary held Enter restart",
+          "values": [
+            0,
+            26,
+            50,
+            190,
+            2,
+            0,
+            100,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "logTail": [
+            "\r(load \"boot.lsp\") [..                                      ]\r(load \"boot.lsp\") [....                                    ]\r(load \"boot.lsp\") [......                                  ]\r(load \"boot.lsp\") [........                                ]\r(load \"boot.lsp\") [..........                              ]\r(load \"boot.lsp\") [............                            ]\r(load \"boot.lsp\") [..............                          ]\r(load \"boot.lsp\") [................                        ]\r(load \"boot.lsp\") [..................                      ]\r(load \"boot.lsp\") [....................                    ]\r(load \"boot.lsp\") [......................                  ]\r(load \"boot.lsp\") [........................                ]\r(load \"boot.lsp\") [..........................              ]\r(load \"boot.lsp\") [............................            ]\r(load \"boot.lsp\") [................................        ]\r(load \"boot.lsp\") [...................................     ]\r(load \"boot.lsp\") [......................................  ]",
+            "Lisp : tmp space resized to 16384",
+            "engine : registering base graphics",
+            "Palette has changed, recalculating light table...",
+            "\rwhite light [..                                      ]\rwhite light [....                                    ]\rwhite light [......                                  ]\rwhite light [........                                ]\rwhite light [..........                              ]\rwhite light [............                            ]\rwhite light [..............                          ]\rwhite light [................                        ]\rwhite light [..................                      ]\rwhite light [....................                    ]\rwhite light [......................                  ]\rwhite light [........................                ]\rwhite light [..........................              ]\rwhite light [............................            ]\rwhite light [..............................          ]\rwhite light [................................        ]\rwhite light [..................................      ]\rwhite light [....................................    ]\rwhite light [......................................  ]",
+            "\rtints [....                                    ]\rtints [..........                              ]\rtints [..............                          ]\rtints [....................                    ]\rtints [........................                ]\rtints [..............................          ]\rtints [..................................      ]"
+          ]
+        }
+      ],
+      "hudChecks": [
+        {
+          "label": "second map arrived",
+          "checks": [
+            {
+              "text": "COURSE 2 - REACH THE RIGHT EXIT",
+              "y": 8,
+              "inkPixels": 380,
+              "backgroundPixels": 2038
+            },
+            {
+              "text": "UP JUMPS HEAT / S SAVE / L LOAD",
+              "y": 21,
+              "inkPixels": 336,
+              "backgroundPixels": 2082
+            }
+          ],
+          "fullGlyphRowsVerified": true
+        },
+        {
+          "label": "completed course",
+          "checks": [
+            {
+              "text": "COURSE COMPLETE - ENTER RESTART",
+              "y": 8,
+              "inkPixels": 411,
+              "backgroundPixels": 2007
+            },
+            {
+              "text": "UP JUMPS HEAT / S SAVE / L LOAD",
+              "y": 21,
+              "inkPixels": 336,
+              "backgroundPixels": 2082
+            }
+          ],
+          "fullGlyphRowsVerified": true
+        },
+        {
+          "label": "ordinary held Enter restart",
+          "checks": [
+            {
+              "text": "COURSE 1 - REACH THE RIGHT EXIT",
+              "y": 8,
+              "inkPixels": 376,
+              "backgroundPixels": 2042
+            },
+            {
+              "text": "UP JUMPS HEAT / S SAVE / L LOAD",
+              "y": 21,
+              "inkPixels": 336,
+              "backgroundPixels": 2082
+            }
+          ],
+          "fullGlyphRowsVerified": true
+        }
+      ]
+    },
+    "rasterMethod": "Full glyph/background RGB masks for own atlas; exact energy-bar width/color using native game-written gamma setting and original gamma formula. Native RGBA/state/save reads only",
+    "testMemorySaveDatabaseOrRNGWrites": false,
+    "pageErrors": [],
+    "consoleErrors": [],
+    "missingResources": [],
+    "screenshotsInspected": [
+      "authored-heat-damaged.png",
+      "authored-heat-dead.png",
+      "authored-heat-jump-avoidance.png",
+      "authored-heat-route-two.png",
+      "authored-heat-route-complete.png"
+    ],
+    "screenshotTiming": "Screenshots and diagnostic checkpoints may differ in native ticks; second-course screenshot shows subsequent heat contact after its earlier HP100 arrival state",
+    "allPlayersAndLocalServersClosed": true,
+    "audibleAudioVerified": false
+  },
+  "preservedFailedAttempts": [
+    {
+      "report": "authored-heat-report-bar-expectation.json",
+      "cause": "Test expected uncorrected palette; native brightness selection applies gamma. Corrected expected values from read-only game-written gamma setting; no runtime edit"
+    },
+    {
+      "report": "authored-heat-report-live-checkpoint-timing.json",
+      "cause": "Test assumed HP75 persisted while standing on active heat during screenshot. Native second hit produced HP50. Changed normal input sequence to leave heat before saving"
+    },
+    {
+      "report": "authored-heat-report-early-jump.json",
+      "cause": "Jump started too early for the initial strip; landing contact reduced HP to75 despite crossing"
+    },
+    {
+      "report": "authored-heat-report-wide-strip.json",
+      "cause": "Initial three-tile heat strip was not safely cleared by tested timing/native jump envelope. Preserved generator/report, narrowed strips to two tiles and timed jump near edge; final avoided strip with HP100"
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "author-pack.py",
+      "bytes": 18553,
+      "sha256": "33217ee9b8e462b0c79860b00f8e7b32a969037bea498cfa38f018240a89977f"
+    },
+    {
+      "path": "authored-pack/boot.lsp",
+      "bytes": 8130,
+      "sha256": "cd4da231d72ad3b4eb0771e726a81f8f646ec1dfdbb8f1f65a2bc0561c20ffa5"
+    },
+    {
+      "path": "authored-pack/provenance.json",
+      "bytes": 79391,
+      "sha256": "5f9155df4f54c98e51147f668e2ffae639672d3a78549d37ccdcd90d9fe1cfc5"
+    },
+    {
+      "path": "authored-pack/art/terrain.spe",
+      "bytes": 2810,
+      "sha256": "5d784047fc8a039e9c67bcae979885f8581e2fc7718905f5ff2965517dc5fd3e"
+    },
+    {
+      "path": "authored-pack/art/actors.spe",
+      "bytes": 4183,
+      "sha256": "d5506e7d82f4640a751e56f08e1a9d917baa7fdf0cdab81defc3e34fab674323"
+    },
+    {
+      "path": "authored-pack/maps/course.spe",
+      "bytes": 3250,
+      "sha256": "3103efb83fcbfa1f1e903202340aa2a467173bb16883fd866e10192176055bc2"
+    },
+    {
+      "path": "authored-pack/maps/return.spe",
+      "bytes": 3250,
+      "sha256": "c6a0bbc1413922cd5426bb90209e9a7a805eb365cd13d47b78d82c285e66812e"
+    },
+    {
+      "path": "authored-boot.js",
+      "bytes": 234880,
+      "sha256": "e323083fe939db544f83cd89761211ad33689f4c53ba379b5541f7960b7bbd87"
+    },
+    {
+      "path": "authored-boot.wasm",
+      "bytes": 2607357,
+      "sha256": "aa37db9d641d4819a274f398b2806c3f642cba674d31de84946b72db8bbd02e5"
+    },
+    {
+      "path": "authored-boot.data",
+      "bytes": 279209,
+      "sha256": "db1f32c4df675b9f848784ee924c679b8bc76e5f3d6a9c8f7fd061ae573b8922"
+    },
+    {
+      "path": "authored-boot-build.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "test-authored-heat.cjs",
+      "bytes": 10096,
+      "sha256": "ca38bd8ea037523015883d6cf0a90436a7542c87a348c9e5ffc8efc6080bc514"
+    },
+    {
+      "path": "test-authored-heat-route.cjs",
+      "bytes": 6825,
+      "sha256": "5cb68bfda63346a097459b01f7ba5a8e07839a10e82466fa90dc9ff0a06f8882"
+    },
+    {
+      "path": "verify-heat-content.py",
+      "bytes": 3718,
+      "sha256": "19b0a342d6086a5686735018e0b134c325d56cf4a813eda93346d2a68c8a4937"
+    },
+    {
+      "path": "heat-content-integrity.json",
+      "bytes": 662,
+      "sha256": "dfe6f72b233838fa2ec9465ce342e4c8ccc1dad5d613ed8796b1f5e6b01c6a14"
+    },
+    {
+      "path": "authored-heat-report.json",
+      "bytes": 5781,
+      "sha256": "788a105a3e1396c2472ca995ea4452004556c2faed49173b380fbe6dcd00f0d4"
+    },
+    {
+      "path": "authored-heat-route-report.json",
+      "bytes": 100409,
+      "sha256": "2958d41c4b8cff0613773aa51274d6d8a2d80123bf5690872932b4135dd82f89"
+    },
+    {
+      "path": "authored-heat-save-before.spe",
+      "bytes": 26110,
+      "sha256": "e2868cfa4d3ad73abc299feef2aa716af014bfd069c850d53bde2ada8f425d8b"
+    },
+    {
+      "path": "authored-heat-save-after.spe",
+      "bytes": 26110,
+      "sha256": "e2868cfa4d3ad73abc299feef2aa716af014bfd069c850d53bde2ada8f425d8b"
+    },
+    {
+      "path": "authored-heat-damaged.png",
+      "bytes": 52418,
+      "sha256": "78a585c339079a2cbecda38cc748ade4b1fb5bfe78ac601e72926399db1ce104"
+    },
+    {
+      "path": "authored-heat-dead.png",
+      "bytes": 57253,
+      "sha256": "cfacfc6aa5f566014e69505c122a048f050d689c4b3e288cc3d3019e7311d00e"
+    },
+    {
+      "path": "authored-heat-jump-avoidance.png",
+      "bytes": 52412,
+      "sha256": "9d00bfcd10a93e1d79ba86dad44ffd244d3755abadb82ff921b700eca592ee6a"
+    },
+    {
+      "path": "authored-heat-route-two.png",
+      "bytes": 57470,
+      "sha256": "76b5fc11c0cc72a8cae2d14c76aeb31dd1b6dcc5f004da782d068cf19dc054ca"
+    },
+    {
+      "path": "authored-heat-route-complete.png",
+      "bytes": 52405,
+      "sha256": "ae4498710e44fc1eacc526e453af5f041f16313dca4ad9c91958175104366c5f"
+    },
+    {
+      "path": "authored-heat-route-restarted.png",
+      "bytes": 52422,
+      "sha256": "088690c84320a0bf9d21baa420cc3a42e200f54e803b283058ae18b80b6227c8"
+    }
+  ],
+  "remaining": [
+    "Refresh self-contained source-only ZIP to include current HUD/heat generator and own rules; earlier225-input ZIP predates both changes",
+    "Refresh generated provenance checklist, host/title instructions and final silent-edition scope alongside final package",
+    "Final source/content/runtime notice distribution and rebuilt-runtime acceptance before integration",
+    "Legacy compiler warnings and behavior outside exercised native paths remain unresolved"
+  ],
+  "limits": [
+    "Own two-course survival scenario only, not retail Abuse or a full replacement campaign",
+    "No enemies/weapons/retail combat, controller/multiplayer/other-browser/mobile or audible audio claims",
+    "One damaged course-one stationary checkpoint; not dead/completed/course-two save restoration, overwrite or transfer coverage",
+    "Waited for storage commit; rapid-close/crash/quota/denial/corruption and failure-HUD branch remain untested",
+    "Current generated broad checklist remains historical; it is not the acceptance record",
+    "No clean-room isolation certification"
+  ],
+  "integration": {
+    "catalogCount": 83,
+    "entryAdded": false,
+    "publicRuntime": false,
+    "publicSourcePackage": false,
+    "deployment": false,
+    "claudeGamesTouched": false
+  }
+}
