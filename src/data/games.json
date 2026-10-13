@@ -4571,6 +4571,7 @@
   "Enter — close introduction/select",
   "P — play",
   "Arrow keys — move",
+   "Hold Shift + arrow keys — shoot",
   "S — save, then Enter",
   "R — restore from title menu"
  ],
@@ -4596,7 +4597,7 @@
   "browsers": [
    "Edge (headless, muted)"
   ],
-  "scope": "Live muted native build: keyboard movement/Creatures transition; ordinary save/exact reload/visible restore; authored glyph screenshots inspected. Menu/Items/A Dark Room traversal, ammo/torch/gem collection with counters/health/score changes, torch consumption/visible lighting and return passage verified via normal keyboard and game-written saves. Full demo traversal, remaining glyphs and audible audio unverified.",
+  "scope": "Live muted native build: keyboard movement/Creatures transition; ordinary save/exact reload/visible restore; authored glyph screenshots inspected. Menu/Items/A Dark Room traversal, ammo/torch/gem collection with counters/health/score changes, torch consumption/visible lighting and return passage verified via normal keyboard and game-written saves. Held Shift-arrow shooting with earned ammo use/score gain, bear contact damage and Bears-to-Creatures return passage verified. Full demo traversal, remaining glyphs and audible audio unverified.",
   "playthrough": false
  }
 }

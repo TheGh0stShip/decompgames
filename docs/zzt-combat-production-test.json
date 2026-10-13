@@ -1,0 +1,443 @@
+{
+  "scope": "Live native licensed ZZT DEMO ordinary keyboard traversal Menu/Items/Creatures/Bears, held Shift-arrow shooting, contact damage and return passage. Reads game-written S/Enter saves; no RAM/save/map/score edits.",
+  "checkpoints": [
+    {
+      "label": "menu",
+      "enemyCounts": {
+        "34": 0,
+        "35": 0,
+        "41": 0,
+        "42": 0,
+        "44": 0,
+        "45": 0
+      },
+      "board": 1,
+      "ammo": 0,
+      "gems": 0,
+      "health": 100,
+      "torches": 0,
+      "torchTicks": 0,
+      "score": 0,
+      "boardName": "Menu",
+      "player": [
+        30,
+        13
+      ]
+    },
+    {
+      "label": "items-ammo",
+      "enemyCounts": {
+        "34": 0,
+        "35": 0,
+        "41": 3,
+        "42": 0,
+        "44": 1,
+        "45": 3
+      },
+      "board": 2,
+      "ammo": 0,
+      "gems": 0,
+      "health": 100,
+      "torches": 0,
+      "torchTicks": 0,
+      "score": 0,
+      "boardName": "Items",
+      "player": [
+        30,
+        13
+      ]
+    },
+    {
+      "label": "ammo-collected",
+      "enemyCounts": {
+        "34": 0,
+        "35": 0,
+        "41": 3,
+        "42": 0,
+        "44": 1,
+        "45": 3
+      },
+      "board": 2,
+      "ammo": 15,
+      "gems": 0,
+      "health": 100,
+      "torches": 0,
+      "torchTicks": 0,
+      "score": 0,
+      "boardName": "Items",
+      "player": [
+        17,
+        5
+      ]
+    },
+    {
+      "label": "menu-return",
+      "enemyCounts": {
+        "34": 0,
+        "35": 0,
+        "41": 0,
+        "42": 0,
+        "44": 0,
+        "45": 0
+      },
+      "board": 1,
+      "ammo": 15,
+      "gems": 0,
+      "health": 100,
+      "torches": 0,
+      "torchTicks": 0,
+      "score": 0,
+      "boardName": "Menu",
+      "player": [
+        39,
+        11
+      ]
+    },
+    {
+      "label": "creatures",
+      "enemyCounts": {
+        "34": 1,
+        "35": 1,
+        "41": 1,
+        "42": 1,
+        "44": 1,
+        "45": 4
+      },
+      "board": 5,
+      "ammo": 15,
+      "gems": 0,
+      "health": 100,
+      "torches": 0,
+      "torchTicks": 0,
+      "score": 0,
+      "boardName": "Creatures",
+      "player": [
+        39,
+        13
+      ]
+    },
+    {
+      "label": "bears-before",
+      "enemyCounts": {
+        "34": 14,
+        "35": 0,
+        "41": 0,
+        "42": 0,
+        "44": 0,
+        "45": 0
+      },
+      "board": 3,
+      "ammo": 15,
+      "gems": 0,
+      "health": 100,
+      "torches": 0,
+      "torchTicks": 0,
+      "score": 0,
+      "boardName": "Bears",
+      "player": [
+        34,
+        13
+      ]
+    },
+    {
+      "label": "shoot-position",
+      "enemyCounts": {
+        "34": 14,
+        "35": 0,
+        "41": 0,
+        "42": 0,
+        "44": 0,
+        "45": 0
+      },
+      "board": 3,
+      "ammo": 15,
+      "gems": 0,
+      "health": 100,
+      "torches": 0,
+      "torchTicks": 0,
+      "score": 0,
+      "boardName": "Bears",
+      "player": [
+        6,
+        9
+      ]
+    },
+    {
+      "label": "after-shots",
+      "enemyCounts": {
+        "34": 8,
+        "35": 0,
+        "41": 0,
+        "42": 0,
+        "44": 0,
+        "45": 0
+      },
+      "board": 3,
+      "ammo": 8,
+      "gems": 0,
+      "health": 90,
+      "torches": 0,
+      "torchTicks": 0,
+      "score": 5,
+      "boardName": "Bears",
+      "player": [
+        6,
+        10
+      ]
+    },
+    {
+      "label": "after-contact",
+      "enemyCounts": {
+        "34": 7,
+        "35": 0,
+        "41": 0,
+        "42": 0,
+        "44": 0,
+        "45": 0
+      },
+      "board": 3,
+      "ammo": 8,
+      "gems": 0,
+      "health": 80,
+      "torches": 0,
+      "torchTicks": 0,
+      "score": 5,
+      "boardName": "Bears",
+      "player": [
+        6,
+        9
+      ]
+    },
+    {
+      "label": "creatures-return",
+      "enemyCounts": {
+        "34": 1,
+        "35": 1,
+        "41": 1,
+        "42": 1,
+        "44": 1,
+        "45": 4
+      },
+      "board": 5,
+      "ammo": 8,
+      "gems": 0,
+      "health": 80,
+      "torches": 0,
+      "torchTicks": 0,
+      "score": 5,
+      "boardName": "Creatures",
+      "player": [
+        25,
+        8
+      ]
+    }
+  ],
+  "errors": [],
+  "missing": [],
+  "blocked": [
+    "https://static.cloudflareinsights.com/beacon.min.js/v4bc70e2c01a94c73b74392e4234840661791215815920"
+  ],
+  "projectileCombat": {
+    "ammoUsed": 7,
+    "scoreChange": 5,
+    "bearsRemoved": 6,
+    "healthChange": -10
+  },
+  "contactDamage": {
+    "healthBefore": 90,
+    "healthAfter": 80
+  },
+  "pass": true,
+  "playersClosed": true,
+  "audio": "Native device omitted; Edge --mute-audio; audible audio unverified",
+  "timingNote": "Save snapshots and later screenshots are different live ticks. The after-shots save records health90; the later screenshot records health80 after further contact. Six bears disappeared during the shooting interval, including contact; do not attribute all six to projectiles.",
+  "harnessCorrections": [
+    "First quick Shift-arrow run moved the player without using ammo; it failed shooting assertions. Holding Shift and arrow keys corrected input delivery.",
+    "Second held-input run showed the return passage visually, but the destination was paused and blocked Down did not wake play, leaving the prior save unchanged. Safe Right before the final checkpoint corrected it. Both failed reports are retained privately and are not passing-test claims."
+  ],
+  "limitations": [
+    "Only selected creatures/interactions and four boards in this run; not full16-board traversal, all enemy types, puzzles, death/restart or all game modes.",
+    "Unsupported creature glyphs still use question shapes; visual identity is incomplete.",
+    "Audio device omitted, Edge muted; audible audio unverified.",
+    "Save snapshots are read-only verification, not a complete per-field save audit."
+  ],
+  "screenshotsInspected": [
+    "shoot-position.png",
+    "after-shots.png",
+    "after-contact.png",
+    "creatures-return.png"
+  ],
+  "nativeSaveEvidence": [
+    {
+      "label": "menu",
+      "bytes": 26465,
+      "sha256": "5ecf7b0f71175d8bf8818570781438166d88a9c6033188aef6dd9c787863ea02"
+    },
+    {
+      "label": "items-ammo",
+      "bytes": 26456,
+      "sha256": "677642a5a0e34be66e6bbc41ca6160546505f5a778213c1bed777990e3e86f52"
+    },
+    {
+      "label": "ammo-collected",
+      "bytes": 26480,
+      "sha256": "783130dd9dafaecfe569c34bc35968c2ff8355ca3d0e2a027ffd24c51fcf9353"
+    },
+    {
+      "label": "menu-return",
+      "bytes": 26462,
+      "sha256": "045600e2561908846708d133ff4c5225b745cfe5909c14d3b199ff2019542da6"
+    },
+    {
+      "label": "creatures",
+      "bytes": 26465,
+      "sha256": "1e23c02318ef067c1ec8d6eb110dcea02623462da9711906bdc563c4494afcfc"
+    },
+    {
+      "label": "bears-before",
+      "bytes": 26468,
+      "sha256": "8587d123a5d2ed9a6ad06c3960d063692f92cc84326c15d410c0b4a463e387c9"
+    },
+    {
+      "label": "shoot-position",
+      "bytes": 26462,
+      "sha256": "eab3616443e43d580b2737f6af73a6163cc2076b59a8c28e7e144754db4e7419"
+    },
+    {
+      "label": "after-shots",
+      "bytes": 26273,
+      "sha256": "3e25b52709dfbcc673ce53676945517bc324a7d8e75880e72f41d193b21df5f9"
+    },
+    {
+      "label": "after-contact",
+      "bytes": 26201,
+      "sha256": "321c94200293459039ebdf82e4a0e31da711dc477c8dfbcd55174cb7d3df9548"
+    },
+    {
+      "label": "creatures-return",
+      "bytes": 26204,
+      "sha256": "b8336a0a5932ed3292d48518c30c3c3a3a9036325fbfae8bb5ec4fc87f6a3ae3"
+    }
+  ],
+  "harnessSHA256": "8524cc4718b5e3be55dc37d5b7d7fae88b116a5c59c5b8920f94a904824bb4a4",
+  "distributionVerification": {
+    "scope": "Byte verification of the unchanged live native ZZT distribution; not gameplay proof",
+    "records": [
+      {
+        "path": "/games/zzt-demo/asset-provenance.json",
+        "status": 200,
+        "sha256": "54bebafaafd9bb78b01793e20695e1ee66b9538848ca8f19dce624624bd38de9",
+        "pass": true
+      },
+      {
+        "path": "/games/zzt-demo/notices/authored-content-CC0.txt",
+        "status": 200,
+        "sha256": "664b162716e0cef3dcb118216bbdd872c71116b0898a4f83d7d763e225d20b58",
+        "pass": true
+      },
+      {
+        "path": "/games/zzt-demo/notices/compiler-rt-LICENSE.TXT",
+        "status": 200,
+        "sha256": "1a8f1058753f1ba890de984e48f0242a3a5c29a6a8f2ed9fd813f36985387e8d",
+        "pass": true
+      },
+      {
+        "path": "/games/zzt-demo/notices/dlmalloc-attribution-evidence.txt",
+        "status": 200,
+        "sha256": "8173822397c688270fdd7384f4929610ef35c4eea9e94b3e370a37994c912c51",
+        "pass": true
+      },
+      {
+        "path": "/games/zzt-demo/notices/Emscripten.txt",
+        "status": 200,
+        "sha256": "620a78084fc7ca97c0b5dea9abf891f3ffcadfdbf305276f099c9c4e12fc1d86",
+        "pass": true
+      },
+      {
+        "path": "/games/zzt-demo/notices/libcxx-LICENSE.TXT",
+        "status": 200,
+        "sha256": "539dd7aed86e8a4f12cbdd0e6c50c189c7d74847e4fecc64ce2c6ee3a01da38b",
+        "pass": true
+      },
+      {
+        "path": "/games/zzt-demo/notices/libcxxabi-LICENSE.TXT",
+        "status": 200,
+        "sha256": "e2b35be49f7284a45b7baca8fc7b3ab7440e7902392b2528a457816b5bb2a15c",
+        "pass": true
+      },
+      {
+        "path": "/games/zzt-demo/notices/libunwind-LICENSE.TXT",
+        "status": 200,
+        "sha256": "b5efebcaca80879234098e52d1725e6d9eb8fb96a19fce625d39184b705f7b6d",
+        "pass": true
+      },
+      {
+        "path": "/games/zzt-demo/notices/musl-COPYRIGHT.txt",
+        "status": 200,
+        "sha256": "b870108ec5e7790e9f9919064f1b9421d62d5f9b0e6c230c6adf7ea2da62e97b",
+        "pass": true
+      },
+      {
+        "path": "/games/zzt-demo/notices/OpenZoo-MIT.txt",
+        "status": 200,
+        "sha256": "cff84c162ea0da2ee692dc0fd3517d33b778a20882db69e0dacf53ed836c1296",
+        "pass": true
+      },
+      {
+        "path": "/games/zzt-demo/notices/SDL2-zlib.txt",
+        "status": 200,
+        "sha256": "97f35b302b361680ec1e891e95d2d52097bb95abff361434916d99dc1305f127",
+        "pass": true
+      },
+      {
+        "path": "/games/zzt-demo/notices/ZZT-reconstruction-MIT.txt",
+        "status": 200,
+        "sha256": "5f39ab5913a6bf1d8f3cad869d5ddd2486b5efd41a863246173780d731adf7f6",
+        "pass": true
+      },
+      {
+        "path": "/games/zzt-demo/openzoo.data",
+        "status": 200,
+        "sha256": "d5c8d16a4a8ea8f99fb05ee7813f64df4311a000c1cf2c5dcdd27618534565a0",
+        "pass": true
+      },
+      {
+        "path": "/games/zzt-demo/openzoo.js",
+        "status": 200,
+        "sha256": "e19e8742508a84e15384bd21f3b4892327c7d88b7d9955ef56ba863732c32f35",
+        "pass": true
+      },
+      {
+        "path": "/games/zzt-demo/openzoo.wasm",
+        "status": 200,
+        "sha256": "c6e0ae92316655ffbc88570829905e1cced0aaf894de4d08bc9da06f0c13edb2",
+        "pass": true
+      },
+      {
+        "path": "/games/zzt-demo/player.html",
+        "status": 200,
+        "sha256": "6e5bb839d5c591bd1876a1f39a0e878352d559f5dff262bc105afbe140028628",
+        "pass": true
+      },
+      {
+        "path": "/games/zzt-demo/save-validator.js",
+        "status": 200,
+        "sha256": "100f86ede242f3889bfb7243720eba1520389c5733eb555224f5100414afa447",
+        "pass": true
+      },
+      {
+        "path": "/games/zzt-demo/symbol-roles.json",
+        "status": 200,
+        "sha256": "5fe6925bdeaec699993bf893b018a06ab2abf1e11b41b037a506c1a70f2b3fb6",
+        "pass": true
+      },
+      {
+        "path": "/sources/zzt-demo-442ff28-symbol8bc5ff-source.tar.gz",
+        "status": 206,
+        "sha256": "3d9c8f973e4a49ebea9190ab0ba87727a2e7b07e856c316d786d67b1d0a8c79e",
+        "pass": true
+      }
+    ],
+    "pass": true
+  }
+}
