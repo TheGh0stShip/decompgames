@@ -1,0 +1,242 @@
+{
+  "date": "2026-10-13",
+  "repo": "videogamepreservation/abuse",
+  "pin": "01cce80eaf2ae82bafb9981162e205e42d0fae2f",
+  "classification": "Original developer-released source port with independently authored incomplete content; not matching decompilation, emulation, retail campaign or clean-room certificate",
+  "scope": "Private self-contained source-only rebuild package and ordinary rebuilt-runtime course-one save/browser-restart test; no public runtime/source release or completed game",
+  "sourcePackage": {
+    "path": "link-closure/rebuild-source.zip",
+    "files": 225,
+    "nativeSourcesAndHeaders": 208,
+    "nativeTranslationUnits": 96,
+    "ownTranslationUnits": 4,
+    "interfaceLabelCount": 148,
+    "interfaceLabelLicense": "Own CC0 labels, fixed generator input; no discarded native source needed for discovery",
+    "archive": {
+      "bytes": 435406,
+      "sha256": "96a320e66c58745ffffa8909676b825f18876c7cac44afc812ee4b0db3c2b85f"
+    },
+    "sourcePayloadHashesVerified": true,
+    "prebuiltObjectsRuntimeOrSPECArchivesIncluded": false,
+    "ownedEmbeddedFontCPPIncludedAndRegenerated": true,
+    "includes": [
+      "Selected adapted native source/header closure",
+      "Original developer release grant and separate combined runtime/native notice bundle",
+      "Own MIT browser/storage/diagnostic adapters/build code",
+      "Own CC0 embedded-font data and complete content generator",
+      "Frozen own interface-label JSON and source/build-input manifests",
+      "Host page and Python/Emscripten build instructions"
+    ],
+    "excludes": [
+      "Restrictive Watcom wildargv.c",
+      "Original embedded-font fnt6x13.c",
+      "GPL modern SDL adapter",
+      "Original/retail media, scripts, maps, fonts, audio and ROMs",
+      "Private ROM research/history and SDK whole archives"
+    ]
+  },
+  "rebuild": {
+    "exitCode": 0,
+    "nativeObjects": 96,
+    "ownObjects": 4,
+    "undefinedSymbolsAllowed": false,
+    "needsPreexistingPrivateObjects": false,
+    "needsRetailInputs": false,
+    "requires": "Python3/Emscripten6.0.10, pinned externally supplied SDK with its separate notices",
+    "compilerWarningsRetained": 222,
+    "artifacts": [
+      {
+        "name": "authored-boot.js",
+        "bytes": 234964,
+        "sha256": "fd404d587e3464de7cbab1785ddbbea9331fe3fa6205685d8a46b36cf4a01d06"
+      },
+      {
+        "name": "authored-boot.wasm",
+        "bytes": 2607421,
+        "sha256": "f069c2119c48da1bbdc2da6eac6c6ee9ae1baa7162cf951f560642fc28f0e246"
+      },
+      {
+        "name": "authored-boot.data",
+        "bytes": 275071,
+        "sha256": "2bd16c31ba07d699bd9b5df8e333be2b123915096e937b028472d913b8206798"
+      }
+    ],
+    "regeneratedContentFiles": 14,
+    "regeneratedResourceEntries": 181,
+    "regeneratedArchives": 11,
+    "contentManifestAndDataByteIdenticalToPrevious": true,
+    "comparisonProof": {
+      "sourceZIPPayloadHashesVerified": true,
+      "all225ArchiveInputsVerified": true,
+      "noPrebuiltObjectsInArchive": true,
+      "nativeObjectsRebuilt": 96,
+      "ownObjectsRebuilt": 4,
+      "contentManifestByteIdentical": true,
+      "contentDataByteIdentical": true,
+      "previousWasmSHA256": "aa37db9d641d4819a274f398b2806c3f642cba674d31de84946b72db8bbd02e5",
+      "ordinaryRebuiltWasmSHA256": "f069c2119c48da1bbdc2da6eac6c6ee9ae1baa7162cf951f560642fc28f0e246",
+      "diagnosticMappedProofWasmSHA256": "aa37db9d641d4819a274f398b2806c3f642cba674d31de84946b72db8bbd02e5",
+      "mappedProofEqualsPrevious": true,
+      "mappingUsedForOrdinaryRuntime": false,
+      "sourceChanges": [
+        "Frozen independently authored interface-label JSON replaces discovery from discarded unused native source files; generated labels/content unchanged"
+      ],
+      "archive": {
+        "bytes": 435406,
+        "sha256": "96a320e66c58745ffffa8909676b825f18876c7cac44afc812ee4b0db3c2b85f"
+      },
+      "remaining": [
+        "Muted ordinary-control gameplay/save test on ordinary rebuilt runtime",
+        "Exact emitted JavaScript mapping and final distribution review",
+        "Intended content/challenge/damage/death and UI refinement"
+      ]
+    },
+    "ordinaryBuildDiagnosticPrefixMapped": false,
+    "proofPurpose": "Separate relink of just dprint.c and loader2.c with old diagnostic prefix restores old WASM bytes exactly; proves ordinary rebuilt difference comes from two embedded __FILE__ diagnostic paths. It does not replace/test the ordinary rebuilt binary."
+  },
+  "browserTest": {
+    "audio": "No audio device; headless Edge --mute-audio",
+    "normalControlOnly": true,
+    "testMemorySaveRNGEdits": false,
+    "saved": {
+      "bytes": 26018,
+      "sha256": "fd623437ff06754483ca7bbcc08d1e8b5352da92745f1003879e325a8ccd06b8",
+      "values": [
+        0,
+        50,
+        100,
+        190,
+        2,
+        0,
+        100,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "flushes": 1
+    },
+    "restoredBytes": {
+      "bytes": 26018,
+      "sha256": "fd623437ff06754483ca7bbcc08d1e8b5352da92745f1003879e325a8ccd06b8"
+    },
+    "normalNativeLoad": {
+      "values": [
+        0,
+        55,
+        100,
+        190,
+        2,
+        0,
+        100,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "normalLoadVerified": true,
+      "byteIdentical": true
+    },
+    "scope": "Ordinary native brightness/GO UI and right/left movement, S browser save, full browser close/reopen in same dedicated profile/origin, ordinary L load; no full two-course route repetition",
+    "pageErrors": [],
+    "consoleErrors": [],
+    "missing": [],
+    "screenshotsInspected": true,
+    "closures": [
+      "First browser process/context fully closed after completed sync",
+      "Final browser process/context closed"
+    ],
+    "playersClosed": true,
+    "pass": true
+  },
+  "remaining": [
+    "Exact emitted JavaScript symbol/provenance mapping; prior57compiler-read source pool is overinclusive",
+    "Complete intended independent content/challenge/damage/death coverage and HUD/help overlap refinement",
+    "Final source/content packaging, notices and normal-control acceptance before any integration",
+    "Save rapid-close/crash/denial/quota/corruption/overwrite/fullcampaign/transfer/otherbrowser coverage unverified; audio unavailable and no audible test",
+    "Compiler warnings/function-pointer behavior outside exercised path remains unresolved"
+  ],
+  "privateArtifacts": [
+    {
+      "name": "link-closure/rebuild-source.zip",
+      "bytes": 435406,
+      "sha256": "96a320e66c58745ffffa8909676b825f18876c7cac44afc812ee4b0db3c2b85f"
+    },
+    {
+      "name": "link-closure/rebuild-verification.json",
+      "bytes": 1190,
+      "sha256": "78167c7c505117d3c15e687f39973554ffbe0835cb2b816812e33ef0a73a987b"
+    },
+    {
+      "name": "link-closure/diagnostic-prefix-proof/proof.wasm",
+      "bytes": 2607357,
+      "sha256": "aa37db9d641d4819a274f398b2806c3f642cba674d31de84946b72db8bbd02e5"
+    },
+    {
+      "name": "link-closure/rebuild-source/source-manifest.json",
+      "bytes": 37648,
+      "sha256": "f302f1eab009271029f6f78a6bbbad76fa4a68a92cb436857874d8862a431c95"
+    },
+    {
+      "name": "link-closure/rebuild-source/build-inputs.json",
+      "bytes": 2663,
+      "sha256": "6128eb20db95159cf746dfe357cb6aa45c07789e7bf0fd28faa3b79c94b16a7c"
+    },
+    {
+      "name": "link-closure/rebuild-source/interface-labels.json",
+      "bytes": 4001,
+      "sha256": "08bde583fbbb814dc2c6c81d3a67cf30b0035400bfc01256442084fd3824e25d"
+    },
+    {
+      "name": "link-closure/rebuild-source/build-candidate.py",
+      "bytes": 3206,
+      "sha256": "6d83bbe6ee63ab7e21d23e31642f97a836beef633b662e645af9e6c2bec7c8c6"
+    },
+    {
+      "name": "link-closure/rebuild-source/author-pack.py",
+      "bytes": 16284,
+      "sha256": "dc5d21d4990cc8eef2388a9d7539d425876ee43f7c92ba3773873c359d0bf783"
+    },
+    {
+      "name": "link-closure/rebuild-source/build/rebuild-report.json",
+      "bytes": 608,
+      "sha256": "53a6a5af315a2751c04a91244c3d812edb47a9b11169b27b18e0fd56a33861a4"
+    },
+    {
+      "name": "link-closure/rebuild-source/authored-persistence-report.json",
+      "bytes": 4381,
+      "sha256": "0b4db85ffb29863adc68452bc4d3a143fd1fee9c70071aafd76ea4a0d320dfc6"
+    },
+    {
+      "name": "link-closure/rebuild-source/authored-persist-before.spe",
+      "bytes": 26018,
+      "sha256": "fd623437ff06754483ca7bbcc08d1e8b5352da92745f1003879e325a8ccd06b8"
+    },
+    {
+      "name": "link-closure/rebuild-source/authored-persist-after.spe",
+      "bytes": 26018,
+      "sha256": "fd623437ff06754483ca7bbcc08d1e8b5352da92745f1003879e325a8ccd06b8"
+    },
+    {
+      "name": "link-closure/rebuild-source/authored-persist-saved.png",
+      "bytes": 58337,
+      "sha256": "4d2b962494837790e8fa79574fe318c3257a2eff5528a712a5e92839d00a72f5"
+    },
+    {
+      "name": "link-closure/rebuild-source/authored-persist-restored.png",
+      "bytes": 58159,
+      "sha256": "1f36a58ed6877af2c08cd7e840213260e72829d1bc698d12e3f2c664c0be19ff"
+    }
+  ],
+  "integration": {
+    "catalogCount": 83,
+    "newEntry": false,
+    "publicRuntime": false,
+    "sourcePackagePublished": false,
+    "deployment": false,
+    "claudeGamesTouched": false,
+    "contentComplete": false
+  }
+}
