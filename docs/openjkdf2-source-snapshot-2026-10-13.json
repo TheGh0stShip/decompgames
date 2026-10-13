@@ -1,0 +1,61 @@
+{
+  "repository": "shinyquagsire23/OpenJKDF2",
+  "revision": "d40b9451aa319fd4c37f4e784ce62d9d30a12927",
+  "starsAtRead": 763,
+  "scope": "Read-only upstream licence/docs/build flags and submodule inventory; no game content/executable downloaded, build or browser test",
+  "fileHashes": {
+    "LICENSE.md": "2f4b8fa145aa8f7ca0c75717f480b090ee9d23ae0832a7f6de28b84ee7e38727",
+    "README.md": "787c03ce1e87a81602073d29189f28a35bb1f6ea0204ccadff77d7e3b791ffdc",
+    "BUILDING.md": "22644660ab3a53a145e1de3e793bb930879c5175d23fa5e397ced2e51cb5da3a",
+    "CONTRIBUTING.md": "145095c148a72cd9f8b3107b7ae0fe2e9dc981815ca83b45dd451ee57e95caed",
+    "CMakeLists.txt": "f7bbf8c774f73ee15405e4295e0f1644dd6849e6d424bb4644a2c7fb6700d382",
+    ".gitmodules": "86d637253594c617561cce2255184823d6066b18614307d3fab8ff6c2aa22ebd",
+    "cmake_modules/plat_wasm.cmake": "53454acb72ff4b85bf7f01dbe2e35c5fab8e0c9f1c6198d22847be508497806a",
+    "cmake_modules/toolchain_wasm.cmake": "99fda47ee693f201037274c4887cb8018860fec06258e8abce744d1c33780ac2",
+    "build_run_openjkdf2_wasm.sh": "adb94623a87ffeda58693e51ba26a23879675fd4899b51a2f9bc5f93b1281077",
+    "src/external/libsmacker/COPYING": "dc626520dcd53a22f727af3ee42c770e56c97a64fe3adb063799d8ab032fe551",
+    "cmake_modules/plat_feat_full_sdl2.cmake": "d44aaba6c05b4652371ab12b6219cfa276d1f6e868c17516cd5d860d0643594c"
+  },
+  "submodules": [
+    {
+      "path": "lib/GameNetworkingSockets",
+      "sha": "505c697d0abef5da2ff3be35aa4ea3687597c3e9"
+    },
+    {
+      "path": "lib/SDL",
+      "sha": "f87239e71e42da91ca317a12eefb82cfbf3393eb"
+    },
+    {
+      "path": "lib/SDL_mixer",
+      "sha": "72a81869b45e249e8e67102db4e98dd2441f05a1"
+    },
+    {
+      "path": "lib/freeglut",
+      "sha": "63c0e78d84ecbfcf8accd8bac04404427899053b"
+    },
+    {
+      "path": "lib/glew",
+      "sha": "8f9a60f6aafdeba39a232f5b397eb910bb6ff7c8"
+    },
+    {
+      "path": "lib/libpng",
+      "sha": "f5e92d76973a7a53f517579bc95d61483bf108c0"
+    },
+    {
+      "path": "lib/openal",
+      "sha": "d3875f333fb6abe2f39d82caca329414871ae53b"
+    },
+    {
+      "path": "lib/physfs",
+      "sha": "d1ca6e14aa904363706a0f5712d8b8e6e13c5fa6"
+    },
+    {
+      "path": "lib/protobuf",
+      "sha": "f0dc78d7e6e331b8c6bb2d5283e06aa26883ca7c"
+    },
+    {
+      "path": "lib/zlib",
+      "sha": "5a82f71ed1dfc0bec044d9702463dbdf84ea3b71"
+    }
+  ]
+}
