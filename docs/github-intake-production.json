@@ -1,0 +1,43 @@
+{
+  "date": "2026-10-10T15:54:42.839Z",
+  "results": [
+    {
+      "id": "tennis-sdl",
+      "files": [
+        "player.html",
+        "game.js",
+        "game.wasm",
+        "LICENSE.md",
+        "THIRD_PARTY_NOTICES.md",
+        "SDL2-LICENSE.txt",
+        "EMSCRIPTEN-LICENSE.txt",
+        "silent-edition.patch",
+        "BUILD-NOTES.md"
+      ],
+      "sourceHash": true,
+      "scope": "Production release startup and measured left-paddle keyboard movement",
+      "before": 275,
+      "after": 122.5,
+      "errors": []
+    },
+    {
+      "id": "craft",
+      "files": [
+        "ASSET-LICENSE-CC0.txt",
+        "asset-provenance.json",
+        "LICENSE.md",
+        "player.data",
+        "player.html",
+        "player.js",
+        "player.wasm",
+        "THIRD_PARTY_NOTICES.md"
+      ],
+      "sourceHash": true,
+      "scope": "Production release startup/rendering/input dispatch; exact state/save proof remains local diagnostic",
+      "isolated": true,
+      "coop": "same-origin",
+      "coep": "require-corp",
+      "errors": []
+    }
+  ]
+}

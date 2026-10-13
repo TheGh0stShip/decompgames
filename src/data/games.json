@@ -1252,7 +1252,7 @@
    "browsers": [
     "Edge (headless, muted)"
    ],
-   "scope": "Local WASM: both keyboard paddles, live ball progression, a scored point, pause/resume, restart clears score, mute key stays silent; zero page errors. Production verification pending.",
+   "scope": "Local WASM: both paddles, ball progression/scored point, pause/resume and restart verified. Production release: startup and measured left-paddle movement, zero page errors; runtime/source hashes checked. Full match, touch/controller and audible audio unverified.",
    "playthrough": false
   },
   "image": "/images/tennis-sdl.png",
@@ -1267,7 +1267,7 @@
   ],
   "year": 2013,
   "genre": "Sandbox",
-  "kind": "Engine recreation",
+  "kind": "Original implementation",
   "mode": "embed",
   "launch": "tab",
   "embedUrl": "https://decompgames.com/games/craft/player.html",
@@ -1305,7 +1305,7 @@
    "browsers": [
     "Edge (headless, muted)"
    ],
-   "scope": "Diagnostic build measured movement, jump/landing, block removal/placement and same-origin fresh-page position/world-edit restoration. Corresponding uninstrumented release passed rendering/startup/input dispatch with zero errors and no probe exports. Production pending.",
+   "scope": "Local diagnostic build measured movement, jump/landing, block removal/placement and position/world-edit restoration. Uninstrumented production release: startup/render/input dispatch, zero errors and isolated-thread headers verified; runtime/source hashes checked. Release world-state restoration was not independently measured; multiplayer/audio unverified.",
    "playthrough": false
   },
   "image": "/images/craft.png",
@@ -4445,7 +4445,7 @@
       "browsers": [
         "Edge (headless, muted)"
       ],
-      "scope": "Isolated staged runtime under game URL prefix passed movement, save/reload, reset, turn switching and concession with no errors, missing resources or external requests. Separate starter-deck general combat ended in a draw. Production verification pending.",
+      "scope": "Local sandbox movement, save/reload, reset, turn switching and concession verified; starter-deck combat ended in a draw. Production move/save/reload passed with zero errors and matching source hash. Full rules, online services and broader gameplay unverified.",
       "playthrough": false
     }
   },
@@ -4596,7 +4596,7 @@
   "browsers": [
    "Edge (headless, muted)"
   ],
-  "scope": "Isolated rebuilt native candidate: visible keyboard movement/Creatures board transition, ordinary save/exact-byte reload/visible restore. Final site host/production checks pending.",
+  "scope": "Native rebuilt candidate: keyboard movement and Creatures board transition. Live release: movement, ordinary save/exact-byte reload/visible restore; padded-font sidebar screenshot inspected, no errors/missing/external requests. Runtime/source hashes verified. Full demo traversal and audible audio unverified.",
   "playthrough": false
  }
 }
