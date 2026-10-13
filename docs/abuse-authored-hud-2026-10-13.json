@@ -1,0 +1,526 @@
+{
+  "date": "2026-10-13",
+  "repo": "videogamepreservation/abuse",
+  "pin": "01cce80eaf2ae82bafb9981162e205e42d0fae2f",
+  "classification": "Original developer-released source port with independently authored incomplete content; not a matching decompilation, retail campaign, emulation or clean-room certificate",
+  "scope": "Private authored course HUD drawn through native post_render hook, normal two-course completion/restart and one persisted native save checkpoint",
+  "change": {
+    "implementation": "Own Lisp pack_hud after native scene/foreground/help/lighting through existing post_render hook; with_object(first_focus) reads own player state; separate opaque panel and two font rows",
+    "nativeCPPChangedForHUD": false,
+    "nativeWASMUnchanged": true,
+    "titleOrigin": [
+      8,
+      8
+    ],
+    "messageOrigin": [
+      8,
+      21
+    ],
+    "panelRectangle": [
+      2,
+      6,
+      317,
+      35
+    ],
+    "saveResult": "Native save_game return drives separate complete/failed notice; storage flush remains awaited; no native show_help confirmation overlap",
+    "ownedPlayerVariablesAdded": [
+      "pack_notice",
+      "pack_notice_time"
+    ],
+    "hookSource": {
+      "path": "adapted/abuse/src/game.c",
+      "definitionLine": 677,
+      "callLine": 1111,
+      "order": "After scene lighting, before restoring clipping rectangle"
+    },
+    "sourceGrant": "Developer original source public-domain release with preserved separate Bennett GIF credit/permission notice; retail content and trademark terms separate",
+    "generatorLicense": "Independently authored generator MIT; generated own script/glyphs/maps/graphics CC0",
+    "priorSourceRebuildPackage": "Earlier 225-input ZIP remains frozen before this HUD change and is not claimed to reproduce current HUD content; update/rebuild required before final distribution"
+  },
+  "content": {
+    "files": 14,
+    "resourceEntries": 181,
+    "SPECArchives": 11,
+    "manifestFileHashesVerified": true,
+    "complete": false,
+    "originalRetailInputs": false,
+    "sourceMediaUsed": false
+  },
+  "tests": {
+    "environment": "Headless Edge with --mute-audio; no audio device, isolated profiles/loopback server",
+    "rasterMethod": "Read-only native 320x200 Canvas2D RGBA, compare every 6x13 character cell against own atlas. Ink RGB255, background RGB0, alpha255; no screenshot or runtime-state edits",
+    "persistence": {
+      "pass": true,
+      "hudChecks": [
+        {
+          "label": "initial lit map",
+          "checks": [
+            {
+              "text": "COURSE 1 - ARROWS MOVE / UP JUMPS",
+              "y": 8,
+              "inkPixels": 389,
+              "backgroundPixels": 2185
+            },
+            {
+              "text": "S SAVE / L LOAD BROWSER SAVE",
+              "y": 21,
+              "inkPixels": 346,
+              "backgroundPixels": 1838
+            }
+          ],
+          "fullGlyphRowsVerified": true
+        },
+        {
+          "label": "save confirmation without overlapping title",
+          "checks": [
+            {
+              "text": "COURSE 1 - ARROWS MOVE / UP JUMPS",
+              "y": 8,
+              "inkPixels": 389,
+              "backgroundPixels": 2185
+            },
+            {
+              "text": "BROWSER SAVE COMPLETE",
+              "y": 21,
+              "inkPixels": 306,
+              "backgroundPixels": 1332
+            }
+          ],
+          "fullGlyphRowsVerified": true
+        },
+        {
+          "label": "loaded native checkpoint",
+          "checks": [
+            {
+              "text": "COURSE 1 - ARROWS MOVE / UP JUMPS",
+              "y": 8,
+              "inkPixels": 389,
+              "backgroundPixels": 2185
+            },
+            {
+              "text": "S SAVE / L LOAD BROWSER SAVE",
+              "y": 21,
+              "inkPixels": 346,
+              "backgroundPixels": 1838
+            }
+          ],
+          "fullGlyphRowsVerified": true
+        }
+      ],
+      "saved": {
+        "bytes": 26059,
+        "sha256": "4401138c786c2c38f0b4e50833edaca3ad6dae36a6c7dd36f8c446ce8e21e918",
+        "values": [
+          0,
+          75,
+          100,
+          190,
+          2,
+          0,
+          100,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "flushes": 1
+      },
+      "reopenedFile": {
+        "bytes": 26059,
+        "sha256": "4401138c786c2c38f0b4e50833edaca3ad6dae36a6c7dd36f8c446ce8e21e918"
+      },
+      "restored": {
+        "values": [
+          0,
+          70,
+          100,
+          190,
+          2,
+          0,
+          100,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "normalLoadVerified": true,
+        "byteIdentical": true
+      },
+      "closures": [
+        "First browser process/context fully closed after completed sync",
+        "Final browser process/context closed"
+      ]
+    },
+    "twoCourseRoute": {
+      "pass": true,
+      "observedRunningFrames": [
+        1,
+        2,
+        0,
+        3
+      ],
+      "hudChecks": [
+        {
+          "label": "second map arrived",
+          "checks": [
+            {
+              "text": "COURSE 2 - REACH THE RIGHT EXIT",
+              "y": 8,
+              "inkPixels": 380,
+              "backgroundPixels": 2038
+            },
+            {
+              "text": "S SAVE / L LOAD BROWSER SAVE",
+              "y": 21,
+              "inkPixels": 346,
+              "backgroundPixels": 1838
+            }
+          ],
+          "fullGlyphRowsVerified": true
+        },
+        {
+          "label": "completed course",
+          "checks": [
+            {
+              "text": "COURSE COMPLETE - ENTER RESTART",
+              "y": 8,
+              "inkPixels": 411,
+              "backgroundPixels": 2007
+            },
+            {
+              "text": "S SAVE / L LOAD BROWSER SAVE",
+              "y": 21,
+              "inkPixels": 346,
+              "backgroundPixels": 1838
+            }
+          ],
+          "fullGlyphRowsVerified": true
+        },
+        {
+          "label": "ordinary held Enter restart",
+          "checks": [
+            {
+              "text": "COURSE 1 - ARROWS MOVE / UP JUMPS",
+              "y": 8,
+              "inkPixels": 389,
+              "backgroundPixels": 2185
+            },
+            {
+              "text": "S SAVE / L LOAD BROWSER SAVE",
+              "y": 21,
+              "inkPixels": 346,
+              "backgroundPixels": 1838
+            }
+          ],
+          "fullGlyphRowsVerified": true
+        }
+      ],
+      "selectedStates": [
+        {
+          "label": "course started",
+          "values": [
+            0,
+            28,
+            50,
+            190,
+            2,
+            0,
+            100,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "logTail": [
+            "\r(load \"boot.lsp\") [..                                      ]\r(load \"boot.lsp\") [....                                    ]\r(load \"boot.lsp\") [......                                  ]\r(load \"boot.lsp\") [........                                ]\r(load \"boot.lsp\") [..........                              ]\r(load \"boot.lsp\") [............                            ]\r(load \"boot.lsp\") [..............                          ]\r(load \"boot.lsp\") [................                        ]\r(load \"boot.lsp\") [..................                      ]\r(load \"boot.lsp\") [....................                    ]\r(load \"boot.lsp\") [......................                  ]\r(load \"boot.lsp\") [........................                ]\r(load \"boot.lsp\") [..........................              ]\r(load \"boot.lsp\") [.............................           ]\r(load \"boot.lsp\") [................................        ]\r(load \"boot.lsp\") [...................................     ]\r(load \"boot.lsp\") [......................................  ]",
+            "Lisp : tmp space resized to 16384",
+            "engine : registering base graphics",
+            "Palette has changed, recalculating light table...",
+            "\rwhite light [..                                      ]\rwhite light [....                                    ]\rwhite light [......                                  ]\rwhite light [........                                ]\rwhite light [..........                              ]\rwhite light [............                            ]\rwhite light [..............                          ]\rwhite light [................                        ]\rwhite light [..................                      ]\rwhite light [....................                    ]\rwhite light [......................                  ]\rwhite light [........................                ]\rwhite light [..........................              ]\rwhite light [............................            ]\rwhite light [..............................          ]\rwhite light [................................        ]\rwhite light [..................................      ]\rwhite light [....................................    ]\rwhite light [......................................  ]",
+            "\rtints [....                                    ]\rtints [..........                              ]\rtints [..............                          ]\rtints [....................                    ]\rtints [........................                ]\rtints [..............................          ]\rtints [..................................      ]"
+          ]
+        },
+        {
+          "label": "wall after sustained right",
+          "values": [
+            0,
+            65,
+            158,
+            190,
+            2,
+            0,
+            100,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "logTail": [
+            "\r(load \"boot.lsp\") [..                                      ]\r(load \"boot.lsp\") [....                                    ]\r(load \"boot.lsp\") [......                                  ]\r(load \"boot.lsp\") [........                                ]\r(load \"boot.lsp\") [..........                              ]\r(load \"boot.lsp\") [............                            ]\r(load \"boot.lsp\") [..............                          ]\r(load \"boot.lsp\") [................                        ]\r(load \"boot.lsp\") [..................                      ]\r(load \"boot.lsp\") [....................                    ]\r(load \"boot.lsp\") [......................                  ]\r(load \"boot.lsp\") [........................                ]\r(load \"boot.lsp\") [..........................              ]\r(load \"boot.lsp\") [.............................           ]\r(load \"boot.lsp\") [................................        ]\r(load \"boot.lsp\") [...................................     ]\r(load \"boot.lsp\") [......................................  ]",
+            "Lisp : tmp space resized to 16384",
+            "engine : registering base graphics",
+            "Palette has changed, recalculating light table...",
+            "\rwhite light [..                                      ]\rwhite light [....                                    ]\rwhite light [......                                  ]\rwhite light [........                                ]\rwhite light [..........                              ]\rwhite light [............                            ]\rwhite light [..............                          ]\rwhite light [................                        ]\rwhite light [..................                      ]\rwhite light [....................                    ]\rwhite light [......................                  ]\rwhite light [........................                ]\rwhite light [..........................              ]\rwhite light [............................            ]\rwhite light [..............................          ]\rwhite light [................................        ]\rwhite light [..................................      ]\rwhite light [....................................    ]\rwhite light [......................................  ]",
+            "\rtints [....                                    ]\rtints [..........                              ]\rtints [..............                          ]\rtints [....................                    ]\rtints [........................                ]\rtints [..............................          ]\rtints [..................................      ]"
+          ]
+        },
+        {
+          "label": "wall remains blocked",
+          "values": [
+            0,
+            74,
+            158,
+            190,
+            2,
+            0,
+            100,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "logTail": [
+            "\r(load \"boot.lsp\") [..                                      ]\r(load \"boot.lsp\") [....                                    ]\r(load \"boot.lsp\") [......                                  ]\r(load \"boot.lsp\") [........                                ]\r(load \"boot.lsp\") [..........                              ]\r(load \"boot.lsp\") [............                            ]\r(load \"boot.lsp\") [..............                          ]\r(load \"boot.lsp\") [................                        ]\r(load \"boot.lsp\") [..................                      ]\r(load \"boot.lsp\") [....................                    ]\r(load \"boot.lsp\") [......................                  ]\r(load \"boot.lsp\") [........................                ]\r(load \"boot.lsp\") [..........................              ]\r(load \"boot.lsp\") [.............................           ]\r(load \"boot.lsp\") [................................        ]\r(load \"boot.lsp\") [...................................     ]\r(load \"boot.lsp\") [......................................  ]",
+            "Lisp : tmp space resized to 16384",
+            "engine : registering base graphics",
+            "Palette has changed, recalculating light table...",
+            "\rwhite light [..                                      ]\rwhite light [....                                    ]\rwhite light [......                                  ]\rwhite light [........                                ]\rwhite light [..........                              ]\rwhite light [............                            ]\rwhite light [..............                          ]\rwhite light [................                        ]\rwhite light [..................                      ]\rwhite light [....................                    ]\rwhite light [......................                  ]\rwhite light [........................                ]\rwhite light [..........................              ]\rwhite light [............................            ]\rwhite light [..............................          ]\rwhite light [................................        ]\rwhite light [..................................      ]\rwhite light [....................................    ]\rwhite light [......................................  ]",
+            "\rtints [....                                    ]\rtints [..........                              ]\rtints [..............                          ]\rtints [....................                    ]\rtints [........................                ]\rtints [..............................          ]\rtints [..................................      ]"
+          ]
+        },
+        {
+          "label": "jump crossed wall and landed",
+          "values": [
+            0,
+            92,
+            194,
+            190,
+            2,
+            0,
+            100,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "logTail": [
+            "\r(load \"boot.lsp\") [..                                      ]\r(load \"boot.lsp\") [....                                    ]\r(load \"boot.lsp\") [......                                  ]\r(load \"boot.lsp\") [........                                ]\r(load \"boot.lsp\") [..........                              ]\r(load \"boot.lsp\") [............                            ]\r(load \"boot.lsp\") [..............                          ]\r(load \"boot.lsp\") [................                        ]\r(load \"boot.lsp\") [..................                      ]\r(load \"boot.lsp\") [....................                    ]\r(load \"boot.lsp\") [......................                  ]\r(load \"boot.lsp\") [........................                ]\r(load \"boot.lsp\") [..........................              ]\r(load \"boot.lsp\") [.............................           ]\r(load \"boot.lsp\") [................................        ]\r(load \"boot.lsp\") [...................................     ]\r(load \"boot.lsp\") [......................................  ]",
+            "Lisp : tmp space resized to 16384",
+            "engine : registering base graphics",
+            "Palette has changed, recalculating light table...",
+            "\rwhite light [..                                      ]\rwhite light [....                                    ]\rwhite light [......                                  ]\rwhite light [........                                ]\rwhite light [..........                              ]\rwhite light [............                            ]\rwhite light [..............                          ]\rwhite light [................                        ]\rwhite light [..................                      ]\rwhite light [....................                    ]\rwhite light [......................                  ]\rwhite light [........................                ]\rwhite light [..........................              ]\rwhite light [............................            ]\rwhite light [..............................          ]\rwhite light [................................        ]\rwhite light [..................................      ]\rwhite light [....................................    ]\rwhite light [......................................  ]",
+            "\rtints [....                                    ]\rtints [..........                              ]\rtints [..............                          ]\rtints [....................                    ]\rtints [........................                ]\rtints [..............................          ]\rtints [..................................      ]"
+          ]
+        },
+        {
+          "label": "second map arrived",
+          "values": [
+            0,
+            6,
+            74,
+            96,
+            10,
+            2,
+            100,
+            1,
+            4,
+            17,
+            0,
+            2
+          ],
+          "logTail": [
+            "\r(load \"boot.lsp\") [..                                      ]\r(load \"boot.lsp\") [....                                    ]\r(load \"boot.lsp\") [......                                  ]\r(load \"boot.lsp\") [........                                ]\r(load \"boot.lsp\") [..........                              ]\r(load \"boot.lsp\") [............                            ]\r(load \"boot.lsp\") [..............                          ]\r(load \"boot.lsp\") [................                        ]\r(load \"boot.lsp\") [..................                      ]\r(load \"boot.lsp\") [....................                    ]\r(load \"boot.lsp\") [......................                  ]\r(load \"boot.lsp\") [........................                ]\r(load \"boot.lsp\") [..........................              ]\r(load \"boot.lsp\") [.............................           ]\r(load \"boot.lsp\") [................................        ]\r(load \"boot.lsp\") [...................................     ]\r(load \"boot.lsp\") [......................................  ]",
+            "Lisp : tmp space resized to 16384",
+            "engine : registering base graphics",
+            "Palette has changed, recalculating light table...",
+            "\rwhite light [..                                      ]\rwhite light [....                                    ]\rwhite light [......                                  ]\rwhite light [........                                ]\rwhite light [..........                              ]\rwhite light [............                            ]\rwhite light [..............                          ]\rwhite light [................                        ]\rwhite light [..................                      ]\rwhite light [....................                    ]\rwhite light [......................                  ]\rwhite light [........................                ]\rwhite light [..........................              ]\rwhite light [............................            ]\rwhite light [..............................          ]\rwhite light [................................        ]\rwhite light [..................................      ]\rwhite light [....................................    ]\rwhite light [......................................  ]",
+            "\rtints [....                                    ]\rtints [..........                              ]\rtints [..............                          ]\rtints [....................                    ]\rtints [........................                ]\rtints [..............................          ]\rtints [..................................      ]"
+          ]
+        },
+        {
+          "label": "toward course 2 exit 14",
+          "values": [
+            0,
+            219,
+            724,
+            141,
+            2,
+            0,
+            100,
+            1,
+            4,
+            1,
+            1,
+            2
+          ],
+          "logTail": [
+            "\r(load \"boot.lsp\") [..                                      ]\r(load \"boot.lsp\") [....                                    ]\r(load \"boot.lsp\") [......                                  ]\r(load \"boot.lsp\") [........                                ]\r(load \"boot.lsp\") [..........                              ]\r(load \"boot.lsp\") [............                            ]\r(load \"boot.lsp\") [..............                          ]\r(load \"boot.lsp\") [................                        ]\r(load \"boot.lsp\") [..................                      ]\r(load \"boot.lsp\") [....................                    ]\r(load \"boot.lsp\") [......................                  ]\r(load \"boot.lsp\") [........................                ]\r(load \"boot.lsp\") [..........................              ]\r(load \"boot.lsp\") [.............................           ]\r(load \"boot.lsp\") [................................        ]\r(load \"boot.lsp\") [...................................     ]\r(load \"boot.lsp\") [......................................  ]",
+            "Lisp : tmp space resized to 16384",
+            "engine : registering base graphics",
+            "Palette has changed, recalculating light table...",
+            "\rwhite light [..                                      ]\rwhite light [....                                    ]\rwhite light [......                                  ]\rwhite light [........                                ]\rwhite light [..........                              ]\rwhite light [............                            ]\rwhite light [..............                          ]\rwhite light [................                        ]\rwhite light [..................                      ]\rwhite light [....................                    ]\rwhite light [......................                  ]\rwhite light [........................                ]\rwhite light [..........................              ]\rwhite light [............................            ]\rwhite light [..............................          ]\rwhite light [................................        ]\rwhite light [..................................      ]\rwhite light [....................................    ]\rwhite light [......................................  ]",
+            "\rtints [....                                    ]\rtints [..........                              ]\rtints [..............                          ]\rtints [....................                    ]\rtints [........................                ]\rtints [..............................          ]\rtints [..................................      ]"
+          ]
+        },
+        {
+          "label": "ordinary held Enter restart",
+          "values": [
+            0,
+            25,
+            50,
+            190,
+            2,
+            0,
+            100,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "logTail": [
+            "\r(load \"boot.lsp\") [..                                      ]\r(load \"boot.lsp\") [....                                    ]\r(load \"boot.lsp\") [......                                  ]\r(load \"boot.lsp\") [........                                ]\r(load \"boot.lsp\") [..........                              ]\r(load \"boot.lsp\") [............                            ]\r(load \"boot.lsp\") [..............                          ]\r(load \"boot.lsp\") [................                        ]\r(load \"boot.lsp\") [..................                      ]\r(load \"boot.lsp\") [....................                    ]\r(load \"boot.lsp\") [......................                  ]\r(load \"boot.lsp\") [........................                ]\r(load \"boot.lsp\") [..........................              ]\r(load \"boot.lsp\") [.............................           ]\r(load \"boot.lsp\") [................................        ]\r(load \"boot.lsp\") [...................................     ]\r(load \"boot.lsp\") [......................................  ]",
+            "Lisp : tmp space resized to 16384",
+            "engine : registering base graphics",
+            "Palette has changed, recalculating light table...",
+            "\rwhite light [..                                      ]\rwhite light [....                                    ]\rwhite light [......                                  ]\rwhite light [........                                ]\rwhite light [..........                              ]\rwhite light [............                            ]\rwhite light [..............                          ]\rwhite light [................                        ]\rwhite light [..................                      ]\rwhite light [....................                    ]\rwhite light [......................                  ]\rwhite light [........................                ]\rwhite light [..........................              ]\rwhite light [............................            ]\rwhite light [..............................          ]\rwhite light [................................        ]\rwhite light [..................................      ]\rwhite light [....................................    ]\rwhite light [......................................  ]",
+            "\rtints [....                                    ]\rtints [..........                              ]\rtints [..............                          ]\rtints [....................                    ]\rtints [........................                ]\rtints [..............................          ]\rtints [..................................      ]"
+          ]
+        }
+      ]
+    },
+    "normalInputsOnly": true,
+    "saveOrMemoryOrRNGWritesByHarness": false,
+    "pageErrors": [],
+    "consoleErrors": [],
+    "missingResources": [],
+    "screenshotsInspected": [
+      "authored-hud-persist-saved.png",
+      "authored-hud-persist-restored.png",
+      "authored-hud-route-two.png",
+      "authored-hud-route-complete.png",
+      "authored-hud-route-restarted.png"
+    ],
+    "allPlayersAndServersClosed": true,
+    "audibleAudioVerified": false,
+    "limits": [
+      "One course-one stationary save after completed commit; same-origin/profile full browser restart",
+      "Save-failure HUD branch implemented but not exercised by this successful test",
+      "No rapid-close/crash/quota/denial/corruption/overwrite/transfer/other-browser persistence claim",
+      "Existing own obstacle prototype only; intended challenge/damage/death coverage remains incomplete",
+      "Legacy compiler warnings and behavior outside exercised paths remain unresolved",
+      "No retail gameplay, full replacement campaign or clean-room isolation certificate"
+    ]
+  },
+  "artifacts": [
+    {
+      "path": "author-pack.py",
+      "bytes": 16784,
+      "sha256": "3d940f60891ae8cf875e060baf44890bde00e79decfc3a6c0f6ac555e33537bc"
+    },
+    {
+      "path": "authored-pack/boot.lsp",
+      "bytes": 7138,
+      "sha256": "9d0f7f10791d9acdbe0d37a189fd1892761d010dce70f50916fb82a05387cbd5"
+    },
+    {
+      "path": "authored-pack/provenance.json",
+      "bytes": 77667,
+      "sha256": "277776674c7078c905d1ceaba9d1317bb5ad3fa00fb9555f77d24f84c8aa4a9d"
+    },
+    {
+      "path": "authored-boot.js",
+      "bytes": 234880,
+      "sha256": "a310067a5c8716574dd5ad74f7e1946c7a180895fc7733f85635bd1e670e179f"
+    },
+    {
+      "path": "authored-boot.wasm",
+      "bytes": 2607357,
+      "sha256": "aa37db9d641d4819a274f398b2806c3f642cba674d31de84946b72db8bbd02e5"
+    },
+    {
+      "path": "authored-boot.data",
+      "bytes": 275373,
+      "sha256": "c4fa40c6e7a6c66e6005b06979dbcf1668c91cce7da184221ecdadfcfec5f126"
+    },
+    {
+      "path": "authored-boot-build.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "test-authored-hud.cjs",
+      "bytes": 7576,
+      "sha256": "1c90998714870686cd0d1f0d3436e5d3fcf4586bcd2505a91261258c70bc572d"
+    },
+    {
+      "path": "test-authored-hud-route.cjs",
+      "bytes": 8058,
+      "sha256": "afd972e6034da4bf85acb7ae32df4452a43d53277e3058ed4e1a0a2bf2fb1b24"
+    },
+    {
+      "path": "authored-hud-persistence-report.json",
+      "bytes": 5689,
+      "sha256": "d87d258dc10e6ca64e3be90acb1f5eaf2e454a699697ea0e042e1e2e72d23859"
+    },
+    {
+      "path": "authored-hud-route-report.json",
+      "bytes": 124937,
+      "sha256": "2daeabc25734c5dec6bc6dd6869c9cf5e30761f9d571dd91aa70e0b183cbffaa"
+    },
+    {
+      "path": "authored-hud-persist-before.spe",
+      "bytes": 26059,
+      "sha256": "4401138c786c2c38f0b4e50833edaca3ad6dae36a6c7dd36f8c446ce8e21e918"
+    },
+    {
+      "path": "authored-hud-persist-after.spe",
+      "bytes": 26059,
+      "sha256": "4401138c786c2c38f0b4e50833edaca3ad6dae36a6c7dd36f8c446ce8e21e918"
+    },
+    {
+      "path": "authored-hud-persist-saved.png",
+      "bytes": 52031,
+      "sha256": "e6f0aa36072f55f1a798ec4b7956927fb72043b0a4fe760c578de7a75cc37654"
+    },
+    {
+      "path": "authored-hud-persist-restored.png",
+      "bytes": 57331,
+      "sha256": "7ca6a9c3690aef701bde629d691497b5422767e2900a8874f9caa6cd4b3d6e8a"
+    },
+    {
+      "path": "authored-hud-route-two.png",
+      "bytes": 57315,
+      "sha256": "6142314b58d2f82c3e26bc8634a618aeaaa117df40d431579e10600d26caaa0f"
+    },
+    {
+      "path": "authored-hud-route-complete.png",
+      "bytes": 52321,
+      "sha256": "b43e7753d425240eaa78fd13d5d8df3f9ee947230bd588b0a8b51e24dca7d43c"
+    },
+    {
+      "path": "authored-hud-route-restarted.png",
+      "bytes": 52259,
+      "sha256": "e24e8861e894a1f88c76bfa22254967e8d4f4e9b7470357519a63482d4610f25"
+    }
+  ],
+  "remaining": [
+    "Complete intended independent content/challenge/damage/death scope",
+    "Refresh source-only rebuild ZIP and generated provenance/status before final distribution",
+    "Final source/content/runtime notice packaging and normal-control acceptance"
+  ],
+  "integration": {
+    "catalogCount": 83,
+    "entryAdded": false,
+    "publicRuntime": false,
+    "deployment": false,
+    "claudeGamesTouched": false,
+    "cleanRoomCertified": false
+  }
+}
