@@ -12,5 +12,6 @@
   "astroErrors": 0,
   "astroHints": 2,
   "distributionFilesVerified": 647,
-  "deployment": "pending"
+  "deployment": "https://d8ff4b25.decompgames.pages.dev",
+  "productionEvidence": "zzt-production-release.json"
 }
