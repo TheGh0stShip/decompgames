@@ -1,0 +1,283 @@
+{
+  "scope": "Private two-board Super ZZT authored-room durable-save probe; no public game/runtime/source-package integration or deployment",
+  "catalogEntries": 84,
+  "completeGame": false,
+  "runtimePublished": false,
+  "classification": "Reconstruction-derived C++ source port/rewrite with Super ZZT support, not a matching DOS binary or CPU emulation",
+  "namespace": "decompgames-kiln-super-zzt-saves-v1",
+  "storage": "Host localStorage restores structurally admitted native files before native main; polls complete saves every 500 ms; waited for storage before close. Native save itself remains MEMFS plus host synchronization.",
+  "structuralValidationScope": "Current KILN two-board format only: version, pack/world/board names, save flag, strings, RLE and board bounds, stat capacity/coordinates/references/pointers/data lengths. Not authenticity, arbitrary-world validation or hostile-script sandbox.",
+  "validatorTests": {
+    "scope": "Structural admission for current authored two-board pack, not authentication or an arbitrary-world sandbox",
+    "acceptedEarnedNativeSave": {
+      "version": -2,
+      "currentBoard": 1,
+      "ammo": 0,
+      "gems": 1,
+      "health": 110,
+      "score": 10,
+      "boards": [
+        {
+          "name": "Kiln title",
+          "player": {
+            "x": 8,
+            "y": 10,
+            "codeLen": 0
+          },
+          "statCount": 1
+        },
+        {
+          "name": "Wide room",
+          "player": {
+            "x": 14,
+            "y": 10,
+            "codeLen": 0
+          },
+          "statCount": 2
+        }
+      ]
+    },
+    "rejectedCases": [
+      "non-array",
+      "non-integer byte",
+      "out-of-range byte",
+      "truncated at 0",
+      "truncated at 1",
+      "truncated at 2",
+      "truncated at 3",
+      "truncated at 27",
+      "truncated at 388",
+      "truncated at 1023",
+      "truncated at 1024",
+      "truncated at 1056",
+      "truncated at 1756",
+      "truncated at 3051",
+      "predecessor format",
+      "foreign world name",
+      "not a native save",
+      "invalid current board",
+      "invalid key flag",
+      "oversized flag string",
+      "foreign title board",
+      "zero RLE run",
+      "unrecognized element",
+      "RLE overflow",
+      "invalid start position",
+      "oversized stat list",
+      "invalid player coordinate",
+      "unexpected serialized pointer",
+      "invalid code reference",
+      "trailing data",
+      "unplayed authored world"
+    ],
+    "passed": true
+  },
+  "verification": {
+    "scope": "Private native checkpoint through full Edge browser restart and ordinary R/S restore/save; current authored room only",
+    "muted": true,
+    "errors": [],
+    "missing": [],
+    "external": [],
+    "earned": {
+      "bytes": 3052,
+      "sha256": "3138258b3538da80eabf4aec05a1d92fa08f19727c80d0154ddbc47b0427f723",
+      "state": {
+        "version": -2,
+        "currentBoard": 1,
+        "ammo": 0,
+        "gems": 1,
+        "health": 110,
+        "score": 10,
+        "boards": [
+          {
+            "name": "Kiln title",
+            "player": {
+              "x": 8,
+              "y": 10,
+              "codeLen": 0
+            },
+            "statCount": 1
+          },
+          {
+            "name": "Wide room",
+            "player": {
+              "x": 14,
+              "y": 10,
+              "codeLen": 0
+            },
+            "statCount": 2
+          }
+        ]
+      }
+    },
+    "movementAfterSaveDidNotRewriteFile": true,
+    "firstBrowserClosed": true,
+    "fullBrowserRestartBytesEqual": true,
+    "reloadedSha256": "3138258b3538da80eabf4aec05a1d92fa08f19727c80d0154ddbc47b0427f723",
+    "restoreMenuDirectoryRows": 4,
+    "resumeInput": "One ordinary left step after native R restore",
+    "ordinaryNativeRestoreVerifiedByNewNativeSave": {
+      "bytes": 3055,
+      "sha256": "caad826163901be337c6430fcae212bf8dbee534b6f64440a8a4354f7a9eb7eb",
+      "state": {
+        "version": -2,
+        "currentBoard": 1,
+        "ammo": 0,
+        "gems": 1,
+        "health": 110,
+        "score": 10,
+        "boards": [
+          {
+            "name": "Kiln title",
+            "player": {
+              "x": 8,
+              "y": 10,
+              "codeLen": 0
+            },
+            "statCount": 1
+          },
+          {
+            "name": "Wide room",
+            "player": {
+              "x": 13,
+              "y": 10,
+              "codeLen": 0
+            },
+            "statCount": 2
+          }
+        ]
+      }
+    },
+    "foreignZZTStorageAbsent": true,
+    "assertionsPassed": true,
+    "playersClosed": true
+  },
+  "independentSavedBoardChecks": [
+    {
+      "path": "durable-earned.SAV",
+      "bytes": 3052,
+      "sha256": "3138258b3538da80eabf4aec05a1d92fa08f19727c80d0154ddbc47b0427f723",
+      "boards": [
+        {
+          "id": 0,
+          "name": "Kiln title",
+          "tiles": 7680,
+          "player": [
+            8,
+            10
+          ],
+          "stats": 1,
+          "gem12_10Element": 73
+        },
+        {
+          "id": 1,
+          "name": "Wide room",
+          "tiles": 7680,
+          "player": [
+            14,
+            10
+          ],
+          "stats": 2,
+          "gem12_10Element": 47
+        }
+      ]
+    },
+    {
+      "path": "durable-resumed.SAV",
+      "bytes": 3055,
+      "sha256": "caad826163901be337c6430fcae212bf8dbee534b6f64440a8a4354f7a9eb7eb",
+      "boards": [
+        {
+          "id": 0,
+          "name": "Kiln title",
+          "tiles": 7680,
+          "player": [
+            8,
+            10
+          ],
+          "stats": 1,
+          "gem12_10Element": 73
+        },
+        {
+          "id": 1,
+          "name": "Wide room",
+          "tiles": 7680,
+          "player": [
+            13,
+            10
+          ],
+          "stats": 2,
+          "gem12_10Element": 47
+        }
+      ]
+    }
+  ],
+  "nativeArtifactsUnchanged": [
+    {
+      "path": "openzoo.js",
+      "bytes": 376220,
+      "sha256": "4fd6d085df87d59129f659c9232341dd47152cae353f34eb92c4917a03dc606b"
+    },
+    {
+      "path": "openzoo.wasm",
+      "bytes": 922006,
+      "sha256": "88a2e5c9ef1f86608d70907302bea167fd55ab555e78985648c7f1ba70fed9f0"
+    },
+    {
+      "path": "openzoo.data",
+      "bytes": 89211,
+      "sha256": "c146d932544d2c125c91b015c82c50ba8946f6ad59507f99fce3f4db96315108"
+    }
+  ],
+  "hostInputs": [
+    {
+      "path": "save-validator.js",
+      "bytes": 3359,
+      "sha256": "8c32cbe82b6ae9e71ad158736875fa79692ddb064ba2a4932f70058bc6cc871d"
+    },
+    {
+      "path": "save-storage.js",
+      "bytes": 1867,
+      "sha256": "8da47bae7e46f1765ce5d11f9b84c7ff99fc4eec51e3aea97b293a046b8e606b"
+    },
+    {
+      "path": "player.html",
+      "bytes": 991,
+      "sha256": "971b1e7ef3a8db53cdc4b86be80bd7c2524b66b4e6b76892e2e3e2b63a998424"
+    },
+    {
+      "path": "build.py",
+      "bytes": 1511,
+      "sha256": "0edd178b3fa44d04e658213f4adbb08a5d8e6d6539e8df738ba33102280c61cf"
+    },
+    {
+      "path": "AUTHORED-ADAPTER-LICENSE.txt",
+      "bytes": 1526,
+      "sha256": "ba128fc47f1b24678b8a08c705ba3374072ab8d9afae4627872514cb36632dc5"
+    }
+  ],
+  "hostCaptionFollowup": "Added move-to-resume instruction after successful runtime test; no code/native/data change and no additional gameplay rerun for that caption.",
+  "screenshotsInspected": [
+    "earned checkpoint",
+    "moved away without resaving",
+    "native R menu",
+    "paused native restore",
+    "resumed native re-save"
+  ],
+  "failedAttemptPreserved": {
+    "fullRestartBytesAlreadyPassed": true,
+    "failure": "First harness attempted S while native restore was paused; no ROUND2 save, wait timed out. Native R had restored the visible room/counters.",
+    "correction": "One ordinary left step resumes play, followed by native S/ROUND2 save. No engine or saved-state patch.",
+    "playersClosed": true
+  },
+  "limits": [
+    "One stationary room-one gem checkpoint/same browser profile and origin only",
+    "No rapid-close, crash, quota, storage denial, damaged/completed/other-board saves, overwrite, deletion or cross-device transfer verification",
+    "Malformed-input unit rejection is not a browser corruption/error-path test",
+    "Intended challenge/progression/death/end/restart and additional sequel mechanics remain incomplete",
+    "Title monitor overlaps caption; long room text clips within the scrolling viewport. Final UI/glyph/content audit remains open",
+    "Exact fresh linked dependency/emitted-JS/source-package rebuild and public/live acceptance remain open",
+    "No audible test; native creates no audio device"
+  ],
+  "licensing": "Own persistence/validator/host/generator/build/test/edition-default work MIT under separately retained full grant; generated world/about/glyph content CC0; engine/reconstruction/runtime/dependencies retain separate terms."
+}
