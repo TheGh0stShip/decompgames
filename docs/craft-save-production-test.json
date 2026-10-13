@@ -1,0 +1,364 @@
+{
+  "scope": "Uninstrumented live native Craft release: normal keyboard movement, mouse remove/place/remove at one voxel, fresh page and full browser close/reopen restoration. Read-only game-created SQLite snapshots; no native memory, database/save, map or score edits.",
+  "checkpoints": [
+    {
+      "label": "baseline",
+      "sha256": "a2e83a2d43f543555ce19a303143b51fdacc2243a067309063b8a792495cfc34",
+      "bytes": 13312,
+      "integrity": "ok",
+      "state": [
+        [
+          0,
+          16.75,
+          0,
+          0,
+          0
+        ]
+      ],
+      "blocks": []
+    },
+    {
+      "label": "moved",
+      "sha256": "059b4a62e36039af3a831ded2afcfc9c6cd73aceb23f8c99904515de2b7e5cea",
+      "bytes": 13312,
+      "integrity": "ok",
+      "state": [
+        [
+          -3.3338670846205787e-07,
+          16.75,
+          7.626998424530029,
+          0,
+          -0.718364953994751
+        ]
+      ],
+      "blocks": []
+    },
+    {
+      "label": "removed",
+      "sha256": "7433d4e06147a3b651df4686955375dd78650f3f69db9c4788ed13c44126d88b",
+      "bytes": 13312,
+      "integrity": "ok",
+      "state": [
+        [
+          -3.3338670846205787e-07,
+          16.75,
+          7.626998424530029,
+          0,
+          -0.6183649301528931
+        ]
+      ],
+      "blocks": [
+        [
+          -1,
+          0,
+          0,
+          15,
+          6,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          15,
+          6,
+          0
+        ]
+      ]
+    },
+    {
+      "label": "placed",
+      "sha256": "99f925e164a3765f98b6ff4a5cdbb17687a5215fc08d0896c9ea8c29c5e90ab1",
+      "bytes": 13312,
+      "integrity": "ok",
+      "state": [
+        [
+          -3.3338670846205787e-07,
+          16.75,
+          7.626998424530029,
+          0,
+          -0.6183649301528931
+        ]
+      ],
+      "blocks": [
+        [
+          -1,
+          0,
+          0,
+          15,
+          6,
+          -1
+        ],
+        [
+          0,
+          0,
+          0,
+          15,
+          6,
+          1
+        ]
+      ]
+    },
+    {
+      "label": "saved",
+      "sha256": "5d9b1812672113e828713d6626d81133d2fb0afbe220862fdca428a43a32c2f1",
+      "bytes": 13312,
+      "integrity": "ok",
+      "state": [
+        [
+          -3.3338670846205787e-07,
+          16.75,
+          7.626998424530029,
+          0,
+          -0.6183649301528931
+        ]
+      ],
+      "blocks": [
+        [
+          -1,
+          0,
+          0,
+          15,
+          6,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          15,
+          6,
+          0
+        ]
+      ]
+    },
+    {
+      "label": "restored",
+      "sha256": "67e52e67141c62870977b6222918b4132d377668771fad9fbb456803f34ea742",
+      "bytes": 13312,
+      "integrity": "ok",
+      "state": [
+        [
+          -3.3338670846205787e-07,
+          16.75,
+          7.626998424530029,
+          0,
+          -0.6183649301528931
+        ]
+      ],
+      "blocks": [
+        [
+          -1,
+          0,
+          0,
+          15,
+          6,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          15,
+          6,
+          0
+        ]
+      ]
+    },
+    {
+      "label": "browser-restarted",
+      "sha256": "11d417519e92d16113b6e9671a3102e708e62523ec05283f66a336b161d1d757",
+      "bytes": 13312,
+      "integrity": "ok",
+      "state": [
+        [
+          -3.3338670846205787e-07,
+          16.75,
+          7.626998424530029,
+          0,
+          -0.6183649301528931
+        ]
+      ],
+      "blocks": [
+        [
+          -1,
+          0,
+          0,
+          15,
+          6,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          15,
+          6,
+          0
+        ]
+      ]
+    }
+  ],
+  "errors": [],
+  "consoleErrors": [],
+  "expectedConsoleFailures": [
+    {
+      "text": "Failed to load resource: net::ERR_FAILED",
+      "location": {
+        "url": "https://static.cloudflareinsights.com/beacon.min.js/v4bc70e2c01a94c73b74392e4234840661791215815920",
+        "line": 0,
+        "column": 0,
+        "lineNumber": 0,
+        "columnNumber": 0
+      }
+    },
+    {
+      "text": "Failed to load resource: net::ERR_FAILED",
+      "location": {
+        "url": "https://static.cloudflareinsights.com/beacon.min.js/v4bc70e2c01a94c73b74392e4234840661791215815920",
+        "line": 0,
+        "column": 0,
+        "lineNumber": 0,
+        "columnNumber": 0
+      }
+    },
+    {
+      "text": "Failed to load resource: net::ERR_FAILED",
+      "location": {
+        "url": "https://static.cloudflareinsights.com/beacon.min.js/v4bc70e2c01a94c73b74392e4234840661791215815920",
+        "line": 0,
+        "column": 0,
+        "lineNumber": 0,
+        "columnNumber": 0
+      }
+    }
+  ],
+  "requestFailures": [
+    {
+      "url": "https://static.cloudflareinsights.com/beacon.min.js/v4bc70e2c01a94c73b74392e4234840661791215815920",
+      "error": {
+        "errorText": "net::ERR_FAILED"
+      },
+      "expectedBlocked": true
+    },
+    {
+      "url": "https://static.cloudflareinsights.com/beacon.min.js/v4bc70e2c01a94c73b74392e4234840661791215815920",
+      "error": {
+        "errorText": "net::ERR_FAILED"
+      },
+      "expectedBlocked": true
+    },
+    {
+      "url": "https://static.cloudflareinsights.com/beacon.min.js/v4bc70e2c01a94c73b74392e4234840661791215815920",
+      "error": {
+        "errorText": "net::ERR_FAILED"
+      },
+      "expectedBlocked": true
+    }
+  ],
+  "missing": [],
+  "blocked": [
+    "https://static.cloudflareinsights.com/beacon.min.js/v4bc70e2c01a94c73b74392e4234840661791215815920",
+    "https://static.cloudflareinsights.com/beacon.min.js/v4bc70e2c01a94c73b74392e4234840661791215815920",
+    "https://static.cloudflareinsights.com/beacon.min.js/v4bc70e2c01a94c73b74392e4234840661791215815920"
+  ],
+  "isolated": true,
+  "storageAccess": {
+    "fs": true,
+    "moduleFS": false,
+    "files": [
+      ".",
+      "..",
+      "auth.db",
+      "craft.db"
+    ],
+    "limitation": "Only craft.db was read; auth.db was listed but not read. Fresh test profile contains no user-supplied authentication or world state."
+  },
+  "pointerLocked": true,
+  "positionMoved": 7.626998424530036,
+  "positionRestoredDistance": 0,
+  "blocksRestored": true,
+  "fullBrowserRestart": true,
+  "restartPositionDistance": 0,
+  "restartBlocksRestored": true,
+  "pass": true,
+  "playersClosed": true,
+  "audio": "No game audio implementation; Edge --mute-audio; no audible test",
+  "method": "Fresh isolated persistent browser profile. Native DB commits allowed at least7.5seconds after edits;12seconds after each startup. SQLite copies inspected through mode=ro&immutable=1, integrity checks pass. Database file hashes may differ across sessions; state/override rows are compared, not whole-file byte identity.",
+  "harnessCorrection": "Earlier fresh-page-only run measured restored state correctly but failed its generic console-error assertion on intentionally aborted analytics. Final run records console locations and failed-request URLs; only exact explicitly blocked analytics failures are excluded. Earlier failed report remains private.",
+  "limitations": [
+    "One voxel at(0,15,6) and one movement route tested; not all block types/world features.",
+    "Waited for periodic saves; rapid-close/crash durability and cross-device/save-transfer unverified.",
+    "Multiplayer/touch/controller/other browsers unverified.",
+    "Live jump/landing not measured here; earlier diagnostic evidence stays separately scoped.",
+    "Audio is unimplemented; all tests muted."
+  ],
+  "screenshotsInspected": [
+    "moved.png",
+    "removed.png",
+    "placed.png",
+    "browser-restarted.png"
+  ],
+  "harnessSHA256": "5c3c560d98810ffc075f3789e58ef1e197915343ed972f149cd9dd870d89af3d",
+  "sqliteReaderSHA256": "4f00d0c0a534b36173dda539060748d100439e95ea9bea5f44c76b2f0c2f9436",
+  "distributionVerification": {
+    "scope": "Unchanged live Craft runtime/support/source byte verification, separate from gameplay",
+    "records": [
+      {
+        "path": "/games/craft/ASSET-LICENSE-CC0.txt",
+        "status": 200,
+        "sha256": "f4e7f373b9b996950337e8d41a4a2939c2d90b7725e9baf3d5084a22717ad328",
+        "pass": true
+      },
+      {
+        "path": "/games/craft/asset-provenance.json",
+        "status": 200,
+        "sha256": "f80df83296142d7a9db05c48e4718a1767229dec262e93e39c82cc50d545d9f6",
+        "pass": true
+      },
+      {
+        "path": "/games/craft/LICENSE.md",
+        "status": 200,
+        "sha256": "49f5a1837666ae2a7aa4c9e27a6a006123881a323e23efac4c229eb4d629b5b6",
+        "pass": true
+      },
+      {
+        "path": "/games/craft/player.data",
+        "status": 200,
+        "sha256": "d25348bc643efecea44a3c7fa06bc57dca88d6c691cba0f0db98bc9b898e57cf",
+        "pass": true
+      },
+      {
+        "path": "/games/craft/player.html",
+        "status": 200,
+        "sha256": "9660b3e9ea003ab23f1d2ef2311186d21a84554bfc67571ad24a1dd582b5de22",
+        "pass": true
+      },
+      {
+        "path": "/games/craft/player.js",
+        "status": 200,
+        "sha256": "1e38c784238f24184176fbfb690437235db7ef9fb8dc387f22c865853e4c87ff",
+        "pass": true
+      },
+      {
+        "path": "/games/craft/player.wasm",
+        "status": 200,
+        "sha256": "7699e8fd63890b53d59175d9cefba6708efdcb76acba272d2f51faef54cd4722",
+        "pass": true
+      },
+      {
+        "path": "/games/craft/THIRD_PARTY_NOTICES.md",
+        "status": 200,
+        "sha256": "2e9d89931f0f1c1a7a870767409e971a6e406274b741150c7ace76cc99e898d6",
+        "pass": true
+      },
+      {
+        "path": "/sources/craft-d6888a6e-browser-source.tar.gz",
+        "status": 206,
+        "sha256": "83a9db1b214881010c58103afe878c685596946de9ea30ac12175cb5cb4b1d09",
+        "pass": true
+      }
+    ],
+    "pass": true
+  }
+}

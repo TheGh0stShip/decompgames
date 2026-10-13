@@ -1301,11 +1301,11 @@
   "color": "#416b59",
   "verification": {
    "status": "gameplay-tested",
-   "date": "2026-10-09",
+   "date": "2026-10-13",
    "browsers": [
     "Edge (headless, muted)"
    ],
-   "scope": "Local diagnostic build measured movement, jump/landing, block removal/placement and position/world-edit restoration. Uninstrumented production release: startup/render/input dispatch, zero errors and isolated-thread headers verified; runtime/source hashes checked. Release world-state restoration was not independently measured; multiplayer/audio unverified.",
+   "scope": "Live muted native release: ordinary keyboard/mouse movement, remove/place/remove at one voxel, fresh-page and full browser-close/reopen restoration of position/orientation and world edits verified from game-written SQLite and screenshots. Nine runtime/support/source hashes match. Earlier diagnostic jump/landing evidence remains separate; rapid-close durability, cross-device save transfer, multiplayer and audio unverified.",
    "playthrough": false
   },
   "image": "/images/craft.png",
