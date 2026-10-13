@@ -1,0 +1,80 @@
+{
+  "retrievedAt": "2026-10-13T18:05:54.439080+00:00",
+  "scope": "Pinned metadata and ten selected textual files; no retail worlds/screens/fonts/audio, game executable or Turbo Pascal toolchain fetched. Private native build and authored-world test recorded separately.",
+  "snapshots": [
+    {
+      "repository": "asiekierka/reconstruction-of-super-zzt",
+      "revision": "012df7266760e6d5cc9f49cecc3a3ac093ea26b9",
+      "starsAtRead": 44,
+      "files": {
+        "README.MD": {
+          "bytes": 5020,
+          "sha256": "3d15dca6cc73a9ea23b70636044c16841790f3e87ff7028cfca2feaa925fe6bb",
+          "url": "https://github.com/asiekierka/reconstruction-of-super-zzt/blob/012df7266760e6d5cc9f49cecc3a3ac093ea26b9/README.MD"
+        },
+        "LICENSE.TXT": {
+          "bytes": 1188,
+          "sha256": "7b2e3fb03f87df815aeed379a7fa5fa079d8f9406f7fb1ccc45d13bfb1467891",
+          "url": "https://github.com/asiekierka/reconstruction-of-super-zzt/blob/012df7266760e6d5cc9f49cecc3a3ac093ea26b9/LICENSE.TXT"
+        },
+        "BUILD.BAT": {
+          "bytes": 1733,
+          "sha256": "3539b16656b6a0ebcb5816244213465bc92247e63f2c9510ee2d117bab9e8605",
+          "url": "https://github.com/asiekierka/reconstruction-of-super-zzt/blob/012df7266760e6d5cc9f49cecc3a3ac093ea26b9/BUILD.BAT"
+        }
+      }
+    },
+    {
+      "repository": "Davidebyzero/Snipes",
+      "revision": "caa2ce036a9f6461ccdb7ef8306edbd126dd4081",
+      "starsAtRead": 75,
+      "files": {
+        "README.md": {
+          "bytes": 1584,
+          "sha256": "9c1d9c310f562879d596e24d74bf5defab793bfaf15b1d76e5956f93fcef8060",
+          "url": "https://github.com/Davidebyzero/Snipes/blob/caa2ce036a9f6461ccdb7ef8306edbd126dd4081/README.md"
+        },
+        "GNUmakefile": {
+          "bytes": 603,
+          "sha256": "cdbcffc7240e679abd2c511aab451cec019d3cbaba2f1ec7c6b5b291e3692429",
+          "url": "https://github.com/Davidebyzero/Snipes/blob/caa2ce036a9f6461ccdb7ef8306edbd126dd4081/GNUmakefile"
+        },
+        "Snipes.cpp": {
+          "bytes": 78964,
+          "sha256": "8197863b134b7b2d6ad957ccfa49a2ab4f4857448b12e493fb7e2c95e27783a6",
+          "url": "https://github.com/Davidebyzero/Snipes/blob/caa2ce036a9f6461ccdb7ef8306edbd126dd4081/Snipes.cpp"
+        },
+        "sdl/console.cpp": {
+          "bytes": 21021,
+          "sha256": "b982b1a2fab506c82da2760c9330bfb136e1e5fbe5b84d566ec8771f9c915e79",
+          "url": "https://github.com/Davidebyzero/Snipes/blob/caa2ce036a9f6461ccdb7ef8306edbd126dd4081/sdl/console.cpp"
+        }
+      }
+    },
+    {
+      "repository": "OpenZoo/openzoo-prototype-cpp",
+      "revision": "442ff28c423faa947793e8a69a99a0e98f52796d",
+      "starsAtRead": 6,
+      "files": {
+        "LICENSE": {
+          "bytes": 1257,
+          "sha256": "cff84c162ea0da2ee692dc0fd3517d33b778a20882db69e0dacf53ed836c1296",
+          "url": "https://github.com/OpenZoo/openzoo-prototype-cpp/blob/442ff28c423faa947793e8a69a99a0e98f52796d/LICENSE"
+        },
+        "src/user_interface_super_zzt.cpp": {
+          "bytes": 10100,
+          "sha256": "efcc1569d308ee3fdd8cf85f7c63a3f96b88079d2e62266dc2181df5e87ad207",
+          "url": "https://github.com/OpenZoo/openzoo-prototype-cpp/blob/442ff28c423faa947793e8a69a99a0e98f52796d/src/user_interface_super_zzt.cpp"
+        },
+        "src/world_serializer.cpp": {
+          "bytes": 13193,
+          "sha256": "c25b7081d74da8fc3ee8bf2d962b0560244fb18d25b4855ec16a548da121f697",
+          "url": "https://github.com/OpenZoo/openzoo-prototype-cpp/blob/442ff28c423faa947793e8a69a99a0e98f52796d/src/world_serializer.cpp"
+        }
+      }
+    }
+  ],
+  "catalogEntries": 84,
+  "catalogDeduplication": "No Super ZZT or Snipes exact game identity. Existing ZZT is a related distinct predecessor; OpenZoo engine is reused, not counted twice.",
+  "hashedTextFiles": 10
+}

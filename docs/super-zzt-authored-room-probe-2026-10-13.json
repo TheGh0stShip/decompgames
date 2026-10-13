@@ -1,0 +1,234 @@
+{
+  "scope": "Private native Super ZZT format/authored-room probe; not a complete game, source release, public integration or clean-room certification",
+  "catalogEntries": 84,
+  "complete": false,
+  "published": false,
+  "originalReconstructionPin": "012df7266760e6d5cc9f49cecc3a3ac093ea26b9",
+  "nativePortPin": "442ff28c423faa947793e8a69a99a0e98f52796d",
+  "nativePortClassification": "Reconstruction-derived C++ source port/rewrite with Super ZZT support, not a matching DOS binary or CPU emulation",
+  "content": {
+    "complete": false,
+    "scope": "Two-board format and native engine probe, not a complete game or retail campaign",
+    "worldDimensions": [
+      96,
+      80
+    ],
+    "boards": 2,
+    "retailInputFiles": [],
+    "content": [
+      {
+        "path": "KILN.SZT",
+        "bytes": 3036,
+        "sha256": "376e075a5980a3c042b2bb4b041ba5090dcfa565258618c5c28535e1c2173319",
+        "license": "CC0-1.0",
+        "origin": "DecompGames independently authored generator"
+      },
+      {
+        "path": "ABOUT.HLP",
+        "bytes": 105,
+        "sha256": "e83bb91f4aa1a470dd3b16f9d6c6601863ce6a24bd6f4b6c268540e7b6805bfa",
+        "license": "CC0-1.0",
+        "origin": "DecompGames independently authored generator"
+      },
+      {
+        "path": "ASCII.BMP",
+        "bytes": 86070,
+        "sha256": "8bc5ff3005cf902fd2089ddabb0fd082f6a1558f1c550ed06fa802452111a859",
+        "license": "CC0-1.0",
+        "origin": "Existing independently authored DecompGames ZZT glyph generator; no original PC font"
+      }
+    ],
+    "generatorLicense": "MIT",
+    "generatedContentLicense": "CC0-1.0",
+    "audio": "Silent host; no audio assets authored or included"
+  },
+  "verification": {
+    "scope": "Private authored two-board Super ZZT format/native-runtime probe only; not completed gameplay/campaign or browser persistence",
+    "errors": [],
+    "missing": [],
+    "external": [],
+    "muted": true,
+    "ready": true,
+    "saves": [
+      {
+        "name": "SAVED.SAV",
+        "formatVersion": -2,
+        "worldBoardCount": 1,
+        "ammo": 0,
+        "gems": 1,
+        "health": 110,
+        "currentBoard": 1,
+        "score": 10,
+        "sha256": "5a6e1bf1422aa0ca060c1dc6b82898d38509129f7f3cbf954c9918c43a68d65d",
+        "length": 3052
+      }
+    ],
+    "assertionsPassed": true,
+    "playersClosed": true
+  },
+  "worldAndNativeSaveChecks": [
+    {
+      "file": "authored/KILN.SZT",
+      "bytes": 3036,
+      "sha256": "376e075a5980a3c042b2bb4b041ba5090dcfa565258618c5c28535e1c2173319",
+      "boards": [
+        {
+          "id": 0,
+          "name": "Kiln title",
+          "tiles": 7680,
+          "playerPosition": [
+            8,
+            10
+          ],
+          "tile12_10": [
+            73,
+            80
+          ],
+          "stats": [
+            {
+              "id": 0,
+              "position": [
+                8,
+                10
+              ],
+              "codeBytes": 0
+            }
+          ]
+        },
+        {
+          "id": 1,
+          "name": "Wide room",
+          "tiles": 7680,
+          "playerPosition": [
+            8,
+            10
+          ],
+          "tile12_10": [
+            7,
+            11
+          ],
+          "stats": [
+            {
+              "id": 0,
+              "position": [
+                8,
+                10
+              ],
+              "codeBytes": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "build/SAVED.SAV",
+      "bytes": 3052,
+      "sha256": "5a6e1bf1422aa0ca060c1dc6b82898d38509129f7f3cbf954c9918c43a68d65d",
+      "boards": [
+        {
+          "id": 0,
+          "name": "Kiln title",
+          "tiles": 7680,
+          "playerPosition": [
+            8,
+            10
+          ],
+          "tile12_10": [
+            73,
+            80
+          ],
+          "stats": [
+            {
+              "id": 0,
+              "position": [
+                8,
+                10
+              ],
+              "codeBytes": 0
+            }
+          ]
+        },
+        {
+          "id": 1,
+          "name": "Wide room",
+          "tiles": 7680,
+          "playerPosition": [
+            14,
+            10
+          ],
+          "tile12_10": [
+            47,
+            16
+          ],
+          "stats": [
+            {
+              "id": 0,
+              "position": [
+                14,
+                10
+              ],
+              "codeBytes": 0
+            },
+            {
+              "id": 1,
+              "position": [
+                0,
+                0
+              ],
+              "codeBytes": 0
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "nativeInputsChangedFromExistingScopedZZTSource": [
+    "Game constructor selects authored KILN world filename",
+    "Initialize selects ENGINE_TYPE_SUPER_ZZT before UI construction"
+  ],
+  "build": {
+    "toolchain": "Emscripten 6.0.10",
+    "nativeTranslationUnits": 22,
+    "result": "compile/link exited zero",
+    "exactLinkedDependencyClosureVerifiedForThisBuild": false,
+    "warnings": 19,
+    "artifacts": [
+      {
+        "path": "openzoo.js",
+        "bytes": 376220,
+        "sha256": "4fd6d085df87d59129f659c9232341dd47152cae353f34eb92c4917a03dc606b"
+      },
+      {
+        "path": "openzoo.wasm",
+        "bytes": 922006,
+        "sha256": "88a2e5c9ef1f86608d70907302bea167fd55ab555e78985648c7f1ba70fed9f0"
+      },
+      {
+        "path": "openzoo.data",
+        "bytes": 89211,
+        "sha256": "c146d932544d2c125c91b015c82c50ba8946f6ad59507f99fce3f4db96315108"
+      }
+    ]
+  },
+  "failedFirstProbe": {
+    "preservedPrivately": true,
+    "nativeError": "Play attempted reload of KILN, while initial preload was DEMO.SZT; native I/O dialog and no save. Initial UI selected predecessor mode.",
+    "correction": "Matching authored filename/startup selection and sequel initialization; no gameplay state or save edited by the harness."
+  },
+  "saveParserCorrection": "The native gem message creates an additional message-timer stat; final independent parser accepts and bounds-checks the actual stat list instead of assuming only the player. Failed assumption preserved in work log.",
+  "remaining": [
+    "Complete independent intended challenge and progression/end/restart/death coverage",
+    "Scrolling/other Super ZZT mechanics and UI/glyph/content inventory",
+    "Durable browser save namespace and strict Super ZZT validation plus full-restart restoration",
+    "Final exact source/build/toolchain/emitted-JS/dependency/notice closure and source package rebuild",
+    "Public/catalog integration and muted live acceptance"
+  ],
+  "audio": "No audio device created; Edge mute-audio. Audible playback unverified; linked procedural sound source needs final content/notice classification.",
+  "nativeEditionSourceProof": {
+    "comparedAgainst": "Existing scoped ZZT native-symbol-repair source",
+    "beforeSha256": "83b2f6f3972687cfaf9976111fb0acca3a1b2f4d19cab7fb6257339b8bc4f1e4",
+    "afterSha256": "1fb0688bce29d5b5745dd1bf9f4e9e46bb2429ec326d1e2123736d0816aaaf36",
+    "textEqualsPriorAfterOnlyTwoDocumentedEditionDefaultsReversed": true,
+    "lineEndingNormalization": "UTF-8 text comparison with universal newlines; raw source byte hashes retained"
+  }
+}
