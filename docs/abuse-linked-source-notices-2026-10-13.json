@@ -1,0 +1,281 @@
+{
+  "date": "2026-10-13",
+  "repo": "videogamepreservation/abuse",
+  "pin": "01cce80eaf2ae82bafb9981162e205e42d0fae2f",
+  "classification": "Original developer-released source port with independently authored incomplete content; not a decompilation, retail campaign or clean-room certification",
+  "scope": "Read-only compiler/link dependency and notice inventory; private duplicate relink leaves tested runtime unchanged; not a completed source distribution or blanket licensing certificate",
+  "trace": {
+    "exitCode": 0,
+    "coreObjects": 96,
+    "ownObjects": 4,
+    "traceLogSHA256": "61ba0f51e11c8518b24aab60b5758eb317d2c346d9871bdc23ec92655a851298",
+    "currentWasmSHA256": "aa37db9d641d4819a274f398b2806c3f642cba674d31de84946b72db8bbd02e5",
+    "probeWasmSHA256": "aa37db9d641d4819a274f398b2806c3f642cba674d31de84946b72db8bbd02e5",
+    "byteIdenticalWasm": true
+  },
+  "compileClosure": {
+    "translationUnits": 100,
+    "dependencyFiles": 864,
+    "categories": {
+      "clang-system": 18,
+      "emscripten-system": 634,
+      "original-native": 208,
+      "own": 4
+    },
+    "nativeFiles": 208,
+    "coreTranslationUnits": 96,
+    "ownTranslationUnits": 4,
+    "originalInventoryBroaderThanSelected": true,
+    "selectedNativeNoticeException": "imlib/decoder.c, Steven A. Bennett 1987 credit-preserving permission; Steve Wilhite inspiration credit retained",
+    "originalGrant": "Archived founder README explicitly releases original source to public domain while reserving trademarks/retail data and Bobby Prince WAVs",
+    "changedNativeFiles": [
+      {
+        "path": "abuse/src/ant.c",
+        "bytes": 11513,
+        "originalSHA256": "b6ddc00859944d810bf12cfdfa2b560fc2b49b4d3e6df495d444d153d19f4d43",
+        "adaptedSHA256": "09cbda254e90edc62a747c6c4f544bbfc11591204e8154ebf43452b70089e0ad",
+        "changed": true
+      },
+      {
+        "path": "abuse/src/clisp.c",
+        "bytes": 84240,
+        "originalSHA256": "11b24f1a8de2ac15162a4c1670a985995afc0a28533ded30c595ee5769c53390",
+        "adaptedSHA256": "2ead060202a7e58e73cd3ff009322b08b069d558f017d23bf4e240368c904de4",
+        "changed": true
+      },
+      {
+        "path": "abuse/src/demo.c",
+        "bytes": 6231,
+        "originalSHA256": "ca11cc56311b8608e8649680a6b7f2789220579c9af92afc43bd0e5f982eea9b",
+        "adaptedSHA256": "00c250071c3251147c3dd12620c9fd1a9c4d539dff90d1a29974d854c586704c",
+        "changed": true
+      },
+      {
+        "path": "abuse/src/dev.c",
+        "bytes": 96568,
+        "originalSHA256": "8116ca6d81be38e5b1e09bcfa90f4b737b79c6e8bb7132526f1628ca7d46c848",
+        "adaptedSHA256": "6ee73e72b5799de702f94a48ad8894ecaf908ce4f2e6caea939f138484364708",
+        "changed": true
+      },
+      {
+        "path": "abuse/src/game.c",
+        "bytes": 65090,
+        "originalSHA256": "9505ca69f0698dbd2c18034ce5d149c57a81beff3f5f8d14577624c617f1329a",
+        "adaptedSHA256": "62533ed740bcbadc4f6513a3eded2c05bc58025959e97f3a9e745c29be2e0264",
+        "changed": true
+      },
+      {
+        "path": "abuse/src/level.c",
+        "bytes": 76957,
+        "originalSHA256": "98ba2c6d90d00ccb85d2b1da20c389fd935364eb4fd29b3baf769b7d1328338c",
+        "adaptedSHA256": "0e99fe91b0607e3735e9a209ea660652d9afd69a0ce53fe65e83cc79774dc68c",
+        "changed": true
+      },
+      {
+        "path": "abuse/src/view.c",
+        "bytes": 25782,
+        "originalSHA256": "5b72df82dc79ae60f69080140088d4bbdf6834d4cf49eff64fc274d3cc59b0f5",
+        "adaptedSHA256": "99584c81f4f71b317300fa36aa4c216c2cda87a0d6e391736e8950ee682a8c73",
+        "changed": true
+      }
+    ],
+    "excludedFromSelectedSource": [
+      "Restrictive Watcom imlib/wildargv.c",
+      "Original embedded font abuse/src/fnt6x13.c",
+      "GPL modern SDL adapter",
+      "Retail/shareware media, scripts, levels, fonts, animations and audio"
+    ],
+    "originalAndAdaptedHashesPreserved": true
+  },
+  "runtimeClosure": {
+    "selectedRuntimeArchives": [
+      {
+        "name": "libc++-debug-noexcept.a",
+        "bytes": 7208730,
+        "sha256": "f00ae52d1ab38c2945b60d13c6f6162f43aa0b1506bc2491084ebb072e20489b",
+        "uniqueExtractedMembers": 5
+      },
+      {
+        "name": "libc++abi-debug-noexcept.a",
+        "bytes": 1249422,
+        "sha256": "0ecf18eeed5fcbdbeea07c18c4656c6fee9f498edf0b94dd0af6b4ac7bb0d13e",
+        "uniqueExtractedMembers": 8
+      },
+      {
+        "name": "libc-debug.a",
+        "bytes": 3349672,
+        "sha256": "0e24243840adb99f3651bb740921886257bac6458097a880e96a56b9087c2ac6",
+        "uniqueExtractedMembers": 157
+      },
+      {
+        "name": "libclang_rt.builtins.a",
+        "bytes": 747162,
+        "sha256": "ea6806df6d883bd8ad9d1da9817d61dadaaae7fbaf56fd665034aa1fb8794916",
+        "uniqueExtractedMembers": 18
+      },
+      {
+        "name": "libdlmalloc-debug.a",
+        "bytes": 78470,
+        "sha256": "10cdf4642de76731c01bc7b2abcda645afaac4f70e56cab6cb792297545b527f",
+        "uniqueExtractedMembers": 2
+      },
+      {
+        "name": "libnoexit.a",
+        "bytes": 1712,
+        "sha256": "cd26326a8cfc7f70015b78adcec1b915c695657ef9977087bc1951afbbeebbbc",
+        "uniqueExtractedMembers": 1
+      },
+      {
+        "name": "libstubs-debug.a",
+        "bytes": 24666,
+        "sha256": "35e44e59de8c5921cbfdb46cb2eac7f5332c46cfb5a00b3ea2306afebe3d4077",
+        "uniqueExtractedMembers": 2
+      }
+    ],
+    "uniqueExtractedMembers": 193,
+    "uniqueSourceMappings": 193,
+    "mappingMethod": "wasm-ld --why-extract plus current Emscripten system_libs build source lists matching actual archive variant/member basename; cached archive/source hashes retained",
+    "systemHeaderExplicitSPDX": {
+      "Apache-2.0 WITH LLVM-exception": 596
+    },
+    "systemHeaderOtherNotices": "Seven Emscripten MIT/NCSA header notices and explicit CC0 wasi/api.h origin/revision notice; remaining standard musl/system headers treated under their project terms",
+    "sourceNoticesPreserved": 50,
+    "terms": [
+      "Emscripten MIT or University of Illinois/NCSA",
+      "musl MIT with individual notices, including Arm MIT math and Lynn Ochs MIT qsort",
+      "libc++/libc++abi/compiler-rt Apache-2.0 WITH LLVM-exception",
+      "Doug Lea dlmalloc public-domain declaration referencing CC0"
+    ],
+    "fullLicenseFiles": [
+      {
+        "path": "LICENSE",
+        "bytes": 5093,
+        "sha256": "620a78084fc7ca97c0b5dea9abf891f3ffcadfdbf305276f099c9c4e12fc1d86"
+      },
+      {
+        "path": "system/lib/libc/musl/COPYRIGHT",
+        "bytes": 6196,
+        "sha256": "b870108ec5e7790e9f9919064f1b9421d62d5f9b0e6c230c6adf7ea2da62e97b"
+      },
+      {
+        "path": "system/lib/libcxx/LICENSE.TXT",
+        "bytes": 16703,
+        "sha256": "539dd7aed86e8a4f12cbdd0e6c50c189c7d74847e4fecc64ce2c6ee3a01da38b"
+      },
+      {
+        "path": "system/lib/libcxxabi/LICENSE.TXT",
+        "bytes": 16706,
+        "sha256": "e2b35be49f7284a45b7baca8fc7b3ab7440e7902392b2528a457816b5bb2a15c"
+      },
+      {
+        "path": "system/lib/compiler-rt/LICENSE.TXT",
+        "bytes": 16708,
+        "sha256": "1a8f1058753f1ba890de984e48f0242a3a5c29a6a8f2ed9fd813f36985387e8d"
+      }
+    ]
+  },
+  "javascriptReadPool": {
+    "files": 57,
+    "explicitMITPrefix": 52,
+    "projectRootTermsWithoutIndividualPrefix": [
+      "src/lib/libmath.js",
+      "src/lib/libsigs.js",
+      "src/postlibrary.js",
+      "src/settings.js",
+      "src/struct_info_generated.json"
+    ],
+    "overinclusiveCompilerReadPool": true,
+    "notSymbolLevelEmittedCodeInventory": true
+  },
+  "privateNoticeDraft": {
+    "bytes": 126432,
+    "sha256": "505223be2e00b2b6faa868a3a3320b612fc8a337bde29579c7e588e06014e239"
+  },
+  "privateSourceDraft": {
+    "bytes": 428161,
+    "sha256": "183ce0ca509e71d0d468c4fbbdcd41049f8432c9538e0c00ce610c98ae227cdd",
+    "privateOnly": true,
+    "includes": 208,
+    "excluded": [
+      "Restrictive Watcom wildargv.c",
+      "Original embedded fnt6x13.c",
+      "Retail/shareware media/scripts/maps/audio",
+      "GPL modern SDL adapter",
+      "SDK whole-archive files"
+    ],
+    "contentPayloadsIncluded": false,
+    "rebuildVerified": false
+  },
+  "verification": {
+    "duplicateRelinkMatchesTestedWasmByteForByte": true,
+    "zipDuplicateNamesAbsent": true,
+    "all208NativePayloadHashesMatch": true,
+    "noticePayloadHashMatches": true,
+    "excludedFilesAbsent": true,
+    "browserTestThisTurn": false,
+    "runtimeMutated": false,
+    "audibleTest": false
+  },
+  "remaining": [
+    "Symbol-level generated JavaScript mapping before claiming exact emitted code closure;57read files are a superset",
+    "Draft source bundle self-contained build instructions/rebuild verification and required notices in any future distribution; content source pack separate",
+    "Fuller intended owned content, damage/death/challenge coverage, UI overlap refinement and final normal-control tests",
+    "Final packaging must preserve all notices and own CC0 content provenance; no root grant clears unrelated original retail files",
+    "Previous native warnings/function-pointer behavior beyond exercised paths remain unresolved"
+  ],
+  "privateArtifacts": [
+    {
+      "name": "link-trace.log",
+      "bytes": 123542,
+      "sha256": "be8d473d16577a9b3f88427fa2c539e9ad490370b806318baf540951dd112786"
+    },
+    {
+      "name": "why-extract.tsv",
+      "bytes": 47944,
+      "sha256": "4f990b0d3d9e8c967f38c548a73c85f8ae626ba7f7081207cedc3c8453fa98da"
+    },
+    {
+      "name": "link-probe.json",
+      "bytes": 366,
+      "sha256": "b92c39765710350a98d29c3caf6b1aa3e00702327a2983e933762b69057e399c"
+    },
+    {
+      "name": "runtime-source-map.json",
+      "bytes": 53007,
+      "sha256": "7d7d28d5bd86c7c871c327494472202bf1d4188dca68a0375103bb76cf0c34d6"
+    },
+    {
+      "name": "compile-dependencies.json",
+      "bytes": 1339119,
+      "sha256": "c0cb9c3452bab09dca1100dbbdf79c9511dd767799440e4b1ea03f6607d11c59"
+    },
+    {
+      "name": "javascript-read-pool.json",
+      "bytes": 38116,
+      "sha256": "080cbe2edca4f056ce11fbf1c301e442c2fc33513a8656f2d83e6c207deb4a9b"
+    },
+    {
+      "name": "closure-inventory.json",
+      "bytes": 215696,
+      "sha256": "1fd0a210510e830fcd7c33d4fd417ac316a6f2802053e0cb573128bbb2ffc9e9"
+    },
+    {
+      "name": "NOTICE.txt",
+      "bytes": 126432,
+      "sha256": "505223be2e00b2b6faa868a3a3320b612fc8a337bde29579c7e588e06014e239"
+    },
+    {
+      "name": "candidate-source-notices.zip",
+      "bytes": 428161,
+      "sha256": "183ce0ca509e71d0d468c4fbbdcd41049f8432c9538e0c00ce610c98ae227cdd"
+    }
+  ],
+  "integration": {
+    "catalogCount": 83,
+    "entryAdded": false,
+    "publicRuntime": false,
+    "sourceDraftPublished": false,
+    "deployment": false,
+    "claudeGamesTouched": false
+  }
+}
