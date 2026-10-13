@@ -1,0 +1,496 @@
+{
+  "date": "2026-10-13",
+  "repo": "videogamepreservation/abuse",
+  "pin": "01cce80eaf2ae82bafb9981162e205e42d0fae2f",
+  "classification": "Original developer-released source port with independently authored incomplete content; not decompilation, emulation, original retail game or clean-room certification",
+  "scope": "Private original native main plus independent worker/two obstacle courses/progression/session-save prototype; not integrated or shipped",
+  "strictLink": {
+    "nativeCoreObjects": 96,
+    "ownAdapterObjects": 1,
+    "ownEmbeddedFontObjects": 1,
+    "ownReadOnlyDiagnosticObjects": 1,
+    "undefinedSymbolsAllowed": false,
+    "exitCode": 0,
+    "originalEmbeddedFontExcluded": true
+  },
+  "content": {
+    "license": "CC0-1.0 for own content; generator/adapter/diagnostics MIT; native source and dependencies separate",
+    "complete": false,
+    "originalRetailInputs": false,
+    "archives": 11,
+    "resources": 181,
+    "filesChecked": 14,
+    "directoryPayloadHashesBoundsVerified": true,
+    "embeddedFontPixelBytes": 19968,
+    "maps": [
+      {
+        "path": "maps/course.spe",
+        "sha256": "6fd1c6a203c8d95b32c40ef30415b8ed8c8c4b8fe600e09ea645b317e6fa97eb",
+        "width": 48,
+        "height": 16,
+        "nativeForegroundAndBackground": true,
+        "ownedMarker": true,
+        "retailMarker": false
+      },
+      {
+        "path": "maps/return.spe",
+        "sha256": "262071b0184a036d61478b78568e9a0bde87eb7648e905247e964e4c5f885fdd",
+        "width": 48,
+        "height": 16,
+        "nativeForegroundAndBackground": true,
+        "ownedMarker": true,
+        "retailMarker": false
+      }
+    ],
+    "newPlayerFrames": 12
+  },
+  "sourceChanges": [
+    {
+      "path": "abuse/src/game.c",
+      "beforeSHA256": "9505ca69f0698dbd2c18034ce5d149c57a81beff3f5f8d14577624c617f1329a",
+      "afterSHA256": "62533ed740bcbadc4f6513a3eded2c05bc58025959e97f3a9e745c29be2e0264",
+      "change": "Only native offline level/load/save format marker uses honest independently authored pack identifier instead of retail authorship assertion; does not grant any original asset rights"
+    },
+    {
+      "path": "abuse/src/level.c",
+      "beforeSHA256": "98ba2c6d90d00ccb85d2b1da20c389fd935364eb4fd29b3baf769b7d1328338c",
+      "afterSHA256": "0e99fe91b0607e3735e9a209ea660652d9afd69a0ce53fe65e83cc79774dc68c",
+      "change": "Only native offline level/load/save format marker uses honest independently authored pack identifier instead of retail authorship assertion; does not grant any original asset rights"
+    }
+  ],
+  "normalControlTest": {
+    "audio": "No device; Edge --mute-audio",
+    "pageErrors": [],
+    "consoleErrors": [],
+    "missing": [],
+    "pass": true,
+    "playersClosed": true,
+    "readOnlyDiagnostics": true,
+    "testMemorySaveRNGWrites": false,
+    "diagnosticFields": [
+      "native game state (RUN=0,MENU=6)",
+      "native level tick (-1 without level)",
+      "player x",
+      "player y",
+      "native animation state",
+      "native frame",
+      "hp",
+      "gravity",
+      "x velocity",
+      "y velocity",
+      "own course-completion lvar",
+      "own stage lvar plus one (not by itself map-loading proof)"
+    ],
+    "runningFramesObserved": [
+      2,
+      3,
+      1
+    ],
+    "selectedStates": [
+      {
+        "label": "native menu",
+        "values": [
+          6,
+          -1,
+          50,
+          50,
+          2,
+          0,
+          100,
+          1,
+          0,
+          0,
+          0,
+          1
+        ],
+        "logTail": [
+          "\r(load \"boot.lsp\") [..                                      ]\r(load \"boot.lsp\") [....                                    ]\r(load \"boot.lsp\") [......                                  ]\r(load \"boot.lsp\") [........                                ]\r(load \"boot.lsp\") [..........                              ]\r(load \"boot.lsp\") [............                            ]\r(load \"boot.lsp\") [..............                          ]\r(load \"boot.lsp\") [................                        ]\r(load \"boot.lsp\") [..................                      ]\r(load \"boot.lsp\") [....................                    ]\r(load \"boot.lsp\") [......................                  ]\r(load \"boot.lsp\") [........................                ]\r(load \"boot.lsp\") [..........................              ]\r(load \"boot.lsp\") [............................            ]\r(load \"boot.lsp\") [..............................          ]\r(load \"boot.lsp\") [..................................      ]\r(load \"boot.lsp\") [....................................    ]\r(load \"boot.lsp\") [......................................  ]",
+          "Lisp : tmp space resized to 16384",
+          "engine : registering base graphics",
+          "Palette has changed, recalculating light table...",
+          "\rwhite light [..                                      ]\rwhite light [....                                    ]\rwhite light [......                                  ]\rwhite light [........                                ]\rwhite light [..........                              ]\rwhite light [............                            ]\rwhite light [..............                          ]\rwhite light [................                        ]\rwhite light [..................                      ]\rwhite light [....................                    ]\rwhite light [......................                  ]\rwhite light [........................                ]\rwhite light [..........................              ]\rwhite light [............................            ]\rwhite light [..............................          ]\rwhite light [................................        ]\rwhite light [..................................      ]\rwhite light [....................................    ]\rwhite light [......................................  ]",
+          "\rtints [....                                    ]\rtints [..........                              ]\rtints [..............                          ]\rtints [....................                    ]\rtints [........................                ]\rtints [..............................          ]\rtints [..................................      ]"
+        ]
+      },
+      {
+        "label": "course started",
+        "values": [
+          0,
+          29,
+          50,
+          190,
+          2,
+          0,
+          100,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "logTail": [
+          "\r(load \"boot.lsp\") [..                                      ]\r(load \"boot.lsp\") [....                                    ]\r(load \"boot.lsp\") [......                                  ]\r(load \"boot.lsp\") [........                                ]\r(load \"boot.lsp\") [..........                              ]\r(load \"boot.lsp\") [............                            ]\r(load \"boot.lsp\") [..............                          ]\r(load \"boot.lsp\") [................                        ]\r(load \"boot.lsp\") [..................                      ]\r(load \"boot.lsp\") [....................                    ]\r(load \"boot.lsp\") [......................                  ]\r(load \"boot.lsp\") [........................                ]\r(load \"boot.lsp\") [..........................              ]\r(load \"boot.lsp\") [............................            ]\r(load \"boot.lsp\") [..............................          ]\r(load \"boot.lsp\") [..................................      ]\r(load \"boot.lsp\") [....................................    ]\r(load \"boot.lsp\") [......................................  ]",
+          "Lisp : tmp space resized to 16384",
+          "engine : registering base graphics",
+          "Palette has changed, recalculating light table...",
+          "\rwhite light [..                                      ]\rwhite light [....                                    ]\rwhite light [......                                  ]\rwhite light [........                                ]\rwhite light [..........                              ]\rwhite light [............                            ]\rwhite light [..............                          ]\rwhite light [................                        ]\rwhite light [..................                      ]\rwhite light [....................                    ]\rwhite light [......................                  ]\rwhite light [........................                ]\rwhite light [..........................              ]\rwhite light [............................            ]\rwhite light [..............................          ]\rwhite light [................................        ]\rwhite light [..................................      ]\rwhite light [....................................    ]\rwhite light [......................................  ]",
+          "\rtints [....                                    ]\rtints [..........                              ]\rtints [..............                          ]\rtints [....................                    ]\rtints [........................                ]\rtints [..............................          ]\rtints [..................................      ]"
+        ]
+      },
+      {
+        "label": "right held 650ms",
+        "values": [
+          0,
+          41,
+          88,
+          190,
+          10,
+          2,
+          100,
+          0,
+          2,
+          0,
+          0,
+          1
+        ],
+        "logTail": [
+          "\r(load \"boot.lsp\") [..                                      ]\r(load \"boot.lsp\") [....                                    ]\r(load \"boot.lsp\") [......                                  ]\r(load \"boot.lsp\") [........                                ]\r(load \"boot.lsp\") [..........                              ]\r(load \"boot.lsp\") [............                            ]\r(load \"boot.lsp\") [..............                          ]\r(load \"boot.lsp\") [................                        ]\r(load \"boot.lsp\") [..................                      ]\r(load \"boot.lsp\") [....................                    ]\r(load \"boot.lsp\") [......................                  ]\r(load \"boot.lsp\") [........................                ]\r(load \"boot.lsp\") [..........................              ]\r(load \"boot.lsp\") [............................            ]\r(load \"boot.lsp\") [..............................          ]\r(load \"boot.lsp\") [..................................      ]\r(load \"boot.lsp\") [....................................    ]\r(load \"boot.lsp\") [......................................  ]",
+          "Lisp : tmp space resized to 16384",
+          "engine : registering base graphics",
+          "Palette has changed, recalculating light table...",
+          "\rwhite light [..                                      ]\rwhite light [....                                    ]\rwhite light [......                                  ]\rwhite light [........                                ]\rwhite light [..........                              ]\rwhite light [............                            ]\rwhite light [..............                          ]\rwhite light [................                        ]\rwhite light [..................                      ]\rwhite light [....................                    ]\rwhite light [......................                  ]\rwhite light [........................                ]\rwhite light [..........................              ]\rwhite light [............................            ]\rwhite light [..............................          ]\rwhite light [................................        ]\rwhite light [..................................      ]\rwhite light [....................................    ]\rwhite light [......................................  ]",
+          "\rtints [....                                    ]\rtints [..........                              ]\rtints [..............                          ]\rtints [....................                    ]\rtints [........................                ]\rtints [..............................          ]\rtints [..................................      ]"
+        ]
+      },
+      {
+        "label": "wall after sustained right",
+        "values": [
+          0,
+          65,
+          158,
+          190,
+          2,
+          0,
+          100,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "logTail": [
+          "\r(load \"boot.lsp\") [..                                      ]\r(load \"boot.lsp\") [....                                    ]\r(load \"boot.lsp\") [......                                  ]\r(load \"boot.lsp\") [........                                ]\r(load \"boot.lsp\") [..........                              ]\r(load \"boot.lsp\") [............                            ]\r(load \"boot.lsp\") [..............                          ]\r(load \"boot.lsp\") [................                        ]\r(load \"boot.lsp\") [..................                      ]\r(load \"boot.lsp\") [....................                    ]\r(load \"boot.lsp\") [......................                  ]\r(load \"boot.lsp\") [........................                ]\r(load \"boot.lsp\") [..........................              ]\r(load \"boot.lsp\") [............................            ]\r(load \"boot.lsp\") [..............................          ]\r(load \"boot.lsp\") [..................................      ]\r(load \"boot.lsp\") [....................................    ]\r(load \"boot.lsp\") [......................................  ]",
+          "Lisp : tmp space resized to 16384",
+          "engine : registering base graphics",
+          "Palette has changed, recalculating light table...",
+          "\rwhite light [..                                      ]\rwhite light [....                                    ]\rwhite light [......                                  ]\rwhite light [........                                ]\rwhite light [..........                              ]\rwhite light [............                            ]\rwhite light [..............                          ]\rwhite light [................                        ]\rwhite light [..................                      ]\rwhite light [....................                    ]\rwhite light [......................                  ]\rwhite light [........................                ]\rwhite light [..........................              ]\rwhite light [............................            ]\rwhite light [..............................          ]\rwhite light [................................        ]\rwhite light [..................................      ]\rwhite light [....................................    ]\rwhite light [......................................  ]",
+          "\rtints [....                                    ]\rtints [..........                              ]\rtints [..............                          ]\rtints [....................                    ]\rtints [........................                ]\rtints [..............................          ]\rtints [..................................      ]"
+        ]
+      },
+      {
+        "label": "wall remains blocked",
+        "values": [
+          0,
+          74,
+          158,
+          190,
+          2,
+          0,
+          100,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "logTail": [
+          "\r(load \"boot.lsp\") [..                                      ]\r(load \"boot.lsp\") [....                                    ]\r(load \"boot.lsp\") [......                                  ]\r(load \"boot.lsp\") [........                                ]\r(load \"boot.lsp\") [..........                              ]\r(load \"boot.lsp\") [............                            ]\r(load \"boot.lsp\") [..............                          ]\r(load \"boot.lsp\") [................                        ]\r(load \"boot.lsp\") [..................                      ]\r(load \"boot.lsp\") [....................                    ]\r(load \"boot.lsp\") [......................                  ]\r(load \"boot.lsp\") [........................                ]\r(load \"boot.lsp\") [..........................              ]\r(load \"boot.lsp\") [............................            ]\r(load \"boot.lsp\") [..............................          ]\r(load \"boot.lsp\") [..................................      ]\r(load \"boot.lsp\") [....................................    ]\r(load \"boot.lsp\") [......................................  ]",
+          "Lisp : tmp space resized to 16384",
+          "engine : registering base graphics",
+          "Palette has changed, recalculating light table...",
+          "\rwhite light [..                                      ]\rwhite light [....                                    ]\rwhite light [......                                  ]\rwhite light [........                                ]\rwhite light [..........                              ]\rwhite light [............                            ]\rwhite light [..............                          ]\rwhite light [................                        ]\rwhite light [..................                      ]\rwhite light [....................                    ]\rwhite light [......................                  ]\rwhite light [........................                ]\rwhite light [..........................              ]\rwhite light [............................            ]\rwhite light [..............................          ]\rwhite light [................................        ]\rwhite light [..................................      ]\rwhite light [....................................    ]\rwhite light [......................................  ]",
+          "\rtints [....                                    ]\rtints [..........                              ]\rtints [..............                          ]\rtints [....................                    ]\rtints [........................                ]\rtints [..............................          ]\rtints [..................................      ]"
+        ]
+      },
+      {
+        "label": "jump while moving",
+        "values": [
+          0,
+          77,
+          158,
+          163,
+          4,
+          0,
+          100,
+          1,
+          0,
+          -13,
+          0,
+          1
+        ],
+        "logTail": [
+          "\r(load \"boot.lsp\") [..                                      ]\r(load \"boot.lsp\") [....                                    ]\r(load \"boot.lsp\") [......                                  ]\r(load \"boot.lsp\") [........                                ]\r(load \"boot.lsp\") [..........                              ]\r(load \"boot.lsp\") [............                            ]\r(load \"boot.lsp\") [..............                          ]\r(load \"boot.lsp\") [................                        ]\r(load \"boot.lsp\") [..................                      ]\r(load \"boot.lsp\") [....................                    ]\r(load \"boot.lsp\") [......................                  ]\r(load \"boot.lsp\") [........................                ]\r(load \"boot.lsp\") [..........................              ]\r(load \"boot.lsp\") [............................            ]\r(load \"boot.lsp\") [..............................          ]\r(load \"boot.lsp\") [..................................      ]\r(load \"boot.lsp\") [....................................    ]\r(load \"boot.lsp\") [......................................  ]",
+          "Lisp : tmp space resized to 16384",
+          "engine : registering base graphics",
+          "Palette has changed, recalculating light table...",
+          "\rwhite light [..                                      ]\rwhite light [....                                    ]\rwhite light [......                                  ]\rwhite light [........                                ]\rwhite light [..........                              ]\rwhite light [............                            ]\rwhite light [..............                          ]\rwhite light [................                        ]\rwhite light [..................                      ]\rwhite light [....................                    ]\rwhite light [......................                  ]\rwhite light [........................                ]\rwhite light [..........................              ]\rwhite light [............................            ]\rwhite light [..............................          ]\rwhite light [................................        ]\rwhite light [..................................      ]\rwhite light [....................................    ]\rwhite light [......................................  ]",
+          "\rtints [....                                    ]\rtints [..........                              ]\rtints [..............                          ]\rtints [....................                    ]\rtints [........................                ]\rtints [..............................          ]\rtints [..................................      ]"
+        ]
+      },
+      {
+        "label": "jump crossed wall and landed",
+        "values": [
+          0,
+          92,
+          194,
+          190,
+          2,
+          0,
+          100,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "logTail": [
+          "\r(load \"boot.lsp\") [..                                      ]\r(load \"boot.lsp\") [....                                    ]\r(load \"boot.lsp\") [......                                  ]\r(load \"boot.lsp\") [........                                ]\r(load \"boot.lsp\") [..........                              ]\r(load \"boot.lsp\") [............                            ]\r(load \"boot.lsp\") [..............                          ]\r(load \"boot.lsp\") [................                        ]\r(load \"boot.lsp\") [..................                      ]\r(load \"boot.lsp\") [....................                    ]\r(load \"boot.lsp\") [......................                  ]\r(load \"boot.lsp\") [........................                ]\r(load \"boot.lsp\") [..........................              ]\r(load \"boot.lsp\") [............................            ]\r(load \"boot.lsp\") [..............................          ]\r(load \"boot.lsp\") [..................................      ]\r(load \"boot.lsp\") [....................................    ]\r(load \"boot.lsp\") [......................................  ]",
+          "Lisp : tmp space resized to 16384",
+          "engine : registering base graphics",
+          "Palette has changed, recalculating light table...",
+          "\rwhite light [..                                      ]\rwhite light [....                                    ]\rwhite light [......                                  ]\rwhite light [........                                ]\rwhite light [..........                              ]\rwhite light [............                            ]\rwhite light [..............                          ]\rwhite light [................                        ]\rwhite light [..................                      ]\rwhite light [....................                    ]\rwhite light [......................                  ]\rwhite light [........................                ]\rwhite light [..........................              ]\rwhite light [............................            ]\rwhite light [..............................          ]\rwhite light [................................        ]\rwhite light [..................................      ]\rwhite light [....................................    ]\rwhite light [......................................  ]",
+          "\rtints [....                                    ]\rtints [..........                              ]\rtints [..............                          ]\rtints [....................                    ]\rtints [........................                ]\rtints [..............................          ]\rtints [..................................      ]"
+        ]
+      },
+      {
+        "label": "second map arrived",
+        "values": [
+          0,
+          7,
+          78,
+          119,
+          10,
+          3,
+          100,
+          1,
+          4,
+          23,
+          0,
+          2
+        ],
+        "logTail": [
+          "\r(load \"boot.lsp\") [..                                      ]\r(load \"boot.lsp\") [....                                    ]\r(load \"boot.lsp\") [......                                  ]\r(load \"boot.lsp\") [........                                ]\r(load \"boot.lsp\") [..........                              ]\r(load \"boot.lsp\") [............                            ]\r(load \"boot.lsp\") [..............                          ]\r(load \"boot.lsp\") [................                        ]\r(load \"boot.lsp\") [..................                      ]\r(load \"boot.lsp\") [....................                    ]\r(load \"boot.lsp\") [......................                  ]\r(load \"boot.lsp\") [........................                ]\r(load \"boot.lsp\") [..........................              ]\r(load \"boot.lsp\") [............................            ]\r(load \"boot.lsp\") [..............................          ]\r(load \"boot.lsp\") [..................................      ]\r(load \"boot.lsp\") [....................................    ]\r(load \"boot.lsp\") [......................................  ]",
+          "Lisp : tmp space resized to 16384",
+          "engine : registering base graphics",
+          "Palette has changed, recalculating light table...",
+          "\rwhite light [..                                      ]\rwhite light [....                                    ]\rwhite light [......                                  ]\rwhite light [........                                ]\rwhite light [..........                              ]\rwhite light [............                            ]\rwhite light [..............                          ]\rwhite light [................                        ]\rwhite light [..................                      ]\rwhite light [....................                    ]\rwhite light [......................                  ]\rwhite light [........................                ]\rwhite light [..........................              ]\rwhite light [............................            ]\rwhite light [..............................          ]\rwhite light [................................        ]\rwhite light [..................................      ]\rwhite light [....................................    ]\rwhite light [......................................  ]",
+          "\rtints [....                                    ]\rtints [..........                              ]\rtints [..............                          ]\rtints [....................                    ]\rtints [........................                ]\rtints [..............................          ]\rtints [..................................      ]"
+        ]
+      },
+      {
+        "label": "ordinary held Enter restart",
+        "values": [
+          0,
+          25,
+          50,
+          190,
+          2,
+          0,
+          100,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "logTail": [
+          "\r(load \"boot.lsp\") [..                                      ]\r(load \"boot.lsp\") [....                                    ]\r(load \"boot.lsp\") [......                                  ]\r(load \"boot.lsp\") [........                                ]\r(load \"boot.lsp\") [..........                              ]\r(load \"boot.lsp\") [............                            ]\r(load \"boot.lsp\") [..............                          ]\r(load \"boot.lsp\") [................                        ]\r(load \"boot.lsp\") [..................                      ]\r(load \"boot.lsp\") [....................                    ]\r(load \"boot.lsp\") [......................                  ]\r(load \"boot.lsp\") [........................                ]\r(load \"boot.lsp\") [..........................              ]\r(load \"boot.lsp\") [............................            ]\r(load \"boot.lsp\") [..............................          ]\r(load \"boot.lsp\") [..................................      ]\r(load \"boot.lsp\") [....................................    ]\r(load \"boot.lsp\") [......................................  ]",
+          "Lisp : tmp space resized to 16384",
+          "engine : registering base graphics",
+          "Palette has changed, recalculating light table...",
+          "\rwhite light [..                                      ]\rwhite light [....                                    ]\rwhite light [......                                  ]\rwhite light [........                                ]\rwhite light [..........                              ]\rwhite light [............                            ]\rwhite light [..............                          ]\rwhite light [................                        ]\rwhite light [..................                      ]\rwhite light [....................                    ]\rwhite light [......................                  ]\rwhite light [........................                ]\rwhite light [..........................              ]\rwhite light [............................            ]\rwhite light [..............................          ]\rwhite light [................................        ]\rwhite light [..................................      ]\rwhite light [....................................    ]\rwhite light [......................................  ]",
+          "\rtints [....                                    ]\rtints [..........                              ]\rtints [..............                          ]\rtints [....................                    ]\rtints [........................                ]\rtints [..............................          ]\rtints [..................................      ]"
+        ]
+      },
+      {
+        "label": "ordinary S native save",
+        "values": [
+          0,
+          34,
+          50,
+          190,
+          2,
+          0,
+          100,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "logTail": [
+          "\r(load \"boot.lsp\") [..                                      ]\r(load \"boot.lsp\") [....                                    ]\r(load \"boot.lsp\") [......                                  ]\r(load \"boot.lsp\") [........                                ]\r(load \"boot.lsp\") [..........                              ]\r(load \"boot.lsp\") [............                            ]\r(load \"boot.lsp\") [..............                          ]\r(load \"boot.lsp\") [................                        ]\r(load \"boot.lsp\") [..................                      ]\r(load \"boot.lsp\") [....................                    ]\r(load \"boot.lsp\") [......................                  ]\r(load \"boot.lsp\") [........................                ]\r(load \"boot.lsp\") [..........................              ]\r(load \"boot.lsp\") [............................            ]\r(load \"boot.lsp\") [..............................          ]\r(load \"boot.lsp\") [..................................      ]\r(load \"boot.lsp\") [....................................    ]\r(load \"boot.lsp\") [......................................  ]",
+          "Lisp : tmp space resized to 16384",
+          "engine : registering base graphics",
+          "Palette has changed, recalculating light table...",
+          "\rwhite light [..                                      ]\rwhite light [....                                    ]\rwhite light [......                                  ]\rwhite light [........                                ]\rwhite light [..........                              ]\rwhite light [............                            ]\rwhite light [..............                          ]\rwhite light [................                        ]\rwhite light [..................                      ]\rwhite light [....................                    ]\rwhite light [......................                  ]\rwhite light [........................                ]\rwhite light [..........................              ]\rwhite light [............................            ]\rwhite light [..............................          ]\rwhite light [................................        ]\rwhite light [..................................      ]\rwhite light [....................................    ]\rwhite light [......................................  ]",
+          "\rtints [....                                    ]\rtints [..........                              ]\rtints [..............                          ]\rtints [....................                    ]\rtints [........................                ]\rtints [..............................          ]\rtints [..................................      ]"
+        ]
+      },
+      {
+        "label": "moved after save",
+        "values": [
+          0,
+          46,
+          76,
+          190,
+          2,
+          0,
+          100,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "logTail": [
+          "\r(load \"boot.lsp\") [..                                      ]\r(load \"boot.lsp\") [....                                    ]\r(load \"boot.lsp\") [......                                  ]\r(load \"boot.lsp\") [........                                ]\r(load \"boot.lsp\") [..........                              ]\r(load \"boot.lsp\") [............                            ]\r(load \"boot.lsp\") [..............                          ]\r(load \"boot.lsp\") [................                        ]\r(load \"boot.lsp\") [..................                      ]\r(load \"boot.lsp\") [....................                    ]\r(load \"boot.lsp\") [......................                  ]\r(load \"boot.lsp\") [........................                ]\r(load \"boot.lsp\") [..........................              ]\r(load \"boot.lsp\") [............................            ]\r(load \"boot.lsp\") [..............................          ]\r(load \"boot.lsp\") [..................................      ]\r(load \"boot.lsp\") [....................................    ]\r(load \"boot.lsp\") [......................................  ]",
+          "Lisp : tmp space resized to 16384",
+          "engine : registering base graphics",
+          "Palette has changed, recalculating light table...",
+          "\rwhite light [..                                      ]\rwhite light [....                                    ]\rwhite light [......                                  ]\rwhite light [........                                ]\rwhite light [..........                              ]\rwhite light [............                            ]\rwhite light [..............                          ]\rwhite light [................                        ]\rwhite light [..................                      ]\rwhite light [....................                    ]\rwhite light [......................                  ]\rwhite light [........................                ]\rwhite light [..........................              ]\rwhite light [............................            ]\rwhite light [..............................          ]\rwhite light [................................        ]\rwhite light [..................................      ]\rwhite light [....................................    ]\rwhite light [......................................  ]",
+          "\rtints [....                                    ]\rtints [..........                              ]\rtints [..............                          ]\rtints [....................                    ]\rtints [........................                ]\rtints [..............................          ]\rtints [..................................      ]"
+        ]
+      },
+      {
+        "label": "ordinary L native load",
+        "values": [
+          0,
+          36,
+          50,
+          190,
+          2,
+          0,
+          100,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "logTail": [
+          "\r(load \"boot.lsp\") [..                                      ]\r(load \"boot.lsp\") [....                                    ]\r(load \"boot.lsp\") [......                                  ]\r(load \"boot.lsp\") [........                                ]\r(load \"boot.lsp\") [..........                              ]\r(load \"boot.lsp\") [............                            ]\r(load \"boot.lsp\") [..............                          ]\r(load \"boot.lsp\") [................                        ]\r(load \"boot.lsp\") [..................                      ]\r(load \"boot.lsp\") [....................                    ]\r(load \"boot.lsp\") [......................                  ]\r(load \"boot.lsp\") [........................                ]\r(load \"boot.lsp\") [..........................              ]\r(load \"boot.lsp\") [............................            ]\r(load \"boot.lsp\") [..............................          ]\r(load \"boot.lsp\") [..................................      ]\r(load \"boot.lsp\") [....................................    ]\r(load \"boot.lsp\") [......................................  ]",
+          "Lisp : tmp space resized to 16384",
+          "engine : registering base graphics",
+          "Palette has changed, recalculating light table...",
+          "\rwhite light [..                                      ]\rwhite light [....                                    ]\rwhite light [......                                  ]\rwhite light [........                                ]\rwhite light [..........                              ]\rwhite light [............                            ]\rwhite light [..............                          ]\rwhite light [................                        ]\rwhite light [..................                      ]\rwhite light [....................                    ]\rwhite light [......................                  ]\rwhite light [........................                ]\rwhite light [..........................              ]\rwhite light [............................            ]\rwhite light [..............................          ]\rwhite light [................................        ]\rwhite light [..................................      ]\rwhite light [....................................    ]\rwhite light [......................................  ]",
+          "\rtints [....                                    ]\rtints [..........                              ]\rtints [..............                          ]\rtints [....................                    ]\rtints [........................                ]\rtints [..............................          ]\rtints [..................................      ]"
+        ]
+      }
+    ],
+    "nativeSave": {
+      "bytes": 26018,
+      "sha256": "a03bc6f55ad2917d4c5ea3adf7454232fea9f1bec929b541a592f81bb009f223",
+      "nativeX": 50,
+      "nativeY": 190,
+      "ownedMarker": true,
+      "retailMarker": false,
+      "storage": "MEMFS only; no browser restart persistence implemented/tested",
+      "normalLoadVerified": true
+    },
+    "scopeLimits": [
+      "This is the own two-course prototype only, not Abuse campaign gameplay or a complete replacement game",
+      "No damage/death, enemies/weapons, complete intended campaign, controller, multiplayer or audible audio verification",
+      "Save/load in this live MEMFS session only; browser-close/restart persistence not implemented",
+      "Native overlay/lighting presentation remains a private prototype; HUD can overlap foreground/border and needs refinement before publication",
+      "Rapid-close/crash, mobile/touch/other browsers, exact linked dependency closure, warning/function-pointer behavior beyond exercised path remain unverified"
+    ]
+  },
+  "failedAttemptsPreserved": [
+    "authored-movement-report-no-bindings.json: script lacked native keyboard binding variables; map/floor loaded but Right did not move",
+    "authored-movement-report-low-jump.json: authored jump ability too low for first wall and no explicit next_picture advancement; corrected own behavior/ability",
+    "authored-movement-report-dialect-failure.json: this native Lisp does not support = function; replaced own equality predicate with eq; recursive debugger EOF/stack failure retained",
+    "authored-movement-report-short-enter.json: completion reached but brief Enter tap not observed for restart; final ordinary held Enter used"
+  ],
+  "privateArtifacts": [
+    {
+      "name": "author-pack.py",
+      "bytes": 16408,
+      "sha256": "359ecd42c6d839363aa12051dbdf70767336a65ed3908ed17a9f5ed7a4b1e041"
+    },
+    {
+      "name": "authored-state.cpp",
+      "bytes": 918,
+      "sha256": "fbd22d2bd0d17bf62b399c700d135e22783633a912db9f713d2744a83be588cf"
+    },
+    {
+      "name": "build-authored-boot.py",
+      "bytes": 1769,
+      "sha256": "1050c1a09ffe89969f3c952b346b673b63c2e464fcf37e0b8d53cd1494c286a2"
+    },
+    {
+      "name": "test-authored-movement.cjs",
+      "bytes": 8629,
+      "sha256": "278436a7f531b003e27184656ec29ad5761ac1b5341b7d0e33dee6659a1fd023"
+    },
+    {
+      "name": "authored-boot.html",
+      "bytes": 771,
+      "sha256": "c731578414f82919429a4b4b38e6a9d04d23058e51b1ee15115da7a45c65637c"
+    },
+    {
+      "name": "authored-boot.js",
+      "bytes": 220689,
+      "sha256": "9bf49aa3f4ad748a26c096b53bfbc1ac3b115f89bc0a2f409570f5e278e5d53c"
+    },
+    {
+      "name": "authored-boot.wasm",
+      "bytes": 2604275,
+      "sha256": "0ea720bf4729067b50dc31bf021c4288050178cf210c6ff898784cf683f22745"
+    },
+    {
+      "name": "authored-boot.data",
+      "bytes": 275003,
+      "sha256": "a30ea0e8aa07c005762652094c4bf845123b297a702ef4d98e36effb4e69254e"
+    },
+    {
+      "name": "authored-font.cpp",
+      "bytes": 42480,
+      "sha256": "54eb2b60942b8a09a8024694fce0d89b53e7eb17d27476ecc9ca8b1c6de4f9a0"
+    },
+    {
+      "name": "authored-map-marker-patches.json",
+      "bytes": 846,
+      "sha256": "57438088214ce17c8d763e85fb4830b508d436140a30b1f396beb04c5035437f"
+    },
+    {
+      "name": "authored-boot-build.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "authored-movement-report.json",
+      "bytes": 135641,
+      "sha256": "dd9cc52d4b0a411305182595eb705afaf5f55eb4de72293ebce6941e8e36271b"
+    },
+    {
+      "name": "authored-course-native-save.spe",
+      "bytes": 26018,
+      "sha256": "a03bc6f55ad2917d4c5ea3adf7454232fea9f1bec929b541a592f81bb009f223"
+    }
+  ],
+  "nextGates": [
+    "Complete intended campaign/content scope including challenge, damage/death and restart coverage",
+    "Native game-save creation/load and durable browser persistence validation",
+    "Independent audio or explicit silent edition; no audible test",
+    "Exact linked source/dependency/license closure and retained compiler warnings",
+    "Final full normal-control gameplay and distribution-source/provenance review"
+  ],
+  "integration": {
+    "entryAdded": false,
+    "publicRuntime": false,
+    "deployment": false,
+    "catalogCount": 83,
+    "claudeGamesTouched": false
+  }
+}
