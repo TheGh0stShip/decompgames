@@ -1,0 +1,247 @@
+{
+  "date": "2026-10-13",
+  "scope": "Selected decoded UTF-8 source/build/license text; no data/media or binaries; not complete dependency closure",
+  "groups": [
+    {
+      "repo": "Xenoveritas/abuse",
+      "commit": "9d1f66f57377859bae10e28eabebea0b9c750490",
+      "stars": 170,
+      "treeTruncated": false,
+      "records": [
+        {
+          "path": "COPYING",
+          "url": "https://raw.githubusercontent.com/Xenoveritas/abuse/9d1f66f57377859bae10e28eabebea0b9c750490/COPYING",
+          "bytes": 765,
+          "sha256": "544a41ffd8959584f03f6a8e23ddb3197cd7579110724cc86ba33c92dfa5c1b7"
+        },
+        {
+          "path": "COPYING.GPL",
+          "url": "https://raw.githubusercontent.com/Xenoveritas/abuse/9d1f66f57377859bae10e28eabebea0b9c750490/COPYING.GPL",
+          "bytes": 17992,
+          "sha256": "32b1062f7da84967e7019d01ab805935caa7ab7321a7ced0e30ebe75e5df1670"
+        },
+        {
+          "path": "COPYING.WTFPL",
+          "url": "https://raw.githubusercontent.com/Xenoveritas/abuse/9d1f66f57377859bae10e28eabebea0b9c750490/COPYING.WTFPL",
+          "bytes": 508,
+          "sha256": "d10f0447c835a590ef137d99dd0e3ed29b5e032e7434a87315b30402bf14e7fd"
+        },
+        {
+          "path": "README.md",
+          "url": "https://raw.githubusercontent.com/Xenoveritas/abuse/9d1f66f57377859bae10e28eabebea0b9c750490/README.md",
+          "bytes": 6395,
+          "sha256": "d2947e7951acbdc99856c3ad9b42a80ac465f2d2f7aeaaec9a52f0bdd9085450"
+        },
+        {
+          "path": "CMakeLists.txt",
+          "url": "https://raw.githubusercontent.com/Xenoveritas/abuse/9d1f66f57377859bae10e28eabebea0b9c750490/CMakeLists.txt",
+          "bytes": 3221,
+          "sha256": "dec8e3ea2fc83122617fea19e0f4b56a1a7e8f64b99a8a32209b8b2624cb801a"
+        },
+        {
+          "path": "src/CMakeLists.txt",
+          "url": "https://raw.githubusercontent.com/Xenoveritas/abuse/9d1f66f57377859bae10e28eabebea0b9c750490/src/CMakeLists.txt",
+          "bytes": 3847,
+          "sha256": "1e72a8b360d0197a34763da6761d507990a0aa2157f2a954cf0fdec23a6613de"
+        },
+        {
+          "path": "src/sdlport/CMakeLists.txt",
+          "url": "https://raw.githubusercontent.com/Xenoveritas/abuse/9d1f66f57377859bae10e28eabebea0b9c750490/src/sdlport/CMakeLists.txt",
+          "bytes": 451,
+          "sha256": "4a50a2c3e6d0d5056a8dfb1a723deea6771aeb073f87a891e16fffa18ba2bb7d"
+        },
+        {
+          "path": "data/CMakeLists.txt",
+          "url": "https://raw.githubusercontent.com/Xenoveritas/abuse/9d1f66f57377859bae10e28eabebea0b9c750490/data/CMakeLists.txt",
+          "bytes": 9812,
+          "sha256": "c7a59d7ef1222c3b427300431bf2fae353a84e94173a099efb596a2430354bd1"
+        },
+        {
+          "path": "BUILDING.md",
+          "url": "https://raw.githubusercontent.com/Xenoveritas/abuse/9d1f66f57377859bae10e28eabebea0b9c750490/BUILDING.md",
+          "bytes": 6550,
+          "sha256": "05b4fe1c4a0c483d6f9d7c1ddfd762c9ca5e81f72dfaf5dc2fbfa1e2ef8ecee3"
+        },
+        {
+          "path": "vcpkg.json",
+          "url": "https://raw.githubusercontent.com/Xenoveritas/abuse/9d1f66f57377859bae10e28eabebea0b9c750490/vcpkg.json",
+          "bytes": 113,
+          "sha256": "543f318a0563c5e4f6e31bc0dfe3b3652925bb7ae834dee8330ec71fa57774e8"
+        }
+      ]
+    },
+    {
+      "repo": "videogamepreservation/abuse",
+      "commit": "01cce80eaf2ae82bafb9981162e205e42d0fae2f",
+      "stars": 95,
+      "treeTruncated": false,
+      "records": [
+        {
+          "path": "README",
+          "url": "https://raw.githubusercontent.com/videogamepreservation/abuse/01cce80eaf2ae82bafb9981162e205e42d0fae2f/README",
+          "bytes": 4326,
+          "sha256": "354821e4e11e0325f71b8f8bcd81ac05a091c95f6e7b3c12b91bd4acc9c5c233"
+        },
+        {
+          "path": "abuse/Makefile.am",
+          "url": "https://raw.githubusercontent.com/videogamepreservation/abuse/01cce80eaf2ae82bafb9981162e205e42d0fae2f/abuse/Makefile.am",
+          "bytes": 2979,
+          "sha256": "2c2f51db9352808d6ddb95d1e7898dd461e3550db5436c93fd40a06bd4dc292b"
+        },
+        {
+          "path": "imlib/Makefile.am",
+          "url": "https://raw.githubusercontent.com/videogamepreservation/abuse/01cce80eaf2ae82bafb9981162e205e42d0fae2f/imlib/Makefile.am",
+          "bytes": 1773,
+          "sha256": "49e239763d8096e2acc64e7f1f10603f1985f0b9d860204fc3005e25c230b9e7"
+        },
+        {
+          "path": "imlib/include/event.hpp",
+          "url": "https://raw.githubusercontent.com/videogamepreservation/abuse/01cce80eaf2ae82bafb9981162e205e42d0fae2f/imlib/include/event.hpp",
+          "bytes": 2011,
+          "sha256": "60d8ebe658d950b49a074098d8fcb4a5c1186d1fc38bb0e6d7c00cfe4458dfb3"
+        },
+        {
+          "path": "imlib/include/video.hpp",
+          "url": "https://raw.githubusercontent.com/videogamepreservation/abuse/01cce80eaf2ae82bafb9981162e205e42d0fae2f/imlib/include/video.hpp",
+          "bytes": 671,
+          "sha256": "c6806036df60ad5722e2e9290550a85cbea214bd7d8971dd5d83c5fead7af69f"
+        },
+        {
+          "path": "imlib/port/x11/video.c",
+          "url": "https://raw.githubusercontent.com/videogamepreservation/abuse/01cce80eaf2ae82bafb9981162e205e42d0fae2f/imlib/port/x11/video.c",
+          "bytes": 21748,
+          "sha256": "c1940d4d6ef03ed26d9a1bd27500d475d5ca04d9ac8d8863e1e7b351c2415613"
+        }
+      ]
+    },
+    {
+      "repo": "OpenLoco/OpenLoco",
+      "commit": "e71abfb3c3dd29a6db5da58c5b4be0a476d8733c",
+      "stars": 1935,
+      "treeTruncated": false,
+      "records": [
+        {
+          "path": "LICENSE",
+          "url": "https://raw.githubusercontent.com/OpenLoco/OpenLoco/e71abfb3c3dd29a6db5da58c5b4be0a476d8733c/LICENSE",
+          "bytes": 1076,
+          "sha256": "4b802543d874d846571bfc27cca0f530eef4aad9d48b051ff2965ce6a1754e18"
+        },
+        {
+          "path": "README.md",
+          "url": "https://raw.githubusercontent.com/OpenLoco/OpenLoco/e71abfb3c3dd29a6db5da58c5b4be0a476d8733c/README.md",
+          "bytes": 6678,
+          "sha256": "e3951c5b862b20b7f0862ee9bdedd413c45cb5d57291d2e4fbf89e5b978873ec"
+        },
+        {
+          "path": "CMakeLists.txt",
+          "url": "https://raw.githubusercontent.com/OpenLoco/OpenLoco/e71abfb3c3dd29a6db5da58c5b4be0a476d8733c/CMakeLists.txt",
+          "bytes": 5435,
+          "sha256": "bcb3b40c024b9b9033ac296e5c161369ce0ff127eb74b38e98ae9fc1c702df76"
+        },
+        {
+          "path": "thirdparty/CMakeLists.txt",
+          "url": "https://raw.githubusercontent.com/OpenLoco/OpenLoco/e71abfb3c3dd29a6db5da58c5b4be0a476d8733c/thirdparty/CMakeLists.txt",
+          "bytes": 2780,
+          "sha256": "0159a5d55b0dfd5e898073778942166677792aec3f398bc8dab6dc918ac1cfc1"
+        },
+        {
+          "path": "vcpkg.json",
+          "url": "https://raw.githubusercontent.com/OpenLoco/OpenLoco/e71abfb3c3dd29a6db5da58c5b4be0a476d8733c/vcpkg.json",
+          "bytes": 780,
+          "sha256": "49cdf0ebec470b488b9bc3b71ded99ad91ffd604be742fd09003b36cafc3c094"
+        },
+        {
+          "path": "src/Resources/CMakeLists.txt",
+          "url": "https://raw.githubusercontent.com/OpenLoco/OpenLoco/e71abfb3c3dd29a6db5da58c5b4be0a476d8733c/src/Resources/CMakeLists.txt",
+          "bytes": 490,
+          "sha256": "8609c37f0f0ddce95b8d1fdca83831257bdc5a93a8b488ef336effac610df438"
+        },
+        {
+          "path": "src/Audio/CMakeLists.txt",
+          "url": "https://raw.githubusercontent.com/OpenLoco/OpenLoco/e71abfb3c3dd29a6db5da58c5b4be0a476d8733c/src/Audio/CMakeLists.txt",
+          "bytes": 795,
+          "sha256": "7feba7b8a43f1f4f29156c87f00253a0b60734ab6ab52688af220b8ea4cb60d9"
+        },
+        {
+          "path": "src/Engine/CMakeLists.txt",
+          "url": "https://raw.githubusercontent.com/OpenLoco/OpenLoco/e71abfb3c3dd29a6db5da58c5b4be0a476d8733c/src/Engine/CMakeLists.txt",
+          "bytes": 842,
+          "sha256": "1ee1807bd144c3004fea1560dd3ea83115490c68de8ddca487380aec06183f24"
+        },
+        {
+          "path": ".gitmodules",
+          "url": "https://raw.githubusercontent.com/OpenLoco/OpenLoco/e71abfb3c3dd29a6db5da58c5b4be0a476d8733c/.gitmodules",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "src/OpenLoco/src/Environment.cpp",
+          "url": "https://raw.githubusercontent.com/OpenLoco/OpenLoco/e71abfb3c3dd29a6db5da58c5b4be0a476d8733c/src/OpenLoco/src/Environment.cpp",
+          "bytes": 11779,
+          "sha256": "565e1e4806a20f8b0f9fbe38827b9508bd129efa765bdde302fff16c6d8cde0f"
+        },
+        {
+          "path": "src/OpenLoco/include/OpenLoco/Environment.h",
+          "url": "https://raw.githubusercontent.com/OpenLoco/OpenLoco/e71abfb3c3dd29a6db5da58c5b4be0a476d8733c/src/OpenLoco/include/OpenLoco/Environment.h",
+          "bytes": 1870,
+          "sha256": "56cf3734c7b2cbc18ec395ab66616859c0fa966eeb12865ba3b890941919d51d"
+        },
+        {
+          "path": "src/App/src/Main.cpp",
+          "url": "https://raw.githubusercontent.com/OpenLoco/OpenLoco/e71abfb3c3dd29a6db5da58c5b4be0a476d8733c/src/App/src/Main.cpp",
+          "bytes": 11963,
+          "sha256": "76db277d9903e29ab6bb1c056dbf812fc9ca22d436bc39b60a0a0555498e804f"
+        }
+      ]
+    },
+    {
+      "repo": "alexbatalov/fallout1-ce",
+      "commit": "0609bcfd0ec40ff0571d0f57fab2821eb461dc8b",
+      "stars": 2944,
+      "treeTruncated": false,
+      "records": [
+        {
+          "path": "LICENSE.md",
+          "url": "https://raw.githubusercontent.com/alexbatalov/fallout1-ce/0609bcfd0ec40ff0571d0f57fab2821eb461dc8b/LICENSE.md",
+          "bytes": 3601,
+          "sha256": "3c260f537a0c7c3d140e5524551e5743c836cca8d819216a6934aa4669d9abec"
+        },
+        {
+          "path": "README.md",
+          "url": "https://raw.githubusercontent.com/alexbatalov/fallout1-ce/0609bcfd0ec40ff0571d0f57fab2821eb461dc8b/README.md",
+          "bytes": 6854,
+          "sha256": "e4ecc55513fa082a746811d4c5c7f4fb6c61b3ba46328cfcc4204b72731b8e8b"
+        },
+        {
+          "path": "CMakeLists.txt",
+          "url": "https://raw.githubusercontent.com/alexbatalov/fallout1-ce/0609bcfd0ec40ff0571d0f57fab2821eb461dc8b/CMakeLists.txt",
+          "bytes": 10441,
+          "sha256": "080fe50940d1e8e03efbcd3eedff256eaffea23e43aee002c929f597e360b580"
+        }
+      ]
+    }
+  ],
+  "contentLeads": [
+    {
+      "repo": "OpenLoco/OpenGraphics",
+      "commit": "019943c5aa9654ea15a401e48ab25d48217004a6",
+      "stars": 12,
+      "treeTruncated": false,
+      "scope": "Root content/code statements only; no graphics or release archive downloaded; not complete provenance audit",
+      "records": [
+        {
+          "path": "LICENSE",
+          "url": "https://raw.githubusercontent.com/OpenLoco/OpenGraphics/019943c5aa9654ea15a401e48ab25d48217004a6/LICENSE",
+          "bytes": 1065,
+          "sha256": "3f59025d1e251f245997eb716e82bb0a9f38c0fd5696f05bd2dd5c17392ddcc0"
+        },
+        {
+          "path": "README.md",
+          "url": "https://raw.githubusercontent.com/OpenLoco/OpenGraphics/019943c5aa9654ea15a401e48ab25d48217004a6/README.md",
+          "bytes": 10603,
+          "sha256": "2a66c7363d67a9f2c611a7661dec13326ee1386d2f80a380460308ec40620a86"
+        }
+      ]
+    }
+  ]
+}
