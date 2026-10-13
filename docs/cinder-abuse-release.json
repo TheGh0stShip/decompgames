@@ -409,11 +409,180 @@
     "Silent edition, no sound/music payloads or device; audible audio unverified"
   ],
   "production": {
-    "pending": true,
-    "deployment": null,
-    "liveHashesVerified": false,
-    "liveGameplayVerified": false,
-    "firstLiveAttempt": "Gameplay/save/completion/restart succeeded; final generic-console assertion failed because missing /favicon.ico. URL confirmed in a separate muted diagnostic. Added authored inline CC0 geometric SVG icon; native/runtime/data unchanged; rerun pending."
+    "pending": false,
+    "deployment": "https://497c8974.decompgames.pages.dev",
+    "deployedCommit": "3f73f60",
+    "gameURL": "https://decompgames.com/games/cinder-abuse/",
+    "canonicalStandalonePlayer": "https://decompgames.com/games/cinder-abuse/player",
+    "liveHashesVerified": true,
+    "liveHashRecords": [
+      {
+        "path": "asset-provenance.json",
+        "bytes": 80742,
+        "sha256": "d1608684ad572669a42c397d358df0888fa632467ca270875c3b2ad69c9047b7",
+        "status": 200
+      },
+      {
+        "path": "AUTHORED-ADAPTER-LICENSE.txt",
+        "bytes": 1694,
+        "sha256": "f1b21120d4ac8d30439847e8ca8464b2ed9e0bd77e9b00d6f216cc1fe85584ab",
+        "status": 200
+      },
+      {
+        "path": "authored-boot.data",
+        "bytes": 280227,
+        "sha256": "eb15b0d788e1d2d1f7a79112069208aac79ee4488db696ed2f544a15cb846611",
+        "status": 200
+      },
+      {
+        "path": "authored-boot.js",
+        "bytes": 234988,
+        "sha256": "fb1435016bce3f6fcce265c12dab2af9bfa2ad49255b4a73f5977d17d2f998ab",
+        "status": 200
+      },
+      {
+        "path": "authored-boot.wasm",
+        "bytes": 2609581,
+        "sha256": "6ef09f00a1267b9b702fc811c774a9ceb6b476964876b64be1bd86d7abb6416b",
+        "status": 200
+      },
+      {
+        "path": "authored-menu-patches.json",
+        "bytes": 512,
+        "sha256": "83ae96885fac9a93fd749d20f3b93d115fe41ba45f7efecdfae796a266c27bf2",
+        "status": 200
+      },
+      {
+        "path": "authored-save-namespace-patches.json",
+        "bytes": 389,
+        "sha256": "e528c69927c60b84c5f85a842747eb1fe9897f48d46a85019897cb4216394e4b",
+        "status": 200
+      },
+      {
+        "path": "BUILD-NOTES.md",
+        "bytes": 2325,
+        "sha256": "d22a91237d0a98dd7eb6fb36f5e29676e6aff5fc4dab06514a76273096188021",
+        "status": 200
+      },
+      {
+        "path": "CC0-NOTICE.txt",
+        "bytes": 558,
+        "sha256": "687d6339cfa84780b4a422b207811750e8114bf44cd97a22f326aea373e058da",
+        "status": 200
+      },
+      {
+        "path": "emitted-js-origins.json",
+        "bytes": 36627,
+        "sha256": "241648c9e553d823602d16af04fe0052bf98f60963496a90c68f45921b24bc1b",
+        "status": 200
+      },
+      {
+        "path": "NOTICE.txt",
+        "bytes": 130782,
+        "sha256": "1e41c6a7fbb29f76a4b93f0bc974fe468f84b9c7330e663ea037f63b9dbe3fda",
+        "status": 200
+      },
+      {
+        "path": "ORIGINAL-RELEASE.txt",
+        "bytes": 4326,
+        "sha256": "354821e4e11e0325f71b8f8bcd81ac05a091c95f6e7b3c12b91bd4acc9c5c233",
+        "status": 200
+      },
+      {
+        "path": "player.html",
+        "bytes": 3492,
+        "sha256": "62f84512c13767c2544d71469fa6df6e3abcfe95c6f4cde7b1076b8679563e39",
+        "status": 200
+      },
+      {
+        "path": "selected-native-inputs.json",
+        "bytes": 47690,
+        "sha256": "0faedf2c5c65be982b53b64cd30549e4d268dbacd54b42dcf6b4a8d1c11ab877",
+        "status": 200
+      },
+      {
+        "path": "template-preload-origins.json",
+        "bytes": 8395,
+        "sha256": "83465e4a481348ba68ad8bf39cc3d6d09cb38c63946d370044a37e775b9f89b4",
+        "status": 200
+      },
+      {
+        "path": "THIRD_PARTY_NOTICES.md",
+        "bytes": 1853,
+        "sha256": "72ad8937d386608853ced92d1fea00a3f0dab879f63a9eb545f424b1b0a337da",
+        "status": 200
+      },
+      {
+        "path": "/sources/cinder-abuse-01cce80-browser-8e338b08-source.zip",
+        "bytes": 453918,
+        "sha256": "8e338b0824d603e6556d55c772456e9b32eba0a80fed2af9ab98025424bcbb5b",
+        "status": 206
+      }
+    ],
+    "liveGameplayVerified": true,
+    "survivalCompletionHP": 50,
+    "restartHP": 100,
+    "damagedNativeSave": {
+      "x": 52,
+      "y": 190,
+      "hp": 25,
+      "bytes": 26110,
+      "sha256": "85317e05d75e5a63abbbf56c0a96bf3ab9f18b1c902fc6bddcfbcff50491b408",
+      "ownMarker": true,
+      "retailMarker": false,
+      "normalLoadVerified": true
+    },
+    "fullBrowserRestart": {
+      "bytes": 26110,
+      "sha256": "85317e05d75e5a63abbbf56c0a96bf3ab9f18b1c902fc6bddcfbcff50491b408",
+      "byteIdentical": true
+    },
+    "nativeMenuAndStopVerified": true,
+    "sitePlayAndStopVerified": true,
+    "currentPageConsoleErrors": [],
+    "currentPageErrors": [],
+    "currentMissingGameResources": [],
+    "siteAnalyticsErrors": "Only exact integrity warnings for deliberately204-intercepted Cloudflare beacon URLs were attributed separately; all other console/page errors empty",
+    "screenshotsInspected": [
+      "production-cinder-authored-heat-damaged.png",
+      "production-cinder-authored-heat-dead.png",
+      "production-cinder-authored-heat-route-complete.png"
+    ],
+    "allPlayersClosed": true,
+    "audibleAudioVerified": false,
+    "preservedFailures": [
+      "Initial live gameplay/save/course completion passed but final console assertion failed missing /favicon.ico; actual URL confirmed, authored inline SVG added, sourceZIP refreshed and clean rerun passed",
+      "First site harness searched player.html; Pages canonical redirect is /player. Analytics204 interception caused exact beacon integrity warnings. URL matching corrected/analytics attribution exact; sitePlay/Stop rerun passed"
+    ],
+    "liveScopeLimits": [
+      "Own two-course prototype only; not the retail campaign or a complete replacement campaign",
+      "One damaged course-one stationary save; dead/completed/course-two/overwrite/transfer/failure-HUD/rapid-close/crash/quota/denial/corruption unverified",
+      "Other browsers/mobile/touch/controllers/multiplayer unverified",
+      "Legacy native warnings and unexercised paths remain unresolved",
+      "Silent edition, no sound/music payloads or device; audible audio unverified"
+    ],
+    "privateEvidenceHashes": [
+      {
+        "path": "production-cinder-authored-heat-report.json",
+        "bytes": 7385,
+        "sha256": "bc37b80b1128d3082cdf40e3cb9371e77c061b058529e25c1ae79e592ce2d725"
+      },
+      {
+        "path": "production-cinder-authored-heat-route-report.json",
+        "bytes": 100420,
+        "sha256": "b65efb731fd53fb63ea8ae28725d339d3f3062e4404a7a95941d5f9f1a6832fb"
+      },
+      {
+        "path": "live-site-player-check-final.json",
+        "bytes": 1210,
+        "sha256": "c4bdefe0f666146e906345bd750d4db2c4d5cfbf96c32c61c1a4a01b2841d1e8"
+      },
+      {
+        "path": "live-final-distribution-check.json",
+        "bytes": 3089,
+        "sha256": "0888dac1a82a07dee786383019979c53cb337d762544c28133773307b7f327d1"
+      }
+    ]
   },
   "preservation": {
     "claudeGameFilesAndCatalogRecordsChanged": false,
