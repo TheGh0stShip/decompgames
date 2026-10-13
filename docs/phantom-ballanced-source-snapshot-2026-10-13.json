@@ -1,0 +1,174 @@
+{
+  "observedDateUTC": "2026-10-13",
+  "scope": "Read-only selected licence/docs/build and two manager source-header reviews; no game media/executable/installer/DLL/assets or build/browser/audio test. No complete dependency or source-rights certification.",
+  "hashEncoding": "SHA-256 of UTF-8 encoded decoded texts preserved privately; not independently verified raw-byte download hashes.",
+  "reviewedTextCount": 48,
+  "repositories": [
+    {
+      "repository": "OpenPhantom/OpenPhantom",
+      "revision": "1eb1ea70b618dc7991f4e9b8c878ecf1fd3dc431",
+      "starsAtRead": 55,
+      "defaultBranch": "main",
+      "treeEntryCount": 2183,
+      "fileHashes": {
+        "LICENSE": "05bd1c8c8530063d009533f41bebd917a99865718d651403519b66a773a4ac0a",
+        "README.md": "11184d55b68fd5ac6082aa490ddb5b7eb12f1de87352122835eb20b8d6d2a81b",
+        "engine/README.md": "862cae44eb01d1efac4ad999e1e965f1c01234720fb4e4401bcd9b4f1b4d5e12",
+        "editor/README.md": "862cae44eb01d1efac4ad999e1e965f1c01234720fb4e4401bcd9b4f1b4d5e12",
+        "legacy/README.md": "668f80a1a5dc3919e3fe3e0418f4b1661e42d8ebcb0fe8512e3eefe9b1fb9c64",
+        "legacy/CMakeLists.txt": "c58fc167ed302d0749649e6a6704970ec4f806cc68769787bd381cd9df23265e",
+        "installer/THIRD-PARTY-NOTICES.md": "5d8a6578c72d6955258eff614d86d71baba3384de506b7b766f66b2c02a8f3fc",
+        "legacy/dist/THIRD-PARTY-NOTICES.txt": "7adcbaab3307233a7199bf5909502b47de7ad0d4184cd6c2e686383b5cb55314"
+      },
+      "readFailures": {}
+    },
+    {
+      "repository": "doyaGu/Ballanced",
+      "revision": "e501fee83e4206f24cd843716a9a6c1f31edcbf7",
+      "starsAtRead": 45,
+      "defaultBranch": "sdl",
+      "treeEntryCount": 45,
+      "fileHashes": {
+        "LICENSE": "ae0cd25729ad3f4c4076cafbc92d220f4455f288cce394cb5ccae8db6aa3702a",
+        "README.md": "b8d4a60cccfface3e6de0f7bcea7d2431712ebd358c586d96cd988aeefd790bd",
+        "BUILD.md": "7957e9e968cf0081e2ed94360d44aae72e5f4ba0b01e1a4a90a8bbbd26f04030",
+        "CONTEXT.md": "67a16485ffda48ba0c0a5e1b97aac9d8325159dbb95654bf13b3ca12d4a23fdc",
+        ".gitmodules": "8a3500a300a68d4f53eca01ecb48b330411de376a27648dfb06fd7b4a2673e68",
+        "CMakeLists.txt": "4d4139d2ee75aa8a5bf93e7d772dd61226494e8613128c7eac543568bd479313",
+        "Source/CMakeLists.txt": "21cdde74aa0c370d416a6beefd4494098db368f353dd8dcc31285e798233e70e",
+        "Source/Managers/CMakeLists.txt": "d75319826d1446798193bf458e118caa6bdf7c28b48b4b94765b8db7243e84e6",
+        "CMakePresets.json": "1ee679c10984b1f71aab1eb43662b707618430bfc9e44fb3f893cffa12d34e24"
+      },
+      "readFailures": {},
+      "components": [
+        {
+          "path": "Source/BuildingBlocks",
+          "repository": "doyaGu/CKBuildingBlocks",
+          "revision": "137bfea29ec12ec81f425736b711d2e913bae4ef",
+          "rootNotice": "Apache-2.0 declaration",
+          "fileHashes": {
+            "LICENSE": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+            "CMakeLists.txt": "6724d0b1d77dfab415af3d4faa7212cdbc11bf65875d8a61ef27a49846cc93cd"
+          },
+          "readFailures": {
+            "README.md": "FETCH_ERROR: HTTP Error 404: Not Found"
+          }
+        },
+        {
+          "path": "Source/CK2",
+          "repository": "doyaGu/CK2",
+          "revision": "636172f82627f39720751f2140b81eb5ac37dc97",
+          "rootNotice": "Apache-2.0 declaration",
+          "fileHashes": {
+            "LICENSE": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+            "README.md": "8ae309a4c153a92343183c332df0156fa6750763fb6ea4fcad2eb3c81f37f7fb",
+            "CMakeLists.txt": "19bf1776a7eb59f14c71fffa8ad14227ff1d91b5b07ec1375c30837d29116571"
+          },
+          "readFailures": {}
+        },
+        {
+          "path": "Source/Managers/ParameterOperations",
+          "repository": "doyaGu/CKParameterOperations",
+          "revision": "85767adbdf70c327fcb9da9d179285a390bd6756",
+          "rootNotice": "Apache-2.0 declaration",
+          "fileHashes": {
+            "LICENSE": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+            "README.md": "7e321d89b6f1b5fbb5c80616ea36cbcbfa52dcfd9355cb75220baa305f75994b",
+            "CMakeLists.txt": "4cd1c1d9b645d1612881a67df12391223d247ffe40d804acd6c9ecefb329f707"
+          },
+          "readFailures": {}
+        },
+        {
+          "path": "Source/Managers/SdlInputManager",
+          "repository": "doyaGu/SdlInputManager",
+          "revision": "62c386ccc060da97687abcb839bf6344b4842446",
+          "rootNotice": "No LICENSE at reviewed path (404)",
+          "fileHashes": {
+            "CMakeLists.txt": "ee42a9b44784f217b594d2ff4e67ace648f608edabc2c35afb7f90006c51efe1",
+            "Cursor.cpp": "114e7b9abe62de10fae2729b7eb4db98d3ed31ec2d3f16f5809e3d74400c43d6",
+            "Gamepad.cpp": "0bb8de61df01d6c33c8dca0e3e8a111db9467b93f8552b602e5c8f33ee6cf74e",
+            "Mouse.cpp": "cfb53e974e9928b88502c9f409fd70ba788b91ae9696774efc12ffe2cbcd6454",
+            "Parameters.cpp": "b68874eb284db6e01f36b08b47d81816dd2afdeb04bd7e47c252f68d1ebe168f",
+            "Plugin.cpp": "80ec8287886908688207fcdadbbff9c0087cfe196e590c70d9541c8465505c06",
+            "SdlInputManager.cpp": "14aa6a7a6bfb45a6378c980c9902f58772a37f5520a672cce1971e7341be270a",
+            "SdlInputManager.h": "91e7b80024f3994154de0104efc1afe61783957546586443c222ad5de5c4debe"
+          },
+          "readFailures": {
+            "LICENSE": "FETCH_ERROR: HTTP Error 404: Not Found",
+            "README.md": "FETCH_ERROR: HTTP Error 404: Not Found"
+          },
+          "noticePathsInReviewedTree": []
+        },
+        {
+          "path": "Source/Managers/SdlSoundManager",
+          "repository": "doyaGu/SdlSoundManager",
+          "revision": "4ada4c473e9884c9c6f759a8e9f0b3d4f988c6bd",
+          "rootNotice": "No LICENSE at reviewed path (404)",
+          "fileHashes": {
+            "CMakeLists.txt": "691bfe34f357cbdb46843a0891529f5999a2d1911b8e361ed5f6bdf8ed3393c5",
+            "SdlSoundManager.cpp": "a3ae8656228e6dad19fc8bff512024dcf2faace2b901462be56612fa55110ed9",
+            "SdlSoundManager.h": "e1a2487ffb68a1cbcd381506051c99d15717bbbc174548da024afa2cfb4cfe76"
+          },
+          "readFailures": {
+            "LICENSE": "FETCH_ERROR: HTTP Error 404: Not Found",
+            "README.md": "FETCH_ERROR: HTTP Error 404: Not Found"
+          },
+          "noticePathsInReviewedTree": []
+        },
+        {
+          "path": "Source/Player",
+          "repository": "doyaGu/BallancePlayer",
+          "revision": "e507329544c8d0000b8449371caca203b77b7225",
+          "rootNotice": "MIT",
+          "fileHashes": {
+            "LICENSE": "ae0cd25729ad3f4c4076cafbc92d220f4455f288cce394cb5ccae8db6aa3702a",
+            "README.md": "73cfe7fb16ae0066f2a5070872c23e12ed331745a86552691cf6316f7052a8f8",
+            "CMakeLists.txt": "1580dfea2d9eb9d6b7957dfc4aaec6572165493e497d911043951b84468af193"
+          },
+          "readFailures": {}
+        },
+        {
+          "path": "Source/Plugins",
+          "repository": "doyaGu/CKPlugins",
+          "revision": "032131df0a50788a6bd662208e89401434a58901",
+          "rootNotice": "Apache-2.0 declaration",
+          "fileHashes": {
+            "LICENSE": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+            "README.md": "2c4dd1844f19dd024928bcf47b07e91dc80f2a1bca0112b81afb0ac8de18c5fa",
+            "CMakeLists.txt": "f9c4a25770916dd387f34ddc2bc9cfb27ac3d3c720ffdee4faa62d6d11d166b9"
+          },
+          "readFailures": {}
+        },
+        {
+          "path": "Source/RenderEngine",
+          "repository": "doyaGu/CKRenderEngine",
+          "revision": "8c4b40a43d359cf0f8f5495d07619c31ad29f76f",
+          "rootNotice": "Apache-2.0 declaration",
+          "fileHashes": {
+            "LICENSE": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+            "README.md": "ded69fc0cfc23385dad9eba2ee36815bc067c87ca868d78f85c21944a84ea6e6",
+            "CMakeLists.txt": "3b30572355ea4c46873c345c188ec27137c31627810bc049096047d11077c4d9"
+          },
+          "readFailures": {}
+        },
+        {
+          "path": "Source/VxMath",
+          "repository": "doyaGu/VxMath",
+          "revision": "a29c3b9da576cc4967bcc13d5202efbd59b6fd6b",
+          "rootNotice": "Apache-2.0 declaration",
+          "fileHashes": {
+            "LICENSE": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+            "README.md": "1ef18babc6e06fa1e0619b97b5eafab6cbf10f9670a6af29fcd69c25a4f0fc05",
+            "CMakeLists.txt": "b28d0f669a1b6d6cca3c6ff8c426906267c2ac24238992c71c99c9ce6c79cbad"
+          },
+          "readFailures": {}
+        }
+      ]
+    }
+  ],
+  "catalog": {
+    "entries": 83,
+    "exactTitleMatches": []
+  },
+  "disposition": "OpenPhantom is a retail executable patch system with future engine placeholders. Ballanced combines a decompilation-derived Player and reconstructed compatible engine modules, but original compositions/data, module grant scope and a browser build remain unresolved."
+}
