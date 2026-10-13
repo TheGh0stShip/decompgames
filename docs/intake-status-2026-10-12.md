@@ -18,3 +18,5 @@ Remaining reviewed candidates and actionable blockers:
 - RSDK/VVVVVV/noncommercial projects and GPL-only candidates remain outside present permissive-code criteria; catalog duplicates are preserved, not re-added.
 
 No new ROMs needed for these tasks. Claude owns Mario Party 2/3 and Halo work. Browser audio remains muted; completed test players closed. Overall intake is not finished: OpenLara content engineering can still progress, so recurring work remains active. Do not confuse documented engineering blockers with completed games.
+
+October 13 distribution regression: 625 runtime/support/source files checked across Tennis, Craft, OpenDuelyst, Roboden and 2048. Initial deployment matched 620; five newline-only mismatches in Tennis/Craft were restored to exact manifest hashes. Protected both distribution directories with -text attributes; rebuilt and deployed commit a21e414 to https://f53aa0f6.decompgames.pages.dev. Five repaired files rechecked and pass, yielding 625 matching records across initial/repair checks (not a fresh full rerun on repair deployment). No game logic changes or new gameplay/audio tests. Evidence: intake-release-regression-2026-10-13.json.
