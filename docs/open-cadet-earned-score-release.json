@@ -1,0 +1,62 @@
+{
+  "deployment": "https://bd3554d7.decompgames.pages.dev",
+  "commit": "40977d0",
+  "scope": "Open Cadet verification metadata only; unchanged authored native runtime tested live before publication",
+  "checks": [
+    {
+      "id": "open-cadet",
+      "status": 200,
+      "scopePresent": true,
+      "limitsPresent": true,
+      "oldScopeAbsent": true
+    },
+    {
+      "id": "mario-party-2",
+      "status": 200
+    },
+    {
+      "id": "mario-party-3",
+      "status": 200
+    },
+    {
+      "id": "halo-combat-evolved",
+      "status": 200
+    },
+    {
+      "id": "craft",
+      "status": 200
+    },
+    {
+      "id": "tennis-sdl",
+      "status": 200
+    },
+    {
+      "id": "roboden-replacement",
+      "status": 200
+    },
+    {
+      "id": "openduelyst",
+      "status": 200
+    },
+    {
+      "id": "2048",
+      "status": 200
+    },
+    {
+      "id": "zzt-demo",
+      "status": 200
+    }
+  ],
+  "mainDomain": {
+    "status": 200,
+    "scopePresent": true,
+    "limitsPresent": true,
+    "oldScopeAbsent": true
+  },
+  "catalogEntries": 83,
+  "validation": "check 0 errors / 0 warnings / 2 existing hints; build 147 pages / 109 indexable and 648 distribution records across 7 audited entries",
+  "noRuntimeChanges": true,
+  "playersClosed": true,
+  "noNewBrowserTestsAfterPublication": true,
+  "pass": true
+}

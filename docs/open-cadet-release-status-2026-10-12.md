@@ -11,3 +11,5 @@ Limits: all objectives/full playthrough and audible audio remain unverified; no 
 Current runtime revision: `0bc12d3ca97a-authored-c51f8473a6`. Production source archive SHA256: `33d4502ff6f3d8023b0248b9fff68c2a1f709a12cee9584625618be658f04a42`.
 
 All tests muted and closed. [Detailed verification](open-cadet-verification-2026-10-12.md), [production hashes](open-cadet-production-release.json).
+
+Open Cadet live earned-score scope published from main40977d0 at https://bd3554d7.decompgames.pages.dev. Deployment and main-domain page show normal144000 score/ordinary confirmation, full browser restart with byte-identical settings and visible saved-score table; missions/full playthrough/rapid-close/audible audio limits remain. Ten preserved routes including Mario Party2/3 and Halo return200. Check0errors/0warnings/2existinghints; build147pages/109indexable/648distribution records across7audited entries pass. Runtime/source unchanged; no new browser test after metadata publication, muted players closed. [Publication evidence](open-cadet-earned-score-release.json). Catalog83; Claude games untouched.
