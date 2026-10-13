@@ -1,5 +1,9 @@
 # New decompilation/port lead triage
 
+## Cave Story Engine 2: pending initial lead resolved
+
+Reviewed gameblabla/CSE2 at `f957b05ad29dd19e30c53c99fb312f444d769149`, a surviving portable fork. [Pinned README licensing](https://github.com/gameblabla/CSE2/blob/f957b05ad29dd19e30c53c99fb312f444d769149/README.md#licensing) explicitly says most code is proprietary and belongs to Daisuke Amaya; MIT applies to modifications/custom code. Therefore independently replacing all game assets would still not satisfy this intake's whole-game permissive-code gate. This is an actual decompilation, not an independently implemented engine merely sharing its name. Browser feasibility is a separate unverified gate; native platform support does not establish WebAssembly gameplay. No game media or executable downloaded, no integration attempted and no clean-room claim. This closes the unresolved CSE2 item from the original shortlist; do not promote it using the MIT modification notice.
+
 ## October 13 follow-up: two actual decompilation leads
 
 - **Betrayal at Krondor**, canassa/betrayal-at-krondor, HEAD `1fc2a69e306af1623cd22f3390a5569302059f4d`: reconstructed DOS source with upstream-reported matching binaries. [README licence section](https://github.com/canassa/betrayal-at-krondor#license--legal-status) explicitly reserves third-party game code/data/assets; MIT covers original project work. The browser viewer is an asset inspection tool requiring supplied game files, not browser gameplay. [Build documentation](https://github.com/canassa/betrayal-at-krondor/blob/master/docs/BUILDING.md) targets DOS using three Borland compiler versions, TASM and QEMU. Blockers: permission for reconstructed game code, complete independent content, native browser platform adaptation and separate toolchain/dependency audit. No original files or packaged proprietary toolchain downloaded; no build/gameplay certification.
