@@ -1,5 +1,8 @@
 # Intake status â€” 2026-10-12
 
+October 13 follow-up: catalog remains 82 entries. Audits contradicted blanket clean-room/all-assets-generated claims for GoldenEye, Mario Kart 64, Banjo-Kazooie and Donkey Kong 64. Metadata now discloses retained game content and emulator execution; these entries are on the classic shelf, with DK64 classified as Emulation. External entries and historical gameplay records remain; none counts as a new audited permissive, ROM-free release. See [GoldenEye audit](goldeneye-catalog-audit-2026-10-13.md), [N64 follow-up](n64-catalog-provenance-audit-2026-10-13.md) and [native-port blockers](new-decomp-leads-2026-10-12.md). Metadata corrections are pushed to main but not deployed. No upstream build or Mario Party 2/3 changes.
+
+
 Published and verified within stated scope: Tennis SDL (CC0 game, permissive framework), Craft (MIT, authored CC0 graphics), OpenDuelyst local Sandbox (CC0 first-party media/code, separately licensed dependencies), Roboden Geometric Edition (MIT, authored CC0 pack/MIT font), 2048 (MIT code/CSS/text, system fonts). Catalogue has 82 entries. Per-entry manifests, licences and production tests are committed; no entire-distribution CC0 claim. Experimental complete:false where broader gameplay is unverified.
 
 Remaining reviewed candidates and actionable blockers:
