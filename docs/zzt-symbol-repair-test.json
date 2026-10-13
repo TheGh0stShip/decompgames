@@ -15,6 +15,7 @@
   "sourceArchiveSha256": "3d9c8f973e4a49ebea9190ab0ba87727a2e7b07e856c316d786d67b1d0a8c79e",
   "sourceArchiveBytes": 111357,
   "sourceFiles": 68,
-  "production": "pending",
-  "limits": "Same installed toolchain WASM/data reproduced; generatedJS path-dependent. Remaining unassigned glyphs/full demo traversal/audio unverified."
+  "production": "https://39fa0396.decompgames.pages.dev",
+  "limits": "Same installed toolchain WASM/data reproduced; generatedJS path-dependent. Remaining unassigned glyphs/full demo traversal/audio unverified.",
+  "productionEvidence": "zzt-symbol-production-release.json"
 }

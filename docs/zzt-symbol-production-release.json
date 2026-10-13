@@ -1,0 +1,150 @@
+{
+  "deployment": "https://39fa0396.decompgames.pages.dev",
+  "commit": "ac79120",
+  "results": [
+    {
+      "path": "asset-provenance.json",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "notices/authored-content-CC0.txt",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "notices/compiler-rt-LICENSE.TXT",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "notices/dlmalloc-attribution-evidence.txt",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "notices/Emscripten.txt",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "notices/libcxx-LICENSE.TXT",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "notices/libcxxabi-LICENSE.TXT",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "notices/libunwind-LICENSE.TXT",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "notices/musl-COPYRIGHT.txt",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "notices/OpenZoo-MIT.txt",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "notices/SDL2-zlib.txt",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "notices/ZZT-reconstruction-MIT.txt",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "openzoo.data",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "openzoo.js",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "openzoo.wasm",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "player.html",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "save-validator.js",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "symbol-roles.json",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "/sources/zzt-demo-442ff28-symbol8bc5ff-source.tar.gz",
+      "status": 206,
+      "pass": true
+    }
+  ],
+  "headers": {
+    "coop": "same-origin",
+    "coep": "require-corp"
+  },
+  "preserved": [
+    {
+      "id": "mario-party-2",
+      "status": 200
+    },
+    {
+      "id": "mario-party-3",
+      "status": 200
+    },
+    {
+      "id": "halo-combat-evolved",
+      "status": 200
+    },
+    {
+      "id": "open-cadet",
+      "status": 200
+    },
+    {
+      "id": "2048",
+      "status": 200
+    }
+  ],
+  "mainDomain": [
+    {
+      "path": "openzoo.data",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "symbol-roles.json",
+      "status": 200,
+      "pass": true
+    }
+  ],
+  "browser": {
+    "scope": "Muted Edge normal keyboard movement/S-save/exact26,465byte reload/R-menu restore; inspected live screenshot shows authored direction/item/punctuation glyphs",
+    "saveBytes": 26465,
+    "persisted": true,
+    "errors": [],
+    "missing": [],
+    "external": [],
+    "playersClosed": true,
+    "audio": "Device omitted; browser muted; audible audio unverified",
+    "limitations": "Remaining unassigned symbols/full demo traversal unverified"
+  }
+}
