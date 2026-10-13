@@ -7,9 +7,9 @@
   "packageRevision": "cinder-browser-edition-v1",
   "toolchain": "Emscripten6.0.10, pin d6c521a7f05449857c76bd99e396895583cf2083",
   "recipe": "Source-only230-input ZIP; Python build-candidate.py,96native+4own objects,185ownCC0 resources in11SPECarchives, strict link; full separate notices",
-  "sourceArchive": "/sources/cinder-abuse-01cce80-browser-56e0d70f-source.zip",
-  "sourceArchiveSha256": "56e0d70f9207e724b3a2b42090c7048b85167c9a86343ff9743e73b6fff072a0",
-  "sourceArchiveBytes": 453719,
+  "sourceArchive": "/sources/cinder-abuse-01cce80-browser-8e338b08-source.zip",
+  "sourceArchiveSha256": "8e338b0824d603e6556d55c772456e9b32eba0a80fed2af9ab98025424bcbb5b",
+  "sourceArchiveBytes": 453918,
   "requirements": [
     "No ROM or original game data",
     "Keyboard and mouse for native brightness/Start menu; offline silent edition",
@@ -18,8 +18,8 @@
   "files": [
     {
       "path": "asset-provenance.json",
-      "bytes": 80625,
-      "sha256": "323842c447b14e3529ea176353c168e47e465db5afbfb147066cec8eaafeeb5c"
+      "bytes": 80742,
+      "sha256": "d1608684ad572669a42c397d358df0888fa632467ca270875c3b2ad69c9047b7"
     },
     {
       "path": "AUTHORED-ADAPTER-LICENSE.txt",
@@ -78,8 +78,8 @@
     },
     {
       "path": "player.html",
-      "bytes": 3245,
-      "sha256": "e563b456ec1b1442365ec8f217fa4d7a5f838bbcc8838d2a2b8f81a351a5f753"
+      "bytes": 3492,
+      "sha256": "62f84512c13767c2544d71469fa6df6e3abcfe95c6f4cde7b1076b8679563e39"
     },
     {
       "path": "selected-native-inputs.json",

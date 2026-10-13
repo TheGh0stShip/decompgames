@@ -1774,6 +1774,7 @@
   ],
   "additionalDistributionContent": {
     "nativeCanvasScreenshot": "CC0-1.0; captured from independently authored content; no original game graphics",
-    "hostAndBuildDocumentation": "Independently authored MIT; browser system font terms separate"
+    "hostAndBuildDocumentation": "Independently authored MIT; browser system font terms separate",
+    "inlineBrowserIcon": "CC0-1.0; independently authored geometric SVG in browser host, no external icon request"
   }
 }
