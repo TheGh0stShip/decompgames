@@ -1,0 +1,63 @@
+{
+  "deployment": "https://b5c331ef.decompgames.pages.dev",
+  "commit": "cb76df1",
+  "catalogEntries": 83,
+  "scope": "Metadata-only production HTTP/text checks; no new gameplay/audio test; runtime artifacts unchanged",
+  "results": [
+    {
+      "id": "tennis-sdl",
+      "status": 200,
+      "scopePresent": true,
+      "stalePending": false
+    },
+    {
+      "id": "craft",
+      "status": 200,
+      "scopePresent": true,
+      "stalePending": false,
+      "kindPresent": true
+    },
+    {
+      "id": "openduelyst",
+      "status": 200,
+      "scopePresent": true,
+      "stalePending": false
+    },
+    {
+      "id": "zzt-demo",
+      "status": 200,
+      "scopePresent": true,
+      "stalePending": false
+    }
+  ],
+  "preserved": [
+    {
+      "id": "mario-party-2",
+      "status": 200
+    },
+    {
+      "id": "mario-party-3",
+      "status": 200
+    },
+    {
+      "id": "halo-combat-evolved",
+      "status": 200
+    },
+    {
+      "id": "open-cadet",
+      "status": 200
+    },
+    {
+      "id": "roboden-replacement",
+      "status": 200
+    },
+    {
+      "id": "2048",
+      "status": 200
+    }
+  ],
+  "productionDomain": {
+    "status": 200,
+    "scopePresent": true
+  }
+}
