@@ -1,0 +1,333 @@
+{
+  "date": "2026-10-13",
+  "scope": "Selected pinned source/build/license text only, decoded UTF-8 hashes; no media or executables; not complete dependency or rights clearance",
+  "groups": [
+    {
+      "repo": "dethrace-labs/dethrace",
+      "commit": "f166190807106518edca65d389752535e8cab175",
+      "stars": 1216,
+      "records": [
+        {
+          "path": "LICENSE",
+          "url": "https://raw.githubusercontent.com/dethrace-labs/dethrace/f166190807106518edca65d389752535e8cab175/LICENSE",
+          "bytes": 35149,
+          "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
+        },
+        {
+          "path": "README.md",
+          "url": "https://raw.githubusercontent.com/dethrace-labs/dethrace/f166190807106518edca65d389752535e8cab175/README.md",
+          "bytes": 4747,
+          "sha256": "b349479f5e4b60edb89a04bda3709c06c4383a228210aaef2888b09b32f8a8d0"
+        },
+        {
+          "path": ".gitmodules",
+          "url": "https://raw.githubusercontent.com/dethrace-labs/dethrace/f166190807106518edca65d389752535e8cab175/.gitmodules",
+          "bytes": 119,
+          "sha256": "18f4ba74bff9adc3529b78f035a1f05ed2dae3bf6dddc719e8f1ac9beae49ee2"
+        },
+        {
+          "path": "CMakeLists.txt",
+          "url": "https://raw.githubusercontent.com/dethrace-labs/dethrace/f166190807106518edca65d389752535e8cab175/CMakeLists.txt",
+          "bytes": 5246,
+          "sha256": "d98c3aaccbb8a0cbfb0f89125dbff724124e7e66c6fb7e3d20c38683a9539ba5"
+        },
+        {
+          "path": "src/DETHRACE/CMakeLists.txt",
+          "url": "https://raw.githubusercontent.com/dethrace-labs/dethrace/f166190807106518edca65d389752535e8cab175/src/DETHRACE/CMakeLists.txt",
+          "bytes": 10487,
+          "sha256": "9efc7ae8d62333c426392553f25be3fd8f7fcc413ae1480edf3303e0c4ec82d5"
+        },
+        {
+          "path": "src/harness/CMakeLists.txt",
+          "url": "https://raw.githubusercontent.com/dethrace-labs/dethrace/f166190807106518edca65d389752535e8cab175/src/harness/CMakeLists.txt",
+          "bytes": 4393,
+          "sha256": "96e27c609e81aea315876c8f0f92cee58f9c6e1c512f1eb2b0a4d4f9da2f18f0"
+        },
+        {
+          "path": "src/S3/CMakeLists.txt",
+          "url": "https://raw.githubusercontent.com/dethrace-labs/dethrace/f166190807106518edca65d389752535e8cab175/src/S3/CMakeLists.txt",
+          "bytes": 921,
+          "sha256": "47cf568fc6cd73dc0743eb07d3d3b1593d35a613ab37f13c1feeaf5edddc9cf4"
+        },
+        {
+          "path": "lib/libsmacker/CMakeLists.txt",
+          "url": "https://raw.githubusercontent.com/dethrace-labs/dethrace/f166190807106518edca65d389752535e8cab175/lib/libsmacker/CMakeLists.txt",
+          "bytes": 719,
+          "sha256": "aa9da0736d8f7b86277046f9a81ef98a0136597325d34e90b0d48a7ae81535d8"
+        },
+        {
+          "path": "lib/libsmacker/README",
+          "url": "https://raw.githubusercontent.com/dethrace-labs/dethrace/f166190807106518edca65d389752535e8cab175/lib/libsmacker/README",
+          "bytes": 1600,
+          "sha256": "a35db9359eeadb10a1c9d90ca3ed665dc2eb94dd38f7eaba23dc57250f783460"
+        },
+        {
+          "path": "lib/miniaudio/LICENSE",
+          "url": "https://raw.githubusercontent.com/dethrace-labs/dethrace/f166190807106518edca65d389752535e8cab175/lib/miniaudio/LICENSE",
+          "bytes": 2597,
+          "sha256": "d869218df386b7d112f64bfc16dfe9a28ad0d9afd183cbc5f8888c824f14ca6f"
+        },
+        {
+          "path": "lib/inih/LICENSE.TXT",
+          "url": "https://raw.githubusercontent.com/dethrace-labs/dethrace/f166190807106518edca65d389752535e8cab175/lib/inih/LICENSE.TXT",
+          "bytes": 1580,
+          "sha256": "18bab576392b5d6a4a7a3f0ab7821f720f59970af63473aeb50049fe24ccf5d4"
+        },
+        {
+          "path": "lib/stb/README.md",
+          "url": "https://raw.githubusercontent.com/dethrace-labs/dethrace/f166190807106518edca65d389752535e8cab175/lib/stb/README.md",
+          "bytes": 9310,
+          "sha256": "801bb844f43925855581c06670c14f840da5d64549f08af031e9b0b66ad7b0cc"
+        },
+        {
+          "path": "src/smackw32/README.md",
+          "url": "https://raw.githubusercontent.com/dethrace-labs/dethrace/f166190807106518edca65d389752535e8cab175/src/smackw32/README.md",
+          "bytes": 302,
+          "sha256": "d18db1110b6df6bfa7c4c3a036dcc65fca3196b0c8857674dd27672ccc7242de"
+        },
+        {
+          "path": "docs/TROUBLESHOOTING.md",
+          "url": "https://raw.githubusercontent.com/dethrace-labs/dethrace/f166190807106518edca65d389752535e8cab175/docs/TROUBLESHOOTING.md",
+          "bytes": 2433,
+          "sha256": "567c2eafb8dd18bff810521e7f21002f1fe639c2c0d722c0766aab67eb6e9852"
+        }
+      ],
+      "treeTruncated": false,
+      "modules": [
+        {
+          "path": "lib/BRender-v1.3.2",
+          "mode": "160000",
+          "type": "commit",
+          "sha": "4e49167c863ecdede43b235b4458440109dd8471"
+        }
+      ]
+    },
+    {
+      "repo": "krystalgamer/spidey-decomp",
+      "commit": "f8a039248908e085f8fba8106769aea7f8f9de67",
+      "stars": 136,
+      "records": [
+        {
+          "path": "README.md",
+          "url": "https://raw.githubusercontent.com/krystalgamer/spidey-decomp/f8a039248908e085f8fba8106769aea7f8f9de67/README.md",
+          "bytes": 59,
+          "sha256": "1c9c66b9669015ebf42a81109cc5090e77d64fdbd7f2fa227e744785257ac9b7"
+        },
+        {
+          "path": "CMakeLists.txt",
+          "url": "https://raw.githubusercontent.com/krystalgamer/spidey-decomp/f8a039248908e085f8fba8106769aea7f8f9de67/CMakeLists.txt",
+          "bytes": 1288,
+          "sha256": "f4725e54739b1c4bb47f05f6b7f9f0e06537c405f9047f963e553faf887d4a57"
+        },
+        {
+          "path": "tools/README.md",
+          "url": "https://raw.githubusercontent.com/krystalgamer/spidey-decomp/f8a039248908e085f8fba8106769aea7f8f9de67/tools/README.md",
+          "bytes": 1027,
+          "sha256": "81a4bdb49470324445a031d0175fd066e61ad7132137d7096f5b2aecf6b0faed"
+        },
+        {
+          "path": "DXsound.cpp",
+          "url": "https://raw.githubusercontent.com/krystalgamer/spidey-decomp/f8a039248908e085f8fba8106769aea7f8f9de67/DXsound.cpp",
+          "bytes": 29507,
+          "sha256": "3c32248d69ae7eb8fca212ca29f3a08baf1a942bf8ffbf63c89698b14d43c97b"
+        },
+        {
+          "path": "PCMovie.cpp",
+          "url": "https://raw.githubusercontent.com/krystalgamer/spidey-decomp/f8a039248908e085f8fba8106769aea7f8f9de67/PCMovie.cpp",
+          "bytes": 8467,
+          "sha256": "c8b571af7433e05cb83c6724a6eb67b9df0c4898370c8c409478150a047b269c"
+        },
+        {
+          "path": "PCShell.cpp",
+          "url": "https://raw.githubusercontent.com/krystalgamer/spidey-decomp/f8a039248908e085f8fba8106769aea7f8f9de67/PCShell.cpp",
+          "bytes": 5956,
+          "sha256": "237370766284ebf2e97366c9b13542fa71efce3e853619bebd0b747434a0acc8"
+        },
+        {
+          "path": "build.bat",
+          "url": "https://raw.githubusercontent.com/krystalgamer/spidey-decomp/f8a039248908e085f8fba8106769aea7f8f9de67/build.bat",
+          "bytes": 256,
+          "sha256": "4ea4d6cb579ea5094a89e0ddbae761efbc068097c2418c8ed8693e96d3b3461e"
+        },
+        {
+          "path": "my_bink.cpp",
+          "url": "https://raw.githubusercontent.com/krystalgamer/spidey-decomp/f8a039248908e085f8fba8106769aea7f8f9de67/my_bink.cpp",
+          "bytes": 2825,
+          "sha256": "fcf19f55235a91a4e43973393a6328f54c04dcebc661e6880561ecca7751e9a1"
+        },
+        {
+          "path": "pkr.cpp",
+          "url": "https://raw.githubusercontent.com/krystalgamer/spidey-decomp/f8a039248908e085f8fba8106769aea7f8f9de67/pkr.cpp",
+          "bytes": 14014,
+          "sha256": "274b66ddfd4b757824c5e4fcb1c3b56eff9f6292bde051e9f89b8cebebce1562"
+        }
+      ],
+      "treeTruncated": false,
+      "modules": []
+    },
+    {
+      "repo": "Xeeynamo/croc",
+      "commit": "f30ff1ee6721a172e270adcecab72b5b8a5e9bb1",
+      "stars": 38,
+      "records": [
+        {
+          "path": "README.md",
+          "url": "https://raw.githubusercontent.com/Xeeynamo/croc/f30ff1ee6721a172e270adcecab72b5b8a5e9bb1/README.md",
+          "bytes": 3586,
+          "sha256": "739acb305628cb3d5675c89fae2faef658d5010be50880ff7945d6b3f7cf6506"
+        },
+        {
+          "path": "Makefile",
+          "url": "https://raw.githubusercontent.com/Xeeynamo/croc/f30ff1ee6721a172e270adcecab72b5b8a5e9bb1/Makefile",
+          "bytes": 5308,
+          "sha256": "9863a5a390d40ece63823c10fc63f2095f77b06ef03308837bf44691ec88e719"
+        },
+        {
+          "path": ".gitmodules",
+          "url": "https://raw.githubusercontent.com/Xeeynamo/croc/f30ff1ee6721a172e270adcecab72b5b8a5e9bb1/.gitmodules",
+          "bytes": 377,
+          "sha256": "aaad864445bb6b53c12b726ff1a7fa39477ff80be1c49182524da609d0e49ad6"
+        },
+        {
+          "path": "disks/README",
+          "url": "https://raw.githubusercontent.com/Xeeynamo/croc/f30ff1ee6721a172e270adcecab72b5b8a5e9bb1/disks/README",
+          "bytes": 496,
+          "sha256": "c8591df4fa3f4e3eedb7f58f99abd574acda582a93bea7514287f691d373cb46"
+        },
+        {
+          "path": "diff_settings.py",
+          "url": "https://raw.githubusercontent.com/Xeeynamo/croc/f30ff1ee6721a172e270adcecab72b5b8a5e9bb1/diff_settings.py",
+          "bytes": 828,
+          "sha256": "1ccabb0ddc7eca68c5af768f5ff7d244c88936ec083eae4f87002ad491060a11"
+        },
+        {
+          "path": "src/croc/3038.c",
+          "url": "https://raw.githubusercontent.com/Xeeynamo/croc/f30ff1ee6721a172e270adcecab72b5b8a5e9bb1/src/croc/3038.c",
+          "bytes": 68919,
+          "sha256": "b508d25709ab7b27a5170a59928db77cc3fceeb312a40e5d30189986828da182"
+        },
+        {
+          "path": "include/psyq/libgpu.h",
+          "url": "https://raw.githubusercontent.com/Xeeynamo/croc/f30ff1ee6721a172e270adcecab72b5b8a5e9bb1/include/psyq/libgpu.h",
+          "bytes": 24011,
+          "sha256": "1528e13d8145ec40ea001123f6f9d1882a4b6b1b65721f11cbce42d3d33ee439"
+        },
+        {
+          "path": "config/splat.sled00038.croc.yml",
+          "url": "https://raw.githubusercontent.com/Xeeynamo/croc/f30ff1ee6721a172e270adcecab72b5b8a5e9bb1/config/splat.sled00038.croc.yml",
+          "bytes": 885,
+          "sha256": "a328c33c5d70385a9ff9cc1fab9ec442a7bc74a8365c4120341911144e6f5d87"
+        }
+      ],
+      "treeTruncated": false,
+      "modules": [
+        {
+          "path": "tools/asm-differ",
+          "mode": "160000",
+          "type": "commit",
+          "sha": "af8fa2387139365a6c4c19f9d27c680eaaafb1ec"
+        },
+        {
+          "path": "tools/m2c",
+          "mode": "160000",
+          "type": "commit",
+          "sha": "1c7b040b356d06b5171add65d8ee527a500b156e"
+        },
+        {
+          "path": "tools/maspsx",
+          "mode": "160000",
+          "type": "commit",
+          "sha": "ee12e55be33f33026c8f94d23d80ae1f9dd59dc8"
+        },
+        {
+          "path": "tools/splat",
+          "mode": "160000",
+          "type": "commit",
+          "sha": "a27dc436a68f19ae724657c501340ad14fcaeb06"
+        }
+      ]
+    },
+    {
+      "repo": "Carter54git/dethrace-ported-to-web",
+      "commit": "02073a0d8b702c8fe96bb09aaf951e3983d7f6dd",
+      "stars": 36,
+      "records": [
+        {
+          "path": "LICENSE",
+          "url": "https://raw.githubusercontent.com/Carter54git/dethrace-ported-to-web/02073a0d8b702c8fe96bb09aaf951e3983d7f6dd/LICENSE",
+          "bytes": 487,
+          "sha256": "1438afe207169e6835fb0ea1ee19446c26e780d9f0bea105164ffb9c63d37a2f"
+        },
+        {
+          "path": "NOTICE.md",
+          "url": "https://raw.githubusercontent.com/Carter54git/dethrace-ported-to-web/02073a0d8b702c8fe96bb09aaf951e3983d7f6dd/NOTICE.md",
+          "bytes": 823,
+          "sha256": "df4762cb6b717a2a31884014b0b36e630321bfc76203807dccb577a43a3391fe"
+        },
+        {
+          "path": "README.md",
+          "url": "https://raw.githubusercontent.com/Carter54git/dethrace-ported-to-web/02073a0d8b702c8fe96bb09aaf951e3983d7f6dd/README.md",
+          "bytes": 7533,
+          "sha256": "779da299c801feec88c227c1483f73e6ae50b857e5073aa394224f3b69151d85"
+        },
+        {
+          "path": "dethrace-0.10.1/LICENSE",
+          "url": "https://raw.githubusercontent.com/Carter54git/dethrace-ported-to-web/02073a0d8b702c8fe96bb09aaf951e3983d7f6dd/dethrace-0.10.1/LICENSE",
+          "bytes": 35149,
+          "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
+        },
+        {
+          "path": "dethrace-0.10.1/CMakeLists.txt",
+          "url": "https://raw.githubusercontent.com/Carter54git/dethrace-ported-to-web/02073a0d8b702c8fe96bb09aaf951e3983d7f6dd/dethrace-0.10.1/CMakeLists.txt",
+          "bytes": 6809,
+          "sha256": "865d4e4849b585c5c95a3c2bb1b414ccad95980f9bc8ed6b768a68f71cd74eec"
+        },
+        {
+          "path": "scripts/build-emscripten.sh",
+          "url": "https://raw.githubusercontent.com/Carter54git/dethrace-ported-to-web/02073a0d8b702c8fe96bb09aaf951e3983d7f6dd/scripts/build-emscripten.sh",
+          "bytes": 1070,
+          "sha256": "789e2e58e91acaf96569aa9a28f55c4304a9ffd024c4255b804726dc87c41cdf"
+        },
+        {
+          "path": "scripts/build-emscripten.ps1",
+          "url": "https://raw.githubusercontent.com/Carter54git/dethrace-ported-to-web/02073a0d8b702c8fe96bb09aaf951e3983d7f6dd/scripts/build-emscripten.ps1",
+          "bytes": 1857,
+          "sha256": "25010110b7c279d911ae1e933f49dec33878b7291fa81c3329601f3a4c4fadd7"
+        },
+        {
+          "path": "cmake/Emscripten.cmake",
+          "url": "https://raw.githubusercontent.com/Carter54git/dethrace-ported-to-web/02073a0d8b702c8fe96bb09aaf951e3983d7f6dd/cmake/Emscripten.cmake",
+          "bytes": 643,
+          "sha256": "de527c66eaaec3250d7a3efc09592b6ac659b49de2a55078ef3d62381dc285a1"
+        }
+      ],
+      "treeTruncated": false,
+      "modules": []
+    }
+  ],
+  "missingWebSource": {
+    "repo": "Carter54git/dethrace-ported-to-web",
+    "treeTruncated": false,
+    "referencedDirectoriesAbsent": [
+      "dethrace-0.10.1/lib",
+      "dethrace-0.10.1/src"
+    ],
+    "attemptedSourceURLStatus": 404,
+    "scope": "Pinned tree has engine root build/license text but no referenced lib/src payload or gitlinks; README browser claims not an independently reproducible build proof"
+  },
+  "dependencies": [
+    {
+      "repo": "dethrace-labs/BRender-v1.3.2",
+      "commit": "4e49167c863ecdede43b235b4458440109dd8471",
+      "scope": "Pinned BRender root license only; full selected dependency closure not audited",
+      "records": [
+        {
+          "path": "LICENSE",
+          "url": "https://raw.githubusercontent.com/dethrace-labs/BRender-v1.3.2/4e49167c863ecdede43b235b4458440109dd8471/LICENSE",
+          "bytes": 1082,
+          "sha256": "f604769ea503e060b146607f1a8ebc1ce24daec3f75a2b1cbd9e2ab8ac3223fa"
+        }
+      ]
+    }
+  ]
+}
