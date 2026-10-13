@@ -4538,12 +4538,12 @@
     "platform": "PC",
     "verification": {
       "status": "gameplay-tested",
-      "date": "2026-10-12",
+      "date": "2026-10-13",
       "browsers": [
         "Edge (headless, muted)"
       ],
-      "scope": "Real keyboard merging/score, exact board save reload and restart verified with no errors, missing resources or external requests. No victory or loss claim.",
-      "playthrough": false
+      "scope": "Live muted Edge: two ordinary keyboard runs reached2048 victory (20,292/20,308 scores); exact winning-save reload and visible victory overlay, Keep going, later game-over, Try again resets board and retains best score. Automated solver reads game-created state to choose keys; no board/score/randomness edits. Touch and other browsers unverified; analytics beacon blocked.",
+      "playthrough": true
     }
   },
 {

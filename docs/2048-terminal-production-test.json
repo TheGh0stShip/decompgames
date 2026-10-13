@@ -1,0 +1,117 @@
+{
+  "scope": "Live production ordinary keyboard run to2048 victory; exact winning-save reload, Keep going, later loss and Try again/best-score retention. Automated solver reads game-created localStorage and chooses arrow keys; no board/score/randomness edits.",
+  "audio": "Edge --mute-audio; selected game has no audio implementation",
+  "attempts": [
+    {
+      "attempt": 1,
+      "moves": 961,
+      "won": true,
+      "score": 20308,
+      "maxTile": 2048,
+      "gameOverMessage": "You win!\n\nKeep going Try again"
+    }
+  ],
+  "errors": [],
+  "missing": [],
+  "blocked": [
+    "https://static.cloudflareinsights.com/beacon.min.js/v4bc70e2c01a94c73b74392e4234840661791215815920",
+    "https://static.cloudflareinsights.com/beacon.min.js/v4bc70e2c01a94c73b74392e4234840661791215815920"
+  ],
+  "victorySaveSha256": "5ac96a5b00afaf2750493e391872ff14e62823628941c30bd56f18945e485868",
+  "exactVictoryReload": true,
+  "victoryMessage": "You win!\n\nKeep going Try again",
+  "victoryOverlayOpacity": "1",
+  "keepGoingVerified": true,
+  "lossMoves": 125,
+  "lossMessage": "Game over!\n\nTry again",
+  "gameOverClass": true,
+  "lostStateCleared": true,
+  "bestAfterLoss": 22088,
+  "retryRestart": {
+    "score": 0,
+    "tiles": 2,
+    "won": false,
+    "over": false
+  },
+  "bestPreservedAfterRetry": true,
+  "playersClosed": true,
+  "screenshotsInspected": [
+    "victory-after-reload",
+    "game-over",
+    "retry"
+  ],
+  "runtimeHashes": {
+    "sourceRevision": "478b6ec346e3787f589e4af751378d06ded4cbbc",
+    "results": [
+      {
+        "path": "BUILD-NOTES.md",
+        "status": 200,
+        "pass": true
+      },
+      {
+        "path": "js/application.js",
+        "status": 200,
+        "pass": true
+      },
+      {
+        "path": "js/game_manager.js",
+        "status": 200,
+        "pass": true
+      },
+      {
+        "path": "js/grid.js",
+        "status": 200,
+        "pass": true
+      },
+      {
+        "path": "js/html_actuator.js",
+        "status": 200,
+        "pass": true
+      },
+      {
+        "path": "js/keyboard_input_manager.js",
+        "status": 200,
+        "pass": true
+      },
+      {
+        "path": "js/local_storage_manager.js",
+        "status": 200,
+        "pass": true
+      },
+      {
+        "path": "js/tile.js",
+        "status": 200,
+        "pass": true
+      },
+      {
+        "path": "LICENSE.txt",
+        "status": 200,
+        "pass": true
+      },
+      {
+        "path": "player.html",
+        "status": 200,
+        "pass": true
+      },
+      {
+        "path": "README.md",
+        "status": 200,
+        "pass": true
+      },
+      {
+        "path": "style/main.css",
+        "status": 200,
+        "pass": true
+      }
+    ]
+  },
+  "previousIndependentVictory": {
+    "attempt": 1,
+    "moves": 963,
+    "won": true,
+    "score": 20292,
+    "maxTile": 2048,
+    "gameOverMessage": "You win!\n\nKeep going Try again"
+  },
+  "limitations": "Touch, other browsers and longer beyond2048 progression unverified. Analytics beacon blocked; no game dependency blocked."
+}
