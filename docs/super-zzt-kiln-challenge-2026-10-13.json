@@ -1,0 +1,1798 @@
+{
+  "date": "2026-10-13",
+  "catalogEntries": 84,
+  "releaseStatus": "Private authored challenge verified; final release closure/integration pending",
+  "classification": "Reconstruction-derived native C++ source port/rewrite with independently authored original challenge; not a matching Pascal/DOS binary or emulator",
+  "cleanRoomCertificate": false,
+  "pins": {
+    "reconstruction": "012df7266760e6d5cc9f49cecc3a3ac093ea26b9",
+    "OpenZoo": "442ff28c423faa947793e8a69a99a0e98f52796d",
+    "emsdk": "d6c521a7f05449857c76bd99e396895583cf2083",
+    "Emscripten": "6.0.10",
+    "SDL2": "2.32.10"
+  },
+  "content": {
+    "contentComplete": true,
+    "scope": "Original four-board key, current, power-stone and relay challenge; not the retail campaign",
+    "worldDimensions": [
+      96,
+      80
+    ],
+    "boards": [
+      "Kiln title",
+      "Relay Hall",
+      "Current Gallery",
+      "Kiln complete"
+    ],
+    "retailInputFiles": [],
+    "content": [
+      {
+        "path": "KILN.SZT",
+        "bytes": 3078,
+        "sha256": "50cf37536395f9c520893e520643bca16d66fefd30f2c695188707adaf823a8f",
+        "license": "CC0-1.0",
+        "origin": "DecompGames independently authored generator"
+      },
+      {
+        "path": "ABOUT.HLP",
+        "bytes": 389,
+        "sha256": "dea6c1972be2a050846ddb969e57b217d603011c832aea12d8aa4bbdf2ef166f",
+        "license": "CC0-1.0",
+        "origin": "DecompGames independently authored generator"
+      },
+      {
+        "path": "ASCII.BMP",
+        "bytes": 86070,
+        "sha256": "52b4d8e5b1a4d6ecf1479847ba4399b27b4a6f7785fb3cef51347ca2e7592782",
+        "license": "CC0-1.0",
+        "origin": "Existing independently authored DecompGames glyph generator; no original PC font"
+      }
+    ],
+    "generatorLicense": "MIT",
+    "generatedContentLicense": "CC0-1.0",
+    "audioAssets": [],
+    "engineAudioPatterns": "Upstream MIT engine source; device disabled, no audible testing",
+    "completion": "Native KILN_DONE flag and total score 150 after touching F",
+    "testing": "Pending ordinary browser gameplay; content completion does not imply release acceptance"
+  },
+  "preloadedData": {
+    "files": [
+      {
+        "filename": "/ABOUT.HLP",
+        "start": 0,
+        "end": 389
+      },
+      {
+        "filename": "/ASCII.BMP",
+        "start": 389,
+        "end": 86459
+      },
+      {
+        "filename": "/KILN.SZT",
+        "start": 86459,
+        "end": 89537
+      }
+    ],
+    "remote_package_size": 89537
+  },
+  "nativeAudioDevice": 0,
+  "ordinaryGameplay": {
+    "scope": "Private four-board authored challenge: ordinary keyboard gameplay and native saves",
+    "muted": true,
+    "noGameMemorySaveOrRngMutation": true,
+    "checkpoints": [
+      {
+        "label": "door-blocked",
+        "bytes": 3103,
+        "sha256": "fcc7a6f3e78fd7ab25afd2de5e063d0d9013d435a4b9db3f5bb857e17c659288",
+        "state": {
+          "version": -2,
+          "currentBoard": 1,
+          "ammo": 0,
+          "gems": 0,
+          "health": 100,
+          "score": 0,
+          "stones": 0,
+          "flags": [],
+          "keys": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "boards": [
+            {
+              "name": "Kiln title",
+              "player": {
+                "x": 3,
+                "y": 10,
+                "codeLen": 0
+              },
+              "statCount": 1
+            },
+            {
+              "name": "Relay Hall",
+              "player": {
+                "x": 19,
+                "y": 10,
+                "codeLen": 0
+              },
+              "statCount": 3
+            },
+            {
+              "name": "Current Gallery",
+              "player": {
+                "x": 9,
+                "y": 10,
+                "codeLen": 0
+              },
+              "statCount": 5
+            },
+            {
+              "name": "Kiln complete",
+              "player": {
+                "x": 9,
+                "y": 10,
+                "codeLen": 0
+              },
+              "statCount": 3
+            }
+          ]
+        }
+      },
+      {
+        "label": "key-earned-1",
+        "bytes": 3100,
+        "sha256": "e6adcf0781ebbca1ecd47144d5ec26b1991b3312d0338a36bfe144b1a2acafa0",
+        "state": {
+          "version": -2,
+          "currentBoard": 1,
+          "ammo": 0,
+          "gems": 0,
+          "health": 100,
+          "score": 0,
+          "stones": 0,
+          "flags": [],
+          "keys": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+          ],
+          "boards": [
+            {
+              "name": "Kiln title",
+              "player": {
+                "x": 3,
+                "y": 10,
+                "codeLen": 0
+              },
+              "statCount": 1
+            },
+            {
+              "name": "Relay Hall",
+              "player": {
+                "x": 12,
+                "y": 14,
+                "codeLen": 0
+              },
+              "statCount": 3
+            },
+            {
+              "name": "Current Gallery",
+              "player": {
+                "x": 9,
+                "y": 10,
+                "codeLen": 0
+              },
+              "statCount": 5
+            },
+            {
+              "name": "Kiln complete",
+              "player": {
+                "x": 9,
+                "y": 10,
+                "codeLen": 0
+              },
+              "statCount": 3
+            }
+          ]
+        }
+      },
+      {
+        "label": "door-opened",
+        "bytes": 3097,
+        "sha256": "38550397e9fc6188935f797b89b9810a3fcd30b0d69b7268c5098f0e93938e3d",
+        "state": {
+          "version": -2,
+          "currentBoard": 1,
+          "ammo": 0,
+          "gems": 0,
+          "health": 100,
+          "score": 0,
+          "stones": 0,
+          "flags": [],
+          "keys": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "boards": [
+            {
+              "name": "Kiln title",
+              "player": {
+                "x": 3,
+                "y": 10,
+                "codeLen": 0
+              },
+              "statCount": 1
+            },
+            {
+              "name": "Relay Hall",
+              "player": {
+                "x": 27,
+                "y": 10,
+                "codeLen": 0
+              },
+              "statCount": 3
+            },
+            {
+              "name": "Current Gallery",
+              "player": {
+                "x": 9,
+                "y": 10,
+                "codeLen": 0
+              },
+              "statCount": 5
+            },
+            {
+              "name": "Kiln complete",
+              "player": {
+                "x": 9,
+                "y": 10,
+                "codeLen": 0
+              },
+              "statCount": 3
+            }
+          ]
+        }
+      },
+      {
+        "label": "gallery-entered",
+        "bytes": 3075,
+        "sha256": "7e3bf978563f8af4dda4280ff67030bb56c9686eed92a3c7868a21929707c8ee",
+        "state": {
+          "version": -2,
+          "currentBoard": 2,
+          "ammo": 0,
+          "gems": 0,
+          "health": 100,
+          "score": 0,
+          "stones": 0,
+          "flags": [],
+          "keys": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "boards": [
+            {
+              "name": "Kiln title",
+              "player": {
+                "x": 3,
+                "y": 10,
+                "codeLen": 0
+              },
+              "statCount": 1
+            },
+            {
+              "name": "Relay Hall",
+              "player": {
+                "x": 27,
+                "y": 10,
+                "codeLen": 0
+              },
+              "statCount": 2
+            },
+            {
+              "name": "Current Gallery",
+              "player": {
+                "x": 10,
+                "y": 10,
+                "codeLen": 0
+              },
+              "statCount": 5
+            },
+            {
+              "name": "Kiln complete",
+              "player": {
+                "x": 9,
+                "y": 10,
+                "codeLen": 0
+              },
+              "statCount": 3
+            }
+          ]
+        }
+      },
+      {
+        "label": "current-carried",
+        "bytes": 3072,
+        "sha256": "fdbfb8e64a1cae5960b2277ebdc18172e69db4e4c3dc7fd7297d14c216e72f14",
+        "state": {
+          "version": -2,
+          "currentBoard": 2,
+          "ammo": 0,
+          "gems": 0,
+          "health": 100,
+          "score": 0,
+          "stones": 0,
+          "flags": [],
+          "keys": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "boards": [
+            {
+              "name": "Kiln title",
+              "player": {
+                "x": 3,
+                "y": 10,
+                "codeLen": 0
+              },
+              "statCount": 1
+            },
+            {
+              "name": "Relay Hall",
+              "player": {
+                "x": 27,
+                "y": 10,
+                "codeLen": 0
+              },
+              "statCount": 2
+            },
+            {
+              "name": "Current Gallery",
+              "player": {
+                "x": 29,
+                "y": 10,
+                "codeLen": 0
+              },
+              "statCount": 5
+            },
+            {
+              "name": "Kiln complete",
+              "player": {
+                "x": 9,
+                "y": 10,
+                "codeLen": 0
+              },
+              "statCount": 3
+            }
+          ]
+        }
+      },
+      {
+        "label": "relay-blocked",
+        "bytes": 3097,
+        "sha256": "0026172e7e65ea7d7a0a9877b96bbed44c0a0353139d8453cf4a253cd35291e3",
+        "state": {
+          "version": -2,
+          "currentBoard": 2,
+          "ammo": 0,
+          "gems": 0,
+          "health": 100,
+          "score": 0,
+          "stones": 0,
+          "flags": [],
+          "keys": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "boards": [
+            {
+              "name": "Kiln title",
+              "player": {
+                "x": 3,
+                "y": 10,
+                "codeLen": 0
+              },
+              "statCount": 1
+            },
+            {
+              "name": "Relay Hall",
+              "player": {
+                "x": 27,
+                "y": 10,
+                "codeLen": 0
+              },
+              "statCount": 2
+            },
+            {
+              "name": "Current Gallery",
+              "player": {
+                "x": 64,
+                "y": 10,
+                "codeLen": 0
+              },
+              "statCount": 6
+            },
+            {
+              "name": "Kiln complete",
+              "player": {
+                "x": 9,
+                "y": 10,
+                "codeLen": 0
+              },
+              "statCount": 3
+            }
+          ]
+        }
+      },
+      {
+        "label": "stone-earned-1",
+        "bytes": 3069,
+        "sha256": "7da7c51b845f50163b34fa5b76c7848a01dbf3cd0bdde500d6014907d6c2851c",
+        "state": {
+          "version": -2,
+          "currentBoard": 2,
+          "ammo": 0,
+          "gems": 0,
+          "health": 100,
+          "score": 0,
+          "stones": 1,
+          "flags": [],
+          "keys": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "boards": [
+            {
+              "name": "Kiln title",
+              "player": {
+                "x": 3,
+                "y": 10,
+                "codeLen": 0
+              },
+              "statCount": 1
+            },
+            {
+              "name": "Relay Hall",
+              "player": {
+                "x": 27,
+                "y": 10,
+                "codeLen": 0
+              },
+              "statCount": 2
+            },
+            {
+              "name": "Current Gallery",
+              "player": {
+                "x": 40,
+                "y": 14,
+                "codeLen": 0
+              },
+              "statCount": 5
+            },
+            {
+              "name": "Kiln complete",
+              "player": {
+                "x": 9,
+                "y": 10,
+                "codeLen": 0
+              },
+              "statCount": 3
+            }
+          ]
+        }
+      },
+      {
+        "label": "stone-restored",
+        "bytes": 3069,
+        "sha256": "17d245c7165723c90aca989ee6f672d7ba5693ed85714f5d76711439415f1952",
+        "state": {
+          "version": -2,
+          "currentBoard": 2,
+          "ammo": 0,
+          "gems": 0,
+          "health": 100,
+          "score": 0,
+          "stones": 1,
+          "flags": [],
+          "keys": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "boards": [
+            {
+              "name": "Kiln title",
+              "player": {
+                "x": 3,
+                "y": 10,
+                "codeLen": 0
+              },
+              "statCount": 1
+            },
+            {
+              "name": "Relay Hall",
+              "player": {
+                "x": 27,
+                "y": 10,
+                "codeLen": 0
+              },
+              "statCount": 2
+            },
+            {
+              "name": "Current Gallery",
+              "player": {
+                "x": 40,
+                "y": 13,
+                "codeLen": 0
+              },
+              "statCount": 5
+            },
+            {
+              "name": "Kiln complete",
+              "player": {
+                "x": 9,
+                "y": 10,
+                "codeLen": 0
+              },
+              "statCount": 3
+            }
+          ]
+        }
+      },
+      {
+        "label": "relay-powered-5",
+        "bytes": 2925,
+        "sha256": "6833bd14b476ef8d2178fd2f2687d01d3988e630d820c2598a91f4b01d84cc86",
+        "state": {
+          "version": -2,
+          "currentBoard": 2,
+          "ammo": 0,
+          "gems": 0,
+          "health": 100,
+          "score": 50,
+          "stones": 0,
+          "flags": [
+            "KILN_POWER"
+          ],
+          "keys": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "boards": [
+            {
+              "name": "Kiln title",
+              "player": {
+                "x": 3,
+                "y": 10,
+                "codeLen": 0
+              },
+              "statCount": 1
+            },
+            {
+              "name": "Relay Hall",
+              "player": {
+                "x": 27,
+                "y": 10,
+                "codeLen": 0
+              },
+              "statCount": 2
+            },
+            {
+              "name": "Current Gallery",
+              "player": {
+                "x": 66,
+                "y": 10,
+                "codeLen": 0
+              },
+              "statCount": 4
+            },
+            {
+              "name": "Kiln complete",
+              "player": {
+                "x": 9,
+                "y": 10,
+                "codeLen": 0
+              },
+              "statCount": 3
+            }
+          ]
+        }
+      },
+      {
+        "label": "completed-2",
+        "bytes": 2783,
+        "sha256": "1402b22624bad942bf727f8f28a5eb13ca932e440fd6e8b6b9821d46ae03b8a7",
+        "state": {
+          "version": -2,
+          "currentBoard": 3,
+          "ammo": 0,
+          "gems": 0,
+          "health": 100,
+          "score": 150,
+          "stones": 0,
+          "flags": [
+            "KILN_POWER",
+            "KILN_DONE"
+          ],
+          "keys": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "boards": [
+            {
+              "name": "Kiln title",
+              "player": {
+                "x": 3,
+                "y": 10,
+                "codeLen": 0
+              },
+              "statCount": 1
+            },
+            {
+              "name": "Relay Hall",
+              "player": {
+                "x": 27,
+                "y": 10,
+                "codeLen": 0
+              },
+              "statCount": 2
+            },
+            {
+              "name": "Current Gallery",
+              "player": {
+                "x": 81,
+                "y": 10,
+                "codeLen": 0
+              },
+              "statCount": 4
+            },
+            {
+              "name": "Kiln complete",
+              "player": {
+                "x": 14,
+                "y": 10,
+                "codeLen": 0
+              },
+              "statCount": 3
+            }
+          ]
+        }
+      },
+      {
+        "label": "restarted",
+        "bytes": 3081,
+        "sha256": "be8bfb70e7a9df2e1876ba215b1126c821e30f173fee9d053b71b130f99f353f",
+        "state": {
+          "version": -2,
+          "currentBoard": 1,
+          "ammo": 0,
+          "gems": 0,
+          "health": 100,
+          "score": 0,
+          "stones": 0,
+          "flags": [],
+          "keys": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "boards": [
+            {
+              "name": "Kiln title",
+              "player": {
+                "x": 3,
+                "y": 10,
+                "codeLen": 0
+              },
+              "statCount": 1
+            },
+            {
+              "name": "Relay Hall",
+              "player": {
+                "x": 9,
+                "y": 10,
+                "codeLen": 0
+              },
+              "statCount": 2
+            },
+            {
+              "name": "Current Gallery",
+              "player": {
+                "x": 9,
+                "y": 10,
+                "codeLen": 0
+              },
+              "statCount": 5
+            },
+            {
+              "name": "Kiln complete",
+              "player": {
+                "x": 9,
+                "y": 10,
+                "codeLen": 0
+              },
+              "statCount": 3
+            }
+          ]
+        }
+      }
+    ],
+    "nativeCheckpointCount": 37,
+    "fullBrowserRestart": {
+      "bytesEqual": true,
+      "sha256": "7da7c51b845f50163b34fa5b76c7848a01dbf3cd0bdde500d6014907d6c2851c",
+      "bytes": 3069
+    },
+    "nativeRestoreConfirmed": true,
+    "errors": [],
+    "missing": [],
+    "external": [],
+    "passed": true,
+    "playersClosed": true
+  },
+  "fontFollowup": {
+    "change": "Independent east/west current triangles at 16/17, east triangle exercised; existing ZZT bitmap untouched",
+    "worldAndNativeWasmByteIdenticalToFullGameplayRun": true,
+    "scope": "Post-font-change ordinary key/door/current gameplay and rendered glyph check; completion/durable case belongs to prior unchanged native engine/world test",
+    "checkpoint": {
+      "label": "current-carried",
+      "bytes": 3072,
+      "sha256": "1792c908c519daa750a677458a5abb3ff3cec901b6abf43b68a7edcafb0c2b82",
+      "state": {
+        "version": -2,
+        "currentBoard": 2,
+        "ammo": 0,
+        "gems": 0,
+        "health": 100,
+        "score": 0,
+        "stones": 0,
+        "flags": [],
+        "keys": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "boards": [
+          {
+            "name": "Kiln title",
+            "player": {
+              "x": 3,
+              "y": 10,
+              "codeLen": 0
+            },
+            "statCount": 1
+          },
+          {
+            "name": "Relay Hall",
+            "player": {
+              "x": 27,
+              "y": 10,
+              "codeLen": 0
+            },
+            "statCount": 2
+          },
+          {
+            "name": "Current Gallery",
+            "player": {
+              "x": 29,
+              "y": 10,
+              "codeLen": 0
+            },
+            "statCount": 5
+          },
+          {
+            "name": "Kiln complete",
+            "player": {
+              "x": 9,
+              "y": 10,
+              "codeLen": 0
+            },
+            "statCount": 3
+          }
+        ]
+      }
+    },
+    "errors": [],
+    "missing": [],
+    "external": [],
+    "passed": true,
+    "playersClosed": true,
+    "fullGameplayAndFullRestartNotRepeatedAfterFontOnlyChange": true
+  },
+  "structuralValidator": {
+    "scope": "Four-board structural admission; synthetic unit rejection, not storage-error behavior or authenticity",
+    "acceptedNativeFiles": [
+      "completed-0.SAV",
+      "completed-1.SAV",
+      "completed-2.SAV",
+      "current-approach-0.SAV",
+      "current-approach-1.SAV",
+      "current-approach-2.SAV",
+      "current-carried.SAV",
+      "door-blocked.SAV",
+      "door-opened.SAV",
+      "finish-entered.SAV",
+      "gallery-entered.SAV",
+      "gallery-exit-0.SAV",
+      "gallery-exit-1.SAV",
+      "gallery-exit-2.SAV",
+      "key-branch-0.SAV",
+      "key-branch-1.SAV",
+      "key-earned-0.SAV",
+      "key-earned-1.SAV",
+      "relay-blocked.SAV",
+      "relay-powered-0.SAV",
+      "relay-powered-1.SAV",
+      "relay-powered-2.SAV",
+      "relay-powered-3.SAV",
+      "relay-powered-4.SAV",
+      "relay-powered-5.SAV",
+      "restarted.SAV",
+      "return-to-hall-0.SAV",
+      "return-to-hall-1.SAV",
+      "stone-branch-0.SAV",
+      "stone-branch-1.SAV",
+      "stone-branch-2.SAV",
+      "stone-branch-3.SAV",
+      "stone-earned-0.SAV",
+      "stone-earned-1.SAV",
+      "stone-restored.SAV",
+      "stone-return-0.SAV",
+      "stone-return-1.SAV"
+    ],
+    "rejectedCases": [
+      "null",
+      "non-integer",
+      "out-of-range",
+      "truncated-0",
+      "truncated-1",
+      "truncated-2",
+      "truncated-3",
+      "truncated-27",
+      "truncated-388",
+      "truncated-1023",
+      "truncated-1024",
+      "truncated-1056",
+      "truncated-3102",
+      "wrong-format",
+      "wrong-board-count",
+      "foreign-name",
+      "not-save",
+      "bad-current-board",
+      "bad-key",
+      "oversized-flag",
+      "foreign-board",
+      "zero-run",
+      "bad-element",
+      "run-overflow",
+      "bad-start",
+      "bad-neighbor",
+      "bad-stat-count",
+      "bad-coordinate",
+      "bad-pointer",
+      "bad-code-binding",
+      "bad-code-position",
+      "trailing-data",
+      "unplayed-world",
+      "earlier-two-board-pack"
+    ],
+    "passed": true
+  },
+  "independentBinaryCheck": {
+    "scope": "World and all 37 native checkpoint files: RLE 7680 cells per board, exact payload bounds, stat/script bounds and key/door/stone/relay/finish tile state",
+    "filesChecked": 38,
+    "passed": true
+  },
+  "runtimeFiles": [
+    {
+      "path": "build/index.html",
+      "bytes": 1046,
+      "sha256": "fe96c25ea55ae99ef5479d3c08333b1f332fec65661e70f6455fe2f8207ff8c6"
+    },
+    {
+      "path": "build/save-validator.js",
+      "bytes": 3522,
+      "sha256": "23c62d59bcf4934062a2bea97dadd1dccc728a71eb2bdcb06b2562379983c547"
+    },
+    {
+      "path": "build/save-storage.js",
+      "bytes": 1867,
+      "sha256": "c42a3e0e5978a14f7dd6b5b850c2b3101b60ca437d901702514b240d5c318411"
+    },
+    {
+      "path": "build/openzoo.js",
+      "bytes": 376226,
+      "sha256": "ad08ee361c17a2bc83d9330c885189afb271e436012a90bcf34c9fb5928849aa"
+    },
+    {
+      "path": "build/openzoo.wasm",
+      "bytes": 922006,
+      "sha256": "88a2e5c9ef1f86608d70907302bea167fd55ab555e78985648c7f1ba70fed9f0"
+    },
+    {
+      "path": "build/openzoo.data",
+      "bytes": 89537,
+      "sha256": "e05befa440e37cc7af2ab2f9263240f9cfb2fa4d133b15387c518180727603cf"
+    }
+  ],
+  "ownedInputs": [
+    {
+      "path": "author-world.py",
+      "bytes": 5305,
+      "sha256": "4210f93a6a87e7817ac4bd782a55ccd9902985e10a8d1b4f19b9dbe5eb967880"
+    },
+    {
+      "path": "authored/generate-font.py",
+      "bytes": 5356,
+      "sha256": "257099d53fdedfb3967cac43c21f77fc784ebed7b71fb59f994e3f7f625ce08a"
+    },
+    {
+      "path": "authored/symbol-roles.json",
+      "bytes": 544,
+      "sha256": "236f90cf1c25745b9212113ac4062ce555980ad4d6c693015ba4b730d8c0d6b5"
+    },
+    {
+      "path": "authored/provenance.json",
+      "bytes": 1472,
+      "sha256": "92dd9520ee3c5ddb8e3413d3eb7b417c2c2268b7684b4e4f434dbc9ca7fdf8c2"
+    },
+    {
+      "path": "player.html",
+      "bytes": 1046,
+      "sha256": "fe96c25ea55ae99ef5479d3c08333b1f332fec65661e70f6455fe2f8207ff8c6"
+    },
+    {
+      "path": "save-validator.js",
+      "bytes": 3522,
+      "sha256": "23c62d59bcf4934062a2bea97dadd1dccc728a71eb2bdcb06b2562379983c547"
+    },
+    {
+      "path": "save-storage.js",
+      "bytes": 1867,
+      "sha256": "c42a3e0e5978a14f7dd6b5b850c2b3101b60ca437d901702514b240d5c318411"
+    },
+    {
+      "path": "build.py",
+      "bytes": 1601,
+      "sha256": "89b8e7cc2d0788b439361ce71a6fbf2d7cf610aec17822ce3bf63d81a4879fa8"
+    }
+  ],
+  "selectedSourceTree": [
+    {
+      "path": "src/assets.cpp",
+      "bytes": 1586,
+      "sha256": "4bf799c21c9e6c2e2171d528db78ded82cf1265ec998df910e9d47e314626b36"
+    },
+    {
+      "path": "src/assets.h",
+      "bytes": 932,
+      "sha256": "fd8f17feabd5974d33d12c83b362ccdfb7c20a0be4294cafd1fd77272bc3564f"
+    },
+    {
+      "path": "src/audio_simulator.cpp",
+      "bytes": 7458,
+      "sha256": "72f6e8025f06345c7ef46773a5049003463a7a3fdd6b32f9dc8199f742e703a9"
+    },
+    {
+      "path": "src/audio_simulator.h",
+      "bytes": 1380,
+      "sha256": "d0b594746e8c62396639bef104ce4d99e17a7cdc1e1c9a4734a188ce5ab71db3"
+    },
+    {
+      "path": "src/audio_simulator_bandlimited.cpp",
+      "bytes": 2977,
+      "sha256": "659342d03feb8771b69485b84ad50c7991f3b3f9fcfe7f72331fc37db6b99cb7"
+    },
+    {
+      "path": "src/audio_simulator_bandlimited.h",
+      "bytes": 653,
+      "sha256": "4e9594aaf05b33b17e861ae536d1294e0c21194240f57f8ebae094664b6ef1cf"
+    },
+    {
+      "path": "src/driver.cpp",
+      "bytes": 10632,
+      "sha256": "fc42d61257066d7231cea9f14e56d4acdc5570faa835ea95bd20ff12c3623c9d"
+    },
+    {
+      "path": "src/driver.h",
+      "bytes": 6240,
+      "sha256": "0d4cf149a30bea4a2efa1529e1fad6c5a6aaf10d1fe18e9e5586cf9743ab2cdf"
+    },
+    {
+      "path": "src/driver_sdl2.cpp",
+      "bytes": 21062,
+      "sha256": "218a2ba951c5442d5d008a3151f1d01a15d2d705adbdb7b6312731f443e00d31"
+    },
+    {
+      "path": "src/driver_sdl2.h",
+      "bytes": 3085,
+      "sha256": "39f23c134839269baafe92f2bcc4ac1f88ee5b6de8ae3df43f83d25dfffa1827"
+    },
+    {
+      "path": "src/editor.cpp",
+      "bytes": 44643,
+      "sha256": "bdcf94f8e2a4c52281dfd5dde92e2d655a2b1a5f93372807f38ba6b2acfd6410"
+    },
+    {
+      "path": "src/editor.h",
+      "bytes": 2713,
+      "sha256": "dfc75ac8f13adc303fe5a1724efddce38469adf81f49c81a3e210e1ef8c39ec9"
+    },
+    {
+      "path": "src/elements.cpp",
+      "bytes": 90944,
+      "sha256": "4001866f9c5afa32e1051d258842a15ef34aa9c679d9165df8ec09386d218c6d"
+    },
+    {
+      "path": "src/file_selector.cpp",
+      "bytes": 3453,
+      "sha256": "ba5f2a8b46a32b549dbc50c5d157e08b215ccc2b38c4446bcc32ed0b05ace7aa"
+    },
+    {
+      "path": "src/file_selector.h",
+      "bytes": 575,
+      "sha256": "26d27ccac2a25354f551f29a88e5679a8c16b8e1afe2143eb9451ca4bffcb3f1"
+    },
+    {
+      "path": "src/filesystem.cpp",
+      "bytes": 4036,
+      "sha256": "3cfb486699a0b323ec8c24383b3798ea82d389d849a2c92bb944b04d65d99273"
+    },
+    {
+      "path": "src/filesystem.h",
+      "bytes": 2292,
+      "sha256": "ae04af9cdc023f7f73b1ca863ebce85057eb3fc331d7ded1616739008c506ca1"
+    },
+    {
+      "path": "src/filesystem_posix.cpp",
+      "bytes": 4867,
+      "sha256": "e4a2c86c72c6b5711abe6cbad0405b21490c23a44378c388286e179a0941048f"
+    },
+    {
+      "path": "src/filesystem_posix.h",
+      "bytes": 1001,
+      "sha256": "ae4918356548411d6995bc465741182432a59705e33b74e3b0b172d26ec3a7a2"
+    },
+    {
+      "path": "src/game.cpp",
+      "bytes": 57119,
+      "sha256": "1fb0688bce29d5b5745dd1bf9f4e9e46bb2429ec326d1e2123736d0816aaaf36"
+    },
+    {
+      "path": "src/gamevars.h",
+      "bytes": 30506,
+      "sha256": "a4f7c2ddfa04a442ffdac59cd19c84e5600dead095c36e396cdab899ce1e4651"
+    },
+    {
+      "path": "src/high_scores.cpp",
+      "bytes": 4193,
+      "sha256": "a5536a355a9a8b172fc64427c7f5a39c52dace816ebbbec75a05747660c7b605"
+    },
+    {
+      "path": "src/high_scores.h",
+      "bytes": 762,
+      "sha256": "1f8987a7d30d9e65fd43e31b783b4ce59a208dac6ce82cba884c2f670f479d2a"
+    },
+    {
+      "path": "src/oop.cpp",
+      "bytes": 29264,
+      "sha256": "40eee725f1ed8914f070aedc45bd05b49394813e854a36ba031da819beba90b3"
+    },
+    {
+      "path": "src/platform_hacks.h",
+      "bytes": 322,
+      "sha256": "33e69399e9649f10640e249d4b874ef54e3c941284c57491379f97aed92c66c7"
+    },
+    {
+      "path": "src/sounds.cpp",
+      "bytes": 5404,
+      "sha256": "2e129f6933d9923b7f564b123546b7785ee6fe4b160d141b088c6c8e4ec3dc5b"
+    },
+    {
+      "path": "src/sounds.h",
+      "bytes": 901,
+      "sha256": "1887926f3f75fb7a3955d4dd043c946ef996df1a2aef5ab7f7f87a83a514c801"
+    },
+    {
+      "path": "src/txtwind.cpp",
+      "bytes": 20147,
+      "sha256": "4ec763c5f2fd10d43b54bbf5b270ee8913b57d50ca66a08a94c29ebc22e5b3ba"
+    },
+    {
+      "path": "src/txtwind.h",
+      "bytes": 1975,
+      "sha256": "b30bc2aceac469f8a595d84742144fb0ce7365e8a22923cf12b1627c825ddc2f"
+    },
+    {
+      "path": "src/user_interface.cpp",
+      "bytes": 15972,
+      "sha256": "c03b954aa000a1b2e21ff22fc4407460c428cdab28cf778a5a6dd9760a1fec4f"
+    },
+    {
+      "path": "src/user_interface.h",
+      "bytes": 2774,
+      "sha256": "6a01fcdba1b067fefbafa596b1d89eb7249a2789917d059a92f457527d86d6ba"
+    },
+    {
+      "path": "src/user_interface_slim.cpp",
+      "bytes": 8609,
+      "sha256": "1820b51f691e9ab08e4b658b32ad1403c3bf945a2be6efc46ce3e316a522e9a2"
+    },
+    {
+      "path": "src/user_interface_slim.h",
+      "bytes": 922,
+      "sha256": "be38e238bc8cd165108db2112211b520ea2d1e8f3a03e0ae66fb7900f6808c46"
+    },
+    {
+      "path": "src/user_interface_super_zzt.cpp",
+      "bytes": 10406,
+      "sha256": "85dcea64dd306c9a2eb5ea11a2e2d189c7981781ddbf361f7ed0583dd021dc36"
+    },
+    {
+      "path": "src/user_interface_super_zzt.h",
+      "bytes": 1359,
+      "sha256": "2734f7c40a1436497f3d3e57ea527d782323e3c294a5b7e8764c16c9d84d1af8"
+    },
+    {
+      "path": "src/utils/iostream.cpp",
+      "bytes": 5928,
+      "sha256": "56daecbd99591280194baa9550114b5350827682e9891722e5eadd84bf5b4cde"
+    },
+    {
+      "path": "src/utils/iostream.h",
+      "bytes": 2407,
+      "sha256": "14df50674665d40990a16ae77bbd7e3a4e42e749e0dbff57f4bb2bcd54a0e23a"
+    },
+    {
+      "path": "src/utils/mathutils.cpp",
+      "bytes": 262,
+      "sha256": "bf633b1712a17ea9005e23c5527ebed063cafd8b2e2d5a93da12f62bb9d506eb"
+    },
+    {
+      "path": "src/utils/mathutils.h",
+      "bytes": 1012,
+      "sha256": "4184ced4f7933e2dbbb89f2bb087b61a77abf703707a0719b46349933c125760"
+    },
+    {
+      "path": "src/utils/quirkset.h",
+      "bytes": 1705,
+      "sha256": "4ff1cecc70e16d988de81d36c1c868b5c8e5cc6d44f778760d59fc494b3faee9"
+    },
+    {
+      "path": "src/utils/stringutils.cpp",
+      "bytes": 2808,
+      "sha256": "9207a8486914903e1e78823f896a10dcb8fae5258f898a195551e4856613d551"
+    },
+    {
+      "path": "src/utils/stringutils.h",
+      "bytes": 3362,
+      "sha256": "337b4a85e95fc790790e8a6c5f5ceda1bd6be4e886b60ce1bcbdbbd22f0455f9"
+    },
+    {
+      "path": "src/utils/tokenmap.h",
+      "bytes": 5836,
+      "sha256": "dede784eea671c984f3eab6414920aba2628eef49e93dd333f5d9d5b4b84a266"
+    },
+    {
+      "path": "src/world_serializer.cpp",
+      "bytes": 13595,
+      "sha256": "01a2cc74f1fe6e651ffc4d3af1378d56e6cbd9177a7ab3da8c6487f897bb4044"
+    },
+    {
+      "path": "src/world_serializer.h",
+      "bytes": 1846,
+      "sha256": "8c8c799997542d5cda5dd28db0744ffad8df7631e5898214eae10336b0689df6"
+    }
+  ],
+  "linkedClosureDraft": {
+    "scope": "Actual wasm-ld archive/member trace; this is not a completed emitted-JS or supplemental-source licence audit",
+    "archives": [
+      {
+        "path": "emscripten-cache/libSDL2-mt.a",
+        "bytes": 4164024,
+        "sha256": "26d0a2dd348e547c6cf2070db54fe379b14c85d1e58d223470d33feb88c52363",
+        "candidateTerms": "SDL zlib plus selected yuv2rgb BSD-3-Clause; supplemental selected-source review remains",
+        "selectedMembers": [
+          "SDL.c.o",
+          "SDL_assert.c.o",
+          "SDL_audio.c.o",
+          "SDL_atomic.c.o",
+          "SDL_audiocvt.c.o",
+          "SDL_audiotypecvt.c.o",
+          "SDL_bmp.c.o",
+          "SDL_dataqueue.c.o",
+          "SDL_diskaudio.c.o",
+          "SDL_dummyaudio.c.o",
+          "SDL_emscriptenaudio.c.o",
+          "SDL_error.c.o",
+          "SDL_events.c.o",
+          "SDL_gamecontroller.c.o",
+          "SDL_gesture.c.o",
+          "SDL_getenv.c.o",
+          "SDL_hints.c.o",
+          "SDL_joystick.c.o",
+          "SDL_crc16.c.o",
+          "SDL_guid.c.o",
+          "SDL_keyboard.c.o",
+          "SDL_log.c.o",
+          "SDL_malloc.c.o",
+          "SDL_mixer.c.o",
+          "SDL_mouse.c.o",
+          "SDL_pixels.c.o",
+          "SDL_list.c.o",
+          "SDL_RLEaccel.c.o",
+          "SDL_cpuinfo.c.o",
+          "SDL_fillrect.c.o",
+          "SDL_blit.c.o",
+          "SDL_blit_copy.c.o",
+          "SDL_blit_slow.c.o",
+          "SDL_blit_0.c.o",
+          "SDL_blit_1.c.o",
+          "SDL_blit_A.c.o",
+          "SDL_blit_N.c.o",
+          "SDL_blit_auto.c.o",
+          "SDL_quit.c.o",
+          "SDL_rect.c.o",
+          "SDL_render.c.o",
+          "SDL_render_gles2.c.o",
+          "SDL_render_sw.c.o",
+          "SDL_drawpoint.c.o",
+          "SDL_blendpoint.c.o",
+          "SDL_drawline.c.o",
+          "SDL_blendline.c.o",
+          "SDL_blendfillrect.c.o",
+          "SDL_rotate.c.o",
+          "SDL_rwops.c.o",
+          "SDL_sensor.c.o",
+          "SDL_dummysensor.c.o",
+          "SDL_shaders_gles2.c.o",
+          "SDL_spinlock.c.o",
+          "SDL_stdlib.c.o",
+          "SDL_steam_virtual_gamepad.c.o",
+          "SDL_string.c.o",
+          "SDL_surface.c.o",
+          "SDL_stretch.c.o",
+          "SDL_syscond.c.o",
+          "SDL_sysjoystick.c.o",
+          "SDL_sysmutex.c.o",
+          "SDL_syssem.c.o",
+          "SDL_systhread.c.o",
+          "SDL_systimer.c.o",
+          "SDL_thread.c.o",
+          "SDL_systls.c.o",
+          "SDL_timer.c.o",
+          "SDL_touch.c.o",
+          "SDL_triangle.c.o",
+          "SDL_utils.c.o",
+          "SDL_video.c.o",
+          "SDL_emscriptenvideo.c.o",
+          "SDL_egl.c.o",
+          "SDL_sysloadso.c.o",
+          "SDL_emscriptenopengles.c.o",
+          "SDL_emscriptenframebuffer.c.o",
+          "SDL_emscriptenmouse.c.o",
+          "SDL_emscriptenevents.c.o",
+          "SDL_displayevents.c.o",
+          "SDL_qsort.c.o",
+          "SDL_windowevents.c.o",
+          "SDL_yuv.c.o",
+          "SDL_yuv_sw.c.o",
+          "controller_type.c.o",
+          "yuv_rgb_std.c.o"
+        ]
+      },
+      {
+        "path": "emscripten-cache/libGL-mt-ofb-getprocaddr.a",
+        "bytes": 136020,
+        "sha256": "a96899285a283997bbe16fc769cdcab80b5b151630e8b2de4d6ecd8a6a7af7ff",
+        "candidateTerms": "Emscripten MIT/NCSA",
+        "selectedMembers": [
+          "libprocaddr.o",
+          "gl.o",
+          "webgl1.o"
+        ]
+      },
+      {
+        "path": "emscripten-cache/libhtml5.a",
+        "bytes": 55208,
+        "sha256": "01435b3f7f7b416b6da3ff9af4b5fb9fe57c4179fe8b65156edfa1a88a70b19d",
+        "candidateTerms": "Emscripten MIT/NCSA",
+        "selectedMembers": [
+          "dom_pk_codes.o",
+          "callback.o"
+        ]
+      },
+      {
+        "path": "emscripten-cache/libstubs.a",
+        "bytes": 22244,
+        "sha256": "ac597237f5186f0d22ba48bb148b786a2ba32e49aa5069e8fc8c1493b0b70b6e",
+        "candidateTerms": "Emscripten MIT/NCSA",
+        "selectedMembers": [
+          "emscripten_libc_stubs.o",
+          "emscripten_syscall_stubs.o"
+        ]
+      },
+      {
+        "path": "emscripten-cache/libc-mt.a",
+        "bytes": 3672366,
+        "sha256": "3c7c0b85cfff4946c8d37aa86cc7716546c56d962732cab0017021ebbf2e68e5",
+        "candidateTerms": "musl MIT/BSD notices plus Emscripten MIT/NCSA adaptation",
+        "selectedMembers": [
+          "__errno_location.o",
+          "acos.o",
+          "acosf.o",
+          "asin.o",
+          "asinf.o",
+          "atan.o",
+          "atan2.o",
+          "atan2f.o",
+          "atanf.o",
+          "atof.o",
+          "atoi.o",
+          "bsearch.o",
+          "clock_gettime.o",
+          "closedir.o",
+          "close.o",
+          "cos.o",
+          "__cos.o",
+          "__rem_pio2.o",
+          "__rem_pio2_large.o",
+          "__sin.o",
+          "cosf.o",
+          "__cosdf.o",
+          "__sindf.o",
+          "__rem_pio2f.o",
+          "dlclose.o",
+          "dlerror.o",
+          "dlsym.o",
+          "emscripten_thread_state.o",
+          "emscripten_time.o",
+          "exp.o",
+          "__math_uflow.o",
+          "__math_xflow.o",
+          "__math_oflow.o",
+          "exp_data.o",
+          "expf.o",
+          "__math_oflowf.o",
+          "__math_xflowf.o",
+          "__math_uflowf.o",
+          "exp2f_data.o",
+          "fabs.o",
+          "fabsf.o",
+          "fclose.o",
+          "__lockfile.o",
+          "__wait.o",
+          "emscripten_futex_wait.o",
+          "emscripten_yield.o",
+          "emscripten_futex_wake.o",
+          "feof.o",
+          "ferror.o",
+          "fflush.o",
+          "floor.o",
+          "fmax.o",
+          "fmin.o",
+          "fmod.o",
+          "fmodf.o",
+          "fopen.o",
+          "__fmodeflags.o",
+          "__fdopen.o",
+          "emscripten_memset.o",
+          "__stdio_seek.o",
+          "__stdio_write.o",
+          "__stdio_read.o",
+          "__stdio_close.o",
+          "fprintf.o",
+          "fread.o",
+          "emscripten_memcpy.o",
+          "__toread.o",
+          "__stdio_exit.o",
+          "fseek.o",
+          "ftell.o",
+          "fwrite.o",
+          "__towrite.o",
+          "getcwd.o",
+          "getenv.o",
+          "__environ.o",
+          "getpid.o",
+          "gettid.o",
+          "isalnum.o",
+          "isblank.o",
+          "iscntrl.o",
+          "ispunct.o",
+          "isxdigit.o",
+          "ldexp.o",
+          "ldexpf.o",
+          "libc.o",
+          "library_pthread.o",
+          "log.o",
+          "__math_divzero.o",
+          "__math_invalid.o",
+          "log10.o",
+          "log10f.o",
+          "log_data.o",
+          "logf.o",
+          "__math_divzerof.o",
+          "__math_invalidf.o",
+          "logf_data.o",
+          "lround.o",
+          "lroundf.o",
+          "lseek.o",
+          "memcmp.o",
+          "nanosleep.o",
+          "clock_nanosleep.o",
+          "ofl.o",
+          "__lock.o",
+          "ofl_add.o",
+          "opendir.o",
+          "open.o",
+          "pow.o",
+          "pow_data.o",
+          "powf.o",
+          "powf_data.o",
+          "proxying.o",
+          "em_task_queue.o",
+          "proxying_legacy.o",
+          "pthread_attr_destroy.o",
+          "pthread_attr_init.o",
+          "lock_ptc.o",
+          "default_attr.o",
+          "pthread_attr_setdetachstate.o",
+          "pthread_attr_setstacksize.o",
+          "pthread_cond_broadcast.o",
+          "pthread_cond_destroy.o",
+          "pthread_cond_init.o",
+          "pthread_cond_signal.o",
+          "pthread_cond_timedwait.o",
+          "__timedwait.o",
+          "pthread_cond_wait.o",
+          "pthread_create.o",
+          "emscripten_get_next_tid.o",
+          "vmlock.o",
+          "pthread_detach.o",
+          "pthread_getschedparam.o",
+          "pthread_getspecific.o",
+          "pthread_join.o",
+          "pthread_key_create.o",
+          "block.o",
+          "pthread_mutex_destroy.o",
+          "pthread_mutex_init.o",
+          "pthread_mutex_lock.o",
+          "pthread_mutex_timedlock.o",
+          "pthread_mutex_trylock.o",
+          "pthread_mutex_unlock.o",
+          "pthread_mutexattr_init.o",
+          "pthread_mutexattr_settype.o",
+          "pthread_once.o",
+          "pthread_cleanup_push.o",
+          "pthread_rwlock_rdlock.o",
+          "pthread_rwlock_timedrdlock.o",
+          "pthread_rwlock_tryrdlock.o",
+          "pthread_rwlock_unlock.o",
+          "pthread_rwlock_wrlock.o",
+          "pthread_rwlock_timedwrlock.o",
+          "pthread_rwlock_trywrlock.o",
+          "pthread_self.o",
+          "pthread_setcancelstate.o",
+          "pthread_setcanceltype.o",
+          "pthread_setschedparam.o",
+          "pthread_setspecific.o",
+          "pthread_sigmask.o",
+          "pthread_testcancel.o",
+          "qsort_nr.o",
+          "qsort.o",
+          "raise.o",
+          "abort.o",
+          "_Exit.o",
+          "readdir.o",
+          "realpath.o",
+          "emscripten_memmove.o",
+          "readlink.o",
+          "round.o",
+          "roundf.o",
+          "scalbn.o",
+          "scalbnf.o",
+          "sem_destroy.o",
+          "sem_getvalue.o",
+          "sem_init.o",
+          "sem_post.o",
+          "sem_trywait.o",
+          "sem_wait.o",
+          "sem_timedwait.o",
+          "setenv.o",
+          "putenv.o",
+          "sigaction.o",
+          "sigaddset.o",
+          "sigandset.o",
+          "sigdelset.o",
+          "sigemptyset.o",
+          "sigismember.o",
+          "signal.o",
+          "sigorset.o",
+          "sin.o",
+          "sinf.o",
+          "sqrt.o",
+          "sqrtf.o",
+          "stat.o",
+          "fstatat.o",
+          "stderr.o",
+          "strcasecmp.o",
+          "strchr.o",
+          "strchrnul.o",
+          "strcmp.o",
+          "strcpy.o",
+          "stpcpy.o",
+          "strdup.o",
+          "strerror.o",
+          "strlcat.o",
+          "strlcpy.o",
+          "strlen.o",
+          "strncasecmp.o",
+          "strncat.o",
+          "strncmp.o",
+          "strncpy.o",
+          "stpncpy.o",
+          "strnlen.o",
+          "memchr.o",
+          "strrchr.o",
+          "memrchr.o",
+          "strstr.o",
+          "strtod.o",
+          "shgetc.o",
+          "__uflow.o",
+          "floatscan.o",
+          "copysignl.o",
+          "scalbnl.o",
+          "fmodl.o",
+          "__fpclassifyl.o",
+          "fabsl.o",
+          "strtok_r.o",
+          "strspn.o",
+          "strcspn.o",
+          "strtol.o",
+          "syscall_ret.o",
+          "sysconf.o",
+          "tan.o",
+          "__tan.o",
+          "tanf.o",
+          "__tandf.o",
+          "thread_mailbox.o",
+          "thread_profiler.o",
+          "tolower.o",
+          "toupper.o",
+          "unsetenv.o",
+          "vfprintf.o",
+          "frexp.o",
+          "vsnprintf.o",
+          "vsscanf.o",
+          "vfscanf.o",
+          "intscan.o",
+          "mbrtowc.o",
+          "uselocale.o",
+          "internal.o",
+          "mbsinit.o",
+          "wasi-helpers.o",
+          "wcscasecmp.o",
+          "wcscmp.o",
+          "wcslen.o",
+          "wcsncasecmp.o",
+          "towctrans.o",
+          "wcsncmp.o",
+          "wcsstr.o",
+          "wcschr.o",
+          "wctomb.o",
+          "wcrtomb.o",
+          "wmemchr.o",
+          "wmemcmp.o",
+          "pthread_mutexattr_destroy.o",
+          "emscripten_get_heap_size.o",
+          "aligned_alloc.o",
+          "emscripten_thread_init.o"
+        ]
+      },
+      {
+        "path": "emscripten-cache/libdlmalloc-mt.a",
+        "bytes": 74210,
+        "sha256": "bacd89193de811255af63ed3eddca256c5ff658c0cb2d50c668e6009a407dde8",
+        "candidateTerms": "Public-domain declaration plus Emscripten adaptation",
+        "selectedMembers": [
+          "dlmalloc.o",
+          "sbrk.o"
+        ]
+      },
+      {
+        "path": "emscripten-cache/libclang_rt.builtins-mt.a",
+        "bytes": 743374,
+        "sha256": "8d2e341d554734489f47b516795c32f3104782da801efb8dbf09908e9a62aaf9",
+        "candidateTerms": "Apache-2.0 WITH LLVM-exception; compiler-rt notice",
+        "selectedMembers": [
+          "addtf3.o",
+          "ashlti3.o",
+          "comparetf2.o",
+          "divtf3.o",
+          "extenddftf2.o",
+          "extendsftf2.o",
+          "floatsitf.o",
+          "floatunsitf.o",
+          "fp_mode.o",
+          "lshrti3.o",
+          "multf3.o",
+          "multi3.o",
+          "stack_limits.o",
+          "subtf3.o",
+          "trunctfdf2.o",
+          "trunctfsf2.o",
+          "stack_ops.o",
+          "emscripten_exception_builtins.o"
+        ]
+      },
+      {
+        "path": "emscripten-cache/libc++-mt-noexcept.a",
+        "bytes": 7197398,
+        "sha256": "754035e422b28246f2482ff9772541a1184fcf3dad0638ec86f2286f2ce1cd70",
+        "candidateTerms": "Apache-2.0 WITH LLVM-exception; legacy MIT/UIUC included in notice",
+        "selectedMembers": [
+          "functional.o",
+          "new.o",
+          "new_helpers.o"
+        ]
+      },
+      {
+        "path": "emscripten-cache/libc++abi-mt-noexcept.a",
+        "bytes": 1009012,
+        "sha256": "bd8644b66c71da3fea8f70a6d1276252570209aef9afdf2664a90e67a3479d5a",
+        "candidateTerms": "Apache-2.0 WITH LLVM-exception; legacy MIT/UIUC included in notice",
+        "selectedMembers": [
+          "cxa_handlers.o",
+          "cxa_default_handlers.o",
+          "abort_message.o",
+          "cxa_noexception.o",
+          "cxa_virtual.o",
+          "private_typeinfo.o",
+          "stdlib_exception.o",
+          "stdlib_typeinfo.o"
+        ]
+      }
+    ],
+    "archiveCount": 9,
+    "selectedMemberCount": 393,
+    "warningsRetained": 19,
+    "notices": [
+      {
+        "path": "notices/authored-content-CC0.txt",
+        "bytes": 943,
+        "sha256": "f9e2c8469bee267dfb266e76d6e6396378cdc33fdef0b55e09c609a88a426a34"
+      },
+      {
+        "path": "notices/compiler-rt-LICENSE.TXT",
+        "bytes": 16708,
+        "sha256": "1a8f1058753f1ba890de984e48f0242a3a5c29a6a8f2ed9fd813f36985387e8d"
+      },
+      {
+        "path": "notices/dlmalloc-attribution-evidence.txt",
+        "bytes": 3174,
+        "sha256": "8173822397c688270fdd7384f4929610ef35c4eea9e94b3e370a37994c912c51"
+      },
+      {
+        "path": "notices/Emscripten.txt",
+        "bytes": 5093,
+        "sha256": "620a78084fc7ca97c0b5dea9abf891f3ffcadfdbf305276f099c9c4e12fc1d86"
+      },
+      {
+        "path": "notices/libcxx-LICENSE.TXT",
+        "bytes": 16703,
+        "sha256": "539dd7aed86e8a4f12cbdd0e6c50c189c7d74847e4fecc64ce2c6ee3a01da38b"
+      },
+      {
+        "path": "notices/libcxxabi-LICENSE.TXT",
+        "bytes": 16706,
+        "sha256": "e2b35be49f7284a45b7baca8fc7b3ab7440e7902392b2528a457816b5bb2a15c"
+      },
+      {
+        "path": "notices/libunwind-LICENSE.TXT",
+        "bytes": 16706,
+        "sha256": "b5efebcaca80879234098e52d1725e6d9eb8fb96a19fce625d39184b705f7b6d"
+      },
+      {
+        "path": "notices/musl-COPYRIGHT.txt",
+        "bytes": 6196,
+        "sha256": "b870108ec5e7790e9f9919064f1b9421d62d5f9b0e6c230c6adf7ea2da62e97b"
+      },
+      {
+        "path": "notices/OpenZoo-MIT.txt",
+        "bytes": 1257,
+        "sha256": "cff84c162ea0da2ee692dc0fd3517d33b778a20882db69e0dacf53ed836c1296"
+      },
+      {
+        "path": "notices/SDL2-yuv2rgb-BSD-3-Clause.txt",
+        "bytes": 1480,
+        "sha256": "f7d74004cc75778cae46c5f0139f244d67c07ef64cf51937e8272352197dcb18"
+      },
+      {
+        "path": "notices/SDL2-zlib.txt",
+        "bytes": 884,
+        "sha256": "97f35b302b361680ec1e891e95d2d52097bb95abff361434916d99dc1305f127"
+      },
+      {
+        "path": "notices/Super-ZZT-reconstruction-MIT.txt",
+        "bytes": 1188,
+        "sha256": "7b2e3fb03f87df815aeed379a7fa5fa079d8f9406f7fb1ccc45d13bfb1467891"
+      },
+      {
+        "path": "notices/ZZT-reconstruction-MIT.txt",
+        "bytes": 1182,
+        "sha256": "5f39ab5913a6bf1d8f3cad869d5ddd2486b5efd41a863246173780d731adf7f6"
+      }
+    ]
+  },
+  "failuresPreserved": [
+    "First native save test typed a custom filename too quickly and could not read PATH.SAV. Corrected harness uses ordinary default SAVED; no engine/save-state edits.",
+    "First successful content run had adjoining labels and premature static completion caption; generator revised and full challenge/durable case rerun.",
+    "Visual review found missing east-current glyph at 16; independent triangles authored and normal current traversal/capture verified."
+  ],
+  "limits": [
+    "This original puzzle challenge has no authored lethal hazards or combat; death/combat/audio are not acceptance claims.",
+    "Labels may clip during native scrolling; all authored-map glyphs are not an all-engine/editor-glyph certificate.",
+    "Only one waited-for stone checkpoint was tested through full browser restart on same profile/origin; crash/rapid close/storage refusal/quota/save transfer/other browsers unverified.",
+    "Final emitted-JS symbol/source mapping, remaining supplemental runtime notice audit, bounded source-package rebuild, catalog/public distribution and muted production acceptance remain."
+  ],
+  "playersClosed": true,
+  "retailDataIncluded": false,
+  "claudeOwnedGamesTouched": false,
+  "privateRomHistoryPublished": false
+}
