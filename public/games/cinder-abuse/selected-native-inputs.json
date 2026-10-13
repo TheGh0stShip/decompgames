@@ -1,0 +1,1250 @@
+[
+  {
+    "path": "abuse/inc/ability.hpp",
+    "bytes": 425,
+    "sha256": "3d127d87fa3586e30212a1e403a2ef817c06dea6af5df5a8153515d2ace8a6bd",
+    "notice": "Original developer source release; own changes separately MIT"
+  },
+  {
+    "path": "abuse/inc/ant.hpp",
+    "bytes": 356,
+    "sha256": "2e48ed76cebd602e102691cbc33e2a4e105e2d5fae7998fcaa72e4814285f193",
+    "notice": "Original developer source release; own changes separately MIT"
+  },
+  {
+    "path": "abuse/inc/automap.hpp",
+    "bytes": 482,
+    "sha256": "9ee9ccf763ca3ce015de06247df1264fbb48cf90803ab4460145ddfe472efa26",
+    "notice": "Original developer source release; own changes separately MIT"
+  },
+  {
+    "path": "abuse/inc/bus_type.hpp",
+    "bytes": 303,
+    "sha256": "1911b7883b1edba86685dbf3c4f834bac1386193e6c46f3538a7c26059b0bedc",
+    "notice": "Original developer source release; own changes separately MIT"
+  },
+  {
+    "path": "abuse/inc/cache.hpp",
+    "bytes": 3380,
+    "sha256": "327b6add95dd32f59020a9ccb592fcdf702d35db8480c0b0e8bbcc69b9bacca9",
+    "notice": "Original developer source release; own changes separately MIT"
+  },
+  {
+    "path": "abuse/inc/chars.hpp",
+    "bytes": 4244,
+    "sha256": "17cc34a79d93dd31fbf6e5f32a2767600b3b06af56e40dde8356b5d539392163",
+    "notice": "Original developer source release; own changes separately MIT"
+  },
+  {
+    "path": "abuse/inc/chat.hpp",
+    "bytes": 387,
+    "sha256": "de7f9acc9f3a42c5a7eaf0a4e11b86ace4fdebaf73f1e9396bbe35a68d33d7cc",
+    "notice": "Original developer source release; own changes separately MIT"
+  },
+  {
+    "path": "abuse/inc/clisp.hpp",
+    "bytes": 1567,
+    "sha256": "e7d57855550b9f3b3b2bce972e530044454363cc1d0b2444059559dc999fb2f5",
+    "notice": "Original developer source release; own changes separately MIT"
+  },
+  {
+    "path": "abuse/inc/compiled.hpp",
+    "bytes": 1221,
+    "sha256": "dfd9d2490c2ef0c3795c2dba81833fe01b31c5c493a8d2fb4c1515e70796bc0d",
+    "notice": "Original developer source release; own changes separately MIT"
+  },
+  {
+    "path": "abuse/inc/config.hpp",
+    "bytes": 472,
+    "sha256": "7f87bc4a656694c01330bdee76ffd1b3456c9d5cea71105b761146dac7e79a9a",
+    "notice": "Original developer source release; own changes separately MIT"
+  },
+  {
+    "path": "abuse/inc/console.hpp",
+    "bytes": 1078,
+    "sha256": "a2cb95c2637714f6f9f37a56d9b404527bf86371cc5c1e06a3b8b559857f3348",
+    "notice": "Original developer source release; own changes separately MIT"
+  },
+  {
+    "path": "abuse/inc/cop.hpp",
+    "bytes": 560,
+    "sha256": "781e14c19947111f9fe9fba09a90d985fd4426d438fc5b3bbe261e6908bf6f89",
+    "notice": "Original developer source release; own changes separately MIT"
+  },
+  {
+    "path": "abuse/inc/crc.hpp",
+    "bytes": 169,
+    "sha256": "612b1e7ec44c9927a2348b5829689d48fa00d07af275240aaae9c57bfef8e87a",
+    "notice": "Original developer source release; own changes separately MIT"
+  },
+  {
+    "path": "abuse/inc/demo.hpp",
+    "bytes": 994,
+    "sha256": "c2476269810959de6c9f7ae268fbcc3b31c52617eb05790fb9dd06da97ffd519",
+    "notice": "Original developer source release; own changes separately MIT"
+  },
+  {
+    "path": "abuse/inc/dev.hpp",
+    "bytes": 3235,
+    "sha256": "b7e8ae176a549fb4d6fc762db190e9ce9fa97802d91961fb04b84268133d5e32",
+    "notice": "Original developer source release; own changes separately MIT"
+  },
+  {
+    "path": "abuse/inc/devsel.hpp",
+    "bytes": 733,
+    "sha256": "17919d1bb372bbd48f06f3fe41b06a2ccb9c40470138d1ec1e62626e69d9f0a2",
+    "notice": "Original developer source release; own changes separately MIT"
+  },
+  {
+    "path": "abuse/inc/director.hpp",
+    "bytes": 877,
+    "sha256": "127ce03268f37bbf913ead5f1fdfab861bff6394c344abc8f815782916f434c4",
+    "notice": "Original developer source release; own changes separately MIT"
+  },
+  {
+    "path": "abuse/inc/extend.hpp",
+    "bytes": 4913,
+    "sha256": "d14fd785810bb4044f49f79d9969601145204b643013dfa2b89a013f8320860d",
+    "notice": "Original developer source release; own changes separately MIT"
+  },
+  {
+    "path": "abuse/inc/game.hpp",
+    "bytes": 4224,
+    "sha256": "f35d9c4ca9694e4648b2b19eb74c439cd4a564789176c3c94128d148cfa311e6",
+    "notice": "Original developer source release; own changes separately MIT"
+  },
+  {
+    "path": "abuse/inc/gamma.hpp",
+    "bytes": 127,
+    "sha256": "9be6efd868ffe1070b4bf0f4b2bf021ff4b998a388b8fc9654a06357677b9d7d",
+    "notice": "Original developer source release; own changes separately MIT"
+  },
+  {
+    "path": "abuse/inc/gui.hpp",
+    "bytes": 1603,
+    "sha256": "88d23b08f680a9afbfb76b38ef208e5fd1d2bcc9084c5f8622e9cb0f40f6094e",
+    "notice": "Original developer source release; own changes separately MIT"
+  },
+  {
+    "path": "abuse/inc/help.hpp",
+    "bytes": 234,
+    "sha256": "1a591a105b48157d061d15eb32f11a67b2de6f002944e94b59795aa73780794f",
+    "notice": "Original developer source release; own changes separately MIT"
+  },
+  {
+    "path": "abuse/inc/id.hpp",
+    "bytes": 3986,
+    "sha256": "e26fcda7bbc2f66b3ea30d1c38226526466185b114004286e36ecff6f866e2b6",
+    "notice": "Original developer source release; own changes separately MIT"
+  },
+  {
+    "path": "abuse/inc/intsect.hpp",
+    "bytes": 179,
+    "sha256": "10f429330fc18b00dcd84e5a997edf32d0f3f06def6e762d1be6774de0bc664f",
+    "notice": "Original developer source release; own changes separately MIT"
+  },
+  {
+    "path": "abuse/inc/items.hpp",
+    "bytes": 2020,
+    "sha256": "0bc8cbb2c3a8047000003331b18ec126e3378b7bae6797f041f362d5817a1377",
+    "notice": "Original developer source release; own changes separately MIT"
+  },
+  {
+    "path": "abuse/inc/language.hpp",
+    "bytes": 33,
+    "sha256": "e776b0a438b870cb2aa227be645a469730f5c3c05459b734f9bf99ae511c9113",
+    "notice": "Original developer source release; own changes separately MIT"
+  },
+  {
+    "path": "abuse/inc/lcache.hpp",
+    "bytes": 325,
+    "sha256": "1525982eeab62728f07833d2d83002f0a8cd65317b4ad949efb7b85f58427b75",
+    "notice": "Original developer source release; own changes separately MIT"
+  },
+  {
+    "path": "abuse/inc/level.hpp",
+    "bytes": 8339,
+    "sha256": "3810b86685a752dd1631e960347994b3ab742d769164298154dd0b05dc6f25bb",
+    "notice": "Original developer source release; own changes separately MIT"
+  },
+  {
+    "path": "abuse/inc/light.hpp",
+    "bytes": 2116,
+    "sha256": "2ab8c793522dcb5a061ac2dee04d4106bff2fd7b81f526b94d1ec5a099b58bd9",
+    "notice": "Original developer source release; own changes separately MIT"
+  },
+  {
+    "path": "abuse/inc/lisp.hpp",
+    "bytes": 5726,
+    "sha256": "c6e67188c9902c68f1e9814608541eb3f78d76aed5ed182cfbededab457c47b5",
+    "notice": "Original developer source release; own changes separately MIT"
+  },
+  {
+    "path": "abuse/inc/lisp_gc.hpp",
+    "bytes": 531,
+    "sha256": "44ec22955275eeb2997cde09536e4340776e63e2fe974c4b425049e8034de945",
+    "notice": "Original developer source release; own changes separately MIT"
+  },
+  {
+    "path": "abuse/inc/lisp_opt.hpp",
+    "bytes": 359,
+    "sha256": "f923ffb2d68e615d15088eff567b32d564f51e164bba18f86c7f3f840a899748",
+    "notice": "Original developer source release; own changes separately MIT"
+  },
+  {
+    "path": "abuse/inc/loader2.hpp",
+    "bytes": 2573,
+    "sha256": "86258abc6632046deab1d93e6fd7dd990a1d35b2fc6fcb22b1fbdbe84751a58b",
+    "notice": "Original developer source release; own changes separately MIT"
+  },
+  {
+    "path": "abuse/inc/loadgame.hpp",
+    "bytes": 277,
+    "sha256": "ece2c475adc6220d5b4af6bb64998dcaee228806aeee060b19d43dc2bf8a053a",
+    "notice": "Original developer source release; own changes separately MIT"
+  },
+  {
+    "path": "abuse/inc/menu.hpp",
+    "bytes": 160,
+    "sha256": "ba24d3fa534292dc00bd08e5bbed74482bd739d1f7ca579532063c7722de384c",
+    "notice": "Original developer source release; own changes separately MIT"
+  },
+  {
+    "path": "abuse/inc/morpher.hpp",
+    "bytes": 518,
+    "sha256": "f3a70e1b0cf40f90965a905e135ad6d8dd745d66a57c5c818a630de3db41f7b2",
+    "notice": "Original developer source release; own changes separately MIT"
+  },
+  {
+    "path": "abuse/inc/netcfg.hpp",
+    "bytes": 834,
+    "sha256": "8d9720c49e91c6ceb76017b3aa0b9c4b72dd9029b13a6f7b19a05ae639de5fd3",
+    "notice": "Original developer source release; own changes separately MIT"
+  },
+  {
+    "path": "abuse/inc/netface.hpp",
+    "bytes": 5518,
+    "sha256": "a2d291bb8df7b8013b8014755404605542efce54b1726661beccaeb8c59f1771",
+    "notice": "Original developer source release; own changes separately MIT"
+  },
+  {
+    "path": "abuse/inc/nfserver.hpp",
+    "bytes": 1289,
+    "sha256": "497526f9753a805f605ba92f28abc85d94e6fe68b8b624a62b2a1d132ac52005",
+    "notice": "Original developer source release; own changes separately MIT"
+  },
+  {
+    "path": "abuse/inc/objects.hpp",
+    "bytes": 5363,
+    "sha256": "652b2950524e9ed82ea53415b74f0c8d4e3f71f467210f351a65bf240682dda5",
+    "notice": "Original developer source release; own changes separately MIT"
+  },
+  {
+    "path": "abuse/inc/parse.hpp",
+    "bytes": 465,
+    "sha256": "8ea317640a13428a70124deb65dafe9e4f2b25c47c7654dbc6f9b7ce3c62c879",
+    "notice": "Original developer source release; own changes separately MIT"
+  },
+  {
+    "path": "abuse/inc/particle.hpp",
+    "bytes": 932,
+    "sha256": "edc78bca7964d8fce62af04259a4a4e3379c8374fbc431ab691a9ccc7728c26a",
+    "notice": "Original developer source release; own changes separately MIT"
+  },
+  {
+    "path": "abuse/inc/points.hpp",
+    "bytes": 497,
+    "sha256": "710a127f3477f3a528c943f6b6ac6e9e5ba38d0f8b043b9bbe25aa6648b79228",
+    "notice": "Original developer source release; own changes separately MIT"
+  },
+  {
+    "path": "abuse/inc/profile.hpp",
+    "bytes": 288,
+    "sha256": "bde9f426bf48b557d7309de3e9be0b4be39adb6eb6cf7e2f3c7dc1168ad03b5f",
+    "notice": "Original developer source release; own changes separately MIT"
+  },
+  {
+    "path": "abuse/inc/property.hpp",
+    "bytes": 544,
+    "sha256": "90ad0a1f1d7593fbd7b49629d70a394dc9419f1232f78b0c09df535b4cac7a65",
+    "notice": "Original developer source release; own changes separately MIT"
+  },
+  {
+    "path": "abuse/inc/sbar.hpp",
+    "bytes": 898,
+    "sha256": "20d90d61f5d906841edb0585919964440436f922758f691ef4c6e911764553ce",
+    "notice": "Original developer source release; own changes separately MIT"
+  },
+  {
+    "path": "abuse/inc/seq.hpp",
+    "bytes": 1183,
+    "sha256": "c79596bc8ce806e35cfc128d09bf5daec68d06a97e3ed77e22290212e7853f40",
+    "notice": "Original developer source release; own changes separately MIT"
+  },
+  {
+    "path": "abuse/inc/specache.hpp",
+    "bytes": 920,
+    "sha256": "872ff14e05419508b1df8e3bfcaad5878377b4c3071f7ad72a7f30bdd1f33228",
+    "notice": "Original developer source release; own changes separately MIT"
+  },
+  {
+    "path": "abuse/inc/stack.hpp",
+    "bytes": 702,
+    "sha256": "f0eabaf7c594b54793e2187710437bef93ad5aad1268309c5be2f8caa626b696",
+    "notice": "Original developer source release; own changes separately MIT"
+  },
+  {
+    "path": "abuse/inc/text_gui.hpp",
+    "bytes": 673,
+    "sha256": "d50011dfaf6320f629e8986cc1d96ff56351291f61ca56ee02a72b80fd88b072",
+    "notice": "Original developer source release; own changes separately MIT"
+  },
+  {
+    "path": "abuse/inc/transp.hpp",
+    "bytes": 164,
+    "sha256": "425bbf5fab84cabf5e7c78adcc0d398ca1cba72c71a038a8bef55d2e69467af4",
+    "notice": "Original developer source release; own changes separately MIT"
+  },
+  {
+    "path": "abuse/inc/view.hpp",
+    "bytes": 3805,
+    "sha256": "b4f055001e59c93ea77222a80be5c43bcfc484e1e6d478f99dbd777d7827459b",
+    "notice": "Original developer source release; own changes separately MIT"
+  },
+  {
+    "path": "abuse/src/ability.c",
+    "bytes": 1614,
+    "sha256": "047303815e649a21fa847c3a7d538e13c8a13a5cca8b71c30bf3efcdb872d5fe",
+    "notice": "Original developer source release; own changes separately MIT"
+  },
+  {
+    "path": "abuse/src/ant.c",
+    "bytes": 11513,
+    "sha256": "09cbda254e90edc62a747c6c4f544bbfc11591204e8154ebf43452b70089e0ad",
+    "notice": "Original developer source release; own changes separately MIT"
+  },
+  {
+    "path": "abuse/src/automap.c",
+    "bytes": 5251,
+    "sha256": "cbb9fc6d472cb9cbe4f22fdf1c4444189c08f9a4713226c75d2cc526d9759532",
+    "notice": "Original developer source release; own changes separately MIT"
+  },
+  {
+    "path": "abuse/src/cache.c",
+    "bytes": 28932,
+    "sha256": "6afd8830dc7ac0972d013e317a3b0d7ba1bda32df8bb3b8294c85ac997e6faf6",
+    "notice": "Original developer source release; own changes separately MIT"
+  },
+  {
+    "path": "abuse/src/chars.c",
+    "bytes": 14148,
+    "sha256": "58785c37899a4a0739705404f71a7420da5f8dc0c258255c1b35f0085798427b",
+    "notice": "Original developer source release; own changes separately MIT"
+  },
+  {
+    "path": "abuse/src/chat.c",
+    "bytes": 784,
+    "sha256": "eaffafb18378ae299a81e0a6042ff7465d9a20e5d22777c40a94dae4304739b7",
+    "notice": "Original developer source release; own changes separately MIT"
+  },
+  {
+    "path": "abuse/src/clisp.c",
+    "bytes": 84254,
+    "sha256": "9bd484ba8afb2391ff42d7e32da5db361a06d033bf7eb7610407e3ee2dcee722",
+    "notice": "Original developer source release; own changes separately MIT"
+  },
+  {
+    "path": "abuse/src/collide.c",
+    "bytes": 5424,
+    "sha256": "8f5df78228839046593ad118e446a5d7978b9d7b1c2960fa312855a60196ff8d",
+    "notice": "Original developer source release; own changes separately MIT"
+  },
+  {
+    "path": "abuse/src/compiled.c",
+    "bytes": 4735,
+    "sha256": "9208f6d2d1729a638a39b49f2da4711dc5c3997a6ee9a18795a9c24e77c90a4f",
+    "notice": "Original developer source release; own changes separately MIT"
+  },
+  {
+    "path": "abuse/src/config.c",
+    "bytes": 3753,
+    "sha256": "ec2ce5f9135fb779b92218e0638eed2c53328ef1df3ca55ce1b42f411915540e",
+    "notice": "Original developer source release; own changes separately MIT"
+  },
+  {
+    "path": "abuse/src/console.c",
+    "bytes": 3727,
+    "sha256": "a2b762c850e6b945296aa7f5fde3087230c25429255e0c9c0fb012aafb36c9cc",
+    "notice": "Original developer source release; own changes separately MIT"
+  },
+  {
+    "path": "abuse/src/cop.c",
+    "bytes": 27116,
+    "sha256": "1e5255b71b352874558712a802cfcf883689c4e7c54b989aa128f884190ab75f",
+    "notice": "Original developer source release; own changes separately MIT"
+  },
+  {
+    "path": "abuse/src/crc.c",
+    "bytes": 716,
+    "sha256": "5af4fd0b061ec2cd796c9247a9eb9cf673e20461876387a41e02496c90b4d7ca",
+    "notice": "Original developer source release; own changes separately MIT"
+  },
+  {
+    "path": "abuse/src/demo.c",
+    "bytes": 6231,
+    "sha256": "00c250071c3251147c3dd12620c9fd1a9c4d539dff90d1a29974d854c586704c",
+    "notice": "Original developer source release; own changes separately MIT"
+  },
+  {
+    "path": "abuse/src/dev.c",
+    "bytes": 96568,
+    "sha256": "6ee73e72b5799de702f94a48ad8894ecaf908ce4f2e6caea939f138484364708",
+    "notice": "Original developer source release; own changes separately MIT"
+  },
+  {
+    "path": "abuse/src/devsel.c",
+    "bytes": 3557,
+    "sha256": "43904fb87839618bb8e603b2f7344aababcda93d549afa35ae1bc2229b5d9fc4",
+    "notice": "Original developer source release; own changes separately MIT"
+  },
+  {
+    "path": "abuse/src/director.c",
+    "bytes": 4078,
+    "sha256": "d0d0f91c2166b551fbb973451d86fc1b1fce4c4dd492fa7c8a2179b8c73ee7f3",
+    "notice": "Original developer source release; own changes separately MIT"
+  },
+  {
+    "path": "abuse/src/endgame.c",
+    "bytes": 12862,
+    "sha256": "619304147acb3fa431eda396f8b53f41e8e4c8aa1b34b056674dec18cf12f739",
+    "notice": "Original developer source release; own changes separately MIT"
+  },
+  {
+    "path": "abuse/src/extend.c",
+    "bytes": 2699,
+    "sha256": "7082f757a0845b396305130713ee70adbed18de65c699aba035bbfcf1f324af9",
+    "notice": "Original developer source release; own changes separately MIT"
+  },
+  {
+    "path": "abuse/src/game.c",
+    "bytes": 65090,
+    "sha256": "62533ed740bcbadc4f6513a3eded2c05bc58025959e97f3a9e745c29be2e0264",
+    "notice": "Original developer source release; own changes separately MIT"
+  },
+  {
+    "path": "abuse/src/gamma.c",
+    "bytes": 4235,
+    "sha256": "25c9919af7b32acc26b0b4638e40eea9b6e38a141ae2163fec5d8be76ac4228e",
+    "notice": "Original developer source release; own changes separately MIT"
+  },
+  {
+    "path": "abuse/src/gui.c",
+    "bytes": 3488,
+    "sha256": "66e46639bb1def64872eb0038e35cc87c34e8e68c4c29d73cc77bd05ee9e0937",
+    "notice": "Original developer source release; own changes separately MIT"
+  },
+  {
+    "path": "abuse/src/help.c",
+    "bytes": 1127,
+    "sha256": "cf43c4a1c25f334e47bb7ebde32648d2524524877faa0a00d9ffe80cfb21b19c",
+    "notice": "Original developer source release; own changes separately MIT"
+  },
+  {
+    "path": "abuse/src/innet.c",
+    "bytes": 16861,
+    "sha256": "43fb8e52ad1813298b4839b75d63fcea8307901d868a5f4f31406f0d964eeb34",
+    "notice": "Original developer source release; own changes separately MIT"
+  },
+  {
+    "path": "abuse/src/intsect.c",
+    "bytes": 5344,
+    "sha256": "0532595ac4f06b71329103cf0668a9ed7ae4a0463de12b390175657dfd7af5a3",
+    "notice": "Original developer source release; own changes separately MIT"
+  },
+  {
+    "path": "abuse/src/items.c",
+    "bytes": 7055,
+    "sha256": "b4087cffd7c02e075bc6083de38bdfae28926fab24168a61f66f3684f036b25b",
+    "notice": "Original developer source release; own changes separately MIT"
+  },
+  {
+    "path": "abuse/src/language.c",
+    "bytes": 212,
+    "sha256": "2bc61069eecb0823f2137924148443c0ee077d5b4c985eb3d12c0dfc2818ff95",
+    "notice": "Original developer source release; own changes separately MIT"
+  },
+  {
+    "path": "abuse/src/lcache.c",
+    "bytes": 2818,
+    "sha256": "f25f4512a4be150ad5c3e0394a1535d6969e6af8d146e6b2915816f5347dd07b",
+    "notice": "Original developer source release; own changes separately MIT"
+  },
+  {
+    "path": "abuse/src/level.c",
+    "bytes": 76957,
+    "sha256": "0e99fe91b0607e3735e9a209ea660652d9afd69a0ce53fe65e83cc79774dc68c",
+    "notice": "Original developer source release; own changes separately MIT"
+  },
+  {
+    "path": "abuse/src/light.c",
+    "bytes": 29306,
+    "sha256": "4e41a0239797205f147c96d4698b52c6d21074a7d33e453ed963d4137e8c0870",
+    "notice": "Original developer source release; own changes separately MIT"
+  },
+  {
+    "path": "abuse/src/lisp.c",
+    "bytes": 80012,
+    "sha256": "55539773d4837fff596095053e90c72455f2a70bbe1165dbd0a676e75dd63dba",
+    "notice": "Original developer source release; own changes separately MIT"
+  },
+  {
+    "path": "abuse/src/lisp_gc.c",
+    "bytes": 6608,
+    "sha256": "bd2fb2cbab1cb3ba453602d570598569528eadf4e9356508d6952cdd8c618f77",
+    "notice": "Original developer source release; own changes separately MIT"
+  },
+  {
+    "path": "abuse/src/lisp_opt.c",
+    "bytes": 3613,
+    "sha256": "84e49d95b27e944dc3e9278c157f2f1db113c33ba41e08ca21ab9e7e14ddeebf",
+    "notice": "Original developer source release; own changes separately MIT"
+  },
+  {
+    "path": "abuse/src/loader2.c",
+    "bytes": 11581,
+    "sha256": "02aa71cf04abb065821baaccab5b4ee35355497f6089b1c32fc2618c5f9f04e9",
+    "notice": "Original developer source release; own changes separately MIT"
+  },
+  {
+    "path": "abuse/src/loadgame.c",
+    "bytes": 6023,
+    "sha256": "d3516944cf18516470ccc712acefd104c1e9d75ebb29a5fad07d09b9c5acd127",
+    "notice": "Original developer source release; own changes separately MIT"
+  },
+  {
+    "path": "abuse/src/menu.c",
+    "bytes": 20548,
+    "sha256": "c84da9c08ef3040f19a99aa265cea40b98ddb3b52a92f84e61098803690b300f",
+    "notice": "Original developer source release; own changes separately MIT"
+  },
+  {
+    "path": "abuse/src/morpher.c",
+    "bytes": 1909,
+    "sha256": "2ccbdd8b7b527c3ca33e537fa6a126ef7115d36e03b0734deeb249c6d70fbde3",
+    "notice": "Original developer source release; own changes separately MIT"
+  },
+  {
+    "path": "abuse/src/net/inc/indian.hpp",
+    "bytes": 590,
+    "sha256": "24d77338b3e348bcfbd003f92bdc24584fe9bc9c14bdc25bec962ff2eec12d2b",
+    "notice": "Original developer source release; own changes separately MIT"
+  },
+  {
+    "path": "abuse/src/net/inc/sock.hpp",
+    "bytes": 3725,
+    "sha256": "40da228ae4630a6d0d0ae415fb8db1be185fc2fc83ec0849bb88550eba49bace",
+    "notice": "Original developer source release; own changes separately MIT"
+  },
+  {
+    "path": "abuse/src/net/unix/fileman.c",
+    "bytes": 11513,
+    "sha256": "ae897438d5677262d6c87450804421418ff1d55d45b425f26faaad4434ff0eb7",
+    "notice": "Original developer source release; own changes separately MIT"
+  },
+  {
+    "path": "abuse/src/net/unix/fileman.hpp",
+    "bytes": 1944,
+    "sha256": "37c8040c73b36115efa9f2ac7fe2aa92452136890b4db5525b75e41085351622",
+    "notice": "Original developer source release; own changes separately MIT"
+  },
+  {
+    "path": "abuse/src/net/unix/gclient.c",
+    "bytes": 5034,
+    "sha256": "6c3d6fd63344cfcd0f86e53ae6460b8515cbb6619199a15112df6770d2999ba9",
+    "notice": "Original developer source release; own changes separately MIT"
+  },
+  {
+    "path": "abuse/src/net/unix/gclient.hpp",
+    "bytes": 633,
+    "sha256": "8d91765eb1afa4cd5fc64a92ced327415278dcbd74cec825170e0868674c0032",
+    "notice": "Original developer source release; own changes separately MIT"
+  },
+  {
+    "path": "abuse/src/net/unix/ghandler.hpp",
+    "bytes": 987,
+    "sha256": "382ac13d1f1d661e5fd212b51ca27fdd8a7b19f0e42ab50eeb18b6297c471d62",
+    "notice": "Original developer source release; own changes separately MIT"
+  },
+  {
+    "path": "abuse/src/net/unix/gserver.c",
+    "bytes": 11128,
+    "sha256": "36acf461023d6ded4f120685873baab9b4f81fa25673084ef324b14ca46199fc",
+    "notice": "Original developer source release; own changes separately MIT"
+  },
+  {
+    "path": "abuse/src/net/unix/gserver.hpp",
+    "bytes": 2182,
+    "sha256": "50233ddd59e04ce3dc39e41e0d2cdc45fb71bf5d8f5212857d1066368f16ec56",
+    "notice": "Original developer source release; own changes separately MIT"
+  },
+  {
+    "path": "abuse/src/net/unix/undrv.hpp",
+    "bytes": 296,
+    "sha256": "10675e157aae12d640a6c7e793c1739165d57e0b60b3bdd295b7eba7c57e15cc",
+    "notice": "Original developer source release; own changes separately MIT"
+  },
+  {
+    "path": "abuse/src/netcfg.c",
+    "bytes": 16478,
+    "sha256": "60fc398db81c0d5794609264fec9a2fb1aa6d75d93500a5581c787b1adb6a88a",
+    "notice": "Original developer source release; own changes separately MIT"
+  },
+  {
+    "path": "abuse/src/nfclient.c",
+    "bytes": 4847,
+    "sha256": "d3aeae79d45f8041cda83805db697e54bf067992d22b9f7261a4cbff1063ada2",
+    "notice": "Original developer source release; own changes separately MIT"
+  },
+  {
+    "path": "abuse/src/objects.c",
+    "bytes": 36632,
+    "sha256": "a6ee2730dceb66103dba4cd5ae957cde71dd60b575032e8977d33f611cea2f5f",
+    "notice": "Original developer source release; own changes separately MIT"
+  },
+  {
+    "path": "abuse/src/particle.c",
+    "bytes": 5186,
+    "sha256": "12e8552369511a3f43389ea642129f653c1034051cfb91ef5ce2a11ae2ddc892",
+    "notice": "Original developer source release; own changes separately MIT"
+  },
+  {
+    "path": "abuse/src/points.c",
+    "bytes": 668,
+    "sha256": "9bddf0e0b237a94d3bd45f6eba6dccf9ce8cd6605129930a198ff3cbdab7a083",
+    "notice": "Original developer source release; own changes separately MIT"
+  },
+  {
+    "path": "abuse/src/profile.c",
+    "bytes": 2375,
+    "sha256": "78e2c904cc42e72837ef4d760a076bbdb4d2a7a0e5393ba22acf019c4161e03b",
+    "notice": "Original developer source release; own changes separately MIT"
+  },
+  {
+    "path": "abuse/src/property.c",
+    "bytes": 3238,
+    "sha256": "1ca19e0765da217e0e746e0e1a463e3a5e64cbb8abda5aa6ba66493d5be7d288",
+    "notice": "Original developer source release; own changes separately MIT"
+  },
+  {
+    "path": "abuse/src/sensor.c",
+    "bytes": 1136,
+    "sha256": "32428afa23b9b287dd76a9c01ae943735249b489e08b8db90bc8556d1de2de57",
+    "notice": "Original developer source release; own changes separately MIT"
+  },
+  {
+    "path": "abuse/src/seq.c",
+    "bytes": 2054,
+    "sha256": "4e62bd279cc9331ab3291da4163b08712728709da27c38748c5b85638a0c4f50",
+    "notice": "Original developer source release; own changes separately MIT"
+  },
+  {
+    "path": "abuse/src/setup.c",
+    "bytes": 5149,
+    "sha256": "9e6c5e5ed555f232be674322f635693c00747e97b1d62c489700b8617da9233f",
+    "notice": "Original developer source release; own changes separately MIT"
+  },
+  {
+    "path": "abuse/src/smallfnt.c",
+    "bytes": 34100,
+    "sha256": "8ee41859261306191227edd1856d1ac05c1692af67bb912afe1a6f025f815ca3",
+    "notice": "Original developer source release; own changes separately MIT"
+  },
+  {
+    "path": "abuse/src/specache.c",
+    "bytes": 1644,
+    "sha256": "aa0e7cba2293d958b1859ebd504db49bf4257f76b75df3210f0fabdcda2574eb",
+    "notice": "Original developer source release; own changes separately MIT"
+  },
+  {
+    "path": "abuse/src/statbar.c",
+    "bytes": 8223,
+    "sha256": "45738627952e2c0427fc607a219142bfad970dc9dfc2b7f5a164869943f2f915",
+    "notice": "Original developer source release; own changes separately MIT"
+  },
+  {
+    "path": "abuse/src/text_gui.c",
+    "bytes": 10754,
+    "sha256": "c47c2cb80d3fef909b0a2ae3735bf65a1968f313e77d90deb132763fb28cb4d6",
+    "notice": "Original developer source release; own changes separately MIT"
+  },
+  {
+    "path": "abuse/src/transp.c",
+    "bytes": 1650,
+    "sha256": "5d63240a51eea5466a0e3786431a3fd800aacde8b0935c1fcf684736aaf87cd5",
+    "notice": "Original developer source release; own changes separately MIT"
+  },
+  {
+    "path": "abuse/src/trig.c",
+    "bytes": 13281,
+    "sha256": "0a9927e1cc4d748f88ec122964fd4747ff5b8738ba200138125a3fc8f5c90848",
+    "notice": "Original developer source release; own changes separately MIT"
+  },
+  {
+    "path": "abuse/src/username.c",
+    "bytes": 420,
+    "sha256": "e0ae03fa0d9890e54d6b7137c2671af7131c4b86c79dfa4d611e367c8dd50b19",
+    "notice": "Original developer source release; own changes separately MIT"
+  },
+  {
+    "path": "abuse/src/version.c",
+    "bytes": 1337,
+    "sha256": "0566d6b260e307366eac50558fe25b305689b7c96ff8ab967b663743da5f23d8",
+    "notice": "Original developer source release; own changes separately MIT"
+  },
+  {
+    "path": "abuse/src/view.c",
+    "bytes": 25782,
+    "sha256": "99584c81f4f71b317300fa36aa4c216c2cda87a0d6e391736e8950ee682a8c73",
+    "notice": "Original developer source release; own changes separately MIT"
+  },
+  {
+    "path": "imlib/decoder.c",
+    "bytes": 11212,
+    "sha256": "92f6cb8d2114b1d171a22ef7681f053ab45136f199fa6d91d1acbc8446fe2585",
+    "notice": "Bennett GIF credit/permission"
+  },
+  {
+    "path": "imlib/dprint.c",
+    "bytes": 693,
+    "sha256": "25783032e6b6fb6f5a59fc6d29c7c10d43c62f09be9cb00cb900a8fb57e573e4",
+    "notice": "Original developer source release; own changes separately MIT"
+  },
+  {
+    "path": "imlib/filesel.c",
+    "bytes": 3258,
+    "sha256": "5614840828c897f365ef0470b6f27f1b80828abf9275ee9385e627f07fcb4442",
+    "notice": "Original developer source release; own changes separately MIT"
+  },
+  {
+    "path": "imlib/filter.c",
+    "bytes": 5155,
+    "sha256": "d0d15ce06cbe0b48eb14b87aa2a594a9eb6560798524546b157d655a110e5896",
+    "notice": "Original developer source release; own changes separately MIT"
+  },
+  {
+    "path": "imlib/fonts.c",
+    "bytes": 1438,
+    "sha256": "e991a6b099c2e97d450d6c7f7dbca9c34c6c63c21062e3f38df357b6f4b8b506",
+    "notice": "Original developer source release; own changes separately MIT"
+  },
+  {
+    "path": "imlib/gifread.c",
+    "bytes": 2949,
+    "sha256": "cf3f1c56c9f532d2f1751e842ad169b95f446b79acee0cb8cf58d93429eec6fc",
+    "notice": "Original developer source release; own changes separately MIT"
+  },
+  {
+    "path": "imlib/globals.c",
+    "bytes": 19,
+    "sha256": "d78478b1ba93f733f0a8b47a626ba4f80172e58f4a12510ba66fbd563d34362d",
+    "notice": "Original developer source release; own changes separately MIT"
+  },
+  {
+    "path": "imlib/glread.c",
+    "bytes": 2955,
+    "sha256": "d0f19a72880bed5989443e924b143a32a5b60941e6cc87fd268115287f07beba",
+    "notice": "Original developer source release; own changes separately MIT"
+  },
+  {
+    "path": "imlib/guistat.c",
+    "bytes": 3177,
+    "sha256": "58b7b5eb242f783bbca7f3fb374c315476a30891b7b6ea1b0f7edb2801f1d393",
+    "notice": "Original developer source release; own changes separately MIT"
+  },
+  {
+    "path": "imlib/image.c",
+    "bytes": 31131,
+    "sha256": "08fa5110879f3393063f167096a42ab83020d2c93ab1dde7d7330b4511536325",
+    "notice": "Original developer source release; own changes separately MIT"
+  },
+  {
+    "path": "imlib/image24.c",
+    "bytes": 2140,
+    "sha256": "5a05f44e06c6c6eb6ce5f332808379ef9699ca03afc9892a8d6f80fa46408902",
+    "notice": "Original developer source release; own changes separately MIT"
+  },
+  {
+    "path": "imlib/include.c",
+    "bytes": 1482,
+    "sha256": "a2409b5fc9cdfb0b9742ec694647c873779450d0366da5bbbdb9431c53001c81",
+    "notice": "Original developer source release; own changes separately MIT"
+  },
+  {
+    "path": "imlib/include/dir.h",
+    "bytes": 58,
+    "sha256": "376fb04e62d9123004a7e54d051e53e5b48f5c28571789b88638b7e19aa10295",
+    "notice": "Original developer source release; own changes separately MIT"
+  },
+  {
+    "path": "imlib/include/dos.h",
+    "bytes": 58,
+    "sha256": "a8c20be0b1f4086fa0b8e4e6049bf7fd457cc45790d0346db70244385d551ad2",
+    "notice": "Original developer source release; own changes separately MIT"
+  },
+  {
+    "path": "imlib/include/dprint.hpp",
+    "bytes": 283,
+    "sha256": "a78d2531504c516fea9cc2f0008d769c5e704f39d756c39c0b185f31bfe7daf7",
+    "notice": "Original developer source release; own changes separately MIT"
+  },
+  {
+    "path": "imlib/include/emm.hpp",
+    "bytes": 1047,
+    "sha256": "db4f73b0c51fba3f2e024c334ca9eda192efb3c40fd609664b54915515507776",
+    "notice": "Original developer source release; own changes separately MIT"
+  },
+  {
+    "path": "imlib/include/errs.h",
+    "bytes": 367,
+    "sha256": "716739e506976f0aa9bccf53773dc7719131371add3b95a8fdd2977143e90272",
+    "notice": "Original developer source release; own changes separately MIT"
+  },
+  {
+    "path": "imlib/include/event.hpp",
+    "bytes": 2011,
+    "sha256": "60d8ebe658d950b49a074098d8fcb4a5c1186d1fc38bb0e6d7c00cfe4458dfb3",
+    "notice": "Original developer source release; own changes separately MIT"
+  },
+  {
+    "path": "imlib/include/exitproc.hpp",
+    "bytes": 232,
+    "sha256": "2e871eb39d207c96007465c1fc9a6a81f8782665e247c71613a4543a78491455",
+    "notice": "Original developer source release; own changes separately MIT"
+  },
+  {
+    "path": "imlib/include/filesel.hpp",
+    "bytes": 270,
+    "sha256": "3ca2cd2591cf802a185bd0533785eb4a7d88efbf4dc68a75940c574466d02bfe",
+    "notice": "Original developer source release; own changes separately MIT"
+  },
+  {
+    "path": "imlib/include/filter.hpp",
+    "bytes": 1181,
+    "sha256": "96f53e66f396facffba8432f230091b4fe15bf9789883c33746c403ef2db1185",
+    "notice": "Original developer source release; own changes separately MIT"
+  },
+  {
+    "path": "imlib/include/fonts.hpp",
+    "bytes": 913,
+    "sha256": "aa6cfd361d7a09bd46fcc57ca67838076153378b74189eec41ebcdc525d1623d",
+    "notice": "Original developer source release; own changes separately MIT"
+  },
+  {
+    "path": "imlib/include/gifdecod.hpp",
+    "bytes": 150,
+    "sha256": "c71137658dbe89bbc6499cda3ac4d5ff12101f68ee53d09f1caaf7bc2b1c963f",
+    "notice": "Original developer source release; own changes separately MIT"
+  },
+  {
+    "path": "imlib/include/gifread.hpp",
+    "bytes": 138,
+    "sha256": "9d2ff5fd09c4a1d0bd337019fc77bcee6875835d1106df6c5b55033065d98625",
+    "notice": "Original developer source release; own changes separately MIT"
+  },
+  {
+    "path": "imlib/include/glread.hpp",
+    "bytes": 196,
+    "sha256": "56543f31efbc8d0a992b290885f58c0338e16ade4640ca8f7eec693633298e59",
+    "notice": "Original developer source release; own changes separately MIT"
+  },
+  {
+    "path": "imlib/include/guistat.hpp",
+    "bytes": 596,
+    "sha256": "7cbf4f377fd61e97feec7a7527aece12b5d3547f601c753b1c9750c0f47ac6a9",
+    "notice": "Original developer source release; own changes separately MIT"
+  },
+  {
+    "path": "imlib/include/image.hpp",
+    "bytes": 7097,
+    "sha256": "7c3983fa27abd6b0e6f4ffdf985ad2881492db382823b4325534d43eb59fe042",
+    "notice": "Original developer source release; own changes separately MIT"
+  },
+  {
+    "path": "imlib/include/image24.hpp",
+    "bytes": 1128,
+    "sha256": "3abd59d82425cec280f4d62f292209454444c40ea2f6e3a34e954ee599337117",
+    "notice": "Original developer source release; own changes separately MIT"
+  },
+  {
+    "path": "imlib/include/include.hpp",
+    "bytes": 173,
+    "sha256": "5d0b40b5f51b24aa5a7ba798a30ef885c266a76838f76d9052cdf32960efea81",
+    "notice": "Original developer source release; own changes separately MIT"
+  },
+  {
+    "path": "imlib/include/input.hpp",
+    "bytes": 4071,
+    "sha256": "da7487d90646b8155d5404ced42be014fdca957dac1720544616c767b2a6f556",
+    "notice": "Original developer source release; own changes separately MIT"
+  },
+  {
+    "path": "imlib/include/jdir.hpp",
+    "bytes": 134,
+    "sha256": "d3226f79dc3b48473406158781c0063d204a67447034c047850aeb68512b9686",
+    "notice": "Original developer source release; own changes separately MIT"
+  },
+  {
+    "path": "imlib/include/jmalloc.hpp",
+    "bytes": 557,
+    "sha256": "883e6ca383fe07ae5c4fe9c640fd6ac1bbf402d67be517089f31cc479c6053ce",
+    "notice": "Original developer source release; own changes separately MIT"
+  },
+  {
+    "path": "imlib/include/joy.hpp",
+    "bytes": 229,
+    "sha256": "9696ee1e32183f6e0acf9d26b5454fe57f7092ac569188cc10ed0258831e11bc",
+    "notice": "Original developer source release; own changes separately MIT"
+  },
+  {
+    "path": "imlib/include/jrand.hpp",
+    "bytes": 371,
+    "sha256": "c2f9bbdec8dff37a338c0d0645c73b8fc74c6e9b49265759f468510e39d16e05",
+    "notice": "Original developer source release; own changes separately MIT"
+  },
+  {
+    "path": "imlib/include/jwindow.hpp",
+    "bytes": 4769,
+    "sha256": "45a0d8b97ec3e9f474b50285c822c955a2bbc0b01571b592ba3531fa0de09f4a",
+    "notice": "Original developer source release; own changes separately MIT"
+  },
+  {
+    "path": "imlib/include/keys.hpp",
+    "bytes": 993,
+    "sha256": "fdfa55848d9c353e5d20a5fe456fff906c9add635e5bf4877b861cede759f585",
+    "notice": "Original developer source release; own changes separately MIT"
+  },
+  {
+    "path": "imlib/include/lbmread.hpp",
+    "bytes": 146,
+    "sha256": "c867e9f7eb193f348da20cad84c77ba734360cfe8b8bea1c28037ffb5590ec10",
+    "notice": "Original developer source release; own changes separately MIT"
+  },
+  {
+    "path": "imlib/include/linked.hpp",
+    "bytes": 3755,
+    "sha256": "d456326c4f64751346744b1b2cb74efb9f0955155f7b6e22c67750d353255a55",
+    "notice": "Original developer source release; own changes separately MIT"
+  },
+  {
+    "path": "imlib/include/loader.hpp",
+    "bytes": 1024,
+    "sha256": "9caaf337fa331cfee2e794b7fde97bf6908eafeeabacd22108d89f724aad090b",
+    "notice": "Original developer source release; own changes separately MIT"
+  },
+  {
+    "path": "imlib/include/macs.hpp",
+    "bytes": 658,
+    "sha256": "8b5ab9dbd1e3ae786b37380dd65212bdba55e0f2c488b725f620307ed92a5fe5",
+    "notice": "Original developer source release; own changes separately MIT"
+  },
+  {
+    "path": "imlib/include/main.hpp",
+    "bytes": 66,
+    "sha256": "45673aa18052e73e2fa711edeaf451ab2ef1f3abb2351f42bf035088a267e401",
+    "notice": "Original developer source release; own changes separately MIT"
+  },
+  {
+    "path": "imlib/include/mdlread.hpp",
+    "bytes": 393,
+    "sha256": "f4c5b5d397e4a890a56f9e94a547fc71f321e2d4fd2d06882364ff8791525be6",
+    "notice": "Original developer source release; own changes separately MIT"
+  },
+  {
+    "path": "imlib/include/monoprnt.hpp",
+    "bytes": 102,
+    "sha256": "6933be4ba78d3bec561101602cd03f6c0456c90d2c8eb9fdfbaa5e96c4d177fb",
+    "notice": "Original developer source release; own changes separately MIT"
+  },
+  {
+    "path": "imlib/include/morph.hpp",
+    "bytes": 2622,
+    "sha256": "1969e241f43603e7444ec5a4521cb0767432379b37fed0c8d115c413861e079a",
+    "notice": "Original developer source release; own changes separately MIT"
+  },
+  {
+    "path": "imlib/include/mouse.hpp",
+    "bytes": 1047,
+    "sha256": "529408d5daff881405c9191a180dcd649d08d35f0a87ce03a52ca7d072ddfe62",
+    "notice": "Original developer source release; own changes separately MIT"
+  },
+  {
+    "path": "imlib/include/packet.hpp",
+    "bytes": 694,
+    "sha256": "b270868e08d1a8fd91303e4c2c528341a95a70659c5b39cada0b0e4b009c85e4",
+    "notice": "Original developer source release; own changes separately MIT"
+  },
+  {
+    "path": "imlib/include/palette.hpp",
+    "bytes": 2910,
+    "sha256": "0bb28bc05282a5f6790fe08f9d175899edc25c30c99bdbb12a19b848f278e835",
+    "notice": "Original developer source release; own changes separately MIT"
+  },
+  {
+    "path": "imlib/include/pcxread.hpp",
+    "bytes": 351,
+    "sha256": "96034e3025b5222e1981ba74df56f807a3c268ad29282d0e961b59aa272cc2ac",
+    "notice": "Original developer source release; own changes separately MIT"
+  },
+  {
+    "path": "imlib/include/pmenu.hpp",
+    "bytes": 2096,
+    "sha256": "7f8bf7a590bc90f3ea80218a24da205389ece4aaf96f93cc1c0ce226022e2146",
+    "notice": "Original developer source release; own changes separately MIT"
+  },
+  {
+    "path": "imlib/include/ppmread.hpp",
+    "bytes": 268,
+    "sha256": "2688014b380a299219523358f5dd3b748aa66ac5ad96d4397e0f8f2a28e919df",
+    "notice": "Original developer source release; own changes separately MIT"
+  },
+  {
+    "path": "imlib/include/scroller.hpp",
+    "bytes": 4535,
+    "sha256": "f03804ef81fadd44c9d0e34cbb66a0f170d899bd6cc732eb0eb236c9653dc62c",
+    "notice": "Original developer source release; own changes separately MIT"
+  },
+  {
+    "path": "imlib/include/sound.hpp",
+    "bytes": 823,
+    "sha256": "eff010d9077a05b6cf6e5221c02b53027118854e983c0dbd4a9e35c1a0f33dd0",
+    "notice": "Original developer source release; own changes separately MIT"
+  },
+  {
+    "path": "imlib/include/specs.hpp",
+    "bytes": 6879,
+    "sha256": "c01869238f23984da05e5f76375cdb7b87b8fe5aaf2416c2e865e739bf3b59de",
+    "notice": "Original developer source release; own changes separately MIT"
+  },
+  {
+    "path": "imlib/include/sprite.hpp",
+    "bytes": 628,
+    "sha256": "02db1ce81849362b762ba5508f8b990c538691c3ef3b699abd79bb07974b7456",
+    "notice": "Original developer source release; own changes separately MIT"
+  },
+  {
+    "path": "imlib/include/status.hpp",
+    "bytes": 880,
+    "sha256": "7de57321affe369ece99ec5553376bd43326c348d2bc9bc9209c2e5cf5f52694",
+    "notice": "Original developer source release; own changes separately MIT"
+  },
+  {
+    "path": "imlib/include/std.h",
+    "bytes": 315,
+    "sha256": "4894a564912885f69fb52a94de2847645b827b1d387e7da2a7f27d7341e32046",
+    "notice": "Original developer source release; own changes separately MIT"
+  },
+  {
+    "path": "imlib/include/supmorph.hpp",
+    "bytes": 711,
+    "sha256": "9938a471111b757d2c772690e7aeed2def9b9d97a50395d128168cc1da6fd2fc",
+    "notice": "Original developer source release; own changes separately MIT"
+  },
+  {
+    "path": "imlib/include/system.h",
+    "bytes": 1454,
+    "sha256": "5f3c78d450172d41ef0cc6789b0df7080daac1fdf1bd16eee1f2778bf93f0643",
+    "notice": "Original developer source release; own changes separately MIT"
+  },
+  {
+    "path": "imlib/include/targa.hpp",
+    "bytes": 141,
+    "sha256": "546e71e291420e7509b0232d9dc0a2b9304230118c1d42b73e799846a46ada12",
+    "notice": "Original developer source release; own changes separately MIT"
+  },
+  {
+    "path": "imlib/include/timage.hpp",
+    "bytes": 1896,
+    "sha256": "a3ea1d6152ed9a0d4b81869e52711d976c1221837a14cd4507387db4457e62f6",
+    "notice": "Original developer source release; own changes separately MIT"
+  },
+  {
+    "path": "imlib/include/timing.hpp",
+    "bytes": 386,
+    "sha256": "947db6733e8af983ec6e96e4a3a634839841f94be5514fcc7015a81915f24322",
+    "notice": "Original developer source release; own changes separately MIT"
+  },
+  {
+    "path": "imlib/include/tools.hpp",
+    "bytes": 1088,
+    "sha256": "1caa875a837de14318e66bec3a5c67f7eac47fe7f3ad054f56573240660e4b26",
+    "notice": "Original developer source release; own changes separately MIT"
+  },
+  {
+    "path": "imlib/include/video.hpp",
+    "bytes": 671,
+    "sha256": "c6806036df60ad5722e2e9290550a85cbea214bd7d8971dd5d83c5fead7af69f",
+    "notice": "Original developer source release; own changes separately MIT"
+  },
+  {
+    "path": "imlib/include/visobj.hpp",
+    "bytes": 960,
+    "sha256": "e50a593de7b7620ed1cb3800feb43ddce959190a274e376cf2ae3aaf35599441",
+    "notice": "Original developer source release; own changes separately MIT"
+  },
+  {
+    "path": "imlib/include/xwdread.hpp",
+    "bytes": 384,
+    "sha256": "6fac0f7e0dcee51bdba4f0f0255606bee0d8d3ebaa78aa4701bbce9d38b59fdc",
+    "notice": "Original developer source release; own changes separately MIT"
+  },
+  {
+    "path": "imlib/input.c",
+    "bytes": 12303,
+    "sha256": "5ad284f7540c75d69da64f750391d4493e79134fd5f115f877c4f460847cf2ea",
+    "notice": "Original developer source release; own changes separately MIT"
+  },
+  {
+    "path": "imlib/jmalloc.c",
+    "bytes": 22499,
+    "sha256": "4926b4240bdaf6fd07744558ee014d1aac8f75676fd60eebb12930c20bff7bdd",
+    "notice": "Original developer source release; own changes separately MIT"
+  },
+  {
+    "path": "imlib/jrand.c",
+    "bytes": 498,
+    "sha256": "2b0f5f32bda0234003d8607b8a13df41f24ade95ee449db229118ea54c6cf2a5",
+    "notice": "Original developer source release; own changes separately MIT"
+  },
+  {
+    "path": "imlib/jwindow.c",
+    "bytes": 13864,
+    "sha256": "8dd660b9d5cf98d183988b4cbd1bf97a0481d859d842425a5169b69cadc84cb0",
+    "notice": "Original developer source release; own changes separately MIT"
+  },
+  {
+    "path": "imlib/keys.c",
+    "bytes": 929,
+    "sha256": "1a8702ba0eae0ab8ed2e58402eb2f84e2eada089a20a447c8a14e9bfc4d5a8a4",
+    "notice": "Original developer source release; own changes separately MIT"
+  },
+  {
+    "path": "imlib/lbmread.c",
+    "bytes": 2087,
+    "sha256": "f3c47fec370a79778e0dc74d27a7f63844ae94104f3dd29eb1863b11e45000fb",
+    "notice": "Original developer source release; own changes separately MIT"
+  },
+  {
+    "path": "imlib/linked.c",
+    "bytes": 4243,
+    "sha256": "779b9cd00fd57cb37f24f949b6af15fa693db0b3ee4317738684279ef9beb9c7",
+    "notice": "Original developer source release; own changes separately MIT"
+  },
+  {
+    "path": "imlib/loader.c",
+    "bytes": 4028,
+    "sha256": "67e3cc38d4599839d3faa4bc27632ab38e984eb22cc54250a685bc8c15d10953",
+    "notice": "Original developer source release; own changes separately MIT"
+  },
+  {
+    "path": "imlib/mdlread.c",
+    "bytes": 5457,
+    "sha256": "8d93fd197f681356a6d82662bf26441b95afee75e2409e53a9add89dfe99972d",
+    "notice": "Original developer source release; own changes separately MIT"
+  },
+  {
+    "path": "imlib/packet.c",
+    "bytes": 1529,
+    "sha256": "4b68b71d14f6a20994bb85de67439512d9ab5d168d3573c636a64f5a41e85e59",
+    "notice": "Original developer source release; own changes separately MIT"
+  },
+  {
+    "path": "imlib/palette.c",
+    "bytes": 10617,
+    "sha256": "9d70b1d56c26f2fa1bdccf8a2a32826e362b1d5972229e74f51e378e61390f5d",
+    "notice": "Original developer source release; own changes separately MIT"
+  },
+  {
+    "path": "imlib/pcxread.c",
+    "bytes": 5264,
+    "sha256": "b6d6b941ec40ea83302fc6c1b12791b5d223883ca7e613591c8795500680fcae",
+    "notice": "Original developer source release; own changes separately MIT"
+  },
+  {
+    "path": "imlib/pmenu.c",
+    "bytes": 10297,
+    "sha256": "66718bf4200b8ef8183bc41d47511d5f645166555506874f98844ddad8450af9",
+    "notice": "Original developer source release; own changes separately MIT"
+  },
+  {
+    "path": "imlib/ppmread.c",
+    "bytes": 2241,
+    "sha256": "7d15f2ed72b83b6e029fe01f778a0a937f7720d5197031e64d392565c505fadc",
+    "notice": "Original developer source release; own changes separately MIT"
+  },
+  {
+    "path": "imlib/scroller.c",
+    "bytes": 15559,
+    "sha256": "afed635ef29ec473ecddac464f10b78e940f20e2431357b0f5ef51535e5f7a2b",
+    "notice": "Original developer source release; own changes separately MIT"
+  },
+  {
+    "path": "imlib/specs.c",
+    "bytes": 21076,
+    "sha256": "a1ca6d3f3c5fcdc333aa4aaf7d9d60b11bf12e9e6aa5a0df2a7b22442e89dca1",
+    "notice": "Original developer source release; own changes separately MIT"
+  },
+  {
+    "path": "imlib/sprite.c",
+    "bytes": 1954,
+    "sha256": "f1013c87a9394fdbdb44aac3e38b182405253e17279930a73a5f393f604461d1",
+    "notice": "Original developer source release; own changes separately MIT"
+  },
+  {
+    "path": "imlib/status.c",
+    "bytes": 1303,
+    "sha256": "849d328b80eb41e3ac1cede738a19bdd3f3178076ce18a5d57b2d452cb07738d",
+    "notice": "Original developer source release; own changes separately MIT"
+  },
+  {
+    "path": "imlib/supmorph.c",
+    "bytes": 8656,
+    "sha256": "0ed7165fb1cec0c7e7b8baca7f8d8d4533d8fbb510ddf2c2f12e90b305b88b7a",
+    "notice": "Original developer source release; own changes separately MIT"
+  },
+  {
+    "path": "imlib/targa.c",
+    "bytes": 2002,
+    "sha256": "54b8da9f9b3516d78063489aa585bc8e6045ca3e17c024fbb7dce6eff08f15a0",
+    "notice": "Original developer source release; own changes separately MIT"
+  },
+  {
+    "path": "imlib/texture.c",
+    "bytes": 9479,
+    "sha256": "8ba965e9e41562a72d05c3b143a9b624f35fc8fb9d136c4fbf7662b65c0cd9c0",
+    "notice": "Original developer source release; own changes separately MIT"
+  },
+  {
+    "path": "imlib/timage.c",
+    "bytes": 25418,
+    "sha256": "9707205613f68c007ec508c2ade95b042261aaee7bbb25a737bef1b77e0bea6b",
+    "notice": "Original developer source release; own changes separately MIT"
+  },
+  {
+    "path": "imlib/tools.c",
+    "bytes": 1163,
+    "sha256": "97a767593eb51ea60c05d6548d3d3b2dff5b3013742d0f40019e483b3d3aa9f6",
+    "notice": "Original developer source release; own changes separately MIT"
+  },
+  {
+    "path": "imlib/visobj.c",
+    "bytes": 1337,
+    "sha256": "0bbb723642ccf32112f9e9d62fd94a9f90366cdcddb5f1b1638b214169abaf8e",
+    "notice": "Original developer source release; own changes separately MIT"
+  },
+  {
+    "path": "imlib/xwdread.c",
+    "bytes": 14323,
+    "sha256": "c691624c62bc87185463b69951a0955988520ed982e0257bccdc1f880acfb1f5",
+    "notice": "Original developer source release; own changes separately MIT"
+  }
+]

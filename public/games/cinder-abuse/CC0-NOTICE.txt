@@ -1,0 +1,3 @@
+All generated resource payloads, glyph designs and boot.lsp text/configuration in this authored pack are independently authored and dedicated to the public domain under CC0 1.0 Universal by DecompGames contributors. No prior game bitmap, map, animation, audio, font or script was used as an input.
+https://creativecommons.org/publicdomain/zero/1.0/
+This staged boot pack is incomplete; it is not the original Abuse game, a complete replacement campaign or a clean-room certification. Native engine, generator and browser adapter code have separate terms.

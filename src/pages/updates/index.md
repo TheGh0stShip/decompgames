@@ -3,6 +3,10 @@ layout: ../../layouts/Article.astro
 title: What’s new
 description: Release notes and compatibility changes for Decomp Games.
 ---
+## October 13, 2026 — Cinder: an authored challenge in the Abuse engine
+
+Cinder ports the developer-released Abuse engine to WebAssembly with independently authored CC0 graphics, glyphs, animation, text, rules and two heat courses. It is a silent source port with new content, not retail Abuse or a matching decompilation. Muted local tests covered both exits, death/retry, jump avoidance, and a damaged native save restored after a full browser restart. Broader save failure cases and other devices remain unverified. [Play Cinder](/games/cinder-abuse/).
+
 ## October 10, 2026 — Skate 3: online rooms, community maps, regenerated geometry
 
 The Skate 3 clean-room build now has multiplayer: open a private room and send the invite link, or a public room that anyone can join from the Multiplayer menu, for up to ten skaters on the same map. The map picker lists community maps published on skatemods.com and opens `.skate` files from your own disk. The visual geometry of every park and the skater is now regenerated like the textures and sounds, and a ninth park, built from Kenney's CC0 Mini Skate kit, has been added. Multiplayer has only been checked between two test browsers so far. [Play Skate 3](/games/skate-3/).

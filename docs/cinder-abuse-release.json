@@ -1,0 +1,422 @@
+{
+  "date": "2026-10-13",
+  "id": "cinder-abuse",
+  "title": "Cinder (Abuse source port)",
+  "classification": "Original developer-released source port with independently authored two-course survival content; not retail Abuse, matching decompilation, emulation or clean-room certified",
+  "upstream": {
+    "repo": "videogamepreservation/abuse",
+    "pin": "01cce80eaf2ae82bafb9981162e205e42d0fae2f",
+    "nativeCodeTerms": "Crack dot Com public-domain source release; separate credited Bennett GIF redistribution/inclusion permission",
+    "originalMediaOrTrademarksGrantedByCodeLicense": false
+  },
+  "distribution": {
+    "base": "/games/cinder-abuse/",
+    "files": [
+      {
+        "path": "asset-provenance.json",
+        "bytes": 80625,
+        "sha256": "323842c447b14e3529ea176353c168e47e465db5afbfb147066cec8eaafeeb5c"
+      },
+      {
+        "path": "AUTHORED-ADAPTER-LICENSE.txt",
+        "bytes": 1694,
+        "sha256": "f1b21120d4ac8d30439847e8ca8464b2ed9e0bd77e9b00d6f216cc1fe85584ab"
+      },
+      {
+        "path": "authored-boot.data",
+        "bytes": 280227,
+        "sha256": "eb15b0d788e1d2d1f7a79112069208aac79ee4488db696ed2f544a15cb846611"
+      },
+      {
+        "path": "authored-boot.js",
+        "bytes": 234988,
+        "sha256": "fb1435016bce3f6fcce265c12dab2af9bfa2ad49255b4a73f5977d17d2f998ab"
+      },
+      {
+        "path": "authored-boot.wasm",
+        "bytes": 2609581,
+        "sha256": "6ef09f00a1267b9b702fc811c774a9ceb6b476964876b64be1bd86d7abb6416b"
+      },
+      {
+        "path": "authored-menu-patches.json",
+        "bytes": 512,
+        "sha256": "83ae96885fac9a93fd749d20f3b93d115fe41ba45f7efecdfae796a266c27bf2"
+      },
+      {
+        "path": "authored-save-namespace-patches.json",
+        "bytes": 389,
+        "sha256": "e528c69927c60b84c5f85a842747eb1fe9897f48d46a85019897cb4216394e4b"
+      },
+      {
+        "path": "BUILD-NOTES.md",
+        "bytes": 2325,
+        "sha256": "d22a91237d0a98dd7eb6fb36f5e29676e6aff5fc4dab06514a76273096188021"
+      },
+      {
+        "path": "CC0-NOTICE.txt",
+        "bytes": 558,
+        "sha256": "687d6339cfa84780b4a422b207811750e8114bf44cd97a22f326aea373e058da"
+      },
+      {
+        "path": "emitted-js-origins.json",
+        "bytes": 36627,
+        "sha256": "241648c9e553d823602d16af04fe0052bf98f60963496a90c68f45921b24bc1b"
+      },
+      {
+        "path": "NOTICE.txt",
+        "bytes": 130782,
+        "sha256": "1e41c6a7fbb29f76a4b93f0bc974fe468f84b9c7330e663ea037f63b9dbe3fda"
+      },
+      {
+        "path": "ORIGINAL-RELEASE.txt",
+        "bytes": 4326,
+        "sha256": "354821e4e11e0325f71b8f8bcd81ac05a091c95f6e7b3c12b91bd4acc9c5c233"
+      },
+      {
+        "path": "player.html",
+        "bytes": 3245,
+        "sha256": "e563b456ec1b1442365ec8f217fa4d7a5f838bbcc8838d2a2b8f81a351a5f753"
+      },
+      {
+        "path": "selected-native-inputs.json",
+        "bytes": 47690,
+        "sha256": "0faedf2c5c65be982b53b64cd30549e4d268dbacd54b42dcf6b4a8d1c11ab877"
+      },
+      {
+        "path": "template-preload-origins.json",
+        "bytes": 8395,
+        "sha256": "83465e4a481348ba68ad8bf39cc3d6d09cb38c63946d370044a37e775b9f89b4"
+      },
+      {
+        "path": "THIRD_PARTY_NOTICES.md",
+        "bytes": 1853,
+        "sha256": "72ad8937d386608853ced92d1fea00a3f0dab879f63a9eb545f424b1b0a337da"
+      }
+    ],
+    "sourceArchive": "/sources/cinder-abuse-01cce80-browser-56e0d70f-source.zip",
+    "sourceArchiveBytes": 453719,
+    "sourceArchiveSHA256": "56e0d70f9207e724b3a2b42090c7048b85167c9a86343ff9743e73b6fff072a0",
+    "sourceInputs": 230,
+    "sourceZIPAllPayloadHashesVerified": true,
+    "sourceZIPContainsPrebuiltObjectsRuntimeSPECOrRetailFiles": false,
+    "sourceUploadedToR2": true,
+    "thumbnail": {
+      "path": "/images/cinder-abuse.png",
+      "bytes": 4078,
+      "sha256": "1d8e2d3d1235f42a44b7528998d8c1bc280ce6ae84c3bf8787afde50b7dcc3ff",
+      "provenance": "Actual native canvas capture of independently authored CC0 content; no bitmap editing or retail image inputs"
+    }
+  },
+  "build": {
+    "nativeObjects": 96,
+    "ownObjects": 4,
+    "selectedNativeFiles": 208,
+    "frozenOwnInterfaceLabels": 148,
+    "strictLinkExitCode": 0,
+    "undefinedSymbolsAllowed": false,
+    "oldPrivateObjectsRequiredForSourceRebuild": false,
+    "toolchain": "Emscripten6.0.10 at d6c521a7f05449857c76bd99e396895583cf2083",
+    "legacyWarningsRetained": 222
+  },
+  "licensingAndProvenance": {
+    "ownCode": "Expanded MIT grant explicitly covers browser/storage/diagnostic adapters, generator/build/host/test code and own native modifications; original source and runtime terms separate",
+    "ownContent": "CC0 own graphics, glyph/font pixels, animation, text/rules/maps and canvas capture; no original retail/shareware art/font/scripts/maps/music/sound used",
+    "resources": 185,
+    "SPECArchives": 11,
+    "ownWorkerFrames": 14,
+    "maps": 2,
+    "generatedContentFiles": 14,
+    "extraPackedProvenanceManifest": 1,
+    "linkedRuntime": "Same seven selected archives/193 unique extracted members as prior inventory; full Emscripten MIT-or-NCSA, musl/individual notices, LLVM Apache2 WITH LLVM exception, dlmalloc dedication retained",
+    "emittedJavaScript": {
+      "librarySymbols": 129,
+      "definingMITLibraries": 15,
+      "unresolvedOrigins": 0,
+      "ownEMJSFunctions": 8,
+      "templates": 12,
+      "preloaderGenerator": 1,
+      "ownedPreloadPayloads": 15
+    },
+    "neutralLabelUpdate": "Successful browser-edition trace predates neutral public-label metadata change. Narrow comparison proves all runtime JS code and working WASM unchanged; only final own provenance metadata end/remote size changed. All current data slices match owned files. Public package was rebuilt from source before temporary external SDK drive disappeared.",
+    "failedOptionalRerun": "External SDK drive was unavailable on follow-up trace. Failure retained privately; no successful fresh trace rerun claimed. Prior successful trace and exact code/payload follow-up are kept separately.",
+    "cleanRoomCertified": false
+  },
+  "browserEditionChanges": {
+    "nativeMenu": "Own script flag exposes Start/brightness/Return only; desktop INFO/load-slot/network/volume controls not selected for this pack",
+    "saveNamespace": "/cinder-saves/course-save.spe in origin/profile-local IDBFS; native availability/save/load paths updated together",
+    "host": "Clear controls, source/notice/provenance links, collapsed diagnostics, Stop/Reload and unsupported desktop-shortcut filter; audio device unavailable"
+  },
+  "localAcceptance": {
+    "environment": "Exact rebuilt public candidate, headless Edge --mute-audio; isolated profile/loopback origin",
+    "gameplay": "Ordinary GO/arrows/Up native heat damage/safe floor/death/frozen controls/Enter retry; timed jump avoids first strip with HP100; two authored courses completed with HP75, Enter restart at HP100",
+    "nativeSave": {
+      "x": 52,
+      "y": 190,
+      "hp": 50,
+      "bytes": 26110,
+      "sha256": "c75dd639a0cde1915fce4c4127d7048462294112b1d4209196ed9398d9909b2e",
+      "ownMarker": true,
+      "retailMarker": false,
+      "normalLoadVerified": true
+    },
+    "fullBrowserRestart": {
+      "bytes": 26110,
+      "sha256": "c75dd639a0cde1915fce4c4127d7048462294112b1d4209196ed9398d9909b2e",
+      "byteIdentical": true
+    },
+    "nativeMenuTests": [
+      {
+        "label": "first removed desktop INFO slot",
+        "values": [
+          6,
+          -1,
+          50,
+          50,
+          2,
+          0,
+          100,
+          1,
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "label": "first native brightness returned",
+        "values": [
+          6,
+          -1,
+          50,
+          50,
+          2,
+          0,
+          100,
+          1,
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "label": "reopened removed desktop INFO slot",
+        "values": [
+          6,
+          -1,
+          50,
+          50,
+          2,
+          0,
+          100,
+          1,
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "label": "reopened native brightness returned",
+        "values": [
+          6,
+          -1,
+          50,
+          50,
+          2,
+          0,
+          100,
+          1,
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "label": "native Return menu",
+        "values": [
+          6,
+          19,
+          50,
+          190,
+          2,
+          0,
+          100,
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "label": "native Return resumed course",
+        "values": [
+          0,
+          24,
+          50,
+          190,
+          2,
+          0,
+          100,
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "label": "unsupported desktop shortcut blocked",
+        "values": [
+          0,
+          27,
+          50,
+          190,
+          2,
+          0,
+          100,
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      }
+    ],
+    "hostStopVerified": true,
+    "noMemorySaveDatabaseOrRNGEditsByHarness": true,
+    "hudFullGlyphAndGammaAdjustedEnergyBarChecks": [
+      {
+        "label": "full energy",
+        "title": "COURSE 1 - REACH THE RIGHT EXIT",
+        "message": "UP JUMPS HEAT / S SAVE / L LOAD",
+        "hp": 100,
+        "fullGlyphRowsAndEnergyBarVerified": true
+      },
+      {
+        "label": "heat removed one quarter energy",
+        "title": "COURSE 1 - REACH THE RIGHT EXIT",
+        "message": "UP JUMPS HEAT / S SAVE / L LOAD",
+        "hp": 75,
+        "fullGlyphRowsAndEnergyBarVerified": true
+      },
+      {
+        "label": "damaged safe checkpoint",
+        "title": "COURSE 1 - REACH THE RIGHT EXIT",
+        "message": "UP JUMPS HEAT / S SAVE / L LOAD",
+        "hp": 50,
+        "fullGlyphRowsAndEnergyBarVerified": true
+      },
+      {
+        "label": "death and empty energy",
+        "title": "ENERGY EMPTY - ENTER RETRY",
+        "message": "UP JUMPS HEAT / S SAVE / L LOAD",
+        "hp": 0,
+        "fullGlyphRowsAndEnergyBarVerified": true
+      },
+      {
+        "label": "healthy retry",
+        "title": "COURSE 1 - REACH THE RIGHT EXIT",
+        "message": "UP JUMPS HEAT / S SAVE / L LOAD",
+        "hp": 100,
+        "fullGlyphRowsAndEnergyBarVerified": true
+      }
+    ],
+    "twoCourseHUDChecks": [
+      {
+        "label": "second map arrived",
+        "checks": [
+          {
+            "text": "COURSE 2 - REACH THE RIGHT EXIT",
+            "y": 8,
+            "inkPixels": 380,
+            "backgroundPixels": 2038
+          },
+          {
+            "text": "UP JUMPS HEAT / S SAVE / L LOAD",
+            "y": 21,
+            "inkPixels": 336,
+            "backgroundPixels": 2082
+          }
+        ],
+        "fullGlyphRowsVerified": true
+      },
+      {
+        "label": "completed course",
+        "checks": [
+          {
+            "text": "COURSE COMPLETE - ENTER RESTART",
+            "y": 8,
+            "inkPixels": 411,
+            "backgroundPixels": 2007
+          },
+          {
+            "text": "UP JUMPS HEAT / S SAVE / L LOAD",
+            "y": 21,
+            "inkPixels": 336,
+            "backgroundPixels": 2082
+          }
+        ],
+        "fullGlyphRowsVerified": true
+      },
+      {
+        "label": "ordinary held Enter restart",
+        "checks": [
+          {
+            "text": "COURSE 1 - REACH THE RIGHT EXIT",
+            "y": 8,
+            "inkPixels": 376,
+            "backgroundPixels": 2042
+          },
+          {
+            "text": "UP JUMPS HEAT / S SAVE / L LOAD",
+            "y": 21,
+            "inkPixels": 336,
+            "backgroundPixels": 2082
+          }
+        ],
+        "fullGlyphRowsVerified": true
+      }
+    ],
+    "pageErrors": [],
+    "consoleErrors": [],
+    "missingResources": [],
+    "allPlayersAndServersClosed": true,
+    "audibleAudioVerified": false,
+    "testVersionNote": "Neutral public labels/provenance metadata followed the successful local gameplay tests; native WASM, runtime code, maps/scripts/graphics unchanged. Current exact live acceptance remains separate.",
+    "preservedHarnessFailure": "Instant Escape down/up was missed by native key polling; final normal held Escape opens native Return menu. No engine/console errors in either attempt."
+  },
+  "validation": {
+    "catalogEntries": 84,
+    "old83CatalogObjectsUnchanged": true,
+    "type": "Source port",
+    "actualDecompilationCountIncreased": false,
+    "checkErrors": 0,
+    "checkWarnings": 0,
+    "existingHints": 2,
+    "builtPages": 148,
+    "indexablePages": 110,
+    "distributionRecords": 665,
+    "auditedEntries": 8
+  },
+  "limits": [
+    "Own two-course prototype only; not the retail campaign or a complete replacement campaign",
+    "One damaged course-one stationary save; dead/completed/course-two/overwrite/transfer/failure-HUD/rapid-close/crash/quota/denial/corruption unverified",
+    "Other browsers/mobile/touch/controllers/multiplayer unverified",
+    "Legacy native warnings and unexercised paths remain unresolved",
+    "Silent edition, no sound/music payloads or device; audible audio unverified"
+  ],
+  "production": {
+    "pending": true,
+    "deployment": null,
+    "liveHashesVerified": false,
+    "liveGameplayVerified": false
+  },
+  "preservation": {
+    "claudeGameFilesAndCatalogRecordsChanged": false,
+    "privateROMResearchPublished": false,
+    "privateBacklogAndTestLogPreserved": true
+  }
+}

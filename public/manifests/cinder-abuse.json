@@ -1,0 +1,100 @@
+{
+  "id": "cinder-abuse",
+  "base": "/games/cinder-abuse/",
+  "repository": "https://github.com/videogamepreservation/abuse",
+  "sourceRevision": "01cce80eaf2ae82bafb9981162e205e42d0fae2f",
+  "classification": "Original developer-released source port with independently authored two-course challenge; not retail Abuse, matching decompilation, emulation or clean-room certificate",
+  "packageRevision": "cinder-browser-edition-v1",
+  "toolchain": "Emscripten6.0.10, pin d6c521a7f05449857c76bd99e396895583cf2083",
+  "recipe": "Source-only230-input ZIP; Python build-candidate.py,96native+4own objects,185ownCC0 resources in11SPECarchives, strict link; full separate notices",
+  "sourceArchive": "/sources/cinder-abuse-01cce80-browser-56e0d70f-source.zip",
+  "sourceArchiveSha256": "56e0d70f9207e724b3a2b42090c7048b85167c9a86343ff9743e73b6fff072a0",
+  "sourceArchiveBytes": 453719,
+  "requirements": [
+    "No ROM or original game data",
+    "Keyboard and mouse for native brightness/Start menu; offline silent edition",
+    "Browser origin/profile-local IDBFS under /cinder-saves"
+  ],
+  "files": [
+    {
+      "path": "asset-provenance.json",
+      "bytes": 80625,
+      "sha256": "323842c447b14e3529ea176353c168e47e465db5afbfb147066cec8eaafeeb5c"
+    },
+    {
+      "path": "AUTHORED-ADAPTER-LICENSE.txt",
+      "bytes": 1694,
+      "sha256": "f1b21120d4ac8d30439847e8ca8464b2ed9e0bd77e9b00d6f216cc1fe85584ab"
+    },
+    {
+      "path": "authored-boot.data",
+      "bytes": 280227,
+      "sha256": "eb15b0d788e1d2d1f7a79112069208aac79ee4488db696ed2f544a15cb846611"
+    },
+    {
+      "path": "authored-boot.js",
+      "bytes": 234988,
+      "sha256": "fb1435016bce3f6fcce265c12dab2af9bfa2ad49255b4a73f5977d17d2f998ab"
+    },
+    {
+      "path": "authored-boot.wasm",
+      "bytes": 2609581,
+      "sha256": "6ef09f00a1267b9b702fc811c774a9ceb6b476964876b64be1bd86d7abb6416b"
+    },
+    {
+      "path": "authored-menu-patches.json",
+      "bytes": 512,
+      "sha256": "83ae96885fac9a93fd749d20f3b93d115fe41ba45f7efecdfae796a266c27bf2"
+    },
+    {
+      "path": "authored-save-namespace-patches.json",
+      "bytes": 389,
+      "sha256": "e528c69927c60b84c5f85a842747eb1fe9897f48d46a85019897cb4216394e4b"
+    },
+    {
+      "path": "BUILD-NOTES.md",
+      "bytes": 2325,
+      "sha256": "d22a91237d0a98dd7eb6fb36f5e29676e6aff5fc4dab06514a76273096188021"
+    },
+    {
+      "path": "CC0-NOTICE.txt",
+      "bytes": 558,
+      "sha256": "687d6339cfa84780b4a422b207811750e8114bf44cd97a22f326aea373e058da"
+    },
+    {
+      "path": "emitted-js-origins.json",
+      "bytes": 36627,
+      "sha256": "241648c9e553d823602d16af04fe0052bf98f60963496a90c68f45921b24bc1b"
+    },
+    {
+      "path": "NOTICE.txt",
+      "bytes": 130782,
+      "sha256": "1e41c6a7fbb29f76a4b93f0bc974fe468f84b9c7330e663ea037f63b9dbe3fda"
+    },
+    {
+      "path": "ORIGINAL-RELEASE.txt",
+      "bytes": 4326,
+      "sha256": "354821e4e11e0325f71b8f8bcd81ac05a091c95f6e7b3c12b91bd4acc9c5c233"
+    },
+    {
+      "path": "player.html",
+      "bytes": 3245,
+      "sha256": "e563b456ec1b1442365ec8f217fa4d7a5f838bbcc8838d2a2b8f81a351a5f753"
+    },
+    {
+      "path": "selected-native-inputs.json",
+      "bytes": 47690,
+      "sha256": "0faedf2c5c65be982b53b64cd30549e4d268dbacd54b42dcf6b4a8d1c11ab877"
+    },
+    {
+      "path": "template-preload-origins.json",
+      "bytes": 8395,
+      "sha256": "83465e4a481348ba68ad8bf39cc3d6d09cb38c63946d370044a37e775b9f89b4"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "bytes": 1853,
+      "sha256": "72ad8937d386608853ced92d1fea00a3f0dab879f63a9eb545f424b1b0a337da"
+    }
+  ]
+}

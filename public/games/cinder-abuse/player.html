@@ -1,0 +1,33 @@
+<!doctype html><meta charset="utf-8"><title>Cinder - two-course prototype</title>
+<meta name="viewport" content="width=device-width,initial-scale=1"><style>body{background:#161616;color:white;font:14px system-ui}canvas{width:min(100%,640px);height:auto;image-rendering:pixelated;border:1px solid #555}pre{white-space:pre-wrap}</style>
+<h1>Cinder</h1>
+<p>Cinder: two-course heat challenge. Independently authored content using the released Abuse engine. Silent edition.</p>
+<p>Arrows move; Up jumps over heat. Reach both right exits before energy runs out. S saves, L loads in this browser. Enter retries after energy is empty or restarts after completion.</p>
+<p id="save-status">Browser save: restoring</p>
+<canvas id="canvas" width="320" height="200"></canvas><p><button id="stop-player">Stop player</button> <button id="restart-player">Reload player</button></p>
+<p>Choose a visible brightness and click OK, then GO. Saves stay in this browser; wait for Browser save: saved before closing.</p>
+<p><a href="BUILD-NOTES.md">Build and verification notes</a>  |  <a href="THIRD_PARTY_NOTICES.md">Code/runtime notices</a>  |  <a href="asset-provenance.json">Content provenance</a></p>
+<details><summary>Diagnostics</summary><pre id="status"></pre></details>
+<script>
+document.getElementById('stop-player').addEventListener('click',()=>location.replace('about:blank'));
+document.getElementById('restart-player').addEventListener('click',()=>location.reload());
+// Keep native desktop/editor shortcuts outside this authored challenge's input surface.
+document.addEventListener('keydown',event=>{if(event.target!==document.getElementById('canvas'))return;if(['ArrowLeft','ArrowRight','ArrowUp','ArrowDown','KeyS','KeyL','Enter','Escape'].includes(event.code)&&!event.ctrlKey&&!event.altKey&&!event.metaKey)return;event.stopImmediatePropagation();if(!['Tab','ShiftLeft','ShiftRight','ControlLeft','ControlRight','AltLeft','AltRight','MetaLeft','MetaRight'].includes(event.code)&&!event.ctrlKey&&!event.altKey&&!event.metaKey)event.preventDefault();},true);
+var nativeLog=[];var Module={canvas:document.getElementById('canvas'),arguments:['-lsf','boot.lsp','-cprint','-share','-nosound'],
+ saveStorage:{phase:'restoring',flushes:0,restoreError:null,lastError:null},
+ renderStorage:()=>{document.getElementById('save-status').textContent='Browser save: '+Module.saveStorage.phase;},
+ print:t=>{nativeLog.push(t);document.getElementById('status').textContent+=t+'\n';},
+ printErr:t=>{nativeLog.push(t);document.getElementById('status').textContent+=t+'\n';},
+ preRun:[()=>{
+   Module.addRunDependency('restore-authored-saves');
+   try {
+     Module.FS.mkdirTree('/cinder-saves');Module.FS.mount(Module.IDBFS,{},'/cinder-saves');
+     Module.FS.syncfs(true,error=>{
+       Module.saveStorage.restoreError=error?String(error):null;
+       Module.saveStorage.phase=error?'unavailable':'ready';Module.renderStorage();
+       Module.removeRunDependency('restore-authored-saves');
+     });
+   }catch(error){Module.saveStorage.restoreError=String(error);Module.saveStorage.phase='unavailable';Module.renderStorage();Module.removeRunDependency('restore-authored-saves');}
+ }]};
+</script>
+<script src="authored-boot.js"></script>

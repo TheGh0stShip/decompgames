@@ -1,0 +1,13 @@
+{
+  "scope": "Own browser-pack script flag selects only native Start/brightness/Return buttons; desktop menu paths not selected for this edition",
+  "files": [
+    {
+      "path": "abuse/src/menu.c",
+      "beforeSHA256": "bc66212467be6725c5e7bd65350318cbc4deee79562685813bf6d1d6011db9ef",
+      "afterSHA256": "5662303f75f6d5d91cf08667dd64551d92bb98510c4595f58cd1f8c8731a0a03"
+    }
+  ],
+  "ownPatchLicense": "MIT",
+  "defaultDesktopMenuRetainedWhenFlagAbsent": true,
+  "retailFilesAdded": false
+}

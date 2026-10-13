@@ -1,0 +1,8 @@
+{
+  "scope": "Namespace own browser course saves under /cinder-saves to avoid a generic origin-wide IDBFS mount",
+  "file": "abuse/src/clisp.c",
+  "beforeSHA256": "910a1d822fcce7a55c88311168a079ff75a65255547c3bf4ad9b79100209bd19",
+  "afterSHA256": "4c7479094e4e8c856b1802a9dd27b14362ac259d3f57d649f653dbe5d52e1990",
+  "ownPatchLicense": "MIT",
+  "nativeSaveFormatChanged": false
+}

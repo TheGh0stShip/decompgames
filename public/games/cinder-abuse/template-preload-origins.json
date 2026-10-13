@@ -1,0 +1,193 @@
+{
+  "scope": "Exact generated-JS template include names, preloader generator and own preload payloads; compiler-read pool is separately overinclusive",
+  "templatesAndPreloaderSource": [
+    {
+      "path": "src/memoryprofiler.js",
+      "bytes": 28987,
+      "sha256": "5292117f0a8bba66e654ce5a204a9944b03ff389d858e5c192a17e701808510a",
+      "terms": "MIT",
+      "notice": "/**\n * @license\n * Copyright 2015 The Emscripten Authors\n * SPDX-License-Identifier: MIT\n */"
+    },
+    {
+      "path": "src/minimum_runtime_check.js",
+      "bytes": 3920,
+      "sha256": "72bb00be1c332f30e181de0fa2018f87885fd9eb3f9df80fb4b32db977ef7463",
+      "terms": "MIT",
+      "notice": "/**\n * @license\n * Copyright 2024 The Emscripten Authors\n * SPDX-License-Identifier: MIT\n */"
+    },
+    {
+      "path": "src/node_shell_read.js",
+      "bytes": 688,
+      "sha256": "9f1c6c53453d3d2401d133b5e5fdcfc89965118ae235e1030af39365dfb866c2",
+      "terms": "MIT",
+      "notice": "/**\n * @license\n * Copyright 2019 The Emscripten Authors\n * SPDX-License-Identifier: MIT\n */"
+    },
+    {
+      "path": "src/postamble.js",
+      "bytes": 9751,
+      "sha256": "8bd4017f9d0de243ca673fde1ffe9e7210f1594cc7e44f3ae4339c8f3ec6b4f3",
+      "terms": "MIT",
+      "notice": "/**\n * @license\n * Copyright 2010 The Emscripten Authors\n * SPDX-License-Identifier: MIT\n */"
+    },
+    {
+      "path": "src/postlibrary.js",
+      "bytes": 3026,
+      "sha256": "c37cb2bf03e50a35821686fe5a66c0ec11f9f677c39e1701325f386d170f7beb",
+      "terms": "Emscripten project-root MIT or NCSA",
+      "notice": "Project-root MIT/NCSA terms; no separate notice in this source prefix."
+    },
+    {
+      "path": "src/preamble.js",
+      "bytes": 31284,
+      "sha256": "4ae888724c2e12dd2839c966435d95a029653606102c9da1bb55a4e9f2de3fcf",
+      "terms": "MIT",
+      "notice": "/**\n * @license\n * Copyright 2010 The Emscripten Authors\n * SPDX-License-Identifier: MIT\n */"
+    },
+    {
+      "path": "src/runtime_common.js",
+      "bytes": 6209,
+      "sha256": "57af904032948eb099f816fd3af522a91385b17cd31e1bbe25074d974363f574",
+      "terms": "MIT",
+      "notice": "/**\n * @license\n * Copyright 2024 The Emscripten Authors\n * SPDX-License-Identifier: MIT\n */"
+    },
+    {
+      "path": "src/runtime_debug.js",
+      "bytes": 8870,
+      "sha256": "8ff3e5c671042b81c21bf3b4d0126de3f4e7bd05b01c08ee794a3aa2f892f216",
+      "terms": "MIT",
+      "notice": "/**\n * @license\n * Copyright 2020 The Emscripten Authors\n * SPDX-License-Identifier: MIT\n */"
+    },
+    {
+      "path": "src/runtime_exceptions.js",
+      "bytes": 746,
+      "sha256": "a381d1190c951d9a7b5de71c06ff50a174948eaabf2614bc58cf2a2ebb5920ae",
+      "terms": "MIT",
+      "notice": "/**\n * @license\n * Copyright 2023 The Emscripten Authors\n * SPDX-License-Identifier: MIT\n */"
+    },
+    {
+      "path": "src/runtime_stack_check.js",
+      "bytes": 2225,
+      "sha256": "0ae2b63fd55b9a3e876e2c100f4136d4593d90706caa787dfd82c06751d32a03",
+      "terms": "MIT",
+      "notice": "/**\n * @license\n * Copyright 2019 The Emscripten Authors\n * SPDX-License-Identifier: MIT\n */"
+    },
+    {
+      "path": "src/shell.js",
+      "bytes": 14812,
+      "sha256": "c24264b2c433aa57318e07705faa78414811bf5ee201dba91f2c053d0d61850a",
+      "terms": "MIT",
+      "notice": "/**\n * @license\n * Copyright 2010 The Emscripten Authors\n * SPDX-License-Identifier: MIT\n */"
+    },
+    {
+      "path": "src/web_or_worker_shell_read.js",
+      "bytes": 1610,
+      "sha256": "cd90708a2e1f9897f4d3827c37412d4821c9da0277ac7f30127edfac1f23cba0",
+      "terms": "MIT",
+      "notice": "/**\n * @license\n * Copyright 2019 The Emscripten Authors\n * SPDX-License-Identifier: MIT\n */"
+    },
+    {
+      "path": "tools/file_packager.py",
+      "bytes": 43351,
+      "sha256": "020e748741cf97deee839e0a720fc246dba16f088ee753b85fca0f63933e5ad4",
+      "terms": "Emscripten MIT or NCSA",
+      "notice": "#!/usr/bin/env python3\n# Copyright 2012 The Emscripten Authors.  All rights reserved.\n# Emscripten is available under two separate licenses, the MIT license and the\n# University of Illinois/NCSA Open Source License.  Both these licenses can be\n# found in the LICENSE file."
+    }
+  ],
+  "generatedTempIncludes": "Three compiler temporary sections are generated preloader and exported/symbol wrapper metadata; not independent third-party packages",
+  "preloadFiles": [
+    {
+      "path": "/CC0-NOTICE.txt",
+      "bytes": 558,
+      "sha256": "687d6339cfa84780b4a422b207811750e8114bf44cd97a22f326aea373e058da",
+      "source": "Independently generated CC0 pack file or its provenance manifest"
+    },
+    {
+      "path": "/art/actors.spe",
+      "bytes": 4183,
+      "sha256": "d5506e7d82f4640a751e56f08e1a9d917baa7fdf0cdab81defc3e34fab674323",
+      "source": "Independently generated CC0 pack file or its provenance manifest"
+    },
+    {
+      "path": "/art/dev.spe",
+      "bytes": 10770,
+      "sha256": "28a9c96659e0f64052743501b5571289d1206fd81e24cb0380315d9898274cdc",
+      "source": "Independently generated CC0 pack file or its provenance manifest"
+    },
+    {
+      "path": "/art/fonts.spe",
+      "bytes": 19998,
+      "sha256": "22f0412cfda4312577331912b623413425efce0c86c5213be0659d132fb72ec2",
+      "source": "Independently generated CC0 pack file or its provenance manifest"
+    },
+    {
+      "path": "/art/frame.spe",
+      "bytes": 2983,
+      "sha256": "fb1f12284a4ab38208e21e838a089232387da8680c27c519b1456a3a430f2eec",
+      "source": "Independently generated CC0 pack file or its provenance manifest"
+    },
+    {
+      "path": "/art/icons.spe",
+      "bytes": 25018,
+      "sha256": "e51d6e1f28dcbf76194e91a89d0f679607cc448414fa26b324731aa71c9b9210",
+      "source": "Independently generated CC0 pack file or its provenance manifest"
+    },
+    {
+      "path": "/art/palette.spe",
+      "bytes": 33587,
+      "sha256": "a7d44b0e60af780ebdf65755726445210fff5776256e5e9a35cb9106acc14ee7",
+      "source": "Independently generated CC0 pack file or its provenance manifest"
+    },
+    {
+      "path": "/art/statbar.spe",
+      "bytes": 17028,
+      "sha256": "1803a6778d9b5e29389f098f85d23bfe2e9e0be3875be9b75427df8cd0b749a4",
+      "source": "Independently generated CC0 pack file or its provenance manifest"
+    },
+    {
+      "path": "/art/terrain.spe",
+      "bytes": 2810,
+      "sha256": "5d784047fc8a039e9c67bcae979885f8581e2fc7718905f5ff2965517dc5fd3e",
+      "source": "Independently generated CC0 pack file or its provenance manifest"
+    },
+    {
+      "path": "/art/title.spe",
+      "bytes": 64031,
+      "sha256": "63b5b88d033935f2e6d17135e400726bf190dffec8082a74b58fdc9a39925c2e",
+      "source": "Independently generated CC0 pack file or its provenance manifest"
+    },
+    {
+      "path": "/boot.lsp",
+      "bytes": 8172,
+      "sha256": "f0682efd9e430d55059308f343f83a39995dac9d419021d056ec97aee2784ff3",
+      "source": "Independently generated CC0 pack file or its provenance manifest"
+    },
+    {
+      "path": "/lisp/english.lsp",
+      "bytes": 4222,
+      "sha256": "2fd0a0fbd734b907a8c70ce62b68f5b0c55cf100e0bc4e3a72aee4424110377d",
+      "source": "Independently generated CC0 pack file or its provenance manifest"
+    },
+    {
+      "path": "/maps/course.spe",
+      "bytes": 3250,
+      "sha256": "3103efb83fcbfa1f1e903202340aa2a467173bb16883fd866e10192176055bc2",
+      "source": "Independently generated CC0 pack file or its provenance manifest"
+    },
+    {
+      "path": "/maps/return.spe",
+      "bytes": 3250,
+      "sha256": "c6a0bbc1413922cd5426bb90209e9a7a805eb365cd13d47b78d82c285e66812e",
+      "source": "Independently generated CC0 pack file or its provenance manifest"
+    },
+    {
+      "path": "/provenance.json",
+      "bytes": 80367,
+      "sha256": "db3b06f89be1f485eb6fb35d5b06743f6d841ae9f38d63655c1c3b831ad9e44e",
+      "source": "Independently generated CC0 pack file or its provenance manifest"
+    }
+  ],
+  "preloadDataByteCoverage": 280227,
+  "allDataSlicesMatchOwnedPack": true,
+  "unlicensedOriginalDataIncluded": false,
+  "templateNoticeSource": "Successful pinned-SDK trace before neutral public-label update; runtime code unchanged, own preloader metadata verified separately"
+}
