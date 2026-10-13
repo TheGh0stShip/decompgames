@@ -1,0 +1,636 @@
+{
+  "reviewedAt": "2026-10-13T22:09:45.962743+00:00",
+  "scope": "Pinned trees and selected textual grant/readme/build files only; no game data, media, executables, compiler/SDK binary or release bundle fetched; no player/build/test",
+  "snapshots": [
+    {
+      "repository": "HexDump0/melee",
+      "revision": "33d262eabfb9b610026841784a2dad1721f7c056",
+      "role": "Melee native/browser port",
+      "starsAtRead": 5,
+      "apiLicense": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdx_id": "MIT",
+        "url": "https://api.github.com/licenses/mit",
+        "node_id": "MDc6TGljZW5zZTEz"
+      },
+      "treeTruncated": false,
+      "treeEntryCount": 607,
+      "rootFiles": [
+        ".gitignore",
+        ".gitmodules",
+        "LICENSE",
+        "README.md",
+        "THIRD-PARTY.md",
+        "melee.toml.example",
+        "vercel.json"
+      ],
+      "grantNamedFiles": [
+        "LICENSE",
+        "native/THIRD_PARTY_NOTICES.md",
+        "native/licenses/aurora-MIT.txt"
+      ],
+      "gitlinks": [
+        {
+          "path": "decomp",
+          "revision": "40012f51f0f1ddeff397a7f5f267bfa5441236d8"
+        },
+        {
+          "path": "native/third_party/wasm-micro-runtime",
+          "revision": "25bd7eb63e828e4bd242cc9b38d260b4b31c6605"
+        }
+      ],
+      "selectedTextFiles": [
+        {
+          "path": ".gitmodules",
+          "bytes": 262,
+          "sha256": "77e470b8c0d72c14dab259e0d3820530f06093e6d6325c9b5281f3fbcf9ac044",
+          "url": "https://github.com/HexDump0/melee/blob/33d262eabfb9b610026841784a2dad1721f7c056/.gitmodules"
+        },
+        {
+          "path": "LICENSE",
+          "bytes": 1065,
+          "sha256": "c4ab92a76f2848b7bcf403c1baf949c82dd20915597003c90b1ddb38df8d63cc",
+          "url": "https://github.com/HexDump0/melee/blob/33d262eabfb9b610026841784a2dad1721f7c056/LICENSE"
+        },
+        {
+          "path": "README.md",
+          "bytes": 3057,
+          "sha256": "2453ee3f20f56043cfa25b7d3e7b3aae2578a5ecd5b466a7afeba13cc48d49be",
+          "url": "https://github.com/HexDump0/melee/blob/33d262eabfb9b610026841784a2dad1721f7c056/README.md"
+        },
+        {
+          "path": "THIRD-PARTY.md",
+          "bytes": 3723,
+          "sha256": "185bd2d8ef82868b920ba6297fe1aeb53541279ced9c93816dbfcad35ad0c6e7",
+          "url": "https://github.com/HexDump0/melee/blob/33d262eabfb9b610026841784a2dad1721f7c056/THIRD-PARTY.md"
+        },
+        {
+          "path": "native/CMakeLists.txt",
+          "bytes": 56805,
+          "sha256": "fae046b5a51d278459786e73bacb4ac6a9782d16196a1814e783def528115419",
+          "url": "https://github.com/HexDump0/melee/blob/33d262eabfb9b610026841784a2dad1721f7c056/native/CMakeLists.txt"
+        },
+        {
+          "path": "site/scripts/build-play.sh",
+          "bytes": 1419,
+          "sha256": "796e99e87eadeba6cb8bf56afcdde6ce64b1c0c1d45bf124fbd20594d38405af",
+          "url": "https://github.com/HexDump0/melee/blob/33d262eabfb9b610026841784a2dad1721f7c056/site/scripts/build-play.sh"
+        },
+        {
+          "path": "native/README.md",
+          "bytes": 8199,
+          "sha256": "b4189cced38b420506f06a64de0fff9583e631f9664cb081cae10bbe4e7f4c08",
+          "url": "https://github.com/HexDump0/melee/blob/33d262eabfb9b610026841784a2dad1721f7c056/native/README.md"
+        },
+        {
+          "path": "native/decomp/README.md",
+          "bytes": 3331,
+          "sha256": "55b25f5dc44ff3fecdd0a09c38e83ddaa098cb26bf09db2cf26709cc273c8c40",
+          "url": "https://github.com/HexDump0/melee/blob/33d262eabfb9b610026841784a2dad1721f7c056/native/decomp/README.md"
+        },
+        {
+          "path": "native/tools/wasm_census.sh",
+          "bytes": 11647,
+          "sha256": "bff0018d7cdea35bfac31a663b1efd60d11b39e74dacb98aad5ee20e00f6f87f",
+          "url": "https://github.com/HexDump0/melee/blob/33d262eabfb9b610026841784a2dad1721f7c056/native/tools/wasm_census.sh"
+        },
+        {
+          "path": "native/mod/wamr/CMakeLists.txt",
+          "bytes": 1830,
+          "sha256": "00c518beeae754ec4669815692e10faef21bf7c8d9f9ae4cf6293715c3ad7ab6",
+          "url": "https://github.com/HexDump0/melee/blob/33d262eabfb9b610026841784a2dad1721f7c056/native/mod/wamr/CMakeLists.txt"
+        }
+      ],
+      "privateTreeSha256": "b981d92495ca6b0836432317e7266e16364ceb786e0ac792942e79ad71ca3105"
+    },
+    {
+      "repository": "doldecomp/melee",
+      "revision": "40012f51f0f1ddeff397a7f5f267bfa5441236d8",
+      "role": "Melee upstream, exact decomp gitlink",
+      "starsAtRead": 2402,
+      "apiLicense": null,
+      "treeTruncated": false,
+      "treeEntryCount": 2726,
+      "rootFiles": [
+        ".clang-format",
+        ".clang-tidy",
+        ".clangd",
+        ".dockerignore",
+        ".editorconfig",
+        ".flake8",
+        ".gitattributes",
+        ".gitignore",
+        ".pre-commit-config.yaml",
+        ".rustfmt.toml",
+        "Cargo.lock",
+        "Cargo.toml",
+        "Doxyfile",
+        "configure.py",
+        "default.nix",
+        "flake.lock",
+        "flake.nix"
+      ],
+      "grantNamedFiles": [
+        "tools/doxygen-awesome-css/LICENSE",
+        "tools/flags/LICENSE",
+        "tools/m2ctx/LICENSE",
+        "tools/replace-symbols/LICENSE",
+        "tools/rust-utils/COPYING",
+        "tools/rust-utils/COPYING.LESSER",
+        "tools/table-typer/LICENSE"
+      ],
+      "gitlinks": [],
+      "selectedTextFiles": [
+        {
+          "path": "configure.py",
+          "bytes": 93543,
+          "sha256": "b0eb37f935d98560cb13df0b85902500c848c58544e62c1b784278ee5bf59fed",
+          "url": "https://github.com/doldecomp/melee/blob/40012f51f0f1ddeff397a7f5f267bfa5441236d8/configure.py"
+        },
+        {
+          "path": ".github/README.md",
+          "bytes": 8846,
+          "sha256": "c25cc0e6f572f94f7e827f13baed3323fa7ad5eb83cda438d3fe52f337aa0a6a",
+          "url": "https://github.com/doldecomp/melee/blob/40012f51f0f1ddeff397a7f5f267bfa5441236d8/.github/README.md"
+        },
+        {
+          "path": "docs/getting_started.md",
+          "bytes": 5318,
+          "sha256": "4a3608db45a0e1a6dd463046f8e6f9022dae01bec288018137a48cb5df91e418",
+          "url": "https://github.com/doldecomp/melee/blob/40012f51f0f1ddeff397a7f5f267bfa5441236d8/docs/getting_started.md"
+        }
+      ],
+      "privateTreeSha256": "08a22618800dfb1b9a89a43d5b8a86fbbf35ce0edb5705a08605652878c889a2"
+    },
+    {
+      "repository": "z3xox/Tenkaichi3Decomp",
+      "revision": "2080bfeb9604a04c9270d849df08a05eafcf2d5b",
+      "role": "Budokai Tenkaichi 3 native port",
+      "starsAtRead": 278,
+      "apiLicense": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdx_id": "MIT",
+        "url": "https://api.github.com/licenses/mit",
+        "node_id": "MDc6TGljZW5zZTEz"
+      },
+      "treeTruncated": false,
+      "treeEntryCount": 1016,
+      "rootFiles": [
+        ".gitignore",
+        "LICENSE",
+        "README.md",
+        "compile_flags.txt",
+        "configure.py",
+        "install.py"
+      ],
+      "grantNamedFiles": [
+        "LICENSE",
+        "port/third_party/dr_libs/LICENSE",
+        "port/third_party/fonts/dejavu/LICENSE",
+        "port/third_party/fonts/liberation/LICENSE",
+        "port/third_party/imgui/LICENSE.txt",
+        "port/third_party/newlib_libm/COPYING.NEWLIB",
+        "port/third_party/xxhash/LICENSE"
+      ],
+      "gitlinks": [],
+      "selectedTextFiles": [
+        {
+          "path": "LICENSE",
+          "bytes": 1080,
+          "sha256": "a04f12d49cdb7af094b115c3b540a21f4ebe35d3bdf204bdc126a2c73f08aefc",
+          "url": "https://github.com/z3xox/Tenkaichi3Decomp/blob/2080bfeb9604a04c9270d849df08a05eafcf2d5b/LICENSE"
+        },
+        {
+          "path": "README.md",
+          "bytes": 10105,
+          "sha256": "5bdb24dd66f268e279dc6549e2b93cc4e540f417341c363326ec3180582fb1d5",
+          "url": "https://github.com/z3xox/Tenkaichi3Decomp/blob/2080bfeb9604a04c9270d849df08a05eafcf2d5b/README.md"
+        },
+        {
+          "path": "configure.py",
+          "bytes": 10435,
+          "sha256": "38b17a05dfd8abc5c3e32e055bcf629727febee5a3646cf8644158b3add951ad",
+          "url": "https://github.com/z3xox/Tenkaichi3Decomp/blob/2080bfeb9604a04c9270d849df08a05eafcf2d5b/configure.py"
+        },
+        {
+          "path": "port/release/build.sh",
+          "bytes": 1001,
+          "sha256": "f5e894e0ccb9d2804faf1b4a46e573f778a398553f29d2a0e2def38fc99008c4",
+          "url": "https://github.com/z3xox/Tenkaichi3Decomp/blob/2080bfeb9604a04c9270d849df08a05eafcf2d5b/port/release/build.sh"
+        },
+        {
+          "path": "port/setup/build.sh",
+          "bytes": 2025,
+          "sha256": "0a2d8653e6fa6788f406306c8a53b3972684d8fb4551f55a3e33d6ab8197394c",
+          "url": "https://github.com/z3xox/Tenkaichi3Decomp/blob/2080bfeb9604a04c9270d849df08a05eafcf2d5b/port/setup/build.sh"
+        },
+        {
+          "path": "docs/port/adding_stages.md",
+          "bytes": 14406,
+          "sha256": "d8c528323fa81cdd81dc1fa5688289472eb0f635f9912b3799370c26681beb44",
+          "url": "https://github.com/z3xox/Tenkaichi3Decomp/blob/2080bfeb9604a04c9270d849df08a05eafcf2d5b/docs/port/adding_stages.md"
+        },
+        {
+          "path": "docs/port/adding_songs.md",
+          "bytes": 15392,
+          "sha256": "c5980fcdba6690d1ba2d270a10d08a5c6b27295beb7db1f613d993813ee2ac17",
+          "url": "https://github.com/z3xox/Tenkaichi3Decomp/blob/2080bfeb9604a04c9270d849df08a05eafcf2d5b/docs/port/adding_songs.md"
+        },
+        {
+          "path": "port/third_party/imgui/LICENSE.txt",
+          "bytes": 1083,
+          "sha256": "173506a2d6f7fb67990d257fb2507f188690eca39060c39469ae7bef43aae2a3",
+          "url": "https://github.com/z3xox/Tenkaichi3Decomp/blob/2080bfeb9604a04c9270d849df08a05eafcf2d5b/port/third_party/imgui/LICENSE.txt"
+        },
+        {
+          "path": "port/third_party/newlib_libm/COPYING.NEWLIB",
+          "bytes": 5644,
+          "sha256": "13303c917e97e51ee2ed408c38f1e6e132af54d7d28c6c5fca15f907469f0c5c",
+          "url": "https://github.com/z3xox/Tenkaichi3Decomp/blob/2080bfeb9604a04c9270d849df08a05eafcf2d5b/port/third_party/newlib_libm/COPYING.NEWLIB"
+        },
+        {
+          "path": "port/third_party/dr_libs/LICENSE",
+          "bytes": 2598,
+          "sha256": "1e3d12bc24ca40e24b24c1f71521d9cbb783bdc041eb827d84ca69ff66521ddb",
+          "url": "https://github.com/z3xox/Tenkaichi3Decomp/blob/2080bfeb9604a04c9270d849df08a05eafcf2d5b/port/third_party/dr_libs/LICENSE"
+        },
+        {
+          "path": "port/third_party/xxhash/LICENSE",
+          "bytes": 1563,
+          "sha256": "1b2c7d86186b089c25e07da6532125df816d5d5e38105a3f33ce54d0f557d811",
+          "url": "https://github.com/z3xox/Tenkaichi3Decomp/blob/2080bfeb9604a04c9270d849df08a05eafcf2d5b/port/third_party/xxhash/LICENSE"
+        },
+        {
+          "path": "port/third_party/fonts/dejavu/LICENSE",
+          "bytes": 2357,
+          "sha256": "307bf421df5334b80f2355319d452a83688e71512b0b61f74e60b1187eead2bc",
+          "url": "https://github.com/z3xox/Tenkaichi3Decomp/blob/2080bfeb9604a04c9270d849df08a05eafcf2d5b/port/third_party/fonts/dejavu/LICENSE"
+        }
+      ],
+      "privateTreeSha256": "d108b1a10d0216c83832c75ea4b180551236de06f80fe8ff3be959801c407ba6"
+    },
+    {
+      "repository": "z3xox/BT3-Decompiled",
+      "revision": "95b950367364137130758ef82a218e607a54b703",
+      "role": "Budokai Tenkaichi 3 upstream, separately pinned default branch; ancestry not verified",
+      "starsAtRead": 21,
+      "apiLicense": {
+        "key": "cc0-1.0",
+        "name": "Creative Commons Zero v1.0 Universal",
+        "spdx_id": "CC0-1.0",
+        "url": "https://api.github.com/licenses/cc0-1.0",
+        "node_id": "MDc6TGljZW5zZTY="
+      },
+      "treeTruncated": false,
+      "treeEntryCount": 741,
+      "rootFiles": [
+        ".gitignore",
+        "LICENSE",
+        "README.md",
+        "compile_flags.txt",
+        "configure.py"
+      ],
+      "grantNamedFiles": [
+        "LICENSE",
+        "include/battle/hud_notice_2.h",
+        "src/battle/hud_notice_1.c",
+        "src/battle/hud_notice_2.c"
+      ],
+      "gitlinks": [],
+      "selectedTextFiles": [
+        {
+          "path": "LICENSE",
+          "bytes": 7049,
+          "sha256": "7179683e8000e6bdc9bbc60d85edf0a4ac8e76f951857f54fcb775d5886f1309",
+          "url": "https://github.com/z3xox/BT3-Decompiled/blob/95b950367364137130758ef82a218e607a54b703/LICENSE"
+        },
+        {
+          "path": "README.md",
+          "bytes": 3411,
+          "sha256": "ec8f354a22ed9684617885a328a099cb9eeb16aaa0768cf46bd2b931f9d41c8d",
+          "url": "https://github.com/z3xox/BT3-Decompiled/blob/95b950367364137130758ef82a218e607a54b703/README.md"
+        },
+        {
+          "path": "configure.py",
+          "bytes": 10530,
+          "sha256": "3c48d676cd31b07ddf0fff81f9121577966c6524e2359a96f0a9bf8de4821beb",
+          "url": "https://github.com/z3xox/BT3-Decompiled/blob/95b950367364137130758ef82a218e607a54b703/configure.py"
+        }
+      ],
+      "privateTreeSha256": "69edcc0ad9934ab9429ff56edfaf09b7df7fe1c561413384934406a49a9f6ee0"
+    },
+    {
+      "repository": "Mikompilation/Mikompilation",
+      "revision": "afd5bc1692cd9a11e39416abb66b23a0082ccd69",
+      "role": "Fatal Frame 2 decompilation/reimplementation lead",
+      "starsAtRead": 57,
+      "apiLicense": {
+        "key": "bsd-2-clause",
+        "name": "BSD 2-Clause \"Simplified\" License",
+        "spdx_id": "BSD-2-Clause",
+        "url": "https://api.github.com/licenses/bsd-2-clause",
+        "node_id": "MDc6TGljZW5zZTQ="
+      },
+      "treeTruncated": false,
+      "treeEntryCount": 2087,
+      "rootFiles": [
+        ".clang-format",
+        ".gitignore",
+        "CMakeLists.txt",
+        "LICENSE",
+        "README.md",
+        "mkdocs.yml"
+      ],
+      "grantNamedFiles": [
+        "LICENSE",
+        "third-party/SDL2/LICENSE.txt",
+        "third-party/SDL2/Xcode-iOS/Demos/data/bitmapfont/license.txt",
+        "third-party/SDL2/Xcode/SDL/pkg-support/resources/License.txt",
+        "third-party/SDL2/include/SDL_copying.h",
+        "third-party/SDL2/src/hidapi/LICENSE-bsd.txt",
+        "third-party/SDL2/src/hidapi/LICENSE-gpl3.txt",
+        "third-party/SDL2/src/hidapi/LICENSE-orig.txt",
+        "third-party/SDL2/src/hidapi/LICENSE.txt",
+        "third-party/SDL2/src/video/yuv2rgb/LICENSE",
+        "third-party/SDL2/test/COPYING",
+        "third-party/SDL2/test/unifont-13.0.06-license.txt",
+        "third-party/imgui/LICENSE.txt",
+        "third-party/spdlog/include/spdlog/fmt/bundled/fmt.license.rst"
+      ],
+      "gitlinks": [],
+      "selectedTextFiles": [
+        {
+          "path": "CMakeLists.txt",
+          "bytes": 538,
+          "sha256": "8e94c26962fcf9d81a32b7144ed10533043cd654db84c5badfc93ee06d9c621a",
+          "url": "https://github.com/Mikompilation/Mikompilation/blob/afd5bc1692cd9a11e39416abb66b23a0082ccd69/CMakeLists.txt"
+        },
+        {
+          "path": "LICENSE",
+          "bytes": 1330,
+          "sha256": "a0f3204a37543daf9e4252f12d94d549b8104760e7cf1b033752c74cdfaf9d72",
+          "url": "https://github.com/Mikompilation/Mikompilation/blob/afd5bc1692cd9a11e39416abb66b23a0082ccd69/LICENSE"
+        },
+        {
+          "path": "README.md",
+          "bytes": 767,
+          "sha256": "eee8e70888c360e4f9d96de3d2542ac7d470a8c110df3411d20eb30b076f81e7",
+          "url": "https://github.com/Mikompilation/Mikompilation/blob/afd5bc1692cd9a11e39416abb66b23a0082ccd69/README.md"
+        },
+        {
+          "path": "docs/Build.md",
+          "bytes": 28,
+          "sha256": "7f3377700eb8de0248bf976dcc19a9dad5c552e260ff8c1915de776b0f19e848",
+          "url": "https://github.com/Mikompilation/Mikompilation/blob/afd5bc1692cd9a11e39416abb66b23a0082ccd69/docs/Build.md"
+        },
+        {
+          "path": "docs/index.md",
+          "bytes": 491,
+          "sha256": "da327adcc6759883b14b41ee2e644d2b6d1c5750dcd9daed4a280b74eabece88",
+          "url": "https://github.com/Mikompilation/Mikompilation/blob/afd5bc1692cd9a11e39416abb66b23a0082ccd69/docs/index.md"
+        },
+        {
+          "path": "docs/Engine/Engine.md",
+          "bytes": 186,
+          "sha256": "e6249301da9235c6743d5661718b390be7cdf23c9c6b05fbfa58f23a163957e4",
+          "url": "https://github.com/Mikompilation/Mikompilation/blob/afd5bc1692cd9a11e39416abb66b23a0082ccd69/docs/Engine/Engine.md"
+        },
+        {
+          "path": "third-party/CMakeLists.txt",
+          "bytes": 229,
+          "sha256": "b9bf34c6911b370ca79c22d1cabc55e136563546987b3167d197630b3c007fe5",
+          "url": "https://github.com/Mikompilation/Mikompilation/blob/afd5bc1692cd9a11e39416abb66b23a0082ccd69/third-party/CMakeLists.txt"
+        },
+        {
+          "path": "zero_rom/CMakeLists.txt",
+          "bytes": 2966,
+          "sha256": "b3cbd02ee404a57624cc6dd0bbc93291fe0ee7c3ea8ab759e7d42d52c4bf50e4",
+          "url": "https://github.com/Mikompilation/Mikompilation/blob/afd5bc1692cd9a11e39416abb66b23a0082ccd69/zero_rom/CMakeLists.txt"
+        },
+        {
+          "path": "zero_rom/assets/README.md",
+          "bytes": 25,
+          "sha256": "c15619e62a5fed9a30597c48268d0df281c49b9f6595c5b6890028d4ff72ae32",
+          "url": "https://github.com/Mikompilation/Mikompilation/blob/afd5bc1692cd9a11e39416abb66b23a0082ccd69/zero_rom/assets/README.md"
+        },
+        {
+          "path": "third-party/SDL2/LICENSE.txt",
+          "bytes": 884,
+          "sha256": "fcb07e07ac6bc8b2fcf047b50431ef4ebe5b619d7ca7c82212018309a9067426",
+          "url": "https://github.com/Mikompilation/Mikompilation/blob/afd5bc1692cd9a11e39416abb66b23a0082ccd69/third-party/SDL2/LICENSE.txt"
+        },
+        {
+          "path": "third-party/imgui/LICENSE.txt",
+          "bytes": 1083,
+          "sha256": "fbb51424cf27ca216445d4b472c6aac187ebd8200f7ef41bd845a7d36d54e2c4",
+          "url": "https://github.com/Mikompilation/Mikompilation/blob/afd5bc1692cd9a11e39416abb66b23a0082ccd69/third-party/imgui/LICENSE.txt"
+        },
+        {
+          "path": "zero_rom/zero2np/src/main/main.cpp",
+          "bytes": 1768,
+          "sha256": "8758db1f16c228b7a010df9ae4f41bb70de312f9a7543701d54c2e87b3e8f8ba",
+          "url": "https://github.com/Mikompilation/Mikompilation/blob/afd5bc1692cd9a11e39416abb66b23a0082ccd69/zero_rom/zero2np/src/main/main.cpp"
+        },
+        {
+          "path": "zero_rom/zero2np/src/ingame/ingame.cpp",
+          "bytes": 125,
+          "sha256": "30782c76f1be53eef1cea7905336ed34d1d097cbe97a6f3a34ebc43097d9e7d0",
+          "url": "https://github.com/Mikompilation/Mikompilation/blob/afd5bc1692cd9a11e39416abb66b23a0082ccd69/zero_rom/zero2np/src/ingame/ingame.cpp"
+        },
+        {
+          "path": "zero_rom/zero2np/src/system/eeiop/cddat.cpp",
+          "bytes": 782,
+          "sha256": "c9630888b046735d99b82122b1bba9e07858af9dcc73eed3aa16e88ec9ed7c2d",
+          "url": "https://github.com/Mikompilation/Mikompilation/blob/afd5bc1692cd9a11e39416abb66b23a0082ccd69/zero_rom/zero2np/src/system/eeiop/cddat.cpp"
+        }
+      ],
+      "privateTreeSha256": "d6690b7f708685760cb0a59acd09aeeb9e070e075c1ccc905029e54f28f6a423"
+    },
+    {
+      "repository": "Mikompilation/MioPan",
+      "revision": "08c76476f90a3024da2c1c57981e0bcf9ed00300",
+      "role": "Same Fatal Frame 2 identity, separate native recreation/port",
+      "starsAtRead": 6,
+      "apiLicense": {
+        "key": "agpl-3.0",
+        "name": "GNU Affero General Public License v3.0",
+        "spdx_id": "AGPL-3.0",
+        "url": "https://api.github.com/licenses/agpl-3.0",
+        "node_id": "MDc6TGljZW5zZTE="
+      },
+      "treeTruncated": false,
+      "treeEntryCount": 1393,
+      "rootFiles": [
+        ".gitignore",
+        "CMakeLists.txt",
+        "LICENSE",
+        "README.md"
+      ],
+      "grantNamedFiles": [
+        "LICENSE",
+        "extern/ffmpeg/LICENSE"
+      ],
+      "gitlinks": [],
+      "selectedTextFiles": [
+        {
+          "path": "CMakeLists.txt",
+          "bytes": 10543,
+          "sha256": "c1d8911650884b7649a16dc92b9a9f0d21c5401a9e81aed837218a89d61d7cd4",
+          "url": "https://github.com/Mikompilation/MioPan/blob/08c76476f90a3024da2c1c57981e0bcf9ed00300/CMakeLists.txt"
+        },
+        {
+          "path": "LICENSE",
+          "bytes": 34523,
+          "sha256": "bc3f29d15ce8234b93112abaef8df078f21465db1255b268f44b08b4bd0dbb57",
+          "url": "https://github.com/Mikompilation/MioPan/blob/08c76476f90a3024da2c1c57981e0bcf9ed00300/LICENSE"
+        },
+        {
+          "path": "README.md",
+          "bytes": 3213,
+          "sha256": "be4052bbb72208a4ea65cd51fa9ee021c8d76337aad6dd8e6c408e96bcc33a12",
+          "url": "https://github.com/Mikompilation/MioPan/blob/08c76476f90a3024da2c1c57981e0bcf9ed00300/README.md"
+        },
+        {
+          "path": "cmake/sdl3.cmake",
+          "bytes": 2813,
+          "sha256": "7a73f24d6091842f4939334fd6a4bec9577852aca9df5292cfd73219729afb5e",
+          "url": "https://github.com/Mikompilation/MioPan/blob/08c76476f90a3024da2c1c57981e0bcf9ed00300/cmake/sdl3.cmake"
+        },
+        {
+          "path": "cmake/shadercross.cmake",
+          "bytes": 11367,
+          "sha256": "388874fc8938f9406f1cc118a7833d5dc5946a3f56af06ba52ebfeff148bf238",
+          "url": "https://github.com/Mikompilation/MioPan/blob/08c76476f90a3024da2c1c57981e0bcf9ed00300/cmake/shadercross.cmake"
+        },
+        {
+          "path": "cmake/ffmpeg.cmake",
+          "bytes": 3511,
+          "sha256": "0bd36471fe15fa76c6683452e614be638a69cf5940aecbc656ba00fc993df498",
+          "url": "https://github.com/Mikompilation/MioPan/blob/08c76476f90a3024da2c1c57981e0bcf9ed00300/cmake/ffmpeg.cmake"
+        },
+        {
+          "path": "extern/ffmpeg/LICENSE",
+          "bytes": 35147,
+          "sha256": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903",
+          "url": "https://github.com/Mikompilation/MioPan/blob/08c76476f90a3024da2c1c57981e0bcf9ed00300/extern/ffmpeg/LICENSE"
+        }
+      ],
+      "privateTreeSha256": "cd7085b21c630ef7a9485facdc94760578ec5947aa22a3f2d571209d6ab884b4"
+    }
+  ],
+  "catalogDuplicateScreen": {
+    "repository": "jkdansereau/goldeneye-pc-port",
+    "catalogId": "goldeneye-007",
+    "action": "Skip as existing game identity; no second entry or runtime inspected"
+  },
+  "dependencies": [
+    {
+      "repository": "bytecodealliance/wasm-micro-runtime",
+      "revision": "25bd7eb63e828e4bd242cc9b38d260b4b31c6605",
+      "role": "Exact HexDump0/melee WAMR gitlink; selected notice only, not linked closure",
+      "selectedTextFiles": [
+        {
+          "path": "LICENSE",
+          "bytes": 12242,
+          "sha256": "0a274df3755e61b169266fba62d842489378bc9a6e9a63fe24f02ee6f5de419f",
+          "url": "https://github.com/bytecodealliance/wasm-micro-runtime/blob/25bd7eb63e828e4bd242cc9b38d260b4b31c6605/LICENSE"
+        }
+      ],
+      "fetchFailures": [
+        {
+          "path": "NOTICE",
+          "httpStatus": 404
+        }
+      ]
+    }
+  ],
+  "phase": "Pinned source/build-contract/selected-notice screen only",
+  "selectedTextFileCount": 50,
+  "catalog": {
+    "count": 85,
+    "workingFileSha256": "ec94172af1358d4247fcb572b14ead8f044d6e727f1367fc816f4e6193dc55de",
+    "gitBlob": "10a69b5a9dc3e20ba9a75b4b51f34e02d271d81c",
+    "valuesIdenticalToHead": true,
+    "gitBlobMatchesHead": true,
+    "deduplication": [
+      {
+        "game": "Super Smash Bros. Melee",
+        "aliasesChecked": [
+          "Super Smash Bros Melee",
+          "Melee Unbound",
+          "doldecomp/melee",
+          "HexDump0/melee"
+        ],
+        "matchingCatalogIds": []
+      },
+      {
+        "game": "Dragon Ball Z: Budokai Tenkaichi 3",
+        "aliasesChecked": [
+          "Budokai Tenkaichi 3",
+          "Tenkaichi3Decomp",
+          "BT3-Decompiled"
+        ],
+        "matchingCatalogIds": []
+      },
+      {
+        "game": "Fatal Frame II: Crimson Butterfly",
+        "aliasesChecked": [
+          "Fatal Frame II",
+          "Fatal Frame 2",
+          "Project Zero 2",
+          "Crimson Butterfly",
+          "Mikompilation",
+          "MioPan"
+        ],
+        "matchingCatalogIds": []
+      }
+    ],
+    "distinctRelatedTitle": "Melee is distinct from existing N64 super-smash-bros"
+  },
+  "limitations": [
+    "No exact linked dependency/SDK/header/emitted-JS closure",
+    "No original rights-holder grant inferred from root MIT/BSD/CC0 declarations",
+    "No independent complete asset pack established",
+    "No local build/matching/browser/gameplay/audio result",
+    "No clean-room certification"
+  ],
+  "decisions": [
+    {
+      "game": "Super Smash Bros. Melee",
+      "eligible": false,
+      "classification": "WIP matching decompilation plus native/browser source port with hardware compatibility",
+      "blockers": [
+        "Port MIT explicitly excludes decompiled game source; no whole-game grant established",
+        "Original disc data required, no complete independently authored replacement pack",
+        "Browser recipe exists but SDK/dependencies, compatibility and gameplay unverified"
+      ],
+      "dependencyScope": "WAMR Apache-2.0 with LLVM exceptions is desktop mod runtime; browser census excludes it and compiles default mod directly"
+    },
+    {
+      "game": "Dragon Ball Z: Budokai Tenkaichi 3",
+      "eligible": false,
+      "classification": "Matching PS2 reconstruction plus separate native PC source port",
+      "blockers": [
+        "Upstream CC0 and port MIT exclude the game itself",
+        "Disc-free build uses shape-only data tables; values and remaining content still disc-derived",
+        "Custom stages retain base disc sound bank; added-content lettering generated from original pictures",
+        "Original PS2 SDK/CRI scope and selected newlib components separate; no exact closure or verified browser route"
+      ],
+      "upstreamRelationship": "Default-branch BT3 pin read separately; exact copied-source ancestry in PC port not verified"
+    },
+    {
+      "game": "Fatal Frame II: Crimson Butterfly",
+      "eligible": false,
+      "classification": "Early BSD C++ reconstruction/reimplementation and separate AGPL prototype-derived native source reconstruction/port",
+      "blockers": [
+        "BSD author declaration does not establish inherited game grants/provenance or complete native gameplay",
+        "MioPan AGPL-3.0 outside current accepted permissive route",
+        "Original IMG_BD.BIN required by MioPan; no complete independent pack in either implementation",
+        "Selected routes are native, no verified browser adaptation or linked dependency closure"
+      ],
+      "dependencyScope": "Earlier BSD CMake comments out SDL2/ImGui targets; MioPan optional vendored FFmpeg notice is GPL-3.0, exact binary configuration not audited"
+    }
+  ]
+}
