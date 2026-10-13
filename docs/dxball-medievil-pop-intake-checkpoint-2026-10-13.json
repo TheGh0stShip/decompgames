@@ -1,0 +1,23 @@
+{
+  "reviewedAt": "2026-10-13T22:19:47.186606+00:00",
+  "audit": "dxball-medievil-pop-source-intake-2026-10-13.md",
+  "evidence": "dxball-medievil-pop-source-snapshots-2026-10-13.json",
+  "gameIdentities": 3,
+  "sourceRepositories": 4,
+  "selectedDependencyLicenseFiles": 2,
+  "selectedTextFiles": 27,
+  "eligibleIntegrations": 0,
+  "catalogEntries": 85,
+  "catalogValuesIdenticalToHead": true,
+  "catalogGitBlobMatchesHead": true,
+  "runtimeChanged": false,
+  "sourceDistributionsChanged": false,
+  "buildAttempted": false,
+  "browserOpened": false,
+  "gameplayTested": false,
+  "audioTested": false,
+  "deployed": false,
+  "historicalFiveDecompMilestone": "4/5 unchanged",
+  "protectedWork": "Mario Party 2/3 and Halo untouched; prior ROM research private",
+  "nextAction": "Pursue other actual-decomp leads; revisit these pins only when grant/content/platform blockers change."
+}

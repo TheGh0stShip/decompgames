@@ -1,0 +1,445 @@
+{
+  "reviewedAt": "2026-10-13T22:19:47.186606+00:00",
+  "scope": "Pinned trees plus selected textual license/readme/build files only; no game data/executable/media/SDK binary/release bundle/player/build/test",
+  "snapshots": [
+    {
+      "repository": "N0zoM1z0/dx-ball",
+      "revision": "d61b0d418cc90229bf956b3275dba6b7670798f8",
+      "starsAtRead": 49,
+      "apiLicense": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdx_id": "MIT",
+        "url": "https://api.github.com/licenses/mit",
+        "node_id": "MDc6TGljZW5zZTEz"
+      },
+      "treeTruncated": false,
+      "treeEntryCount": 564,
+      "privateTreeSha256": "2fc9fb81db681fc3f86ea8381e5ba1edc1b72766b1bd2178fec8b5fd6009451a",
+      "rootFiles": [
+        ".gitignore",
+        "AGENTS.md",
+        "CMakeLists.txt",
+        "LICENSE",
+        "README.md",
+        "requirements-analysis.txt"
+      ],
+      "grantNamedFiles": [
+        "LICENSE"
+      ],
+      "gitlinks": [],
+      "selectedTextFiles": [
+        {
+          "path": "CMakeLists.txt",
+          "bytes": 5627,
+          "sha256": "454d8b8c64cc53b19c2cfc15521794ebcb5d967364ca92043e0306db606faa25",
+          "url": "https://github.com/N0zoM1z0/dx-ball/blob/d61b0d418cc90229bf956b3275dba6b7670798f8/CMakeLists.txt"
+        },
+        {
+          "path": "LICENSE",
+          "bytes": 1065,
+          "sha256": "64a2bfa2af0a3e1d2e5229ee14f3a6d0077450d7508c7adc90b45695822b7bf8",
+          "url": "https://github.com/N0zoM1z0/dx-ball/blob/d61b0d418cc90229bf956b3275dba6b7670798f8/LICENSE"
+        },
+        {
+          "path": "README.md",
+          "bytes": 9776,
+          "sha256": "d838c1fbd68fb6641ac8043fae37eb067b70153eae56b00466094230e992d669",
+          "url": "https://github.com/N0zoM1z0/dx-ball/blob/d61b0d418cc90229bf956b3275dba6b7670798f8/README.md"
+        },
+        {
+          "path": "docs/BUILD.md",
+          "bytes": 3845,
+          "sha256": "65421a6bb1c4d3ca07404d2a1af986ce816aa7ef918eef176915f8682932168d",
+          "url": "https://github.com/N0zoM1z0/dx-ball/blob/d61b0d418cc90229bf956b3275dba6b7670798f8/docs/BUILD.md"
+        },
+        {
+          "path": "docs/PROGRESS.md",
+          "bytes": 996,
+          "sha256": "ce3eef8c8b7dcfc57f43cf41bf9b1cec35c2bfc56e6f23847b655f9163bddc25",
+          "url": "https://github.com/N0zoM1z0/dx-ball/blob/d61b0d418cc90229bf956b3275dba6b7670798f8/docs/PROGRESS.md"
+        },
+        {
+          "path": "docs/ARCHITECTURE.md",
+          "bytes": 4745,
+          "sha256": "5f70fb4c151b9103794729b75cae1148c83d3f804a739726e303361130a3c98a",
+          "url": "https://github.com/N0zoM1z0/dx-ball/blob/d61b0d418cc90229bf956b3275dba6b7670798f8/docs/ARCHITECTURE.md"
+        },
+        {
+          "path": "config/crt-provenance.json",
+          "bytes": 2544,
+          "sha256": "fdbf344b839962df79586887cc2e1bcdad816f4255b5718600b956a8161afcba",
+          "url": "https://github.com/N0zoM1z0/dx-ball/blob/d61b0d418cc90229bf956b3275dba6b7670798f8/config/crt-provenance.json"
+        },
+        {
+          "path": "config/claims.csv",
+          "bytes": 20,
+          "sha256": "2aaa902047f77c151bd2e335e4bc795b08a667618490a29f2e7edcadf944ae97",
+          "url": "https://github.com/N0zoM1z0/dx-ball/blob/d61b0d418cc90229bf956b3275dba6b7670798f8/config/claims.csv"
+        },
+        {
+          "path": "config/assets.csv",
+          "bytes": 4047,
+          "sha256": "70b8de5cfed5855f7fae0dfc8992dff5ab12f26a846f8786e85aad3c5c5661ec",
+          "url": "https://github.com/N0zoM1z0/dx-ball/blob/d61b0d418cc90229bf956b3275dba6b7670798f8/config/assets.csv"
+        }
+      ]
+    },
+    {
+      "repository": "MediEvilDecompilation/medievil-decomp",
+      "revision": "6afe6fe35d5ddf0ce1bebdb2e72f8215b5b5b407",
+      "starsAtRead": 70,
+      "apiLicense": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdx_id": "MIT",
+        "url": "https://api.github.com/licenses/mit",
+        "node_id": "MDc6TGljZW5zZTEz"
+      },
+      "treeTruncated": false,
+      "treeEntryCount": 220,
+      "privateTreeSha256": "19f20c1d6989dc6e5b6777be0e8b4fb387521e605a71472fd281300b2c6f4765",
+      "rootFiles": [
+        ".clang-format",
+        ".clang-tidy",
+        ".gitignore",
+        ".gitmodules",
+        "LICENSE",
+        "Makefile",
+        "README.md",
+        "diff_settings.py"
+      ],
+      "grantNamedFiles": [
+        "LICENSE"
+      ],
+      "gitlinks": [
+        {
+          "path": "tools/asm-differ",
+          "revision": "4ed8473173c5a4d6d62337ee4759fdbd93fcf20b"
+        },
+        {
+          "path": "tools/m2c",
+          "revision": "08138748803d75e73e4a94bb0c619a273754ee9c"
+        },
+        {
+          "path": "tools/maspsx",
+          "revision": "ccf0f4d3e9191103de0a7f1112ef68d908be92f0"
+        },
+        {
+          "path": "tools/splat",
+          "revision": "fb9ffe061560c63d482431b7e69f40f493b0bfa1"
+        }
+      ],
+      "selectedTextFiles": [
+        {
+          "path": ".gitmodules",
+          "bytes": 381,
+          "sha256": "ee88703e6dcadb547b97084f80d67e6d3b4b3a850ce1121116fc8b75043f0b8f",
+          "url": "https://github.com/MediEvilDecompilation/medievil-decomp/blob/6afe6fe35d5ddf0ce1bebdb2e72f8215b5b5b407/.gitmodules"
+        },
+        {
+          "path": "LICENSE",
+          "bytes": 1074,
+          "sha256": "1e0e43e03f1c77ce3ecaef9101f16e0975f47e19548a5ec53b9565a64dd0da5a",
+          "url": "https://github.com/MediEvilDecompilation/medievil-decomp/blob/6afe6fe35d5ddf0ce1bebdb2e72f8215b5b5b407/LICENSE"
+        },
+        {
+          "path": "Makefile",
+          "bytes": 8937,
+          "sha256": "672b6aad2c27e2f1b1b886447a189b80a9b76137b63eb4d0abc0e27fa7916094",
+          "url": "https://github.com/MediEvilDecompilation/medievil-decomp/blob/6afe6fe35d5ddf0ce1bebdb2e72f8215b5b5b407/Makefile"
+        },
+        {
+          "path": "README.md",
+          "bytes": 2124,
+          "sha256": "50e8ff8ca7d5b10245f303b028c9def333fe6cd577a4b4d16ad4e2805d71fce4",
+          "url": "https://github.com/MediEvilDecompilation/medievil-decomp/blob/6afe6fe35d5ddf0ce1bebdb2e72f8215b5b5b407/README.md"
+        },
+        {
+          "path": "config/splat.main.yaml",
+          "bytes": 1113,
+          "sha256": "3fbc80eb6113a50db51624b126f0b7ebaa33eb89207c1816c04ff23e672d79e4",
+          "url": "https://github.com/MediEvilDecompilation/medievil-decomp/blob/6afe6fe35d5ddf0ce1bebdb2e72f8215b5b5b407/config/splat.main.yaml"
+        },
+        {
+          "path": "config/splat.game.yaml",
+          "bytes": 1468,
+          "sha256": "328d883360ae0d21185a54e9d5be87fd48136ffc41f9002a3323e4efde948db8",
+          "url": "https://github.com/MediEvilDecompilation/medievil-decomp/blob/6afe6fe35d5ddf0ce1bebdb2e72f8215b5b5b407/config/splat.game.yaml"
+        }
+      ]
+    },
+    {
+      "repository": "alexbeavs-ps1-ports/medievil-recomp",
+      "revision": "f8eb216f10ef7f644b33643330b967cd29562709",
+      "starsAtRead": 7,
+      "apiLicense": {
+        "key": "gpl-3.0",
+        "name": "GNU General Public License v3.0",
+        "spdx_id": "GPL-3.0",
+        "url": "https://api.github.com/licenses/gpl-3.0",
+        "node_id": "MDc6TGljZW5zZTk="
+      },
+      "treeTruncated": false,
+      "treeEntryCount": 44,
+      "privateTreeSha256": "4a45acc123466bb4cd2780f3067d748aa4f50e85b5e8a86221ea16c87466623d",
+      "rootFiles": [
+        ".gitattributes",
+        ".gitignore",
+        ".gitmodules",
+        "CMakeLists.txt",
+        "LICENSE",
+        "README.md",
+        "THIRD_PARTY_NOTICES.md",
+        "VERSION",
+        "catalog_identity.json",
+        "codegen_setup.c",
+        "codegen_setup.h",
+        "disc_probe.json",
+        "framework_pins.txt",
+        "game.toml",
+        "game_options.toml",
+        "project-manifest.toml",
+        "psx_symbols.h",
+        "symbols.toml"
+      ],
+      "grantNamedFiles": [
+        "LICENSE",
+        "THIRD_PARTY_NOTICES.md"
+      ],
+      "gitlinks": [
+        {
+          "path": "psxrecomp",
+          "revision": "40ce47896026be52bcaae7de03b69766e0bd03e4"
+        },
+        {
+          "path": "recomp-ui",
+          "revision": "be8ac1d03ee19d55394b5a5f2d9d1506edd56659"
+        }
+      ],
+      "selectedTextFiles": [
+        {
+          "path": ".gitmodules",
+          "bytes": 193,
+          "sha256": "4d4bfdcee3cdfce8983f238da1d8aaf105fe1439c7a982549926c323ad1ccb9e",
+          "url": "https://github.com/alexbeavs-ps1-ports/medievil-recomp/blob/f8eb216f10ef7f644b33643330b967cd29562709/.gitmodules"
+        },
+        {
+          "path": "CMakeLists.txt",
+          "bytes": 2545,
+          "sha256": "c85ded26c4c4a8b5455ba31ac48beba6a039ba3eb8547359bf65d4daf74b6d0e",
+          "url": "https://github.com/alexbeavs-ps1-ports/medievil-recomp/blob/f8eb216f10ef7f644b33643330b967cd29562709/CMakeLists.txt"
+        },
+        {
+          "path": "LICENSE",
+          "bytes": 35150,
+          "sha256": "e57f1c320b8cf8798a7d2ff83a6f9e06a33a03585f6e065fea97f1d86db84052",
+          "url": "https://github.com/alexbeavs-ps1-ports/medievil-recomp/blob/f8eb216f10ef7f644b33643330b967cd29562709/LICENSE"
+        },
+        {
+          "path": "README.md",
+          "bytes": 5943,
+          "sha256": "95c7c51f8efb42c95dc3d6c4e1a44f7be18add79cf94b6eaa00dce7db367589e",
+          "url": "https://github.com/alexbeavs-ps1-ports/medievil-recomp/blob/f8eb216f10ef7f644b33643330b967cd29562709/README.md"
+        },
+        {
+          "path": "THIRD_PARTY_NOTICES.md",
+          "bytes": 624,
+          "sha256": "d046525e709a8b5f704a361e1139ff5a9f59a7ec39aa87810d73f9c5329e25f7",
+          "url": "https://github.com/alexbeavs-ps1-ports/medievil-recomp/blob/f8eb216f10ef7f644b33643330b967cd29562709/THIRD_PARTY_NOTICES.md"
+        },
+        {
+          "path": "game.toml",
+          "bytes": 1215,
+          "sha256": "069816e3e9e6e033eea5e87aea432389d218143b9e2f129879547948f2f37757",
+          "url": "https://github.com/alexbeavs-ps1-ports/medievil-recomp/blob/f8eb216f10ef7f644b33643330b967cd29562709/game.toml"
+        },
+        {
+          "path": "project-manifest.toml",
+          "bytes": 2039,
+          "sha256": "a0b187144986f6316d05b3d0143ae37b41e6afe8e7e4eca5e7554ddfb63c899e",
+          "url": "https://github.com/alexbeavs-ps1-ports/medievil-recomp/blob/f8eb216f10ef7f644b33643330b967cd29562709/project-manifest.toml"
+        },
+        {
+          "path": "docs/VALIDATION.md",
+          "bytes": 1438,
+          "sha256": "0a074cad229edca70dd4430c88870c3bbb9690ad681b1919317812f302e13f8e",
+          "url": "https://github.com/alexbeavs-ps1-ports/medievil-recomp/blob/f8eb216f10ef7f644b33643330b967cd29562709/docs/VALIDATION.md"
+        }
+      ]
+    },
+    {
+      "repository": "jmechner/Prince-of-Persia-Apple-II",
+      "revision": "25243550b6e1d035d7b51b5d7e5114a83ebcb5c0",
+      "starsAtRead": 6908,
+      "apiLicense": {
+        "key": "other",
+        "name": "Other",
+        "spdx_id": "NOASSERTION",
+        "url": null,
+        "node_id": "MDc6TGljZW5zZTA="
+      },
+      "treeTruncated": false,
+      "treeEntryCount": 601,
+      "privateTreeSha256": "1e6fb2eb0a37fd668cc143c6a8c8a851e16ac6edfa55f87154674d3b9b220d65",
+      "rootFiles": [
+        ".gitattributes",
+        "LICENSE",
+        "README.md"
+      ],
+      "grantNamedFiles": [
+        "LICENSE"
+      ],
+      "gitlinks": [],
+      "selectedTextFiles": [
+        {
+          "path": "LICENSE",
+          "bytes": 58,
+          "sha256": "4ae1bd491a3f063d68246c3d24462c77668a5331a2cb23b2221e19f14576ec59",
+          "url": "https://github.com/jmechner/Prince-of-Persia-Apple-II/blob/25243550b6e1d035d7b51b5d7e5114a83ebcb5c0/LICENSE"
+        },
+        {
+          "path": "README.md",
+          "bytes": 3324,
+          "sha256": "511d615ce1a351c145bb7b036f445f81b8e6e29f828bdce78c381ed2c96378e4",
+          "url": "https://github.com/jmechner/Prince-of-Persia-Apple-II/blob/25243550b6e1d035d7b51b5d7e5114a83ebcb5c0/README.md"
+        }
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "repository": "Alexbeav/psxrecomp",
+      "revision": "40ce47896026be52bcaae7de03b69766e0bd03e4",
+      "role": "Exact MediEvil recomp gitlink, notice only; no code/build/runtime closure",
+      "selectedTextFiles": [
+        {
+          "path": "LICENSE",
+          "bytes": 3852,
+          "sha256": "03912c9ba1b055f2364b5adf318f4ca8a66c640e991f16e9ff5b2a516d3f24e2",
+          "url": "https://github.com/Alexbeav/psxrecomp/blob/40ce47896026be52bcaae7de03b69766e0bd03e4/LICENSE"
+        }
+      ]
+    },
+    {
+      "repository": "RetroPortingToolKit/recomp-ui",
+      "revision": "be8ac1d03ee19d55394b5a5f2d9d1506edd56659",
+      "role": "Exact MediEvil recomp gitlink, notice only; no code/build/runtime closure",
+      "selectedTextFiles": [
+        {
+          "path": "LICENSE",
+          "bytes": 1072,
+          "sha256": "676252c9efb0849cc08cdba279318b4d62ae144c19a52a0aa7ab5ca845ae5ddc",
+          "url": "https://github.com/RetroPortingToolKit/recomp-ui/blob/be8ac1d03ee19d55394b5a5f2d9d1506edd56659/LICENSE"
+        }
+      ]
+    }
+  ],
+  "phase": "Pinned source/docs/build-contract/selected-license screen; no build or player",
+  "selectedTextFileCount": 27,
+  "catalog": {
+    "count": 85,
+    "workingFileSha256": "ec94172af1358d4247fcb572b14ead8f044d6e727f1367fc816f4e6193dc55de",
+    "gitBlob": "10a69b5a9dc3e20ba9a75b4b51f34e02d271d81c",
+    "valuesIdenticalToHead": true,
+    "gitBlobMatchesHead": true,
+    "deduplication": [
+      {
+        "game": "DX-Ball",
+        "aliasesChecked": [
+          "DX-Ball",
+          "dxball_reconstruction",
+          "N0zoM1z0/dx-ball"
+        ],
+        "matchingCatalogIds": []
+      },
+      {
+        "game": "MediEvil",
+        "aliasesChecked": [
+          "MediEvil",
+          "MediEvilDecompilation/medievil-decomp",
+          "medievil-recomp"
+        ],
+        "matchingCatalogIds": []
+      },
+      {
+        "game": "Prince of Persia",
+        "aliasesChecked": [
+          "Prince of Persia",
+          "SDLPoP",
+          "Prince-of-Persia-Apple-II"
+        ],
+        "matchingCatalogIds": []
+      }
+    ]
+  },
+  "researchIdentityDeduplication": "Prince of Persia Apple II archive and previously researched SDLPoP represent one game; neither added. MediEvil decomp/recomp are two implementations of one game.",
+  "limitations": [
+    "Root MIT does not establish original game or recovered compiler/runtime rights",
+    "Selected dependency licenses do not establish exact linked closure",
+    "No complete independently authored replacement pack established",
+    "No local build/matching/browser/gameplay/audio results",
+    "No clean-room certification"
+  ],
+  "decisions": [
+    {
+      "game": "DX-Ball",
+      "eligible": false,
+      "classification": "Function-by-function C/C++ reconstruction plus Windows source-port frontend",
+      "blockers": [
+        "Whole inherited game-code grant not established",
+        "Original archive and embedded/external resources required; no independent full replacement pack",
+        "Portable core and resource/board inspectors are separate from Windows-only playable frontend",
+        "DirectDraw/DirectSound/WinMM, x87 precision assumptions, reconstructed CRT origin and browser closure require separate adaptation/audit"
+      ],
+      "upstreamOnlyMetrics": {
+        "provisionalCandidates": 538,
+        "sourcePresentFunctions": 410,
+        "scopedSemanticAccepted": 249,
+        "byteExactFunctions": 304,
+        "completeExactBytes": 68066,
+        "runtimeDependencyEntries": 189,
+        "compilerGeneratedEntries": 43,
+        "unclassifiedOrigins": 36,
+        "notAdditive": true,
+        "independentlyReproduced": false
+      }
+    },
+    {
+      "game": "MediEvil",
+      "eligible": false,
+      "implementations": [
+        {
+          "repository": "MediEvilDecompilation/medievil-decomp",
+          "classification": "WIP PS1 source reconstruction",
+          "blockers": [
+            "Contributor MIT without established original rights-holder grant",
+            "Original main/game program splitting, PSX assembly/data and level overlays required",
+            "Progress placeholder, no complete native/browser gameplay or independent pack established"
+          ]
+        },
+        {
+          "repository": "alexbeavs-ps1-ports/medievil-recomp",
+          "classification": "Static recompilation setup with hardware/BIOS runtime",
+          "blockers": [
+            "GPL-3.0-only project code outside current permissive route",
+            "Exact PSXRecomp gitlink PolyForm Noncommercial runtime, MIT UI separate",
+            "Original disc plus retail SCPH-1001 BIOS; generated retail code/content excluded from project license",
+            "Upstream receipt unpublished, hidden startup only; visible gameplay and exact-package release tests outstanding"
+          ]
+        }
+      ]
+    },
+    {
+      "game": "Prince of Persia",
+      "eligible": false,
+      "classification": "Original recovered Apple II 6502 source archive, not decompilation",
+      "blockers": [
+        "LICENSE refers to author README; informal study/modify/run approval does not establish a permissive distribution grant",
+        "Author explicitly declines franchise rights grant",
+        "No assembly or support payloads fetched; no independent content/native browser route established",
+        "Existing SDLPoP research same game identity; archive not another decomp addition"
+      ]
+    }
+  ]
+}
