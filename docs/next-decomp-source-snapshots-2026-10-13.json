@@ -1,0 +1,42 @@
+{
+  "scope": "Read-only pinned metadata/licence/documentation/build snippets; no upstream game files or executables downloaded, no build or gameplay test",
+  "snapshots": [
+    {
+      "repository": "isledecomp/isle",
+      "revision": "8119bd013645972c72480e4de21529f1e91ce5c7",
+      "starsAtRead": 3487,
+      "rootFileHashes": {
+        "CMakeLists.txt": "cb7761cf70e4a6e69d0803f9274a73ec0b396088ad165f2739186743bf081d1f",
+        "LICENSE": "e3a994d82e644b03a792a930f574002658412f62407f5fee083f2555c5f23118",
+        "README.md": "e9f0a394749e0692cea65a4b5fa1897c31ae4d6aaa4c03efe59067bb1ca4958e"
+      },
+      "extraFileHashes": {}
+    },
+    {
+      "repository": "isledecomp/isle-portable",
+      "revision": "416f21f6a40c028da3e9fb84b49ee474109a6bd5",
+      "starsAtRead": 1065,
+      "rootFileHashes": {
+        ".gitmodules": "7c13b5f80416d17bab34ba2b70cd110710894b61df9e727123014d4cfc7617d7",
+        "CMakeLists.txt": "fc89bd4468c4cb938ecbc182bafe71da933aba2eff1d42eb6862b790ba48a527",
+        "LICENSE": "e3a994d82e644b03a792a930f574002658412f62407f5fee083f2555c5f23118",
+        "README.md": "abd2ecd54077927fda43a9581b07460b46d7bc6b30776fdb011bb31e2ba9f93e"
+      },
+      "extraFileHashes": {}
+    },
+    {
+      "repository": "M-HT/SR",
+      "revision": "ac690ddf3010bc3d2c875cb1b5e8da4f53a8d5b3",
+      "starsAtRead": 425,
+      "rootFileHashes": {
+        "README.md": "f4121e5b62c32799c5f389daa48c8b8b23eea5b7d4f5816669e3770d448cf4be"
+      },
+      "extraFileHashes": {
+        "games/Septerra Core/SR-Septerra/SConstruct": "b508802dd25f249a4d0b4f1cbe3fd93b59dd6d35b5a5f90c41cde33b21a53196",
+        "games/Septerra Core/release/linux/readme-Linux.txt": "dc03795996f62a75083639535d49bb8e6a314a3d002968dac2c9c55ec54dd658",
+        "SRW/README.md": "763805508e183cbe9090ba58f79f37eb47d941ac3ebd42b3435293776c053bef",
+        "llasm/README.md": "a539ee5965a62f3e4575e5cfc349718f7b685f69ca7f00b0417b07cdbf6e1b3b"
+      }
+    }
+  ]
+}
