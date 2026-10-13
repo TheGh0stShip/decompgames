@@ -4,13 +4,13 @@
   "repository": "https://github.com/OpenZoo/openzoo-prototype-cpp",
   "sourceRevision": "442ff28c423faa947793e8a69a99a0e98f52796d",
   "classification": "Reconstruction-derived native C++ source port/rewrite; not emulation or clean-room certified",
-  "sourceArchive": "/sources/zzt-demo-442ff28-authored-source.tar.gz",
-  "sourceArchiveSha256": "029400b316e8119ed265b96f888a04e025dd82d022e722d1481954e6a431d82a",
+  "sourceArchive": "/sources/zzt-demo-442ff28-font86b2ca-source.tar.gz",
+  "sourceArchiveSha256": "815d6a462854ec57f3656dc6a95da1ede5c497153cb6a191f04f6a51a2d9bf7c",
   "files": [
     {
       "path": "asset-provenance.json",
-      "bytes": 573,
-      "sha256": "89f507c01cca4a30abf8c28ef9b6b4a8e842acaf3a8a0837cd8cf888f5c20393"
+      "bytes": 656,
+      "sha256": "e5b5b232f55470923a83572a318dca973f247a8b27529f6ac8ce9502e8e869d7"
     },
     {
       "path": "notices/authored-content-CC0.txt",
@@ -70,12 +70,12 @@
     {
       "path": "openzoo.data",
       "bytes": 112635,
-      "sha256": "50c05576a97435f68cbac1921d89a7cce4129dfb863a1bf5fc9f1f123d478584"
+      "sha256": "a53e1223e6a9131cb6a5c79cfa4914d323c745786402b5e15fe0af22983c95ac"
     },
     {
       "path": "openzoo.js",
-      "bytes": 376276,
-      "sha256": "e62da10d78f0e486bdef311f395f2256ab180891588fd32d82a5ef5767afac7f"
+      "bytes": 376267,
+      "sha256": "58c125d9016e414fc4b45f8b01c4b0291af419ff1be449f04552d3c7f4a676dc"
     },
     {
       "path": "openzoo.wasm",
@@ -84,8 +84,8 @@
     },
     {
       "path": "player.html",
-      "bytes": 1753,
-      "sha256": "e3aca4a103f3b295acd4eafaee3fbc3c5e01972ef2a546553dc657ca0636e46a"
+      "bytes": 1755,
+      "sha256": "a68ba2ba1af19c7ccd96fa1b4689a221b705753f48e65eb4b83c17a7aad58405"
     },
     {
       "path": "save-validator.js",
@@ -93,5 +93,5 @@
       "sha256": "100f86ede242f3889bfb7243720eba1520389c5733eb555224f5100414afa447"
     }
   ],
-  "sourceArchiveBytes": 110125
+  "sourceArchiveBytes": 110228
 }

@@ -1,0 +1,17 @@
+{
+  "scope": "Authored font padding repair; muted actual public host movement/save/exact reload/visible resume, screenshot inspected. Same installed toolchain isolated archive rebuild; generated JS paths differ.",
+  "checks": {
+    "openzoo.wasm": true,
+    "openzoo.data": true,
+    "host": true,
+    "fontGenerator": true
+  },
+  "errors": [],
+  "missing": [],
+  "external": [],
+  "saveBytes": 26465,
+  "playersClosed": true,
+  "wasmUnchanged": true,
+  "sourceArchiveSha256": "815d6a462854ec57f3656dc6a95da1ede5c497153cb6a191f04f6a51a2d9bf7c",
+  "production": "pending"
+}
