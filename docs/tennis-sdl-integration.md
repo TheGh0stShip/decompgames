@@ -1,0 +1,17 @@
+# Tennis integration checkpoint
+
+Tennis from catsocks/tennis-sdl at 0338d21bc13994ffa440ce70375e1369ef2a64e8 is an original Pong-style C implementation, not a decompilation. Author game code/procedural graphics are CC0 with retained third-party exceptions; SDL2 and Emscripten retain their separate notices. No ROM/content pack required. Silent edition has audio disabled structurally.
+
+Local muted Edge tests passed both paddles, live ball progression and scoring, pause/resume, restart and mute-key silence. No persistent save, touch/controller verification or complete-match playthrough. All players closed. Evidence: tennis-sdl-browser-test.json. Exact runtime/license/source archive hashes in public/manifests/tennis-sdl.json verified by parent against all files.
+
+Catalog entry added as an original implementation, linking the intended production static player path. Production deployment and production gameplay remain pending. Source archive is excluded from static shell and must be uploaded through existing source object storage before release.
+
+Integration repair: added required aliases after GameCard build failure, extended ProjectKind to represent original implementations accurately, and renamed the static host to player.html to avoid collision with Astro's /games/tennis-sdl/index.html detail route. Manifest path updated without changing host bytes/hash. Corrected whole-site build is running; do not claim completion until its exit status is checked.
+
+Corrected npm run build completed successfully (145 generated pages, exit0). Global catalog validation still fails on the seven null dates listed below; successful static compilation does not clear that release gate or verify production.
+
+Subsequent catalog repair resolved blocker by correcting external-player integration modes and missing-image fallback references, preserving test dates as unknown. Source check and74-entry validation passed,23 repository tests passed, production build and3964 local-link checks passed. Source archive uploaded to existing R2 and deployment2662cf69 completed. https://decompgames.com/games/tennis-sdl/player.html runtime/source SHA256 matches all manifest files; muted production Edge paddle0 moved275->122, errors[]. Broader scoring/pause/restart proof remains local. Browser closed; evidence in github-intake-production.json.
+
+Current site validation blocks on seven pre-existing hosted GBA records with null verification dates: fire-emblem-sacred-stones, kirby-nightmare-in-dream-land, metroid-zero-mission, pokemon-mystery-dungeon-red-rescue-team, pokemon-ruby-sapphire, zelda-minish-cap and wario-land-4. Do not invent dates or silently downgrade their claims; resolve from their dated evidence/owning session before global release. Tennis itself has a dated, scoped verification record. Whole-site build launched; completion must be checked separately.
+
+October13 live full-round checkpoint: ordinary keyboard control reaches11-0 via natural ball scoring in36.337game seconds and automatic reset0-0 after6seconds. Automated left-paddle tracking/right-up hold uses existing read-only browser_value exports; no score/state/timing/randomness edits or score-cheat keys. Terminal/reset screenshots inspected. Mute remains1,errors/missingempty, analyticsbeaconblocked, mutedEdgeclosed.9runtime hashesmatch. One keyboard-controlled round, not idle-AI difficulty/touch/controller/audio certification. Runtimeunchanged; [production evidence](tennis-sdl-full-round-production.json). Catalog playthrough true refers to reaching this round endpoint only.

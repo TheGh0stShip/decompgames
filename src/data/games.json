@@ -1248,12 +1248,12 @@
   "color": "#416f67",
   "verification": {
    "status": "gameplay-tested",
-   "date": "2026-10-09",
+   "date": "2026-10-13",
    "browsers": [
     "Edge (headless, muted)"
    ],
-   "scope": "Local WASM: both paddles, ball progression/scored point, pause/resume and restart verified. Production release: startup and measured left-paddle movement, zero page errors; runtime/source hashes checked. Full match, touch/controller and audible audio unverified.",
-   "playthrough": false
+   "scope": "Live muted Edge: one keyboard-controlled first-to11 round completed11-0, score progression and automatic0-0 restart verified in read-only values and screenshots. Automated left-paddle tracking while right paddle held upward; no score/state/timing edits. Earlier local paddles/point/pause/restart verified; runtime hashes match. Touch/controller, idle-AI difficulty and audible audio unverified.",
+   "playthrough": true
   },
   "image": "/images/tennis-sdl.png",
   "shelf": "classic",

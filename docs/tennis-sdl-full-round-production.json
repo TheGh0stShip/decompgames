@@ -1,0 +1,178 @@
+{
+  "scope": "Live first-to11 round using real keyboard control for both paddles; automated left-paddle tracking and right-paddle upward hold; read-only exported values, no state/score/timing/randomness writes",
+  "audio": "Edge --mute-audio and runtime mute true",
+  "scores": [
+    {
+      "score": [
+        1,
+        0
+      ],
+      "gameSeconds": 3.205999999999992
+    },
+    {
+      "score": [
+        2,
+        0
+      ],
+      "gameSeconds": 6.198000000000002
+    },
+    {
+      "score": [
+        3,
+        0
+      ],
+      "gameSeconds": 9.17299999999996
+    },
+    {
+      "score": [
+        4,
+        0
+      ],
+      "gameSeconds": 15.954999999999636
+    },
+    {
+      "score": [
+        5,
+        0
+      ],
+      "gameSeconds": 18.27299999999964
+    },
+    {
+      "score": [
+        6,
+        0
+      ],
+      "gameSeconds": 21.154999999999735
+    },
+    {
+      "score": [
+        7,
+        0
+      ],
+      "gameSeconds": 24.325999999999773
+    },
+    {
+      "score": [
+        8,
+        0
+      ],
+      "gameSeconds": 27.219999999999803
+    },
+    {
+      "score": [
+        9,
+        0
+      ],
+      "gameSeconds": 30.18799999999979
+    },
+    {
+      "score": [
+        10,
+        0
+      ],
+      "gameSeconds": 33.261999999999894
+    },
+    {
+      "score": [
+        11,
+        0
+      ],
+      "gameSeconds": 36.337000000000266
+    }
+  ],
+  "errors": [],
+  "missing": [],
+  "blocked": [
+    "https://static.cloudflareinsights.com/beacon.min.js/v4bc70e2c01a94c73b74392e4234840661791215815920"
+  ],
+  "initial": [
+    275,
+    275,
+    403,
+    583.267578125,
+    0,
+    0,
+    0,
+    1,
+    0.054
+  ],
+  "final": [
+    314,
+    0,
+    366.0948791503906,
+    488.41680908203125,
+    11,
+    0,
+    0,
+    1,
+    36.337000000000266
+  ],
+  "afterAutomaticRestart": [
+    339.5,
+    0,
+    383,
+    578.2120971679688,
+    0,
+    0,
+    0,
+    1,
+    43.099000000000956
+  ],
+  "autoRestart": true,
+  "playersClosed": true,
+  "runtimeHashes": {
+    "sourceRevision": "0338d21bc13994ffa440ce70375e1369ef2a64e8",
+    "results": [
+      {
+        "path": "player.html",
+        "status": 200,
+        "pass": true
+      },
+      {
+        "path": "game.js",
+        "status": 200,
+        "pass": true
+      },
+      {
+        "path": "game.wasm",
+        "status": 200,
+        "pass": true
+      },
+      {
+        "path": "LICENSE.md",
+        "status": 200,
+        "pass": true
+      },
+      {
+        "path": "THIRD_PARTY_NOTICES.md",
+        "status": 200,
+        "pass": true
+      },
+      {
+        "path": "SDL2-LICENSE.txt",
+        "status": 200,
+        "pass": true
+      },
+      {
+        "path": "EMSCRIPTEN-LICENSE.txt",
+        "status": 200,
+        "pass": true
+      },
+      {
+        "path": "silent-edition.patch",
+        "status": 200,
+        "pass": true
+      },
+      {
+        "path": "BUILD-NOTES.md",
+        "status": 200,
+        "pass": true
+      }
+    ]
+  },
+  "screenshotsInspected": [
+    "round-over11-0",
+    "automatic-restart0-0"
+  ],
+  "limits": "One keyboard-controlled first-to11 round, automated left-paddle tracking while right paddle held upward. Not an idle-AI difficulty test. Touch/controller/audio and broader browser coverage unverified."
+}

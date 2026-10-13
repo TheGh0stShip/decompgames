@@ -4,7 +4,7 @@ Current catalog:83 entries. This reconciles the saved GitHub shortlist and subse
 
 | Published entry | Accurate scope/classification | Evidence |
 | --- | --- | --- |
-| Tennis SDL | Original C/SDL game, CC0 first-party code/content; separately licensed framework. Local point/paddles/pause/reset; live paddle movement. Full match/audio unverified. | [Production test](github-intake-production.json), [manifest](../public/manifests/tennis-sdl.json) |
+| Tennis SDL | Original C/SDL game, CC0 first-party code/content; separately licensed framework. Local point/paddles/pause/reset; live keyboard first-to11 round11-0 and automatic0-0 reset. Touch/controller/idle-AI difficulty/audio unverified. | [Full-round production test](tennis-sdl-full-round-production.json), [manifest](../public/manifests/tennis-sdl.json) |
 | Craft | Original C voxel game, MIT with authored CC0 textures/glyphs; native WASM adaptation. World edits/save measured locally in diagnostic build; live release startup/render/input only. Multiplayer and release state restoration unverified. | [Production test](github-intake-production.json), [manifest](../public/manifests/craft.json) |
 | OpenDuelyst Sandbox | Original browser JavaScript game adapted to local sandbox, not WASM/decompilation. CC0 first-party release with separate dependencies. Live movement/save/reload; broader rules/online services unverified. | [Production test](openduelyst-production-test.json) |
 | Roboden Geometric Edition | Original MIT Go/WASM RTS, authored CC0 media plus separately licensed font/runtime. Earlier tutorial victory; released build Blitz input/profile restoration. Full Blitz/all modes unverified. | [Production test](roboden-production-test.json), [integration](roboden-integration.md) |
