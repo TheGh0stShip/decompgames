@@ -1,0 +1,121 @@
+{
+  "observedDateUTC": "2026-10-13",
+  "scope": "Read-only pinned licence, documentation, build-script and selected dependency-header review. No game media, executable or image downloaded; no build, browser or audio test. Not a complete dependency or source-rights audit.",
+  "hashEncoding": "SHA-256 of UTF-8 encoded decoded text in private snapshots; not independently verified raw-byte download hashes.",
+  "repositories": [
+    {
+      "repository": "yaz0r/Azel",
+      "revision": "c52329fb257561abff05531a8335e34137d67098",
+      "starsAtRead": 173,
+      "archived": false,
+      "treeEntryCount": 935,
+      "fileHashes": {
+        "LICENSE": "93cd26d397db879017c88572e300faa2507070d176273d7aa48d8a2a1c113d83",
+        "README.md": "04a09ca2c50df5127c65f2071978272c9fe4632fb741a55a492a315c94c9f095",
+        ".gitmodules": "6d55e3afed4b3e2aa083348247187235ddc571372074c0ea95f251ec39602a7f",
+        "CMakeLists.txt": "e189a6f634f9916b437e3743bec4073aadbe074803f575ff221c54bd060ba2c1",
+        "AzelLib/CMakeLists.txt": "bcf46b7ebc2b51466f95c8a084a436b7c484169fd7e60ac2bbd44c28e084eaee",
+        "PDS/CMakeLists.txt": "309de56f5db691dbb876c204df1d851c7532f0051e3314a7f9e10e6545f307c8",
+        "ThirdParty/aosdk/license.txt": "423be46a5e71a11769def7fe878e2901530d7894c3294f8aea036ac3dd8e254a",
+        "ThirdParty/aosdk/readme.md": "d571d333582d6409308a660665e53655cb1628146918a76bd67c5f488602f1d0",
+        "ThirdParty/soloud/CMakeLists.txt": "3f12a1a2fe2a026f19f76d56359e71e34a5db4f752514ebbe5baff342927af4e",
+        "ThirdParty/aosdk/eng_ssf/m68kcpu.c": "519a4177c8f889937054cca574a57943fff1ae0f226395d5828e10daa959b008",
+        "ThirdParty/aosdk/eng_ssf/scsp.c": "b6be6fda0e003d8ccdd5d0724897c2e0939ece9e3c0ec9e370214c00a78b5174",
+        "ThirdParty/aosdk/eng_ssf/scspdsp.c": "447f4341d79fcc150bc1fdd06e2752a6836ee38b1b66e50f4f67289fcffed05d"
+      },
+      "readFailures": {},
+      "submodulePins": [
+        {
+          "path": "ThirdParty/ImGuizmo",
+          "revision": "a15acd87a3f3241a29ea1363ceafc680dca3a96b"
+        },
+        {
+          "path": "ThirdParty/SDL",
+          "revision": "683181b47cfabd293e3ea409f838915b8297a4fd"
+        },
+        {
+          "path": "ThirdParty/bgfx.cmake",
+          "revision": "f40f4ca5802c5011210af9d8031763617658ed3d"
+        },
+        {
+          "path": "ThirdParty/emsdk",
+          "revision": "4a0f6a264e06e3ab6261481b3d43725af46d2794"
+        },
+        {
+          "path": "ThirdParty/glm",
+          "revision": "947527d3ac1910e62d142c76480293fee460603d"
+        },
+        {
+          "path": "ThirdParty/imgui",
+          "revision": "6ded5230d043aa32c755e65c910c2af5002fb9f9"
+        },
+        {
+          "path": "ThirdParty/soloud/soloud",
+          "revision": "e9e8aea38d65a6f3a565ccf6103a4883ae8bb9c6"
+        },
+        {
+          "path": "ThirdParty/tracy",
+          "revision": "5d542dc09f3d9378d005092a4ad446bd405f819a"
+        }
+      ]
+    },
+    {
+      "repository": "tangosdev/sm64ds-decomp",
+      "revision": "731efc06d5d5e84ac33ff5f97880e9f90476158e",
+      "starsAtRead": 191,
+      "archived": false,
+      "treeEntryCount": 5253,
+      "fileHashes": {
+        "LICENSE": "35a0646031893294eb416c057675fd641cbdd23f9418fa9f528708299b588df4",
+        "README.md": "2ccc2ef32c230633a6481033696c9f861ea3d6b9d5f1e6648a7fc0cad590f6c9",
+        "port/README.md": "66f0aa28cd1ebc9861c7e3f1595fe3923d7a2210d2216ddc500f1b0b8442500b",
+        "port/CMakeLists.txt": "f9fcf18a81114af08f9131fbfdbb8b85bc1f6494ab9aaeb57d0ba7674227e668",
+        "port/ntr/README.md": "6ee5d513ee64ce114959e7d15a560f7af4c2b462f7b1f476fb0e9e11c07212a3",
+        "notes/rom-build.md": "b5a4bd652d892ede58b652eb57a4c8b3bfa218009a2b23279048ad52f516ecb7",
+        "port/tools/romdata.py": "6c81706c10e5a48599cea36f4656068788f474fe76b76172cb9b83021efa5a88",
+        "port/hal/fs.cpp": "8b841a45c668cc870a4bf321afc3f53b373234c29b406b7d09394c1f0de7a2fd",
+        "port/build-port.cmd": "e43bbcd55084228e8aeac0750f4ed46b7330633c6dd908f95b4c8410d7dbfc77"
+      },
+      "readFailures": {},
+      "submodulePins": []
+    },
+    {
+      "repository": "mstan/supermario64dsrecomp",
+      "revision": "deb9973373d052ae7ca0d72f7849b6076f21ad81",
+      "starsAtRead": 8,
+      "archived": false,
+      "treeEntryCount": 41,
+      "fileHashes": {
+        "LICENSE": "676252c9efb0849cc08cdba279318b4d62ae144c19a52a0aa7ab5ca845ae5ddc",
+        "LICENSE-GPL": "14f8760f57433fbb10529ce6afebb8da6a9682e853b681b14fe64d4a7b0f0633",
+        "README.md": "bcc8a5d8780008f5f967d50eb85ccc73ce8690e6a7b5bfd1b67ae3d6c0579012",
+        "CMakeLists.txt": "788705d6edc9370fe6512eeea23e3dc62f23cb65578aaf71954d3e0aac52c6bd",
+        "assets/README.md": "fbb451292da58b162d6b605fbe9a59179d4939744f0a6a06de8ac5cd1102af55",
+        "packaging/BIOS_README.txt": "699edbb7132fe87d9c80492cac4454e8bdf96ccfe8dec40cf17fd24144575485",
+        ".gitmodules": "285ccecc173813c5963f709e06d4fc03b71cf76670e4e6c138f573170151fa8c"
+      },
+      "readFailures": {},
+      "submodulePins": [
+        {
+          "path": "ndsrecomp",
+          "revision": "12ee1b9fcdfd13eb66b844eddc7fc209c9ec3a43"
+        },
+        {
+          "path": "third_party/recomp-ui",
+          "revision": "76392fb215652a94f5b3b113806b9492731e2807"
+        }
+      ]
+    }
+  ],
+  "catalog": {
+    "entryCount": 83,
+    "relatedTitleMatches": [
+      {
+        "id": "super-mario-64",
+        "title": "Super Mario 64"
+      }
+    ],
+    "exactTitleMatches": [],
+    "note": "Super Mario 64 DS is distinct from existing Super Mario 64, but is an alternate edition and does not satisfy the historical five-new-titles milestone."
+  }
+}
