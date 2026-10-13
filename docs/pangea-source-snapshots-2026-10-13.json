@@ -1,0 +1,47 @@
+{
+  "scope": "Read-only metadata, licence and build docs; no game data/executable, build, browser or gameplay test",
+  "snapshots": [
+    {
+      "repo": "jorio/Nanosaur",
+      "revision": "29c451b8cedd2febaf0d0d6b09b678e08d42c926",
+      "starsAtRead": 474,
+      "files": {
+        "LICENSE.md": "1c4ef95e580eb6d89d0396671109935f4bf2df432df6253613048bc38ebf68fe",
+        "README.md": "d734bfe3a261abd340fd1f323ac7ff01870a058c5c6983c4446e41cb29d959f5",
+        "BUILD.md": "85d17532ccc311a13b75980f185557ca69bc51d1e0aa9f0a85cec9aa0f143c33",
+        "CMakeLists.txt": "bd592e8ffe17fc2ebf1cfcada1ee46f6d5d593fb3051b7f6d397d504f84dc670",
+        ".gitmodules": "34805fc1050e69cae64be6bd3c5938205416b88c8e9b349b93e1990eef1e4244"
+      },
+      "pommeRevision": "69ee58bd06d4e9ab76b472c15ca5b6e06672be73",
+      "pommeLicenseSha256": "f6cb825f8c5bfbb8fff4a3816b62929b96bf0ad0e948c287247bf5e3f173e1f4"
+    },
+    {
+      "repo": "jorio/Bugdom",
+      "revision": "7d7ad9979a86a7a149a85611bb01b06a339f4805",
+      "starsAtRead": 510,
+      "files": {
+        "LICENSE.md": "1c4ef95e580eb6d89d0396671109935f4bf2df432df6253613048bc38ebf68fe",
+        "README.md": "7f916d80b4db3ca3976a30659f1be6117120a626ba90d4ed54ddc1936e4d8128",
+        "BUILD.md": "1eb5e6e48865537c5691489ef380ccd5917538d6596cc250bb5f7f28a8e6d4ad",
+        "CMakeLists.txt": "62fcb08fc710ba20a10fafa346dbf47bc78c8a366012ee512c48e72823d75e4b",
+        ".gitmodules": "34805fc1050e69cae64be6bd3c5938205416b88c8e9b349b93e1990eef1e4244"
+      },
+      "pommeRevision": "69ee58bd06d4e9ab76b472c15ca5b6e06672be73",
+      "pommeLicenseSha256": "f6cb825f8c5bfbb8fff4a3816b62929b96bf0ad0e948c287247bf5e3f173e1f4"
+    },
+    {
+      "repo": "jorio/OttoMatic",
+      "revision": "636056a92c1f276a5af5c3dc7df5c3cb952fd47a",
+      "starsAtRead": 181,
+      "files": {
+        "LICENSE.md": "1c4ef95e580eb6d89d0396671109935f4bf2df432df6253613048bc38ebf68fe",
+        "README.md": "39d3266f059a8969214ae95dc70a71f6876f01873450e260492165bf8e76e507",
+        "BUILD.md": "594030cf8741a0d09d6f4ef65fe5ba71fa20115837ac1490930bd68b01b863f4",
+        "CMakeLists.txt": "e2d874e8f162fd26588d135a894859a044a660b98f1eb4dc79d7b2d36d2a3446",
+        ".gitmodules": "34805fc1050e69cae64be6bd3c5938205416b88c8e9b349b93e1990eef1e4244"
+      },
+      "pommeRevision": "69ee58bd06d4e9ab76b472c15ca5b6e06672be73",
+      "pommeLicenseSha256": "f6cb825f8c5bfbb8fff4a3816b62929b96bf0ad0e948c287247bf5e3f173e1f4"
+    }
+  ]
+}
