@@ -1,0 +1,1649 @@
+{
+  "date": "2026-10-13",
+  "scope": "Private original native main startup through brightness confirmation to authored title/main menu; incomplete boot/UI/terrain/font pack, not Abuse gameplay or full replacement campaign",
+  "repo": "videogamepreservation/abuse",
+  "pin": "01cce80eaf2ae82bafb9981162e205e42d0fae2f",
+  "classification": "Original developer-released source port with independently authored replacement resources; not matching decompilation or completed original replacement game",
+  "content": {
+    "archives": 9,
+    "resourceCount": 159,
+    "complete": false,
+    "sourceGraphicsFontsScriptsMapsInputs": false,
+    "ownResourceLicense": "CC0-1.0",
+    "generatorCodeLicense": "MIT",
+    "provenanceSHA256": "aba6170a1cbdff3e6baf37387d283cd311adff377759b22aa74ee8e6faadd9c9",
+    "archiveChecks": [
+      {
+        "path": "art/actors.spe",
+        "entries": 1,
+        "bytes": 287,
+        "sha256": "ef590a3357b99ae2d255a2d7429028316f3cad4b7daea0ee274d26702ab2f25c",
+        "boundsAndPayloadHashesPass": true
+      },
+      {
+        "path": "art/dev.spe",
+        "entries": 33,
+        "bytes": 10770,
+        "sha256": "28a9c96659e0f64052743501b5571289d1206fd81e24cb0380315d9898274cdc",
+        "boundsAndPayloadHashesPass": true
+      },
+      {
+        "path": "art/fonts.spe",
+        "entries": 1,
+        "bytes": 19998,
+        "sha256": "22f0412cfda4312577331912b623413425efce0c86c5213be0659d132fb72ec2",
+        "boundsAndPayloadHashesPass": true
+      },
+      {
+        "path": "art/frame.spe",
+        "entries": 13,
+        "bytes": 2983,
+        "sha256": "fb1f12284a4ab38208e21e838a089232387da8680c27c519b1456a3a430f2eec",
+        "boundsAndPayloadHashesPass": true
+      },
+      {
+        "path": "art/icons.spe",
+        "entries": 51,
+        "bytes": 25018,
+        "sha256": "e51d6e1f28dcbf76194e91a89d0f679607cc448414fa26b324731aa71c9b9210",
+        "boundsAndPayloadHashesPass": true
+      },
+      {
+        "path": "art/palette.spe",
+        "entries": 2,
+        "bytes": 33587,
+        "sha256": "a7d44b0e60af780ebdf65755726445210fff5776256e5e9a35cb9106acc14ee7",
+        "boundsAndPayloadHashesPass": true
+      },
+      {
+        "path": "art/statbar.spe",
+        "entries": 49,
+        "bytes": 17028,
+        "sha256": "1803a6778d9b5e29389f098f85d23bfe2e9e0be3875be9b75427df8cd0b749a4",
+        "boundsAndPayloadHashesPass": true
+      },
+      {
+        "path": "art/terrain.spe",
+        "entries": 8,
+        "bytes": 2248,
+        "sha256": "3c615499e701075ff4acdda9b0a3453512acf92955dfea922904aadd46c90d50",
+        "boundsAndPayloadHashesPass": true
+      },
+      {
+        "path": "art/title.spe",
+        "entries": 1,
+        "bytes": 64031,
+        "sha256": "09e470ca11b567f95ca0970fe3feda7e9ef7bf340beb0e93b955f5c18269ec91",
+        "boundsAndPayloadHashesPass": true
+      }
+    ],
+    "files": [
+      {
+        "path": "art/actors.spe",
+        "bytes": 287,
+        "sha256": "ef590a3357b99ae2d255a2d7429028316f3cad4b7daea0ee274d26702ab2f25c"
+      },
+      {
+        "path": "art/dev.spe",
+        "bytes": 10770,
+        "sha256": "28a9c96659e0f64052743501b5571289d1206fd81e24cb0380315d9898274cdc"
+      },
+      {
+        "path": "art/fonts.spe",
+        "bytes": 19998,
+        "sha256": "22f0412cfda4312577331912b623413425efce0c86c5213be0659d132fb72ec2"
+      },
+      {
+        "path": "art/frame.spe",
+        "bytes": 2983,
+        "sha256": "fb1f12284a4ab38208e21e838a089232387da8680c27c519b1456a3a430f2eec"
+      },
+      {
+        "path": "art/icons.spe",
+        "bytes": 25018,
+        "sha256": "e51d6e1f28dcbf76194e91a89d0f679607cc448414fa26b324731aa71c9b9210"
+      },
+      {
+        "path": "art/palette.spe",
+        "bytes": 33587,
+        "sha256": "a7d44b0e60af780ebdf65755726445210fff5776256e5e9a35cb9106acc14ee7"
+      },
+      {
+        "path": "art/statbar.spe",
+        "bytes": 17028,
+        "sha256": "1803a6778d9b5e29389f098f85d23bfe2e9e0be3875be9b75427df8cd0b749a4"
+      },
+      {
+        "path": "art/terrain.spe",
+        "bytes": 2248,
+        "sha256": "3c615499e701075ff4acdda9b0a3453512acf92955dfea922904aadd46c90d50"
+      },
+      {
+        "path": "art/title.spe",
+        "bytes": 64031,
+        "sha256": "09e470ca11b567f95ca0970fe3feda7e9ef7bf340beb0e93b955f5c18269ec91"
+      },
+      {
+        "path": "boot.lsp",
+        "bytes": 4670,
+        "sha256": "4dec25ef0a11299a7753b9c32cc30f3c19ee4260e5ab74847c4f0e3336d6069f"
+      },
+      {
+        "path": "CC0-NOTICE.txt",
+        "bytes": 558,
+        "sha256": "687d6339cfa84780b4a422b207811750e8114bf44cd97a22f326aea373e058da"
+      },
+      {
+        "path": "lisp/english.lsp",
+        "bytes": 4222,
+        "sha256": "2fd0a0fbd734b907a8c70ce62b68f5b0c55cf100e0bc4e3a72aee4424110377d"
+      }
+    ],
+    "resourcePayloadRecords": [
+      {
+        "archive": "art/fonts.spe",
+        "entry": "mono",
+        "type": 4,
+        "payloadBytes": 19972,
+        "payloadSHA256": "7e65ea806b54efc2b1e7bbc03807247555100baef27b73b4c555d0792d2e41e0",
+        "license": "CC0-1.0",
+        "provenance": "Created from new handwritten glyphs and procedural geometry by this generator; no source bitmap, retail level, animation, audio or text inputs"
+      },
+      {
+        "archive": "art/palette.spe",
+        "entry": "palette",
+        "type": 2,
+        "payloadBytes": 770,
+        "payloadSHA256": "1e450ad8fbf1b091b95f5ca041bbcc9e16d5118feacd665d48576bedc2e62557",
+        "license": "CC0-1.0",
+        "provenance": "Created from new handwritten glyphs and procedural geometry by this generator; no source bitmap, retail level, animation, audio or text inputs"
+      },
+      {
+        "archive": "art/palette.spe",
+        "entry": "filter",
+        "type": 1,
+        "payloadBytes": 32770,
+        "payloadSHA256": "1cef34b17596f96944104c76d4f09c52d78353ab028b6084a9a55a241c516606",
+        "license": "CC0-1.0",
+        "provenance": "Created from new handwritten glyphs and procedural geometry by this generator; no source bitmap, retail level, animation, audio or text inputs"
+      },
+      {
+        "archive": "art/dev.spe",
+        "entry": "c_mouse1",
+        "type": 4,
+        "payloadBytes": 125,
+        "payloadSHA256": "56c5fd94ab8d48711c879340843725fd0cd810e898b20a7106ce32718617dbf1",
+        "license": "CC0-1.0",
+        "provenance": "Created from new handwritten glyphs and procedural geometry by this generator; no source bitmap, retail level, animation, audio or text inputs"
+      },
+      {
+        "archive": "art/dev.spe",
+        "entry": "c_mouse2",
+        "type": 4,
+        "payloadBytes": 125,
+        "payloadSHA256": "56c5fd94ab8d48711c879340843725fd0cd810e898b20a7106ce32718617dbf1",
+        "license": "CC0-1.0",
+        "provenance": "Created from new handwritten glyphs and procedural geometry by this generator; no source bitmap, retail level, animation, audio or text inputs"
+      },
+      {
+        "archive": "art/dev.spe",
+        "entry": "c_normal",
+        "type": 4,
+        "payloadBytes": 125,
+        "payloadSHA256": "56c5fd94ab8d48711c879340843725fd0cd810e898b20a7106ce32718617dbf1",
+        "license": "CC0-1.0",
+        "provenance": "Created from new handwritten glyphs and procedural geometry by this generator; no source bitmap, retail level, animation, audio or text inputs"
+      },
+      {
+        "archive": "art/dev.spe",
+        "entry": "c_target",
+        "type": 4,
+        "payloadBytes": 125,
+        "payloadSHA256": "b19b7a9702d6e351bb6db755fabb94411a41197c329e9bdb5dc130e1779a64ae",
+        "license": "CC0-1.0",
+        "provenance": "Created from new handwritten glyphs and procedural geometry by this generator; no source bitmap, retail level, animation, audio or text inputs"
+      },
+      {
+        "archive": "art/dev.spe",
+        "entry": "l0",
+        "type": 4,
+        "payloadBytes": 256,
+        "payloadSHA256": "aba1ffb2a0348ff4f45c143c9452f796f62f404194aec531de80a974b69cb99d",
+        "license": "CC0-1.0",
+        "provenance": "Created from new handwritten glyphs and procedural geometry by this generator; no source bitmap, retail level, animation, audio or text inputs"
+      },
+      {
+        "archive": "art/dev.spe",
+        "entry": "l1",
+        "type": 4,
+        "payloadBytes": 256,
+        "payloadSHA256": "08dd84119bcbd3cbd6aa08ad7445b398682cfa5c7ac7258ba18eca6554e2fb2f",
+        "license": "CC0-1.0",
+        "provenance": "Created from new handwritten glyphs and procedural geometry by this generator; no source bitmap, retail level, animation, audio or text inputs"
+      },
+      {
+        "archive": "art/dev.spe",
+        "entry": "l2",
+        "type": 4,
+        "payloadBytes": 256,
+        "payloadSHA256": "aede248e3b7e0007907869bf67c5c98740d8cb7533f86ec2acc18e8bea5b7112",
+        "license": "CC0-1.0",
+        "provenance": "Created from new handwritten glyphs and procedural geometry by this generator; no source bitmap, retail level, animation, audio or text inputs"
+      },
+      {
+        "archive": "art/dev.spe",
+        "entry": "l3",
+        "type": 4,
+        "payloadBytes": 256,
+        "payloadSHA256": "87efc62fd221bbc9c63967194f3044ea357fa8ba0486cf71c5d9f6453d4a6ced",
+        "license": "CC0-1.0",
+        "provenance": "Created from new handwritten glyphs and procedural geometry by this generator; no source bitmap, retail level, animation, audio or text inputs"
+      },
+      {
+        "archive": "art/dev.spe",
+        "entry": "l4",
+        "type": 4,
+        "payloadBytes": 256,
+        "payloadSHA256": "a3f9486072d1103809d661520f90ff361d8ae8dea2ea8150c88cb25864257f84",
+        "license": "CC0-1.0",
+        "provenance": "Created from new handwritten glyphs and procedural geometry by this generator; no source bitmap, retail level, animation, audio or text inputs"
+      },
+      {
+        "archive": "art/dev.spe",
+        "entry": "l5",
+        "type": 4,
+        "payloadBytes": 256,
+        "payloadSHA256": "3ff874e6f3a8c2de8e02f731635a2875461c33f54c3d0367513afdebc613f12d",
+        "license": "CC0-1.0",
+        "provenance": "Created from new handwritten glyphs and procedural geometry by this generator; no source bitmap, retail level, animation, audio or text inputs"
+      },
+      {
+        "archive": "art/dev.spe",
+        "entry": "l6",
+        "type": 4,
+        "payloadBytes": 256,
+        "payloadSHA256": "0552d8975680c7ad12876edb2aa131b7bcfe84a066f8a66f27f59dd7b6223f2c",
+        "license": "CC0-1.0",
+        "provenance": "Created from new handwritten glyphs and procedural geometry by this generator; no source bitmap, retail level, animation, audio or text inputs"
+      },
+      {
+        "archive": "art/dev.spe",
+        "entry": "l7",
+        "type": 4,
+        "payloadBytes": 256,
+        "payloadSHA256": "dbd869d0afa69598f9da97ab66b7664081bfa662dd6e4a7cc9ca91b739ab3fa6",
+        "license": "CC0-1.0",
+        "provenance": "Created from new handwritten glyphs and procedural geometry by this generator; no source bitmap, retail level, animation, audio or text inputs"
+      },
+      {
+        "archive": "art/dev.spe",
+        "entry": "l8",
+        "type": 4,
+        "payloadBytes": 256,
+        "payloadSHA256": "a650efb41682c64f97dbcc548b78ba17dbff56f22d8a54217acacc8b4defdd8a",
+        "license": "CC0-1.0",
+        "provenance": "Created from new handwritten glyphs and procedural geometry by this generator; no source bitmap, retail level, animation, audio or text inputs"
+      },
+      {
+        "archive": "art/dev.spe",
+        "entry": "l9",
+        "type": 4,
+        "payloadBytes": 256,
+        "payloadSHA256": "4f83da878e7cf19b2c52ff6dbc8f812ce69b23ad2447afb3ca77a73db89a7868",
+        "license": "CC0-1.0",
+        "provenance": "Created from new handwritten glyphs and procedural geometry by this generator; no source bitmap, retail level, animation, audio or text inputs"
+      },
+      {
+        "archive": "art/dev.spe",
+        "entry": "l10",
+        "type": 4,
+        "payloadBytes": 256,
+        "payloadSHA256": "c237a1d0863cbffda682b2610e4b114e675debba00cd7149fe4d63197738799f",
+        "license": "CC0-1.0",
+        "provenance": "Created from new handwritten glyphs and procedural geometry by this generator; no source bitmap, retail level, animation, audio or text inputs"
+      },
+      {
+        "archive": "art/dev.spe",
+        "entry": "l11",
+        "type": 4,
+        "payloadBytes": 256,
+        "payloadSHA256": "dbb3343f6388310a3d685e38723f31b4f31a78d3f9738be64e4b27184ae2fa6a",
+        "license": "CC0-1.0",
+        "provenance": "Created from new handwritten glyphs and procedural geometry by this generator; no source bitmap, retail level, animation, audio or text inputs"
+      },
+      {
+        "archive": "art/dev.spe",
+        "entry": "dev_del",
+        "type": 4,
+        "payloadBytes": 388,
+        "payloadSHA256": "e8c3b38e1cc483b6c08c8951b66213f686852830e8f239633fcdee383fb3b8e3",
+        "license": "CC0-1.0",
+        "provenance": "Created from new handwritten glyphs and procedural geometry by this generator; no source bitmap, retail level, animation, audio or text inputs"
+      },
+      {
+        "archive": "art/dev.spe",
+        "entry": "dev_move",
+        "type": 4,
+        "payloadBytes": 388,
+        "payloadSHA256": "d97ea6bf999a00c35974f7d42490b9ded91cb26440bc3752d4172cf8768afac8",
+        "license": "CC0-1.0",
+        "provenance": "Created from new handwritten glyphs and procedural geometry by this generator; no source bitmap, retail level, animation, audio or text inputs"
+      },
+      {
+        "archive": "art/dev.spe",
+        "entry": "dev_char_left",
+        "type": 4,
+        "payloadBytes": 388,
+        "payloadSHA256": "50a6bab9bf6a2f731a33e810f6f72e7225787c8fc595d5abce53646e4a3ee109",
+        "license": "CC0-1.0",
+        "provenance": "Created from new handwritten glyphs and procedural geometry by this generator; no source bitmap, retail level, animation, audio or text inputs"
+      },
+      {
+        "archive": "art/dev.spe",
+        "entry": "dev_char_right",
+        "type": 4,
+        "payloadBytes": 388,
+        "payloadSHA256": "54faadf69598af36436fe5380e5be80d2cb7d6ba0ceb791039694f45d5afd6a2",
+        "license": "CC0-1.0",
+        "provenance": "Created from new handwritten glyphs and procedural geometry by this generator; no source bitmap, retail level, animation, audio or text inputs"
+      },
+      {
+        "archive": "art/dev.spe",
+        "entry": "dev_back",
+        "type": 4,
+        "payloadBytes": 388,
+        "payloadSHA256": "563891a9fafac9cb5cb14d1621e9e5b7069c9a14e570c1d9ace31fdde720a5fc",
+        "license": "CC0-1.0",
+        "provenance": "Created from new handwritten glyphs and procedural geometry by this generator; no source bitmap, retail level, animation, audio or text inputs"
+      },
+      {
+        "archive": "art/dev.spe",
+        "entry": "dev_front",
+        "type": 4,
+        "payloadBytes": 388,
+        "payloadSHA256": "4345300825764c71f7d2273d3f2e70ca81865ba89878d2cdf2fe676f054501c4",
+        "license": "CC0-1.0",
+        "provenance": "Created from new handwritten glyphs and procedural geometry by this generator; no source bitmap, retail level, animation, audio or text inputs"
+      },
+      {
+        "archive": "art/dev.spe",
+        "entry": "dev_ok",
+        "type": 4,
+        "payloadBytes": 388,
+        "payloadSHA256": "a426dda96fb2e59ec138619f99a2601b2894469ef70da131b19d504d4b5291ae",
+        "license": "CC0-1.0",
+        "provenance": "Created from new handwritten glyphs and procedural geometry by this generator; no source bitmap, retail level, animation, audio or text inputs"
+      },
+      {
+        "archive": "art/dev.spe",
+        "entry": "dev_copy",
+        "type": 4,
+        "payloadBytes": 388,
+        "payloadSHA256": "8cddd8beb848d325ddbfea462fcfe16d885aa7876967201d92c0c3229927661d",
+        "license": "CC0-1.0",
+        "provenance": "Created from new handwritten glyphs and procedural geometry by this generator; no source bitmap, retail level, animation, audio or text inputs"
+      },
+      {
+        "archive": "art/dev.spe",
+        "entry": "brain",
+        "type": 4,
+        "payloadBytes": 388,
+        "payloadSHA256": "fc8f6f9e3d24da7eb0c864a01e1a3d759d2d0352c2a6d0c39d61a42611ccc9cf",
+        "license": "CC0-1.0",
+        "provenance": "Created from new handwritten glyphs and procedural geometry by this generator; no source bitmap, retail level, animation, audio or text inputs"
+      },
+      {
+        "archive": "art/dev.spe",
+        "entry": "lights",
+        "type": 4,
+        "payloadBytes": 388,
+        "payloadSHA256": "50a6bab9bf6a2f731a33e810f6f72e7225787c8fc595d5abce53646e4a3ee109",
+        "license": "CC0-1.0",
+        "provenance": "Created from new handwritten glyphs and procedural geometry by this generator; no source bitmap, retail level, animation, audio or text inputs"
+      },
+      {
+        "archive": "art/dev.spe",
+        "entry": "objects",
+        "type": 4,
+        "payloadBytes": 388,
+        "payloadSHA256": "268990aca0c8e89f8808987204e7686d637f65697a835205af56367fe7db9682",
+        "license": "CC0-1.0",
+        "provenance": "Created from new handwritten glyphs and procedural geometry by this generator; no source bitmap, retail level, animation, audio or text inputs"
+      },
+      {
+        "archive": "art/dev.spe",
+        "entry": "ai",
+        "type": 4,
+        "payloadBytes": 388,
+        "payloadSHA256": "fc8f6f9e3d24da7eb0c864a01e1a3d759d2d0352c2a6d0c39d61a42611ccc9cf",
+        "license": "CC0-1.0",
+        "provenance": "Created from new handwritten glyphs and procedural geometry by this generator; no source bitmap, retail level, animation, audio or text inputs"
+      },
+      {
+        "archive": "art/dev.spe",
+        "entry": "forward",
+        "type": 4,
+        "payloadBytes": 388,
+        "payloadSHA256": "e7d4ba92e8089b9b1e733b4f6c849739923f9f588e315a00b247758f63c05df6",
+        "license": "CC0-1.0",
+        "provenance": "Created from new handwritten glyphs and procedural geometry by this generator; no source bitmap, retail level, animation, audio or text inputs"
+      },
+      {
+        "archive": "art/dev.spe",
+        "entry": "backward",
+        "type": 4,
+        "payloadBytes": 388,
+        "payloadSHA256": "6d658f1045ae9ee1191d39db79470e71a55701674af0b5208820845900c1ba67",
+        "license": "CC0-1.0",
+        "provenance": "Created from new handwritten glyphs and procedural geometry by this generator; no source bitmap, retail level, animation, audio or text inputs"
+      },
+      {
+        "archive": "art/dev.spe",
+        "entry": "pixel_mode",
+        "type": 4,
+        "payloadBytes": 388,
+        "payloadSHA256": "61168325f3037ac4fbe6794086718f7530ad0b1d9d3e7281588ef3df49a8d28a",
+        "license": "CC0-1.0",
+        "provenance": "Created from new handwritten glyphs and procedural geometry by this generator; no source bitmap, retail level, animation, audio or text inputs"
+      },
+      {
+        "archive": "art/dev.spe",
+        "entry": "pick_mode",
+        "type": 4,
+        "payloadBytes": 388,
+        "payloadSHA256": "2cc1409e65bc9e0c6c20aabc18c4f5d66cf1015230bbd2e0344018d390dfff46",
+        "license": "CC0-1.0",
+        "provenance": "Created from new handwritten glyphs and procedural geometry by this generator; no source bitmap, retail level, animation, audio or text inputs"
+      },
+      {
+        "archive": "art/dev.spe",
+        "entry": "area_select",
+        "type": 4,
+        "payloadBytes": 388,
+        "payloadSHA256": "319128d0aa5dd8d06c251ed69d2d7e80373ae777195fcad921eb8e316fba722d",
+        "license": "CC0-1.0",
+        "provenance": "Created from new handwritten glyphs and procedural geometry by this generator; no source bitmap, retail level, animation, audio or text inputs"
+      },
+      {
+        "archive": "art/frame.spe",
+        "entry": "dev_ok",
+        "type": 4,
+        "payloadBytes": 256,
+        "payloadSHA256": "8ae28c17d4d12b9271254a3a129b7cadc8c7005fd2bb947f11ae73285a6fdf04",
+        "license": "CC0-1.0",
+        "provenance": "Created from new handwritten glyphs and procedural geometry by this generator; no source bitmap, retail level, animation, audio or text inputs"
+      },
+      {
+        "archive": "art/frame.spe",
+        "entry": "cancel",
+        "type": 4,
+        "payloadBytes": 256,
+        "payloadSHA256": "0360e86592249e6bdc486882a8a346adb15c334949da56bea5ec691b6c3e6858",
+        "license": "CC0-1.0",
+        "provenance": "Created from new handwritten glyphs and procedural geometry by this generator; no source bitmap, retail level, animation, audio or text inputs"
+      },
+      {
+        "archive": "art/frame.spe",
+        "entry": "lower_volume",
+        "type": 4,
+        "payloadBytes": 256,
+        "payloadSHA256": "5ac925530328bcf6b642a86013745d906dea907a0e7b513fb62ffa70c084d221",
+        "license": "CC0-1.0",
+        "provenance": "Created from new handwritten glyphs and procedural geometry by this generator; no source bitmap, retail level, animation, audio or text inputs"
+      },
+      {
+        "archive": "art/frame.spe",
+        "entry": "raise_volume",
+        "type": 4,
+        "payloadBytes": 256,
+        "payloadSHA256": "836c3a1e0b4b93c7ffa6e0bb4a83581a15caec185ffa5b7cf461ed54053704eb",
+        "license": "CC0-1.0",
+        "provenance": "Created from new handwritten glyphs and procedural geometry by this generator; no source bitmap, retail level, animation, audio or text inputs"
+      },
+      {
+        "archive": "art/frame.spe",
+        "entry": "music",
+        "type": 4,
+        "payloadBytes": 256,
+        "payloadSHA256": "a744fcd415a57651bfd80ddb53debc4d9c2c42b78a651d75f40201a461c5915c",
+        "license": "CC0-1.0",
+        "provenance": "Created from new handwritten glyphs and procedural geometry by this generator; no source bitmap, retail level, animation, audio or text inputs"
+      },
+      {
+        "archive": "art/frame.spe",
+        "entry": "sound_fx",
+        "type": 4,
+        "payloadBytes": 256,
+        "payloadSHA256": "97853024bf69c30550a32571880ea92f7ba93e841f36c9475aa2595630a7f3cc",
+        "license": "CC0-1.0",
+        "provenance": "Created from new handwritten glyphs and procedural geometry by this generator; no source bitmap, retail level, animation, audio or text inputs"
+      },
+      {
+        "archive": "art/frame.spe",
+        "entry": "record",
+        "type": 4,
+        "payloadBytes": 256,
+        "payloadSHA256": "aea47931c22f63e698aeb7321ac28e8c887a1d9cb73811cdcec7f359c80091f8",
+        "license": "CC0-1.0",
+        "provenance": "Created from new handwritten glyphs and procedural geometry by this generator; no source bitmap, retail level, animation, audio or text inputs"
+      },
+      {
+        "archive": "art/frame.spe",
+        "entry": "play",
+        "type": 4,
+        "payloadBytes": 256,
+        "payloadSHA256": "101c47e9b5ddb058d37f099327721f58a232ee104c50d4bf6316c30789ffbad3",
+        "license": "CC0-1.0",
+        "provenance": "Created from new handwritten glyphs and procedural geometry by this generator; no source bitmap, retail level, animation, audio or text inputs"
+      },
+      {
+        "archive": "art/frame.spe",
+        "entry": "pause_image",
+        "type": 4,
+        "payloadBytes": 256,
+        "payloadSHA256": "6626a9ccf6cf34c9243ea13ca7464fee7e2531f58b526c942ba70100bb4cfb7b",
+        "license": "CC0-1.0",
+        "provenance": "Created from new handwritten glyphs and procedural geometry by this generator; no source bitmap, retail level, animation, audio or text inputs"
+      },
+      {
+        "archive": "art/frame.spe",
+        "entry": "vmm",
+        "type": 4,
+        "payloadBytes": 256,
+        "payloadSHA256": "d7c1ae70d1c913d76f3e43763c796fdf2f8eb0788d741cd8539cbebc51b0273c",
+        "license": "CC0-1.0",
+        "provenance": "Created from new handwritten glyphs and procedural geometry by this generator; no source bitmap, retail level, animation, audio or text inputs"
+      },
+      {
+        "archive": "art/frame.spe",
+        "entry": "border_tile",
+        "type": 4,
+        "payloadBytes": 68,
+        "payloadSHA256": "b0336280e8a8478d944ca162e49a72d81f6cd70660c87e8ae7cf0d71f00dbe89",
+        "license": "CC0-1.0",
+        "provenance": "Created from new handwritten glyphs and procedural geometry by this generator; no source bitmap, retail level, animation, audio or text inputs"
+      },
+      {
+        "archive": "art/frame.spe",
+        "entry": "window_texture",
+        "type": 4,
+        "payloadBytes": 68,
+        "payloadSHA256": "b0336280e8a8478d944ca162e49a72d81f6cd70660c87e8ae7cf0d71f00dbe89",
+        "license": "CC0-1.0",
+        "provenance": "Created from new handwritten glyphs and procedural geometry by this generator; no source bitmap, retail level, animation, audio or text inputs"
+      },
+      {
+        "archive": "art/frame.spe",
+        "entry": "window_colors",
+        "type": 4,
+        "payloadBytes": 10,
+        "payloadSHA256": "734bed125e06ed5956e94e6803adb74b266ec56d8d9a7d55f9cdb18513eb111a",
+        "license": "CC0-1.0",
+        "provenance": "Created from new handwritten glyphs and procedural geometry by this generator; no source bitmap, retail level, animation, audio or text inputs"
+      },
+      {
+        "archive": "art/statbar.spe",
+        "entry": "bweap0001.pcx",
+        "type": 4,
+        "payloadBytes": 200,
+        "payloadSHA256": "3ecb36876fd5908e31462c75521af7151eb96ac773266fdd2c4b03ea760fbd6e",
+        "license": "CC0-1.0",
+        "provenance": "Created from new handwritten glyphs and procedural geometry by this generator; no source bitmap, retail level, animation, audio or text inputs"
+      },
+      {
+        "archive": "art/statbar.spe",
+        "entry": "dweap0001.pcx",
+        "type": 4,
+        "payloadBytes": 200,
+        "payloadSHA256": "e072de9e042226e919ddaa5bdcf67c4118273b4188b94ea0a90fb1807540c3c7",
+        "license": "CC0-1.0",
+        "provenance": "Created from new handwritten glyphs and procedural geometry by this generator; no source bitmap, retail level, animation, audio or text inputs"
+      },
+      {
+        "archive": "art/statbar.spe",
+        "entry": "bweap0002.pcx",
+        "type": 4,
+        "payloadBytes": 200,
+        "payloadSHA256": "969a314bddf28079c4c6e01a46f42b92023cc375dfeb83a6b2ada14dd9e58449",
+        "license": "CC0-1.0",
+        "provenance": "Created from new handwritten glyphs and procedural geometry by this generator; no source bitmap, retail level, animation, audio or text inputs"
+      },
+      {
+        "archive": "art/statbar.spe",
+        "entry": "dweap0002.pcx",
+        "type": 4,
+        "payloadBytes": 200,
+        "payloadSHA256": "afae0a7c3b786dda718240e29d9c9b97ad653b06606006b270ab32ddbeb77ef0",
+        "license": "CC0-1.0",
+        "provenance": "Created from new handwritten glyphs and procedural geometry by this generator; no source bitmap, retail level, animation, audio or text inputs"
+      },
+      {
+        "archive": "art/statbar.spe",
+        "entry": "bweap0003.pcx",
+        "type": 4,
+        "payloadBytes": 200,
+        "payloadSHA256": "475b9dbbaa580fa6021eaaa8976b2549dbc43385e8b8958ac34146d757aefa1d",
+        "license": "CC0-1.0",
+        "provenance": "Created from new handwritten glyphs and procedural geometry by this generator; no source bitmap, retail level, animation, audio or text inputs"
+      },
+      {
+        "archive": "art/statbar.spe",
+        "entry": "dweap0003.pcx",
+        "type": 4,
+        "payloadBytes": 200,
+        "payloadSHA256": "467bf5aa60caa51b8eb23c9db24abde75bc094c07d1e5254160acdfa6a80c20f",
+        "license": "CC0-1.0",
+        "provenance": "Created from new handwritten glyphs and procedural geometry by this generator; no source bitmap, retail level, animation, audio or text inputs"
+      },
+      {
+        "archive": "art/statbar.spe",
+        "entry": "bweap0004.pcx",
+        "type": 4,
+        "payloadBytes": 200,
+        "payloadSHA256": "ef8f8aa7da3f5f4f3e2812fce6df24a06eda338c87338c657cc499c67bf6a455",
+        "license": "CC0-1.0",
+        "provenance": "Created from new handwritten glyphs and procedural geometry by this generator; no source bitmap, retail level, animation, audio or text inputs"
+      },
+      {
+        "archive": "art/statbar.spe",
+        "entry": "dweap0004.pcx",
+        "type": 4,
+        "payloadBytes": 200,
+        "payloadSHA256": "817407b6201602c904319d0d911151984be1345dc449120da47e3643beec4455",
+        "license": "CC0-1.0",
+        "provenance": "Created from new handwritten glyphs and procedural geometry by this generator; no source bitmap, retail level, animation, audio or text inputs"
+      },
+      {
+        "archive": "art/statbar.spe",
+        "entry": "bweap0005.pcx",
+        "type": 4,
+        "payloadBytes": 200,
+        "payloadSHA256": "e0774d396da8f5f15e9fa072f97a24bad6c59dc01d233d650b2ae9b6ff7d68d1",
+        "license": "CC0-1.0",
+        "provenance": "Created from new handwritten glyphs and procedural geometry by this generator; no source bitmap, retail level, animation, audio or text inputs"
+      },
+      {
+        "archive": "art/statbar.spe",
+        "entry": "dweap0005.pcx",
+        "type": 4,
+        "payloadBytes": 200,
+        "payloadSHA256": "77b79d0bd9fe734493cd2a053e21389081bea52d8ed2d2a0ba58effabe37bbd0",
+        "license": "CC0-1.0",
+        "provenance": "Created from new handwritten glyphs and procedural geometry by this generator; no source bitmap, retail level, animation, audio or text inputs"
+      },
+      {
+        "archive": "art/statbar.spe",
+        "entry": "bweap0006.pcx",
+        "type": 4,
+        "payloadBytes": 200,
+        "payloadSHA256": "d409426163b7ba3081da8d0aa3a03a27fda611d2ba20a134ceb716554f7b7cc9",
+        "license": "CC0-1.0",
+        "provenance": "Created from new handwritten glyphs and procedural geometry by this generator; no source bitmap, retail level, animation, audio or text inputs"
+      },
+      {
+        "archive": "art/statbar.spe",
+        "entry": "dweap0006.pcx",
+        "type": 4,
+        "payloadBytes": 200,
+        "payloadSHA256": "083637b3b3c501666af44729821446cdf656a8ae902e83dec2f54de8533fe208",
+        "license": "CC0-1.0",
+        "provenance": "Created from new handwritten glyphs and procedural geometry by this generator; no source bitmap, retail level, animation, audio or text inputs"
+      },
+      {
+        "archive": "art/statbar.spe",
+        "entry": "bweap0007.pcx",
+        "type": 4,
+        "payloadBytes": 200,
+        "payloadSHA256": "6d457b5044a42eda3e3bbe02b2e317280b9a1f10c9099c6efa8b28e693763fed",
+        "license": "CC0-1.0",
+        "provenance": "Created from new handwritten glyphs and procedural geometry by this generator; no source bitmap, retail level, animation, audio or text inputs"
+      },
+      {
+        "archive": "art/statbar.spe",
+        "entry": "dweap0007.pcx",
+        "type": 4,
+        "payloadBytes": 200,
+        "payloadSHA256": "f6571a89a62464b88846bfc026b4f601934dd41292c0a243812bb946587bd474",
+        "license": "CC0-1.0",
+        "provenance": "Created from new handwritten glyphs and procedural geometry by this generator; no source bitmap, retail level, animation, audio or text inputs"
+      },
+      {
+        "archive": "art/statbar.spe",
+        "entry": "bweap0008.pcx",
+        "type": 4,
+        "payloadBytes": 200,
+        "payloadSHA256": "082574544440c5d5c09dc4f09dce5745297ffe562f74303b4803eb046911896c",
+        "license": "CC0-1.0",
+        "provenance": "Created from new handwritten glyphs and procedural geometry by this generator; no source bitmap, retail level, animation, audio or text inputs"
+      },
+      {
+        "archive": "art/statbar.spe",
+        "entry": "dweap0008.pcx",
+        "type": 4,
+        "payloadBytes": 200,
+        "payloadSHA256": "5274530530dd60bad9b5453cd0451522b637578fa1f4f7686dd9deac7f2fdace",
+        "license": "CC0-1.0",
+        "provenance": "Created from new handwritten glyphs and procedural geometry by this generator; no source bitmap, retail level, animation, audio or text inputs"
+      },
+      {
+        "archive": "art/statbar.spe",
+        "entry": "bnum00",
+        "type": 4,
+        "payloadBytes": 64,
+        "payloadSHA256": "4c48cca1eb84813fa4c56289a721945e62914fc35d0679db10bd576285183438",
+        "license": "CC0-1.0",
+        "provenance": "Created from new handwritten glyphs and procedural geometry by this generator; no source bitmap, retail level, animation, audio or text inputs"
+      },
+      {
+        "archive": "art/statbar.spe",
+        "entry": "bnum01",
+        "type": 4,
+        "payloadBytes": 64,
+        "payloadSHA256": "6368bb16e0cb294d9aab6cf0de20a541fb1122fc42c80c1e1250933b5b4b69db",
+        "license": "CC0-1.0",
+        "provenance": "Created from new handwritten glyphs and procedural geometry by this generator; no source bitmap, retail level, animation, audio or text inputs"
+      },
+      {
+        "archive": "art/statbar.spe",
+        "entry": "bnum02",
+        "type": 4,
+        "payloadBytes": 64,
+        "payloadSHA256": "4834c9868801de58ee3cb155bdcb7267face5cdfd4500d112cf6eec0243ac330",
+        "license": "CC0-1.0",
+        "provenance": "Created from new handwritten glyphs and procedural geometry by this generator; no source bitmap, retail level, animation, audio or text inputs"
+      },
+      {
+        "archive": "art/statbar.spe",
+        "entry": "bnum03",
+        "type": 4,
+        "payloadBytes": 64,
+        "payloadSHA256": "b638efc807923e20ad6e233466a87a29474e9b2b68de1d5e924ab9447b68603d",
+        "license": "CC0-1.0",
+        "provenance": "Created from new handwritten glyphs and procedural geometry by this generator; no source bitmap, retail level, animation, audio or text inputs"
+      },
+      {
+        "archive": "art/statbar.spe",
+        "entry": "bnum04",
+        "type": 4,
+        "payloadBytes": 64,
+        "payloadSHA256": "2f46d0e8b2684edff946dae8d8f2c024db42201677168d075f1eb8a474677f0f",
+        "license": "CC0-1.0",
+        "provenance": "Created from new handwritten glyphs and procedural geometry by this generator; no source bitmap, retail level, animation, audio or text inputs"
+      },
+      {
+        "archive": "art/statbar.spe",
+        "entry": "bnum05",
+        "type": 4,
+        "payloadBytes": 64,
+        "payloadSHA256": "7ad16cedadeb159a3b7a5066f0273ea714a067caf0404ec054be345c8aeeb37c",
+        "license": "CC0-1.0",
+        "provenance": "Created from new handwritten glyphs and procedural geometry by this generator; no source bitmap, retail level, animation, audio or text inputs"
+      },
+      {
+        "archive": "art/statbar.spe",
+        "entry": "bnum06",
+        "type": 4,
+        "payloadBytes": 64,
+        "payloadSHA256": "a9f749097c2bc9c8b15474e30c25fca8b1f8999f29e9986436ff6f0c9897988c",
+        "license": "CC0-1.0",
+        "provenance": "Created from new handwritten glyphs and procedural geometry by this generator; no source bitmap, retail level, animation, audio or text inputs"
+      },
+      {
+        "archive": "art/statbar.spe",
+        "entry": "bnum07",
+        "type": 4,
+        "payloadBytes": 64,
+        "payloadSHA256": "c1f4466ffbd1f83a2977416951e61b0e270c61b882ce4d373e2e63186b6509d8",
+        "license": "CC0-1.0",
+        "provenance": "Created from new handwritten glyphs and procedural geometry by this generator; no source bitmap, retail level, animation, audio or text inputs"
+      },
+      {
+        "archive": "art/statbar.spe",
+        "entry": "bnum08",
+        "type": 4,
+        "payloadBytes": 64,
+        "payloadSHA256": "2c660b2744a014686efb84e263e163e4e8efac7a52f771029687134fa99166e7",
+        "license": "CC0-1.0",
+        "provenance": "Created from new handwritten glyphs and procedural geometry by this generator; no source bitmap, retail level, animation, audio or text inputs"
+      },
+      {
+        "archive": "art/statbar.spe",
+        "entry": "bnum09",
+        "type": 4,
+        "payloadBytes": 64,
+        "payloadSHA256": "dab75c920c26156d22b5e45cc1c813799279694f330b45d30b797f289fb81a25",
+        "license": "CC0-1.0",
+        "provenance": "Created from new handwritten glyphs and procedural geometry by this generator; no source bitmap, retail level, animation, audio or text inputs"
+      },
+      {
+        "archive": "art/statbar.spe",
+        "entry": "bnum10",
+        "type": 4,
+        "payloadBytes": 64,
+        "payloadSHA256": "b55d4435207fc0fe67b9e0c6aca3bfb611b706343382c1f1cc9ef1c319f674c6",
+        "license": "CC0-1.0",
+        "provenance": "Created from new handwritten glyphs and procedural geometry by this generator; no source bitmap, retail level, animation, audio or text inputs"
+      },
+      {
+        "archive": "art/statbar.spe",
+        "entry": "bnum11",
+        "type": 4,
+        "payloadBytes": 64,
+        "payloadSHA256": "721eb3efcea9f02c88dfece7015e3779c7a597602190d6729b51c34d278404e0",
+        "license": "CC0-1.0",
+        "provenance": "Created from new handwritten glyphs and procedural geometry by this generator; no source bitmap, retail level, animation, audio or text inputs"
+      },
+      {
+        "archive": "art/statbar.spe",
+        "entry": "bnum12",
+        "type": 4,
+        "payloadBytes": 64,
+        "payloadSHA256": "dd52ab8f6d9d266b4264d8c40f5384c699a6bcbc5dd450e4e9db11a70304ae2e",
+        "license": "CC0-1.0",
+        "provenance": "Created from new handwritten glyphs and procedural geometry by this generator; no source bitmap, retail level, animation, audio or text inputs"
+      },
+      {
+        "archive": "art/statbar.spe",
+        "entry": "bnum13",
+        "type": 4,
+        "payloadBytes": 64,
+        "payloadSHA256": "ef8a17685663f81b3e55fb49c072fc5e53e3d115182fcf91b9dec2ba695ed231",
+        "license": "CC0-1.0",
+        "provenance": "Created from new handwritten glyphs and procedural geometry by this generator; no source bitmap, retail level, animation, audio or text inputs"
+      },
+      {
+        "archive": "art/statbar.spe",
+        "entry": "bnum14",
+        "type": 4,
+        "payloadBytes": 64,
+        "payloadSHA256": "f13ff6dbfca3e89186c35395443127cb25e6b8928d3309d1c9810c47e7685854",
+        "license": "CC0-1.0",
+        "provenance": "Created from new handwritten glyphs and procedural geometry by this generator; no source bitmap, retail level, animation, audio or text inputs"
+      },
+      {
+        "archive": "art/statbar.spe",
+        "entry": "bnum15",
+        "type": 4,
+        "payloadBytes": 64,
+        "payloadSHA256": "1e65b87600f735527c034b57c56d34ab0cd8df3c6847739b790f5a60b3f88d93",
+        "license": "CC0-1.0",
+        "provenance": "Created from new handwritten glyphs and procedural geometry by this generator; no source bitmap, retail level, animation, audio or text inputs"
+      },
+      {
+        "archive": "art/statbar.spe",
+        "entry": "bnum16",
+        "type": 4,
+        "payloadBytes": 64,
+        "payloadSHA256": "bef217cd9f544fe833afbebe227dfed8556055469a5fc92b9071a348c8192490",
+        "license": "CC0-1.0",
+        "provenance": "Created from new handwritten glyphs and procedural geometry by this generator; no source bitmap, retail level, animation, audio or text inputs"
+      },
+      {
+        "archive": "art/statbar.spe",
+        "entry": "bnum17",
+        "type": 4,
+        "payloadBytes": 64,
+        "payloadSHA256": "f6693c531c7b23e5efbc699341f150b84f8ecbd99fc17984a828f8948e2607ed",
+        "license": "CC0-1.0",
+        "provenance": "Created from new handwritten glyphs and procedural geometry by this generator; no source bitmap, retail level, animation, audio or text inputs"
+      },
+      {
+        "archive": "art/statbar.spe",
+        "entry": "bnum18",
+        "type": 4,
+        "payloadBytes": 64,
+        "payloadSHA256": "7e088e63aa75f9e2488e41f37a4161e04213aaf9f2e316091acf889067334909",
+        "license": "CC0-1.0",
+        "provenance": "Created from new handwritten glyphs and procedural geometry by this generator; no source bitmap, retail level, animation, audio or text inputs"
+      },
+      {
+        "archive": "art/statbar.spe",
+        "entry": "bnum19",
+        "type": 4,
+        "payloadBytes": 64,
+        "payloadSHA256": "da49065759831940388764351416116c42c6a54c5ce9e3389b1419962a10a076",
+        "license": "CC0-1.0",
+        "provenance": "Created from new handwritten glyphs and procedural geometry by this generator; no source bitmap, retail level, animation, audio or text inputs"
+      },
+      {
+        "archive": "art/statbar.spe",
+        "entry": "bnum20",
+        "type": 4,
+        "payloadBytes": 64,
+        "payloadSHA256": "634d30abecd9ee03a20ad9d0be37f665e453840233a9eaf8000bedbf03815171",
+        "license": "CC0-1.0",
+        "provenance": "Created from new handwritten glyphs and procedural geometry by this generator; no source bitmap, retail level, animation, audio or text inputs"
+      },
+      {
+        "archive": "art/statbar.spe",
+        "entry": "bnum21",
+        "type": 4,
+        "payloadBytes": 64,
+        "payloadSHA256": "ccf38e4adea0c387a7296ff4cf1862d085e7639da423a4ecd896fcdc097fb467",
+        "license": "CC0-1.0",
+        "provenance": "Created from new handwritten glyphs and procedural geometry by this generator; no source bitmap, retail level, animation, audio or text inputs"
+      },
+      {
+        "archive": "art/statbar.spe",
+        "entry": "bnum22",
+        "type": 4,
+        "payloadBytes": 64,
+        "payloadSHA256": "70ffabf65ec643296f193cff6a32e04184516aea0c09a506e9a94609a3ddca23",
+        "license": "CC0-1.0",
+        "provenance": "Created from new handwritten glyphs and procedural geometry by this generator; no source bitmap, retail level, animation, audio or text inputs"
+      },
+      {
+        "archive": "art/statbar.spe",
+        "entry": "bnum23",
+        "type": 4,
+        "payloadBytes": 64,
+        "payloadSHA256": "a1752fbc154e9ef01fcef6107a5f629739e2257910e20bb50de58686d6689b23",
+        "license": "CC0-1.0",
+        "provenance": "Created from new handwritten glyphs and procedural geometry by this generator; no source bitmap, retail level, animation, audio or text inputs"
+      },
+      {
+        "archive": "art/statbar.spe",
+        "entry": "bnum24",
+        "type": 4,
+        "payloadBytes": 64,
+        "payloadSHA256": "23a3f1a537085da7f2c98355dc2373796b8200d85e08794a11c944a595d8635c",
+        "license": "CC0-1.0",
+        "provenance": "Created from new handwritten glyphs and procedural geometry by this generator; no source bitmap, retail level, animation, audio or text inputs"
+      },
+      {
+        "archive": "art/statbar.spe",
+        "entry": "bnum25",
+        "type": 4,
+        "payloadBytes": 64,
+        "payloadSHA256": "d0bd1b93bbfb9fded58c60a31a8593db42d3ad11bfa09a19a97105265b4ce2b8",
+        "license": "CC0-1.0",
+        "provenance": "Created from new handwritten glyphs and procedural geometry by this generator; no source bitmap, retail level, animation, audio or text inputs"
+      },
+      {
+        "archive": "art/statbar.spe",
+        "entry": "bnum26",
+        "type": 4,
+        "payloadBytes": 64,
+        "payloadSHA256": "28ec10c5f48b42a916c939e9b959e6b7ae39e3ce8837dfd92b308f7e279d865e",
+        "license": "CC0-1.0",
+        "provenance": "Created from new handwritten glyphs and procedural geometry by this generator; no source bitmap, retail level, animation, audio or text inputs"
+      },
+      {
+        "archive": "art/statbar.spe",
+        "entry": "bnum27",
+        "type": 4,
+        "payloadBytes": 64,
+        "payloadSHA256": "c8a53b79f4e913ff520dd4d3cd518ef04765a307d9fdb51210d1a74b977193de",
+        "license": "CC0-1.0",
+        "provenance": "Created from new handwritten glyphs and procedural geometry by this generator; no source bitmap, retail level, animation, audio or text inputs"
+      },
+      {
+        "archive": "art/statbar.spe",
+        "entry": "bnum28",
+        "type": 4,
+        "payloadBytes": 64,
+        "payloadSHA256": "aacf5c020433cf3f70dba0ec5ac31666627be5f3e607d8facfb2ea424ab5afd3",
+        "license": "CC0-1.0",
+        "provenance": "Created from new handwritten glyphs and procedural geometry by this generator; no source bitmap, retail level, animation, audio or text inputs"
+      },
+      {
+        "archive": "art/statbar.spe",
+        "entry": "bnum29",
+        "type": 4,
+        "payloadBytes": 64,
+        "payloadSHA256": "e21da93f43e1eeec54ba1951fb96bc2da21aa0e5d2b92f81784ca135c69a172b",
+        "license": "CC0-1.0",
+        "provenance": "Created from new handwritten glyphs and procedural geometry by this generator; no source bitmap, retail level, animation, audio or text inputs"
+      },
+      {
+        "archive": "art/statbar.spe",
+        "entry": "sbar",
+        "type": 4,
+        "payloadBytes": 9604,
+        "payloadSHA256": "b8f46f6a4f6db16faf17a9b9c9481c20d8298acb88c2663047c509a766ece66e",
+        "license": "CC0-1.0",
+        "provenance": "Created from new handwritten glyphs and procedural geometry by this generator; no source bitmap, retail level, animation, audio or text inputs"
+      },
+      {
+        "archive": "art/statbar.spe",
+        "entry": "sbar_select",
+        "type": 4,
+        "payloadBytes": 328,
+        "payloadSHA256": "4326065a0b050b1f74d520c9479190feae8a42e9fe3c4159547eb85f3ec0c53d",
+        "license": "CC0-1.0",
+        "provenance": "Created from new handwritten glyphs and procedural geometry by this generator; no source bitmap, retail level, animation, audio or text inputs"
+      },
+      {
+        "archive": "art/statbar.spe",
+        "entry": "sbar_numpad",
+        "type": 4,
+        "payloadBytes": 964,
+        "payloadSHA256": "89d34f953a94de092afe5645c09c160769457ce5062d55d6495d5fb4571f09a6",
+        "license": "CC0-1.0",
+        "provenance": "Created from new handwritten glyphs and procedural geometry by this generator; no source bitmap, retail level, animation, audio or text inputs"
+      },
+      {
+        "archive": "art/icons.spe",
+        "entry": "nums0001.pcx",
+        "type": 4,
+        "payloadBytes": 424,
+        "payloadSHA256": "ce9c99397a0acd6413c9fad6bb6adb5e559067449e55b40bdfcc951b4de3f4f9",
+        "license": "CC0-1.0",
+        "provenance": "Created from new handwritten glyphs and procedural geometry by this generator; no source bitmap, retail level, animation, audio or text inputs"
+      },
+      {
+        "archive": "art/icons.spe",
+        "entry": "nums0002.pcx",
+        "type": 4,
+        "payloadBytes": 424,
+        "payloadSHA256": "e19dce0792d25ecd3dd6aadce98190e8207c699194a3391f42cb0598e312f500",
+        "license": "CC0-1.0",
+        "provenance": "Created from new handwritten glyphs and procedural geometry by this generator; no source bitmap, retail level, animation, audio or text inputs"
+      },
+      {
+        "archive": "art/icons.spe",
+        "entry": "nums0003.pcx",
+        "type": 4,
+        "payloadBytes": 424,
+        "payloadSHA256": "360f85605176b547e846213fa8ad1fd830d1743a2bb6f1636e734f7b73d5de30",
+        "license": "CC0-1.0",
+        "provenance": "Created from new handwritten glyphs and procedural geometry by this generator; no source bitmap, retail level, animation, audio or text inputs"
+      },
+      {
+        "archive": "art/icons.spe",
+        "entry": "nums0004.pcx",
+        "type": 4,
+        "payloadBytes": 424,
+        "payloadSHA256": "016ef1be6edb1b8757f467724c75650b19fd6278a794984e38bb5d46e8109944",
+        "license": "CC0-1.0",
+        "provenance": "Created from new handwritten glyphs and procedural geometry by this generator; no source bitmap, retail level, animation, audio or text inputs"
+      },
+      {
+        "archive": "art/icons.spe",
+        "entry": "nums0005.pcx",
+        "type": 4,
+        "payloadBytes": 424,
+        "payloadSHA256": "da9b77d43eb9da8129c0320f702ebc44ea0489edf20ff4a4bcc6a17a79a90668",
+        "license": "CC0-1.0",
+        "provenance": "Created from new handwritten glyphs and procedural geometry by this generator; no source bitmap, retail level, animation, audio or text inputs"
+      },
+      {
+        "archive": "art/icons.spe",
+        "entry": "nums0006.pcx",
+        "type": 4,
+        "payloadBytes": 424,
+        "payloadSHA256": "c4c7f027362950bda71454a640634a566b9a0a37ee88c381928349c2a2860f45",
+        "license": "CC0-1.0",
+        "provenance": "Created from new handwritten glyphs and procedural geometry by this generator; no source bitmap, retail level, animation, audio or text inputs"
+      },
+      {
+        "archive": "art/icons.spe",
+        "entry": "nums0007.pcx",
+        "type": 4,
+        "payloadBytes": 424,
+        "payloadSHA256": "9c61356a2432216ee224b443b543dcd3344411fccf1bedc4d2149cc7eca08d23",
+        "license": "CC0-1.0",
+        "provenance": "Created from new handwritten glyphs and procedural geometry by this generator; no source bitmap, retail level, animation, audio or text inputs"
+      },
+      {
+        "archive": "art/icons.spe",
+        "entry": "nums0008.pcx",
+        "type": 4,
+        "payloadBytes": 424,
+        "payloadSHA256": "3e203139bd4d57a0016efc45034fbd57036a65f67b4c1afb75419c2a860baea9",
+        "license": "CC0-1.0",
+        "provenance": "Created from new handwritten glyphs and procedural geometry by this generator; no source bitmap, retail level, animation, audio or text inputs"
+      },
+      {
+        "archive": "art/icons.spe",
+        "entry": "nums0009.pcx",
+        "type": 4,
+        "payloadBytes": 424,
+        "payloadSHA256": "c0724140242954fecacbbdad84fc23648636ae8355aae067ed7fbad83d5eabba",
+        "license": "CC0-1.0",
+        "provenance": "Created from new handwritten glyphs and procedural geometry by this generator; no source bitmap, retail level, animation, audio or text inputs"
+      },
+      {
+        "archive": "art/icons.spe",
+        "entry": "nums0010.pcx",
+        "type": 4,
+        "payloadBytes": 424,
+        "payloadSHA256": "5ee238ed4936aa4ee15defebd2ae951650629e17cc0d6a4ce9c40097a8202d71",
+        "license": "CC0-1.0",
+        "provenance": "Created from new handwritten glyphs and procedural geometry by this generator; no source bitmap, retail level, animation, audio or text inputs"
+      },
+      {
+        "archive": "art/icons.spe",
+        "entry": "nums0011.pcx",
+        "type": 4,
+        "payloadBytes": 424,
+        "payloadSHA256": "f425cafdaa4934c9949e0e5f6fbd0b250cac65599dcb26c8ebea355382ed7e0d",
+        "license": "CC0-1.0",
+        "provenance": "Created from new handwritten glyphs and procedural geometry by this generator; no source bitmap, retail level, animation, audio or text inputs"
+      },
+      {
+        "archive": "art/icons.spe",
+        "entry": "nums0012.pcx",
+        "type": 4,
+        "payloadBytes": 424,
+        "payloadSHA256": "edef7f2f5b7374a0508b2e4ab659da18d5a07a5be7cc1aced108f842c2bd96d9",
+        "license": "CC0-1.0",
+        "provenance": "Created from new handwritten glyphs and procedural geometry by this generator; no source bitmap, retail level, animation, audio or text inputs"
+      },
+      {
+        "archive": "art/icons.spe",
+        "entry": "nums0013.pcx",
+        "type": 4,
+        "payloadBytes": 424,
+        "payloadSHA256": "659646f686f65124c7110bd4d46215c8189c096f689cac537237c9949116f0bb",
+        "license": "CC0-1.0",
+        "provenance": "Created from new handwritten glyphs and procedural geometry by this generator; no source bitmap, retail level, animation, audio or text inputs"
+      },
+      {
+        "archive": "art/icons.spe",
+        "entry": "nums0014.pcx",
+        "type": 4,
+        "payloadBytes": 424,
+        "payloadSHA256": "ac667cc37df5951e211cd5801e1280efa6078883bd3137b4a080fb2f35a46808",
+        "license": "CC0-1.0",
+        "provenance": "Created from new handwritten glyphs and procedural geometry by this generator; no source bitmap, retail level, animation, audio or text inputs"
+      },
+      {
+        "archive": "art/icons.spe",
+        "entry": "nums0015.pcx",
+        "type": 4,
+        "payloadBytes": 424,
+        "payloadSHA256": "7582e2f28bd5dc0f6be27937ed250e81ad64441c88aa4e7a0c95881f72206757",
+        "license": "CC0-1.0",
+        "provenance": "Created from new handwritten glyphs and procedural geometry by this generator; no source bitmap, retail level, animation, audio or text inputs"
+      },
+      {
+        "archive": "art/icons.spe",
+        "entry": "newi0001.pcx",
+        "type": 4,
+        "payloadBytes": 484,
+        "payloadSHA256": "bbced79106f604f8e2a02d76d922813368c605d552879ed07830c079a370d37f",
+        "license": "CC0-1.0",
+        "provenance": "Created from new handwritten glyphs and procedural geometry by this generator; no source bitmap, retail level, animation, audio or text inputs"
+      },
+      {
+        "archive": "art/icons.spe",
+        "entry": "newi0002.pcx",
+        "type": 4,
+        "payloadBytes": 484,
+        "payloadSHA256": "ee02689fe842c19a5819159e0769dbe2ff478c6491aaed7991dd48a4d95abfd5",
+        "license": "CC0-1.0",
+        "provenance": "Created from new handwritten glyphs and procedural geometry by this generator; no source bitmap, retail level, animation, audio or text inputs"
+      },
+      {
+        "archive": "art/icons.spe",
+        "entry": "newi0003.pcx",
+        "type": 4,
+        "payloadBytes": 484,
+        "payloadSHA256": "591c6e511661dc76b5d639ee8a4cf96b98bf7408d3abfa85f6969f7bafab530c",
+        "license": "CC0-1.0",
+        "provenance": "Created from new handwritten glyphs and procedural geometry by this generator; no source bitmap, retail level, animation, audio or text inputs"
+      },
+      {
+        "archive": "art/icons.spe",
+        "entry": "newi0004.pcx",
+        "type": 4,
+        "payloadBytes": 484,
+        "payloadSHA256": "a77d6fcf94fb4344e2b4d5d648fb0b06e0f330407982b292be2055dad109af53",
+        "license": "CC0-1.0",
+        "provenance": "Created from new handwritten glyphs and procedural geometry by this generator; no source bitmap, retail level, animation, audio or text inputs"
+      },
+      {
+        "archive": "art/icons.spe",
+        "entry": "newi0005.pcx",
+        "type": 4,
+        "payloadBytes": 484,
+        "payloadSHA256": "aaf63b820186f8c9b578c7af76ad2795d7558f34e51f1cca7e62770cf8b9fcdc",
+        "license": "CC0-1.0",
+        "provenance": "Created from new handwritten glyphs and procedural geometry by this generator; no source bitmap, retail level, animation, audio or text inputs"
+      },
+      {
+        "archive": "art/icons.spe",
+        "entry": "newi0006.pcx",
+        "type": 4,
+        "payloadBytes": 484,
+        "payloadSHA256": "2959dba1b07fd26fffff4235ec34896960d74f8b05b5730d1b1e951f0781efa6",
+        "license": "CC0-1.0",
+        "provenance": "Created from new handwritten glyphs and procedural geometry by this generator; no source bitmap, retail level, animation, audio or text inputs"
+      },
+      {
+        "archive": "art/icons.spe",
+        "entry": "newi0007.pcx",
+        "type": 4,
+        "payloadBytes": 484,
+        "payloadSHA256": "5ce01e1d6ecd77d1686afbe2614aa19cb35de04c34b9ba411298b2f8fc70f9b7",
+        "license": "CC0-1.0",
+        "provenance": "Created from new handwritten glyphs and procedural geometry by this generator; no source bitmap, retail level, animation, audio or text inputs"
+      },
+      {
+        "archive": "art/icons.spe",
+        "entry": "newi0008.pcx",
+        "type": 4,
+        "payloadBytes": 484,
+        "payloadSHA256": "38d0ad043a8da3c9a388824e58e32af9cb928926542bae0030562304a2f8f43b",
+        "license": "CC0-1.0",
+        "provenance": "Created from new handwritten glyphs and procedural geometry by this generator; no source bitmap, retail level, animation, audio or text inputs"
+      },
+      {
+        "archive": "art/icons.spe",
+        "entry": "newi0009.pcx",
+        "type": 4,
+        "payloadBytes": 484,
+        "payloadSHA256": "81749ba16c3f52fea12a7027bce9405daa29ef5d19fce525ce019c2d6dc85853",
+        "license": "CC0-1.0",
+        "provenance": "Created from new handwritten glyphs and procedural geometry by this generator; no source bitmap, retail level, animation, audio or text inputs"
+      },
+      {
+        "archive": "art/icons.spe",
+        "entry": "newi0010.pcx",
+        "type": 4,
+        "payloadBytes": 484,
+        "payloadSHA256": "f1471ca2654632165c14bf07ab07cd59a949ba87112e11afa94a6949a0eb6269",
+        "license": "CC0-1.0",
+        "provenance": "Created from new handwritten glyphs and procedural geometry by this generator; no source bitmap, retail level, animation, audio or text inputs"
+      },
+      {
+        "archive": "art/icons.spe",
+        "entry": "newi0011.pcx",
+        "type": 4,
+        "payloadBytes": 484,
+        "payloadSHA256": "dd69afc5991e5fd311616bff4f987273c66b7c7db76e2a0363a1501865e8d563",
+        "license": "CC0-1.0",
+        "provenance": "Created from new handwritten glyphs and procedural geometry by this generator; no source bitmap, retail level, animation, audio or text inputs"
+      },
+      {
+        "archive": "art/icons.spe",
+        "entry": "newi0012.pcx",
+        "type": 4,
+        "payloadBytes": 484,
+        "payloadSHA256": "3a57f278ceca1d36c72e449c05e59e172d2c20fee0777223d84bd4d6cb546ed0",
+        "license": "CC0-1.0",
+        "provenance": "Created from new handwritten glyphs and procedural geometry by this generator; no source bitmap, retail level, animation, audio or text inputs"
+      },
+      {
+        "archive": "art/icons.spe",
+        "entry": "newi0013.pcx",
+        "type": 4,
+        "payloadBytes": 484,
+        "payloadSHA256": "5b137f5feba351fe7860c1f9508a8ee0e67849d78b82314525f90b5dbff7dffe",
+        "license": "CC0-1.0",
+        "provenance": "Created from new handwritten glyphs and procedural geometry by this generator; no source bitmap, retail level, animation, audio or text inputs"
+      },
+      {
+        "archive": "art/icons.spe",
+        "entry": "newi0014.pcx",
+        "type": 4,
+        "payloadBytes": 484,
+        "payloadSHA256": "5d24d325098bc13b34d4cf4c2d4e5e20e5adbc097c418f72581d314d98a8375b",
+        "license": "CC0-1.0",
+        "provenance": "Created from new handwritten glyphs and procedural geometry by this generator; no source bitmap, retail level, animation, audio or text inputs"
+      },
+      {
+        "archive": "art/icons.spe",
+        "entry": "newi0015.pcx",
+        "type": 4,
+        "payloadBytes": 484,
+        "payloadSHA256": "53fc1d2febad967d5f08a4ba135c7079088a87b98d984f692c3252dcbfae5b9b",
+        "license": "CC0-1.0",
+        "provenance": "Created from new handwritten glyphs and procedural geometry by this generator; no source bitmap, retail level, animation, audio or text inputs"
+      },
+      {
+        "archive": "art/icons.spe",
+        "entry": "newi0016.pcx",
+        "type": 4,
+        "payloadBytes": 484,
+        "payloadSHA256": "184a4ffbef55cd1445744d8f7911c41421e428799430f261f7e2ad0aec2e5ad2",
+        "license": "CC0-1.0",
+        "provenance": "Created from new handwritten glyphs and procedural geometry by this generator; no source bitmap, retail level, animation, audio or text inputs"
+      },
+      {
+        "archive": "art/icons.spe",
+        "entry": "newi0017.pcx",
+        "type": 4,
+        "payloadBytes": 484,
+        "payloadSHA256": "2dd1baf36441b88a8af96acccff8dde30ac1a4ab2fae0f78fc2167233273d954",
+        "license": "CC0-1.0",
+        "provenance": "Created from new handwritten glyphs and procedural geometry by this generator; no source bitmap, retail level, animation, audio or text inputs"
+      },
+      {
+        "archive": "art/icons.spe",
+        "entry": "newi0018.pcx",
+        "type": 4,
+        "payloadBytes": 484,
+        "payloadSHA256": "0ec2c9fb8a890dfc2f8e4e5f37ccc28c2dac3ccf42b23bd1fceee578d167588c",
+        "license": "CC0-1.0",
+        "provenance": "Created from new handwritten glyphs and procedural geometry by this generator; no source bitmap, retail level, animation, audio or text inputs"
+      },
+      {
+        "archive": "art/icons.spe",
+        "entry": "newi0019.pcx",
+        "type": 4,
+        "payloadBytes": 484,
+        "payloadSHA256": "52e46a5fe2364e1a2ed885a26d36215c0854ec2e840aaf9d26e8a5c04a17079d",
+        "license": "CC0-1.0",
+        "provenance": "Created from new handwritten glyphs and procedural geometry by this generator; no source bitmap, retail level, animation, audio or text inputs"
+      },
+      {
+        "archive": "art/icons.spe",
+        "entry": "newi0020.pcx",
+        "type": 4,
+        "payloadBytes": 484,
+        "payloadSHA256": "8400f24684b016684f62e1d53ede62fa3bb5c4728afd6189d0a35738aa10aa52",
+        "license": "CC0-1.0",
+        "provenance": "Created from new handwritten glyphs and procedural geometry by this generator; no source bitmap, retail level, animation, audio or text inputs"
+      },
+      {
+        "archive": "art/icons.spe",
+        "entry": "newi0021.pcx",
+        "type": 4,
+        "payloadBytes": 484,
+        "payloadSHA256": "1adf5c591f22f50e15924acd4a6e9251602b042f79a1931a8f2fe95b25fca0f1",
+        "license": "CC0-1.0",
+        "provenance": "Created from new handwritten glyphs and procedural geometry by this generator; no source bitmap, retail level, animation, audio or text inputs"
+      },
+      {
+        "archive": "art/icons.spe",
+        "entry": "newi0022.pcx",
+        "type": 4,
+        "payloadBytes": 484,
+        "payloadSHA256": "26905c27a724c8c4787303b8bf6e205a3f485e30173c2e92aa1136bb00ab1c5a",
+        "license": "CC0-1.0",
+        "provenance": "Created from new handwritten glyphs and procedural geometry by this generator; no source bitmap, retail level, animation, audio or text inputs"
+      },
+      {
+        "archive": "art/icons.spe",
+        "entry": "newi0023.pcx",
+        "type": 4,
+        "payloadBytes": 484,
+        "payloadSHA256": "d0a1380990445c32403ee252fd38afa0fb1df36232fcd694bb9b6faea49343df",
+        "license": "CC0-1.0",
+        "provenance": "Created from new handwritten glyphs and procedural geometry by this generator; no source bitmap, retail level, animation, audio or text inputs"
+      },
+      {
+        "archive": "art/icons.spe",
+        "entry": "newi0024.pcx",
+        "type": 4,
+        "payloadBytes": 484,
+        "payloadSHA256": "dd6d1209ae1e0b3d05bdf5d5d3b539e0d82f3c3ca9f2d6a1af6657456458bb79",
+        "license": "CC0-1.0",
+        "provenance": "Created from new handwritten glyphs and procedural geometry by this generator; no source bitmap, retail level, animation, audio or text inputs"
+      },
+      {
+        "archive": "art/icons.spe",
+        "entry": "newi0025.pcx",
+        "type": 4,
+        "payloadBytes": 484,
+        "payloadSHA256": "4ac66dbd6d4cb16c7d08a87f46bb03abe4c57d4e2e70284ef87fa0e7bdc20d40",
+        "license": "CC0-1.0",
+        "provenance": "Created from new handwritten glyphs and procedural geometry by this generator; no source bitmap, retail level, animation, audio or text inputs"
+      },
+      {
+        "archive": "art/icons.spe",
+        "entry": "newi0026.pcx",
+        "type": 4,
+        "payloadBytes": 484,
+        "payloadSHA256": "6a14e72ca041dbf8738134c36a80ccfcdbdc2b480dcc8d3afe8d211177f81960",
+        "license": "CC0-1.0",
+        "provenance": "Created from new handwritten glyphs and procedural geometry by this generator; no source bitmap, retail level, animation, audio or text inputs"
+      },
+      {
+        "archive": "art/icons.spe",
+        "entry": "newi0027.pcx",
+        "type": 4,
+        "payloadBytes": 484,
+        "payloadSHA256": "1ba234158923b463d82c52c4a61a9eb90b4eb18af795e5762473f82cac7c3caa",
+        "license": "CC0-1.0",
+        "provenance": "Created from new handwritten glyphs and procedural geometry by this generator; no source bitmap, retail level, animation, audio or text inputs"
+      },
+      {
+        "archive": "art/icons.spe",
+        "entry": "newi0028.pcx",
+        "type": 4,
+        "payloadBytes": 484,
+        "payloadSHA256": "73a5188ee0e87ef0f8e0ead122b4ccf6e8d01feb9f624056e851c8ab2a5dff54",
+        "license": "CC0-1.0",
+        "provenance": "Created from new handwritten glyphs and procedural geometry by this generator; no source bitmap, retail level, animation, audio or text inputs"
+      },
+      {
+        "archive": "art/icons.spe",
+        "entry": "newi0029.pcx",
+        "type": 4,
+        "payloadBytes": 484,
+        "payloadSHA256": "efb331169514494be8da3979428d0b32f363e1efa864fedc3bd28c9e72a43200",
+        "license": "CC0-1.0",
+        "provenance": "Created from new handwritten glyphs and procedural geometry by this generator; no source bitmap, retail level, animation, audio or text inputs"
+      },
+      {
+        "archive": "art/icons.spe",
+        "entry": "newi0030.pcx",
+        "type": 4,
+        "payloadBytes": 484,
+        "payloadSHA256": "054b6a84956dd398a6e9fce4aafaae5754dcc8640e377dc4fce5b23642085b2a",
+        "license": "CC0-1.0",
+        "provenance": "Created from new handwritten glyphs and procedural geometry by this generator; no source bitmap, retail level, animation, audio or text inputs"
+      },
+      {
+        "archive": "art/icons.spe",
+        "entry": "newi0031.pcx",
+        "type": 4,
+        "payloadBytes": 484,
+        "payloadSHA256": "bcc5f32359a034573803e3d93b8b0e5d0f4832e4211962bd965e248f703463b2",
+        "license": "CC0-1.0",
+        "provenance": "Created from new handwritten glyphs and procedural geometry by this generator; no source bitmap, retail level, animation, audio or text inputs"
+      },
+      {
+        "archive": "art/icons.spe",
+        "entry": "newi0032.pcx",
+        "type": 4,
+        "payloadBytes": 484,
+        "payloadSHA256": "79f0fa693f7b92ff1fa7f1a3a5314bf8063da82a199cacfb586c097f0ff5fbf1",
+        "license": "CC0-1.0",
+        "provenance": "Created from new handwritten glyphs and procedural geometry by this generator; no source bitmap, retail level, animation, audio or text inputs"
+      },
+      {
+        "archive": "art/icons.spe",
+        "entry": "newi0033.pcx",
+        "type": 4,
+        "payloadBytes": 484,
+        "payloadSHA256": "154c64a5f96380d7e94d814c8f59ef9a096896894defef10bd5ee6e85acb1384",
+        "license": "CC0-1.0",
+        "provenance": "Created from new handwritten glyphs and procedural geometry by this generator; no source bitmap, retail level, animation, audio or text inputs"
+      },
+      {
+        "archive": "art/icons.spe",
+        "entry": "newi0034.pcx",
+        "type": 4,
+        "payloadBytes": 484,
+        "payloadSHA256": "70a67ad955423d519747f55f9700dde5927899edac85f5ff30023015dd57aef6",
+        "license": "CC0-1.0",
+        "provenance": "Created from new handwritten glyphs and procedural geometry by this generator; no source bitmap, retail level, animation, audio or text inputs"
+      },
+      {
+        "archive": "art/icons.spe",
+        "entry": "newi0035.pcx",
+        "type": 4,
+        "payloadBytes": 484,
+        "payloadSHA256": "34ef70fa9212c18bd8bbb4cd67f36d10738281645c22192b5982f44cb7eec78e",
+        "license": "CC0-1.0",
+        "provenance": "Created from new handwritten glyphs and procedural geometry by this generator; no source bitmap, retail level, animation, audio or text inputs"
+      },
+      {
+        "archive": "art/icons.spe",
+        "entry": "newi0036.pcx",
+        "type": 4,
+        "payloadBytes": 484,
+        "payloadSHA256": "75f723b0e997303041bccfc8b0eb3c7dedf94b53fefb4e2e2f9d51592074c1cb",
+        "license": "CC0-1.0",
+        "provenance": "Created from new handwritten glyphs and procedural geometry by this generator; no source bitmap, retail level, animation, audio or text inputs"
+      },
+      {
+        "archive": "art/title.spe",
+        "entry": "title",
+        "type": 4,
+        "payloadBytes": 64004,
+        "payloadSHA256": "64e2d231468b071e74f46c27a5fbd2666c19ca31c1c80da216ffefeb66977e51",
+        "license": "CC0-1.0",
+        "provenance": "Created from new handwritten glyphs and procedural geometry by this generator; no source bitmap, retail level, animation, audio or text inputs"
+      },
+      {
+        "archive": "art/terrain.spe",
+        "entry": "0",
+        "type": 5,
+        "payloadBytes": 264,
+        "payloadSHA256": "3fa3498ff9cd992b33a91e2c083372973ac0b2ec18f6b9ecc96f474c2b4e35ef",
+        "license": "CC0-1.0",
+        "provenance": "Created from new handwritten glyphs and procedural geometry by this generator; no source bitmap, retail level, animation, audio or text inputs"
+      },
+      {
+        "archive": "art/terrain.spe",
+        "entry": "0",
+        "type": 6,
+        "payloadBytes": 262,
+        "payloadSHA256": "b4f9cf94753a854e0c1a362f70e6f717026620e104986e6955976db822674753",
+        "license": "CC0-1.0",
+        "provenance": "Created from new handwritten glyphs and procedural geometry by this generator; no source bitmap, retail level, animation, audio or text inputs"
+      },
+      {
+        "archive": "art/terrain.spe",
+        "entry": "1",
+        "type": 5,
+        "payloadBytes": 274,
+        "payloadSHA256": "e33e2eb6d20de2e53c8453d3386e58c12ef61da901e7d6265deb443233c9f5c7",
+        "license": "CC0-1.0",
+        "provenance": "Created from new handwritten glyphs and procedural geometry by this generator; no source bitmap, retail level, animation, audio or text inputs"
+      },
+      {
+        "archive": "art/terrain.spe",
+        "entry": "1",
+        "type": 6,
+        "payloadBytes": 262,
+        "payloadSHA256": "fb02c969867a02f494e3e44b677d54aee4db62f8ce81536858ac1a2dce19effa",
+        "license": "CC0-1.0",
+        "provenance": "Created from new handwritten glyphs and procedural geometry by this generator; no source bitmap, retail level, animation, audio or text inputs"
+      },
+      {
+        "archive": "art/terrain.spe",
+        "entry": "2",
+        "type": 5,
+        "payloadBytes": 274,
+        "payloadSHA256": "7991302aaeb647e276b6523edb6e83efb1e10f2d4b8ba6aede13b63f642ac3e9",
+        "license": "CC0-1.0",
+        "provenance": "Created from new handwritten glyphs and procedural geometry by this generator; no source bitmap, retail level, animation, audio or text inputs"
+      },
+      {
+        "archive": "art/terrain.spe",
+        "entry": "2",
+        "type": 6,
+        "payloadBytes": 262,
+        "payloadSHA256": "423dd8588ca36b0daf6a5f281a072b8c2c4c421ba379bce1c4edb44998fb0b74",
+        "license": "CC0-1.0",
+        "provenance": "Created from new handwritten glyphs and procedural geometry by this generator; no source bitmap, retail level, animation, audio or text inputs"
+      },
+      {
+        "archive": "art/terrain.spe",
+        "entry": "3",
+        "type": 5,
+        "payloadBytes": 274,
+        "payloadSHA256": "4d86104840115563002af8d9ecddd635eab9e28e61e194bffce4d0f0d1573957",
+        "license": "CC0-1.0",
+        "provenance": "Created from new handwritten glyphs and procedural geometry by this generator; no source bitmap, retail level, animation, audio or text inputs"
+      },
+      {
+        "archive": "art/terrain.spe",
+        "entry": "3",
+        "type": 6,
+        "payloadBytes": 262,
+        "payloadSHA256": "86292edf6a0219f28cf2bde7e4f7797c129bfdead3bf27856b428ea7e2d87ad2",
+        "license": "CC0-1.0",
+        "provenance": "Created from new handwritten glyphs and procedural geometry by this generator; no source bitmap, retail level, animation, audio or text inputs"
+      },
+      {
+        "archive": "art/actors.spe",
+        "entry": "beacon",
+        "type": 21,
+        "payloadBytes": 259,
+        "payloadSHA256": "dbf5dba1d6e81c014843bb51f0f47eca69f4a2a120c7d3328787d9ba7d67cd5f",
+        "license": "CC0-1.0",
+        "provenance": "Created from new handwritten glyphs and procedural geometry by this generator; no source bitmap, retail level, animation, audio or text inputs"
+      }
+    ]
+  },
+  "embeddedFont": {
+    "bytes": 19968,
+    "dataSHA256": "12a0ddc639c445d7d17a9dc8926b20853ef35d690b76775d570d27d4172c809f",
+    "sourceSHA256": "54eb2b60942b8a09a8024694fce0d89b53e7eb17d27476ecc9ca8b1c6de4f9a0",
+    "samePixelsAsAuthoredNativeFontImage": true,
+    "originalFontObjectExcluded": true
+  },
+  "nativeBoot": {
+    "pageErrors": [],
+    "consoleErrors": [],
+    "missingResources": [],
+    "brightnessAcceptedWithOrdinaryMouseClick": true,
+    "titleMenuScreenshotInspected": true,
+    "menuScreenshotSHA256": "6b98e91779dee353775c958d4e775df8464fde92314be98795125c3f237f8a83",
+    "nativeBootstrapReached": true,
+    "authoredTitleAndMenuVisible": true,
+    "nativeDialogAndMenuNotCanvasComponentFixture": true,
+    "playersClosed": true,
+    "audio": "No audio device, Edge --mute-audio throughout; audible audio unverified",
+    "noSaveMemoryOrRNGWritesByHarness": true
+  },
+  "artifactHashes": [
+    {
+      "name": "authored-boot.js",
+      "bytes": 220185,
+      "sha256": "a39f306f41143e71eb70162edfce2cd4c5e591d0d363846e98e164e9d3691e5b"
+    },
+    {
+      "name": "authored-boot.wasm",
+      "bytes": 2602741,
+      "sha256": "8379a5512be60d3ea9974e68ac84877674d3ee5585cc420b54ab38555da078b4"
+    },
+    {
+      "name": "authored-boot.data",
+      "bytes": 253470,
+      "sha256": "4df7abad76ba54cda14c004e350ac73c0a45b1c3da0e482031197f6ed73cbf39"
+    },
+    {
+      "name": "author-pack.py",
+      "bytes": 12228,
+      "sha256": "70642e889e60b88930bdd0240758d81c3ce6519edc4c8a15944210d84905bca7"
+    },
+    {
+      "name": "build-authored-boot.py",
+      "bytes": 1254,
+      "sha256": "4333a8319d81c952723234644289695a0d0f0ba334176a5a4e242df73f5daf99"
+    },
+    {
+      "name": "test-authored-boot.cjs",
+      "bytes": 3085,
+      "sha256": "6885348678c16e3ea74962dbfc97032f63d2726e429707fa79375e255440d21f"
+    }
+  ],
+  "corrections": [
+    "Initial owned Lisp values allocated in temporary heap became invalid after native startup cleared it, leading to recursive debugger EOF and stack error. Added native perm-space/tmp-space lifecycle to owned scripts; failed report retained.",
+    "Source/observed native startup required additional editor icons, actual area_select name and create_players initialization; corrected owned pack, preserving failed reports. No original scripts or artwork fetched.",
+    "Native language callback keys include lang_string as well as symbol_str; independent labels added, including gamma message."
+  ],
+  "remaining": [
+    "Complete independent character animation/behavior, weapons/enemies, maps, objectives and progression/death/restart",
+    "Native default controls, physics, combat and complete gameplay verification",
+    "Persistent native game saves and full browser restart durability",
+    "Independent media/audio scope or explicitly scoped silent edition",
+    "Replace misleading inherited retail copyright/save marker in authored-map path without claiming retail authorship; current pack contains no levels and no such marker",
+    "Exact linked source/toolchain/dependency notices; core warnings and game function-pointer execution semantics still unverified"
+  ],
+  "packComplete": false,
+  "gameplayTested": false,
+  "nativeBootTested": true,
+  "catalogEntries": 83,
+  "integrated": false,
+  "deployed": false,
+  "cleanRoomCertified": false
+}
