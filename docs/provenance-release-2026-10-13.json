@@ -1,0 +1,65 @@
+{
+  "deployment": "https://0a2dcf58.decompgames.pages.dev",
+  "commit": "72d6ea8",
+  "scope": "HTTP text/routes and exact Cadet hashes; no gameplay/audio tests",
+  "checks": [
+    {
+      "route": "/",
+      "status": 200,
+      "corrected": true
+    },
+    {
+      "route": "/clean-room/",
+      "status": 200,
+      "corrected": true
+    },
+    {
+      "route": "/games/donkey-kong-64/",
+      "status": 200,
+      "corrected": true
+    },
+    {
+      "route": "/games/halo-combat-evolved/",
+      "status": 200
+    },
+    {
+      "route": "/games/mario-party-2/",
+      "status": 200
+    },
+    {
+      "route": "/games/mario-party-3/",
+      "status": 200
+    },
+    {
+      "route": "/games/tennis-sdl/player.html",
+      "status": 200
+    },
+    {
+      "route": "/games/craft/player.html",
+      "status": 200
+    },
+    {
+      "route": "/games/openduelyst/",
+      "status": 200
+    },
+    {
+      "route": "/games/roboden-replacement/",
+      "status": 200
+    },
+    {
+      "route": "/runtime/cadet/0bc12d3ca97a-authored-c51f8473a6/authored-cadet.data",
+      "status": 206,
+      "hashMatches": true
+    },
+    {
+      "route": "/runtime/cadet/0bc12d3ca97a-authored-c51f8473a6/authored-cadet.js",
+      "status": 206,
+      "hashMatches": true
+    },
+    {
+      "route": "/runtime/cadet/0bc12d3ca97a-authored-c51f8473a6/authored-cadet.wasm",
+      "status": 206,
+      "hashMatches": true
+    }
+  ]
+}
