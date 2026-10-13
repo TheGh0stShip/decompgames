@@ -1,0 +1,1010 @@
+{
+  "scope": "Compiler-emitted JavaScript library symbols and defining library origins for unchanged private persistence build; distinct from compiler-read source pool and whole-module template/preload provenance",
+  "observation": "Build-only Node vm library property-write observer and compiler forwarded-data capture; no SDK/source edit or browser execution",
+  "librarySymbols": 129,
+  "uniqueOrigins": 15,
+  "unresolvedOrigins": [],
+  "definitions": [
+    {
+      "symbol": "ExitStatus",
+      "rawLibraryKey": "$ExitStatus",
+      "source": "src/lib/libwasi.js",
+      "sourceSHA256": "b9a37514b016c1d2ffcd5994dcab319f89259984d57df77706c2923ff0cb2e84"
+    },
+    {
+      "symbol": "HEAP32",
+      "rawLibraryKey": "$HEAP32",
+      "source": "src/lib/libcore.js",
+      "sourceSHA256": "3541e1c16fab338449bf7267954cb15b85f742e7221557499f08e3aefe57b487"
+    },
+    {
+      "symbol": "HEAP8",
+      "rawLibraryKey": "$HEAP8",
+      "source": "src/lib/libcore.js",
+      "sourceSHA256": "3541e1c16fab338449bf7267954cb15b85f742e7221557499f08e3aefe57b487"
+    },
+    {
+      "symbol": "HEAPU32",
+      "rawLibraryKey": "$HEAPU32",
+      "source": "src/lib/libcore.js",
+      "sourceSHA256": "3541e1c16fab338449bf7267954cb15b85f742e7221557499f08e3aefe57b487"
+    },
+    {
+      "symbol": "addOnPostRun",
+      "rawLibraryKey": "$addOnPostRun",
+      "source": "src/lib/libcore.js",
+      "sourceSHA256": "3541e1c16fab338449bf7267954cb15b85f742e7221557499f08e3aefe57b487"
+    },
+    {
+      "symbol": "onPostRuns",
+      "rawLibraryKey": "$onPostRuns",
+      "source": "src/lib/libcore.js",
+      "sourceSHA256": "3541e1c16fab338449bf7267954cb15b85f742e7221557499f08e3aefe57b487"
+    },
+    {
+      "symbol": "callRuntimeCallbacks",
+      "rawLibraryKey": "$callRuntimeCallbacks",
+      "source": "src/lib/libcore.js",
+      "sourceSHA256": "3541e1c16fab338449bf7267954cb15b85f742e7221557499f08e3aefe57b487"
+    },
+    {
+      "symbol": "addOnPreRun",
+      "rawLibraryKey": "$addOnPreRun",
+      "source": "src/lib/libcore.js",
+      "sourceSHA256": "3541e1c16fab338449bf7267954cb15b85f742e7221557499f08e3aefe57b487"
+    },
+    {
+      "symbol": "onPreRuns",
+      "rawLibraryKey": "$onPreRuns",
+      "source": "src/lib/libcore.js",
+      "sourceSHA256": "3541e1c16fab338449bf7267954cb15b85f742e7221557499f08e3aefe57b487"
+    },
+    {
+      "symbol": "dynCall",
+      "rawLibraryKey": "$dynCall",
+      "source": "src/lib/libcore.js",
+      "sourceSHA256": "3541e1c16fab338449bf7267954cb15b85f742e7221557499f08e3aefe57b487"
+    },
+    {
+      "symbol": "dynCallLegacy",
+      "rawLibraryKey": "$dynCallLegacy",
+      "source": "src/lib/libcore.js",
+      "sourceSHA256": "3541e1c16fab338449bf7267954cb15b85f742e7221557499f08e3aefe57b487"
+    },
+    {
+      "symbol": "dynCalls",
+      "rawLibraryKey": "$dynCalls",
+      "source": "src/lib/libcore.js",
+      "sourceSHA256": "3541e1c16fab338449bf7267954cb15b85f742e7221557499f08e3aefe57b487"
+    },
+    {
+      "symbol": "noExitRuntime",
+      "rawLibraryKey": "$noExitRuntime",
+      "source": "src/lib/libcore.js",
+      "sourceSHA256": "3541e1c16fab338449bf7267954cb15b85f742e7221557499f08e3aefe57b487"
+    },
+    {
+      "symbol": "ptrToString",
+      "rawLibraryKey": "$ptrToString",
+      "source": "src/lib/libcore.js",
+      "sourceSHA256": "3541e1c16fab338449bf7267954cb15b85f742e7221557499f08e3aefe57b487"
+    },
+    {
+      "symbol": "setStackLimits",
+      "rawLibraryKey": "$setStackLimits",
+      "source": "src/lib/libcore.js",
+      "sourceSHA256": "3541e1c16fab338449bf7267954cb15b85f742e7221557499f08e3aefe57b487"
+    },
+    {
+      "symbol": "stackRestore",
+      "rawLibraryKey": "$stackRestore",
+      "source": "src/lib/libcore.js",
+      "sourceSHA256": "3541e1c16fab338449bf7267954cb15b85f742e7221557499f08e3aefe57b487"
+    },
+    {
+      "symbol": "stackSave",
+      "rawLibraryKey": "$stackSave",
+      "source": "src/lib/libcore.js",
+      "sourceSHA256": "3541e1c16fab338449bf7267954cb15b85f742e7221557499f08e3aefe57b487"
+    },
+    {
+      "symbol": "warnOnce",
+      "rawLibraryKey": "$warnOnce",
+      "source": "src/lib/libcore.js",
+      "sourceSHA256": "3541e1c16fab338449bf7267954cb15b85f742e7221557499f08e3aefe57b487"
+    },
+    {
+      "symbol": "wasmMemory",
+      "rawLibraryKey": "$wasmMemory",
+      "source": "src/lib/libcore.js",
+      "sourceSHA256": "3541e1c16fab338449bf7267954cb15b85f742e7221557499f08e3aefe57b487"
+    },
+    {
+      "symbol": "___cxa_throw",
+      "rawLibraryKey": "__cxa_throw",
+      "source": "src/lib/libexceptions.js",
+      "sourceSHA256": "9fb0d8d524c175ee239b86635d164fdcd0e7d77cb728b7dfa908d377fe652ee1"
+    },
+    {
+      "symbol": "ExceptionInfo",
+      "rawLibraryKey": "$ExceptionInfo",
+      "source": "src/lib/libexceptions.js",
+      "sourceSHA256": "9fb0d8d524c175ee239b86635d164fdcd0e7d77cb728b7dfa908d377fe652ee1"
+    },
+    {
+      "symbol": "uncaughtExceptionCount",
+      "rawLibraryKey": "$uncaughtExceptionCount",
+      "source": "src/lib/libexceptions.js",
+      "sourceSHA256": "9fb0d8d524c175ee239b86635d164fdcd0e7d77cb728b7dfa908d377fe652ee1"
+    },
+    {
+      "symbol": "__Unwind_RaiseException",
+      "rawLibraryKey": "_Unwind_RaiseException",
+      "source": "src/lib/libunwind.js",
+      "sourceSHA256": "a42dbe41ba1a2151382338c86183b86b5717440e6ad896d6e9fee37426776e91"
+    },
+    {
+      "symbol": "___handle_stack_overflow",
+      "rawLibraryKey": "__handle_stack_overflow",
+      "source": "src/lib/libcore.js",
+      "sourceSHA256": "3541e1c16fab338449bf7267954cb15b85f742e7221557499f08e3aefe57b487"
+    },
+    {
+      "symbol": "___syscall_chdir",
+      "rawLibraryKey": "__syscall_chdir",
+      "source": "src/lib/libsyscall.js",
+      "sourceSHA256": "0ad371d407ec380ef43acc24de4cf4d3c0d2fd48e688bbbb419ed3228bb254e1"
+    },
+    {
+      "symbol": "SYSCALLS",
+      "rawLibraryKey": "$SYSCALLS",
+      "source": "src/lib/libsyscall.js",
+      "sourceSHA256": "0ad371d407ec380ef43acc24de4cf4d3c0d2fd48e688bbbb419ed3228bb254e1"
+    },
+    {
+      "symbol": "PATH",
+      "rawLibraryKey": "$PATH",
+      "source": "src/lib/libpath.js",
+      "sourceSHA256": "6c6244b89ce194d50b25f277e5688e8729937aff77a57b8d6aca49174bf87140"
+    },
+    {
+      "symbol": "FS",
+      "rawLibraryKey": "$FS",
+      "source": "src/lib/libfs.js",
+      "sourceSHA256": "9413d73126f19892ea8bc1d7403f12cdb3f269a3b57e70741ec0dd358b76750c"
+    },
+    {
+      "symbol": "randomFill",
+      "rawLibraryKey": "$randomFill",
+      "source": "src/lib/libwasi.js",
+      "sourceSHA256": "b9a37514b016c1d2ffcd5994dcab319f89259984d57df77706c2923ff0cb2e84"
+    },
+    {
+      "symbol": "initRandomFill",
+      "rawLibraryKey": "$initRandomFill",
+      "source": "src/lib/libwasi.js",
+      "sourceSHA256": "b9a37514b016c1d2ffcd5994dcab319f89259984d57df77706c2923ff0cb2e84"
+    },
+    {
+      "symbol": "PATH_FS",
+      "rawLibraryKey": "$PATH_FS",
+      "source": "src/lib/libpath.js",
+      "sourceSHA256": "6c6244b89ce194d50b25f277e5688e8729937aff77a57b8d6aca49174bf87140"
+    },
+    {
+      "symbol": "TTY",
+      "rawLibraryKey": "$TTY",
+      "source": "src/lib/libtty.js",
+      "sourceSHA256": "d1eecb978ae971917a50fbf29d44037095c95242451190abf196d16643857516"
+    },
+    {
+      "symbol": "UTF8ArrayToString",
+      "rawLibraryKey": "$UTF8ArrayToString",
+      "source": "src/lib/libstrings.js",
+      "sourceSHA256": "7653dc2ececa66ef48de81fa378a463c2dde203958b6180a18979bce99ee7cbf"
+    },
+    {
+      "symbol": "UTF8Decoder",
+      "rawLibraryKey": "$UTF8Decoder",
+      "source": "src/lib/libstrings.js",
+      "sourceSHA256": "7653dc2ececa66ef48de81fa378a463c2dde203958b6180a18979bce99ee7cbf"
+    },
+    {
+      "symbol": "findStringEnd",
+      "rawLibraryKey": "$findStringEnd",
+      "source": "src/lib/libstrings.js",
+      "sourceSHA256": "7653dc2ececa66ef48de81fa378a463c2dde203958b6180a18979bce99ee7cbf"
+    },
+    {
+      "symbol": "FS_stdin_getChar",
+      "rawLibraryKey": "$FS_stdin_getChar",
+      "source": "src/lib/libfs_shared.js",
+      "sourceSHA256": "276cff202d83ea05ad764df526109e2bad874276e3474dbb2fd53da5949d8839"
+    },
+    {
+      "symbol": "FS_stdin_getChar_buffer",
+      "rawLibraryKey": "$FS_stdin_getChar_buffer",
+      "source": "src/lib/libfs_shared.js",
+      "sourceSHA256": "276cff202d83ea05ad764df526109e2bad874276e3474dbb2fd53da5949d8839"
+    },
+    {
+      "symbol": "intArrayFromString",
+      "rawLibraryKey": "$intArrayFromString",
+      "source": "src/lib/libstrings.js",
+      "sourceSHA256": "7653dc2ececa66ef48de81fa378a463c2dde203958b6180a18979bce99ee7cbf"
+    },
+    {
+      "symbol": "lengthBytesUTF8",
+      "rawLibraryKey": "$lengthBytesUTF8",
+      "source": "src/lib/libstrings.js",
+      "sourceSHA256": "7653dc2ececa66ef48de81fa378a463c2dde203958b6180a18979bce99ee7cbf"
+    },
+    {
+      "symbol": "stringToUTF8Array",
+      "rawLibraryKey": "$stringToUTF8Array",
+      "source": "src/lib/libstrings.js",
+      "sourceSHA256": "7653dc2ececa66ef48de81fa378a463c2dde203958b6180a18979bce99ee7cbf"
+    },
+    {
+      "symbol": "MEMFS",
+      "rawLibraryKey": "$MEMFS",
+      "source": "src/lib/libmemfs.js",
+      "sourceSHA256": "33c41f5a0e30aa178f709d8633aa237c038e2b39671ed78f429fb2a0db18f16a"
+    },
+    {
+      "symbol": "mmapAlloc",
+      "rawLibraryKey": "$mmapAlloc",
+      "source": "src/lib/libcore.js",
+      "sourceSHA256": "3541e1c16fab338449bf7267954cb15b85f742e7221557499f08e3aefe57b487"
+    },
+    {
+      "symbol": "FS_modeStringToFlags",
+      "rawLibraryKey": "$FS_modeStringToFlags",
+      "source": "src/lib/libfs_shared.js",
+      "sourceSHA256": "276cff202d83ea05ad764df526109e2bad874276e3474dbb2fd53da5949d8839"
+    },
+    {
+      "symbol": "FS_fileDataToTypedArray",
+      "rawLibraryKey": "$FS_fileDataToTypedArray",
+      "source": "src/lib/libfs_shared.js",
+      "sourceSHA256": "276cff202d83ea05ad764df526109e2bad874276e3474dbb2fd53da5949d8839"
+    },
+    {
+      "symbol": "FS_getMode",
+      "rawLibraryKey": "$FS_getMode",
+      "source": "src/lib/libfs_shared.js",
+      "sourceSHA256": "276cff202d83ea05ad764df526109e2bad874276e3474dbb2fd53da5949d8839"
+    },
+    {
+      "symbol": "IDBFS",
+      "rawLibraryKey": "$IDBFS",
+      "source": "src/lib/libidbfs.js",
+      "sourceSHA256": "a250ef1bd2e9c2ae7816c887576b85f32a5aebb63db1dd31ea7d651b6091c375"
+    },
+    {
+      "symbol": "strError",
+      "rawLibraryKey": "$strError",
+      "source": "src/lib/libcore.js",
+      "sourceSHA256": "3541e1c16fab338449bf7267954cb15b85f742e7221557499f08e3aefe57b487"
+    },
+    {
+      "symbol": "UTF8ToString",
+      "rawLibraryKey": "$UTF8ToString",
+      "source": "src/lib/libstrings.js",
+      "sourceSHA256": "7653dc2ececa66ef48de81fa378a463c2dde203958b6180a18979bce99ee7cbf"
+    },
+    {
+      "symbol": "HEAPU8",
+      "rawLibraryKey": "$HEAPU8",
+      "source": "src/lib/libcore.js",
+      "sourceSHA256": "3541e1c16fab338449bf7267954cb15b85f742e7221557499f08e3aefe57b487"
+    },
+    {
+      "symbol": "ERRNO_CODES",
+      "rawLibraryKey": "$ERRNO_CODES",
+      "source": "src/lib/libcore.js",
+      "sourceSHA256": "3541e1c16fab338449bf7267954cb15b85f742e7221557499f08e3aefe57b487"
+    },
+    {
+      "symbol": "FS_createPreloadedFile",
+      "rawLibraryKey": "$FS_createPreloadedFile",
+      "source": "src/lib/libfs_shared.js",
+      "sourceSHA256": "276cff202d83ea05ad764df526109e2bad874276e3474dbb2fd53da5949d8839"
+    },
+    {
+      "symbol": "FS_preloadFile",
+      "rawLibraryKey": "$FS_preloadFile",
+      "source": "src/lib/libfs_shared.js",
+      "sourceSHA256": "276cff202d83ea05ad764df526109e2bad874276e3474dbb2fd53da5949d8839"
+    },
+    {
+      "symbol": "asyncLoad",
+      "rawLibraryKey": "$asyncLoad",
+      "source": "src/lib/libcore.js",
+      "sourceSHA256": "3541e1c16fab338449bf7267954cb15b85f742e7221557499f08e3aefe57b487"
+    },
+    {
+      "symbol": "FS_createDataFile",
+      "rawLibraryKey": "$FS_createDataFile",
+      "source": "src/lib/libfs.js",
+      "sourceSHA256": "9413d73126f19892ea8bc1d7403f12cdb3f269a3b57e70741ec0dd358b76750c"
+    },
+    {
+      "symbol": "getUniqueRunDependency",
+      "rawLibraryKey": "$getUniqueRunDependency",
+      "source": "src/lib/libcore.js",
+      "sourceSHA256": "3541e1c16fab338449bf7267954cb15b85f742e7221557499f08e3aefe57b487"
+    },
+    {
+      "symbol": "addRunDependency",
+      "rawLibraryKey": "$addRunDependency",
+      "source": "src/lib/libcore.js",
+      "sourceSHA256": "3541e1c16fab338449bf7267954cb15b85f742e7221557499f08e3aefe57b487"
+    },
+    {
+      "symbol": "runDependencies",
+      "rawLibraryKey": "$runDependencies",
+      "source": "src/lib/libcore.js",
+      "sourceSHA256": "3541e1c16fab338449bf7267954cb15b85f742e7221557499f08e3aefe57b487"
+    },
+    {
+      "symbol": "resolveRunDependencies",
+      "rawLibraryKey": "$resolveRunDependencies",
+      "source": "src/lib/libcore.js",
+      "sourceSHA256": "3541e1c16fab338449bf7267954cb15b85f742e7221557499f08e3aefe57b487"
+    },
+    {
+      "symbol": "dependenciesPromise",
+      "rawLibraryKey": "$dependenciesPromise",
+      "source": "src/lib/libcore.js",
+      "sourceSHA256": "3541e1c16fab338449bf7267954cb15b85f742e7221557499f08e3aefe57b487"
+    },
+    {
+      "symbol": "removeRunDependency",
+      "rawLibraryKey": "$removeRunDependency",
+      "source": "src/lib/libcore.js",
+      "sourceSHA256": "3541e1c16fab338449bf7267954cb15b85f742e7221557499f08e3aefe57b487"
+    },
+    {
+      "symbol": "dependenciesPromiseResolve",
+      "rawLibraryKey": "$dependenciesPromiseResolve",
+      "source": "src/lib/libcore.js",
+      "sourceSHA256": "3541e1c16fab338449bf7267954cb15b85f742e7221557499f08e3aefe57b487"
+    },
+    {
+      "symbol": "runDependencyTracking",
+      "rawLibraryKey": "$runDependencyTracking",
+      "source": "src/lib/libcore.js",
+      "sourceSHA256": "3541e1c16fab338449bf7267954cb15b85f742e7221557499f08e3aefe57b487"
+    },
+    {
+      "symbol": "runDependencyWatcher",
+      "rawLibraryKey": "$runDependencyWatcher",
+      "source": "src/lib/libcore.js",
+      "sourceSHA256": "3541e1c16fab338449bf7267954cb15b85f742e7221557499f08e3aefe57b487"
+    },
+    {
+      "symbol": "FS_handledByPreloadPlugin",
+      "rawLibraryKey": "$FS_handledByPreloadPlugin",
+      "source": "src/lib/libfs_shared.js",
+      "sourceSHA256": "276cff202d83ea05ad764df526109e2bad874276e3474dbb2fd53da5949d8839"
+    },
+    {
+      "symbol": "preloadPlugins",
+      "rawLibraryKey": "$preloadPlugins",
+      "source": "src/lib/libfs_shared.js",
+      "sourceSHA256": "276cff202d83ea05ad764df526109e2bad874276e3474dbb2fd53da5949d8839"
+    },
+    {
+      "symbol": "HEAP64",
+      "rawLibraryKey": "$HEAP64",
+      "source": "src/lib/libcore.js",
+      "sourceSHA256": "3541e1c16fab338449bf7267954cb15b85f742e7221557499f08e3aefe57b487"
+    },
+    {
+      "symbol": "___syscall_chmod",
+      "rawLibraryKey": "__syscall_chmod",
+      "source": "src/lib/libsyscall.js",
+      "sourceSHA256": "0ad371d407ec380ef43acc24de4cf4d3c0d2fd48e688bbbb419ed3228bb254e1"
+    },
+    {
+      "symbol": "___syscall_fcntl64",
+      "rawLibraryKey": "__syscall_fcntl64",
+      "source": "src/lib/libsyscall.js",
+      "sourceSHA256": "0ad371d407ec380ef43acc24de4cf4d3c0d2fd48e688bbbb419ed3228bb254e1"
+    },
+    {
+      "symbol": "syscallGetVarargP",
+      "rawLibraryKey": "$syscallGetVarargP",
+      "source": "src/lib/libsyscall.js",
+      "sourceSHA256": "0ad371d407ec380ef43acc24de4cf4d3c0d2fd48e688bbbb419ed3228bb254e1"
+    },
+    {
+      "symbol": "syscallGetVarargI",
+      "rawLibraryKey": "$syscallGetVarargI",
+      "source": "src/lib/libsyscall.js",
+      "sourceSHA256": "0ad371d407ec380ef43acc24de4cf4d3c0d2fd48e688bbbb419ed3228bb254e1"
+    },
+    {
+      "symbol": "HEAP16",
+      "rawLibraryKey": "$HEAP16",
+      "source": "src/lib/libcore.js",
+      "sourceSHA256": "3541e1c16fab338449bf7267954cb15b85f742e7221557499f08e3aefe57b487"
+    },
+    {
+      "symbol": "___syscall_fstat64",
+      "rawLibraryKey": "__syscall_fstat64",
+      "source": "src/lib/libsyscall.js",
+      "sourceSHA256": "0ad371d407ec380ef43acc24de4cf4d3c0d2fd48e688bbbb419ed3228bb254e1"
+    },
+    {
+      "symbol": "___syscall_getcwd",
+      "rawLibraryKey": "__syscall_getcwd",
+      "source": "src/lib/libsyscall.js",
+      "sourceSHA256": "0ad371d407ec380ef43acc24de4cf4d3c0d2fd48e688bbbb419ed3228bb254e1"
+    },
+    {
+      "symbol": "stringToUTF8",
+      "rawLibraryKey": "$stringToUTF8",
+      "source": "src/lib/libstrings.js",
+      "sourceSHA256": "7653dc2ececa66ef48de81fa378a463c2dde203958b6180a18979bce99ee7cbf"
+    },
+    {
+      "symbol": "___syscall_getdents64",
+      "rawLibraryKey": "__syscall_getdents64",
+      "source": "src/lib/libsyscall.js",
+      "sourceSHA256": "0ad371d407ec380ef43acc24de4cf4d3c0d2fd48e688bbbb419ed3228bb254e1"
+    },
+    {
+      "symbol": "___syscall_ioctl",
+      "rawLibraryKey": "__syscall_ioctl",
+      "source": "src/lib/libsyscall.js",
+      "sourceSHA256": "0ad371d407ec380ef43acc24de4cf4d3c0d2fd48e688bbbb419ed3228bb254e1"
+    },
+    {
+      "symbol": "___syscall_lstat64",
+      "rawLibraryKey": "__syscall_lstat64",
+      "source": "src/lib/libsyscall.js",
+      "sourceSHA256": "0ad371d407ec380ef43acc24de4cf4d3c0d2fd48e688bbbb419ed3228bb254e1"
+    },
+    {
+      "symbol": "___syscall_newfstatat",
+      "rawLibraryKey": "__syscall_newfstatat",
+      "source": "src/lib/libsyscall.js",
+      "sourceSHA256": "0ad371d407ec380ef43acc24de4cf4d3c0d2fd48e688bbbb419ed3228bb254e1"
+    },
+    {
+      "symbol": "___syscall_openat",
+      "rawLibraryKey": "__syscall_openat",
+      "source": "src/lib/libsyscall.js",
+      "sourceSHA256": "0ad371d407ec380ef43acc24de4cf4d3c0d2fd48e688bbbb419ed3228bb254e1"
+    },
+    {
+      "symbol": "___syscall_stat64",
+      "rawLibraryKey": "__syscall_stat64",
+      "source": "src/lib/libsyscall.js",
+      "sourceSHA256": "0ad371d407ec380ef43acc24de4cf4d3c0d2fd48e688bbbb419ed3228bb254e1"
+    },
+    {
+      "symbol": "___syscall_unlinkat",
+      "rawLibraryKey": "__syscall_unlinkat",
+      "source": "src/lib/libsyscall.js",
+      "sourceSHA256": "0ad371d407ec380ef43acc24de4cf4d3c0d2fd48e688bbbb419ed3228bb254e1"
+    },
+    {
+      "symbol": "__abort_js",
+      "rawLibraryKey": "_abort_js",
+      "source": "src/lib/libcore.js",
+      "sourceSHA256": "3541e1c16fab338449bf7267954cb15b85f742e7221557499f08e3aefe57b487"
+    },
+    {
+      "symbol": "__emscripten_system",
+      "rawLibraryKey": "_emscripten_system",
+      "source": "src/lib/libcore.js",
+      "sourceSHA256": "3541e1c16fab338449bf7267954cb15b85f742e7221557499f08e3aefe57b487"
+    },
+    {
+      "symbol": "__localtime_js",
+      "rawLibraryKey": "_localtime_js",
+      "source": "src/lib/libtime.js",
+      "sourceSHA256": "7d77a4a89be043eca088f87fb2fce02730e1c0115990fe177af5c95a7c0e815c"
+    },
+    {
+      "symbol": "ydayFromDate",
+      "rawLibraryKey": "$ydayFromDate",
+      "source": "src/lib/libtime.js",
+      "sourceSHA256": "7d77a4a89be043eca088f87fb2fce02730e1c0115990fe177af5c95a7c0e815c"
+    },
+    {
+      "symbol": "isLeapYear",
+      "rawLibraryKey": "$isLeapYear",
+      "source": "src/lib/libtime.js",
+      "sourceSHA256": "7d77a4a89be043eca088f87fb2fce02730e1c0115990fe177af5c95a7c0e815c"
+    },
+    {
+      "symbol": "MONTH_DAYS_LEAP_CUMULATIVE",
+      "rawLibraryKey": "$MONTH_DAYS_LEAP_CUMULATIVE",
+      "source": "src/lib/libtime.js",
+      "sourceSHA256": "7d77a4a89be043eca088f87fb2fce02730e1c0115990fe177af5c95a7c0e815c"
+    },
+    {
+      "symbol": "MONTH_DAYS_REGULAR_CUMULATIVE",
+      "rawLibraryKey": "$MONTH_DAYS_REGULAR_CUMULATIVE",
+      "source": "src/lib/libtime.js",
+      "sourceSHA256": "7d77a4a89be043eca088f87fb2fce02730e1c0115990fe177af5c95a7c0e815c"
+    },
+    {
+      "symbol": "bigintToI53Checked",
+      "rawLibraryKey": "$bigintToI53Checked",
+      "source": "src/lib/libint53.js",
+      "sourceSHA256": "4484cfc6db24c39d37e872e16fc39256ef0f6feb9427f0ebea20e76ce45a2499"
+    },
+    {
+      "symbol": "INT53_MAX",
+      "rawLibraryKey": "$INT53_MAX",
+      "source": "src/lib/libint53.js",
+      "sourceSHA256": "4484cfc6db24c39d37e872e16fc39256ef0f6feb9427f0ebea20e76ce45a2499"
+    },
+    {
+      "symbol": "INT53_MIN",
+      "rawLibraryKey": "$INT53_MIN",
+      "source": "src/lib/libint53.js",
+      "sourceSHA256": "4484cfc6db24c39d37e872e16fc39256ef0f6feb9427f0ebea20e76ce45a2499"
+    },
+    {
+      "symbol": "__tzset_js",
+      "rawLibraryKey": "_tzset_js",
+      "source": "src/lib/libtime.js",
+      "sourceSHA256": "7d77a4a89be043eca088f87fb2fce02730e1c0115990fe177af5c95a7c0e815c"
+    },
+    {
+      "symbol": "_emscripten_date_now",
+      "rawLibraryKey": "emscripten_date_now",
+      "source": "src/lib/libcore.js",
+      "sourceSHA256": "3541e1c16fab338449bf7267954cb15b85f742e7221557499f08e3aefe57b487"
+    },
+    {
+      "symbol": "_emscripten_get_now",
+      "rawLibraryKey": "emscripten_get_now",
+      "source": "src/lib/libcore.js",
+      "sourceSHA256": "3541e1c16fab338449bf7267954cb15b85f742e7221557499f08e3aefe57b487"
+    },
+    {
+      "symbol": "_emscripten_resize_heap",
+      "rawLibraryKey": "emscripten_resize_heap",
+      "source": "src/lib/libcore.js",
+      "sourceSHA256": "3541e1c16fab338449bf7267954cb15b85f742e7221557499f08e3aefe57b487"
+    },
+    {
+      "symbol": "getHeapMax",
+      "rawLibraryKey": "$getHeapMax",
+      "source": "src/lib/libcore.js",
+      "sourceSHA256": "3541e1c16fab338449bf7267954cb15b85f742e7221557499f08e3aefe57b487"
+    },
+    {
+      "symbol": "alignMemory",
+      "rawLibraryKey": "$alignMemory",
+      "source": "src/lib/libcore.js",
+      "sourceSHA256": "3541e1c16fab338449bf7267954cb15b85f742e7221557499f08e3aefe57b487"
+    },
+    {
+      "symbol": "growMemory",
+      "rawLibraryKey": "$growMemory",
+      "source": "src/lib/libcore.js",
+      "sourceSHA256": "3541e1c16fab338449bf7267954cb15b85f742e7221557499f08e3aefe57b487"
+    },
+    {
+      "symbol": "_emscripten_sleep",
+      "rawLibraryKey": "emscripten_sleep",
+      "source": "src/lib/libasync.js",
+      "sourceSHA256": "b32ed147daafc5406faf23d1dee1410c2ae2b78b6b68f0e1b0c425f812970e1b"
+    },
+    {
+      "symbol": "_environ_get",
+      "rawLibraryKey": "environ_get",
+      "source": "src/lib/libwasi.js",
+      "sourceSHA256": "b9a37514b016c1d2ffcd5994dcab319f89259984d57df77706c2923ff0cb2e84"
+    },
+    {
+      "symbol": "getEnvStrings",
+      "rawLibraryKey": "$getEnvStrings",
+      "source": "src/lib/libwasi.js",
+      "sourceSHA256": "b9a37514b016c1d2ffcd5994dcab319f89259984d57df77706c2923ff0cb2e84"
+    },
+    {
+      "symbol": "ENV",
+      "rawLibraryKey": "$ENV",
+      "source": "src/lib/libcore.js",
+      "sourceSHA256": "3541e1c16fab338449bf7267954cb15b85f742e7221557499f08e3aefe57b487"
+    },
+    {
+      "symbol": "getExecutableName",
+      "rawLibraryKey": "$getExecutableName",
+      "source": "src/lib/libcore.js",
+      "sourceSHA256": "3541e1c16fab338449bf7267954cb15b85f742e7221557499f08e3aefe57b487"
+    },
+    {
+      "symbol": "_environ_sizes_get",
+      "rawLibraryKey": "environ_sizes_get",
+      "source": "src/lib/libwasi.js",
+      "sourceSHA256": "b9a37514b016c1d2ffcd5994dcab319f89259984d57df77706c2923ff0cb2e84"
+    },
+    {
+      "symbol": "_exit",
+      "rawLibraryKey": "exit",
+      "source": "src/lib/libcore.js",
+      "sourceSHA256": "3541e1c16fab338449bf7267954cb15b85f742e7221557499f08e3aefe57b487"
+    },
+    {
+      "symbol": "exitJS",
+      "rawLibraryKey": "$exitJS",
+      "source": "src/lib/libcore.js",
+      "sourceSHA256": "3541e1c16fab338449bf7267954cb15b85f742e7221557499f08e3aefe57b487"
+    },
+    {
+      "symbol": "_proc_exit",
+      "rawLibraryKey": "proc_exit",
+      "source": "src/lib/libwasi.js",
+      "sourceSHA256": "b9a37514b016c1d2ffcd5994dcab319f89259984d57df77706c2923ff0cb2e84"
+    },
+    {
+      "symbol": "keepRuntimeAlive",
+      "rawLibraryKey": "$keepRuntimeAlive",
+      "source": "src/lib/libcore.js",
+      "sourceSHA256": "3541e1c16fab338449bf7267954cb15b85f742e7221557499f08e3aefe57b487"
+    },
+    {
+      "symbol": "runtimeKeepaliveCounter",
+      "rawLibraryKey": "$runtimeKeepaliveCounter",
+      "source": "src/lib/libcore.js",
+      "sourceSHA256": "3541e1c16fab338449bf7267954cb15b85f742e7221557499f08e3aefe57b487"
+    },
+    {
+      "symbol": "_fd_close",
+      "rawLibraryKey": "fd_close",
+      "source": "src/lib/libwasi.js",
+      "sourceSHA256": "b9a37514b016c1d2ffcd5994dcab319f89259984d57df77706c2923ff0cb2e84"
+    },
+    {
+      "symbol": "_fd_read",
+      "rawLibraryKey": "fd_read",
+      "source": "src/lib/libwasi.js",
+      "sourceSHA256": "b9a37514b016c1d2ffcd5994dcab319f89259984d57df77706c2923ff0cb2e84"
+    },
+    {
+      "symbol": "doReadv",
+      "rawLibraryKey": "$doReadv",
+      "source": "src/lib/libwasi.js",
+      "sourceSHA256": "b9a37514b016c1d2ffcd5994dcab319f89259984d57df77706c2923ff0cb2e84"
+    },
+    {
+      "symbol": "_fd_seek",
+      "rawLibraryKey": "fd_seek",
+      "source": "src/lib/libwasi.js",
+      "sourceSHA256": "b9a37514b016c1d2ffcd5994dcab319f89259984d57df77706c2923ff0cb2e84"
+    },
+    {
+      "symbol": "_fd_write",
+      "rawLibraryKey": "fd_write",
+      "source": "src/lib/libwasi.js",
+      "sourceSHA256": "b9a37514b016c1d2ffcd5994dcab319f89259984d57df77706c2923ff0cb2e84"
+    },
+    {
+      "symbol": "doWritev",
+      "rawLibraryKey": "$doWritev",
+      "source": "src/lib/libwasi.js",
+      "sourceSHA256": "b9a37514b016c1d2ffcd5994dcab319f89259984d57df77706c2923ff0cb2e84"
+    },
+    {
+      "symbol": "handleException",
+      "rawLibraryKey": "$handleException",
+      "source": "src/lib/libcore.js",
+      "sourceSHA256": "3541e1c16fab338449bf7267954cb15b85f742e7221557499f08e3aefe57b487"
+    },
+    {
+      "symbol": "stringToUTF8OnStack",
+      "rawLibraryKey": "$stringToUTF8OnStack",
+      "source": "src/lib/libstrings.js",
+      "sourceSHA256": "7653dc2ececa66ef48de81fa378a463c2dde203958b6180a18979bce99ee7cbf"
+    },
+    {
+      "symbol": "stackAlloc",
+      "rawLibraryKey": "$stackAlloc",
+      "source": "src/lib/libcore.js",
+      "sourceSHA256": "3541e1c16fab338449bf7267954cb15b85f742e7221557499f08e3aefe57b487"
+    },
+    {
+      "symbol": "Asyncify",
+      "rawLibraryKey": "$Asyncify",
+      "source": "src/lib/libasync.js",
+      "sourceSHA256": "b32ed147daafc5406faf23d1dee1410c2ae2b78b6b68f0e1b0c425f812970e1b"
+    },
+    {
+      "symbol": "runAndAbortIfError",
+      "rawLibraryKey": "$runAndAbortIfError",
+      "source": "src/lib/libasync.js",
+      "sourceSHA256": "b32ed147daafc5406faf23d1dee1410c2ae2b78b6b68f0e1b0c425f812970e1b"
+    },
+    {
+      "symbol": "callUserCallback",
+      "rawLibraryKey": "$callUserCallback",
+      "source": "src/lib/libcore.js",
+      "sourceSHA256": "3541e1c16fab338449bf7267954cb15b85f742e7221557499f08e3aefe57b487"
+    },
+    {
+      "symbol": "maybeExit",
+      "rawLibraryKey": "$maybeExit",
+      "source": "src/lib/libcore.js",
+      "sourceSHA256": "3541e1c16fab338449bf7267954cb15b85f742e7221557499f08e3aefe57b487"
+    },
+    {
+      "symbol": "createNamedFunction",
+      "rawLibraryKey": "$createNamedFunction",
+      "source": "src/lib/libcore.js",
+      "sourceSHA256": "3541e1c16fab338449bf7267954cb15b85f742e7221557499f08e3aefe57b487"
+    },
+    {
+      "symbol": "runtimeKeepalivePush",
+      "rawLibraryKey": "$runtimeKeepalivePush",
+      "source": "src/lib/libcore.js",
+      "sourceSHA256": "3541e1c16fab338449bf7267954cb15b85f742e7221557499f08e3aefe57b487"
+    },
+    {
+      "symbol": "runtimeKeepalivePop",
+      "rawLibraryKey": "$runtimeKeepalivePop",
+      "source": "src/lib/libcore.js",
+      "sourceSHA256": "3541e1c16fab338449bf7267954cb15b85f742e7221557499f08e3aefe57b487"
+    },
+    {
+      "symbol": "FS_createPath",
+      "rawLibraryKey": "$FS_createPath",
+      "source": "src/lib/libfs.js",
+      "sourceSHA256": "9413d73126f19892ea8bc1d7403f12cdb3f269a3b57e70741ec0dd358b76750c"
+    },
+    {
+      "symbol": "FS_unlink",
+      "rawLibraryKey": "$FS_unlink",
+      "source": "src/lib/libfs.js",
+      "sourceSHA256": "9413d73126f19892ea8bc1d7403f12cdb3f269a3b57e70741ec0dd358b76750c"
+    },
+    {
+      "symbol": "FS_createLazyFile",
+      "rawLibraryKey": "$FS_createLazyFile",
+      "source": "src/lib/libfs.js",
+      "sourceSHA256": "9413d73126f19892ea8bc1d7403f12cdb3f269a3b57e70741ec0dd358b76750c"
+    },
+    {
+      "symbol": "FS_createDevice",
+      "rawLibraryKey": "$FS_createDevice",
+      "source": "src/lib/libfs.js",
+      "sourceSHA256": "9413d73126f19892ea8bc1d7403f12cdb3f269a3b57e70741ec0dd358b76750c"
+    }
+  ],
+  "sourceLibraries": [
+    {
+      "path": "src/lib/libasync.js",
+      "emittedSymbols": 3,
+      "bytes": 23604,
+      "sha256": "b32ed147daafc5406faf23d1dee1410c2ae2b78b6b68f0e1b0c425f812970e1b",
+      "license": "MIT",
+      "notice": "/**\n * @license\n * Copyright 2014 The Emscripten Authors\n * SPDX-License-Identifier: MIT\n */"
+    },
+    {
+      "path": "src/lib/libcore.js",
+      "emittedSymbols": 56,
+      "bytes": 94963,
+      "sha256": "3541e1c16fab338449bf7267954cb15b85f742e7221557499f08e3aefe57b487",
+      "license": "MIT",
+      "notice": "/**\n * @license\n * Copyright 2010 The Emscripten Authors\n * SPDX-License-Identifier: MIT\n */"
+    },
+    {
+      "path": "src/lib/libexceptions.js",
+      "emittedSymbols": 3,
+      "bytes": 17411,
+      "sha256": "9fb0d8d524c175ee239b86635d164fdcd0e7d77cb728b7dfa908d377fe652ee1",
+      "license": "MIT",
+      "notice": "/**\n * @license\n * Copyright 2010 The Emscripten Authors\n * SPDX-License-Identifier: MIT\n */"
+    },
+    {
+      "path": "src/lib/libfs.js",
+      "emittedSymbols": 6,
+      "bytes": 65497,
+      "sha256": "9413d73126f19892ea8bc1d7403f12cdb3f269a3b57e70741ec0dd358b76750c",
+      "license": "MIT",
+      "notice": "/**\n * @license\n * Copyright 2013 The Emscripten Authors\n * SPDX-License-Identifier: MIT\n */"
+    },
+    {
+      "path": "src/lib/libfs_shared.js",
+      "emittedSymbols": 9,
+      "bytes": 7069,
+      "sha256": "276cff202d83ea05ad764df526109e2bad874276e3474dbb2fd53da5949d8839",
+      "license": "MIT",
+      "notice": "/**\n * @license\n * Copyright 2032 The Emscripten Authors\n * SPDX-License-Identifier: MIT\n */"
+    },
+    {
+      "path": "src/lib/libidbfs.js",
+      "emittedSymbols": 1,
+      "bytes": 13496,
+      "sha256": "a250ef1bd2e9c2ae7816c887576b85f32a5aebb63db1dd31ea7d651b6091c375",
+      "license": "MIT",
+      "notice": "/**\n * @license\n * Copyright 2013 The Emscripten Authors\n * SPDX-License-Identifier: MIT\n */"
+    },
+    {
+      "path": "src/lib/libint53.js",
+      "emittedSymbols": 3,
+      "bytes": 6134,
+      "sha256": "4484cfc6db24c39d37e872e16fc39256ef0f6feb9427f0ebea20e76ce45a2499",
+      "license": "MIT",
+      "notice": "/**\n * @license\n * Copyright 2020 The Emscripten Authors\n * SPDX-License-Identifier: MIT\n */"
+    },
+    {
+      "path": "src/lib/libmemfs.js",
+      "emittedSymbols": 1,
+      "bytes": 13662,
+      "sha256": "33c41f5a0e30aa178f709d8633aa237c038e2b39671ed78f429fb2a0db18f16a",
+      "license": "MIT",
+      "notice": "/**\n * @license\n * Copyright 2013 The Emscripten Authors\n * SPDX-License-Identifier: MIT\n */"
+    },
+    {
+      "path": "src/lib/libpath.js",
+      "emittedSymbols": 2,
+      "bytes": 4485,
+      "sha256": "6c6244b89ce194d50b25f277e5688e8729937aff77a57b8d6aca49174bf87140",
+      "license": "MIT",
+      "notice": "/**\n * @license\n * Copyright 2013 The Emscripten Authors\n * SPDX-License-Identifier: MIT\n */"
+    },
+    {
+      "path": "src/lib/libstrings.js",
+      "emittedSymbols": 9,
+      "bytes": 20311,
+      "sha256": "7653dc2ececa66ef48de81fa378a463c2dde203958b6180a18979bce99ee7cbf",
+      "license": "MIT",
+      "notice": "/**\n * @license\n * Copyright 2020 The Emscripten Authors\n * SPDX-License-Identifier: MIT\n */"
+    },
+    {
+      "path": "src/lib/libsyscall.js",
+      "emittedSymbols": 15,
+      "bytes": 45068,
+      "sha256": "0ad371d407ec380ef43acc24de4cf4d3c0d2fd48e688bbbb419ed3228bb254e1",
+      "license": "MIT",
+      "notice": "/**\n * @license\n * Copyright 2015 The Emscripten Authors\n * SPDX-License-Identifier: MIT\n */"
+    },
+    {
+      "path": "src/lib/libtime.js",
+      "emittedSymbols": 6,
+      "bytes": 23580,
+      "sha256": "7d77a4a89be043eca088f87fb2fce02730e1c0115990fe177af5c95a7c0e815c",
+      "license": "MIT",
+      "notice": "/**\n * @license\n * Copyright 2024 The Emscripten Authors\n * SPDX-License-Identifier: MIT\n */"
+    },
+    {
+      "path": "src/lib/libtty.js",
+      "emittedSymbols": 1,
+      "bytes": 5581,
+      "sha256": "d1eecb978ae971917a50fbf29d44037095c95242451190abf196d16643857516",
+      "license": "MIT",
+      "notice": "/**\n * @license\n * Copyright 2013 The Emscripten Authors\n * SPDX-License-Identifier: MIT\n */"
+    },
+    {
+      "path": "src/lib/libunwind.js",
+      "emittedSymbols": 1,
+      "bytes": 903,
+      "sha256": "a42dbe41ba1a2151382338c86183b86b5717440e6ad896d6e9fee37426776e91",
+      "license": "MIT",
+      "notice": "/**\n * @license\n * Copyright 2026 The Emscripten Authors\n * SPDX-License-Identifier: MIT\n */"
+    },
+    {
+      "path": "src/lib/libwasi.js",
+      "emittedSymbols": 13,
+      "bytes": 21751,
+      "sha256": "b9a37514b016c1d2ffcd5994dcab319f89259984d57df77706c2923ff0cb2e84",
+      "license": "MIT",
+      "notice": "/**\n * @license\n * Copyright 2019 The Emscripten Authors\n * SPDX-License-Identifier: MIT\n */"
+    }
+  ],
+  "ownNativeEmbeddedJavaScript": [
+    {
+      "source": "browser-platform.cpp",
+      "sha256": "6fa8c936e9be4632e4eb505fb7fb7d39e69cc57248546419fda486e4b7975964",
+      "functions": [
+        "browser_init",
+        "browser_destroy",
+        "browser_present",
+        "browser_event_count",
+        "browser_take_event",
+        "browser_modifiers",
+        "browser_mouse_position"
+      ],
+      "license": "MIT; independently authored browser adapters"
+    },
+    {
+      "source": "authored-storage.cpp",
+      "sha256": "db68b88a7617044afe541edc1f9af64952d6f4b362a67a2ab9b04b3cc39faa90",
+      "functions": [
+        "browser_flush_save"
+      ],
+      "license": "MIT; independently authored browser adapters"
+    }
+  ],
+  "verification": {
+    "normalizedGeneratedJavaScriptByteEqual": true,
+    "normalizations": [
+      "Compiler include/end-include path comments only",
+      "Output .data absolute path/run-dependency token and .wasm/.data output basename references only"
+    ],
+    "packageUUIDNormalization": false,
+    "normalizedJavaScriptSHA256": "5874f5b41c50e04e1877b89f3346bd49db6dc562ad814e17b9f30f6e8aeb22a0",
+    "rawOriginalJSSHA256": "309c81dfafdc98a15b2fe3d895c588bfd81c96d30a91e4c29cabe504e3f26389",
+    "rawObservedJSSHA256": "b96cf7b44f6f824de2669466dd2b2aaee15d15eacf9ee5cd1e68a0f5b0ba7268",
+    "WasmByteIdentical": true,
+    "dataByteIdentical": true
+  },
+  "notClaimed": [
+    "These129symbols are library definitions, not every boilerplate line or nested method in entire JS output",
+    "Prior57compiler-read pool includes templates/settings/generated definitions and unselected libraries; not57runtime dependencies",
+    "No gameplay, content completeness, clean-room or blanket original asset grant established by this audit"
+  ],
+  "next": [
+    "Preserve exact runtime/own/CC0 notices in final source-content/runtime packaging",
+    "Intended content/challenge/damage/death and UI refinement; final normal-control acceptance"
+  ],
+  "date": "2026-10-13",
+  "repo": "videogamepreservation/abuse",
+  "pin": "01cce80eaf2ae82bafb9981162e205e42d0fae2f",
+  "classification": "Developer-released original source port with incomplete own CC0 content; not decompilation, retail campaign or clean-room certificate",
+  "strictLink": {
+    "coreObjects": 96,
+    "ownObjects": 4,
+    "undefinedSymbolsAllowed": false,
+    "exitCode": 0
+  },
+  "broaderModuleProvenance": "Existing57compiler-read source/template pool, SDK root MIT/NCSA terms, preloader generator and own8native-embedded JS callbacks are separate from129library-symbol origin mapping; final packaging review remains",
+  "privateArtifacts": [
+    {
+      "name": "trace-emitted-js.cjs",
+      "bytes": 1695,
+      "sha256": "6caae058e7adfc6f980c2badb7a324a802c9e89e2df43519064a9dc597f7909c"
+    },
+    {
+      "name": "verify-emitted-js.py",
+      "bytes": 4093,
+      "sha256": "eb71ef38fb11e95a5ecdee344092570845c003d06b948fec27de2b7a48187a78"
+    },
+    {
+      "name": "link-closure/emitted-js-inventory.json",
+      "bytes": 36136,
+      "sha256": "0fe4b216c786923022b247a33afba6581648431513b2295c3d6ed219828de3f9"
+    },
+    {
+      "name": "link-closure/probe.js",
+      "bytes": 234975,
+      "sha256": "b96cf7b44f6f824de2669466dd2b2aaee15d15eacf9ee5cd1e68a0f5b0ba7268"
+    },
+    {
+      "name": "link-closure/probe.wasm",
+      "bytes": 2607357,
+      "sha256": "aa37db9d641d4819a274f398b2806c3f642cba674d31de84946b72db8bbd02e5"
+    },
+    {
+      "name": "link-closure/probe.data",
+      "bytes": 275071,
+      "sha256": "2bd16c31ba07d699bd9b5df8e333be2b123915096e937b028472d913b8206798"
+    },
+    {
+      "name": "link-closure/link-probe.json",
+      "bytes": 366,
+      "sha256": "a8838b212bbb2d450d64f68988516f2d59efcdce64b31823b04a60c1d8d66a10"
+    }
+  ],
+  "integration": {
+    "catalogCount": 83,
+    "newEntry": false,
+    "publicRuntime": false,
+    "sourcePublished": false,
+    "deployment": false,
+    "claudeGamesTouched": false,
+    "browserTestThisTurn": false,
+    "runtimeChanged": false,
+    "audibleTest": false
+  }
+}

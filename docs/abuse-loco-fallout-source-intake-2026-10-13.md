@@ -96,6 +96,14 @@ The **ordinary rebuilt runtime** also passed a muted Edge native brightness/GO, 
 
 The rebuild package remains private and the content incomplete. Exact emitted-JavaScript provenance, intended content/challenge/damage/death coverage, HUD/help overlap, final source/content distribution review and final normal-control acceptance remain open. No public source/runtime release, integration, deployment or new entry; catalog83 and Claude-owned games unchanged.
 
+### Emitted JavaScript library-symbol provenance
+
+[JavaScript symbol evidence](abuse-emitted-js-provenance-2026-10-13.json) resolves the library-origin gap left by the earlier compiler-read inventory. A build-only observer records native compiler library-definition writes and the compiler's emitted-symbol metadata. **All 129 emitted library symbols map to 15 defining Emscripten libraries**, with zero unresolved origins. Each of those 15 files has an explicit MIT notice and a recorded hash. Eight own native-embedded JavaScript functions in the independently authored MIT browser/storage adapters are inventoried separately.
+
+The observed duplicate link retains the same tested WASM and data bytes. Generated JavaScript also matches byte-for-byte after normalizing only compiler include/end-include path comments, output `.data` absolute-path/run-dependency tokens and `.wasm`/`.data` basenames. No UUID, arbitrary code or runtime behavior was normalized away. The observer does not modify SDK sources or ship in the player. The tested runtime remains unchanged; no additional browser/audio test was performed.
+
+This is an exact **library-symbol origin inventory**, not a claim that the earlier 57 compiler-read files are all runtime dependencies or that every boilerplate line/nested method is a separate emitted symbol. Templates, generated preloader metadata and own callbacks retain their separate SDK/source/notice provenance. Final source/content/runtime packaging, intended content/challenge/damage/death coverage, HUD/help overlap and final normal-control acceptance remain open. No new entry, public runtime/source release or deployment; catalog83 and Claude-owned games unchanged.
+
 ## OpenLoco: MIT reimplementation with a concrete content gate
 
 [OpenLoco](https://github.com/OpenLoco/OpenLoco/tree/e71abfb3c3dd29a6db5da58c5b4be0a476d8733c), pin `e71abfb3c3dd29a6db5da58c5b4be0a476d8733c`, had 1,935 stars. Root MIT copyright OpenLoco developers 2018 was verified. README calls this a C++ reimplementation of Chris Sawyer's Locomotion and reports completion of reimplementation in December 2025. That upstream report is not our gameplay, matching-binary or clean-room verification. Classify it as an engine reimplementation; broad expansion remains paused.
