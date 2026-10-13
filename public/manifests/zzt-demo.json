@@ -1,0 +1,97 @@
+{
+  "id": "zzt-demo",
+  "base": "/games/zzt-demo/",
+  "repository": "https://github.com/OpenZoo/openzoo-prototype-cpp",
+  "sourceRevision": "442ff28c423faa947793e8a69a99a0e98f52796d",
+  "classification": "Reconstruction-derived native C++ source port/rewrite; not emulation or clean-room certified",
+  "sourceArchive": "/sources/zzt-demo-442ff28-authored-source.tar.gz",
+  "sourceArchiveSha256": "029400b316e8119ed265b96f888a04e025dd82d022e722d1481954e6a431d82a",
+  "files": [
+    {
+      "path": "asset-provenance.json",
+      "bytes": 573,
+      "sha256": "89f507c01cca4a30abf8c28ef9b6b4a8e842acaf3a8a0837cd8cf888f5c20393"
+    },
+    {
+      "path": "notices/authored-content-CC0.txt",
+      "bytes": 268,
+      "sha256": "664b162716e0cef3dcb118216bbdd872c71116b0898a4f83d7d763e225d20b58"
+    },
+    {
+      "path": "notices/compiler-rt-LICENSE.TXT",
+      "bytes": 16708,
+      "sha256": "1a8f1058753f1ba890de984e48f0242a3a5c29a6a8f2ed9fd813f36985387e8d"
+    },
+    {
+      "path": "notices/dlmalloc-attribution-evidence.txt",
+      "bytes": 3174,
+      "sha256": "8173822397c688270fdd7384f4929610ef35c4eea9e94b3e370a37994c912c51"
+    },
+    {
+      "path": "notices/Emscripten.txt",
+      "bytes": 5093,
+      "sha256": "620a78084fc7ca97c0b5dea9abf891f3ffcadfdbf305276f099c9c4e12fc1d86"
+    },
+    {
+      "path": "notices/libcxx-LICENSE.TXT",
+      "bytes": 16703,
+      "sha256": "539dd7aed86e8a4f12cbdd0e6c50c189c7d74847e4fecc64ce2c6ee3a01da38b"
+    },
+    {
+      "path": "notices/libcxxabi-LICENSE.TXT",
+      "bytes": 16706,
+      "sha256": "e2b35be49f7284a45b7baca8fc7b3ab7440e7902392b2528a457816b5bb2a15c"
+    },
+    {
+      "path": "notices/libunwind-LICENSE.TXT",
+      "bytes": 16706,
+      "sha256": "b5efebcaca80879234098e52d1725e6d9eb8fb96a19fce625d39184b705f7b6d"
+    },
+    {
+      "path": "notices/musl-COPYRIGHT.txt",
+      "bytes": 6196,
+      "sha256": "b870108ec5e7790e9f9919064f1b9421d62d5f9b0e6c230c6adf7ea2da62e97b"
+    },
+    {
+      "path": "notices/OpenZoo-MIT.txt",
+      "bytes": 1257,
+      "sha256": "cff84c162ea0da2ee692dc0fd3517d33b778a20882db69e0dacf53ed836c1296"
+    },
+    {
+      "path": "notices/SDL2-zlib.txt",
+      "bytes": 884,
+      "sha256": "97f35b302b361680ec1e891e95d2d52097bb95abff361434916d99dc1305f127"
+    },
+    {
+      "path": "notices/ZZT-reconstruction-MIT.txt",
+      "bytes": 1182,
+      "sha256": "5f39ab5913a6bf1d8f3cad869d5ddd2486b5efd41a863246173780d731adf7f6"
+    },
+    {
+      "path": "openzoo.data",
+      "bytes": 112635,
+      "sha256": "50c05576a97435f68cbac1921d89a7cce4129dfb863a1bf5fc9f1f123d478584"
+    },
+    {
+      "path": "openzoo.js",
+      "bytes": 376276,
+      "sha256": "e62da10d78f0e486bdef311f395f2256ab180891588fd32d82a5ef5767afac7f"
+    },
+    {
+      "path": "openzoo.wasm",
+      "bytes": 922006,
+      "sha256": "c6e0ae92316655ffbc88570829905e1cced0aaf894de4d08bc9da06f0c13edb2"
+    },
+    {
+      "path": "player.html",
+      "bytes": 1753,
+      "sha256": "e3aca4a103f3b295acd4eafaee3fbc3c5e01972ef2a546553dc657ca0636e46a"
+    },
+    {
+      "path": "save-validator.js",
+      "bytes": 721,
+      "sha256": "100f86ede242f3889bfb7243720eba1520389c5733eb555224f5100414afa447"
+    }
+  ],
+  "sourceArchiveBytes": 110125
+}

@@ -1,0 +1,1 @@
+Authored block glyphs and geometric CP437 replacements, authored browser host and ABOUT.HLP: CC0-1.0. No original font pixels imported. Licensed DEMO.ZZT remains MIT, not CC0. Browser system fonts retain their own terms. Formal clean-room isolation is not certified.

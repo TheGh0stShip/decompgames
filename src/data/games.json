@@ -4545,5 +4545,59 @@
       "scope": "Real keyboard merging/score, exact board save reload and restart verified with no errors, missing resources or external requests. No victory or loss claim.",
       "playthrough": false
     }
-  }
+  },
+{
+ "id": "zzt-demo",
+ "title": "ZZT Licensed Demo",
+ "aliases": [
+  "zzt",
+  "openzoo"
+ ],
+ "year": 1991,
+ "genre": "Adventure",
+ "kind": "Source port",
+ "mode": "embed",
+ "launch": "tab",
+ "embedUrl": "https://decompgames.com/games/zzt-demo/player.html",
+ "engine": "OpenZoo reconstruction-derived C++ port in WebAssembly",
+ "description": "Explore ZZT’s licensed demonstration world with authored replacement glyphs.",
+ "overview": "Native C++ source port/rewrite derived from the MIT Reconstruction of ZZT with explicit Epic permission. Includes only the licensed demonstration world and authored CC0 glyph/about replacements. No DOS executable or ROM; not a matching decompilation build or clean-room certificate.",
+ "source": "https://github.com/OpenZoo/openzoo-prototype-cpp",
+ "engineLicense": "MIT OpenZoo/reconstruction; SDL2 zlib and separately noticed Emscripten/runtime libraries",
+ "assetLicense": "MIT demonstration world; authored glyph/about/host CC0; system fonts retain their own terms",
+ "assetRequirements": "No ROM or original files needed. Commercial ZZT worlds are not included.",
+ "controls": [
+  "Click game to focus",
+  "Enter — close introduction/select",
+  "P — play",
+  "Arrow keys — move",
+  "S — save, then Enter",
+  "R — restore from title menu"
+ ],
+ "saveInstructions": "Game-written SAV files persist in this browser under zzt-native-demo-saves-v1. Clearing site data removes them.",
+ "limitations": [
+  "Experimental archived native prototype; complete demo traversal unverified.",
+  "Opens a separate tab; requires cross-origin isolation and WebAssembly threads.",
+  "Audio omitted; all tests muted.",
+  "Glyphs map lowercase to uppercase; unsupported symbols use a question shape.",
+  "Save validation checks the world envelope, not every script/stat field."
+ ],
+ "inputs": [
+  "Keyboard"
+ ],
+ "downloadMB": 1.5,
+ "complete": false,
+ "color": "#5555ff",
+ "shelf": "classic",
+ "platform": "PC",
+ "verification": {
+  "status": "gameplay-tested",
+  "date": "2026-10-12",
+  "browsers": [
+   "Edge (headless, muted)"
+  ],
+  "scope": "Isolated rebuilt native candidate: visible keyboard movement/Creatures board transition, ordinary save/exact-byte reload/visible restore. Final site host/production checks pending.",
+  "playthrough": false
+ }
+}
 ]
