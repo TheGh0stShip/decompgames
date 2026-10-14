@@ -1,0 +1,304 @@
+{
+  "repository": "Davidslv/rogue",
+  "pin": "f4653c2a2ee6981a73abe9dfda055134285e1e79",
+  "stars": 548,
+  "records": [
+    {
+      "path": "BUILD_ISSUES.md",
+      "bytes": 5101,
+      "sha256": "f7af80b157209c50733d0acc1c05cac7809c10f27457e8b31d8c069ecea3ee28",
+      "url": "https://raw.githubusercontent.com/Davidslv/rogue/f4653c2a2ee6981a73abe9dfda055134285e1e79/BUILD_ISSUES.md"
+    },
+    {
+      "path": "LICENSE.TXT",
+      "bytes": 4932,
+      "sha256": "c44793b39e8b9f7d73c41fd0f0257c025988fa80b7d6afebda801b72e6660043",
+      "url": "https://raw.githubusercontent.com/Davidslv/rogue/f4653c2a2ee6981a73abe9dfda055134285e1e79/LICENSE.TXT"
+    },
+    {
+      "path": "Makefile.in",
+      "bytes": 6929,
+      "sha256": "928890744cfa37f01a7a045a4d1036c6e2f403cd49770eb701ea4bafab290ca8",
+      "url": "https://raw.githubusercontent.com/Davidslv/rogue/f4653c2a2ee6981a73abe9dfda055134285e1e79/Makefile.in"
+    },
+    {
+      "path": "Makefile.std",
+      "bytes": 5552,
+      "sha256": "adb6961ca1478ce2af689e9a8033839dc81d3f86df7f47d820f56b0aa67c0c7b",
+      "url": "https://raw.githubusercontent.com/Davidslv/rogue/f4653c2a2ee6981a73abe9dfda055134285e1e79/Makefile.std"
+    },
+    {
+      "path": "README.md",
+      "bytes": 20143,
+      "sha256": "08f4fb8ab87b1d167def58746ca1169107486cd5b53aa1e854a6fd5eda9cba19",
+      "url": "https://raw.githubusercontent.com/Davidslv/rogue/f4653c2a2ee6981a73abe9dfda055134285e1e79/README.md"
+    },
+    {
+      "path": "armor.c",
+      "bytes": 1639,
+      "sha256": "b3da15b55f6b6033b35311920373e41d32be3f7ebb63adae421b0261edcf4a08",
+      "url": "https://raw.githubusercontent.com/Davidslv/rogue/f4653c2a2ee6981a73abe9dfda055134285e1e79/armor.c"
+    },
+    {
+      "path": "chase.c",
+      "bytes": 11974,
+      "sha256": "e10438a05eab60cab7ede1db2bf07d21ce6f8d0768e3491313e181cff1cca4ff",
+      "url": "https://raw.githubusercontent.com/Davidslv/rogue/f4653c2a2ee6981a73abe9dfda055134285e1e79/chase.c"
+    },
+    {
+      "path": "command.c",
+      "bytes": 16884,
+      "sha256": "398c1fc84575791ab1fbe3112c3e23c33bb1d70c68e381f6cbe406e15aa4b361",
+      "url": "https://raw.githubusercontent.com/Davidslv/rogue/f4653c2a2ee6981a73abe9dfda055134285e1e79/command.c"
+    },
+    {
+      "path": "config.h.in",
+      "bytes": 6908,
+      "sha256": "05b5307217190831cb0977a09fb442a7d95b038512b02c6e0dfe1b2dad8cb361",
+      "url": "https://raw.githubusercontent.com/Davidslv/rogue/f4653c2a2ee6981a73abe9dfda055134285e1e79/config.h.in"
+    },
+    {
+      "path": "configure.ac",
+      "bytes": 9435,
+      "sha256": "b7cb5f124d9132ae71baa656f2ace167e612ed4e65d440fa4a08f4f1f5c31c88",
+      "url": "https://raw.githubusercontent.com/Davidslv/rogue/f4653c2a2ee6981a73abe9dfda055134285e1e79/configure.ac"
+    },
+    {
+      "path": "daemon.c",
+      "bytes": 3481,
+      "sha256": "38228d2e27a85fa68b222d6f96471b286e19f3a4317ed7a3815ff48730d7eb4d",
+      "url": "https://raw.githubusercontent.com/Davidslv/rogue/f4653c2a2ee6981a73abe9dfda055134285e1e79/daemon.c"
+    },
+    {
+      "path": "daemons.c",
+      "bytes": 5482,
+      "sha256": "199b836ce9ce3bf766b0510e61184922a132a227e92c2e32673a384efca24622",
+      "url": "https://raw.githubusercontent.com/Davidslv/rogue/f4653c2a2ee6981a73abe9dfda055134285e1e79/daemons.c"
+    },
+    {
+      "path": "extern.c",
+      "bytes": 15807,
+      "sha256": "0eb6af17635a9488cf93235cb62c4aa45c80cbdceb7b314e1a4b13634fca073a",
+      "url": "https://raw.githubusercontent.com/Davidslv/rogue/f4653c2a2ee6981a73abe9dfda055134285e1e79/extern.c"
+    },
+    {
+      "path": "extern.h",
+      "bytes": 4231,
+      "sha256": "4ae2320fcd1cbf1a981c3b0879679bde727708645be546de33493ea2006133e7",
+      "url": "https://raw.githubusercontent.com/Davidslv/rogue/f4653c2a2ee6981a73abe9dfda055134285e1e79/extern.h"
+    },
+    {
+      "path": "fight.c",
+      "bytes": 13817,
+      "sha256": "9d5f4f4706156167563d8f5e7557046128b9d629dbe16ffcf356a9b6dece8948",
+      "url": "https://raw.githubusercontent.com/Davidslv/rogue/f4653c2a2ee6981a73abe9dfda055134285e1e79/fight.c"
+    },
+    {
+      "path": "init.c",
+      "bytes": 8847,
+      "sha256": "092916322d3f2e44654f2ac85230a864ae7e1f85b0acb5f44f0e477ae67aded6",
+      "url": "https://raw.githubusercontent.com/Davidslv/rogue/f4653c2a2ee6981a73abe9dfda055134285e1e79/init.c"
+    },
+    {
+      "path": "io.c",
+      "bytes": 4905,
+      "sha256": "01d24e08a31975d3cedc19dbd3323319f3e39cb93aadebb852b58834d822c916",
+      "url": "https://raw.githubusercontent.com/Davidslv/rogue/f4653c2a2ee6981a73abe9dfda055134285e1e79/io.c"
+    },
+    {
+      "path": "list.c",
+      "bytes": 1774,
+      "sha256": "e354c695ac2d1ff92fe2eeb7da3f066620804cd7e500c2e71a077ab9f10ab84c",
+      "url": "https://raw.githubusercontent.com/Davidslv/rogue/f4653c2a2ee6981a73abe9dfda055134285e1e79/list.c"
+    },
+    {
+      "path": "mach_dep.c",
+      "bytes": 8520,
+      "sha256": "a1896a322e70b2c47d00524c9a4f5677b93fa942dc651413d335752a1e64eb39",
+      "url": "https://raw.githubusercontent.com/Davidslv/rogue/f4653c2a2ee6981a73abe9dfda055134285e1e79/mach_dep.c"
+    },
+    {
+      "path": "main.c",
+      "bytes": 6716,
+      "sha256": "8e3af15fc72ec1d86026efc9117a31f3bd51ceb704ca74d2e6f4962d7f0a2a1a",
+      "url": "https://raw.githubusercontent.com/Davidslv/rogue/f4653c2a2ee6981a73abe9dfda055134285e1e79/main.c"
+    },
+    {
+      "path": "mdport.c",
+      "bytes": 39118,
+      "sha256": "3242de34d79c1d9e4684cb7ae1ce2781486d1d50567d0b1bca78bbb7e0ff0ee2",
+      "url": "https://raw.githubusercontent.com/Davidslv/rogue/f4653c2a2ee6981a73abe9dfda055134285e1e79/mdport.c"
+    },
+    {
+      "path": "misc.c",
+      "bytes": 10841,
+      "sha256": "65800383516c1ef4bee7cbc48e74dacde2867384f944bb3f355b569ddc85876c",
+      "url": "https://raw.githubusercontent.com/Davidslv/rogue/f4653c2a2ee6981a73abe9dfda055134285e1e79/misc.c"
+    },
+    {
+      "path": "monsters.c",
+      "bytes": 5300,
+      "sha256": "0f033406dc9b34421e2296c553f71c55698f2bac401364261d86a6fa545da9fe",
+      "url": "https://raw.githubusercontent.com/Davidslv/rogue/f4653c2a2ee6981a73abe9dfda055134285e1e79/monsters.c"
+    },
+    {
+      "path": "move.c",
+      "bytes": 8796,
+      "sha256": "d6faecd2ff4aca955b31b7d134b6c499551a0aaa42f5ff1fce1748b66644f1d0",
+      "url": "https://raw.githubusercontent.com/Davidslv/rogue/f4653c2a2ee6981a73abe9dfda055134285e1e79/move.c"
+    },
+    {
+      "path": "new_level.c",
+      "bytes": 5131,
+      "sha256": "f042cec22f90cbb91ab7142b6d8d42ddf5ca4e5e3e5377deeca6061c8f95f67b",
+      "url": "https://raw.githubusercontent.com/Davidslv/rogue/f4653c2a2ee6981a73abe9dfda055134285e1e79/new_level.c"
+    },
+    {
+      "path": "options.c",
+      "bytes": 9553,
+      "sha256": "6e9d36dc6889ae42fe366ace64c9f399cc0772e145710834e5fb9947908ebbcc",
+      "url": "https://raw.githubusercontent.com/Davidslv/rogue/f4653c2a2ee6981a73abe9dfda055134285e1e79/options.c"
+    },
+    {
+      "path": "pack.c",
+      "bytes": 8870,
+      "sha256": "7b2158a7d75a698208b3841d12ed982f1f0a306301008a6adacd8d759c62c0c4",
+      "url": "https://raw.githubusercontent.com/Davidslv/rogue/f4653c2a2ee6981a73abe9dfda055134285e1e79/pack.c"
+    },
+    {
+      "path": "passages.c",
+      "bytes": 9163,
+      "sha256": "33e81e80e77b5d528ade4c913707d48a2a0b6bd1709b56c7aaa0b205052f567a",
+      "url": "https://raw.githubusercontent.com/Davidslv/rogue/f4653c2a2ee6981a73abe9dfda055134285e1e79/passages.c"
+    },
+    {
+      "path": "potions.c",
+      "bytes": 8322,
+      "sha256": "60bcfbc89a7f9d7f15b2e1f0b61942d0b110ff205785d6a6501d976fcb70cb42",
+      "url": "https://raw.githubusercontent.com/Davidslv/rogue/f4653c2a2ee6981a73abe9dfda055134285e1e79/potions.c"
+    },
+    {
+      "path": "rings.c",
+      "bytes": 3578,
+      "sha256": "89121898d2cd0ba297e4cadbefebb779691a6612a68b1dafd9374ae9f73253f7",
+      "url": "https://raw.githubusercontent.com/Davidslv/rogue/f4653c2a2ee6981a73abe9dfda055134285e1e79/rings.c"
+    },
+    {
+      "path": "rip.c",
+      "bytes": 10394,
+      "sha256": "f385286c82698a1281c912bc6c1565cbca165e965eeecc4d21d71fcd78210d79",
+      "url": "https://raw.githubusercontent.com/Davidslv/rogue/f4653c2a2ee6981a73abe9dfda055134285e1e79/rip.c"
+    },
+    {
+      "path": "rogue.6.in",
+      "bytes": 2291,
+      "sha256": "82afaf882063ae8957e121659c93251bb87695bfdda4b04a024299d9942580b9",
+      "url": "https://raw.githubusercontent.com/Davidslv/rogue/f4653c2a2ee6981a73abe9dfda055134285e1e79/rogue.6.in"
+    },
+    {
+      "path": "rogue.cat.in",
+      "bytes": 2308,
+      "sha256": "c777da0fcc70db90f48352172192ea84d2520efc8eb7b425a45dd80a9a838dcc",
+      "url": "https://raw.githubusercontent.com/Davidslv/rogue/f4653c2a2ee6981a73abe9dfda055134285e1e79/rogue.cat.in"
+    },
+    {
+      "path": "rogue.doc.in",
+      "bytes": 27067,
+      "sha256": "1056881e2d738bb29aaf7594e3323d9299da46feb02a1c1e23db1130dc007c6b",
+      "url": "https://raw.githubusercontent.com/Davidslv/rogue/f4653c2a2ee6981a73abe9dfda055134285e1e79/rogue.doc.in"
+    },
+    {
+      "path": "rogue.h",
+      "bytes": 19304,
+      "sha256": "bad47c721a3fbd1029c6370ef3829521097c998609a30c4f413cd396192ebd77",
+      "url": "https://raw.githubusercontent.com/Davidslv/rogue/f4653c2a2ee6981a73abe9dfda055134285e1e79/rogue.h"
+    },
+    {
+      "path": "rogue.html.in",
+      "bytes": 35751,
+      "sha256": "5b4cf67515cab6f4648376c2ff74365779a0f42047c679728d59c787c7acaee5",
+      "url": "https://raw.githubusercontent.com/Davidslv/rogue/f4653c2a2ee6981a73abe9dfda055134285e1e79/rogue.html.in"
+    },
+    {
+      "path": "rogue.me.in",
+      "bytes": 24853,
+      "sha256": "8f7b26643f85cc2e5533b271060a063de72e737b1d50eb6013218d56a6507137",
+      "url": "https://raw.githubusercontent.com/Davidslv/rogue/f4653c2a2ee6981a73abe9dfda055134285e1e79/rogue.me.in"
+    },
+    {
+      "path": "rooms.c",
+      "bytes": 8937,
+      "sha256": "754cdfbadbd17adad6d71a33f118d7fa692d0d396fb38be0a9e17e76bf4a7f47",
+      "url": "https://raw.githubusercontent.com/Davidslv/rogue/f4653c2a2ee6981a73abe9dfda055134285e1e79/rooms.c"
+    },
+    {
+      "path": "save.c",
+      "bytes": 7341,
+      "sha256": "67e2fba1684fcf178cb4eeb869f351421bda81909430636366640f4dad38c51a",
+      "url": "https://raw.githubusercontent.com/Davidslv/rogue/f4653c2a2ee6981a73abe9dfda055134285e1e79/save.c"
+    },
+    {
+      "path": "score.h",
+      "bytes": 583,
+      "sha256": "f38f9f1e2196d42181c739e54e64f5d36191c1fee9d3a0ca1b1a65d8a571f070",
+      "url": "https://raw.githubusercontent.com/Davidslv/rogue/f4653c2a2ee6981a73abe9dfda055134285e1e79/score.h"
+    },
+    {
+      "path": "scrolls.c",
+      "bytes": 7242,
+      "sha256": "f3b6ed2ca8aca5a72a82ab7208d1979f7cf46d0adca8c437aba77fb50c60fe17",
+      "url": "https://raw.githubusercontent.com/Davidslv/rogue/f4653c2a2ee6981a73abe9dfda055134285e1e79/scrolls.c"
+    },
+    {
+      "path": "state.c",
+      "bytes": 47966,
+      "sha256": "c58d76d2a7cb260ca014e24c34a59110f99b16c89488e2672c510e1d3f6426bd",
+      "url": "https://raw.githubusercontent.com/Davidslv/rogue/f4653c2a2ee6981a73abe9dfda055134285e1e79/state.c"
+    },
+    {
+      "path": "sticks.c",
+      "bytes": 9060,
+      "sha256": "2ae39b1244daa71f4da527875f8e7832f72ebb4bbf149336e87f02d656763d55",
+      "url": "https://raw.githubusercontent.com/Davidslv/rogue/f4653c2a2ee6981a73abe9dfda055134285e1e79/sticks.c"
+    },
+    {
+      "path": "things.c",
+      "bytes": 14382,
+      "sha256": "2cd25aae96054aa252c3c797ba1e4bb533f984c3335a3bf3222d1a5536ee63ce",
+      "url": "https://raw.githubusercontent.com/Davidslv/rogue/f4653c2a2ee6981a73abe9dfda055134285e1e79/things.c"
+    },
+    {
+      "path": "vers.c",
+      "bytes": 742,
+      "sha256": "c9eca0909b23f3cd8b048cbeed30db66c4d41fa6fddbb10f3760e5874325ff66",
+      "url": "https://raw.githubusercontent.com/Davidslv/rogue/f4653c2a2ee6981a73abe9dfda055134285e1e79/vers.c"
+    },
+    {
+      "path": "weapons.c",
+      "bytes": 5804,
+      "sha256": "db4bd8337bf8c60fe8042e2142112610fa473babc2321bd9f5cffe8a728d74ed",
+      "url": "https://raw.githubusercontent.com/Davidslv/rogue/f4653c2a2ee6981a73abe9dfda055134285e1e79/weapons.c"
+    },
+    {
+      "path": "wizard.c",
+      "bytes": 5298,
+      "sha256": "1a5482788f37e684fc447a90307be58f6bfad3979c334e50d27bbc3079a54f79",
+      "url": "https://raw.githubusercontent.com/Davidslv/rogue/f4653c2a2ee6981a73abe9dfda055134285e1e79/wizard.c"
+    },
+    {
+      "path": "xcrypt.c",
+      "bytes": 19688,
+      "sha256": "446810ef5461614b77010f71add64412e2e702e9c77579d55313d3f9f2bb0069",
+      "url": "https://raw.githubusercontent.com/Davidslv/rogue/f4653c2a2ee6981a73abe9dfda055134285e1e79/xcrypt.c"
+    }
+  ],
+  "excluded": [
+    "media",
+    "executables",
+    "generated configure script"
+  ],
+  "date": "2026-10-14",
+  "method": "GitHub REST pinned metadata and allowlisted raw text; no source archives, media, original executables or ROMs",
+  "hashBasis": "Raw downloaded bytes; unchanged compiler inputs verified",
+  "treeTruncated": false
+}

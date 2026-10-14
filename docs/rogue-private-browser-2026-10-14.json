@@ -1,0 +1,477 @@
+{
+  "date": "2026-10-14T18:43:10.394Z",
+  "muted": true,
+  "scope": "Private native movement/inventory/save/restore compatibility, original BSD game content; no campaign completion or release acceptance",
+  "errors": [],
+  "states": [
+    {
+      "label": "start",
+      "x": 19,
+      "y": 5,
+      "hp": 12,
+      "maxHp": 12,
+      "depth": 1,
+      "gold": 0,
+      "experience": 0,
+      "food": 1300,
+      "playing": 1,
+      "pack": [
+        [
+          58,
+          0,
+          1,
+          97
+        ],
+        [
+          93,
+          1,
+          1,
+          98
+        ],
+        [
+          41,
+          0,
+          1,
+          99
+        ],
+        [
+          41,
+          2,
+          1,
+          100
+        ],
+        [
+          41,
+          3,
+          39,
+          101
+        ]
+      ],
+      "monsters": [
+        [
+          75,
+          5,
+          19,
+          5
+        ],
+        [
+          83,
+          36,
+          10,
+          5
+        ],
+        [
+          72,
+          14,
+          10,
+          7
+        ],
+        [
+          66,
+          39,
+          4,
+          7
+        ]
+      ]
+    },
+    {
+      "label": "before-move-0",
+      "x": 19,
+      "y": 5,
+      "hp": 12,
+      "maxHp": 12,
+      "depth": 1,
+      "gold": 0,
+      "experience": 0,
+      "food": 1300,
+      "playing": 1,
+      "pack": [
+        [
+          58,
+          0,
+          1,
+          97
+        ],
+        [
+          93,
+          1,
+          1,
+          98
+        ],
+        [
+          41,
+          0,
+          1,
+          99
+        ],
+        [
+          41,
+          2,
+          1,
+          100
+        ],
+        [
+          41,
+          3,
+          39,
+          101
+        ]
+      ],
+      "monsters": [
+        [
+          75,
+          5,
+          19,
+          5
+        ],
+        [
+          83,
+          36,
+          10,
+          5
+        ],
+        [
+          72,
+          14,
+          10,
+          7
+        ],
+        [
+          66,
+          39,
+          4,
+          7
+        ]
+      ]
+    },
+    {
+      "label": "before-move-1",
+      "x": 20,
+      "y": 5,
+      "hp": 12,
+      "maxHp": 12,
+      "depth": 1,
+      "gold": 0,
+      "experience": 0,
+      "food": 1299,
+      "playing": 1,
+      "pack": [
+        [
+          58,
+          0,
+          1,
+          97
+        ],
+        [
+          93,
+          1,
+          1,
+          98
+        ],
+        [
+          41,
+          0,
+          1,
+          99
+        ],
+        [
+          41,
+          2,
+          1,
+          100
+        ],
+        [
+          41,
+          3,
+          39,
+          101
+        ]
+      ],
+      "monsters": [
+        [
+          75,
+          5,
+          19,
+          5
+        ],
+        [
+          83,
+          36,
+          10,
+          5
+        ],
+        [
+          72,
+          14,
+          10,
+          7
+        ],
+        [
+          66,
+          39,
+          4,
+          7
+        ]
+      ]
+    },
+    {
+      "label": "moved",
+      "x": 21,
+      "y": 5,
+      "hp": 12,
+      "maxHp": 12,
+      "depth": 1,
+      "gold": 0,
+      "experience": 0,
+      "food": 1298,
+      "playing": 1,
+      "pack": [
+        [
+          58,
+          0,
+          1,
+          97
+        ],
+        [
+          93,
+          1,
+          1,
+          98
+        ],
+        [
+          41,
+          0,
+          1,
+          99
+        ],
+        [
+          41,
+          2,
+          1,
+          100
+        ],
+        [
+          41,
+          3,
+          39,
+          101
+        ]
+      ],
+      "monsters": [
+        [
+          75,
+          5,
+          19,
+          5
+        ],
+        [
+          83,
+          36,
+          10,
+          5
+        ],
+        [
+          72,
+          14,
+          10,
+          7
+        ],
+        [
+          66,
+          39,
+          4,
+          7
+        ]
+      ]
+    },
+    {
+      "label": "checkpoint",
+      "x": 21,
+      "y": 5,
+      "hp": 12,
+      "maxHp": 12,
+      "depth": 1,
+      "gold": 0,
+      "experience": 0,
+      "food": 1298,
+      "playing": 1,
+      "pack": [
+        [
+          58,
+          0,
+          1,
+          97
+        ],
+        [
+          93,
+          1,
+          1,
+          98
+        ],
+        [
+          41,
+          0,
+          1,
+          99
+        ],
+        [
+          41,
+          2,
+          1,
+          100
+        ],
+        [
+          41,
+          3,
+          39,
+          101
+        ]
+      ],
+      "monsters": [
+        [
+          75,
+          5,
+          19,
+          5
+        ],
+        [
+          83,
+          36,
+          10,
+          5
+        ],
+        [
+          72,
+          14,
+          10,
+          7
+        ],
+        [
+          66,
+          39,
+          4,
+          7
+        ]
+      ]
+    },
+    {
+      "label": "restored",
+      "x": 21,
+      "y": 5,
+      "hp": 12,
+      "maxHp": 12,
+      "depth": 1,
+      "gold": 0,
+      "experience": 0,
+      "food": 1298,
+      "playing": 1,
+      "pack": [
+        [
+          58,
+          0,
+          1,
+          97
+        ],
+        [
+          93,
+          1,
+          1,
+          98
+        ],
+        [
+          41,
+          0,
+          1,
+          99
+        ],
+        [
+          41,
+          2,
+          1,
+          100
+        ],
+        [
+          41,
+          3,
+          39,
+          101
+        ]
+      ],
+      "monsters": [
+        [
+          75,
+          5,
+          19,
+          5
+        ],
+        [
+          83,
+          36,
+          10,
+          5
+        ],
+        [
+          72,
+          14,
+          10,
+          7
+        ],
+        [
+          66,
+          39,
+          4,
+          7
+        ]
+      ]
+    }
+  ],
+  "saveBytes": 39065,
+  "fullBrowserRestore": true,
+  "audioCalls": 0,
+  "status": "passed",
+  "playersClosed": true,
+  "releaseAccepted": false,
+  "playthrough": false,
+  "independentContentComplete": false,
+  "originalLicensedContentRetainedPrivately": true,
+  "nativeSourceUnchanged": true,
+  "privateReceipt": {
+    "bytes": 11867,
+    "sha256": "647cca4360ae567df077d7bbcfb6ec8847985febb2c0538efb7b0346308b0e2b"
+  },
+  "privateScreenshots": {
+    "inventory.png": {
+      "bytes": 26025,
+      "sha256": "402bd57c180f5428b9d01c30cab9a3c69b700c70694642e4949d914c362aba26"
+    },
+    "restored.png": {
+      "bytes": 22409,
+      "sha256": "a819f7639f4ba85c6b645562bdc4ca2c3b1987f03d81709ef9da1faed0b94790"
+    }
+  },
+  "priorFailedCases": {
+    "failed-http-path-report.json": {
+      "bytes": 746,
+      "sha256": "3315b2bb9928990d01101575e9276557b3fc49b604a64ba1efbf0fcc4cc95822"
+    },
+    "failed-inventory-display-report.json": {
+      "bytes": 19516,
+      "sha256": "594707c2a83a2cdf6c33b281c3dfb88bb06d2f4e6a9b3ed99ac1705bfc830d9f"
+    },
+    "failed-memory-view-report.json": {
+      "bytes": 700,
+      "sha256": "32bd89acde6d50dae658d532b6112a1dce713721e8cc911394963a040380258d"
+    },
+    "failed-native-callback-signature-report.json": {
+      "bytes": 19646,
+      "sha256": "ee1f3996b487adca353221aa346b6ba60726dd4f8616104e08850d290fcaaecf"
+    }
+  },
+  "limits": [
+    "Only two normal movement commands in the passing inventory/save run",
+    "Twelve-movement inventory failure after enemy damage remains open",
+    "No dungeon completion, death/retry or final Stop verification",
+    "No independent-content edition or distribution acceptance",
+    "Legacy save validator and local-storage consumption policy incomplete"
+  ]
+}

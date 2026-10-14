@@ -1,0 +1,191 @@
+{
+  "date": "2026-10-14",
+  "catalogCount": 89,
+  "strictAdditionalDecompilations": {
+    "completed": 4,
+    "target": 5
+  },
+  "candidate": "Rogue 5.4.4",
+  "repository": "Davidslv/rogue",
+  "pin": "f4653c2a2ee6981a73abe9dfda055134285e1e79",
+  "classification": "Developer-source port",
+  "status": "Private native browser compatibility demonstrated; independent content and release gates open",
+  "releaseAccepted": false,
+  "nativeSources": [
+    {
+      "path": "armor.c",
+      "sha256": "b3da15b55f6b6033b35311920373e41d32be3f7ebb63adae421b0261edcf4a08"
+    },
+    {
+      "path": "chase.c",
+      "sha256": "e10438a05eab60cab7ede1db2bf07d21ce6f8d0768e3491313e181cff1cca4ff"
+    },
+    {
+      "path": "command.c",
+      "sha256": "398c1fc84575791ab1fbe3112c3e23c33bb1d70c68e381f6cbe406e15aa4b361"
+    },
+    {
+      "path": "daemon.c",
+      "sha256": "38228d2e27a85fa68b222d6f96471b286e19f3a4317ed7a3815ff48730d7eb4d"
+    },
+    {
+      "path": "daemons.c",
+      "sha256": "199b836ce9ce3bf766b0510e61184922a132a227e92c2e32673a384efca24622"
+    },
+    {
+      "path": "extern.c",
+      "sha256": "0eb6af17635a9488cf93235cb62c4aa45c80cbdceb7b314e1a4b13634fca073a"
+    },
+    {
+      "path": "fight.c",
+      "sha256": "9d5f4f4706156167563d8f5e7557046128b9d629dbe16ffcf356a9b6dece8948"
+    },
+    {
+      "path": "init.c",
+      "sha256": "092916322d3f2e44654f2ac85230a864ae7e1f85b0acb5f44f0e477ae67aded6"
+    },
+    {
+      "path": "io.c",
+      "sha256": "01d24e08a31975d3cedc19dbd3323319f3e39cb93aadebb852b58834d822c916"
+    },
+    {
+      "path": "list.c",
+      "sha256": "e354c695ac2d1ff92fe2eeb7da3f066620804cd7e500c2e71a077ab9f10ab84c"
+    },
+    {
+      "path": "mach_dep.c",
+      "sha256": "a1896a322e70b2c47d00524c9a4f5677b93fa942dc651413d335752a1e64eb39"
+    },
+    {
+      "path": "main.c",
+      "sha256": "8e3af15fc72ec1d86026efc9117a31f3bd51ceb704ca74d2e6f4962d7f0a2a1a"
+    },
+    {
+      "path": "misc.c",
+      "sha256": "65800383516c1ef4bee7cbc48e74dacde2867384f944bb3f355b569ddc85876c"
+    },
+    {
+      "path": "monsters.c",
+      "sha256": "0f033406dc9b34421e2296c553f71c55698f2bac401364261d86a6fa545da9fe"
+    },
+    {
+      "path": "move.c",
+      "sha256": "d6faecd2ff4aca955b31b7d134b6c499551a0aaa42f5ff1fce1748b66644f1d0"
+    },
+    {
+      "path": "new_level.c",
+      "sha256": "f042cec22f90cbb91ab7142b6d8d42ddf5ca4e5e3e5377deeca6061c8f95f67b"
+    },
+    {
+      "path": "options.c",
+      "sha256": "6e9d36dc6889ae42fe366ace64c9f399cc0772e145710834e5fb9947908ebbcc"
+    },
+    {
+      "path": "pack.c",
+      "sha256": "7b2158a7d75a698208b3841d12ed982f1f0a306301008a6adacd8d759c62c0c4"
+    },
+    {
+      "path": "passages.c",
+      "sha256": "33e81e80e77b5d528ade4c913707d48a2a0b6bd1709b56c7aaa0b205052f567a"
+    },
+    {
+      "path": "potions.c",
+      "sha256": "60bcfbc89a7f9d7f15b2e1f0b61942d0b110ff205785d6a6501d976fcb70cb42"
+    },
+    {
+      "path": "rings.c",
+      "sha256": "89121898d2cd0ba297e4cadbefebb779691a6612a68b1dafd9374ae9f73253f7"
+    },
+    {
+      "path": "rip.c",
+      "sha256": "f385286c82698a1281c912bc6c1565cbca165e965eeecc4d21d71fcd78210d79"
+    },
+    {
+      "path": "rooms.c",
+      "sha256": "754cdfbadbd17adad6d71a33f118d7fa692d0d396fb38be0a9e17e76bf4a7f47"
+    },
+    {
+      "path": "save.c",
+      "sha256": "67e2fba1684fcf178cb4eeb869f351421bda81909430636366640f4dad38c51a"
+    },
+    {
+      "path": "scrolls.c",
+      "sha256": "f3b6ed2ca8aca5a72a82ab7208d1979f7cf46d0adca8c437aba77fb50c60fe17"
+    },
+    {
+      "path": "state.c",
+      "sha256": "c58d76d2a7cb260ca014e24c34a59110f99b16c89488e2672c510e1d3f6426bd"
+    },
+    {
+      "path": "sticks.c",
+      "sha256": "2ae39b1244daa71f4da527875f8e7832f72ebb4bbf149336e87f02d656763d55"
+    },
+    {
+      "path": "things.c",
+      "sha256": "2cd25aae96054aa252c3c797ba1e4bb533f984c3335a3bf3222d1a5536ee63ce"
+    },
+    {
+      "path": "vers.c",
+      "sha256": "c9eca0909b23f3cd8b048cbeed30db66c4d41fa6fddbb10f3760e5874325ff66"
+    },
+    {
+      "path": "weapons.c",
+      "sha256": "db4bd8337bf8c60fe8042e2142112610fa473babc2321bd9f5cffe8a728d74ed"
+    },
+    {
+      "path": "wizard.c",
+      "sha256": "1a5482788f37e684fc447a90307be58f6bfad3979c334e50d27bbc3079a54f79"
+    }
+  ],
+  "authoredUnits": [
+    "terminal.c",
+    "platform.c",
+    "observe.c"
+  ],
+  "compiler": {
+    "version": "Emscripten 6.0.10",
+    "sourcePin": "e566f7bdcc7735f44037911c24b87a58a3c93145",
+    "configuration": [
+      "gnu17",
+      "O1",
+      "fwrapv",
+      "ASYNCIFY",
+      "EMULATE_FUNCTION_POINTER_CASTS=1",
+      "ALLOW_MEMORY_GROWTH",
+      "EXIT_RUNTIME=1",
+      "FORCE_FILESYSTEM=1"
+    ],
+    "unresolvedSymbolsAllowed": false,
+    "masterCheats": false,
+    "exactSDKClosureAudited": false
+  },
+  "privateOutputs": {
+    "game.js": {
+      "bytes": 152679,
+      "sha256": "984b7892c33680c5f15a704d1139aa457a0830670b30d8ab5c79798682da0643"
+    },
+    "game.wasm": {
+      "bytes": 482194,
+      "sha256": "71421dfbc7fe4281562a681f169c699c9974f909ea76a5d8eccc4a74c89916cd"
+    },
+    "build.log": {
+      "bytes": 5781,
+      "sha256": "e0ff9d0de7eb5f1cb5c4563401047c0d21e96ec2287665fa72dbf2496fca99bc"
+    }
+  },
+  "nextGates": [
+    "Independently authored content with manifest",
+    "Combat/message/overlay follow-up",
+    "Death/retry/finish ordinary input",
+    "Strict legacy-save validator and persistence policy",
+    "Focus/Stop/disposal",
+    "Selected archive members, emitted JS and header notices",
+    "Portable source-only replay",
+    "Loading/site/production acceptance"
+  ],
+  "publicRuntimeUploaded": false,
+  "catalogChanged": false,
+  "deploymentPerformed": false,
+  "muted": true,
+  "playersClosed": true
+}
