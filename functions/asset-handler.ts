@@ -2,7 +2,7 @@ import type { PagesFunction, R2Bucket } from '@cloudflare/workers-types';
 declare const Response: typeof import('@cloudflare/workers-types').Response;
 declare const Headers: typeof import('@cloudflare/workers-types').Headers;
 interface Env { GAME_ASSETS: R2Bucket }
-const types:Record<string,string>={wasm:'application/wasm',js:'text/javascript; charset=utf-8',json:'application/json',ini:'text/plain',txt:'text/plain',gz:'application/gzip',zip:'application/zip'};
+const types:Record<string,string>={wasm:'application/wasm',html:'text/html; charset=utf-8',js:'text/javascript; charset=utf-8',json:'application/json',ini:'text/plain',txt:'text/plain',gz:'application/gzip',zip:'application/zip'};
 export const serveAsset:PagesFunction<Env>=async ({request,env})=>{
  if(!['GET','HEAD','OPTIONS'].includes(request.method))return new Response('Method not allowed',{status:405,headers:{Allow:'GET, HEAD, OPTIONS'}});
  const origin=request.headers.get('Origin');const allowed=['https://decompgames.com','https://play.decompgames.com','https://decompgames.pages.dev'];

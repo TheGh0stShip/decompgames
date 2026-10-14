@@ -1,0 +1,121 @@
+{
+  "id": "beacon-yard",
+  "base": "/runtime/beacon-yard/2019-yard-v4/",
+  "repository": "https://eldritchgame.com/about.html",
+  "sourceArchiveUrl": "https://eldritchgame.com/bin/Eldritch-Source-2019-04-16.zip",
+  "sourceRevision": "2019-04-16; original archive SHA-256 7bee255de9943e805bbd591ae7fb6ca1d9ac6609b5ba84374ab694eb7edb6774",
+  "packageRevision": "2019-yard-v4",
+  "classification": "Original independently authored courtyard challenge on original developer-released Eldritch 2019 native code; source port, not decompilation, retail campaign, emulation or clean-room certified",
+  "toolchain": "Emscripten 6.0.10 / SDL2 2.32.10 / C++11; vendored zlib 1.2.3",
+  "sourceArchive": "/sources/beacon-yard-2019-yard-v4-source.zip",
+  "sourceArchiveSha256": "5cca26fcf642a258e26ce12f30722393311c1ef6a84a55e1da113cbc8535d520",
+  "sourceArchiveBytes": 1689554,
+  "requirements": [
+    "WebAssembly",
+    "WebGL2",
+    "Keyboard",
+    "No ROM or original game files"
+  ],
+  "files": [
+    {
+      "path": "asset-provenance.json",
+      "bytes": 9727,
+      "sha256": "e6a42f1cefbbae43bf226fc3cbedd2f9111a4601ecf2b562ed6fd24c7fbc403d"
+    },
+    {
+      "path": "BUILD-NOTES.md",
+      "bytes": 3589,
+      "sha256": "a567535adbf5faabcdddbbd8ce5f7cc602326c0373f42e9abdabcac371e63e7b"
+    },
+    {
+      "path": "controls.js",
+      "bytes": 6338,
+      "sha256": "efc8890f75d91a5cf3fb0e1f63305654dbb4c709e5eee2f4dbd49a5d709bc7ff"
+    },
+    {
+      "path": "entry.data",
+      "bytes": 191574,
+      "sha256": "0c6b084f085783b6dfec872b07cabe8c10db36dfe78dd0fe08659dec08781546"
+    },
+    {
+      "path": "entry.js",
+      "bytes": 446049,
+      "sha256": "04950af89f61de98fb0e85a0a2751e9b5932453c32fe4d81a25d8f413455e3f8"
+    },
+    {
+      "path": "entry.wasm",
+      "bytes": 3439268,
+      "sha256": "4780e80d84be6a6c1984ba71b8ee64d224d93cff039906d61938b330885df98b"
+    },
+    {
+      "path": "index.html",
+      "bytes": 2265,
+      "sha256": "e6b4585bae1d0d10f21e5dfb59807a0ad4e605e46927dd5983f7f7dc3b5ae705"
+    },
+    {
+      "path": "notices/authored-content-CC0.txt",
+      "bytes": 313,
+      "sha256": "d08792591c1b1d4de1767840f2ae42ad45df6c41537e9e373f71df027736e7ff"
+    },
+    {
+      "path": "notices/Authored-MIT.txt",
+      "bytes": 1072,
+      "sha256": "dd706c072460625b619864d37dd00232d050f668a03383fb68e630beb1b3b5ed"
+    },
+    {
+      "path": "notices/compiler-rt-LICENSE.TXT",
+      "bytes": 16708,
+      "sha256": "1a8f1058753f1ba890de984e48f0242a3a5c29a6a8f2ed9fd813f36985387e8d"
+    },
+    {
+      "path": "notices/Eldritch-original.txt",
+      "bytes": 5443,
+      "sha256": "5e4fac1879aa4417c954d682b1f44ef8b460bf784e97f987c94eb6bb30467c30"
+    },
+    {
+      "path": "notices/Emscripten.txt",
+      "bytes": 5093,
+      "sha256": "620a78084fc7ca97c0b5dea9abf891f3ffcadfdbf305276f099c9c4e12fc1d86"
+    },
+    {
+      "path": "notices/HIDAPI-original.txt",
+      "bytes": 264,
+      "sha256": "fb5436aa63d1b71a8dfbf74ecaf1a5b4e1ec4df7f80074d11fec99284f69ca5f"
+    },
+    {
+      "path": "notices/libcxx-LICENSE.TXT",
+      "bytes": 16703,
+      "sha256": "539dd7aed86e8a4f12cbdd0e6c50c189c7d74847e4fecc64ce2c6ee3a01da38b"
+    },
+    {
+      "path": "notices/libcxxabi-LICENSE.TXT",
+      "bytes": 16706,
+      "sha256": "e2b35be49f7284a45b7baca8fc7b3ab7440e7902392b2528a457816b5bb2a15c"
+    },
+    {
+      "path": "notices/musl-COPYRIGHT.txt",
+      "bytes": 6196,
+      "sha256": "b870108ec5e7790e9f9919064f1b9421d62d5f9b0e6c230c6adf7ea2da62e97b"
+    },
+    {
+      "path": "notices/notice-audit.json",
+      "bytes": 1556872,
+      "sha256": "b28c9478bf687bfa501569ca97829810018f9d8ac886cb62383024d5b4e21da6"
+    },
+    {
+      "path": "notices/SDL2-yuv2rgb-BSD-3-Clause.txt",
+      "bytes": 1480,
+      "sha256": "f7d74004cc75778cae46c5f0139f244d67c07ef64cf51937e8272352197dcb18"
+    },
+    {
+      "path": "notices/SDL2-zlib.txt",
+      "bytes": 884,
+      "sha256": "97f35b302b361680ec1e891e95d2d52097bb95abff361434916d99dc1305f127"
+    },
+    {
+      "path": "notices/SELECTED-SOURCE-RUNTIME-NOTICES.txt",
+      "bytes": 490797,
+      "sha256": "62bb1fdc53e8a9fba392b59af0bc937999b79c2a32eda5ba33dcb595b97fb5e9"
+    }
+  ]
+}

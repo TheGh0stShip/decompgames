@@ -1,4 +1,4 @@
-// Player for clean-room builds, which are hosted in their own repositories and framed here.
+// Host for catalog builds framed from their declared player URL.
 import { track, playtime } from '../lib/track';
 import { remember } from '../lib/recent';
 const stage = document.querySelector<HTMLElement>('#stage')!;
@@ -11,14 +11,29 @@ const params = { game_id: game, platform, shelf };
 const clock = playtime(params);
 const coarse = matchMedia('(hover: none) and (pointer: coarse)').matches;
 let frame: HTMLIFrameElement | undefined;
+let closingFrame = false;
 
 function maximise(on: boolean) {
   stage.classList.toggle('is-max', on);
   document.documentElement.classList.toggle('stage-locked', on);
 }
-function stop() {
-  if (!frame) return;
-  frame.remove(); frame = undefined;
+async function stop() {
+  if (!frame || closingFrame) return;
+  closingFrame = true;
+  const closing = frame;
+  play.disabled = true; stopButton.disabled = true;
+  // This same-origin native port closes its GL context and save database first.
+  if (game === 'beacon-yard') {
+    try {
+      const yard = (closing.contentWindow as Window & { BeaconYard?: { state: { ready: boolean; busy: boolean; stopped: boolean }; stop: () => Promise<void> } })?.BeaconYard;
+      if (yard?.state.ready && !yard.state.stopped) {
+        while (yard.state.busy) await new Promise(resolve => setTimeout(resolve, 20));
+        await yard.stop();
+      }
+    } catch (error) { console.error('Beacon Yard shutdown failed', error); }
+  }
+  closing.remove(); frame = undefined;
+  closingFrame = false;
   clock.stop();
   if (document.fullscreenElement) document.exitFullscreen();
   maximise(false);
@@ -48,7 +63,7 @@ play.addEventListener('click', () => {
     clock.start();
     frame?.focus();
   });
-  frame.src = url;
+  frame.src = game === 'beacon-yard' ? new URL(url).pathname : url;
   overlay.hidden = true; stopButton.disabled = false;
   stage.append(frame, bar);
   // The builds' touch controls expect the whole screen.

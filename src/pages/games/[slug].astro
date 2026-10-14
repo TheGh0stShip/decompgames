@@ -6,7 +6,7 @@ import { games, playerUrl, slug, statusLabel } from '../../lib/catalog';
 export function getStaticPaths(){return games.map(game=>({params:{slug:game.id},props:{game}}));}
 const {game:g}=Astro.props;
 const embed=g.mode==='embed';
-const scopedSilent=g.id==='cinder-abuse'||g.id==='kiln-super-zzt';
+const scopedSilent=g.id==='cinder-abuse'||g.id==='kiln-super-zzt'||g.id==='beacon-yard';
 const manifestPath=`public/manifests/${g.id}.json`;
 const runtime=existsSync(manifestPath)?JSON.parse(readFileSync(manifestPath,'utf8')):null;
 const related=games.filter(x=>x.id!==g.id&&x.shelf===g.shelf&&(x.genre===g.genre||x.platform===g.platform)).slice(0,4);
@@ -73,6 +73,7 @@ const schema=[
     {embed&&!scopedSilent&&<p class="muted">The build's own test log is in <a href={`${g.source}/blob/main/STATUS.md`} target="_blank" rel="noopener">STATUS.md</a> in its repository.</p>}
     {g.id==='cinder-abuse'&&<p class="muted">See the <a href="https://github.com/andrewnakas/decompgames/blob/main/docs/cinder-abuse-release.json">dated distribution and gameplay record</a>.</p>}
     {g.id==='kiln-super-zzt'&&<p class="muted">See the <a href="https://github.com/andrewnakas/decompgames/blob/main/docs/kiln-super-zzt-release.json">dated distribution and gameplay record</a>.</p>}
+    {g.id==='beacon-yard'&&<p class="muted">See the <a href="https://github.com/andrewnakas/decompgames/blob/main/docs/beacon-yard-release.json">dated distribution and gameplay record</a>.</p>}
     {g.limitations.length>0&&<Fragment><h2>Known limitations</h2><ul>{g.limitations.map(l=><li>{l}</li>)}</ul></Fragment>}
     <h2>Saves</h2>
     <p>{g.saveInstructions}</p>

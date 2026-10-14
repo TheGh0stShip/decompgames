@@ -3,6 +3,10 @@ layout: ../../layouts/Article.astro
 title: What’s new
 description: Release notes and compatibility changes for Decomp Games.
 ---
+## October 14, 2026 — Beacon Yard: a courtyard in the Eldritch engine
+
+Activate three beacons and return to the exit terminal in an original courtyard built on developer-released Eldritch code. Beacon Yard uses independently authored replacement art, glyphs, animation, text and map, with no original game files required. This silent source port includes Pause, Save, Restore, New yard and Stop. Muted tests completed the challenge and restored native progress after a browser restart. It is an original challenge, not the retail campaign or a matching decompilation. [Play Beacon Yard](/games/beacon-yard/).
+
 ## October 13, 2026 — Cinder: an authored challenge in the Abuse engine
 
 Cinder ports the developer-released Abuse engine to WebAssembly with independently authored CC0 graphics, glyphs, animation, text, rules and two heat courses. It is a silent source port with new content, not retail Abuse or a matching decompilation. Muted local tests covered both exits, death/retry, jump avoidance, and a damaged native save restored after a full browser restart. Broader save failure cases and other devices remain unverified. [Play Cinder](/games/cinder-abuse/).

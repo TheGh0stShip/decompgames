@@ -4713,5 +4713,62 @@
   "scope": "Archive-rebuilt release candidate: normal keyboard key/door consumption, passages, scrolling, east-current carrying, stone pickup and gated relay, final KILN_DONE/score150 and native menu restart to score0/flags cleared. Earned stone native save restored byte-for-byte after full browser restart and ordinary R/menu/up-step; 37 native checkpoints independently checked and 34 malformed cases rejected. Player Stop unload tested locally; published acceptance is recorded separately in the dated distribution report. No retail campaign, lethal/combat/audio or all-engine claim.",
   "playthrough": true
  }
+},
+{
+ "id": "beacon-yard",
+ "title": "Beacon Yard (Eldritch source port)",
+ "aliases": [
+  "Beacon Yard",
+  "Eldritch engine challenge"
+ ],
+ "year": 2026,
+ "genre": "First-person puzzle",
+ "kind": "Source port",
+ "mode": "embed",
+ "launch": "embed",
+ "embedUrl": "https://decompgames.com/runtime/beacon-yard/2019-yard-v4/index.html",
+ "engine": "Original developer-released Eldritch 2019 C++ code in WebAssembly",
+ "description": "Explore an original courtyard, activate three beacons and return to the exit terminal.",
+ "overview": "Original independently authored courtyard challenge on original developer-released Eldritch 2019 native code; source port, not decompilation, retail campaign, emulation or clean-room certified. The browser edition runs native world physics, rendering, raycast interaction and saves with independently authored CC0 art, glyphs, mesh animation, synthesized cues, text and map. This small challenge is silent and requires no original game files.",
+ "source": "https://eldritchgame.com/about.html",
+ "engineLicense": "Developer zlib grant; TinyXML/SoLoud/zlib separately retained; stb_vorbis MIT; own adapters MIT; separately noticed permissive SDL2/Emscripten/musl/LLVM runtime",
+ "assetLicense": "CC0-1.0 independently authored data; authored shaders MIT; system fonts retain their separate terms",
+ "assetRequirements": "No ROM or original game files needed. Original retail art, maps, packages, fonts and recordings excluded.",
+ "controls": [
+  "Click courtyard — focus keyboard controls",
+  "WASD — move",
+  "Left/Right arrows — turn",
+  "E — activate a nearby beacon or exit terminal",
+  "P or Escape — pause/resume",
+  "Save / Restore — checkpoint on this device",
+  "New yard — restart while keeping the checkpoint",
+  "Stop — shut down the player"
+ ],
+ "saveInstructions": "Click Save and wait for Saved on this device before closing. Restore loads that checkpoint; New yard keeps it. Stored native save bytes are edition/version/size/SHA-256 checked. Clearing this origin/profile’s site data removes saves. Stop does not durably save unsaved changes; no portable import/export.",
+ "limitations": [
+  "One original courtyard challenge, not the retail campaign or a complete replacement campaign.",
+  "Keyboard and WebGL2 required; touch, controllers, other browsers/devices unverified.",
+  "Tested accidental save damage and injected synchronization error recovery; real quota exhaustion, adversarially forged records, crash/rapid-close/transfer and legacy migration unverified.",
+  "Native Stop releases tracked GL objects/context and save connections; full WASM heap destruction and same-module reinitialization unverified.",
+  "Null audio driver and muted tests; audible playback unverified.",
+  "Upstream cached SDK runtime object-to-source reproducibility was not independently rebuilt; notices retain a conservative header/template superset."
+ ],
+ "inputs": [
+  "Keyboard"
+ ],
+ "downloadMB": 4.0,
+ "complete": false,
+ "color": "#377d80",
+ "shelf": "classic",
+ "platform": "PC",
+ "verification": {
+  "status": "gameplay-tested",
+  "date": "2026-10-14",
+  "browsers": [
+   "Headless Microsoft Edge on Windows; muted"
+  ],
+  "scope": "Fresh v3 source rebuild: all 438 native units; normal keyboard A/B/C and exit, early denial/duplicate rejection; product pause, partial/completed persistence across browser relaunch, seven damaged outer saves rejected, corrupt cold-start recovery and injected sync error/retry. Native GL and IDBFS cleanup verified. Final v4 notice/controller export packaging retains exact native code/assets/outputs; host validation is recorded separately in the dated release report. No retail campaign or audible verification.",
+  "playthrough": true
+ }
 }
 ]
