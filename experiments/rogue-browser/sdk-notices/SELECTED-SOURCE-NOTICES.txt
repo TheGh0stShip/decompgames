@@ -1,0 +1,404 @@
+system/lib/compiler-rt/emscripten_exception_builtins.c
+/*
+ * Copyright 2018 The Emscripten Authors.  All rights reserved.
+ * Emscripten is available under two separate licenses, the MIT license and the
+ * University of Illinois/NCSA Open Source License.  Both these licenses can be
+ * found in the LICENSE file.
+ *
+ * Support functions for emscripten setjmp/longjmp and exception handling
+ * support. References to the things below are generated in the LLVM backend.
+ * See: https://llvm.org/doxygen/WebAssemblyLowerEmscriptenEHSjLj_8cpp.html
+ */
+
+
+
+system/lib/compiler-rt/lib/builtins/addtf3.c
+//===-- lib/addtf3.c - Quad-precision addition --------------------*- C -*-===//
+//
+// Part of the LLVM Project, under the Apache License v2.0 with LLVM Exceptions.
+// See https://llvm.org/LICENSE.txt for license information.
+// SPDX-License-Identifier: Apache-2.0 WITH LLVM-exception
+//
+//===----------------------------------------------------------------------===//
+//
+// This file implements quad-precision soft-float addition.
+//
+//===----------------------------------------------------------------------===//
+
+#define QUAD_PRECISION
+
+
+system/lib/compiler-rt/lib/builtins/ashlti3.c
+//===-- ashlti3.c - Implement __ashlti3 -----------------------------------===//
+//
+// Part of the LLVM Project, under the Apache License v2.0 with LLVM Exceptions.
+// See https://llvm.org/LICENSE.txt for license information.
+// SPDX-License-Identifier: Apache-2.0 WITH LLVM-exception
+//
+//===----------------------------------------------------------------------===//
+//
+// This file implements __ashlti3 for the compiler_rt library.
+//
+//===----------------------------------------------------------------------===//
+
+
+
+system/lib/compiler-rt/lib/builtins/comparetf2.c
+//===-- lib/comparetf2.c - Quad-precision comparisons -------------*- C -*-===//
+//
+// Part of the LLVM Project, under the Apache License v2.0 with LLVM Exceptions.
+// See https://llvm.org/LICENSE.txt for license information.
+// SPDX-License-Identifier: Apache-2.0 WITH LLVM-exception
+//
+//===----------------------------------------------------------------------===//
+//
+// // This file implements the following soft-float comparison routines:
+//
+//   __eqtf2   __getf2   __unordtf2
+//   __letf2   __gttf2
+//   __lttf2
+//   __netf2
+//
+// The semantics of the routines grouped in each column are identical, so there
+// is a single implementation for each, and wrappers to provide the other names.
+//
+// The main routines behave as follows:
+//
+//   __letf2(a,b) returns -1 if a < b
+//                         0 if a == b
+//                         1 if a > b
+//                         1 if either a or b is NaN
+//
+//   __getf2(a,b) returns -1 if a < b
+//                         0 if a == b
+//                         1 if a > b
+//                        -1 if either a or b is NaN
+//
+//   __unordtf2(a,b) returns 0 if both a and b are numbers
+//                           1 if either a or b is NaN
+//
+// Note that __letf2( ) and __getf2( ) are identical except in their handling of
+// NaN values.
+//
+//===----------------------------------------------------------------------===//
+
+#define QUAD_PRECISION
+
+
+system/lib/compiler-rt/lib/builtins/divtf3.c
+//===-- lib/divtf3.c - Quad-precision division --------------------*- C -*-===//
+//
+// Part of the LLVM Project, under the Apache License v2.0 with LLVM Exceptions.
+// See https://llvm.org/LICENSE.txt for license information.
+// SPDX-License-Identifier: Apache-2.0 WITH LLVM-exception
+//
+//===----------------------------------------------------------------------===//
+//
+// This file implements quad-precision soft-float division
+// with the IEEE-754 default rounding (to nearest, ties to even).
+//
+//===----------------------------------------------------------------------===//
+
+#define QUAD_PRECISION
+
+
+system/lib/compiler-rt/lib/builtins/extenddftf2.c
+//===-- lib/extenddftf2.c - double -> quad conversion -------------*- C -*-===//
+//
+// Part of the LLVM Project, under the Apache License v2.0 with LLVM Exceptions.
+// See https://llvm.org/LICENSE.txt for license information.
+// SPDX-License-Identifier: Apache-2.0 WITH LLVM-exception
+//
+//===----------------------------------------------------------------------===//
+
+#define QUAD_PRECISION
+
+
+system/lib/compiler-rt/lib/builtins/extendsftf2.c
+//===-- lib/extendsftf2.c - single -> quad conversion -------------*- C -*-===//
+//
+// Part of the LLVM Project, under the Apache License v2.0 with LLVM Exceptions.
+// See https://llvm.org/LICENSE.txt for license information.
+// SPDX-License-Identifier: Apache-2.0 WITH LLVM-exception
+//
+//===----------------------------------------------------------------------===//
+
+#define QUAD_PRECISION
+
+
+system/lib/compiler-rt/lib/builtins/floatsitf.c
+//===-- lib/floatsitf.c - integer -> quad-precision conversion ----*- C -*-===//
+//
+// Part of the LLVM Project, under the Apache License v2.0 with LLVM Exceptions.
+// See https://llvm.org/LICENSE.txt for license information.
+// SPDX-License-Identifier: Apache-2.0 WITH LLVM-exception
+//
+//===----------------------------------------------------------------------===//
+//
+// This file implements integer to quad-precision conversion for the
+// compiler-rt library in the IEEE-754 default round-to-nearest, ties-to-even
+// mode.
+//
+//===----------------------------------------------------------------------===//
+
+#define QUAD_PRECISION
+
+
+system/lib/compiler-rt/lib/builtins/floatunsitf.c
+//===-- lib/floatunsitf.c - uint -> quad-precision conversion -----*- C -*-===//
+//
+// Part of the LLVM Project, under the Apache License v2.0 with LLVM Exceptions.
+// See https://llvm.org/LICENSE.txt for license information.
+// SPDX-License-Identifier: Apache-2.0 WITH LLVM-exception
+//
+//===----------------------------------------------------------------------===//
+//
+// This file implements unsigned integer to quad-precision conversion for the
+// compiler-rt library in the IEEE-754 default round-to-nearest, ties-to-even
+// mode.
+//
+//===----------------------------------------------------------------------===//
+
+#define QUAD_PRECISION
+
+
+system/lib/compiler-rt/lib/builtins/fp_mode.c
+//===----- lib/fp_mode.c - Floaing-point environment mode utilities --C -*-===//
+//
+// Part of the LLVM Project, under the Apache License v2.0 with LLVM Exceptions.
+// See https://llvm.org/LICENSE.txt for license information.
+// SPDX-License-Identifier: Apache-2.0 WITH LLVM-exception
+//
+//===----------------------------------------------------------------------===//
+//
+// This file provides a default implementation of fp_mode.h for architectures
+// that does not support or does not have an implementation of floating point
+// environment mode.
+//
+//===----------------------------------------------------------------------===//
+
+
+
+system/lib/compiler-rt/lib/builtins/lshrti3.c
+//===-- lshrti3.c - Implement __lshrti3 -----------------------------------===//
+//
+// Part of the LLVM Project, under the Apache License v2.0 with LLVM Exceptions.
+// See https://llvm.org/LICENSE.txt for license information.
+// SPDX-License-Identifier: Apache-2.0 WITH LLVM-exception
+//
+//===----------------------------------------------------------------------===//
+//
+// This file implements __lshrti3 for the compiler_rt library.
+//
+//===----------------------------------------------------------------------===//
+
+
+
+system/lib/compiler-rt/lib/builtins/multf3.c
+//===-- lib/multf3.c - Quad-precision multiplication --------------*- C -*-===//
+//
+// Part of the LLVM Project, under the Apache License v2.0 with LLVM Exceptions.
+// See https://llvm.org/LICENSE.txt for license information.
+// SPDX-License-Identifier: Apache-2.0 WITH LLVM-exception
+//
+//===----------------------------------------------------------------------===//
+//
+// This file implements quad-precision soft-float multiplication
+// with the IEEE-754 default rounding (to nearest, ties to even).
+//
+//===----------------------------------------------------------------------===//
+
+#define QUAD_PRECISION
+
+
+system/lib/compiler-rt/lib/builtins/multi3.c
+//===-- multi3.c - Implement __multi3 -------------------------------------===//
+//
+// Part of the LLVM Project, under the Apache License v2.0 with LLVM Exceptions.
+// See https://llvm.org/LICENSE.txt for license information.
+// SPDX-License-Identifier: Apache-2.0 WITH LLVM-exception
+//
+//===----------------------------------------------------------------------===//
+//
+// This file implements __multi3 for the compiler_rt library.
+//
+//===----------------------------------------------------------------------===//
+
+
+
+system/lib/compiler-rt/lib/builtins/subtf3.c
+//===-- lib/subtf3.c - Quad-precision subtraction -----------------*- C -*-===//
+//
+// Part of the LLVM Project, under the Apache License v2.0 with LLVM Exceptions.
+// See https://llvm.org/LICENSE.txt for license information.
+// SPDX-License-Identifier: Apache-2.0 WITH LLVM-exception
+//
+//===----------------------------------------------------------------------===//
+//
+// This file implements quad-precision soft-float subtraction.
+//
+//===----------------------------------------------------------------------===//
+
+#define QUAD_PRECISION
+
+
+system/lib/compiler-rt/lib/builtins/trunctfdf2.c
+//===-- lib/truncdfsf2.c - quad -> double conversion --------------*- C -*-===//
+//
+// Part of the LLVM Project, under the Apache License v2.0 with LLVM Exceptions.
+// See https://llvm.org/LICENSE.txt for license information.
+// SPDX-License-Identifier: Apache-2.0 WITH LLVM-exception
+//
+//===----------------------------------------------------------------------===//
+
+#define QUAD_PRECISION
+
+
+system/lib/compiler-rt/lib/builtins/trunctfsf2.c
+//===-- lib/trunctfsf2.c - quad -> single conversion --------------*- C -*-===//
+//
+// Part of the LLVM Project, under the Apache License v2.0 with LLVM Exceptions.
+// See https://llvm.org/LICENSE.txt for license information.
+// SPDX-License-Identifier: Apache-2.0 WITH LLVM-exception
+//
+//===----------------------------------------------------------------------===//
+
+#define QUAD_PRECISION
+
+
+system/lib/libc/emscripten_get_heap_size.c
+/*
+ * Copyright 2021 The Emscripten Authors.  All rights reserved.
+ * Emscripten is available under two separate licenses, the MIT license and the
+ * University of Illinois/NCSA Open Source License.  Both these licenses can be
+ * found in the LICENSE file.
+ */
+
+
+
+system/lib/libc/emscripten_memset.c
+/*
+ * Copyright 2019 The Emscripten Authors.  All rights reserved.
+ * Emscripten is available under two separate licenses, the MIT license and the
+ * University of Illinois/NCSA Open Source License.  Both these licenses can be
+ * found in the LICENSE file.
+ */
+
+
+
+
+system/lib/libc/emscripten_syscall_stubs.c
+/*
+ * Copyright 2021 The Emscripten Authors.  All rights reserved.
+ * Emscripten is available under two separate licenses, the MIT license and the
+ * University of Illinois/NCSA Open Source License.  Both these licenses can be
+ * found in the LICENSE file.
+ *
+ * Unimplemented/dummy syscall implementations. These fall into 3 categories.
+ *
+ * 1. Fake it, use dummy/placeholder values and return success.
+ * 2. Fake it, as above but warn at runtime if called.
+ * 3. Return ENOSYS and warn at runtime if called.
+ */
+
+#define _GNU_SOURCE // for struct mmsghdr
+
+
+system/lib/libc/emscripten_time.c
+/*
+ * Copyright 2022 The Emscripten Authors.  All rights reserved.
+ * Emscripten is available under two separate licenses, the MIT license and the
+ * University of Illinois/NCSA Open Source License.  Both these licenses can be
+ * found in the LICENSE file.
+ */
+
+
+
+system/lib/libc/emscripten_yield_stub.c
+/*
+ * Copyright 2026 The Emscripten Authors.  All rights reserved.
+ * Emscripten is available under two separate licenses, the MIT license and the
+ * University of Illinois/NCSA Open Source License.  Both these licenses can be
+ * found in the LICENSE file.
+ */
+
+
+
+system/lib/libc/pthread_sigmask.c
+/*
+ * Copyright 2021 The Emscripten Authors.  All rights reserved.
+ * Emscripten is available under two separate licenses, the MIT license and the
+ * University of Illinois/NCSA Open Source License.  Both these licenses can be
+ * found in the LICENSE file.
+ */
+
+#define _GNU_SOURCE // for sigorset/sigandset
+
+
+system/lib/libc/raise.c
+/*
+ * Copyright 2021 The Emscripten Authors.  All rights reserved.
+ * Emscripten is available under two separate licenses, the MIT license and the
+ * University of Illinois/NCSA Open Source License.  Both these licenses can be
+ * found in the LICENSE file.
+ */
+
+#define _GNU_SOURCE // for sighandler_t
+
+
+system/lib/libc/sbrk.c
+/*
+ * Copyright 2019 The Emscripten Authors.  All rights reserved.
+ * Emscripten is available under two separate licenses, the MIT license and the
+ * University of Illinois/NCSA Open Source License.  Both these licenses can be
+ * found in the LICENSE file.
+ *
+*/
+
+// libc files are compiled as -std=c99 which doesn't normally declare
+// max_align_t.
+#if __STDC_VERSION__ < 201112L
+#define __NEED_max_align_t
+#endif
+
+
+
+system/lib/libc/sigaction.c
+/*
+ * Copyright 2021 The Emscripten Authors.  All rights reserved.
+ * Emscripten is available under two separate licenses, the MIT license and the
+ * University of Illinois/NCSA Open Source License.  Both these licenses can be
+ * found in the LICENSE file.
+ */
+
+
+
+system/lib/libc/wasi-helpers.c
+/*
+ * Copyright 2019 The Emscripten Authors.  All rights reserved.
+ * Emscripten is available under two separate licenses, the MIT license and the
+ * University of Illinois/NCSA Open Source License.  Both these licenses can be
+ * found in the LICENSE file.
+ */
+
+
+
+system/lib/pthread/library_pthread_stub.c
+/*
+ * Copyright 2019 The Emscripten Authors.  All rights reserved.
+ * Emscripten is available under two separate licenses, the MIT license and the
+ * University of Illinois/NCSA Open Source License.  Both these licenses can be
+ * found in the LICENSE file.
+ */
+
+
+
+system/lib/pthread/pthread_self_stub.c
+/*
+ * Copyright 2021 The Emscripten Authors.  All rights reserved.
+ * Emscripten is available under two separate licenses, the MIT license and the
+ * University of Illinois/NCSA Open Source License.  Both these licenses can be
+ * found in the LICENSE file.
+ */
+
+

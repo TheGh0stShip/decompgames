@@ -1,0 +1,531 @@
+{
+  "date": "2026-10-14T23:32:31.070Z",
+  "scope": "Local site authored campaign, native checkpoint full-browser restart, retry and host Stop; read-only observers",
+  "muted": true,
+  "distribution": [
+    {
+      "path": "/runtime/signal-survey/stations-v1/font-renderer.js",
+      "bytes": 953,
+      "sha256": "f4afa5aa1d79d7ff2154eb1a682f6b90351dac7a5e70ae5c1958dba57f28b308"
+    },
+    {
+      "path": "/runtime/signal-survey/stations-v1/game.js",
+      "bytes": 148839,
+      "sha256": "ca6c06ae29a41d225a29970aeb19b24fa65a83969c4029fd7cc28609dcc441e5"
+    },
+    {
+      "path": "/runtime/signal-survey/stations-v1/game.wasm",
+      "bytes": 468818,
+      "sha256": "09ef81b97d21c852b25672fbcdc8f4d8c6cf47c2f8ea554a398c2ec6737eeaa1"
+    },
+    {
+      "path": "/runtime/signal-survey/stations-v1/glyphs.js",
+      "bytes": 2590,
+      "sha256": "8c41d3dbea5f2e1f29e7d901c47ebf51002b52ff18060edf06d773659c297b5b"
+    },
+    {
+      "path": "/runtime/signal-survey/stations-v1/glyphs.json",
+      "bytes": 2572,
+      "sha256": "4686f6fe1a8664ee20ec78725c110b9baa205fe17c087f471f72009022daa193"
+    },
+    {
+      "path": "/runtime/signal-survey/stations-v1/index.html",
+      "bytes": 1970,
+      "sha256": "48d40adc82146f4e24aa4cfd159fb0f2750f9dae40506fc688826a0dd12a287b"
+    },
+    {
+      "path": "/runtime/signal-survey/stations-v1/load-manifest.json",
+      "bytes": 1099,
+      "sha256": "afa346a78770f5dfad943158b2c3cc9b9c256e177af47340e4365be84157ea0a"
+    },
+    {
+      "path": "/runtime/signal-survey/stations-v1/loader.js",
+      "bytes": 2815,
+      "sha256": "7bede2cddc11b18f7c6a89a5769ffda3cfa973136daeee58b3f1bf385820897c"
+    },
+    {
+      "path": "/runtime/signal-survey/stations-v1/NOTICE.txt",
+      "bytes": 83698,
+      "sha256": "ae8c4b48d54e63ffb235cdd5ac697ff02351d68bce4d33fc061f8fb1f18281ba"
+    },
+    {
+      "path": "/runtime/signal-survey/stations-v1/probe.js",
+      "bytes": 5371,
+      "sha256": "6e5a277283a898c2de4243721692da1e29bbca452c7d199bb43f698fc62bb377"
+    },
+    {
+      "path": "/runtime/signal-survey/stations-v1/provenance.json",
+      "bytes": 5963,
+      "sha256": "f0030baac1a2ac9dfb5ce97da951656ba68bc9b533de81d27367a3920a9f9ec2"
+    },
+    {
+      "path": "/runtime/signal-survey/stations-v1/save-spec.js",
+      "bytes": 640,
+      "sha256": "b81cb7656c5719ba7e744e27f675891bb004064ceed25bd50e1814c6ebc1cdfe"
+    },
+    {
+      "path": "/runtime/signal-survey/stations-v1/save-spec.json",
+      "bytes": 1053,
+      "sha256": "b8c587cb1c43e8109cd82f8098048419fd27baef48d772d406fa9cf51664ba30"
+    },
+    {
+      "path": "/runtime/signal-survey/stations-v1/sdk-audit.json",
+      "bytes": 88952,
+      "sha256": "7e1db7214d0604853123d288e948d07b166e1f1a3bdb7043bd5ab6747c581975"
+    },
+    {
+      "path": "/runtime/signal-survey/stations-v1/survey-content.json",
+      "bytes": 4613,
+      "sha256": "a11508223fb7c2d806640295940197bd533774203c7d63d2a1730b49f738a9db"
+    },
+    {
+      "path": "/runtime/signal-survey/stations-v1/survey-literal-contracts.json",
+      "bytes": 41188,
+      "sha256": "f0d3a9d74049e71658a6e5f59115bd7c1d5aa2b66e5af19add7110abd2c1b139"
+    },
+    {
+      "path": "/runtime/signal-survey/stations-v1/survey-messages.json",
+      "bytes": 132671,
+      "sha256": "552f966e1ceeb059b16a32bbb4013bbeea9b2a5d0ee37f9cd52b7e9b607d275e"
+    },
+    {
+      "path": "/runtime/signal-survey/stations-v1/survey-names.json",
+      "bytes": 5619,
+      "sha256": "26658b9027fcf05eee95f12c87369029d148c8d824e69f422eb8c7bf097f8323"
+    },
+    {
+      "path": "/runtime/signal-survey/stations-v1/validate-save.js",
+      "bytes": 9790,
+      "sha256": "e012e261036e129f1caeb3cd42e56d820818b2e33c491772a02c581a5f127ab9"
+    },
+    {
+      "path": "/sources/signal-survey-stations-v1-source.zip",
+      "bytes": 282102,
+      "sha256": "24548265218ebf4e5b354a1a6dbf6a1082661989fc44d489b9adf91be1a37cb9"
+    }
+  ],
+  "errors": [],
+  "missing": [],
+  "external": [
+    "https://www.googletagmanager.com/gtag/js?id=G-GQ6627GN8H",
+    "https://www.googletagmanager.com/gtag/js?id=G-GQ6627GN8H"
+  ],
+  "runs": [
+    {
+      "attempt": 0,
+      "keys": [
+        "ArrowRight",
+        "ArrowRight",
+        "ArrowRight",
+        "Space",
+        "ArrowRight",
+        "ArrowRight",
+        "ArrowRight",
+        "ArrowRight",
+        "ArrowRight",
+        "ArrowRight",
+        "ArrowRight",
+        "ArrowRight",
+        "ArrowDown",
+        "ArrowDown",
+        "ArrowDown",
+        "ArrowRight",
+        "ArrowRight",
+        "Space",
+        "ArrowRight",
+        "Space",
+        "ArrowRight",
+        "Space",
+        "ArrowRight",
+        "ArrowRight",
+        "ArrowRight",
+        "ArrowRight",
+        "ArrowRight",
+        "ArrowRight",
+        "ArrowRight",
+        "ArrowRight",
+        "ArrowDown",
+        "ArrowDown",
+        "ArrowDown",
+        "ArrowRight",
+        "ArrowRight",
+        "ArrowRight",
+        "ArrowRight",
+        "ArrowRight",
+        "ArrowRight",
+        "ArrowRight",
+        "ArrowDown",
+        "ArrowDown",
+        "ArrowDown",
+        ">",
+        "ArrowRight",
+        "ArrowRight",
+        "ArrowRight",
+        "ArrowRight",
+        "ArrowRight",
+        "ArrowRight",
+        "ArrowRight",
+        "ArrowDown",
+        "ArrowDown",
+        "ArrowDown",
+        "ArrowDown",
+        "ArrowDown",
+        "ArrowRight",
+        "ArrowRight",
+        "ArrowRight",
+        "ArrowRight",
+        "ArrowRight",
+        "ArrowRight",
+        "ArrowRight",
+        "ArrowRight",
+        "ArrowRight",
+        "ArrowRight",
+        "ArrowRight",
+        "ArrowUp",
+        "ArrowUp",
+        "ArrowRight",
+        "ArrowRight",
+        "ArrowRight",
+        "ArrowRight",
+        "ArrowRight",
+        "ArrowRight",
+        "ArrowRight",
+        "ArrowRight",
+        "ArrowRight",
+        "ArrowDown",
+        "ArrowDown",
+        "ArrowDown",
+        "ArrowDown",
+        "ArrowDown",
+        "ArrowDown",
+        "y",
+        ">",
+        "ArrowRight",
+        "ArrowRight",
+        "ArrowRight",
+        "Space",
+        "ArrowRight",
+        "Space",
+        "ArrowRight",
+        "Space",
+        "q",
+        "f",
+        "Space",
+        "ArrowRight",
+        "Space",
+        "ArrowRight",
+        "Space",
+        "q",
+        "f",
+        "ArrowRight",
+        "ArrowRight",
+        "ArrowRight",
+        "ArrowRight",
+        "ArrowRight",
+        "ArrowRight",
+        "ArrowRight",
+        "ArrowRight",
+        "ArrowRight",
+        "ArrowRight",
+        "ArrowRight",
+        "ArrowRight",
+        "ArrowRight",
+        "ArrowRight",
+        "ArrowRight",
+        "ArrowRight",
+        "ArrowRight",
+        "ArrowRight",
+        "ArrowDown",
+        "ArrowDown",
+        "ArrowRight",
+        "ArrowRight",
+        "ArrowRight",
+        "ArrowRight",
+        "ArrowRight",
+        "ArrowUp",
+        "ArrowRight",
+        "ArrowDown",
+        "ArrowDown",
+        "ArrowDown",
+        "ArrowDown",
+        "ArrowDown",
+        "ArrowDown",
+        "ArrowDown",
+        "ArrowDown",
+        "<",
+        "Space",
+        "ArrowRight",
+        "ArrowRight",
+        "ArrowRight",
+        "ArrowRight",
+        "ArrowRight",
+        "ArrowRight",
+        "ArrowRight",
+        "ArrowDown",
+        "ArrowDown",
+        "ArrowDown",
+        "ArrowDown",
+        "ArrowDown",
+        "ArrowRight",
+        "ArrowRight",
+        "ArrowRight",
+        "ArrowRight",
+        "ArrowRight",
+        "ArrowRight",
+        "ArrowRight",
+        "ArrowRight",
+        "ArrowRight",
+        "ArrowRight",
+        "ArrowUp",
+        "ArrowUp",
+        "ArrowRight",
+        "ArrowRight",
+        "ArrowRight",
+        "ArrowRight",
+        "ArrowRight",
+        "ArrowRight",
+        "ArrowRight",
+        "ArrowRight",
+        "ArrowRight",
+        "ArrowDown",
+        "ArrowDown",
+        "ArrowDown",
+        "ArrowDown",
+        "ArrowDown",
+        "ArrowDown",
+        "<",
+        "Space",
+        "ArrowRight",
+        "ArrowRight",
+        "ArrowRight",
+        "ArrowRight",
+        "ArrowRight",
+        "ArrowRight",
+        "ArrowRight",
+        "ArrowRight",
+        "ArrowRight",
+        "ArrowRight",
+        "ArrowDown",
+        "ArrowDown",
+        "ArrowDown",
+        "ArrowRight",
+        "ArrowRight",
+        "ArrowRight",
+        "ArrowRight",
+        "ArrowRight",
+        "ArrowRight",
+        "ArrowRight",
+        "ArrowRight",
+        "ArrowRight",
+        "ArrowDown",
+        "ArrowDown",
+        "ArrowDown",
+        "ArrowRight",
+        "ArrowRight",
+        "ArrowRight",
+        "ArrowRight",
+        "ArrowRight",
+        "ArrowRight",
+        "ArrowRight",
+        "ArrowDown",
+        "ArrowDown",
+        "ArrowDown",
+        "<",
+        "Space",
+        "Enter"
+      ],
+      "milestones": [
+        {
+          "x": 29,
+          "y": 14,
+          "hp": 12,
+          "maxHp": 12,
+          "depth": 1,
+          "gold": 0,
+          "experience": 2,
+          "food": 1261,
+          "playing": 1,
+          "pack": [
+            [
+              58,
+              0,
+              1,
+              97
+            ],
+            [
+              93,
+              1,
+              1,
+              98
+            ],
+            [
+              41,
+              0,
+              1,
+              99
+            ],
+            [
+              41,
+              2,
+              1,
+              100
+            ],
+            [
+              41,
+              3,
+              35,
+              101
+            ],
+            [
+              33,
+              5,
+              1,
+              102
+            ]
+          ],
+          "monsters": []
+        },
+        {
+          "x": 29,
+          "y": 14,
+          "hp": 10,
+          "maxHp": 12,
+          "depth": 2,
+          "gold": 0,
+          "experience": 2,
+          "food": 1221,
+          "playing": 1,
+          "pack": [
+            [
+              58,
+              0,
+              1,
+              97
+            ],
+            [
+              93,
+              1,
+              1,
+              98
+            ],
+            [
+              41,
+              0,
+              1,
+              99
+            ],
+            [
+              41,
+              2,
+              1,
+              100
+            ],
+            [
+              41,
+              3,
+              35,
+              101
+            ],
+            [
+              33,
+              5,
+              2,
+              102
+            ]
+          ],
+          "monsters": [
+            [
+              66,
+              21,
+              8,
+              4
+            ],
+            [
+              66,
+              29,
+              13,
+              8
+            ]
+          ]
+        },
+        {
+          "x": 29,
+          "y": 14,
+          "hp": 9,
+          "maxHp": 12,
+          "depth": 3,
+          "gold": 0,
+          "experience": 2,
+          "food": 1187,
+          "playing": 1,
+          "pack": [
+            [
+              58,
+              0,
+              1,
+              97
+            ],
+            [
+              93,
+              1,
+              1,
+              98
+            ],
+            [
+              41,
+              0,
+              1,
+              99
+            ],
+            [
+              41,
+              2,
+              1,
+              100
+            ],
+            [
+              41,
+              3,
+              35,
+              101
+            ],
+            [
+              33,
+              5,
+              1,
+              102
+            ],
+            [
+              44,
+              0,
+              1,
+              103
+            ]
+          ],
+          "monsters": [
+            [
+              66,
+              26,
+              12,
+              2
+            ],
+            [
+              66,
+              27,
+              11,
+              5
+            ]
+          ]
+        }
+      ],
+      "repair": true,
+      "won": true
+    }
+  ],
+  "hostStopNativeCleanup": true,
+  "fullBrowserRestart": true,
+  "freshRetry": true,
+  "status": "passed",
+  "playersClosed": true,
+  "serverClosed": true
+}

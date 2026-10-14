@@ -1,0 +1,5100 @@
+{
+  "schema": 1,
+  "license": "CC0-1.0",
+  "author": "DecompGames contributors, 2026",
+  "method": "Reference control flow and message meaning inspected; replacement wording independently written. No clean-room isolation claim.",
+  "messages": [
+    {
+      "referenceLiteralSha256": "39f078bd665de8d4541dfc925cd7fc2dc5459d4c66ccca96c4b983891f3df2a4",
+      "text": "equip",
+      "locations": [
+        {
+          "file": "armor.c",
+          "line": 25
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "ad5e8bf3077c24416e17fdc1092db10b9089de4b0b2fd9709e4cc50c899db76b",
+      "text": "A shell is already fitted",
+      "locations": [
+        {
+          "file": "armor.c",
+          "line": 29
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "cdde45f4649ef5e4d8368801b04368e979b9d65b3f92312115213fe7d75be7e8",
+      "text": ". Remove it before fitting another",
+      "locations": [
+        {
+          "file": "armor.c",
+          "line": 31
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "826d65e33dd5b361fd1815fec28f8d265dbdf4931cced547a86f9843cb9a25b4",
+      "text": "That item cannot be fitted",
+      "locations": [
+        {
+          "file": "armor.c",
+          "line": 38
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "7ef99077e608d73e56c35c5ae653f450a60a0b4bb9fe98b9f08d45f49dd7a531",
+      "text": "Current equipment: ",
+      "locations": [
+        {
+          "file": "armor.c",
+          "line": 46
+        },
+        {
+          "file": "weapons.c",
+          "line": 256
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "a47b918eab45335ab6350783d7bd834a70a9d2431d1c0af33903f4ec9f3dbc34",
+      "text": "shell %s",
+      "locations": [
+        {
+          "file": "armor.c",
+          "line": 47
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "ef9ac6cf8b56e4bc36c436780b65bb92cd214a67a23dc12279516b48831b6b3f",
+      "text": "no shell fitted",
+      "locations": [
+        {
+          "file": "armor.c",
+          "line": 63
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "5321a5c02797dba57a507642b258a3a7d321f98105520d495f7773284f9bbb1b",
+      "text": "Your shell slot is empty",
+      "locations": [
+        {
+          "file": "armor.c",
+          "line": 65
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "f5a716bd1e1a255e41f6bde41f1768c3eb9743cced8374962966ca5275cc73ab",
+      "text": "previously",
+      "locations": [
+        {
+          "file": "armor.c",
+          "line": 72
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "b2fa8ead0216b63ea687cdd31d5d67eacd15240a7974db905755690e9651d102",
+      "text": "Your previous shell was",
+      "locations": [
+        {
+          "file": "armor.c",
+          "line": 74
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "797e3d7a2731363d1237146f0cd726ee26cf6a60f274cb08de518fe660747320",
+      "text": " %c) %s",
+      "locations": [
+        {
+          "file": "armor.c",
+          "line": 75
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "ec5b239f9980712f52881473a0ae23b300ac8a6203cbcea3903a9dcf4ffcd495",
+      "text": "heat pulse",
+      "locations": [
+        {
+          "file": "chase.c",
+          "line": 177
+        },
+        {
+          "file": "sticks.c",
+          "line": 228
+        },
+        {
+          "file": "sticks.c",
+          "line": 365
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "07738474cd70d8978648b63b47e008668a668d7f63a2b9f144bf847d116f7f79",
+      "text": "Pursuit actor missing at (%d,%d)",
+      "locations": [
+        {
+          "file": "chase.c",
+          "line": 295
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "a01781c42a296474067ee14d1cd955d6cd4ef3cda42ef36755edf25998a1e8bd",
+      "text": "Actor outside station bounds (%d, %d)",
+      "locations": [
+        {
+          "file": "chase.c",
+          "line": 440
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "64170d0126bcb3c5fb57cb693b7a8a8faa66577cdbdd716838906de89c4207c3",
+      "text": "Movement restored",
+      "locations": [
+        {
+          "file": "command.c",
+          "line": 92
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "cc0d6a7fc66f9cb2c0fef7aa93f4e5db55655f8d2a92a12d7f32c887e436c1c5",
+      "text": "Here: ",
+      "locations": [
+        {
+          "file": "command.c",
+          "line": 173
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "379bac48da20db3dd9b04d8c7ff1294207adbfc830167c6cef2cef187034285d",
+      "text": "no loose item",
+      "locations": [
+        {
+          "file": "command.c",
+          "line": 174
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "7ac43a12f711f57faa99abd2f3925cac9138875b795a382fdd579d432d300907",
+      "text": " for collection",
+      "locations": [
+        {
+          "file": "command.c",
+          "line": 176
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "c7a2729fed4a5ed999f29db71d469679d190921704ff59ce36dc757ddd633078",
+      "text": "Target: ",
+      "locations": [
+        {
+          "file": "command.c",
+          "line": 229
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "88c191f0db4d052f47b9c07d86cd9a28fc838256c496adc867315032f50c052c",
+      "text": "no actor at that position",
+      "locations": [
+        {
+          "file": "command.c",
+          "line": 230
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "ae3f86dd7c599247fe67f05d56ec31dd820e227f92e64a3f44cb31d4ef34e6b8",
+      "text": "There is no previous action to repeat",
+      "locations": [
+        {
+          "file": "command.c",
+          "line": 249
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "336d828fbcca25c6a9bba1cd272b34fe65242462c07da372b78bf74fb68fa686",
+      "text": "Survey build %s",
+      "locations": [
+        {
+          "file": "command.c",
+          "line": 294
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "9c600e33569f46123fed62843a99653addc2f59f1e20224351735fcae0a3e73d",
+      "text": "Detected: ",
+      "locations": [
+        {
+          "file": "command.c",
+          "line": 307
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "e189c48c21ad5c1a3959d2aa7c6d005aab234cc73632ed22f2c91a01fa089ed9",
+      "text": "no sensor here",
+      "locations": [
+        {
+          "file": "command.c",
+          "line": 309
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "9ad517220b97df65905144c2d159ebdc9c2bd4459a1ddc0a01e449b430f165e4",
+      "text": "Debug mode ended",
+      "locations": [
+        {
+          "file": "command.c",
+          "line": 324
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "076ea0ad178545221b4a8bab2ba149d6709d54f34112b4355e4cf555942426d0",
+      "text": "Debug mode enabled for station #%d",
+      "locations": [
+        {
+          "file": "command.c",
+          "line": 333
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "4f0e1d1645d89d6aa11ad7d9101aa4421e736cf4755230d0ccf111909e7b8604",
+      "text": "Unavailable",
+      "locations": [
+        {
+          "file": "command.c",
+          "line": 336
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "32af0d778b6e14eae9a4e3b2842f90e4570a8e6e30e597d70abd3a1cec685af1",
+      "text": "tool",
+      "locations": [
+        {
+          "file": "command.c",
+          "line": 354
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "1c0223802192de8524a44c4d89e58946fcada304ab0fcbde922a376ee717ddb9",
+      "text": "shell",
+      "locations": [
+        {
+          "file": "command.c",
+          "line": 355
+        },
+        {
+          "file": "command.c",
+          "line": 357
+        },
+        {
+          "file": "command.c",
+          "line": 359
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "d6e907f5a0c22f257fbc5cbb092e231d71eab80f11fc6d1b32ada4366328ba42",
+      "text": "left band",
+      "locations": [
+        {
+          "file": "command.c",
+          "line": 358
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "590ee57224ac32c748b9ad18cb436d642a2965b2836381e09599d31b2ea90d6f",
+      "text": "right band",
+      "locations": [
+        {
+          "file": "command.c",
+          "line": 360
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "9cbdda2b3758a7ebc489e17b5b8537c7ef77781945b019947be69af197e4a05b",
+      "text": "remaining rations: %d",
+      "locations": [
+        {
+          "file": "command.c",
+          "line": 380
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "33829e45a9ddc70421baedb51413eb99d06e96e518c550c5d59998156f239b69",
+      "text": "activate",
+      "locations": [
+        {
+          "file": "command.c",
+          "line": 387
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "e4c869b75bc2923faf489a05c6a9be07b37323fe402ca92ddfaa18a0494144ca",
+      "text": "Unrecognized action %s",
+      "locations": [
+        {
+          "file": "command.c",
+          "line": 465
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "e0337613080c7d3acd9149232f04324e34a3c83163758f8b03cefe77f837b6e0",
+      "text": "a concealed hatch",
+      "locations": [
+        {
+          "file": "command.c",
+          "line": 501
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "4112c8fcb17b8d57c82029d36df5263e0625e78d511111c3620b95d3a30a4262",
+      "text": "Detected: ",
+      "locations": [
+        {
+          "file": "command.c",
+          "line": 513
+        },
+        {
+          "file": "pack.c",
+          "line": 459
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "d91db3f6c16df0df4deb190f5cbb6afb4b9769e04bb941955ee7804bd1f45cf6",
+      "text": "Choose a key to inspect; * lists all: ",
+      "locations": [
+        {
+          "file": "command.c",
+          "line": 543
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "1c2485b05bfd1c46b4c12d419af6d444f0bab779c86540aa9163ecc2f88f3c56",
+      "text": "Unrecognized symbol %s",
+      "locations": [
+        {
+          "file": "command.c",
+          "line": 561
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "6fcc3e4eaaaa481edce9cae6fddf201f9f8d1ca907415217d1c72d3a205180e3",
+      "text": "Space returns to the station",
+      "locations": [
+        {
+          "file": "command.c",
+          "line": 591
+        },
+        {
+          "file": "options.c",
+          "line": 114
+        },
+        {
+          "file": "rip.c",
+          "line": 316
+        },
+        {
+          "file": "things.c",
+          "line": 477
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "c3cf6fc5778f0324c402b36a6adb404e59162edf51a5304a6c1dd95820fa9b46",
+      "text": "station boundary",
+      "locations": [
+        {
+          "file": "command.c",
+          "line": 614
+        },
+        {
+          "file": "command.c",
+          "line": 615
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "8dd7871b52fd5765059f398c5b5ffcece805508f9643d6f4fd23dd33f20c2816",
+      "text": "credits",
+      "locations": [
+        {
+          "file": "command.c",
+          "line": 616
+        },
+        {
+          "file": "init.c",
+          "line": 91
+        },
+        {
+          "file": "init.c",
+          "line": 212
+        },
+        {
+          "file": "scrolls.c",
+          "line": 299
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "bf1880dc5a5a61fa5bf6bf4d25da949d98a0aa1f44298686dfd2e3ba0f09ae9f",
+      "text": "a station lift",
+      "locations": [
+        {
+          "file": "command.c",
+          "line": 617
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "02737b7a3942e1c592dbaca2b7d7409b43866ce4934fb8f4901f6399103629c4",
+      "text": "hatch",
+      "locations": [
+        {
+          "file": "command.c",
+          "line": 618
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "4de590f566c49cce149384bc3ada3e5e47f2a2d413382b42b05e082e7a0b4e0c",
+      "text": "deck surface",
+      "locations": [
+        {
+          "file": "command.c",
+          "line": 619
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "9d1a4d7e2b6e1f5d10ccfae10170aa5a812e5e73774efc88a733b9cd658bb145",
+      "text": "navigator",
+      "locations": [
+        {
+          "file": "command.c",
+          "line": 620
+        },
+        {
+          "file": "fight.c",
+          "line": 491
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "711f82be4b4dfe1981c99bbd69f2f714f624ae8786260b4b6fcd758b6980e673",
+      "text": "connector",
+      "locations": [
+        {
+          "file": "command.c",
+          "line": 621
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "2e32abaa015cdd7f1034cb043eead542c625b80b05a478532ec9dcb56bec3fc7",
+      "text": "sensor",
+      "locations": [
+        {
+          "file": "command.c",
+          "line": 622
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "6f32630ae3ae4318ab27ec6aeb6e8ec4be99605e4189f7c490c12bb17d25ba58",
+      "text": "vial",
+      "locations": [
+        {
+          "file": "command.c",
+          "line": 623
+        },
+        {
+          "file": "things.c",
+          "line": 37
+        },
+        {
+          "file": "things.c",
+          "line": 602
+        },
+        {
+          "file": "wizard.c",
+          "line": 104
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "a8f2b314899139c67e822fefc626e1d8c369856621895c42f602a5e8f8dc5424",
+      "text": "sheet",
+      "locations": [
+        {
+          "file": "command.c",
+          "line": 624
+        },
+        {
+          "file": "things.c",
+          "line": 603
+        },
+        {
+          "file": "wizard.c",
+          "line": 105
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "90960c7a6145a97cbb09d6478535c2b31f76050310286dabe9ae2463ee003850",
+      "text": "ration",
+      "locations": [
+        {
+          "file": "command.c",
+          "line": 625
+        },
+        {
+          "file": "wizard.c",
+          "line": 106
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "ae9c1860237eea75d9cb26b1242870e54d7cf3f44be5d3d14e27535ebc7c98db",
+      "text": "tool",
+      "locations": [
+        {
+          "file": "command.c",
+          "line": 626
+        },
+        {
+          "file": "wizard.c",
+          "line": 110
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "7ecc4a60859f135b430677ec5a5574fa288f3076ef6909ddac672cb1beefb7f0",
+      "text": "bulkhead",
+      "locations": [
+        {
+          "file": "command.c",
+          "line": 627
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "c310d2909d674fb26bfa0528a723e548a582e89bea7adb2e8a55b73118225f8b",
+      "text": "shell",
+      "locations": [
+        {
+          "file": "command.c",
+          "line": 628
+        },
+        {
+          "file": "init.c",
+          "line": 365
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "151d465bc3af98bcd23506d53a469947163cf6b081621856c4eac0e1b26b8cee",
+      "text": "the survey lens",
+      "locations": [
+        {
+          "file": "command.c",
+          "line": 629
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "d37b4cb06465c4847b38fbcb15a47516b2b2c97a2ddf611bd6f7fd2adf479fd1",
+      "text": "band",
+      "locations": [
+        {
+          "file": "command.c",
+          "line": 630
+        },
+        {
+          "file": "things.c",
+          "line": 39
+        },
+        {
+          "file": "things.c",
+          "line": 604
+        },
+        {
+          "file": "wizard.c",
+          "line": 108
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "3944b6826769d722c2485639c34a80c9bb52dded025ea2287ce7cfdafd875e60",
+      "text": "rod or coil",
+      "locations": [
+        {
+          "file": "command.c",
+          "line": 631
+        },
+        {
+          "file": "wizard.c",
+          "line": 109
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "8db8ebdae4c8489debd37984dd583980e624ba8f91b83193ea8f5f93fd12bcdf",
+      "text": "Choose a board symbol: ",
+      "locations": [
+        {
+          "file": "command.c",
+          "line": 635
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "d978fa518ec146635e23b5a1824c7da9e43c3b0262eb3adc4ddfdfe71ab38601",
+      "text": "unrecognized symbol",
+      "locations": [
+        {
+          "file": "command.c",
+          "line": 647
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "a460f346896cd996621d9c8b8a5e60139da07b267e14c877a8aee880dd6d5551",
+      "text": "Stand on the lift to descend",
+      "locations": [
+        {
+          "file": "command.c",
+          "line": 668
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "294a75ad1d51c4dc3f4a8b29273291872ca17c36a25ddd2483ab658cbacd1cd5",
+      "text": "The lift carries you toward the surface",
+      "locations": [
+        {
+          "file": "command.c",
+          "line": 693
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "8c768efabddea84f1a0f03a4b4e6c5a8c0b895825ef3f5b9706f5d839c66b2c6",
+      "text": "The return lift requires the survey lens",
+      "locations": [
+        {
+          "file": "command.c",
+          "line": 696
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "4c0a06d5f2fbbb5c2a68fef7ea19a8527f0df675d4df5ed771dae5064f74b85a",
+      "text": "Stand on the lift to ascend",
+      "locations": [
+        {
+          "file": "command.c",
+          "line": 698
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "76ea0110d1899eaa1735cb0a233ace6159484dfa86d08505d9e7c781ac1401d2",
+      "text": "Your lift field prevents contact with the deck",
+      "locations": [
+        {
+          "file": "command.c",
+          "line": 711
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "9fd6fd2ffd299ff3691b5e216c4778afe73ff2b7e23fb14e138b032cfc0994e0",
+      "text": "label",
+      "locations": [
+        {
+          "file": "command.c",
+          "line": 727
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "f74d717ffe6772a8641d36a02049ec4e866c6028c23d6fb8f399dcd96a4619fc",
+      "text": "This item does not accept a label",
+      "locations": [
+        {
+          "file": "command.c",
+          "line": 756
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "c3af863c6ba63a4ddc13f77d1edacb1c500866548ae850071de677ccf17c12a8",
+      "text": "Its function is already known",
+      "locations": [
+        {
+          "file": "command.c",
+          "line": 765
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "dc590959fedbb58009eb8bdf50d9f84a03755302833012f10ee31baf0d7499c7",
+      "text": "Previous label: ",
+      "locations": [
+        {
+          "file": "command.c",
+          "line": 771
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "e04973c1287a6f8a2eb20adf85691152b4da722c427cdf4cf567e2a4c4dc03ad",
+      "text": "labelled \"%s\"",
+      "locations": [
+        {
+          "file": "command.c",
+          "line": 772
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "0c4e6c324bc86e75906ac15ae5f8d0cc5b855e0137633fe9a838965032121e94",
+      "text": "New label: ",
+      "locations": [
+        {
+          "file": "command.c",
+          "line": 775
+        },
+        {
+          "file": "misc.c",
+          "line": 558
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "6c2f5563cdb848dc166c90ff68cc0c2c2f551f98356714172f15df67ac8f2bbd",
+      "text": "Enter the new label: ",
+      "locations": [
+        {
+          "file": "command.c",
+          "line": 777
+        },
+        {
+          "file": "misc.c",
+          "line": 558
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "19b719b1f4d98a162325f04adef7a854fc790d192bd0f0d58b4197a14be968f7",
+      "text": "Equipped %s (",
+      "locations": [
+        {
+          "file": "command.c",
+          "line": 803
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "aa1bc3d35c7056d2e1e244e96305609ce6018ea9369c0e6458d0bca53e20e26b",
+      "text": "Equipment: ",
+      "locations": [
+        {
+          "file": "command.c",
+          "line": 814
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "a22cbaee72e8fbfdcaf85a4d2f02772d96e08fb95e86341a7a8b8a8d747ac225",
+      "text": "%s empty slot",
+      "locations": [
+        {
+          "file": "command.c",
+          "line": 815
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "66890bec3715780a67849f4aa4709fce234d669f5071d1a3b4ec9c8d088d1056",
+      "text": "No scheduler slot is free",
+      "locations": [
+        {
+          "file": "daemon.c",
+          "line": 41
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "d4ffbd6f7d59d044551342a9585a07d51cf95f7063978c0e7d14bd291884f853",
+      "text": "The %s effect is fading",
+      "locations": [
+        {
+          "file": "daemons.c",
+          "line": 87
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "3cffe9f48f4418d59308b96b1d0edf2475aa4c223f6ffb300943c0f94c0ba004",
+      "text": "contour shift",
+      "locations": [
+        {
+          "file": "daemons.c",
+          "line": 87
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "38fbb9558909790aede610736e35dee591f1a3852d0d226483e6c693e071709d",
+      "text": "signal blur",
+      "locations": [
+        {
+          "file": "daemons.c",
+          "line": 87
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "e03c3759f07c4b59ed92abf2948457fac9384a9223f5ccc5ab52edb2656187f4",
+      "text": "The display returns to ordinary contrast",
+      "locations": [
+        {
+          "file": "daemons.c",
+          "line": 118
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "19b9e5c5f019b66dc7e1fc1c5b7e2f115dfe02d4815456ba249ec684f72286f0",
+      "text": "Your view clears",
+      "locations": [
+        {
+          "file": "daemons.c",
+          "line": 119
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "f28ce37b1e4c7ed7ef29ec3255d816b83138a05fbe2ca03dae8002cd3cb6d82c",
+      "text": "Overdrive has ended",
+      "locations": [
+        {
+          "file": "daemons.c",
+          "line": 131
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "ce8f55a156c44abe32b360423a0513841e41fee48967e5a4aa58621a4dbb3f2c",
+      "text": "Your balance fails as supplies run low. ",
+      "locations": [
+        {
+          "file": "daemons.c",
+          "line": 156
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "36f6d9fd299dafef942d9c3ae1d3397c5391f6a7ed2a256cdbcc954ac84df64d",
+      "text": "You cannot keep moving without a ration. ",
+      "locations": [
+        {
+          "file": "daemons.c",
+          "line": 157
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "5f53c9786de4198f7ded2b2cea6d54cd634786880aa0df83c9706bd6a571cbd3",
+      "text": "The station spins around you",
+      "locations": [
+        {
+          "file": "daemons.c",
+          "line": 158
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "e5dbd0c4bdd80376dacf7a65954208b949618addb9e5e1d0c0ed5654b47bb466",
+      "text": "You lose consciousness",
+      "locations": [
+        {
+          "file": "daemons.c",
+          "line": 158
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "a29c225f0c86094d39e08dbaf006c199c25ebbe5894f4728a00aa30de949b6b0",
+      "text": "Your footsteps are becoming unsteady",
+      "locations": [
+        {
+          "file": "daemons.c",
+          "line": 168
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "80650621c7e737009b1ad0eb8b57d88977eec63dc5d93c56eec9df9bff0a16fc",
+      "text": "Your reserves are almost empty",
+      "locations": [
+        {
+          "file": "daemons.c",
+          "line": 169
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "34d0af3df943fc6e736fe4c1322ceffb822330dac661378f6ca63cd575469074",
+      "text": "ration needed",
+      "locations": [
+        {
+          "file": "daemons.c",
+          "line": 175
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "29261959fd0c805095f59f6ad47dee40c1f360b0329f2ad778787f1858ba1910",
+      "text": "supplies low",
+      "locations": [
+        {
+          "file": "daemons.c",
+          "line": 175
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "fb6d45a5868113a6ce3f9e4e61960bd8a657cb31a43f51a957790398a62507fe",
+      "text": "Your ration reserve is running low",
+      "locations": [
+        {
+          "file": "daemons.c",
+          "line": 177
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "22b6fa4d94a2af60c440d5a6549dcbbad5e45bdbc783a493dd09f1b4e0a865a5",
+      "text": "Eat a ration soon",
+      "locations": [
+        {
+          "file": "daemons.c",
+          "line": 178
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "87a6a6dfe7b3b859f479b0f7cc65f1992992f6c3a0c1a1625fc4d51e8ddac297",
+      "text": "False contours fade from view",
+      "locations": [
+        {
+          "file": "daemons.c",
+          "line": 234
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "a44cb40938f8299c2ac2945eb380e5d50e2460c1e22f0a01bff6c5ea1d4e6631",
+      "text": "Your lift field drops abruptly",
+      "locations": [
+        {
+          "file": "daemons.c",
+          "line": 293
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "8170d766af70068e9dd689d4c9866b33832e7b9236fd5c0121e26f8a8d504486",
+      "text": "Your boots touch the deck again",
+      "locations": [
+        {
+          "file": "daemons.c",
+          "line": 294
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "482e592a25d572bab6bddf5875d30b0446c620229834cb41dce0570870636287",
+      "text": "Replace",
+      "locations": [
+        {
+          "file": "extern.c",
+          "line": 69
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "9dd23304e6ed7da6769a7a7f9b4497b3aea0d80dead4372fd2865b897f1dce86",
+      "text": "Paged",
+      "locations": [
+        {
+          "file": "extern.c",
+          "line": 70
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "d0f86d2093269896341fb4121f115da27f07de0418653b34dff083fc56b5c0f1",
+      "text": "Erase",
+      "locations": [
+        {
+          "file": "extern.c",
+          "line": 71
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "012682634bb83785896d743ec5119aa44d50b113743c83d1b362f58234fe1acb",
+      "text": "\tshow the key guide",
+      "locations": [
+        {
+          "file": "extern.c",
+          "line": 325
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "cb5fcfb081ceaab0f8503ab5c0e1a16b2cf67426446f2eae6bdce62c2ba8b991",
+      "text": "\tinspect a board symbol",
+      "locations": [
+        {
+          "file": "extern.c",
+          "line": 326
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "b3ddb0d160a70b8d6f4d748ba26249d47333f0e7feb0f9c5e4cfd532fb51cc9f",
+      "text": "\tstep west",
+      "locations": [
+        {
+          "file": "extern.c",
+          "line": 327
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "ef105dbbb2be748322880919e061fbb8dfc2ccbdba9805a9bc7c183e2f3dcfc3",
+      "text": "\tstep south",
+      "locations": [
+        {
+          "file": "extern.c",
+          "line": 328
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "cc4fc84664960baf873d9dae860d630aa4ac3bbebfc8288361c2dd5cf6606546",
+      "text": "\tstep north",
+      "locations": [
+        {
+          "file": "extern.c",
+          "line": 329
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "8767c6116792a241d0c1231542baa7cc2410104d69ae9e7138878d6200702608",
+      "text": "\tstep east",
+      "locations": [
+        {
+          "file": "extern.c",
+          "line": 330
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "ef4f2f105438579d50a36d29a50ddbe1fb89ef3f5132b7d75fef5bd88f7eabb0",
+      "text": "\tstep northwest",
+      "locations": [
+        {
+          "file": "extern.c",
+          "line": 331
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "a6049186500f7f502f562d9469f404393015a03160dd53830849f6c81cac4be4",
+      "text": "\tstep northeast",
+      "locations": [
+        {
+          "file": "extern.c",
+          "line": 332
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "b274c8811cac398f17a1f435060641acc65487452adfeaf882b47b19da8241c7",
+      "text": "\tstep southwest",
+      "locations": [
+        {
+          "file": "extern.c",
+          "line": 333
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "39089ea4feb1c233e50db8804c3cd731eeb0ce70999ce4dae06c5add7f8317c0",
+      "text": "\tstep southeast",
+      "locations": [
+        {
+          "file": "extern.c",
+          "line": 334
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "8aa8bc21d203523bba7d456ca0d7922d87132bd89262445ceeb77df89ac32b4f",
+      "text": "\trun west",
+      "locations": [
+        {
+          "file": "extern.c",
+          "line": 335
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "7c7c0c33f62c9d769ad9c0c0486eff779bebaf018bdacb361cb926fa4691da85",
+      "text": "\trun south",
+      "locations": [
+        {
+          "file": "extern.c",
+          "line": 336
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "9cd212130799326d10859411e278febdeb2c337df95863e22bbed895689c408a",
+      "text": "\trun north",
+      "locations": [
+        {
+          "file": "extern.c",
+          "line": 337
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "8d9ed92148555f05d4e94f06df16d7bcb49ab294fe1011f711288f7be06c6b07",
+      "text": "\trun east",
+      "locations": [
+        {
+          "file": "extern.c",
+          "line": 338
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "0ee9b502106d3c3297d6e38cb46cc2bb10dd74de5dec5a534734bb2e58a1ff90",
+      "text": "\trun northwest",
+      "locations": [
+        {
+          "file": "extern.c",
+          "line": 339
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "520664ce3b84b02266e4d2d61f53eaae43000c2e8da1341b04dff8d34fe61c7b",
+      "text": "\trun northeast",
+      "locations": [
+        {
+          "file": "extern.c",
+          "line": 340
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "9e848caa65b5097742740a63a036d989b88f3e9dee549f53cb4cd9a33e5b8388",
+      "text": "\trun southwest",
+      "locations": [
+        {
+          "file": "extern.c",
+          "line": 341
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "9cf9e62d3646e9a9ffb48742b9ae27e5d59f762d36fd1049897782f10796cb86",
+      "text": "\trun southeast",
+      "locations": [
+        {
+          "file": "extern.c",
+          "line": 342
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "0038fb2c2e6ed057518d3b4462d5d544629a23dd6ad4847b5c2165415ff0506d",
+      "text": "\trun west toward an actor",
+      "locations": [
+        {
+          "file": "extern.c",
+          "line": 343
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "10b07ccc4b33ca7d83fed9c2e4bb325439b9aad574a17889fb4de94f58a81dfc",
+      "text": "\trun south toward an actor",
+      "locations": [
+        {
+          "file": "extern.c",
+          "line": 344
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "dbfd08917bd97817ae2333300aa39968d0530495c0aa625c7d44b602558ecb44",
+      "text": "\trun north toward an actor",
+      "locations": [
+        {
+          "file": "extern.c",
+          "line": 345
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "0b1ce13d78d88a50b7738f18eb3e2c2631e2ada824f7982aae6c99fa1c6c20e1",
+      "text": "\trun east toward an actor",
+      "locations": [
+        {
+          "file": "extern.c",
+          "line": 346
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "1492fde42125de0cfe03ce95a2d198ee3e584d4f2613451fe444db9325d0e0b1",
+      "text": "\trun northwest toward an actor",
+      "locations": [
+        {
+          "file": "extern.c",
+          "line": 347
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "5a48c1cc7da1ebf4b63e5faca69c1af6ef37e5c316800521edaf6f34797f4e64",
+      "text": "\trun northeast toward an actor",
+      "locations": [
+        {
+          "file": "extern.c",
+          "line": 348
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "ece63b366ec4ebd41fa5908ba36bc2717ab88dab3b76839206625c3204f51922",
+      "text": "\trun southwest toward an actor",
+      "locations": [
+        {
+          "file": "extern.c",
+          "line": 349
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "2fb4146d1b2736e6b5dbf7e849961c3e88d95629304362ea4ff56f463ae37c48",
+      "text": "\trun southeast toward an actor",
+      "locations": [
+        {
+          "file": "extern.c",
+          "line": 350
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "aa2de1d2f5f1c06e5b2114dc2ed20ed0e9b24fd4a3def08b2e827b8af7ec9188",
+      "text": "\tSHIFT + direction runs",
+      "locations": [
+        {
+          "file": "extern.c",
+          "line": 351
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "fe2e818f5f885a6e7256296345ed306b2f2d6c0db94248e79f8a9fac525c40f7",
+      "text": "\tCTRL + direction approaches",
+      "locations": [
+        {
+          "file": "extern.c",
+          "line": 352
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "229630cc915e09534c5f5d39719df94c1f3cd98ace2ff2d355fd9aaaa435cc9b",
+      "text": "<dir>\tattack until health is low",
+      "locations": [
+        {
+          "file": "extern.c",
+          "line": 353
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "dc6cf526f733bbdcfdbb6fca75b8b9f37b159672b431aadb086ac47400c1a5af",
+      "text": "<dir>\tlaunch an item",
+      "locations": [
+        {
+          "file": "extern.c",
+          "line": 354
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "42528c109c1ba66541666d530c3c8ed9c4043968e3125b7d67ed0c273754b751",
+      "text": "<dir>\tstep without collecting",
+      "locations": [
+        {
+          "file": "extern.c",
+          "line": 355
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "debf617971b90833b12be339ad685a89269bb055aeff6aa29cedf97908130a93",
+      "text": "<dir>\tactivate a rod",
+      "locations": [
+        {
+          "file": "extern.c",
+          "line": 356
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "0b02363450ae95770fb2202e4b5d7b5d23f605134cfd5ab5fa189e9cabca7593",
+      "text": "<dir>\tinspect a sensor",
+      "locations": [
+        {
+          "file": "extern.c",
+          "line": 357
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "4d36c4438856d9d67a8b0ed09e5ce7bfb30aa50fc9a8c5602d6dff416baeb744",
+      "text": "\tscan adjacent seams",
+      "locations": [
+        {
+          "file": "extern.c",
+          "line": 358
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "8875d67d1bb29e7328652ba79c0521353a101247601a4fdd751b3686163899f7",
+      "text": "\ttake a lift deeper",
+      "locations": [
+        {
+          "file": "extern.c",
+          "line": 359
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "85a0d669eb6d30505e7256cadebe9a8fc1297f994cbd5bf260ad051d9cb1f24a",
+      "text": "\treturn toward the surface",
+      "locations": [
+        {
+          "file": "extern.c",
+          "line": 360
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "efbe3481d3c2a0d7bbe8f45d3a0edc40d0df4d47d09c333e10af80aae043a786",
+      "text": "\twait one turn",
+      "locations": [
+        {
+          "file": "extern.c",
+          "line": 361
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "2acb2e5cf32e90f28bfb56f89ce08262264deb8d67293604d40a99ba58770ba1",
+      "text": "\tcollect the item underfoot",
+      "locations": [
+        {
+          "file": "extern.c",
+          "line": 362
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "ad6bcbe4ce24dfa8542f83cbbd33a0de5470709d7a0e77b186d1676a8282128f",
+      "text": "\topen the equipment list",
+      "locations": [
+        {
+          "file": "extern.c",
+          "line": 363
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "ae80df09d6f6d046cf09a077a6f3fbfb4c270dc4b6c40309c08473b977ffc014",
+      "text": "\tinspect one carried item",
+      "locations": [
+        {
+          "file": "extern.c",
+          "line": 364
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "7c1d03cb0da7f7845097a598062ff25e57463bd0a2ea0f995dc0dc93cf0813ee",
+      "text": "\tdrink a vial",
+      "locations": [
+        {
+          "file": "extern.c",
+          "line": 365
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "a468761e6f83f8101c433b40c233d2bf0451cc1353521f1ebeb2fc6492008260",
+      "text": "\tread a sheet",
+      "locations": [
+        {
+          "file": "extern.c",
+          "line": 366
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "8324a580286f5cf0659929d1e2780e46d1b847c2df8bbb89e328a927d202a7f2",
+      "text": "\tconsume a ration",
+      "locations": [
+        {
+          "file": "extern.c",
+          "line": 367
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "f67ee2c574f1de51acad7bcd9e7a98e7676bdf60187bb9c842c70b98df490d89",
+      "text": "\tselect a hand tool",
+      "locations": [
+        {
+          "file": "extern.c",
+          "line": 368
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "3f467a5bb80190cd9e3aa36c9202d5dd4e1fd3245b9086bd3cbdd635b92b1ccc",
+      "text": "\tfit a shell",
+      "locations": [
+        {
+          "file": "extern.c",
+          "line": 369
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "45245c7f341331eff303db840d96f193e1d417052514095ebc859413f81cf5c1",
+      "text": "\tremove the fitted shell",
+      "locations": [
+        {
+          "file": "extern.c",
+          "line": 370
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "ed12d39504e05a6f99248c0e3ec8260ab16fe864adeaa4d2f0ef230abe4ac1ef",
+      "text": "\tfit a band",
+      "locations": [
+        {
+          "file": "extern.c",
+          "line": 371
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "b19d936ce1867d323c463c48efef2d984a006fd815198724a52f404e2816e5cc",
+      "text": "\tremove a band",
+      "locations": [
+        {
+          "file": "extern.c",
+          "line": 372
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "83e0191483f45668dafb3f793ffeb257a80256bf3cb1140cefadd377b8d9803a",
+      "text": "\tleave an item on the deck",
+      "locations": [
+        {
+          "file": "extern.c",
+          "line": 373
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "509d17460bf62696fb267788bd7d7db0baca487481085637433afe1d5cd219ed",
+      "text": "\tlabel an unknown item",
+      "locations": [
+        {
+          "file": "extern.c",
+          "line": 374
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "d80e0c0ed5495a0c782044e63b0eadaa3fdeb246c64320782a13f5082fbd20df",
+      "text": "\tperform the previous action",
+      "locations": [
+        {
+          "file": "extern.c",
+          "line": 375
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "ad31b03e9d94ae8599091428e3f0f4ea3888d8a5b6dc2b86d653b96e9150ed7b",
+      "text": "\tinspect your hand tool",
+      "locations": [
+        {
+          "file": "extern.c",
+          "line": 376
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "3b1d220957115b4ca3f903615486497836efc44fefa82803515873cc3ef8b7ae",
+      "text": "\tinspect your shell",
+      "locations": [
+        {
+          "file": "extern.c",
+          "line": 377
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "6a1a2eaec38bc0c594279c102725cade5811c3d74c2c73df671f02919a232067",
+      "text": "\tinspect fitted bands",
+      "locations": [
+        {
+          "file": "extern.c",
+          "line": 378
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "150dc00f68e1f160ba22ae2b5daffb5775f65112346e747107353b5a07445330",
+      "text": "\tinspect navigator status",
+      "locations": [
+        {
+          "file": "extern.c",
+          "line": 379
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "bd1d97397eec926f1cdd8a062eb2db9f41a795357b80494299b770d389d9566d",
+      "text": "\treview identified equipment",
+      "locations": [
+        {
+          "file": "extern.c",
+          "line": 380
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "1b83447476b38e2dfe6b8357e69f4ea04450ba6051f2e5668ec3844ec731ba4e",
+      "text": "\topen session preferences",
+      "locations": [
+        {
+          "file": "extern.c",
+          "line": 381
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "ec21e7c112213ce9a992967d002456346775bf61df7fffc2c669b4b36e707019",
+      "text": "\trefresh the board",
+      "locations": [
+        {
+          "file": "extern.c",
+          "line": 382
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "8b5745c42a2a03320acdd790ebcecc6d9510f004e097666a4adfbd662bc465f4",
+      "text": "\trecall the previous notice",
+      "locations": [
+        {
+          "file": "extern.c",
+          "line": 383
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "20bdae13906138bda4760ccfc52b245c2b5f1d45a3674a91b4662d876478d564",
+      "text": "\tabandon the current action",
+      "locations": [
+        {
+          "file": "extern.c",
+          "line": 384
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "3549673eeec27afdf85aec55ec7c7fb2aa6626d79093ff7d455f4f5ce8a21bd0",
+      "text": "\tsave a checkpoint and exit",
+      "locations": [
+        {
+          "file": "extern.c",
+          "line": 385
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "0a2c61bea86f1599bfb3cfb5d4e8adbab0a750aac61f6c0d6b5471708fe8a425",
+      "text": "\tend the expedition",
+      "locations": [
+        {
+          "file": "extern.c",
+          "line": 386
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "0bfa4bd74410b24dfe745c167980a8909580a7da6061f9f86e27ac2d63119df9",
+      "text": "\topen a host shell (unavailable here)",
+      "locations": [
+        {
+          "file": "extern.c",
+          "line": 387
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "1562b7448dceaacc2d1e406250ce7b04ba84b8fe300d827a7ff671ce9581dc59",
+      "text": "<dir>\tattack until an actor falls",
+      "locations": [
+        {
+          "file": "extern.c",
+          "line": 388
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "534331c5995768f9cb70b49354f2276d697f13eb9f86448d90ea68cc7848ee24",
+      "text": "\tshow the build number",
+      "locations": [
+        {
+          "file": "extern.c",
+          "line": 389
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "f0f7d99a990b2deeb451fbf807067c37b0675dc74c0407f7e396a1d3743b7a32",
+      "text": " land a strong strike against ",
+      "locations": [
+        {
+          "file": "fight.c",
+          "line": 22
+        },
+        {
+          "file": "fight.c",
+          "line": 26
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "ddf09c02f519afb3c18f9afc77542ac62c6f7418a617cf845915bb19994593a8",
+      "text": " strike ",
+      "locations": [
+        {
+          "file": "fight.c",
+          "line": 23
+        },
+        {
+          "file": "fight.c",
+          "line": 27
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "c8b7d252c5339e03b153c3213c0da127e95ea760b6b5c41b833828649ffe3575",
+      "text": " damage ",
+      "locations": [
+        {
+          "file": "fight.c",
+          "line": 24
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "33a00d27c31d5231b8a15cfdbac0a23ff9e68986b35fefac9f2875dec75b6717",
+      "text": " connect with ",
+      "locations": [
+        {
+          "file": "fight.c",
+          "line": 25
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "d777fcba60b25a9c206614380007712737abc7944d691405f4ff5bcdf0a7a800",
+      "text": " damages ",
+      "locations": [
+        {
+          "file": "fight.c",
+          "line": 28
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "0f53807961c2560bd6031f54297b710d876aacf04dc6402bbca43dc13717c86e",
+      "text": " connects with ",
+      "locations": [
+        {
+          "file": "fight.c",
+          "line": 29
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "a826e915af797ceb6e48556d27740bb0f6c9e2b77e64370015befb400a7736dc",
+      "text": " fail to connect",
+      "locations": [
+        {
+          "file": "fight.c",
+          "line": 33
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "78f8554d32bcd5af2eb548d95a1324237c1188215b85b5d57e5614272c2c512b",
+      "text": " strike past the target",
+      "locations": [
+        {
+          "file": "fight.c",
+          "line": 34
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "c632865a77a66719599b840d330c403bcd28cf68e3da3258e71db8a6fd5bd081",
+      "text": " miss the target narrowly",
+      "locations": [
+        {
+          "file": "fight.c",
+          "line": 35
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "9069d7a3b98308f130ef8d7930e366ef666b5f6764349a8ee178feaadd726650",
+      "text": " cannot reach the target",
+      "locations": [
+        {
+          "file": "fight.c",
+          "line": 36
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "0b5c3944cd05b4878c3822bae9f23b16fac12b9d17c8752605cbba7cff318ebd",
+      "text": " fails to connect",
+      "locations": [
+        {
+          "file": "fight.c",
+          "line": 37
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "bb01116415b2f752145f3601976a142e3086df1e7a8f55ee276ca6426e995495",
+      "text": " strikes past the target",
+      "locations": [
+        {
+          "file": "fight.c",
+          "line": 38
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "64ebcfe5e6dec53a49b535a6dcd02e9e127f46a773a732c9f7f99be5d0b4160a",
+      "text": " misses narrowly",
+      "locations": [
+        {
+          "file": "fight.c",
+          "line": 39
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "5c31160019bb6d7da66736bcb7e65a55bd45a62ec016b592e33c9322a9898869",
+      "text": " cannot reach the target",
+      "locations": [
+        {
+          "file": "fight.c",
+          "line": 40
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "a8f615cc8c6954b902a1a569c4c41e1ee30ac09bc1a016a76d2d1d7ea77f036f",
+      "text": "No attack target at %d,%d",
+      "locations": [
+        {
+          "file": "fight.c",
+          "line": 75
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "f58dc4eeac2608e8d0ef58fe677c28c6cb465d997300518ed4292d1fabbb8d7f",
+      "text": "The object is an actor in disguise",
+      "locations": [
+        {
+          "file": "fight.c",
+          "line": 97
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "d82c11c4b4b3fa7962a9296ae9afbfd5968471fe4bf3b39a1205fd51c5c760b4",
+      "text": "An exchange mimic reveals itself",
+      "locations": [
+        {
+          "file": "fight.c",
+          "line": 98
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "c992f871fa1640ebbc06f08ce68e4c3eaeb0dbdeeea10408f746f098618fc54b",
+      "text": "The %s field leaves your hands",
+      "locations": [
+        {
+          "file": "fight.c",
+          "line": 119
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "3f585833ddb78641b6be9a0402216e24d4a87fbec1766304d9d45fe6e18864f0",
+      "text": "%s loses its bearings",
+      "locations": [
+        {
+          "file": "fight.c",
+          "line": 124
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "355e31c2365d0b5a8e4516c109efeb8f204d2f0c3301f69ead55d703cad88010",
+      "text": "Movement locked",
+      "locations": [
+        {
+          "file": "fight.c",
+          "line": 202
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "ac3dd12bf53a8a505cf633cc1765895e74036f9ca689385e89c6041864015295",
+      "text": " by %s",
+      "locations": [
+        {
+          "file": "fight.c",
+          "line": 204
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "49942b058bb3c06418743407d0111abf7d5ec5bc8325966f54e4fdaa52c38bae",
+      "text": "Corrosion from the bite reduces your power",
+      "locations": [
+        {
+          "file": "fight.c",
+          "line": 220
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "1d301ccb8fe8fff5385ac6cc1bb7532076ebe5e117b6dd263efcf26f7f99ecc4",
+      "text": "The bite reduces your power",
+      "locations": [
+        {
+          "file": "fight.c",
+          "line": 222
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "0d429bf692b3c8d869fe293a39d1a50ed53aaf9b77a1a43dfe60131cb5442892",
+      "text": "Your power dips briefly",
+      "locations": [
+        {
+          "file": "fight.c",
+          "line": 227
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "8a97b9ca1c486bb19b34ef100bc1014d9f0ec5f298035b8f2f461594ea45c2bb",
+      "text": "The bite cannot penetrate your shielding",
+      "locations": [
+        {
+          "file": "fight.c",
+          "line": 229
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "41d675eb4c994f7f1ba71b38dcaa63e5304bc2382723b81ed280762eb34fe4fe",
+      "text": "Your power reserve shrinks",
+      "locations": [
+        {
+          "file": "fight.c",
+          "line": 263
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "b222c9091e959d19f277f42f0feecd81c8e58da72b91f74c26bd4b3f1335b1d4",
+      "text": "Some credits are missing",
+      "locations": [
+        {
+          "file": "fight.c",
+          "line": 289
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "a1f3ca56fbc3075a9ee284179113c8f8b4cef29cc4cfad9d3c4bb6fd931e9425",
+      "text": "It took %s!",
+      "locations": [
+        {
+          "file": "fight.c",
+          "line": 311
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "ff56f7d96c89e769f473e3656120b1b008f89549d03abe87ec9c4c562f9cc2a2",
+      "text": "target",
+      "locations": [
+        {
+          "file": "fight.c",
+          "line": 356
+        },
+        {
+          "file": "init.c",
+          "line": 120
+        },
+        {
+          "file": "monsters.c",
+          "line": 192
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "921e9732b05bf20c69cd1102e2600e48db3ceb6948cbcb6313d7cd0c15ab8d11",
+      "text": "unseen target",
+      "locations": [
+        {
+          "file": "fight.c",
+          "line": 356
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "bce28d926e714f176081d5bbaf50f16c13f39eb0a9bf667e105fbf472e1143d9",
+      "text": "Attack roll %dx%d = %d; tool=%d power=%d defense=%d",
+      "locations": [
+        {
+          "file": "fight.c",
+          "line": 467
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "8ffb128c3592e92e97b63bddc66a654fbe78c83decc175a7233968d9d3c65af7",
+      "text": "The %s strikes ",
+      "locations": [
+        {
+          "file": "fight.c",
+          "line": 509
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "0e77aafaceea38ef03f9e4e3b7342cd81e9b158c1cb32d64d310a95c84d4204b",
+      "text": "You strike ",
+      "locations": [
+        {
+          "file": "fight.c",
+          "line": 511
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "1754a0bed26977801e10f7de70dbd76427e364b895e3f1ff2828b04780e83454",
+      "text": " strike",
+      "locations": [
+        {
+          "file": "fight.c",
+          "line": 533
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "23bedf1bb7913d8f6aecbcf78c3f3dfbcd3e07c58b960f5fd22054f1594605c7",
+      "text": "The %s swings past ",
+      "locations": [
+        {
+          "file": "fight.c",
+          "line": 584
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "72840328aecbd3ed9d8c1db2355146704984658bfdefae6e820bdf5c244cc77a",
+      "text": "You swing past ",
+      "locations": [
+        {
+          "file": "fight.c",
+          "line": 586
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "8f52e6e46f1f14cdad000c8ec9aa83c87d26e5e2a081305cbbcb75a994b34ad8",
+      "text": ". Removed ",
+      "locations": [
+        {
+          "file": "fight.c",
+          "line": 669
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "c29a5efefedad703d39d5e83f02a5856504b10d3c20381902bdc82734cd00ba9",
+      "text": "You ",
+      "locations": [
+        {
+          "file": "fight.c",
+          "line": 675
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "45450835a5a2d8de302a45e744062c731bf9337973b3f4d43c94cb7c786d681a",
+      "text": "disabled ",
+      "locations": [
+        {
+          "file": "fight.c",
+          "line": 676
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "b1c51b3a1bf84356b1d3ccba4050cf77886b146e88b42aeee454859cedc3c6f9",
+      "text": "equipment",
+      "locations": [
+        {
+          "file": "init.c",
+          "line": 359
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "9671c5e21de987d5a26ccd19d6f1f49ff2ec9a565a4565c79bce1218298bea74",
+      "text": "vials",
+      "locations": [
+        {
+          "file": "init.c",
+          "line": 360
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "159b3c72bef01329f0719ce2a2e3573495810a210e2c26da1f5531ee1a2e4da8",
+      "text": "sheets",
+      "locations": [
+        {
+          "file": "init.c",
+          "line": 361
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "bf51d97bea11629a982ce8e7628a8224123262878ff47abe6c7648c9fa6ace33",
+      "text": "bands",
+      "locations": [
+        {
+          "file": "init.c",
+          "line": 362
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "0ed87c781ea06b8d63964cf50a848e84c0c00e6812ea07a3b2ac9b9596bb7a01",
+      "text": "rods",
+      "locations": [
+        {
+          "file": "init.c",
+          "line": 363
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "86767e19c0355d5b08fde530cdb0deaec76f3c1b52f07188825e838a2f07dd89",
+      "text": "tools",
+      "locations": [
+        {
+          "file": "init.c",
+          "line": 364
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "ea4e5711b0c61900f626349cda13fa7bdec59b257623e0d50afce9babc2d3149",
+      "text": "\nInvalid probability table %s; bound %d:\n",
+      "locations": [
+        {
+          "file": "init.c",
+          "line": 428
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "9941b61e19e86e096d8e6038308da21964c880b841b2ded87f4f12d4b07b6796",
+      "text": "Enter returns to the station",
+      "locations": [
+        {
+          "file": "init.c",
+          "line": 431
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "041b2e6168521682755a9a47dc8aa1df9543c8f054d19b41c512b3bb815740f8",
+      "text": "Low",
+      "locations": [
+        {
+          "file": "io.c",
+          "line": 184
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "e5699a27a8ce3bd03ebe8fedc81e402a63d08068a645d2cf6433855a0903c2f9",
+      "text": "Empty",
+      "locations": [
+        {
+          "file": "io.c",
+          "line": 184
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "2af6bb534ee1cde12a6c0195a81c0ba5ee5b221ad8c71c75057182f595d43d86",
+      "text": "Unsteady",
+      "locations": [
+        {
+          "file": "io.c",
+          "line": 184
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "bdd40088744d7cd718b42dcc7426a784121b9de23a1414951f925ec799bad818",
+      "text": "Deck: %d  Cr: %-5d  HP: %*d(%*d)  Power: %2d(%d)  Shell: %-2d  XP: %d/%ld  %s",
+      "locations": [
+        {
+          "file": "io.c",
+          "line": 223
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "05984e1bb325cefe7290facc114889da85ef64ab3fcdfbaea0d390d9c0953fe0",
+      "text": "Deck: %d  Cr: %-5d  HP: %*d(%*d)  Power: %2d(%d)  Shell: %-2d  XP: %d/%d  %s",
+      "locations": [
+        {
+          "file": "io.c",
+          "line": 232
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "6254820478bc7f67f148979147bb1cdccc478dec5b2081b396fb272716e5cb17",
+      "text": "Allocation failed after %d items",
+      "locations": [
+        {
+          "file": "list.c",
+          "line": 104
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "c7fe6a7e610e80339d302799f902027014f490ecbdf8bb1575947180ad15ebfb",
+      "text": "Ten",
+      "locations": [
+        {
+          "file": "mach_dep.c",
+          "line": 56
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "c60286af3294b4b6002ef54a2b9658fd93a33a002b1442d4a526a8ff17c713cd",
+      "text": "%s, host capacity is exhausted.\n",
+      "locations": [
+        {
+          "file": "mach_dep.c",
+          "line": 83
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "f2a53300a8b568750fed92d164a9ccfa6fd9702d22d3a315b11364f1868f283f",
+      "text": "Retry later; there is time for a%s %s.\n",
+      "locations": [
+        {
+          "file": "mach_dep.c",
+          "line": 84
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "1ec49759983bb821ffd89e5713cbd36680c3b47056d36477d947f399d0f9b24b",
+      "text": "You may choose whether to continue.\n",
+      "locations": [
+        {
+          "file": "mach_dep.c",
+          "line": 87
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "552eb0be4961411332b40f69fcfcf1e9ceb1227ba4dba2cd913c494ba78b9fe3",
+      "text": "Writing %s failed: %s\n",
+      "locations": [
+        {
+          "file": "mach_dep.c",
+          "line": 123
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "fb22c2834ab0a7f8874d65994619a1915e7e1b0444d7143277136b614298face",
+      "text": "Host capacity warning: depart within %0.1f minutes",
+      "locations": [
+        {
+          "file": "mach_dep.c",
+          "line": 286
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "14e0b894485682b7627a418df73e6921830777760d3ae2f40f684b2b589c9a9f",
+      "text": "Save a checkpoint within %0.1f minutes",
+      "locations": [
+        {
+          "file": "mach_dep.c",
+          "line": 287
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "52de3c1674eb4be96e4b7f13130eef788f40926753ee4eae726bae327e8c0bff",
+      "text": "Final capacity warning: %0.1f minutes remain",
+      "locations": [
+        {
+          "file": "mach_dep.c",
+          "line": 288
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "3054af3fc18817ead8cfa6768c37dd693ee0d97fa79ddc68a7126c7d814a5ae2",
+      "text": "Host capacity is low",
+      "locations": [
+        {
+          "file": "mach_dep.c",
+          "line": 297
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "32cd85da4c10b41f8b7b9007caf9762cef1df32d7b55093792955fe94df4d982",
+      "text": "The capacity timeout ended this expedition.\n",
+      "locations": [
+        {
+          "file": "mach_dep.c",
+          "line": 300
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "a297b2d7234c129fcd02731c7d57fb632ddc5802f6317c14688de5293d146d76",
+      "text": "Host capacity has recovered",
+      "locations": [
+        {
+          "file": "mach_dep.c",
+          "line": 309
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "bebb199fb35703450f994632fc493264d40439ffe18c09ab2a3166e76967e86d",
+      "text": "The score journal is locked. Wait longer\n",
+      "locations": [
+        {
+          "file": "mach_dep.c",
+          "line": 403
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "2de137126286125591d0db84a30eeed3409318cc3f0389ce0057b7dfa262d638",
+      "text": "until the current writer is finished?\n",
+      "locations": [
+        {
+          "file": "mach_dep.c",
+          "line": 404
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "1fc05cc0a01d073e01c1f3dd8ae25149131e295d543aef1e85a17db7d24e11c6",
+      "text": "Enter y to wait.\n",
+      "locations": [
+        {
+          "file": "mach_dep.c",
+          "line": 405
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "b238704d2db82a8dbbd79055a9062989c2f2e1cf8200677bf01c44da7265bffd",
+      "text": "Debug passphrase: ",
+      "locations": [
+        {
+          "file": "main.c",
+          "line": 35
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "5ccfc5bbe2d4b57f77c996c357df4fe091e7a89e9af280b91b8f8dc05529c096",
+      "text": "Navigator %s, preparing station #%d",
+      "locations": [
+        {
+          "file": "main.c",
+          "line": 109
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "edc1eae5d4e747b9aaf9b73e03420d22a79fc5bd66f08ab1a7f7525867e88f1a",
+      "text": "Navigator %s, preparing the survey stations...",
+      "locations": [
+        {
+          "file": "main.c",
+          "line": 112
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "efe18002504ed433b8192ad52d56a084be9c45812d6bb144ea59be76288bb4b1",
+      "text": "\nThe board requires %dx%d cells.\n",
+      "locations": [
+        {
+          "file": "main.c",
+          "line": 129
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "48088573e633cab4262dce8744d2e52edc04a38b25afd69039de4e3f683f71f3",
+      "text": "Session ended.\n",
+      "locations": [
+        {
+          "file": "main.c",
+          "line": 164
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "76940ee8ee8570af277f1244cd642c5e1c3b40e752d5a705fd4ed5e5ac83447b",
+      "text": "End this expedition?",
+      "locations": [
+        {
+          "file": "main.c",
+          "line": 302
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "4a55fca7fbcc7252c8127bcefa5b183b955b5433baa9c11018aec37c5603959b",
+      "text": "Expedition ended with %d credits",
+      "locations": [
+        {
+          "file": "main.c",
+          "line": 307
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "ca4e359e16e3659f70c673b0808d7a2da03dfe40821b734f6cd4b84e7c24d1ec",
+      "text": "\nEnter closes the report",
+      "locations": [
+        {
+          "file": "main.c",
+          "line": 374
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "259555199add037c61054e92d707b11ae45d7c409b0026bd82b96548906d9d00",
+      "text": "No item at %d,%d",
+      "locations": [
+        {
+          "file": "misc.c",
+          "line": 267
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "5ae5c1fc9108fa5596b302a0be3f5d4e36c23c5cfb446909cfbfe6b920a2a35e",
+      "text": "consume",
+      "locations": [
+        {
+          "file": "misc.c",
+          "line": 286
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "076b2588164780a5a9600261c5a7de8033f4c9e8ae997230a23fe385f507120d",
+      "text": "That item is not a ration",
+      "locations": [
+        {
+          "file": "misc.c",
+          "line": 291
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "18309374819a6dd3292e6cefcf58d7a886becdf3817e8ed5dd3a9d01ba34fd47",
+      "text": "Not edible",
+      "locations": [
+        {
+          "file": "misc.c",
+          "line": 293
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "7de5f86e23bc472483f4d4ad447b3f751b4d5f36740cddd08fbe2df418a175f2",
+      "text": "The %s restores your reserves",
+      "locations": [
+        {
+          "file": "misc.c",
+          "line": 304
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "9e55c8711fb10cc880b5fe7d69d20591b2cd2d70567af56f81f1db0f4d78c1fe",
+      "text": "%s, this ration is unpleasant",
+      "locations": [
+        {
+          "file": "misc.c",
+          "line": 309
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "754b7c3d1004c83dfbd8dac85ac34c9ec067c2e284393e3acb109949a7502e54",
+      "text": "Unfortunately",
+      "locations": [
+        {
+          "file": "misc.c",
+          "line": 309
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "3304d40aec3121fd309f63f8a7e5fbb27d507d5e08fde8268d52a76da0f95d19",
+      "text": "Unfortunately",
+      "locations": [
+        {
+          "file": "misc.c",
+          "line": 309
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "c8db35ad802b972ed1d240c26662329534be1f3964e0e9eab962bea79449aca9",
+      "text": "%s, the ration is satisfying",
+      "locations": [
+        {
+          "file": "misc.c",
+          "line": 313
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "fa95efb7382d5527eaef6cdce33b9c088fa544e69277aa2a3c9f9cfe799920d5",
+      "text": "Good",
+      "locations": [
+        {
+          "file": "misc.c",
+          "line": 313
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "a62f404b31e37b304d8559c88aae9a8c856f59b061fb6823aaef2b5ef7592e0c",
+      "text": "Good",
+      "locations": [
+        {
+          "file": "misc.c",
+          "line": 313
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "939175005eb59b8a765a04f7c157905332998cbe7dcc6b132ceecbc4f31cf44f",
+      "text": "Training rank %d reached",
+      "locations": [
+        {
+          "file": "misc.c",
+          "line": 338
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "cdc0abf88e9cf3c280dbdfbed20623d3a0019fcdeaf6aed0e2de15a22b75209a",
+      "text": "Exhaustion stops you for a moment",
+      "locations": [
+        {
+          "file": "misc.c",
+          "line": 390
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "1952e2af01db32be19a21abf8f56f6c3e3c92a15e88d4a8d22ba1f23ea1a2b48",
+      "text": "That item is already ",
+      "locations": [
+        {
+          "file": "misc.c",
+          "line": 450
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "2125025fba0f688a907c9c7286de71a919dd6e680f684ee7ee6cf4ecf158a40f",
+      "text": "equipped",
+      "locations": [
+        {
+          "file": "misc.c",
+          "line": 451
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "3a03b94302c0c3d5967e6a4edf266d4cc95a58f002a98a5dd060632d8491a83c",
+      "text": "Choose a direction: ",
+      "locations": [
+        {
+          "file": "misc.c",
+          "line": 478
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "510e4bd6f07c40604a653fd3a61ad282e1b174b1501ae60967ecc7a2a36e6f8f",
+      "text": "Direction: ",
+      "locations": [
+        {
+          "file": "misc.c",
+          "line": 480
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "99ff3e493b96aac59efe005f43aad4a3e38f9ef36ac7da4af70d22869e523f01",
+      "text": "Spawned a wandering %s",
+      "locations": [
+        {
+          "file": "monsters.c",
+          "line": 142
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "5937a7e758f6642d47cd35dc68fc5bc68273434489adb4cdf89cdfc6c67a2c80",
+      "text": "Wake target is missing",
+      "locations": [
+        {
+          "file": "monsters.c",
+          "line": 159
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "983fb5051b70a23eebf1b550631606ee2cefb587b86e1ef6c6d173eb6ff4ba62",
+      "text": "s optics scramble your bearings",
+      "locations": [
+        {
+          "file": "monsters.c",
+          "line": 194
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "edbefb1b99c061c2e812ea2939119a3572308f3be8c1c70a79e0c93dccf26bbb",
+      "text": "The clamp still holds your boots",
+      "locations": [
+        {
+          "file": "move.c",
+          "line": 51
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "9a25730aa403723a46c327406d0468c4532ff61c77c0b2ee495bc616dffdd044",
+      "text": "Your position is locked",
+      "locations": [
+        {
+          "file": "move.c",
+          "line": 101
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "6dde92aba96bad313e1f17a3f6b238a42322ce6851c5a7334a3fd07d5c954866",
+      "text": "A deck panel gives way",
+      "locations": [
+        {
+          "file": "move.c",
+          "line": 282
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "5e77672359c9f6f0bd3dbeff1853e0e6d2ca001ecd68e0cf633e5a95778c731d",
+      "text": "A clamp locks around your boots",
+      "locations": [
+        {
+          "file": "move.c",
+          "line": 285
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "f2013c2dd203e5f2226bafa12778e118b37f87b169272c805944b1d7393db3f7",
+      "text": "Your position shifts across the deck",
+      "locations": [
+        {
+          "file": "move.c",
+          "line": 289
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "93231c271c4d53e01a6498ea0445c8183fb2921ac98750277b79e6395ae95c9a",
+      "text": "Station lighting turns %s",
+      "locations": [
+        {
+          "file": "move.c",
+          "line": 290
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "539efa4c06855497bcd61b059c287b9d5085eddae949629c8a73b93d6a1d15fb",
+      "text": "A needle strikes your neck",
+      "locations": [
+        {
+          "file": "move.c",
+          "line": 291
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "3c82daf1db9d504511ce45360baf3ae2c316d644359c8706b65257fee16ec745",
+      "text": "Bands of light cross your view",
+      "locations": [
+        {
+          "file": "move.c",
+          "line": 292
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "32a5bb44eba07d6d33031c58adddbabbae692144168357b0699fe375c17b9089",
+      "text": "A %s flash interrupts your view",
+      "locations": [
+        {
+          "file": "move.c",
+          "line": 293
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "7ba9d0ad465190d09175d648eacf389f856232ad451523905010a0b26303346a",
+      "text": "A pin passes beside your helmet",
+      "locations": [
+        {
+          "file": "move.c",
+          "line": 294
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "74ff913951bdf1eba9de6b4f2af6319b89b4973c756621e592b5088aba3789b4",
+      "text": "%s arcs crawl over your shell",
+      "locations": [
+        {
+          "file": "move.c",
+          "line": 295
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "1057744f9cd679c3e1bc57224f6855122fcec6a8ec954086d0f192393508bc06",
+      "text": "Your reserve gauge suddenly feels empty",
+      "locations": [
+        {
+          "file": "move.c",
+          "line": 296
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "71fcbfa32abcb8fa4c9a9bc23de30011e83a178cafcc56d715c5ec17f9ec4dc8",
+      "text": "The station clock appears to race",
+      "locations": [
+        {
+          "file": "move.c",
+          "line": 297
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "4d44b4ce11c85f7fb0195909a5fb36bcd03ba3d25f0732ebeab53b48daa94252",
+      "text": "The station clock appears to drag",
+      "locations": [
+        {
+          "file": "move.c",
+          "line": 298
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "688a53af115eb5a01a8a73ad9b9c6b3b72dac316d7a32c35c5f88d96d33480f5",
+      "text": "Your equipment case turns %s",
+      "locations": [
+        {
+          "file": "move.c",
+          "line": 299
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "b8f59b1e6234111f993a0fde9d4291dcd2678cd0c4e05eeb7f90a0e441933e12",
+      "text": "A standby vent puts you to sleep",
+      "locations": [
+        {
+          "file": "move.c",
+          "line": 304
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "f9bbf37f652565edca9b8cb1a984e1ff9baa6ef0a9019ff89da4fccb86e93ee3",
+      "text": "A launcher pin ended the expedition",
+      "locations": [
+        {
+          "file": "move.c",
+          "line": 311
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "5ea3ee8cf41ea231fcdf1333dba6559b415447eeaef320519ec8f1d0749b670c",
+      "text": "A launcher pin strikes you",
+      "locations": [
+        {
+          "file": "move.c",
+          "line": 315
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "e5a29070755ffeb8e512eb8fb3408b5e2fac657499431dbc9d3a59a37b91a541",
+      "text": "A launcher pin crosses the deck",
+      "locations": [
+        {
+          "file": "move.c",
+          "line": 324
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "0f8980c08ce15e8581f09ce43b4d9c845f32133e126b37c55352d72f3c8153b2",
+      "text": "A needle passes your helmet and disappears",
+      "locations": [
+        {
+          "file": "move.c",
+          "line": 335
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "bc4738f43d4aa66dd2ce71124d2f5da65191e7906c93bf513e77d67c23836973",
+      "text": "A corrosive needle ended the expedition",
+      "locations": [
+        {
+          "file": "move.c",
+          "line": 341
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "d7de9d05ecfc64b50f7b7d6fcfafd6f09b63d93a3aa91bf9a8c066df71c8dfe4",
+      "text": "A needle strikes your shoulder",
+      "locations": [
+        {
+          "file": "move.c",
+          "line": 346
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "f88d25a7d23a8f2c59d6d23c3d3103f33a462e6031e7799e770775fb81c38c6c",
+      "text": "A wash nozzle drenches your shell",
+      "locations": [
+        {
+          "file": "move.c",
+          "line": 349
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "8251755781fa89eb0f4850a2c34fe7c61eb516268d1ceecc214427942f4d1a1e",
+      "text": "The corrosion is cleared",
+      "locations": [
+        {
+          "file": "move.c",
+          "line": 415
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "2061b63551be3634fa4fe2c95ce6ad2046ff8863955a86970db1b4316900b977",
+      "text": "Your shell rating drops",
+      "locations": [
+        {
+          "file": "move.c",
+          "line": 421
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "3f0e8edb9e988fdd534186c1737dbea38f2d4bcc723dfaa651c870be94671824",
+      "text": "Shell rating reduced",
+      "locations": [
+        {
+          "file": "move.c",
+          "line": 423
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "13230cbeb759d44b23f14f1aac3d75d62517666366155452555f921a600defa3",
+      "text": "Use compact notices",
+      "locations": [
+        {
+          "file": "options.c",
+          "line": 43
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "87591ac78ae626b2dd0fdd6019f2b8ed9ad4996b737348e4039c1dd1b870d41f",
+      "text": "Discard queued input after a strike",
+      "locations": [
+        {
+          "file": "options.c",
+          "line": 45
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "0a23b501625c9e4558a8d003a866a4bdaa14a652f8e807cedb4b49f19779cd1b",
+      "text": "Draw only the final running position",
+      "locations": [
+        {
+          "file": "options.c",
+          "line": 47
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "02fdc88d6d44f922e29dab2ee9723908928988cc0fe66fa6377c70fe5aee09e3",
+      "text": "Show illuminated deck cells",
+      "locations": [
+        {
+          "file": "options.c",
+          "line": 49
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "dd44147d7173fe18e374bb579a9bee37178033a4fa18e8f2bfbaab255924bd5b",
+      "text": "Follow connector turns",
+      "locations": [
+        {
+          "file": "options.c",
+          "line": 51
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "f5207b4f2f200483c6a140d7f2f8c8ae76c46077c6ad4a3ac8152a043e5b133d",
+      "text": "Show the expedition ending panel",
+      "locations": [
+        {
+          "file": "options.c",
+          "line": 53
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "ed2fd4fa66b571a9c65fde729886ebc42f87e09fffee11445396b0ef7d93b65f",
+      "text": "Equipment list mode",
+      "locations": [
+        {
+          "file": "options.c",
+          "line": 55
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "6cc5df35f0338e230e9e633ead9991f08f62cab45a3264978daedc6747867305",
+      "text": "Navigator name",
+      "locations": [
+        {
+          "file": "options.c",
+          "line": 57
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "e10b831d1edd78e5e77f618e3e65c87f5472e57ee6cd1906da875441215624f5",
+      "text": "Preferred ration flavor",
+      "locations": [
+        {
+          "file": "options.c",
+          "line": 59
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "db7d8e8e5dda98ec31f5566a72266aa9a6e2baf365746e7bd6495890df520111",
+      "text": "Checkpoint path",
+      "locations": [
+        {
+          "file": "options.c",
+          "line": 61
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "3bd6b728e3ccb5b52617aab68fe05b0af9d371e599d959e5a1c667e221c5ad00",
+      "text": "The sheet crumbles during collection",
+      "locations": [
+        {
+          "file": "pack.c",
+          "line": 49
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "ca7f76e721e2b3524f37d41fc8f4a16574b8869e4ffab61c33bc01bda1414910",
+      "text": "Collected: ",
+      "locations": [
+        {
+          "file": "pack.c",
+          "line": 155
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "cda9a3ec17608fec613e17e0fe8dd8833bd966eadbc9ec43d7baaafdc15374be",
+      "text": "There is ",
+      "locations": [
+        {
+          "file": "pack.c",
+          "line": 171
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "711acba4e3c7fe0bb0b379bd0cbd4bbcd9fb01b9099898e0ed68db24b3558aa2",
+      "text": "no free slot",
+      "locations": [
+        {
+          "file": "pack.c",
+          "line": 172
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "e5d7c11a0a8c1c8d30dbd1fbbcddfc5b4f792c10cdcb92b772df87da3451e187",
+      "text": " in the equipment case",
+      "locations": [
+        {
+          "file": "pack.c",
+          "line": 174
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "0fcc290a89270114e29754d60f458429e82dce6de5a5f2fe464f653eab704c57",
+      "text": "no carried item",
+      "locations": [
+        {
+          "file": "pack.c",
+          "line": 278
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "45a9aa4b45a1a2058294a0f49c2538881ef87976e8a6b230f6311e0f5881cfc0",
+      "text": "no eligible item",
+      "locations": [
+        {
+          "file": "pack.c",
+          "line": 279
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "e8bd08d472c48521afa1060c79396ebbb4123ebcfa81c7204d3b1219bbabcbbe",
+      "text": "Your equipment case is empty",
+      "locations": [
+        {
+          "file": "pack.c",
+          "line": 281
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "7bc4e3cba1f47605470aab8190dfde638a0d1cd21cb4d6d062b25a3d3fee58ec",
+      "text": "There is no item for that action",
+      "locations": [
+        {
+          "file": "pack.c",
+          "line": 282
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "ffa889314f8ba09f7699c34022566df1fbd747b5bb9e3b02fe0b50d9b9a7fdcf",
+      "text": "Unexpected collected symbol %s",
+      "locations": [
+        {
+          "file": "pack.c",
+          "line": 318
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "fde47825c49e70a209bdcf1e8a16f5944351232a172fd924fc9f1034ccce2c77",
+      "text": "You ",
+      "locations": [
+        {
+          "file": "pack.c",
+          "line": 342
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "567d61e72480e8d6d27dfc7bd28d344d4bfde718739cdb69014da9e4d0a0d944",
+      "text": "stand above %s",
+      "locations": [
+        {
+          "file": "pack.c",
+          "line": 343
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "3071df103d5a966c2cd15c8220c1ef038522a35a4b354c9f65ee6de15bbd188a",
+      "text": "No items are carried",
+      "locations": [
+        {
+          "file": "pack.c",
+          "line": 358
+        },
+        {
+          "file": "pack.c",
+          "line": 391
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "a3fe4555d5c13d4a1a873e4e4e96440eb686573d8b9a395219140cd51ec562d2",
+      "text": "Item letter: ",
+      "locations": [
+        {
+          "file": "pack.c",
+          "line": 363
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "a6f725ab43f05f63c119f509baae9231bf5bf243dd1e2f0d395968619e684c2f",
+      "text": "Choose an item letter to inspect: ",
+      "locations": [
+        {
+          "file": "pack.c",
+          "line": 363
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "323f73893b82d30072a8dd5afdfe79c3840e9c04eaf285e4091c11fab0291348",
+      "text": "Item %s is not carried",
+      "locations": [
+        {
+          "file": "pack.c",
+          "line": 376
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "3b09b3dace0015fb07c79c2860c30a1f334dcf405b69cc1d38ff9bc387b4f54b",
+      "text": "No matching items remain",
+      "locations": [
+        {
+          "file": "pack.c",
+          "line": 396
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "3b2757390cd5da084d316671f1cc1cee6fe8b99a49bec57ed73c8477e64e4531",
+      "text": "Choose an item to ",
+      "locations": [
+        {
+          "file": "pack.c",
+          "line": 402
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "e085a9bf47d140bb48161d1f2ff150a4cf599bf39fbdf0e4fc0ddb04b67744de",
+      "text": " which item",
+      "locations": [
+        {
+          "file": "pack.c",
+          "line": 405
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "b11f068f8fd7f98301e92ed91685f324a4993dfa24655bd677e0a79662e36945",
+      "text": "? (* opens list): ",
+      "locations": [
+        {
+          "file": "pack.c",
+          "line": 406
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "3701ca2dd7649d41bd96d88b827992b4d93a8ca245bf45eea9537dc2034a5100",
+      "text": "Item letter %s is unavailable",
+      "locations": [
+        {
+          "file": "pack.c",
+          "line": 435
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "faa699a2bd73351a051b62ffb8a8d44a389a20c4c5662980c8750047f93d2db5",
+      "text": "%d credits",
+      "locations": [
+        {
+          "file": "pack.c",
+          "line": 460
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "0702bc2f8212389a1b3234e17f5ee4e012f1c7763fd162d462f7d16341ddb50c",
+      "text": "Connector table is inconsistent",
+      "locations": [
+        {
+          "file": "passages.c",
+          "line": 217
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "75643bae94d56ae8894f3730a0983857bf86d14456c2e201670dd4d3c89c089a",
+      "text": "Station connectivity check failed",
+      "locations": [
+        {
+          "file": "passages.c",
+          "line": 265
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "047d2e44381da7afe5f8a7186178e5eb162e872b5a6531a437c28155de12069d",
+      "text": "Your bearings split into false directions",
+      "locations": [
+        {
+          "file": "potions.c",
+          "line": 28
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "9982d13699b61c8956d86a870a7ef907f6a2723ee2d08c1fec7a5ec5143c2bbd",
+      "text": "The direction signal is scrambled",
+      "locations": [
+        {
+          "file": "potions.c",
+          "line": 29
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "0eaeb61d89fd43d6efd24a024dd1822cb4f6f35ebbbe9ef2d9edcc5d21dc1c50",
+      "text": "False contours cover the station",
+      "locations": [
+        {
+          "file": "potions.c",
+          "line": 31
+        },
+        {
+          "file": "potions.c",
+          "line": 32
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "33c0c732e20179082082aaec401cac20698db495899a29fac5f9588945636b04",
+      "text": "Your display goes dark",
+      "locations": [
+        {
+          "file": "potions.c",
+          "line": 46
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "cb4db6e07d6dd13b5afb865068112e698b12a02ea533bb4318c35f5815bef4d0",
+      "text": "The display loses all contrast",
+      "locations": [
+        {
+          "file": "potions.c",
+          "line": 47
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "4f7b5c7fc35a47f942080b675f18189d11506b4189ab2aa625c0bf1319f99fcf",
+      "text": "Your boots lift from the deck",
+      "locations": [
+        {
+          "file": "potions.c",
+          "line": 49
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "374cbf4f3bbbddebe32e57d89ba3c011f728a191ddddfc5d08ff1dd8498e7e72",
+      "text": "The lift field raises you",
+      "locations": [
+        {
+          "file": "potions.c",
+          "line": 50
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "2db09b9b2fbd92cc264cd6a4d82b77e51bfff2271aa62362cb3d4fa1d41daded",
+      "text": "drink",
+      "locations": [
+        {
+          "file": "potions.c",
+          "line": 65
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "a6f8eba57d5b6401fc2e44acdd78ffaef092fb3cfccadad36c4af07263bbe636",
+      "text": "That item cannot be consumed as a vial",
+      "locations": [
+        {
+          "file": "potions.c",
+          "line": 74
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "b5916b5d2324a38740194c3f5760e5cd23ae37f2541727a71d216b85705541d0",
+      "text": "Not a drinkable vial",
+      "locations": [
+        {
+          "file": "potions.c",
+          "line": 76
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "97eaffbe5c1288c01955faa06220c9a50da05c90b008e761953d90c163a67ec2",
+      "text": "Your reserves dip briefly",
+      "locations": [
+        {
+          "file": "potions.c",
+          "line": 95
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "aed65f893adba30dec464c322cf79e16ba14bee9dcb97c9ad7357bb1cb557c59",
+      "text": "Corrosion drains your reserves",
+      "locations": [
+        {
+          "file": "potions.c",
+          "line": 99
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "f5a21977ab0cd31327ad7b0baaa059441646d577422a1ac36c099632e4dfaf13",
+      "text": "Your health begins to recover",
+      "locations": [
+        {
+          "file": "potions.c",
+          "line": 107
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "1beb63bca0818a1e1e7ee107f988a04f1b8abd659b39c19f1e4f42654f3c8701",
+      "text": "Your power capacity increases",
+      "locations": [
+        {
+          "file": "potions.c",
+          "line": 111
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "35dfb5d78dc8264628d863de55c807eefbee4b202c0fba6beb6ada190b6b89fe",
+      "text": "A %s field crosses you briefly",
+      "locations": [
+        {
+          "file": "potions.c",
+          "line": 116
+        },
+        {
+          "file": "potions.c",
+          "line": 155
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "82fbb169e798324839513347c048ecc9c91a6574588e1760f13d6b9650c328bf",
+      "text": "steady",
+      "locations": [
+        {
+          "file": "potions.c",
+          "line": 117
+        },
+        {
+          "file": "potions.c",
+          "line": 156
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "83fffa8a3800c59b9eac4078d6139ed70ae3c9853f3e658b8f158792a8742b77",
+      "text": "shifted",
+      "locations": [
+        {
+          "file": "potions.c",
+          "line": 117
+        },
+        {
+          "file": "potions.c",
+          "line": 156
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "b4f0f631518e25c034ff6a4878389b27946b572735fbe2566c51df4c5f9a9317",
+      "text": "A field scan reveals this deck.--More--",
+      "locations": [
+        {
+          "file": "potions.c",
+          "line": 152
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "acca49161f69cce5baa1d790bb59f83f14463e02952cfe997736919cb8146f67",
+      "text": "The vial has a %s flavor",
+      "locations": [
+        {
+          "file": "potions.c",
+          "line": 167
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "01985bbbf7fa3edece983e81530c152dc9b6a47e1fe61dd98d58b7f7de175a0d",
+      "text": "Training data sharpens your reflexes",
+      "locations": [
+        {
+          "file": "potions.c",
+          "line": 175
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "5d7e9a367aaf3bcee4a2daa75c56237321f8fec38fee6cb4b98e5e183856e868",
+      "text": "A deep repair restores your health",
+      "locations": [
+        {
+          "file": "potions.c",
+          "line": 187
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "ed02dc261d406097a647776489a5d5d96bb816e4cfd7e2a5441b5cc623d7a5af",
+      "text": "Overdrive accelerates your steps",
+      "locations": [
+        {
+          "file": "potions.c",
+          "line": 192
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "64aa9cec20e7f05566129eab754d128dc31698bd47d6f79784f7234694c0edf3",
+      "text": "A warm current resets your power reserve",
+      "locations": [
+        {
+          "file": "potions.c",
+          "line": 204
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "851de942743dd2d2de7faf79e9713b445fa2785fc1f5d0018dbf38875b2b1d57",
+      "text": "The vial has an unfamiliar flavor",
+      "locations": [
+        {
+          "file": "potions.c",
+          "line": 211
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "930d808bb0918afa47150327a851ea10a5862aaffbef198086718d33517bcc51",
+      "text": "fit",
+      "locations": [
+        {
+          "file": "rings.c",
+          "line": 27
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "158c304be98e5eb9463418087d665dbd4a1ab4110b7876f3427a06bebf32e8a7",
+      "text": "That item cannot fit a band slot",
+      "locations": [
+        {
+          "file": "rings.c",
+          "line": 36
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "c58661597fda706a1f700d885eee8a01457d97c4fda8e2c109759888e54a48a5",
+      "text": "Not a band",
+      "locations": [
+        {
+          "file": "rings.c",
+          "line": 38
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "ef48ea9a843c181165aef89b7e006d3116906fc099cd3ac837369a18167302db",
+      "text": "Both band slots are occupied",
+      "locations": [
+        {
+          "file": "rings.c",
+          "line": 60
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "553a9db4af3615bec1529ed61f2b2f7d8e634b9119f93b4b186a26704a0baf94",
+      "text": "two bands fitted",
+      "locations": [
+        {
+          "file": "rings.c",
+          "line": 62
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "b8cf1f41db9e5b97f57c308e7f114867cbc463d55edfccd5d7c1c72d065c5d17",
+      "text": "Fitted: ",
+      "locations": [
+        {
+          "file": "rings.c",
+          "line": 84
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "8facefe74c55b99bd814fab9b8358e16a0d6016152e07e006d1e6e32a7633966",
+      "text": "no fitted bands",
+      "locations": [
+        {
+          "file": "rings.c",
+          "line": 102
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "59e8fc41df54d04224f583c0fa62a228a9c265d65576794c889f1da407086631",
+      "text": "Both band slots are empty",
+      "locations": [
+        {
+          "file": "rings.c",
+          "line": 104
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "0c50945c6ae267ea8b833afaba05799db327a894e9cef55616c4191cfda6f0c1",
+      "text": "That band is not fitted",
+      "locations": [
+        {
+          "file": "rings.c",
+          "line": 118
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "031e12430281c589c6a0be5cedd6c89e017f3b6b310df5485dc404c4d418fd31",
+      "text": "Removed %s(%c)",
+      "locations": [
+        {
+          "file": "rings.c",
+          "line": 122
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "7c17aeaf2bf0005c69a9d970a582727d16275295d9ea9c5793e4b0a8a8d7b074",
+      "text": "Left or right band slot? ",
+      "locations": [
+        {
+          "file": "rings.c",
+          "line": 137
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "536dcc979d6cd45fa62b2468fb3b1b2c53b9ea88afe51f2afbe545c341e3b56b",
+      "text": "Choose the left or right slot: ",
+      "locations": [
+        {
+          "file": "rings.c",
+          "line": 139
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "261e080bca1410500e971a59d5301dc3e3b9e6fcaa0852f78fa9eb8a889905a6",
+      "text": "L or R",
+      "locations": [
+        {
+          "file": "rings.c",
+          "line": 148
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "25ec612b354b0e85aab29f0740b6001169832690460641f75c65b7a171e2c724",
+      "text": "Choose L for left or R for right",
+      "locations": [
+        {
+          "file": "rings.c",
+          "line": 150
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "b78561decea3c2f8721f0a26bb8bbcd647da9bd224c9e979d5e801cf4840276b",
+      "text": "interrupted",
+      "locations": [
+        {
+          "file": "rip.c",
+          "line": 61
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "21564cb0a45311d6298ad2bdbf4c43355098e542f04159e01ce4f81cea80bfb7",
+      "text": "ended",
+      "locations": [
+        {
+          "file": "rip.c",
+          "line": 62
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "3d10b9efff71cc3d533fab0f14ffe74c47371b55d469f3f7fbbede581b76e25e",
+      "text": "survey complete",
+      "locations": [
+        {
+          "file": "rip.c",
+          "line": 63
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "4448f5b22603af4dbf13884b62e6eee35f1d045dcb24eacf8c3260535779279d",
+      "text": "interrupted with lens",
+      "locations": [
+        {
+          "file": "rip.c",
+          "line": 64
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "89517505edc73e50398983534c6b62087f633a078b1cb3ea8235233cae225528",
+      "text": "Enter closes this report",
+      "locations": [
+        {
+          "file": "rip.c",
+          "line": 75
+        },
+        {
+          "file": "rip.c",
+          "line": 271
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "38fdc7ebc5e08984a1d3481aa868b952779be7a00462fa5532e81dad5bb57977",
+      "text": "Best %s %s:\n",
+      "locations": [
+        {
+          "file": "rip.c",
+          "line": 162
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "5f479e40c914f3914a3eeddf0f2c944d9ac56724e555b67166bf6ec2379d532a",
+      "text": "records",
+      "locations": [
+        {
+          "file": "rip.c",
+          "line": 162
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "dc04bf8899f5fd56a398cceb62e5b16b51c7e7494c104b574c3c6adde18cbacd",
+      "text": "navigators",
+      "locations": [
+        {
+          "file": "rip.c",
+          "line": 162
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "60657b7e44714ea86b5b0b09262461b0759d0a6849b4c2667859fdb7150009f7",
+      "text": "   Value Navigator\n",
+      "locations": [
+        {
+          "file": "rip.c",
+          "line": 163
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "51d040f1891f791d982eb9ebfa7630415155678d03e637f58b1fede4cda7a189",
+      "text": "%2d %5d %s: %s at deck %d",
+      "locations": [
+        {
+          "file": "rip.c",
+          "line": 169
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "e3629bc3b67aeeaacd4354805e1f6ef369d46bec5e728fb73af6e5920458c272",
+      "text": " caused by %s",
+      "locations": [
+        {
+          "file": "rip.c",
+          "line": 173
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "d75f74cc6157638babe84f4ca591d77aba8313951ca668d5001011fac19a4059",
+      "text": "Stopped by ",
+      "locations": [
+        {
+          "file": "rip.c",
+          "line": 242
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "1c4f96c78c8a5b925ebe239d881f73629f210605a1ec754d147053d7300e3f02",
+      "text": "%s; %d credits recovered",
+      "locations": [
+        {
+          "file": "rip.c",
+          "line": 246
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "a873386c93dab4d48ab9a93894fb4f1b9f19097e4d90830c3e448dd804b9c9de",
+      "text": "%d Cr",
+      "locations": [
+        {
+          "file": "rip.c",
+          "line": 262
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "eca42c6e7a21f2073cbb42e93a7481be1ef0db108d8a8dc1f5c196d0c61dd4cf",
+      "text": "   %5d  Recovered credits     ",
+      "locations": [
+        {
+          "file": "rip.c",
+          "line": 382
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "aca3910ada7c4348512cbf9ee0d52e77eb83c8ab6f30dc655342371eda7abc16",
+      "text": "arc pulse",
+      "locations": [
+        {
+          "file": "rip.c",
+          "line": 400
+        },
+        {
+          "file": "sticks.c",
+          "line": 226
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "ef8ff7e87f267157508f744a0c5baa2e12c5dc28fc294744039f5d7b986ff70a",
+      "text": "cold exposure",
+      "locations": [
+        {
+          "file": "rip.c",
+          "line": 402
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "27133f54224193e9234527195b5acdc5c4fda1dc5c78be8d0ee8591c089aadde",
+      "text": "empty reserves",
+      "locations": [
+        {
+          "file": "rip.c",
+          "line": 403
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "e582ceb1d90741aebbc2a47eeb76e0a86c9b3427c411042c76db3b69a0f63d83",
+      "text": "an unknown station hazard",
+      "locations": [
+        {
+          "file": "rip.c",
+          "line": 414
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "2c8dea47857b28642a0171ebddbdbbb7b82506d0f99d2470ab5e41639e0d0330",
+      "text": "Save checkpoint (%s)? ",
+      "locations": [
+        {
+          "file": "save.c",
+          "line": 50
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "c834267be7cad6310d67391ef4711e5191e96746a5bb283aae7cbbfead8e814a",
+      "text": "Choose Y to save or N to cancel",
+      "locations": [
+        {
+          "file": "save.c",
+          "line": 61
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "8ab4451ffd1b867c404105293d0824bcf2b4ed013ee7518f085ab78727d58c90",
+      "text": "Confirmed\n",
+      "locations": [
+        {
+          "file": "save.c",
+          "line": 65
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "b57733a64131ca215a2374fc25e624b62566e899fb8b3e3a192db2da0e86e361",
+      "text": "Checkpoint path: ",
+      "locations": [
+        {
+          "file": "save.c",
+          "line": 75
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "f6360b82e0c98c1a03511bc4439522967eaf49132f3647deb00e5ece47e18336",
+      "text": "Replace the existing checkpoint?",
+      "locations": [
+        {
+          "file": "save.c",
+          "line": 92
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "0ab63bb3d926fc16f3b7df2a5e73c2c4c6fdc27ec79dce286d7875967c4373a6",
+      "text": "Choose Y or N",
+      "locations": [
+        {
+          "file": "save.c",
+          "line": 101
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "3b8b8fd9ab36ef23685ecf74c44e2537db3fd6ef4f5c532e4b581337361accc0",
+      "text": "Checkpoint path: %s",
+      "locations": [
+        {
+          "file": "save.c",
+          "line": 103
+        },
+        {
+          "file": "save.c",
+          "line": 263
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "7fae4860fd0b14b0873ebc7dde30f2ab68e82ca4aa0e2c4e671033d60a8f7141",
+      "text": "Checkpoint version is incompatible.\n",
+      "locations": [
+        {
+          "file": "save.c",
+          "line": 189
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "5fac342ea329c2ebcb4aba80f33a7a80e115afe8e3f40f606c63e6c42252a4eb",
+      "text": "Checkpoint board has %d rows.\n",
+      "locations": [
+        {
+          "file": "save.c",
+          "line": 201
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "ce7c2339fa111ee03c1b90e6c9f9e5f8559920cc272a7318e7caa52602962dab",
+      "text": "This board has only %d rows; restore refused.\n",
+      "locations": [
+        {
+          "file": "save.c",
+          "line": 202
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "c4afc84b19346f7c2215930f5a6c72e06e15fbb30d88ef11a1742362b4b3f2aa",
+      "text": "Checkpoint board has %d columns.\n",
+      "locations": [
+        {
+          "file": "save.c",
+          "line": 208
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "6746fa86066ed696664a5b1cf79e1aaabc55c95626ed733ab123907523080ad9",
+      "text": "This board has only %d columns; restore refused.\n",
+      "locations": [
+        {
+          "file": "save.c",
+          "line": 209
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "14176f8906a415b002f19520a581e867024ff7b4e69fb4577e416dbbc93c9300",
+      "text": "Checkpoint removal failed.\n",
+      "locations": [
+        {
+          "file": "save.c",
+          "line": 228
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "919b22ad319051f78c2a4223b7299436ef3964816594516aabe0787cac4f8f1f",
+      "text": "\nLinked checkpoints cannot be restored.\n",
+      "locations": [
+        {
+          "file": "save.c",
+          "line": 246
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "8ba1f70102651912110a8c5f42ffbe37e2d9c5dffec1c4467e5624d0e2c01016",
+      "text": "\nThe checkpoint contains no living navigator.\n",
+      "locations": [
+        {
+          "file": "save.c",
+          "line": 253
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "6f3658822a73dc4c1d09ba64a062d0d1ef89fb250f5f5923c3a1755c2f63b1db",
+      "text": "read",
+      "locations": [
+        {
+          "file": "scrolls.c",
+          "line": 35
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "eb62a0b4ae9194a8e63be1bc2c1f2eda079255f5f71b04061cac0872c875e71b",
+      "text": "That item has no readable sheet",
+      "locations": [
+        {
+          "file": "scrolls.c",
+          "line": 41
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "4a0cf544273285875c2fd074b8644b240a992e745382ae7cdcb91b7b5797ac5d",
+      "text": "Not a readable sheet",
+      "locations": [
+        {
+          "file": "scrolls.c",
+          "line": 43
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "1c6f9a15b2b563335c24f43d5d0514ba5641c4e0d99eb37ace61d474518d0401",
+      "text": "A %s field surrounds your hands",
+      "locations": [
+        {
+          "file": "scrolls.c",
+          "line": 65
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "52dd084db6f59cb04c370c7310b01ee7ba672305801a9ffa40ea4d23f00dbf4e",
+      "text": "A %s pulse crosses your shell",
+      "locations": [
+        {
+          "file": "scrolls.c",
+          "line": 71
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "da9d6be70d99d54f74a872a1e6f9b970b968fb3a47248a3fb68e4f2f8b74b596",
+      "text": "The actor",
+      "locations": [
+        {
+          "file": "scrolls.c",
+          "line": 92
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "fb42adb399a345a6293268e9b7baee76b36f19c088bad61644efb37783cd7dcf",
+      "text": "s nearby",
+      "locations": [
+        {
+          "file": "scrolls.c",
+          "line": 94
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "5ac09442a10b935efd3ee115dd30eccea8432aa1cba05e498b4dc31ad37f2ab9",
+      "text": " stop",
+      "locations": [
+        {
+          "file": "scrolls.c",
+          "line": 95
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "f42b9713fd23af7af2cf43c94fc7010590fe1aa2c77d8c82965b4d91d7f1d4cd",
+      "text": "The field has no available target",
+      "locations": [
+        {
+          "file": "scrolls.c",
+          "line": 102
+        },
+        {
+          "file": "scrolls.c",
+          "line": 263
+        },
+        {
+          "file": "scrolls.c",
+          "line": 302
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "2d937d683cc02dc09d46f06314c0ba9899b90fe7bdc211e1106f0bdd3133a8f6",
+      "text": "Standby closes your eyes",
+      "locations": [
+        {
+          "file": "scrolls.c",
+          "line": 110
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "43773446a1244f286f76c07540345360d79e20395ce0fd50f814589f22d69ce3",
+      "text": "A faint signal comes from another station",
+      "locations": [
+        {
+          "file": "scrolls.c",
+          "line": 140
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "58c7bbd07284213710b7fdcebea0ec30569c55bc043508174474e7450bc632a9",
+      "text": "This sheet contains %s data",
+      "locations": [
+        {
+          "file": "scrolls.c",
+          "line": 158
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "e9d65f12456d0681d78867750cb699cabb204e00136ea37344ed4d346bb10540",
+      "text": "A station chart appears on the sheet",
+      "locations": [
+        {
+          "file": "scrolls.c",
+          "line": 166
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "c33306e24745ee4f49f39bc533c611847f7bca2641b95f39f7bfdefb5d009ca3",
+      "text": "A scan reveals ration locations.--More--",
+      "locations": [
+        {
+          "file": "scrolls.c",
+          "line": 246
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "df963521df91290dad53aa2c96919e1a3a86e1e574b8ee3cbccdbb9352d14e9c",
+      "text": "Your ration scanner flickers",
+      "locations": [
+        {
+          "file": "scrolls.c",
+          "line": 249
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "d11b16dc47816dbf010ce99f38e9ded53e79b90d2dfee884af075791e772db69",
+      "text": "Your %s emits a %s pulse",
+      "locations": [
+        {
+          "file": "scrolls.c",
+          "line": 271
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "bd72d4edbec634e5a91824425c238274a14969a20af54f16b029ea675cad0e2b",
+      "text": "A distant transmitter emits a broken signal",
+      "locations": [
+        {
+          "file": "scrolls.c",
+          "line": 279
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "83a55fde378d72127a5fba25a912a8e0e7790c3ee145ee3ad269ca9623aa8988",
+      "text": "Your systems align with the station field",
+      "locations": [
+        {
+          "file": "scrolls.c",
+          "line": 285
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "2f1b99fb014c7cafc4aa16381090cb74e61599d1652d58ef2183ececebf581ce",
+      "text": "A protective field surrounds you",
+      "locations": [
+        {
+          "file": "scrolls.c",
+          "line": 286
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "bf4b24da38e964c1bfa7f29fc072ffab15199925d09455f3b89d90220ddc61ad",
+      "text": "A thin vibration crosses the deck",
+      "locations": [
+        {
+          "file": "scrolls.c",
+          "line": 293
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "23ed32236e06a72729fcfe06a2cab02b47321262b320f6682822f22b80fda232",
+      "text": "A %s sealing field covers your shell",
+      "locations": [
+        {
+          "file": "scrolls.c",
+          "line": 298
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "2c70f0e8a904abd890b5b2fa8357cea4831239aac100076fa5fc565b29ad62f3",
+      "text": "The sheet contains unfamiliar instructions",
+      "locations": [
+        {
+          "file": "scrolls.c",
+          "line": 305
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "9c4429515c57925a99a737082cace6c4320700c901d0ac0c02e18b056af8e028",
+      "text": "activate",
+      "locations": [
+        {
+          "file": "sticks.c",
+          "line": 56
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "e6c2eafa0170f99b0d3ecb740119ae6c4f388d45a6ba3c4e29288181f25d00dc",
+      "text": "That item cannot emit a field",
+      "locations": [
+        {
+          "file": "sticks.c",
+          "line": 61
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "626b96396c97d9ba978b9f8b98ded1f381c28f233ec5d93c4b0e2dde45de23d2",
+      "text": "The field produces no change",
+      "locations": [
+        {
+          "file": "sticks.c",
+          "line": 66
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "8901c2b8c5419919cf7a32ae5a6efac8aaa820ec11e52561963b0576c0b320d0",
+      "text": "The connector brightens briefly",
+      "locations": [
+        {
+          "file": "sticks.c",
+          "line": 77
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "023170ef6023b376fda85bb2e2e31c7cf1c8ed72247e4e27a6b9f0e9c6c4cfd6",
+      "text": "Station lights activate",
+      "locations": [
+        {
+          "file": "sticks.c",
+          "line": 85
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "d17b0b2d39b6abaad4e66aa7aa8c1ec0fbbc84c73463cfe7ab2f0d9a6a075ddd",
+      "text": " with %s illumination",
+      "locations": [
+        {
+          "file": "sticks.c",
+          "line": 87
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "bca8aca05a351060c65373cc52a83f3d0e67261cd8ab24b0e5448df29b13b8b5",
+      "text": "Your reserves cannot power this field",
+      "locations": [
+        {
+          "file": "sticks.c",
+          "line": 98
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "f719df886d6fba3a69ce4db4e648cd3541d5b79e4e8287f768c8498902cc23cc",
+      "text": "pulse disperses",
+      "locations": [
+        {
+          "file": "sticks.c",
+          "line": 189
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "2609dee2f7ac087fc44b52b1e16df636fd56d0b35ef4d8eae36b4749e2b532ce",
+      "text": "The pulse dissolves in a thin haze",
+      "locations": [
+        {
+          "file": "sticks.c",
+          "line": 191
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "2971a5bd3940af03f0411a51566dae95bb0abf5fc50b513980906d6a2150c4fd",
+      "text": "chill pulse",
+      "locations": [
+        {
+          "file": "sticks.c",
+          "line": 230
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "ea4942642abc882a825f2a5c8b8e7d22d45c680a20ba0b2bff810524af034be0",
+      "text": "The rod emits an unfamiliar field",
+      "locations": [
+        {
+          "file": "sticks.c",
+          "line": 237
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "0cad691b93aa79b429a94783f9271b6cc4c0b257492006ea7583aa3569649d17",
+      "text": "A brief current crosses your hands",
+      "locations": [
+        {
+          "file": "sticks.c",
+          "line": 275
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "b7ed513bfe804aea2b83f7c90db8953ceb6179a8c55035c7262aa136a73c2ab6",
+      "text": "The %s reflects",
+      "locations": [
+        {
+          "file": "sticks.c",
+          "line": 352
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "6fa8ff6e900989867551d455f8db73028931658614631458263c1ac658b0ceba",
+      "text": "The heat pulse reflects",
+      "locations": [
+        {
+          "file": "sticks.c",
+          "line": 367
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "695cfdd5067b911f63e27d6a36f7224e30edc204d697d11795f2355351702ca8",
+      "text": " from the sentinel",
+      "locations": [
+        {
+          "file": "sticks.c",
+          "line": 369
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "2d1a7e58ef773ee4a068d361e85330c16593ae1bb37031e3389a9b5723bf5fb4",
+      "text": "%s fails to connect",
+      "locations": [
+        {
+          "file": "sticks.c",
+          "line": 380
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "acaadc47ee7ab1af4aad072f5aae59ee74c18fb6e760f1f9ade11bf5036fee6e",
+      "text": "The %s passes beside %s",
+      "locations": [
+        {
+          "file": "sticks.c",
+          "line": 382
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "7771c71c580c4713e3bb6a67e7944a7cebe3dbb9dbd66f96bcbc7bd91299e809",
+      "text": "The %s connects",
+      "locations": [
+        {
+          "file": "sticks.c",
+          "line": 400
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "6c1d26c79fea8415f7c627a9e2e9b03ba93343610e106da89667baf02d6f393d",
+      "text": "The %s strikes you",
+      "locations": [
+        {
+          "file": "sticks.c",
+          "line": 402
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "40a9ecb11c18e32ad1ba13b06fb0672d2abafdbde295c30567d7639445c10b49",
+      "text": "The %s passes beside you",
+      "locations": [
+        {
+          "file": "sticks.c",
+          "line": 405
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "9a422a6d7d39f6e54ac0109d5834d2d4c1e32dbc7bacd38cf3282e5f94aab040",
+      "text": " [%d uses]",
+      "locations": [
+        {
+          "file": "sticks.c",
+          "line": 429
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "530fe6d529cb1ee481875c01e54fe62b075584ecb5c2ab47a2e01350eda174c9",
+      "text": "A sheet ",
+      "locations": [
+        {
+          "file": "things.c",
+          "line": 45
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "e136e3ce2407c5eabadb61df2f853ba697c3ccddad3a65cbf8d201ba5d860690",
+      "text": "%d sheets ",
+      "locations": [
+        {
+          "file": "things.c",
+          "line": 50
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "81114f2c81320ff5dc2896bb855ee4704c25812206ba54da5103eeb47eb201d3",
+      "text": "for %s",
+      "locations": [
+        {
+          "file": "things.c",
+          "line": 55
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "632de365054a1c704dfbaf838e580f5c2026c7a0f1042f2920f777b0e74c20cd",
+      "text": "labelled %s",
+      "locations": [
+        {
+          "file": "things.c",
+          "line": 57
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "5f3c077fd3748cb09279bda8d3af9b49081436f5ecf65a4f0ef5a6a90df322c7",
+      "text": "marked %s",
+      "locations": [
+        {
+          "file": "things.c",
+          "line": 59
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "dd6ec6c6380514362a159b52a01565922ca3b1f6588c56f776ce439fe85c4cf2",
+      "text": "A ration",
+      "locations": [
+        {
+          "file": "things.c",
+          "line": 68
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "34f48a917031d1c409351ee75ef71701ee9e0d57e2a377af5030a5d779bd80b1",
+      "text": "%d ration packs",
+      "locations": [
+        {
+          "file": "things.c",
+          "line": 70
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "8fab1b7d55cdc1015c329bd038bce2f90f2c58b515b0d84cf88f287ff16ad2be",
+      "text": " labelled %s",
+      "locations": [
+        {
+          "file": "things.c",
+          "line": 87
+        },
+        {
+          "file": "things.c",
+          "line": 105
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "853fddba5637fc16a2b14cab274874c702ac31a0f2a590bf51cd888510cb2435",
+      "text": "shell rating ",
+      "locations": [
+        {
+          "file": "things.c",
+          "line": 96
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "35ca3915bdc50578d8918783466c22e5f81c3516e1e7ed55f761db9ba4dd5959",
+      "text": "The survey lens",
+      "locations": [
+        {
+          "file": "things.c",
+          "line": 108
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "23ec6e1424ae9f401b60042f419983a7911d994bf215a938a729265b954d0ea3",
+      "text": "%d credits",
+      "locations": [
+        {
+          "file": "things.c",
+          "line": 110
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "0d065985432c693f185986b410ea738ff68989be314b47a833f6ebbdcfc6267c",
+      "text": "Collected an unfamiliar item %s",
+      "locations": [
+        {
+          "file": "things.c",
+          "line": 113
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "626c43994872b05967cecb8f64bad8b8197d1234de4c3566eda07e4e8c9087d9",
+      "text": "Unknown item %s",
+      "locations": [
+        {
+          "file": "things.c",
+          "line": 114
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "81155508d1c48f0377b8b7a16682745de3da1915ed3d70aeb1c245634797e712",
+      "text": " (fitted shell)",
+      "locations": [
+        {
+          "file": "things.c",
+          "line": 120
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "96d774a4201d09bf4b2beb32dcce1b3df689d722a3c56cbb65437531783cbf30",
+      "text": " (hand tool)",
+      "locations": [
+        {
+          "file": "things.c",
+          "line": 122
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "c6bde652e63e4e7f3bd4088c2064b765e49fc8a34f82113a7c4ca1d8af159b9d",
+      "text": " (left slot)",
+      "locations": [
+        {
+          "file": "things.c",
+          "line": 124
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "4b50021a99dcaf3a804b5eff97c633706e3c96a5cc2440429298bee7737f1afa",
+      "text": " (right slot)",
+      "locations": [
+        {
+          "file": "things.c",
+          "line": 126
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "c3478a41a4195650d77f62f0979fa6aabad7157b59ece5c59a2743d6c46e4d31",
+      "text": "The deck cell is already occupied",
+      "locations": [
+        {
+          "file": "things.c",
+          "line": 151
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "73dbb564bcbe8296297d68e95589b0e1b7f0cb9da983e5849554edcf17ab86c5",
+      "text": "leave",
+      "locations": [
+        {
+          "file": "things.c",
+          "line": 154
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "1b32947a8f46d63f6e73f6ae3b34f6bad39e6b9779cc37e834b4b191e457ac53",
+      "text": "Left %s on the deck",
+      "locations": [
+        {
+          "file": "things.c",
+          "line": 168
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "a88bf3d6c55c6d581e9d8692a2bbfe3d8f7ac933d33eb926399ffb1bbc22521e",
+      "text": "The item is locked in place",
+      "locations": [
+        {
+          "file": "things.c",
+          "line": 185
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "7dccaab4e83ac2aca069a71b15508f27f47bc247c3c88cab30d506f9f92d2c2e",
+      "text": "Invalid generated item category",
+      "locations": [
+        {
+          "file": "things.c",
+          "line": 294
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "eb992bc7e63ac62c1b23024b3a2df8f55d69d654a982cca21a5733c2d0e58fa0",
+      "text": "Selection %d exceeds %d entries",
+      "locations": [
+        {
+          "file": "things.c",
+          "line": 321
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "952e3596a3c0615b470baae872e47b0c50af93fe55e9a7f9f986d7bde768d71c",
+      "text": "for ",
+      "locations": [
+        {
+          "file": "things.c",
+          "line": 351
+        },
+        {
+          "file": "things.c",
+          "line": 664
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "fda12dc1a2f84b3beba703d7198949aa926a774e7c8d21d719b69671c4a62046",
+      "text": "Which category",
+      "locations": [
+        {
+          "file": "things.c",
+          "line": 352
+        },
+        {
+          "file": "things.c",
+          "line": 665
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "de6ccdcfa1063a66b1a05caf974eff36b8fa269cc3fac25b95d4327f84a05bdc",
+      "text": " of equipment should be listed",
+      "locations": [
+        {
+          "file": "things.c",
+          "line": 354
+        },
+        {
+          "file": "things.c",
+          "line": 667
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "b0b5c37911823084c039ef049513e69118219b87c0a3fd1ca907388f9596699a",
+      "text": "? (* lists all)",
+      "locations": [
+        {
+          "file": "things.c",
+          "line": 355
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "4f6ed49843e01b28794da1de468ffec1df1bc3e00180c3a2c48a8f2e99652b72",
+      "text": "Unknown category",
+      "locations": [
+        {
+          "file": "things.c",
+          "line": 371
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "e169c340c23fc8361ce3ecbac833f1f4ddfc307b01ae4042f6e90864cc8cad2a",
+      "text": "Choose %c%c%c%c; Escape cancels",
+      "locations": [
+        {
+          "file": "things.c",
+          "line": 373
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "c3d9a99f08b71f701c7eac7b63a128a7b2a4180fbfd5c06b665b17a548e48c9f",
+      "text": "No records",
+      "locations": [
+        {
+          "file": "things.c",
+          "line": 594
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "548de8ec9e20e0dbe2aa482f7bbd7de058a49ef9fe35c3cc5d5ae83b44380cd5",
+      "text": "No equipment has been identified",
+      "locations": [
+        {
+          "file": "things.c",
+          "line": 596
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "6c20e7f019287e01de049a1b318a8ba4f2b5f725c5bb9eb286d82f7fe2211485",
+      "text": "rod",
+      "locations": [
+        {
+          "file": "things.c",
+          "line": 605
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "37a98537f86e839b247e38145f79cef1f69c24c05d73e40138507399999ea642",
+      "text": " for any %ss",
+      "locations": [
+        {
+          "file": "things.c",
+          "line": 607
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "d4ca177cae972acfa698c05101729b3fbeb8c1d68bf077328bd7f3619d67d6d8",
+      "text": "Signal Survey source adaptation, 2026",
+      "locations": [
+        {
+          "file": "vers.c",
+          "line": 17
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "a8ae35eaddff8b9970e3075d77d711798ddfa511a5391581aef83e1a8ebbf64f",
+      "text": "launch",
+      "locations": [
+        {
+          "file": "weapons.c",
+          "line": 52
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "c026aac8d14a85ddc9cc1b1cf75a7f6ac0f357424a2b56da7a9cf4a98736c7ce",
+      "text": "The %s breaks on landing",
+      "locations": [
+        {
+          "file": "weapons.c",
+          "line": 149
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "9ea65286667476f0234623ed5235fe5928a7e003b6b19ab189446753c0bf7694",
+      "text": "select",
+      "locations": [
+        {
+          "file": "weapons.c",
+          "line": 238
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "215cc4038f5c34432af0e4449bcb46c38f02cc8160be3df194df290aa35367a4",
+      "text": "A shell cannot be used as a hand tool",
+      "locations": [
+        {
+          "file": "weapons.c",
+          "line": 247
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "3b4f593482bd5aef3f442c43e30e39f6e8f3e90679205644b780541e44668e45",
+      "text": "Hand tool %s (%c)",
+      "locations": [
+        {
+          "file": "weapons.c",
+          "line": 257
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "0e5f9865a631bd93459e38ddb01c0f2a5bedcab1da20314adc54a8df43867538",
+      "text": "There is no carried equipment to analyze",
+      "locations": [
+        {
+          "file": "wizard.c",
+          "line": 32
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "f8bd0d01fe7fe626a9c1dd349079663a37ae7d79476e0d149ca3096ae09353e2",
+      "text": "analyze",
+      "locations": [
+        {
+          "file": "wizard.c",
+          "line": 38
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "84b8ccd09fb1631a10a6b291b52a41051ce7cc856918192925faaf8bfbe52130",
+      "text": "Choose an item for analysis",
+      "locations": [
+        {
+          "file": "wizard.c",
+          "line": 44
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "2d16098e01f423b1f2253d1e8cc085a7fef607dddfb8c54e42dac7a4d70668d2",
+      "text": "Choose a %s for analysis",
+      "locations": [
+        {
+          "file": "wizard.c",
+          "line": 47
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "3e3b6242d5fb3d6a582e0294b03f534bf379ae8b93eabf05a9ab39bf7cde8989",
+      "text": "band, rod or coil",
+      "locations": [
+        {
+          "file": "wizard.c",
+          "line": 107
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "585df3ab563a7f2ab4db27065eeeee3d9bf3e08ca8b3d4cb9201caca3d0b39b0",
+      "text": "protective shell",
+      "locations": [
+        {
+          "file": "wizard.c",
+          "line": 111
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "01391df7f82efe8ff49e9ec76d6fb65ef451d5162a29e94494bb52f278ac5a6a",
+      "text": "Equipment category: ",
+      "locations": [
+        {
+          "file": "wizard.c",
+          "line": 134
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "0611fc0b2b7a78bbe66bbf47c85648752ecb2c31603a81b43eef5c5828b96d28",
+      "text": "Choose %c index 0-f",
+      "locations": [
+        {
+          "file": "wizard.c",
+          "line": 137
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "2592a7e253f1fca69a7993e512cefb9e77b8055bf739c101d3a269cfd564a32d",
+      "text": "Adjustment (+,-,n): ",
+      "locations": [
+        {
+          "file": "wizard.c",
+          "line": 144
+        },
+        {
+          "file": "wizard.c",
+          "line": 173
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "6bd0d8bc22bc9df35c48990f0c19670fc43dc0e2c4070ea0be0869f72d20acd2",
+      "text": "Adjustment amount:",
+      "locations": [
+        {
+          "file": "wizard.c",
+          "line": 187
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "4b116a68e26108c6479d9bcfee182690a21ed1fb0c47825d7b4fd249fdaf2208",
+      "text": "Debug passphrase:",
+      "locations": [
+        {
+          "file": "wizard.c",
+          "line": 244
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "92f958d7458a280888a7f965a8c1c58156efdf205c9ae3d6d54cc6dbc07d241f",
+      "text": "---More (survey map)---",
+      "locations": [
+        {
+          "file": "wizard.c",
+          "line": 282
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "dd8f1a4489aaa3f80ea8536ecc268e1ad50daedd770a23fcd6abfe1e6d58de70",
+      "text": "launcher pin",
+      "locations": [
+        {
+          "file": "extern.c",
+          "line": 299
+        },
+        {
+          "file": "rip.c",
+          "line": 399
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "b33c1a3abaebc30f28954e428804b11e3cc33b5483862f3dbc26e758ca141d1b",
+      "text": "needle pin",
+      "locations": [
+        {
+          "file": "extern.c",
+          "line": 302
+        },
+        {
+          "file": "rip.c",
+          "line": 401
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "0aff5626269264b84c65baefbcf8b3fd7c2c55a7470bea84fb913db064627aa8",
+      "text": "rod",
+      "locations": [
+        {
+          "file": "init.c",
+          "line": 337
+        },
+        {
+          "file": "state.c",
+          "line": 1014
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "c2ee97c8d4a5e69f5db958cf75f732feedf6bb6deec29b8fcf73adec62cdd1ae",
+      "text": "coil",
+      "locations": [
+        {
+          "file": "init.c",
+          "line": 348
+        },
+        {
+          "file": "state.c",
+          "line": 979
+        },
+        {
+          "file": "state.c",
+          "line": 1009
+        },
+        {
+          "file": "sticks.c",
+          "line": 27
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "607e1f00326d2d2cc50a1ab2a6c20f7426e378777243b9a89531b3baa5534f17",
+      "text": "for %s%s(%s)",
+      "locations": [
+        {
+          "file": "things.c",
+          "line": 631
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "0ef9205121bde83f2d125a03031e4871e63c10269ac429d575d3cdebab627d81",
+      "text": "labelled %s%s(%s)",
+      "locations": [
+        {
+          "file": "things.c",
+          "line": 633
+        }
+      ]
+    }
+  ]
+}

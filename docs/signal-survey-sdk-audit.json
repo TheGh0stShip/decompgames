@@ -1,0 +1,2178 @@
+{
+  "schema": 1,
+  "sdkVersion": "6.0.10",
+  "sdkPin": "e566f7bdcc7735f44037911c24b87a58a3c93145",
+  "trackedSDKClean": true,
+  "archives": [
+    {
+      "path": "cache/sysroot/lib/wasm32-emscripten/libc.a",
+      "sha256": "ba6b94135849f416e936cae348c23b59b5d4cda3ab38f7bc655a732a99da13bd",
+      "selectedMembers": [
+        {
+          "member": "_Exit.o",
+          "bytes": 1151,
+          "sha256": "9c8837314d3e768bfa7e71e912cfe96b11791a4a69616408f37dad38a82b4109",
+          "source": "system/lib/libc/musl/src/exit/_Exit.c",
+          "sourceSha256": "7a3f141fb48d3e8dec67380d7da86eac0b97cd224ec7c060d6fe15b161b4d4c9",
+          "sourceUnique": true
+        },
+        {
+          "member": "__environ.o",
+          "bytes": 2801,
+          "sha256": "d8dbae6b5a3773f6eb36303b361554b9a5e662696c4d0802dd8ac852012c5464",
+          "source": "system/lib/libc/musl/src/env/__environ.c",
+          "sourceSha256": "589b03efa51a1b3eed9db297d24beba09a3df39684b34137f2a78e1803b310f8",
+          "sourceUnique": true
+        },
+        {
+          "member": "__errno_location.o",
+          "bytes": 1319,
+          "sha256": "4aa1649d9fe43d95ad65bf291c8c14450805f2075b9714327af120a4b535c445",
+          "source": "system/lib/libc/musl/src/errno/__errno_location.c",
+          "sourceSha256": "9ffd4bac0f2da08307dd277d9517d9f38c0f939f9b3124e7caa65ada81756c67",
+          "sourceUnique": true
+        },
+        {
+          "member": "__fdopen.o",
+          "bytes": 4934,
+          "sha256": "a5445a6ba3079b300c370dd17af7072c25c5f7cd04661ef6a54cd87763ef9d96",
+          "source": "system/lib/libc/musl/src/stdio/__fdopen.c",
+          "sourceSha256": "dee65159c3639c6541815cdd528c832ebc13cddae4fc6f1e8d5b5faea03a9938",
+          "sourceUnique": true
+        },
+        {
+          "member": "__fmodeflags.o",
+          "bytes": 1751,
+          "sha256": "498d4e6d7ef898c907e8bb486b8ac6e780628830e56e034471b6b1281b739cbe",
+          "source": "system/lib/libc/musl/src/stdio/__fmodeflags.c",
+          "sourceSha256": "33b0a1af60462e61663c20180ea0d375a7cd5fb6c1da6d41716ad0046ac03344",
+          "sourceUnique": true
+        },
+        {
+          "member": "__fpclassifyl.o",
+          "bytes": 1945,
+          "sha256": "b5bb2a906e9560df25e3bad446b18120135b44310178ff1c914680a550042f0d",
+          "source": "system/lib/libc/musl/src/math/__fpclassifyl.c",
+          "sourceSha256": "79a2f6d1f56dd3c3cc316d6fc5891ec0bd04b69a1b0f6688e028fb29c8f85a84",
+          "sourceUnique": true
+        },
+        {
+          "member": "__lockfile.o",
+          "bytes": 2953,
+          "sha256": "c699cdbb6a5ec9115a191987cf18b2a053617de845a37d017205b5d486f59d34",
+          "source": "system/lib/libc/musl/src/stdio/__lockfile.c",
+          "sourceSha256": "37f6ff51f09e6a4ba32262d63adda8a93b662dff3fd1f247c5bd8249f31b229f",
+          "sourceUnique": true
+        },
+        {
+          "member": "__overflow.o",
+          "bytes": 3087,
+          "sha256": "05feb1f76d726c85f22c457db10225b9bc98ed4b4e508cdbc80bd47e52650209",
+          "source": "system/lib/libc/musl/src/stdio/__overflow.c",
+          "sourceSha256": "1d4606389714e1ccd180cd411cac9d766e087e4efc9ded513c92050969366491",
+          "sourceUnique": true
+        },
+        {
+          "member": "__stdio_close.o",
+          "bytes": 3309,
+          "sha256": "9eed8a5334cf39504daa3b539647272d376bc1643b6264757d0d5198875d670b",
+          "source": "system/lib/libc/musl/src/stdio/__stdio_close.c",
+          "sourceSha256": "59089a99da4101f335e45e9b65ff6245cd1d31bb0cbc5d3871dba00965140f49",
+          "sourceUnique": true
+        },
+        {
+          "member": "__stdio_exit.o",
+          "bytes": 3695,
+          "sha256": "d39ba3dc998242737ef9866fdb7b429f284aa0ed35454dfa4914fb2b9e1d8076",
+          "source": "system/lib/libc/musl/src/stdio/__stdio_exit.c",
+          "sourceSha256": "9862e7c37e38efca52e0174401c717afc49c327fcd6954e8a0d241252ff4ee56",
+          "sourceUnique": true
+        },
+        {
+          "member": "__stdio_read.o",
+          "bytes": 4072,
+          "sha256": "42ad2f969508ffadaf216b32b2711643fe51351e676b1dd94f1820a121ca6ddc",
+          "source": "system/lib/libc/musl/src/stdio/__stdio_read.c",
+          "sourceSha256": "cefb717e7430486bdfbbcffa882a4ad86583999f559bb838310b40c497962784",
+          "sourceUnique": true
+        },
+        {
+          "member": "__stdio_seek.o",
+          "bytes": 2766,
+          "sha256": "43338d91bbfc10ae74bab615c94bc388e497ae9fb10c3b3aabde288462f752cb",
+          "source": "system/lib/libc/musl/src/stdio/__stdio_seek.c",
+          "sourceSha256": "02a6231c5ba3b012d097ea9646d6e85bfb396d6f49061363915a3277a25e57b6",
+          "sourceUnique": true
+        },
+        {
+          "member": "__stdio_write.o",
+          "bytes": 4739,
+          "sha256": "c533bdde65ca2c5b4a019a5e7417c4b4cf856ba64f92f42d53448f5dbbd83b66",
+          "source": "system/lib/libc/musl/src/stdio/__stdio_write.c",
+          "sourceSha256": "518e7f4fbde5e6089ab6dadc985ebab05711dfff8d0867c5433893e17f1a2337",
+          "sourceUnique": true
+        },
+        {
+          "member": "__toread.o",
+          "bytes": 3124,
+          "sha256": "09efe379812e9abf549e7ca63a016ccecde4e795d9ef1969f9c5232572bb8eb3",
+          "source": "system/lib/libc/musl/src/stdio/__toread.c",
+          "sourceSha256": "a48c3ea1a42ea1b2836d64ab97807e89a6adf5c5bf22c6094944510c8c17adca",
+          "sourceUnique": true
+        },
+        {
+          "member": "__towrite.o",
+          "bytes": 3016,
+          "sha256": "e8e53e4d949868e05aa08cb1af38c3b8a49ac658e27bbbe15d5ad99af4d43577",
+          "source": "system/lib/libc/musl/src/stdio/__towrite.c",
+          "sourceSha256": "b9cb9369502a6d10165bc4b959b4be6a11cfcd43af62d2132d521f860c9bfa4f",
+          "sourceUnique": true
+        },
+        {
+          "member": "__uflow.o",
+          "bytes": 2812,
+          "sha256": "876a7fbf6050c52f206819e0c5b0ce9957d81b4ab2a4021085499af3f5cd225c",
+          "source": "system/lib/libc/musl/src/stdio/__uflow.c",
+          "sourceSha256": "08938f226a4dd5246eaa7fd0bd93495763de8fc0d2f7f715a2907e3f4de5fc4f",
+          "sourceUnique": true
+        },
+        {
+          "member": "abort.o",
+          "bytes": 1047,
+          "sha256": "71da16fc1cc62597a211b9c1d7c3093f170069bacf7b961a8bdadc6b757bf0e9",
+          "source": "system/lib/libc/musl/src/exit/abort.c",
+          "sourceSha256": "dab1cb2741a6890a8d16591457969c6c0d6e7b5fc34d0bf0d663593dee0ee627",
+          "sourceUnique": true
+        },
+        {
+          "member": "atexit.o",
+          "bytes": 4894,
+          "sha256": "94c1b1f3224248ff3302d201d756c0d1b61f52669f0e3bd80ca64a97b6c6c1b8",
+          "source": "system/lib/libc/musl/src/exit/atexit.c",
+          "sourceSha256": "4114804a224bec6cb547f525180672b57e0dfd96dc7870298d45869a787def07",
+          "sourceUnique": true
+        },
+        {
+          "member": "atoi.o",
+          "bytes": 2026,
+          "sha256": "9ce6f3d0a08b8c9c7b8067fa8fcc04dc9a670a630213cdd67699198d0620356d",
+          "source": "system/lib/libc/musl/src/stdlib/atoi.c",
+          "sourceSha256": "76cf48cf82b18f7f5350209e453e5ad003d7a75c60a64b9c5c5d6db0f4e9db27",
+          "sourceUnique": true
+        },
+        {
+          "member": "chmod.o",
+          "bytes": 1700,
+          "sha256": "9cb31ca21cc90ee841557ee5a01084793db683d9e62579572603c200558c58d9",
+          "source": "system/lib/libc/musl/src/stat/chmod.c",
+          "sourceSha256": "b32affda1d62a2acd5414d1506adcb6948512a5304b6f6a5617e9d170e02a045",
+          "sourceUnique": true
+        },
+        {
+          "member": "copysignl.o",
+          "bytes": 1774,
+          "sha256": "2eff021ab6264a275bef65b611d250026742f92a0911a77abeb4101faa7c96ef",
+          "source": "system/lib/libc/musl/src/math/copysignl.c",
+          "sourceSha256": "17851a8156e37d0c412e9347a48739b0c33b92ad7eb868a9825b865984b9534c",
+          "sourceUnique": true
+        },
+        {
+          "member": "default_attr.o",
+          "bytes": 1109,
+          "sha256": "bbb0969693ea24c3b835bbd9613afd8ab5fe74c555a714cbf0371fd474709f15",
+          "source": "system/lib/libc/musl/src/thread/default_attr.c",
+          "sourceSha256": "99be8ab4db8a5ca9278af138db6b3bb7132170c3715f82628acc1d772e3d2680",
+          "sourceUnique": true
+        },
+        {
+          "member": "emscripten_get_heap_size.o",
+          "bytes": 1211,
+          "sha256": "51d8a7100e0ca51949a4811c9c1cd80cb9ef7262564821a740a147794a1c9183",
+          "source": "system/lib/libc/emscripten_get_heap_size.c",
+          "sourceSha256": "f642e9c8e89121b3c379535996cb78d8a7fa0626ef8351d7b00c1824dcdb1dbe",
+          "sourceUnique": true
+        },
+        {
+          "member": "emscripten_memcpy.o",
+          "bytes": 1395,
+          "sha256": "e9a9a5a108816db9e5a92703f05eda3b817e218ae688f9154a100168d9259f54",
+          "source": "system/lib/libc/emscripten_memcpy.c",
+          "sourceSha256": "7805d75ab99d759de5659893fd7b064b616a280ab38a7d42bed0e7285d5da255",
+          "sourceUnique": true
+        },
+        {
+          "member": "emscripten_memset.o",
+          "bytes": 1374,
+          "sha256": "a1e810c6b71981b473aa710311211568b76b0e71255be3d4b0544071a0b3f144",
+          "source": "system/lib/libc/emscripten_memset.c",
+          "sourceSha256": "0f4aa67095fe7a65f13e93bf68d21318a0f1d845fbf5baedcd8d6fa17c33ba71",
+          "sourceUnique": true
+        },
+        {
+          "member": "emscripten_time.o",
+          "bytes": 2709,
+          "sha256": "28f3f2f2f355d914eab694ac304fa953f64a26288c1d1ddf9dcc79fd30bd2050",
+          "source": "system/lib/libc/emscripten_time.c",
+          "sourceSha256": "fd8c2b05393d66364bf6d7f67428bb0ef553ef523be4338ed8ec316111bf9355",
+          "sourceUnique": true
+        },
+        {
+          "member": "emscripten_yield_stub.o",
+          "bytes": 1702,
+          "sha256": "8668f75e512a1aa5dd9962d9efa586894f883d7e127a7c309798412f57de2240",
+          "source": "system/lib/libc/emscripten_yield_stub.c",
+          "sourceSha256": "007ccb726f3199a0b74c6c8525bdb9df093df234354afb38c6cfb8018a0e84b6",
+          "sourceUnique": true
+        },
+        {
+          "member": "fabsl.o",
+          "bytes": 1698,
+          "sha256": "20a43b679dbff9e367561d480dbb86fce2804c6e17813c48a1d636deeeb89393",
+          "source": "system/lib/libc/musl/src/math/fabsl.c",
+          "sourceSha256": "5837d6f134333ec433c14f46b09e0ebafbd86b7d2febce244bf6507ffa4c8c18",
+          "sourceUnique": true
+        },
+        {
+          "member": "fclose.o",
+          "bytes": 3719,
+          "sha256": "a8c7e7a7a6145184c9fb7ae6fe42c8bf03b0b629ca48f0956b89c3ee59bd091e",
+          "source": "system/lib/libc/musl/src/stdio/fclose.c",
+          "sourceSha256": "e6988cb0307c03aedfd2748bbdb5a1d734df728e1db8fbb248a9ff6be1b27b98",
+          "sourceUnique": true
+        },
+        {
+          "member": "fflush.o",
+          "bytes": 3694,
+          "sha256": "fe1dad2be318ab5bae4ac05e8e00534002ad37ab3fb7d116e320f490293098fd",
+          "source": "system/lib/libc/musl/src/stdio/fflush.c",
+          "sourceSha256": "856ac1841cdeeeb3df3f47bfbea5fae0746b5c9ac67d9113588f8d1375f6eb55",
+          "sourceUnique": true
+        },
+        {
+          "member": "fgets.o",
+          "bytes": 3957,
+          "sha256": "56f1c7bc834eebed5e9e0c177fc486771311e5018b7de24af2b5c10c9fc6fdc4",
+          "source": "system/lib/libc/musl/src/stdio/fgets.c",
+          "sourceSha256": "b832104a1a5453b74ae4609c911a00586e89fb4eaddb457717bdb65f7041aecb",
+          "sourceUnique": true
+        },
+        {
+          "member": "floatscan.o",
+          "bytes": 23594,
+          "sha256": "3e96a7ed552e85f794cbb67c1de69398162eb74a9da486fd3c83f1878f69c96a",
+          "source": "system/lib/libc/musl/src/internal/floatscan.c",
+          "sourceSha256": "13a007ee0be8682efa12c80e088a1758a425d8be1842980609f20c0f9d6d9ad5",
+          "sourceUnique": true
+        },
+        {
+          "member": "fmodl.o",
+          "bytes": 4254,
+          "sha256": "a791d226c6b312217bdd9c4f64e51928bc313403f126718f901cb349b6842a68",
+          "source": "system/lib/libc/musl/src/math/fmodl.c",
+          "sourceSha256": "2e0331976ad4414bae10293befdb06a36b89cb8a7fcd66522cdb48c8485b97cb",
+          "sourceUnique": true
+        },
+        {
+          "member": "fopen.o",
+          "bytes": 4277,
+          "sha256": "8fd49fe4d977ab2e8168ac42a2e2820c3b38d703587bdd329a889e72d6e39a0e",
+          "source": "system/lib/libc/musl/src/stdio/fopen.c",
+          "sourceSha256": "69a37b32d2229c1302158b2070b1a02016fd4be85cd02985c069fc6ba79607ce",
+          "sourceUnique": true
+        },
+        {
+          "member": "fputc.o",
+          "bytes": 7548,
+          "sha256": "8313252f5081a4ceeb3d24bbf3e25d0a026593e563d99c636584911f9c467d10",
+          "source": "system/lib/libc/musl/src/stdio/fputc.c",
+          "sourceSha256": "3f8178bfae26f9b6dec69cd13997a6316d43840db5e956eb4fadc0e74fb7a240",
+          "sourceUnique": true
+        },
+        {
+          "member": "fputs.o",
+          "bytes": 3024,
+          "sha256": "58dc0763fefb047e4b2307cb8402105181a5b1aa66ce772b24913f7b413c073b",
+          "source": "system/lib/libc/musl/src/stdio/fputs.c",
+          "sourceSha256": "accd1554f54b5be4537ceda6be283b021e381370b7efa10105b288ed74521886",
+          "sourceUnique": true
+        },
+        {
+          "member": "fread.o",
+          "bytes": 3699,
+          "sha256": "cc6c6fb4e5c3599a271b46b147eac51089c1502c73897e4342dcfb018b8ee059",
+          "source": "system/lib/libc/musl/src/stdio/fread.c",
+          "sourceSha256": "d690a3072af0dd833d3cf94569ec0f8ac295b95deb1bfaeb80ca4e693d9c24cc",
+          "sourceUnique": true
+        },
+        {
+          "member": "frexp.o",
+          "bytes": 1880,
+          "sha256": "c7923b5a00d7c11b9114f1d4ad2897c955cd27ae8014462418848515d9e12bbd",
+          "source": "system/lib/libc/musl/src/math/frexp.c",
+          "sourceSha256": "58a2973f80f9def7940708850e97f8080da38be2496cd473f7cb9023e9d59e94",
+          "sourceUnique": true
+        },
+        {
+          "member": "fseek.o",
+          "bytes": 3795,
+          "sha256": "331c0377ad1797e03670fe5e40970ab387a70df99acdbaf086c38d7f01b840b2",
+          "source": "system/lib/libc/musl/src/stdio/fseek.c",
+          "sourceSha256": "69a716a8f8d8601a4d0c9fd24689ec4c43da0a45d8b37a166e91e3517b18aecb",
+          "sourceUnique": true
+        },
+        {
+          "member": "fstatat.o",
+          "bytes": 3390,
+          "sha256": "7fc39599e10c985f06e934996c896850b3b311bdb88ef3c5e7329bee52962e37",
+          "source": "system/lib/libc/musl/src/stat/fstatat.c",
+          "sourceSha256": "73a2e11a9255c67b4470d156ac4b7042ee52706b93283d69b1091b25753be4aa",
+          "sourceUnique": true
+        },
+        {
+          "member": "fwrite.o",
+          "bytes": 4265,
+          "sha256": "5d3a65cc921b6edb8ff0ea98e9ce990a31f47cc6e909118e11601e3fa0298aa1",
+          "source": "system/lib/libc/musl/src/stdio/fwrite.c",
+          "sourceSha256": "91b1cbf23660e909dfe788f1c7cc46e19a937342dbaa357eda1946d2daf5c9c8",
+          "sourceUnique": true
+        },
+        {
+          "member": "getenv.o",
+          "bytes": 2050,
+          "sha256": "d2f8e92efd63ffca14c81f5ba7f997686a714a163fcb1f37154e9c57a40b48ed",
+          "source": "system/lib/libc/musl/src/env/getenv.c",
+          "sourceSha256": "40d803615b9ef1e1f59cfd0a8fc025ff50d5308b56d4b76ecaec7a596bc92ec9",
+          "sourceUnique": true
+        },
+        {
+          "member": "getpid.o",
+          "bytes": 1349,
+          "sha256": "70c67b9b8201b36d3a912142ec77ef58f274589932bcf12fb3451a1d3e0c19c0",
+          "source": "system/lib/libc/musl/src/unistd/getpid.c",
+          "sourceSha256": "17b3add7a6d6f26d1a97b627bbeb2078a9c863d57a74d0fed2405174f3ba3b3d",
+          "sourceUnique": true
+        },
+        {
+          "member": "internal.o",
+          "bytes": 1362,
+          "sha256": "902189bcf22088763feabc7e0ea00e16fc20ffbd70881e175a751401bb026e2a",
+          "source": "system/lib/libc/musl/src/multibyte/internal.c",
+          "sourceSha256": "925f6ac1d116631148076f868700689913ab6c2040b21be16d3abefa598514bd",
+          "sourceUnique": true
+        },
+        {
+          "member": "intscan.o",
+          "bytes": 7601,
+          "sha256": "746deea0661368a5a92c1a6dc2bea32bd11ab56bd6fc9de20bfccc6da655d605",
+          "source": "system/lib/libc/musl/src/internal/intscan.c",
+          "sourceSha256": "ed96c758c94666f2557059bd8fca26db8340b9e6b417852f1599e7c30f67deca",
+          "sourceUnique": true
+        },
+        {
+          "member": "libc.o",
+          "bytes": 2009,
+          "sha256": "ff200a605232b948fcf3612dc8c6829be563eba76648f23cf7205ee95a4d29df",
+          "source": "system/lib/libc/musl/src/internal/libc.c",
+          "sourceSha256": "bae9969eb415ba23bdae8ae7f80e346f6a2c1e5c9d17dc373fd3bba04bc03fa5",
+          "sourceUnique": true
+        },
+        {
+          "member": "library_pthread_stub.o",
+          "bytes": 18312,
+          "sha256": "9fbb2aebe9f3a261dad0ecc5bb3efa15790360354666b47f2d89ac34f42fbcfa",
+          "source": "system/lib/pthread/library_pthread_stub.c",
+          "sourceSha256": "1c00d6be4d4780405ac4cfbd0523dbeca911d9e33b16c2515b8a6c5109799e98",
+          "sourceUnique": true
+        },
+        {
+          "member": "lseek.o",
+          "bytes": 2259,
+          "sha256": "b9213966755b8fb843729e5752b8fc0d2ea6a719303bfaacfe0ab9633a83d385",
+          "source": "system/lib/libc/musl/src/unistd/lseek.c",
+          "sourceSha256": "0a5ff6af363be25291d771069def7405e76a1b09dc7b988b39eb16abb13540c4",
+          "sourceUnique": true
+        },
+        {
+          "member": "lstat.o",
+          "bytes": 2386,
+          "sha256": "6aa31c6665715af6f7232e39c1c5caf14fda64aeeca7cd39a013ff7ea110ba49",
+          "source": "system/lib/libc/musl/src/stat/lstat.c",
+          "sourceSha256": "908d60b942a0c17593702b71909e892c196f673a32d0d927cc0b965d2c073089",
+          "sourceUnique": true
+        },
+        {
+          "member": "mbrtowc.o",
+          "bytes": 3306,
+          "sha256": "3431cc20020c96dfe1b43514818b78d2c427c883cc80124ad59280def2b43310",
+          "source": "system/lib/libc/musl/src/multibyte/mbrtowc.c",
+          "sourceSha256": "5e54562b56d55cee9ffafd42bc37bee9428610f657e001c0905153ed698fe43d",
+          "sourceUnique": true
+        },
+        {
+          "member": "mbsinit.o",
+          "bytes": 1404,
+          "sha256": "acfe7c5c918cacdb6bc307bd5902058f2e5ac46ff0af1651487095f893329e4e",
+          "source": "system/lib/libc/musl/src/multibyte/mbsinit.c",
+          "sourceSha256": "efa33b1b2d0ce4b2eaaa8dfbcde901e745f6e047d744a401dfc4be01be1f09ec",
+          "sourceUnique": true
+        },
+        {
+          "member": "memchr.o",
+          "bytes": 2229,
+          "sha256": "220a4a1e6d28c1aa575485aef43ed412ecc99ad577c6d8b5c7d3c43f639d8f02",
+          "source": "system/lib/libc/musl/src/string/memchr.c",
+          "sourceSha256": "67bfc48f1d29368c9d0ba806112eab32b7a4c1376a7de42e64761a170d7c2dfc",
+          "sourceUnique": true
+        },
+        {
+          "member": "ofl.o",
+          "bytes": 3314,
+          "sha256": "e9ab981a00d3bc75eba8a0c78bec37cbc80a5f740bc39362e524afed672eff5a",
+          "source": "system/lib/libc/musl/src/stdio/ofl.c",
+          "sourceSha256": "0cc470e24f70349bc897db361266a6f0b59f64d29e1ccba5ff770e603242deb3",
+          "sourceUnique": true
+        },
+        {
+          "member": "ofl_add.o",
+          "bytes": 2875,
+          "sha256": "e6fa7a221b580dc00dfcc3f9b5fb5f5abbd42bab30aafd200882ab4af1f2d506",
+          "source": "system/lib/libc/musl/src/stdio/ofl_add.c",
+          "sourceSha256": "9ff596e40eefcd69205be5358e44d9c4e257f5484d9adcc63b67fa3b6f3e2e81",
+          "sourceUnique": true
+        },
+        {
+          "member": "perror.o",
+          "bytes": 3757,
+          "sha256": "1ed6526c6b45b1751d53a04ab8f19afcbbf8b6b53e5e8dee4f83e34f45beea1b",
+          "source": "system/lib/libc/musl/src/stdio/perror.c",
+          "sourceSha256": "68870526f79a3638463309891a006acf6e84303c615ed5eeca1b35179eaab096",
+          "sourceUnique": true
+        },
+        {
+          "member": "printf.o",
+          "bytes": 4017,
+          "sha256": "c26ddb95ddb43881d50fd21ad8800a4de47c1ad21e91e69acadbfc93930ca721",
+          "source": "system/lib/libc/musl/src/stdio/printf.c",
+          "sourceSha256": "58e21fc57a668676b8e855005192ac69583a271cc61563b1fb8f4ffcb73ce429",
+          "sourceUnique": true
+        },
+        {
+          "member": "pthread_self.o",
+          "bytes": 4201,
+          "sha256": "68aa4d0081309b25bd6d44948432555cbed911316b30991f3110684936806527",
+          "source": "system/lib/libc/musl/src/thread/pthread_self.c",
+          "sourceSha256": "aaaa2602892e93074240ed6017c4c7c1a3fdb65aa69fa975e6e89818ea2fc1f6",
+          "sourceUnique": true
+        },
+        {
+          "member": "pthread_self_stub.o",
+          "bytes": 5089,
+          "sha256": "26a6d20485a2e9f891b2e13a6d7697be3b38b39d589d5aad3caa743aa47c0fa1",
+          "source": "system/lib/pthread/pthread_self_stub.c",
+          "sourceSha256": "d1cff7b24162d6c473553447239fa104b4f7faf9453ef14eb41f08c1bdee6ad3",
+          "sourceUnique": true
+        },
+        {
+          "member": "pthread_sigmask.o",
+          "bytes": 4103,
+          "sha256": "a74dfb57aab3dda5977e1f9bedc0b1125f8ba40f672ab18d0b7df5869136be53",
+          "source": "system/lib/libc/pthread_sigmask.c",
+          "sourceSha256": "90f597346d8655727e23164338702bea9497a0eabf348f0d1842ebd11b73016f",
+          "sourceUnique": true
+        },
+        {
+          "member": "putc.o",
+          "bytes": 7594,
+          "sha256": "fbdd9318436318abbf66bc39daf0a495966e62764f6f4c2f598eae2af62eb4dc",
+          "source": "system/lib/libc/musl/src/stdio/putc.c",
+          "sourceSha256": "062c049a8ce00ba03661d89b88bc078e4b6f8d90ee5367244ba4d96fd8b6f130",
+          "sourceUnique": true
+        },
+        {
+          "member": "putchar.o",
+          "bytes": 7685,
+          "sha256": "25fefe1a9a70caa7956cb829500131ab2c47212c234bd06cc4a5c133738fb2a5",
+          "source": "system/lib/libc/musl/src/stdio/putchar.c",
+          "sourceSha256": "a16f500be6e2487f25d11ba633e077ce037fe1b503db43ccc5f53b957a717032",
+          "sourceUnique": true
+        },
+        {
+          "member": "puts.o",
+          "bytes": 3101,
+          "sha256": "73949628f4b1e5a227b27594a7c5b8b3a12ff6afde29470687c8062a4a8935fc",
+          "source": "system/lib/libc/musl/src/stdio/puts.c",
+          "sourceSha256": "0f7520fffe5f8792692ae9078df45507c1dbe4924fe612c365001e12ca4b90ae",
+          "sourceUnique": true
+        },
+        {
+          "member": "raise.o",
+          "bytes": 4845,
+          "sha256": "5b4cd478b320cac4529e8dd4a81956620e664110239416c15628e6558fa749ab",
+          "source": "system/lib/libc/raise.c",
+          "sourceSha256": "abef26efb040b66d5350ff91060025711835451a6361b731dd9e66a264f36fa5",
+          "sourceUnique": true
+        },
+        {
+          "member": "rand.o",
+          "bytes": 1660,
+          "sha256": "5619a2e18e51a1139553fe9ae520cd2ad3f20d4be46bad0db3154d05258d4e97",
+          "source": "system/lib/libc/musl/src/prng/rand.c",
+          "sourceSha256": "83ac507f40f71ce90477290ca255dffb91e4256226616e46fa044ad1b136c24d",
+          "sourceUnique": true
+        },
+        {
+          "member": "rewind.o",
+          "bytes": 2656,
+          "sha256": "44c8aef5cdb28f60e64f01f257016dde7ef35dc7fe49ce684588a9182b220b4c",
+          "source": "system/lib/libc/musl/src/stdio/rewind.c",
+          "sourceSha256": "4076cc0b6f0a42b3b0935a8ce9e5a2d06ce7ac14b6ce2557caf367a8a4b88cf3",
+          "sourceUnique": true
+        },
+        {
+          "member": "scalbn.o",
+          "bytes": 1919,
+          "sha256": "1d108f6fcd4779b443e56c9cb719f775a99f59a507070223576b7a301d8efc65",
+          "source": "system/lib/libc/musl/src/math/scalbn.c",
+          "sourceSha256": "a2e766283ed30c2b30c71e01dbdabef58faf92cc9aa84a01c1ce1069b6625696",
+          "sourceUnique": true
+        },
+        {
+          "member": "scalbnl.o",
+          "bytes": 2432,
+          "sha256": "38d3c2796d9c3263aa013a421fb981981e54faf2aab160da00e7b3a7545e3989",
+          "source": "system/lib/libc/musl/src/math/scalbnl.c",
+          "sourceSha256": "f4da2cc8aa06122ce93867a80516abf3f4002abb9fdaf2da826c2c1986759345",
+          "sourceUnique": true
+        },
+        {
+          "member": "setbuf.o",
+          "bytes": 1600,
+          "sha256": "9ebf493499ef5d0ca1884de3e753dc3d2bf97a1a4a52b055efd45c362db8cf38",
+          "source": "system/lib/libc/musl/src/stdio/setbuf.c",
+          "sourceSha256": "c565a7aeee904ff67c06027ca433cfa37d55d806af92a15299ee872cce97c9fe",
+          "sourceUnique": true
+        },
+        {
+          "member": "setvbuf.o",
+          "bytes": 2902,
+          "sha256": "f9f07efec828bddb42ecc9393b5f6f50a6d81ea4c2609c1adb04868e13b49f68",
+          "source": "system/lib/libc/musl/src/stdio/setvbuf.c",
+          "sourceSha256": "535cc2ebdd0eee2a989f2de5992e48966825ac2860b454325493161d5f07b20a",
+          "sourceUnique": true
+        },
+        {
+          "member": "shgetc.o",
+          "bytes": 3536,
+          "sha256": "ed9e1c6a88aab93749ddf0b768cbaf60477c4d09baa13777dc23d9ab925d8003",
+          "source": "system/lib/libc/musl/src/internal/shgetc.c",
+          "sourceSha256": "0b076498bc7e64f0756692f431bf5d39ea3964a175b9eba4ce6cfe23d4c76dd2",
+          "sourceUnique": true
+        },
+        {
+          "member": "sigaction.o",
+          "bytes": 5123,
+          "sha256": "2e3d6c705d4517cdfa08cf0d92e5fe7e393ec571cf74ef65e3db6d88dc5c133f",
+          "source": "system/lib/libc/sigaction.c",
+          "sourceSha256": "5033f83e68fe8514fef2a35287bca69c87459f998ee7deb10273eda5203b8bee",
+          "sourceUnique": true
+        },
+        {
+          "member": "sigaddset.o",
+          "bytes": 1874,
+          "sha256": "a46a5562655d3b08ac8a966c23df46e190778d0239345237ad80fbc13dba758c",
+          "source": "system/lib/libc/musl/src/signal/sigaddset.c",
+          "sourceSha256": "cd1ca87b0c108ddb9fbb90f0fb869c9f051aacb0b483d542d2a7588873f7e558",
+          "sourceUnique": true
+        },
+        {
+          "member": "sigandset.o",
+          "bytes": 1732,
+          "sha256": "bb13e0c138fdb22c23fa9806b9a530f00c9aa75174fe0b01b31e6f5825b9a6aa",
+          "source": "system/lib/libc/musl/src/signal/sigandset.c",
+          "sourceSha256": "bcd164c99adacddff60cdba5ab1a4a89fb61a5504cc8f8631da2ef07485807f3",
+          "sourceUnique": true
+        },
+        {
+          "member": "sigdelset.o",
+          "bytes": 1874,
+          "sha256": "60b09149a776a83caa9bea88589b0768573d49a43977921a8c04d9b1148b4f04",
+          "source": "system/lib/libc/musl/src/signal/sigdelset.c",
+          "sourceSha256": "ee067941f4f10964594a45f2c01d626562512b41e0cb1436cd0d55d3009d688a",
+          "sourceUnique": true
+        },
+        {
+          "member": "sigismember.o",
+          "bytes": 1673,
+          "sha256": "15f32e6dd1323e66f09ebbe2101e3385c89ab578cf35aaa98916a7655dc4b7f1",
+          "source": "system/lib/libc/musl/src/signal/sigismember.c",
+          "sourceSha256": "48f40fc6e8a1b64d54c4084a083ea177ee1c1d5779d9f2b5a26de40ab72bf21f",
+          "sourceUnique": true
+        },
+        {
+          "member": "signal.o",
+          "bytes": 3631,
+          "sha256": "1b9eee3fc6b1b964e45e6af3c819b8569d147ed03f8071a20057964abcdeef73",
+          "source": "system/lib/libc/musl/src/signal/signal.c",
+          "sourceSha256": "5ffb46a04122de060329c46c1d3a0410db1fd9a629745bba75525365dfc01cd0",
+          "sourceUnique": true
+        },
+        {
+          "member": "sigorset.o",
+          "bytes": 1728,
+          "sha256": "0c0091c8137c6630399f74521bc2f0c1926334c53f3c6296e1b1c211b26fa46c",
+          "source": "system/lib/libc/musl/src/signal/sigorset.c",
+          "sourceSha256": "0854f8628777b4838675c6d16811517333ceea4e703cd1a6458e6631cb394af7",
+          "sourceUnique": true
+        },
+        {
+          "member": "snprintf.o",
+          "bytes": 1947,
+          "sha256": "332cefce5c1f3da06688ff4e72aa67ef44d62ff739165c61f96e8bb9143934af",
+          "source": "system/lib/libc/musl/src/stdio/snprintf.c",
+          "sourceSha256": "be661cb258170863a1372b8e5998ef345bb8ef8e3f06d38a603dfda77eed4d4d",
+          "sourceUnique": true
+        },
+        {
+          "member": "sprintf.o",
+          "bytes": 2966,
+          "sha256": "817c6e80c6bffcb1602e5c27473640e10752257db4d9adbb4e6d59320b982e8a",
+          "source": "system/lib/libc/musl/src/stdio/sprintf.c",
+          "sourceSha256": "cc98d1c5313caa021e5017cc011e6d57bf3dda42111c605e8a9b84b8dd36b3b1",
+          "sourceUnique": true
+        },
+        {
+          "member": "sscanf.o",
+          "bytes": 1860,
+          "sha256": "203502ddb157942bebbc58f6abfe09d4119fff14098714c80b7fa58458c0d783",
+          "source": "system/lib/libc/musl/src/stdio/sscanf.c",
+          "sourceSha256": "5eb4ae1a1527b41a0a5ad9c2b0d122952f246827e8deb5ff47162ffa7692b847",
+          "sourceUnique": true
+        },
+        {
+          "member": "stat.o",
+          "bytes": 2376,
+          "sha256": "c638859f736369ccfc6d0e79aadd40c740c7b3272539540ec745f055458597d0",
+          "source": "system/lib/libc/musl/src/stat/stat.c",
+          "sourceSha256": "64bb2371a4e7e97bfab49194d4715547149a4929e4327b5fbfcb6d4d7719917d",
+          "sourceUnique": true
+        },
+        {
+          "member": "stderr.o",
+          "bytes": 3010,
+          "sha256": "beebd43ce865fdd91eeb9d9eb53a3fc83483597978d2cf03df63558be710d8f2",
+          "source": "system/lib/libc/musl/src/stdio/stderr.c",
+          "sourceSha256": "328cd28a186bec37f37df12aac17c68e08f6aa75bce3c08509b5982dbe66d14b",
+          "sourceUnique": true
+        },
+        {
+          "member": "stdin.o",
+          "bytes": 4030,
+          "sha256": "b4fda27f200511e027a65e7877a82a2d2824dc79494d566ca5a5cebb64e2e1c0",
+          "source": "system/lib/libc/musl/src/stdio/stdin.c",
+          "sourceSha256": "3965d3b597369fa6fdf3819511bd3cd5a7b13967d5fa85054ab2904d5343d729",
+          "sourceUnique": true
+        },
+        {
+          "member": "stdout.o",
+          "bytes": 4540,
+          "sha256": "b14d429c5d127a2565a1226a7e507f323740ba9877a6330e6c7e0beaffabcab3",
+          "source": "system/lib/libc/musl/src/stdio/stdout.c",
+          "sourceSha256": "66452680f8fa8cac1ad8899aeda0b1eb1fab0756ccef9528b9ef717346674661",
+          "sourceUnique": true
+        },
+        {
+          "member": "stpcpy.o",
+          "bytes": 2075,
+          "sha256": "70ab17236d704b8d82806901d901ff0971266c7be360377a6fb09b538ff1a502",
+          "source": "system/lib/libc/musl/src/string/stpcpy.c",
+          "sourceSha256": "58244549e75540cdc8b5f2d9c0ea7916180962c290fa36b425ba872652df8cd0",
+          "sourceUnique": true
+        },
+        {
+          "member": "stpncpy.o",
+          "bytes": 2563,
+          "sha256": "8d343cd57edfdb23b4e6beed429d0a8eb4042afe3f0e8912672599363ff1f881",
+          "source": "system/lib/libc/musl/src/string/stpncpy.c",
+          "sourceSha256": "4aa7816aeb8e9f0093ec014fed56dc7b9d4808a2ab58adad60d53dc7eddc0255",
+          "sourceUnique": true
+        },
+        {
+          "member": "strcat.o",
+          "bytes": 1592,
+          "sha256": "8691b41cfa6c555cbd5c53d2dd99ef042f46d6b1a869515434ee4303b7fb3d40",
+          "source": "system/lib/libc/musl/src/string/strcat.c",
+          "sourceSha256": "20d9a630bbcf17e072d3c1bc9081d441b9bc4839b14808fff19223964bee2068",
+          "sourceUnique": true
+        },
+        {
+          "member": "strchr.o",
+          "bytes": 1520,
+          "sha256": "6e1d125230de191740a36e78c4888ed414273860bb500472d0bce4ace4f8c6a7",
+          "source": "system/lib/libc/musl/src/string/strchr.c",
+          "sourceSha256": "629d401b95d07ddff9560eb5a9cfbda1652caaec273dc6a79013a56b1790af53",
+          "sourceUnique": true
+        },
+        {
+          "member": "strchrnul.o",
+          "bytes": 2326,
+          "sha256": "457d597dab8ab81d5bd8d77c70388878017a86aa16d770fc4e6f3f4efae13e44",
+          "source": "system/lib/libc/musl/src/string/strchrnul.c",
+          "sourceSha256": "4282311b1e837ac63df0b091a30bc912e3dc25293f19169ca878bd8d4c329e7c",
+          "sourceUnique": true
+        },
+        {
+          "member": "strcmp.o",
+          "bytes": 1392,
+          "sha256": "3432f01d97585ecb847bc59e9ae68b0b06f0055fee0873c2a51a544e4fc1ef7b",
+          "source": "system/lib/libc/musl/src/string/strcmp.c",
+          "sourceSha256": "3e1793ea2dd358e5c884c4dd232083605d0f6775f7ebe19d03d64fe97068a78f",
+          "sourceUnique": true
+        },
+        {
+          "member": "strcpy.o",
+          "bytes": 1360,
+          "sha256": "3453585955022ff70d691883bc4d01a1f6ad1041ea155472e6daa1d467554c1b",
+          "source": "system/lib/libc/musl/src/string/strcpy.c",
+          "sourceSha256": "3785cd5bc3e08049617db754a3677f7485e5e7bc4a7901102af1604cee290b71",
+          "sourceUnique": true
+        },
+        {
+          "member": "strerror.o",
+          "bytes": 8181,
+          "sha256": "dc1a6edc681966ff70988fb468f20e9d5a481b239351f85a4f8c909bd923ac7f",
+          "source": "system/lib/libc/musl/src/errno/strerror.c",
+          "sourceSha256": "f449116b4a268861571b8f1c5e40d3cda09006d49c91ea84007e9be43cfb09d9",
+          "sourceUnique": true
+        },
+        {
+          "member": "strlen.o",
+          "bytes": 1774,
+          "sha256": "9a661ed8017ea984bac4ac10f63f5496647db15a9a872d1d4ebd1926b9cdc87d",
+          "source": "system/lib/libc/musl/src/string/strlen.c",
+          "sourceSha256": "152cbbb4bf1b99ea4853a0e244e895e2a9c4446cf52b4d6a0c1d4bad5f0106b2",
+          "sourceUnique": true
+        },
+        {
+          "member": "strncmp.o",
+          "bytes": 1803,
+          "sha256": "1bba18948e94025c3c74196b1e69d44aa8c6fa1cbffc041d73a873032caf1d1f",
+          "source": "system/lib/libc/musl/src/string/strncmp.c",
+          "sourceSha256": "df801c43304b27dcda67f219a7a3ca34a8fb06f4e63d21e8a6bcb36b03c3c012",
+          "sourceUnique": true
+        },
+        {
+          "member": "strncpy.o",
+          "bytes": 1530,
+          "sha256": "5f9ab62ded8f0140f042b0c7efc50e823735cbdac4a521a7f2b2cbf44878a1bf",
+          "source": "system/lib/libc/musl/src/string/strncpy.c",
+          "sourceSha256": "88301f7a48004250e1833e9155c7d2fa607ffdddca3b1b1804774d93c82acb96",
+          "sourceUnique": true
+        },
+        {
+          "member": "strnlen.o",
+          "bytes": 1645,
+          "sha256": "9a94ee6188a44d860c34b4658ef7f5fa310b9e39678b0baf69b64d8baf3d619e",
+          "source": "system/lib/libc/musl/src/string/strnlen.c",
+          "sourceSha256": "3a72ef5250b314ca0d8ff0fed2f6aa10c8b2b26605806c759faf0d1a9b835a9e",
+          "sourceUnique": true
+        },
+        {
+          "member": "syscall_ret.o",
+          "bytes": 1455,
+          "sha256": "def1dd45da7e6ec4759c9959b76956d265119e3f8570d79ffb7d95b023443d8e",
+          "source": "system/lib/libc/musl/src/internal/syscall_ret.c",
+          "sourceSha256": "d7d4192a8265f4d5ade02b9666b9cb4e164a734c49fec3f5eca965e91404dd98",
+          "sourceUnique": true
+        },
+        {
+          "member": "tolower.o",
+          "bytes": 1641,
+          "sha256": "cf5f8c10cb8006ad339e128b9980b12bd6e3cec74b1ae6dbdbf3378f5a259ac8",
+          "source": "system/lib/libc/musl/src/ctype/tolower.c",
+          "sourceSha256": "ecdd1dedb49853eab7a79381726c4bf3c70c08be6b8fc9b9ece270769355ff7a",
+          "sourceUnique": true
+        },
+        {
+          "member": "toupper.o",
+          "bytes": 1642,
+          "sha256": "69248a13f0462b25ce6347a5bb03841197f203f08a59a5e05fd8596aae4b0c53",
+          "source": "system/lib/libc/musl/src/ctype/toupper.c",
+          "sourceSha256": "d63476d65fa366bd1e3fe2e0af1dd0b7b50327b8ade2e6c7820bbc1dc90c00da",
+          "sourceUnique": true
+        },
+        {
+          "member": "unlink.o",
+          "bytes": 1562,
+          "sha256": "ea672c38c6dd80b275b277344914a91e7af81d0dedcfe12007a1f6294bb64536",
+          "source": "system/lib/libc/musl/src/unistd/unlink.c",
+          "sourceSha256": "0b8cee9833681811c2be980624f2a9e5bd8be6ee7884853acf36771b63ca6927",
+          "sourceUnique": true
+        },
+        {
+          "member": "uselocale.o",
+          "bytes": 2188,
+          "sha256": "875039795e278fb0529f6eea88fac495fe5b07a2fce2ca364a2a9d822c3773db",
+          "source": "system/lib/libc/musl/src/locale/uselocale.c",
+          "sourceSha256": "0db2e64fba01994aaf6196e0476c71d640388853d5788560bdedec7f9841b080",
+          "sourceUnique": true
+        },
+        {
+          "member": "vfprintf.o",
+          "bytes": 31947,
+          "sha256": "392899a26ee7ea24b6d21d91041da3ef3dc94c8040dd66124fb88c610fd9a15d",
+          "source": "system/lib/libc/musl/src/stdio/vfprintf.c",
+          "sourceSha256": "580c3fbf10264b0cd422da755afe963d54785a433c6ee4b607e00560dbf92b2d",
+          "sourceUnique": true
+        },
+        {
+          "member": "vfscanf.o",
+          "bytes": 13165,
+          "sha256": "28054703c9af0f511717bc8b7ffb66bce5904014f9ddc3e2c56f34945fbda488",
+          "source": "system/lib/libc/musl/src/stdio/vfscanf.c",
+          "sourceSha256": "d4940fce26d88baa8d0c0f84fb68230c93323f518d0153f0dd293b5c78113b0c",
+          "sourceUnique": true
+        },
+        {
+          "member": "vsnprintf.o",
+          "bytes": 6788,
+          "sha256": "82c018a6c4847687f99cc9d943cef69adc0cab27d9fa0372bd9b7d77029fd0f3",
+          "source": "system/lib/libc/musl/src/stdio/vsnprintf.c",
+          "sourceSha256": "b307baae1675cf93bab514457dcb6446db7e3bd058d56c209880fc033e7b7668",
+          "sourceUnique": true
+        },
+        {
+          "member": "vsprintf.o",
+          "bytes": 2441,
+          "sha256": "0fe3968e339ada5bf8f1746b92bcf258ea38204a87a721ce7c68e0bf694c5f01",
+          "source": "system/lib/libc/musl/src/stdio/vsprintf.c",
+          "sourceSha256": "9eda84e68f04e3994bcaca864af49b82d127cdc4227ded52401ee54d7273109c",
+          "sourceUnique": true
+        },
+        {
+          "member": "vsscanf.o",
+          "bytes": 4163,
+          "sha256": "72fef79ea123e6fcff8bd9972e3edb5588c290e86fecb2dba31113af99ea18fb",
+          "source": "system/lib/libc/musl/src/stdio/vsscanf.c",
+          "sourceSha256": "88c56beb64ca4d4c6688404b1a16e10d8dd903f3447a5f88017ca927c5f15d0f",
+          "sourceUnique": true
+        },
+        {
+          "member": "wasi-helpers.o",
+          "bytes": 3329,
+          "sha256": "ebac98bc4e1611b56a36bd9fb19d0d0ad681afac92866ae54fe04cad1aa2bcad",
+          "source": "system/lib/libc/wasi-helpers.c",
+          "sourceSha256": "6173efcc48a1daacd3c1f7817b18173a6de48a1bb87b1ba49598fa70d22b1731",
+          "sourceUnique": true
+        },
+        {
+          "member": "wcrtomb.o",
+          "bytes": 2406,
+          "sha256": "a5e98a76e4909b7b3ad04d19806d90427e05b788696cbd877fb66ff68e5738c6",
+          "source": "system/lib/libc/musl/src/multibyte/wcrtomb.c",
+          "sourceSha256": "a8f5bfa624c88f1e3214bcd46d909fb9c5b172ac9b634fb32a101161ab680693",
+          "sourceUnique": true
+        },
+        {
+          "member": "wctomb.o",
+          "bytes": 1761,
+          "sha256": "abd10232fa8ed8e55a3117c8fafbe238a294c5df4aa10dc5e80e7eb03c9e8463",
+          "source": "system/lib/libc/musl/src/multibyte/wctomb.c",
+          "sourceSha256": "046e38f206c7203d0b1295dcdcd3080e3b1c335ff2e1433f0626066a73e8befc",
+          "sourceUnique": true
+        }
+      ]
+    },
+    {
+      "path": "cache/sysroot/lib/wasm32-emscripten/libclang_rt.builtins.a",
+      "sha256": "ea6806df6d883bd8ad9d1da9817d61dadaaae7fbaf56fd665034aa1fb8794916",
+      "selectedMembers": [
+        {
+          "member": "addtf3.o",
+          "bytes": 7175,
+          "sha256": "20dc37e7709beae0e8cd492e4d1929bb98e28121a4e8f9be41b5fc7251bc824f",
+          "source": "system/lib/compiler-rt/lib/builtins/addtf3.c",
+          "sourceSha256": "b23037fd20a30845a5c19414659ac2820de33a5ea4abf65c2aceaa8ba94fd102",
+          "sourceUnique": true
+        },
+        {
+          "member": "ashlti3.o",
+          "bytes": 2020,
+          "sha256": "b9b43820f53ba72507048636f0581d9af3c558096ac2041ea67017d4df60e383",
+          "source": "system/lib/compiler-rt/lib/builtins/ashlti3.c",
+          "sourceSha256": "39afba4710d9b24c9c27cccdc8e18a18db10ce3616dc60cdcfa494f0a49a3a60",
+          "sourceUnique": true
+        },
+        {
+          "member": "comparetf2.o",
+          "bytes": 4850,
+          "sha256": "30a5d5d3d399284697a49cc7b72a2b376eb127c36059bdf157f577ced5597bbc",
+          "source": "system/lib/compiler-rt/lib/builtins/comparetf2.c",
+          "sourceSha256": "4656413b5b87c11855a053a55f1c1fb8c483c1b6c5183b5e70ba1ca6e939819d",
+          "sourceUnique": true
+        },
+        {
+          "member": "divtf3.o",
+          "bytes": 13500,
+          "sha256": "07fc5631429040f1862ca33b0c78822c201d20a691d99b853c46e0bea9325250",
+          "source": "system/lib/compiler-rt/lib/builtins/divtf3.c",
+          "sourceSha256": "c792ed3e30ca8f451bcbca0f655859090c87aac4ee94e174423891cf0b8ff223",
+          "sourceUnique": true
+        },
+        {
+          "member": "emscripten_exception_builtins.o",
+          "bytes": 1569,
+          "sha256": "b31d94aa712b257d8454338a3640d00c4133d2fac1a85f6769e4f57acbc4ef03",
+          "source": "system/lib/compiler-rt/emscripten_exception_builtins.c",
+          "sourceSha256": "48e70458a6cc487f78b2406931cc6da9f12b81f72b2cd5098ff9216c6cd65f16",
+          "sourceUnique": true
+        },
+        {
+          "member": "extenddftf2.o",
+          "bytes": 4298,
+          "sha256": "ed06fdb8e39ab68756fb6fbb6087c95d19d604e9c7b5f3caa23ee8b2c223f169",
+          "source": "system/lib/compiler-rt/lib/builtins/extenddftf2.c",
+          "sourceSha256": "d5d52fd1e14e5db84c99319cd3aa363de68cbfbd5fe290c73b39a3acc541cf20",
+          "sourceUnique": true
+        },
+        {
+          "member": "extendsftf2.o",
+          "bytes": 4580,
+          "sha256": "eee4c57f7bbb76646a551aeb316a79d9b1045dc1d6626ca2d671d34dc3ccdbcc",
+          "source": "system/lib/compiler-rt/lib/builtins/extendsftf2.c",
+          "sourceSha256": "48fb287875d8831c08b6a820f2a152705b1ad00d7615a8150e11475ce2c202c2",
+          "sourceUnique": true
+        },
+        {
+          "member": "floatsitf.o",
+          "bytes": 2158,
+          "sha256": "97293c7fcd7d2c80153c65fd5558ce0d04c3564cbb9b83f6b3618256eac723b1",
+          "source": "system/lib/compiler-rt/lib/builtins/floatsitf.c",
+          "sourceSha256": "b0227a97e438ae8b0f2d61b979379446dd9bfbcb252a1e8073938b4ac89e2649",
+          "sourceUnique": true
+        },
+        {
+          "member": "floatunsitf.o",
+          "bytes": 1984,
+          "sha256": "14b222320b7ba303cd241419d7ff20b5add80d110410be5cf3744cd758c88f04",
+          "source": "system/lib/compiler-rt/lib/builtins/floatunsitf.c",
+          "sourceSha256": "9418e6093a593268f15220553fd35bdfd25a1fd94ecaf23b0ceba54c36445efb",
+          "sourceUnique": true
+        },
+        {
+          "member": "fp_mode.o",
+          "bytes": 1491,
+          "sha256": "fd1626b68647756ef58a983af8bf2388b1b234d4e400af87dbe7165e68237405",
+          "source": "system/lib/compiler-rt/lib/builtins/fp_mode.c",
+          "sourceSha256": "0f626fefe2e19854549dfe598bd168a770bae7e1cab34b459871fabec4632f25",
+          "sourceUnique": true
+        },
+        {
+          "member": "lshrti3.o",
+          "bytes": 2002,
+          "sha256": "5bf1af1f19d60a51df9937e223dd3fb4367251edee67273f3ca59b617d87acbf",
+          "source": "system/lib/compiler-rt/lib/builtins/lshrti3.c",
+          "sourceSha256": "89da91e31e33c3c62128c32ed1c740856a413c17ac1e7cd75702da37d1cf9fa4",
+          "sourceUnique": true
+        },
+        {
+          "member": "multf3.o",
+          "bytes": 9057,
+          "sha256": "6e8626ea95c31d27d7fa79546935676e4ce39844e2ed5622398a1673212a142a",
+          "source": "system/lib/compiler-rt/lib/builtins/multf3.c",
+          "sourceSha256": "29ae4d98ff8bfb7226abfe9fe6a90c4b818196bc0ef736f981343aee2648864a",
+          "sourceUnique": true
+        },
+        {
+          "member": "multi3.o",
+          "bytes": 2541,
+          "sha256": "9524ab48b601a52b1e7708e51ad49d1f4a3a105ddbdab238ad62a39e598eaa04",
+          "source": "system/lib/compiler-rt/lib/builtins/multi3.c",
+          "sourceSha256": "b2e133764668e78119f7c76facbb11f0b4b7c0c6b279fb0b97a589da11d1d060",
+          "sourceUnique": true
+        },
+        {
+          "member": "stack_limits.o",
+          "bytes": 1605,
+          "sha256": "24841c57cee9cd2b50f5826553ef04d231f46186b1d4514eac995b0bc744ae5c",
+          "source": "system/lib/compiler-rt/stack_limits.S",
+          "sourceSha256": "e6867a21e15ccf50b4526b1754a44df40f391c6249450b144c96a9ccd9e9a2a7",
+          "sourceUnique": true
+        },
+        {
+          "member": "stack_ops.o",
+          "bytes": 1165,
+          "sha256": "d9015db8f55266d36e72b35191e09e34f49a0984edb78c7ad8921931a88dbdd3",
+          "source": "system/lib/compiler-rt/stack_ops.S",
+          "sourceSha256": "f99c53c18be77b978f2255c5ef9c1c31798fe17dea87ca87f34ae39a2f237045",
+          "sourceUnique": true
+        },
+        {
+          "member": "subtf3.o",
+          "bytes": 1489,
+          "sha256": "2c00ec17ea43b621239d880f51b4f5581c33359580322b768b05148af78b52b4",
+          "source": "system/lib/compiler-rt/lib/builtins/subtf3.c",
+          "sourceSha256": "e68ff5c165411378b63779937f24ac7b7b9e15d76387187e3fd5e1673e946600",
+          "sourceUnique": true
+        },
+        {
+          "member": "trunctfdf2.o",
+          "bytes": 5630,
+          "sha256": "2674e28a7d9aa19885e189d1e82eed2ea8b5e88d09b3e9ac1de426cbdd1911a0",
+          "source": "system/lib/compiler-rt/lib/builtins/trunctfdf2.c",
+          "sourceSha256": "46a8ca78c3d3c44a0eb8eff7a86739349cbd26cb7f61e3b5784fb096a5420871",
+          "sourceUnique": true
+        },
+        {
+          "member": "trunctfsf2.o",
+          "bytes": 5530,
+          "sha256": "3ff739d0cddf6c20a95e0bf1d269b870c76969e23ea6823b5836c9bc6fda04cd",
+          "source": "system/lib/compiler-rt/lib/builtins/trunctfsf2.c",
+          "sourceSha256": "6d1cf89c99ca23deb573fda82b729105cc8d8a44643a47d3377a8636f5bb2998",
+          "sourceUnique": true
+        }
+      ]
+    },
+    {
+      "path": "cache/sysroot/lib/wasm32-emscripten/libdlmalloc.a",
+      "sha256": "43a9b96f0a0749c515dbb551cb3cf82c6af4b3d4191f9de1429dab8319928b94",
+      "selectedMembers": [
+        {
+          "member": "dlmalloc.o",
+          "bytes": 68781,
+          "sha256": "d0e61b6a6666c85dc2ba53cb5a32f6012252396e5cd82c3d2d5c27ef752fa8c9",
+          "source": "system/lib/dlmalloc.c",
+          "sourceSha256": "175ef7cab6d59b858471ad8ba16ee8a2f0536ddf666742b5e044b187171695d6",
+          "sourceUnique": true
+        },
+        {
+          "member": "sbrk.o",
+          "bytes": 5323,
+          "sha256": "38f778bfec53f20969a6d1f7c12db99d19a06733bbed31b2096267531e18e3ee",
+          "source": "system/lib/libc/sbrk.c",
+          "sourceSha256": "c5240534df9773b524c3385452e9ec7d45eb1d6c7c37c441cfbea156f0f7fa0e",
+          "sourceUnique": true
+        }
+      ]
+    },
+    {
+      "path": "cache/sysroot/lib/wasm32-emscripten/libstubs.a",
+      "sha256": "ac597237f5186f0d22ba48bb148b786a2ba32e49aa5069e8fc8c1493b0b70b6e",
+      "selectedMembers": [
+        {
+          "member": "emscripten_syscall_stubs.o",
+          "bytes": 9484,
+          "sha256": "5dabda319862b47d7dfa29350438634af273e80b61e68c533669f8e4a23fd439",
+          "source": "system/lib/libc/emscripten_syscall_stubs.c",
+          "sourceSha256": "d8c72d693625453052734fd6705287e32745135852ec095599facbcd01cc33d3",
+          "sourceUnique": true
+        }
+      ]
+    }
+  ],
+  "headers": [
+    {
+      "kind": "game-or-authored",
+      "path": "config.h",
+      "sha256": "066e808c6697b1c83b441f2e3cf8bc659eb69dd6eace27265f3463638028d714"
+    },
+    {
+      "kind": "game-or-authored",
+      "path": "curses.h",
+      "sha256": "10e27641119da8895e3b05499c6d51a34e142956ab75dc0affdf1b6161f57e57"
+    },
+    {
+      "kind": "sdk",
+      "path": "cache/sysroot/include/alloca.h",
+      "sha256": "8768404d7cf4af5fb135b1a2ca91765bd2be311ac072e0ec8b68f5cb3e6e0f3e"
+    },
+    {
+      "kind": "sdk",
+      "path": "cache/sysroot/include/bits/alltypes.h",
+      "sha256": "13617a7828b5661c4c86eae277e7cac17e4ed7392380c04b504b4c9d743db338"
+    },
+    {
+      "kind": "sdk",
+      "path": "cache/sysroot/include/bits/errno.h",
+      "sha256": "be2a71d49f18d8d844260a048aa5c9133d23ee499cd3495054ce28251cb669af"
+    },
+    {
+      "kind": "sdk",
+      "path": "cache/sysroot/include/bits/fcntl.h",
+      "sha256": "3526dbb894665ab3b155a60d730c8527edce4fa597b3d5e51364a345d0cbdaeb"
+    },
+    {
+      "kind": "sdk",
+      "path": "cache/sysroot/include/bits/limits.h",
+      "sha256": "d9e8d3a428aa44f4262f56b5205e063e98ea9fd0a356638d934f4d1a4cd475a6"
+    },
+    {
+      "kind": "sdk",
+      "path": "cache/sysroot/include/bits/signal.h",
+      "sha256": "c0cbc175d356a771e09dee9cd5d23e159db7c512bc274eff15c7abbf36fdc3a9"
+    },
+    {
+      "kind": "sdk",
+      "path": "cache/sysroot/include/bits/stat.h",
+      "sha256": "85eb05fe9b5a01e4ed0aecd026143d861d1034640f714454be18a60241c1193d"
+    },
+    {
+      "kind": "sdk",
+      "path": "cache/sysroot/include/compat/stdarg.h",
+      "sha256": "0f88329b2b0be4ddf789ee557f42b57a6db1accb4469fea201e56340973323d5"
+    },
+    {
+      "kind": "sdk",
+      "path": "cache/sysroot/include/compat/stdlib.h",
+      "sha256": "600a360d3e667af0a0272601a32f57d40db2c64f9ce844ebca1b8bf5960dccdb"
+    },
+    {
+      "kind": "sdk",
+      "path": "cache/sysroot/include/compat/string.h",
+      "sha256": "482ccfcd1db700c2fd91136dcf74e248bf038e3696431f49bd19b14046b631cf"
+    },
+    {
+      "kind": "sdk",
+      "path": "cache/sysroot/include/compat/sys/stat.h",
+      "sha256": "76f205856cbb0ed67c245de9b3a70587fbeaa4ce13fd1a3ba298059edf78abb8"
+    },
+    {
+      "kind": "sdk",
+      "path": "cache/sysroot/include/compat/time.h",
+      "sha256": "a337345aba2c4b920b68e737fb7de2a09b48d003606fc76a62d72c8ff782f434"
+    },
+    {
+      "kind": "sdk",
+      "path": "cache/sysroot/include/ctype.h",
+      "sha256": "0bf45ee657538bf2033a9a17f286f5a4cbcba22a19667deb28d43ac8952c6d30"
+    },
+    {
+      "kind": "sdk",
+      "path": "cache/sysroot/include/emscripten.h",
+      "sha256": "09aa28d477911733e68c8d4e83f3d319922db3fadbb6b91adb6253c4bcbacdb9"
+    },
+    {
+      "kind": "sdk",
+      "path": "cache/sysroot/include/emscripten/em_macros.h",
+      "sha256": "89d57dac4d2fd6ab2c2dc1da9ae6c305d1a06a6a61285452574a4607f738881f"
+    },
+    {
+      "kind": "sdk",
+      "path": "cache/sysroot/include/emscripten/emscripten.h",
+      "sha256": "6650ff82f88bd07786188a95cdf3bd27aaaa5ec6982d0727d8eae0e390c48d6e"
+    },
+    {
+      "kind": "sdk",
+      "path": "cache/sysroot/include/emscripten/em_asm.h",
+      "sha256": "b1abd1db490734c0a834150380d0a10d7bfb53e3b91a3238cbab643d13e5d08d"
+    },
+    {
+      "kind": "sdk",
+      "path": "cache/sysroot/include/emscripten/em_js.h",
+      "sha256": "36e396b1a5616eb1f23a5aab003dd45e857ef6c83e2e026ac0104229b7ca52a1"
+    },
+    {
+      "kind": "sdk",
+      "path": "cache/sysroot/include/emscripten/em_types.h",
+      "sha256": "bc3ae71ad08f1ae0c987d7efec0fbc7eaa2d4c504ee113fadb0025013c912d57"
+    },
+    {
+      "kind": "sdk",
+      "path": "cache/sysroot/include/emscripten/promise.h",
+      "sha256": "8072ab226fcad703022f2e4ff1f35fefb8545890b5a59935101964a16909c7db"
+    },
+    {
+      "kind": "sdk",
+      "path": "cache/sysroot/include/emscripten/version.h",
+      "sha256": "feb7fdbe98ebe361d9cbb83864aeaf4bf0d71142457f531dc6766587d3586be6"
+    },
+    {
+      "kind": "sdk",
+      "path": "cache/sysroot/include/emscripten/wget.h",
+      "sha256": "7bcf5e98180ee6e733264d651489bcf330e5bd53ed815efa67dfacf219306295"
+    },
+    {
+      "kind": "sdk",
+      "path": "cache/sysroot/include/endian.h",
+      "sha256": "4414084736937798abcc075d1f8053e116d873c81dda0908013bfca3331771b9"
+    },
+    {
+      "kind": "sdk",
+      "path": "cache/sysroot/include/errno.h",
+      "sha256": "a461912e4058202de8ec414cbd67e04a84965bbff9aff61523bd3baf090b217d"
+    },
+    {
+      "kind": "sdk",
+      "path": "cache/sysroot/include/fcntl.h",
+      "sha256": "80b575ae15a62020a8d223af333ddba14dccd720f7a045523d9ff655dee666f3"
+    },
+    {
+      "kind": "sdk",
+      "path": "cache/sysroot/include/features.h",
+      "sha256": "078acf7161200b03710cdf93f039f6dbfed993ec619f16ea902a41871c228603"
+    },
+    {
+      "kind": "sdk",
+      "path": "cache/sysroot/include/limits.h",
+      "sha256": "54d66aac63111f27a6b6584ee91711ecdcfbb26b730ab0cf744d8a05503b27c7"
+    },
+    {
+      "kind": "sdk",
+      "path": "cache/sysroot/include/signal.h",
+      "sha256": "18a55cd40db16c4ee993521d53f288e1a4537b9ccb31ab43c35c9a1e2a24f947"
+    },
+    {
+      "kind": "sdk",
+      "path": "cache/sysroot/include/stdint.h",
+      "sha256": "385a3978d180e2c4e934e27f38d1b0d67abd0d3ff8bc7a03c1d4ce830e2152a5"
+    },
+    {
+      "kind": "sdk",
+      "path": "cache/sysroot/include/stdio.h",
+      "sha256": "606230adfe5609b5d032b0e3bfa2e093543ea8ee67ef4f4a67e4d164cf2d1b2d"
+    },
+    {
+      "kind": "sdk",
+      "path": "cache/sysroot/include/stdlib.h",
+      "sha256": "8f732c241f6d2f0a56dbaeb98ea044d5c2aec8e78fb5e734bb67c910cb954632"
+    },
+    {
+      "kind": "sdk",
+      "path": "cache/sysroot/include/string.h",
+      "sha256": "75aabfb7b9dc14788dcb2a89bf21b371eeb2b29eb4af6b8374f1ffd682447ccf"
+    },
+    {
+      "kind": "sdk",
+      "path": "cache/sysroot/include/strings.h",
+      "sha256": "b8fde0a141ac481de1f88abafbf5678ddfd8d89b309e3253adea1fa0ecb8d9e4"
+    },
+    {
+      "kind": "sdk",
+      "path": "cache/sysroot/include/sys/select.h",
+      "sha256": "cda463ae12b5b189bea17a69b403d6f53949f013d926d92fb325be11f95db3ae"
+    },
+    {
+      "kind": "sdk",
+      "path": "cache/sysroot/include/sys/stat.h",
+      "sha256": "db664a6dcc1a348460e427b5910e40bc0fd36db153b15ebb36de080a0401e173"
+    },
+    {
+      "kind": "sdk",
+      "path": "cache/sysroot/include/sys/types.h",
+      "sha256": "341f6883a4b4be125847d0d4edf3ec5e5bd966e0632569837e9211bb399bf47d"
+    },
+    {
+      "kind": "sdk",
+      "path": "cache/sysroot/include/time.h",
+      "sha256": "57b4e7a312305ca8adf5822408a0fc6cf3ebafb278a2d96936f55a8d2af8e880"
+    },
+    {
+      "kind": "sdk",
+      "path": "cache/sysroot/include/unistd.h",
+      "sha256": "be6493e2e5ce83075602624ded603631e552231dfce5c22389ee973a14935e25"
+    },
+    {
+      "kind": "sdk",
+      "path": "cache/sysroot/include/wasi/api.h",
+      "sha256": "ed9dd6b6c20a48aab7c4d2b3eb9e2444543c49d22ae625da80532427caae964b"
+    },
+    {
+      "kind": "clang-resource",
+      "path": "lib/clang/24/include/__stdarg___gnuc_va_list.h",
+      "sha256": "feca975bfdfb254d17458a8e3d51f8ad6d9bdc9fd6287727f0f8b2fb81fcb0b0"
+    },
+    {
+      "kind": "clang-resource",
+      "path": "lib/clang/24/include/__stdarg___va_copy.h",
+      "sha256": "f0a8d3c963338173f2d57b2cbc209dde38c90536107b15eb0cf78166d4caee1f"
+    },
+    {
+      "kind": "clang-resource",
+      "path": "lib/clang/24/include/__stdarg_header_macro.h",
+      "sha256": "7b3fbcc442af2508f36bb2dc98d9ad2b8a1f5c0f5333394fb2159c8bd5ecd5b8"
+    },
+    {
+      "kind": "clang-resource",
+      "path": "lib/clang/24/include/__stdarg_va_arg.h",
+      "sha256": "274c75a1db86f649439aa3bcc1dead4170725e6f803925c3fc38a2e93307afdc"
+    },
+    {
+      "kind": "clang-resource",
+      "path": "lib/clang/24/include/__stdarg_va_copy.h",
+      "sha256": "bb195f56cb08d4cee6a60bd9f62f34466e8ac4f89f6fed043b044cb2f7ead010"
+    },
+    {
+      "kind": "clang-resource",
+      "path": "lib/clang/24/include/__stdarg_va_list.h",
+      "sha256": "81c3055f7033e26e7f53705653bc9d69b5202f25c2692e03b3a4f77ff44a7d76"
+    },
+    {
+      "kind": "clang-resource",
+      "path": "lib/clang/24/include/__stddef_header_macro.h",
+      "sha256": "4cf46e8fbb809df048eecbbd63686fa741da27afa8db4245bd1f61c1fb1611dc"
+    },
+    {
+      "kind": "clang-resource",
+      "path": "lib/clang/24/include/__stddef_max_align_t.h",
+      "sha256": "3c1e4de47f4f06b35e2c5890d670052e84f716760505ff51b022fc8b21a9400f"
+    },
+    {
+      "kind": "clang-resource",
+      "path": "lib/clang/24/include/__stddef_null.h",
+      "sha256": "b1d71b08563ab3d2c22a1e4f8ddf4d9a1111c89e9404b859a45c307e8ebc6c69"
+    },
+    {
+      "kind": "clang-resource",
+      "path": "lib/clang/24/include/__stddef_offsetof.h",
+      "sha256": "e5f0f4ff8ff5fc6a1cc8b535f5065f1728eadd2bf1e1401f021f803ec7b4222f"
+    },
+    {
+      "kind": "clang-resource",
+      "path": "lib/clang/24/include/__stddef_ptrdiff_t.h",
+      "sha256": "b4178a57f3711b7013cba747a72a2f178c29fa9364e77d75b2159754072ced43"
+    },
+    {
+      "kind": "clang-resource",
+      "path": "lib/clang/24/include/__stddef_size_t.h",
+      "sha256": "d86ddc0238da09b385846ebef814ffc50a44e40cf85d4e3793f485952b7e73ad"
+    },
+    {
+      "kind": "clang-resource",
+      "path": "lib/clang/24/include/__stddef_wchar_t.h",
+      "sha256": "1900d4998aef3698b06399ed686db0c21e26509b08638a25734fb97ae89b1001"
+    },
+    {
+      "kind": "clang-resource",
+      "path": "lib/clang/24/include/endian.h",
+      "sha256": "a238bf14a8880760f48942f20328b1934c9f914625c996a68d495d3a064fd636"
+    },
+    {
+      "kind": "clang-resource",
+      "path": "lib/clang/24/include/limits.h",
+      "sha256": "6b59cc1b6f86c901bf41ce942b8434530e852eb16e79e6e9287f89441f71efca"
+    },
+    {
+      "kind": "clang-resource",
+      "path": "lib/clang/24/include/stdarg.h",
+      "sha256": "ce6e43d79dc89b50208ecf259b1ffd519f5a78cd3a2c7fcaac6386f376b89fef"
+    },
+    {
+      "kind": "clang-resource",
+      "path": "lib/clang/24/include/stdbool.h",
+      "sha256": "48655faf4ebd4ca0af26a1ee8e3e16f8dc68385c9cd550ffb3629320681305b3"
+    },
+    {
+      "kind": "clang-resource",
+      "path": "lib/clang/24/include/stddef.h",
+      "sha256": "b3e62a046ddf28d09eedebe6eb9461cb7060e47cad2c69964b222c4eea10347e"
+    },
+    {
+      "kind": "clang-resource",
+      "path": "lib/clang/24/include/stdint.h",
+      "sha256": "5e0ab094f39830fafd0ecde083d329c423378ff325142a52700b17773977f6c3"
+    },
+    {
+      "kind": "game-or-authored",
+      "path": "extern.h",
+      "sha256": "4ae2320fcd1cbf1a981c3b0879679bde727708645be546de33493ea2006133e7"
+    },
+    {
+      "kind": "game-or-authored",
+      "path": "rogue.h",
+      "sha256": "bad47c721a3fbd1029c6370ef3829521097c998609a30c4f413cd396192ebd77"
+    },
+    {
+      "kind": "game-or-authored",
+      "path": "score.h",
+      "sha256": "f38f9f1e2196d42181c739e54e64f5d36191c1fee9d3a0ca1b1a65d8a571f070"
+    },
+    {
+      "kind": "game-or-authored",
+      "path": "survey-levels.h",
+      "sha256": "36205ff3a31dc8bc15063c7996f7724dda0d930fa88a27dbe0e9486edcdd8ddf"
+    }
+  ],
+  "emittedJSIncludes": [
+    {
+      "path": "src/shell.js",
+      "sha256": "c24264b2c433aa57318e07705faa78414811bf5ee201dba91f2c053d0d61850a"
+    },
+    {
+      "path": "src/minimum_runtime_check.js",
+      "sha256": "72bb00be1c332f30e181de0fa2018f87885fd9eb3f9df80fb4b32db977ef7463"
+    },
+    {
+      "path": "src/node_shell_read.js",
+      "sha256": "9f1c6c53453d3d2401d133b5e5fdcfc89965118ae235e1030af39365dfb866c2"
+    },
+    {
+      "path": "src/web_or_worker_shell_read.js",
+      "sha256": "cd90708a2e1f9897f4d3827c37412d4821c9da0277ac7f30127edfac1f23cba0"
+    },
+    {
+      "path": "src/preamble.js",
+      "sha256": "4ae888724c2e12dd2839c966435d95a029653606102c9da1bb55a4e9f2de3fcf"
+    },
+    {
+      "path": "src/runtime_common.js",
+      "sha256": "57af904032948eb099f816fd3af522a91385b17cd31e1bbe25074d974363f574"
+    },
+    {
+      "path": "src/runtime_exceptions.js",
+      "sha256": "a381d1190c951d9a7b5de71c06ff50a174948eaabf2614bc58cf2a2ebb5920ae"
+    },
+    {
+      "path": "src/runtime_debug.js",
+      "sha256": "8ff3e5c671042b81c21bf3b4d0126de3f4e7bd05b01c08ee794a3aa2f892f216"
+    },
+    {
+      "path": "src/memoryprofiler.js",
+      "sha256": "5292117f0a8bba66e654ce5a204a9944b03ff389d858e5c192a17e701808510a"
+    },
+    {
+      "path": "src/postlibrary.js",
+      "sha256": "c37cb2bf03e50a35821686fe5a66c0ec11f9f677c39e1701325f386d170f7beb"
+    },
+    {
+      "path": "src/postamble.js",
+      "sha256": "8bd4017f9d0de243ca673fde1ffe9e7210f1594cc7e44f3ae4339c8f3ec6b4f3"
+    }
+  ],
+  "emittedLibrarySymbolSources": [
+    {
+      "symbol": "ExitStatus",
+      "rawKey": "$ExitStatus",
+      "source": "src/lib/libwasi.js",
+      "sourceSha256": "b9a37514b016c1d2ffcd5994dcab319f89259984d57df77706c2923ff0cb2e84"
+    },
+    {
+      "symbol": "HEAP8",
+      "rawKey": "$HEAP8",
+      "source": "src/lib/libcore.js",
+      "sourceSha256": "3541e1c16fab338449bf7267954cb15b85f742e7221557499f08e3aefe57b487"
+    },
+    {
+      "symbol": "addOnPostRun",
+      "rawKey": "$addOnPostRun",
+      "source": "src/lib/libcore.js",
+      "sourceSha256": "3541e1c16fab338449bf7267954cb15b85f742e7221557499f08e3aefe57b487"
+    },
+    {
+      "symbol": "onPostRuns",
+      "rawKey": "$onPostRuns",
+      "source": "src/lib/libcore.js",
+      "sourceSha256": "3541e1c16fab338449bf7267954cb15b85f742e7221557499f08e3aefe57b487"
+    },
+    {
+      "symbol": "callRuntimeCallbacks",
+      "rawKey": "$callRuntimeCallbacks",
+      "source": "src/lib/libcore.js",
+      "sourceSha256": "3541e1c16fab338449bf7267954cb15b85f742e7221557499f08e3aefe57b487"
+    },
+    {
+      "symbol": "addOnPreRun",
+      "rawKey": "$addOnPreRun",
+      "source": "src/lib/libcore.js",
+      "sourceSha256": "3541e1c16fab338449bf7267954cb15b85f742e7221557499f08e3aefe57b487"
+    },
+    {
+      "symbol": "onPreRuns",
+      "rawKey": "$onPreRuns",
+      "source": "src/lib/libcore.js",
+      "sourceSha256": "3541e1c16fab338449bf7267954cb15b85f742e7221557499f08e3aefe57b487"
+    },
+    {
+      "symbol": "dynCall",
+      "rawKey": "$dynCall",
+      "source": "src/lib/libcore.js",
+      "sourceSha256": "3541e1c16fab338449bf7267954cb15b85f742e7221557499f08e3aefe57b487"
+    },
+    {
+      "symbol": "dynCallLegacy",
+      "rawKey": "$dynCallLegacy",
+      "source": "src/lib/libcore.js",
+      "sourceSha256": "3541e1c16fab338449bf7267954cb15b85f742e7221557499f08e3aefe57b487"
+    },
+    {
+      "symbol": "dynCalls",
+      "rawKey": "$dynCalls",
+      "source": "src/lib/libcore.js",
+      "sourceSha256": "3541e1c16fab338449bf7267954cb15b85f742e7221557499f08e3aefe57b487"
+    },
+    {
+      "symbol": "noExitRuntime",
+      "rawKey": "$noExitRuntime",
+      "source": "src/lib/libcore.js",
+      "sourceSha256": "3541e1c16fab338449bf7267954cb15b85f742e7221557499f08e3aefe57b487"
+    },
+    {
+      "symbol": "stackRestore",
+      "rawKey": "$stackRestore",
+      "source": "src/lib/libcore.js",
+      "sourceSha256": "3541e1c16fab338449bf7267954cb15b85f742e7221557499f08e3aefe57b487"
+    },
+    {
+      "symbol": "stackSave",
+      "rawKey": "$stackSave",
+      "source": "src/lib/libcore.js",
+      "sourceSha256": "3541e1c16fab338449bf7267954cb15b85f742e7221557499f08e3aefe57b487"
+    },
+    {
+      "symbol": "wasmMemory",
+      "rawKey": "$wasmMemory",
+      "source": "src/lib/libcore.js",
+      "sourceSha256": "3541e1c16fab338449bf7267954cb15b85f742e7221557499f08e3aefe57b487"
+    },
+    {
+      "symbol": "___syscall_chmod",
+      "rawKey": "__syscall_chmod",
+      "source": "src/lib/libsyscall.js",
+      "sourceSha256": "0ad371d407ec380ef43acc24de4cf4d3c0d2fd48e688bbbb419ed3228bb254e1"
+    },
+    {
+      "symbol": "SYSCALLS",
+      "rawKey": "$SYSCALLS",
+      "source": "src/lib/libsyscall.js",
+      "sourceSha256": "0ad371d407ec380ef43acc24de4cf4d3c0d2fd48e688bbbb419ed3228bb254e1"
+    },
+    {
+      "symbol": "PATH",
+      "rawKey": "$PATH",
+      "source": "src/lib/libpath.js",
+      "sourceSha256": "6c6244b89ce194d50b25f277e5688e8729937aff77a57b8d6aca49174bf87140"
+    },
+    {
+      "symbol": "FS",
+      "rawKey": "$FS",
+      "source": "src/lib/libfs.js",
+      "sourceSha256": "9413d73126f19892ea8bc1d7403f12cdb3f269a3b57e70741ec0dd358b76750c"
+    },
+    {
+      "symbol": "randomFill",
+      "rawKey": "$randomFill",
+      "source": "src/lib/libwasi.js",
+      "sourceSha256": "b9a37514b016c1d2ffcd5994dcab319f89259984d57df77706c2923ff0cb2e84"
+    },
+    {
+      "symbol": "initRandomFill",
+      "rawKey": "$initRandomFill",
+      "source": "src/lib/libwasi.js",
+      "sourceSha256": "b9a37514b016c1d2ffcd5994dcab319f89259984d57df77706c2923ff0cb2e84"
+    },
+    {
+      "symbol": "PATH_FS",
+      "rawKey": "$PATH_FS",
+      "source": "src/lib/libpath.js",
+      "sourceSha256": "6c6244b89ce194d50b25f277e5688e8729937aff77a57b8d6aca49174bf87140"
+    },
+    {
+      "symbol": "TTY",
+      "rawKey": "$TTY",
+      "source": "src/lib/libtty.js",
+      "sourceSha256": "d1eecb978ae971917a50fbf29d44037095c95242451190abf196d16643857516"
+    },
+    {
+      "symbol": "UTF8ArrayToString",
+      "rawKey": "$UTF8ArrayToString",
+      "source": "src/lib/libstrings.js",
+      "sourceSha256": "7653dc2ececa66ef48de81fa378a463c2dde203958b6180a18979bce99ee7cbf"
+    },
+    {
+      "symbol": "UTF8Decoder",
+      "rawKey": "$UTF8Decoder",
+      "source": "src/lib/libstrings.js",
+      "sourceSha256": "7653dc2ececa66ef48de81fa378a463c2dde203958b6180a18979bce99ee7cbf"
+    },
+    {
+      "symbol": "findStringEnd",
+      "rawKey": "$findStringEnd",
+      "source": "src/lib/libstrings.js",
+      "sourceSha256": "7653dc2ececa66ef48de81fa378a463c2dde203958b6180a18979bce99ee7cbf"
+    },
+    {
+      "symbol": "FS_stdin_getChar",
+      "rawKey": "$FS_stdin_getChar",
+      "source": "src/lib/libfs_shared.js",
+      "sourceSha256": "276cff202d83ea05ad764df526109e2bad874276e3474dbb2fd53da5949d8839"
+    },
+    {
+      "symbol": "FS_stdin_getChar_buffer",
+      "rawKey": "$FS_stdin_getChar_buffer",
+      "source": "src/lib/libfs_shared.js",
+      "sourceSha256": "276cff202d83ea05ad764df526109e2bad874276e3474dbb2fd53da5949d8839"
+    },
+    {
+      "symbol": "intArrayFromString",
+      "rawKey": "$intArrayFromString",
+      "source": "src/lib/libstrings.js",
+      "sourceSha256": "7653dc2ececa66ef48de81fa378a463c2dde203958b6180a18979bce99ee7cbf"
+    },
+    {
+      "symbol": "lengthBytesUTF8",
+      "rawKey": "$lengthBytesUTF8",
+      "source": "src/lib/libstrings.js",
+      "sourceSha256": "7653dc2ececa66ef48de81fa378a463c2dde203958b6180a18979bce99ee7cbf"
+    },
+    {
+      "symbol": "stringToUTF8Array",
+      "rawKey": "$stringToUTF8Array",
+      "source": "src/lib/libstrings.js",
+      "sourceSha256": "7653dc2ececa66ef48de81fa378a463c2dde203958b6180a18979bce99ee7cbf"
+    },
+    {
+      "symbol": "MEMFS",
+      "rawKey": "$MEMFS",
+      "source": "src/lib/libmemfs.js",
+      "sourceSha256": "33c41f5a0e30aa178f709d8633aa237c038e2b39671ed78f429fb2a0db18f16a"
+    },
+    {
+      "symbol": "mmapAlloc",
+      "rawKey": "$mmapAlloc",
+      "source": "src/lib/libcore.js",
+      "sourceSha256": "3541e1c16fab338449bf7267954cb15b85f742e7221557499f08e3aefe57b487"
+    },
+    {
+      "symbol": "FS_modeStringToFlags",
+      "rawKey": "$FS_modeStringToFlags",
+      "source": "src/lib/libfs_shared.js",
+      "sourceSha256": "276cff202d83ea05ad764df526109e2bad874276e3474dbb2fd53da5949d8839"
+    },
+    {
+      "symbol": "FS_fileDataToTypedArray",
+      "rawKey": "$FS_fileDataToTypedArray",
+      "source": "src/lib/libfs_shared.js",
+      "sourceSha256": "276cff202d83ea05ad764df526109e2bad874276e3474dbb2fd53da5949d8839"
+    },
+    {
+      "symbol": "FS_getMode",
+      "rawKey": "$FS_getMode",
+      "source": "src/lib/libfs_shared.js",
+      "sourceSha256": "276cff202d83ea05ad764df526109e2bad874276e3474dbb2fd53da5949d8839"
+    },
+    {
+      "symbol": "FS_createPreloadedFile",
+      "rawKey": "$FS_createPreloadedFile",
+      "source": "src/lib/libfs_shared.js",
+      "sourceSha256": "276cff202d83ea05ad764df526109e2bad874276e3474dbb2fd53da5949d8839"
+    },
+    {
+      "symbol": "FS_preloadFile",
+      "rawKey": "$FS_preloadFile",
+      "source": "src/lib/libfs_shared.js",
+      "sourceSha256": "276cff202d83ea05ad764df526109e2bad874276e3474dbb2fd53da5949d8839"
+    },
+    {
+      "symbol": "asyncLoad",
+      "rawKey": "$asyncLoad",
+      "source": "src/lib/libcore.js",
+      "sourceSha256": "3541e1c16fab338449bf7267954cb15b85f742e7221557499f08e3aefe57b487"
+    },
+    {
+      "symbol": "FS_createDataFile",
+      "rawKey": "$FS_createDataFile",
+      "source": "src/lib/libfs.js",
+      "sourceSha256": "9413d73126f19892ea8bc1d7403f12cdb3f269a3b57e70741ec0dd358b76750c"
+    },
+    {
+      "symbol": "getUniqueRunDependency",
+      "rawKey": "$getUniqueRunDependency",
+      "source": "src/lib/libcore.js",
+      "sourceSha256": "3541e1c16fab338449bf7267954cb15b85f742e7221557499f08e3aefe57b487"
+    },
+    {
+      "symbol": "addRunDependency",
+      "rawKey": "$addRunDependency",
+      "source": "src/lib/libcore.js",
+      "sourceSha256": "3541e1c16fab338449bf7267954cb15b85f742e7221557499f08e3aefe57b487"
+    },
+    {
+      "symbol": "runDependencies",
+      "rawKey": "$runDependencies",
+      "source": "src/lib/libcore.js",
+      "sourceSha256": "3541e1c16fab338449bf7267954cb15b85f742e7221557499f08e3aefe57b487"
+    },
+    {
+      "symbol": "resolveRunDependencies",
+      "rawKey": "$resolveRunDependencies",
+      "source": "src/lib/libcore.js",
+      "sourceSha256": "3541e1c16fab338449bf7267954cb15b85f742e7221557499f08e3aefe57b487"
+    },
+    {
+      "symbol": "dependenciesPromise",
+      "rawKey": "$dependenciesPromise",
+      "source": "src/lib/libcore.js",
+      "sourceSha256": "3541e1c16fab338449bf7267954cb15b85f742e7221557499f08e3aefe57b487"
+    },
+    {
+      "symbol": "removeRunDependency",
+      "rawKey": "$removeRunDependency",
+      "source": "src/lib/libcore.js",
+      "sourceSha256": "3541e1c16fab338449bf7267954cb15b85f742e7221557499f08e3aefe57b487"
+    },
+    {
+      "symbol": "dependenciesPromiseResolve",
+      "rawKey": "$dependenciesPromiseResolve",
+      "source": "src/lib/libcore.js",
+      "sourceSha256": "3541e1c16fab338449bf7267954cb15b85f742e7221557499f08e3aefe57b487"
+    },
+    {
+      "symbol": "FS_handledByPreloadPlugin",
+      "rawKey": "$FS_handledByPreloadPlugin",
+      "source": "src/lib/libfs_shared.js",
+      "sourceSha256": "276cff202d83ea05ad764df526109e2bad874276e3474dbb2fd53da5949d8839"
+    },
+    {
+      "symbol": "preloadPlugins",
+      "rawKey": "$preloadPlugins",
+      "source": "src/lib/libfs_shared.js",
+      "sourceSha256": "276cff202d83ea05ad764df526109e2bad874276e3474dbb2fd53da5949d8839"
+    },
+    {
+      "symbol": "UTF8ToString",
+      "rawKey": "$UTF8ToString",
+      "source": "src/lib/libstrings.js",
+      "sourceSha256": "7653dc2ececa66ef48de81fa378a463c2dde203958b6180a18979bce99ee7cbf"
+    },
+    {
+      "symbol": "HEAPU8",
+      "rawKey": "$HEAPU8",
+      "source": "src/lib/libcore.js",
+      "sourceSha256": "3541e1c16fab338449bf7267954cb15b85f742e7221557499f08e3aefe57b487"
+    },
+    {
+      "symbol": "HEAP32",
+      "rawKey": "$HEAP32",
+      "source": "src/lib/libcore.js",
+      "sourceSha256": "3541e1c16fab338449bf7267954cb15b85f742e7221557499f08e3aefe57b487"
+    },
+    {
+      "symbol": "HEAPU32",
+      "rawKey": "$HEAPU32",
+      "source": "src/lib/libcore.js",
+      "sourceSha256": "3541e1c16fab338449bf7267954cb15b85f742e7221557499f08e3aefe57b487"
+    },
+    {
+      "symbol": "HEAP64",
+      "rawKey": "$HEAP64",
+      "source": "src/lib/libcore.js",
+      "sourceSha256": "3541e1c16fab338449bf7267954cb15b85f742e7221557499f08e3aefe57b487"
+    },
+    {
+      "symbol": "___syscall_fcntl64",
+      "rawKey": "__syscall_fcntl64",
+      "source": "src/lib/libsyscall.js",
+      "sourceSha256": "0ad371d407ec380ef43acc24de4cf4d3c0d2fd48e688bbbb419ed3228bb254e1"
+    },
+    {
+      "symbol": "syscallGetVarargP",
+      "rawKey": "$syscallGetVarargP",
+      "source": "src/lib/libsyscall.js",
+      "sourceSha256": "0ad371d407ec380ef43acc24de4cf4d3c0d2fd48e688bbbb419ed3228bb254e1"
+    },
+    {
+      "symbol": "syscallGetVarargI",
+      "rawKey": "$syscallGetVarargI",
+      "source": "src/lib/libsyscall.js",
+      "sourceSha256": "0ad371d407ec380ef43acc24de4cf4d3c0d2fd48e688bbbb419ed3228bb254e1"
+    },
+    {
+      "symbol": "HEAP16",
+      "rawKey": "$HEAP16",
+      "source": "src/lib/libcore.js",
+      "sourceSha256": "3541e1c16fab338449bf7267954cb15b85f742e7221557499f08e3aefe57b487"
+    },
+    {
+      "symbol": "___syscall_fstat64",
+      "rawKey": "__syscall_fstat64",
+      "source": "src/lib/libsyscall.js",
+      "sourceSha256": "0ad371d407ec380ef43acc24de4cf4d3c0d2fd48e688bbbb419ed3228bb254e1"
+    },
+    {
+      "symbol": "___syscall_ioctl",
+      "rawKey": "__syscall_ioctl",
+      "source": "src/lib/libsyscall.js",
+      "sourceSha256": "0ad371d407ec380ef43acc24de4cf4d3c0d2fd48e688bbbb419ed3228bb254e1"
+    },
+    {
+      "symbol": "___syscall_lstat64",
+      "rawKey": "__syscall_lstat64",
+      "source": "src/lib/libsyscall.js",
+      "sourceSha256": "0ad371d407ec380ef43acc24de4cf4d3c0d2fd48e688bbbb419ed3228bb254e1"
+    },
+    {
+      "symbol": "___syscall_newfstatat",
+      "rawKey": "__syscall_newfstatat",
+      "source": "src/lib/libsyscall.js",
+      "sourceSha256": "0ad371d407ec380ef43acc24de4cf4d3c0d2fd48e688bbbb419ed3228bb254e1"
+    },
+    {
+      "symbol": "___syscall_openat",
+      "rawKey": "__syscall_openat",
+      "source": "src/lib/libsyscall.js",
+      "sourceSha256": "0ad371d407ec380ef43acc24de4cf4d3c0d2fd48e688bbbb419ed3228bb254e1"
+    },
+    {
+      "symbol": "___syscall_stat64",
+      "rawKey": "__syscall_stat64",
+      "source": "src/lib/libsyscall.js",
+      "sourceSha256": "0ad371d407ec380ef43acc24de4cf4d3c0d2fd48e688bbbb419ed3228bb254e1"
+    },
+    {
+      "symbol": "___syscall_unlinkat",
+      "rawKey": "__syscall_unlinkat",
+      "source": "src/lib/libsyscall.js",
+      "sourceSha256": "0ad371d407ec380ef43acc24de4cf4d3c0d2fd48e688bbbb419ed3228bb254e1"
+    },
+    {
+      "symbol": "__abort_js",
+      "rawKey": "_abort_js",
+      "source": "src/lib/libcore.js",
+      "sourceSha256": "3541e1c16fab338449bf7267954cb15b85f742e7221557499f08e3aefe57b487"
+    },
+    {
+      "symbol": "_emscripten_asm_const_int",
+      "rawKey": "emscripten_asm_const_int",
+      "source": "src/lib/libcore.js",
+      "sourceSha256": "3541e1c16fab338449bf7267954cb15b85f742e7221557499f08e3aefe57b487"
+    },
+    {
+      "symbol": "runEmAsmFunction",
+      "rawKey": "$runEmAsmFunction",
+      "source": "src/lib/libcore.js",
+      "sourceSha256": "3541e1c16fab338449bf7267954cb15b85f742e7221557499f08e3aefe57b487"
+    },
+    {
+      "symbol": "readEmAsmArgs",
+      "rawKey": "$readEmAsmArgs",
+      "source": "src/lib/libcore.js",
+      "sourceSha256": "3541e1c16fab338449bf7267954cb15b85f742e7221557499f08e3aefe57b487"
+    },
+    {
+      "symbol": "readEmAsmArgsArray",
+      "rawKey": "$readEmAsmArgsArray",
+      "source": "src/lib/libcore.js",
+      "sourceSha256": "3541e1c16fab338449bf7267954cb15b85f742e7221557499f08e3aefe57b487"
+    },
+    {
+      "symbol": "HEAPF64",
+      "rawKey": "$HEAPF64",
+      "source": "src/lib/libcore.js",
+      "sourceSha256": "3541e1c16fab338449bf7267954cb15b85f742e7221557499f08e3aefe57b487"
+    },
+    {
+      "symbol": "_emscripten_date_now",
+      "rawKey": "emscripten_date_now",
+      "source": "src/lib/libcore.js",
+      "sourceSha256": "3541e1c16fab338449bf7267954cb15b85f742e7221557499f08e3aefe57b487"
+    },
+    {
+      "symbol": "_emscripten_resize_heap",
+      "rawKey": "emscripten_resize_heap",
+      "source": "src/lib/libcore.js",
+      "sourceSha256": "3541e1c16fab338449bf7267954cb15b85f742e7221557499f08e3aefe57b487"
+    },
+    {
+      "symbol": "getHeapMax",
+      "rawKey": "$getHeapMax",
+      "source": "src/lib/libcore.js",
+      "sourceSha256": "3541e1c16fab338449bf7267954cb15b85f742e7221557499f08e3aefe57b487"
+    },
+    {
+      "symbol": "alignMemory",
+      "rawKey": "$alignMemory",
+      "source": "src/lib/libcore.js",
+      "sourceSha256": "3541e1c16fab338449bf7267954cb15b85f742e7221557499f08e3aefe57b487"
+    },
+    {
+      "symbol": "growMemory",
+      "rawKey": "$growMemory",
+      "source": "src/lib/libcore.js",
+      "sourceSha256": "3541e1c16fab338449bf7267954cb15b85f742e7221557499f08e3aefe57b487"
+    },
+    {
+      "symbol": "_emscripten_sleep",
+      "rawKey": "emscripten_sleep",
+      "source": "src/lib/libasync.js",
+      "sourceSha256": "b32ed147daafc5406faf23d1dee1410c2ae2b78b6b68f0e1b0c425f812970e1b"
+    },
+    {
+      "symbol": "_environ_get",
+      "rawKey": "environ_get",
+      "source": "src/lib/libwasi.js",
+      "sourceSha256": "b9a37514b016c1d2ffcd5994dcab319f89259984d57df77706c2923ff0cb2e84"
+    },
+    {
+      "symbol": "getEnvStrings",
+      "rawKey": "$getEnvStrings",
+      "source": "src/lib/libwasi.js",
+      "sourceSha256": "b9a37514b016c1d2ffcd5994dcab319f89259984d57df77706c2923ff0cb2e84"
+    },
+    {
+      "symbol": "ENV",
+      "rawKey": "$ENV",
+      "source": "src/lib/libcore.js",
+      "sourceSha256": "3541e1c16fab338449bf7267954cb15b85f742e7221557499f08e3aefe57b487"
+    },
+    {
+      "symbol": "getExecutableName",
+      "rawKey": "$getExecutableName",
+      "source": "src/lib/libcore.js",
+      "sourceSha256": "3541e1c16fab338449bf7267954cb15b85f742e7221557499f08e3aefe57b487"
+    },
+    {
+      "symbol": "stringToUTF8",
+      "rawKey": "$stringToUTF8",
+      "source": "src/lib/libstrings.js",
+      "sourceSha256": "7653dc2ececa66ef48de81fa378a463c2dde203958b6180a18979bce99ee7cbf"
+    },
+    {
+      "symbol": "_environ_sizes_get",
+      "rawKey": "environ_sizes_get",
+      "source": "src/lib/libwasi.js",
+      "sourceSha256": "b9a37514b016c1d2ffcd5994dcab319f89259984d57df77706c2923ff0cb2e84"
+    },
+    {
+      "symbol": "_exit",
+      "rawKey": "exit",
+      "source": "src/lib/libcore.js",
+      "sourceSha256": "3541e1c16fab338449bf7267954cb15b85f742e7221557499f08e3aefe57b487"
+    },
+    {
+      "symbol": "exitJS",
+      "rawKey": "$exitJS",
+      "source": "src/lib/libcore.js",
+      "sourceSha256": "3541e1c16fab338449bf7267954cb15b85f742e7221557499f08e3aefe57b487"
+    },
+    {
+      "symbol": "_proc_exit",
+      "rawKey": "proc_exit",
+      "source": "src/lib/libwasi.js",
+      "sourceSha256": "b9a37514b016c1d2ffcd5994dcab319f89259984d57df77706c2923ff0cb2e84"
+    },
+    {
+      "symbol": "keepRuntimeAlive",
+      "rawKey": "$keepRuntimeAlive",
+      "source": "src/lib/libcore.js",
+      "sourceSha256": "3541e1c16fab338449bf7267954cb15b85f742e7221557499f08e3aefe57b487"
+    },
+    {
+      "symbol": "runtimeKeepaliveCounter",
+      "rawKey": "$runtimeKeepaliveCounter",
+      "source": "src/lib/libcore.js",
+      "sourceSha256": "3541e1c16fab338449bf7267954cb15b85f742e7221557499f08e3aefe57b487"
+    },
+    {
+      "symbol": "_fd_close",
+      "rawKey": "fd_close",
+      "source": "src/lib/libwasi.js",
+      "sourceSha256": "b9a37514b016c1d2ffcd5994dcab319f89259984d57df77706c2923ff0cb2e84"
+    },
+    {
+      "symbol": "_fd_read",
+      "rawKey": "fd_read",
+      "source": "src/lib/libwasi.js",
+      "sourceSha256": "b9a37514b016c1d2ffcd5994dcab319f89259984d57df77706c2923ff0cb2e84"
+    },
+    {
+      "symbol": "doReadv",
+      "rawKey": "$doReadv",
+      "source": "src/lib/libwasi.js",
+      "sourceSha256": "b9a37514b016c1d2ffcd5994dcab319f89259984d57df77706c2923ff0cb2e84"
+    },
+    {
+      "symbol": "_fd_seek",
+      "rawKey": "fd_seek",
+      "source": "src/lib/libwasi.js",
+      "sourceSha256": "b9a37514b016c1d2ffcd5994dcab319f89259984d57df77706c2923ff0cb2e84"
+    },
+    {
+      "symbol": "bigintToI53Checked",
+      "rawKey": "$bigintToI53Checked",
+      "source": "src/lib/libint53.js",
+      "sourceSha256": "4484cfc6db24c39d37e872e16fc39256ef0f6feb9427f0ebea20e76ce45a2499"
+    },
+    {
+      "symbol": "INT53_MAX",
+      "rawKey": "$INT53_MAX",
+      "source": "src/lib/libint53.js",
+      "sourceSha256": "4484cfc6db24c39d37e872e16fc39256ef0f6feb9427f0ebea20e76ce45a2499"
+    },
+    {
+      "symbol": "INT53_MIN",
+      "rawKey": "$INT53_MIN",
+      "source": "src/lib/libint53.js",
+      "sourceSha256": "4484cfc6db24c39d37e872e16fc39256ef0f6feb9427f0ebea20e76ce45a2499"
+    },
+    {
+      "symbol": "_fd_write",
+      "rawKey": "fd_write",
+      "source": "src/lib/libwasi.js",
+      "sourceSha256": "b9a37514b016c1d2ffcd5994dcab319f89259984d57df77706c2923ff0cb2e84"
+    },
+    {
+      "symbol": "doWritev",
+      "rawKey": "$doWritev",
+      "source": "src/lib/libwasi.js",
+      "sourceSha256": "b9a37514b016c1d2ffcd5994dcab319f89259984d57df77706c2923ff0cb2e84"
+    },
+    {
+      "symbol": "handleException",
+      "rawKey": "$handleException",
+      "source": "src/lib/libcore.js",
+      "sourceSha256": "3541e1c16fab338449bf7267954cb15b85f742e7221557499f08e3aefe57b487"
+    },
+    {
+      "symbol": "stringToUTF8OnStack",
+      "rawKey": "$stringToUTF8OnStack",
+      "source": "src/lib/libstrings.js",
+      "sourceSha256": "7653dc2ececa66ef48de81fa378a463c2dde203958b6180a18979bce99ee7cbf"
+    },
+    {
+      "symbol": "stackAlloc",
+      "rawKey": "$stackAlloc",
+      "source": "src/lib/libcore.js",
+      "sourceSha256": "3541e1c16fab338449bf7267954cb15b85f742e7221557499f08e3aefe57b487"
+    },
+    {
+      "symbol": "Asyncify",
+      "rawKey": "$Asyncify",
+      "source": "src/lib/libasync.js",
+      "sourceSha256": "b32ed147daafc5406faf23d1dee1410c2ae2b78b6b68f0e1b0c425f812970e1b"
+    },
+    {
+      "symbol": "runAndAbortIfError",
+      "rawKey": "$runAndAbortIfError",
+      "source": "src/lib/libasync.js",
+      "sourceSha256": "b32ed147daafc5406faf23d1dee1410c2ae2b78b6b68f0e1b0c425f812970e1b"
+    },
+    {
+      "symbol": "callUserCallback",
+      "rawKey": "$callUserCallback",
+      "source": "src/lib/libcore.js",
+      "sourceSha256": "3541e1c16fab338449bf7267954cb15b85f742e7221557499f08e3aefe57b487"
+    },
+    {
+      "symbol": "maybeExit",
+      "rawKey": "$maybeExit",
+      "source": "src/lib/libcore.js",
+      "sourceSha256": "3541e1c16fab338449bf7267954cb15b85f742e7221557499f08e3aefe57b487"
+    },
+    {
+      "symbol": "runtimeKeepalivePush",
+      "rawKey": "$runtimeKeepalivePush",
+      "source": "src/lib/libcore.js",
+      "sourceSha256": "3541e1c16fab338449bf7267954cb15b85f742e7221557499f08e3aefe57b487"
+    },
+    {
+      "symbol": "runtimeKeepalivePop",
+      "rawKey": "$runtimeKeepalivePop",
+      "source": "src/lib/libcore.js",
+      "sourceSha256": "3541e1c16fab338449bf7267954cb15b85f742e7221557499f08e3aefe57b487"
+    },
+    {
+      "symbol": "FS_createPath",
+      "rawKey": "$FS_createPath",
+      "source": "src/lib/libfs.js",
+      "sourceSha256": "9413d73126f19892ea8bc1d7403f12cdb3f269a3b57e70741ec0dd358b76750c"
+    },
+    {
+      "symbol": "FS_unlink",
+      "rawKey": "$FS_unlink",
+      "source": "src/lib/libfs.js",
+      "sourceSha256": "9413d73126f19892ea8bc1d7403f12cdb3f269a3b57e70741ec0dd358b76750c"
+    },
+    {
+      "symbol": "FS_createLazyFile",
+      "rawKey": "$FS_createLazyFile",
+      "source": "src/lib/libfs.js",
+      "sourceSha256": "9413d73126f19892ea8bc1d7403f12cdb3f269a3b57e70741ec0dd358b76750c"
+    },
+    {
+      "symbol": "FS_createDevice",
+      "rawKey": "$FS_createDevice",
+      "source": "src/lib/libfs.js",
+      "sourceSha256": "9413d73126f19892ea8bc1d7403f12cdb3f269a3b57e70741ec0dd358b76750c"
+    }
+  ],
+  "emittedLibrarySources": [
+    {
+      "path": "src/lib/libasync.js",
+      "sha256": "b32ed147daafc5406faf23d1dee1410c2ae2b78b6b68f0e1b0c425f812970e1b",
+      "notice": "/**\n * @license\n * Copyright 2014 The Emscripten Authors\n * SPDX-License-Identifier: MIT\n */"
+    },
+    {
+      "path": "src/lib/libcore.js",
+      "sha256": "3541e1c16fab338449bf7267954cb15b85f742e7221557499f08e3aefe57b487",
+      "notice": "/**\n * @license\n * Copyright 2010 The Emscripten Authors\n * SPDX-License-Identifier: MIT\n */"
+    },
+    {
+      "path": "src/lib/libfs.js",
+      "sha256": "9413d73126f19892ea8bc1d7403f12cdb3f269a3b57e70741ec0dd358b76750c",
+      "notice": "/**\n * @license\n * Copyright 2013 The Emscripten Authors\n * SPDX-License-Identifier: MIT\n */"
+    },
+    {
+      "path": "src/lib/libfs_shared.js",
+      "sha256": "276cff202d83ea05ad764df526109e2bad874276e3474dbb2fd53da5949d8839",
+      "notice": "/**\n * @license\n * Copyright 2032 The Emscripten Authors\n * SPDX-License-Identifier: MIT\n */"
+    },
+    {
+      "path": "src/lib/libint53.js",
+      "sha256": "4484cfc6db24c39d37e872e16fc39256ef0f6feb9427f0ebea20e76ce45a2499",
+      "notice": "/**\n * @license\n * Copyright 2020 The Emscripten Authors\n * SPDX-License-Identifier: MIT\n */"
+    },
+    {
+      "path": "src/lib/libmemfs.js",
+      "sha256": "33c41f5a0e30aa178f709d8633aa237c038e2b39671ed78f429fb2a0db18f16a",
+      "notice": "/**\n * @license\n * Copyright 2013 The Emscripten Authors\n * SPDX-License-Identifier: MIT\n */"
+    },
+    {
+      "path": "src/lib/libpath.js",
+      "sha256": "6c6244b89ce194d50b25f277e5688e8729937aff77a57b8d6aca49174bf87140",
+      "notice": "/**\n * @license\n * Copyright 2013 The Emscripten Authors\n * SPDX-License-Identifier: MIT\n */"
+    },
+    {
+      "path": "src/lib/libstrings.js",
+      "sha256": "7653dc2ececa66ef48de81fa378a463c2dde203958b6180a18979bce99ee7cbf",
+      "notice": "/**\n * @license\n * Copyright 2020 The Emscripten Authors\n * SPDX-License-Identifier: MIT\n */"
+    },
+    {
+      "path": "src/lib/libsyscall.js",
+      "sha256": "0ad371d407ec380ef43acc24de4cf4d3c0d2fd48e688bbbb419ed3228bb254e1",
+      "notice": "/**\n * @license\n * Copyright 2015 The Emscripten Authors\n * SPDX-License-Identifier: MIT\n */"
+    },
+    {
+      "path": "src/lib/libtty.js",
+      "sha256": "d1eecb978ae971917a50fbf29d44037095c95242451190abf196d16643857516",
+      "notice": "/**\n * @license\n * Copyright 2013 The Emscripten Authors\n * SPDX-License-Identifier: MIT\n */"
+    },
+    {
+      "path": "src/lib/libwasi.js",
+      "sha256": "b9a37514b016c1d2ffcd5994dcab319f89259984d57df77706c2923ff0cb2e84",
+      "notice": "/**\n * @license\n * Copyright 2019 The Emscripten Authors\n * SPDX-License-Identifier: MIT\n */"
+    }
+  ],
+  "noticeInputs": [
+    {
+      "path": "EMSCRIPTEN-LICENSE.txt",
+      "sdkPath": "LICENSE",
+      "sha256": "620a78084fc7ca97c0b5dea9abf891f3ffcadfdbf305276f099c9c4e12fc1d86"
+    },
+    {
+      "path": "EMSCRIPTEN-AUTHORS.txt",
+      "sdkPath": "AUTHORS",
+      "sha256": "b865d6074c7f13366cad82990ba58bbe0a3f3eccf5fa47e50aa02693de4e895e"
+    },
+    {
+      "path": "MUSL-COPYRIGHT.txt",
+      "sdkPath": "system/lib/libc/musl/COPYRIGHT",
+      "sha256": "b870108ec5e7790e9f9919064f1b9421d62d5f9b0e6c230c6adf7ea2da62e97b"
+    },
+    {
+      "path": "LLVM-LICENSE.txt",
+      "sdkPath": "system/lib/compiler-rt/LICENSE.TXT",
+      "sha256": "1a8f1058753f1ba890de984e48f0242a3a5c29a6a8f2ed9fd813f36985387e8d"
+    }
+  ],
+  "gameJsSha256": "ca6c06ae29a41d225a29970aeb19b24fa65a83969c4029fd7cc28609dcc441e5",
+  "gameWasmSha256": "09ef81b97d21c852b25672fbcdc8f4d8c6cf47c2f8ea554a398c2ec6737eeaa1",
+  "scope": "130 selected archive members measured and uniquely mapped to SDK source recipes. JS templates explicit; compiler-selected library symbols mapped by build-only dictionary-definition observer. Compiler and standard-library objects are SDK-managed. No SDL/ncurses/audio library selected. No compiler trust or clean-room certificate."
+}

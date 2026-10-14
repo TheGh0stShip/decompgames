@@ -3,6 +3,10 @@ layout: ../../layouts/Article.astro
 title: What’s new
 description: Release notes and compatibility changes for Decomp Games.
 ---
+## October 14, 2026 — Signal Survey: three stations in Rogue code
+
+Retrieve a survey lens, then carry it back through three stations to the surface. Signal Survey runs native Rogue source with independently authored CC0 layouts, encounters, glyphs, names and messages. It requires no ROM or original media and is silent. Save and exit, Continue saved, New expedition and Stop are included. This is a source port with an original replacement campaign and does not advance the decompilation milestone. [Play Signal Survey](/games/signal-survey/).
+
 ## October 14, 2026 — Vector Duel: robot rounds in GLFighters code
 
 Spar with a gold robot on the original Foundry Deck arena, then switch to an attacking opponent. Vector Duel runs permission-backed GLFighters source through SDL/WebAssembly with independently authored CC0 meshes, motion, pixels, glyphs and arena content. It needs no ROM or original game media and is intentionally silent. Completed-round journals persist between browser sessions; unfinished matches restart. This is a source port and does not count toward the decompilation milestone. [Play Vector Duel](/games/vector-duel/).

@@ -1,0 +1,9 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Signal Survey</title>
+<style>
+body{margin:0;background:#101a22;color:#e9eeea;font:16px/1.5 system-ui,sans-serif}main{max-width:980px;margin:32px auto;padding:0 24px}h1{margin:0;color:#88e2d2}p{max-width:72ch}button{background:#263d48;color:#e9eeea;border:1px solid #4a6974;border-radius:6px;padding:10px 16px;font:inherit;cursor:pointer}button:hover{background:#365563}#terminal{margin:24px 0;border:1px solid #3e5964;border-radius:8px;padding:12px;overflow:auto;outline-color:#88e2d2}canvas{display:block;width:800px;height:336px;image-rendering:pixelated;max-width:none}.screen-reader{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:pre;border:0}.note{color:#a0b4bb}nav{display:flex;gap:12px;flex-wrap:wrap}
+</style><main>
+<h1>Signal Survey</h1><p>Recover the survey lens from the third station, then carry it back to the surface. Collect repair vials and ration packs along the way.</p>
+<nav aria-label="Session"><button id="save">Save and exit (S)</button><button id="continue" disabled>Continue saved</button><button id="restart">New expedition</button><button id="stop">Stop</button></nav>
+<p id="status" role="status">Loading</p><div id="terminal" tabindex="0" aria-label="Game board; use arrows to move"><canvas id="board" width="800" height="336" aria-hidden="true"></canvas><pre id="terminal-text" class="screen-reader"></pre></div>
+<p>Arrows move. I opens inventory; Space closes it. Period waits one turn. Q drinks a vial; E eats a ration; choose its inventory letter. Use &gt; or &lt; on a lift. S saves and exits; Y confirms.</p><p class="note">Silent edition. Save and exit before closing to keep progress. Continuing consumes that checkpoint; save again to keep further progress. Clearing browser site data removes saves.</p>
+</main><script src="loader.js"></script>

@@ -1,0 +1,61 @@
+{
+  "date": "2026-10-14",
+  "status": "Local acceptance passed; production acceptance pending",
+  "catalogCount": 90,
+  "strictAdditionalDecompilationMilestone": "4/5",
+  "classification": "Rogue developer-source port with independently authored campaign",
+  "cleanRoomCertified": false,
+  "originalRawTextHashesUnchanged": true,
+  "referenceSnapshotFiles": 48,
+  "codeLicense": "Original-game BSD-3-Clause-style grant plus separate notices; own adapters MIT",
+  "assets": "CC0 independently authored layouts, names, prose and 95 glyph definitions; no original media or audio",
+  "wasm": {
+    "path": "game.wasm",
+    "bytes": 468818,
+    "sha256": "09ef81b97d21c852b25672fbcdc8f4d8c6cf47c2f8ea554a398c2ec6737eeaa1"
+  },
+  "sourceArchive": {
+    "path": "/sources/signal-survey-stations-v1-source.zip",
+    "bytes": 282102,
+    "sha256": "24548265218ebf4e5b354a1a6dbf6a1082661989fc44d489b9adf91be1a37cb9",
+    "sourceOnly": true,
+    "inputs": 86,
+    "files": 87,
+    "replayWasmByteIdentical": true
+  },
+  "textGate": {
+    "referenceUniqueLiterals": 973,
+    "authoredReplacementRecords": 488,
+    "appliedReplacementOccurrences": 532,
+    "reviewedRetainedContracts": 108,
+    "unknownReferenceLiterals": 0,
+    "referenceHeadersRemainBSD": true,
+    "cleanRoomClaim": false
+  },
+  "tests": {
+    "nativeAuthoredCampaign": "passed",
+    "fullBrowserCheckpointRestart": "passed",
+    "continueSavedButton": "passed",
+    "nativeDeathFreshRetry": "passed",
+    "nativeStop": "passed",
+    "nativeMalformedSaveCases": 824,
+    "browserMalformedCheckpointCases": 5,
+    "loadingAndControlsCases": 8,
+    "localSite": "passed",
+    "localDistributionFilesIncludingSource": 20,
+    "muted": true,
+    "playersClosed": true,
+    "audiblePlayback": "Unavailable/unverified"
+  },
+  "limits": [
+    "Original Rogue dungeon and all item/command modes not certified",
+    "Bounded validation, not a security or all-valid-state certificate",
+    "Physical app switching, touch/controllers, real quota exhaustion, crash/rapid-close and other browsers/devices unverified",
+    "Compiler and managed SDK standard-library objects externally supplied; no independently rebuilt SDK or upstream release-history certificate"
+  ],
+  "untouched": [
+    "Mario Party 2/3",
+    "Halo",
+    "Private ROM research"
+  ]
+}

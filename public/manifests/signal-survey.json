@@ -1,0 +1,119 @@
+{
+  "id": "signal-survey",
+  "base": "/runtime/signal-survey/stations-v1/",
+  "repository": "https://github.com/Davidslv/rogue",
+  "sourceRevision": "f4653c2a2ee6981a73abe9dfda055134285e1e79",
+  "packageRevision": "stations-v1",
+  "classification": "Rogue developer-source port with independently authored campaign; not decompilation, emulator, retail campaign or clean-room certificate",
+  "toolchain": "Emscripten 6.0.10; native Rogue gameplay with own terminal/browser adapter. External SDK managed C/allocator/compiler objects.",
+  "SDKRevision": "e566f7bdcc7735f44037911c24b87a58a3c93145",
+  "sourceArchive": "/sources/signal-survey-stations-v1-source.zip",
+  "sourceArchiveBytes": 282102,
+  "sourceArchiveSha256": "24548265218ebf4e5b354a1a6dbf6a1082661989fc44d489b9adf91be1a37cb9",
+  "requirements": [
+    "Keyboard",
+    "WebAssembly browser",
+    "No ROM or original media",
+    "Silent edition"
+  ],
+  "cleanRoomCertified": false,
+  "wholeSDKIndependentlyRebuilt": false,
+  "nativeGameRebuilt": true,
+  "files": [
+    {
+      "path": "font-renderer.js",
+      "bytes": 953,
+      "sha256": "f4afa5aa1d79d7ff2154eb1a682f6b90351dac7a5e70ae5c1958dba57f28b308"
+    },
+    {
+      "path": "game.js",
+      "bytes": 148839,
+      "sha256": "ca6c06ae29a41d225a29970aeb19b24fa65a83969c4029fd7cc28609dcc441e5"
+    },
+    {
+      "path": "game.wasm",
+      "bytes": 468818,
+      "sha256": "09ef81b97d21c852b25672fbcdc8f4d8c6cf47c2f8ea554a398c2ec6737eeaa1"
+    },
+    {
+      "path": "glyphs.js",
+      "bytes": 2590,
+      "sha256": "8c41d3dbea5f2e1f29e7d901c47ebf51002b52ff18060edf06d773659c297b5b"
+    },
+    {
+      "path": "glyphs.json",
+      "bytes": 2572,
+      "sha256": "4686f6fe1a8664ee20ec78725c110b9baa205fe17c087f471f72009022daa193"
+    },
+    {
+      "path": "index.html",
+      "bytes": 1970,
+      "sha256": "48d40adc82146f4e24aa4cfd159fb0f2750f9dae40506fc688826a0dd12a287b"
+    },
+    {
+      "path": "load-manifest.json",
+      "bytes": 1099,
+      "sha256": "afa346a78770f5dfad943158b2c3cc9b9c256e177af47340e4365be84157ea0a"
+    },
+    {
+      "path": "loader.js",
+      "bytes": 2815,
+      "sha256": "7bede2cddc11b18f7c6a89a5769ffda3cfa973136daeee58b3f1bf385820897c"
+    },
+    {
+      "path": "NOTICE.txt",
+      "bytes": 83698,
+      "sha256": "ae8c4b48d54e63ffb235cdd5ac697ff02351d68bce4d33fc061f8fb1f18281ba"
+    },
+    {
+      "path": "probe.js",
+      "bytes": 5371,
+      "sha256": "6e5a277283a898c2de4243721692da1e29bbca452c7d199bb43f698fc62bb377"
+    },
+    {
+      "path": "provenance.json",
+      "bytes": 5963,
+      "sha256": "f0030baac1a2ac9dfb5ce97da951656ba68bc9b533de81d27367a3920a9f9ec2"
+    },
+    {
+      "path": "save-spec.js",
+      "bytes": 640,
+      "sha256": "b81cb7656c5719ba7e744e27f675891bb004064ceed25bd50e1814c6ebc1cdfe"
+    },
+    {
+      "path": "save-spec.json",
+      "bytes": 1053,
+      "sha256": "b8c587cb1c43e8109cd82f8098048419fd27baef48d772d406fa9cf51664ba30"
+    },
+    {
+      "path": "sdk-audit.json",
+      "bytes": 88952,
+      "sha256": "7e1db7214d0604853123d288e948d07b166e1f1a3bdb7043bd5ab6747c581975"
+    },
+    {
+      "path": "survey-content.json",
+      "bytes": 4613,
+      "sha256": "a11508223fb7c2d806640295940197bd533774203c7d63d2a1730b49f738a9db"
+    },
+    {
+      "path": "survey-literal-contracts.json",
+      "bytes": 41188,
+      "sha256": "f0d3a9d74049e71658a6e5f59115bd7c1d5aa2b66e5af19add7110abd2c1b139"
+    },
+    {
+      "path": "survey-messages.json",
+      "bytes": 132671,
+      "sha256": "552f966e1ceeb059b16a32bbb4013bbeea9b2a5d0ee37f9cd52b7e9b607d275e"
+    },
+    {
+      "path": "survey-names.json",
+      "bytes": 5619,
+      "sha256": "26658b9027fcf05eee95f12c87369029d148c8d824e69f422eb8c7bf097f8323"
+    },
+    {
+      "path": "validate-save.js",
+      "bytes": 9790,
+      "sha256": "e012e261036e129f1caeb3cd42e56d820818b2e33c491772a02c581a5f127ab9"
+    }
+  ]
+}

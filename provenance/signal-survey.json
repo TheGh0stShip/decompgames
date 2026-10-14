@@ -1,0 +1,135 @@
+{
+  "schema": 1,
+  "edition": "Signal Survey",
+  "classification": "Rogue developer-source port with independently authored campaign; not decompilation, emulator, retail campaign or clean-room certificate",
+  "referenceRepository": "https://github.com/Davidslv/rogue",
+  "referencePin": "f4653c2a2ee6981a73abe9dfda055134285e1e79",
+  "referenceCodeLicense": "BSD-3-Clause-style original-game grant plus separately retained save/crypt notices; root grant names Michael Toy, Ken Arnold and Glenn Wichman. Code grant is checked separately from media.",
+  "ownCodeLicense": "MIT",
+  "ownContentLicense": "CC0-1.0",
+  "files": [
+    {
+      "path": "glyphs.json",
+      "kind": "95 printable ASCII glyph patterns",
+      "license": "CC0-1.0",
+      "bytes": 2572,
+      "sha256": "4686f6fe1a8664ee20ec78725c110b9baa205fe17c087f471f72009022daa193"
+    },
+    {
+      "path": "survey-content.json",
+      "kind": "Three fixed geometric layouts, encounter/item arrangements, station names and briefings",
+      "license": "CC0-1.0",
+      "bytes": 4613,
+      "sha256": "a11508223fb7c2d806640295940197bd533774203c7d63d2a1730b49f738a9db"
+    },
+    {
+      "path": "survey-names.json",
+      "kind": "Named item/actor/material presentation values",
+      "license": "CC0-1.0",
+      "bytes": 5619,
+      "sha256": "26658b9027fcf05eee95f12c87369029d148c8d824e69f422eb8c7bf097f8323"
+    },
+    {
+      "path": "survey-messages.json",
+      "kind": "488 replacement message records",
+      "license": "CC0-1.0",
+      "bytes": 132671,
+      "sha256": "552f966e1ceeb059b16a32bbb4013bbeea9b2a5d0ee37f9cd52b7e9b607d275e"
+    }
+  ],
+  "generatorsAndHosts": [
+    {
+      "path": "author-survey.py",
+      "kind": "Authored source/renderer/host",
+      "license": "MIT",
+      "bytes": 1927,
+      "sha256": "5d1febbe19888291ceb8c888e3e1d079fdcec2c70e5ecdcd3941da0ccc614a5f"
+    },
+    {
+      "path": "author-text.py",
+      "kind": "Authored source/renderer/host",
+      "license": "MIT",
+      "bytes": 5206,
+      "sha256": "8103e78ade86054c7a25a6da3a6e39cd95367cce3872fbb699e41eff607f9fb0"
+    },
+    {
+      "path": "author-messages.py",
+      "kind": "Authored source/renderer/host",
+      "license": "MIT",
+      "bytes": 15623,
+      "sha256": "dc4c781a14f3034de45e5894bc9ffa534e29c85107608e344ffe438066eac2b4"
+    },
+    {
+      "path": "survey-world.c",
+      "kind": "Authored source/renderer/host",
+      "license": "MIT",
+      "bytes": 2861,
+      "sha256": "e899467a8fc7aef83fb42e95de27cfbaa3c91f6f7cc6e0486eb051e1f641d7d5"
+    },
+    {
+      "path": "font-renderer.js",
+      "kind": "Authored source/renderer/host",
+      "license": "MIT",
+      "bytes": 953,
+      "sha256": "f4afa5aa1d79d7ff2154eb1a682f6b90351dac7a5e70ae5c1958dba57f28b308"
+    },
+    {
+      "path": "survey.html",
+      "kind": "Authored source/renderer/host",
+      "license": "MIT",
+      "bytes": 1970,
+      "sha256": "48d40adc82146f4e24aa4cfd159fb0f2750f9dae40506fc688826a0dd12a287b"
+    },
+    {
+      "path": "probe.js",
+      "kind": "Authored source/renderer/host",
+      "license": "MIT",
+      "bytes": 5371,
+      "sha256": "6e5a277283a898c2de4243721692da1e29bbca452c7d199bb43f698fc62bb377"
+    }
+  ],
+  "authoredEmbeddedContent": [
+    "Survey victory/death panels in build-probe.py",
+    "Player UI prose in survey.html"
+  ],
+  "mapMethod": "Geometry authored without reference-map input. Fixed encounters use native Rogue actor creation/stats, item effects and collision/combat; original procedural new_level.c and wandering-spawn fuse are excluded.",
+  "textMethod": "Native control flow and meaning inspected; compatible replacement wording authored. Named tables replaced separately. 108 retained literals are reviewed functional formatting/parser/save/combat contracts. No clean-room-isolation claim.",
+  "glyphMethod": "Own Beacon Relay/Vector Duel 3x5 family plus own punctuation/game-symbol patterns; no retail screenshot/font input.",
+  "animation": "Native movement/effects redraw the authored glyphs; no original bitmap or animation files.",
+  "audio": "No sound files or audio API/device; silent edition, audible verification unavailable.",
+  "originalMediaInputs": [],
+  "excluded": [
+    "rogue.png",
+    "retail executables",
+    "ROMs",
+    "game archives",
+    "original procedural layouts/end artwork/name and prose presentation",
+    "mdport.c and xcrypt.c in selected native link",
+    "MASTER cheats"
+  ],
+  "rawLicensedReferenceSource": "48 pinned text files retained privately and in corresponding source for audit/rebuild, including historical source presentation. Runtime replaces selected presentation; no original media is bundled.",
+  "codeAndConstants": "Rogue numeric gameplay tables, codec, symbols and functional identifiers retain their BSD code notices; own CC0 dedication does not relicense them.",
+  "textGate": {
+    "referenceUniqueLiterals": 973,
+    "authoredReplacementRecords": 488,
+    "appliedReplacementOccurrences": 532,
+    "reviewedRetainedContracts": 108,
+    "unknownReferenceLiterals": 0,
+    "referenceHeadersRemainBSD": true,
+    "cleanRoomClaim": false
+  },
+  "sdk": {
+    "version": "6.0.10",
+    "pin": "e566f7bdcc7735f44037911c24b87a58a3c93145",
+    "archives": 4,
+    "selectedMembers": 130,
+    "headers": 64,
+    "emittedJSSelectedSymbols": 109,
+    "emittedJSLibraries": 11,
+    "managedStandardLibraryObjects": true,
+    "independentlyRebuiltCompiler": false,
+    "notices": "Emscripten MIT/NCSA and authors, musl MIT/individual notices, LLVM Apache-2.0 WITH LLVM-exception, dlmalloc public-domain and Emscripten adaptation notices; selected JS MIT prefixes retained."
+  },
+  "gameWasmSha256": "09ef81b97d21c852b25672fbcdc8f4d8c6cf47c2f8ea554a398c2ec6737eeaa1",
+  "releaseGate": "Source/content and private native campaign tested; site and production gates recorded separately."
+}

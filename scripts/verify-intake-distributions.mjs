@@ -4,7 +4,7 @@ import {createHash} from 'node:crypto';
 import path from 'node:path';
 
 const root = path.resolve('public');
-const manifests = ['tennis-sdl', 'craft', 'openduelyst', 'roboden-replacement', '2048', 'open-cadet', 'zzt-demo', 'cinder-abuse', 'kiln-super-zzt', 'beacon-yard', 'paper-rooms', 'beacon-relay', 'vector-duel'];
+const manifests = ['tennis-sdl', 'craft', 'openduelyst', 'roboden-replacement', '2048', 'open-cadet', 'zzt-demo', 'cinder-abuse', 'kiln-super-zzt', 'beacon-yard', 'paper-rooms', 'beacon-relay', 'vector-duel', 'signal-survey'];
 const failures = [];
 let checked = 0;
 for (const id of manifests) {

@@ -6,7 +6,7 @@ import { games, playerUrl, slug, statusLabel } from '../../lib/catalog';
 export function getStaticPaths(){return games.map(game=>({params:{slug:game.id},props:{game}}));}
 const {game:g}=Astro.props;
 const embed=g.mode==='embed';
-const scopedSilent=g.id==='cinder-abuse'||g.id==='kiln-super-zzt'||g.id==='beacon-yard'||g.id==='paper-rooms'||g.id==='beacon-relay'||g.id==='vector-duel';
+const scopedSilent=g.id==='cinder-abuse'||g.id==='kiln-super-zzt'||g.id==='beacon-yard'||g.id==='paper-rooms'||g.id==='beacon-relay'||g.id==='vector-duel'||g.id==='signal-survey';
 const manifestPath=`public/manifests/${g.id}.json`;
 const runtime=existsSync(manifestPath)?JSON.parse(readFileSync(manifestPath,'utf8')):null;
 const related=games.filter(x=>x.id!==g.id&&x.shelf===g.shelf&&(x.genre===g.genre||x.platform===g.platform)).slice(0,4);
@@ -77,6 +77,7 @@ const schema=[
     {g.id==='paper-rooms'&&<p class="muted">See the <a href="https://github.com/andrewnakas/decompgames/blob/main/docs/paper-rooms-release.json">dated distribution and gameplay record</a>.</p>}
     {g.id==='beacon-relay'&&<p class="muted">See the <a href="https://github.com/andrewnakas/decompgames/blob/main/docs/beacon-relay-release.json">dated distribution and gameplay record</a>.</p>}
     {g.id==='vector-duel'&&<p class="muted">See the <a href="https://github.com/andrewnakas/decompgames/blob/main/docs/vector-duel-release.json">dated distribution and gameplay record</a>.</p>}
+    {g.id==='signal-survey'&&<p class="muted">See the <a href="https://github.com/andrewnakas/decompgames/blob/main/docs/signal-survey-release.json">dated distribution and gameplay record</a>.</p>}
     {g.id==='skyways'&&<p class="muted">See the <a href="https://github.com/andrewnakas/decompgames/blob/main/docs/open-skyways-campaign-production-test-2026-10-14.json">thirty-road campaign and browser-restart record</a>.</p>}
     {g.id==='supaplex'&&<p class="muted">See the <a href="https://github.com/andrewnakas/decompgames/blob/main/docs/open-paths-campaign-production-test-2026-10-14.json">six-level campaign and browser-restart record</a>.</p>}
     {g.id==='open-cadet'&&<p class="muted">See the <a href="https://github.com/andrewnakas/decompgames/blob/main/docs/open-cadet-contacts-production-test-2026-10-14.json">live native contact record</a>, <a href="https://github.com/andrewnakas/decompgames/blob/main/docs/open-cadet-flippers-production-test-2026-10-14.json">flipper control record</a> and <a href="https://github.com/andrewnakas/decompgames/blob/main/docs/open-cadet-earned-score-production-test.json">earned-score persistence record</a>.</p>}

@@ -1,0 +1,56 @@
+{
+  "date": "2026-10-14T23:30:35.592Z",
+  "muted": true,
+  "cases": [
+    {
+      "label": "missing game.wasm",
+      "moduleCreated": false,
+      "frames": 0,
+      "audioCalls": 0,
+      "message": "Unable to start: Missing game.wasm"
+    },
+    {
+      "label": "missing game.js",
+      "moduleCreated": false,
+      "frames": 0,
+      "audioCalls": 0,
+      "message": "Unable to start: Missing game.js"
+    },
+    {
+      "label": "missing glyphs.js",
+      "moduleCreated": false,
+      "frames": 0,
+      "audioCalls": 0,
+      "message": "Unable to start: Missing glyphs.js"
+    },
+    {
+      "label": "missing load-manifest.json",
+      "moduleCreated": false,
+      "frames": 0,
+      "audioCalls": 0,
+      "message": "Unable to start: Missing load-manifest.json"
+    },
+    {
+      "label": "changed glyph bytes",
+      "status": "rejected before native startup"
+    },
+    {
+      "label": "held WASM stop",
+      "status": "passed",
+      "nativeMainStarted": false
+    },
+    {
+      "label": "held WASM timeout",
+      "status": "passed",
+      "nativeMainStarted": false
+    },
+    {
+      "label": "unsupported key, simulated focus and native Stop",
+      "status": "passed",
+      "nativeExited": true
+    }
+  ],
+  "errors": [],
+  "status": "passed",
+  "playersClosed": true
+}

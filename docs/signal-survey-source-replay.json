@@ -1,0 +1,20 @@
+{
+  "sourceReplay": true,
+  "status": "passed",
+  "wasmByteIdentical": true,
+  "wasmSha256": "09ef81b97d21c852b25672fbcdc8f4d8c6cf47c2f8ea554a398c2ec6737eeaa1",
+  "verifiedSourceInputs": 86,
+  "prebuiltGameObjectsUsed": false,
+  "originalMediaUsed": false,
+  "externalSDKVersion": "6.0.10",
+  "standardLibraryObjects": "Externally supplied SDK managed objects; not bundled in source archive",
+  "textGate": {
+    "referenceUniqueLiterals": 973,
+    "authoredReplacementRecords": 488,
+    "appliedReplacementOccurrences": 532,
+    "reviewedRetainedContracts": 108,
+    "unknownReferenceLiterals": 0,
+    "referenceHeadersRemainBSD": true,
+    "cleanRoomClaim": false
+  }
+}

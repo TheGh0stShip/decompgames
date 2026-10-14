@@ -1,0 +1,1402 @@
+{
+  "schema": 1,
+  "scope": "Exact reviewed retained C string contracts; reference copyright headers and code remain BSD. Names/prose/layout/font are separately authored.",
+  "contracts": [
+    {
+      "referenceLiteralSha256": "12ae32cb1ec02d01eda3581b127c1fee3b0dc53572ed6baf239721a03d82e126",
+      "reason": "Whitespace or punctuation used for native formatting.",
+      "locations": [
+        {
+          "source": "survey-command.c",
+          "line": 82
+        },
+        {
+          "source": "survey-command.c",
+          "line": 598
+        },
+        {
+          "source": "survey-command.c",
+          "line": 640
+        },
+        {
+          "source": "survey-command.c",
+          "line": 781
+        },
+        {
+          "source": "io.c",
+          "line": 184
+        },
+        {
+          "source": "misc.c",
+          "line": 433
+        },
+        {
+          "source": "pack.c",
+          "line": 270
+        },
+        {
+          "source": "pack.c",
+          "line": 367
+        },
+        {
+          "source": "pack.c",
+          "line": 416
+        },
+        {
+          "source": "rings.c",
+          "line": 192
+        },
+        {
+          "source": "rings.c",
+          "line": 201
+        },
+        {
+          "source": "save.c",
+          "line": 55
+        },
+        {
+          "source": "save.c",
+          "line": 80
+        },
+        {
+          "source": "things.c",
+          "line": 360
+        },
+        {
+          "source": "things.c",
+          "line": 379
+        },
+        {
+          "source": "things.c",
+          "line": 381
+        },
+        {
+          "source": "things.c",
+          "line": 383
+        },
+        {
+          "source": "things.c",
+          "line": 501
+        },
+        {
+          "source": "things.c",
+          "line": 649
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "618d56b588dca8e3ac275a11ff1d3cf292a2ac3dd6dfeb9abd89acb3007bcfef",
+      "reason": "Left/right equipment slot identifiers.",
+      "locations": [
+        {
+          "source": "survey-command.c",
+          "line": 358
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "b0ef544cf43a21528d9a8a1ab6a7e7239076261820b979c27bd0f6a6309e3563",
+      "reason": "Left/right equipment slot identifiers.",
+      "locations": [
+        {
+          "source": "survey-command.c",
+          "line": 360
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "940a656cfb809c493794f7771eb7f5aeebf3e5219e5a5e7185017aae2d26d185",
+      "reason": "Printf/serialization format and grammatical article/plural marker; no narrative prose.",
+      "locations": [
+        {
+          "source": "survey-command.c",
+          "line": 371
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "dca58b684b74ef86b08cb8d182c1c53009d1b36037b05de8d24bea8a4d2f6928",
+      "reason": "Printf/serialization format and grammatical article/plural marker; no narrative prose.",
+      "locations": [
+        {
+          "source": "survey-command.c",
+          "line": 373
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "72bd541af7cdfda8a99b98a6b0555d36c02cef871d6b64e012748da78ea8273b",
+      "reason": "Printf/serialization format and grammatical article/plural marker; no narrative prose.",
+      "locations": [
+        {
+          "source": "survey-command.c",
+          "line": 557
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "31880d990db9adf9b600e6e5a14a2521b88462ae0af03f8e04fd525eb589a240",
+      "reason": "Printf/serialization format and grammatical article/plural marker; no narrative prose.",
+      "locations": [
+        {
+          "source": "survey-command.c",
+          "line": 655
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "cb2f49eeb0c22c610b59099b2a26c868ffdfc377b9097e051bd474635e18ed6d",
+      "reason": "Printf/serialization format and grammatical article/plural marker; no narrative prose.",
+      "locations": [
+        {
+          "source": "survey-command.c",
+          "line": 806
+        },
+        {
+          "source": "pack.c",
+          "line": 373
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "cad390e37d110b88cad4df5f2bca7f8cc225ec78df19a97159a429d26b270d72",
+      "reason": "Printf/serialization format and grammatical article/plural marker; no narrative prose.",
+      "locations": [
+        {
+          "source": "survey-command.c",
+          "line": 809
+        },
+        {
+          "source": "survey-command.c",
+          "line": 818
+        },
+        {
+          "source": "fight.c",
+          "line": 569
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "7d2ca9c7d659228209489cbe11eead9bf275c46d9c31df13d2707c7811d5a1a6",
+      "reason": "Native combat dice expression, including mutable flytrap template.",
+      "locations": [
+        {
+          "source": "survey-extern.c",
+          "line": 164
+        },
+        {
+          "source": "survey-extern.c",
+          "line": 203
+        },
+        {
+          "source": "sticks.c",
+          "line": 178
+        },
+        {
+          "source": "weapons.c",
+          "line": 32
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "5b78f681b746f8ada8ed1fda2ee8bad26401b77c22c45a36f2304275a8738a31",
+      "reason": "Native combat dice expression, including mutable flytrap template.",
+      "locations": [
+        {
+          "source": "survey-extern.c",
+          "line": 191
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "7ed3be6c163ac7e71cd1b65df4b5dfd9adb61cf4f9a36001a7328964bee91143",
+      "reason": "Native combat dice expression, including mutable flytrap template.",
+      "locations": [
+        {
+          "source": "survey-extern.c",
+          "line": 192
+        },
+        {
+          "source": "survey-extern.c",
+          "line": 195
+        },
+        {
+          "source": "weapons.c",
+          "line": 29
+        },
+        {
+          "source": "weapons.c",
+          "line": 33
+        },
+        {
+          "source": "weapons.c",
+          "line": 35
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "e507e96efb56dc8265d18a47a9f9efd72ef153b380dc072980abdd2496858418",
+      "reason": "Native combat dice expression, including mutable flytrap template.",
+      "locations": [
+        {
+          "source": "survey-extern.c",
+          "line": 193
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "89f0b2473f16541ad08832d91e10b46dc3ce917514eabdd6423f3146c0612d2d",
+      "reason": "Native combat dice expression, including mutable flytrap template.",
+      "locations": [
+        {
+          "source": "survey-extern.c",
+          "line": 194
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "02405891c8749ddf4df968afd75f357b056209bf43652ff30a3bb37a829fb204",
+      "reason": "Native combat dice expression, including mutable flytrap template.",
+      "locations": [
+        {
+          "source": "survey-extern.c",
+          "line": 196
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "c6609892523db0119977cafda9a59f138d4a05e8638c443fed5b23e2726556d7",
+      "reason": "Native combat dice expression, including mutable flytrap template.",
+      "locations": [
+        {
+          "source": "survey-extern.c",
+          "line": 199
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "38796fb86a4c98cda8cd0b57807c51c8449117e3f4c61a0e9114db8e77905e8c",
+      "reason": "Native combat dice expression, including mutable flytrap template.",
+      "locations": [
+        {
+          "source": "survey-extern.c",
+          "line": 200
+        },
+        {
+          "source": "survey-extern.c",
+          "line": 207
+        },
+        {
+          "source": "survey-extern.c",
+          "line": 218
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "900238c4b70206173dcafad0d497ed0bebd778006f3b81be8c97a5f117295fb3",
+      "reason": "Native combat dice expression, including mutable flytrap template.",
+      "locations": [
+        {
+          "source": "survey-extern.c",
+          "line": 201
+        },
+        {
+          "source": "survey-extern.c",
+          "line": 206
+        },
+        {
+          "source": "things.c",
+          "line": 225
+        },
+        {
+          "source": "things.c",
+          "line": 226
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "281e5ee21deb43dac9924b0c2e082195a29b1c8e8a7711fbd9cf373492fa8f78",
+      "reason": "Native combat dice expression, including mutable flytrap template.",
+      "locations": [
+        {
+          "source": "survey-extern.c",
+          "line": 202
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "c5b9f4496633e173cbba9876585ab8c9ac8f20879a6d781f1f65624259a8ba4d",
+      "reason": "Native combat dice expression, including mutable flytrap template.",
+      "locations": [
+        {
+          "source": "survey-extern.c",
+          "line": 204
+        },
+        {
+          "source": "sticks.c",
+          "line": 30
+        },
+        {
+          "source": "sticks.c",
+          "line": 31
+        },
+        {
+          "source": "weapons.c",
+          "line": 30
+        },
+        {
+          "source": "weapons.c",
+          "line": 30
+        },
+        {
+          "source": "weapons.c",
+          "line": 31
+        },
+        {
+          "source": "weapons.c",
+          "line": 34
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "84bbcafa97c3d098ed40148d78627424b3043ca51258fa50c6048372d49ed3e5",
+      "reason": "Native combat dice expression, including mutable flytrap template.",
+      "locations": [
+        {
+          "source": "survey-extern.c",
+          "line": 205
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "4f07370c8a0f372313f34009988f552644757b580083765f15adffab32bedc97",
+      "reason": "Native combat dice expression, including mutable flytrap template.",
+      "locations": [
+        {
+          "source": "survey-extern.c",
+          "line": 208
+        },
+        {
+          "source": "survey-extern.c",
+          "line": 216
+        },
+        {
+          "source": "weapons.c",
+          "line": 33
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "f5310b2a7ce1b4fa69883725756b64309ac0a235bb118f5998d4f255b982bd20",
+      "reason": "Native combat dice expression, including mutable flytrap template.",
+      "locations": [
+        {
+          "source": "survey-extern.c",
+          "line": 209
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "9ed5aa5f91383109fef7209e9905d03626f31517c67e9348b23a18825369ceb5",
+      "reason": "Native combat dice expression, including mutable flytrap template.",
+      "locations": [
+        {
+          "source": "survey-extern.c",
+          "line": 210
+        },
+        {
+          "source": "survey-extern.c",
+          "line": 215
+        },
+        {
+          "source": "weapons.c",
+          "line": 32
+        },
+        {
+          "source": "weapons.c",
+          "line": 36
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "801506f94f7cda97383e92fa98fba0e279bb7f0a200376520d0199da6347f037",
+      "reason": "Native combat dice expression, including mutable flytrap template.",
+      "locations": [
+        {
+          "source": "survey-extern.c",
+          "line": 211
+        },
+        {
+          "source": "weapons.c",
+          "line": 28
+        },
+        {
+          "source": "weapons.c",
+          "line": 34
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "6e9cd19961cfad57b27bce12b2fdcd772b831c9020b165759afc86e9386b16e8",
+      "reason": "Native combat dice expression, including mutable flytrap template.",
+      "locations": [
+        {
+          "source": "survey-extern.c",
+          "line": 212
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "246f8d67b5228438e714de1f0ea315942c24dba360c9003f9a4912b3db0465d0",
+      "reason": "Native combat dice expression, including mutable flytrap template.",
+      "locations": [
+        {
+          "source": "survey-extern.c",
+          "line": 213
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "697d3d766477060d88e0968d3434b4d3332e4284ee225bf6e0ec1463dbfe02c5",
+      "reason": "Native combat dice expression, including mutable flytrap template.",
+      "locations": [
+        {
+          "source": "survey-extern.c",
+          "line": 214
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "fb20a02acc12397bd02b11fc3790a8b36521727ef150f360d3f123ad1270609c",
+      "reason": "Native combat dice expression, including mutable flytrap template.",
+      "locations": [
+        {
+          "source": "survey-extern.c",
+          "line": 217
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "4bc9274d8758b867e8c071a6082c68a2eb1668fc5ad34f631f96bf94f354c1e1",
+      "reason": "Generic color name used by native field-effect code; no palette file or artwork.",
+      "locations": [
+        {
+          "source": "fight.c",
+          "line": 119
+        },
+        {
+          "source": "scrolls.c",
+          "line": 65
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "c601beb354d86c058cd3417ed9d0a2c692184b6e731e8fa93581c52f85fdbfe2",
+      "reason": "Whitespace or punctuation used for native formatting.",
+      "locations": [
+        {
+          "source": "fight.c",
+          "line": 170
+        },
+        {
+          "source": "fight.c",
+          "line": 323
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "f39c0af02a9949bd17c95b4f1e5d9063b7d2c0aa6ee6fce095fbbd48913ddcbc",
+      "reason": "Native combat dice expression, including mutable flytrap template.",
+      "locations": [
+        {
+          "source": "fight.c",
+          "line": 270
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "003070dda5828ff8761d257b2dea021b47261e1f61337eee5a2239801f2cdf85",
+      "reason": "Printf/serialization format and grammatical article/plural marker; no narrative prose.",
+      "locations": [
+        {
+          "source": "fight.c",
+          "line": 512
+        },
+        {
+          "source": "monsters.c",
+          "line": 191
+        },
+        {
+          "source": "pack.c",
+          "line": 262
+        },
+        {
+          "source": "things.c",
+          "line": 81
+        },
+        {
+          "source": "things.c",
+          "line": 101
+        },
+        {
+          "source": "things.c",
+          "line": 438
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "535f562d113c00d428d9f4384d7a5c9566412a12bbed2065ce3e0cd174e396ed",
+      "reason": "Native combat dice expression, including mutable flytrap template.",
+      "locations": [
+        {
+          "source": "fight.c",
+          "line": 643
+        },
+        {
+          "source": "wizard.c",
+          "line": 225
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "cda324d8cb04a278eb3d958f841f96af29b243703811d0b71aed16b511a7aaf0",
+      "reason": "Printf/serialization format and grammatical article/plural marker; no narrative prose.",
+      "locations": [
+        {
+          "source": "survey-init.c",
+          "line": 415
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "804cc7351323f2216b76008eaf19540c053b11db1e7bafe13e8bc2c555eb223b",
+      "reason": "Input continuation marker; ordinary UI label and test synchronization contract.",
+      "locations": [
+        {
+          "source": "io.c",
+          "line": 17
+        },
+        {
+          "source": "io.c",
+          "line": 77
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "f4facb095b5f1d112a17345feb2898f65fa3a8c63c81d504c3ee04ec568a83a4",
+      "reason": "Native path, environment, command-line, file-mode or disabled MASTER selector.",
+      "locations": [
+        {
+          "source": "mach_dep.c",
+          "line": 114
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "3f434e53a17cc368a50684513ceb83f5a6b7585a140eebf225f5113a83c61675",
+      "reason": "Native path, environment, command-line, file-mode or disabled MASTER selector.",
+      "locations": [
+        {
+          "source": "mach_dep.c",
+          "line": 118
+        },
+        {
+          "source": "mach_dep.c",
+          "line": 382
+        },
+        {
+          "source": "mach_dep.c",
+          "line": 387
+        },
+        {
+          "source": "mach_dep.c",
+          "line": 392
+        },
+        {
+          "source": "mach_dep.c",
+          "line": 410
+        },
+        {
+          "source": "mach_dep.c",
+          "line": 414
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "2659efe5502f101c13c3d4f2b330ba7bc6969f33ce5aee8377560e7470bf30b4",
+      "reason": "Native path, environment, command-line, file-mode or disabled MASTER selector.",
+      "locations": [
+        {
+          "source": "mach_dep.c",
+          "line": 353
+        },
+        {
+          "source": "save.c",
+          "line": 177
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "8726ede4704b94c0570e1d0aad8bc3e5fade7097510cd5693aceb1487858f94b",
+      "reason": "Native path, environment, command-line, file-mode or disabled MASTER selector.",
+      "locations": [
+        {
+          "source": "survey-main.c",
+          "line": 35
+        },
+        {
+          "source": "wizard.c",
+          "line": 257
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "262cde929e0f27c28d1825fc6e00765c3d05f5de8b9c026f9c9b6f068c249978",
+      "reason": "Native path, environment, command-line, file-mode or disabled MASTER selector.",
+      "locations": [
+        {
+          "source": "survey-main.c",
+          "line": 52
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "c2408de0a2640b72a87b3326331cdc40a862b0024776811565426db3c4647c62",
+      "reason": "Native path, environment, command-line, file-mode or disabled MASTER selector.",
+      "locations": [
+        {
+          "source": "survey-main.c",
+          "line": 54
+        },
+        {
+          "source": "survey-main.c",
+          "line": 273
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "8953c683a06ea00dce83e03fffc13e328b17d26e0cc47aa1932afbb664c035a3",
+      "reason": "Native path, environment, command-line, file-mode or disabled MASTER selector.",
+      "locations": [
+        {
+          "source": "survey-main.c",
+          "line": 60
+        },
+        {
+          "source": "survey-main.c",
+          "line": 61
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "677642b7a51b40afcbc944dd29177d139ee3d8c7e3af335c29c85b40c21be3f8",
+      "reason": "Native path, environment, command-line, file-mode or disabled MASTER selector.",
+      "locations": [
+        {
+          "source": "survey-main.c",
+          "line": 83
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "8babd31a13482a53e95b46f4f6a495003e781e17491f4f795ad1755cbee4632d",
+      "reason": "Native path, environment, command-line, file-mode or disabled MASTER selector.",
+      "locations": [
+        {
+          "source": "survey-main.c",
+          "line": 89
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "46a3ae93aa7a8b988080d6c9a03adc15d0518284b1fc2e498db412676d201d5a",
+      "reason": "Native path, environment, command-line, file-mode or disabled MASTER selector.",
+      "locations": [
+        {
+          "source": "misc.c",
+          "line": 431
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "53bdfcd63dd0134cf6b26353fc85b121e1ac94f78880307fdf6eaf3788c39404",
+      "reason": "Whitespace or punctuation used for native formatting.",
+      "locations": [
+        {
+          "source": "monsters.c",
+          "line": 193
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "df26f2c7cc3c25a40e1464e4e81985ca3c3c225a512e58be6e55bcdf86276aa1",
+      "reason": "Native preference parser selector, boolean or input-key label.",
+      "locations": [
+        {
+          "source": "options.c",
+          "line": 43
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "d030d1ec72ab826b31bde3f98775d1488886825eda49653ab46c31787454b2b6",
+      "reason": "Native preference parser selector, boolean or input-key label.",
+      "locations": [
+        {
+          "source": "options.c",
+          "line": 45
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "0c41a29d18e6b83755e54bb36471b6bb2f0b85527e079d297f9597b25aa368e7",
+      "reason": "Native preference parser selector, boolean or input-key label.",
+      "locations": [
+        {
+          "source": "options.c",
+          "line": 47
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "76738b82d56a8d25113ff6dd514ce1a6027e996725cd29e917d37b21309bb3dd",
+      "reason": "Native preference parser selector, boolean or input-key label.",
+      "locations": [
+        {
+          "source": "options.c",
+          "line": 49
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "adbdc1c33670ceed9d7e0a17987889ff40fa99d217d9dbbd158fcfd4f11e9e90",
+      "reason": "Native preference parser selector, boolean or input-key label.",
+      "locations": [
+        {
+          "source": "options.c",
+          "line": 51
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "ee77d436dffffee534ca0da0ab77d6880e49efc9eeeeb2a56e2b1c4516f2debe",
+      "reason": "Native preference parser selector, boolean or input-key label.",
+      "locations": [
+        {
+          "source": "options.c",
+          "line": 53
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "d61f856fbb860e55839cea865e4283e1c84b8dd0d38102cf6202119b46e25f3c",
+      "reason": "Native preference parser selector, boolean or input-key label.",
+      "locations": [
+        {
+          "source": "options.c",
+          "line": 55
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "6ffe58b85cad95f1e86f1afebc4ffba738ef6c5520811cb5f393f6c0234ffcb0",
+      "reason": "Native preference parser selector, boolean or input-key label.",
+      "locations": [
+        {
+          "source": "options.c",
+          "line": 57
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "ebb185407d4afb598bb3c4bc138ff12a3247bbe76b7fd77eb560b405c55ac865",
+      "reason": "Native preference parser selector, boolean or input-key label.",
+      "locations": [
+        {
+          "source": "options.c",
+          "line": 59
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "bfdde6f5651ac5e4e6711f3c2836d5f8c5c4b381a50eb87c51d990b7eb36501b",
+      "reason": "Native preference parser selector, boolean or input-key label.",
+      "locations": [
+        {
+          "source": "options.c",
+          "line": 61
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "0b0c17b45cf7267ffdfa348920674b5f0c78cc38bd39416a4cab4e246c9d42ab",
+      "reason": "Printf/serialization format and grammatical article/plural marker; no narrative prose.",
+      "locations": [
+        {
+          "source": "options.c",
+          "line": 130
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "76c777b0ce3c35ba97c6cbdeea2a08cf31ebcd274fa0190aa83db5bc8742ae1e",
+      "reason": "Native preference parser selector, boolean or input-key label.",
+      "locations": [
+        {
+          "source": "options.c",
+          "line": 141
+        },
+        {
+          "source": "options.c",
+          "line": 179
+        },
+        {
+          "source": "options.c",
+          "line": 210
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "cea17e0b05e3e6ace77ec2d13b5870803ef957ad160f289cca6a3a4a826d20af",
+      "reason": "Native preference parser selector, boolean or input-key label.",
+      "locations": [
+        {
+          "source": "options.c",
+          "line": 141
+        },
+        {
+          "source": "options.c",
+          "line": 179
+        },
+        {
+          "source": "options.c",
+          "line": 210
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "4af57a9c21c040dc9eae739ba96593039b38d57131d076e7184f24be712e7600",
+      "reason": "Native preference parser selector, boolean or input-key label.",
+      "locations": [
+        {
+          "source": "options.c",
+          "line": 206
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "1f0ed5c2e8c89899c4b07860101819b04bea492f9acc547d90bd2a6123ef17e4",
+      "reason": "Printf/serialization format and grammatical article/plural marker; no narrative prose.",
+      "locations": [
+        {
+          "source": "options.c",
+          "line": 308
+        },
+        {
+          "source": "options.c",
+          "line": 368
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "c0c4e8a873a82e811c7c74f6c6596e69fbfb1f1aed5c623de4807f8700013440",
+      "reason": "Native preference parser selector, boolean or input-key label.",
+      "locations": [
+        {
+          "source": "options.c",
+          "line": 365
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "04a06452677210a3cdaec376fd5ebbca1714cb7af9e62bf5cce1644310a9086a",
+      "reason": "Native preference parser selector, boolean or input-key label.",
+      "locations": [
+        {
+          "source": "options.c",
+          "line": 469
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "dbb31e5a545ba3e65e4ca3104ef698bb48e07a091de5de3f2e144b0d17b215d5",
+      "reason": "Printf/serialization format and grammatical article/plural marker; no narrative prose.",
+      "locations": [
+        {
+          "source": "pack.c",
+          "line": 156
+        },
+        {
+          "source": "rings.c",
+          "line": 85
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "8a53692bfa7a177336b231b320c163d0c81a5c73313eae9861d6eba8d0d9153f",
+      "reason": "Printf/serialization format and grammatical article/plural marker; no narrative prose.",
+      "locations": [
+        {
+          "source": "pack.c",
+          "line": 265
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "201ec9f917bb30dce3c8ddcce83f592239f837b4781fa3b9b056f04da5dc2c91",
+      "reason": "Printf/serialization format and grammatical article/plural marker; no narrative prose.",
+      "locations": [
+        {
+          "source": "pack.c",
+          "line": 360
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "4f16e87200b8ae52ba5979846291d21f10d3e071696c9564a83a8bdb9ce991a2",
+      "reason": "Printf/serialization format and grammatical article/plural marker; no narrative prose.",
+      "locations": [
+        {
+          "source": "rings.c",
+          "line": 199
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "d7a5e915306d21dc1937ad5616f1dc9682e759e75ef51dd05fd9ddc98a078ea1",
+      "reason": "Whitespace or punctuation used for native formatting.",
+      "locations": [
+        {
+          "source": "survey-rip.c",
+          "line": 67
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "6a9e2a5c24ea63e98a05cbd58146222bab4261fe792826c7c611b141ddf48bb3",
+      "reason": "Native path, environment, command-line, file-mode or disabled MASTER selector.",
+      "locations": [
+        {
+          "source": "survey-rip.c",
+          "line": 95
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "860d9eaabc34a62753de7ffeba5286e4b220ff9f22546ed2894818f72d0d292d",
+      "reason": "Native path, environment, command-line, file-mode or disabled MASTER selector.",
+      "locations": [
+        {
+          "source": "survey-rip.c",
+          "line": 97
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "46c57ffb533f0b6222a9f2f71143d03d93922e53327d044d04c4fcb6cc3a6ebe",
+      "reason": "Printf/serialization format and grammatical article/plural marker; no narrative prose.",
+      "locations": [
+        {
+          "source": "survey-rip.c",
+          "line": 165
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "7299b59de0b5dad3b622afc3bdf57544e505249c77a6d4254bd14b1fc9a4ade8",
+      "reason": "Whitespace or punctuation used for native formatting.",
+      "locations": [
+        {
+          "source": "survey-rip.c",
+          "line": 187
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "09117248272e26cd7a8e885f68ef1710d85002f367902cc64ee020737e7b1061",
+      "reason": "Printf/serialization format and grammatical article/plural marker; no narrative prose.",
+      "locations": [
+        {
+          "source": "survey-rip.c",
+          "line": 329
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "69a8aa8c5062165d53486ff5a49b077dfb75ab57dd892138061ec4012c2b6349",
+      "reason": "Printf/serialization format and grammatical article/plural marker; no narrative prose.",
+      "locations": [
+        {
+          "source": "survey-rip.c",
+          "line": 375
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "7265b875feb0d1730ead43d3408195fb5ab0827b46bd185a737c447c51446c3b",
+      "reason": "Native path, environment, command-line, file-mode or disabled MASTER selector.",
+      "locations": [
+        {
+          "source": "save.c",
+          "line": 107
+        },
+        {
+          "source": "save.c",
+          "line": 128
+        },
+        {
+          "source": "save.c",
+          "line": 129
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "6d22ba7c2aa48aadd186a07e1ad1e246a0bc4f8614cc1c66376755916f131ce9",
+      "reason": "Printf/serialization format and grammatical article/plural marker; no narrative prose.",
+      "locations": [
+        {
+          "source": "save.c",
+          "line": 149
+        },
+        {
+          "source": "save.c",
+          "line": 193
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "88adaceaf09a72467ca5f309c785755474dc61a5ad18bce2f5b30877ae1e8cec",
+      "reason": "Native path, environment, command-line, file-mode or disabled MASTER selector.",
+      "locations": [
+        {
+          "source": "save.c",
+          "line": 172
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "4459932dbe81ce111aae6932befaf814bdab4fe6a384c44aa567d6a92c86fc1d",
+      "reason": "Printf/serialization format and grammatical article/plural marker; no narrative prose.",
+      "locations": [
+        {
+          "source": "save.c",
+          "line": 355
+        },
+        {
+          "source": "save.c",
+          "line": 382
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "30f96de6cb63ce646f69ad9a1cd51cd1a8f4c5c5e471a0cc4fc8bc981938ab5f",
+      "reason": "Generic color name used by native field-effect code; no palette file or artwork.",
+      "locations": [
+        {
+          "source": "scrolls.c",
+          "line": 71
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "0f4657778ae14ff7aeeb2c2190ede79099aa9c4e8a9e54829462f0e92af659e5",
+      "reason": "Printf/serialization format and grammatical article/plural marker; no narrative prose.",
+      "locations": [
+        {
+          "source": "scrolls.c",
+          "line": 97
+        },
+        {
+          "source": "things.c",
+          "line": 83
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "3aae004f448787fcf06c2d53933fff00a45fc5117c21e1070f967e37d43760ef",
+      "reason": "Generic color name used by native field-effect code; no palette file or artwork.",
+      "locations": [
+        {
+          "source": "scrolls.c",
+          "line": 272
+        },
+        {
+          "source": "sticks.c",
+          "line": 87
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "808ce71117885656ef3cc22755fcf8cee3963be18a815465f8cf35ec47e3a8f2",
+      "reason": "Native combat dice expression, including mutable flytrap template.",
+      "locations": [
+        {
+          "source": "sticks.c",
+          "line": 28
+        },
+        {
+          "source": "weapons.c",
+          "line": 31
+        },
+        {
+          "source": "weapons.c",
+          "line": 36
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "1a90903d9ce33a1a6fa35baca72e1df51e8e0028ee271cccc72fbd702f814946",
+      "reason": "Native combat dice expression, including mutable flytrap template.",
+      "locations": [
+        {
+          "source": "sticks.c",
+          "line": 312
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "9af3fba388949fb5eb0c282e169c50f759fff4c63d7563bf1cc57dc0b9a03353",
+      "reason": "Printf/serialization format and grammatical article/plural marker; no narrative prose.",
+      "locations": [
+        {
+          "source": "sticks.c",
+          "line": 427
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "5967d0087d316c3b6f48fad6cfb6974ae028b4624d779a5aef17d88549e6af01",
+      "reason": "Printf/serialization format and grammatical article/plural marker; no narrative prose.",
+      "locations": [
+        {
+          "source": "things.c",
+          "line": 63
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "ff75833ec51d0216669e26ae1786beffdafb4f3af92dc0ac2d24261ef477fb8f",
+      "reason": "Printf/serialization format and grammatical article/plural marker; no narrative prose.",
+      "locations": [
+        {
+          "source": "things.c",
+          "line": 65
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "ea0de73dd3fcf8b93c246679d8c334d59fc6f2e76b566239cafd3e35e7590fd9",
+      "reason": "Printf/serialization format and grammatical article/plural marker; no narrative prose.",
+      "locations": [
+        {
+          "source": "things.c",
+          "line": 74
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "33d14c45ae5a94655ff5f0c13f732c5501365ed689076c7748488741e79b9777",
+      "reason": "Printf/serialization format and grammatical article/plural marker; no narrative prose.",
+      "locations": [
+        {
+          "source": "things.c",
+          "line": 76
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "9fc76bdad4ce0525223807072caf4b30713d691ec37ecb0a8c44a3f01f11fbdc",
+      "reason": "Printf/serialization format and grammatical article/plural marker; no narrative prose.",
+      "locations": [
+        {
+          "source": "things.c",
+          "line": 79
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "6d00a90c7c0d4babe19eb5018efcf1615612375b7dee1b946aca41430010b494",
+      "reason": "Printf/serialization format and grammatical article/plural marker; no narrative prose.",
+      "locations": [
+        {
+          "source": "things.c",
+          "line": 93
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "b0ab517fbdcdbfcc426d7b9a243cde283a690099a7f7997b1f7552db6e9ab68b",
+      "reason": "Printf/serialization format and grammatical article/plural marker; no narrative prose.",
+      "locations": [
+        {
+          "source": "things.c",
+          "line": 98
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "8d122cd321c68847206230d61cc66416a78745fd0a5e619bc245a9e00da9a641",
+      "reason": "Printf/serialization format and grammatical article/plural marker; no narrative prose.",
+      "locations": [
+        {
+          "source": "things.c",
+          "line": 323
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "2588a787ddb23a997e097fd99a69bc17c03ac503693595079b080da4e6938e03",
+      "reason": "Printf/serialization format and grammatical article/plural marker; no narrative prose.",
+      "locations": [
+        {
+          "source": "things.c",
+          "line": 626
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "64837c7b54c6bd68c44206cd6d2cd23a03bd35f3987b6da4b7b1e4e9480ba9c6",
+      "reason": "Printf/serialization format and grammatical article/plural marker; no narrative prose.",
+      "locations": [
+        {
+          "source": "things.c",
+          "line": 628
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "143cff63b90162cc0078eb4f5b7a5a80677a1d6125fc57f7d0042ab88b881539",
+      "reason": "Printf/serialization format and grammatical article/plural marker; no narrative prose.",
+      "locations": [
+        {
+          "source": "things.c",
+          "line": 636
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "bcd79321af2a4da4b81bb35d12aa6250fd6dfcd2f5d3601a3ce32bf5346ca7dd",
+      "reason": "Printf/serialization format and grammatical article/plural marker; no narrative prose.",
+      "locations": [
+        {
+          "source": "things.c",
+          "line": 638
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "2185fc692ed76ef8256bd58b369dc57c9f5bb45d62f580f9f69949d29f9b61d9",
+      "reason": "Whitespace or punctuation used for native formatting.",
+      "locations": [
+        {
+          "source": "things.c",
+          "line": 668
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "60f0e006be660574cd87b9a3c929e8307effe9ada54971d4f6b8e6835cc9beae",
+      "reason": "Printf/serialization format and grammatical article/plural marker; no narrative prose.",
+      "locations": [
+        {
+          "source": "things.c",
+          "line": 706
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "3c46a15353ce99f290710854b2cfa1f5bcb24aa222a7722cb9d3f2de6750b67c",
+      "reason": "Native save release identifier.",
+      "locations": [
+        {
+          "source": "vers.c",
+          "line": 14
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "2c7d88e3e9cc5f93f60378a68c053250b9623f3a732a7353fda003c177999d48",
+      "reason": "Native save byte-codec constants; BSD algorithm data, not media.",
+      "locations": [
+        {
+          "source": "vers.c",
+          "line": 15
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "0923b0ed5c285d88113c692e6576299a593e2274a5ec6e95081542249ff05013",
+      "reason": "Native save byte-codec constants; BSD algorithm data, not media.",
+      "locations": [
+        {
+          "source": "vers.c",
+          "line": 16
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "a661af11fd860c6a97771f182ee4834499a2a2095cd763f3e773a9a29592bf2d",
+      "reason": "Native combat dice expression, including mutable flytrap template.",
+      "locations": [
+        {
+          "source": "weapons.c",
+          "line": 28
+        },
+        {
+          "source": "weapons.c",
+          "line": 35
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "35b58cc4a4ca50f0d3b436b7276840684fcbc62711b32e655da52d53329911ce",
+      "reason": "Native combat dice expression, including mutable flytrap template.",
+      "locations": [
+        {
+          "source": "weapons.c",
+          "line": 29
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "42b3320a0bd792bd0ef7b698bfe177d048abb8f4f138de02bd13451c2c89e4a7",
+      "reason": "Printf/serialization format and grammatical article/plural marker; no narrative prose.",
+      "locations": [
+        {
+          "source": "weapons.c",
+          "line": 214
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "bc187a34791a54307f63c0bb9e9d20997e131655849003f8886725c9e3f49d32",
+      "reason": "Printf/serialization format and grammatical article/plural marker; no narrative prose.",
+      "locations": [
+        {
+          "source": "weapons.c",
+          "line": 214
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "136df3ccbc287f0a35dc277319bc3da02f03e762fb80dfc368bbb5421db386e4",
+      "reason": "Printf/serialization format and grammatical article/plural marker; no narrative prose.",
+      "locations": [
+        {
+          "source": "weapons.c",
+          "line": 216
+        }
+      ]
+    },
+    {
+      "referenceLiteralSha256": "8f189bc1de3713dc219f6dfc6166478b373be64dc9aa2254819a499da2a0cd4c",
+      "reason": "Printf/serialization format and grammatical article/plural marker; no narrative prose.",
+      "locations": [
+        {
+          "source": "weapons.c",
+          "line": 216
+        }
+      ]
+    }
+  ]
+}

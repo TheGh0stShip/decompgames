@@ -16,6 +16,8 @@ for(const f of good.fields){
 }
 const selected=[['player-pos-x',80],['player-pos-y',24],['player-stats-hp',0],['player-stats-maxhp',0],['depth',0],['inventory-mode',3],['hunger',4],['equipped-0',255],['player-destination-list',4],['player-room',21],['potion-color-0',spec.colors],['ring-stone-0',spec.stones],['stick-type-0',2],['stick-material-0',1000],['window-height',25],['window-width',81],['window-cell-0',512],['player-pack-2-which',10],['map-monster-0',0],['map-flags-0',143],['map-char-0',0],['daemon-function-0',10]];
 for(const [label,value]of selected){const f=good.fields.find(f=>f.label===label);assert(f,'Missing test field '+label);reject(label+' invalid value',mutation(f,value));}
+if(spec.maxDepth)for(const label of ['depth','max-depth'])reject(label+' beyond authored campaign',mutation(good.fields.find(f=>f.label===label),spec.maxDepth+1));
+if(spec.printableWindow)for(const value of [0,31,127,255])reject('window glyph '+value,mutation(good.fields.find(f=>f.label==='window-cell-0'),value));
 const markers=new Map();for(const f of good.fields)if(f.label.startsWith('marker-')&&!markers.has(f.label))markers.set(f.label,f);
 for(const [label,f]of markers)reject(label+' wrong signature',mutation(f,0));
 report.status='passed';fs.writeFileSync(path.join(root,'save-validator-result.json'),JSON.stringify(report,null,2)+'\n');console.log(JSON.stringify({status:report.status,validBytes:report.validBytes,parsedFields:report.parsedFields,rejectedCases:report.cases.length}));
