@@ -1,0 +1,366 @@
+{
+  "date": "2026-10-14",
+  "scope": "32 selected decoded source/build/grant texts; seven project records and two exact Sonic CD component records, not full source/dependency closure or gameplay",
+  "projects": [
+    {
+      "repository": "Clownacy/Sonic-CD-Decompilation",
+      "pin": "fd4e17382beb6c705032a533b4db307fe6f1ea9b",
+      "starsAtRead": 5,
+      "treeTruncated": false,
+      "treeSha256": "1cb614e3ce6d8a3e625cd667ab660c8df893c9c31e156ad9f45a873840415e9e",
+      "selectedTextCount": 6,
+      "gitlinks": [
+        {
+          "path": "src/LAUNCHER/SDL",
+          "pin": "0bfeed061b10ea7dd37c88d9bae1824bad760f3a"
+        },
+        {
+          "path": "src/LAUNCHER/vgmstream",
+          "pin": "f3195199af2b85ecbd8fa1a13cbf6264bd1400ed"
+        }
+      ]
+    },
+    {
+      "repository": "doldecomp/sadx",
+      "pin": "4c2b833be9b4b63d57d761beb647cb8d9acbedb6",
+      "starsAtRead": 48,
+      "treeTruncated": false,
+      "treeSha256": "e12163b35377758a43f8058098a76b043f56817c35a1e6540c139586957b2257",
+      "selectedTextCount": 3,
+      "gitlinks": []
+    },
+    {
+      "repository": "doukutsu-rs/doukutsu-rs",
+      "pin": "d05995b2ce88e583491fcecfbd5883735d3527ea",
+      "starsAtRead": 1311,
+      "treeTruncated": false,
+      "treeSha256": "c0def2c38ec59b3efbd2b48e52d201436a697b1535ed760edf7ae790ea77c24d",
+      "selectedTextCount": 10,
+      "gitlinks": []
+    },
+    {
+      "repository": "FraGag/sadx_decomp",
+      "pin": "ca40cd33e71e04fd21d3a4ff159ca80d5b5780dd",
+      "starsAtRead": 35,
+      "treeTruncated": false,
+      "treeSha256": "c307caca18158886f2b8267d570dd58c4ab397516528227196b9df6c2dd9c6af",
+      "selectedTextCount": 1,
+      "gitlinks": []
+    },
+    {
+      "repository": "gameblabla/CSE2",
+      "pin": "f957b05ad29dd19e30c53c99fb312f444d769149",
+      "starsAtRead": 198,
+      "treeTruncated": false,
+      "treeSha256": "84ec5440734656420b62d12af1634d464c3f1eae28a961839505179bf02a9212",
+      "selectedTextCount": 4,
+      "gitlinks": []
+    },
+    {
+      "repository": "libsdl-org/SDL",
+      "pin": "0bfeed061b10ea7dd37c88d9bae1824bad760f3a",
+      "starsAtRead": 16800,
+      "treeTruncated": false,
+      "treeSha256": "e83da2b9dc205b27b55744038f03da250ba77367c3235d58965df934b14b3c8f",
+      "selectedTextCount": 1,
+      "gitlinks": []
+    },
+    {
+      "repository": "SergioFLS/doukutsu-rs-lastmit",
+      "pin": "765d520d707df66f222172b658a941070dc75364",
+      "starsAtRead": 0,
+      "treeTruncated": false,
+      "treeSha256": "61ad2151006efdcd4b58b78919f81ba9a8e53b63c7d0db407a5df78fcbd45ddf",
+      "selectedTextCount": 3,
+      "gitlinks": []
+    },
+    {
+      "repository": "sp00nznet/dcrecomp",
+      "pin": "90ee2216204c4453bf9a17f78e7194be199f07e4",
+      "starsAtRead": 7,
+      "treeTruncated": false,
+      "treeSha256": "31293364ce93bb432b68326c970c9e2ffea987ce856363777d66f2f448b66b83",
+      "selectedTextCount": 3,
+      "gitlinks": []
+    },
+    {
+      "repository": "vgmstream/vgmstream",
+      "pin": "f3195199af2b85ecbd8fa1a13cbf6264bd1400ed",
+      "starsAtRead": 2289,
+      "treeTruncated": false,
+      "treeSha256": "82833868f46dcf0e0de0f8f435a50fc3bf602829df648e54a4a3a5a4dd74a7d1",
+      "selectedTextCount": 1,
+      "gitlinks": []
+    }
+  ],
+  "selectedTexts": [
+    {
+      "repository": "Clownacy/Sonic-CD-Decompilation",
+      "pin": "fd4e17382beb6c705032a533b4db307fe6f1ea9b",
+      "path": ".gitmodules",
+      "bytes": 211,
+      "sha256": "30c5270e876654860dc4fb2e715e0bf1019814714a6842eadcfbba003e5de77c",
+      "source": "https://github.com/Clownacy/Sonic-CD-Decompilation/blob/fd4e17382beb6c705032a533b4db307fe6f1ea9b/.gitmodules"
+    },
+    {
+      "repository": "Clownacy/Sonic-CD-Decompilation",
+      "pin": "fd4e17382beb6c705032a533b4db307fe6f1ea9b",
+      "path": "CMakeLists.txt",
+      "bytes": 74784,
+      "sha256": "69ad0765d00c036464f02d7ce3560887238077fd1f5367c161e076815e263280",
+      "source": "https://github.com/Clownacy/Sonic-CD-Decompilation/blob/fd4e17382beb6c705032a533b4db307fe6f1ea9b/CMakeLists.txt"
+    },
+    {
+      "repository": "Clownacy/Sonic-CD-Decompilation",
+      "pin": "fd4e17382beb6c705032a533b4db307fe6f1ea9b",
+      "path": "LICENSE",
+      "bytes": 6894,
+      "sha256": "46633d9b124044cc1ff3d3891e45d3d866b9c6d29896d62d81072b6c5868816b",
+      "source": "https://github.com/Clownacy/Sonic-CD-Decompilation/blob/fd4e17382beb6c705032a533b4db307fe6f1ea9b/LICENSE"
+    },
+    {
+      "repository": "Clownacy/Sonic-CD-Decompilation",
+      "pin": "fd4e17382beb6c705032a533b4db307fe6f1ea9b",
+      "path": "README.md",
+      "bytes": 108,
+      "sha256": "f798da19c11399d56957b7f8d6f29ed8437d12b0d2d3c2634032d6c4dbe85fde",
+      "source": "https://github.com/Clownacy/Sonic-CD-Decompilation/blob/fd4e17382beb6c705032a533b4db307fe6f1ea9b/README.md"
+    },
+    {
+      "repository": "Clownacy/Sonic-CD-Decompilation",
+      "pin": "fd4e17382beb6c705032a533b4db307fe6f1ea9b",
+      "path": "src/LAUNCHER/MAIN.C",
+      "bytes": 24061,
+      "sha256": "1bca05acab808cd672117a2b68de0eebc8a69eedd93620239c57a70c35d1dfba",
+      "source": "https://github.com/Clownacy/Sonic-CD-Decompilation/blob/fd4e17382beb6c705032a533b4db307fe6f1ea9b/src/LAUNCHER/MAIN.C"
+    },
+    {
+      "repository": "Clownacy/Sonic-CD-Decompilation",
+      "pin": "fd4e17382beb6c705032a533b4db307fe6f1ea9b",
+      "path": "src/LAUNCHER/SOUND.C",
+      "bytes": 3994,
+      "sha256": "5c3fc190fb208eeebae243600718f0fd4e8b01217643029052290542ca23635c",
+      "source": "https://github.com/Clownacy/Sonic-CD-Decompilation/blob/fd4e17382beb6c705032a533b4db307fe6f1ea9b/src/LAUNCHER/SOUND.C"
+    },
+    {
+      "repository": "doldecomp/sadx",
+      "pin": "4c2b833be9b4b63d57d761beb647cb8d9acbedb6",
+      "path": "configure.py",
+      "bytes": 17319,
+      "sha256": "0d829c9de4c4d543d8ebb5ad6b76e68fc9d9820165348f292740262570e9df4a",
+      "source": "https://github.com/doldecomp/sadx/blob/4c2b833be9b4b63d57d761beb647cb8d9acbedb6/configure.py"
+    },
+    {
+      "repository": "doldecomp/sadx",
+      "pin": "4c2b833be9b4b63d57d761beb647cb8d9acbedb6",
+      "path": "README.md",
+      "bytes": 3230,
+      "sha256": "5274b6b038a8a214548cbf5fc7e43b440e45f36d1c83f953e393d5e5747a0a4f",
+      "source": "https://github.com/doldecomp/sadx/blob/4c2b833be9b4b63d57d761beb647cb8d9acbedb6/README.md"
+    },
+    {
+      "repository": "doldecomp/sadx",
+      "pin": "4c2b833be9b4b63d57d761beb647cb8d9acbedb6",
+      "path": "SOURCES.md",
+      "bytes": 152,
+      "sha256": "9c4685985e3f9b99bb57a9f9d52dfc0466552f542bbced8295b79538c6d16a78",
+      "source": "https://github.com/doldecomp/sadx/blob/4c2b833be9b4b63d57d761beb647cb8d9acbedb6/SOURCES.md"
+    },
+    {
+      "repository": "doukutsu-rs/doukutsu-rs",
+      "pin": "d05995b2ce88e583491fcecfbd5883735d3527ea",
+      "path": "Cargo.toml",
+      "bytes": 4981,
+      "sha256": "6af0db0b8165b401237f1becd311fcdeb69680f3c542fc75f8f628005b4a735b",
+      "source": "https://github.com/doukutsu-rs/doukutsu-rs/blob/d05995b2ce88e583491fcecfbd5883735d3527ea/Cargo.toml"
+    },
+    {
+      "repository": "doukutsu-rs/doukutsu-rs",
+      "pin": "d05995b2ce88e583491fcecfbd5883735d3527ea",
+      "path": "crates/organya/Cargo.toml",
+      "bytes": 346,
+      "sha256": "88f09a980b48d4ac559b50bcde25690d5f30c4cb77e776c05817a88b6f3984b8",
+      "source": "https://github.com/doukutsu-rs/doukutsu-rs/blob/d05995b2ce88e583491fcecfbd5883735d3527ea/crates/organya/Cargo.toml"
+    },
+    {
+      "repository": "doukutsu-rs/doukutsu-rs",
+      "pin": "d05995b2ce88e583491fcecfbd5883735d3527ea",
+      "path": "crates/organya/src/wave_bank.rs",
+      "bytes": 1412,
+      "sha256": "12b8d5a9abaeae4f8f97e15b239c0fde430edfc34ef52ea72212b1d50279294c",
+      "source": "https://github.com/doukutsu-rs/doukutsu-rs/blob/d05995b2ce88e583491fcecfbd5883735d3527ea/crates/organya/src/wave_bank.rs"
+    },
+    {
+      "repository": "doukutsu-rs/doukutsu-rs",
+      "pin": "d05995b2ce88e583491fcecfbd5883735d3527ea",
+      "path": "LICENSE",
+      "bytes": 1086,
+      "sha256": "ff8b25f74a24d87521c64c107ec94d967ae8fa4be9d9c73d639925e11161282c",
+      "source": "https://github.com/doukutsu-rs/doukutsu-rs/blob/d05995b2ce88e583491fcecfbd5883735d3527ea/LICENSE"
+    },
+    {
+      "repository": "doukutsu-rs/doukutsu-rs",
+      "pin": "d05995b2ce88e583491fcecfbd5883735d3527ea",
+      "path": "README.md",
+      "bytes": 11135,
+      "sha256": "373ef0ab1e105c5a43e7fd545897663ea1b9f42d7ec801237c2655619c6dccf1",
+      "source": "https://github.com/doukutsu-rs/doukutsu-rs/blob/d05995b2ce88e583491fcecfbd5883735d3527ea/README.md"
+    },
+    {
+      "repository": "doukutsu-rs/doukutsu-rs",
+      "pin": "d05995b2ce88e583491fcecfbd5883735d3527ea",
+      "path": "src/data/builtin_fs.rs",
+      "bytes": 13162,
+      "sha256": "a4c0e1ff4a49ef8f30b908954b00afe52dafaf3d7b02364b49a68411aa383dfe",
+      "source": "https://github.com/doukutsu-rs/doukutsu-rs/blob/d05995b2ce88e583491fcecfbd5883735d3527ea/src/data/builtin_fs.rs"
+    },
+    {
+      "repository": "doukutsu-rs/doukutsu-rs",
+      "pin": "d05995b2ce88e583491fcecfbd5883735d3527ea",
+      "path": "src/data/mod.rs",
+      "bytes": 57,
+      "sha256": "42e13581cbbf516930a6ea5f1a365a2a09d24e6ea1ced55dffd2ad53db6f9f0e",
+      "source": "https://github.com/doukutsu-rs/doukutsu-rs/blob/d05995b2ce88e583491fcecfbd5883735d3527ea/src/data/mod.rs"
+    },
+    {
+      "repository": "doukutsu-rs/doukutsu-rs",
+      "pin": "d05995b2ce88e583491fcecfbd5883735d3527ea",
+      "path": "src/framework/sound/mod.rs",
+      "bytes": 53,
+      "sha256": "d1868cd3e0fc3a3de3d7c662a738d4083003410dff37b803ac919aa327b19380",
+      "source": "https://github.com/doukutsu-rs/doukutsu-rs/blob/d05995b2ce88e583491fcecfbd5883735d3527ea/src/framework/sound/mod.rs"
+    },
+    {
+      "repository": "doukutsu-rs/doukutsu-rs",
+      "pin": "d05995b2ce88e583491fcecfbd5883735d3527ea",
+      "path": "src/framework/sound/null_impl.rs",
+      "bytes": 498,
+      "sha256": "ddb0d0e0414b19da5886f7e7b18b56512b6f5b3008de85384ab220b74aa00147",
+      "source": "https://github.com/doukutsu-rs/doukutsu-rs/blob/d05995b2ce88e583491fcecfbd5883735d3527ea/src/framework/sound/null_impl.rs"
+    },
+    {
+      "repository": "doukutsu-rs/doukutsu-rs",
+      "pin": "d05995b2ce88e583491fcecfbd5883735d3527ea",
+      "path": "src/main.rs",
+      "bytes": 1098,
+      "sha256": "ff8014b12d7b6b48188ba0ab3503122782c211ca7b7df95f4a30e5c41bfa0d21",
+      "source": "https://github.com/doukutsu-rs/doukutsu-rs/blob/d05995b2ce88e583491fcecfbd5883735d3527ea/src/main.rs"
+    },
+    {
+      "repository": "FraGag/sadx_decomp",
+      "pin": "ca40cd33e71e04fd21d3a4ff159ca80d5b5780dd",
+      "path": "README.txt",
+      "bytes": 2034,
+      "sha256": "6fe833890e54d2a50a1a76d0d1476d34c9dcf7defa3d0b6d38d94d7de8edc98f",
+      "source": "https://github.com/FraGag/sadx_decomp/blob/ca40cd33e71e04fd21d3a4ff159ca80d5b5780dd/README.txt"
+    },
+    {
+      "repository": "gameblabla/CSE2",
+      "pin": "f957b05ad29dd19e30c53c99fb312f444d769149",
+      "path": "CMakeLists.txt",
+      "bytes": 24772,
+      "sha256": "a41f7c56d65d60139a65b6549aa9e2cc367332fec307c2706d869f4923add2ad",
+      "source": "https://github.com/gameblabla/CSE2/blob/f957b05ad29dd19e30c53c99fb312f444d769149/CMakeLists.txt"
+    },
+    {
+      "repository": "gameblabla/CSE2",
+      "pin": "f957b05ad29dd19e30c53c99fb312f444d769149",
+      "path": "external/SDL2/COPYING.txt",
+      "bytes": 930,
+      "sha256": "ae4df3759a726538607b84c00ab8f8a5567d9f38ad5397486eb9b5c5f626caef",
+      "source": "https://github.com/gameblabla/CSE2/blob/f957b05ad29dd19e30c53c99fb312f444d769149/external/SDL2/COPYING.txt"
+    },
+    {
+      "repository": "gameblabla/CSE2",
+      "pin": "f957b05ad29dd19e30c53c99fb312f444d769149",
+      "path": "LICENCE.txt",
+      "bytes": 1444,
+      "sha256": "1d37099db3503d3faae5baa35eea587dc99659c5f8e3f22273a477a135c708ae",
+      "source": "https://github.com/gameblabla/CSE2/blob/f957b05ad29dd19e30c53c99fb312f444d769149/LICENCE.txt"
+    },
+    {
+      "repository": "gameblabla/CSE2",
+      "pin": "f957b05ad29dd19e30c53c99fb312f444d769149",
+      "path": "README.md",
+      "bytes": 10163,
+      "sha256": "f996da031fb6574f788037972916db286e8c30649105915bd449400d4c1da6b4",
+      "source": "https://github.com/gameblabla/CSE2/blob/f957b05ad29dd19e30c53c99fb312f444d769149/README.md"
+    },
+    {
+      "repository": "libsdl-org/SDL",
+      "pin": "0bfeed061b10ea7dd37c88d9bae1824bad760f3a",
+      "path": "LICENSE.txt",
+      "bytes": 884,
+      "sha256": "fcb07e07ac6bc8b2fcf047b50431ef4ebe5b619d7ca7c82212018309a9067426",
+      "source": "https://github.com/libsdl-org/SDL/blob/0bfeed061b10ea7dd37c88d9bae1824bad760f3a/LICENSE.txt"
+    },
+    {
+      "repository": "SergioFLS/doukutsu-rs-lastmit",
+      "pin": "765d520d707df66f222172b658a941070dc75364",
+      "path": "Cargo.toml",
+      "bytes": 3628,
+      "sha256": "abfd617db99d039fbf8c67f34d9bd7effce0d2a1dd908f8cc9fef332e63e236e",
+      "source": "https://github.com/SergioFLS/doukutsu-rs-lastmit/blob/765d520d707df66f222172b658a941070dc75364/Cargo.toml"
+    },
+    {
+      "repository": "SergioFLS/doukutsu-rs-lastmit",
+      "pin": "765d520d707df66f222172b658a941070dc75364",
+      "path": "LICENSE",
+      "bytes": 1045,
+      "sha256": "3e64e2723357c07e230dc8cd882d83fce03706004bc7602f5026477f86a72466",
+      "source": "https://github.com/SergioFLS/doukutsu-rs-lastmit/blob/765d520d707df66f222172b658a941070dc75364/LICENSE"
+    },
+    {
+      "repository": "SergioFLS/doukutsu-rs-lastmit",
+      "pin": "765d520d707df66f222172b658a941070dc75364",
+      "path": "README.md",
+      "bytes": 2842,
+      "sha256": "3a33504d28d54ed6215e242dede6143bc00766fd566cf7296180a90bfa9bc6a7",
+      "source": "https://github.com/SergioFLS/doukutsu-rs-lastmit/blob/765d520d707df66f222172b658a941070dc75364/README.md"
+    },
+    {
+      "repository": "sp00nznet/dcrecomp",
+      "pin": "90ee2216204c4453bf9a17f78e7194be199f07e4",
+      "path": "CMakeLists.txt",
+      "bytes": 2889,
+      "sha256": "1646339565bfc8705adf578b6793e39d774561aa365e74eac65513ea507d2d83",
+      "source": "https://github.com/sp00nznet/dcrecomp/blob/90ee2216204c4453bf9a17f78e7194be199f07e4/CMakeLists.txt"
+    },
+    {
+      "repository": "sp00nznet/dcrecomp",
+      "pin": "90ee2216204c4453bf9a17f78e7194be199f07e4",
+      "path": "LICENSE",
+      "bytes": 1068,
+      "sha256": "bf561185dd1c0196ba213d4c6ae7336e35fd70c02184a20cca1007e18b3d15fc",
+      "source": "https://github.com/sp00nznet/dcrecomp/blob/90ee2216204c4453bf9a17f78e7194be199f07e4/LICENSE"
+    },
+    {
+      "repository": "sp00nznet/dcrecomp",
+      "pin": "90ee2216204c4453bf9a17f78e7194be199f07e4",
+      "path": "README.md",
+      "bytes": 7840,
+      "sha256": "e63e8400f93f9a79f938fa08fa18070affbfa1310c5411c80eac02cec3c1fd83",
+      "source": "https://github.com/sp00nznet/dcrecomp/blob/90ee2216204c4453bf9a17f78e7194be199f07e4/README.md"
+    },
+    {
+      "repository": "vgmstream/vgmstream",
+      "pin": "f3195199af2b85ecbd8fa1a13cbf6264bd1400ed",
+      "path": "COPYING",
+      "bytes": 1305,
+      "sha256": "19e7cebe32b6fa88a732c13d6beaa37548d9adc961fba803016a903f5c7e5a1a",
+      "source": "https://github.com/vgmstream/vgmstream/blob/f3195199af2b85ecbd8fa1a13cbf6264bd1400ed/COPYING"
+    }
+  ],
+  "excluded": [
+    "Original discs/ROMs/executables/DLLs",
+    "Original or embedded media/font/wavetable payloads",
+    "Original game levels/scripts/model/animation data",
+    "Compiler/SDK binaries, dependency binaries and release bundles",
+    "Prior private ROM research"
+  ],
+  "browserOrBuildStarted": false,
+  "notes": [
+    "CSE2 and Sonic CD current pins equal prior audited pins; original code/content gates unchanged.",
+    "Sonic SDL notice is LICENSE.txt at its exact pin; initial COPYING.txt lookup returned 404, not a missing grant."
+  ]
+}

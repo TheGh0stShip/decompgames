@@ -1,0 +1,53 @@
+{
+  "date": "2026-10-14",
+  "catalogCount": 87,
+  "matchingDecompilationMilestone": "4/5 unchanged",
+  "eligibleAdditions": 0,
+  "findings": [
+    {
+      "project": "CSE2",
+      "classification": "Actual Cave Story reconstruction; proprietary original logic with MIT only for authored modifications",
+      "decision": "Existing exclusion reconfirmed at unchanged pin; content replacements cannot cure inherited code gate. Bundled SDL Emscripten files and Null audio option do not establish a playable Web build."
+    },
+    {
+      "project": "Clownacy Sonic CD",
+      "classification": "Actual Sonic Gems Collection-derived reconstruction with native per-level launcher",
+      "decision": "Root CC0 declaration retained but inherited original code/tables and full independent content unclosed. Exact SDL2 zlib and vgmstream ISC notices read separately; parent disables listed external codecs including FFmpeg rather than automatically enabling them. Browser scheduler/mute/content still unverified."
+    },
+    {
+      "project": "doldecomp/sadx",
+      "classification": "WIP GameCube matching-target reconstruction, not native browser port",
+      "decision": "No overall game/SDK/runtime grant identified in pinned tree; original DOL/REL and original-era compiler path required. SOURCES.md provenance credits are not grants. No source-completeness percentage inferred."
+    },
+    {
+      "project": "FraGag/sadx_decomp",
+      "classification": "Partial Windows-compatible DLL/data reconstruction of same SADX title",
+      "decision": "README expressly prohibits commercial use and claims no original code ownership; starts with original model/animation DLL data. Not a full permissively licensed reconstructed browser game."
+    },
+    {
+      "project": "Current doukutsu-rs",
+      "classification": "Cave Story engine reimplementation in Rust, not matching decompilation",
+      "decision": "MIT-declared source candidate, no blanket content or dependency closure. Current upstream already MIT; old lastmit fork is not needed to obtain an MIT-declared version. Broad engine-recreation expansion remains paused. Native SDL2/glutin/CPAL stack plus full independent game content/browser work unverified.",
+      "contentEvidence": "builtin_fs.rs compiles font PNGs/descriptors, icon/touch/interface art, locale and original-named Organya wave tables via include_bytes!. No payloads acquired; root MIT is not per-file provenance.",
+      "dependencyEvidence": "Organya wave_bank.rs SPDX MIT read separately; full crate/git/runtime source notices and compiled media not cleared."
+    },
+    {
+      "project": "SergioFLS/doukutsu-rs-lastmit",
+      "classification": "Older fork of same engine/game identity",
+      "decision": "MIT notice separately verified; duplicate lead, README describes CI freeware data, not independent content. Different default features include Lua/netplay; no current dependency equivalence or Web build inferred."
+    },
+    {
+      "project": "dcrecomp",
+      "classification": "SH4 static recompilation framework and hardware abstraction, not a source decompilation or finished game",
+      "decision": "MIT explicitly applies only to framework, excludes generated commercial-game code. Native optional SDL/OpenGL/GLEW and planned GPL Flycast backend differ; proposed backend is not shipped framework code. No independent game content/browser gameplay or clean-room certificate."
+    }
+  ],
+  "privateRecordsPreserved": true,
+  "protectedEntriesUntouched": [
+    "Mario Party 2",
+    "Mario Party 3",
+    "Halo"
+  ],
+  "playersStarted": false,
+  "audibleVerification": false
+}
