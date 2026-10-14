@@ -1,0 +1,684 @@
+{
+  "recordedAt": "2026-10-14T02:27:19.386748+00:00",
+  "classification": "Original authored courtyard challenge on original developer-released Eldritch source; not decompilation, emulation, retail campaign or certified clean-room work",
+  "sourceArchiveUrl": "https://eldritchgame.com/bin/Eldritch-Source-2019-04-16.zip",
+  "sourceArchiveSha256": "7bee255de9943e805bbd591ae7fb6ca1d9ac6609b5ba84374ab694eb7edb6774",
+  "previousMilestone": "eldritch-native-startup-2026-10-14.json",
+  "codeGrantScope": "Previously audited developer zlib grant; code/dependency/SDK/runtime/emitted-JavaScript closure and exact source distribution notices still pending. Independent resource dedication is separate.",
+  "authoredResourceProvenance": {
+    "resources": 29,
+    "resourceBytes": 181597,
+    "dataLicense": "CC0-1.0",
+    "shadersLicense": "MIT",
+    "originalRetailInputs": false,
+    "romRequired": false,
+    "files": [
+      {
+        "path": "Audio/beacon.wav",
+        "bytes": 6660,
+        "sha256": "5b9e64ee94faed26e1ee1f74ad241f75142f803df911175973880e4f7f8f7639",
+        "kind": "Original mathematical sine/fade cue; audible testing unauthorized/unverified",
+        "license": "CC0-1.0",
+        "origin": "Independently authored by this generator; no original game asset input"
+      },
+      {
+        "path": "Audio/gate.wav",
+        "bytes": 6660,
+        "sha256": "04884359a6ae98676353a528239138a88a5c79f8e58430b8c443bff6330e0101",
+        "kind": "Original mathematical sine/fade cue; audible testing unauthorized/unverified",
+        "license": "CC0-1.0",
+        "origin": "Independently authored by this generator; no original game asset input"
+      },
+      {
+        "path": "Audio/step.wav",
+        "bytes": 6660,
+        "sha256": "8f1f1c78b549405ff606a38adb94f59bd354b0d0813d3b79a4367bc70a296f7f",
+        "kind": "Original mathematical sine/fade cue; audible testing unauthorized/unverified",
+        "license": "CC0-1.0",
+        "origin": "Independently authored by this generator; no original game asset input"
+      },
+      {
+        "path": "CC0-ASSETS.txt",
+        "bytes": 313,
+        "sha256": "d08792591c1b1d4de1767840f2ae42ad45df6c41537e9e373f71df027736e7ff",
+        "kind": "Authorship and license declaration",
+        "license": "CC0-1.0",
+        "origin": "Independently authored by this generator; no original game asset input"
+      },
+      {
+        "path": "Config/content.ccf",
+        "bytes": 695,
+        "sha256": "451e82617cff4b0eeec459c6221de108f46629db378f2361f64bf8670f9fd9d0",
+        "kind": "Original prototype program/config data; text parser route",
+        "license": "CC0-1.0",
+        "origin": "Independently authored by this generator; no original game asset input"
+      },
+      {
+        "path": "Config/default.ccf",
+        "bytes": 1307,
+        "sha256": "780bd21681ec0d855efe1a7a24c167ecbc09b62b9fd676ce191c87deadc26609",
+        "license": "CC0-1.0",
+        "origin": "Independently authored; font bitmap/metrics regenerate prior authored glyph designs with explicit new spacing/punctuation; other resources are authored config, shaders or procedural color surfaces"
+      },
+      {
+        "path": "Config/yard.ccf",
+        "bytes": 6769,
+        "sha256": "3f6e3e4d51079855d0dd30b5c3f3fe2db4d433618c151092e9b3df7f8d9a44b7",
+        "license": "CC0-1.0",
+        "origin": "Independently authored; font bitmap/metrics regenerate prior authored glyph designs with explicit new spacing/punctuation; other resources are authored config, shaders or procedural color surfaces"
+      },
+      {
+        "path": "Fonts/glyph-design.json",
+        "bytes": 4475,
+        "sha256": "3660b80eba87683cad9ac560e2eac2f39f7a89a84dabbd4cb1417f72f44c5d59",
+        "kind": "Own glyph design source",
+        "license": "CC0-1.0",
+        "origin": "Independently authored by this generator; no original game asset input"
+      },
+      {
+        "path": "Fonts/grid.fnp",
+        "bytes": 3479,
+        "sha256": "6cfc1e7446c94952971c67adb71281240d7cb498c419a74ebbe6ca156380ad09",
+        "kind": "Own glyph metrics in the native remaster font format",
+        "license": "CC0-1.0",
+        "origin": "Independently authored by this generator; no original game asset input"
+      },
+      {
+        "path": "Fonts/grid.tga",
+        "bytes": 32786,
+        "sha256": "5d083913bd066cab30905fd70ba7958a4254be42255ac34a541d695735b39243",
+        "kind": "Original ASCII grid glyph bitmap",
+        "license": "CC0-1.0",
+        "origin": "Independently authored by this generator; no original game asset input"
+      },
+      {
+        "path": "Fonts/hud.fnp",
+        "bytes": 3478,
+        "sha256": "54fc7b84319b3ef949a8524e46db48d92c3ea647840f1f40138050b9104478d4",
+        "license": "CC0-1.0",
+        "origin": "Independently authored; font bitmap/metrics regenerate prior authored glyph designs with explicit new spacing/punctuation; other resources are authored config, shaders or procedural color surfaces"
+      },
+      {
+        "path": "Fonts/hud.tga",
+        "bytes": 32786,
+        "sha256": "9854c6ee0cb5bdfb0aea84c4f3582f5fb086d76d2092039e7d1c0cbe832d5ebd",
+        "license": "CC0-1.0",
+        "origin": "Independently authored; font bitmap/metrics regenerate prior authored glyph designs with explicit new spacing/punctuation; other resources are authored config, shaders or procedural color surfaces"
+      },
+      {
+        "path": "Meshes/beacon.cms",
+        "bytes": 2180,
+        "sha256": "cb016ff4f7306809858b52b79ff92be44a459bfe530d491d846cd4f9a9f7db44",
+        "kind": "Original skeletal beacon geometry and 30-frame pulse animation",
+        "license": "CC0-1.0",
+        "origin": "Independently authored by this generator; no original game asset input"
+      },
+      {
+        "path": "Rooms/beacon-yard.eldroom",
+        "bytes": 1285,
+        "sha256": "fe5d163aa33adb70209a7c3ca5d0a334b77b8935be7f706ab4ff78c22c82fc1c",
+        "kind": "Original voxel room and spawner layout",
+        "license": "CC0-1.0",
+        "origin": "Independently authored by this generator; no original game asset input"
+      },
+      {
+        "path": "Shaders/animated.vs",
+        "bytes": 335,
+        "sha256": "88177c1f40d247652ece5599dd5886cc338e6de5a249a539d1debdb6d5a2dda1",
+        "license": "MIT",
+        "origin": "Independently authored; font bitmap/metrics regenerate prior authored glyph designs with explicit new spacing/punctuation; other resources are authored config, shaders or procedural color surfaces"
+      },
+      {
+        "path": "Shaders/hud.fs",
+        "bytes": 239,
+        "sha256": "a5e6e8aea95160201ef1f7e1ef9e8473b35e3f01bbcaaf87474b96f2018c6b89",
+        "license": "MIT",
+        "origin": "Independently authored; font bitmap/metrics regenerate prior authored glyph designs with explicit new spacing/punctuation; other resources are authored config, shaders or procedural color surfaces"
+      },
+      {
+        "path": "Shaders/hud.vs",
+        "bytes": 289,
+        "sha256": "40668ff7760bacb0758f27296c4d9c964551a977601ad840ac28783cb8056b56",
+        "license": "MIT",
+        "origin": "Independently authored; font bitmap/metrics regenerate prior authored glyph designs with explicit new spacing/punctuation; other resources are authored config, shaders or procedural color surfaces"
+      },
+      {
+        "path": "Shaders/yard.fs",
+        "bytes": 136,
+        "sha256": "486fb0c796a7066bfcb9e56ac4e65ad8562d707e66c6c5f658b3920c9fb7e5f8",
+        "kind": "Authored basic fragment shader",
+        "license": "MIT",
+        "origin": "Independently authored by this generator; no original game asset input"
+      },
+      {
+        "path": "Shaders/yard.vs",
+        "bytes": 140,
+        "sha256": "6656995ce484f8bee0fa765e594014661eeb1c865fbf5f236c4c3f079de9d751",
+        "kind": "Authored basic vertex shader",
+        "license": "MIT",
+        "origin": "Independently authored by this generator; no original game asset input"
+      },
+      {
+        "path": "Text/help.txt",
+        "bytes": 232,
+        "sha256": "65815174b07102cb22c2cea7a5bd6afc49f3cae59f9957347de442244dfb1f06",
+        "kind": "Original title, instructions and edition description",
+        "license": "CC0-1.0",
+        "origin": "Independently authored by this generator; no original game asset input"
+      },
+      {
+        "path": "Textures/beacon-active.tga",
+        "bytes": 1042,
+        "sha256": "b10f916df608b8173459bde43b625b775d97bfca13d5c4640724ceaad9843e12",
+        "license": "CC0-1.0",
+        "origin": "Independently authored; font bitmap/metrics regenerate prior authored glyph designs with explicit new spacing/punctuation; other resources are authored config, shaders or procedural color surfaces"
+      },
+      {
+        "path": "Textures/beacon.tga",
+        "bytes": 1042,
+        "sha256": "2314389c06b925e5d165e7fb429ca1004a2cf3e55ba671dcc704fcb5f77b6ad6",
+        "kind": "Original beacon surface",
+        "license": "CC0-1.0",
+        "origin": "Independently authored by this generator; no original game asset input"
+      },
+      {
+        "path": "Textures/default.tga",
+        "bytes": 34,
+        "sha256": "a2872e99b424279ba542b10f23e5ef3203587892a026271ec8af70a773d96291",
+        "kind": "Original fallback texture",
+        "license": "CC0-1.0",
+        "origin": "Independently authored by this generator; no original game asset input"
+      },
+      {
+        "path": "Textures/gate.tga",
+        "bytes": 1042,
+        "sha256": "8f45eeda39578bf4f2874aa44e9a2ace667ee7c4dc124f69c63e0e5e4469a9e4",
+        "license": "CC0-1.0",
+        "origin": "Independently authored; font bitmap/metrics regenerate prior authored glyph designs with explicit new spacing/punctuation; other resources are authored config, shaders or procedural color surfaces"
+      },
+      {
+        "path": "Textures/icon.bmp",
+        "bytes": 822,
+        "sha256": "a5f012574a8a0b1a1b8ecb82b9a4301297e74fc11d3aa41ec22685683cbf23b7",
+        "license": "CC0-1.0",
+        "origin": "Independently authored fixture resource; no original retail input"
+      },
+      {
+        "path": "Textures/normal.tga",
+        "bytes": 34,
+        "sha256": "b37f1caa8b852a6f78c1ad24445a9960a5915c5872b8360dcc78120a6b0a88a7",
+        "kind": "Original fallback texture",
+        "license": "CC0-1.0",
+        "origin": "Independently authored by this generator; no original game asset input"
+      },
+      {
+        "path": "Textures/specular.tga",
+        "bytes": 34,
+        "sha256": "f7795f440cd3ab024f8a5060a0bc83798e94ff260dcd93fb810da2ad7fcce4e1",
+        "kind": "Original fallback texture",
+        "license": "CC0-1.0",
+        "origin": "Independently authored by this generator; no original game asset input"
+      },
+      {
+        "path": "Textures/yard-tiles.tga",
+        "bytes": 65554,
+        "sha256": "fac23e2535d4f6eb2906cd633c7b6151e2f518ce5538aa3172bd7862c6d6c3df",
+        "kind": "Original procedural tile atlas",
+        "license": "CC0-1.0",
+        "origin": "Independently authored by this generator; no original game asset input"
+      },
+      {
+        "path": "map-plan.json",
+        "bytes": 1089,
+        "sha256": "b47ff8fdf3bbd94a4f15bb7793fb871d397946ce8a70d1b38e2f1e9923ec8167",
+        "kind": "Original level/goal specification",
+        "license": "CC0-1.0",
+        "origin": "Independently authored by this generator; no original game asset input"
+      }
+    ],
+    "legacyFixtureMetadataRetainedPrivately": true,
+    "releaseMustConsolidateManifest": true
+  },
+  "nativeBuild": {
+    "actualGameEntry": true,
+    "objectCount": 436,
+    "observerTranslationUnits": 1,
+    "selectedNativeTranslationUnits": 438,
+    "baselineHeaderEqualityChecked": true,
+    "adapted": [
+      "Code/Libraries/3D/src/GL2/gl2renderer.cpp",
+      "Code/Libraries/3D/src/texturecommon.cpp",
+      "Code/Libraries/Audio/src/soloudaudiosystem.cpp",
+      "Code/Libraries/Framework/src/framework3d.cpp",
+      "Code/Projects/Eld/src/eldframework.cpp"
+    ],
+    "preload": "Only independent startup fixture and prior authored assets",
+    "gameplayVerified": false,
+    "outputs": [
+      {
+        "path": "entry.js",
+        "bytes": 430808,
+        "sha256": "0d814db1f57199548b23b9e9562ee68482290430f1fc96a6546ff3192996dd4a"
+      },
+      {
+        "path": "entry.wasm",
+        "bytes": 3430604,
+        "sha256": "fcbc31ee11feee3e0172331c50cccf0829f46500b94e563c9c985fc21cc90ebb"
+      },
+      {
+        "path": "entry.data",
+        "bytes": 192048,
+        "sha256": "07bc220196d5dfd95a8d07ac23b697c94696ac3e4f05e2326a3354f6504d1a5b"
+      }
+    ],
+    "objectiveTranslationUnits": 1
+  },
+  "nativeAcceptance": {
+    "date": "2026-10-14T02:21:25.662Z",
+    "scope": "Actual native authored courtyard objective via keyboard movement/turning/raycast interaction",
+    "muted": true,
+    "errors": [],
+    "missing": [],
+    "external": [],
+    "logs": [
+      "Checking user data path...",
+      "  ./",
+      "Version: ",
+      "Initializing factories...",
+      "Initializing SDP factories.",
+      "Initializing UI factories.",
+      "Initializing anim event factories.",
+      "Initializing PE factories.",
+      "Initializing action factories.",
+      "Initializing BT factories.",
+      "Initializing component factories.",
+      "Factories initialized.",
+      "Initializing input system.",
+      "Framework3D::Initialize",
+      "Random seed is 17",
+      "Initializing display...",
+      "Desired display mode: 960x540 / windowed / no upscaling / no vsync",
+      "Setting display resolution...",
+      "Enumerating SDL display modes...",
+      "Enumerated mode 1000x580",
+      "Could not find a more suitable display mode.",
+      "Using display mode 960x540",
+      "SoLoud backend: null driver",
+      "Using OpenGL renderer.",
+      "DecompGames float render targets: enabled",
+      "EldFramework::CreateHUDView",
+      "EldFramework::CreateMirrorView",
+      "EldFramework::CreateMinimapView",
+      "EldFramework::CreateBuckets",
+      "Checking saved game path",
+      "Initializing game.",
+      "Voxel mem.: 1960 Irradiance mem.: 188160",
+      "Eld initialization complete.",
+      "Beacon Yard activated slot 0; mask 1.",
+      "Beacon Yard activated slot 1; mask 3.",
+      "Beacon Yard activated slot 2; mask 7.",
+      "Beacon Yard objective complete."
+    ],
+    "startupComplete": true,
+    "gameplayVerified": true,
+    "audibleAudioVerified": false,
+    "abort": null,
+    "audioContextsCreated": 0,
+    "journey": [
+      {
+        "interaction": "gate before beacons",
+        "player": true,
+        "position": [
+          4.692243,
+          9.922204,
+          2.75
+        ],
+        "dimensions": [
+          14,
+          14,
+          10
+        ],
+        "health": 5,
+        "landed": true,
+        "gameTime": 7.73338,
+        "focus": true,
+        "glError": 0,
+        "yaw": 1.133334,
+        "pitch": 0,
+        "mask": 0,
+        "complete": false,
+        "gateDenied": 1,
+        "actorCount": 4,
+        "animationTime": 0.733332,
+        "target": "EXIT GATE",
+        "status": "GATE LOCKED - ACTIVATE ALL THREE BEACONS",
+        "eyeZ": 3.55,
+        "rayHitSelf": false,
+        "rayHitT": 0.99071
+      },
+      {
+        "interaction": "beacon A",
+        "player": true,
+        "position": [
+          4.822747,
+          8.503637,
+          2.75
+        ],
+        "dimensions": [
+          14,
+          14,
+          10
+        ],
+        "health": 5,
+        "landed": true,
+        "gameTime": 11.549995,
+        "focus": true,
+        "glError": 0,
+        "yaw": 1.6,
+        "pitch": 0,
+        "mask": 1,
+        "complete": false,
+        "gateDenied": 1,
+        "actorCount": 4,
+        "animationTime": 0.549998,
+        "target": "BEACON A",
+        "status": "BEACONS 1/3 - FIND THE NEXT BEACON",
+        "eyeZ": 3.55,
+        "rayHitSelf": false,
+        "rayHitT": 0.941317
+      },
+      {
+        "interaction": "beacon A duplicate",
+        "player": true,
+        "position": [
+          4.822747,
+          8.503637,
+          2.75
+        ],
+        "dimensions": [
+          14,
+          14,
+          10
+        ],
+        "health": 5,
+        "landed": true,
+        "gameTime": 12.049988,
+        "focus": true,
+        "glError": 0,
+        "yaw": 1.6,
+        "pitch": 0,
+        "mask": 1,
+        "complete": false,
+        "gateDenied": 1,
+        "actorCount": 4,
+        "animationTime": 0.049997,
+        "target": "BEACON A",
+        "status": "THIS BEACON IS ALREADY ACTIVE",
+        "eyeZ": 3.55,
+        "rayHitSelf": false,
+        "rayHitT": 0.941317
+      },
+      {
+        "interaction": "beacon B",
+        "player": true,
+        "position": [
+          10.497334,
+          7.997454,
+          2.75
+        ],
+        "dimensions": [
+          14,
+          14,
+          10
+        ],
+        "health": 5,
+        "landed": true,
+        "gameTime": 21.999836,
+        "focus": true,
+        "glError": 0,
+        "yaw": 6.299995,
+        "pitch": 0,
+        "mask": 3,
+        "complete": false,
+        "gateDenied": 1,
+        "actorCount": 4,
+        "animationTime": 0.999995,
+        "target": "BEACON B",
+        "status": "BEACONS 2/3 - FIND THE NEXT BEACON",
+        "eyeZ": 3.55,
+        "rayHitSelf": false,
+        "rayHitT": 1
+      },
+      {
+        "interaction": "beacon C",
+        "player": true,
+        "position": [
+          10.522864,
+          5.018939,
+          2.75
+        ],
+        "dimensions": [
+          14,
+          14,
+          10
+        ],
+        "health": 5,
+        "landed": true,
+        "gameTime": 26.716431,
+        "focus": true,
+        "glError": 0,
+        "yaw": 9.433346,
+        "pitch": 0,
+        "mask": 7,
+        "complete": false,
+        "gateDenied": 1,
+        "actorCount": 4,
+        "animationTime": 0.71666,
+        "target": "BEACON C",
+        "status": "BEACONS 3/3 - RETURN TO THE GATE",
+        "eyeZ": 3.55,
+        "rayHitSelf": false,
+        "rayHitT": 1
+      },
+      {
+        "interaction": "gate after three beacons",
+        "player": true,
+        "position": [
+          4.695573,
+          9.8969,
+          2.75
+        ],
+        "dimensions": [
+          14,
+          14,
+          10
+        ],
+        "health": 5,
+        "landed": true,
+        "gameTime": 37.882927,
+        "focus": true,
+        "glError": 0,
+        "yaw": 7.399994,
+        "pitch": 0,
+        "mask": 7,
+        "complete": true,
+        "gateDenied": 1,
+        "actorCount": 4,
+        "animationTime": 0.883324,
+        "target": "EXIT GATE",
+        "status": "BEACONS 3/3 - YARD RESTORED",
+        "eyeZ": 3.55,
+        "rayHitSelf": false,
+        "rayHitT": 0.999798
+      }
+    ],
+    "initial": {
+      "player": true,
+      "position": [
+        3.5,
+        3.5,
+        2.75
+      ],
+      "dimensions": [
+        14,
+        14,
+        10
+      ],
+      "health": 5,
+      "landed": true,
+      "gameTime": 0.85,
+      "focus": true,
+      "glError": 0,
+      "yaw": 0,
+      "pitch": 0,
+      "mask": 0,
+      "complete": false,
+      "gateDenied": 0,
+      "actorCount": 4,
+      "animationTime": 0.85,
+      "target": "",
+      "status": "BEACONS 0/3 - FIND THE NEXT BEACON",
+      "eyeZ": 3.55,
+      "rayHitSelf": false,
+      "rayHitT": 1
+    },
+    "objectiveVerified": true,
+    "gameplayScope": "Authored courtyard objective through native movement, keyboard turning and raycast activation; no retail campaign",
+    "keyboardTurnVerified": true,
+    "nativeAnimationPlaybackObserved": true,
+    "duplicateActivationRejected": true,
+    "earlyGateRejected": true,
+    "persistenceVerified": false,
+    "restartVerified": false,
+    "nativeLoopStopped": true,
+    "assertionsPassed": true,
+    "browserClosed": true,
+    "serverClosed": true
+  },
+  "observerScope": "Read-only player/objective/actor animation clock/raycast/GL observations plus a loop-stop hook. Journey uses browser keyboard events through native input, player, physics, authored keyboard-turn component and native frobber/frobbable events. No teleport, position setter or objective-state injection.",
+  "portEdits": [
+    {
+      "path": "Code/Libraries/3D/src/GL2/gl2renderer.cpp",
+      "beforeSha256": "322f1f6f571e99eabfb984c218a6c477aa9067bc9b64449098e221bc81bf70d0",
+      "afterSha256": "322f1f6f571e99eabfb984c218a6c477aa9067bc9b64449098e221bc81bf70d0",
+      "changedSinceStartup": false
+    },
+    {
+      "path": "Code/Libraries/3D/src/texturecommon.cpp",
+      "beforeSha256": "6ae17b3e81f639fedda019709a28cac992bd2725e88aa7ea50c55d7df7ec148d",
+      "afterSha256": "6ae17b3e81f639fedda019709a28cac992bd2725e88aa7ea50c55d7df7ec148d",
+      "changedSinceStartup": false
+    },
+    {
+      "path": "Code/Libraries/Audio/src/soloudaudiosystem.cpp",
+      "beforeSha256": "93fc973f1c16d17153a1d892144203c265f3482aca8bca1e8713c2f1fe404c2b",
+      "afterSha256": "93fc973f1c16d17153a1d892144203c265f3482aca8bca1e8713c2f1fe404c2b",
+      "changedSinceStartup": false
+    },
+    {
+      "path": "Code/Libraries/Framework/src/framework3d.cpp",
+      "beforeSha256": "c493f7c989cdc872c0f452f41b01f4991d7c0145f04c6d4313da80db0617415b",
+      "afterSha256": "c28ba07d84fef15322e6cc06b2977f12701e7d1ea62526267fdd141061a940d8",
+      "changedSinceStartup": true
+    },
+    {
+      "path": "Code/Projects/Eld/src/eldframework.cpp",
+      "beforeSha256": "04b2a1b73a53c14ebd410dddab2a1bc46cfde341ba5ecb7c6984a2b45aaaf21d",
+      "afterSha256": "28b295c04cbfb1f817bd8b224bc580bbfacf3740377bacaf7d2b3dae27bde8fb",
+      "changedSinceStartup": true
+    }
+  ],
+  "resolvedFailures": [
+    {
+      "issue": "Initial camera origin inside the authored player collider prevented native frob targeting",
+      "nativeDiagnostic": {
+        "eyeZ": 3.3,
+        "rayHitSelf": true,
+        "rayHitT": 0,
+        "target": ""
+      },
+      "resolution": "Authored stand/camera view offset 0.8 places eyes at Z=3.55 above the 3.5 collider top; final self-ray hit false"
+    },
+    {
+      "issue": "Native TGA reader expects bottom-origin rows; initial HUD glyph atlas rendered incorrect rows/orientation",
+      "resolution": "Generate new bottom-origin HUD atlas from own glyph design data, new metrics with zero-ink spaces and authored HUD GLSL; final HUD visually inspected"
+    },
+    {
+      "issue": "Repeated float subtraction could leave the last scheduled fixed timestep a few ulps short and trigger an assertion",
+      "resolution": "Web adapter checks a bounded 0.00001-timestep tolerance and clamps only the subtraction residue to zero; final journey has no assertions"
+    }
+  ],
+  "authoredCode": [
+    {
+      "path": "prepare-objective-probe.py",
+      "sha256": "eaddfde27c28a1ad3b68bfd88956924b2a8cfcccf02a67f4f78b23ddb2777fd8",
+      "license": "MIT"
+    },
+    {
+      "path": "game-objective-v1/author-entry-world.py",
+      "sha256": "781fc35866e362466a539bade1318ee362f78cba213611c69e280c0c52316963",
+      "license": "MIT"
+    },
+    {
+      "path": "game-objective-v1/author-objective.py",
+      "sha256": "d0e1b1fcd934627c435dc751081aca4783eb042bc3695ad9256afc58a93fba41",
+      "license": "MIT"
+    },
+    {
+      "path": "game-objective-v1/beacon-objective.h",
+      "sha256": "97ef940613bff492d1385921be1ea1e195b1c91d6ac69b36d02a922d05fa5114",
+      "license": "MIT"
+    },
+    {
+      "path": "game-objective-v1/beacon-objective.cpp",
+      "sha256": "00925ae88a84d273097deed0d3dc2becf649b2843fa2fdea0cd0a37166326280",
+      "license": "MIT"
+    },
+    {
+      "path": "game-objective-v1/entry-observer.cpp",
+      "sha256": "13101dfc3eb561a2f0db6893013a67fa72120abb15b462a89315083935d9efeb",
+      "license": "MIT"
+    },
+    {
+      "path": "game-objective-v1/build-entry.py",
+      "sha256": "31faf7cae9287b9505fb9458b709aa60b542038d6554710c55f66e8199e3d127",
+      "license": "MIT"
+    },
+    {
+      "path": "game-objective-v1/test-entry.cjs",
+      "sha256": "7a80a5aa8791a19ab4e0cebcd3f286275f209ccd004993f293f4a3071f6c1948",
+      "license": "MIT"
+    },
+    {
+      "path": "game-objective-v1/objective-journey.cjs",
+      "sha256": "053ff2e5ab68bb38a4dc80f10d981b09c32c1cff5821e984980b6c5ab97b1e50",
+      "license": "MIT"
+    }
+  ],
+  "serializationScope": "Native objective component implements a versioned 14-byte save record; serialization, full save/restore and durable persistence not yet tested",
+  "screenshot": {
+    "sha256": "9f0a032a083dee67f8a9683c8d4c3f1c5b9f1d768d61ad21bc463cf799ceb7f7",
+    "visuallyInspected": true,
+    "scope": "Native authored status, target label, green completed exit terminal and courtyard; no original retail graphics"
+  },
+  "runtimeNoticeClosureCertified": false,
+  "restartVerified": false,
+  "durablePersistenceVerified": false,
+  "nativeOwnedContextDestructionVerified": false,
+  "audibleAudioVerified": false,
+  "integrated": false,
+  "deployed": false,
+  "catalog": {
+    "entries": 85,
+    "blob": "10a69b5a9dc3e20ba9a75b4b51f34e02d271d81c",
+    "unchanged": true
+  },
+  "matchingDecompilationMilestone": "4/5 unchanged",
+  "protectedWork": "Mario Party 2/3 and Halo untouched; prior ROM research private",
+  "remaining": [
+    "Native full save/restore and durable persistence; tested restart and unload/owned-context cleanup",
+    "Finalize controls/pause/help and consolidate current asset provenance for release; prototype help remains in private pack",
+    "Exact selected code/header/dependency/SDK/runtime/emitted-JavaScript notices",
+    "Selected source packaging and fresh extraction rebuild before ROM-free catalog integration"
+  ]
+}
