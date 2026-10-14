@@ -1,0 +1,514 @@
+{
+  "recordedAt": "2026-10-14T01:24:27.615426+00:00",
+  "classification": "Independently authored replacement-content prototype on original developer-released Eldritch source; no decomp/matching/clean-room/emulation claim",
+  "sourceArchiveSha256": "7bee255de9943e805bbd591ae7fb6ca1d9ac6609b5ba84374ab694eb7edb6774",
+  "assetProvenance": {
+    "edition": "Beacon Yard original content-format prototype",
+    "generatedBy": "../author-beacon-content.py",
+    "generatorLicense": "MIT",
+    "generatorSha256": "b4cc6da7b37e5315ead1fc3054de816b1d010d8d734bc2921919b74e25913019",
+    "assetDefaultLicense": "CC0-1.0",
+    "sourceGameCode": "Original developer-released Eldritch 2019 code, separately zlib/library grants",
+    "retailAssetsUsed": false,
+    "originalRoomsUsed": false,
+    "cleanRoomCertified": false,
+    "playable": false,
+    "scope": "Authored content formats and original objective plan; not complete game configuration or gameplay acceptance",
+    "assets": [
+      {
+        "path": "Rooms/beacon-yard.eldroom",
+        "bytes": 1285,
+        "sha256": "fe5d163aa33adb70209a7c3ca5d0a334b77b8935be7f706ab4ff78c22c82fc1c",
+        "kind": "Original voxel room and spawner layout",
+        "license": "CC0-1.0",
+        "origin": "Independently authored by this generator; no original game asset input"
+      },
+      {
+        "path": "map-plan.json",
+        "bytes": 1089,
+        "sha256": "b47ff8fdf3bbd94a4f15bb7793fb871d397946ce8a70d1b38e2f1e9923ec8167",
+        "kind": "Original level/goal specification",
+        "license": "CC0-1.0",
+        "origin": "Independently authored by this generator; no original game asset input"
+      },
+      {
+        "path": "Textures/yard-tiles.tga",
+        "bytes": 65554,
+        "sha256": "fac23e2535d4f6eb2906cd633c7b6151e2f518ce5538aa3172bd7862c6d6c3df",
+        "kind": "Original procedural tile atlas",
+        "license": "CC0-1.0",
+        "origin": "Independently authored by this generator; no original game asset input"
+      },
+      {
+        "path": "Textures/beacon.tga",
+        "bytes": 1042,
+        "sha256": "2314389c06b925e5d165e7fb429ca1004a2cf3e55ba671dcc704fcb5f77b6ad6",
+        "kind": "Original beacon surface",
+        "license": "CC0-1.0",
+        "origin": "Independently authored by this generator; no original game asset input"
+      },
+      {
+        "path": "Textures/default.tga",
+        "bytes": 34,
+        "sha256": "a2872e99b424279ba542b10f23e5ef3203587892a026271ec8af70a773d96291",
+        "kind": "Original fallback texture",
+        "license": "CC0-1.0",
+        "origin": "Independently authored by this generator; no original game asset input"
+      },
+      {
+        "path": "Textures/normal.tga",
+        "bytes": 34,
+        "sha256": "b37f1caa8b852a6f78c1ad24445a9960a5915c5872b8360dcc78120a6b0a88a7",
+        "kind": "Original fallback texture",
+        "license": "CC0-1.0",
+        "origin": "Independently authored by this generator; no original game asset input"
+      },
+      {
+        "path": "Textures/specular.tga",
+        "bytes": 34,
+        "sha256": "f7795f440cd3ab024f8a5060a0bc83798e94ff260dcd93fb810da2ad7fcce4e1",
+        "kind": "Original fallback texture",
+        "license": "CC0-1.0",
+        "origin": "Independently authored by this generator; no original game asset input"
+      },
+      {
+        "path": "Meshes/beacon.cms",
+        "bytes": 2180,
+        "sha256": "cb016ff4f7306809858b52b79ff92be44a459bfe530d491d846cd4f9a9f7db44",
+        "kind": "Original skeletal beacon geometry and 30-frame pulse animation",
+        "license": "CC0-1.0",
+        "origin": "Independently authored by this generator; no original game asset input"
+      },
+      {
+        "path": "Fonts/grid.tga",
+        "bytes": 32786,
+        "sha256": "5d083913bd066cab30905fd70ba7958a4254be42255ac34a541d695735b39243",
+        "kind": "Original ASCII grid glyph bitmap",
+        "license": "CC0-1.0",
+        "origin": "Independently authored by this generator; no original game asset input"
+      },
+      {
+        "path": "Fonts/grid.fnp",
+        "bytes": 3479,
+        "sha256": "6cfc1e7446c94952971c67adb71281240d7cb498c419a74ebbe6ca156380ad09",
+        "kind": "Own glyph metrics in the native remaster font format",
+        "license": "CC0-1.0",
+        "origin": "Independently authored by this generator; no original game asset input"
+      },
+      {
+        "path": "Fonts/glyph-design.json",
+        "bytes": 4475,
+        "sha256": "3660b80eba87683cad9ac560e2eac2f39f7a89a84dabbd4cb1417f72f44c5d59",
+        "kind": "Own glyph design source",
+        "license": "CC0-1.0",
+        "origin": "Independently authored by this generator; no original game asset input"
+      },
+      {
+        "path": "Audio/beacon.wav",
+        "bytes": 6660,
+        "sha256": "5b9e64ee94faed26e1ee1f74ad241f75142f803df911175973880e4f7f8f7639",
+        "kind": "Original mathematical sine/fade cue; audible testing unauthorized/unverified",
+        "license": "CC0-1.0",
+        "origin": "Independently authored by this generator; no original game asset input"
+      },
+      {
+        "path": "Audio/gate.wav",
+        "bytes": 6660,
+        "sha256": "04884359a6ae98676353a528239138a88a5c79f8e58430b8c443bff6330e0101",
+        "kind": "Original mathematical sine/fade cue; audible testing unauthorized/unverified",
+        "license": "CC0-1.0",
+        "origin": "Independently authored by this generator; no original game asset input"
+      },
+      {
+        "path": "Audio/step.wav",
+        "bytes": 6660,
+        "sha256": "8f1f1c78b549405ff606a38adb94f59bd354b0d0813d3b79a4367bc70a296f7f",
+        "kind": "Original mathematical sine/fade cue; audible testing unauthorized/unverified",
+        "license": "CC0-1.0",
+        "origin": "Independently authored by this generator; no original game asset input"
+      },
+      {
+        "path": "Text/help.txt",
+        "bytes": 232,
+        "sha256": "65815174b07102cb22c2cea7a5bd6afc49f3cae59f9957347de442244dfb1f06",
+        "kind": "Original title, instructions and edition description",
+        "license": "CC0-1.0",
+        "origin": "Independently authored by this generator; no original game asset input"
+      },
+      {
+        "path": "Config/content.ccf",
+        "bytes": 695,
+        "sha256": "451e82617cff4b0eeec459c6221de108f46629db378f2361f64bf8670f9fd9d0",
+        "kind": "Original prototype program/config data; text parser route",
+        "license": "CC0-1.0",
+        "origin": "Independently authored by this generator; no original game asset input"
+      },
+      {
+        "path": "Shaders/yard.vs",
+        "bytes": 140,
+        "sha256": "6656995ce484f8bee0fa765e594014661eeb1c865fbf5f236c4c3f079de9d751",
+        "kind": "Authored basic vertex shader",
+        "license": "MIT",
+        "origin": "Independently authored by this generator; no original game asset input"
+      },
+      {
+        "path": "Shaders/yard.fs",
+        "bytes": 136,
+        "sha256": "486fb0c796a7066bfcb9e56ac4e65ad8562d707e66c6c5f658b3920c9fb7e5f8",
+        "kind": "Authored basic fragment shader",
+        "license": "MIT",
+        "origin": "Independently authored by this generator; no original game asset input"
+      },
+      {
+        "path": "CC0-ASSETS.txt",
+        "bytes": 313,
+        "sha256": "d08792591c1b1d4de1767840f2ae42ad45df6c41537e9e373f71df027736e7ff",
+        "kind": "Authorship and license declaration",
+        "license": "CC0-1.0",
+        "origin": "Independently authored by this generator; no original game asset input"
+      }
+    ]
+  },
+  "independentAssetChecks": {
+    "assetsVerified": 19,
+    "assetBytes": 133488,
+    "reachableCells": 92,
+    "allAuthoredSpawnsReachableInPlan": true,
+    "scope": "Independent authored room/data/provenance check; no native world/physics/objective/gameplay execution",
+    "roomSha256": "fe5d163aa33adb70209a7c3ca5d0a334b77b8935be7f706ab4ff78c22c82fc1c"
+  },
+  "privateReferenceScope": {
+    "archiveSha256": "7bee255de9943e805bbd591ae7fb6ca1d9ac6609b5ba84374ab694eb7edb6774",
+    "grant": "Developer 2019 zlib release readme explicitly licenses provided configuration/script/room files like source; libraries separate. Missing retail content remains excluded.",
+    "scope": "Ten textual program/config interfaces privately inspected; no original map/room/media, localization/story/book content or retail package extracted. No shipping asset pack.",
+    "files": [
+      {
+        "path": "Projects/Eld/Raw/Config/default.config",
+        "bytes": 4561,
+        "sha256": "6c76ea5732498afc909873f718fc003b3f067113150824cb4c5ce78d030f818a"
+      },
+      {
+        "path": "Projects/Eld/Raw/Config/input.config",
+        "bytes": 4230,
+        "sha256": "46d9380d96c6aa98bbf574232429b1e9729d9fbc50fbd1ac9fe4d7e075fd2f98"
+      },
+      {
+        "path": "Projects/Eld/Raw/Config/entities.config",
+        "bytes": 50671,
+        "sha256": "61dabd46e7b2b5d8bd74c9870be9683ed841416306e2eaa22966d0b7a852ea5f"
+      },
+      {
+        "path": "Projects/Eld/Raw/Config/entities_world.config",
+        "bytes": 149355,
+        "sha256": "6426a181e1030c1f107f3792022cdb3e23d165432322706967b9de6d97f29cde"
+      },
+      {
+        "path": "Projects/Eld/Raw/Config/world.config",
+        "bytes": 59612,
+        "sha256": "0f26d1414e35053f45e33065470d8b98740016a058b9c373a2e4b16f13992cbf"
+      },
+      {
+        "path": "Projects/Eld/Raw/Config/worldgen.config",
+        "bytes": 92101,
+        "sha256": "7dfee95fdf4d9c593ee6c815c23b984b9032d0e6714c2d03264c2bac5154f47d"
+      },
+      {
+        "path": "Projects/Eld/Raw/Config/materials.config",
+        "bytes": 8592,
+        "sha256": "dea4b28f6159a5855fa1903107299484ca01d39d1d7711462f4e6bb4cc4976e3"
+      },
+      {
+        "path": "Projects/Eld/Raw/Config/ui.config",
+        "bytes": 121245,
+        "sha256": "502d1f36071bfa87e4ed0f80b2583903f33c94787d3a21df6e39094393bc74cf"
+      },
+      {
+        "path": "Projects/Eld/Raw/Config/animation.config",
+        "bytes": 13664,
+        "sha256": "b53dd616e93d67bf6b123f2ec96a1940c0ecc347eaab122cfe2d0c5e51385674"
+      },
+      {
+        "path": "Projects/Eld/Raw/Config/audio.config",
+        "bytes": 26435,
+        "sha256": "095b7b334c3f5fd67b2db720c044f73ce0b675ebd2ffec9614e72d4a8ed69f20"
+      }
+    ]
+  },
+  "portEdits": {
+    "license": "MIT authored port adaptations; original source notices retained",
+    "changed": [
+      {
+        "path": "Code/Libraries/3D/src/GL2/gl2renderer.cpp",
+        "before": "dfe3d9aa8e415d01d73cf815caf4d22e9de59c86e67db4a2d708f9ea92e82c7b",
+        "after": "6adde4ba17629220c32272b1286712d94d3308711f2042830124beacb1922400"
+      },
+      {
+        "path": "Code/Libraries/3D/src/renderercommon.cpp",
+        "before": "3e4e914abaebfaa57a12a87b713b02dc1967e3c5e391f4ff0b9c9122778b5e7e",
+        "after": "af6d216561a57f27acb5911f01fab245a7c1a2f11aa3014eb34f9bd8d42f1d76"
+      },
+      {
+        "path": "Code/Libraries/3D/src/renderercommon.h",
+        "before": "124cbd81581c90f7183f3e0b1ebead54c2be02f99482b0a375724682b734e945",
+        "after": "45208f822cafb27a2e268137e01bbdadea56aafacda1c3d525ca60051833c523"
+      }
+    ],
+    "scope": "CPU matrix transpose for WebGL and release-before-context-destruction; native acceptance pending."
+  },
+  "nativeBuild": {
+    "toolchain": "emcc (Emscripten gcc/clang-like replacement + linker emulating GNU ld) 6.0.10 (d6c521a7f05449857c76bd99e396895583cf2083)",
+    "gameLibraryUnits": 424,
+    "zlibCUnits": 12,
+    "compileFailures": 0,
+    "linked": true,
+    "gameEntryPointExecuted": false,
+    "outputs": [
+      {
+        "path": "eldritch-probe.js",
+        "bytes": 419227,
+        "sha256": "48c1d9d2c428e2531b43d3d4a81d0c834cc9092edc8d25e127ab27eb54c222d2"
+      },
+      {
+        "path": "eldritch-probe.wasm",
+        "bytes": 2824608,
+        "sha256": "3f9bc95d0972933492287c70d7467131b0177ff4bba824bad2b50bd23deb1f7a"
+      }
+    ],
+    "warningsRemain": true,
+    "wholeRuntimeClosureCertified": false
+  },
+  "contentAcceptance": {
+    "browser": "Headless Microsoft Edge on Windows, SwiftShader enabled",
+    "muted": true,
+    "gameEntryPointExcluded": true,
+    "nativeTests": 34,
+    "failures": 0,
+    "cases": [
+      {
+        "case": "native-text-config",
+        "passed": true
+      },
+      {
+        "case": "native-config-no-packages",
+        "passed": true
+      },
+      {
+        "case": "native-config-objective",
+        "passed": true
+      },
+      {
+        "case": "native-room-scalars",
+        "passed": true
+      },
+      {
+        "case": "native-room-counts",
+        "passed": true
+      },
+      {
+        "case": "native-room-complete-read",
+        "passed": true
+      },
+      {
+        "case": "native-room-spawner",
+        "passed": true
+      },
+      {
+        "case": "native-room-doorway",
+        "passed": true
+      },
+      {
+        "case": "native-mesh-header-abi",
+        "passed": true
+      },
+      {
+        "case": "native-mesh-counts",
+        "passed": true
+      },
+      {
+        "case": "native-mesh-position",
+        "passed": true
+      },
+      {
+        "case": "native-mesh-bone-identity",
+        "passed": true
+      },
+      {
+        "case": "native-mesh-weight",
+        "passed": true
+      },
+      {
+        "case": "native-mesh-pulse-keyframe",
+        "passed": true
+      },
+      {
+        "case": "native-mesh-animation",
+        "passed": true
+      },
+      {
+        "case": "native-mesh-material",
+        "passed": true
+      },
+      {
+        "case": "native-bone-array",
+        "passed": true
+      },
+      {
+        "case": "native-animation-duration",
+        "passed": true
+      },
+      {
+        "case": "native-pose-interpolation",
+        "passed": true
+      },
+      {
+        "case": "Audio/beacon.wav",
+        "passed": true
+      },
+      {
+        "case": "native-authored-wave-amplitude",
+        "passed": true
+      },
+      {
+        "case": "Audio/gate.wav",
+        "passed": true
+      },
+      {
+        "case": "native-authored-wave-amplitude",
+        "passed": true
+      },
+      {
+        "case": "Audio/step.wav",
+        "passed": true
+      },
+      {
+        "case": "native-authored-wave-amplitude",
+        "passed": true
+      },
+      {
+        "case": "video-only-init",
+        "passed": true
+      },
+      {
+        "case": "webgl2-context",
+        "passed": true
+      },
+      {
+        "case": "native-font-layout",
+        "passed": true
+      },
+      {
+        "case": "native-font-vertical-metrics",
+        "passed": true
+      },
+      {
+        "case": "native-font-multiline-spacing",
+        "passed": true
+      },
+      {
+        "case": "native-matrix-identity-red",
+        "passed": true
+      },
+      {
+        "case": "native-matrix-translation-blue",
+        "passed": true
+      },
+      {
+        "case": "native-matrix-no-gl-error",
+        "passed": true
+      },
+      {
+        "case": "native-resource-release-context-alive",
+        "passed": true
+      }
+    ],
+    "roomRoundtrip": {
+      "bytes": 1285,
+      "sha256": "fe5d163aa33adb70209a7c3ca5d0a334b77b8935be7f706ab4ff78c22c82fc1c",
+      "matchesAuthored": true
+    },
+    "fontObserved": "11 records / 67x7 pixels single line; 10 records / 15 pixels high over two lines; leading 8",
+    "matrixPixelObservations": [
+      "Matrix pixel: 255 0 0 255",
+      "Matrix pixel: 0 0 255 255"
+    ],
+    "errors": [],
+    "missing": [],
+    "external": [],
+    "nativeContextClosed": true,
+    "browserClosed": true,
+    "serverClosed": true,
+    "scope": "Native authored content/config/room/mesh/animation/font/WAV and matrix/lifetime acceptance; no game startup or gameplay"
+  },
+  "authoredTools": [
+    {
+      "path": "author-beacon-content.py",
+      "sha256": "b4cc6da7b37e5315ead1fc3054de816b1d010d8d734bc2921919b74e25913019",
+      "license": "MIT"
+    },
+    {
+      "path": "verify-authored-content.py",
+      "sha256": "5ce7e9a9663d6e17dea2b9318036c746be5bea1fb993e817651c9f6327716fc6",
+      "license": "MIT"
+    },
+    {
+      "path": "prepare-content-port.py",
+      "sha256": "de5835c9fd1c6b05224c0152cddb7710d6744abf454f56e93576b1b6e92aa639",
+      "license": "MIT"
+    },
+    {
+      "path": "content-probe.cpp",
+      "sha256": "05f9aaa9ceeeeca27321fc9acdbdd6e839d626fa28e107a82fe39bc7b2ebd549",
+      "license": "MIT"
+    },
+    {
+      "path": "build-content-probe.py",
+      "sha256": "0cc9820bb44c7edd1c61c0b1852b59b243199462c3402679fac22678197a8bd3",
+      "license": "MIT"
+    },
+    {
+      "path": "test-content.cjs",
+      "sha256": "600973b00570d19e98dd6259723616c3db4e866e164184b093105f6710e1ca5a",
+      "license": "MIT"
+    }
+  ],
+  "contentTestOutputs": [
+    {
+      "path": "probe.js",
+      "bytes": 424945,
+      "sha256": "1c83c752367f04179c78735dc18b8bdd8712e768c32d85187e3fb10501073810"
+    },
+    {
+      "path": "probe.wasm",
+      "bytes": 937415,
+      "sha256": "5acbe01a210d8dd9367430ad7ae8200f82a4ca1aef5831c4254c086a020ae41b"
+    },
+    {
+      "path": "probe.data",
+      "bytes": 140532,
+      "sha256": "f85e1f9df3a9b2bbfb767ced3995293891c7dbabb881bed0b08ab7bb1b1ca9c1"
+    }
+  ],
+  "audioScope": "Three generated mono PCM files decoded/amplitude-checked only; no audio-device/mixer/audible acceptance. Null backend in candidate; all browser testing muted.",
+  "gameStartupTested": false,
+  "gameplayTested": false,
+  "durablePersistenceTested": false,
+  "audibleAudioTested": false,
+  "integrated": false,
+  "deployed": false,
+  "catalog": {
+    "entries": 85,
+    "blob": "10a69b5a9dc3e20ba9a75b4b51f34e02d271d81c",
+    "valuesMatchHead": true,
+    "blobMatchesHead": true,
+    "changed": false
+  },
+  "historicalFiveDecompMilestone": "4/5 unchanged",
+  "protectedWork": "Mario Party 2/3 and Halo untouched; prior ROM research private",
+  "remaining": [
+    "Complete authored player/beacon/gate actors, world/material/shader/input/UI configuration",
+    "Actual game entry point and objectives through native game code",
+    "Movement/interaction/completion/restart and durable persistence acceptance where offered",
+    "Exact native/header/library/SDK/runtime/emitted-JavaScript license closure",
+    "Reproducible selected source packaging and extraction rebuild before ROM-free integration"
+  ]
+}
