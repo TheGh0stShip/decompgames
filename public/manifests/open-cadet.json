@@ -40,7 +40,8 @@
   "sourceArchiveSHA256": "33d4502ff6f3d8023b0248b9fff68c2a1f709a12cee9584625618be658f04a42",
   "limitations": [
     "Audible audio unverified; MIDI music not provided",
-    "Representative play and earned high-score UI reload verified; all objectives unverified"
+    "Representative play and earned high-score UI reload verified; all objectives unverified",
+    "Live keyboard flipper visual response verified before launch; ball/flipper-contact coverage unverified"
   ],
   "assetScope": "CC0-declared replacement pack plus independently authored numeric/font/resource text; functional interoperability data documented separately; ProggyClean menu font MIT",
   "cleanRoomCertified": false

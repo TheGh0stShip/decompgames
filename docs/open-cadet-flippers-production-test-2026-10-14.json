@@ -1,0 +1,344 @@
+{
+  "date": "2026-10-14",
+  "game": "open-cadet",
+  "scope": "Live shared-player keyboard flipper visual-response verification before launch; not ball/flipper contact physics, missions or full playthrough. No game-memory/save/RNG/test-input mutation; normal F2/Z/slash keys only.",
+  "observation": {
+    "date": "2026-10-14T08:52:23.956Z",
+    "scope": "Live ordinary keyboard flipper press/release observations before launch; no game-memory/save/RNG writes",
+    "errors": [],
+    "consoleErrors": [],
+    "blocked": [
+      "https://static.cloudflareinsights.com/beacon.min.js/v4bc70e2c01a94c73b74392e4234840661791215815920",
+      "https://www.googletagmanager.com/gtag/js?id=G-GQ6627GN8H",
+      "https://static.cloudflareinsights.com/beacon.min.js/v4bc70e2c01a94c73b74392e4234840661791215815920"
+    ],
+    "expectedBlockedDiagnostics": [
+      {
+        "text": "Failed to load resource: net::ERR_FAILED",
+        "url": "https://static.cloudflareinsights.com/beacon.min.js/v4bc70e2c01a94c73b74392e4234840661791215815920"
+      },
+      {
+        "text": "Failed to load resource: net::ERR_FAILED",
+        "url": "https://www.googletagmanager.com/gtag/js?id=G-GQ6627GN8H"
+      },
+      {
+        "text": "Failed to load resource: net::ERR_FAILED",
+        "url": "https://static.cloudflareinsights.com/beacon.min.js/v4bc70e2c01a94c73b74392e4234840661791215815920"
+      }
+    ],
+    "missing": [],
+    "captures": [
+      "new-table",
+      "left-held",
+      "left-released",
+      "right-held",
+      "right-released",
+      "both-held",
+      "both-released"
+    ],
+    "audibleVerified": false,
+    "module": {
+      "canvas": [
+        600,
+        440
+      ],
+      "exports": [
+        "_main"
+      ]
+    },
+    "observationRunPassed": true,
+    "visualResponseVerified": true,
+    "stopGameSynced": true,
+    "playersClosed": true
+  },
+  "pixelEvidence": {
+    "rois": {
+      "left": [
+        120,
+        360,
+        177,
+        429
+      ],
+      "right": [
+        192,
+        360,
+        249,
+        429
+      ]
+    },
+    "comparisons": [
+      {
+        "a": "new-table",
+        "b": "left-held",
+        "regions": {
+          "left": {
+            "changedPixels": 935,
+            "pixels": 3933,
+            "boundingBox": [
+              125,
+              369,
+              167,
+              425
+            ]
+          },
+          "right": {
+            "changedPixels": 0,
+            "pixels": 3933,
+            "boundingBox": null
+          }
+        }
+      },
+      {
+        "a": "left-held",
+        "b": "left-released",
+        "regions": {
+          "left": {
+            "changedPixels": 935,
+            "pixels": 3933,
+            "boundingBox": [
+              125,
+              369,
+              167,
+              425
+            ]
+          },
+          "right": {
+            "changedPixels": 0,
+            "pixels": 3933,
+            "boundingBox": null
+          }
+        }
+      },
+      {
+        "a": "new-table",
+        "b": "left-released",
+        "regions": {
+          "left": {
+            "changedPixels": 0,
+            "pixels": 3933,
+            "boundingBox": null
+          },
+          "right": {
+            "changedPixels": 0,
+            "pixels": 3933,
+            "boundingBox": null
+          }
+        }
+      },
+      {
+        "a": "left-released",
+        "b": "right-held",
+        "regions": {
+          "left": {
+            "changedPixels": 0,
+            "pixels": 3933,
+            "boundingBox": null
+          },
+          "right": {
+            "changedPixels": 941,
+            "pixels": 3933,
+            "boundingBox": [
+              198,
+              369,
+              240,
+              425
+            ]
+          }
+        }
+      },
+      {
+        "a": "right-held",
+        "b": "right-released",
+        "regions": {
+          "left": {
+            "changedPixels": 0,
+            "pixels": 3933,
+            "boundingBox": null
+          },
+          "right": {
+            "changedPixels": 941,
+            "pixels": 3933,
+            "boundingBox": [
+              198,
+              369,
+              240,
+              425
+            ]
+          }
+        }
+      },
+      {
+        "a": "left-released",
+        "b": "right-released",
+        "regions": {
+          "left": {
+            "changedPixels": 0,
+            "pixels": 3933,
+            "boundingBox": null
+          },
+          "right": {
+            "changedPixels": 0,
+            "pixels": 3933,
+            "boundingBox": null
+          }
+        }
+      },
+      {
+        "a": "right-released",
+        "b": "both-held",
+        "regions": {
+          "left": {
+            "changedPixels": 935,
+            "pixels": 3933,
+            "boundingBox": [
+              125,
+              369,
+              167,
+              425
+            ]
+          },
+          "right": {
+            "changedPixels": 941,
+            "pixels": 3933,
+            "boundingBox": [
+              198,
+              369,
+              240,
+              425
+            ]
+          }
+        }
+      },
+      {
+        "a": "both-held",
+        "b": "both-released",
+        "regions": {
+          "left": {
+            "changedPixels": 935,
+            "pixels": 3933,
+            "boundingBox": [
+              125,
+              369,
+              167,
+              425
+            ]
+          },
+          "right": {
+            "changedPixels": 941,
+            "pixels": 3933,
+            "boundingBox": [
+              198,
+              369,
+              240,
+              425
+            ]
+          }
+        }
+      },
+      {
+        "a": "right-released",
+        "b": "both-released",
+        "regions": {
+          "left": {
+            "changedPixels": 0,
+            "pixels": 3933,
+            "boundingBox": null
+          },
+          "right": {
+            "changedPixels": 0,
+            "pixels": 3933,
+            "boundingBox": null
+          }
+        }
+      }
+    ],
+    "captures": [
+      {
+        "name": "both-held.png",
+        "bytes": 286896,
+        "sha256": "d114718953229f40ef4a7fbb5abb1209ccdcd135ed22292ce5a68087cc81fd7b"
+      },
+      {
+        "name": "both-released.png",
+        "bytes": 286658,
+        "sha256": "fd4f1a649c6b50b6df9beeb8032159977a7f46820176bb5856cc15f35988dd18"
+      },
+      {
+        "name": "left-held.png",
+        "bytes": 286767,
+        "sha256": "73976d2d6f95de4a221821e670645a5d7c00c912600fcc4bc364ba121a98b851"
+      },
+      {
+        "name": "left-released.png",
+        "bytes": 286844,
+        "sha256": "1bb52a378196f25dd7b664bc01a0d6c358998b7327c263fd8df0ea7d1c1eb0b8"
+      },
+      {
+        "name": "new-table.png",
+        "bytes": 286587,
+        "sha256": "bdab6261ee3ed955ea70d56b4fe6809894169d770814c3eccad6365cf950a3f4"
+      },
+      {
+        "name": "right-held.png",
+        "bytes": 287111,
+        "sha256": "b7f08eac8b2bc1d6d5f756a3bb70936de502f1d03a9c5702c926fa64acd099f3"
+      },
+      {
+        "name": "right-released.png",
+        "bytes": 286791,
+        "sha256": "e9354f001b2fd42f4cfa0f409d5697410ea70f1c432c2670a45e0048fb590a2e"
+      }
+    ]
+  },
+  "distributionVerification": {
+    "date": "2026-10-14T08:55:20.188Z",
+    "scope": "Current live Open Cadet runtime/source hashes only, separate from gameplay",
+    "records": [
+      {
+        "path": "/runtime/cadet/0bc12d3ca97a-authored-c51f8473a6/authored-cadet.data",
+        "status": 206,
+        "bytes": 1431942,
+        "sha256": "9e23da41ba60e652eb48116ec32b0daf2d4f0b0d32d87e3ec7320d863f953520",
+        "pass": true
+      },
+      {
+        "path": "/runtime/cadet/0bc12d3ca97a-authored-c51f8473a6/authored-cadet.js",
+        "status": 206,
+        "bytes": 372771,
+        "sha256": "5c882e2f16428d096ef10dc36b57158c737cfb645b0e573b6877ae4a9a49e96f",
+        "pass": true
+      },
+      {
+        "path": "/runtime/cadet/0bc12d3ca97a-authored-c51f8473a6/authored-cadet.wasm",
+        "status": 206,
+        "bytes": 2071849,
+        "sha256": "06edc08c83025f2de2d7024111186a2ebf8059081f929c17eb4ca554e243d891",
+        "pass": true
+      },
+      {
+        "path": "/sources/cadet-0bc12d3ca97a-authored-c51f8473a6.tar.gz",
+        "status": 206,
+        "bytes": 1489466,
+        "sha256": "33d4502ff6f3d8023b0248b9fff68c2a1f709a12cee9584625618be658f04a42",
+        "pass": true
+      }
+    ],
+    "pass": true
+  },
+  "harnessSHA256": "b006b049f41c64f40b5f7623663f849fdb9c528f3fc4e4f919b1156ad031d985",
+  "visualReview": "New table, left held, right held, both held and both released captures inspected. ROI coordinates are screenshot pixels, not native physics coordinates.",
+  "pass": true,
+  "limits": [
+    "Pre-launch visual response only; no ball/flipper-contact force or mission coverage claimed.",
+    "No new score/save/restart test; earlier earned 144000/full browser-restart high-score record preserved separately.",
+    "Headless Edge on Windows only. Sound off and --mute-audio; audible audio remains unverified."
+  ],
+  "catalogCount": 87,
+  "matchingDecompilationMilestone": "4/5 unchanged",
+  "runtimeChanged": false,
+  "protectedEntriesUntouched": [
+    "Mario Party 2",
+    "Mario Party 3",
+    "Halo"
+  ]
+}

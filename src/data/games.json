@@ -1990,7 +1990,7 @@
   "id": "open-cadet",
   "title": "Open Cadet",
   "aliases": [
-   "SpaceCadetPinball"
+    "SpaceCadetPinball"
   ],
   "year": 1995,
   "genre": "Arcade",
@@ -1998,43 +1998,44 @@
   "mode": "instant",
   "engine": "SpaceCadetPinball",
   "description": "Your next high score starts here. Classic space pinball, rebuilt with original open assets.",
-  "overview": "Open Cadet pairs the reverse-engineered SpaceCadetPinball engine with an original neon playfield and synthesized sounds. It recreates the familiar tableâ€™s behavior without distributing Microsoftâ€™s PINBALL.DAT. The replacement artwork is intentionally different from the Windows original.",
+  "overview": "Open Cadet pairs the reverse-engineered SpaceCadetPinball engine with an original neon playfield and synthesized sounds. It recreates the familiar table’s behavior without distributing Microsoft’s PINBALL.DAT. The replacement artwork is intentionally different from the Windows original.",
   "source": "https://github.com/andrewnakas/open-cadet",
   "engineLicense": "MIT",
   "assetLicense": "CC0-1.0 replacement data; MIT menu font",
   "assetRequirements": "No original game files needed.",
   "controls": [
-   "Z â€” left flipper",
-   "/ â€” right flipper",
-   "Space â€” launch the ball",
-   "F2 â€” new game"
+    "Z — left flipper",
+    "/ — right flipper",
+    "Space — launch the ball",
+    "F2 — new game"
   ],
   "saveInstructions": "High scores and table settings are saved locally. A ball in progress is not a portable save state.",
   "limitations": [
-   "Representative play and high-score persistence verified; all objectives and full playthrough unverified.",
-   "Music is not provided; audible audio remains unverified."
+    "Representative play and high-score persistence verified; all objectives and full playthrough unverified.",
+    "Live flipper visual response verified before launch; ball/flipper-contact coverage is not claimed.",
+    "Music is not provided; audible audio remains unverified."
   ],
   "inputs": [
-   "Keyboard",
-   "Mouse"
+    "Keyboard",
+    "Mouse"
   ],
   "downloadMB": 6.2,
   "complete": false,
   "color": "#427fff",
   "runtime": "cadet",
   "verification": {
-   "status": "gameplay-tested",
-   "date": "2026-10-13",
-   "browsers": [
-    "Headless Microsoft Edge on Windows; muted"
-   ],
-   "scope": "Live authored build in the shared player: a normal launch-and-drain round earned 144,000; High Scores Ok confirmed it and Stop game saved it. A full browser restart restored settings byte-for-byte, and Game > High Scores visibly shows Player 1 / 144,000. All four runtime/source hashes match; Sound: off throughout. Prior flipper-response evidence is from the exact binary tested locally. All missions/objectives, full playthrough, rapid-close durability and audible audio remain unverified.",
-   "playthrough": false
+    "status": "gameplay-tested",
+    "date": "2026-10-14",
+    "browsers": [
+      "Headless Microsoft Edge on Windows; muted"
+    ],
+    "scope": "Live shared player: Z and / independently move the corresponding flipper, both move together, and release returns both image regions exactly to baseline before launch. The unchanged native runtime/source files match all four published hashes. Earlier normal launch-and-drain play earned 144,000; High Scores Ok and Stop game saved it, full browser restart restored settings byte-for-byte, and Game > High Scores displayed Player 1 / 144,000. Sound: off throughout. Ball/flipper-contact physics, all missions/objectives, full playthrough, rapid-close durability and audible audio remain unverified.",
+    "playthrough": false
   },
   "image": "/images/open-cadet.png",
   "shelf": "classic",
   "platform": "PC"
- },
+},
  {
   "id": "digger",
   "title": "Open Digger",

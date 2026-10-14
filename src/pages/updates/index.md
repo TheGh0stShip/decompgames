@@ -3,6 +3,10 @@ layout: ../../layouts/Article.astro
 title: What’s new
 description: Release notes and compatibility changes for Decomp Games.
 ---
+## October 14, 2026 — Open Cadet: live flipper controls verified
+
+Open Cadet’s live player now has verified Z and / flipper response, individually and together, with exact return on release. Tests stayed muted and used ordinary keyboard input before launch. The runtime is unchanged; earlier earned-score and browser-restart save verification remains valid. Ball/flipper contact, all missions and a full playthrough remain unverified. [Play Open Cadet](/games/open-cadet/).
+
 ## October 14, 2026 — Paper Rooms: five original flights in Glider 4 code
 
 Guide a folded flyer through five original rooms, follow the air columns and collect sun tokens. Paper Rooms runs developer-released Glider 4 flight code translated to JavaScript, with independently authored CC0 rooms, procedural graphics, animation and text. It needs no original game files and starts silent. Room checkpoints, Pause, New flight and Stop are included. This is a source port with original content and does not count toward the decompilation milestone. [Play Paper Rooms](/games/paper-rooms/).
