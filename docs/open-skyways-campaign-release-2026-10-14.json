@@ -1,0 +1,96 @@
+{
+  "date": "2026-10-14T10:56:18.677Z",
+  "deployment": "https://c8c1b6e2.decompgames.pages.dev",
+  "commit": "15d1ae5",
+  "checks": [
+    {
+      "url": "https://c8c1b6e2.decompgames.pages.dev/games/skyways/?verify=15d1ae5",
+      "status": 200,
+      "newScopeAndDatedLink": true
+    },
+    {
+      "url": "https://c8c1b6e2.decompgames.pages.dev/manifests/skyways.json?verify=15d1ae5",
+      "status": 200,
+      "manifestUnchanged": true,
+      "sha256": "9c81a02e75bb23b425526528489d623034d218f85d4d54bb0987975b0404eef2"
+    },
+    {
+      "url": "https://c8c1b6e2.decompgames.pages.dev/updates/?verify=15d1ae5",
+      "status": 200,
+      "newUpdateVisible": true
+    },
+    {
+      "url": "https://decompgames.com/games/skyways/?verify=15d1ae5",
+      "status": 200,
+      "newScopeAndDatedLink": true
+    },
+    {
+      "url": "https://decompgames.com/manifests/skyways.json?verify=15d1ae5",
+      "status": 200,
+      "manifestUnchanged": true,
+      "sha256": "9c81a02e75bb23b425526528489d623034d218f85d4d54bb0987975b0404eef2"
+    },
+    {
+      "url": "https://decompgames.com/updates/?verify=15d1ae5",
+      "status": 200,
+      "newUpdateVisible": true
+    },
+    {
+      "url": "https://decompgames.com/games/mario-party-2/",
+      "status": 200,
+      "playerStarted": false
+    },
+    {
+      "url": "https://decompgames.com/games/mario-party-3/",
+      "status": 200,
+      "playerStarted": false
+    },
+    {
+      "url": "https://decompgames.com/games/halo-combat-evolved/",
+      "status": 200,
+      "playerStarted": false
+    },
+    {
+      "url": "https://decompgames.com/games/open-cadet/",
+      "status": 200,
+      "playerStarted": false
+    },
+    {
+      "url": "https://decompgames.com/games/supaplex/",
+      "status": 200,
+      "playerStarted": false
+    },
+    {
+      "url": "https://decompgames.com/games/paper-rooms/",
+      "status": 200,
+      "playerStarted": false
+    },
+    {
+      "url": "https://decompgames.com/games/beacon-yard/",
+      "status": 200,
+      "playerStarted": false
+    }
+  ],
+  "passed": true,
+  "playersStarted": false,
+  "scope": "Read-only HTTP verification of metadata publication; muted campaign/restart players already stopped with save synchronization and closed. No new gameplay/audio tests after deployment.",
+  "catalogCount": 87,
+  "decompilationMilestone": "4/5 unchanged",
+  "runtimeAndSourceBytesChanged": false,
+  "runtimeAssetUploads": 0,
+  "validation": {
+    "astro": {
+      "errors": 0,
+      "warnings": 0,
+      "existingHints": 3
+    },
+    "catalogEntries": 87,
+    "distributionRecords": 733,
+    "auditedDistributionEntries": 11,
+    "skywaysLiveHashesMatched": 4,
+    "loadedReplacementHashesMatched": 25,
+    "staticPages": 151,
+    "indexablePages": 113,
+    "feedItems": 13
+  }
+}
