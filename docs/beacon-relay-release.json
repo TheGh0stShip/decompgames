@@ -1,6 +1,6 @@
 {
   "date": "2026-10-14",
-  "status": "Local acceptance and corresponding-source replay passed; production pending",
+  "status": "Released; ordinary-input production acceptance passed",
   "classification": "Developer-released source port with three independently authored courses; managed IL inside Mono WASM, not decompilation, ROM emulation or commercial campaign",
   "catalogCount": 88,
   "strictDecompMilestone": "4/5 unchanged; this entry is a developer-source port",
@@ -29,11 +29,31 @@
   "retainedFailures": [
     "Initial component missing-CoreLib startup failure, short-key trial and copied-context storage trial retained privately and excluded",
     "Loader game-assembly404 initially hung; new preflight/deadline guard passed5 cases",
-    "Early unchanged-source component/prototype receipts are historical; final release has6 authored UI literal substitutions"
+    "Early unchanged-source component/prototype receipts are historical; final release has6 authored UI literal substitutions",
+    "First production run completed own3 courses/hashes/host Stop but restart harness raced a null iframe body; guarded readiness and separate fresh-profile retry passed. Failed trial retained privately, excluded from durable-production claim."
   ],
   "allTestsMuted": true,
   "testPlayersStopped": true,
   "browsersClosed": true,
   "serversClosed": true,
-  "cleanRoomCertified": false
+  "cleanRoomCertified": false,
+  "deployment": "https://a50650c6.decompgames.pages.dev",
+  "productionUrl": "https://decompgames.com/games/beacon-relay/",
+  "releaseCommit": "d04f5df",
+  "productionTests": {
+    "receipt": "beacon-relay-production-acceptance.json",
+    "allThreeAuthoredCourses": true,
+    "collectedLights": 3,
+    "nativeDeathRespawnAndDash": true,
+    "completedCheckpointSurvivedFullBrowserRestart": true,
+    "hostStopNativeExit": true,
+    "productStopFramesFrozen": true,
+    "exactLiveRuntimeAndSourceHashes": 52,
+    "allMuted": true,
+    "browsersClosed": true
+  },
+  "httpAcceptance": {
+    "nodeFetch": "game page,manifest,updates,feed all200",
+    "pythonProbe": "Initial urllib default-agent request was blocked403; browser/Node acceptance succeeded, not counted as Python proof"
+  }
 }
