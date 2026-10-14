@@ -1,0 +1,57 @@
+{
+  "date": "2026-10-14",
+  "catalogCount": 87,
+  "matchingDecompilationMilestone": "4/5 unchanged",
+  "eligibleAdditions": 0,
+  "projects": [
+    {
+      "repository": "djyt/cannonball",
+      "classification": "Decompilation-derived C++ rewrite of original 68000/Z80 gameplay, with separate sound-chip emulation; no matching or clean-room certificate",
+      "codeGate": "Actual project grant is noncommercial with complete-source redistribution conditions; not MIT or accepted permissive code",
+      "dependencyGate": "Old MAME-origin YM2151/SegaPCM references need exact historical grant review; SDL2/Boost/exact selected host/SDK closure not completed",
+      "assetGate": "Original master/slave CPU data, tiles/road/sprites/sound/sample ROMs required; no complete independently authored pack or inherited-game grant established",
+      "browserGate": "SDL2/Boost native CMake and blocking loop; no Emscripten target found in pinned tree, no local compilation/gameplay attempted"
+    },
+    {
+      "repository": "zaps166/NFSIISE",
+      "classification": "Original-binary wrapper with assembly route and generated C++ translation route; not a handwritten matching source decompilation or independent recreation",
+      "codeGate": "MIT is explicitly wrapper-only; exact ASM/CPP gitlinks have one large original-program-derived file each, no separate overall grant identified",
+      "dependencyGate": "SDL2/OpenGL/system toolchain and selected external component grants remain unclosed",
+      "assetGate": "Original Special Edition fedata/gamedata required; text/icon payloads excluded, no independent complete content",
+      "browserGate": "Only 32-bit little-endian target contract; native x86 Yasm or C++ translation/Android GLES route, not verified WebAssembly"
+    },
+    {
+      "repository": "motor-dev/nfs-recompiled",
+      "classification": "Static x86-to-C++ recompilation preserving virtual CPU state and Win32 compatibility services; distinct from handwritten source reconstruction",
+      "codeGate": "No overall project/generated-game grant identified; permissive SDL notice does not license reconstructed retail executable logic",
+      "dependencyGate": "Actual CMake and thread backend use SDL3 although README says SDL2; bundled SDL3 zlib notice read separately; vendored pefile copyright lacks embedded grant in selected file; generation-tool/runtime grants unclosed",
+      "assetGate": "Original executables/DLLs for generation and original game content required; no independent complete pack",
+      "browserGate": "Native mmap/mprotect or VirtualAlloc, SDL3 threads, desktop OpenGL; optional NASM x87 path. No browser build tested; C++ alone does not prove WASM compatibility"
+    },
+    {
+      "repository": "LostArtefacts/TRX",
+      "classification": "Unified decompilation-assisted reimplementation of Tomb Raider I/II/III; additional TR4 work WIP, not certified matching or clean-room",
+      "codeGate": "GPL3 grant outside current permissive intake preference",
+      "dependencyGate": "Meson FFmpeg/SDL2/GLEW/PCRE2/Lua/zlib/OpenGL and optional Windows dwarfstack require selection-specific closure",
+      "assetGate": "Installer/manual route imports original game content; downloadable demos/expansions/custom-level support are not a CC0 pack or verified permissive grant",
+      "browserGate": "Documented Windows/Linux/macOS targets; no Emscripten target found in pinned tree, native port adaptation unverified"
+    },
+    {
+      "repository": "Arsunt/TR2Main",
+      "classification": "Incremental decompilation DLL injecting patched original Tomb2.exe; another implementation of Tomb Raider II, not another game identity",
+      "codeGate": "GPL3-or-later source header; outside current permissive preference",
+      "dependencyGate": "Separate BSD2 JSON parser read; DirectX5/9 legacy SDK/import-library/native Win32 build selection unclosed",
+      "assetGate": "Original executable and levels required; freeware Golden Mask description is not permissive content clearance",
+      "browserGate": "Original-executable injector, not a standalone ROM-free browser runtime"
+    }
+  ],
+  "deduplication": "Open Road already has nfs3/hot pursuit aliases and remains its existing engine-recreation entry; no new NFSIII title counted and no old clean-room/asset claims re-certified. NFSIISE wrappers/generator map to one title; TR2Main overlaps TRX Tomb Raider II; TR4 WIP is not a completed addition.",
+  "privateResearchPreserved": true,
+  "protectedEntriesUntouched": [
+    "Mario Party 2",
+    "Mario Party 3",
+    "Halo"
+  ],
+  "playersStarted": false,
+  "audibleVerification": false
+}

@@ -1,0 +1,376 @@
+{
+  "date": "2026-10-14",
+  "scope": "Selected decoded-text source/build/grant audit; metadata-only component trees; not complete source/dependency closure or gameplay",
+  "projects": [
+    {
+      "repository": "Arsunt/TR2Main",
+      "pin": "f38bc90438e21e8a37e915a812cade52efce1d68",
+      "starsAtRead": 203,
+      "treeTruncated": false,
+      "treeSha256": "fe76edfdc7df11e960b1eb8ce6479260c291c542a86795b3169c0c0bc41fb3d2",
+      "selectedTextCount": 5,
+      "gitlinks": []
+    },
+    {
+      "repository": "djyt/cannonball",
+      "pin": "27493ebf62be3498dff93ed6a45e8e2db819bae1",
+      "starsAtRead": 880,
+      "treeTruncated": false,
+      "treeSha256": "1bceabebff6cc4ea855cd1f662b0bfe9b79b51095d2e7b5a57ef36fe397cec6d",
+      "selectedTextCount": 10,
+      "gitlinks": []
+    },
+    {
+      "repository": "LostArtefacts/TRX",
+      "pin": "c97a83f06183f3b9b8835f004048649b406bc7f5",
+      "starsAtRead": 1008,
+      "treeTruncated": false,
+      "treeSha256": "d5de5b9c8459de7d5aaea07403e0169742c54b6aeeb6fc4860023c8ba43ecfc3",
+      "selectedTextCount": 6,
+      "gitlinks": []
+    },
+    {
+      "repository": "motor-dev/nfs-recompiled",
+      "pin": "77ebdb3b6a21925ccfc4fc4c1d712abec3e1945a",
+      "starsAtRead": 72,
+      "treeTruncated": false,
+      "treeSha256": "f4830f16a2c66d9648d43f563ceab3d7938ce7c165bc3c71a95d0e7a391647cd",
+      "selectedTextCount": 10,
+      "gitlinks": []
+    },
+    {
+      "repository": "zaps166/NFSIISE",
+      "pin": "66cbaf47fd77e833c9331b81f6c1e52aff56913f",
+      "starsAtRead": 769,
+      "treeTruncated": false,
+      "treeSha256": "fbeef7964d18965ddc86d5e01c24ea3cd485af1d8c49b390d16b7139aa53923a",
+      "selectedTextCount": 5,
+      "gitlinks": [
+        {
+          "path": "src/Asm",
+          "pin": "7b8ad75fddac7ce6cd13e2d4b482128925e2a13f"
+        },
+        {
+          "path": "src/Cpp",
+          "pin": "7607d07ea7471b0547d42fb9bb71e0c339f98a0c"
+        }
+      ]
+    },
+    {
+      "repository": "zaps166/NFSIISE-ASM",
+      "pin": "7b8ad75fddac7ce6cd13e2d4b482128925e2a13f",
+      "starsAtRead": 3,
+      "treeTruncated": false,
+      "treeSha256": "bdf7f8c20c210523d0d4a351262290c752da362888295fdb89a7913d78886e01",
+      "selectedTextCount": 0,
+      "gitlinks": []
+    },
+    {
+      "repository": "zaps166/NFSIISE-CPP",
+      "pin": "7607d07ea7471b0547d42fb9bb71e0c339f98a0c",
+      "starsAtRead": 11,
+      "treeTruncated": false,
+      "treeSha256": "6cc859970e5e868bf230a0c3f135b34a1bedba651b0ca242cea8abe48bbbaecf",
+      "selectedTextCount": 0,
+      "gitlinks": []
+    }
+  ],
+  "selectedTexts": [
+    {
+      "repository": "djyt/cannonball",
+      "pin": "27493ebf62be3498dff93ed6a45e8e2db819bae1",
+      "path": "README.md",
+      "bytes": 3532,
+      "sha256": "ef4caa6e9a02accbf994f14a9e12c8e4dca4860dd4c45fca1993cfc765f4f629",
+      "source": "https://github.com/djyt/cannonball/blob/27493ebf62be3498dff93ed6a45e8e2db819bae1/README.md"
+    },
+    {
+      "repository": "djyt/cannonball",
+      "pin": "27493ebf62be3498dff93ed6a45e8e2db819bae1",
+      "path": "docs/license.txt",
+      "bytes": 1947,
+      "sha256": "ce6ab2bc1ef0c7ba97574e9e28fb8019ab11827ec5181f34f930a0dbfc60c432",
+      "source": "https://github.com/djyt/cannonball/blob/27493ebf62be3498dff93ed6a45e8e2db819bae1/docs/license.txt"
+    },
+    {
+      "repository": "djyt/cannonball",
+      "pin": "27493ebf62be3498dff93ed6a45e8e2db819bae1",
+      "path": "cmake/CMakeLists.txt",
+      "bytes": 8729,
+      "sha256": "520fee5596ce71e67313f35298ea61935a341059449415c076f84d7dbd1c96ea",
+      "source": "https://github.com/djyt/cannonball/blob/27493ebf62be3498dff93ed6a45e8e2db819bae1/cmake/CMakeLists.txt"
+    },
+    {
+      "repository": "djyt/cannonball",
+      "pin": "27493ebf62be3498dff93ed6a45e8e2db819bae1",
+      "path": "src/main/main.cpp",
+      "bytes": 9855,
+      "sha256": "1fa8bb8159fe1d2a983a613fac11e5fdb1ccc981929347e4dc157d92765a9851",
+      "source": "https://github.com/djyt/cannonball/blob/27493ebf62be3498dff93ed6a45e8e2db819bae1/src/main/main.cpp"
+    },
+    {
+      "repository": "djyt/cannonball",
+      "pin": "27493ebf62be3498dff93ed6a45e8e2db819bae1",
+      "path": "src/main/roms.cpp",
+      "bytes": 7152,
+      "sha256": "a01584c52a18ef8aa6138f8a13236925a4aebc1155e28d8edde9d20b33bb4a72",
+      "source": "https://github.com/djyt/cannonball/blob/27493ebf62be3498dff93ed6a45e8e2db819bae1/src/main/roms.cpp"
+    },
+    {
+      "repository": "djyt/cannonball",
+      "pin": "27493ebf62be3498dff93ed6a45e8e2db819bae1",
+      "path": "src/main/romloader.cpp",
+      "bytes": 7055,
+      "sha256": "408f691d16f699fb1eff231f2c7e6ed9f49ebdc26cb7971a510aa647dec43985",
+      "source": "https://github.com/djyt/cannonball/blob/27493ebf62be3498dff93ed6a45e8e2db819bae1/src/main/romloader.cpp"
+    },
+    {
+      "repository": "djyt/cannonball",
+      "pin": "27493ebf62be3498dff93ed6a45e8e2db819bae1",
+      "path": "src/main/trackloader.cpp",
+      "bytes": 13305,
+      "sha256": "547dd1b171d59391f6622ac3ac0e5d93e44dc68b960b5a15640cb13cd168bf43",
+      "source": "https://github.com/djyt/cannonball/blob/27493ebf62be3498dff93ed6a45e8e2db819bae1/src/main/trackloader.cpp"
+    },
+    {
+      "repository": "djyt/cannonball",
+      "pin": "27493ebf62be3498dff93ed6a45e8e2db819bae1",
+      "path": "src/main/hwaudio/ym2151.cpp",
+      "bytes": 66497,
+      "sha256": "8adfa9cee1e55d6eb28152f2106a85dec5e75937d7e0f6549a126154fcf2168c",
+      "source": "https://github.com/djyt/cannonball/blob/27493ebf62be3498dff93ed6a45e8e2db819bae1/src/main/hwaudio/ym2151.cpp"
+    },
+    {
+      "repository": "djyt/cannonball",
+      "pin": "27493ebf62be3498dff93ed6a45e8e2db819bae1",
+      "path": "src/main/hwaudio/segapcm.cpp",
+      "bytes": 4680,
+      "sha256": "68ad73d9ef3addb9521acea391b541c09c0e5abc908cc2f4ddfdb41d162899e3",
+      "source": "https://github.com/djyt/cannonball/blob/27493ebf62be3498dff93ed6a45e8e2db819bae1/src/main/hwaudio/segapcm.cpp"
+    },
+    {
+      "repository": "djyt/cannonball",
+      "pin": "27493ebf62be3498dff93ed6a45e8e2db819bae1",
+      "path": "src/main/engine/audio/osound.cpp",
+      "bytes": 56477,
+      "sha256": "6cfa9fe07e7acec9a7ca29860f94e87be26a45df34063a753234002af4b234d0",
+      "source": "https://github.com/djyt/cannonball/blob/27493ebf62be3498dff93ed6a45e8e2db819bae1/src/main/engine/audio/osound.cpp"
+    },
+    {
+      "repository": "motor-dev/nfs-recompiled",
+      "pin": "77ebdb3b6a21925ccfc4fc4c1d712abec3e1945a",
+      "path": "README.md",
+      "bytes": 6614,
+      "sha256": "cb54c98de56ae115365e2030cf01ce1ed78a6844dc0cada3c692554a36053103",
+      "source": "https://github.com/motor-dev/nfs-recompiled/blob/77ebdb3b6a21925ccfc4fc4c1d712abec3e1945a/README.md"
+    },
+    {
+      "repository": "motor-dev/nfs-recompiled",
+      "pin": "77ebdb3b6a21925ccfc4fc4c1d712abec3e1945a",
+      "path": "CMakeLists.txt",
+      "bytes": 5559,
+      "sha256": "704b51062c7a031c47f52b402432e7d1a75cac0a77b68e890002ff7794d71142",
+      "source": "https://github.com/motor-dev/nfs-recompiled/blob/77ebdb3b6a21925ccfc4fc4c1d712abec3e1945a/CMakeLists.txt"
+    },
+    {
+      "repository": "motor-dev/nfs-recompiled",
+      "pin": "77ebdb3b6a21925ccfc4fc4c1d712abec3e1945a",
+      "path": "disassemble_nfs2se.py",
+      "bytes": 2428,
+      "sha256": "91530eed8d4fc356debc87870c4143268cc87ae74b668ece890a68d3996f2589",
+      "source": "https://github.com/motor-dev/nfs-recompiled/blob/77ebdb3b6a21925ccfc4fc4c1d712abec3e1945a/disassemble_nfs2se.py"
+    },
+    {
+      "repository": "motor-dev/nfs-recompiled",
+      "pin": "77ebdb3b6a21925ccfc4fc4c1d712abec3e1945a",
+      "path": "disasm/pefile.py",
+      "bytes": 228944,
+      "sha256": "43df1e44b3e308d1727ceb44192f558d35321bc70abdbc95e080793592d1f0be",
+      "source": "https://github.com/motor-dev/nfs-recompiled/blob/77ebdb3b6a21925ccfc4fc4c1d712abec3e1945a/disasm/pefile.py"
+    },
+    {
+      "repository": "motor-dev/nfs-recompiled",
+      "pin": "77ebdb3b6a21925ccfc4fc4c1d712abec3e1945a",
+      "path": "disasm/codegen/cpu.py",
+      "bytes": 350,
+      "sha256": "cec5d3ed1f67562c438849c2e923607fd50b1810c58010cf2bcf34f9dd08a4b4",
+      "source": "https://github.com/motor-dev/nfs-recompiled/blob/77ebdb3b6a21925ccfc4fc4c1d712abec3e1945a/disasm/codegen/cpu.py"
+    },
+    {
+      "repository": "motor-dev/nfs-recompiled",
+      "pin": "77ebdb3b6a21925ccfc4fc4c1d712abec3e1945a",
+      "path": "include/cpu.h",
+      "bytes": 2809,
+      "sha256": "47493e6abd2be6a93145670c80b3efebb7d15c02f264812aeeb071b5a6efb2c5",
+      "source": "https://github.com/motor-dev/nfs-recompiled/blob/77ebdb3b6a21925ccfc4fc4c1d712abec3e1945a/include/cpu.h"
+    },
+    {
+      "repository": "motor-dev/nfs-recompiled",
+      "pin": "77ebdb3b6a21925ccfc4fc4c1d712abec3e1945a",
+      "path": "include/x86.h",
+      "bytes": 933,
+      "sha256": "e70bc5ef9cb684ae0c986d95959f20a0ec32a3f88c7f377b87f46a898f70ae6b",
+      "source": "https://github.com/motor-dev/nfs-recompiled/blob/77ebdb3b6a21925ccfc4fc4c1d712abec3e1945a/include/x86.h"
+    },
+    {
+      "repository": "motor-dev/nfs-recompiled",
+      "pin": "77ebdb3b6a21925ccfc4fc4c1d712abec3e1945a",
+      "path": "src/lib/thread.cpp",
+      "bytes": 2525,
+      "sha256": "f1c9b6fd7d6dea3d0243d30b26ad6f50899e54082c90926344bb93f937f0fea8",
+      "source": "https://github.com/motor-dev/nfs-recompiled/blob/77ebdb3b6a21925ccfc4fc4c1d712abec3e1945a/src/lib/thread.cpp"
+    },
+    {
+      "repository": "motor-dev/nfs-recompiled",
+      "pin": "77ebdb3b6a21925ccfc4fc4c1d712abec3e1945a",
+      "path": "src/lib/memmap.cpp",
+      "bytes": 6502,
+      "sha256": "0391edd75b0f3f97c8ceeacf35074a192bd895c07679a93be085e91046e43c36",
+      "source": "https://github.com/motor-dev/nfs-recompiled/blob/77ebdb3b6a21925ccfc4fc4c1d712abec3e1945a/src/lib/memmap.cpp"
+    },
+    {
+      "repository": "motor-dev/nfs-recompiled",
+      "pin": "77ebdb3b6a21925ccfc4fc4c1d712abec3e1945a",
+      "path": "sdl3/include/SDL3/SDL_copying.h",
+      "bytes": 984,
+      "sha256": "b5113ee040521690fecda79e1e00d078166d2ec2632153a8ee498f3bcbf40886",
+      "source": "https://github.com/motor-dev/nfs-recompiled/blob/77ebdb3b6a21925ccfc4fc4c1d712abec3e1945a/sdl3/include/SDL3/SDL_copying.h"
+    },
+    {
+      "repository": "zaps166/NFSIISE",
+      "pin": "66cbaf47fd77e833c9331b81f6c1e52aff56913f",
+      "path": "README.md",
+      "bytes": 7558,
+      "sha256": "1df9212074ee3070f44d9ae66a40d3640ba7d815c16fa361ddd1cc8b53fc48a3",
+      "source": "https://github.com/zaps166/NFSIISE/blob/66cbaf47fd77e833c9331b81f6c1e52aff56913f/README.md"
+    },
+    {
+      "repository": "zaps166/NFSIISE",
+      "pin": "66cbaf47fd77e833c9331b81f6c1e52aff56913f",
+      "path": "LICENSE",
+      "bytes": 1081,
+      "sha256": "41a12ee8369e709571b822daf75f4a4f5d61212d05458bb08fddeb7f83af5655",
+      "source": "https://github.com/zaps166/NFSIISE/blob/66cbaf47fd77e833c9331b81f6c1e52aff56913f/LICENSE"
+    },
+    {
+      "repository": "zaps166/NFSIISE",
+      "pin": "66cbaf47fd77e833c9331b81f6c1e52aff56913f",
+      "path": ".gitmodules",
+      "bytes": 168,
+      "sha256": "261c1340180214ad3b97a252eaf6e211e74d3006ee374cc9395be3b7b1f39335",
+      "source": "https://github.com/zaps166/NFSIISE/blob/66cbaf47fd77e833c9331b81f6c1e52aff56913f/.gitmodules"
+    },
+    {
+      "repository": "zaps166/NFSIISE",
+      "pin": "66cbaf47fd77e833c9331b81f6c1e52aff56913f",
+      "path": "compile_nfs",
+      "bytes": 4427,
+      "sha256": "d05829c6243d508cd6a23b02a8c89d64a4435aa9d91b33d52205031401911a99",
+      "source": "https://github.com/zaps166/NFSIISE/blob/66cbaf47fd77e833c9331b81f6c1e52aff56913f/compile_nfs"
+    },
+    {
+      "repository": "zaps166/NFSIISE",
+      "pin": "66cbaf47fd77e833c9331b81f6c1e52aff56913f",
+      "path": "src/Android/app/jni/src/Android.mk",
+      "bytes": 802,
+      "sha256": "1e9150492670eebff12f347ee938d323a17c10a95a1bcb666a4121a754ebc631",
+      "source": "https://github.com/zaps166/NFSIISE/blob/66cbaf47fd77e833c9331b81f6c1e52aff56913f/src/Android/app/jni/src/Android.mk"
+    },
+    {
+      "repository": "LostArtefacts/TRX",
+      "pin": "c97a83f06183f3b9b8835f004048649b406bc7f5",
+      "path": "README.md",
+      "bytes": 4446,
+      "sha256": "5d9117421b723130fa9e33b2fc9a406afcc0512ee44d8e5ffa03012f182e6cda",
+      "source": "https://github.com/LostArtefacts/TRX/blob/c97a83f06183f3b9b8835f004048649b406bc7f5/README.md"
+    },
+    {
+      "repository": "LostArtefacts/TRX",
+      "pin": "c97a83f06183f3b9b8835f004048649b406bc7f5",
+      "path": "COPYING.md",
+      "bytes": 35229,
+      "sha256": "72d6e1a0ffb74e5e95841061200da2f5e14b66bbe043f41e634ef9bc6070132a",
+      "source": "https://github.com/LostArtefacts/TRX/blob/c97a83f06183f3b9b8835f004048649b406bc7f5/COPYING.md"
+    },
+    {
+      "repository": "LostArtefacts/TRX",
+      "pin": "c97a83f06183f3b9b8835f004048649b406bc7f5",
+      "path": "src/meson.build",
+      "bytes": 37553,
+      "sha256": "8c41baf8f73bcbc8b56c39c2d4d3bdfcb4bca834adbb72ec6aed79789784f2d2",
+      "source": "https://github.com/LostArtefacts/TRX/blob/c97a83f06183f3b9b8835f004048649b406bc7f5/src/meson.build"
+    },
+    {
+      "repository": "Arsunt/TR2Main",
+      "pin": "f38bc90438e21e8a37e915a812cade52efce1d68",
+      "path": "README.md",
+      "bytes": 2316,
+      "sha256": "6826f0bd88523ba9e7a08677bbb6ddbd0acc9f0e314a841a0958b1994dd5bf0f",
+      "source": "https://github.com/Arsunt/TR2Main/blob/f38bc90438e21e8a37e915a812cade52efce1d68/README.md"
+    },
+    {
+      "repository": "Arsunt/TR2Main",
+      "pin": "f38bc90438e21e8a37e915a812cade52efce1d68",
+      "path": "COPYING.md",
+      "bytes": 35229,
+      "sha256": "72d6e1a0ffb74e5e95841061200da2f5e14b66bbe043f41e634ef9bc6070132a",
+      "source": "https://github.com/Arsunt/TR2Main/blob/f38bc90438e21e8a37e915a812cade52efce1d68/COPYING.md"
+    },
+    {
+      "repository": "Arsunt/TR2Main",
+      "pin": "f38bc90438e21e8a37e915a812cade52efce1d68",
+      "path": "TR2Main.cpp",
+      "bytes": 6049,
+      "sha256": "45d8029d30fad84e0f621581e522cddb77b7ed3cbdc3d712fbad57504365f9b4",
+      "source": "https://github.com/Arsunt/TR2Main/blob/f38bc90438e21e8a37e915a812cade52efce1d68/TR2Main.cpp"
+    },
+    {
+      "repository": "Arsunt/TR2Main",
+      "pin": "f38bc90438e21e8a37e915a812cade52efce1d68",
+      "path": "TR2Main.cbp",
+      "bytes": 14007,
+      "sha256": "3cd7087dd6ada1c9b205ad8518b1d095ddad9cb1a8d68321dd9e64cf122b6721",
+      "source": "https://github.com/Arsunt/TR2Main/blob/f38bc90438e21e8a37e915a812cade52efce1d68/TR2Main.cbp"
+    },
+    {
+      "repository": "Arsunt/TR2Main",
+      "pin": "f38bc90438e21e8a37e915a812cade52efce1d68",
+      "path": "json-parser/LICENSE",
+      "bytes": 1345,
+      "sha256": "91a1f6f00297bd46e79b73cd632da48f5ad56c3a59ceb30b5b6327d989769ea4",
+      "source": "https://github.com/Arsunt/TR2Main/blob/f38bc90438e21e8a37e915a812cade52efce1d68/json-parser/LICENSE"
+    },
+    {
+      "repository": "LostArtefacts/TRX",
+      "pin": "c97a83f06183f3b9b8835f004048649b406bc7f5",
+      "path": "docs/trx/INSTALLING.md",
+      "bytes": 140005,
+      "sha256": "afe5aee5d3556fe9e6960780c0d1c840152eb9c904d8dc938de8bbbb1ebb390b",
+      "source": "https://github.com/LostArtefacts/TRX/blob/c97a83f06183f3b9b8835f004048649b406bc7f5/docs/trx/INSTALLING.md"
+    },
+    {
+      "repository": "LostArtefacts/TRX",
+      "pin": "c97a83f06183f3b9b8835f004048649b406bc7f5",
+      "path": "src/subprojects/dwarfstack.wrap",
+      "bytes": 363,
+      "sha256": "fb0812e8eb2e757be19bd23c4863cd5148020925969a4f9f090d9369a61b8646",
+      "source": "https://github.com/LostArtefacts/TRX/blob/c97a83f06183f3b9b8835f004048649b406bc7f5/src/subprojects/dwarfstack.wrap"
+    },
+    {
+      "repository": "LostArtefacts/TRX",
+      "pin": "c97a83f06183f3b9b8835f004048649b406bc7f5",
+      "path": "src/trx/game/shell/main.c",
+      "bytes": 3121,
+      "sha256": "328f491626dcc7349759b57f2d10b10e6a5c6ea4cf117ce6617be244800a5ba8",
+      "source": "https://github.com/LostArtefacts/TRX/blob/c97a83f06183f3b9b8835f004048649b406bc7f5/src/trx/game/shell/main.c"
+    }
+  ],
+  "excluded": [
+    "Original ROMs/discs/executables/converted runtime game data",
+    "Original art/sound/movie/font/media payloads",
+    "Generated multi-megabyte NFS assembly/C++ gitlink payloads",
+    "Bundled SDL/DirectX binaries and release installers",
+    "Prior private ROM research"
+  ],
+  "noBuildOrPlayerStarted": true
+}
