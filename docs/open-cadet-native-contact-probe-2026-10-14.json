@@ -1,0 +1,223 @@
+{
+  "date": "2026-10-14",
+  "scope": "Private published-source rebuild with read-only native flipper contact observer; ordinary F2/Space/Z/slash keyboard only, no gameplay-state edits. Not production binary.",
+  "productionContactVerified": false,
+  "privateSourceBuildContactVerified": true,
+  "sourceArchive": "/sources/cadet-0bc12d3ca97a-authored-c51f8473a6.tar.gz",
+  "sourceArchiveSha256": "33d4502ff6f3d8023b0248b9fff68c2a1f709a12cee9584625618be658f04a42",
+  "sourceArchiveBytes": 1489466,
+  "packageFiles": 242,
+  "changedSourceFiles": [
+    "SpaceCadetPinball/TFlipperEdge.cpp"
+  ],
+  "originalCollisionSha256": "2bc2b966b11da254c3202ff6a9faace016d2fa7abf53ebaebd8b8abc61ccf9cf",
+  "patchedCollisionSha256": "01ef64e8701dab2a27a2a33393a039e116f5134d573af0bca60120fb9e1defd9",
+  "observerRemovalRestoresExactSource": true,
+  "observer": {
+    "license": "MIT for independently authored observer only",
+    "source": "// Private test observer: authored MIT, reads state only. Never shipped in the game.\n#include \"TBall.h\"\n#include \"TCollisionComponent.h\"\n#include <emscripten.h>\nstruct CadetContactObservation {\n    TBall* ball; TFlipperEdge* edge;\n    float speed, ax, ay, x, y, boost;\n    int flag, flag1, flag2;\n    CadetContactObservation(TBall* b, TFlipperEdge* e):ball(b),edge(e),speed(b->Speed),ax(b->Acceleration.X),ay(b->Acceleration.Y),x(b->Position.X),y(b->Position.Y),boost(0),flag(e->FlipperFlag),flag1(e->CollisionFlag1),flag2(e->CollisionFlag2){}\n    ~CadetContactObservation(){\n        EM_ASM({\n            var items=window.cadetContacts||(window.cadetContacts=[]);\n            if(items.length<20000)items.push({name:UTF8ToString($0),time:performance.now(),phase:window.cadetPhase||'unknown',before:{speed:$1,ax:$2,ay:$3,x:$4,y:$5},after:{speed:$6,ax:$7,ay:$8,x:$9,y:$10},boost:$11,flag:$12,flag1:$13,flag2:$14});\n        },edge->CollisionComponent->GroupName,speed,ax,ay,x,y,ball->Speed,ball->Acceleration.X,ball->Acceleration.Y,ball->Position.X,ball->Position.Y,boost,flag,flag1,flag2);\n    }\n};",
+    "insertions": [
+      "Observer definition after the existing include block",
+      "CadetContactObservation observation(ball, this); at EdgeCollision entry",
+      "observation.boost = boost; before the original boost threshold calculation"
+    ],
+    "gameplayStateWrites": false
+  },
+  "build": {
+    "units": 68,
+    "compiler": "Emscripten 6.0.10 (d6c521a7f05449857c76bd99e396895583cf2083)",
+    "recipeFlagsUnchanged": [
+      "-std=c++11",
+      "-O1",
+      "-Wno-nontrivial-memcall",
+      "-DMUSIC_SDL",
+      "-sUSE_SDL=2",
+      "-sUSE_SDL_MIXER=2",
+      "-sALLOW_MEMORY_GROWTH=1",
+      "-sFORCE_FILESYSTEM=1",
+      "-sEXPORTED_RUNTIME_METHODS=[\"FS\",\"IDBFS\",\"callMain\"]",
+      "-lidbfs.js",
+      "--bind",
+      "--preload-file",
+      "authored-resources@game_resources",
+      "-o",
+      "bin/authored-cadet.js"
+    ],
+    "exitCode": 0,
+    "files": [
+      {
+        "name": "authored-cadet.js",
+        "bytes": 373154,
+        "sha256": "dba172eb348b6218b02b28458b47a29a64a9c8b902a4ea5fcab3f14c3a9f5496"
+      },
+      {
+        "name": "authored-cadet.wasm",
+        "bytes": 2072506,
+        "sha256": "23b546628e5ec29a0e0afcddf3c24da9dbd2d1d347d2ec793769db0ceec8b8fa"
+      },
+      {
+        "name": "authored-cadet.data",
+        "bytes": 1431942,
+        "sha256": "9e23da41ba60e652eb48116ec32b0daf2d4f0b0d32d87e3ec7320d863f953520"
+      }
+    ],
+    "assetDataMatchesProduction": true
+  },
+  "keyboardCycles": [
+    {
+      "cycle": 0,
+      "contacts": 25,
+      "positiveBoostContacts": 4,
+      "names": [
+        "a_flip2",
+        "a_flip1"
+      ]
+    }
+  ],
+  "beforeLaunchContactCount": 0,
+  "summary": {
+    "totalContacts": 25,
+    "positiveBoostContacts": 4,
+    "boostedNames": [
+      "a_flip2",
+      "a_flip1"
+    ],
+    "changedVelocityContacts": 25
+  },
+  "components": [
+    {
+      "name": "a_flip1",
+      "contacts": 21,
+      "positiveBoostContacts": 3
+    },
+    {
+      "name": "a_flip2",
+      "contacts": 4,
+      "positiveBoostContacts": 1
+    }
+  ],
+  "positiveBoostEvents": [
+    {
+      "name": "a_flip2",
+      "time": 17621.400000035763,
+      "phase": "keyboard-cycle-0",
+      "before": {
+        "speed": 5.193357944488525,
+        "ax": 0.16856957972049713,
+        "ay": 0.9856896996498108,
+        "x": -2.1979453563690186,
+        "y": 11.350298881530762
+      },
+      "after": {
+        "speed": 12.811914443969727,
+        "ax": -0.2823728322982788,
+        "ay": -0.9593047499656677,
+        "x": -2.1976401805877686,
+        "y": 11.351417541503906
+      },
+      "boost": 8.916484832763672,
+      "flag": 1,
+      "flag1": 1,
+      "flag2": 0
+    },
+    {
+      "name": "a_flip1",
+      "time": 18183.900000035763,
+      "phase": "keyboard-cycle-0",
+      "before": {
+        "speed": 7.0695481300354,
+        "ax": 0.8701911568641663,
+        "ay": 0.49271440505981445,
+        "x": 0.6296687722206116,
+        "y": 10.692329406738281
+      },
+      "after": {
+        "speed": 18.560256958007812,
+        "ax": -0.43566954135894775,
+        "ay": -0.90010666847229,
+        "x": 0.6544128060340881,
+        "y": 10.647130012512207
+      },
+      "boost": 13.279104232788086,
+      "flag": 1,
+      "flag1": 1,
+      "flag2": 0
+    },
+    {
+      "name": "a_flip1",
+      "time": 24384.100000023842,
+      "phase": "keyboard-cycle-0",
+      "before": {
+        "speed": 0.8154516816139221,
+        "ax": -0.7287606000900269,
+        "ay": 0.6847684979438782,
+        "x": 2.422825336456299,
+        "y": 11.362141609191895
+      },
+      "after": {
+        "speed": 9.032930374145508,
+        "ax": 0.4672977924346924,
+        "ay": -0.8840999603271484,
+        "x": 2.4356191158294678,
+        "y": 11.338770866394043
+      },
+      "boost": 8.424530029296875,
+      "flag": 1,
+      "flag1": 1,
+      "flag2": 0
+    },
+    {
+      "name": "a_flip1",
+      "time": 26873.900000035763,
+      "phase": "keyboard-cycle-0",
+      "before": {
+        "speed": 0.8752996325492859,
+        "ax": -0.7382417917251587,
+        "ay": 0.6745361685752869,
+        "x": 2.4088573455810547,
+        "y": 11.371356010437012
+      },
+      "after": {
+        "speed": 8.730569839477539,
+        "ax": 0.35870805382728577,
+        "ay": -0.9334498047828674,
+        "x": 2.409031867980957,
+        "y": 11.370931625366211
+      },
+      "boost": 8.081993103027344,
+      "flag": 1,
+      "flag1": 1,
+      "flag2": 0
+    }
+  ],
+  "allObservedNumbersFinite": true,
+  "fullPrivateReportSha256": "a11c43de1baa3a4a5561e1d80d20e5746ea5197a3440058f0872ce7bcacfb1e0",
+  "errors": [],
+  "consoleErrors": [],
+  "missing": [],
+  "external": [],
+  "canvasVisuallyInspected": true,
+  "muting": [
+    "Edge --mute-audio",
+    "AudioNode zero master gain installed before engine startup"
+  ],
+  "audibleVerification": false,
+  "keysReleased": true,
+  "playersClosed": true,
+  "serverClosed": true,
+  "diagnostics": {
+    "failedObserverRunAccepted": false,
+    "failedObserverReason": "Undefined field in 17-argument callback; private simulation stopped at first contact. Reduced to 15 fields and fresh source rebuild/rerun passed.",
+    "failedObserverReceiptPreservedPrivately": true,
+    "initialCompilerLaunchFailedBeforeCompilation": true
+  },
+  "publicRuntimeChanged": false,
+  "catalogCount": 87,
+  "matchingDecompilationMilestone": "4/5 unchanged",
+  "protectedEntriesUntouched": [
+    "Mario Party 2",
+    "Mario Party 3",
+    "Halo"
+  ],
+  "privateRomRecordsPreserved": true
+}
