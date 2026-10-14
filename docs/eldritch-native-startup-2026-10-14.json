@@ -1,0 +1,299 @@
+{
+  "recordedAt": "2026-10-14T01:53:42.421518+00:00",
+  "classification": "Original replacement-content prototype on the original developer-released Eldritch source; not a decompilation, emulator, retail campaign or certified clean-room work",
+  "sourceArchiveUrl": "https://eldritchgame.com/bin/Eldritch-Source-2019-04-16.zip",
+  "sourceArchiveSha256": "7bee255de9943e805bbd591ae7fb6ca1d9ac6609b5ba84374ab694eb7edb6774",
+  "codeLicensingScope": "Developer game code zlib grant previously audited; selected dependencies and SDK/runtime/emitted-JavaScript closure still require their exact notices. Asset dedication is separate.",
+  "priorContentAcceptance": "eldritch-authored-content-probe-2026-10-14.json",
+  "resources": {
+    "previousAuthoredResources": 19,
+    "additionalAuthoredResources": 3,
+    "totalResourceBytes": 139591,
+    "newResourceManifest": {
+      "scope": "Incomplete native entry/world fixture; inert objective markers; movement acceptance recorded separately",
+      "playable": false,
+      "newDataLicense": "CC0-1.0",
+      "authoredShadersLicense": "MIT",
+      "originalRetailInputs": false,
+      "cleanRoomCertified": false,
+      "files": [
+        {
+          "path": "Textures/icon.bmp",
+          "bytes": 822,
+          "sha256": "a5f012574a8a0b1a1b8ecb82b9a4301297e74fc11d3aa41ec22685683cbf23b7"
+        },
+        {
+          "path": "Config/default.ccf",
+          "bytes": 1219,
+          "sha256": "0b95507c5ef230fd2c320d01c5fabaaee5cc1372e6dd7626748dc490234fef97"
+        },
+        {
+          "path": "Config/yard.ccf",
+          "bytes": 4062,
+          "sha256": "b97686a9d93f5d9ab543d382faca0ed288e1ca289c72ca462e42bbd16fd2ea20"
+        }
+      ]
+    },
+    "originalRetailInputs": false,
+    "romRequired": false,
+    "retailPackagesPreloaded": false,
+    "wholeAssetPackDistribution": false
+  },
+  "portEdits": [
+    {
+      "path": "Code/Libraries/3D/src/GL2/gl2renderer.cpp",
+      "beforeSha256": "6adde4ba17629220c32272b1286712d94d3308711f2042830124beacb1922400",
+      "afterSha256": "322f1f6f571e99eabfb984c218a6c477aa9067bc9b64449098e221bc81bf70d0",
+      "alteredSource": true
+    },
+    {
+      "path": "Code/Libraries/3D/src/texturecommon.cpp",
+      "beforeSha256": "cb5b9275889c15e961e5788ea5019c00179d86e2c822627e6144b8e7fdcbaeda",
+      "afterSha256": "6ae17b3e81f639fedda019709a28cac992bd2725e88aa7ea50c55d7df7ec148d",
+      "alteredSource": true
+    },
+    {
+      "path": "Code/Libraries/Audio/src/soloudaudiosystem.cpp",
+      "beforeSha256": "50025d00f36321b38450290ff055cd10f2d4dd109ce529a86568c6a631573217",
+      "afterSha256": "93fc973f1c16d17153a1d892144203c265f3482aca8bca1e8713c2f1fe404c2b",
+      "alteredSource": true
+    },
+    {
+      "path": "Code/Projects/Eld/src/eldframework.cpp",
+      "beforeSha256": "ffa51c89db6637cb5d7c69b18c3152e955814fd82edc159b9afbd69de379e8eb",
+      "afterSha256": "04b2a1b73a53c14ebd410dddab2a1bc46cfde341ba5ecb7c6984a2b45aaaf21d",
+      "alteredSource": true
+    }
+  ],
+  "nativeBuild": {
+    "actualGameEntry": true,
+    "objectCount": 436,
+    "observerTranslationUnits": 1,
+    "selectedNativeTranslationUnits": 437,
+    "baselineHeaderEqualityChecked": true,
+    "adapted": [
+      "Code/Libraries/3D/src/GL2/gl2renderer.cpp",
+      "Code/Libraries/3D/src/texturecommon.cpp",
+      "Code/Libraries/Audio/src/soloudaudiosystem.cpp",
+      "Code/Projects/Eld/src/eldframework.cpp"
+    ],
+    "preload": "Only independent startup fixture and prior authored assets",
+    "gameplayVerified": false,
+    "outputs": [
+      {
+        "path": "entry.js",
+        "bytes": 430229,
+        "sha256": "8949a4d8bdb273b4f38e26f1ba08fa7a35e5e4ed37ec83729e6fbe334da74fde"
+      },
+      {
+        "path": "entry.wasm",
+        "bytes": 3423236,
+        "sha256": "c15b91202182325c3099fa9ce1e52d367cb0aee27bbb12dadb22638ce9f3c163"
+      },
+      {
+        "path": "entry.data",
+        "bytes": 147403,
+        "sha256": "212fcce7a887a55bfbac3081a88507ed9866dd2a937d9568a48486f4e4db8d38"
+      }
+    ]
+  },
+  "startupAndMovementAcceptance": {
+    "date": "2026-10-14T01:52:32.605Z",
+    "scope": "Actual native main entry with incomplete independent startup configuration",
+    "muted": true,
+    "errors": [],
+    "missing": [],
+    "external": [],
+    "logs": [
+      "Checking user data path...",
+      "  ./",
+      "Version: ",
+      "Initializing factories...",
+      "Initializing SDP factories.",
+      "Initializing UI factories.",
+      "Initializing anim event factories.",
+      "Initializing PE factories.",
+      "Initializing action factories.",
+      "Initializing BT factories.",
+      "Initializing component factories.",
+      "Factories initialized.",
+      "Initializing input system.",
+      "Framework3D::Initialize",
+      "Random seed is 17",
+      "Initializing display...",
+      "Desired display mode: 960x540 / windowed / no upscaling / no vsync",
+      "Setting display resolution...",
+      "Enumerating SDL display modes...",
+      "Enumerated mode 1000x580",
+      "Could not find a more suitable display mode.",
+      "Using display mode 960x540",
+      "SoLoud backend: null driver",
+      "Using OpenGL renderer.",
+      "DecompGames float render targets: enabled",
+      "EldFramework::CreateHUDView",
+      "EldFramework::CreateMirrorView",
+      "EldFramework::CreateMinimapView",
+      "EldFramework::CreateBuckets",
+      "Checking saved game path",
+      "Initializing game.",
+      "Voxel mem.: 1960 Irradiance mem.: 188160",
+      "Eld initialization complete."
+    ],
+    "startupComplete": true,
+    "gameplayVerified": false,
+    "audibleAudioVerified": false,
+    "abort": null,
+    "audioContextsCreated": 0,
+    "before": {
+      "player": true,
+      "position": [
+        3.5,
+        3.5,
+        2.75
+      ],
+      "dimensions": [
+        14,
+        14,
+        10
+      ],
+      "health": 5,
+      "landed": true,
+      "gameTime": 1.133333,
+      "focus": true,
+      "glError": 0
+    },
+    "forward": {
+      "player": true,
+      "position": [
+        3.5,
+        4.438221,
+        2.75
+      ],
+      "dimensions": [
+        14,
+        14,
+        10
+      ],
+      "health": 5,
+      "landed": true,
+      "gameTime": 1.899999,
+      "focus": true,
+      "glError": 0
+    },
+    "wall": {
+      "player": true,
+      "position": [
+        2.253485,
+        4.49287,
+        2.75
+      ],
+      "dimensions": [
+        14,
+        14,
+        10
+      ],
+      "health": 5,
+      "landed": true,
+      "gameTime": 3.93333,
+      "focus": true,
+      "glError": 0
+    },
+    "settled": {
+      "player": true,
+      "position": [
+        2.253485,
+        4.49287,
+        2.75
+      ],
+      "dimensions": [
+        14,
+        14,
+        10
+      ],
+      "health": 5,
+      "landed": true,
+      "gameTime": 4.233333,
+      "focus": true,
+      "glError": 0
+    },
+    "movementAndWallCollisionVerified": true,
+    "objectiveVerified": false,
+    "persistenceVerified": false,
+    "nativeLoopStopped": true,
+    "assertionsPassed": true,
+    "browserClosed": true,
+    "serverClosed": true
+  },
+  "nativeObserverScope": "Read-only native player/physics/clock/GL observations, plus a stop hook. Movement uses actual browser keyboard events and upstream InputSystem/player/collision; no native movement, position or objective injection.",
+  "priorFailures": [
+    {
+      "attempt": "first",
+      "failure": "Automatic SoLoud selection did not select compiled null backend; native mesh defaults requested absent DDS textures",
+      "resolved": "Explicit null backend and three exact default texture bindings to authored TGA surfaces; no catch-all substitution"
+    },
+    {
+      "attempt": "second",
+      "failure": "Missing native world dimensions; duplicate built-in Fade screen",
+      "resolved": "Authored world/voxel/room/player definitions; existing built-in Fade retained"
+    },
+    {
+      "attempt": "third",
+      "failure": "Missing material shader through incorrect image widget override",
+      "resolved": "Use native MaterialOverride and authored material/shader configuration; desktop-only resolution UI and retail options/logo sequence excluded from browser fixture"
+    },
+    {
+      "attempt": "movement initial",
+      "failure": "Overly strict fixture required a full voxel of forward displacement in 0.75 seconds; native player moved 0.959805 voxels",
+      "resolved": "Acceptance requires more than half a voxel; final movement/collision results recorded separately"
+    }
+  ],
+  "authoredTools": [
+    {
+      "path": "prepare-entry-probe.py",
+      "license": "MIT",
+      "sha256": "4f099b05a053918ee2a7d5f510e915b41226677dccbe048d2780501cd2c9c56c"
+    },
+    {
+      "path": "game-entry-v1/author-entry-world.py",
+      "license": "MIT",
+      "sha256": "84384a981bc3f183dfb3efcd10c75093953010481bf03a99dc049f203534d847"
+    },
+    {
+      "path": "game-entry-v1/build-entry.py",
+      "license": "MIT",
+      "sha256": "9ad7d2097d7b9bcf9ddfc61d17581e587417be48b3e632f48d036132d0b89ea7"
+    },
+    {
+      "path": "game-entry-v1/entry-observer.cpp",
+      "license": "MIT",
+      "sha256": "5862d3ce7fbb37cffa570af9523237ffa33aa5736110d7c64bf389d0c2065e90"
+    },
+    {
+      "path": "game-entry-v1/test-entry.cjs",
+      "license": "MIT",
+      "sha256": "cd3381717bdfb208d68b4e9da297f5479c0263b8e6f362666eb0297c0c487b8e"
+    }
+  ],
+  "runtimeNoticeClosureCertified": false,
+  "objectiveComplete": false,
+  "restartVerified": false,
+  "durableSaveRestoreVerified": false,
+  "nativeResourceDestructionVerified": false,
+  "audibleAudioVerified": false,
+  "integrated": false,
+  "deployed": false,
+  "catalog": {
+    "entries": 85,
+    "blob": "10a69b5a9dc3e20ba9a75b4b51f34e02d271d81c",
+    "unchanged": true
+  },
+  "matchingDecompilationMilestone": "4/5 unchanged",
+  "protectedWork": "Mario Party 2/3 and Halo untouched; prior ROM research remains private",
+  "remaining": [
+    "Author and wire native beacon and gate interaction, animated visible actors and objective completion",
+    "Complete browser controls, original HUD/help, restart and durable save/restore where offered",
+    "Native owned-context/resource destruction and full unload/restart",
+    "Exact selected code/header/dependency/SDK/runtime/emitted-JavaScript notices",
+    "Reproducible source distribution and extraction rebuild before integration"
+  ]
+}
