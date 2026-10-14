@@ -1,0 +1,79 @@
+{
+  "date": "2026-10-14",
+  "catalogCount": 87,
+  "decompilationMilestone": "4/5 unchanged",
+  "eligibleAdditions": 0,
+  "titlesReviewed": 4,
+  "deduplication": {
+    "fields": [
+      "id",
+      "title",
+      "aliases",
+      "source"
+    ],
+    "matches": []
+  },
+  "findings": [
+    {
+      "project": "teampopwork/Thunderball",
+      "titles": [
+        "Peggle Deluxe"
+      ],
+      "classification": "Work-in-progress matching decompilation project, original Windows executable target; no matching result reproduced",
+      "codeGate": "MIT explicitly applies to modifications; separate PopCap Framework grant does not establish reconstructed Peggle-specific code permission",
+      "dependencyGate": "Selected JPEG/PNG/zlib and optional image-codec notices recorded; actual framework builds DirectX/DirectSound and BASS/FMOD/Flash loaders plus bundled Ogg/Vorbis. Full selected closure and DirectX gitlink grant unverified. Optional directory presence is not linkage proof",
+      "contentGate": "Purchased original game assets required; no independently authored complete content/provenance pack established",
+      "browserGate": "32-bit native WIN32/MSVC matching recipe; no game browser target established; rendering, scheduling, audio and saves need adaptation",
+      "decision": "Blocked on reconstructed game grant and complete independent content; do not host upstream binary"
+    },
+    {
+      "project": "wraitii/evnova-decomp",
+      "titles": [
+        "Escape Velocity Nova"
+      ],
+      "classification": "Decompilation-derived C++23 reimplementation/native source port; no static-recompilation, matching or clean-room certificate",
+      "codeGate": "MIT limited in README to maintainer-owned work; original-engine rights and permission explicitly unresolved",
+      "dependencyGate": "SDL3/SDL3_ttf/fmt, vendored dr_mp3, optional POSIX probe and test-only Catch2; vcpkg HarfBuzz feature without baseline lock. Exact resolution/grants/transitive closure unverified",
+      "contentGate": "Installed Community Edition content and external executable locator required; plug-ins/total conversions do not establish independent complete pack",
+      "browserGate": "Native CMake/presets; no verified Web game target; filesystem, fonts/content, scheduler, silent audio and persistence unverified",
+      "decision": "Blocked before browser/content engineering on code permission; upstream completion claim not our gameplay test"
+    },
+    {
+      "project": "abedegno/underworld-exhumed",
+      "titles": [
+        "Ultima Underworld: The Stygian Abyss",
+        "Ultima Underworld II: Labyrinth of Worlds"
+      ],
+      "classification": "Matching DOS decompilation projects with native and Emscripten source ports; matching/replay claims not independently reproduced",
+      "codeGate": "Explicit root/per-game NOTICE excludes inherited game code from MIT; Borland overlay and Miles AIL have separate origins",
+      "dependencyGate": "Per-game notices identify SDL3, LGPL Nuked OPL3/libmt32emu and platform packaging. Desktop dynamic-link descriptions not Web/static compliance proof; exact Exhume gitlink and Web closure not audited",
+      "contentGate": "Documented Web pack includes retail game files plus MT-32/CM-32L ROM pair; public site not redistribution grant; no independent complete pack",
+      "browserGate": "Actual Emscripten/pthread/shared-memory/IndexedDB source path documented; no build/player run or payload acquired",
+      "decision": "Blocked despite existing browser path by explicit reconstructed-code exclusion, retail content/ROM dependency and selected library terms"
+    }
+  ],
+  "treeWebPathInventory": {
+    "teampopwork/Thunderball": [],
+    "wraitii/evnova-decomp": [],
+    "abedegno/underworld-exhumed": [
+      "docs/WEB.md",
+      "uw1/src/port/sys/webcalls.c",
+      "web",
+      "web/coi-serviceworker.js",
+      "web/deploy.sh",
+      "web/index.html",
+      "web/pack.sh",
+      "web/page.css",
+      "web/page.js",
+      "web/romsel.c"
+    ]
+  },
+  "selectedSourceTextHashesRechecked": 37,
+  "retailMediaOrExecutableDownloaded": false,
+  "buildOrPlayerExecuted": false,
+  "audibleTestPerformed": false,
+  "catalogOrRuntimeChanged": false,
+  "claudeOwnedEntriesTouched": false,
+  "cleanRoomCertified": false,
+  "scope": "Selected source-intake audit, not full source/dependency closure or legal clearance"
+}

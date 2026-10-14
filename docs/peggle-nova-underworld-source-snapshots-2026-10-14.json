@@ -1,0 +1,344 @@
+{
+  "date": "2026-10-14",
+  "scope": "Selected upstream source, build, license and metadata texts only; not a whole-source or transitive dependency audit. No game media, executable, SDK/compiler binary or build/player execution.",
+  "projects": [
+    {
+      "repository": "teampopwork/Thunderball",
+      "pin": "e90787a6c64c7c45dfbf1fdd52377f13d2ea5428",
+      "starsAtRead": 51,
+      "defaultBranch": "main",
+      "treeTruncated": false,
+      "treeSha256": "2dbe6635b9e1bfe1e5fdc1ce892d47b201babbd2aa198492f340acb98b3386a3",
+      "gitlinks": [
+        {
+          "path": "3rdparty/directx9",
+          "pin": "17e1ae8d3061cec88be18fe26e5341728730ea2a"
+        }
+      ],
+      "selectedTextCount": 15
+    },
+    {
+      "repository": "wraitii/evnova-decomp",
+      "pin": "e3dd30407939296bf19e96f94a499cc6bb2cafd1",
+      "starsAtRead": 10,
+      "defaultBranch": "main",
+      "treeTruncated": false,
+      "treeSha256": "02cd4d029b18ed72bc0f1b5d4b2107729c77f590a4c52aed05a5929c81783ec8",
+      "gitlinks": [],
+      "selectedTextCount": 9
+    },
+    {
+      "repository": "abedegno/underworld-exhumed",
+      "pin": "9bb626ac33aff70c9b21480bfeafe9d25041b73e",
+      "starsAtRead": 54,
+      "defaultBranch": "main",
+      "treeTruncated": false,
+      "treeSha256": "dad178e0ef8607ca7f24781c20aa6c4bf6a97547b19cc4ab16c92427d5362127",
+      "gitlinks": [
+        {
+          "path": "exhume",
+          "pin": "c90cc103525ce9507aeecf84e9a43d1173afef73"
+        }
+      ],
+      "selectedTextCount": 13
+    }
+  ],
+  "files": [
+    {
+      "repository": "teampopwork/Thunderball",
+      "pin": "e90787a6c64c7c45dfbf1fdd52377f13d2ea5428",
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/teampopwork/Thunderball/e90787a6c64c7c45dfbf1fdd52377f13d2ea5428/README.md",
+      "bytes": 1663,
+      "sha256": "48f1bf484cf107fd45531b052a4ad6ff2efbce7dfa4837c1777065487bf3fc47"
+    },
+    {
+      "repository": "teampopwork/Thunderball",
+      "pin": "e90787a6c64c7c45dfbf1fdd52377f13d2ea5428",
+      "path": "LICENSE.md",
+      "url": "https://raw.githubusercontent.com/teampopwork/Thunderball/e90787a6c64c7c45dfbf1fdd52377f13d2ea5428/LICENSE.md",
+      "bytes": 5603,
+      "sha256": "ee70a21b8ee29aa1aa3140b8804ab3bf27c65acfff01aeac90a4b89f3e47d781"
+    },
+    {
+      "repository": "teampopwork/Thunderball",
+      "pin": "e90787a6c64c7c45dfbf1fdd52377f13d2ea5428",
+      "path": "CMakeLists.txt",
+      "url": "https://raw.githubusercontent.com/teampopwork/Thunderball/e90787a6c64c7c45dfbf1fdd52377f13d2ea5428/CMakeLists.txt",
+      "bytes": 1306,
+      "sha256": "f4fbce3b78ebb62fe7400df2906b7385125de6320dfcd1649ba0fff565a15b3b"
+    },
+    {
+      "repository": "teampopwork/Thunderball",
+      "pin": "e90787a6c64c7c45dfbf1fdd52377f13d2ea5428",
+      "path": "CMakePresets.json",
+      "url": "https://raw.githubusercontent.com/teampopwork/Thunderball/e90787a6c64c7c45dfbf1fdd52377f13d2ea5428/CMakePresets.json",
+      "bytes": 1150,
+      "sha256": "9b62da430004e136715580629c4af24e3acbf33ba5f2d720e9cadd8146ab879b"
+    },
+    {
+      "repository": "teampopwork/Thunderball",
+      "pin": "e90787a6c64c7c45dfbf1fdd52377f13d2ea5428",
+      "path": ".gitmodules",
+      "url": "https://raw.githubusercontent.com/teampopwork/Thunderball/e90787a6c64c7c45dfbf1fdd52377f13d2ea5428/.gitmodules",
+      "bytes": 107,
+      "sha256": "c627be4d521dca40948abc3450bca9b81768a09b77de94198e7caedf69ee9745"
+    },
+    {
+      "repository": "teampopwork/Thunderball",
+      "pin": "e90787a6c64c7c45dfbf1fdd52377f13d2ea5428",
+      "path": "reccmp-project.yml",
+      "url": "https://raw.githubusercontent.com/teampopwork/Thunderball/e90787a6c64c7c45dfbf1fdd52377f13d2ea5428/reccmp-project.yml",
+      "bytes": 318,
+      "sha256": "49752a7402134a1582f25d19d04b34ca80da11bc5832fac7674de01fa6b1e5d6"
+    },
+    {
+      "repository": "teampopwork/Thunderball",
+      "pin": "e90787a6c64c7c45dfbf1fdd52377f13d2ea5428",
+      "path": "source/ImageLib/CMakeLists.txt",
+      "url": "https://raw.githubusercontent.com/teampopwork/Thunderball/e90787a6c64c7c45dfbf1fdd52377f13d2ea5428/source/ImageLib/CMakeLists.txt",
+      "bytes": 1577,
+      "sha256": "3a5ecd2c5b9d5e1e850c81022728e559e10dd0ea9ea8bc7fa24efb3a172b8b27"
+    },
+    {
+      "repository": "teampopwork/Thunderball",
+      "pin": "e90787a6c64c7c45dfbf1fdd52377f13d2ea5428",
+      "path": "source/ImageLib/j2k-codec/License.txt",
+      "url": "https://raw.githubusercontent.com/teampopwork/Thunderball/e90787a6c64c7c45dfbf1fdd52377f13d2ea5428/source/ImageLib/j2k-codec/License.txt",
+      "bytes": 3148,
+      "sha256": "0789f79dfe3f1a85a73b1f8db584e9043a9381fd4bcc2c8524c1f9321b4b79f3"
+    },
+    {
+      "repository": "teampopwork/Thunderball",
+      "pin": "e90787a6c64c7c45dfbf1fdd52377f13d2ea5428",
+      "path": "source/ImageLib/jpeg/readme",
+      "url": "https://raw.githubusercontent.com/teampopwork/Thunderball/e90787a6c64c7c45dfbf1fdd52377f13d2ea5428/source/ImageLib/jpeg/readme",
+      "bytes": 20330,
+      "sha256": "fce5b28f70c6ce01e3e3b3b91b7fb4250f03b6d68a805ae573f326bc17b4c29d"
+    },
+    {
+      "repository": "teampopwork/Thunderball",
+      "pin": "e90787a6c64c7c45dfbf1fdd52377f13d2ea5428",
+      "path": "source/ImageLib/jpeg2000/LICENSE",
+      "url": "https://raw.githubusercontent.com/teampopwork/Thunderball/e90787a6c64c7c45dfbf1fdd52377f13d2ea5428/source/ImageLib/jpeg2000/LICENSE",
+      "bytes": 6131,
+      "sha256": "5f658adb73841c0b2b441fd24deedbaf5e7d068cd4f5349b7e1abe68b7331e81"
+    },
+    {
+      "repository": "teampopwork/Thunderball",
+      "pin": "e90787a6c64c7c45dfbf1fdd52377f13d2ea5428",
+      "path": "source/ImageLib/png/license",
+      "url": "https://raw.githubusercontent.com/teampopwork/Thunderball/e90787a6c64c7c45dfbf1fdd52377f13d2ea5428/source/ImageLib/png/license",
+      "bytes": 2450,
+      "sha256": "8ddf18ba19c0acff7fda487512827b5982c105db84011f2cd66bbe76f1ff1bbc"
+    },
+    {
+      "repository": "teampopwork/Thunderball",
+      "pin": "e90787a6c64c7c45dfbf1fdd52377f13d2ea5428",
+      "path": "source/ImageLib/zlib/readme",
+      "url": "https://raw.githubusercontent.com/teampopwork/Thunderball/e90787a6c64c7c45dfbf1fdd52377f13d2ea5428/source/ImageLib/zlib/readme",
+      "bytes": 7254,
+      "sha256": "46abbd79a0261ab3b39187434137d42ce0059d4208f50a0b3f10e1b96ae5b71f"
+    },
+    {
+      "repository": "teampopwork/Thunderball",
+      "pin": "e90787a6c64c7c45dfbf1fdd52377f13d2ea5428",
+      "path": "source/SexyAppFramework/CMakeLists.txt",
+      "url": "https://raw.githubusercontent.com/teampopwork/Thunderball/e90787a6c64c7c45dfbf1fdd52377f13d2ea5428/source/SexyAppFramework/CMakeLists.txt",
+      "bytes": 1772,
+      "sha256": "9160aee356ba9987930080ad07053b863bfd80d129cb17129ca0a16d86c65d86"
+    },
+    {
+      "repository": "teampopwork/Thunderball",
+      "pin": "e90787a6c64c7c45dfbf1fdd52377f13d2ea5428",
+      "path": "source/Thunderball/CMakeLists.txt",
+      "url": "https://raw.githubusercontent.com/teampopwork/Thunderball/e90787a6c64c7c45dfbf1fdd52377f13d2ea5428/source/Thunderball/CMakeLists.txt",
+      "bytes": 1706,
+      "sha256": "a81744cb2b081c74d8b7abf7617ef4a20aa201ccd5f96a3c04151ff8799f729f"
+    },
+    {
+      "repository": "teampopwork/Thunderball",
+      "pin": "e90787a6c64c7c45dfbf1fdd52377f13d2ea5428",
+      "path": "source/SexyAppFramework/ResourceManager.cpp",
+      "url": "https://raw.githubusercontent.com/teampopwork/Thunderball/e90787a6c64c7c45dfbf1fdd52377f13d2ea5428/source/SexyAppFramework/ResourceManager.cpp",
+      "bytes": 43354,
+      "sha256": "0b88d08e8e13e192486a6d25cf2a4f457df48fee08d6ac0bc5084f48b3611b34"
+    },
+    {
+      "repository": "wraitii/evnova-decomp",
+      "pin": "e3dd30407939296bf19e96f94a499cc6bb2cafd1",
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/wraitii/evnova-decomp/e3dd30407939296bf19e96f94a499cc6bb2cafd1/README.md",
+      "bytes": 6996,
+      "sha256": "b2d8fe8301222f46feee260227e81be6b74378254a18701ff4da11092eae9c56"
+    },
+    {
+      "repository": "wraitii/evnova-decomp",
+      "pin": "e3dd30407939296bf19e96f94a499cc6bb2cafd1",
+      "path": "LICENSE.txt",
+      "url": "https://raw.githubusercontent.com/wraitii/evnova-decomp/e3dd30407939296bf19e96f94a499cc6bb2cafd1/LICENSE.txt",
+      "bytes": 1069,
+      "sha256": "83c7169a227b072a2c3b7c4c4f06e0bde70bdd299bb669ced9d31a8d53532225"
+    },
+    {
+      "repository": "wraitii/evnova-decomp",
+      "pin": "e3dd30407939296bf19e96f94a499cc6bb2cafd1",
+      "path": "CMakeLists.txt",
+      "url": "https://raw.githubusercontent.com/wraitii/evnova-decomp/e3dd30407939296bf19e96f94a499cc6bb2cafd1/CMakeLists.txt",
+      "bytes": 4359,
+      "sha256": "d36104b38e404ee84cbed6c7141c76fa983eb28c4c7c6764661aab3c14e94ded"
+    },
+    {
+      "repository": "wraitii/evnova-decomp",
+      "pin": "e3dd30407939296bf19e96f94a499cc6bb2cafd1",
+      "path": "CMakePresets.json",
+      "url": "https://raw.githubusercontent.com/wraitii/evnova-decomp/e3dd30407939296bf19e96f94a499cc6bb2cafd1/CMakePresets.json",
+      "bytes": 1870,
+      "sha256": "932915aa02161b391f7c4f0058bb6d479174bdbae48416ba4d8fb75da6fa0f94"
+    },
+    {
+      "repository": "wraitii/evnova-decomp",
+      "pin": "e3dd30407939296bf19e96f94a499cc6bb2cafd1",
+      "path": "vcpkg.json",
+      "url": "https://raw.githubusercontent.com/wraitii/evnova-decomp/e3dd30407939296bf19e96f94a499cc6bb2cafd1/vcpkg.json",
+      "bytes": 252,
+      "sha256": "c7e8aa566fdef8188f6631028c3cad7f36d1948a6d3475e6a9a00f58edbf4f1e"
+    },
+    {
+      "repository": "wraitii/evnova-decomp",
+      "pin": "e3dd30407939296bf19e96f94a499cc6bb2cafd1",
+      "path": "src/CMakeLists.txt",
+      "url": "https://raw.githubusercontent.com/wraitii/evnova-decomp/e3dd30407939296bf19e96f94a499cc6bb2cafd1/src/CMakeLists.txt",
+      "bytes": 4994,
+      "sha256": "65b7a5a5b0f41073df7027a05d04c3ef71d0a6ec0226eaa5990e6472be5f6b48"
+    },
+    {
+      "repository": "wraitii/evnova-decomp",
+      "pin": "e3dd30407939296bf19e96f94a499cc6bb2cafd1",
+      "path": "src/main.cpp",
+      "url": "https://raw.githubusercontent.com/wraitii/evnova-decomp/e3dd30407939296bf19e96f94a499cc6bb2cafd1/src/main.cpp",
+      "bytes": 79,
+      "sha256": "c0aee620414c272477a54541ac61fc044c1bf46c243ecd350a2ce0320493d16e"
+    },
+    {
+      "repository": "wraitii/evnova-decomp",
+      "pin": "e3dd30407939296bf19e96f94a499cc6bb2cafd1",
+      "path": "src/mac_resource_fork.cpp",
+      "url": "https://raw.githubusercontent.com/wraitii/evnova-decomp/e3dd30407939296bf19e96f94a499cc6bb2cafd1/src/mac_resource_fork.cpp",
+      "bytes": 11186,
+      "sha256": "e648f3dfde8bde054228a8ff5a47e13e5b7352dfcb6bc6a178d50fc074270862"
+    },
+    {
+      "repository": "wraitii/evnova-decomp",
+      "pin": "e3dd30407939296bf19e96f94a499cc6bb2cafd1",
+      "path": "src/game/nova_font.cpp",
+      "url": "https://raw.githubusercontent.com/wraitii/evnova-decomp/e3dd30407939296bf19e96f94a499cc6bb2cafd1/src/game/nova_font.cpp",
+      "bytes": 28327,
+      "sha256": "1eab83173396132ee52d6ca7b0c90578177fd0159222259be36595a62659bc09"
+    },
+    {
+      "repository": "abedegno/underworld-exhumed",
+      "pin": "9bb626ac33aff70c9b21480bfeafe9d25041b73e",
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/abedegno/underworld-exhumed/9bb626ac33aff70c9b21480bfeafe9d25041b73e/README.md",
+      "bytes": 9929,
+      "sha256": "8ecb195521679e9c132b420fdbf7764987306e0cb7a03eeb25f07e6a9b5ee7c2"
+    },
+    {
+      "repository": "abedegno/underworld-exhumed",
+      "pin": "9bb626ac33aff70c9b21480bfeafe9d25041b73e",
+      "path": "LICENSE",
+      "url": "https://raw.githubusercontent.com/abedegno/underworld-exhumed/9bb626ac33aff70c9b21480bfeafe9d25041b73e/LICENSE",
+      "bytes": 1065,
+      "sha256": "90060b503cfeaf7600e8f086898e846811bc9ef9454640f3fc1fa17b4e10daee"
+    },
+    {
+      "repository": "abedegno/underworld-exhumed",
+      "pin": "9bb626ac33aff70c9b21480bfeafe9d25041b73e",
+      "path": "NOTICE",
+      "url": "https://raw.githubusercontent.com/abedegno/underworld-exhumed/9bb626ac33aff70c9b21480bfeafe9d25041b73e/NOTICE",
+      "bytes": 1517,
+      "sha256": "f860646cfb56a88d5d704e7ba39fd7c9801fc237b74f6945066c78db8f0b4f62"
+    },
+    {
+      "repository": "abedegno/underworld-exhumed",
+      "pin": "9bb626ac33aff70c9b21480bfeafe9d25041b73e",
+      "path": ".gitmodules",
+      "url": "https://raw.githubusercontent.com/abedegno/underworld-exhumed/9bb626ac33aff70c9b21480bfeafe9d25041b73e/.gitmodules",
+      "bytes": 82,
+      "sha256": "ed21c3dc2e591a6cbb5141f68da8473c9a1a82e63250feec65ec5f240b123aaa"
+    },
+    {
+      "repository": "abedegno/underworld-exhumed",
+      "pin": "9bb626ac33aff70c9b21480bfeafe9d25041b73e",
+      "path": "docs/WEB.md",
+      "url": "https://raw.githubusercontent.com/abedegno/underworld-exhumed/9bb626ac33aff70c9b21480bfeafe9d25041b73e/docs/WEB.md",
+      "bytes": 10629,
+      "sha256": "03800720914b21b852afe8c8f303c1ab9c8d5959aa03d4609619253838d2f2dc"
+    },
+    {
+      "repository": "abedegno/underworld-exhumed",
+      "pin": "9bb626ac33aff70c9b21480bfeafe9d25041b73e",
+      "path": "docs/FORMATS.md",
+      "url": "https://raw.githubusercontent.com/abedegno/underworld-exhumed/9bb626ac33aff70c9b21480bfeafe9d25041b73e/docs/FORMATS.md",
+      "bytes": 51409,
+      "sha256": "6a5ef85d79aad44b6875a7549f7a9812c4565b444d0c77b4873128e6e386f566"
+    },
+    {
+      "repository": "abedegno/underworld-exhumed",
+      "pin": "9bb626ac33aff70c9b21480bfeafe9d25041b73e",
+      "path": "Makefile",
+      "url": "https://raw.githubusercontent.com/abedegno/underworld-exhumed/9bb626ac33aff70c9b21480bfeafe9d25041b73e/Makefile",
+      "bytes": 3275,
+      "sha256": "274bf248935bb782190997669bee1df797189002bdade6bf2ec8a4454aa77548"
+    },
+    {
+      "repository": "abedegno/underworld-exhumed",
+      "pin": "9bb626ac33aff70c9b21480bfeafe9d25041b73e",
+      "path": "uw1/NOTICE",
+      "url": "https://raw.githubusercontent.com/abedegno/underworld-exhumed/9bb626ac33aff70c9b21480bfeafe9d25041b73e/uw1/NOTICE",
+      "bytes": 2081,
+      "sha256": "a4e55a99898ab302c6a642a190cdee69f4f429718c6ba18fca6295e7821c8499"
+    },
+    {
+      "repository": "abedegno/underworld-exhumed",
+      "pin": "9bb626ac33aff70c9b21480bfeafe9d25041b73e",
+      "path": "uw2/NOTICE",
+      "url": "https://raw.githubusercontent.com/abedegno/underworld-exhumed/9bb626ac33aff70c9b21480bfeafe9d25041b73e/uw2/NOTICE",
+      "bytes": 2981,
+      "sha256": "0457a65f72914ef98856df287f7a7b415cd3fe0d3f1462ed6e5d3c5d5b992cf0"
+    },
+    {
+      "repository": "abedegno/underworld-exhumed",
+      "pin": "9bb626ac33aff70c9b21480bfeafe9d25041b73e",
+      "path": "uw1/THIRD-PARTY-NOTICES",
+      "url": "https://raw.githubusercontent.com/abedegno/underworld-exhumed/9bb626ac33aff70c9b21480bfeafe9d25041b73e/uw1/THIRD-PARTY-NOTICES",
+      "bytes": 9669,
+      "sha256": "efb73016af1416c54426330b1c67b17a23e64b03720fe13afd12045262fab041"
+    },
+    {
+      "repository": "abedegno/underworld-exhumed",
+      "pin": "9bb626ac33aff70c9b21480bfeafe9d25041b73e",
+      "path": "uw2/THIRD-PARTY-NOTICES",
+      "url": "https://raw.githubusercontent.com/abedegno/underworld-exhumed/9bb626ac33aff70c9b21480bfeafe9d25041b73e/uw2/THIRD-PARTY-NOTICES",
+      "bytes": 9666,
+      "sha256": "e9b4679facd92ce53396aca52c2fc262163b4c578ead12bfa61c88985ceb267c"
+    },
+    {
+      "repository": "abedegno/underworld-exhumed",
+      "pin": "9bb626ac33aff70c9b21480bfeafe9d25041b73e",
+      "path": "uw1/Makefile",
+      "url": "https://raw.githubusercontent.com/abedegno/underworld-exhumed/9bb626ac33aff70c9b21480bfeafe9d25041b73e/uw1/Makefile",
+      "bytes": 7242,
+      "sha256": "1c280abf814f83433a57692fb3bea847239071c98a2c18a3e66d600d0de0975b"
+    },
+    {
+      "repository": "abedegno/underworld-exhumed",
+      "pin": "9bb626ac33aff70c9b21480bfeafe9d25041b73e",
+      "path": "uw2/Makefile",
+      "url": "https://raw.githubusercontent.com/abedegno/underworld-exhumed/9bb626ac33aff70c9b21480bfeafe9d25041b73e/uw2/Makefile",
+      "bytes": 8429,
+      "sha256": "03ee121f2e4e64154b56ae18d34404a7e8440a5365c29dc47fb30e0dd8146626"
+    }
+  ]
+}
