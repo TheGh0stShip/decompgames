@@ -1,0 +1,107 @@
+{
+  "date": "2026-10-14T23:36:12.443Z",
+  "scope": "Signal Survey manifest files and corresponding source only",
+  "uploaded": [
+    {
+      "path": "/runtime/signal-survey/stations-v1/game.wasm",
+      "sha256": "09ef81b97d21c852b25672fbcdc8f4d8c6cf47c2f8ea554a398c2ec6737eeaa1",
+      "bytes": 468818
+    },
+    {
+      "path": "/runtime/signal-survey/stations-v1/font-renderer.js",
+      "sha256": "f4afa5aa1d79d7ff2154eb1a682f6b90351dac7a5e70ae5c1958dba57f28b308",
+      "bytes": 953
+    },
+    {
+      "path": "/runtime/signal-survey/stations-v1/game.js",
+      "sha256": "ca6c06ae29a41d225a29970aeb19b24fa65a83969c4029fd7cc28609dcc441e5",
+      "bytes": 148839
+    },
+    {
+      "path": "/runtime/signal-survey/stations-v1/glyphs.js",
+      "sha256": "8c41d3dbea5f2e1f29e7d901c47ebf51002b52ff18060edf06d773659c297b5b",
+      "bytes": 2590
+    },
+    {
+      "path": "/runtime/signal-survey/stations-v1/load-manifest.json",
+      "sha256": "afa346a78770f5dfad943158b2c3cc9b9c256e177af47340e4365be84157ea0a",
+      "bytes": 1099
+    },
+    {
+      "path": "/runtime/signal-survey/stations-v1/loader.js",
+      "sha256": "7bede2cddc11b18f7c6a89a5769ffda3cfa973136daeee58b3f1bf385820897c",
+      "bytes": 2815
+    },
+    {
+      "path": "/runtime/signal-survey/stations-v1/index.html",
+      "sha256": "48d40adc82146f4e24aa4cfd159fb0f2750f9dae40506fc688826a0dd12a287b",
+      "bytes": 1970
+    },
+    {
+      "path": "/runtime/signal-survey/stations-v1/NOTICE.txt",
+      "sha256": "ae8c4b48d54e63ffb235cdd5ac697ff02351d68bce4d33fc061f8fb1f18281ba",
+      "bytes": 83698
+    },
+    {
+      "path": "/runtime/signal-survey/stations-v1/probe.js",
+      "sha256": "6e5a277283a898c2de4243721692da1e29bbca452c7d199bb43f698fc62bb377",
+      "bytes": 5371
+    },
+    {
+      "path": "/runtime/signal-survey/stations-v1/provenance.json",
+      "sha256": "f0030baac1a2ac9dfb5ce97da951656ba68bc9b533de81d27367a3920a9f9ec2",
+      "bytes": 5963
+    },
+    {
+      "path": "/runtime/signal-survey/stations-v1/save-spec.js",
+      "sha256": "b81cb7656c5719ba7e744e27f675891bb004064ceed25bd50e1814c6ebc1cdfe",
+      "bytes": 640
+    },
+    {
+      "path": "/runtime/signal-survey/stations-v1/save-spec.json",
+      "sha256": "b8c587cb1c43e8109cd82f8098048419fd27baef48d772d406fa9cf51664ba30",
+      "bytes": 1053
+    },
+    {
+      "path": "/runtime/signal-survey/stations-v1/sdk-audit.json",
+      "sha256": "7e1db7214d0604853123d288e948d07b166e1f1a3bdb7043bd5ab6747c581975",
+      "bytes": 88952
+    },
+    {
+      "path": "/runtime/signal-survey/stations-v1/survey-content.json",
+      "sha256": "a11508223fb7c2d806640295940197bd533774203c7d63d2a1730b49f738a9db",
+      "bytes": 4613
+    },
+    {
+      "path": "/runtime/signal-survey/stations-v1/glyphs.json",
+      "sha256": "4686f6fe1a8664ee20ec78725c110b9baa205fe17c087f471f72009022daa193",
+      "bytes": 2572
+    },
+    {
+      "path": "/runtime/signal-survey/stations-v1/survey-literal-contracts.json",
+      "sha256": "f0d3a9d74049e71658a6e5f59115bd7c1d5aa2b66e5af19add7110abd2c1b139",
+      "bytes": 41188
+    },
+    {
+      "path": "/runtime/signal-survey/stations-v1/survey-messages.json",
+      "sha256": "552f966e1ceeb059b16a32bbb4013bbeea9b2a5d0ee37f9cd52b7e9b607d275e",
+      "bytes": 132671
+    },
+    {
+      "path": "/runtime/signal-survey/stations-v1/survey-names.json",
+      "sha256": "26658b9027fcf05eee95f12c87369029d148c8d824e69f422eb8c7bf097f8323",
+      "bytes": 5619
+    },
+    {
+      "path": "/runtime/signal-survey/stations-v1/validate-save.js",
+      "sha256": "e012e261036e129f1caeb3cd42e56d820818b2e33c491772a02c581a5f127ab9",
+      "bytes": 9790
+    },
+    {
+      "path": "/sources/signal-survey-stations-v1-source.zip",
+      "sha256": "24548265218ebf4e5b354a1a6dbf6a1082661989fc44d489b9adf91be1a37cb9",
+      "bytes": 282102
+    }
+  ],
+  "failures": []
+}

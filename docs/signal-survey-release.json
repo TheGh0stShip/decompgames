@@ -1,6 +1,6 @@
 {
   "date": "2026-10-14",
-  "status": "Local acceptance passed; production acceptance pending",
+  "status": "Production accepted: authored campaign, browser checkpoint and native Stop verified",
   "catalogCount": 90,
   "strictAdditionalDecompilationMilestone": "4/5",
   "classification": "Rogue developer-source port with independently authored campaign",
@@ -45,7 +45,9 @@
     "localDistributionFilesIncludingSource": 20,
     "muted": true,
     "playersClosed": true,
-    "audiblePlayback": "Unavailable/unverified"
+    "audiblePlayback": "Unavailable/unverified",
+    "productionSite": "passed",
+    "productionDistributionFilesIncludingSource": 20
   },
   "limits": [
     "Original Rogue dungeon and all item/command modes not certified",
@@ -57,5 +59,26 @@
     "Mario Party 2/3",
     "Halo",
     "Private ROM research"
-  ]
+  ],
+  "implementationCommit": "096150c",
+  "deployment": {
+    "id": "56e2433a",
+    "preview": "https://56e2433a.decompgames.pages.dev",
+    "production": "https://decompgames.com/games/signal-survey/"
+  },
+  "staticVerification": {
+    "astroErrors": 0,
+    "astroWarnings": 0,
+    "astroHints": 7,
+    "astroFiles": 108,
+    "buildPages": 154,
+    "catalogEntries": 90,
+    "distributionFiles": 816,
+    "auditedManifests": 14
+  },
+  "upload": {
+    "status": "passed",
+    "files": 20
+  },
+  "productionReceipt": "docs/signal-survey-production-site.json"
 }
