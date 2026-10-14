@@ -1,0 +1,1412 @@
+{
+  "recordedAt": "2026-10-14T04:47:02.580474+00:00",
+  "previousMilestone": "eldritch-fresh-native-build-2026-10-14.json",
+  "classification": "Original authored replacement-content challenge using original developer-released Eldritch code; not decompilation, retail campaign, emulation or certified clean-room work",
+  "privateSourcePackage": {
+    "archive": "beacon-yard-source-candidate-v1.zip",
+    "sha256": "b30938b66698b56b95d7c8cfa98acc59e4e5969b45b368c1f30490ee311e1b59",
+    "archiveBytes": 1327796,
+    "files": 956,
+    "selectedProjectInputs": 915,
+    "nativeSources": 438,
+    "currentAuthoredResources": 29,
+    "consolidatedAssetManifest": true,
+    "legacyAssetManifestsExcluded": true,
+    "prototypeHelpCorrected": true,
+    "portableRecipe": true,
+    "freshReplayDirectory": "portable-source-replay-v1",
+    "compiled": false,
+    "distributed": false,
+    "wholeSelectedNoticeClosureCertified": false
+  },
+  "sourcePackaging": {
+    "archiveHashVerified": true,
+    "archiveMembers": 956,
+    "manifestFiles": 955,
+    "manifestSha256": "65b9d53867d2ab25f80936a91004e545ef2bf3a59c16a416008f9d5c53bcd4fe",
+    "selectedProjectSourceAndHeaders": 915,
+    "nativeSources": 438,
+    "originalDeveloperNoticeRetained": true,
+    "alteredSourceFilesIdentified": true,
+    "authoredCodeFullMitNoticeIncluded": true,
+    "binaryObjectsSdkToolsRetailPackagesAndRomsExcluded": true,
+    "portableRecipeUsesOnlyPackageInputsAndConfiguredSdk": true,
+    "dependencySdkSourceAndBinariesNotBundled": true,
+    "sdkRequired": "Configured Emscripten 6.0.10; exact SDK/runtime notices still pending",
+    "recipeSha256": "20901c1a8aedaebcd2d32d15c5ff019ab361b4904c8be26497b14bb84568b411",
+    "recipeManifestSha256": "dec33effa5b82d2c03e7b1e7da6fd530e281b10e97f6a8c6c80881bcbb181859",
+    "testSha256": "7ba434b031bf7cade0fa65244a97978fa455f10d4032476ddeb37afd28976bad",
+    "earlierProbeDirectoryRequired": false
+  },
+  "authoredAssets": {
+    "currentResources": 29,
+    "dataLicense": "CC0-1.0",
+    "shadersLicense": "MIT",
+    "independentOriginDeclared": true,
+    "originalRetailInputs": false,
+    "romRequired": false,
+    "oneCurrentManifest": true,
+    "manifestSha256": "056cb68628a6728af3c1eb4983b849ba78d1443358dd90f8a32b76ab90af7475",
+    "legacyFixtureManifestsExcluded": true,
+    "helpCorrectedToWASDArrowTurnAndE": true,
+    "mapPlanUpdatedToNativeCompletedTerminal": true,
+    "files": [
+      {
+        "path": "Audio/beacon.wav",
+        "bytes": 6660,
+        "sha256": "5b9e64ee94faed26e1ee1f74ad241f75142f803df911175973880e4f7f8f7639",
+        "kind": "Original mathematical sine/fade cue; audible testing unauthorized/unverified",
+        "license": "CC0-1.0",
+        "origin": "Independently authored Beacon Yard replacement; no retail asset or ROM input"
+      },
+      {
+        "path": "Audio/gate.wav",
+        "bytes": 6660,
+        "sha256": "04884359a6ae98676353a528239138a88a5c79f8e58430b8c443bff6330e0101",
+        "kind": "Original mathematical sine/fade cue; audible testing unauthorized/unverified",
+        "license": "CC0-1.0",
+        "origin": "Independently authored Beacon Yard replacement; no retail asset or ROM input"
+      },
+      {
+        "path": "Audio/step.wav",
+        "bytes": 6660,
+        "sha256": "8f1f1c78b549405ff606a38adb94f59bd354b0d0813d3b79a4367bc70a296f7f",
+        "kind": "Original mathematical sine/fade cue; audible testing unauthorized/unverified",
+        "license": "CC0-1.0",
+        "origin": "Independently authored Beacon Yard replacement; no retail asset or ROM input"
+      },
+      {
+        "path": "CC0-ASSETS.txt",
+        "bytes": 313,
+        "sha256": "d08792591c1b1d4de1767840f2ae42ad45df6c41537e9e373f71df027736e7ff",
+        "kind": "Authorship and license declaration",
+        "license": "CC0-1.0",
+        "origin": "Independently authored Beacon Yard replacement; no retail asset or ROM input"
+      },
+      {
+        "path": "Config/content.ccf",
+        "bytes": 695,
+        "sha256": "451e82617cff4b0eeec459c6221de108f46629db378f2361f64bf8670f9fd9d0",
+        "kind": "Original prototype program/config data; text parser route",
+        "license": "CC0-1.0",
+        "origin": "Independently authored Beacon Yard replacement; no retail asset or ROM input"
+      },
+      {
+        "path": "Config/default.ccf",
+        "bytes": 1307,
+        "sha256": "780bd21681ec0d855efe1a7a24c167ecbc09b62b9fd676ce191c87deadc26609",
+        "license": "CC0-1.0",
+        "origin": "Independently authored Beacon Yard replacement; no retail asset or ROM input"
+      },
+      {
+        "path": "Config/yard.ccf",
+        "bytes": 6769,
+        "sha256": "3f6e3e4d51079855d0dd30b5c3f3fe2db4d433618c151092e9b3df7f8d9a44b7",
+        "license": "CC0-1.0",
+        "origin": "Independently authored Beacon Yard replacement; no retail asset or ROM input"
+      },
+      {
+        "path": "Fonts/glyph-design.json",
+        "bytes": 4475,
+        "sha256": "3660b80eba87683cad9ac560e2eac2f39f7a89a84dabbd4cb1417f72f44c5d59",
+        "kind": "Own glyph design source",
+        "license": "CC0-1.0",
+        "origin": "Independently authored Beacon Yard replacement; no retail asset or ROM input"
+      },
+      {
+        "path": "Fonts/grid.fnp",
+        "bytes": 3479,
+        "sha256": "6cfc1e7446c94952971c67adb71281240d7cb498c419a74ebbe6ca156380ad09",
+        "kind": "Own glyph metrics in the native remaster font format",
+        "license": "CC0-1.0",
+        "origin": "Independently authored Beacon Yard replacement; no retail asset or ROM input"
+      },
+      {
+        "path": "Fonts/grid.tga",
+        "bytes": 32786,
+        "sha256": "5d083913bd066cab30905fd70ba7958a4254be42255ac34a541d695735b39243",
+        "kind": "Original ASCII grid glyph bitmap",
+        "license": "CC0-1.0",
+        "origin": "Independently authored Beacon Yard replacement; no retail asset or ROM input"
+      },
+      {
+        "path": "Fonts/hud.fnp",
+        "bytes": 3478,
+        "sha256": "54fc7b84319b3ef949a8524e46db48d92c3ea647840f1f40138050b9104478d4",
+        "license": "CC0-1.0",
+        "origin": "Independently authored Beacon Yard replacement; no retail asset or ROM input"
+      },
+      {
+        "path": "Fonts/hud.tga",
+        "bytes": 32786,
+        "sha256": "9854c6ee0cb5bdfb0aea84c4f3582f5fb086d76d2092039e7d1c0cbe832d5ebd",
+        "license": "CC0-1.0",
+        "origin": "Independently authored Beacon Yard replacement; no retail asset or ROM input"
+      },
+      {
+        "path": "Meshes/beacon.cms",
+        "bytes": 2180,
+        "sha256": "cb016ff4f7306809858b52b79ff92be44a459bfe530d491d846cd4f9a9f7db44",
+        "kind": "Original skeletal beacon geometry and 30-frame pulse animation",
+        "license": "CC0-1.0",
+        "origin": "Independently authored Beacon Yard replacement; no retail asset or ROM input"
+      },
+      {
+        "path": "Rooms/beacon-yard.eldroom",
+        "bytes": 1285,
+        "sha256": "fe5d163aa33adb70209a7c3ca5d0a334b77b8935be7f706ab4ff78c22c82fc1c",
+        "kind": "Original voxel room and spawner layout",
+        "license": "CC0-1.0",
+        "origin": "Independently authored Beacon Yard replacement; no retail asset or ROM input"
+      },
+      {
+        "path": "Shaders/animated.vs",
+        "bytes": 335,
+        "sha256": "88177c1f40d247652ece5599dd5886cc338e6de5a249a539d1debdb6d5a2dda1",
+        "license": "MIT",
+        "origin": "Independently authored Beacon Yard replacement; no retail asset or ROM input"
+      },
+      {
+        "path": "Shaders/hud.fs",
+        "bytes": 239,
+        "sha256": "a5e6e8aea95160201ef1f7e1ef9e8473b35e3f01bbcaaf87474b96f2018c6b89",
+        "license": "MIT",
+        "origin": "Independently authored Beacon Yard replacement; no retail asset or ROM input"
+      },
+      {
+        "path": "Shaders/hud.vs",
+        "bytes": 289,
+        "sha256": "40668ff7760bacb0758f27296c4d9c964551a977601ad840ac28783cb8056b56",
+        "license": "MIT",
+        "origin": "Independently authored Beacon Yard replacement; no retail asset or ROM input"
+      },
+      {
+        "path": "Shaders/yard.fs",
+        "bytes": 136,
+        "sha256": "486fb0c796a7066bfcb9e56ac4e65ad8562d707e66c6c5f658b3920c9fb7e5f8",
+        "kind": "Authored basic fragment shader",
+        "license": "MIT",
+        "origin": "Independently authored Beacon Yard replacement; no retail asset or ROM input"
+      },
+      {
+        "path": "Shaders/yard.vs",
+        "bytes": 140,
+        "sha256": "6656995ce484f8bee0fa765e594014661eeb1c865fbf5f236c4c3f079de9d751",
+        "kind": "Authored basic vertex shader",
+        "license": "MIT",
+        "origin": "Independently authored Beacon Yard replacement; no retail asset or ROM input"
+      },
+      {
+        "path": "Text/help.txt",
+        "bytes": 243,
+        "sha256": "8b2b226377b89fc6641305cca0acecde3b2c00ba066a0c8b656f3d6994ac1b1d",
+        "kind": "Original title, instructions and edition description",
+        "license": "CC0-1.0",
+        "origin": "Independently authored Beacon Yard replacement; no retail asset or ROM input"
+      },
+      {
+        "path": "Textures/beacon-active.tga",
+        "bytes": 1042,
+        "sha256": "b10f916df608b8173459bde43b625b775d97bfca13d5c4640724ceaad9843e12",
+        "license": "CC0-1.0",
+        "origin": "Independently authored Beacon Yard replacement; no retail asset or ROM input"
+      },
+      {
+        "path": "Textures/beacon.tga",
+        "bytes": 1042,
+        "sha256": "2314389c06b925e5d165e7fb429ca1004a2cf3e55ba671dcc704fcb5f77b6ad6",
+        "kind": "Original beacon surface",
+        "license": "CC0-1.0",
+        "origin": "Independently authored Beacon Yard replacement; no retail asset or ROM input"
+      },
+      {
+        "path": "Textures/default.tga",
+        "bytes": 34,
+        "sha256": "a2872e99b424279ba542b10f23e5ef3203587892a026271ec8af70a773d96291",
+        "kind": "Original fallback texture",
+        "license": "CC0-1.0",
+        "origin": "Independently authored Beacon Yard replacement; no retail asset or ROM input"
+      },
+      {
+        "path": "Textures/gate.tga",
+        "bytes": 1042,
+        "sha256": "8f45eeda39578bf4f2874aa44e9a2ace667ee7c4dc124f69c63e0e5e4469a9e4",
+        "license": "CC0-1.0",
+        "origin": "Independently authored Beacon Yard replacement; no retail asset or ROM input"
+      },
+      {
+        "path": "Textures/icon.bmp",
+        "bytes": 822,
+        "sha256": "a5f012574a8a0b1a1b8ecb82b9a4301297e74fc11d3aa41ec22685683cbf23b7",
+        "license": "CC0-1.0",
+        "origin": "Independently authored Beacon Yard replacement; no retail asset or ROM input"
+      },
+      {
+        "path": "Textures/normal.tga",
+        "bytes": 34,
+        "sha256": "b37f1caa8b852a6f78c1ad24445a9960a5915c5872b8360dcc78120a6b0a88a7",
+        "kind": "Original fallback texture",
+        "license": "CC0-1.0",
+        "origin": "Independently authored Beacon Yard replacement; no retail asset or ROM input"
+      },
+      {
+        "path": "Textures/specular.tga",
+        "bytes": 34,
+        "sha256": "f7795f440cd3ab024f8a5060a0bc83798e94ff260dcd93fb810da2ad7fcce4e1",
+        "kind": "Original fallback texture",
+        "license": "CC0-1.0",
+        "origin": "Independently authored Beacon Yard replacement; no retail asset or ROM input"
+      },
+      {
+        "path": "Textures/yard-tiles.tga",
+        "bytes": 65554,
+        "sha256": "fac23e2535d4f6eb2906cd633c7b6151e2f518ce5538aa3172bd7862c6d6c3df",
+        "kind": "Original procedural tile atlas",
+        "license": "CC0-1.0",
+        "origin": "Independently authored Beacon Yard replacement; no retail asset or ROM input"
+      },
+      {
+        "path": "map-plan.json",
+        "bytes": 1182,
+        "sha256": "e9efd0d401b93ce090ccfb7d7927d1a992d6715c2d632dd71cf57e42d6bcded6",
+        "kind": "Original level/goal specification",
+        "license": "CC0-1.0",
+        "origin": "Independently authored Beacon Yard replacement; no retail asset or ROM input"
+      }
+    ]
+  },
+  "extractedPackageBuild": {
+    "recordedAt": "2026-10-14T04:37:23.722599+00:00",
+    "packageManifestSha256": "65b9d53867d2ab25f80936a91004e545ef2bf3a59c16a416008f9d5c53bcd4fe",
+    "portableRecipe": true,
+    "sourcesHashVerified": true,
+    "selectedNativeTranslationUnits": 438,
+    "baselineObjectsReused": 0,
+    "compileFailed": 0,
+    "linkExitCode": 0,
+    "outputs": [
+      {
+        "path": "entry.js",
+        "bytes": 445468,
+        "sha256": "7bc58ecafd2b115e267b9816d24bbc8472eda488fb53a9f399edfc3562797a05"
+      },
+      {
+        "path": "entry.wasm",
+        "bytes": 3439766,
+        "sha256": "1a0be2fedae9d3a22fb6a5098e693af84e3d1fb5862c9a896846c9185914e2fa"
+      },
+      {
+        "path": "entry.data",
+        "bytes": 191428,
+        "sha256": "d5765a14de4781a7a96904c85ad51418c8ad984c0b5defaf41044771c3ae7590"
+      }
+    ],
+    "gameplayVerified": false,
+    "wholeNoticeClosureCertified": false,
+    "distributed": false
+  },
+  "nativeAcceptance": {
+    "date": "2026-10-14T04:37:58.967Z",
+    "muted": true,
+    "errors": [],
+    "missing": [],
+    "external": [],
+    "logs": [
+      "Checking user data path...",
+      "  /beacon-save/",
+      "Version: ",
+      "Initializing factories...",
+      "Initializing SDP factories.",
+      "Initializing UI factories.",
+      "Initializing anim event factories.",
+      "Initializing PE factories.",
+      "Initializing action factories.",
+      "Initializing BT factories.",
+      "Initializing component factories.",
+      "Factories initialized.",
+      "Initializing input system.",
+      "Framework3D::Initialize",
+      "Random seed is 17",
+      "Initializing display...",
+      "Desired display mode: 960x540 / windowed / no upscaling / no vsync",
+      "Setting display resolution...",
+      "Enumerating SDL display modes...",
+      "Enumerated mode 1000x580",
+      "Could not find a more suitable display mode.",
+      "Using display mode 960x540",
+      "SoLoud backend: null driver",
+      "Using OpenGL renderer.",
+      "DecompGames float render targets: enabled",
+      "EldFramework::CreateHUDView",
+      "EldFramework::CreateMirrorView",
+      "EldFramework::CreateMinimapView",
+      "EldFramework::CreateBuckets",
+      "Checking saved game path",
+      "Initializing game.",
+      "Voxel mem.: 1960 Irradiance mem.: 188160",
+      "Eld initialization complete.",
+      "Beacon Yard activated slot 0; mask 1.",
+      "S/L: Creating master file /beacon-save/checkpoint.eldritchmastersave",
+      "S/L: Creating master file /beacon-save/main.eldritchmastersave",
+      "S/L: Creating master file /beacon-save/main.eldritchmastersave",
+      "Traveling to level YardLevel",
+      "S/L: Flushing world files:",
+      "Voxel mem.: 1960 Irradiance mem.: 188160",
+      "Travel finished",
+      "S/L: Creating master file /beacon-save/main.eldritchmastersave",
+      "S/L: Flushing world files:",
+      "S/L: Restoring master file /beacon-save/checkpoint.eldritchmastersave",
+      "S/L: Restoring world files:",
+      "Beacon Yard activated slot 1; mask 3.",
+      "Beacon Yard activated slot 2; mask 7.",
+      "Beacon Yard objective complete.",
+      "S/L: Creating master file /beacon-save/checkpoint.eldritchmastersave",
+      "S/L: Creating master file /beacon-save/main.eldritchmastersave",
+      "Shutting down game",
+      "S/L: Creating master file /beacon-save/main.eldritchmastersave",
+      "S/L: Flushing world files:",
+      "Shutting down framework",
+      "Checking user data path...",
+      "  /beacon-save/",
+      "Version: ",
+      "Initializing factories...",
+      "Initializing SDP factories.",
+      "Initializing UI factories.",
+      "Initializing anim event factories.",
+      "Initializing PE factories.",
+      "Initializing action factories.",
+      "Initializing BT factories.",
+      "Initializing component factories.",
+      "Factories initialized.",
+      "Initializing input system.",
+      "Framework3D::Initialize",
+      "Random seed is 17",
+      "Initializing display...",
+      "Desired display mode: 960x540 / windowed / no upscaling / no vsync",
+      "Setting display resolution...",
+      "Enumerating SDL display modes...",
+      "Enumerated mode 1000x580",
+      "Could not find a more suitable display mode.",
+      "Using display mode 960x540",
+      "SoLoud backend: null driver",
+      "Using OpenGL renderer.",
+      "DecompGames float render targets: enabled",
+      "EldFramework::CreateHUDView",
+      "EldFramework::CreateMirrorView",
+      "EldFramework::CreateMinimapView",
+      "EldFramework::CreateBuckets",
+      "Checking saved game path",
+      "Initializing game.",
+      "Voxel mem.: 1960 Irradiance mem.: 188160",
+      "S/L: Flushing world files:",
+      "S/L: Restoring master file /beacon-save/main.eldritchmastersave",
+      "S/L: Restoring world files:",
+      "Eld initialization complete.",
+      "Shutting down game",
+      "S/L: Creating master file /beacon-save/main.eldritchmastersave",
+      "S/L: Flushing world files:",
+      "Shutting down framework"
+    ],
+    "audioContextsCreated": 0,
+    "audibleAudioVerified": false,
+    "scope": "Actual native authored courtyard objective via keyboard movement/turning/raycast interaction",
+    "journey": [
+      {
+        "interaction": "gate before beacons",
+        "player": true,
+        "position": [
+          4.687956,
+          9.901049,
+          2.75
+        ],
+        "dimensions": [
+          14,
+          14,
+          10
+        ],
+        "health": 5,
+        "landed": true,
+        "gameTime": 8.41671,
+        "focus": true,
+        "glError": 0,
+        "yaw": 1.133334,
+        "pitch": 0,
+        "mask": 0,
+        "complete": false,
+        "gateDenied": 1,
+        "actorCount": 4,
+        "animationTime": 0.416665,
+        "target": "EXIT GATE",
+        "status": "GATE LOCKED - ACTIVATE ALL THREE BEACONS",
+        "eyeZ": 3.55,
+        "rayHitSelf": false,
+        "rayHitT": 0.989132,
+        "actorActivatedMask": 0
+      },
+      {
+        "interaction": "beacon A",
+        "player": true,
+        "position": [
+          4.816483,
+          8.503975,
+          2.75
+        ],
+        "dimensions": [
+          14,
+          14,
+          10
+        ],
+        "health": 5,
+        "landed": true,
+        "gameTime": 12.216652,
+        "focus": true,
+        "glError": 0,
+        "yaw": 1.6,
+        "pitch": 0,
+        "mask": 1,
+        "complete": false,
+        "gateDenied": 1,
+        "actorCount": 4,
+        "animationTime": 0.216664,
+        "target": "BEACON A",
+        "status": "BEACONS 1/3 - FIND THE NEXT BEACON",
+        "eyeZ": 3.55,
+        "rayHitSelf": false,
+        "rayHitT": 0.939228,
+        "actorActivatedMask": 1
+      },
+      {
+        "interaction": "beacon A duplicate",
+        "player": true,
+        "position": [
+          4.816483,
+          8.503975,
+          2.75
+        ],
+        "dimensions": [
+          14,
+          14,
+          10
+        ],
+        "health": 5,
+        "landed": true,
+        "gameTime": 13.566631,
+        "focus": true,
+        "glError": 0,
+        "yaw": 1.6,
+        "pitch": 0,
+        "mask": 1,
+        "complete": false,
+        "gateDenied": 1,
+        "actorCount": 4,
+        "animationTime": 0.049997,
+        "target": "BEACON A",
+        "status": "THIS BEACON IS ALREADY ACTIVE",
+        "eyeZ": 3.55,
+        "rayHitSelf": false,
+        "rayHitT": 0.939228,
+        "actorActivatedMask": 1
+      },
+      {
+        "interaction": "beacon B",
+        "player": true,
+        "position": [
+          10.520879,
+          7.993427,
+          2.75
+        ],
+        "dimensions": [
+          14,
+          14,
+          10
+        ],
+        "health": 5,
+        "landed": true,
+        "gameTime": 23.449814,
+        "focus": true,
+        "glError": 0,
+        "yaw": 6.299995,
+        "pitch": 0,
+        "mask": 3,
+        "complete": false,
+        "gateDenied": 1,
+        "actorCount": 4,
+        "animationTime": 0.933328,
+        "target": "BEACON B",
+        "status": "BEACONS 2/3 - FIND THE NEXT BEACON",
+        "eyeZ": 3.55,
+        "rayHitSelf": false,
+        "rayHitT": 1,
+        "actorActivatedMask": 3
+      },
+      {
+        "interaction": "beacon C",
+        "player": true,
+        "position": [
+          10.546409,
+          5.014911,
+          2.75
+        ],
+        "dimensions": [
+          14,
+          14,
+          10
+        ],
+        "health": 5,
+        "landed": true,
+        "gameTime": 28.149742,
+        "focus": true,
+        "glError": 0,
+        "yaw": 9.433346,
+        "pitch": 0,
+        "mask": 7,
+        "complete": false,
+        "gateDenied": 1,
+        "actorCount": 4,
+        "animationTime": 0.633327,
+        "target": "BEACON C",
+        "status": "BEACONS 3/3 - RETURN TO THE GATE",
+        "eyeZ": 3.55,
+        "rayHitSelf": false,
+        "rayHitT": 1,
+        "actorActivatedMask": 7
+      },
+      {
+        "interaction": "gate after three beacons",
+        "player": true,
+        "position": [
+          4.709879,
+          9.896353,
+          2.75
+        ],
+        "dimensions": [
+          14,
+          14,
+          10
+        ],
+        "health": 5,
+        "landed": true,
+        "gameTime": 40.066227,
+        "focus": true,
+        "glError": 0,
+        "yaw": 7.399994,
+        "pitch": 0,
+        "mask": 7,
+        "complete": true,
+        "gateDenied": 1,
+        "actorCount": 4,
+        "animationTime": 0.549991,
+        "target": "EXIT GATE",
+        "status": "BEACONS 3/3 - YARD RESTORED",
+        "eyeZ": 3.55,
+        "rayHitSelf": false,
+        "rayHitT": 1,
+        "actorActivatedMask": 15
+      }
+    ],
+    "initial": {
+      "player": true,
+      "position": [
+        3.5,
+        3.5,
+        2.75
+      ],
+      "dimensions": [
+        14,
+        14,
+        10
+      ],
+      "health": 5,
+      "landed": true,
+      "gameTime": 0.85,
+      "focus": true,
+      "glError": 0,
+      "yaw": 0,
+      "pitch": 0,
+      "mask": 0,
+      "complete": false,
+      "gateDenied": 0,
+      "actorCount": 4,
+      "animationTime": 0.85,
+      "target": "",
+      "status": "BEACONS 0/3 - FIND THE NEXT BEACON",
+      "eyeZ": 3.55,
+      "rayHitSelf": false,
+      "rayHitT": 1,
+      "actorActivatedMask": 0
+    },
+    "partialBefore": {
+      "player": true,
+      "position": [
+        4.816483,
+        8.503975,
+        2.75
+      ],
+      "dimensions": [
+        14,
+        14,
+        10
+      ],
+      "health": 5,
+      "landed": true,
+      "gameTime": 12.216652,
+      "focus": true,
+      "glError": 0,
+      "yaw": 1.6,
+      "pitch": 0,
+      "mask": 1,
+      "complete": false,
+      "gateDenied": 1,
+      "actorCount": 4,
+      "animationTime": 0.216664,
+      "target": "BEACON A",
+      "status": "BEACONS 1/3 - FIND THE NEXT BEACON",
+      "eyeZ": 3.55,
+      "rayHitSelf": false,
+      "rayHitT": 0.939228,
+      "actorActivatedMask": 1
+    },
+    "partialSaveBytes": 589,
+    "partialSaveSha256": "c5711f5e4d2045d47377beaf99ab46fd7b15448e0a279ac22574c813da4a0af9",
+    "restart": {
+      "player": true,
+      "position": [
+        3.5,
+        3.5,
+        2.75
+      ],
+      "dimensions": [
+        14,
+        14,
+        10
+      ],
+      "health": 5,
+      "landed": true,
+      "gameTime": 12.733311,
+      "focus": true,
+      "glError": 0,
+      "yaw": 0,
+      "pitch": 0,
+      "mask": 0,
+      "complete": false,
+      "gateDenied": 0,
+      "actorCount": 4,
+      "animationTime": 0.366667,
+      "target": "BEACON A",
+      "status": "BEACONS 0/3 - FIND THE NEXT BEACON",
+      "eyeZ": 3.55,
+      "rayHitSelf": false,
+      "rayHitT": 1,
+      "actorActivatedMask": 0
+    },
+    "restartVerified": true,
+    "partialRestored": {
+      "player": true,
+      "position": [
+        4.816483,
+        8.503975,
+        2.75
+      ],
+      "dimensions": [
+        14,
+        14,
+        10
+      ],
+      "health": 5,
+      "landed": true,
+      "gameTime": 13.066639,
+      "focus": true,
+      "glError": 0,
+      "yaw": 1.6,
+      "pitch": 0,
+      "mask": 1,
+      "complete": false,
+      "gateDenied": 1,
+      "actorCount": 4,
+      "animationTime": 0.549997,
+      "target": "BEACON A",
+      "status": "BEACONS 1/3 - FIND THE NEXT BEACON",
+      "eyeZ": 3.55,
+      "rayHitSelf": false,
+      "rayHitT": 0.939228,
+      "actorActivatedMask": 1
+    },
+    "nativePartialSaveRestoreVerified": true,
+    "objectiveVerified": true,
+    "gameplayVerified": true,
+    "gameplayScope": "Authored courtyard objective through native movement, keyboard turning and raycast activation; no retail campaign",
+    "keyboardTurnVerified": true,
+    "nativeAnimationPlaybackObserved": true,
+    "duplicateActivationRejected": true,
+    "earlyGateRejected": true,
+    "persistenceVerified": true,
+    "completedBeforeSave": {
+      "player": true,
+      "position": [
+        4.709879,
+        9.896353,
+        2.75
+      ],
+      "dimensions": [
+        14,
+        14,
+        10
+      ],
+      "health": 5,
+      "landed": true,
+      "gameTime": 40.066227,
+      "focus": true,
+      "glError": 0,
+      "yaw": 7.399994,
+      "pitch": 0,
+      "mask": 7,
+      "complete": true,
+      "gateDenied": 1,
+      "actorCount": 4,
+      "animationTime": 0.549991,
+      "target": "EXIT GATE",
+      "status": "BEACONS 3/3 - YARD RESTORED",
+      "eyeZ": 3.55,
+      "rayHitSelf": false,
+      "rayHitT": 1,
+      "actorActivatedMask": 15
+    },
+    "completedSaveBytes": 567,
+    "shutdown": {
+      "completed": true,
+      "currentContext": "absent",
+      "registeredContexts": 0,
+      "objects": {
+        "Buffer": {
+          "created": 352,
+          "deleted": 352,
+          "live": 0
+        },
+        "Texture": {
+          "created": 14,
+          "deleted": 14,
+          "live": 0
+        },
+        "Framebuffer": {
+          "created": 5,
+          "deleted": 5,
+          "live": 0
+        },
+        "Renderbuffer": {
+          "created": 3,
+          "deleted": 3,
+          "live": 0
+        },
+        "Shader": {
+          "created": 5,
+          "deleted": 5,
+          "live": 0
+        },
+        "Program": {
+          "created": 5,
+          "deleted": 5,
+          "live": 0
+        },
+        "VertexArray": {
+          "created": 0,
+          "deleted": 0,
+          "live": 0
+        }
+      }
+    },
+    "nativeShutdownVerified": true,
+    "completedAfterBrowserRestart": {
+      "player": true,
+      "position": [
+        4.709879,
+        9.896353,
+        2.75
+      ],
+      "dimensions": [
+        14,
+        14,
+        10
+      ],
+      "health": 5,
+      "landed": true,
+      "gameTime": 0.3,
+      "focus": true,
+      "glError": 0,
+      "yaw": 7.399994,
+      "pitch": 0,
+      "mask": 7,
+      "complete": true,
+      "gateDenied": 1,
+      "actorCount": 4,
+      "animationTime": 0.016657,
+      "target": "EXIT GATE",
+      "status": "BEACONS 3/3 - YARD RESTORED",
+      "eyeZ": 3.55,
+      "rayHitSelf": false,
+      "rayHitT": 1,
+      "actorActivatedMask": 15
+    },
+    "nativeCompletedDurableRestoreVerified": true,
+    "assertionsPassed": true,
+    "browserClosed": true,
+    "serverClosed": true
+  },
+  "sdkMemberSourceMap": {
+    "archiveFamilies": 10,
+    "selectedMembers": 398,
+    "mappedMembers": 398,
+    "unresolved": 0,
+    "privateFullMapSha256": "c4a3237c6ace7fc97960ab86456d7019df6d2274a9959ec32968b9fda1e4f6e4",
+    "sdkRecipeSha256": "a44aa9d2bfd971484b560a2c27cb5b032b23d2b75b11d871b3d91b593f4bb913",
+    "sdlRecipeSha256": "c82c75a8fc54136afb7446c21a6acdf65957531d8482b839ad494fc3c2dbdfec",
+    "families": [
+      {
+        "archive": "libGL-webgl2-getprocaddr.a",
+        "selectedMembers": 4,
+        "mappedMembers": 4,
+        "recipeBasis": "Installed Emscripten tools/system_libs.py Library variant libGL-webgl2-getprocaddr"
+      },
+      {
+        "archive": "libSDL2.a",
+        "selectedMembers": 84,
+        "mappedMembers": 84,
+        "recipeBasis": "Installed Emscripten tools/ports/sdl2.py explicit srcs with non-pthread generic thread backend"
+      },
+      {
+        "archive": "libc++-debug-noexcept.a",
+        "selectedMembers": 14,
+        "mappedMembers": 14,
+        "recipeBasis": "Installed Emscripten tools/system_libs.py Library variant libc++-debug-noexcept"
+      },
+      {
+        "archive": "libc++abi-debug-noexcept.a",
+        "selectedMembers": 9,
+        "mappedMembers": 9,
+        "recipeBasis": "Installed Emscripten tools/system_libs.py Library variant libc++abi-debug-noexcept"
+      },
+      {
+        "archive": "libc-debug.a",
+        "selectedMembers": 263,
+        "mappedMembers": 263,
+        "recipeBasis": "Installed Emscripten tools/system_libs.py Library variant libc-debug"
+      },
+      {
+        "archive": "libclang_rt.builtins.a",
+        "selectedMembers": 18,
+        "mappedMembers": 18,
+        "recipeBasis": "Installed Emscripten tools/system_libs.py Library variant libclang_rt.builtins"
+      },
+      {
+        "archive": "libdlmalloc-debug.a",
+        "selectedMembers": 2,
+        "mappedMembers": 2,
+        "recipeBasis": "Installed Emscripten tools/system_libs.py Library variant libdlmalloc-debug"
+      },
+      {
+        "archive": "libhtml5.a",
+        "selectedMembers": 1,
+        "mappedMembers": 1,
+        "recipeBasis": "Installed Emscripten tools/system_libs.py Library variant libhtml5"
+      },
+      {
+        "archive": "libnoexit.a",
+        "selectedMembers": 1,
+        "mappedMembers": 1,
+        "recipeBasis": "Installed Emscripten tools/system_libs.py Library variant libnoexit"
+      },
+      {
+        "archive": "libstubs-debug.a",
+        "selectedMembers": 2,
+        "mappedMembers": 2,
+        "recipeBasis": "Installed Emscripten tools/system_libs.py Library variant libstubs-debug"
+      }
+    ],
+    "scope": "Exact link-trace archive member names mapped against installed SDK source-selection recipes and deterministic basename collision rules; not binary/source reproducibility or complete recursive-header notice certification",
+    "binarySourceReproducibilityCertified": false
+  },
+  "jsLibraryReplay": {
+    "loadedLibraries": 41,
+    "settingsSha256": "419dfa36b4996d6832896238da6e761a4b4a25039a4d32a98095046a48963089",
+    "privateInputInventorySha256": "e235b6e1567fe32f6d13e0d95752580c257ddf7aef055e33c9fab431fbeac18b",
+    "libraries": [
+      {
+        "path": "src/lib/libaddfunction.js",
+        "sha256": "56e587c41a15a2705994e9bfd867bcb48a2d9fda50d177ad206f70525975ebc1",
+        "spdx": [
+          "MIT"
+        ],
+        "copyrightMarkers": [
+          "* Copyright 2020 The Emscripten Authors"
+        ]
+      },
+      {
+        "path": "src/lib/libasync.js",
+        "sha256": "b32ed147daafc5406faf23d1dee1410c2ae2b78b6b68f0e1b0c425f812970e1b",
+        "spdx": [
+          "MIT"
+        ],
+        "copyrightMarkers": [
+          "* Copyright 2014 The Emscripten Authors"
+        ]
+      },
+      {
+        "path": "src/lib/libbrowser.js",
+        "sha256": "47e749623daf9f8856df98fb9c8505fab0807d2a404e4a0e9f1143e84bf77231",
+        "spdx": [
+          "MIT"
+        ],
+        "copyrightMarkers": [
+          "* Copyright 2011 The Emscripten Authors"
+        ]
+      },
+      {
+        "path": "src/lib/libccall.js",
+        "sha256": "f6197b37fbbd3f8166b98d66590ff753c7b68ece2108c0b054e238c4d4504537",
+        "spdx": [
+          "MIT"
+        ],
+        "copyrightMarkers": [
+          "* Copyright 2022 The Emscripten Authors"
+        ]
+      },
+      {
+        "path": "src/lib/libcore.js",
+        "sha256": "3541e1c16fab338449bf7267954cb15b85f742e7221557499f08e3aefe57b487",
+        "spdx": [
+          "MIT"
+        ],
+        "copyrightMarkers": [
+          "* Copyright 2010 The Emscripten Authors"
+        ]
+      },
+      {
+        "path": "src/lib/libegl.js",
+        "sha256": "5dcac7a6204a57c974dbbbcd74edd2cbd62ade618cb7759f332ca4516d493346",
+        "spdx": [
+          "MIT"
+        ],
+        "copyrightMarkers": [
+          "* Copyright 2012 The Emscripten Authors"
+        ]
+      },
+      {
+        "path": "src/lib/libepoll.js",
+        "sha256": "91e6d974e172a1ab93115949a233ff5e505afdc8e7587c3ed240b85bcb5ef8a7",
+        "spdx": [
+          "MIT"
+        ],
+        "copyrightMarkers": [
+          "* Copyright 2026 The Emscripten Authors"
+        ]
+      },
+      {
+        "path": "src/lib/libeventloop.js",
+        "sha256": "e54ad5e934dc036fa6176bbc297f8f1a6ac832aa13b3103e47bc25340b5ead8f",
+        "spdx": [
+          "MIT"
+        ],
+        "copyrightMarkers": [
+          "* Copyright 2010 The Emscripten Authors"
+        ]
+      },
+      {
+        "path": "src/lib/libexceptions.js",
+        "sha256": "9fb0d8d524c175ee239b86635d164fdcd0e7d77cb728b7dfa908d377fe652ee1",
+        "spdx": [
+          "MIT"
+        ],
+        "copyrightMarkers": [
+          "* Copyright 2010 The Emscripten Authors"
+        ]
+      },
+      {
+        "path": "src/lib/libfs.js",
+        "sha256": "9413d73126f19892ea8bc1d7403f12cdb3f269a3b57e70741ec0dd358b76750c",
+        "spdx": [
+          "MIT"
+        ],
+        "copyrightMarkers": [
+          "* Copyright 2013 The Emscripten Authors"
+        ]
+      },
+      {
+        "path": "src/lib/libfs_shared.js",
+        "sha256": "276cff202d83ea05ad764df526109e2bad874276e3474dbb2fd53da5949d8839",
+        "spdx": [
+          "MIT"
+        ],
+        "copyrightMarkers": [
+          "* Copyright 2032 The Emscripten Authors"
+        ]
+      },
+      {
+        "path": "src/lib/libgetvalue.js",
+        "sha256": "a270f6401911845af7c50b20dc81234557ab7b4b0e2c23b722c576ca6af7e532",
+        "spdx": [
+          "MIT"
+        ],
+        "copyrightMarkers": [
+          "* Copyright 2022 The Emscripten Authors"
+        ]
+      },
+      {
+        "path": "src/lib/libglew.js",
+        "sha256": "03193ffb3156920c4d8ab6dddaffa0343200ee6d5ec3d0898e58094dcd227d76",
+        "spdx": [
+          "MIT"
+        ],
+        "copyrightMarkers": [
+          "* Copyright 2014 The Emscripten Authors"
+        ]
+      },
+      {
+        "path": "src/lib/libglut.js",
+        "sha256": "2bf8a59b33967569483b9e31f39ed74cef9eac74be28d6b1475c87a40fecd908",
+        "spdx": [
+          "MIT"
+        ],
+        "copyrightMarkers": [
+          "* Copyright 2012 The Emscripten Authors"
+        ]
+      },
+      {
+        "path": "src/lib/libhtml5.js",
+        "sha256": "55d0f01efe316ba26e84f2427f0d865a65923a4edf9f092ba01c9a8f52ffe69a",
+        "spdx": [
+          "MIT"
+        ],
+        "copyrightMarkers": [
+          "* Copyright 2014 The Emscripten Authors"
+        ]
+      },
+      {
+        "path": "src/lib/libhtml5_webgl.js",
+        "sha256": "f6c01739115dfac0e3efea9da759ca7628afc75b4502a5764992ae567459e3d1",
+        "spdx": [
+          "MIT"
+        ],
+        "copyrightMarkers": [
+          "* Copyright 2014 The Emscripten Authors"
+        ]
+      },
+      {
+        "path": "src/lib/libidbfs.js",
+        "sha256": "a250ef1bd2e9c2ae7816c887576b85f32a5aebb63db1dd31ea7d651b6091c375",
+        "spdx": [
+          "MIT"
+        ],
+        "copyrightMarkers": [
+          "* Copyright 2013 The Emscripten Authors"
+        ]
+      },
+      {
+        "path": "src/lib/libidbstore.js",
+        "sha256": "c1cbc6f32546d6da5c6320c5e0d8dca27de2dfb11787b7280215aa6f5f778322",
+        "spdx": [
+          "MIT"
+        ],
+        "copyrightMarkers": [
+          "* Copyright 2015 The Emscripten Authors"
+        ]
+      },
+      {
+        "path": "src/lib/libint53.js",
+        "sha256": "4484cfc6db24c39d37e872e16fc39256ef0f6feb9427f0ebea20e76ce45a2499",
+        "spdx": [
+          "MIT"
+        ],
+        "copyrightMarkers": [
+          "* Copyright 2020 The Emscripten Authors"
+        ]
+      },
+      {
+        "path": "src/lib/liblegacy.js",
+        "sha256": "fe05ab579febc91e4c40b857e7d46be96cbb91a23be368f0c3c6347bf334a000",
+        "spdx": [
+          "MIT"
+        ],
+        "copyrightMarkers": [
+          "* Copyright 2010 The Emscripten Authors"
+        ]
+      },
+      {
+        "path": "src/lib/libmath.js",
+        "sha256": "2eccadedfaeb92f051de9d77d22ad3a2070619f03334af403f2c98a007502e06",
+        "spdx": [],
+        "copyrightMarkers": []
+      },
+      {
+        "path": "src/lib/libmemfs.js",
+        "sha256": "33c41f5a0e30aa178f709d8633aa237c038e2b39671ed78f429fb2a0db18f16a",
+        "spdx": [
+          "MIT"
+        ],
+        "copyrightMarkers": [
+          "* Copyright 2013 The Emscripten Authors"
+        ]
+      },
+      {
+        "path": "src/lib/libopenal.js",
+        "sha256": "442e969a4511cc009c092ea27a3d6d53d5cc99adb52603339bd58f7d2e86edcc",
+        "spdx": [
+          "MIT"
+        ],
+        "copyrightMarkers": [
+          "* Copyright 2013 The Emscripten Authors"
+        ]
+      },
+      {
+        "path": "src/lib/libpath.js",
+        "sha256": "6c6244b89ce194d50b25f277e5688e8729937aff77a57b8d6aca49174bf87140",
+        "spdx": [
+          "MIT"
+        ],
+        "copyrightMarkers": [
+          "* Copyright 2013 The Emscripten Authors"
+        ]
+      },
+      {
+        "path": "src/lib/libpipefs.js",
+        "sha256": "025b6017b3d87beab2cd855a82f273059d42b424f144547f5a85ce6e345d47e0",
+        "spdx": [
+          "MIT"
+        ],
+        "copyrightMarkers": [
+          "* Copyright 2017 The Emscripten Authors"
+        ]
+      },
+      {
+        "path": "src/lib/libpromise.js",
+        "sha256": "725557d9a62110fa9c7c19143ed384bc6dbf6ae757a2958b18dafafd03bad9ea",
+        "spdx": [
+          "MIT"
+        ],
+        "copyrightMarkers": [
+          "* Copyright 2023 The Emscripten Authors"
+        ]
+      },
+      {
+        "path": "src/lib/libpthread_stub.js",
+        "sha256": "2750ea050272e5c23abe88a3d884ba5bbea193a71026c9fa3ab2219259dd702b",
+        "spdx": [
+          "MIT"
+        ],
+        "copyrightMarkers": [
+          "* Copyright 2015 The Emscripten Authors"
+        ]
+      },
+      {
+        "path": "src/lib/libsigs.js",
+        "sha256": "5960af9a8763b9e137dd55e0fb5fab7e08cd4c852158489405c1549d974a085b",
+        "spdx": [],
+        "copyrightMarkers": []
+      },
+      {
+        "path": "src/lib/libsockfs.js",
+        "sha256": "e0abc217e97d5322a5a992fcee9f2917cbe8381e7054262629828fb682cc204b",
+        "spdx": [
+          "MIT"
+        ],
+        "copyrightMarkers": [
+          "* Copyright 2013 The Emscripten Authors"
+        ]
+      },
+      {
+        "path": "src/lib/libstack_trace.js",
+        "sha256": "11bb3f240f50f396b4947e745501506869487a19bacaead20b12c6eb14da3cb4",
+        "spdx": [
+          "MIT"
+        ],
+        "copyrightMarkers": [
+          "* Copyright 2019 The Emscripten Authors"
+        ]
+      },
+      {
+        "path": "src/lib/libstrings.js",
+        "sha256": "7653dc2ececa66ef48de81fa378a463c2dde203958b6180a18979bce99ee7cbf",
+        "spdx": [
+          "MIT"
+        ],
+        "copyrightMarkers": [
+          "* Copyright 2020 The Emscripten Authors"
+        ]
+      },
+      {
+        "path": "src/lib/libsyscall.js",
+        "sha256": "0ad371d407ec380ef43acc24de4cf4d3c0d2fd48e688bbbb419ed3228bb254e1",
+        "spdx": [
+          "MIT"
+        ],
+        "copyrightMarkers": [
+          "* Copyright 2015 The Emscripten Authors"
+        ]
+      },
+      {
+        "path": "src/lib/libtime.js",
+        "sha256": "7d77a4a89be043eca088f87fb2fce02730e1c0115990fe177af5c95a7c0e815c",
+        "spdx": [
+          "MIT"
+        ],
+        "copyrightMarkers": [
+          "* Copyright 2024 The Emscripten Authors"
+        ]
+      },
+      {
+        "path": "src/lib/libtty.js",
+        "sha256": "d1eecb978ae971917a50fbf29d44037095c95242451190abf196d16643857516",
+        "spdx": [
+          "MIT"
+        ],
+        "copyrightMarkers": [
+          "* Copyright 2013 The Emscripten Authors"
+        ]
+      },
+      {
+        "path": "src/lib/libunwind.js",
+        "sha256": "a42dbe41ba1a2151382338c86183b86b5717440e6ad896d6e9fee37426776e91",
+        "spdx": [
+          "MIT"
+        ],
+        "copyrightMarkers": [
+          "* Copyright 2026 The Emscripten Authors"
+        ]
+      },
+      {
+        "path": "src/lib/libuuid.js",
+        "sha256": "4898914691d3a49bd6a464b92f37db3cd31a02cce2b43df471c30fb3ebfd0796",
+        "spdx": [
+          "MIT"
+        ],
+        "copyrightMarkers": [
+          "* Copyright 2013 The Emscripten Authors"
+        ]
+      },
+      {
+        "path": "src/lib/libwasi.js",
+        "sha256": "b9a37514b016c1d2ffcd5994dcab319f89259984d57df77706c2923ff0cb2e84",
+        "spdx": [
+          "MIT"
+        ],
+        "copyrightMarkers": [
+          "* Copyright 2019 The Emscripten Authors"
+        ]
+      },
+      {
+        "path": "src/lib/libwebgl.js",
+        "sha256": "cce23f36fe13811d6989d175346532c8bbe4fda5783949aff2d6d095d4824ebb",
+        "spdx": [
+          "MIT"
+        ],
+        "copyrightMarkers": [
+          "* Copyright 2010 The Emscripten Authors"
+        ]
+      },
+      {
+        "path": "src/lib/libwebgl2.js",
+        "sha256": "3546fc3b4c3395591f441b8a28d4ca05328c8bc3c0a4509daed8adcabc2153d3",
+        "spdx": [
+          "MIT"
+        ],
+        "copyrightMarkers": [
+          "* Copyright 2010 The Emscripten Authors"
+        ]
+      },
+      {
+        "path": "src/lib/libwget.js",
+        "sha256": "55aaf17adaafb1e50ebf44436b237a430c9ffa1d9234c17135fd173339e81378",
+        "spdx": [
+          "MIT"
+        ],
+        "copyrightMarkers": [
+          "* Copyright 2011 The Emscripten Authors"
+        ]
+      },
+      {
+        "path": "src/lib/libxlib.js",
+        "sha256": "2911deedc389fb3b6ba0a3e279c99b8d454c3b6d121eb12aa385304b9b8e9c37",
+        "spdx": [
+          "MIT"
+        ],
+        "copyrightMarkers": [
+          "* Copyright 2012 The Emscripten Authors"
+        ]
+      }
+    ],
+    "scope": "Exact loaded JavaScript libraries for recorded accepted-build settings, replayed with verbose preprocessing. Includes functions not emitted. Source-template provenance and complete recursive source notices still require review. Diagnostic outputs remain private; accepted build outputs untouched.",
+    "headerlessLibraryFiles": [
+      "src/lib/libmath.js",
+      "src/lib/libsigs.js"
+    ],
+    "headerlessLibraryBasis": "No local SPDX line in these two SDK files; root Emscripten license must be retained and generated-signature source reviewed separately. This is not a claim that all loaded functions are emitted.",
+    "acceptedBuildOutputsUntouchedByDiagnosticRelink": true
+  },
+  "noticeDraft": {
+    "sourceFamilyLicenseFiles": [
+      {
+        "family": "Emscripten and Node-derived portions",
+        "path": "LICENSE",
+        "sha256": "620a78084fc7ca97c0b5dea9abf891f3ffcadfdbf305276f099c9c4e12fc1d86"
+      },
+      {
+        "family": "musl including third-party exceptions",
+        "path": "system/lib/libc/musl/COPYRIGHT",
+        "sha256": "b870108ec5e7790e9f9919064f1b9421d62d5f9b0e6c230c6adf7ea2da62e97b"
+      },
+      {
+        "family": "libc++ including LLVM exceptions",
+        "path": "system/lib/libcxx/LICENSE.TXT",
+        "sha256": "539dd7aed86e8a4f12cbdd0e6c50c189c7d74847e4fecc64ce2c6ee3a01da38b"
+      },
+      {
+        "family": "libc++abi including LLVM exceptions",
+        "path": "system/lib/libcxxabi/LICENSE.TXT",
+        "sha256": "e2b35be49f7284a45b7baca8fc7b3ab7440e7902392b2528a457816b5bb2a15c"
+      },
+      {
+        "family": "Compiler-RT including LLVM exceptions",
+        "path": "system/lib/compiler-rt/LICENSE.TXT",
+        "sha256": "1a8f1058753f1ba890de984e48f0242a3a5c29a6a8f2ed9fd813f36985387e8d"
+      },
+      {
+        "family": "SDL2 2.32.10",
+        "path": "cache/ports/sdl2/SDL-release-2.32.10/LICENSE.txt",
+        "sha256": "97f35b302b361680ec1e891e95d2d52097bb95abff361434916d99dc1305f127"
+      }
+    ],
+    "mappedSdkMembers": 398,
+    "loadedJsLibraries": 41,
+    "mechanicalSourceAndApiFiles": 445,
+    "distinctNoticeBlocks": 79,
+    "bundleBytes": 165585,
+    "bundleSha256": "47776ce425986cf19576864a90d1b391d87769f635598f857a0adc1e8b76ec26",
+    "scope": "Conservative retention of notice-bearing source comments, including notices from inactive branches; deduplicated with exact source references. No root code license applied to original retail code/assets.",
+    "completeNoticeClosureCertified": false,
+    "incorporatedIntoPackage": false
+  },
+  "screenshot": {
+    "sha256": "b6edb51f3f093077944687b1c1000371e809bdcd2ac3a55c07e558d56cb1a033",
+    "visuallyInspected": true,
+    "scope": "Package-rebuilt native completed HUD and green restored exit terminal"
+  },
+  "entireHeapCleanupCertified": false,
+  "sameModuleReinitializationVerified": false,
+  "audibleAudioVerified": false,
+  "distributed": false,
+  "integrated": false,
+  "deployed": false,
+  "catalog": {
+    "entries": 85,
+    "unchanged": true,
+    "blob": "10a69b5a9dc3e20ba9a75b4b51f34e02d271d81c"
+  },
+  "matchingDecompilationMilestone": "4/5 unchanged",
+  "remaining": [
+    "Review recursive SDK runtime headers and emitted glue templates; finish per-file exceptions and exact final notice bundle",
+    "Annotate actual vendored zlib 1.2.3 separately from retained original root 1.2.8 notice; retain correct notices",
+    "Incorporate reviewed notices into final release/source package and verify that final archive",
+    "Product save/restore/restart/pause controls and storage-error feedback",
+    "Validate malformed/unsupported native saves and recovery",
+    "Clear stale target label after native restart/load"
+  ],
+  "protectedWork": "Mario Party 2/3 and Halo untouched; prior ROM research private"
+}
