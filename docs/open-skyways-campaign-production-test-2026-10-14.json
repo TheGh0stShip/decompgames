@@ -1,0 +1,671 @@
+{
+  "date": "2026-10-14",
+  "gameId": "skyways",
+  "game": "Open Skyways",
+  "url": "https://decompgames.com/play/skyways/",
+  "scope": "Complete thirty-road authored CC0 campaign in the unchanged live MIT decompilation-derived engine, ordinary Enter and held Up controls, followed by a full browser close/relaunch. Original retail campaign is outside this scope.",
+  "sourceRevision": "df219e03b854153291b32224593013b60d861d40",
+  "packageRevision": "df219e03b854-59b1a2a61bd4",
+  "browser": "Headless Microsoft Edge on Windows, isolated persistent profile, --mute-audio, Sound: off",
+  "audioBackend": "null",
+  "audibleVerification": false,
+  "gameStateWritesByHarness": false,
+  "saveReads": "Read-only Module.FS native /save/skyroads.cfg",
+  "initialCfg": {
+    "exists": false,
+    "bytes": [],
+    "counts": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "roads": [
+    {
+      "road": 1,
+      "elapsedMilliseconds": 11212,
+      "earnedCompletionCount": 1,
+      "cfgSha256": "f05aad7221c6969eea2f4daaeda0c94f303e34def9c4b40802cf8271aa8068bb"
+    },
+    {
+      "road": 2,
+      "elapsedMilliseconds": 12206,
+      "earnedCompletionCount": 1,
+      "cfgSha256": "9d9c3204e413d347eb8c1c1401b4f48c7bfde78b46b5e0da1cd1323dbb3a9371"
+    },
+    {
+      "road": 3,
+      "elapsedMilliseconds": 13301,
+      "earnedCompletionCount": 1,
+      "cfgSha256": "19012d91120acd28a8e9f6bf8bdd65c1e80e5eb86d567f3f0bd04324c08ab814"
+    },
+    {
+      "road": 4,
+      "elapsedMilliseconds": 13206,
+      "earnedCompletionCount": 1,
+      "cfgSha256": "f67219083a916624dc0f5b30d88333eda461d35a386628fc25bfe6d5d43599b8"
+    },
+    {
+      "road": 5,
+      "elapsedMilliseconds": 14219,
+      "earnedCompletionCount": 1,
+      "cfgSha256": "d68411880062d5fe392836c11e59b9ddf7a8bbb2df065ae1d3a044b65fd4d478"
+    },
+    {
+      "road": 6,
+      "elapsedMilliseconds": 11187,
+      "earnedCompletionCount": 1,
+      "cfgSha256": "15e04be68f0b72a1266d48446a32b876d538f94445dd8fa0527f99444ffd5397"
+    },
+    {
+      "road": 7,
+      "elapsedMilliseconds": 11199,
+      "earnedCompletionCount": 1,
+      "cfgSha256": "4d44f761b29884a0b27bfa76161ee07b5881b61afbd2091f363d472f93eab4ad"
+    },
+    {
+      "road": 8,
+      "elapsedMilliseconds": 12228,
+      "earnedCompletionCount": 1,
+      "cfgSha256": "fb8a2b7774f09b2bf5f80920336ac5b45b5c50c0f4a46374ef839f7040b51c55"
+    },
+    {
+      "road": 9,
+      "elapsedMilliseconds": 13235,
+      "earnedCompletionCount": 1,
+      "cfgSha256": "294782ec436bb4675e04cc65c6b285a074572a7898ed795867d1dc41b77acfc5"
+    },
+    {
+      "road": 10,
+      "elapsedMilliseconds": 13242,
+      "earnedCompletionCount": 1,
+      "cfgSha256": "97e57fb22790ddb17844e4f1917d7cbb8076cdaca80c05aee4809cfcc4b4418c"
+    },
+    {
+      "road": 11,
+      "elapsedMilliseconds": 14265,
+      "earnedCompletionCount": 1,
+      "cfgSha256": "cd696d1daa8eeb334d8ae6b26711e6c1e3bc3f139c2be007cc146f829ae2d67f"
+    },
+    {
+      "road": 12,
+      "elapsedMilliseconds": 11187,
+      "earnedCompletionCount": 1,
+      "cfgSha256": "e7b8e1c28fdca1531419139658260b9ab664cc64b35bad03429292ee8552bf3f"
+    },
+    {
+      "road": 13,
+      "elapsedMilliseconds": 11248,
+      "earnedCompletionCount": 1,
+      "cfgSha256": "ecf626c0a95e148903c08a8e40434358ef6cb96b0c58e27d57f14bf79270fe01"
+    },
+    {
+      "road": 14,
+      "elapsedMilliseconds": 12216,
+      "earnedCompletionCount": 1,
+      "cfgSha256": "ae8b49618d19115a49a9af0ed90a4e47f9f5dfa60caec70f33af52364c26717f"
+    },
+    {
+      "road": 15,
+      "elapsedMilliseconds": 13245,
+      "earnedCompletionCount": 1,
+      "cfgSha256": "54b440dd3921e7fe196c2b389a2a8d99d8bf5becc0ac30be1cbe06fe345ae013"
+    },
+    {
+      "road": 16,
+      "elapsedMilliseconds": 13241,
+      "earnedCompletionCount": 1,
+      "cfgSha256": "131c53f389b012d1ecc7461bebac313549e4362316b7a7208c538d5aa4213940"
+    },
+    {
+      "road": 17,
+      "elapsedMilliseconds": 14243,
+      "earnedCompletionCount": 1,
+      "cfgSha256": "0a387773fc7cbdbc7b9c8e2496e67ff4c9a693dd5dd72821b3e44397e392649a"
+    },
+    {
+      "road": 18,
+      "elapsedMilliseconds": 11196,
+      "earnedCompletionCount": 1,
+      "cfgSha256": "6aa73555aa0c2f42779ab55ed216bd6bd84af42d0bad2f02136371d923345a78"
+    },
+    {
+      "road": 19,
+      "elapsedMilliseconds": 11198,
+      "earnedCompletionCount": 1,
+      "cfgSha256": "ab54565fd9a727cabf3de893d9581c52b7d67b3f7b6b84e02d82dd3978063751"
+    },
+    {
+      "road": 20,
+      "elapsedMilliseconds": 12238,
+      "earnedCompletionCount": 1,
+      "cfgSha256": "bd20a2d723f5d84a3cf69da33461af763dbe0bc51409e1081f22723707856724"
+    },
+    {
+      "road": 21,
+      "elapsedMilliseconds": 13254,
+      "earnedCompletionCount": 1,
+      "cfgSha256": "d079c230922431030fba1023a0a4e0affd98607a3bfbfe0d0de30903732e0128"
+    },
+    {
+      "road": 22,
+      "elapsedMilliseconds": 13235,
+      "earnedCompletionCount": 1,
+      "cfgSha256": "9110aa818e4d18fb6a4f491e24f4b2bc0feaf9daff39efef74deda28abd29194"
+    },
+    {
+      "road": 23,
+      "elapsedMilliseconds": 14205,
+      "earnedCompletionCount": 1,
+      "cfgSha256": "6ca50515c1135ff667d167de9a20eaad031a0f432519843e0e41e43e15c074d0"
+    },
+    {
+      "road": 24,
+      "elapsedMilliseconds": 11201,
+      "earnedCompletionCount": 1,
+      "cfgSha256": "b653d21f419c38eaa959c7ed55ebbe24ed072553e77c9471e6641086eaee84e3"
+    },
+    {
+      "road": 25,
+      "elapsedMilliseconds": 11191,
+      "earnedCompletionCount": 1,
+      "cfgSha256": "0452512731b7e0ac002ca55d93c371502d57cca9960993b064267281620647ab"
+    },
+    {
+      "road": 26,
+      "elapsedMilliseconds": 12214,
+      "earnedCompletionCount": 1,
+      "cfgSha256": "e9a8bb9b579a8601d12d013c3e717a699ff8c1d3d55059b5cfe96e3bc8c13d18"
+    },
+    {
+      "road": 27,
+      "elapsedMilliseconds": 13231,
+      "earnedCompletionCount": 1,
+      "cfgSha256": "fe31e0a5411420c04ec1670e7f907df554d0d53684d7d2f84cd6819bbdc909cb"
+    },
+    {
+      "road": 28,
+      "elapsedMilliseconds": 13231,
+      "earnedCompletionCount": 1,
+      "cfgSha256": "2c8b9245b845375595e752c67412138c15f02ef90c290969c3ea25dc04e6e884"
+    },
+    {
+      "road": 29,
+      "elapsedMilliseconds": 14242,
+      "earnedCompletionCount": 1,
+      "cfgSha256": "02bae7f0397a56dde56b31d1599604cde6435bca2485decc3cc4ff391e57038d"
+    },
+    {
+      "road": 30,
+      "elapsedMilliseconds": 11213,
+      "earnedCompletionCount": 1,
+      "cfgSha256": "9376c95ba1c157835c87157da7077367ad2ffb1ddce003a68c9d4da285287706"
+    }
+  ],
+  "finalCfg": {
+    "exists": true,
+    "bytes": [
+      16,
+      2,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      1,
+      0,
+      1,
+      0,
+      1,
+      0,
+      1,
+      0,
+      1,
+      0,
+      1,
+      0,
+      1,
+      0,
+      1,
+      0,
+      1,
+      0,
+      1,
+      0,
+      1,
+      0,
+      1,
+      0,
+      1,
+      0,
+      1,
+      0,
+      1,
+      0,
+      1,
+      0,
+      1,
+      0,
+      1,
+      0,
+      1,
+      0,
+      1,
+      0,
+      1,
+      0,
+      1,
+      0,
+      1,
+      0,
+      1,
+      0,
+      1,
+      0,
+      1,
+      0,
+      1,
+      0,
+      1,
+      0,
+      1,
+      0
+    ],
+    "counts": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "restoredCfg": {
+    "exists": true,
+    "bytes": [
+      16,
+      2,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      1,
+      0,
+      1,
+      0,
+      1,
+      0,
+      1,
+      0,
+      1,
+      0,
+      1,
+      0,
+      1,
+      0,
+      1,
+      0,
+      1,
+      0,
+      1,
+      0,
+      1,
+      0,
+      1,
+      0,
+      1,
+      0,
+      1,
+      0,
+      1,
+      0,
+      1,
+      0,
+      1,
+      0,
+      1,
+      0,
+      1,
+      0,
+      1,
+      0,
+      1,
+      0,
+      1,
+      0,
+      1,
+      0,
+      1,
+      0,
+      1,
+      0,
+      1,
+      0,
+      1,
+      0,
+      1,
+      0,
+      1,
+      0
+    ],
+    "counts": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "browserRestartProgressVerified": true,
+  "nativeSaveFormat": {
+    "bytes": 66,
+    "completionCounts": "Thirty uint16 little-endian words at byte offset 6; source cfg.c validates checksum before loading",
+    "checksum": "Word 0 equals sum of words[i] XOR i for i=1..32, modulo 65536",
+    "completionGate": "game.c increments current-road count only at SR_RES_COMPLETE, saves it and advances the chooser. Road 30 displays The End only when all thirty counts are nonzero."
+  },
+  "loadedReplacementHashes": [
+    {
+      "path": "ANIM.LZS",
+      "bytes": 80066,
+      "sha256": "b2ececb32c45531a605e4f0bf9a93a69b825f564fddca0c1847a780efd695dad"
+    },
+    {
+      "path": "CARS.LZS",
+      "bytes": 69358,
+      "sha256": "4533814bef923831231d4150b3d371a5f7e9134266b1534e43e9a952b9d50e90"
+    },
+    {
+      "path": "DASHBRD.LZS",
+      "bytes": 28458,
+      "sha256": "f92fe47dd0732efd87d65432ff892f83659ddd075685ad915ccd1108dea3ea15"
+    },
+    {
+      "path": "DEMO.REC",
+      "bytes": 6398,
+      "sha256": "66a2466e31922162a943d25c1cb5ae6c721e29847fb09da9bd60c54bb42d1858"
+    },
+    {
+      "path": "FUL_DISP.DAT",
+      "bytes": 210,
+      "sha256": "d0bf5f798fffa497a4e7edcad60d9822ca98a1cfe8a1aa7e749c345f704c0bb1"
+    },
+    {
+      "path": "GOMENU.LZS",
+      "bytes": 80109,
+      "sha256": "476c5355a24a7af750c45ef5901e921adb51267c161f346ceb8eabb2a1582b84"
+    },
+    {
+      "path": "HELPMENU.LZS",
+      "bytes": 240084,
+      "sha256": "4c0d9dfa8dd8be6e86c6ccf63b168fdaff9754b1aded11895784ebf7a5bb3b27"
+    },
+    {
+      "path": "INTRO.LZS",
+      "bytes": 80058,
+      "sha256": "f6735b0612c3e6593737678bc16d41880f7d52556fe06cde4a67230c4ccb77ec"
+    },
+    {
+      "path": "INTRO.SND",
+      "bytes": 1,
+      "sha256": "76be8b528d0075f7aae98d6fa57a6d3c83ae480a8469e668d7b0af968995ac71"
+    },
+    {
+      "path": "MAINMENU.LZS",
+      "bytes": 14619,
+      "sha256": "6d048a0b56b9ccf0100dd57f2e7373cba72448803d458a889a8ee893ab53c9a0"
+    },
+    {
+      "path": "OXY_DISP.DAT",
+      "bytes": 210,
+      "sha256": "3332d9112e3960f7a081277b334ccf597e85c70c900a62e5e5067a2d6c24dc24"
+    },
+    {
+      "path": "ROADS.LZS",
+      "bytes": 35134,
+      "sha256": "a5249198fdd6ccec9d7a8eb70ed3fabcdbddb41a135f43790bc78753e6c132c4"
+    },
+    {
+      "path": "SETMENU.LZS",
+      "bytes": 104348,
+      "sha256": "4adf16235623cab22ed220df454410e393925f3ab1c9e6ee5c100f2e4bccf3c7"
+    },
+    {
+      "path": "SPEED.DAT",
+      "bytes": 612,
+      "sha256": "c6e6ab2695cb5e7a128365034c988e8b6f106d43cd0d0c618d72cda7be9d8c48"
+    },
+    {
+      "path": "TREKDAT.LZS",
+      "bytes": 110296,
+      "sha256": "161bf35e857e104dab1789d93fe8431055b662f962016a08f1189f9390598003"
+    },
+    {
+      "path": "WORLD0.LZS",
+      "bytes": 55258,
+      "sha256": "3782391fed5a8ef5cb06bacf7bf3b1df4f89c60461f9f2026f2a8ea3e1faa84e"
+    },
+    {
+      "path": "WORLD1.LZS",
+      "bytes": 55258,
+      "sha256": "09762a49079d95fc5701d6ee164ba959a94d8b53829fa70f476185047b6f865c"
+    },
+    {
+      "path": "WORLD2.LZS",
+      "bytes": 55258,
+      "sha256": "00387159a6383c34663587d023643f8d0190f243973673b10ba69ad9329dca46"
+    },
+    {
+      "path": "WORLD3.LZS",
+      "bytes": 55258,
+      "sha256": "6d1b9cb338fbfe4374391e528d585ae3a4482f7292ab76057bc1dd48e8ed827e"
+    },
+    {
+      "path": "WORLD4.LZS",
+      "bytes": 55258,
+      "sha256": "4332059b3e2613cc5d683ec0d9aa7ed4337deae3bcffaa869c7b0aedb7dfc189"
+    },
+    {
+      "path": "WORLD5.LZS",
+      "bytes": 55258,
+      "sha256": "41151c4ff86565d98850bfecaa71feda97784cdff46d09667be0e70c6daec479"
+    },
+    {
+      "path": "WORLD6.LZS",
+      "bytes": 55258,
+      "sha256": "46bfa37a3e7701b9027b85c9d44646082c224e53d9e37c82b640e8ec6d55b1e5"
+    },
+    {
+      "path": "WORLD7.LZS",
+      "bytes": 55258,
+      "sha256": "f78a4c08291aafa04a55b5886426236be8bcaf31b62c61a936b950677ce083c1"
+    },
+    {
+      "path": "WORLD8.LZS",
+      "bytes": 55258,
+      "sha256": "e8ddd5d98c016e6c6ad504c28744a3fda276e96889d9cce8ed8dcf701343f4dc"
+    },
+    {
+      "path": "WORLD9.LZS",
+      "bytes": 55258,
+      "sha256": "04726c3ec9fa221fae5bd4624f220c37adb0e4da3ee77fd7b953309cd97f5c92"
+    }
+  ],
+  "distribution": {
+    "date": "2026-10-14T10:40:59.281Z",
+    "packageRevision": "df219e03b854-59b1a2a61bd4",
+    "files": [
+      {
+        "path": "/runtime/skyways/df219e03b854-59b1a2a61bd4/skyroads.js",
+        "bytes": 180656,
+        "sha256": "260f9afe0edfc87ad0b25333956b6b2c8e94f25340852e3858cba98e5c1bd6e3",
+        "status": 206
+      },
+      {
+        "path": "/runtime/skyways/df219e03b854-59b1a2a61bd4/skyroads.wasm",
+        "bytes": 685541,
+        "sha256": "d28ac44c6abf4188a575a119917a5d31909efe330c9f4d6bf190c79b83cc7cd3",
+        "status": 206
+      },
+      {
+        "path": "/runtime/skyways/df219e03b854-59b1a2a61bd4/skyroads.data",
+        "bytes": 1402541,
+        "sha256": "59b1a2a61bd46d813f5f7f8d5763c4c6ada53137ee865bf89cb08ccd0e5b3f37",
+        "status": 206
+      },
+      {
+        "path": "/sources/open-skyways-df219e03b854-59b1a2a61bd4.tar.gz",
+        "bytes": 68279,
+        "sha256": "0276af350558edc7e89b008fde9ce7f382ccc55dbfbefcb1ced544683e95cf85",
+        "status": 206
+      }
+    ],
+    "passed": true
+  },
+  "diagnostics": {
+    "pageErrors": [],
+    "gameConsoleErrors": [],
+    "missingResources": [],
+    "blockedAnalyticsRequests": 6,
+    "expectedBlockedAnalyticsDiagnostics": 6
+  },
+  "cleanup": {
+    "campaignStopSynced": true,
+    "campaignBrowserClosed": true,
+    "restartStopSynced": true,
+    "restartBrowserClosed": true,
+    "playersClosed": true
+  },
+  "evidence": [
+    {
+      "name": "campaign-report.json",
+      "sha256": "764b2121a6069241bece92b89e67600cbf00177a217eb168a40b58f75dfeba40",
+      "retained": "Private test artifacts"
+    },
+    {
+      "name": "distribution.json",
+      "sha256": "418c281fd4253867cb908e9befb1cbc71d8dbf2c3c469b8f8b6cd25e7ad78994",
+      "retained": "Private test artifacts"
+    },
+    {
+      "name": "road-01-completed.png",
+      "sha256": "e4fb655c7037e44883f652529f56c3be6f50c11b4dd6d4445b46286bb162aec3",
+      "retained": "Private test artifacts"
+    },
+    {
+      "name": "road-15-completed.png",
+      "sha256": "27d8ee25a9d9466e8577a2ff87a51511cdc54226fee61b4db7cdbaaa7ca67608",
+      "retained": "Private test artifacts"
+    },
+    {
+      "name": "campaign-the-end.png",
+      "sha256": "11a00284a0745f66dbc434a4a656c3be80e962f4bfb5f0cbf42deabf30c327a0",
+      "retained": "Private test artifacts"
+    },
+    {
+      "name": "browser-restart-chooser.png",
+      "sha256": "62046d3130acdcbaf9c3bba1c233feb8922f2f0dbb056059656ed5b2d9d3a01b",
+      "retained": "Private test artifacts"
+    }
+  ],
+  "visualReview": [
+    "Road 01 completion",
+    "Road 15 native completion checkpoint canvas (overlay absent)",
+    "Campaign The End screen",
+    "Restart chooser"
+  ],
+  "visualLimits": "Intermediate checkpoint captures can omit the completion overlay; native save counters support each road completion. Final The End text visibly confirmed. No exact chooser-flag alignment or exhaustive HUD review claimed.",
+  "excludedTrial": "Initial harness requested replacement data at filesystem root rather than the documented /data directory. It failed before any road play; Stop synchronized and browser closed. Its failed report/screenshot remain private; accepted run used /data and a fresh profile.",
+  "earlierEvidence": "September 27 steering/jump, Road 01 and backup export/delete/import remain separate historical tests; this pass did not repeat steering/jump or backup deletion/import.",
+  "unverified": [
+    "Original retail course content",
+    "Long-term balance and all off-center collision/death cases",
+    "Touch/gamepad and other browsers",
+    "Rapid-close/crash save durability",
+    "Audible playback"
+  ],
+  "passed": true,
+  "catalogCount": 87,
+  "decompilationMilestone": "4/5 unchanged",
+  "runtimeAndSourceBytesChanged": false,
+  "licenseOrClassificationChanged": false,
+  "cleanRoomCertified": false
+}

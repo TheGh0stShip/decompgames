@@ -3,6 +3,10 @@ layout: ../../layouts/Article.astro
 title: What’s new
 description: Release notes and compatibility changes for Decomp Games.
 ---
+## October 14, 2026 — Open Skyways: all thirty authored roads verified
+
+Muted production keyboard play completed the thirty-road CC0 campaign and reached The End. All native completion markers survived a full browser close and relaunch. The game package is unchanged, and both players stopped with save synchronization and closed. All off-center collision/death cases, long-term balance and other browsers/devices remain unverified. [Campaign evidence](https://github.com/andrewnakas/decompgames/blob/main/docs/open-skyways-campaign-production-test-2026-10-14.json). [Play Open Skyways](/games/skyways/).
+
 ## October 14, 2026 — Open Paths: all six authored levels verified
 
 Muted production testing completed the full six-level CC0 navigation campaign through ordinary keyboard input. Native completion states and the all-levels-completed flag survived a full browser close and relaunch. The runtime is unchanged, and both test players stopped with save synchronization and closed. This covers the authored replacement campaign; other browsers and rapid-close save durability remain unverified. [Campaign evidence](https://github.com/andrewnakas/decompgames/blob/main/docs/open-paths-campaign-production-test-2026-10-14.json). [Play Open Paths](/games/supaplex/).

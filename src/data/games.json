@@ -2576,21 +2576,21 @@
   "mode": "instant",
   "engine": "skyroads-32x",
   "description": "Steer and jump a spacecraft through independently authored sky roads.",
-  "overview": "Open Skyways pairs a disassembly-derived SkyRoads engine with thirty independently authored roads and replacement menus, graphics, dashboard, HUD and geometric objects. It does not include Bluemoonâ€™s original game data or music. Silent production browser testing completed Road 01 and restored its completion marker from an exported backup. The other roads and a full thirty-road campaign remain unverified.",
+  "overview": "Open Skyways pairs a disassembly-derived SkyRoads engine with thirty independently authored roads and replacement menus, graphics, dashboard, HUD and geometric objects. It excludes Bluemoon’s original game data and music. Muted production keyboard play completed the full thirty-road authored campaign, and all completion markers survived a full browser restart.",
   "source": "https://github.com/haroldo-ok/skyroads-32x",
   "engineLicense": "MIT engine reconstruction; bundled third-party code retains its upstream license",
   "assetLicense": "CC0-1.0 independent Open Skyways replacement data",
   "assetRequirements": "No original SkyRoads files needed. The package contains its own roads, graphics and interface data, with audio disabled.",
   "controls": [
-   "Enter â€” leave the intro, choose Play, and select a road",
-   "Up / Down â€” accelerate / brake",
-   "Left / Right â€” steer",
-   "Space â€” jump",
-   "P â€” pause; Escape â€” return to the road menu"
+   "Enter — leave the intro, choose Play, and select a road",
+   "Up / Down — accelerate / brake",
+   "Left / Right — steer",
+   "Space — jump",
+   "P — pause; Escape — return to the road menu"
   ],
   "saveInstructions": "Completing a road records a completion marker automatically in this browser. Use Export saves for a portable backup before clearing browser data; export/delete/import restoration passed the September 27 production test.",
   "limitations": [
-   "Thirty independent courses use minimalist replacement art. Only Road 01 has been observed through its completion gate; the full campaign remains unverified.",
+   "All thirty authored courses completed through their safe central routes, and completion counts survived a full browser restart. Long-term balance and all off-center collision/death cases remain unverified.",
    "Sound is permanently disabled in this build; audible playback has not been tested.",
    "A keyboard is required."
   ],
@@ -2603,12 +2603,12 @@
   "runtime": "skyways",
   "verification": {
    "status": "gameplay-tested",
-   "date": "2026-09-27",
+   "date": "2026-10-14",
    "browsers": [
-    "Headless Microsoft Edge on Windows (private package and production)"
+    "Headless Microsoft Edge on Windows (muted production campaign and browser restart)"
    ],
-   "scope": "The null-audio package displayed the menus and game road, responded visibly to steering and jump, completed Road 01 with held acceleration, saved one completion to IndexedDB, and showed the marker again after reload. The exact production package passed Road 01 completion, save export, deletion, import, and restored completion marker in muted Edge. The other 29 roads and full campaign remain unverified.",
-   "playthrough": false
+   "scope": "Muted production testing completed all thirty authored CC0 roads using ordinary Enter selections and held Up acceleration, reached The End, and recorded one native completion per road. The exact checksum-valid 66-byte progress config survived a full browser close and relaunch. All 25 loaded replacement files and four published runtime/source files matched their recorded hashes. Both players stopped with save synchronization and closed. September 27 steering/jump and backup export/delete/import remain separate earlier evidence. This playthrough covers the authored campaign; original retail content, all collision/death cases, other browsers/devices, rapid-close durability and audible playback remain unverified.",
+   "playthrough": true
   },
   "shelf": "classic",
   "platform": "PC",
