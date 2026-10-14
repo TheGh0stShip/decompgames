@@ -49,3 +49,5 @@ The cached lead `kandowontu/kens-labyrinth-native-windows` returned GitHub API 4
 ## Checkpoint
 
 No catalog or runtime change, build, browser startup, gameplay, audible test or deployment occurred. The catalog stays at 85 and the historical decompilation milestone at four of five. Raptor and Ken's Labyrinth have precise license/content/platform blockers; Eldritch's developer-licensed 2019 source is retained for a private port probe, with dependency closure and replacement gameplay still pending.
+
+The subsequent [private browser-port probe](eldritch-browser-probe-2026-10-13.md) completed a source-only WebAssembly link and scoped native GPU adapter acceptance. Its separate receipt does not change this earlier intake's evidence scope, establish game startup/gameplay, or approve an integrated release.

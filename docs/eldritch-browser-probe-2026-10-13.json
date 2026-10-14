@@ -1,0 +1,2091 @@
+{
+  "recordedAt": "2026-10-14T00:40:18.620879+00:00",
+  "classification": "Original developer-released Eldritch source port candidate; no decompilation/matching/clean-room claim",
+  "sourceArchive": {
+    "url": "https://eldritchgame.com/bin/Eldritch-Source-2019-04-16.zip",
+    "archiveBytes": 7625114,
+    "archiveSha256": "7bee255de9943e805bbd591ae7fb6ca1d9ac6609b5ba84374ab694eb7edb6774",
+    "entriesMatchPriorCentralDirectory": true,
+    "extractedBytes": 8162199
+  },
+  "sourceTextFilesExtracted": 1091,
+  "archiveScope": "Full mixed developer source ZIP downloaded privately. Only source/build/notice text extracted; supplied binary/media/configuration/room/map/retail members not extracted or executed. None distributed.",
+  "toolchain": "emcc (Emscripten gcc/clang-like replacement + linker emulating GNU ld) 6.0.10 (d6c521a7f05449857c76bd99e396895583cf2083)",
+  "build": {
+    "unmodifiedSyntaxChecks": {
+      "passed": 1,
+      "failed": 4,
+      "scope": "Five samples, not complete unmodified compilation"
+    },
+    "platformPass": {
+      "passed": 422,
+      "failed": 2,
+      "scope": "424 selected units; date helper unsupported"
+    },
+    "finalSelectedGameLibraryUnits": 424,
+    "finalZlibCUnits": 12,
+    "finalCompileFailures": 0,
+    "compilerWarningOccurrences": 555,
+    "warningsScope": "Final native-object and zlib logs; not a warning-free/all-legacy-path claim",
+    "zlibCStandard": "C99 with _POSIX_C_SOURCE=200809L; no implicit declaration suppression",
+    "linked": true,
+    "contentPreloaded": false,
+    "outputs": [
+      {
+        "path": "eldritch-probe.js",
+        "bytes": 419227,
+        "sha256": "457955b4632f45310b55b3a082fc4406a3cf9dd0997d34ab82e6019157051aa6"
+      },
+      {
+        "path": "eldritch-probe.wasm",
+        "bytes": 2825066,
+        "sha256": "6de8b55c2bf8d316ea610e82df024a63c014f3c90abb6caaa16864828f817044"
+      }
+    ],
+    "wholeRuntimeClosureCertified": false
+  },
+  "observedDependencyDiscrepancy": {
+    "path": "Code/Libraries/zlib/src/zlib.h",
+    "actualVersion": "1.2.3",
+    "rootNoticeVersion": "1.2.8",
+    "selectedHeaderSha256": "19d0a66995aa57064007b65870e190b8016872c422131f64f43af19982286990",
+    "grant": "Actual header retains zlib-style terms; release version/notice must follow selected source"
+  },
+  "nativeInputs": [
+    {
+      "path": "Code/Libraries/3D/src/3d.cpp",
+      "sha256": "de8a64355f94406f052d99bc8432fb4a73f5f54c1537b66aea8375e6f87c79f7"
+    },
+    {
+      "path": "Code/Libraries/3D/src/animation.cpp",
+      "sha256": "59d394e9de6434fbf76db7aeacbc225b6e3d0de170f0861a473ee586a066c49c"
+    },
+    {
+      "path": "Code/Libraries/3D/src/animationstate.cpp",
+      "sha256": "7457d7fdbc50b10d1fcdda8f7a3495784753c6a733c2a8be703119ad7eb944a4"
+    },
+    {
+      "path": "Code/Libraries/3D/src/animevent.cpp",
+      "sha256": "8b1137a62f6e3c6f4a850b89c3c7d2e48ed56311ce34e5239b9e5c5385474c67"
+    },
+    {
+      "path": "Code/Libraries/3D/src/animeventfactory.cpp",
+      "sha256": "6e28ba0ef842400f6c76d64021a3b7cea1df98a35c5decda49304597aeb4496b"
+    },
+    {
+      "path": "Code/Libraries/3D/src/bonearray.cpp",
+      "sha256": "df2ffaa0603ca1b8181b6c62f254a97329f485262bbe303023c6cea2eac46129"
+    },
+    {
+      "path": "Code/Libraries/3D/src/bucket.cpp",
+      "sha256": "7a3dd63e1a9ba6ed8e69e8f4260e17e63a3946c1acc71db14ed44bc5d6b33beb"
+    },
+    {
+      "path": "Code/Libraries/3D/src/cubemapcommon.cpp",
+      "sha256": "5502bd03e905d47bc79234515ea4cfbe900a9dd03706c7a94b9ad563c8b4dfc8"
+    },
+    {
+      "path": "Code/Libraries/3D/src/dynamicmeshmanager.cpp",
+      "sha256": "c50cfad89230b7c166889d3ecd2e1263f49d570c46d7908ae6a944f992c47aa6"
+    },
+    {
+      "path": "Code/Libraries/3D/src/font.cpp",
+      "sha256": "9d3a952930a3127600633c73b81c39b9fd480223f1104cb4c1ae416e8e420aed"
+    },
+    {
+      "path": "Code/Libraries/3D/src/fontmanager.cpp",
+      "sha256": "bc68286ab1251928fcb1612e3ff5fe7c8e0bc9f7517e61fc43e9d7c7342f17f4"
+    },
+    {
+      "path": "Code/Libraries/3D/src/GL2/gl2cubemap.cpp",
+      "sha256": "638d032956022a3f668ca9feae3409ba912bd72fd9236bd4b973d9e6fbd0f582"
+    },
+    {
+      "path": "Code/Libraries/3D/src/GL2/gl2cuberendertarget.cpp",
+      "sha256": "444ff3e1769097ae2fbf164bd2a3938af6fa421059c8410a814dd7f6b68a5615"
+    },
+    {
+      "path": "Code/Libraries/3D/src/GL2/gl2indexbuffer.cpp",
+      "sha256": "d7571e030c813ed7ed48a4ec15918bc28b8190109a88c26984e56de219aaccff"
+    },
+    {
+      "path": "Code/Libraries/3D/src/GL2/gl2pixelshader.cpp",
+      "sha256": "e72b88aa16db4b505fb683478e11c241ef9d9adf914d179a586868e2ff4533e0"
+    },
+    {
+      "path": "Code/Libraries/3D/src/GL2/gl2renderer.cpp",
+      "sha256": "dfe3d9aa8e415d01d73cf815caf4d22e9de59c86e67db4a2d708f9ea92e82c7b"
+    },
+    {
+      "path": "Code/Libraries/3D/src/GL2/gl2rendertarget.cpp",
+      "sha256": "c33909f840dfd67d36c87388eb6c8b007923bf40db8041e01f4f9e4add959c05"
+    },
+    {
+      "path": "Code/Libraries/3D/src/GL2/gl2shaderprogram.cpp",
+      "sha256": "0a2beb75fcbc9dabef5cbebed75160b5c9f0065f497037d053b13a9420101ffa"
+    },
+    {
+      "path": "Code/Libraries/3D/src/GL2/gl2texture.cpp",
+      "sha256": "2e242d7c8009770d800001615359e6e222373c1159eff1d909e03b8bc82536b8"
+    },
+    {
+      "path": "Code/Libraries/3D/src/GL2/gl2vertexbuffer.cpp",
+      "sha256": "8cea11a8e6c59683e72e52f1d74044c549697826cd341faed9253f6abc24bfde"
+    },
+    {
+      "path": "Code/Libraries/3D/src/GL2/gl2vertexdeclaration.cpp",
+      "sha256": "71459b7b95eed63cdbbf9c434e864d202cab41d935c230ead3a06ba3b27ee234"
+    },
+    {
+      "path": "Code/Libraries/3D/src/GL2/gl2vertexshader.cpp",
+      "sha256": "e788923f1c9fd984c6698535113d72d59fc74832cf10d2a6871cb15122b9311b"
+    },
+    {
+      "path": "Code/Libraries/3D/src/linebatcher.cpp",
+      "sha256": "5c57235e034a141c5602530bfd87fd183510d3fe5103d843cc1a5acdf903c695"
+    },
+    {
+      "path": "Code/Libraries/3D/src/material.cpp",
+      "sha256": "533f370938be5d3d13eab618f32180c82cc18aa17e3b22e7d5629170308c6917"
+    },
+    {
+      "path": "Code/Libraries/3D/src/mesh.cpp",
+      "sha256": "e1f12de50824d8fb21df7adbbd41834b60cf1e811e2a3bc05358775bf3d7aded"
+    },
+    {
+      "path": "Code/Libraries/3D/src/meshfactory.cpp",
+      "sha256": "8266b627c72dccfd32f2b03d32ebcb03acade7f9f09ace1bcb3fcd790d9f2fbd"
+    },
+    {
+      "path": "Code/Libraries/3D/src/renderercommon.cpp",
+      "sha256": "3e4e914abaebfaa57a12a87b713b02dc1967e3c5e391f4ff0b9c9122778b5e7e"
+    },
+    {
+      "path": "Code/Libraries/3D/src/renderstates.cpp",
+      "sha256": "5a10c0c87723775974892c3579baa7edf39c120ee24efeeca0246fb81f52f8de"
+    },
+    {
+      "path": "Code/Libraries/3D/src/sdpfactory.cpp",
+      "sha256": "8821bab61570c305c6e03ee87c634e391a99c6c90fd14df0322f419187b85b1a"
+    },
+    {
+      "path": "Code/Libraries/3D/src/SDPs/sdpbase.cpp",
+      "sha256": "85633544dc51d789e6337df95da8b693a94ea4c3360e307662448490c666a92d"
+    },
+    {
+      "path": "Code/Libraries/3D/src/sectorbound.cpp",
+      "sha256": "e32101b19b62280ab03ada3605afbddeb7f2214c14236bf6cdb93c477985f836"
+    },
+    {
+      "path": "Code/Libraries/3D/src/shaderdataprovider.cpp",
+      "sha256": "1fdfd2d8c02b2c2f24da1467625c2164fc919a6018880dda73db4a939058f149"
+    },
+    {
+      "path": "Code/Libraries/3D/src/shadermanager.cpp",
+      "sha256": "0f94194276740ce310c0cab36b1112fa9aabc18664637dcb70f62da0c3a443e5"
+    },
+    {
+      "path": "Code/Libraries/3D/src/surface.cpp",
+      "sha256": "d4fb29fc31e5889fbbed7b876089d9bcd93a5ed0a071e843a66becf66129fd25"
+    },
+    {
+      "path": "Code/Libraries/3D/src/texturecommon.cpp",
+      "sha256": "cb5b9275889c15e961e5788ea5019c00179d86e2c822627e6144b8e7fdcbaeda"
+    },
+    {
+      "path": "Code/Libraries/3D/src/texturemanager.cpp",
+      "sha256": "d63c56bcf7fd30ab96f568c1d76355cfd21529981e6930f8efc5332fffd3a2e9"
+    },
+    {
+      "path": "Code/Libraries/3D/src/tga.cpp",
+      "sha256": "cf877b35a24311f5654875d362c66047c24f52131e409519650b951dce864c36"
+    },
+    {
+      "path": "Code/Libraries/3D/src/vertexdeclarationmanager.cpp",
+      "sha256": "47e73f34ae9e8c30e7697350c6096f8a7998a5d709ecd6f195eeb1579ba88f31"
+    },
+    {
+      "path": "Code/Libraries/3D/src/view.cpp",
+      "sha256": "0ac6723c768f1d3526001ecba2943b985da098755184ef984c87259836d6bcef"
+    },
+    {
+      "path": "Code/Libraries/Audio/src/audio.cpp",
+      "sha256": "d147c53f86131a4d6a4ed606862e8122cc487f45bc800fef1d7a5568a136bbe6"
+    },
+    {
+      "path": "Code/Libraries/Audio/src/audiosystemcommon.cpp",
+      "sha256": "b1936896279b9f11e548893146a98aecc7121936500f748af3a56a08a561ba6d"
+    },
+    {
+      "path": "Code/Libraries/Audio/src/soloudaudiosystem.cpp",
+      "sha256": "50025d00f36321b38450290ff055cd10f2d4dd109ce529a86568c6a631573217"
+    },
+    {
+      "path": "Code/Libraries/Audio/src/soloudsound.cpp",
+      "sha256": "6ec981826d79a99f2033d003e6260c9fc744b9512c4aacabecc1d830f15bff01"
+    },
+    {
+      "path": "Code/Libraries/Audio/src/soloudsoundinstance.cpp",
+      "sha256": "1fe9300d2c80aebec3be89ff532bf93dfe5c52c2ac6d8ff4dc10871f53c1e271"
+    },
+    {
+      "path": "Code/Libraries/Audio/src/sound3dlistener.cpp",
+      "sha256": "94f7732f8007b312173b784c46b45779f50399b6a1f6b3b57439fd349b60551b"
+    },
+    {
+      "path": "Code/Libraries/Audio/src/soundcommon.cpp",
+      "sha256": "166807b068eed491ed63b2bcbf33053be8fbc2ec3c2decb9b1eb5f0f887fb4f1"
+    },
+    {
+      "path": "Code/Libraries/Audio/src/soundinstancecommon.cpp",
+      "sha256": "56094e9c9fcd9fecf62a157dcfff806c0b94c814e15a924a95bc75e2d63da148"
+    },
+    {
+      "path": "Code/Libraries/Audio/src/soundmanager.cpp",
+      "sha256": "32e8e8896da21531e672f0d7e36750db87e09d155e4be7607fb94b2d4564dc66"
+    },
+    {
+      "path": "Code/Libraries/Core/src/allocator.cpp",
+      "sha256": "cf7c44a3c2ac114c8d40fc61c498ef1c82bb7e65d674ac8d49e5dfd0f7eddc8b"
+    },
+    {
+      "path": "Code/Libraries/Core/src/allocatorchunk.cpp",
+      "sha256": "58744846bf5a7bb52c5ae76f1a680016c926805faaf55b148068c31641dbd5b0"
+    },
+    {
+      "path": "Code/Libraries/Core/src/bufferedfilestream.cpp",
+      "sha256": "ee09d3008b5668c93387ee134ae192c45c6b9e5c15a16996878c437f7ea41b64"
+    },
+    {
+      "path": "Code/Libraries/Core/src/checksum.cpp",
+      "sha256": "f6dd740491436948661c0e6bce12c5cea83f9bb5fde0d0f7e875c157b4d9d1df"
+    },
+    {
+      "path": "Code/Libraries/Core/src/clock.cpp",
+      "sha256": "2f54d79645ec93da61a4689c420e06fa5b3b5d7f5bd58bf5dbfba8b8763910d2"
+    },
+    {
+      "path": "Code/Libraries/Core/src/configmanager.cpp",
+      "sha256": "fd236aa68cce535faecebdb25f544cf9edd3fa91ad899949d6d91e21b92a89b7"
+    },
+    {
+      "path": "Code/Libraries/Core/src/configparser.cpp",
+      "sha256": "ef335e054b96ec199c11d65944e7b40aabc917dee16ba0d0ff9feb5d7590bf9f"
+    },
+    {
+      "path": "Code/Libraries/Core/src/configvar.cpp",
+      "sha256": "5c94d1aa48f8869605479a68920b1f92ee586cb5af5d0eccae5eebd835a2fb92"
+    },
+    {
+      "path": "Code/Libraries/Core/src/customassert.cpp",
+      "sha256": "80d9657eaaec8e08543d845087a0ede62fa3ccd4e1fd2cec87f76f0472cf00eb"
+    },
+    {
+      "path": "Code/Libraries/Core/src/customnew.cpp",
+      "sha256": "326fce4f5c8782c1b1f83a50cdffdb20bb714adedf043850a376b35d04e0b375"
+    },
+    {
+      "path": "Code/Libraries/Core/src/datapipe.cpp",
+      "sha256": "8183f8e9baf71777281ea90f056c6908112089cc7c6003e58b868f787eeba61c"
+    },
+    {
+      "path": "Code/Libraries/Core/src/display.cpp",
+      "sha256": "aaf2b750a346a419ff0f4e9f76963b9e8f883b127b762c93ad89115f251c7c7f"
+    },
+    {
+      "path": "Code/Libraries/Core/src/dynamicmemorystream.cpp",
+      "sha256": "5c2eaf88791995b9850abd9170a0399dff1931a3a8a81e5bdf61a5f93f83484b"
+    },
+    {
+      "path": "Code/Libraries/Core/src/filestream.cpp",
+      "sha256": "50e116e970847135469afceb2ae353f06bad1ef3b4328fef4f8cc39c8d33ff37"
+    },
+    {
+      "path": "Code/Libraries/Core/src/fileutil.cpp",
+      "sha256": "4b529c01ff548bbbafdd67f32968114d2dcb1f7a038a64fb1c9939d36f95f2fb"
+    },
+    {
+      "path": "Code/Libraries/Core/src/hashedstring.cpp",
+      "sha256": "e40e8ff44eae388961f787d8faff932be1a3fca9c548ae383e74263fd96249c7"
+    },
+    {
+      "path": "Code/Libraries/Core/src/inputcontext.cpp",
+      "sha256": "8422527aa1645edae2f88ed04fd3189753e29ed5f151ff2694ab6a14c44df742"
+    },
+    {
+      "path": "Code/Libraries/Core/src/inputsystem.cpp",
+      "sha256": "7e3330812459141da247d3b3163d49cd19f71d38d62f78e674aa4be3cc985f43"
+    },
+    {
+      "path": "Code/Libraries/Core/src/keyboard.cpp",
+      "sha256": "8ddefd503dbbe777086234d825a064d8d5e925b2c8dc54cb91b69ec4d63f59b7"
+    },
+    {
+      "path": "Code/Libraries/Core/src/memorystream.cpp",
+      "sha256": "c863df1e3c9dae0b962ebeac1f36ba50bb9a06748e8e01a2c6744e1e353e01bd"
+    },
+    {
+      "path": "Code/Libraries/Core/src/mouse.cpp",
+      "sha256": "90e6921bd7298d2f91168176637bc7902fc70d3515988fee2abcd32acf47dee2"
+    },
+    {
+      "path": "Code/Libraries/Core/src/packstream.cpp",
+      "sha256": "a37692239508880e39e35367ef84f1ebb0d3c75ef9d75f4533cf949037a26379"
+    },
+    {
+      "path": "Code/Libraries/Core/src/printmanager.cpp",
+      "sha256": "0d9dc9d5f63d752b22e8e08f55bc80906377d17dafc9b0ebe8d1e1f4ea1ca621"
+    },
+    {
+      "path": "Code/Libraries/Core/src/profiler.cpp",
+      "sha256": "4d622efef26912fc0849bf6a9412b78c29af00207bad7707c0dadc904660043d"
+    },
+    {
+      "path": "Code/Libraries/Core/src/profilerhook.cpp",
+      "sha256": "22e65568aabf3cdfdba971d9b6bc745e57b5217d0425ab33e8c6883cb1b23e1b"
+    },
+    {
+      "path": "Code/Libraries/Core/src/profilertable.cpp",
+      "sha256": "e33083474436c521d6c7cec00f15481fd28207fa79782bd3ced294058bc63325"
+    },
+    {
+      "path": "Code/Libraries/Core/src/reversehash.cpp",
+      "sha256": "ef88ec3ec5647fb1d07251f620a567b0f1ef8731b37d526c61ff2f581e41f856"
+    },
+    {
+      "path": "Code/Libraries/Core/src/simplestring.cpp",
+      "sha256": "a50817385f86b74dab6c84f5a5694083f09eda6e61ad9cc3d3d308cdf2fab118"
+    },
+    {
+      "path": "Code/Libraries/Core/src/stopwatch.cpp",
+      "sha256": "161b1c5ad2704e81cbb48dd44636672ed820b4b068fe51e84377ea1268ce5bf3"
+    },
+    {
+      "path": "Code/Libraries/Core/src/stringmanager.cpp",
+      "sha256": "eb779c046d04d17355da1fefecd8606abf0faff2a8b8a1e9f62a5c6d105f4198"
+    },
+    {
+      "path": "Code/Libraries/Core/src/test.cpp",
+      "sha256": "50119275831cf92b01311fb3da12f6d87658ec92d8c68572dc7b25456a241479"
+    },
+    {
+      "path": "Code/Libraries/Core/src/timedate.cpp",
+      "sha256": "843dc7df0434f768ee41f91c36b3f0f3b32270b9a315b4cd023ab8014abe8092"
+    },
+    {
+      "path": "Code/Libraries/Core/src/timer.cpp",
+      "sha256": "27829524a6ff53053a5f8ff663f5d3f48db870094aefa65638508b42a0c58af3"
+    },
+    {
+      "path": "Code/Libraries/Core/src/TinyXML/tinyxml.cpp",
+      "sha256": "e8f5557aef8279d0d713733d80f452e3a59a8b5cea827339a86c6d44997ce320"
+    },
+    {
+      "path": "Code/Libraries/Core/src/TinyXML/tinyxmlerror.cpp",
+      "sha256": "df46e687a1d1583663838fc9596f526cdcaf4fb188c305b8f2ae2bdec0517102"
+    },
+    {
+      "path": "Code/Libraries/Core/src/TinyXML/tinyxmlparser.cpp",
+      "sha256": "1a283f1402f1edb0d9a00fe811c03a1c1cafb9e562b81f20dd100608ee1b3111"
+    },
+    {
+      "path": "Code/Libraries/Core/src/windowwrapper.cpp",
+      "sha256": "6a31fc8d75bcf82d371a62406f9f92fadb6359a9e6f0b7e90620bab6be31c0f2"
+    },
+    {
+      "path": "Code/Libraries/Core/src/xinputcontroller.cpp",
+      "sha256": "51e91c2759b1090379b38d826aa2b07e2748d497c719cd0cf6157735205bbeda"
+    },
+    {
+      "path": "Code/Libraries/Framework/src/framework3d.cpp",
+      "sha256": "c493f7c989cdc872c0f452f41b01f4991d7c0145f04c6d4313da80db0617415b"
+    },
+    {
+      "path": "Code/Libraries/Framework/src/frameworkutil.cpp",
+      "sha256": "b359aa645b7fbc1ae572bf22677715e43e89d60f26ba25978c5190dc5699f87d"
+    },
+    {
+      "path": "Code/Libraries/Framework/src/uiinputmapframework.cpp",
+      "sha256": "37da9ef2e73aa901641ab872e1c5e2f39b75957d8584bc020df12ca343a107fc"
+    },
+    {
+      "path": "Code/Libraries/Framework/src/uimanagerframework.cpp",
+      "sha256": "932c83f9fa9435506ac3b2fa0ef6f95afe276894c7883fb7882cb18b3a33f2a6"
+    },
+    {
+      "path": "Code/Libraries/Math/src/aabb.cpp",
+      "sha256": "e00a1f2c76625333059915dc410c70a9b6ce5ea3176099d3b8d5ffa5f6ef0de9"
+    },
+    {
+      "path": "Code/Libraries/Math/src/angles.cpp",
+      "sha256": "03932204b99fb08cf854902c5d8069e7e5aa80b0b05b26606de1887f256b3ee5"
+    },
+    {
+      "path": "Code/Libraries/Math/src/box2d.cpp",
+      "sha256": "b83a119383ce0635623ffbf55b214c1a6d1fc26c783153d49cfa6a60549adea4"
+    },
+    {
+      "path": "Code/Libraries/Math/src/collisioninfo.cpp",
+      "sha256": "5c392709eb5762922549382f1cfb578748588d3e8292461d960dd49e2f1c82b3"
+    },
+    {
+      "path": "Code/Libraries/Math/src/collisioninfo2d.cpp",
+      "sha256": "79cf0315842517cc9cfd032bd6d8d8323e0b3d17cd7f28e48af1940d81830c07"
+    },
+    {
+      "path": "Code/Libraries/Math/src/convexhull.cpp",
+      "sha256": "1413cc6f9cccd098b110d8cb5a6ed3640ef3754ce9c3f25b9263cdc32d4e3a7c"
+    },
+    {
+      "path": "Code/Libraries/Math/src/crypto.cpp",
+      "sha256": "2dcc5fedfe0ff86ee456f5879c9f4e3b839a565b34cbd091c00c05aebc85c145"
+    },
+    {
+      "path": "Code/Libraries/Math/src/cylinder.cpp",
+      "sha256": "3b6416f5438466afc0b6360cac49f501a0058a30c0cecbbdde60ce386942f544"
+    },
+    {
+      "path": "Code/Libraries/Math/src/ellipsoid.cpp",
+      "sha256": "6496c961588a3057eb12a92617fa8735a854c3d7d3bc50240526fcbb9bb2fbf1"
+    },
+    {
+      "path": "Code/Libraries/Math/src/frustum.cpp",
+      "sha256": "fca7e1128a39f36820688c726fff1aab6b599eebc0bd0206a2a7d0784e5d6e98"
+    },
+    {
+      "path": "Code/Libraries/Math/src/hsv.cpp",
+      "sha256": "b8e3c0fbeac9a256b42dabfd7c14789d34a2012c84ec64362c64d1c6861ba923"
+    },
+    {
+      "path": "Code/Libraries/Math/src/line.cpp",
+      "sha256": "ba56a19412eef508aac4f91120301a4bb19d10eb3c4d6f1ce1abec7db5c6b25f"
+    },
+    {
+      "path": "Code/Libraries/Math/src/mathfunc.cpp",
+      "sha256": "18d613a1786c81b8225527429e2e57e6a2e6d7a65884c38f9ea4eff49c37c883"
+    },
+    {
+      "path": "Code/Libraries/Math/src/matrix.cpp",
+      "sha256": "f64b7dc1857b005367eb3d0e8c1f80ce1125ffd6a0fa55a1cfe235db10060082"
+    },
+    {
+      "path": "Code/Libraries/Math/src/noise.cpp",
+      "sha256": "203809eaa26132b79c54efdf2e25f2fa1c7f1fce60419a17a4b2cc9bf3415ee4"
+    },
+    {
+      "path": "Code/Libraries/Math/src/plane.cpp",
+      "sha256": "31ae717ff181c8a42abdef259a65f2282f40c58e33c3163be6acde8e92c0aa11"
+    },
+    {
+      "path": "Code/Libraries/Math/src/quat.cpp",
+      "sha256": "a238cc8a14573b7f37211a02267a5db077a276a27989f094c0d0c96cbcca78da"
+    },
+    {
+      "path": "Code/Libraries/Math/src/random.cpp",
+      "sha256": "05e180f77765744c91cff5b6c470198d90378149b6bc615fc4cba7489880c0c4"
+    },
+    {
+      "path": "Code/Libraries/Math/src/ray.cpp",
+      "sha256": "a560473e17381e114885e7dacc056650fd867d088bd344142a51684e368a6b1e"
+    },
+    {
+      "path": "Code/Libraries/Math/src/segment.cpp",
+      "sha256": "dd50323b80dc97a4bfe79ec65faaf7899e3b5ca3b0a4e55f883059b503ce8c6c"
+    },
+    {
+      "path": "Code/Libraries/Math/src/segment2d.cpp",
+      "sha256": "9c5d2559cf1d94be11f1068ce275d91d16d9558856b82eb2c23040da84b48799"
+    },
+    {
+      "path": "Code/Libraries/Math/src/sphere.cpp",
+      "sha256": "36175329e40b114a1b8dd01dc764c95abdee5645486a9ede19034af0f7242a33"
+    },
+    {
+      "path": "Code/Libraries/Math/src/triangle.cpp",
+      "sha256": "ed0127dc9ecd1f2b72e4a50b9b6ab84c081a0b9280131010075de8bc15a01716"
+    },
+    {
+      "path": "Code/Libraries/Math/src/triangle2d.cpp",
+      "sha256": "4ea3b2b5b202899dff0500e2411583a155d23d66e9e801a8c6c6c65bd6d28801"
+    },
+    {
+      "path": "Code/Libraries/Math/src/vector.cpp",
+      "sha256": "bf96cf12f74dfcd7e1d6e0485aa8a96528977e07b1e5db8837460936d103a05c"
+    },
+    {
+      "path": "Code/Libraries/Math/src/vector2.cpp",
+      "sha256": "68dd76f5eabb6432d3505a0899c3c1eedbe3e41e215049d0e3ae51a466000b74"
+    },
+    {
+      "path": "Code/Libraries/Math/src/vector4.cpp",
+      "sha256": "eb41b5048ba4adb64fbe690f9fe084b32c0930670b302f244b57b91aa034ba75"
+    },
+    {
+      "path": "Code/Libraries/Rodin/src/Actions/wbactionrodinblackboardwrite.cpp",
+      "sha256": "08e8045a9489891a41a31c991b2eef1fc489236c22d61ec245dbd489c832c645"
+    },
+    {
+      "path": "Code/Libraries/Rodin/src/BTNodes/rodinbtnodeactiondecorator.cpp",
+      "sha256": "c8728d0604876bf85cd0e140f7f20c2808b99779821eb47942918ec4dced78cc"
+    },
+    {
+      "path": "Code/Libraries/Rodin/src/BTNodes/rodinbtnodeblackboardwrite.cpp",
+      "sha256": "d5d580bc39b6664209ccb5e095e1d5b6a0ad9f4c83390ba742e6a1a4d08f8ead"
+    },
+    {
+      "path": "Code/Libraries/Rodin/src/BTNodes/rodinbtnodecastresult.cpp",
+      "sha256": "4b4a932919027c6f27e501c8ba98ea7a83911245e4b0cc3cf5c285494984ccd8"
+    },
+    {
+      "path": "Code/Libraries/Rodin/src/BTNodes/rodinbtnodecomposite.cpp",
+      "sha256": "28e49d0259d0ce9f3844ac5cf28603f8c5f75f217b40809925e6bb657def6c8e"
+    },
+    {
+      "path": "Code/Libraries/Rodin/src/BTNodes/rodinbtnodecompositesingular.cpp",
+      "sha256": "12a5065f81ddb68e7800703708491b06e3b688603b6b6ab725e516d6fc9c2fd2"
+    },
+    {
+      "path": "Code/Libraries/Rodin/src/BTNodes/rodinbtnodeconditionpe.cpp",
+      "sha256": "a7972df8a07d22b34d041469690fd43d4a360dcf98d71adc933b9f9e8728a034"
+    },
+    {
+      "path": "Code/Libraries/Rodin/src/BTNodes/rodinbtnodeconditiontimeout.cpp",
+      "sha256": "6de951c8d0a4057208be062523764911e62af59d548eebfd71ce607ecc3f0555"
+    },
+    {
+      "path": "Code/Libraries/Rodin/src/BTNodes/rodinbtnodedecorator.cpp",
+      "sha256": "2ce10308e48a8810e02337a3e713f164a7ca417786063ac413047e8acd7d53b2"
+    },
+    {
+      "path": "Code/Libraries/Rodin/src/BTNodes/rodinbtnodelog.cpp",
+      "sha256": "c6d178275a13c7f7bba5d44c7dccab09a0dc836550465dfe3ee06f7313ada2ef"
+    },
+    {
+      "path": "Code/Libraries/Rodin/src/BTNodes/rodinbtnodelookup.cpp",
+      "sha256": "3cedd93c5bf8913c364ac6a983f6b3d7a7b3b528330843736245c9547f2084b2"
+    },
+    {
+      "path": "Code/Libraries/Rodin/src/BTNodes/rodinbtnodeloop.cpp",
+      "sha256": "d9e6f45a180bd83e5e823796d477cb8f374c3f115087d4e632a2c0ba0836903c"
+    },
+    {
+      "path": "Code/Libraries/Rodin/src/BTNodes/rodinbtnodenull.cpp",
+      "sha256": "e4fdf50588ffc0f2c5caff2c36162c8900ea313b8afd58f5bf5e5f47353bcf29"
+    },
+    {
+      "path": "Code/Libraries/Rodin/src/BTNodes/rodinbtnodeparallel.cpp",
+      "sha256": "49b989856354390e86a0aea60340153c59295a4dd93f331dfbdd95153dec30c5"
+    },
+    {
+      "path": "Code/Libraries/Rodin/src/BTNodes/rodinbtnodeplayactions.cpp",
+      "sha256": "1e33918d677b94713d3b38000284b2ec77a9886d1abc4aa97a6055e2c128586d"
+    },
+    {
+      "path": "Code/Libraries/Rodin/src/BTNodes/rodinbtnodeselector.cpp",
+      "sha256": "cc2158b6825b6dccaf1e7113181466b0e568f6900c9eba4dd3f326b233fe6997"
+    },
+    {
+      "path": "Code/Libraries/Rodin/src/BTNodes/rodinbtnodesendevent.cpp",
+      "sha256": "7f7b5a2efa5ccb41bcb5071e3509aee0a98ab1e2c95faca15b1515e61aff2454"
+    },
+    {
+      "path": "Code/Libraries/Rodin/src/BTNodes/rodinbtnodesequence.cpp",
+      "sha256": "331ff234de8b3609cb2ed1aed2ebcb25852958aba1a0d493940f7930dd48858f"
+    },
+    {
+      "path": "Code/Libraries/Rodin/src/BTNodes/rodinbtnodesleep.cpp",
+      "sha256": "e09df62922c89c0e5deec534a12d841fb17cf0277755133c422f38dd31ed8979"
+    },
+    {
+      "path": "Code/Libraries/Rodin/src/BTNodes/rodinbtnodetimeout.cpp",
+      "sha256": "6455b6168a20c16fed4393bacb307b80f4b6d61ee2861238d7dd658acbeaf1e6"
+    },
+    {
+      "path": "Code/Libraries/Rodin/src/BTNodes/rodinbtnodeuseresource.cpp",
+      "sha256": "077e7c828838acaaf1529a9e844f7c09005c131fd181c1404436884059d4737f"
+    },
+    {
+      "path": "Code/Libraries/Rodin/src/BTNodes/rodinbtnodeusestatmod.cpp",
+      "sha256": "ad42ef5e3cde3498e8000e7ba76f155b928cb507f8b6961f734a03cf55bb1129"
+    },
+    {
+      "path": "Code/Libraries/Rodin/src/BTNodes/rodinbtnodewait.cpp",
+      "sha256": "29d73ab683635e0ef2c2df90da8d241c850d6994a2dcba1a075cc3418492c91b"
+    },
+    {
+      "path": "Code/Libraries/Rodin/src/BTNodes/rodinbtnodewaitforevent.cpp",
+      "sha256": "2de87b2bff11e4b69c2845aa2ac5532f8b8b56566df26c90af5241b922393635"
+    },
+    {
+      "path": "Code/Libraries/Rodin/src/Components/wbcomprodinbehaviortree.cpp",
+      "sha256": "b96fddedb72fb99021458b8c25674b616e95dbbe582972764d0fd3e8eda1abc8"
+    },
+    {
+      "path": "Code/Libraries/Rodin/src/Components/wbcomprodinblackboard.cpp",
+      "sha256": "13871b2764bcc12ca2feab70abe86e564f90daca659badd8bbbb8e7eb8ff1dd3"
+    },
+    {
+      "path": "Code/Libraries/Rodin/src/Components/wbcomprodinknowledge.cpp",
+      "sha256": "a1d79de9994812ad7672e83d1cb5e910b326c55b30937db99cf7b217cb71e68e"
+    },
+    {
+      "path": "Code/Libraries/Rodin/src/Components/wbcomprodinresourcemap.cpp",
+      "sha256": "d1dfc2faaa1be742c76d7049385803739808b63260b8c8f0c9f4c196a3e9fd77"
+    },
+    {
+      "path": "Code/Libraries/Rodin/src/PEs/wbperodinblackboardget.cpp",
+      "sha256": "fd82a2cf1da3d3fbfcd867377ef1c790fff0acef4a77ea7eb851c34045fce4f6"
+    },
+    {
+      "path": "Code/Libraries/Rodin/src/PEs/wbperodingetknowledge.cpp",
+      "sha256": "00acc84aaa317cd6ef57fffb32b3e2e76ee0038e113478bb6550641d5351b836"
+    },
+    {
+      "path": "Code/Libraries/Rodin/src/PEs/wbperodingetlastknownlocation.cpp",
+      "sha256": "3ae0deb3d597c549944583a73d7d27f939b8a95efb21df0d3a23606ea48603d6"
+    },
+    {
+      "path": "Code/Libraries/Rodin/src/PEs/wbperodingetlastknowntime.cpp",
+      "sha256": "d0d2cd8ba4bb6dc918ea501932db338b766ca3b67ab304ccc5ecc9d536dcfa1e"
+    },
+    {
+      "path": "Code/Libraries/Rodin/src/rodinbtnode.cpp",
+      "sha256": "e0e89b1635c09c785312ee92eff8ed565d488473b27ddcaaeb682706707e37eb"
+    },
+    {
+      "path": "Code/Libraries/Rodin/src/rodinbtnodefactory.cpp",
+      "sha256": "1fb02f3d4eb57c6c05e215ee570846a997e18824552ed0f07022f0ec60a5d269"
+    },
+    {
+      "path": "Code/Libraries/SoLoud/src/audiosource/wav/soloud_wav.cpp",
+      "sha256": "471e3f4a3302b0edfaa181e2a09cd71a263881c5dc69e7db804320e8704fb687"
+    },
+    {
+      "path": "Code/Libraries/SoLoud/src/audiosource/wav/soloud_wavstream.cpp",
+      "sha256": "e4fe15218653f2b2e20bd26f4a9078eb8d0367ae233b4beaecb434b1a7753b7d"
+    },
+    {
+      "path": "Code/Libraries/SoLoud/src/audiosource/wav/stb_vorbis.c",
+      "sha256": "1714639331203b68ffabc5336746ce117a868f66e38d8888d8b5117570430845"
+    },
+    {
+      "path": "Code/Libraries/SoLoud/src/backend/null/soloud_null.cpp",
+      "sha256": "c947b4c9c43e1eb06140d54455bc45648c891f8bf28b5a1ae8214fe12b8fb651"
+    },
+    {
+      "path": "Code/Libraries/SoLoud/src/core/soloud.cpp",
+      "sha256": "7c1b1687528f81d68181248e3c7557a62ea8235f053e6e87b839725d5cd4496c"
+    },
+    {
+      "path": "Code/Libraries/SoLoud/src/core/soloud_audiosource.cpp",
+      "sha256": "1134dfe41d8805f84422854bbb959fe4180e8dd8fa2019af0d10f31106a62fdf"
+    },
+    {
+      "path": "Code/Libraries/SoLoud/src/core/soloud_bus.cpp",
+      "sha256": "2e4c2479a0620f16f2c6152309a235c9ccfc75d97fd82dc0f5fe9cc28ab792cf"
+    },
+    {
+      "path": "Code/Libraries/SoLoud/src/core/soloud_core_3d.cpp",
+      "sha256": "f3854bf7535320e9873b4eff85f0d825069b0ef8d90a71f1778f1412575b85dd"
+    },
+    {
+      "path": "Code/Libraries/SoLoud/src/core/soloud_core_basicops.cpp",
+      "sha256": "263d0a8628ed550a47c7c5a69e47a5ae4b63422110a88f24c428ff4a1a70fb46"
+    },
+    {
+      "path": "Code/Libraries/SoLoud/src/core/soloud_core_faderops.cpp",
+      "sha256": "5fd8857269a8c45c9c7c5ff83005a8c41a397eec65d9ab42df97c350ae89a26b"
+    },
+    {
+      "path": "Code/Libraries/SoLoud/src/core/soloud_core_filterops.cpp",
+      "sha256": "5bf4216a7bd73d5faf5a0289681ed1b48161d5b6e202bf2549590106b82c0422"
+    },
+    {
+      "path": "Code/Libraries/SoLoud/src/core/soloud_core_getters.cpp",
+      "sha256": "a29ffa468b2ad7a0a9ed4af9acac45eec14de98a90d61da6e04ef88854653275"
+    },
+    {
+      "path": "Code/Libraries/SoLoud/src/core/soloud_core_setters.cpp",
+      "sha256": "d1a678c7d069069165e6e5147a46cddece1ec23bdb9d5c92ccbbd93310f33343"
+    },
+    {
+      "path": "Code/Libraries/SoLoud/src/core/soloud_core_voicegroup.cpp",
+      "sha256": "314a69dd40f8e42521e0fcc0e325b278132357f6efd9bd0c5b193e7221a9b747"
+    },
+    {
+      "path": "Code/Libraries/SoLoud/src/core/soloud_core_voiceops.cpp",
+      "sha256": "61e8009e21d384a13f5acf2baeaf0e473e43b8601c1f6a2d11f3e11f5ea7f87d"
+    },
+    {
+      "path": "Code/Libraries/SoLoud/src/core/soloud_fader.cpp",
+      "sha256": "1d18850b476496a58aae93bb7bc0c0c125549a5541f4cef5739d04b4b127d1dd"
+    },
+    {
+      "path": "Code/Libraries/SoLoud/src/core/soloud_fft.cpp",
+      "sha256": "ffef4415b1911b49d8883ad30282ac005a6b8add903d5eee114f367cade06682"
+    },
+    {
+      "path": "Code/Libraries/SoLoud/src/core/soloud_fft_lut.cpp",
+      "sha256": "e4fedf579d550e6f1f2dad6a81009198b4d89035d6a4ad365652cafc6623d3d4"
+    },
+    {
+      "path": "Code/Libraries/SoLoud/src/core/soloud_file.cpp",
+      "sha256": "d07786efe83193d29b0aa0ea771e7b62b9cce3314faf795e2bf8b22c8f3cdce0"
+    },
+    {
+      "path": "Code/Libraries/SoLoud/src/core/soloud_filter.cpp",
+      "sha256": "d51ccab862736ee3ba8507df65c668d2a03a1c4958647e666141b6efeab77c6c"
+    },
+    {
+      "path": "Code/Libraries/SoLoud/src/core/soloud_thread.cpp",
+      "sha256": "266597b663f3f69637003c0336f5bb8ed10d68e7c606392db3a1c8a38284e913"
+    },
+    {
+      "path": "Code/Libraries/SoLoud/src/filter/soloud_bassboostfilter.cpp",
+      "sha256": "66be3e3d713ad6612aa0963ab5601eb25ff45f725c1ed3170a2cb068b2e1af63"
+    },
+    {
+      "path": "Code/Libraries/SoLoud/src/filter/soloud_biquadresonantfilter.cpp",
+      "sha256": "a595f394e65f92f19c610ba565de2424400fd813f1431e1816e1160c4383fa44"
+    },
+    {
+      "path": "Code/Libraries/SoLoud/src/filter/soloud_dcremovalfilter.cpp",
+      "sha256": "010307e274a6e9cad0692b553ce05344d52df016990c39f9d983ce3ac62af51f"
+    },
+    {
+      "path": "Code/Libraries/SoLoud/src/filter/soloud_echofilter.cpp",
+      "sha256": "17a6263e98eee2e71e9ea57dad55e5285f77a9872e584af8c225910ed1f45236"
+    },
+    {
+      "path": "Code/Libraries/SoLoud/src/filter/soloud_fftfilter.cpp",
+      "sha256": "d7db4a6d91f10e65deb7c4f6f08afb3664e0c0af2dcd50d9290c9274d910c1da"
+    },
+    {
+      "path": "Code/Libraries/SoLoud/src/filter/soloud_flangerfilter.cpp",
+      "sha256": "4e04c00a768cf6415a547dbae817ab7ca6d87103fd21831d57910c7a837c9689"
+    },
+    {
+      "path": "Code/Libraries/SoLoud/src/filter/soloud_lofifilter.cpp",
+      "sha256": "0ccd5a120d7ae2ff5a7dc09f6ee22adc0966d80b9d1f2656cfe207372345db2f"
+    },
+    {
+      "path": "Code/Libraries/UI/src/Actions/wbactionuipushscreen.cpp",
+      "sha256": "ad646ab8001cced70d7e06e5ba87e85e0b1e26f41e86c8759ff6c663d957d7ee"
+    },
+    {
+      "path": "Code/Libraries/UI/src/Actions/wbactionuisetwidgetimage.cpp",
+      "sha256": "933d65219fc4f3b003b94207b1f584680d576f14a1397c97d562cfca119bd129"
+    },
+    {
+      "path": "Code/Libraries/UI/src/Actions/wbactionuishowhidewidget.cpp",
+      "sha256": "14e11cb8b128b655a7facec7748ab497132fed28f325b7b5875e6adafe41218c"
+    },
+    {
+      "path": "Code/Libraries/UI/src/Actions/wbactionuishowyesnodialog.cpp",
+      "sha256": "5d1727bb6d360c425dc96abed523fb2652f0fc99e822b5a2dd34acff4673bced"
+    },
+    {
+      "path": "Code/Libraries/UI/src/Common/uimanagercommon.cpp",
+      "sha256": "2c0647a5a8b98d203d3e8284e5c4f5e0851b0b2bfa1624bd6dcff113250aada7"
+    },
+    {
+      "path": "Code/Libraries/UI/src/Screens/uiscreen-base.cpp",
+      "sha256": "3ca13c71e4041bba4c22118890e059129eb85b71d0934ebb01309a775995bde9"
+    },
+    {
+      "path": "Code/Libraries/UI/src/Screens/uiscreen-fade.cpp",
+      "sha256": "97ce70fef698d697cf6d0fddf2a2f9ec188ca44d885a938a5bb9b616e09ca901"
+    },
+    {
+      "path": "Code/Libraries/UI/src/Screens/uiscreen-okdialog.cpp",
+      "sha256": "d0c9449d924b44ab9b16edf64ce9f407bc47fc8189452ab957d906b14f034d6d"
+    },
+    {
+      "path": "Code/Libraries/UI/src/Screens/uiscreen-waitdialog.cpp",
+      "sha256": "dc284ec9e5107caa0e90b6fca8c2311584dd84f6416f0e33f23250c3f1728275"
+    },
+    {
+      "path": "Code/Libraries/UI/src/Screens/uiscreen-yesnodialog.cpp",
+      "sha256": "eba54482d5bd119d7398638094719dfff29652ccad6d60e2ebe796b86e3c1274"
+    },
+    {
+      "path": "Code/Libraries/UI/src/uifactory.cpp",
+      "sha256": "bfacbfe67bbb46d7a73e8beeaee3e24abe9433308f96ffb071774144bed4a04e"
+    },
+    {
+      "path": "Code/Libraries/UI/src/uimanager.cpp",
+      "sha256": "e46b2ae32dd3aaefce1325c1392b8df23737f8c1bc44a9a4ceed69b83121a75b"
+    },
+    {
+      "path": "Code/Libraries/UI/src/uiscreen.cpp",
+      "sha256": "5fe0687f1561f15b593218b3bedf95fe019b2317648e764005d9928ff307d228"
+    },
+    {
+      "path": "Code/Libraries/UI/src/uistack.cpp",
+      "sha256": "603dea91acdd5d6c50d817059d24bbcc462d154bae4defb2ef6995d2c7a02d46"
+    },
+    {
+      "path": "Code/Libraries/UI/src/uiwidget.cpp",
+      "sha256": "c64929abc00b3662e83ca9b91b46db6503320c6f8c1267d791d67791017007b9"
+    },
+    {
+      "path": "Code/Libraries/UI/src/Widgets/uiwidget-composite.cpp",
+      "sha256": "d3fa4c46d6cd506f7b0e5bbbe05326ba612d07edfb2cf8ee25df14e8487dcabd"
+    },
+    {
+      "path": "Code/Libraries/UI/src/Widgets/uiwidget-frame.cpp",
+      "sha256": "81b8415cfefe738a5b9d0cb4712f538bb0e20d5d1c710fe0caf1c7753dacc2aa"
+    },
+    {
+      "path": "Code/Libraries/UI/src/Widgets/uiwidget-image.cpp",
+      "sha256": "5bf55572cba2087afaf62ef78028c3791ec975a560ffe75565daa0bd33af90c1"
+    },
+    {
+      "path": "Code/Libraries/UI/src/Widgets/uiwidget-slider.cpp",
+      "sha256": "d760b8a60f518f41662f1fb8eb51c01cea854918a5fc32abaa3459a57489910c"
+    },
+    {
+      "path": "Code/Libraries/UI/src/Widgets/uiwidget-spacer.cpp",
+      "sha256": "de345bc434dd7e4f526d1d20f444eb84d0d0d44f4b32e2aa2c607051e16b8057"
+    },
+    {
+      "path": "Code/Libraries/UI/src/Widgets/uiwidget-text.cpp",
+      "sha256": "ebe9d519a7c624aef6fc9b2bae484745953f619440fc68f0414c2cf85e923a92"
+    },
+    {
+      "path": "Code/Libraries/Workbench/src/Actions/wbactioncomposite.cpp",
+      "sha256": "eb7db31a08be88054365e739a517e8bd37e0886c350a063d22e94f7f8f538dba"
+    },
+    {
+      "path": "Code/Libraries/Workbench/src/Actions/wbactiondestroy.cpp",
+      "sha256": "f30d672d04cfbfe7eabf44bb726919d995835f36b2d9ae492fc43836d0a1dfed"
+    },
+    {
+      "path": "Code/Libraries/Workbench/src/Actions/wbactionlog.cpp",
+      "sha256": "eb8427aae573f9196474b0e8fc457743d84a616f6141eb86a1f401451fd0728d"
+    },
+    {
+      "path": "Code/Libraries/Workbench/src/Actions/wbactionselector.cpp",
+      "sha256": "2b0ad766ead85064f2d0e45f07c1090cbe4b4bf69aff88d3834492908916138f"
+    },
+    {
+      "path": "Code/Libraries/Workbench/src/Actions/wbactionsendevent.cpp",
+      "sha256": "380a553553c3ec99fee293525a7648051e76efa9f05232997e90ffa3025c883b"
+    },
+    {
+      "path": "Code/Libraries/Workbench/src/Actions/wbactionsetconfigvar.cpp",
+      "sha256": "b53f9dbd599f8669149279513fa3bf006a29d5571d6fd01101ab815e0e9cdf81"
+    },
+    {
+      "path": "Code/Libraries/Workbench/src/Actions/wbactionsetstate.cpp",
+      "sha256": "3e6a3077d4e1651cc228041864a924862a2251109aea12c82e128c4b6f336723"
+    },
+    {
+      "path": "Code/Libraries/Workbench/src/Actions/wbactionsetvariable.cpp",
+      "sha256": "374866b001b942a0bc5972fed366863bebbd42c8db199e8c7fff441bea15bb17"
+    },
+    {
+      "path": "Code/Libraries/Workbench/src/Actions/wbactiontriggerstatmod.cpp",
+      "sha256": "1092a7faf5e9442cf75e58a5322e447ea433178a01960c50694a724b0bd79e35"
+    },
+    {
+      "path": "Code/Libraries/Workbench/src/Actions/wbactionunqueueevent.cpp",
+      "sha256": "dae3a0bc0cae743435bbad07f869c7e1bb412440be279ffcb523b9fa482c9d58"
+    },
+    {
+      "path": "Code/Libraries/Workbench/src/Components/wbcomplabel.cpp",
+      "sha256": "9835ac5d73fd258a16521762153f61577ed7bc98d771f5fc87234648e2e5062e"
+    },
+    {
+      "path": "Code/Libraries/Workbench/src/Components/wbcompowner.cpp",
+      "sha256": "5b84ebcc200d66cb3bf9b9a4856c5b03ee3cc6721dfb43a76b3f28abf222b4b8"
+    },
+    {
+      "path": "Code/Libraries/Workbench/src/Components/wbcomppemap.cpp",
+      "sha256": "6b6c430196ddf6d8ced5214ac23550fb023e0696973b28cfbf4310afeef9eff9"
+    },
+    {
+      "path": "Code/Libraries/Workbench/src/Components/wbcompreactions.cpp",
+      "sha256": "5912cdf441afd6230b924b5a1c60fb2309415b49ed741211f238d1230100a314"
+    },
+    {
+      "path": "Code/Libraries/Workbench/src/Components/wbcompstate.cpp",
+      "sha256": "8c674d35514290f1b5ff7718e94bfef0fe44dad450510f59923986a303c538d6"
+    },
+    {
+      "path": "Code/Libraries/Workbench/src/Components/wbcompstatmod.cpp",
+      "sha256": "4b30746b699a9ed0b757bd179156a5e6e1b955a05d1f27bcf0d5b79ad55fd245"
+    },
+    {
+      "path": "Code/Libraries/Workbench/src/Components/wbcomptransform.cpp",
+      "sha256": "6951f6de0d08d500d2d438c862108c88b8aa2b34c27e28815b7bacca9c631c41"
+    },
+    {
+      "path": "Code/Libraries/Workbench/src/Components/wbcompvariablemap.cpp",
+      "sha256": "b9dc3a83ecb124352049c65c30e94ff6bf75f6dfa954c6a9bff3c70ec3f3dd59"
+    },
+    {
+      "path": "Code/Libraries/Workbench/src/PEs/wbpeabs.cpp",
+      "sha256": "0f652c1d16b2809e79d746566c73750220f49e9e71c7e1bd2376716ad4a20924"
+    },
+    {
+      "path": "Code/Libraries/Workbench/src/PEs/wbpeadd.cpp",
+      "sha256": "f78f95d3b539ccc6103b7bdd571ae3f78d964a1b8b7fe003e10cc35d66ef0790"
+    },
+    {
+      "path": "Code/Libraries/Workbench/src/PEs/wbpeand.cpp",
+      "sha256": "c535d0ad2de2825bdfda75d772170e7d1f24d574e772e5e65459f0df77eb33f2"
+    },
+    {
+      "path": "Code/Libraries/Workbench/src/PEs/wbpebinaryop.cpp",
+      "sha256": "1d50052de247fbb5217abe54175b8143776d75571e2778aa98b5878e00c33cf2"
+    },
+    {
+      "path": "Code/Libraries/Workbench/src/PEs/wbpeconditional.cpp",
+      "sha256": "fc10860f07c9a0adb5c22597e49d2a36a10a34d4204833beeabc6f45c6131b92"
+    },
+    {
+      "path": "Code/Libraries/Workbench/src/PEs/wbpeconstantangles.cpp",
+      "sha256": "5616a65dd79fa726c3056e279d00f6d5c4eb8ee16b97cd6ed903212ca377a6a5"
+    },
+    {
+      "path": "Code/Libraries/Workbench/src/PEs/wbpeconstantbool.cpp",
+      "sha256": "0de988ea62bc2b09cdaa6558706e527ccbc002426b435a5b36200e2d7db3ba92"
+    },
+    {
+      "path": "Code/Libraries/Workbench/src/PEs/wbpeconstantfloat.cpp",
+      "sha256": "495dc7caf6605be65de1d03f834200e39825eb93b61824a36c48d7373d5c5e93"
+    },
+    {
+      "path": "Code/Libraries/Workbench/src/PEs/wbpeconstantint.cpp",
+      "sha256": "deb6e1ed19563d695ea77c32d15daff666451c3f8744e7711d4ee7af73f60816"
+    },
+    {
+      "path": "Code/Libraries/Workbench/src/PEs/wbpeconstantstring.cpp",
+      "sha256": "3f6ac83cd6bf6a126c87303e33a9d8048d5ded20bdc78592023ab108ee2d4c37"
+    },
+    {
+      "path": "Code/Libraries/Workbench/src/PEs/wbpeconstantvector.cpp",
+      "sha256": "17f90ac35af8f6bb98f0e8745bfe7e58d1a8d8e9865898e02ca17f422aac6565"
+    },
+    {
+      "path": "Code/Libraries/Workbench/src/PEs/wbpecross.cpp",
+      "sha256": "547cab962223c95d5dd0277f1bfca18a51eeee54c0c86465b0863c16ecc88ab0"
+    },
+    {
+      "path": "Code/Libraries/Workbench/src/PEs/wbpediv.cpp",
+      "sha256": "bab4b6fbb1f96090a09e32fc9d483196445137c428c6afcdda77f2c09c25441d"
+    },
+    {
+      "path": "Code/Libraries/Workbench/src/PEs/wbpedot.cpp",
+      "sha256": "b134e264f0ccdb1e59049510ad343106774d7c84923ecb4aef8366728b253d6b"
+    },
+    {
+      "path": "Code/Libraries/Workbench/src/PEs/wbpegetconfigvar.cpp",
+      "sha256": "80760c1c38cf4221393aa744ddddfafd0c1af1357060559323e694e4294b5b14"
+    },
+    {
+      "path": "Code/Libraries/Workbench/src/PEs/wbpegetentitybylabel.cpp",
+      "sha256": "f5fa59ee0f8270933cb9387a42a12df083cdf5e347d7e3509c058a990b61a136"
+    },
+    {
+      "path": "Code/Libraries/Workbench/src/PEs/wbpegetname.cpp",
+      "sha256": "9233a71d61d9e9cdc872b621f78b15f74caa974470dd93469c662699bd4e28b4"
+    },
+    {
+      "path": "Code/Libraries/Workbench/src/PEs/wbpegetstate.cpp",
+      "sha256": "e111e0a0e62cdefda5a0f75f7e139fc7c3ce93a1f504ed8769051be5a89cb4a5"
+    },
+    {
+      "path": "Code/Libraries/Workbench/src/PEs/wbpegetvariable.cpp",
+      "sha256": "10b03d8f5b37dfd5a22fafdf73ddbaa4c47353450e3acebc8146df20825cd3f7"
+    },
+    {
+      "path": "Code/Libraries/Workbench/src/PEs/wbpeisstate.cpp",
+      "sha256": "6e56fa0b57d36e827c0d581e1dfd7f84848742c01c6af3bd6f9626d654b1625b"
+    },
+    {
+      "path": "Code/Libraries/Workbench/src/PEs/wbpelength.cpp",
+      "sha256": "0be7b9f9a5dbc9b06d29f83b13d954489098121aca325831112aed7ae3e26671"
+    },
+    {
+      "path": "Code/Libraries/Workbench/src/PEs/wbpelookup.cpp",
+      "sha256": "b9cede64b745b562219289230c77dc802a6f1444df20059766aa3d14461d60c6"
+    },
+    {
+      "path": "Code/Libraries/Workbench/src/PEs/wbpemax.cpp",
+      "sha256": "8c8cda16a72f5841521b2adfc7c44a802807ccbf30f6c21437fe4ab4974a20ab"
+    },
+    {
+      "path": "Code/Libraries/Workbench/src/PEs/wbpemin.cpp",
+      "sha256": "40b3c85c27abe5bb11dd78b411ed3138fd6ce31696d5eba4188ffff4c636115b"
+    },
+    {
+      "path": "Code/Libraries/Workbench/src/PEs/wbpemul.cpp",
+      "sha256": "50b8597ac03cb44df3fe7f191843443716a042f03df12bc6083a5e150d0c42e6"
+    },
+    {
+      "path": "Code/Libraries/Workbench/src/PEs/wbpeneg.cpp",
+      "sha256": "e781be940684472f5d32ce14a4b5876bae602d213a0a2b70f3c58a706f241f8b"
+    },
+    {
+      "path": "Code/Libraries/Workbench/src/PEs/wbpenormal.cpp",
+      "sha256": "a663701064387a77582b53f8190f53b12c7a184a43fc2f7ffc8c10d700d29d31"
+    },
+    {
+      "path": "Code/Libraries/Workbench/src/PEs/wbpenot.cpp",
+      "sha256": "0fc4ca74176a7c3af51e03c2794bfa13423900d3e0a4a3e362e694ef009ec3ea"
+    },
+    {
+      "path": "Code/Libraries/Workbench/src/PEs/wbpenull.cpp",
+      "sha256": "ec9782d28ce86e33f3ec8f60a580a641dbdb5c157ba13782f82b7c05f0dd5c39"
+    },
+    {
+      "path": "Code/Libraries/Workbench/src/PEs/wbpeor.cpp",
+      "sha256": "f565f185ba93a3991ac78c82e47bc1f010ab9ae52a54067cd882204b705d1190"
+    },
+    {
+      "path": "Code/Libraries/Workbench/src/PEs/wbpeowner.cpp",
+      "sha256": "d48172fc308b209069eae1e78d8cbf45c17a869f13cf294ba2a1045ccce6bef3"
+    },
+    {
+      "path": "Code/Libraries/Workbench/src/PEs/wbpepow.cpp",
+      "sha256": "7b21542001fb760c992f6316a6fa4544ee899e68171660c67b9bb6fa224f13bc"
+    },
+    {
+      "path": "Code/Libraries/Workbench/src/PEs/wbpepushcontext.cpp",
+      "sha256": "ac01341288ecd3dc8dd300e34c08a55efa92c58d3a680be569a216aa75a724e3"
+    },
+    {
+      "path": "Code/Libraries/Workbench/src/PEs/wbpequeryactionstack.cpp",
+      "sha256": "ed392d00774b8de27bd07bac3e5d7cb9045449782d034a687b4e56923c5f9fe7"
+    },
+    {
+      "path": "Code/Libraries/Workbench/src/PEs/wbperandombool.cpp",
+      "sha256": "a4e6bfab846748a6c07929768e810c961cc6b9cc879b6e37d52c533656c653e0"
+    },
+    {
+      "path": "Code/Libraries/Workbench/src/PEs/wbperandomfloat.cpp",
+      "sha256": "3aa49690841baa0c5081a160e8db63aec320a7a97384120ba8ab52f2d2253330"
+    },
+    {
+      "path": "Code/Libraries/Workbench/src/PEs/wbperandomint.cpp",
+      "sha256": "31ec26e50325840950438b0b5f6b035304868c9db4252f3006545cd7fdf6f84b"
+    },
+    {
+      "path": "Code/Libraries/Workbench/src/PEs/wbperandomvector.cpp",
+      "sha256": "afc37a40367c5c5eba88f7e399301c46b0e4406bde4555abe3e33ebc90b08b49"
+    },
+    {
+      "path": "Code/Libraries/Workbench/src/PEs/wbpereactionsself.cpp",
+      "sha256": "906eebf3b6b88b57c6ffc33b927d96303bc43bc6f6402f52c7864b351f5e4775"
+    },
+    {
+      "path": "Code/Libraries/Workbench/src/PEs/wbpesaturate.cpp",
+      "sha256": "186f94e0939fce940b47a414c180097d41167ae91265913facae32d8cdd9e3d9"
+    },
+    {
+      "path": "Code/Libraries/Workbench/src/PEs/wbpeselector.cpp",
+      "sha256": "9d01ef9f345717065865b984425219d54a93e0dcea87951baba82276ea214a87"
+    },
+    {
+      "path": "Code/Libraries/Workbench/src/PEs/wbpeself.cpp",
+      "sha256": "b3124130deec962e6b31e48136449fb1ac190162dbceddf4f352ee7507b50f42"
+    },
+    {
+      "path": "Code/Libraries/Workbench/src/PEs/wbpesquare.cpp",
+      "sha256": "d6dc94d435d66e0a5f0223948a94cb8bd3c3858c026d7d5305cff0caa7d3ebeb"
+    },
+    {
+      "path": "Code/Libraries/Workbench/src/PEs/wbpestatmod.cpp",
+      "sha256": "2278fe796c0639fb8049a263a315a5629037b6bb16c2cc59fb3a17773c2cdf9a"
+    },
+    {
+      "path": "Code/Libraries/Workbench/src/PEs/wbpesub.cpp",
+      "sha256": "26f9859892719179071d7661b909e7735f171fa13812be42e57f4060348d44ec"
+    },
+    {
+      "path": "Code/Libraries/Workbench/src/PEs/wbpeunaryop.cpp",
+      "sha256": "dce839f9e3861f965a4185c700c6e0045bd14d72b6b9d5878090dc3b3f92a824"
+    },
+    {
+      "path": "Code/Libraries/Workbench/src/PEs/wbpexor.cpp",
+      "sha256": "838b53eba90fe14381c459383af8ff3d1de665379895cbf054853ad62e2191c7"
+    },
+    {
+      "path": "Code/Libraries/Workbench/src/wbaction.cpp",
+      "sha256": "2b96e875804974815a7d0a94de319b13ad9539a6aea338e0115167da7286706d"
+    },
+    {
+      "path": "Code/Libraries/Workbench/src/wbactionfactory.cpp",
+      "sha256": "90c009a8fa25eace5594569d301f9168e85d127a5f0eece015b5bc072738ecc4"
+    },
+    {
+      "path": "Code/Libraries/Workbench/src/wbactionstack.cpp",
+      "sha256": "be9220f3ac6e6633e5af47d73a6dd0898c5e896dfc0764b0ee4160d339166e01"
+    },
+    {
+      "path": "Code/Libraries/Workbench/src/wbcomponent.cpp",
+      "sha256": "6256538aa02dcb0bce058529033469efb22493ec4ed58f30b314bc9dfadb4e4e"
+    },
+    {
+      "path": "Code/Libraries/Workbench/src/wbcomponentarrays.cpp",
+      "sha256": "200083f6a60baeff03472d677274b7643727cc9df9b696b958028e529d5f2066"
+    },
+    {
+      "path": "Code/Libraries/Workbench/src/wbentity.cpp",
+      "sha256": "ee6c57376bad806fec00b6a15446270258802c4f193dea99a90e99056ae87680"
+    },
+    {
+      "path": "Code/Libraries/Workbench/src/wbevent.cpp",
+      "sha256": "ab131da8a53c6670d76805b69320525fa218f594696295a2ca3f50b823263bbe"
+    },
+    {
+      "path": "Code/Libraries/Workbench/src/wbeventmanager.cpp",
+      "sha256": "682bacb92089be9a295ec082baba98d518663580e45178c0f15c42100af86501"
+    },
+    {
+      "path": "Code/Libraries/Workbench/src/wbparamevaluator.cpp",
+      "sha256": "5360b60c6f23b540bd085a724e9ec3c5042314ca6d96bcdff415b6376c94c6f3"
+    },
+    {
+      "path": "Code/Libraries/Workbench/src/wbparamevaluatorfactory.cpp",
+      "sha256": "f5fe9e5f5507ab902ada58b2c9e688722a6d148ec5b512c49741c32072dfdd2a"
+    },
+    {
+      "path": "Code/Libraries/Workbench/src/wbpatternmatching.cpp",
+      "sha256": "2c690acd2668e96e53640de28d99146b6d9cc61eec4d20ce57e594bd9ed568e0"
+    },
+    {
+      "path": "Code/Libraries/Workbench/src/wbpe.cpp",
+      "sha256": "1e2b9cdb199e011cfe2dff77e1deb356b50d8632cf5eabb1f61c8ae5febdc92b"
+    },
+    {
+      "path": "Code/Libraries/Workbench/src/wbrule.cpp",
+      "sha256": "5633196328b96feadb30dc7f45c7820ccc8c6c7d64e2a9f5ca08f6d78516d7ab"
+    },
+    {
+      "path": "Code/Libraries/Workbench/src/wbscene.cpp",
+      "sha256": "57736933b4b0a3434de7e9a7c1f8ce1c3bc384644f6ca782cc11447c03f33b3b"
+    },
+    {
+      "path": "Code/Libraries/Workbench/src/wbworld.cpp",
+      "sha256": "bc0d1caff05d2ae1425b42a1dad64ca533c1c9dbf4a92ee78e9dfef617d81a90"
+    },
+    {
+      "path": "Code/Projects/Eld/src/Achievements/achievementmanager_steam.cpp",
+      "sha256": "c6fddb7f9519083f18cb60d3f0a8c96ec245db2c7213153d962451e4c151edc2"
+    },
+    {
+      "path": "Code/Projects/Eld/src/Actions/wbactioneldaddblock.cpp",
+      "sha256": "0e5215926e1404fd6a27d275402aad283dd1affa870adc8347afe15d1549d77e"
+    },
+    {
+      "path": "Code/Projects/Eld/src/Actions/wbactioneldbanktransaction.cpp",
+      "sha256": "f1bdba5869ff02400c97098724acb5613260c4727461015153a596933c52b52d"
+    },
+    {
+      "path": "Code/Projects/Eld/src/Actions/wbactioneldbindinput.cpp",
+      "sha256": "7dc0d063f4df2dac9858136428c37b5809f796f90330839a9ec33683e52a912b"
+    },
+    {
+      "path": "Code/Projects/Eld/src/Actions/wbactioneldcheckcone.cpp",
+      "sha256": "f015cdb1808d8fcfd55dde404a611e26dd8f506330ec5eccfe56509eb53eb803"
+    },
+    {
+      "path": "Code/Projects/Eld/src/Actions/wbactioneldcheckline.cpp",
+      "sha256": "958d086d4856a27a2d01dfa78923369fcf700b4a0cbe28f6dd14e5ba39f5c871"
+    },
+    {
+      "path": "Code/Projects/Eld/src/Actions/wbactioneldchecksphere.cpp",
+      "sha256": "1332ea6692b4d8df14f1ec09179ee0e3dfb3b43fdfbace562a815197c10eb6de"
+    },
+    {
+      "path": "Code/Projects/Eld/src/Actions/wbactionelddamageworld.cpp",
+      "sha256": "aaaef5dfdc4f19d068c3da21f7eea5302187a380952897408d80f9cd66e75a5c"
+    },
+    {
+      "path": "Code/Projects/Eld/src/Actions/wbactioneldgiveitem.cpp",
+      "sha256": "fa79028237d2e03c21284a0c9e509b548e5e77157e68a3a21bb6ce49d262644b"
+    },
+    {
+      "path": "Code/Projects/Eld/src/Actions/wbactioneldgotolevel.cpp",
+      "sha256": "528207f444ebca49ef4fe4cf1de2537ed13bd904ee91ff31d95c33f7e09030f2"
+    },
+    {
+      "path": "Code/Projects/Eld/src/Actions/wbactioneldlaunchuserid.cpp",
+      "sha256": "31b6e5d07facc883e8583df0fdbbab859026d879bfac4a892c860cc259e6e422"
+    },
+    {
+      "path": "Code/Projects/Eld/src/Actions/wbactioneldlaunchwebsite.cpp",
+      "sha256": "be092990f7eed2b635b3638a2df1b967dd20283bd13c0549c4fc35564808b3fa"
+    },
+    {
+      "path": "Code/Projects/Eld/src/Actions/wbactioneldopenuserdatapath.cpp",
+      "sha256": "cd47f71345ad28cc1d5d90dda9dc795b1833027f0080bd5e7779210e2ff63822"
+    },
+    {
+      "path": "Code/Projects/Eld/src/Actions/wbactioneldplayanim.cpp",
+      "sha256": "b4e7c271b088f394abfa89a945d7af23e83f18b41b89081cd4c3598ddb97d4b0"
+    },
+    {
+      "path": "Code/Projects/Eld/src/Actions/wbactioneldplayhandanim.cpp",
+      "sha256": "6f2492521798a928753e58f7b1358f4c04c1dfc761c2cc07cd67525399cd9a46"
+    },
+    {
+      "path": "Code/Projects/Eld/src/Actions/wbactioneldpostscore.cpp",
+      "sha256": "17efbe9f440792676de00d7408aed8e76f50b9c115db133ebf9ec856952427be"
+    },
+    {
+      "path": "Code/Projects/Eld/src/Actions/wbactioneldremoveblock.cpp",
+      "sha256": "493254947422958ecd397b9c03dd6a1b9d1d731e1f49ff81ffef2c6b2d61493e"
+    },
+    {
+      "path": "Code/Projects/Eld/src/Actions/wbactioneldsetlight.cpp",
+      "sha256": "190a257057f801604fa402d9982e6eebef78baa61160cfb49e34837f3d87f2a5"
+    },
+    {
+      "path": "Code/Projects/Eld/src/Actions/wbactioneldsetpersistentvar.cpp",
+      "sha256": "e5c185798679af5730a9bc967c2e9b82b60877c3701da560f8d3895f3ae0e2d4"
+    },
+    {
+      "path": "Code/Projects/Eld/src/Actions/wbactioneldshowbook.cpp",
+      "sha256": "ea7be2e7c62f64560e3d7bc77d192d5c30fdc77888e86069cbfb94816d642480"
+    },
+    {
+      "path": "Code/Projects/Eld/src/Actions/wbactioneldspawnentity.cpp",
+      "sha256": "60eb6f126aaaef28edb04d5d8524d262dea46155a09d99936f49f06c836d2487"
+    },
+    {
+      "path": "Code/Projects/Eld/src/Actions/wbactioneldstopmotion.cpp",
+      "sha256": "c9f162cb5458eb1fcfc62f5522a9f31455255388803411c9935fcaa67d21fbb5"
+    },
+    {
+      "path": "Code/Projects/Eld/src/Actions/wbactioneldtweetrip.cpp",
+      "sha256": "ee097bc995fefd612909ef10981eacc9a14da8a3ac4cb00ef62a4e3d89bbe465"
+    },
+    {
+      "path": "Code/Projects/Eld/src/Actions/wbactionneonawardachievement.cpp",
+      "sha256": "bb33b12ad6eee737aff926201cfdfd0a02e9ccd57d40c7cf12dc35317bbd1b19"
+    },
+    {
+      "path": "Code/Projects/Eld/src/Actions/wbactionneonincrementstat.cpp",
+      "sha256": "5ac5a2a37d480c779385c031799c4fb4e918bb3f664ea2cbca1aedd453f5f40c"
+    },
+    {
+      "path": "Code/Projects/Eld/src/Actions/wbactionneonsetstat.cpp",
+      "sha256": "e5678926bc4e77479dfdc143ee5600efadab0933ced43f737407116724c7f270"
+    },
+    {
+      "path": "Code/Projects/Eld/src/AnimEvents/animeventeldexecuteaction.cpp",
+      "sha256": "771bf44b3284bf705f342739d7f794fc363e6f8b29dd0daf3186f889383ad65f"
+    },
+    {
+      "path": "Code/Projects/Eld/src/AnimEvents/animeventeldsendevent.cpp",
+      "sha256": "c2ed52803b776f5c3928bc8ce5bd78ca46d8f2b91f37e92062c926c13a5f24d9"
+    },
+    {
+      "path": "Code/Projects/Eld/src/BTNodes/rodinbtnodeeldlookat.cpp",
+      "sha256": "b02e9a66c3db4e4596dcc91b46f6e5615d1568c0d9f2521b98376a4c3d2e4330"
+    },
+    {
+      "path": "Code/Projects/Eld/src/BTNodes/rodinbtnodeeldmoveto.cpp",
+      "sha256": "4fd9d741b1148a514a357feb29f2c80ba156e8662d29a3ee3d26417ad80f9c90"
+    },
+    {
+      "path": "Code/Projects/Eld/src/BTNodes/rodinbtnodeeldplayanim.cpp",
+      "sha256": "ed28e9294b4aee4b0cad62c89ebf0ecf3bb1da43f986ac1dc0c1569ac7cede84"
+    },
+    {
+      "path": "Code/Projects/Eld/src/BTNodes/rodinbtnodeeldplaybark.cpp",
+      "sha256": "e36096ec67aacf817692281dc63d29e3586ec9a5254f87e3230b961f0c615fef"
+    },
+    {
+      "path": "Code/Projects/Eld/src/BTNodes/rodinbtnodeeldstopmoving.cpp",
+      "sha256": "0badbc2dcdf0f5f8f571b41885108bf182cc9a13105c4dcf8ab5d3fa5bf390c2"
+    },
+    {
+      "path": "Code/Projects/Eld/src/BTNodes/rodinbtnodeeldturntoward.cpp",
+      "sha256": "4197c031c127d7e6dae267544ba75db2000b55dd22ac0fc19b94e40690491c1d"
+    },
+    {
+      "path": "Code/Projects/Eld/src/Components/wbcompeldaimotion.cpp",
+      "sha256": "3243ef999a9948a6167a15c12d6aeeea07ae27646f021e614b707df1c62570e5"
+    },
+    {
+      "path": "Code/Projects/Eld/src/Components/wbcompeldammobag.cpp",
+      "sha256": "9a3e2e2b2dc521d07c9755996f3dfd5ea11e1fc62abc787d3d36bb4b1c72f132"
+    },
+    {
+      "path": "Code/Projects/Eld/src/Components/wbcompeldanchor.cpp",
+      "sha256": "a813911ad074de7955e0c9fde6525037c76bb09a630cdd60cbaedd8898640760"
+    },
+    {
+      "path": "Code/Projects/Eld/src/Components/wbcompeldazathoth.cpp",
+      "sha256": "2fa73cedca35bce3e4865841aafa682aa5f3d3d8acd521904b3db2fcf2f759c2"
+    },
+    {
+      "path": "Code/Projects/Eld/src/Components/wbcompeldcamera.cpp",
+      "sha256": "a0bb26e5cf9c0c386b927e254d1333188c16d4fc5929edf6dbab32775e129e7b"
+    },
+    {
+      "path": "Code/Projects/Eld/src/Components/wbcompeldcharacter.cpp",
+      "sha256": "3bfffa7130f0d873da79ae6da6828d66243cd80a3cdbdd8400ed50bb4c06c536"
+    },
+    {
+      "path": "Code/Projects/Eld/src/Components/wbcompeldclimbable.cpp",
+      "sha256": "728b20e9c925bbb769f07e4b29d669a01289f6af9e4b7d0fefa7e25c34b82503"
+    },
+    {
+      "path": "Code/Projects/Eld/src/Components/wbcompeldcollision.cpp",
+      "sha256": "a121afcc492d19afdff104bbf249a124899e40f7f3251d17dd14776e42a76aff"
+    },
+    {
+      "path": "Code/Projects/Eld/src/Components/wbcompelddamager.cpp",
+      "sha256": "f63f610657436f26db00e3bf6823a886cb35a900669a3cf7394c0ce408b92b8a"
+    },
+    {
+      "path": "Code/Projects/Eld/src/Components/wbcompelddoor.cpp",
+      "sha256": "c3c644290bb1d3039bc5e3ef63fb62f72776301b8f59961e57eb3a20d7eeba5b"
+    },
+    {
+      "path": "Code/Projects/Eld/src/Components/wbcompelddropshadow.cpp",
+      "sha256": "88cb41735039dd46666094b4ecaea7332d9572c8ae046874661905d081e8fab8"
+    },
+    {
+      "path": "Code/Projects/Eld/src/Components/wbcompeldendgamecounter.cpp",
+      "sha256": "28dfe9951f8512bd25ee3834dccbfe28842a44a0b0dfea764441a70cd6b27f0e"
+    },
+    {
+      "path": "Code/Projects/Eld/src/Components/wbcompeldfaction.cpp",
+      "sha256": "12b85ab616a79b5dd22170b9e29cba7f7292d6a84d44ef389aa8f7ea4345d517"
+    },
+    {
+      "path": "Code/Projects/Eld/src/Components/wbcompeldfootsteps.cpp",
+      "sha256": "a5abe5464fa72af991c348f80c5e54504bd9eb2dc607615624faa0329accc7a5"
+    },
+    {
+      "path": "Code/Projects/Eld/src/Components/wbcompeldfrobbable.cpp",
+      "sha256": "01e752abbea0efd204f3aa31b2e00fca3923b6eaeb3f8a5ba497ca53c946691f"
+    },
+    {
+      "path": "Code/Projects/Eld/src/Components/wbcompeldfrobber.cpp",
+      "sha256": "507bedaa43a03550f2046f7125d9a0e31008fe3c56f95ea534d159b0125ef87e"
+    },
+    {
+      "path": "Code/Projects/Eld/src/Components/wbcompeldhands.cpp",
+      "sha256": "12c0fa9c9fa01b733988fa3d83f806708497082ac150c78e03b565f681307e84"
+    },
+    {
+      "path": "Code/Projects/Eld/src/Components/wbcompeldhard.cpp",
+      "sha256": "e97ed4cded4576798d0d7327db45258b8b7022b8c8408a9d03a006dacdb68ffe"
+    },
+    {
+      "path": "Code/Projects/Eld/src/Components/wbcompeldhardlistener.cpp",
+      "sha256": "17319348ff065bdfbdd0b3f91341cbd7b6c9fd03f37d722900070b62ddc8fab5"
+    },
+    {
+      "path": "Code/Projects/Eld/src/Components/wbcompeldheadtracker.cpp",
+      "sha256": "a3410eb507b0b02672287154a42463b8f006b00276ae527632041b43fe20ee76"
+    },
+    {
+      "path": "Code/Projects/Eld/src/Components/wbcompeldhealth.cpp",
+      "sha256": "857433ef633825a795160d87f9270b8cdf3d886fba125552b76090d9ec12a746"
+    },
+    {
+      "path": "Code/Projects/Eld/src/Components/wbcompeldhudmarker.cpp",
+      "sha256": "ceac7d063d1eb9777bdfeb5f6fa83a909b7927ba60338acbadd2a4134a54353b"
+    },
+    {
+      "path": "Code/Projects/Eld/src/Components/wbcompeldicicles.cpp",
+      "sha256": "dc11300aeddd613bcce9d4135a0d2fffbea16213e4bceba1473a4faac35e513e"
+    },
+    {
+      "path": "Code/Projects/Eld/src/Components/wbcompeldinventory.cpp",
+      "sha256": "3ee093db2dd3a10df6c5d3fc6bb49aa2b696a5cde9e4a3b5107da1d5caee9cbf"
+    },
+    {
+      "path": "Code/Projects/Eld/src/Components/wbcompelditem.cpp",
+      "sha256": "d7d8a1ade994cc3a6a5f067545192faaa3c2ba30ed19ec56f02df0b83d41055d"
+    },
+    {
+      "path": "Code/Projects/Eld/src/Components/wbcompeldkeyring.cpp",
+      "sha256": "75926f02c40f545e0641528aee9977caef624f14d1d4c92361f0dd2922a42018"
+    },
+    {
+      "path": "Code/Projects/Eld/src/Components/wbcompeldlight.cpp",
+      "sha256": "324a41d81ced34b7065d7e5a82d91f757dc43c0e3404aa109a2862e377878dbe"
+    },
+    {
+      "path": "Code/Projects/Eld/src/Components/wbcompeldlock.cpp",
+      "sha256": "1d003680cf749d0f617730a624f7763723c21b70247c0fb263abf79874647722"
+    },
+    {
+      "path": "Code/Projects/Eld/src/Components/wbcompeldmapmarker.cpp",
+      "sha256": "bb1bd9f6e44ed93fd06997d2e9d2b09a19ff48018e28ca72d842627ea01b451a"
+    },
+    {
+      "path": "Code/Projects/Eld/src/Components/wbcompeldmarkup.cpp",
+      "sha256": "2fa5d8ef116c570db1a857fc2a525dbeee24c33c6ed15e1517fa4e8cdf84e612"
+    },
+    {
+      "path": "Code/Projects/Eld/src/Components/wbcompeldmesh.cpp",
+      "sha256": "90c85ae6f2df1ce3e38446e151ba222b78957b0b46c6255f81284d4058ef096d"
+    },
+    {
+      "path": "Code/Projects/Eld/src/Components/wbcompeldminimap.cpp",
+      "sha256": "489b1ddfafa9ef0471a585db38338ac63ce3c83efb15668088c5b29a0e8345cd"
+    },
+    {
+      "path": "Code/Projects/Eld/src/Components/wbcompeldparticles.cpp",
+      "sha256": "23c9a8c0163adad4278d1c789ae327a041e8da0da7bd17d559129e0111473932"
+    },
+    {
+      "path": "Code/Projects/Eld/src/Components/wbcompeldpickup.cpp",
+      "sha256": "ed96da937bdcc792444920a1ac31f34cdefc2a6a3abf8d00eb890f4869402cfa"
+    },
+    {
+      "path": "Code/Projects/Eld/src/Components/wbcompeldplayer.cpp",
+      "sha256": "d63dffde53f3032da11a6694159c10d75da1aece21cf7af1d7397f7429bed5b9"
+    },
+    {
+      "path": "Code/Projects/Eld/src/Components/wbcompeldpowerteleport.cpp",
+      "sha256": "fb8ec3a28c914db2618a8bb9aa32420497429d8657a652d68697a80dcb4a6af2"
+    },
+    {
+      "path": "Code/Projects/Eld/src/Components/wbcompeldrespawner.cpp",
+      "sha256": "50cc626a6db447c4dcacde3c221c0853fb26c8fa704a28883a8985303cb19843"
+    },
+    {
+      "path": "Code/Projects/Eld/src/Components/wbcompeldrope.cpp",
+      "sha256": "7fffe1b21882660d856560a389d4a3202c5edec51fd0b60516331cc8cdc2d0b7"
+    },
+    {
+      "path": "Code/Projects/Eld/src/Components/wbcompeldsensor.cpp",
+      "sha256": "7438cee61033d1421bb41649fb34119fff0877633513d38ea617721ad8c1ba22"
+    },
+    {
+      "path": "Code/Projects/Eld/src/Components/wbcompeldsensordamage.cpp",
+      "sha256": "f1edaca4b926c55e86ae60aeca1d2b6b019c27c6b23db4e8033137c887d9bcad"
+    },
+    {
+      "path": "Code/Projects/Eld/src/Components/wbcompeldsensorhearing.cpp",
+      "sha256": "f4815dcdddefc7398472e46baeb5f02db675807b4ec104110521eb37bdd1af10"
+    },
+    {
+      "path": "Code/Projects/Eld/src/Components/wbcompeldsensormarkup.cpp",
+      "sha256": "ad5a11e9cdcbdd6ca9f1b6943b70888316bb019a14c5bd2c327533e119e3cc24"
+    },
+    {
+      "path": "Code/Projects/Eld/src/Components/wbcompeldsensorpoll.cpp",
+      "sha256": "b4195a7f6f614e3dc8e9ab3a9b3b7b28f84401c536573946e6eb61bb94a4b8d8"
+    },
+    {
+      "path": "Code/Projects/Eld/src/Components/wbcompeldsensortheft.cpp",
+      "sha256": "52a3b22154b48316ff78ee0c891420f5d419da63203f8712d43d2bb5f18296c9"
+    },
+    {
+      "path": "Code/Projects/Eld/src/Components/wbcompeldsensorvision.cpp",
+      "sha256": "5d9ac8b889fe288d939742b05d5d4f37d00794d99c610992851102bd36e22be8"
+    },
+    {
+      "path": "Code/Projects/Eld/src/Components/wbcompeldsleeper.cpp",
+      "sha256": "58dd341efbb109c3682b0fbd7380978ed43557625496e401dbd04a88bd728826"
+    },
+    {
+      "path": "Code/Projects/Eld/src/Components/wbcompeldsouls.cpp",
+      "sha256": "3b0f888e9f1be81dc1ace0503f4152091f65ccf62522f80d383eedc77b83784f"
+    },
+    {
+      "path": "Code/Projects/Eld/src/Components/wbcompeldsound.cpp",
+      "sha256": "50061fdfaa411fa194fe7c302d00a6e56e814b606c7ae2178da42875fc167571"
+    },
+    {
+      "path": "Code/Projects/Eld/src/Components/wbcompeldspikes.cpp",
+      "sha256": "9ae4ec91c4223ff89903052ed4f6bd438f379925bb35277272f25a1d7e31d65b"
+    },
+    {
+      "path": "Code/Projects/Eld/src/Components/wbcompeldthinker.cpp",
+      "sha256": "53cacf27b84d6e55b829347705b915b04b1fd82c6fae50cab411b1140d49e223"
+    },
+    {
+      "path": "Code/Projects/Eld/src/Components/wbcompeldthinkerhearwormtarget.cpp",
+      "sha256": "f0ea985829ba3f007acf00edf2cf48693c43f89c5bf99d5cce750894e9951124"
+    },
+    {
+      "path": "Code/Projects/Eld/src/Components/wbcompeldthinkerpatrol.cpp",
+      "sha256": "45af926ab00136338f91ca6f1d8f857cc05012ce13b703c4f620e4a4e98d6d66"
+    },
+    {
+      "path": "Code/Projects/Eld/src/Components/wbcompeldthinkertarget.cpp",
+      "sha256": "3e276e82923d8164690dee026482cdf8cfa2c6ebbd516c78c8d1abdeb2728514"
+    },
+    {
+      "path": "Code/Projects/Eld/src/Components/wbcompeldtransform.cpp",
+      "sha256": "8346325ae961ac6f97914df01a256fb3a9b026c5d65caf5894438995134b75b5"
+    },
+    {
+      "path": "Code/Projects/Eld/src/Components/wbcompeldtrapbolt.cpp",
+      "sha256": "38a0651651b623ecfb4285a0af6a49fb0b0a87b30dd197be80f20da0f30ec815"
+    },
+    {
+      "path": "Code/Projects/Eld/src/Components/wbcompeldusable.cpp",
+      "sha256": "f282e56d08a5aac2664e65ec4538c1db57c7732d8c328ba70be4f12bc5e8ce08"
+    },
+    {
+      "path": "Code/Projects/Eld/src/Components/wbcompeldvisible.cpp",
+      "sha256": "b7338e5e07d9df8ff520a86fd2260f9449fa3789431931da9c52f156123581ef"
+    },
+    {
+      "path": "Code/Projects/Eld/src/Components/wbcompeldwallet.cpp",
+      "sha256": "e54c38033764ee81bd50e2caedec0e60e89936248bf3c837c3849fdcc5d00b85"
+    },
+    {
+      "path": "Code/Projects/Eld/src/Components/wbcompeldwatson.cpp",
+      "sha256": "d1565296efa6a6fddc7fc150d73408c241d33b5acd005978ff4afab1980897df"
+    },
+    {
+      "path": "Code/Projects/Eld/src/Components/wbcompeldweapon.cpp",
+      "sha256": "8fd34c79d68216869e9ef7fd8d2e7394bd4d27deff3744462f912f6a8db1c912"
+    },
+    {
+      "path": "Code/Projects/Eld/src/Components/wbcomprodinbehaviortree_debugrender.cpp",
+      "sha256": "27f46586260dcb09b87accb2a76a385130bf1dce25151313766a9c6f038d4f89"
+    },
+    {
+      "path": "Code/Projects/Eld/src/Components/wbeldcomponent.cpp",
+      "sha256": "ea34585741d4e4dccd476941995aacb9051864207d87daba6ca2ba8032720981"
+    },
+    {
+      "path": "Code/Projects/Eld/src/eldbank.cpp",
+      "sha256": "4fea7daa5beec5c507b1468a2c2e4e79c589d441c2c75843b804e822345df77c"
+    },
+    {
+      "path": "Code/Projects/Eld/src/eldfactions.cpp",
+      "sha256": "2b036c5c672b662fd07811387e3eec27d4a8e97423d671defe90ea02c69b77d0"
+    },
+    {
+      "path": "Code/Projects/Eld/src/eldframework.cpp",
+      "sha256": "ffa51c89db6637cb5d7c69b18c3152e955814fd82edc159b9afbd69de379e8eb"
+    },
+    {
+      "path": "Code/Projects/Eld/src/eldgame.cpp",
+      "sha256": "fb22526a6fe0833ff9dd70a2b49462e9d236113a53bb275b05de33ebf8598b49"
+    },
+    {
+      "path": "Code/Projects/Eld/src/eldirradiance.cpp",
+      "sha256": "c04735f8084a053fcc32709a37046c5f78120cd4f84cb4025f682b7eca3f3e1d"
+    },
+    {
+      "path": "Code/Projects/Eld/src/eldmesh.cpp",
+      "sha256": "f72902c67f11d41b67e4d0b463a1e329de11bb7020c8e223aad1a53c4ec90b77"
+    },
+    {
+      "path": "Code/Projects/Eld/src/eldmusic.cpp",
+      "sha256": "8aec02f743d8a28e03425449c7dedae0e0163692e7944f269aaff520a53bbc2d"
+    },
+    {
+      "path": "Code/Projects/Eld/src/eldnav.cpp",
+      "sha256": "faac805ad4c98e017a15a64b93f4e4fc00d540108c5c4fe0f85db8dbede76bfb"
+    },
+    {
+      "path": "Code/Projects/Eld/src/eldparticles.cpp",
+      "sha256": "c924959bd93a8b8e92f756c9a7128eca3c8a60ea39865e64b491650575e21267"
+    },
+    {
+      "path": "Code/Projects/Eld/src/eldpersistence.cpp",
+      "sha256": "592ca9c54ed81838d29e928befedd85846aee16ab3edb91bb72c949ed0bb62ea"
+    },
+    {
+      "path": "Code/Projects/Eld/src/eldroom.cpp",
+      "sha256": "4225e3b3d589a5d284678520c3972c17289d2fafda506aab2fc7236f8881de8d"
+    },
+    {
+      "path": "Code/Projects/Eld/src/eldsaveload.cpp",
+      "sha256": "ec1fb069ce3aa03b830368cc44f5cbe5ba74e0e839950def9bee862e88a460f3"
+    },
+    {
+      "path": "Code/Projects/Eld/src/eldsound3dlistener.cpp",
+      "sha256": "6974f38ec75f4b30823247b3268aaf6e37388ddfe69dda286c7742772fbd4c06"
+    },
+    {
+      "path": "Code/Projects/Eld/src/eldsurfaces.cpp",
+      "sha256": "9d197aea79875dedf2da0b63fafb470f28551c87df09c4c52088aefbaeaf4ef8"
+    },
+    {
+      "path": "Code/Projects/Eld/src/eldtargetmanager.cpp",
+      "sha256": "041262a96570e001ad9c79081efdf9fe0a9b4c0560cea7c4aa4479386c80acdf"
+    },
+    {
+      "path": "Code/Projects/Eld/src/eldtools.cpp",
+      "sha256": "e7f4eb136c487ef9d6fcd8484c743f4dbb3e01bf1e47df46eb76467c9bfae92f"
+    },
+    {
+      "path": "Code/Projects/Eld/src/eldwardrobe.cpp",
+      "sha256": "abe4e2b3799bd1d4e192b27455282c163d120b97a3f3b8c42ddb9feac8ac2562"
+    },
+    {
+      "path": "Code/Projects/Eld/src/eldwbscenehelpers.cpp",
+      "sha256": "39d3909dfe5799d90b5f890bced4a032111548f187c03de5eec8570d3f78a6ad"
+    },
+    {
+      "path": "Code/Projects/Eld/src/eldworld.cpp",
+      "sha256": "c235816fe5eb72514964a5742ecd0a0864409b7953931ba88f47c9d0090f18fa"
+    },
+    {
+      "path": "Code/Projects/Eld/src/eldworldgen.cpp",
+      "sha256": "75a626b6dd9a232935aad36529b08f08d0fb0077927929e2582634bd764cc43d"
+    },
+    {
+      "path": "Code/Projects/Eld/src/exceptionwritesteamminidump.cpp",
+      "sha256": "1b9ab27c43ee8c195f798e5ec26a6e5949e80a183086530169fae64477a447a3"
+    },
+    {
+      "path": "Code/Projects/Eld/src/Leaderboards/leaderboards_steam.cpp",
+      "sha256": "61cbed348c1aae7aabcd0f795f07ffe8ade9875ab70e2f65e9ba76bf6b6db899"
+    },
+    {
+      "path": "Code/Projects/Eld/src/main.cpp",
+      "sha256": "2741e971bbb41af23f999968b222672468a543454f9fdc2422bf7b3e856354df"
+    },
+    {
+      "path": "Code/Projects/Eld/src/PEs/wbpeelddistance.cpp",
+      "sha256": "63a9ec5a40786338600e1f12579a6245ce4b754b9d3a5230f6d14c77e89b23d4"
+    },
+    {
+      "path": "Code/Projects/Eld/src/PEs/wbpeeldgetcharactervo.cpp",
+      "sha256": "acd97140606cd13a9735e369a5eae174066816899858bdf80893c55dc90e67e2"
+    },
+    {
+      "path": "Code/Projects/Eld/src/PEs/wbpeeldgetfaction.cpp",
+      "sha256": "ccd3fd1152767d4123c29d6d982863f9f5c1d9719b1154e0a429f315852a994e"
+    },
+    {
+      "path": "Code/Projects/Eld/src/PEs/wbpeeldgetitem.cpp",
+      "sha256": "a9cc439ccf5d6b228a462c5a044702ab3451ae3a34ebe181618930fde6414581"
+    },
+    {
+      "path": "Code/Projects/Eld/src/PEs/wbpeeldgetlocation.cpp",
+      "sha256": "cd4075cf19b4aa3d9eca262a360df2153bbe6f4819c60e3828d8b9acee9c6c12"
+    },
+    {
+      "path": "Code/Projects/Eld/src/PEs/wbpeeldgetpersistentvar.cpp",
+      "sha256": "92ebde156de951551611fd4d86123a851ed2567c1d6a51e09d4429e5435200e5"
+    },
+    {
+      "path": "Code/Projects/Eld/src/PEs/wbpeeldgetplaytime.cpp",
+      "sha256": "8053775f930144d682a38bc98465435435f4d0166766be9391a1477709aff49e"
+    },
+    {
+      "path": "Code/Projects/Eld/src/PEs/wbpeeldgetslot.cpp",
+      "sha256": "f8de4496ae71bb6fc9129af6e906a45162c1f23cd44af94edd25af7a6b483b89"
+    },
+    {
+      "path": "Code/Projects/Eld/src/PEs/wbpeeldgetvelocity.cpp",
+      "sha256": "e5cdb9e9241c2b9879e70076e5121ea603ac0d70144d2ede7e541823f8a4f147"
+    },
+    {
+      "path": "Code/Projects/Eld/src/PEs/wbpeeldhardscalar.cpp",
+      "sha256": "3aa382637d0c987edcb16ed9a8a2b941ebe8b96d75deb1489592fba4dc0edb55"
+    },
+    {
+      "path": "Code/Projects/Eld/src/PEs/wbpeeldhardswitch.cpp",
+      "sha256": "062be4440a69cf0676a0310a86db821682654b17ad20d6537d559369e22bf783"
+    },
+    {
+      "path": "Code/Projects/Eld/src/PEs/wbpeeldplayer.cpp",
+      "sha256": "282f9c66ed5cd4e3273a8c8bb967f15848598ca9da261f9000906dd6727b804b"
+    },
+    {
+      "path": "Code/Projects/Eld/src/Screens/uiscreen-eldbindinputs.cpp",
+      "sha256": "73f6f9be4fa95f6844dd1f4bd43c7dc34f795c853da942f9df5f56149b4de3cc"
+    },
+    {
+      "path": "Code/Projects/Eld/src/Screens/uiscreen-eldcredits.cpp",
+      "sha256": "0996d54cf497475e320bae5dde29ab6aa9e1cd25cc180c858ec98ffee1816c1e"
+    },
+    {
+      "path": "Code/Projects/Eld/src/Screens/uiscreen-eldleaderboards.cpp",
+      "sha256": "dfa35969ed054c645b4ecaf13fc112acddd3757e5f73fff07cca5a934c8dda57"
+    },
+    {
+      "path": "Code/Projects/Eld/src/Screens/uiscreen-eldmirror.cpp",
+      "sha256": "8df8db50586b5c31baf7cdbe31ea3297dea4933dcdf3ac55fd01608e7e97e7b0"
+    },
+    {
+      "path": "Code/Projects/Eld/src/Screens/uiscreen-eldsetres.cpp",
+      "sha256": "b27e8103c496ba9aa6dbb89dd7df807ea40521e28c782d0c14dcac9da54f0757"
+    },
+    {
+      "path": "Code/Projects/Eld/src/SDPs/sdpelddropshadow.cpp",
+      "sha256": "487475ec3464dae7d2c8d62f0d7375cc754d9069e4727c48b3711281e5e63dd0"
+    },
+    {
+      "path": "Code/Projects/Eld/src/SDPs/sdpeldfxaa.cpp",
+      "sha256": "0bd7a3567b5921353f28fb37c0823edca4cbe230103c15429179a51e4c87207d"
+    },
+    {
+      "path": "Code/Projects/Eld/src/SDPs/sdpeldhud.cpp",
+      "sha256": "d2c9105a49b3735bef7ed8ead7282046d571e52861178560320365dc2a339feb"
+    },
+    {
+      "path": "Code/Projects/Eld/src/SDPs/sdpeldhudcalibration.cpp",
+      "sha256": "0898e8929128ba88924ae168bb9fa0ac87d3dfc65a2d8e5228711bc22751b1df"
+    },
+    {
+      "path": "Code/Projects/Eld/src/SDPs/sdpeldlit.cpp",
+      "sha256": "909feddf4bc3337669165e6e4d0f233c57541a0c08d2ddc445b192edb471e578"
+    },
+    {
+      "path": "Code/Projects/Eld/src/SDPs/sdpeldpost.cpp",
+      "sha256": "bfa68443d571215edfff77db2a5fe527445a9216f929b8dff3b3886fb5e6c69a"
+    },
+    {
+      "path": "Code/Projects/Eld/src/SDPs/sdpeldworld.cpp",
+      "sha256": "f3b5d09cd2039ff1378b1df0730c9ebe2986dc260cfa12e68132c4955a9d80af"
+    },
+    {
+      "path": "Code/Projects/Eld/src/uiinputmapeld.cpp",
+      "sha256": "79371133585312e9320523593d9165f625549b4ce3472e792998049a4a5b56a0"
+    },
+    {
+      "path": "Code/Libraries/zlib/src/adler32.c",
+      "sha256": "7606b3e39b81dff47cba8863227e90aeeba294eb2f1973821484067c37fc7c4b"
+    },
+    {
+      "path": "Code/Libraries/zlib/src/compress.c",
+      "sha256": "020e824e14948609fb9c6ae4e164d79500d683963e8eff9db08c2be71e461d13"
+    },
+    {
+      "path": "Code/Libraries/zlib/src/crc32.c",
+      "sha256": "7055cc0ca9a08412e247c3544588565c322b493a13227b0ddb8bf01ba0cde6a3"
+    },
+    {
+      "path": "Code/Libraries/zlib/src/deflate.c",
+      "sha256": "b1ea60c8f87ee5cd6cb9543715336e72f42eee5e3cbfab4d940c48ec13fc6c0c"
+    },
+    {
+      "path": "Code/Libraries/zlib/src/gzio.c",
+      "sha256": "ac7fd7f5163278ece31ad91d102b12bab1eebfe16ea99b79db45ef5a38abb66e"
+    },
+    {
+      "path": "Code/Libraries/zlib/src/infback.c",
+      "sha256": "6cb043b9f40a8fcaec4abb5a79be53cc376e28a1ba8f4150ec75f2d94eb47b5f"
+    },
+    {
+      "path": "Code/Libraries/zlib/src/inffast.c",
+      "sha256": "7499d4a5c1aff5f0269d16c1eccbed5909cd159df71a41e913769bb9db2e1dd9"
+    },
+    {
+      "path": "Code/Libraries/zlib/src/inflate.c",
+      "sha256": "7925640693e58fda05f45a68003121efd0dee25c97af9ca410db89fa12a12161"
+    },
+    {
+      "path": "Code/Libraries/zlib/src/inftrees.c",
+      "sha256": "3314b9dce30f7fb1c5032a917377c210c6091dc482be2549f7aceb6e3536ac9d"
+    },
+    {
+      "path": "Code/Libraries/zlib/src/trees.c",
+      "sha256": "3c507cf352bc5b1fe3ba28ae8e5054de3e04318e78e8f21b6a479e8e28fc984c"
+    },
+    {
+      "path": "Code/Libraries/zlib/src/uncompr.c",
+      "sha256": "7497cf3ac50bcf51f110ea38f6b1dd2671a311190e646db2d2fcbd9b329f7c9f"
+    },
+    {
+      "path": "Code/Libraries/zlib/src/zutil.c",
+      "sha256": "909f8de9a588de8fe8f227d43a87a5048642ddb387053737150719cbea907392"
+    }
+  ],
+  "authoredAdaptations": {
+    "platform-adaptations.json": {
+      "sha256": "c2f453159f08212a8986ef37399fd22c69921ae8cfc0fe36b6bf0221b958f257",
+      "changed": [
+        {
+          "path": "Code/Libraries/Core/src/versions.h",
+          "before": "0fcf4cf5200d2e55ea0f63a7c8059ceed07802332d462a7c01b1bee9a996cf3e",
+          "after": "ef313415cf8a957b5701057cbb3b055439e22678f31b8b9f931fba6a3284713b"
+        },
+        {
+          "path": "Code/Libraries/Core/src/fileutil.cpp",
+          "before": "b29a29ec1401fc87f7950a52d35ad88dafe8c9e26f06036eba1a49ba637e2b99",
+          "after": "4b529c01ff548bbbafdd67f32968114d2dcb1f7a038a64fb1c9939d36f95f2fb"
+        },
+        {
+          "path": "Code/Libraries/3D/src/surface.h",
+          "before": "f6941d4badd8bc863c9bc51674a2b7ce7aec8f1c52427c1edd5c12253d6a3b34",
+          "after": "52f3f329ce713504435840c8880beeb950963a8a2dc2026377d16563e1dcf116"
+        },
+        {
+          "path": "Code/Libraries/3D/src/GL2/gl2renderer.h",
+          "before": "e24cca97cfa2836a980bb5fcf4e045232b9afbceb5e7408d760fe2e8e6702b5e",
+          "after": "e7e7b57cd057d61f9f3849ac2c83e258ca760fb8340528bb845ab090664c2f54"
+        },
+        {
+          "path": "Code/Libraries/Core/src/clock.h",
+          "before": "3aecf985fa37c127dcfc80870f8bbd4e0a6c000c6f103f188e62e799ddb92578",
+          "after": "5efd79d49ba5c9b90013679317ae36c1473e6d292c5a9adf6bc097b54435ca94"
+        },
+        {
+          "path": "Code/Libraries/Core/src/display.cpp",
+          "before": "0976a752381e769d3637ac168835605bdc754b2546ded9ddef987d2252309728",
+          "after": "aaf2b750a346a419ff0f4e9f76963b9e8f883b127b762c93ad89115f251c7c7f"
+        },
+        {
+          "path": "Code/Libraries/Core/src/exceptionhandler.cpp",
+          "before": "b5bfd146c075968dd8445d0da48f2b4007effc00c860bfb6b3e3db57dacbc234",
+          "after": "efdac4c0b9efde6d6bd8b7a3b8cc9f1f8c7febfefe0aa8e55e851f90f02fe21f"
+        },
+        {
+          "path": "Code/Libraries/Core/src/keyboard.cpp",
+          "before": "68351c3deb2d81dbfa9937ac34f5120f213f9174e1bb6fe2396c0636ae377d16",
+          "after": "8ddefd503dbbe777086234d825a064d8d5e925b2c8dc54cb91b69ec4d63f59b7"
+        },
+        {
+          "path": "Code/Libraries/Core/src/mouse.cpp",
+          "before": "6f5f8194b31e27ff555d9b264cf4e55a3f1b35b8063c27e89fe42d52f04c2e85",
+          "after": "90e6921bd7298d2f91168176637bc7902fc70d3515988fee2abcd32acf47dee2"
+        },
+        {
+          "path": "Code/Libraries/Core/src/windowwrapper.cpp",
+          "before": "b3b0e6e41da5de7237a41db6ecd704841727ab9eabd051dc3baca3278b31ca63",
+          "after": "fed61479780171ce11736364ec70bebf9bc4a630ea484da64078ceeff087d5d0"
+        },
+        {
+          "path": "Code/Libraries/Core/src/xinputcontroller.h",
+          "before": "8d1556a06af1863d39ec9356b671257be2c4aa40e22bc045220c72c55806f7de",
+          "after": "a9e402f0807329cb34ebd6a3181f8405b4c6d38688d24890c348d5f2ae1e2c50"
+        },
+        {
+          "path": "Code/Libraries/Framework/src/framework3d.cpp",
+          "before": "a43e27cb2188d2e92a0c61b569b90216b5faf153f4892ae080fb1a96b15587da",
+          "after": "a94f8026f3cf66b544b685f3acd639b1b99268550c884a7675a2f2f28fdcf8fc"
+        },
+        {
+          "path": "Code/Libraries/SoLoud/src/backend/sdl2_static/soloud_sdl2_static.cpp",
+          "before": "8d67561e8693ccbad6529ee8f8830a4554e282bcc07a9d4c4e74feab1acbbd52",
+          "after": "6ac7c6a5a89e7c750cc3e88c5206fde455c674c61c7f7921710f21e602d1e4c4"
+        },
+        {
+          "path": "Code/Projects/Eld/src/main.cpp",
+          "before": "cf84812ea7e1f3a8982c2a4c759307f71d48be1e9d18657cb45995a65b396484",
+          "after": "2741e971bbb41af23f999968b222672468a543454f9fdc2422bf7b3e856354df"
+        }
+      ]
+    },
+    "webgl-adaptations.json": {
+      "sha256": "65f83f3d47f957dc447649cf70fb9aa52e38f3f8f795c9489d822aa54179a1c8",
+      "changed": [
+        {
+          "path": "Code/Libraries/Core/src/timedate.h",
+          "before": "ecec64131356fc0d56f5650f2571b2ad34e16401634aa985da325e9153980188",
+          "after": "e5d0f452f55fa42ac45f7d85b1cd8589d6b1206de9d91d336fc72eb4b2da1cf4"
+        },
+        {
+          "path": "Code/Libraries/Core/src/timedate.cpp",
+          "before": "ca1fc7443e5ee0242584634e50097cb8f95c85b89267041e4f48a375c20e6add",
+          "after": "843dc7df0434f768ee41f91c36b3f0f3b32270b9a315b4cd023ab8014abe8092"
+        },
+        {
+          "path": "Code/Libraries/3D/src/GL2/gl2.h",
+          "before": "b93e3c9fbf179acfcfdec3304e6ede9326d715eaf262dfcb467b37413ef11543",
+          "after": "15a159b1411b9a96cd6a1e22a4da42ed19030cfa0099376581da34dfb0575583"
+        },
+        {
+          "path": "Code/Libraries/3D/src/GL2/gl2renderer.cpp",
+          "before": "a063705e85129d1db6d2623c8bb275a38600df137c2847cac01e8406f8c75408",
+          "after": "10c04091b26ea21c263f12ca1025ae36ba1afc0e7fcf93d708834e62b45a07f5"
+        },
+        {
+          "path": "Code/Libraries/3D/src/GL2/gl2texture.cpp",
+          "before": "9d7449b723fd168b90c92145ee0b487d38393291c339de9640ffb09b5e9142aa",
+          "after": "614638e9a403e89daf620c8e7830aa05f9f77cc62845a91e9d22a5df5e951f88"
+        },
+        {
+          "path": "Code/Libraries/3D/src/GL2/gl2cubemap.cpp",
+          "before": "fada6313792f0601e2fcf49c68e82d93d1cd90fea7aaaa79e4e45c9046a6767b",
+          "after": "638d032956022a3f668ca9feae3409ba912bd72fd9236bd4b973d9e6fbd0f582"
+        },
+        {
+          "path": "Code/Libraries/3D/src/GL2/gl2rendertarget.cpp",
+          "before": "eb40c6996801ad16287123ac075ec26457ac605ab495aac2c5110b7244962b2a",
+          "after": "a0baaaeb5c75567808e89e4daf69e14f24a3b061d75937718ad7cdc4370cd523"
+        },
+        {
+          "path": "Code/Libraries/Core/src/windowwrapper.cpp",
+          "before": "fed61479780171ce11736364ec70bebf9bc4a630ea484da64078ceeff087d5d0",
+          "after": "6a31fc8d75bcf82d371a62406f9f92fadb6359a9e6f0b7e90620bab6be31c0f2"
+        },
+        {
+          "path": "Code/Libraries/Framework/src/framework3d.cpp",
+          "before": "a94f8026f3cf66b544b685f3acd639b1b99268550c884a7675a2f2f28fdcf8fc",
+          "after": "c493f7c989cdc872c0f452f41b01f4991d7c0145f04c6d4313da80db0617415b"
+        }
+      ]
+    },
+    "webgl-compile-fixes.json": {
+      "sha256": "d8c0c3086ad6f39b5c15b9bcf36a1a090d2f8e15bd5357d7d00261cfa2eeabc0",
+      "changed": [
+        {
+          "path": "Code/Libraries/3D/src/GL2/gl2renderer.cpp",
+          "before": "10c04091b26ea21c263f12ca1025ae36ba1afc0e7fcf93d708834e62b45a07f5",
+          "after": "dfe3d9aa8e415d01d73cf815caf4d22e9de59c86e67db4a2d708f9ea92e82c7b"
+        },
+        {
+          "path": "Code/Libraries/3D/src/GL2/gl2cuberendertarget.cpp",
+          "before": "4b8fa447c338c731348e7cf49d2c6495fe583baa9d30897594818b7b383a0bdf",
+          "after": "444ff3e1769097ae2fbf164bd2a3938af6fa421059c8410a814dd7f6b68a5615"
+        },
+        {
+          "path": "Code/Libraries/3D/src/GL2/gl2rendertarget.cpp",
+          "before": "a0baaaeb5c75567808e89e4daf69e14f24a3b061d75937718ad7cdc4370cd523",
+          "after": "c33909f840dfd67d36c87388eb6c8b007923bf40db8041e01f4f9e4add959c05"
+        },
+        {
+          "path": "Code/Libraries/3D/src/GL2/gl2texture.cpp",
+          "before": "614638e9a403e89daf620c8e7830aa05f9f77cc62845a91e9d22a5df5e951f88",
+          "after": "a07bd45fa669f80f5a3a1b6ebb598e512ac5cad7b611b55fe58c75a59884c1f7"
+        },
+        {
+          "path": "Code/Libraries/3D/src/GL2/gl2texture.cpp",
+          "before": "a07bd45fa669f80f5a3a1b6ebb598e512ac5cad7b611b55fe58c75a59884c1f7",
+          "after": "2e242d7c8009770d800001615359e6e222373c1159eff1d909e03b8bc82536b8"
+        },
+        {
+          "path": "Code/Libraries/3D/src/GL2/gl2.h",
+          "before": "15a159b1411b9a96cd6a1e22a4da42ed19030cfa0099376581da34dfb0575583",
+          "after": "a8900c1e254075bf080103b96f36f4feb065fc0eca394b4b2b10c083a2f66f03"
+        },
+        {
+          "path": "Code/Libraries/3D/src/GL2/gl2vertexbuffer.cpp",
+          "before": "cc0cd55f28d75c1e97dafd750cdeb7757b7bbabe2c6ef4bf8c9e09ce91bac2c9",
+          "after": "8cea11a8e6c59683e72e52f1d74044c549697826cd341faed9253f6abc24bfde"
+        },
+        {
+          "path": "Code/Libraries/3D/src/GL2/decompgames_webgl_buffers.h",
+          "after": "a2ef6c0cce31e3efcdddbc56b9bb9152ab8fdb85e4a3305a1afb24fe0f7cb99e",
+          "authored": true
+        }
+      ]
+    }
+  },
+  "adapterHarness": {
+    "sourceSha256": "39c7988e596f191ee85d2711fc04481ca682ebf84cb3450ce0e40577fa25a35d",
+    "generatorLicense": "MIT",
+    "asset": "Independently authored flat 2x2 TGA pixels, CC0-1.0",
+    "gameEntryPointExcluded": true,
+    "buildScriptSha256": "7830de198fec9f6aa0dea8bd81bdcc8c78c86c9b92063ec02dfbb8a1e4bf6c01",
+    "testScriptSha256": "e3e2841ff2f55d81577ce94531982ddefe51fe5c14edff1a67aaf432e316e9dc"
+  },
+  "browserAcceptance": {
+    "browser": "Headless Microsoft Edge on Windows, SwiftShader enabled",
+    "muted": true,
+    "tests": 17,
+    "failed": 0,
+    "cases": [
+      {
+        "case": "video-only-init",
+        "passed": true
+      },
+      {
+        "case": "webgl2-context",
+        "passed": true
+      },
+      {
+        "case": "authored-vertex-shader",
+        "passed": true
+      },
+      {
+        "case": "authored-fragment-shader",
+        "passed": true
+      },
+      {
+        "case": "authored-program-link",
+        "passed": true
+      },
+      {
+        "case": "native-vbo-initial-red",
+        "passed": true
+      },
+      {
+        "case": "native-vbo-lock",
+        "passed": true
+      },
+      {
+        "case": "native-vbo-upload-moves-outside",
+        "passed": true
+      },
+      {
+        "case": "native-vbo-second-upload-green",
+        "passed": true
+      },
+      {
+        "case": "native-vbo-cpu-storage-released",
+        "passed": true
+      },
+      {
+        "case": "native-tga-upload-framebuffer",
+        "passed": true
+      },
+      {
+        "case": "native-tga-bgra-to-rgba",
+        "passed": true
+      },
+      {
+        "case": "float-render-target-extension",
+        "passed": true
+      },
+      {
+        "case": "native-rgba8-target",
+        "passed": true
+      },
+      {
+        "case": "native-rgba16f-target",
+        "passed": true
+      },
+      {
+        "case": "native-r32f-target",
+        "passed": true
+      },
+      {
+        "case": "gl-error-free",
+        "passed": true
+      }
+    ],
+    "pixelObservations": [
+      "Observed pixel: 255 0 0 255",
+      "Observed pixel: 0 0 255 255",
+      "Observed pixel: 0 255 0 255"
+    ],
+    "javascriptErrors": [],
+    "missingRequests": [],
+    "externalRequests": [],
+    "nativeContextClosed": true,
+    "browserClosed": true,
+    "serverClosed": true,
+    "scope": "Actual ported GL2VertexBuffer/GL2Texture/GL2RenderTarget adapter acceptance only; authored shaders and test tile. No game entry point/startup/world/gameplay."
+  },
+  "gameStartupTested": false,
+  "gameplayTested": false,
+  "persistenceTested": false,
+  "audibleAudioTested": false,
+  "audioBackendChoice": "SoLoud null in candidate, SDL framework flags omit audio; acceptance harness initializes video only",
+  "catalog": {
+    "entries": 85,
+    "blob": "10a69b5a9dc3e20ba9a75b4b51f34e02d271d81c",
+    "matchesHead": true,
+    "changed": false
+  },
+  "runtimeDistributionsChanged": false,
+  "sourceDistributionsChanged": false,
+  "deployed": false,
+  "historicalFiveDecompMilestone": "4/5 unchanged",
+  "protectedWork": "Mario Party 2/3 and Halo untouched; prior ROM research private",
+  "remaining": [
+    "Complete independent graphics/animation/font/text/map/resource/audio or explicit silent content pack and provenance",
+    "Exact selected native/header/linked SDK/runtime/emitted-JavaScript closure and notices",
+    "Actual game-entry world/material/shader/input/event-loop verification",
+    "Objectives, ordinary gameplay, restart and durable persistence acceptance where offered",
+    "Reproducible source packaging, extraction rebuild and ROM-free distribution audit"
+  ]
+}
