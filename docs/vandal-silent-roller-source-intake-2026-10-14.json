@@ -1,0 +1,269 @@
+{
+  "auditedAtUtc": "2026-10-14T23:53:11.090387+00:00",
+  "basisCommit": "ef62f3d26c1eb4f09096c53625d63c8697706ec0",
+  "catalogCount": 90,
+  "strictAdditionalDecompilationMilestone": {
+    "completed": 4,
+    "target": 5,
+    "newlyCompleted": 0
+  },
+  "scope": "Source-only gate review; not complete compiled-dependency clearance, build or gameplay verification",
+  "snapshots": [
+    {
+      "repo": "FatalDecomp/ROLLER",
+      "branch": "master",
+      "commit": "d5b122129a25ea9d186e03506a84416c68f25f38",
+      "stars": 88,
+      "tree_files": 750,
+      "tree_truncated": false,
+      "retrieved_utc": "2026-10-14T23:50:37.110835+00:00",
+      "files": [
+        {
+          "path": "CMakeLists.txt",
+          "bytes": 21840,
+          "sha256": "d43185430483d8400ab2c58d206ad23aded2f96e858c6293685afeaeb753a24e",
+          "url": "https://github.com/FatalDecomp/ROLLER/blob/d5b122129a25ea9d186e03506a84416c68f25f38/CMakeLists.txt"
+        },
+        {
+          "path": "LICENSE.md",
+          "bytes": 35149,
+          "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
+          "url": "https://github.com/FatalDecomp/ROLLER/blob/d5b122129a25ea9d186e03506a84416c68f25f38/LICENSE.md"
+        },
+        {
+          "path": "README.md",
+          "bytes": 5245,
+          "sha256": "d85e2d35fd2ddb40320cf7c80e246c8971ccf68620ef4426d7307105b8792243",
+          "url": "https://github.com/FatalDecomp/ROLLER/blob/d5b122129a25ea9d186e03506a84416c68f25f38/README.md"
+        },
+        {
+          "path": "build.zig",
+          "bytes": 101593,
+          "sha256": "ca2e895d11c41e09e387096965416dc32f28a3d200566404db1cebee4a8efa3d",
+          "url": "https://github.com/FatalDecomp/ROLLER/blob/d5b122129a25ea9d186e03506a84416c68f25f38/build.zig"
+        },
+        {
+          "path": "build.zig.zon",
+          "bytes": 1517,
+          "sha256": "133c52611971c12d609ba6a3d75cd8e4e98b255cae869e1809c83e1fc573a3f6",
+          "url": "https://github.com/FatalDecomp/ROLLER/blob/d5b122129a25ea9d186e03506a84416c68f25f38/build.zig.zon"
+        },
+        {
+          "path": "docs/adr/0002-canonical-state-machines.md",
+          "bytes": 9556,
+          "sha256": "e01bc3b4656831c64dcb4e96dacc02ebd963bee3e2ef4116748cedad8411d8fc",
+          "url": "https://github.com/FatalDecomp/ROLLER/blob/d5b122129a25ea9d186e03506a84416c68f25f38/docs/adr/0002-canonical-state-machines.md"
+        },
+        {
+          "path": "scripts/fetch_demo_assets.py",
+          "bytes": 15502,
+          "sha256": "ffbb6a6ea21f14efb10a58be108c04e34077e2ebb8f0abc4c4d931effe2da451",
+          "url": "https://github.com/FatalDecomp/ROLLER/blob/d5b122129a25ea9d186e03506a84416c68f25f38/scripts/fetch_demo_assets.py"
+        },
+        {
+          "path": "PROJECTS/ROLLER/roller_web.c",
+          "bytes": 5325,
+          "sha256": "c9bd5fb479087b0fc36515fac66d8cb991dc3741153511fe648f490444e24a57",
+          "url": "https://github.com/FatalDecomp/ROLLER/blob/d5b122129a25ea9d186e03506a84416c68f25f38/PROJECTS/ROLLER/roller_web.c"
+        }
+      ]
+    },
+    {
+      "repo": "HalmyLyseas/VandalHearts-PcPort",
+      "branch": "master",
+      "commit": "14552fffa0e0b47e02b57592e274fc6e7a649923",
+      "stars": 48,
+      "tree_files": 505,
+      "tree_truncated": false,
+      "retrieved_utc": "2026-10-14T23:50:40.199202+00:00",
+      "files": [
+        {
+          "path": "DISCLAIMER",
+          "bytes": 3296,
+          "sha256": "f1afbb450ccd984477b7e22d1de12d10e7cc5a6f59e8f76408b184f3a6dfcd16",
+          "url": "https://github.com/HalmyLyseas/VandalHearts-PcPort/blob/14552fffa0e0b47e02b57592e274fc6e7a649923/DISCLAIMER"
+        },
+        {
+          "path": "LICENSE",
+          "bytes": 17337,
+          "sha256": "aaf135472f81c5b4a0dca9367e5bb5e9750032b5bebe5442b36e4c0a47430df3",
+          "url": "https://github.com/HalmyLyseas/VandalHearts-PcPort/blob/14552fffa0e0b47e02b57592e274fc6e7a649923/LICENSE"
+        },
+        {
+          "path": "Makefile",
+          "bytes": 3415,
+          "sha256": "70f4ee2ea52afe7e974989f0cb75a5ca727062275b4689cb0fa4f5f9d6beebc9",
+          "url": "https://github.com/HalmyLyseas/VandalHearts-PcPort/blob/14552fffa0e0b47e02b57592e274fc6e7a649923/Makefile"
+        },
+        {
+          "path": "NOTICE",
+          "bytes": 5299,
+          "sha256": "0744b759761907508ce4a24302c0b62b503a2df112cf336d7dd349af3ff5cc60",
+          "url": "https://github.com/HalmyLyseas/VandalHearts-PcPort/blob/14552fffa0e0b47e02b57592e274fc6e7a649923/NOTICE"
+        },
+        {
+          "path": "README.md",
+          "bytes": 14878,
+          "sha256": "b3264b9113da2145d7172055a018b3e071d810a563ddeea98610d9bbcb59f30b",
+          "url": "https://github.com/HalmyLyseas/VandalHearts-PcPort/blob/14552fffa0e0b47e02b57592e274fc6e7a649923/README.md"
+        },
+        {
+          "path": "docs/building.md",
+          "bytes": 17306,
+          "sha256": "8cb331264990311765e0317fba8863a1da2079ae876b5b3f56f5de1b22bbe04d",
+          "url": "https://github.com/HalmyLyseas/VandalHearts-PcPort/blob/14552fffa0e0b47e02b57592e274fc6e7a649923/docs/building.md"
+        },
+        {
+          "path": "platform/pc/CMakeLists.txt",
+          "bytes": 34005,
+          "sha256": "98c0b125202d57d74c836365e7a66ac9e3bfc8d61c780dab4243afb9bee1c8dd",
+          "url": "https://github.com/HalmyLyseas/VandalHearts-PcPort/blob/14552fffa0e0b47e02b57592e274fc6e7a649923/platform/pc/CMakeLists.txt"
+        },
+        {
+          "path": "platform/pc/Makefile",
+          "bytes": 31592,
+          "sha256": "6fa0543f6291ae2bde2bafca4d8b11b5aa4001ae51b3630d9edfaf58b7e858de",
+          "url": "https://github.com/HalmyLyseas/VandalHearts-PcPort/blob/14552fffa0e0b47e02b57592e274fc6e7a649923/platform/pc/Makefile"
+        },
+        {
+          "path": "platform/pc/tools/build_data_segment.py",
+          "bytes": 28259,
+          "sha256": "b3c88fac5179b255b576a63e698b612102a9855dac84e6c33adbdb2c22fae186",
+          "url": "https://github.com/HalmyLyseas/VandalHearts-PcPort/blob/14552fffa0e0b47e02b57592e274fc6e7a649923/platform/pc/tools/build_data_segment.py"
+        }
+      ]
+    },
+    {
+      "repo": "SlickAmogus/silent-hill-decomp",
+      "branch": "pc-port",
+      "commit": "3116b58c8d932f016ca5734a70766ac2ffcd0e98",
+      "stars": 675,
+      "tree_files": 2464,
+      "tree_truncated": false,
+      "retrieved_utc": "2026-10-14T23:50:40.508768+00:00",
+      "files": [
+        {
+          "path": ".gitmodules",
+          "bytes": 681,
+          "sha256": "a45784144b0cb0f9c544923059d0f915bed4389d1598b597a3f4162b04af930d",
+          "url": "https://github.com/SlickAmogus/silent-hill-decomp/blob/3116b58c8d932f016ca5734a70766ac2ffcd0e98/.gitmodules"
+        },
+        {
+          "path": "COPYRIGHT.md",
+          "bytes": 6198,
+          "sha256": "51a8534519f87620165876f2355da65487e5e4f5df1ad9e106cb5db3c9057cf2",
+          "url": "https://github.com/SlickAmogus/silent-hill-decomp/blob/3116b58c8d932f016ca5734a70766ac2ffcd0e98/COPYRIGHT.md"
+        },
+        {
+          "path": "LICENSE",
+          "bytes": 35147,
+          "sha256": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903",
+          "url": "https://github.com/SlickAmogus/silent-hill-decomp/blob/3116b58c8d932f016ca5734a70766ac2ffcd0e98/LICENSE"
+        },
+        {
+          "path": "Makefile",
+          "bytes": 34941,
+          "sha256": "2e51288b3f161431882495ead3b8ed3e7eba5c64b2c1ada803a82c83ec55ffee",
+          "url": "https://github.com/SlickAmogus/silent-hill-decomp/blob/3116b58c8d932f016ca5734a70766ac2ffcd0e98/Makefile"
+        },
+        {
+          "path": "README.md",
+          "bytes": 16585,
+          "sha256": "1a9e215d2a7ae8e096e5e103e5302b998710d548823183d7c463dfb3d9b346a9",
+          "url": "https://github.com/SlickAmogus/silent-hill-decomp/blob/3116b58c8d932f016ca5734a70766ac2ffcd0e98/README.md"
+        },
+        {
+          "path": "pc_port/CMakeLists.txt",
+          "bytes": 39971,
+          "sha256": "4fb1df43866f3d89bf4c25326430f3962cd01f49f662fe662bdca4c88fb60711",
+          "url": "https://github.com/SlickAmogus/silent-hill-decomp/blob/3116b58c8d932f016ca5734a70766ac2ffcd0e98/pc_port/CMakeLists.txt"
+        }
+      ]
+    }
+  ],
+  "dependencyNotices": [
+    {
+      "repo": "Zizin13/libcdio",
+      "commit": "4b5dda49f9c4fd844aaf97012c3157e5d2aa634a",
+      "path": "COPYING",
+      "bytes": 35147,
+      "sha256": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903",
+      "url": "https://github.com/Zizin13/libcdio/blob/4b5dda49f9c4fd844aaf97012c3157e5d2aa634a/COPYING"
+    },
+    {
+      "repo": "Zizin13/libcdio",
+      "commit": "4b5dda49f9c4fd844aaf97012c3157e5d2aa634a",
+      "path": "lib/driver/cdio.c",
+      "bytes": 2429,
+      "sha256": "e42151e5280f3d1203bef55a86b547a5afae5faba0a49dd64ab7dbb7385c41fd",
+      "url": "https://github.com/Zizin13/libcdio/blob/4b5dda49f9c4fd844aaf97012c3157e5d2aa634a/lib/driver/cdio.c"
+    },
+    {
+      "repo": "FatalDecomp/ROLLER",
+      "commit": "d5b122129a25ea9d186e03506a84416c68f25f38",
+      "path": "external/libadlmidi/include/adlmidi.h",
+      "bytes": 61987,
+      "sha256": "81a989272c6768b52f937cdc32cb6a20528829a8303d370552c2a35bc3820b4b",
+      "url": "https://github.com/FatalDecomp/ROLLER/blob/d5b122129a25ea9d186e03506a84416c68f25f38/external/libadlmidi/include/adlmidi.h"
+    }
+  ],
+  "rawTextFiles": 26,
+  "rawTextBytes": 584200,
+  "decisions": [
+    {
+      "title": "Whiplash / Fatal Racing",
+      "classification": "Reverse-engineered, partially rewritten native/browser port; separate matching project",
+      "eligible": false,
+      "duplicate": false,
+      "blockers": [
+        "GPL-3.0 root declaration and selected libcdio/libADLMIDI GPL code outside current permissive intake",
+        "Original-demo FATDATA automatically fetched and packaged; no CC0 or complete independent replacement campaign established",
+        "Whole reconstructed-code provenance and selected transitive dependency/SDK closure not cleared"
+      ],
+      "browserEvidence": "Pinned Zig Web target, Emscripten bridge and preload recipe inspected; not built or launched here"
+    },
+    {
+      "title": "Vandal Hearts",
+      "classification": "Matching-decompilation-derived native PC port with reimplemented PlayStation interfaces",
+      "eligible": false,
+      "duplicate": false,
+      "blockers": [
+        "GPL-2.0 port-only grant outside permissive route; NOTICE explicitly excludes reconstructed Konami game code and functional tables",
+        "Native generator requires original regional PS-X executable and Sony font data; runtime requires original disc",
+        "No complete independent campaign or verified browser adaptation; exact native dependency closure unverified"
+      ],
+      "browserEvidence": "Native SDL2/OpenGL/OpenAL/Threads build inspected; no Emscripten gameplay evidence established"
+    },
+    {
+      "title": "Silent Hill",
+      "classification": "Decompilation-derived native PC port with reimplemented console interfaces",
+      "eligible": false,
+      "duplicate": false,
+      "blockers": [
+        "GPL-3.0-or-later additions outside permissive route; COPYRIGHT expressly grants no license to inherited decompilation",
+        "Original game disc required; bundled notification sounds and fan dialogue have separately excluded/unverified grants",
+        "Full independent content, selected PsyCross/FFmpeg/OpenAL/launcher dependency closure and browser adaptation unresolved"
+      ],
+      "browserEvidence": "Native SDL2/PsyCross/OpenGL and map-overlay configurations inspected; no Emscripten gameplay evidence established"
+    }
+  ],
+  "verification": {
+    "snapshotHashes": "passed",
+    "catalogDeduplication": "passed exact titles and aliases",
+    "buildPerformed": false,
+    "browserLaunched": false,
+    "gameplayVerified": false,
+    "audioVerified": false,
+    "retailMediaDownloaded": false,
+    "executablesOrSDKArchivesDownloaded": false,
+    "catalogEntriesAdded": 0,
+    "runtimeUploaded": false,
+    "deployed": false,
+    "cleanRoomCertified": false
+  },
+  "excludedScope": [
+    "Mario Party 2 and 3",
+    "Halo",
+    "Private prior ROM research"
+  ]
+}
