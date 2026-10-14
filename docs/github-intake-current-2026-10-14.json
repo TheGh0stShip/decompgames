@@ -1,0 +1,599 @@
+{
+  "date": "2026-10-14",
+  "basisCommit": "eb632c3d317d8e69d7612dc39c572323d6a8b8e4",
+  "catalog": {
+    "path": "src/data/games.json",
+    "bytes": 244634,
+    "sha256": "640aeb4f7afd543a641388d99e55705c1853e9cfebadcbde6d66e7e743d40620",
+    "count": 88
+  },
+  "strictAdditionalDecompilationMilestone": {
+    "completed": 4,
+    "target": 5,
+    "receipt": {
+      "path": "docs/five-playable-decomps.md",
+      "bytes": 23524,
+      "sha256": "2e8053bc117e27647a52ae0b2b9ef80404c58f5cee60fcaa5f58dfef5fb26587"
+    },
+    "newCountFromThisIntake": 0
+  },
+  "scope": {
+    "publishedIntakeAdditions": 11,
+    "existingEntryRepairs": 1,
+    "clearedUnpublishedEntriesInAuditedPracticalShortlist": 0,
+    "allPotentialProjectsReviewed": false,
+    "allCatalogEntriesAudited": false
+  },
+  "distributions": [
+    {
+      "id": "tennis-sdl",
+      "title": "Tennis",
+      "kind": "Original implementation",
+      "intakeStatus": "published scoped intake addition",
+      "manifest": {
+        "path": "public/manifests/tennis-sdl.json",
+        "bytes": 2192,
+        "sha256": "6abb239059d3b1f43dce5750dfaf7949f3f4370b4bd62da9e8581764f4c67541"
+      },
+      "runtimeBase": "/games/tennis-sdl/",
+      "runtimeFiles": 9,
+      "sourceArchive": "/sources/tennis-sdl-0338d21bc139-silent.tar.gz",
+      "sourceArchiveSha256": "f26ed8d09f3c36c050439a9269d04baeb6edbd842a7f66fa78733d2ff397c16a",
+      "receipts": [
+        {
+          "path": "docs/tennis-sdl-full-round-production.json",
+          "bytes": 3409,
+          "sha256": "0151293c69d97b4d63533a6e3143407e90da097d6d41aa2adb2b45382d8d2758"
+        }
+      ]
+    },
+    {
+      "id": "craft",
+      "title": "Craft",
+      "kind": "Original implementation",
+      "intakeStatus": "published scoped intake addition",
+      "manifest": {
+        "path": "public/manifests/craft.json",
+        "bytes": 1812,
+        "sha256": "2256644f6ea3b8127f6bdc34628389a7ffb69a5ae392b78768db6cade02a11f3"
+      },
+      "runtimeBase": "/games/craft/",
+      "runtimeFiles": 8,
+      "sourceArchive": "/sources/craft-d6888a6e-browser-source.tar.gz",
+      "sourceArchiveSha256": "83a9db1b214881010c58103afe878c685596946de9ea30ac12175cb5cb4b1d09",
+      "receipts": [
+        {
+          "path": "docs/craft-save-production-test.json",
+          "bytes": 10189,
+          "sha256": "16f58c2736f52a57b42280edc437adca690c3005cfbc16fa187d55802ebc1a8a"
+        }
+      ]
+    },
+    {
+      "id": "openduelyst",
+      "title": "OpenDuelyst",
+      "kind": "Original implementation",
+      "intakeStatus": "published scoped intake addition",
+      "manifest": {
+        "path": "public/manifests/openduelyst.json",
+        "bytes": 103611,
+        "sha256": "e0e5dac96f0f1f9e4d898f79c13314411e72d30d4b7410b5de3de114926f5858"
+      },
+      "runtimeBase": "/games/openduelyst/",
+      "runtimeFiles": 554,
+      "sourceArchive": "/sources/openduelyst-2843f240-local-browser-source.tar.gz",
+      "sourceArchiveSha256": "aee6bf25264c9b317405570ab482c5ba200bf8f1af00d4462131c97e2d0e3443",
+      "receipts": [
+        {
+          "path": "docs/openduelyst-production-test.json",
+          "bytes": 480,
+          "sha256": "d433befcb92772b315e16fc24a0be304e054ffaee3f455250e401d3ba84bfa23"
+        }
+      ]
+    },
+    {
+      "id": "roboden-replacement",
+      "title": "Roboden: Geometric Edition",
+      "kind": "Original implementation",
+      "intakeStatus": "published scoped intake addition",
+      "manifest": {
+        "path": "public/manifests/roboden-replacement.json",
+        "bytes": 7349,
+        "sha256": "21a735c9716cd00b22cf177fde5376c6c51589f89b99b0f2523cd1444f9ee0dc"
+      },
+      "runtimeBase": "/games/roboden-replacement/",
+      "runtimeFiles": 37,
+      "sourceArchive": "/sources/roboden-9a5d355-geometric-browser-source.tar.gz",
+      "sourceArchiveSha256": "06263cfa4fd5f5bea497b747a587897b1877369aeb60a924b1cdb92927d9a0a4",
+      "receipts": [
+        {
+          "path": "docs/roboden-production-test.json",
+          "bytes": 177,
+          "sha256": "383b2ffdadc4434f799f7b2862c9f815de1dd987b9e3553fee4470bad62650b0"
+        }
+      ]
+    },
+    {
+      "id": "2048",
+      "title": "2048",
+      "kind": "Original implementation",
+      "intakeStatus": "published scoped intake addition",
+      "manifest": {
+        "path": "public/manifests/2048.json",
+        "bytes": 2226,
+        "sha256": "69f23b6901601849768c2dc4793189e4ee19c8382136d5789e9a816bc9206e15"
+      },
+      "runtimeBase": "/games/2048/",
+      "runtimeFiles": 12,
+      "sourceArchive": "/sources/2048-478b6ec-local-browser-source.tar.gz",
+      "sourceArchiveSha256": "f354a1fca0ffb13751347f792d92b065e6a3810ec19f0615a771b3254bc72d5a",
+      "receipts": [
+        {
+          "path": "docs/2048-terminal-production-test.json",
+          "bytes": 3147,
+          "sha256": "6ba260dce58c59b89e1f67ae792dc30f8749b67fa414902407ba892becae95d9"
+        }
+      ]
+    },
+    {
+      "id": "open-cadet",
+      "title": "Open Cadet",
+      "kind": "Decompilation",
+      "intakeStatus": "existing entry repair",
+      "manifest": {
+        "path": "public/manifests/open-cadet.json",
+        "bytes": 1911,
+        "sha256": "bf677ad0419d5c72de1364bb2db84ecf81e8853379ef40d0ecd0cf77626125f5"
+      },
+      "runtimeBase": "/runtime/cadet/0bc12d3ca97a-authored-c51f8473a6/",
+      "runtimeFiles": 3,
+      "sourceArchive": "/sources/cadet-0bc12d3ca97a-authored-c51f8473a6.tar.gz",
+      "sourceArchiveSha256": "33d4502ff6f3d8023b0248b9fff68c2a1f709a12cee9584625618be658f04a42",
+      "receipts": [
+        {
+          "path": "docs/open-cadet-earned-score-production-test.json",
+          "bytes": 9085,
+          "sha256": "692f530a10871866dc7ac467402b3c16b806dc7fccb83433af2f88a3b89f0c33"
+        },
+        {
+          "path": "docs/open-cadet-contacts-production-test-2026-10-14.json",
+          "bytes": 11361,
+          "sha256": "13fcff86018b0fbface93c435d3db9bdbf4c9958e22175cf6673c8b1c52feb84"
+        }
+      ]
+    },
+    {
+      "id": "zzt-demo",
+      "title": "ZZT Licensed Demo",
+      "kind": "Source port",
+      "intakeStatus": "published scoped intake addition",
+      "manifest": {
+        "path": "public/manifests/zzt-demo.json",
+        "bytes": 3469,
+        "sha256": "33efb843d6e6eabb467820069c77dfa4ca83592c93b93f9ce78f7a5c36653e85"
+      },
+      "runtimeBase": "/games/zzt-demo/",
+      "runtimeFiles": 18,
+      "sourceArchive": "/sources/zzt-demo-442ff28-symbol8bc5ff-source.tar.gz",
+      "sourceArchiveSha256": "3d9c8f973e4a49ebea9190ab0ba87727a2e7b07e856c316d786d67b1d0a8c79e",
+      "receipts": [
+        {
+          "path": "docs/zzt-combat-production-test.json",
+          "bytes": 12086,
+          "sha256": "fbdd4c5400eb270f0713d1e714d53bde5e0d878ef08f4ea348852b032ea02429"
+        },
+        {
+          "path": "docs/zzt-items-production-test.json",
+          "bytes": 4153,
+          "sha256": "eeebadc99369eefb54c3daab8173b12cf5acd79c9598a495ff5b60bed3ccb0ef"
+        }
+      ]
+    },
+    {
+      "id": "cinder-abuse",
+      "title": "Cinder (Abuse source port)",
+      "kind": "Source port",
+      "intakeStatus": "published scoped intake addition",
+      "manifest": {
+        "path": "public/manifests/cinder-abuse.json",
+        "bytes": 3704,
+        "sha256": "61e8dbf1a9e743bc98c7a6fbacc90d5880c145c4268472c66baabe0453d9f50d"
+      },
+      "runtimeBase": "/games/cinder-abuse/",
+      "runtimeFiles": 16,
+      "sourceArchive": "/sources/cinder-abuse-01cce80-browser-8e338b08-source.zip",
+      "sourceArchiveSha256": "8e338b0824d603e6556d55c772456e9b32eba0a80fed2af9ab98025424bcbb5b",
+      "receipts": [
+        {
+          "path": "docs/cinder-abuse-release.json",
+          "bytes": 20588,
+          "sha256": "fdee18cf4f74b1f76f70f1f2775286aaabe7d27b6b08df3cc1fa2d3c974f1bd4"
+        }
+      ]
+    },
+    {
+      "id": "kiln-super-zzt",
+      "title": "Kiln (Super ZZT port)",
+      "kind": "Source port",
+      "intakeStatus": "published scoped intake addition",
+      "manifest": {
+        "path": "public/manifests/kiln-super-zzt.json",
+        "bytes": 5229,
+        "sha256": "da4ecddae32a3233df0ac48ef282cf49cc33c4886eb00bdf55f817a10cc07b30"
+      },
+      "runtimeBase": "/games/kiln-super-zzt/",
+      "runtimeFiles": 26,
+      "sourceArchive": "/sources/kiln-super-zzt-442ff28-relay-v2-source.zip",
+      "sourceArchiveSha256": "f223079b79466b63f687fed28b0e2f08fc6d575b9dacaa8bbf81dc16dea55e69",
+      "receipts": [
+        {
+          "path": "docs/kiln-super-zzt-release.json",
+          "bytes": 55522,
+          "sha256": "6f59df99eaced65e90c3ee00bfc7f1e8cba626019bf8ac2ef1af78c1eaed955b"
+        }
+      ]
+    },
+    {
+      "id": "beacon-yard",
+      "title": "Beacon Yard (Eldritch source port)",
+      "kind": "Source port",
+      "intakeStatus": "published scoped intake addition",
+      "manifest": {
+        "path": "public/manifests/beacon-yard.json",
+        "bytes": 4281,
+        "sha256": "7fff8609c4ee60e4bcf09e2348f4c061d00817ea412abfbdbee0dfce743200c4"
+      },
+      "runtimeBase": "/runtime/beacon-yard/2019-yard-v4/",
+      "runtimeFiles": 20,
+      "sourceArchive": "/sources/beacon-yard-2019-yard-v4-source.zip",
+      "sourceArchiveSha256": "5cca26fcf642a258e26ce12f30722393311c1ef6a84a55e1da113cbc8535d520",
+      "receipts": [
+        {
+          "path": "docs/beacon-yard-release.json",
+          "bytes": 52809,
+          "sha256": "04ab2e1ad32ddb970032613eaffac4eb52c5e236690db0c5202da2cfb28728ed"
+        }
+      ]
+    },
+    {
+      "id": "paper-rooms",
+      "title": "Paper Rooms (Glider 4 source port)",
+      "kind": "Source port",
+      "intakeStatus": "published scoped intake addition",
+      "manifest": {
+        "path": "public/manifests/paper-rooms.json",
+        "bytes": 3831,
+        "sha256": "16bc649b5d9c12b759f5f4f4297f3ce3eebe044e6c3181cef4ee7271769f89cc"
+      },
+      "runtimeBase": "/runtime/paper-rooms/glider-rooms-v1/",
+      "runtimeFiles": 19,
+      "sourceArchive": "/sources/paper-rooms-glider-rooms-v1-source.zip",
+      "sourceArchiveSha256": "30289efa4986d95fded65528eab4b39be833930043fc9deeeaea94166edb7c6f",
+      "receipts": [
+        {
+          "path": "docs/paper-rooms-release.json",
+          "bytes": 58395,
+          "sha256": "0b04717072a1f1e651c8b901680f956dd29b9cf3499059ef842e84157a81fdcb"
+        }
+      ]
+    },
+    {
+      "id": "beacon-relay",
+      "title": "Beacon Relay (Celeste Classic source port)",
+      "kind": "Source port",
+      "intakeStatus": "published scoped intake addition",
+      "manifest": {
+        "path": "public/manifests/beacon-relay.json",
+        "bytes": 9841,
+        "sha256": "1e45bfcf290dc9fc66f56699460243e87e3d4d4e3672aae2ebcb6f66cc74c821"
+      },
+      "runtimeBase": "/runtime/beacon-relay/classic-relay-v1/",
+      "runtimeFiles": 51,
+      "sourceArchive": "/sources/beacon-relay-classic-relay-v1-source.zip",
+      "sourceArchiveSha256": "28c0c1bfafc2977cbf1f5389d6a1ffb264b84f76ff2980c5b3dbfd826ead7a54",
+      "receipts": [
+        {
+          "path": "docs/beacon-relay-release.json",
+          "bytes": 3923,
+          "sha256": "89d851326d3a8aaa64a1ae3d21c0d2f1ef808ecea2a6863a1adcacfe0a14dcd9"
+        },
+        {
+          "path": "docs/beacon-relay-production-acceptance.json",
+          "bytes": 17012,
+          "sha256": "2dc1c35c86b31435a8a99727a5658dc647a3d7e38fe836a09378db56cd037244"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "localDistributionRecords": 785,
+    "auditedEntries": 12,
+    "byteGuard": "scripts/verify-intake-distributions.mjs passed 2026-10-14; not live or gameplay verification",
+    "newGameTests": 0,
+    "newBrowserPlayers": 0,
+    "newBuilds": 0,
+    "newRuntimeUploads": 0,
+    "newWebsiteDeployments": 0,
+    "audibleAudio": "unverified"
+  },
+  "sourceAuditHistory": [
+    {
+      "path": "docs/abuse-loco-fallout-source-intake-2026-10-13.md",
+      "bytes": 40741,
+      "sha256": "62012807de2a964f9b72a3c459ddde1171242474dc2a575465e80aa401fc51f7"
+    },
+    {
+      "path": "docs/ac-touhou-re1-source-intake-2026-10-14.md",
+      "bytes": 12178,
+      "sha256": "c92e9f030fb0660d16e62f36a0c4b53c9bb01915a78c6d348ff32baed0269ec9"
+    },
+    {
+      "path": "docs/carmageddon-spidey-croc-source-intake-2026-10-13.md",
+      "bytes": 6163,
+      "sha256": "aa730918d7dd2d0de35d7007738c2b1c43279c1ce64bbaae4e315cf38c030aa6"
+    },
+    {
+      "path": "docs/celeste-author-source-intake-2026-10-14.md",
+      "bytes": 9750,
+      "sha256": "40dc7ca573a434603832eac299a805ed7795abb6119d8176eae5afe26fb3b695"
+    },
+    {
+      "path": "docs/cosmo-duke-thief-godhand-source-intake-2026-10-13.md",
+      "bytes": 12499,
+      "sha256": "74383892e134bf9e304a5c0b6c6ab4051d2351553dc19fbe8693aa0547d178eb"
+    },
+    {
+      "path": "docs/ds-azel-source-intake-2026-10-13.md",
+      "bytes": 7144,
+      "sha256": "c606177ebe2fc85f84dc9a838012fc786b9f2534dabeaa90d78ae74cbc9f6e16"
+    },
+    {
+      "path": "docs/dxball-medievil-pop-source-intake-2026-10-13.md",
+      "bytes": 10347,
+      "sha256": "839d2aca73d3ce6988df08a431c1c0e83dc63977a8353e0f25947bb6e109288c"
+    },
+    {
+      "path": "docs/eldritch-raptor-ken-source-intake-2026-10-13.md",
+      "bytes": 11523,
+      "sha256": "d5e5231b0a7bcadcc69a792d50b68576776f385706656ed9143bb9d2cab31943"
+    },
+    {
+      "path": "docs/gta-kain-biomenace-openmbu-source-intake-2026-10-13.md",
+      "bytes": 11839,
+      "sha256": "adeecbd8665fbb7fdeb5b9697dbea0c5cf48dc6dffc45b9e4260070efdd00ac6"
+    },
+    {
+      "path": "docs/jak-oddworld-th08-source-intake-2026-10-14.md",
+      "bytes": 11982,
+      "sha256": "ecc42525315f562779b833c20146a8b1b76c98413c8201da97d22ee4d89775fe"
+    },
+    {
+      "path": "docs/liero-dink-glider-source-intake-2026-10-14.md",
+      "bytes": 11878,
+      "sha256": "e49c896505149ad5a63b9e548d65c43bfd3e22c342731ea1c0e3052aab1775a4"
+    },
+    {
+      "path": "docs/melee-bt3-fatal-frame-source-intake-2026-10-13.md",
+      "bytes": 12016,
+      "sha256": "9c3c80c1c6a22c2a78cd9f6ccf8446c618c984f0c544d7bff15c631db8194df5"
+    },
+    {
+      "path": "docs/monkeyball-sonicr-klonoa-source-intake-2026-10-14.md",
+      "bytes": 9589,
+      "sha256": "9941064ab7d5edffd6d5dabe659d62bcc87e72283f18b58b443bfd8813fd7a94"
+    },
+    {
+      "path": "docs/new-decomp-leads-2026-10-12.md",
+      "bytes": 15734,
+      "sha256": "94602d40af94466f3b11128352069fa8daa19a49f9344dadab49a1c15c8040f1"
+    },
+    {
+      "path": "docs/openjkdf2-source-intake-2026-10-13.md",
+      "bytes": 4346,
+      "sha256": "939a565c99188923bd0ffd4870e458969cb812c526f51becba3ed7c79eb7cc67"
+    },
+    {
+      "path": "docs/openlara-source-intake.md",
+      "bytes": 37138,
+      "sha256": "1d2fa78810d4cc202bb9472a0f48aec32755b6347ff50b52b8cf45b75c200907"
+    },
+    {
+      "path": "docs/outrun-nfs-trx-source-intake-2026-10-14.md",
+      "bytes": 10406,
+      "sha256": "fab94f8aa272835d00640f5195eb1dcd6dfc32f6189182b6c90be648cb58c476"
+    },
+    {
+      "path": "docs/pangea-source-intake-2026-10-13.md",
+      "bytes": 4283,
+      "sha256": "b5fe7df5625b934fa38e1024372634f5d54be651630fd21d3eabd4b24fd23ce1"
+    },
+    {
+      "path": "docs/peggle-nova-underworld-source-intake-2026-10-14.md",
+      "bytes": 7853,
+      "sha256": "6cc700c1cc877b80bc8229931a2d1b68c7c6b4b2579d3996d5adbc9f7e012efc"
+    },
+    {
+      "path": "docs/phantom-ballanced-source-intake-2026-10-13.md",
+      "bytes": 6752,
+      "sha256": "dc35639e1f87df46c80c46aa4cd4e00da94d7a86b754da8b5470df377c73bf2d"
+    },
+    {
+      "path": "docs/pvz-source-intake-2026-10-13.md",
+      "bytes": 5294,
+      "sha256": "2e86da0f20cc21e6b976035e96222e31c22bece22f4dde400e67052bbb12e4d0"
+    },
+    {
+      "path": "docs/recoil-glover-fuel-freedom-source-intake-2026-10-14.md",
+      "bytes": 8486,
+      "sha256": "c47c8d1201e4133a04ef03e499fa2ee7a5354afde90a83d67178f80d0a82e529"
+    },
+    {
+      "path": "docs/redriver2-source-intake-2026-10-13.md",
+      "bytes": 4285,
+      "sha256": "49e0ad03d61b2d5d4cdb2fce7a5fe046ecdf3928d9b82b56904edc7a5bca1097"
+    },
+    {
+      "path": "docs/sonic-cavestory-source-intake-2026-10-14.md",
+      "bytes": 9208,
+      "sha256": "90344382aefccb85dbb634e49f1d79df6bf6daa1842ecc0d9e8df4f61afdd7c8"
+    },
+    {
+      "path": "docs/super-zzt-snipes-source-intake-2026-10-13.md",
+      "bytes": 15617,
+      "sha256": "efd7bbbe2618d72e1bb33adcd42282aae3aae8d33a207a4c6f76f3f6557c1fe3"
+    },
+    {
+      "path": "docs/undertale-strikers-source-intake-2026-10-14.md",
+      "bytes": 9794,
+      "sha256": "6af4c950a6f16f18acdb82fe92d68456d624ccb11fc0313f2b7fb31c8e4d087e"
+    },
+    {
+      "path": "docs/zoombinis-ta-prototype-source-intake-2026-10-14.md",
+      "bytes": 11822,
+      "sha256": "74c06bdb9e08b2aef6b038d9d2643a78e25156f3ed15438e274004974f4fd746"
+    },
+    {
+      "path": "docs/zzt-source-intake.md",
+      "bytes": 28314,
+      "sha256": "b9df8f52052719f500b6827126e2d790c30d263cbde278b631844795327951c8"
+    }
+  ],
+  "linkedEvidence": [
+    {
+      "path": "docs/beacon-relay-release.json",
+      "bytes": 3923,
+      "sha256": "89d851326d3a8aaa64a1ae3d21c0d2f1ef808ecea2a6863a1adcacfe0a14dcd9"
+    },
+    {
+      "path": "docs/tennis-sdl-full-round-production.json",
+      "bytes": 3409,
+      "sha256": "0151293c69d97b4d63533a6e3143407e90da097d6d41aa2adb2b45382d8d2758"
+    },
+    {
+      "path": "docs/craft-save-production-test.json",
+      "bytes": 10189,
+      "sha256": "16f58c2736f52a57b42280edc437adca690c3005cfbc16fa187d55802ebc1a8a"
+    },
+    {
+      "path": "docs/openduelyst-production-test.json",
+      "bytes": 480,
+      "sha256": "d433befcb92772b315e16fc24a0be304e054ffaee3f455250e401d3ba84bfa23"
+    },
+    {
+      "path": "docs/roboden-production-test.json",
+      "bytes": 177,
+      "sha256": "383b2ffdadc4434f799f7b2862c9f815de1dd987b9e3553fee4470bad62650b0"
+    },
+    {
+      "path": "docs/2048-terminal-production-test.json",
+      "bytes": 3147,
+      "sha256": "6ba260dce58c59b89e1f67ae792dc30f8749b67fa414902407ba892becae95d9"
+    },
+    {
+      "path": "docs/zzt-combat-production-test.json",
+      "bytes": 12086,
+      "sha256": "fbdd4c5400eb270f0713d1e714d53bde5e0d878ef08f4ea348852b032ea02429"
+    },
+    {
+      "path": "docs/zzt-items-production-test.json",
+      "bytes": 4153,
+      "sha256": "eeebadc99369eefb54c3daab8173b12cf5acd79c9598a495ff5b60bed3ccb0ef"
+    },
+    {
+      "path": "docs/zzt-source-intake.md",
+      "bytes": 28314,
+      "sha256": "b9df8f52052719f500b6827126e2d790c30d263cbde278b631844795327951c8"
+    },
+    {
+      "path": "docs/cinder-abuse-release.json",
+      "bytes": 20588,
+      "sha256": "fdee18cf4f74b1f76f70f1f2775286aaabe7d27b6b08df3cc1fa2d3c974f1bd4"
+    },
+    {
+      "path": "docs/kiln-super-zzt-release.json",
+      "bytes": 55522,
+      "sha256": "6f59df99eaced65e90c3ee00bfc7f1e8cba626019bf8ac2ef1af78c1eaed955b"
+    },
+    {
+      "path": "docs/beacon-yard-release.json",
+      "bytes": 52809,
+      "sha256": "04ab2e1ad32ddb970032613eaffac4eb52c5e236690db0c5202da2cfb28728ed"
+    },
+    {
+      "path": "docs/paper-rooms-release.json",
+      "bytes": 58395,
+      "sha256": "0b04717072a1f1e651c8b901680f956dd29b9cf3499059ef842e84157a81fdcb"
+    },
+    {
+      "path": "docs/beacon-relay-production-acceptance.json",
+      "bytes": 17012,
+      "sha256": "2dc1c35c86b31435a8a99727a5658dc647a3d7e38fe836a09378db56cd037244"
+    },
+    {
+      "path": "docs/open-cadet-earned-score-production-test.json",
+      "bytes": 9085,
+      "sha256": "692f530a10871866dc7ac467402b3c16b806dc7fccb83433af2f88a3b89f0c33"
+    },
+    {
+      "path": "docs/open-cadet-contacts-production-test-2026-10-14.json",
+      "bytes": 11361,
+      "sha256": "13fcff86018b0fbface93c435d3db9bdbf4c9958e22175cf6673c8b1c52feb84"
+    },
+    {
+      "path": "docs/recoil-glover-fuel-freedom-source-intake-2026-10-14.md",
+      "bytes": 8486,
+      "sha256": "c47c8d1201e4133a04ef03e499fa2ee7a5354afde90a83d67178f80d0a82e529"
+    },
+    {
+      "path": "docs/peggle-nova-underworld-source-intake-2026-10-14.md",
+      "bytes": 7853,
+      "sha256": "6cc700c1cc877b80bc8229931a2d1b68c7c6b4b2579d3996d5adbc9f7e012efc"
+    },
+    {
+      "path": "docs/sonic-cavestory-source-intake-2026-10-14.md",
+      "bytes": 9208,
+      "sha256": "90344382aefccb85dbb634e49f1d79df6bf6daa1842ecc0d9e8df4f61afdd7c8"
+    },
+    {
+      "path": "docs/undertale-strikers-source-intake-2026-10-14.md",
+      "bytes": 9794,
+      "sha256": "6af4c950a6f16f18acdb82fe92d68456d624ccb11fc0313f2b7fb31c8e4d087e"
+    },
+    {
+      "path": "docs/monkeyball-sonicr-klonoa-source-intake-2026-10-14.md",
+      "bytes": 9589,
+      "sha256": "9941064ab7d5edffd6d5dabe659d62bcc87e72283f18b58b443bfd8813fd7a94"
+    },
+    {
+      "path": "docs/dxball-medievil-pop-source-intake-2026-10-13.md",
+      "bytes": 10347,
+      "sha256": "839d2aca73d3ce6988df08a431c1c0e83dc63977a8353e0f25947bb6e109288c"
+    },
+    {
+      "path": "docs/cosmo-duke-thief-godhand-source-intake-2026-10-13.md",
+      "bytes": 12499,
+      "sha256": "74383892e134bf9e304a5c0b6c6ab4051d2351553dc19fbe8693aa0547d178eb"
+    },
+    {
+      "path": "docs/intake-status-2026-10-12.md",
+      "bytes": 25068,
+      "sha256": "febb371ab9e1e8d8fc390fa3cd4f86f2cb0a1be4a95ad257ab0f12ad62765763"
+    },
+    {
+      "path": "docs/openlara-source-intake.md",
+      "bytes": 37138,
+      "sha256": "1d2fa78810d4cc202bb9472a0f48aec32755b6347ff50b52b8cf45b75c200907"
+    },
+    {
+      "path": "docs/abuse-loco-fallout-source-intake-2026-10-13.md",
+      "bytes": 40741,
+      "sha256": "62012807de2a964f9b72a3c459ddde1171242474dc2a575465e80aa401fc51f7"
+    }
+  ],
+  "nextWork": "Discover new actual-decomp/source-port leads; reopen recorded blockers only for meaningful new grant/source/content/browser evidence. Existing published gameplay gaps retain their individual limits.",
+  "excludedScope": [
+    "Mario Party 2/3 and Halo Claude-owned work",
+    "Private ROM research and untracked private shortlists",
+    "Broad engine recreation or ScummVM expansion"
+  ]
+}
