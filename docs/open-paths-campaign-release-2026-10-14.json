@@ -1,0 +1,90 @@
+{
+  "date": "2026-10-14T10:31:04.207Z",
+  "deployment": "https://bdf5948d.decompgames.pages.dev",
+  "commit": "241dec4",
+  "checks": [
+    {
+      "url": "https://bdf5948d.decompgames.pages.dev/games/supaplex/?verify=241dec4",
+      "status": 200,
+      "newScopeAndDatedLink": true
+    },
+    {
+      "url": "https://bdf5948d.decompgames.pages.dev/manifests/supaplex.json?verify=241dec4",
+      "status": 200,
+      "originalManifestUnchanged": true,
+      "sha256": "9d886a261960d11f28bb1ab68f99482260d747cd2415f2077bbccaf8a2199d9d"
+    },
+    {
+      "url": "https://bdf5948d.decompgames.pages.dev/updates/?verify=241dec4",
+      "status": 200,
+      "newUpdateVisible": true
+    },
+    {
+      "url": "https://decompgames.com/games/supaplex/?verify=241dec4",
+      "status": 200,
+      "newScopeAndDatedLink": true
+    },
+    {
+      "url": "https://decompgames.com/manifests/supaplex.json?verify=241dec4",
+      "status": 200,
+      "originalManifestUnchanged": true,
+      "sha256": "9d886a261960d11f28bb1ab68f99482260d747cd2415f2077bbccaf8a2199d9d"
+    },
+    {
+      "url": "https://decompgames.com/updates/?verify=241dec4",
+      "status": 200,
+      "newUpdateVisible": true
+    },
+    {
+      "url": "https://decompgames.com/games/mario-party-2/",
+      "status": 200,
+      "playerStarted": false
+    },
+    {
+      "url": "https://decompgames.com/games/mario-party-3/",
+      "status": 200,
+      "playerStarted": false
+    },
+    {
+      "url": "https://decompgames.com/games/halo-combat-evolved/",
+      "status": 200,
+      "playerStarted": false
+    },
+    {
+      "url": "https://decompgames.com/games/open-cadet/",
+      "status": 200,
+      "playerStarted": false
+    },
+    {
+      "url": "https://decompgames.com/games/paper-rooms/",
+      "status": 200,
+      "playerStarted": false
+    },
+    {
+      "url": "https://decompgames.com/games/beacon-yard/",
+      "status": 200,
+      "playerStarted": false
+    }
+  ],
+  "passed": true,
+  "scope": "Static verification metadata publication; read-only HTTP checks, no new players or audio tests. Campaign and restart players were muted, stopped with save synchronization and closed before publication.",
+  "playersStarted": false,
+  "catalogCount": 87,
+  "decompilationMilestone": "4/5 unchanged",
+  "runtimeAndSourceBytesChanged": false,
+  "runtimeAssetUploads": 0,
+  "validation": {
+    "astro": {
+      "errors": 0,
+      "warnings": 0,
+      "existingHints": 3
+    },
+    "catalogEntries": 87,
+    "existingDistributionRecords": 733,
+    "auditedDistributionEntries": 11,
+    "openPathsLiveHashesMatched": 17,
+    "staticPages": 151,
+    "indexablePages": 113,
+    "feedItems": 12
+  }
+}
