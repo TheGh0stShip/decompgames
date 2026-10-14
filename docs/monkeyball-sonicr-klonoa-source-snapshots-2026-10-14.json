@@ -1,0 +1,470 @@
+{
+  "date": "2026-10-14",
+  "scope": "38 selected source/build/grant/metadata texts; six project pins and three component pins. gl-matrix 3.4.3 package metadata/notice identified by exact package URLs rather than an invented Git tag. Not full source/dependency closure or gameplay.",
+  "projects": [
+    {
+      "repository": "101arrowz/fflate",
+      "requestedRef": "v0.8.2",
+      "pin": "d3243651cb142e3e04f3e4bc037b9e985878f444",
+      "starsAtRead": 3051,
+      "treeTruncated": false,
+      "treeSha256": "e5b7dfa8dbb92315e4a6034ec6e64523f5edc132965fc52515ac3ba72edb6cf4",
+      "gitlinks": [],
+      "selectedTextCount": 1
+    },
+    {
+      "repository": "camthesaxman/smb-decomp",
+      "pin": "5cd6ffccf3f8508231c7cd9cce5b722be4465a2b",
+      "starsAtRead": 64,
+      "defaultBranch": "master",
+      "treeTruncated": false,
+      "treeSha256": "e2414a31ae505c640ff26f7d241ecff7b9f804f45ddbe3de2fffd8da159895b9",
+      "gitlinks": [],
+      "selectedTextCount": 2
+    },
+    {
+      "repository": "Dream-Atelier/kl-eod-decomp",
+      "pin": "45e66dd20f55b637656bc86129b9ba3bd49a01d6",
+      "starsAtRead": 15,
+      "defaultBranch": "main",
+      "treeTruncated": false,
+      "treeSha256": "76a1dc46033508296ecacd47e9c4f568f471df7943f9bee3231d0a1d3d311204",
+      "gitlinks": [
+        {
+          "path": "tools/agbcc",
+          "pin": "61b9c52f16ae9bce3b36cee6917e72d1494e2b09"
+        },
+        {
+          "path": "tools/luvdis",
+          "pin": "53e5f4aa1314ecafbb8b464409d57ae178a1cb1f"
+        },
+        {
+          "path": "tools/transmuter",
+          "pin": "c6e0290d42802a47edfb83b6a131aa1cf9d02a61"
+        }
+      ],
+      "selectedTextCount": 5
+    },
+    {
+      "repository": "jnmartin84/sonic-r",
+      "pin": "3da98f2e134eac82e45cd69660216fa0e4563ac5",
+      "starsAtRead": 27,
+      "defaultBranch": "main",
+      "treeTruncated": false,
+      "treeSha256": "34cf0ab913f96c5b3b865992a5a48029651bcedd0456e45c6e63589d602b4ffc",
+      "gitlinks": [],
+      "selectedTextCount": 4
+    },
+    {
+      "repository": "libsdl-org/SDL_mixer",
+      "requestedRef": "171eb2d420d5643e4ee11514a06e04a41a463bbd",
+      "pin": "171eb2d420d5643e4ee11514a06e04a41a463bbd",
+      "starsAtRead": 761,
+      "treeTruncated": false,
+      "treeSha256": "45e93dc50c458a590b248047aa2d01959f0644606ef185c7d6fa999215f1a89c",
+      "gitlinks": [
+        {
+          "path": "external/flac",
+          "pin": "dac59a8eb44f2f9f7006b1246bede041dfb18ea0"
+        },
+        {
+          "path": "external/libgme",
+          "pin": "51ce3da09af1e27a203381bb4071604bddfd05a9"
+        },
+        {
+          "path": "external/libxmp",
+          "pin": "3f0baed2bd501a6907850c265e3f70e5f1fc5460"
+        },
+        {
+          "path": "external/mpg123",
+          "pin": "d010f77941aac74edcd72aa711e2729c8cd9a2c4"
+        },
+        {
+          "path": "external/ogg",
+          "pin": "7231a5687231bad3eb778399ac08b690589db8d4"
+        },
+        {
+          "path": "external/opus",
+          "pin": "123a9faf5598ceef6fcb6d44bbadc4f9469945a6"
+        },
+        {
+          "path": "external/opusfile",
+          "pin": "d820a66af7ba7fdda346b5b439baca9a2f04dd7f"
+        },
+        {
+          "path": "external/tremor",
+          "pin": "7afc84841ffa2e9610b65950fd233e6c428699c7"
+        },
+        {
+          "path": "external/vorbis",
+          "pin": "0cec9a37f057a54a1e6b572301aec659d84840c3"
+        },
+        {
+          "path": "external/wavpack",
+          "pin": "02efabe73e1ac743ec35885f2b620cec3e996ca5"
+        }
+      ],
+      "selectedTextCount": 1
+    },
+    {
+      "repository": "sndrec/WebMonkeyBall",
+      "pin": "6d7caf6b2e7d46b863cbf5154b97997dbb2bd511",
+      "starsAtRead": 325,
+      "defaultBranch": "main",
+      "treeTruncated": false,
+      "treeSha256": "1fbb7dd303ba74d6c486a0b26de2c750a0608831047bb73b0e4fddbaea183fcb",
+      "gitlinks": [],
+      "selectedTextCount": 9
+    },
+    {
+      "repository": "testyourmine/kleod",
+      "pin": "bc95337cb00100a7392743bf5d7b1ec1f90595cc",
+      "starsAtRead": 18,
+      "defaultBranch": "main",
+      "treeTruncated": false,
+      "treeSha256": "d2ca9b9a953a1d034fdf042344579a9d962df64d414da9b19e7a9f3dd6c47c8d",
+      "gitlinks": [],
+      "selectedTextCount": 6
+    },
+    {
+      "repository": "toji/gl-matrix",
+      "requestedRef": "v3.4.4",
+      "pin": "accefb6ddf1897a0dc443bbc7664c90e67af6455",
+      "starsAtRead": 5700,
+      "treeTruncated": false,
+      "treeSha256": "4f1d8630e203fcddb86299d7741740fdf78eabea833ac05a21109a892a05119c",
+      "gitlinks": [],
+      "selectedTextCount": 1
+    },
+    {
+      "repository": "ZinexDa/sonic-r-android",
+      "pin": "dc30b065cfc2369b4fec3bfb610586edbd7169dc",
+      "starsAtRead": 22,
+      "defaultBranch": "main",
+      "treeTruncated": false,
+      "treeSha256": "2d19f6184831e98450a4e3b1804f1959ff8a08c59a2fa1546d01ae741c0d062f",
+      "gitlinks": [
+        {
+          "path": "sonic-r-main/source/android/SDL2_mixer",
+          "pin": "171eb2d420d5643e4ee11514a06e04a41a463bbd"
+        }
+      ],
+      "selectedTextCount": 7
+    }
+  ],
+  "selectedTexts": [
+    {
+      "repository": "sndrec/WebMonkeyBall",
+      "pin": "6d7caf6b2e7d46b863cbf5154b97997dbb2bd511",
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/sndrec/WebMonkeyBall/6d7caf6b2e7d46b863cbf5154b97997dbb2bd511/README.md",
+      "bytes": 49,
+      "sha256": "49bd4a6e3b2ef6a0ea7b69164a3c71ea8ab1ce9ff6307a50d53b9ca8167696dd"
+    },
+    {
+      "repository": "sndrec/WebMonkeyBall",
+      "pin": "6d7caf6b2e7d46b863cbf5154b97997dbb2bd511",
+      "path": "package.json",
+      "url": "https://raw.githubusercontent.com/sndrec/WebMonkeyBall/6d7caf6b2e7d46b863cbf5154b97997dbb2bd511/package.json",
+      "bytes": 613,
+      "sha256": "1b2692033c687ddf8229252a234e15fe1ee698ad94405d5b5cf8ea5a618ad9de"
+    },
+    {
+      "repository": "sndrec/WebMonkeyBall",
+      "pin": "6d7caf6b2e7d46b863cbf5154b97997dbb2bd511",
+      "path": "package-lock.json",
+      "url": "https://raw.githubusercontent.com/sndrec/WebMonkeyBall/6d7caf6b2e7d46b863cbf5154b97997dbb2bd511/package-lock.json",
+      "bytes": 16659,
+      "sha256": "7b2dbbe3f1edbc7158bb8f5d4dc930563aad0470d7be5c1c2aff08e424ecdd6f"
+    },
+    {
+      "repository": "sndrec/WebMonkeyBall",
+      "pin": "6d7caf6b2e7d46b863cbf5154b97997dbb2bd511",
+      "path": "src/pack.ts",
+      "url": "https://raw.githubusercontent.com/sndrec/WebMonkeyBall/6d7caf6b2e7d46b863cbf5154b97997dbb2bd511/src/pack.ts",
+      "bytes": 10142,
+      "sha256": "eb1daef5a29b3f33874769e0017160429b732db4f7feabad0ea32fdc1c504a48"
+    },
+    {
+      "repository": "sndrec/WebMonkeyBall",
+      "pin": "6d7caf6b2e7d46b863cbf5154b97997dbb2bd511",
+      "path": "src/audio.ts",
+      "url": "https://raw.githubusercontent.com/sndrec/WebMonkeyBall/6d7caf6b2e7d46b863cbf5154b97997dbb2bd511/src/audio.ts",
+      "bytes": 16093,
+      "sha256": "71389b02fc9fff8bc89b2b03c0d60bb9df5379bba382f3380b51dbf3ae5f0be1"
+    },
+    {
+      "repository": "sndrec/WebMonkeyBall",
+      "pin": "6d7caf6b2e7d46b863cbf5154b97997dbb2bd511",
+      "path": "src/physics.ts",
+      "url": "https://raw.githubusercontent.com/sndrec/WebMonkeyBall/6d7caf6b2e7d46b863cbf5154b97997dbb2bd511/src/physics.ts",
+      "bytes": 32468,
+      "sha256": "084615319dc51364ed1f251c3438c8e5fa0e37cf22e14ddf18f9f1c994964fe4"
+    },
+    {
+      "repository": "camthesaxman/smb-decomp",
+      "pin": "5cd6ffccf3f8508231c7cd9cce5b722be4465a2b",
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/camthesaxman/smb-decomp/5cd6ffccf3f8508231c7cd9cce5b722be4465a2b/README.md",
+      "bytes": 968,
+      "sha256": "e962dc6d90d3d6a256fef54e1d1c765f94e5ba0f459275607b1da925ba13e14c"
+    },
+    {
+      "repository": "camthesaxman/smb-decomp",
+      "pin": "5cd6ffccf3f8508231c7cd9cce5b722be4465a2b",
+      "path": "Makefile",
+      "url": "https://raw.githubusercontent.com/camthesaxman/smb-decomp/5cd6ffccf3f8508231c7cd9cce5b722be4465a2b/Makefile",
+      "bytes": 18953,
+      "sha256": "bb6a0d64c2184652cb9b17a042fd1143d1593478c254bd287d914b18c662855e"
+    },
+    {
+      "repository": "jnmartin84/sonic-r",
+      "pin": "3da98f2e134eac82e45cd69660216fa0e4563ac5",
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/jnmartin84/sonic-r/3da98f2e134eac82e45cd69660216fa0e4563ac5/README.md",
+      "bytes": 2398,
+      "sha256": "3680f143cb6efa143bf83e7b7152d1b4327e56102760deaf1e761afe998d6e03"
+    },
+    {
+      "repository": "jnmartin84/sonic-r",
+      "pin": "3da98f2e134eac82e45cd69660216fa0e4563ac5",
+      "path": "LICENSE",
+      "url": "https://raw.githubusercontent.com/jnmartin84/sonic-r/3da98f2e134eac82e45cd69660216fa0e4563ac5/LICENSE",
+      "bytes": 332,
+      "sha256": "f392947bc8cf18830fac2efe34c97a3dce84ec63f76949fdf683b66941fb97b4"
+    },
+    {
+      "repository": "jnmartin84/sonic-r",
+      "pin": "3da98f2e134eac82e45cd69660216fa0e4563ac5",
+      "path": "docs/desktop.md",
+      "url": "https://raw.githubusercontent.com/jnmartin84/sonic-r/3da98f2e134eac82e45cd69660216fa0e4563ac5/docs/desktop.md",
+      "bytes": 11568,
+      "sha256": "b4e7e080b57ce0f9ec49e5678ad24f9937a6f1a29567bca8bfd60d40365e4278"
+    },
+    {
+      "repository": "jnmartin84/sonic-r",
+      "pin": "3da98f2e134eac82e45cd69660216fa0e4563ac5",
+      "path": "source/sdl/Makefile",
+      "url": "https://raw.githubusercontent.com/jnmartin84/sonic-r/3da98f2e134eac82e45cd69660216fa0e4563ac5/source/sdl/Makefile",
+      "bytes": 6158,
+      "sha256": "42fe9cb2fa5d7e912d5f2516bc30c0fff79e5f342beef5d440258bd9ebbc3f01"
+    },
+    {
+      "repository": "ZinexDa/sonic-r-android",
+      "pin": "dc30b065cfc2369b4fec3bfb610586edbd7169dc",
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/ZinexDa/sonic-r-android/dc30b065cfc2369b4fec3bfb610586edbd7169dc/README.md",
+      "bytes": 2505,
+      "sha256": "96e3fdae41c0f384349aefc97c35d2a614ef2d3ba560a5173b2deb42842767fc"
+    },
+    {
+      "repository": "ZinexDa/sonic-r-android",
+      "pin": "dc30b065cfc2369b4fec3bfb610586edbd7169dc",
+      "path": "LICENSE",
+      "url": "https://raw.githubusercontent.com/ZinexDa/sonic-r-android/dc30b065cfc2369b4fec3bfb610586edbd7169dc/LICENSE",
+      "bytes": 332,
+      "sha256": "f392947bc8cf18830fac2efe34c97a3dce84ec63f76949fdf683b66941fb97b4"
+    },
+    {
+      "repository": "ZinexDa/sonic-r-android",
+      "pin": "dc30b065cfc2369b4fec3bfb610586edbd7169dc",
+      "path": "sonic-r-main/LICENSE",
+      "url": "https://raw.githubusercontent.com/ZinexDa/sonic-r-android/dc30b065cfc2369b4fec3bfb610586edbd7169dc/sonic-r-main/LICENSE",
+      "bytes": 332,
+      "sha256": "f392947bc8cf18830fac2efe34c97a3dce84ec63f76949fdf683b66941fb97b4"
+    },
+    {
+      "repository": "ZinexDa/sonic-r-android",
+      "pin": "dc30b065cfc2369b4fec3bfb610586edbd7169dc",
+      "path": "app/build.gradle.kts",
+      "url": "https://raw.githubusercontent.com/ZinexDa/sonic-r-android/dc30b065cfc2369b4fec3bfb610586edbd7169dc/app/build.gradle.kts",
+      "bytes": 2164,
+      "sha256": "8c816b85bd38992b4871878cadd02a69e8d9620c7676bd34f1f946c450dc32af"
+    },
+    {
+      "repository": "ZinexDa/sonic-r-android",
+      "pin": "dc30b065cfc2369b4fec3bfb610586edbd7169dc",
+      "path": "sonic-r-main/source/android/CMakeLists.txt",
+      "url": "https://raw.githubusercontent.com/ZinexDa/sonic-r-android/dc30b065cfc2369b4fec3bfb610586edbd7169dc/sonic-r-main/source/android/CMakeLists.txt",
+      "bytes": 3844,
+      "sha256": "3191632f163a160a138b65088564bd88445546e6ff2521def63f193253bf8d92"
+    },
+    {
+      "repository": "ZinexDa/sonic-r-android",
+      "pin": "dc30b065cfc2369b4fec3bfb610586edbd7169dc",
+      "path": "sonic-r-main/source/android/SDL2/LICENSE.txt",
+      "url": "https://raw.githubusercontent.com/ZinexDa/sonic-r-android/dc30b065cfc2369b4fec3bfb610586edbd7169dc/sonic-r-main/source/android/SDL2/LICENSE.txt",
+      "bytes": 884,
+      "sha256": "97f35b302b361680ec1e891e95d2d52097bb95abff361434916d99dc1305f127"
+    },
+    {
+      "repository": "ZinexDa/sonic-r-android",
+      "pin": "dc30b065cfc2369b4fec3bfb610586edbd7169dc",
+      "path": "sidecar/Cargo.toml",
+      "url": "https://raw.githubusercontent.com/ZinexDa/sonic-r-android/dc30b065cfc2369b4fec3bfb610586edbd7169dc/sidecar/Cargo.toml",
+      "bytes": 788,
+      "sha256": "aa780829cebd310d2bbd831e25d0a625faa5837c9fe2d02e1e72199abf04606a"
+    },
+    {
+      "repository": "Dream-Atelier/kl-eod-decomp",
+      "pin": "45e66dd20f55b637656bc86129b9ba3bd49a01d6",
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/Dream-Atelier/kl-eod-decomp/45e66dd20f55b637656bc86129b9ba3bd49a01d6/README.md",
+      "bytes": 8172,
+      "sha256": "bf931755b1ecbe5bb71e0a233d676a507b4dbff4eeda5f51ef0edb6bf1c17e9e"
+    },
+    {
+      "repository": "Dream-Atelier/kl-eod-decomp",
+      "pin": "45e66dd20f55b637656bc86129b9ba3bd49a01d6",
+      "path": "Makefile",
+      "url": "https://raw.githubusercontent.com/Dream-Atelier/kl-eod-decomp/45e66dd20f55b637656bc86129b9ba3bd49a01d6/Makefile",
+      "bytes": 13039,
+      "sha256": "0c637bcf463dc46e3a6866ff65e62f888aba449c5c7b96664a863b58a3af8019"
+    },
+    {
+      "repository": "Dream-Atelier/kl-eod-decomp",
+      "pin": "45e66dd20f55b637656bc86129b9ba3bd49a01d6",
+      "path": ".gitmodules",
+      "url": "https://raw.githubusercontent.com/Dream-Atelier/kl-eod-decomp/45e66dd20f55b637656bc86129b9ba3bd49a01d6/.gitmodules",
+      "bytes": 307,
+      "sha256": "1b8a40d53936db8b96469138ad841499f92e1c4497597e40ebdd3bf9f800e68a"
+    },
+    {
+      "repository": "Dream-Atelier/kl-eod-decomp",
+      "pin": "45e66dd20f55b637656bc86129b9ba3bd49a01d6",
+      "path": "requirements.txt",
+      "url": "https://raw.githubusercontent.com/Dream-Atelier/kl-eod-decomp/45e66dd20f55b637656bc86129b9ba3bd49a01d6/requirements.txt",
+      "bytes": 52,
+      "sha256": "97d7b847a4c7191517f650f355ca4151d874815f3bde228956ab48a3d670983c"
+    },
+    {
+      "repository": "Dream-Atelier/kl-eod-decomp",
+      "pin": "45e66dd20f55b637656bc86129b9ba3bd49a01d6",
+      "path": "setup.sh",
+      "url": "https://raw.githubusercontent.com/Dream-Atelier/kl-eod-decomp/45e66dd20f55b637656bc86129b9ba3bd49a01d6/setup.sh",
+      "bytes": 3814,
+      "sha256": "4c9a30c81268a629dbae16c3fb49075e43e5bee561dbf8336d6c53bb3ed0c736"
+    },
+    {
+      "repository": "testyourmine/kleod",
+      "pin": "bc95337cb00100a7392743bf5d7b1ec1f90595cc",
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/testyourmine/kleod/bc95337cb00100a7392743bf5d7b1ec1f90595cc/README.md",
+      "bytes": 683,
+      "sha256": "00dcc3b23b158937a2d0de993c78027c620dde17758ca816a59fd339510e3a43"
+    },
+    {
+      "repository": "testyourmine/kleod",
+      "pin": "bc95337cb00100a7392743bf5d7b1ec1f90595cc",
+      "path": "LICENSE",
+      "url": "https://raw.githubusercontent.com/testyourmine/kleod/bc95337cb00100a7392743bf5d7b1ec1f90595cc/LICENSE",
+      "bytes": 1069,
+      "sha256": "dbbac79404e53521b67e52dc2797318deb148f1afd22c34fe48a1bc1cc0864d0"
+    },
+    {
+      "repository": "testyourmine/kleod",
+      "pin": "bc95337cb00100a7392743bf5d7b1ec1f90595cc",
+      "path": "INSTALL.md",
+      "url": "https://raw.githubusercontent.com/testyourmine/kleod/bc95337cb00100a7392743bf5d7b1ec1f90595cc/INSTALL.md",
+      "bytes": 2615,
+      "sha256": "5ef17c613670a64154b5f73237bec7995410c51dea88cf4c795428d93c877304"
+    },
+    {
+      "repository": "testyourmine/kleod",
+      "pin": "bc95337cb00100a7392743bf5d7b1ec1f90595cc",
+      "path": "Makefile",
+      "url": "https://raw.githubusercontent.com/testyourmine/kleod/bc95337cb00100a7392743bf5d7b1ec1f90595cc/Makefile",
+      "bytes": 5810,
+      "sha256": "babaccf56cc8b38de6c5bb62d3148fcb6ad1999c6969bb619c6f1534d630231a"
+    },
+    {
+      "repository": "testyourmine/kleod",
+      "pin": "bc95337cb00100a7392743bf5d7b1ec1f90595cc",
+      "path": "tools/gbagfx/LICENSE",
+      "url": "https://raw.githubusercontent.com/testyourmine/kleod/bc95337cb00100a7392743bf5d7b1ec1f90595cc/tools/gbagfx/LICENSE",
+      "bytes": 1055,
+      "sha256": "49f7647d391dc12a0f0f552a295111337337a022fd057b624364521871375c95"
+    },
+    {
+      "repository": "testyourmine/kleod",
+      "pin": "bc95337cb00100a7392743bf5d7b1ec1f90595cc",
+      "path": "tools/bin2c/LICENSE",
+      "url": "https://raw.githubusercontent.com/testyourmine/kleod/bc95337cb00100a7392743bf5d7b1ec1f90595cc/tools/bin2c/LICENSE",
+      "bytes": 1055,
+      "sha256": "809f71217c9a794bb915fbc615d8d3b003b861bdfff8e4a1af4760bf9248a058"
+    },
+    {
+      "repository": "sndrec/WebMonkeyBall",
+      "pin": "6d7caf6b2e7d46b863cbf5154b97997dbb2bd511",
+      "path": "src/main.ts",
+      "url": "https://raw.githubusercontent.com/sndrec/WebMonkeyBall/6d7caf6b2e7d46b863cbf5154b97997dbb2bd511/src/main.ts",
+      "bytes": 191356,
+      "sha256": "e852ff5b347e59edf1340609f0c67ee64860d3adfa54828243c303bdd2835a1f"
+    },
+    {
+      "repository": "sndrec/WebMonkeyBall",
+      "pin": "6d7caf6b2e7d46b863cbf5154b97997dbb2bd511",
+      "path": "index.html",
+      "url": "https://raw.githubusercontent.com/sndrec/WebMonkeyBall/6d7caf6b2e7d46b863cbf5154b97997dbb2bd511/index.html",
+      "bytes": 25391,
+      "sha256": "9602250fa89061f076b8ad91b064bd96bc8a31150f87073033ccc898c17ee1c7"
+    },
+    {
+      "repository": "sndrec/WebMonkeyBall",
+      "pin": "6d7caf6b2e7d46b863cbf5154b97997dbb2bd511",
+      "path": "src/noclip/gfx/platform/GfxPlatformWebGL2.ts",
+      "url": "https://raw.githubusercontent.com/sndrec/WebMonkeyBall/6d7caf6b2e7d46b863cbf5154b97997dbb2bd511/src/noclip/gfx/platform/GfxPlatformWebGL2.ts",
+      "bytes": 115118,
+      "sha256": "fd985f2f233097cdd9586f087e203145b5c6631feb05c6e154ad8fa740e2b69f"
+    },
+    {
+      "repository": "101arrowz/fflate",
+      "pin": "d3243651cb142e3e04f3e4bc037b9e985878f444",
+      "path": "LICENSE",
+      "url": "https://raw.githubusercontent.com/101arrowz/fflate/d3243651cb142e3e04f3e4bc037b9e985878f444/LICENSE",
+      "bytes": 1069,
+      "sha256": "805f6cb28bb8b6d3a0badd83c93bccd9671fa01a3b4b92b7042b0743325ac243"
+    },
+    {
+      "repository": "libsdl-org/SDL_mixer",
+      "pin": "171eb2d420d5643e4ee11514a06e04a41a463bbd",
+      "path": "LICENSE.txt",
+      "url": "https://raw.githubusercontent.com/libsdl-org/SDL_mixer/171eb2d420d5643e4ee11514a06e04a41a463bbd/LICENSE.txt",
+      "bytes": 878,
+      "sha256": "7826eca0a0f7e591f38dd844e207a200aac81a59b20d8a30c3af8c6282af13e6"
+    },
+    {
+      "repository": "toji/gl-matrix",
+      "pin": "accefb6ddf1897a0dc443bbc7664c90e67af6455",
+      "path": "LICENSE.md",
+      "url": "https://raw.githubusercontent.com/toji/gl-matrix/accefb6ddf1897a0dc443bbc7664c90e67af6455/LICENSE.md",
+      "bytes": 1083,
+      "sha256": "af62d31a0cdc1bf95d5e19428c3e0de368b727d9d5b6b6cdb466f8a52e68ad06"
+    },
+    {
+      "package": "gl-matrix",
+      "version": "3.4.3",
+      "path": "gl-matrix-3.4.3-metadata.json",
+      "url": "https://registry.npmjs.org/gl-matrix/3.4.3",
+      "bytes": 2348,
+      "sha256": "b7cefdf65d5af8a808f98e65b9c91b24d4840a37369f6c36dac3684cc6e84604"
+    },
+    {
+      "package": "gl-matrix",
+      "version": "3.4.3",
+      "path": "gl-matrix-3.4.3-LICENSE.md",
+      "url": "https://cdn.jsdelivr.net/npm/gl-matrix@3.4.3/LICENSE.md",
+      "bytes": 1083,
+      "sha256": "f87e6877ea01390f34e32b1a618c3e5a718d0d57c4730d8195681419bcdc64d3"
+    }
+  ],
+  "excludedDownloads": [
+    "Original ROM/disc/executable/SDK/compiler binaries",
+    "Release/asset archives",
+    "Media/model/map payloads",
+    "External game packs"
+  ],
+  "buildsStarted": false,
+  "playersStarted": false,
+  "audibleVerification": false
+}

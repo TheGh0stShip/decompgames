@@ -1,0 +1,72 @@
+{
+  "date": "2026-10-14",
+  "catalogCount": 87,
+  "matchingDecompilationMilestone": "4/5 unchanged",
+  "eligibleAdditions": 0,
+  "findings": [
+    {
+      "project": "sndrec/WebMonkeyBall",
+      "classification": "Decompilation-informed TypeScript/JavaScript browser reimplementation, not matching console build or observed WASM",
+      "codeGate": "No overall grant identified in complete tree/selected documentation and implementation; game-derived expression and copied noclip sources need mapped origins/terms.",
+      "dependencyGate": "Selected fflate and gl-matrix MIT notices separately read. Lock resolves gl-matrix 3.4.4 while actual external import map loads 3.4.3; both notices recorded, no full bundle closure.",
+      "contentGate": "Stage/model/texture/common/background loaders and optional ZIP/local packs do not supply a full independent CC0 game-content pack; no external pack fetched.",
+      "browserGate": "Actual WebGL2/HTML/esbuild source exists; gameplay/persistence/stop/silent startup untested. Audio creates/resumes context with nonzero defaults.",
+      "decision": "Blocked on project/inherited grant and full independent content before integration; no build or live player run."
+    },
+    {
+      "project": "camthesaxman/smb-decomp",
+      "classification": "WIP GameCube disassembly/decompilation with original DOL matching target",
+      "codeGate": "No overall grant identified in tree/README.",
+      "dependencyGate": "Original-era CodeWarrior compiler and console runtime/source tooling need their own terms; no binary acquired.",
+      "contentGate": "Reconstructed program/data does not establish independently authored complete game content.",
+      "browserGate": "Console matching target only; no reproduced matching result or native browser build.",
+      "decision": "Blocked; source inspiration for browser implementation is not transferable rights clearance."
+    },
+    {
+      "project": "jnmartin84/sonic-r",
+      "classification": "PC executable-analysis/x86-to-C decompilation-derived reimplementation with desktop/Dreamcast source ports",
+      "codeGate": "Current custom no-sale licence is restrictive, supersedes older search-label assumption; from-scratch/no-original-code statement remains maintainer claim, no clean-room certificate.",
+      "dependencyGate": "SDL2/OpenGL/mixer/BearSSL/miniupnpc stack lacks exact selected runtime closure.",
+      "contentGate": "Requires original world/model/texture/path/audio data; supporting platform icons and pre-split replay announcer WAVs are not automatically independent/cleared content.",
+      "browserGate": "A Makefile comment mentions absent Makefile.emscripten; no game browser target found in tree or built.",
+      "decision": "Ineligible under present permissive-code criterion; independently authored graphics would not remove no-sale code restriction."
+    },
+    {
+      "project": "ZinexDa/sonic-r-android",
+      "classification": "Android GLES2/SDL adaptation of same Sonic R title",
+      "codeGate": "Root and nested game notices retain custom no-sale licence.",
+      "dependencyGate": "Vendored SDL2 and exact SDL_mixer gitlink zlib-style notices read separately. Android disables FLAC/MOD/MP3/MIDI/Opus/Vorbis/WavPack, enables WAVE. Rust/JNI/launcher/other dependency closure unverified.",
+      "contentGate": "Original retail data required; no full independent content pack.",
+      "browserGate": "Android native target and SDL library Emscripten files do not establish a browser game; no game Web target observed.",
+      "decision": "Ineligible, duplicate game lead rather than new title."
+    },
+    {
+      "project": "Dream-Atelier/kl-eod-decomp",
+      "classification": "WIP matching GBA Klonoa: Empire of Dreams reconstruction",
+      "codeGate": "No overall game grant identified in pinned tree/selected README.",
+      "dependencyGate": "Modified agbcc/luvdis/transmuter gitlinks recorded but not fully audited; original SDK-related music-player code needs separate rights.",
+      "contentGate": "Original baserom verified by setup and used for extraction/generated assembly/data; full independent assets/world/text/audio absent.",
+      "browserGate": "GBA ROM output, no native browser runtime or locally reproduced completeness/matching result.",
+      "decision": "Blocked; do not execute original-input extraction."
+    },
+    {
+      "project": "testyourmine/kleod",
+      "classification": "Same-title GBA reconstruction with contributor MIT declaration",
+      "codeGate": "MIT notice verified for declared contributor rights, inherited original game/SDK rights remain unclosed.",
+      "dependencyGate": "gbagfx and bin2c MIT-style tool notices separately verified; tool permission is not permission for extracted data/game.",
+      "contentGate": "Original ROM and extraction required; no full independently authored replacement content/provenance.",
+      "browserGate": "agbcc/ARM GBA ROM target, not native Web gameplay. An emulator would be separate execution/dependency route and would not clear ROM content.",
+      "decision": "Blocked; same Klonoa title as Dream-Atelier, not two additions."
+    }
+  ],
+  "catalogDeduplication": "None of the three audited game identities is present; Sonic R ports and Klonoa reconstructions each counted as one lead. Additional WebMonkeyBall modes not independently accepted.",
+  "protectedEntriesUntouched": [
+    "Mario Party 2",
+    "Mario Party 3",
+    "Halo"
+  ],
+  "privateRecordsPreserved": true,
+  "cleanRoomCertified": false,
+  "playersStarted": false,
+  "audibleVerification": false
+}
