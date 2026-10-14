@@ -3,9 +3,13 @@ layout: ../../layouts/Article.astro
 title: What’s new
 description: Release notes and compatibility changes for Decomp Games.
 ---
+## October 14, 2026 — Open Cadet: live native flipper contacts observed
+
+Read-only debugger stepping in Open Cadet's unchanged live WASM recorded eight ball/flipper contacts, with velocity changes and speed increases on both native flipper components. Tests stayed muted and the player stopped with save synchronization. Debugger pauses affect timing; calibrated forces, every contact case and a full playthrough remain unverified. [Contact evidence](https://github.com/andrewnakas/decompgames/blob/main/docs/open-cadet-contacts-production-test-2026-10-14.json). [Play Open Cadet](/games/open-cadet/).
+
 ## October 14, 2026 — Open Cadet: live flipper controls verified
 
-Open Cadet’s live player now has verified Z and / flipper response, individually and together, with exact return on release. Tests stayed muted and used ordinary keyboard input before launch. The runtime is unchanged; earlier earned-score and browser-restart save verification remains valid. Ball/flipper contact, all missions and a full playthrough remain unverified. [Play Open Cadet](/games/open-cadet/).
+Open Cadet’s live player now has verified Z and / flipper response, individually and together, with exact return on release. Tests stayed muted and used ordinary keyboard input before launch. The runtime is unchanged; earlier earned-score and browser-restart save verification remains valid. Later same-day native contact evidence appears above; all missions and a full playthrough remain unverified. [Play Open Cadet](/games/open-cadet/).
 
 ## October 14, 2026 — Paper Rooms: five original flights in Glider 4 code
 

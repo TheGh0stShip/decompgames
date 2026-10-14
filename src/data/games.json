@@ -2012,7 +2012,7 @@
   "saveInstructions": "High scores and table settings are saved locally. A ball in progress is not a portable save state.",
   "limitations": [
     "Representative play and high-score persistence verified; all objectives and full playthrough unverified.",
-    "Live flipper visual response verified before launch; ball/flipper-contact coverage is not claimed.",
+    "Live native ball/flipper contacts and speed changes observed with read-only debugger stepping; unpaused timing and calibrated forces remain unverified.",
     "Music is not provided; audible audio remains unverified."
   ],
   "inputs": [
@@ -2029,7 +2029,7 @@
     "browsers": [
       "Headless Microsoft Edge on Windows; muted"
     ],
-    "scope": "Live shared player: Z and / independently move the corresponding flipper, both move together, and release returns both image regions exactly to baseline before launch. The unchanged native runtime/source files match all four published hashes. Earlier normal launch-and-drain play earned 144,000; High Scores Ok and Stop game saved it, full browser restart restored settings byte-for-byte, and Game > High Scores displayed Player 1 / 144,000. Sound: off throughout. Ball/flipper-contact physics, all missions/objectives, full playthrough, rapid-close durability and audible audio remain unverified.",
+    "scope": "Read-only debugger stepping in the unchanged live WASM traced eight native flipper contacts, all changing velocity, with speed increases on both components. No game memory, score, save or RNG edits; debugger pauses alter timing. Earlier tests: Live shared player: Z and / independently move the corresponding flipper, both move together, and release returns both image regions exactly to baseline before launch. The unchanged native runtime/source files match all four published hashes. Earlier normal launch-and-drain play earned 144,000; High Scores Ok and Stop game saved it, full browser restart restored settings byte-for-byte, and Game > High Scores displayed Player 1 / 144,000. Sound: off throughout. Unpaused collision timing and calibrated forces, all missions/objectives, full playthrough, rapid-close durability and audible audio remain unverified.",
     "playthrough": false
   },
   "image": "/images/open-cadet.png",

@@ -1,0 +1,393 @@
+{
+  "date": "2026-10-14",
+  "scope": "Canonical live Open Cadet: original unmodified WASM, native flipper-function entry/return state read with debugger stepping during normal keyboard launch/flipper input. No code/game-memory/score/save/RNG edits; debugger timing differs from uninterrupted play.",
+  "productionContactVerifiedWithinDebuggerScope": true,
+  "sourceBuild": {
+    "sourceArchiveSha256": "33d4502ff6f3d8023b0248b9fff68c2a1f709a12cee9584625618be658f04a42",
+    "units": 68,
+    "sourceModified": false,
+    "exitCode": 0,
+    "wasmSha256": "06edc08c83025f2de2d7024111186a2ebf8059081f929c17eb4ca554e243d891",
+    "expectedProductionWasmSha256": "06edc08c83025f2de2d7024111186a2ebf8059081f929c17eb4ca554e243d891",
+    "wasmMatchesProduction": true
+  },
+  "symbolMapSha256": "0f68a7b7247acd0a7b04a4f6093a329b1b0f3a60390589c3106b6b540d06bf28",
+  "liveDebuggerBytecodeSha256": "06edc08c83025f2de2d7024111186a2ebf8059081f929c17eb4ca554e243d891",
+  "nativeFunction": {
+    "functionIndex": 1562,
+    "bodyOffset": 736504,
+    "codeOffset": 736509,
+    "endOffset": 736913,
+    "symbol": "TFlipperEdge::EdgeCollision(TBall*, float)",
+    "imports": 256
+  },
+  "abiOffsets": {
+    "ball_position": 44,
+    "ball_acceleration": 56,
+    "ball_speed": 68,
+    "edge_component": 4,
+    "edge_flag": 24,
+    "edge_flag1": 84,
+    "edge_flag2": 88,
+    "component_name": 12
+  },
+  "abiQuerySource": "#include \"pch.h\"\n#include \"TBall.h\"\n#include \"TFlipperEdge.h\"\n#include \"TCollisionComponent.h\"\n#define FIELD(label,type,member) extern \"C\" int label(){return __builtin_offsetof(type,member);}\nFIELD(ball_position,TBall,Position)\nFIELD(ball_acceleration,TBall,Acceleration)\nFIELD(ball_speed,TBall,Speed)\nFIELD(edge_component,TFlipperEdge,CollisionComponent)\nFIELD(edge_flag,TFlipperEdge,FlipperFlag)\nFIELD(edge_flag1,TFlipperEdge,CollisionFlag1)\nFIELD(edge_flag2,TFlipperEdge,CollisionFlag2)\nFIELD(component_name,TCollisionComponent,GroupName)\n",
+  "abiLlvmSha256": "e70b7e4a66fea716a011aa4459db19ec93d983f19f30c4b0db0d8a7e84fb4841",
+  "abiQueryLinkedIntoGame": false,
+  "method": {
+    "entryBreakpoint": 736509,
+    "parametersRead": [
+      "$var0 (this pointer)",
+      "$var1 (ball pointer)"
+    ],
+    "entryStateReadBeforeFunctionExecutes": true,
+    "exitStateReadAfterDebuggerStepOut": true,
+    "gameStateWrites": false,
+    "codePatches": false,
+    "keys": [
+      "F2",
+      "Space held 1800ms then released",
+      "Z and / pulses, 90ms down / 75ms up"
+    ],
+    "timingLimitation": "Debugger pauses alter wall-clock timing. Contact path/state transitions verified; no unpaused timing equivalence or calibrated force claim."
+  },
+  "summary": {
+    "contacts": 8,
+    "names": [
+      "a_flip2",
+      "a_flip1"
+    ],
+    "speedIncreaseNames": [
+      "a_flip2",
+      "a_flip1"
+    ],
+    "changedVelocity": 8
+  },
+  "components": [
+    {
+      "name": "a_flip1",
+      "contacts": 1,
+      "speedIncreasesOverOneUnit": 1
+    },
+    {
+      "name": "a_flip2",
+      "contacts": 7,
+      "speedIncreasesOverOneUnit": 4
+    }
+  ],
+  "contacts": [
+    {
+      "before": {
+        "name": "a_flip2",
+        "x": -2.4715967178344727,
+        "y": 11.336185455322266,
+        "ax": 0.8034336566925049,
+        "ay": 0.5953942537307739,
+        "speed": 3.746846914291382,
+        "flag": 0,
+        "flag1": 0,
+        "flag2": 0
+      },
+      "entryLocation": {
+        "scriptId": "196",
+        "lineNumber": 0,
+        "columnNumber": 736509
+      },
+      "after": {
+        "name": "a_flip2",
+        "x": -2.4681289196014404,
+        "y": 11.33875560760498,
+        "ax": -0.2702109217643738,
+        "ay": -0.9628011584281921,
+        "speed": 2.880878448486328,
+        "flag": 0,
+        "flag1": 0,
+        "flag2": 0
+      },
+      "exitLocation": {
+        "scriptId": "196",
+        "lineNumber": 0,
+        "columnNumber": 688666
+      }
+    },
+    {
+      "before": {
+        "name": "a_flip2",
+        "x": -2.3548014163970947,
+        "y": 11.417455673217773,
+        "ax": 0.7902246117591858,
+        "ay": 0.6128173470497131,
+        "speed": 2.108072519302368,
+        "flag": 0,
+        "flag1": 0,
+        "flag2": 0
+      },
+      "entryLocation": {
+        "scriptId": "196",
+        "lineNumber": 0,
+        "columnNumber": 736509
+      },
+      "after": {
+        "name": "a_flip2",
+        "x": -2.419729471206665,
+        "y": 11.309605598449707,
+        "ax": -0.28537389636039734,
+        "ay": -0.9584161639213562,
+        "speed": 1.6165801286697388,
+        "flag": 0,
+        "flag1": 0,
+        "flag2": 0
+      },
+      "exitLocation": {
+        "scriptId": "196",
+        "lineNumber": 0,
+        "columnNumber": 688666
+      }
+    },
+    {
+      "before": {
+        "name": "a_flip2",
+        "x": -2.3929591178894043,
+        "y": 11.3825101852417,
+        "ax": 0.8264792561531067,
+        "ay": 0.5629671812057495,
+        "speed": 1.4235918521881104,
+        "flag": 1,
+        "flag1": 1,
+        "flag2": 0
+      },
+      "entryLocation": {
+        "scriptId": "196",
+        "lineNumber": 0,
+        "columnNumber": 736509
+      },
+      "after": {
+        "name": "a_flip2",
+        "x": -2.4141104221343994,
+        "y": 11.340910911560059,
+        "ax": -0.41686907410621643,
+        "ay": -0.9089665412902832,
+        "speed": 9.469979286193848,
+        "flag": 1,
+        "flag1": 1,
+        "flag2": 0
+      },
+      "exitLocation": {
+        "scriptId": "196",
+        "lineNumber": 0,
+        "columnNumber": 688666
+      }
+    },
+    {
+      "before": {
+        "name": "a_flip2",
+        "x": -2.0951967239379883,
+        "y": 11.348990440368652,
+        "ax": 0.8191750645637512,
+        "ay": 0.5735436081886292,
+        "speed": 3.930319309234619,
+        "flag": 1,
+        "flag1": 1,
+        "flag2": 0
+      },
+      "entryLocation": {
+        "scriptId": "196",
+        "lineNumber": 0,
+        "columnNumber": 736509
+      },
+      "after": {
+        "name": "a_flip2",
+        "x": -2.1075267791748047,
+        "y": 11.308685302734375,
+        "ax": -0.18072320520877838,
+        "ay": -0.9835339784622192,
+        "speed": 12.685173988342285,
+        "flag": 1,
+        "flag1": 1,
+        "flag2": 0
+      },
+      "exitLocation": {
+        "scriptId": "196",
+        "lineNumber": 0,
+        "columnNumber": 688666
+      }
+    },
+    {
+      "before": {
+        "name": "a_flip2",
+        "x": -1.5186289548873901,
+        "y": 10.735645294189453,
+        "ax": 0.654373049736023,
+        "ay": 0.7561718821525574,
+        "speed": 7.800267696380615,
+        "flag": 0,
+        "flag1": 0,
+        "flag2": 0
+      },
+      "entryLocation": {
+        "scriptId": "196",
+        "lineNumber": 0,
+        "columnNumber": 736509
+      },
+      "after": {
+        "name": "a_flip2",
+        "x": -1.500712275505066,
+        "y": 10.756349563598633,
+        "ax": -0.41412559151649475,
+        "ay": -0.9102198481559753,
+        "speed": 5.878790855407715,
+        "flag": 0,
+        "flag1": 0,
+        "flag2": 0
+      },
+      "exitLocation": {
+        "scriptId": "196",
+        "lineNumber": 0,
+        "columnNumber": 688666
+      }
+    },
+    {
+      "before": {
+        "name": "a_flip2",
+        "x": -2.2952044010162354,
+        "y": 11.459184646606445,
+        "ax": 0.8030359148979187,
+        "ay": 0.5959306359291077,
+        "speed": 3.84676456451416,
+        "flag": 1,
+        "flag1": 1,
+        "flag2": 0
+      },
+      "entryLocation": {
+        "scriptId": "196",
+        "lineNumber": 0,
+        "columnNumber": 736509
+      },
+      "after": {
+        "name": "a_flip2",
+        "x": -2.2951581478118896,
+        "y": 11.456254959106445,
+        "ax": 0.2378489077091217,
+        "ay": -0.9713021516799927,
+        "speed": 10.046234130859375,
+        "flag": 1,
+        "flag1": 1,
+        "flag2": 0
+      },
+      "exitLocation": {
+        "scriptId": "196",
+        "lineNumber": 0,
+        "columnNumber": 688666
+      }
+    },
+    {
+      "before": {
+        "name": "a_flip2",
+        "x": -2.2545368671417236,
+        "y": 11.290369987487793,
+        "ax": 0.24490581452846527,
+        "ay": -0.9695467948913574,
+        "speed": 9.590047836303711,
+        "flag": 1,
+        "flag1": 1,
+        "flag2": 0
+      },
+      "entryLocation": {
+        "scriptId": "196",
+        "lineNumber": 0,
+        "columnNumber": 736509
+      },
+      "after": {
+        "name": "a_flip2",
+        "x": -2.2758522033691406,
+        "y": 11.251405715942383,
+        "ax": -0.16815663874149323,
+        "ay": -0.9857603311538696,
+        "speed": 16.36363983154297,
+        "flag": 1,
+        "flag1": 1,
+        "flag2": 0
+      },
+      "exitLocation": {
+        "scriptId": "196",
+        "lineNumber": 0,
+        "columnNumber": 688666
+      }
+    },
+    {
+      "before": {
+        "name": "a_flip1",
+        "x": 2.460085391998291,
+        "y": 11.3365478515625,
+        "ax": -0.8251894116401672,
+        "ay": 0.5648561716079712,
+        "speed": 6.2489013671875,
+        "flag": 1,
+        "flag1": 1,
+        "flag2": 0
+      },
+      "entryLocation": {
+        "scriptId": "196",
+        "lineNumber": 0,
+        "columnNumber": 736509
+      },
+      "after": {
+        "name": "a_flip1",
+        "x": 2.4612340927124023,
+        "y": 11.334640502929688,
+        "ax": 0.42130228877067566,
+        "ay": -0.9069203734397888,
+        "speed": 13.149797439575195,
+        "flag": 1,
+        "flag1": 1,
+        "flag2": 0
+      },
+      "exitLocation": {
+        "scriptId": "196",
+        "lineNumber": 0,
+        "columnNumber": 688666
+      }
+    }
+  ],
+  "allStateValuesFinite": true,
+  "fullPrivateReportSha256": "1e521ddd4a152ad1b83eff35e8d31a8e5d5306f37e29841a871a1937e4170d0a",
+  "errors": [],
+  "consoleErrors": [],
+  "missing": [],
+  "expectedAnalyticsDiagnostics": [
+    {
+      "text": "Failed to load resource: net::ERR_FAILED",
+      "url": "https://static.cloudflareinsights.com/beacon.min.js/v4bc70e2c01a94c73b74392e4234840661791215815920"
+    },
+    {
+      "text": "Failed to load resource: net::ERR_FAILED",
+      "url": "https://www.googletagmanager.com/gtag/js?id=G-GQ6627GN8H"
+    },
+    {
+      "text": "Failed to load resource: net::ERR_FAILED",
+      "url": "https://static.cloudflareinsights.com/beacon.min.js/v4bc70e2c01a94c73b74392e4234840661791215815920"
+    }
+  ],
+  "analyticsBlocked": [
+    "https://static.cloudflareinsights.com/beacon.min.js/v4bc70e2c01a94c73b74392e4234840661791215815920",
+    "https://www.googletagmanager.com/gtag/js?id=G-GQ6627GN8H",
+    "https://static.cloudflareinsights.com/beacon.min.js/v4bc70e2c01a94c73b74392e4234840661791215815920"
+  ],
+  "unexpectedExternalRequests": 0,
+  "soundOffConfirmed": true,
+  "browserMuteFlag": true,
+  "audibleVerification": false,
+  "canvasVisuallyInspected": true,
+  "stopGameSyncAcknowledged": true,
+  "playersClosed": true,
+  "separateDiscoveryPlayerClosed": true,
+  "publicRuntimeChanged": false,
+  "sourceArchiveChanged": false,
+  "catalogCount": 87,
+  "matchingDecompilationMilestone": "4/5 unchanged",
+  "protectedEntriesUntouched": [
+    "Mario Party 2",
+    "Mario Party 3",
+    "Halo"
+  ]
+}

@@ -22,3 +22,5 @@ The passing run has no page errors, console errors, missing requests or external
 The first observer attempted 17 JavaScript callback fields; its final field was undefined and the first collision stopped that private simulation. Its report, build hashes and screenshots are preserved privately, and it is excluded from accepted gameplay evidence. The corrected observer uses 15 fields, verified in generated JavaScript before rerunning. An initial Windows compiler-launch path also failed before compilation and was corrected to invoke the installed Python compiler entry point. These were test-harness failures; the public runtime was unchanged throughout.
 
 No catalog entry, public runtime/source archive, manifest, protected game or private ROM record changed. Catalog 87 and the actual-decompilation milestone 4/5 remain unchanged. This publication is a documentation-only source-build checkpoint.
+
+A later same-day [production contact test](open-cadet-contacts-production-test-2026-10-14.md) observes the unchanged live WASM with read-only debugger stepping. It supersedes the production-contact gap stated at this earlier checkpoint, within its separate timing limits.
