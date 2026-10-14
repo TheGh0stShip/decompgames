@@ -1,0 +1,35 @@
+{
+  "date": "2026-10-14",
+  "catalogCount": 88,
+  "decompilationMilestone": "4/5 unchanged",
+  "eligibleAdditions": 0,
+  "findings": [
+    {
+      "project": "wedaly/GLFighters-SDL",
+      "pin": "4dffdbd665767baae87bec749f18d689ab53c534",
+      "classification": "Original2001 developer-source SDL/WASM port, not decompilation",
+      "codeGate": "MIT names both authors and porter explicitly reports original developer permission; private letter not independently reviewed",
+      "dependencyGate": "gl4es source built and game strict-linked; complete selected library/header/helper/SDL/mixer/Ogg/Vorbis/compiler notice audit pending",
+      "contentGate": "Original textures/models/animations/maps/sounds excluded; complete independent pack not yet generated",
+      "browserGate": "Source-only8objects/69renderer objects/strict link pass; rendering/input/combat/death/restart/silent startup/persistence/Stop remain unverified",
+      "loadedAssetPathCounts": {
+        "textures.cpp": 72,
+        "models.cpp": 24,
+        "sound.cpp": 31
+      },
+      "nextAction": "Continue private independent-content and distribution-closure engineering; no catalog promotion yet"
+    },
+    {
+      "project": "WolfireGames/overgrowth",
+      "pin": "245fe4828631c84c0023d29d1525f5716ccb6106",
+      "classification": "Official developer-released Apache2 source game, not decompilation",
+      "codeGate": "Official first-party source permission, exceptions retained; does not clear dependencies or assets",
+      "dependencyGate": "OpenAL library/copyleft and Oculus approved-product licence separate from Apache; CMake includes SDK units; exact exclusion/selection closure unverified",
+      "contentGate": "Purchased Data required by build; full independent3D total-conversion content absent",
+      "browserGate": "Desktop native game/tool/worker CMake, no verified Web target; substantial renderer/platform/storage/scheduler work",
+      "nextAction": "Blocked pending complete content and selected dependency/browser route"
+    }
+  ],
+  "protectedScope": "Claude-owned games and private ROM research unchanged",
+  "playersStarted": 0
+}

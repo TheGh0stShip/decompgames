@@ -1,0 +1,1755 @@
+{
+  "date": "2026-10-14",
+  "hashBasis": "Exact raw downloaded bytes; UTF8 or explicit legacy Latin1 decoding only for reading, no re-encoding",
+  "textCount": 242,
+  "repositories": [
+    {
+      "repository": "wedaly/GLFighters-SDL",
+      "pin": "4dffdbd665767baae87bec749f18d689ab53c534",
+      "stars": 7,
+      "treeTruncated": false,
+      "treeEntries": 256,
+      "texts": [
+        {
+          "path": "LICENSE",
+          "url": "https://raw.githubusercontent.com/wedaly/GLFighters-SDL/4dffdbd665767baae87bec749f18d689ab53c534/LICENSE",
+          "bytes": 1097,
+          "sha256": "634af2faa8e70cf0339227294803f3f83ae388de58952386177dd267e823ca82"
+        },
+        {
+          "path": "Makefile",
+          "url": "https://raw.githubusercontent.com/wedaly/GLFighters-SDL/4dffdbd665767baae87bec749f18d689ab53c534/Makefile",
+          "bytes": 607,
+          "sha256": "07afd5ab78253c30e158a23f00b6b91cbab5974e2f09d89391190ecdf01aaf0f"
+        },
+        {
+          "path": "README.md",
+          "url": "https://raw.githubusercontent.com/wedaly/GLFighters-SDL/4dffdbd665767baae87bec749f18d689ab53c534/README.md",
+          "bytes": 2169,
+          "sha256": "71cdfd049afb0dd719071b87fdd43262a256085ca539bab88d287c2d0be87645"
+        },
+        {
+          "path": "original/README.md",
+          "url": "https://raw.githubusercontent.com/wedaly/GLFighters-SDL/4dffdbd665767baae87bec749f18d689ab53c534/original/README.md",
+          "bytes": 1416,
+          "sha256": "aa7acde63618bc2ae5f3dd9c87531ea6b77669867699bcab7cdbf8e8ce1389da",
+          "decodeEncoding": "utf-8"
+        },
+        {
+          "path": "port/Makefile",
+          "url": "https://raw.githubusercontent.com/wedaly/GLFighters-SDL/4dffdbd665767baae87bec749f18d689ab53c534/port/Makefile",
+          "bytes": 526,
+          "sha256": "ee967d57f2def8386ac6e467d1eeb8c8c931f17ec47e5f8c64d2fbf09bc995c5",
+          "decodeEncoding": "utf-8"
+        },
+        {
+          "path": "port/game.cpp",
+          "url": "https://raw.githubusercontent.com/wedaly/GLFighters-SDL/4dffdbd665767baae87bec749f18d689ab53c534/port/game.cpp",
+          "bytes": 593813,
+          "sha256": "c53041479ba11289eb8d83292e565fe9d1997981b14f423988d7f1b929885bd1",
+          "decodeEncoding": "utf-8"
+        },
+        {
+          "path": "port/game.h",
+          "url": "https://raw.githubusercontent.com/wedaly/GLFighters-SDL/4dffdbd665767baae87bec749f18d689ab53c534/port/game.h",
+          "bytes": 178,
+          "sha256": "4a0a7c1485f7b74f44c42f2dbfb917c579bd6ebf5ff616e8a17642f3ac800fc4",
+          "decodeEncoding": "utf-8"
+        },
+        {
+          "path": "port/input.cpp",
+          "url": "https://raw.githubusercontent.com/wedaly/GLFighters-SDL/4dffdbd665767baae87bec749f18d689ab53c534/port/input.cpp",
+          "bytes": 5177,
+          "sha256": "2ded8c1a0d920f73f663e0477f3571a1e9750ac6f14f77f6e5be257e35034639",
+          "decodeEncoding": "utf-8"
+        },
+        {
+          "path": "port/main.cpp",
+          "url": "https://raw.githubusercontent.com/wedaly/GLFighters-SDL/4dffdbd665767baae87bec749f18d689ab53c534/port/main.cpp",
+          "bytes": 2205,
+          "sha256": "2a27c1a3aab7b1bbf9b37488dcc7543a9ccf29fcc7a3e962302df4c4478e5dd4",
+          "decodeEncoding": "utf-8"
+        },
+        {
+          "path": "port/models.cpp",
+          "url": "https://raw.githubusercontent.com/wedaly/GLFighters-SDL/4dffdbd665767baae87bec749f18d689ab53c534/port/models.cpp",
+          "bytes": 8101,
+          "sha256": "b392ec741a84c02ca6e13f48c42072f0378df1d3bc8b1649529fdad78a342b6d",
+          "decodeEncoding": "utf-8"
+        },
+        {
+          "path": "port/models.h",
+          "url": "https://raw.githubusercontent.com/wedaly/GLFighters-SDL/4dffdbd665767baae87bec749f18d689ab53c534/port/models.h",
+          "bytes": 1015,
+          "sha256": "004a74f3f0d68e3f50e9b1fa8fd4ef4a43ba12a300cd33e8401e47d59ac52805",
+          "decodeEncoding": "utf-8"
+        },
+        {
+          "path": "port/perspective.cpp",
+          "url": "https://raw.githubusercontent.com/wedaly/GLFighters-SDL/4dffdbd665767baae87bec749f18d689ab53c534/port/perspective.cpp",
+          "bytes": 2581,
+          "sha256": "f641b9c8230a154a240f9fb7b62b86b8b6f1b815fa85238834051df22291b881",
+          "decodeEncoding": "utf-8"
+        },
+        {
+          "path": "port/print.cpp",
+          "url": "https://raw.githubusercontent.com/wedaly/GLFighters-SDL/4dffdbd665767baae87bec749f18d689ab53c534/port/print.cpp",
+          "bytes": 2684,
+          "sha256": "11d3af3067e8a01e4030cb90285ea0ccb2b8faa25476fdf3c1d0352b24a4e22c",
+          "decodeEncoding": "utf-8"
+        },
+        {
+          "path": "port/sound.cpp",
+          "url": "https://raw.githubusercontent.com/wedaly/GLFighters-SDL/4dffdbd665767baae87bec749f18d689ab53c534/port/sound.cpp",
+          "bytes": 3804,
+          "sha256": "728de276415983f291f6aeaaa894a8342d0858c553c937ddc81a9b803e7c2e60",
+          "decodeEncoding": "utf-8"
+        },
+        {
+          "path": "port/textures.cpp",
+          "url": "https://raw.githubusercontent.com/wedaly/GLFighters-SDL/4dffdbd665767baae87bec749f18d689ab53c534/port/textures.cpp",
+          "bytes": 4729,
+          "sha256": "a07a25fa9cf2cb2948a5ff11d3f282742bfd771255052af35b2b4f7be3a2ed98",
+          "decodeEncoding": "utf-8"
+        },
+        {
+          "path": "vendor/gl4es-v1.1.6/LICENSE",
+          "url": "https://raw.githubusercontent.com/wedaly/GLFighters-SDL/4dffdbd665767baae87bec749f18d689ab53c534/vendor/gl4es-v1.1.6/LICENSE",
+          "bytes": 1105,
+          "sha256": "69a3049c77abd88658f6ad7cf6a5b6ceb5cf03b80e60f7c4657d90322cfab7bd",
+          "decodeEncoding": "utf-8"
+        },
+        {
+          "path": ".github/workflows/deploy.yml",
+          "url": "https://raw.githubusercontent.com/wedaly/GLFighters-SDL/4dffdbd665767baae87bec749f18d689ab53c534/.github/workflows/deploy.yml",
+          "bytes": 898,
+          "sha256": "658c4af93707d7f2801fad3eda1922c19f1faeb0d642a86290e98e75fcf21023",
+          "decodeEncoding": "utf-8"
+        },
+        {
+          "path": "port/input.h",
+          "url": "https://raw.githubusercontent.com/wedaly/GLFighters-SDL/4dffdbd665767baae87bec749f18d689ab53c534/port/input.h",
+          "bytes": 3341,
+          "sha256": "5ec6990666e80adf9e83626caa2fd5696055a60ab1e87970be15c575cc8928df",
+          "decodeEncoding": "utf-8"
+        },
+        {
+          "path": "port/perspective.h",
+          "url": "https://raw.githubusercontent.com/wedaly/GLFighters-SDL/4dffdbd665767baae87bec749f18d689ab53c534/port/perspective.h",
+          "bytes": 312,
+          "sha256": "3ebf0889bd3d4ad9e48e757f571d51faefcc57a29c4b8c2ee7a1ece877408aab",
+          "decodeEncoding": "utf-8"
+        },
+        {
+          "path": "port/print.h",
+          "url": "https://raw.githubusercontent.com/wedaly/GLFighters-SDL/4dffdbd665767baae87bec749f18d689ab53c534/port/print.h",
+          "bytes": 175,
+          "sha256": "d174e0eb0681804a74e54c11b7c375ab8d03e10b4a35e4d573033af88880145f",
+          "decodeEncoding": "utf-8"
+        },
+        {
+          "path": "port/sound.h",
+          "url": "https://raw.githubusercontent.com/wedaly/GLFighters-SDL/4dffdbd665767baae87bec749f18d689ab53c534/port/sound.h",
+          "bytes": 1097,
+          "sha256": "a5fe6524fd4fb05ed4afd4b5ee123bb7ccebb801c58892a0fabc94e4356e6ffa",
+          "decodeEncoding": "utf-8"
+        },
+        {
+          "path": "port/textures.h",
+          "url": "https://raw.githubusercontent.com/wedaly/GLFighters-SDL/4dffdbd665767baae87bec749f18d689ab53c534/port/textures.h",
+          "bytes": 2513,
+          "sha256": "8dfdabfe08071a8fe8a23878f86bc4ce24fad90dca23ac7a1074241b2136f475",
+          "decodeEncoding": "utf-8"
+        },
+        {
+          "path": "vendor/gl4es-v1.1.6/include/GL/gl.h",
+          "url": "https://raw.githubusercontent.com/wedaly/GLFighters-SDL/4dffdbd665767baae87bec749f18d689ab53c534/vendor/gl4es-v1.1.6/include/GL/gl.h",
+          "bytes": 82978,
+          "sha256": "696ef8d1502adacc82a789e302476ece8ec9b36cc33e94df2f3ed53e35fe131b",
+          "decodeEncoding": "utf-8"
+        },
+        {
+          "path": "vendor/gl4es-v1.1.6/include/GL/gl_mangle.h",
+          "url": "https://raw.githubusercontent.com/wedaly/GLFighters-SDL/4dffdbd665767baae87bec749f18d689ab53c534/vendor/gl4es-v1.1.6/include/GL/gl_mangle.h",
+          "bytes": 108236,
+          "sha256": "4bb3b341a46bb7d0db9419166c9354ae5469bd9332db57807ea9676fca3f2579",
+          "decodeEncoding": "utf-8"
+        },
+        {
+          "path": "vendor/gl4es-v1.1.6/include/GL/glext.h",
+          "url": "https://raw.githubusercontent.com/wedaly/GLFighters-SDL/4dffdbd665767baae87bec749f18d689ab53c534/vendor/gl4es-v1.1.6/include/GL/glext.h",
+          "bytes": 595665,
+          "sha256": "8c509801e9f6c78427ab31ff12df838e2cf65ac79236f9daa8cdbff02611edcd",
+          "decodeEncoding": "utf-8"
+        },
+        {
+          "path": "vendor/gl4es-v1.1.6/include/GL/glu.h",
+          "url": "https://raw.githubusercontent.com/wedaly/GLFighters-SDL/4dffdbd665767baae87bec749f18d689ab53c534/vendor/gl4es-v1.1.6/include/GL/glu.h",
+          "bytes": 14652,
+          "sha256": "7eff2f56633b15a552f7be9da11bd0a601bd29c3a79542a9b7c638b9120fb67d",
+          "decodeEncoding": "utf-8"
+        },
+        {
+          "path": "vendor/gl4es-v1.1.6/include/GL/glu_mangle.h",
+          "url": "https://raw.githubusercontent.com/wedaly/GLFighters-SDL/4dffdbd665767baae87bec749f18d689ab53c534/vendor/gl4es-v1.1.6/include/GL/glu_mangle.h",
+          "bytes": 3313,
+          "sha256": "2aa7883e192e2f2d81d3510cb138d623614e094cac49cd99edfc778f7e806fb2",
+          "decodeEncoding": "utf-8"
+        },
+        {
+          "path": "vendor/gl4es-v1.1.6/include/GL/glx.h",
+          "url": "https://raw.githubusercontent.com/wedaly/GLFighters-SDL/4dffdbd665767baae87bec749f18d689ab53c534/vendor/gl4es-v1.1.6/include/GL/glx.h",
+          "bytes": 16504,
+          "sha256": "9e2455283dfbc13ca788d8deb2b01053cdd3ca09ab3a0db99ec1c42d67ee61c6",
+          "decodeEncoding": "utf-8"
+        },
+        {
+          "path": "vendor/gl4es-v1.1.6/include/GL/glx_mangle.h",
+          "url": "https://raw.githubusercontent.com/wedaly/GLFighters-SDL/4dffdbd665767baae87bec749f18d689ab53c534/vendor/gl4es-v1.1.6/include/GL/glx_mangle.h",
+          "bytes": 3301,
+          "sha256": "0b916dcae174a63d77be030b9249ddcc65db560c866e0e53ba1e339718b2d2ae",
+          "decodeEncoding": "utf-8"
+        },
+        {
+          "path": "vendor/gl4es-v1.1.6/include/GL/glxext.h",
+          "url": "https://raw.githubusercontent.com/wedaly/GLFighters-SDL/4dffdbd665767baae87bec749f18d689ab53c534/vendor/gl4es-v1.1.6/include/GL/glxext.h",
+          "bytes": 40621,
+          "sha256": "d6af7bba4abcad6ce14852c1ff356f757dbbd3fb99b006484e8041c261117977",
+          "decodeEncoding": "utf-8"
+        },
+        {
+          "path": "vendor/gl4es-v1.1.6/include/GL/internal/dri_interface.h",
+          "url": "https://raw.githubusercontent.com/wedaly/GLFighters-SDL/4dffdbd665767baae87bec749f18d689ab53c534/vendor/gl4es-v1.1.6/include/GL/internal/dri_interface.h",
+          "bytes": 30723,
+          "sha256": "f20a2dd3569a332aa521f3b2eb2bc424e53be2ae82634d8a55c2ebb80c934b37",
+          "decodeEncoding": "utf-8"
+        },
+        {
+          "path": "vendor/gl4es-v1.1.6/include/gl4esinit.h",
+          "url": "https://raw.githubusercontent.com/wedaly/GLFighters-SDL/4dffdbd665767baae87bec749f18d689ab53c534/vendor/gl4es-v1.1.6/include/gl4esinit.h",
+          "bytes": 895,
+          "sha256": "44a6640105068b85959e4078ca3ef7547e3a531ac1e43f969b4db86425dd3f36",
+          "decodeEncoding": "utf-8"
+        }
+      ],
+      "treeInventory": {
+        "entries": 256,
+        "truncated": false,
+        "sha256": "4db506c81df3360fb4b510d76afa34d0a72f7d566bb5c67631dea2183a6f5d42"
+      }
+    },
+    {
+      "repository": "WolfireGames/overgrowth",
+      "pin": "245fe4828631c84c0023d29d1525f5716ccb6106",
+      "stars": 2920,
+      "treeTruncated": false,
+      "treeEntries": 16115,
+      "texts": [
+        {
+          "path": ".gitmodules",
+          "url": "https://raw.githubusercontent.com/WolfireGames/overgrowth/245fe4828631c84c0023d29d1525f5716ccb6106/.gitmodules",
+          "bytes": 204,
+          "sha256": "e22b71fc8481856190dd8c91587452d189f33ff31a126e2e7ab65729d6a35ec0"
+        },
+        {
+          "path": "LICENSE",
+          "url": "https://raw.githubusercontent.com/WolfireGames/overgrowth/245fe4828631c84c0023d29d1525f5716ccb6106/LICENSE",
+          "bytes": 11357,
+          "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+        },
+        {
+          "path": "Makefile",
+          "url": "https://raw.githubusercontent.com/WolfireGames/overgrowth/245fe4828631c84c0023d29d1525f5716ccb6106/Makefile",
+          "bytes": 1041,
+          "sha256": "7d9a140c00cbc3cf773351f91a656fc0ba07780b4f5050acddc98ecc56c0173b"
+        },
+        {
+          "path": "README.md",
+          "url": "https://raw.githubusercontent.com/WolfireGames/overgrowth/245fe4828631c84c0023d29d1525f5716ccb6106/README.md",
+          "bytes": 2875,
+          "sha256": "5b36c17945c08f538c76cded1534d9da1a45d1308386b6e34fe2d0462bd04835"
+        },
+        {
+          "path": "COMPILING.md",
+          "url": "https://raw.githubusercontent.com/WolfireGames/overgrowth/245fe4828631c84c0023d29d1525f5716ccb6106/COMPILING.md",
+          "bytes": 4294,
+          "sha256": "8b1719ce634b34bd259f03ab749bc7b49a810642fc75212371823fa6d5e1c842",
+          "decodeEncoding": "utf-8"
+        },
+        {
+          "path": "Projects/CMakeLists.txt",
+          "url": "https://raw.githubusercontent.com/WolfireGames/overgrowth/245fe4828631c84c0023d29d1525f5716ccb6106/Projects/CMakeLists.txt",
+          "bytes": 57374,
+          "sha256": "3f7e3bc8d540ce071131436812f32dbbb02b7f53669988bbb50a20332c068954",
+          "decodeEncoding": "utf-8"
+        },
+        {
+          "path": "Libraries/openal-soft-1.18.2-bin/COPYING",
+          "url": "https://raw.githubusercontent.com/WolfireGames/overgrowth/245fe4828631c84c0023d29d1525f5716ccb6106/Libraries/openal-soft-1.18.2-bin/COPYING",
+          "bytes": 25269,
+          "sha256": "d379ff17c191ea4b68781895a6d516067f488c0dc920e49124f812ac7ee38059",
+          "decodeEncoding": "utf-8"
+        },
+        {
+          "path": "Libraries/ovr_sdk_win_1.12.0_public/OculusSDK/LICENSE.txt",
+          "url": "https://raw.githubusercontent.com/WolfireGames/overgrowth/245fe4828631c84c0023d29d1525f5716ccb6106/Libraries/ovr_sdk_win_1.12.0_public/OculusSDK/LICENSE.txt",
+          "bytes": 18050,
+          "sha256": "2d7d45742015055b8b6916e5ccf4965966d85f669cc03bfe216bc2ab90253a61",
+          "decodeEncoding": "latin-1"
+        },
+        {
+          "path": "Libraries/SDL2-2.0.20/COPYING.txt",
+          "url": "https://raw.githubusercontent.com/WolfireGames/overgrowth/245fe4828631c84c0023d29d1525f5716ccb6106/Libraries/SDL2-2.0.20/COPYING.txt",
+          "bytes": 910,
+          "sha256": "7a771248ca372e2dff4887c921543699847ae44c56d7558692f5860237f1f914",
+          "decodeEncoding": "utf-8"
+        },
+        {
+          "path": "Libraries/libvorbis-1.3.6/COPYING",
+          "url": "https://raw.githubusercontent.com/WolfireGames/overgrowth/245fe4828631c84c0023d29d1525f5716ccb6106/Libraries/libvorbis-1.3.6/COPYING",
+          "bytes": 1470,
+          "sha256": "29e9914e6173b7061b7d48c25e6159fc1438326738bc047cc7248abc01b271f6",
+          "decodeEncoding": "utf-8"
+        },
+        {
+          "path": "Libraries/libogg-1.3.3/COPYING",
+          "url": "https://raw.githubusercontent.com/WolfireGames/overgrowth/245fe4828631c84c0023d29d1525f5716ccb6106/Libraries/libogg-1.3.3/COPYING",
+          "bytes": 1466,
+          "sha256": "d2ab5758336489da61c12cc5bb757da5339c4ae9001f9bb0562b4370249af814",
+          "decodeEncoding": "utf-8"
+        },
+        {
+          "path": "Libraries/glm-0.9.4.2/copying.txt",
+          "url": "https://raw.githubusercontent.com/WolfireGames/overgrowth/245fe4828631c84c0023d29d1525f5716ccb6106/Libraries/glm-0.9.4.2/copying.txt",
+          "bytes": 1083,
+          "sha256": "159c7a4fbd6f9b0e5227d70eddd08ec643f150447ea7523f8a9445f0c616f14c",
+          "decodeEncoding": "utf-8"
+        }
+      ],
+      "treeInventory": {
+        "entries": 16115,
+        "truncated": false,
+        "sha256": "22f7e322122e60bba657371b3e001575dd7d1c25e6d117e2a93bd034673edfa1"
+      }
+    },
+    {
+      "repository": "ptitSeb/gl4es",
+      "pin": "c9895df34cd466c23bc60c2bd3db3d87e98fcbe7",
+      "tag": "v1.1.6",
+      "treeTruncated": false,
+      "texts": [
+        {
+          "path": "CHANGELOG.md",
+          "url": "https://raw.githubusercontent.com/ptitSeb/gl4es/c9895df34cd466c23bc60c2bd3db3d87e98fcbe7/CHANGELOG.md",
+          "bytes": 9272,
+          "sha256": "ffcd6c8700797d9282221d67021fa51cf1088721a7f071db193250dad7b793a6",
+          "decodeEncoding": "utf-8"
+        },
+        {
+          "path": "CMakeLists.txt",
+          "url": "https://raw.githubusercontent.com/ptitSeb/gl4es/c9895df34cd466c23bc60c2bd3db3d87e98fcbe7/CMakeLists.txt",
+          "bytes": 10250,
+          "sha256": "a73ebb9622c21dfdaba8816734f5680d46398f458c0db8cf5212a964b2360270",
+          "decodeEncoding": "utf-8"
+        },
+        {
+          "path": "COMPILE.md",
+          "url": "https://raw.githubusercontent.com/ptitSeb/gl4es/c9895df34cd466c23bc60c2bd3db3d87e98fcbe7/COMPILE.md",
+          "bytes": 6869,
+          "sha256": "92a7282e2bc1235a37f18a566f5d67e4a9df1995fb8dff274436bedd6f0a8e74",
+          "decodeEncoding": "utf-8"
+        },
+        {
+          "path": "LICENSE",
+          "url": "https://raw.githubusercontent.com/ptitSeb/gl4es/c9895df34cd466c23bc60c2bd3db3d87e98fcbe7/LICENSE",
+          "bytes": 1105,
+          "sha256": "69a3049c77abd88658f6ad7cf6a5b6ceb5cf03b80e60f7c4657d90322cfab7bd",
+          "decodeEncoding": "utf-8"
+        },
+        {
+          "path": "MEDIA.md",
+          "url": "https://raw.githubusercontent.com/ptitSeb/gl4es/c9895df34cd466c23bc60c2bd3db3d87e98fcbe7/MEDIA.md",
+          "bytes": 3414,
+          "sha256": "8bd55e56a25fcb6f3551d12aceee9ce9b15075ae5752478c2cf32c1401db950d",
+          "decodeEncoding": "utf-8"
+        },
+        {
+          "path": "README.md",
+          "url": "https://raw.githubusercontent.com/ptitSeb/gl4es/c9895df34cd466c23bc60c2bd3db3d87e98fcbe7/README.md",
+          "bytes": 4681,
+          "sha256": "3009610981bd589f29e5b3efe06331041a69899f8dfa4c684e36217775cafe2c",
+          "decodeEncoding": "utf-8"
+        },
+        {
+          "path": "USAGE.md",
+          "url": "https://raw.githubusercontent.com/ptitSeb/gl4es/c9895df34cd466c23bc60c2bd3db3d87e98fcbe7/USAGE.md",
+          "bytes": 17408,
+          "sha256": "d86fbf255999ee1c16e0c502ebae698380b9ebacd56052358f936ea817123be4",
+          "decodeEncoding": "utf-8"
+        },
+        {
+          "path": "bc_cat.h",
+          "url": "https://raw.githubusercontent.com/ptitSeb/gl4es/c9895df34cd466c23bc60c2bd3db3d87e98fcbe7/bc_cat.h",
+          "bytes": 2970,
+          "sha256": "dec3e093bd92812572e0e07d46d163400d0715e378a409882d7f6d94c1378cc3",
+          "decodeEncoding": "utf-8"
+        },
+        {
+          "path": "include/EGL/egl.h",
+          "url": "https://raw.githubusercontent.com/ptitSeb/gl4es/c9895df34cd466c23bc60c2bd3db3d87e98fcbe7/include/EGL/egl.h",
+          "bytes": 20345,
+          "sha256": "70207b48ccd7257473ae7517c2a9cab3f8268e073df303e58df66a2ac171f75c",
+          "decodeEncoding": "utf-8"
+        },
+        {
+          "path": "include/EGL/eglext.h",
+          "url": "https://raw.githubusercontent.com/ptitSeb/gl4es/c9895df34cd466c23bc60c2bd3db3d87e98fcbe7/include/EGL/eglext.h",
+          "bytes": 65858,
+          "sha256": "5045357621c4c0729e6f3c425788a5837dcfdcb09d256cb7e9f96918fb2836a0",
+          "decodeEncoding": "utf-8"
+        },
+        {
+          "path": "include/EGL/eglplatform.h",
+          "url": "https://raw.githubusercontent.com/ptitSeb/gl4es/c9895df34cd466c23bc60c2bd3db3d87e98fcbe7/include/EGL/eglplatform.h",
+          "bytes": 6161,
+          "sha256": "fb6f2775ee3f3536de579b232b6bc48261a6678f91ab39bf8a1c1e05dde68d04",
+          "decodeEncoding": "utf-8"
+        },
+        {
+          "path": "include/GL/gl.h",
+          "url": "https://raw.githubusercontent.com/ptitSeb/gl4es/c9895df34cd466c23bc60c2bd3db3d87e98fcbe7/include/GL/gl.h",
+          "bytes": 84831,
+          "sha256": "d03e03f7874502bcb5125dac530993555d37ebcfcf602354426a812f68160366",
+          "decodeEncoding": "utf-8"
+        },
+        {
+          "path": "include/GL/gl_mangle.h",
+          "url": "https://raw.githubusercontent.com/ptitSeb/gl4es/c9895df34cd466c23bc60c2bd3db3d87e98fcbe7/include/GL/gl_mangle.h",
+          "bytes": 110193,
+          "sha256": "49435cf6648ecae3fa91e3c8e437a3f11eab0a7f2f03fc7f9846020b4bcfe29f",
+          "decodeEncoding": "utf-8"
+        },
+        {
+          "path": "include/GL/glext.h",
+          "url": "https://raw.githubusercontent.com/ptitSeb/gl4es/c9895df34cd466c23bc60c2bd3db3d87e98fcbe7/include/GL/glext.h",
+          "bytes": 634031,
+          "sha256": "7c937b3ed60ab0b8164bb0164b50a9e03c41bbfd7d00ae56dc0dd9bbcd4547a7",
+          "decodeEncoding": "utf-8"
+        },
+        {
+          "path": "include/GL/glu.h",
+          "url": "https://raw.githubusercontent.com/ptitSeb/gl4es/c9895df34cd466c23bc60c2bd3db3d87e98fcbe7/include/GL/glu.h",
+          "bytes": 17255,
+          "sha256": "84187ce0fd0153769675cb7f3301583eb27393f66b57c5604999a1d805a9184c",
+          "decodeEncoding": "utf-8"
+        },
+        {
+          "path": "include/GL/glu_mangle.h",
+          "url": "https://raw.githubusercontent.com/ptitSeb/gl4es/c9895df34cd466c23bc60c2bd3db3d87e98fcbe7/include/GL/glu_mangle.h",
+          "bytes": 3315,
+          "sha256": "d3705c78eab49795c2488b8c94962d1ae7010c5ecd3206ff2aaed2a87b90784c",
+          "decodeEncoding": "utf-8"
+        },
+        {
+          "path": "include/GL/glx.h",
+          "url": "https://raw.githubusercontent.com/ptitSeb/gl4es/c9895df34cd466c23bc60c2bd3db3d87e98fcbe7/include/GL/glx.h",
+          "bytes": 17200,
+          "sha256": "2b22d904c84327f9b60ef485e35faab2b0d30e735dd765b6d835f2f777147109",
+          "decodeEncoding": "utf-8"
+        },
+        {
+          "path": "include/GL/glx_mangle.h",
+          "url": "https://raw.githubusercontent.com/ptitSeb/gl4es/c9895df34cd466c23bc60c2bd3db3d87e98fcbe7/include/GL/glx_mangle.h",
+          "bytes": 3463,
+          "sha256": "baefcb978bf5ea6737f9a1f530d3fb8efe2b9d437e4d2465473ef06b509d3eea",
+          "decodeEncoding": "utf-8"
+        },
+        {
+          "path": "include/GL/glxext.h",
+          "url": "https://raw.githubusercontent.com/ptitSeb/gl4es/c9895df34cd466c23bc60c2bd3db3d87e98fcbe7/include/GL/glxext.h",
+          "bytes": 43887,
+          "sha256": "a75af4284585e7439a57d979fb253c55df6c083c41469a37bc0cd1ca03f22334",
+          "decodeEncoding": "utf-8"
+        },
+        {
+          "path": "include/GL/internal/dri_interface.h",
+          "url": "https://raw.githubusercontent.com/ptitSeb/gl4es/c9895df34cd466c23bc60c2bd3db3d87e98fcbe7/include/GL/internal/dri_interface.h",
+          "bytes": 28955,
+          "sha256": "a7bf23d8f976efb87f3d5be4ddfa8e2795211e0c090ac41c9b3be6e07d9601de",
+          "decodeEncoding": "utf-8"
+        },
+        {
+          "path": "include/GLES/egl.h",
+          "url": "https://raw.githubusercontent.com/ptitSeb/gl4es/c9895df34cd466c23bc60c2bd3db3d87e98fcbe7/include/GLES/egl.h",
+          "bytes": 371,
+          "sha256": "4fc9171c5104c1ef3219c477820150cec7aa4bc23ff7ca39b5864e7885c0530a",
+          "decodeEncoding": "utf-8"
+        },
+        {
+          "path": "include/GLES/gl.h",
+          "url": "https://raw.githubusercontent.com/ptitSeb/gl4es/c9895df34cd466c23bc60c2bd3db3d87e98fcbe7/include/GLES/gl.h",
+          "bytes": 34332,
+          "sha256": "db17471cc869dfdc7243b44d3acbc574d5088d89988c328426a34a3c5388d5ea",
+          "decodeEncoding": "utf-8"
+        },
+        {
+          "path": "include/GLES/gl2.h",
+          "url": "https://raw.githubusercontent.com/ptitSeb/gl4es/c9895df34cd466c23bc60c2bd3db3d87e98fcbe7/include/GLES/gl2.h",
+          "bytes": 31871,
+          "sha256": "cea3377b3b3253b1999321d7735c9f2fa7aeb179ab9eedefbd4795d054c7620a",
+          "decodeEncoding": "utf-8"
+        },
+        {
+          "path": "include/GLES/gl2ext.h",
+          "url": "https://raw.githubusercontent.com/ptitSeb/gl4es/c9895df34cd466c23bc60c2bd3db3d87e98fcbe7/include/GLES/gl2ext.h",
+          "bytes": 87605,
+          "sha256": "01c1e51a7abf311b840717c53611d4cc5864c67c118b12423e179377ec69cfa4",
+          "decodeEncoding": "utf-8"
+        },
+        {
+          "path": "include/GLES/gl2platform.h",
+          "url": "https://raw.githubusercontent.com/ptitSeb/gl4es/c9895df34cd466c23bc60c2bd3db3d87e98fcbe7/include/GLES/gl2platform.h",
+          "bytes": 909,
+          "sha256": "d9ea63aa7ecc16f06e8321674702ceaacaf0a81777c616a0a3f859f21ce1c085",
+          "decodeEncoding": "utf-8"
+        },
+        {
+          "path": "include/GLES/gl3.h",
+          "url": "https://raw.githubusercontent.com/ptitSeb/gl4es/c9895df34cd466c23bc60c2bd3db3d87e98fcbe7/include/GLES/gl3.h",
+          "bytes": 69257,
+          "sha256": "524607e4522dae0e2bc53f5ffc3ba8c4607cee775d2180ae144b6b18ef4e793c",
+          "decodeEncoding": "utf-8"
+        },
+        {
+          "path": "include/GLES/gl3ext.h",
+          "url": "https://raw.githubusercontent.com/ptitSeb/gl4es/c9895df34cd466c23bc60c2bd3db3d87e98fcbe7/include/GLES/gl3ext.h",
+          "bytes": 741,
+          "sha256": "5730da902cec04b86f93152a219b379eabbf4eac97387f271fb8141fdfe4c5c5",
+          "decodeEncoding": "utf-8"
+        },
+        {
+          "path": "include/GLES/gl3platform.h",
+          "url": "https://raw.githubusercontent.com/ptitSeb/gl4es/c9895df34cd466c23bc60c2bd3db3d87e98fcbe7/include/GLES/gl3platform.h",
+          "bytes": 909,
+          "sha256": "018c3f086a7186b87b472bae8fb03e6c795dce02b95829a286e8a11fb3d8ab5e",
+          "decodeEncoding": "utf-8"
+        },
+        {
+          "path": "include/GLES/glext.h",
+          "url": "https://raw.githubusercontent.com/ptitSeb/gl4es/c9895df34cd466c23bc60c2bd3db3d87e98fcbe7/include/GLES/glext.h",
+          "bytes": 63998,
+          "sha256": "f3ba39d389d850e3df353b7aadffdb1997c42276d40878d1f56fd8d6cbc14a05",
+          "decodeEncoding": "utf-8"
+        },
+        {
+          "path": "include/GLES/glplatform.h",
+          "url": "https://raw.githubusercontent.com/ptitSeb/gl4es/c9895df34cd466c23bc60c2bd3db3d87e98fcbe7/include/GLES/glplatform.h",
+          "bytes": 901,
+          "sha256": "03552610f3dd821c020264745d7aa37d760ca68ab44d3c7314b0959a0a24ae8e",
+          "decodeEncoding": "utf-8"
+        },
+        {
+          "path": "include/KHR/khrplatform.h",
+          "url": "https://raw.githubusercontent.com/ptitSeb/gl4es/c9895df34cd466c23bc60c2bd3db3d87e98fcbe7/include/KHR/khrplatform.h",
+          "bytes": 9599,
+          "sha256": "f6bae597d069a21eea4e0f9805998289342ea60af79ae7e6250a596fd1a8620e",
+          "decodeEncoding": "utf-8"
+        },
+        {
+          "path": "include/android_debug.h",
+          "url": "https://raw.githubusercontent.com/ptitSeb/gl4es/c9895df34cd466c23bc60c2bd3db3d87e98fcbe7/include/android_debug.h",
+          "bytes": 308,
+          "sha256": "db98da137e96ea73062fc779a51c53af9a7e08e18e697f2abd486262cecdf36e",
+          "decodeEncoding": "utf-8"
+        },
+        {
+          "path": "include/gl4eshint.h",
+          "url": "https://raw.githubusercontent.com/ptitSeb/gl4es/c9895df34cd466c23bc60c2bd3db3d87e98fcbe7/include/gl4eshint.h",
+          "bytes": 1582,
+          "sha256": "eb13c4d3a6147ee93764a88633233d37a4dbaa8afd3fadf49e8145f1bddae863",
+          "decodeEncoding": "utf-8"
+        },
+        {
+          "path": "include/gl4esinit.h",
+          "url": "https://raw.githubusercontent.com/ptitSeb/gl4es/c9895df34cd466c23bc60c2bd3db3d87e98fcbe7/include/gl4esinit.h",
+          "bytes": 903,
+          "sha256": "3da0beccca54312010e74e1e99814ae64b38e9ccceb782648afcaa83283af6ad",
+          "decodeEncoding": "utf-8"
+        },
+        {
+          "path": "include/khash.h",
+          "url": "https://raw.githubusercontent.com/ptitSeb/gl4es/c9895df34cd466c23bc60c2bd3db3d87e98fcbe7/include/khash.h",
+          "bytes": 22529,
+          "sha256": "5608eeca6cbb87a875809a4fff75bc1e80f306b20506d59192ece78d71b59353",
+          "decodeEncoding": "utf-8"
+        },
+        {
+          "path": "src/CMakeLists.txt",
+          "url": "https://raw.githubusercontent.com/ptitSeb/gl4es/c9895df34cd466c23bc60c2bd3db3d87e98fcbe7/src/CMakeLists.txt",
+          "bytes": 9561,
+          "sha256": "39e932e5a97dc3461ee93e1990205d901f75e1322dc4ade01206247be4b7e45e",
+          "decodeEncoding": "utf-8"
+        },
+        {
+          "path": "src/agl/agl.c",
+          "url": "https://raw.githubusercontent.com/ptitSeb/gl4es/c9895df34cd466c23bc60c2bd3db3d87e98fcbe7/src/agl/agl.c",
+          "bytes": 4564,
+          "sha256": "ef6472c90d172d2b48a142635b482318d47a7b4994902a55a2b751cf328bc012",
+          "decodeEncoding": "utf-8"
+        },
+        {
+          "path": "src/agl/agl.h",
+          "url": "https://raw.githubusercontent.com/ptitSeb/gl4es/c9895df34cd466c23bc60c2bd3db3d87e98fcbe7/src/agl/agl.h",
+          "bytes": 906,
+          "sha256": "3c0d6cfb0a4147d0e9b2810ab26dee6dcdb8c3faa14bbef1c3b143209a393309",
+          "decodeEncoding": "utf-8"
+        },
+        {
+          "path": "src/agl/amigaos.c",
+          "url": "https://raw.githubusercontent.com/ptitSeb/gl4es/c9895df34cd466c23bc60c2bd3db3d87e98fcbe7/src/agl/amigaos.c",
+          "bytes": 26816,
+          "sha256": "f52c78f9030b93ee609545b8440ebd955dc4fd77541b8fd466567c707eefdb49",
+          "decodeEncoding": "utf-8"
+        },
+        {
+          "path": "src/agl/amigaos.h",
+          "url": "https://raw.githubusercontent.com/ptitSeb/gl4es/c9895df34cd466c23bc60c2bd3db3d87e98fcbe7/src/agl/amigaos.h",
+          "bytes": 155,
+          "sha256": "430ce1de9106f7a9e8bf11aafc1abdbb6d145122e2988306b26b4547f550394a",
+          "decodeEncoding": "utf-8"
+        },
+        {
+          "path": "src/agl/lookup.c",
+          "url": "https://raw.githubusercontent.com/ptitSeb/gl4es/c9895df34cd466c23bc60c2bd3db3d87e98fcbe7/src/agl/lookup.c",
+          "bytes": 1493,
+          "sha256": "ebfd811148e8bdc316763e290ebcd8f224a750795b5d99b76f882f8bd382ca80",
+          "decodeEncoding": "utf-8"
+        },
+        {
+          "path": "src/config.h",
+          "url": "https://raw.githubusercontent.com/ptitSeb/gl4es/c9895df34cd466c23bc60c2bd3db3d87e98fcbe7/src/config.h",
+          "bytes": 600,
+          "sha256": "82f4d36f616c3eb5938f21bd41411d320fa8230f63cdf03b0fe0cda002699a88",
+          "decodeEncoding": "utf-8"
+        },
+        {
+          "path": "src/egl/egl.c",
+          "url": "https://raw.githubusercontent.com/ptitSeb/gl4es/c9895df34cd466c23bc60c2bd3db3d87e98fcbe7/src/egl/egl.c",
+          "bytes": 10767,
+          "sha256": "095b0eef330587ad58bfa68c5da69d5d94acf992f257d3689d35ae41daaef7e6",
+          "decodeEncoding": "utf-8"
+        },
+        {
+          "path": "src/egl/egl.h",
+          "url": "https://raw.githubusercontent.com/ptitSeb/gl4es/c9895df34cd466c23bc60c2bd3db3d87e98fcbe7/src/egl/egl.h",
+          "bytes": 3362,
+          "sha256": "173c9fcb084d4289f4c361b439542980ab71f14bf68bb01640b5aed7a721a8cc",
+          "decodeEncoding": "utf-8"
+        },
+        {
+          "path": "src/egl/lookup.c",
+          "url": "https://raw.githubusercontent.com/ptitSeb/gl4es/c9895df34cd466c23bc60c2bd3db3d87e98fcbe7/src/egl/lookup.c",
+          "bytes": 1679,
+          "sha256": "06f4e0c5c4e91e51a1b59acce965acd586567f5972c2b286ce6f57b358379429",
+          "decodeEncoding": "utf-8"
+        },
+        {
+          "path": "src/gl/arbconverter.c",
+          "url": "https://raw.githubusercontent.com/ptitSeb/gl4es/c9895df34cd466c23bc60c2bd3db3d87e98fcbe7/src/gl/arbconverter.c",
+          "bytes": 31176,
+          "sha256": "d741c1a9dc28ed4643e8b251923eab4ce92c1d1e5fbd16a5d5ef52bc7c8bfd22",
+          "decodeEncoding": "utf-8"
+        },
+        {
+          "path": "src/gl/arbconverter.h",
+          "url": "https://raw.githubusercontent.com/ptitSeb/gl4es/c9895df34cd466c23bc60c2bd3db3d87e98fcbe7/src/gl/arbconverter.h",
+          "bytes": 212,
+          "sha256": "2d8361629b2a33d956e50a5f281c93d9786addb5da05023c3bbb336167dab672",
+          "decodeEncoding": "utf-8"
+        },
+        {
+          "path": "src/gl/arbgenerator.c",
+          "url": "https://raw.githubusercontent.com/ptitSeb/gl4es/c9895df34cd466c23bc60c2bd3db3d87e98fcbe7/src/gl/arbgenerator.c",
+          "bytes": 31863,
+          "sha256": "abb4e7eac731d560c4a42babde317ab8bb1d2625a0656a15b63f8137ba5d4890",
+          "decodeEncoding": "utf-8"
+        },
+        {
+          "path": "src/gl/arbgenerator.h",
+          "url": "https://raw.githubusercontent.com/ptitSeb/gl4es/c9895df34cd466c23bc60c2bd3db3d87e98fcbe7/src/gl/arbgenerator.h",
+          "bytes": 648,
+          "sha256": "5caeaff86372eb5da65e85df35c6916b4487d6fcfaae0926ddd69a6899c978c7",
+          "decodeEncoding": "utf-8"
+        },
+        {
+          "path": "src/gl/arbhelper.c",
+          "url": "https://raw.githubusercontent.com/ptitSeb/gl4es/c9895df34cd466c23bc60c2bd3db3d87e98fcbe7/src/gl/arbhelper.c",
+          "bytes": 10348,
+          "sha256": "48fc7d6f518c394836c06388c167036ca79dd23a98208b30c15d3da3daa91055",
+          "decodeEncoding": "utf-8"
+        },
+        {
+          "path": "src/gl/arbhelper.h",
+          "url": "https://raw.githubusercontent.com/ptitSeb/gl4es/c9895df34cd466c23bc60c2bd3db3d87e98fcbe7/src/gl/arbhelper.h",
+          "bytes": 8770,
+          "sha256": "a684cde0479edbf30d781573878787a30606498cfed3f377ba222038ee859f21",
+          "decodeEncoding": "utf-8"
+        },
+        {
+          "path": "src/gl/arbparser.c",
+          "url": "https://raw.githubusercontent.com/ptitSeb/gl4es/c9895df34cd466c23bc60c2bd3db3d87e98fcbe7/src/gl/arbparser.c",
+          "bytes": 148303,
+          "sha256": "c79ccb2f3587751c59dc0897f78f5711fa94fa73de8dfa444e5649c7fa9975e7",
+          "decodeEncoding": "utf-8"
+        },
+        {
+          "path": "src/gl/arbparser.h",
+          "url": "https://raw.githubusercontent.com/ptitSeb/gl4es/c9895df34cd466c23bc60c2bd3db3d87e98fcbe7/src/gl/arbparser.h",
+          "bytes": 359,
+          "sha256": "76763c505a6cf192ba37f8e74da14e60e0ba2f9a5400c828c818ad58f641993a",
+          "decodeEncoding": "utf-8"
+        },
+        {
+          "path": "src/gl/array.c",
+          "url": "https://raw.githubusercontent.com/ptitSeb/gl4es/c9895df34cd466c23bc60c2bd3db3d87e98fcbe7/src/gl/array.c",
+          "bytes": 17908,
+          "sha256": "5ae5acea86a646b5c17ea960211b526c55a787e6aa47200a214d2a28808f717c",
+          "decodeEncoding": "utf-8"
+        },
+        {
+          "path": "src/gl/array.h",
+          "url": "https://raw.githubusercontent.com/ptitSeb/gl4es/c9895df34cd466c23bc60c2bd3db3d87e98fcbe7/src/gl/array.h",
+          "bytes": 2647,
+          "sha256": "d315361ea20947274826aac56b178a3bf43f97a20aef98ac8246d5ee5594e17a",
+          "decodeEncoding": "utf-8"
+        },
+        {
+          "path": "src/gl/attributes.h",
+          "url": "https://raw.githubusercontent.com/ptitSeb/gl4es/c9895df34cd466c23bc60c2bd3db3d87e98fcbe7/src/gl/attributes.h",
+          "bytes": 5920,
+          "sha256": "c65c44765d2c00bb1f360f7ce51fcd7c0d2d25edd56e732810bb4421106f1467",
+          "decodeEncoding": "utf-8"
+        },
+        {
+          "path": "src/gl/blend.c",
+          "url": "https://raw.githubusercontent.com/ptitSeb/gl4es/c9895df34cd466c23bc60c2bd3db3d87e98fcbe7/src/gl/blend.c",
+          "bytes": 10196,
+          "sha256": "82f5d2341f6ee2a21a97bae59cc00c288810c9d36a4e8571287fc464d5debc82",
+          "decodeEncoding": "utf-8"
+        },
+        {
+          "path": "src/gl/blend.h",
+          "url": "https://raw.githubusercontent.com/ptitSeb/gl4es/c9895df34cd466c23bc60c2bd3db3d87e98fcbe7/src/gl/blend.h",
+          "bytes": 530,
+          "sha256": "fc2a1e04927a26f489556b51a9811a2d4fee6dfaafe32f369769d20f41af1d54",
+          "decodeEncoding": "utf-8"
+        },
+        {
+          "path": "src/gl/blit.c",
+          "url": "https://raw.githubusercontent.com/ptitSeb/gl4es/c9895df34cd466c23bc60c2bd3db3d87e98fcbe7/src/gl/blit.c",
+          "bytes": 16286,
+          "sha256": "056e67703a300d8b29c59c6dbb85c6e068589e2089ff896a1d66cea5b1f0578c",
+          "decodeEncoding": "utf-8"
+        },
+        {
+          "path": "src/gl/blit.h",
+          "url": "https://raw.githubusercontent.com/ptitSeb/gl4es/c9895df34cd466c23bc60c2bd3db3d87e98fcbe7/src/gl/blit.h",
+          "bytes": 427,
+          "sha256": "4c26875a9a8c90d49ca2cdec022ce29bd7cc13bfe72c7bba1f4db777c4efaa8f",
+          "decodeEncoding": "utf-8"
+        },
+        {
+          "path": "src/gl/buffers.c",
+          "url": "https://raw.githubusercontent.com/ptitSeb/gl4es/c9895df34cd466c23bc60c2bd3db3d87e98fcbe7/src/gl/buffers.c",
+          "bytes": 32507,
+          "sha256": "1b4e361bb88461288b67b38c56f380abdeb22a0d45d321d097af1fce3c1d5f96",
+          "decodeEncoding": "utf-8"
+        },
+        {
+          "path": "src/gl/buffers.h",
+          "url": "https://raw.githubusercontent.com/ptitSeb/gl4es/c9895df34cd466c23bc60c2bd3db3d87e98fcbe7/src/gl/buffers.h",
+          "bytes": 10388,
+          "sha256": "a3e2129beaf1b584922f86d9d889d9c9301369948e69e85cafa111dc8e5e9c53",
+          "decodeEncoding": "utf-8"
+        },
+        {
+          "path": "src/gl/build_info.c",
+          "url": "https://raw.githubusercontent.com/ptitSeb/gl4es/c9895df34cd466c23bc60c2bd3db3d87e98fcbe7/src/gl/build_info.c",
+          "bytes": 204,
+          "sha256": "56972c9f23647f858eb504e21ee234a77f2369a695804c9c6ad02eee772f5bcb",
+          "decodeEncoding": "utf-8"
+        },
+        {
+          "path": "src/gl/build_info.h",
+          "url": "https://raw.githubusercontent.com/ptitSeb/gl4es/c9895df34cd466c23bc60c2bd3db3d87e98fcbe7/src/gl/build_info.h",
+          "bytes": 117,
+          "sha256": "8ee5acaacaecab4b3ebd29e5fdccbaa7c93c64992eef67ac993edcd6fcb63410",
+          "decodeEncoding": "utf-8"
+        },
+        {
+          "path": "src/gl/const.h",
+          "url": "https://raw.githubusercontent.com/ptitSeb/gl4es/c9895df34cd466c23bc60c2bd3db3d87e98fcbe7/src/gl/const.h",
+          "bytes": 39621,
+          "sha256": "49638ee1d1c79386aa30aedba74b519094be2b69401d51ceaf8cd199465168e1",
+          "decodeEncoding": "utf-8"
+        },
+        {
+          "path": "src/gl/debug.c",
+          "url": "https://raw.githubusercontent.com/ptitSeb/gl4es/c9895df34cd466c23bc60c2bd3db3d87e98fcbe7/src/gl/debug.c",
+          "bytes": 12488,
+          "sha256": "15942fe7f445a567369be33e93fd841613eade135516355d7df7a2a37c98e96c",
+          "decodeEncoding": "utf-8"
+        },
+        {
+          "path": "src/gl/debug.h",
+          "url": "https://raw.githubusercontent.com/ptitSeb/gl4es/c9895df34cd466c23bc60c2bd3db3d87e98fcbe7/src/gl/debug.h",
+          "bytes": 203,
+          "sha256": "0cd0887186db31582c7afd20353a2af2c2c8c973c55cca99365e1acfb1dd6cad",
+          "decodeEncoding": "utf-8"
+        },
+        {
+          "path": "src/gl/decompress.c",
+          "url": "https://raw.githubusercontent.com/ptitSeb/gl4es/c9895df34cd466c23bc60c2bd3db3d87e98fcbe7/src/gl/decompress.c",
+          "bytes": 10580,
+          "sha256": "a4d88217280fa39707b5ec2e7362760824275b23771e873c246165b091a4d266",
+          "decodeEncoding": "utf-8"
+        },
+        {
+          "path": "src/gl/decompress.h",
+          "url": "https://raw.githubusercontent.com/ptitSeb/gl4es/c9895df34cd466c23bc60c2bd3db3d87e98fcbe7/src/gl/decompress.h",
+          "bytes": 624,
+          "sha256": "27bd44617d08cf8c8461b0bb1b628fc34127bc0a67326adb42d1ed046ccd2ce6",
+          "decodeEncoding": "utf-8"
+        },
+        {
+          "path": "src/gl/depth.c",
+          "url": "https://raw.githubusercontent.com/ptitSeb/gl4es/c9895df34cd466c23bc60c2bd3db3d87e98fcbe7/src/gl/depth.c",
+          "bytes": 1800,
+          "sha256": "ba17a37f3a83ad95489a8b00b62ea3511ea6e0ff62d1f3488ee73334139de244",
+          "decodeEncoding": "utf-8"
+        },
+        {
+          "path": "src/gl/depth.h",
+          "url": "https://raw.githubusercontent.com/ptitSeb/gl4es/c9895df34cd466c23bc60c2bd3db3d87e98fcbe7/src/gl/depth.h",
+          "bytes": 335,
+          "sha256": "213e6e58953419b6ab70362717675bc9264f6a3d7a3626aad5052764587d85bb",
+          "decodeEncoding": "utf-8"
+        },
+        {
+          "path": "src/gl/directstate.c",
+          "url": "https://raw.githubusercontent.com/ptitSeb/gl4es/c9895df34cd466c23bc60c2bd3db3d87e98fcbe7/src/gl/directstate.c",
+          "bytes": 42219,
+          "sha256": "a805b7631f331a2437eeaa358037fc69fe42c9d9450800ecc04aac2944dde613",
+          "decodeEncoding": "utf-8"
+        },
+        {
+          "path": "src/gl/directstate.h",
+          "url": "https://raw.githubusercontent.com/ptitSeb/gl4es/c9895df34cd466c23bc60c2bd3db3d87e98fcbe7/src/gl/directstate.h",
+          "bytes": 14122,
+          "sha256": "223889455185e8a7a89b3ab6ba73a50b33e5dddba7b0d9857067b3be7a7ade24",
+          "decodeEncoding": "utf-8"
+        },
+        {
+          "path": "src/gl/drawing.c",
+          "url": "https://raw.githubusercontent.com/ptitSeb/gl4es/c9895df34cd466c23bc60c2bd3db3d87e98fcbe7/src/gl/drawing.c",
+          "bytes": 66662,
+          "sha256": "998eed9189de2693f38766b9504f9aed99cb70699305c4d1b38d067e0ad2f3c7",
+          "decodeEncoding": "utf-8"
+        },
+        {
+          "path": "src/gl/enable.c",
+          "url": "https://raw.githubusercontent.com/ptitSeb/gl4es/c9895df34cd466c23bc60c2bd3db3d87e98fcbe7/src/gl/enable.c",
+          "bytes": 19157,
+          "sha256": "bad4790a34a80ae34c1b1fa0c1de30bf98bc46fe3ae61b5b1c39de04bb9ed666",
+          "decodeEncoding": "utf-8"
+        },
+        {
+          "path": "src/gl/enum_info.h",
+          "url": "https://raw.githubusercontent.com/ptitSeb/gl4es/c9895df34cd466c23bc60c2bd3db3d87e98fcbe7/src/gl/enum_info.h",
+          "bytes": 4400,
+          "sha256": "88ff2fb94332e34938cb41fd74453d1bdcab61d45c9417242689df5f2471f806",
+          "decodeEncoding": "utf-8"
+        },
+        {
+          "path": "src/gl/envvars.c",
+          "url": "https://raw.githubusercontent.com/ptitSeb/gl4es/c9895df34cd466c23bc60c2bd3db3d87e98fcbe7/src/gl/envvars.c",
+          "bytes": 2354,
+          "sha256": "2a1ec21bf871a7250cd0fe49ec6b07b4b3c34c0061954e1628e7e6baebc552b0",
+          "decodeEncoding": "utf-8"
+        },
+        {
+          "path": "src/gl/envvars.h",
+          "url": "https://raw.githubusercontent.com/ptitSeb/gl4es/c9895df34cd466c23bc60c2bd3db3d87e98fcbe7/src/gl/envvars.h",
+          "bytes": 1046,
+          "sha256": "80136c245055570a3899d08955e8ed246bb4c724b6a0679d3a8df70a2d735409",
+          "decodeEncoding": "utf-8"
+        },
+        {
+          "path": "src/gl/eval.c",
+          "url": "https://raw.githubusercontent.com/ptitSeb/gl4es/c9895df34cd466c23bc60c2bd3db3d87e98fcbe7/src/gl/eval.c",
+          "bytes": 15504,
+          "sha256": "9e46d53eff34b780e917a041f2d7e46e331dae0224386df16891c42023d73198",
+          "decodeEncoding": "utf-8"
+        },
+        {
+          "path": "src/gl/eval.h",
+          "url": "https://raw.githubusercontent.com/ptitSeb/gl4es/c9895df34cd466c23bc60c2bd3db3d87e98fcbe7/src/gl/eval.h",
+          "bytes": 3318,
+          "sha256": "993cecd3439bc467a34f4b59a8210c8547fd551bdd90c8e4f348cccaf3d0d976",
+          "decodeEncoding": "utf-8"
+        },
+        {
+          "path": "src/gl/face.c",
+          "url": "https://raw.githubusercontent.com/ptitSeb/gl4es/c9895df34cd466c23bc60c2bd3db3d87e98fcbe7/src/gl/face.c",
+          "bytes": 1035,
+          "sha256": "b3a9e30c3ee2e80dc77dc2b1762abcead19e4c6025f2efa9e83f234111779cda",
+          "decodeEncoding": "utf-8"
+        },
+        {
+          "path": "src/gl/face.h",
+          "url": "https://raw.githubusercontent.com/ptitSeb/gl4es/c9895df34cd466c23bc60c2bd3db3d87e98fcbe7/src/gl/face.h",
+          "bytes": 195,
+          "sha256": "6f8eb1793e2aa5d70efc401797d17b4480759f654c7feb9887a6ac9f51346118",
+          "decodeEncoding": "utf-8"
+        },
+        {
+          "path": "src/gl/fog.c",
+          "url": "https://raw.githubusercontent.com/ptitSeb/gl4es/c9895df34cd466c23bc60c2bd3db3d87e98fcbe7/src/gl/fog.c",
+          "bytes": 3758,
+          "sha256": "f7eeb7355987519e9dd04633c283300323e1495c443f6f9eef6494e5852597e7",
+          "decodeEncoding": "utf-8"
+        },
+        {
+          "path": "src/gl/fog.h",
+          "url": "https://raw.githubusercontent.com/ptitSeb/gl4es/c9895df34cd466c23bc60c2bd3db3d87e98fcbe7/src/gl/fog.h",
+          "bytes": 593,
+          "sha256": "d41d69fa7f812957f458881b043c657057f97ea467b64b1c0851a6278eeeaad4",
+          "decodeEncoding": "utf-8"
+        },
+        {
+          "path": "src/gl/fpe.c",
+          "url": "https://raw.githubusercontent.com/ptitSeb/gl4es/c9895df34cd466c23bc60c2bd3db3d87e98fcbe7/src/gl/fpe.c",
+          "bytes": 100740,
+          "sha256": "125ace5f2db5ef48eeab379c91973decfd49f4084c7c7c1fc5bb48dcbaf2fe52",
+          "decodeEncoding": "utf-8"
+        },
+        {
+          "path": "src/gl/fpe.h",
+          "url": "https://raw.githubusercontent.com/ptitSeb/gl4es/c9895df34cd466c23bc60c2bd3db3d87e98fcbe7/src/gl/fpe.h",
+          "bytes": 12624,
+          "sha256": "a294629cb7ab94d2aaec216e8877093ddf8a2621d733c2b25d117e5ad1d34a1f",
+          "decodeEncoding": "utf-8"
+        },
+        {
+          "path": "src/gl/fpe_cache.c",
+          "url": "https://raw.githubusercontent.com/ptitSeb/gl4es/c9895df34cd466c23bc60c2bd3db3d87e98fcbe7/src/gl/fpe_cache.c",
+          "bytes": 7030,
+          "sha256": "979314378afa4455d72d9e9f3e328cafbc388769ead6ad3c8490ee89979c6b5d",
+          "decodeEncoding": "utf-8"
+        },
+        {
+          "path": "src/gl/fpe_cache.h",
+          "url": "https://raw.githubusercontent.com/ptitSeb/gl4es/c9895df34cd466c23bc60c2bd3db3d87e98fcbe7/src/gl/fpe_cache.h",
+          "bytes": 676,
+          "sha256": "b09ccd052445f8d39bc07edb69b02813335bab21a3ed938e9758b4adba4d71f4",
+          "decodeEncoding": "utf-8"
+        },
+        {
+          "path": "src/gl/fpe_shader.c",
+          "url": "https://raw.githubusercontent.com/ptitSeb/gl4es/c9895df34cd466c23bc60c2bd3db3d87e98fcbe7/src/gl/fpe_shader.c",
+          "bytes": 96303,
+          "sha256": "197865e10113c60eeaa8f2f9ed969be699d7c8e6373079c9d5d9736113a8ea46",
+          "decodeEncoding": "utf-8"
+        },
+        {
+          "path": "src/gl/fpe_shader.h",
+          "url": "https://raw.githubusercontent.com/ptitSeb/gl4es/c9895df34cd466c23bc60c2bd3db3d87e98fcbe7/src/gl/fpe_shader.h",
+          "bytes": 509,
+          "sha256": "af818403a207f052fd010231571a369fe07d383d40c8c8a449b4df861cfbe104",
+          "decodeEncoding": "utf-8"
+        },
+        {
+          "path": "src/gl/framebuffers.c",
+          "url": "https://raw.githubusercontent.com/ptitSeb/gl4es/c9895df34cd466c23bc60c2bd3db3d87e98fcbe7/src/gl/framebuffers.c",
+          "bytes": 82484,
+          "sha256": "9d1a92a75c8950d15a2c01f917f75e38cc9d83baf76c5404bbc1a3bb0cfd07ab",
+          "decodeEncoding": "utf-8"
+        },
+        {
+          "path": "src/gl/framebuffers.h",
+          "url": "https://raw.githubusercontent.com/ptitSeb/gl4es/c9895df34cd466c23bc60c2bd3db3d87e98fcbe7/src/gl/framebuffers.h",
+          "bytes": 4001,
+          "sha256": "1f32f5a8d611db872966a8c82030d899f822c4bdd67c48d354d4724144030849",
+          "decodeEncoding": "utf-8"
+        },
+        {
+          "path": "src/gl/getter.c",
+          "url": "https://raw.githubusercontent.com/ptitSeb/gl4es/c9895df34cd466c23bc60c2bd3db3d87e98fcbe7/src/gl/getter.c",
+          "bytes": 43183,
+          "sha256": "57071c0522a5475b2ecad2e171f4ecd2d6d4144e62f8e5eda956bb13d1f650e5",
+          "decodeEncoding": "utf-8"
+        },
+        {
+          "path": "src/gl/gl4es.c",
+          "url": "https://raw.githubusercontent.com/ptitSeb/gl4es/c9895df34cd466c23bc60c2bd3db3d87e98fcbe7/src/gl/gl4es.c",
+          "bytes": 44909,
+          "sha256": "354a3407e27b3b71af94e9fbe591c25631f488dc2f1a06a9adb59de42c0586f4",
+          "decodeEncoding": "utf-8"
+        },
+        {
+          "path": "src/gl/gl4es.h",
+          "url": "https://raw.githubusercontent.com/ptitSeb/gl4es/c9895df34cd466c23bc60c2bd3db3d87e98fcbe7/src/gl/gl4es.h",
+          "bytes": 8135,
+          "sha256": "9bbf9bbeb9d3a8117934bfb2e0af666c792b93e0ea5a6a194860fed86b2b5dcb",
+          "decodeEncoding": "utf-8"
+        },
+        {
+          "path": "src/gl/gl_lookup.c",
+          "url": "https://raw.githubusercontent.com/ptitSeb/gl4es/c9895df34cd466c23bc60c2bd3db3d87e98fcbe7/src/gl/gl_lookup.c",
+          "bytes": 31019,
+          "sha256": "dd23db2f8ffdda046d7f48a8ffe499080e5441aa4343689c46b248d601f283c9",
+          "decodeEncoding": "utf-8"
+        },
+        {
+          "path": "src/gl/gl_lookup.h",
+          "url": "https://raw.githubusercontent.com/ptitSeb/gl4es/c9895df34cd466c23bc60c2bd3db3d87e98fcbe7/src/gl/gl_lookup.h",
+          "bytes": 1352,
+          "sha256": "cb207cfed2b0607e0946af34dde453fbf215e18b76de979661b4953258ae6d98",
+          "decodeEncoding": "utf-8"
+        },
+        {
+          "path": "src/gl/glcase.h",
+          "url": "https://raw.githubusercontent.com/ptitSeb/gl4es/c9895df34cd466c23bc60c2bd3db3d87e98fcbe7/src/gl/glcase.h",
+          "bytes": 4705,
+          "sha256": "9e96feff78c2a0c62f7a4663dfc179b8b6e5d8d637598ba09e136f8c9110863f",
+          "decodeEncoding": "utf-8"
+        },
+        {
+          "path": "src/gl/gles.h",
+          "url": "https://raw.githubusercontent.com/ptitSeb/gl4es/c9895df34cd466c23bc60c2bd3db3d87e98fcbe7/src/gl/gles.h",
+          "bytes": 46265,
+          "sha256": "c01666945dd299bf402c3739b3e4dd76a225a844d05eaf70c7d4242ca1200266",
+          "decodeEncoding": "utf-8"
+        },
+        {
+          "path": "src/gl/glstate.c",
+          "url": "https://raw.githubusercontent.com/ptitSeb/gl4es/c9895df34cd466c23bc60c2bd3db3d87e98fcbe7/src/gl/glstate.c",
+          "bytes": 23444,
+          "sha256": "128efac11771f7bde532754b4f967fa17c2c0598fa9b03e7da9efa4441e1fe7d",
+          "decodeEncoding": "utf-8"
+        },
+        {
+          "path": "src/gl/glstate.h",
+          "url": "https://raw.githubusercontent.com/ptitSeb/gl4es/c9895df34cd466c23bc60c2bd3db3d87e98fcbe7/src/gl/glstate.h",
+          "bytes": 5178,
+          "sha256": "99e3fbe3282e8342e4979f6647bdf4bb1e90b27a170eade25d042918abcbc26d",
+          "decodeEncoding": "utf-8"
+        },
+        {
+          "path": "src/gl/hint.c",
+          "url": "https://raw.githubusercontent.com/ptitSeb/gl4es/c9895df34cd466c23bc60c2bd3db3d87e98fcbe7/src/gl/hint.c",
+          "bytes": 3980,
+          "sha256": "13e4c6c199288db083cad6d3b27f3663add2ff9404586ccc154c7f1939b29357",
+          "decodeEncoding": "utf-8"
+        },
+        {
+          "path": "src/gl/hint.h",
+          "url": "https://raw.githubusercontent.com/ptitSeb/gl4es/c9895df34cd466c23bc60c2bd3db3d87e98fcbe7/src/gl/hint.h",
+          "bytes": 153,
+          "sha256": "4d049a1c331f5d5159462aca1e61f60a4f6c66bb2c6435fbce8eacab2e4c61c6",
+          "decodeEncoding": "utf-8"
+        },
+        {
+          "path": "src/gl/init.c",
+          "url": "https://raw.githubusercontent.com/ptitSeb/gl4es/c9895df34cd466c23bc60c2bd3db3d87e98fcbe7/src/gl/init.c",
+          "bytes": 24077,
+          "sha256": "a06f74302a088e902facaf5eb9b8e5193a39a13c8fb09cf227532c4929542ac4",
+          "decodeEncoding": "utf-8"
+        },
+        {
+          "path": "src/gl/init.h",
+          "url": "https://raw.githubusercontent.com/ptitSeb/gl4es/c9895df34cd466c23bc60c2bd3db3d87e98fcbe7/src/gl/init.h",
+          "bytes": 1726,
+          "sha256": "547c9da1cdf6472ba44e36d15b09063a131b9ccb2017ac270ad9540e0a3eb078",
+          "decodeEncoding": "utf-8"
+        },
+        {
+          "path": "src/gl/light.c",
+          "url": "https://raw.githubusercontent.com/ptitSeb/gl4es/c9895df34cd466c23bc60c2bd3db3d87e98fcbe7/src/gl/light.c",
+          "bytes": 17504,
+          "sha256": "763cc0ed17fe22c7746d8d37d19bcc4fca0759331f4cd8f87394cf57a0df2fe5",
+          "decodeEncoding": "utf-8"
+        },
+        {
+          "path": "src/gl/light.h",
+          "url": "https://raw.githubusercontent.com/ptitSeb/gl4es/c9895df34cd466c23bc60c2bd3db3d87e98fcbe7/src/gl/light.h",
+          "bytes": 1778,
+          "sha256": "4a95092b77b24d047dab8e6d614f9c0a28cf67a366c6653f0eb2d3c61c45c00b",
+          "decodeEncoding": "utf-8"
+        },
+        {
+          "path": "src/gl/line.c",
+          "url": "https://raw.githubusercontent.com/ptitSeb/gl4es/c9895df34cd466c23bc60c2bd3db3d87e98fcbe7/src/gl/line.c",
+          "bytes": 6966,
+          "sha256": "1a3c0f381e9f075f4055d16c5ffb7ee5c70c2013ae7c08f45bfc578045f26548",
+          "decodeEncoding": "utf-8"
+        },
+        {
+          "path": "src/gl/line.h",
+          "url": "https://raw.githubusercontent.com/ptitSeb/gl4es/c9895df34cd466c23bc60c2bd3db3d87e98fcbe7/src/gl/line.h",
+          "bytes": 338,
+          "sha256": "96458692dcecd51adf59f2b75993fb9e9dc614f6a68302bffca0870d45a1e537",
+          "decodeEncoding": "utf-8"
+        },
+        {
+          "path": "src/gl/list.c",
+          "url": "https://raw.githubusercontent.com/ptitSeb/gl4es/c9895df34cd466c23bc60c2bd3db3d87e98fcbe7/src/gl/list.c",
+          "bytes": 34070,
+          "sha256": "45de89fe1f1848bf058b6c9baccd0b5ea9e9f08ed34268e59ed8f6dc1f6ee750",
+          "decodeEncoding": "utf-8"
+        },
+        {
+          "path": "src/gl/list.h",
+          "url": "https://raw.githubusercontent.com/ptitSeb/gl4es/c9895df34cd466c23bc60c2bd3db3d87e98fcbe7/src/gl/list.h",
+          "bytes": 9219,
+          "sha256": "c8e60d6fd8f08da590b1b3857621babebb16e898904fdc3606621603ae35269e",
+          "decodeEncoding": "utf-8"
+        },
+        {
+          "path": "src/gl/listdraw.c",
+          "url": "https://raw.githubusercontent.com/ptitSeb/gl4es/c9895df34cd466c23bc60c2bd3db3d87e98fcbe7/src/gl/listdraw.c",
+          "bytes": 38811,
+          "sha256": "d16507ab9d64a1f10137679b40e7498f32c6108b393b45be398fef6118b8b6aa",
+          "decodeEncoding": "utf-8"
+        },
+        {
+          "path": "src/gl/listrl.c",
+          "url": "https://raw.githubusercontent.com/ptitSeb/gl4es/c9895df34cd466c23bc60c2bd3db3d87e98fcbe7/src/gl/listrl.c",
+          "bytes": 18968,
+          "sha256": "86d0a5612cb4d38ac1cfc61ab16933a1c6cf3f4501b5a911680298a47345cb3e",
+          "decodeEncoding": "utf-8"
+        },
+        {
+          "path": "src/gl/loader.c",
+          "url": "https://raw.githubusercontent.com/ptitSeb/gl4es/c9895df34cd466c23bc60c2bd3db3d87e98fcbe7/src/gl/loader.c",
+          "bytes": 4969,
+          "sha256": "d24da99c542fed10b9971e7ee6542fd184e78abed37ef456c66deac16b0788d7",
+          "decodeEncoding": "utf-8"
+        },
+        {
+          "path": "src/gl/loader.h",
+          "url": "https://raw.githubusercontent.com/ptitSeb/gl4es/c9895df34cd466c23bc60c2bd3db3d87e98fcbe7/src/gl/loader.h",
+          "bytes": 11569,
+          "sha256": "540f4b62a52fc666a05e9170158d284b089631cc18cda4f92ce1fe673e1b81f1",
+          "decodeEncoding": "utf-8"
+        },
+        {
+          "path": "src/gl/logs.c",
+          "url": "https://raw.githubusercontent.com/ptitSeb/gl4es/c9895df34cd466c23bc60c2bd3db3d87e98fcbe7/src/gl/logs.c",
+          "bytes": 1422,
+          "sha256": "65da1cf0c53134f5b0c696ad18be71b3c366ef17e1f3701db8a72265b7662dd3",
+          "decodeEncoding": "utf-8"
+        },
+        {
+          "path": "src/gl/logs.h",
+          "url": "https://raw.githubusercontent.com/ptitSeb/gl4es/c9895df34cd466c23bc60c2bd3db3d87e98fcbe7/src/gl/logs.h",
+          "bytes": 1120,
+          "sha256": "240f0bdbcf3a99c68238b4f244f906fa80580ae3d2bf3485b4497ee481361b00",
+          "decodeEncoding": "utf-8"
+        },
+        {
+          "path": "src/gl/math/eval.h",
+          "url": "https://raw.githubusercontent.com/ptitSeb/gl4es/c9895df34cd466c23bc60c2bd3db3d87e98fcbe7/src/gl/math/eval.h",
+          "bytes": 3571,
+          "sha256": "b37b704b7e93bd9f1962ebbcf6b63c73a2633ff3b474fccca0a7c6b40f414d33",
+          "decodeEncoding": "utf-8"
+        },
+        {
+          "path": "src/gl/math/matheval.c",
+          "url": "https://raw.githubusercontent.com/ptitSeb/gl4es/c9895df34cd466c23bc60c2bd3db3d87e98fcbe7/src/gl/math/matheval.c",
+          "bytes": 17502,
+          "sha256": "b315775e4d89ebe7fb6c9b98750d52b834841207faada69f8dee21168ffce499",
+          "decodeEncoding": "utf-8"
+        },
+        {
+          "path": "src/gl/matrix.c",
+          "url": "https://raw.githubusercontent.com/ptitSeb/gl4es/c9895df34cd466c23bc60c2bd3db3d87e98fcbe7/src/gl/matrix.c",
+          "bytes": 13991,
+          "sha256": "edabe47c77d8fe3ae5bb2635f2734456c52eea7a5a5f73e66185c4568a1a9b58",
+          "decodeEncoding": "utf-8"
+        },
+        {
+          "path": "src/gl/matrix.h",
+          "url": "https://raw.githubusercontent.com/ptitSeb/gl4es/c9895df34cd466c23bc60c2bd3db3d87e98fcbe7/src/gl/matrix.h",
+          "bytes": 2057,
+          "sha256": "cccc11fa7a80ff3516f0ac70642aab0e86a573315a7287600a60ed8f48cbbff0",
+          "decodeEncoding": "utf-8"
+        },
+        {
+          "path": "src/gl/matvec.c",
+          "url": "https://raw.githubusercontent.com/ptitSeb/gl4es/c9895df34cd466c23bc60c2bd3db3d87e98fcbe7/src/gl/matvec.c",
+          "bytes": 15013,
+          "sha256": "90d0e7f29b3e448c160803e2414aaab365f81cc0383b1d57770d347ab79a1bce",
+          "decodeEncoding": "utf-8"
+        },
+        {
+          "path": "src/gl/matvec.h",
+          "url": "https://raw.githubusercontent.com/ptitSeb/gl4es/c9895df34cd466c23bc60c2bd3db3d87e98fcbe7/src/gl/matvec.h",
+          "bytes": 1126,
+          "sha256": "3cb9d28193788b186e117efe071a93d1132fc68834914b4a7431b0d9499e2ca8",
+          "decodeEncoding": "utf-8"
+        },
+        {
+          "path": "src/gl/oldprogram.c",
+          "url": "https://raw.githubusercontent.com/ptitSeb/gl4es/c9895df34cd466c23bc60c2bd3db3d87e98fcbe7/src/gl/oldprogram.c",
+          "bytes": 33399,
+          "sha256": "126fcfa822c24f71d08af9a3c3564ea2f1aa9f5767c9107d5b472b7b09a7da60",
+          "decodeEncoding": "utf-8"
+        },
+        {
+          "path": "src/gl/oldprogram.h",
+          "url": "https://raw.githubusercontent.com/ptitSeb/gl4es/c9895df34cd466c23bc60c2bd3db3d87e98fcbe7/src/gl/oldprogram.h",
+          "bytes": 3608,
+          "sha256": "7acfe71cdba41b5b2f53812df81581db0c0d3ec4988857483bfb218012064e94",
+          "decodeEncoding": "utf-8"
+        },
+        {
+          "path": "src/gl/pixel.c",
+          "url": "https://raw.githubusercontent.com/ptitSeb/gl4es/c9895df34cd466c23bc60c2bd3db3d87e98fcbe7/src/gl/pixel.c",
+          "bytes": 61862,
+          "sha256": "04f80c106db619ec7fdac6aff6b3ac10a470804c8c0dba2e7f0cf4775fa121fa",
+          "decodeEncoding": "utf-8"
+        },
+        {
+          "path": "src/gl/pixel.h",
+          "url": "https://raw.githubusercontent.com/ptitSeb/gl4es/c9895df34cd466c23bc60c2bd3db3d87e98fcbe7/src/gl/pixel.h",
+          "bytes": 1928,
+          "sha256": "37851fd5a4ade33cde56c1fad91dd15d8ac441c1d3379ee85dcaffd0d09509bc",
+          "decodeEncoding": "utf-8"
+        },
+        {
+          "path": "src/gl/planes.c",
+          "url": "https://raw.githubusercontent.com/ptitSeb/gl4es/c9895df34cd466c23bc60c2bd3db3d87e98fcbe7/src/gl/planes.c",
+          "bytes": 1410,
+          "sha256": "4988ecf1072ec25f5ca20d401220c8e980cc40a1f1e10ec6436dfc39fd53fbbc",
+          "decodeEncoding": "utf-8"
+        },
+        {
+          "path": "src/gl/planes.h",
+          "url": "https://raw.githubusercontent.com/ptitSeb/gl4es/c9895df34cd466c23bc60c2bd3db3d87e98fcbe7/src/gl/planes.h",
+          "bytes": 177,
+          "sha256": "148da2a3245701a41c3d12b1327ba2f13569be26461a529a61c702f20b52618f",
+          "decodeEncoding": "utf-8"
+        },
+        {
+          "path": "src/gl/pointsprite.c",
+          "url": "https://raw.githubusercontent.com/ptitSeb/gl4es/c9895df34cd466c23bc60c2bd3db3d87e98fcbe7/src/gl/pointsprite.c",
+          "bytes": 4330,
+          "sha256": "2228b59f1220c9f2376331049167effef2f30beb8f1a82ecb4b893ea68919ca9",
+          "decodeEncoding": "utf-8"
+        },
+        {
+          "path": "src/gl/pointsprite.h",
+          "url": "https://raw.githubusercontent.com/ptitSeb/gl4es/c9895df34cd466c23bc60c2bd3db3d87e98fcbe7/src/gl/pointsprite.h",
+          "bytes": 655,
+          "sha256": "4bd4d5e13b9b66b7c4e773af229af7b44906a48bee989ee2f43c8dc6aeb69708",
+          "decodeEncoding": "utf-8"
+        },
+        {
+          "path": "src/gl/preproc.c",
+          "url": "https://raw.githubusercontent.com/ptitSeb/gl4es/c9895df34cd466c23bc60c2bd3db3d87e98fcbe7/src/gl/preproc.c",
+          "bytes": 29206,
+          "sha256": "b169ef622be48e63d5dcff8293bed6ab39b20cfa69cf12c494c4aa2da6ff4c30",
+          "decodeEncoding": "utf-8"
+        },
+        {
+          "path": "src/gl/preproc.h",
+          "url": "https://raw.githubusercontent.com/ptitSeb/gl4es/c9895df34cd466c23bc60c2bd3db3d87e98fcbe7/src/gl/preproc.h",
+          "bytes": 405,
+          "sha256": "16011900844217e8c4c5837b4a115a6b7fd6d30dab8dd8b6569b8b6ba30bbaa8",
+          "decodeEncoding": "utf-8"
+        },
+        {
+          "path": "src/gl/program.c",
+          "url": "https://raw.githubusercontent.com/ptitSeb/gl4es/c9895df34cd466c23bc60c2bd3db3d87e98fcbe7/src/gl/program.c",
+          "bytes": 36121,
+          "sha256": "187e6445a87a83bf2f0eee9b1555b7ec1216a1e47f8e7b1764a6ce3d9674331f",
+          "decodeEncoding": "utf-8"
+        },
+        {
+          "path": "src/gl/program.h",
+          "url": "https://raw.githubusercontent.com/ptitSeb/gl4es/c9895df34cd466c23bc60c2bd3db3d87e98fcbe7/src/gl/program.h",
+          "bytes": 14674,
+          "sha256": "b8b1d9bfe28d4d3210404fad187f3afa6bb7bbf108f7ba415d84afad9c018a38",
+          "decodeEncoding": "utf-8"
+        },
+        {
+          "path": "src/gl/queries.c",
+          "url": "https://raw.githubusercontent.com/ptitSeb/gl4es/c9895df34cd466c23bc60c2bd3db3d87e98fcbe7/src/gl/queries.c",
+          "bytes": 8646,
+          "sha256": "4d0765cb9bb1ca00ae5e9f8485bfa91af66d8c968bf3ea363467e518ee13b97f",
+          "decodeEncoding": "utf-8"
+        },
+        {
+          "path": "src/gl/queries.h",
+          "url": "https://raw.githubusercontent.com/ptitSeb/gl4es/c9895df34cd466c23bc60c2bd3db3d87e98fcbe7/src/gl/queries.h",
+          "bytes": 973,
+          "sha256": "1897cf54af76044be45a304dee62e31ada330783fd323bd34baffa56ca699a36",
+          "decodeEncoding": "utf-8"
+        },
+        {
+          "path": "src/gl/raster.c",
+          "url": "https://raw.githubusercontent.com/ptitSeb/gl4es/c9895df34cd466c23bc60c2bd3db3d87e98fcbe7/src/gl/raster.c",
+          "bytes": 27550,
+          "sha256": "7d098471cc7b3c017c6f347c8d66e01a8f245345f48529702c149bc8126107a3",
+          "decodeEncoding": "utf-8"
+        },
+        {
+          "path": "src/gl/raster.h",
+          "url": "https://raw.githubusercontent.com/ptitSeb/gl4es/c9895df34cd466c23bc60c2bd3db3d87e98fcbe7/src/gl/raster.h",
+          "bytes": 1780,
+          "sha256": "1152db5e0582f3acdcee491e45c8ca8cbfceccc9495e7d93a6189fe1b34140e3",
+          "decodeEncoding": "utf-8"
+        },
+        {
+          "path": "src/gl/render.c",
+          "url": "https://raw.githubusercontent.com/ptitSeb/gl4es/c9895df34cd466c23bc60c2bd3db3d87e98fcbe7/src/gl/render.c",
+          "bytes": 14691,
+          "sha256": "b796796f8d7e8989bbba1e9ed3688b18c5c321f931195f94995fc0a826cc0aaa",
+          "decodeEncoding": "utf-8"
+        },
+        {
+          "path": "src/gl/render.h",
+          "url": "https://raw.githubusercontent.com/ptitSeb/gl4es/c9895df34cd466c23bc60c2bd3db3d87e98fcbe7/src/gl/render.h",
+          "bytes": 643,
+          "sha256": "dff790eece5f8fb13c4d57f7daa845fca3329e7043cd02e49302012877788544",
+          "decodeEncoding": "utf-8"
+        },
+        {
+          "path": "src/gl/samplers.c",
+          "url": "https://raw.githubusercontent.com/ptitSeb/gl4es/c9895df34cd466c23bc60c2bd3db3d87e98fcbe7/src/gl/samplers.c",
+          "bytes": 12010,
+          "sha256": "9fe856b682e5891c7f14f2f4c8171b759827d80d989a247abcf7edd42c61e14c",
+          "decodeEncoding": "utf-8"
+        },
+        {
+          "path": "src/gl/samplers.h",
+          "url": "https://raw.githubusercontent.com/ptitSeb/gl4es/c9895df34cd466c23bc60c2bd3db3d87e98fcbe7/src/gl/samplers.h",
+          "bytes": 1117,
+          "sha256": "5fa16b1e461c7265d03c6ca3a91a06ef2891f40f59e399e1389d0f7f9659da9c",
+          "decodeEncoding": "utf-8"
+        },
+        {
+          "path": "src/gl/shader.c",
+          "url": "https://raw.githubusercontent.com/ptitSeb/gl4es/c9895df34cd466c23bc60c2bd3db3d87e98fcbe7/src/gl/shader.c",
+          "bytes": 13739,
+          "sha256": "0d34bdad89c503116df5e72ea6f1c1eddf657cf11ea1bafc25c6530d9efc71cb",
+          "decodeEncoding": "utf-8"
+        },
+        {
+          "path": "src/gl/shader.h",
+          "url": "https://raw.githubusercontent.com/ptitSeb/gl4es/c9895df34cd466c23bc60c2bd3db3d87e98fcbe7/src/gl/shader.h",
+          "bytes": 3426,
+          "sha256": "4433c87d9ecfce1d99a7521e17b627fd7cbfa0339db2e7628b38ca7fa522aa1e",
+          "decodeEncoding": "utf-8"
+        },
+        {
+          "path": "src/gl/shader_hacks.c",
+          "url": "https://raw.githubusercontent.com/ptitSeb/gl4es/c9895df34cd466c23bc60c2bd3db3d87e98fcbe7/src/gl/shader_hacks.c",
+          "bytes": 17927,
+          "sha256": "5523427678bf9fc132bdba99616e7bf0b77295eb3e4d996c33ebcb377b246fb9",
+          "decodeEncoding": "utf-8"
+        },
+        {
+          "path": "src/gl/shader_hacks.h",
+          "url": "https://raw.githubusercontent.com/ptitSeb/gl4es/c9895df34cd466c23bc60c2bd3db3d87e98fcbe7/src/gl/shader_hacks.h",
+          "bytes": 116,
+          "sha256": "bb79a3b10b468f4c97310047a2d48ed25e024844beeb87dd5de079fe131c5e05",
+          "decodeEncoding": "utf-8"
+        },
+        {
+          "path": "src/gl/shaderconv.c",
+          "url": "https://raw.githubusercontent.com/ptitSeb/gl4es/c9895df34cd466c23bc60c2bd3db3d87e98fcbe7/src/gl/shaderconv.c",
+          "bytes": 58145,
+          "sha256": "4820b5a405f1edea3b905e43df48b9d27b572efb9792c2d4b5d03c5c026e8ab9",
+          "decodeEncoding": "utf-8"
+        },
+        {
+          "path": "src/gl/shaderconv.h",
+          "url": "https://raw.githubusercontent.com/ptitSeb/gl4es/c9895df34cd466c23bc60c2bd3db3d87e98fcbe7/src/gl/shaderconv.h",
+          "bytes": 465,
+          "sha256": "116bb7f2082b869e150924aa1157ee79ea1014ae0e59b6e3c9e1792c9c7cd5e4",
+          "decodeEncoding": "utf-8"
+        },
+        {
+          "path": "src/gl/stack.c",
+          "url": "https://raw.githubusercontent.com/ptitSeb/gl4es/c9895df34cd466c23bc60c2bd3db3d87e98fcbe7/src/gl/stack.c",
+          "bytes": 26709,
+          "sha256": "808c63325651af5b854b6cb6d207a2861bb722c450469e2d6d1ae649db25f7ca",
+          "decodeEncoding": "utf-8"
+        },
+        {
+          "path": "src/gl/stack.h",
+          "url": "https://raw.githubusercontent.com/ptitSeb/gl4es/c9895df34cd466c23bc60c2bd3db3d87e98fcbe7/src/gl/stack.h",
+          "bytes": 4033,
+          "sha256": "e434755bceeadd2b11788e82609e3f6dbc8dc98fc70fa7290ae6190f8bed164a",
+          "decodeEncoding": "utf-8"
+        },
+        {
+          "path": "src/gl/state.h",
+          "url": "https://raw.githubusercontent.com/ptitSeb/gl4es/c9895df34cd466c23bc60c2bd3db3d87e98fcbe7/src/gl/state.h",
+          "bytes": 9643,
+          "sha256": "d10cdd46ab84bc755a63a8c31655aeee440a6571817400004ba2874faf729679",
+          "decodeEncoding": "utf-8"
+        },
+        {
+          "path": "src/gl/stb_dxt_104.h",
+          "url": "https://raw.githubusercontent.com/ptitSeb/gl4es/c9895df34cd466c23bc60c2bd3db3d87e98fcbe7/src/gl/stb_dxt_104.h",
+          "bytes": 18655,
+          "sha256": "4c6f2215a07ace409b09b2b77566d5c253bd5a19015afb232ce95f09056c1382",
+          "decodeEncoding": "utf-8"
+        },
+        {
+          "path": "src/gl/stencil.c",
+          "url": "https://raw.githubusercontent.com/ptitSeb/gl4es/c9895df34cd466c23bc60c2bd3db3d87e98fcbe7/src/gl/stencil.c",
+          "bytes": 6213,
+          "sha256": "475c70265d3c2cb805404ac972eecac3c7dc3bd9e4434e19eeaf5d6fa5354259",
+          "decodeEncoding": "utf-8"
+        },
+        {
+          "path": "src/gl/stencil.h",
+          "url": "https://raw.githubusercontent.com/ptitSeb/gl4es/c9895df34cd466c23bc60c2bd3db3d87e98fcbe7/src/gl/stencil.h",
+          "bytes": 337,
+          "sha256": "c22b7e3da4b9d54a32cc174054ff78c58f0dc073cd4bb21788492693cbfe5665",
+          "decodeEncoding": "utf-8"
+        },
+        {
+          "path": "src/gl/string_utils.c",
+          "url": "https://raw.githubusercontent.com/ptitSeb/gl4es/c9895df34cd466c23bc60c2bd3db3d87e98fcbe7/src/gl/string_utils.c",
+          "bytes": 6023,
+          "sha256": "5a3f7e564fbf89aeaaffcf91c3c01324344e50ab0d990eb2919b5c1a01b33b80",
+          "decodeEncoding": "utf-8"
+        },
+        {
+          "path": "src/gl/string_utils.h",
+          "url": "https://raw.githubusercontent.com/ptitSeb/gl4es/c9895df34cd466c23bc60c2bd3db3d87e98fcbe7/src/gl/string_utils.h",
+          "bytes": 1634,
+          "sha256": "3de326b8c58aef15bdcba5fba884b6614b6ab622ab34e914fa02400b1103710b",
+          "decodeEncoding": "utf-8"
+        },
+        {
+          "path": "src/gl/stubs.c",
+          "url": "https://raw.githubusercontent.com/ptitSeb/gl4es/c9895df34cd466c23bc60c2bd3db3d87e98fcbe7/src/gl/stubs.c",
+          "bytes": 164,
+          "sha256": "c34736b748b0cf365230d038dd35f7022a57e5babb2b6df4279a0a90499cbc40",
+          "decodeEncoding": "utf-8"
+        },
+        {
+          "path": "src/gl/texenv.c",
+          "url": "https://raw.githubusercontent.com/ptitSeb/gl4es/c9895df34cd466c23bc60c2bd3db3d87e98fcbe7/src/gl/texenv.c",
+          "bytes": 38218,
+          "sha256": "0643418e70e7022d82cbee97b0e95cf288a5f8ee6ad5602d6b5b3cd4a4b9aa36",
+          "decodeEncoding": "utf-8"
+        },
+        {
+          "path": "src/gl/texenv.h",
+          "url": "https://raw.githubusercontent.com/ptitSeb/gl4es/c9895df34cd466c23bc60c2bd3db3d87e98fcbe7/src/gl/texenv.h",
+          "bytes": 1377,
+          "sha256": "9fc6f42e6cadf4bafdd1aab910b94b9d78ea334db51b6cc88cd65401f716175c",
+          "decodeEncoding": "utf-8"
+        },
+        {
+          "path": "src/gl/texgen.c",
+          "url": "https://raw.githubusercontent.com/ptitSeb/gl4es/c9895df34cd466c23bc60c2bd3db3d87e98fcbe7/src/gl/texgen.c",
+          "bytes": 19413,
+          "sha256": "2510ee6a9c8521f31c5148ff6a6661698b6a6abab9f5f7e7be1599db57a34ce9",
+          "decodeEncoding": "utf-8"
+        },
+        {
+          "path": "src/gl/texgen.h",
+          "url": "https://raw.githubusercontent.com/ptitSeb/gl4es/c9895df34cd466c23bc60c2bd3db3d87e98fcbe7/src/gl/texgen.h",
+          "bytes": 820,
+          "sha256": "7b858e0e427c8c8fa16aacc078d6f71f77bee7f80eb8f0b1e57d0a5aa5fc2586",
+          "decodeEncoding": "utf-8"
+        },
+        {
+          "path": "src/gl/texture.c",
+          "url": "https://raw.githubusercontent.com/ptitSeb/gl4es/c9895df34cd466c23bc60c2bd3db3d87e98fcbe7/src/gl/texture.c",
+          "bytes": 74578,
+          "sha256": "6f55cd5c19839bd6634d094ab6b1a5a31316331ef552f623a2da6fe15fa2489b",
+          "decodeEncoding": "utf-8"
+        },
+        {
+          "path": "src/gl/texture.h",
+          "url": "https://raw.githubusercontent.com/ptitSeb/gl4es/c9895df34cd466c23bc60c2bd3db3d87e98fcbe7/src/gl/texture.h",
+          "bytes": 10755,
+          "sha256": "9a435f3fa06188420f1fc1f20ba2d44d46700d278f0bcaf7bdb8d4ba2413cbc7",
+          "decodeEncoding": "utf-8"
+        },
+        {
+          "path": "src/gl/texture_3d.c",
+          "url": "https://raw.githubusercontent.com/ptitSeb/gl4es/c9895df34cd466c23bc60c2bd3db3d87e98fcbe7/src/gl/texture_3d.c",
+          "bytes": 3616,
+          "sha256": "128a2117a5c5e19f26b82c94c31d8eb91ffc861f5570366be9ad8c9858b991f2",
+          "decodeEncoding": "utf-8"
+        },
+        {
+          "path": "src/gl/texture_compressed.c",
+          "url": "https://raw.githubusercontent.com/ptitSeb/gl4es/c9895df34cd466c23bc60c2bd3db3d87e98fcbe7/src/gl/texture_compressed.c",
+          "bytes": 24048,
+          "sha256": "17fc221a54ceaaae33890d6883df80c9c53c36d1c485853bd33f3111347f1816",
+          "decodeEncoding": "utf-8"
+        },
+        {
+          "path": "src/gl/texture_params.c",
+          "url": "https://raw.githubusercontent.com/ptitSeb/gl4es/c9895df34cd466c23bc60c2bd3db3d87e98fcbe7/src/gl/texture_params.c",
+          "bytes": 37625,
+          "sha256": "55760e7e172a927143f481d75bf64388d715a14479013a93ef5ce46330f491cc",
+          "decodeEncoding": "utf-8"
+        },
+        {
+          "path": "src/gl/texture_read.c",
+          "url": "https://raw.githubusercontent.com/ptitSeb/gl4es/c9895df34cd466c23bc60c2bd3db3d87e98fcbe7/src/gl/texture_read.c",
+          "bytes": 15191,
+          "sha256": "8c0cd388e41cc2c8c7887d8218fbe44815c0f5fe32722b8c4254a1622983aed9",
+          "decodeEncoding": "utf-8"
+        },
+        {
+          "path": "src/gl/uniform.c",
+          "url": "https://raw.githubusercontent.com/ptitSeb/gl4es/c9895df34cd466c23bc60c2bd3db3d87e98fcbe7/src/gl/uniform.c",
+          "bytes": 36164,
+          "sha256": "9868b1d82f2cdefb968b9a3cc67d0fe879ee480fa7d11a39b7034e566b242d34",
+          "decodeEncoding": "utf-8"
+        },
+        {
+          "path": "src/gl/uniform.h",
+          "url": "https://raw.githubusercontent.com/ptitSeb/gl4es/c9895df34cd466c23bc60c2bd3db3d87e98fcbe7/src/gl/uniform.h",
+          "bytes": 6211,
+          "sha256": "989c0182124a846798a386b362f851daa88200f20f0f9046fe6dd23681da3306",
+          "decodeEncoding": "utf-8"
+        },
+        {
+          "path": "src/gl/vertexattrib.c",
+          "url": "https://raw.githubusercontent.com/ptitSeb/gl4es/c9895df34cd466c23bc60c2bd3db3d87e98fcbe7/src/gl/vertexattrib.c",
+          "bytes": 8533,
+          "sha256": "3b523a591f23efd9066194b4ff2eee2a031c41dadcbb1db93e94d82d860e06a3",
+          "decodeEncoding": "utf-8"
+        },
+        {
+          "path": "src/gl/vertexattrib.h",
+          "url": "https://raw.githubusercontent.com/ptitSeb/gl4es/c9895df34cd466c23bc60c2bd3db3d87e98fcbe7/src/gl/vertexattrib.h",
+          "bytes": 1320,
+          "sha256": "fa332910760bdbfb19593127aad930c1da93a3fac26f50368e8013baa040981c",
+          "decodeEncoding": "utf-8"
+        },
+        {
+          "path": "src/gl/wrap/gl4es.h",
+          "url": "https://raw.githubusercontent.com/ptitSeb/gl4es/c9895df34cd466c23bc60c2bd3db3d87e98fcbe7/src/gl/wrap/gl4es.h",
+          "bytes": 15773,
+          "sha256": "73b47a59ceb5a62e83b07c45687db7e57fc3aff02a0da6c83dc7803b3e1e3135",
+          "decodeEncoding": "utf-8"
+        },
+        {
+          "path": "src/gl/wrap/gl4eswraps.c",
+          "url": "https://raw.githubusercontent.com/ptitSeb/gl4es/c9895df34cd466c23bc60c2bd3db3d87e98fcbe7/src/gl/wrap/gl4eswraps.c",
+          "bytes": 44331,
+          "sha256": "ce31543ca34e088e25ec28fb5ee8866a7358acc23530c90ce18ad80db9d605f6",
+          "decodeEncoding": "utf-8"
+        },
+        {
+          "path": "src/gl/wrap/gles.c",
+          "url": "https://raw.githubusercontent.com/ptitSeb/gl4es/c9895df34cd466c23bc60c2bd3db3d87e98fcbe7/src/gl/wrap/gles.c",
+          "bytes": 176624,
+          "sha256": "e3530b43feb055d4060d78f077ebeced65f6360b94fa3044cd1668e647904245",
+          "decodeEncoding": "utf-8"
+        },
+        {
+          "path": "src/gl/wrap/gles.h",
+          "url": "https://raw.githubusercontent.com/ptitSeb/gl4es/c9895df34cd466c23bc60c2bd3db3d87e98fcbe7/src/gl/wrap/gles.h",
+          "bytes": 311188,
+          "sha256": "61fc6f0594cf905d1ac25da7540b7299d7bd4c501ae0c18e6747cbb4e489e7d4",
+          "decodeEncoding": "utf-8"
+        },
+        {
+          "path": "src/gl/wrap/glstub.c",
+          "url": "https://raw.githubusercontent.com/ptitSeb/gl4es/c9895df34cd466c23bc60c2bd3db3d87e98fcbe7/src/gl/wrap/glstub.c",
+          "bytes": 2373,
+          "sha256": "eb20b7652f5b3adc0cdf457d877cdbec78f93954275545f99fcf21012fa83b27",
+          "decodeEncoding": "utf-8"
+        },
+        {
+          "path": "src/gl/wrap/skips.h",
+          "url": "https://raw.githubusercontent.com/ptitSeb/gl4es/c9895df34cd466c23bc60c2bd3db3d87e98fcbe7/src/gl/wrap/skips.h",
+          "bytes": 7645,
+          "sha256": "650cae60bf5541e9a623245f803fb09ebf16340da6bc3d7660b79b62f486dd23",
+          "decodeEncoding": "utf-8"
+        },
+        {
+          "path": "src/gl/wrap/stub.h",
+          "url": "https://raw.githubusercontent.com/ptitSeb/gl4es/c9895df34cd466c23bc60c2bd3db3d87e98fcbe7/src/gl/wrap/stub.h",
+          "bytes": 2945,
+          "sha256": "3a7adf7d15c1ceba82da82205e258061faaa4a244089e496f6ad044820e6e038",
+          "decodeEncoding": "utf-8"
+        },
+        {
+          "path": "src/glx/drmfunc.h",
+          "url": "https://raw.githubusercontent.com/ptitSeb/gl4es/c9895df34cd466c23bc60c2bd3db3d87e98fcbe7/src/glx/drmfunc.h",
+          "bytes": 707,
+          "sha256": "f094375db2c44d940f059839104ae1f08305b933678c97583be27545982f6f52",
+          "decodeEncoding": "utf-8"
+        },
+        {
+          "path": "src/glx/gbm.c",
+          "url": "https://raw.githubusercontent.com/ptitSeb/gl4es/c9895df34cd466c23bc60c2bd3db3d87e98fcbe7/src/glx/gbm.c",
+          "bytes": 10422,
+          "sha256": "b1de2ba2d70dd0cbf01d04fb8cdaf1498deaca391818f61124e130e5e35e9cd7",
+          "decodeEncoding": "utf-8"
+        },
+        {
+          "path": "src/glx/gbmfunc.h",
+          "url": "https://raw.githubusercontent.com/ptitSeb/gl4es/c9895df34cd466c23bc60c2bd3db3d87e98fcbe7/src/glx/gbmfunc.h",
+          "bytes": 1703,
+          "sha256": "aa162e34e9cfa738dab2a44e78fb1cb366f916817bfff20b54b3072c65f1854c",
+          "decodeEncoding": "utf-8"
+        },
+        {
+          "path": "src/glx/glx.c",
+          "url": "https://raw.githubusercontent.com/ptitSeb/gl4es/c9895df34cd466c23bc60c2bd3db3d87e98fcbe7/src/glx/glx.c",
+          "bytes": 113988,
+          "sha256": "c0c2f21da8f6d9db9de29f695ce7c032e5aff1c71616b19400460d0cb369ed99",
+          "decodeEncoding": "utf-8"
+        },
+        {
+          "path": "src/glx/glx.h",
+          "url": "https://raw.githubusercontent.com/ptitSeb/gl4es/c9895df34cd466c23bc60c2bd3db3d87e98fcbe7/src/glx/glx.h",
+          "bytes": 10995,
+          "sha256": "62efc7dc9758bef15443d5992fdadc6e563ac18a393eb81e7a379d65c8a260f5",
+          "decodeEncoding": "utf-8"
+        },
+        {
+          "path": "src/glx/glx_gbm.h",
+          "url": "https://raw.githubusercontent.com/ptitSeb/gl4es/c9895df34cd466c23bc60c2bd3db3d87e98fcbe7/src/glx/glx_gbm.h",
+          "bytes": 487,
+          "sha256": "6bff22c22d9b02185c1e492ec2b11fe72d976e514ce1d54bdad19ca39d94e7d2",
+          "decodeEncoding": "utf-8"
+        },
+        {
+          "path": "src/glx/glx_stubs.c",
+          "url": "https://raw.githubusercontent.com/ptitSeb/gl4es/c9895df34cd466c23bc60c2bd3db3d87e98fcbe7/src/glx/glx_stubs.c",
+          "bytes": 6750,
+          "sha256": "550b1cf4c9fb4928008a0af3d7560c10a1277380557e37c736f0fa29bc4dae4a",
+          "decodeEncoding": "utf-8"
+        },
+        {
+          "path": "src/glx/hardext.c",
+          "url": "https://raw.githubusercontent.com/ptitSeb/gl4es/c9895df34cd466c23bc60c2bd3db3d87e98fcbe7/src/glx/hardext.c",
+          "bytes": 17779,
+          "sha256": "d2e3b00b5f0be40d374a0fe8e041a249ef653b8c8bd27316ae0c432d92fb8253",
+          "decodeEncoding": "utf-8"
+        },
+        {
+          "path": "src/glx/hardext.h",
+          "url": "https://raw.githubusercontent.com/ptitSeb/gl4es/c9895df34cd466c23bc60c2bd3db3d87e98fcbe7/src/glx/hardext.h",
+          "bytes": 3843,
+          "sha256": "8376dcf1e5f9c53f678b5b994c35a8673392ea31d05c3efce59374659fa3e3d3",
+          "decodeEncoding": "utf-8"
+        },
+        {
+          "path": "src/glx/lookup.c",
+          "url": "https://raw.githubusercontent.com/ptitSeb/gl4es/c9895df34cd466c23bc60c2bd3db3d87e98fcbe7/src/glx/lookup.c",
+          "bytes": 2144,
+          "sha256": "364f8573c066384e1b82453565951bc949289f7247e3aa05018d9558b31ac62a",
+          "decodeEncoding": "utf-8"
+        },
+        {
+          "path": "src/glx/rpi.c",
+          "url": "https://raw.githubusercontent.com/ptitSeb/gl4es/c9895df34cd466c23bc60c2bd3db3d87e98fcbe7/src/glx/rpi.c",
+          "bytes": 4327,
+          "sha256": "e9d9c27ae024b5e5becd7c6c3aa3f079ebdb31dce7905d69de0ff684662f2ae8",
+          "decodeEncoding": "utf-8"
+        },
+        {
+          "path": "src/glx/rpi.h",
+          "url": "https://raw.githubusercontent.com/ptitSeb/gl4es/c9895df34cd466c23bc60c2bd3db3d87e98fcbe7/src/glx/rpi.h",
+          "bytes": 197,
+          "sha256": "0f99ff752d409482aa6119b609d19d4145c5d531eb1693e4391a577386ed60a3",
+          "decodeEncoding": "utf-8"
+        },
+        {
+          "path": "src/glx/streaming.c",
+          "url": "https://raw.githubusercontent.com/ptitSeb/gl4es/c9895df34cd466c23bc60c2bd3db3d87e98fcbe7/src/glx/streaming.c",
+          "bytes": 7620,
+          "sha256": "cc85ff45117cd4a4255fa1de4520543369c4cbc5fcad9601f4fead438c6526e7",
+          "decodeEncoding": "utf-8"
+        },
+        {
+          "path": "src/glx/streaming.h",
+          "url": "https://raw.githubusercontent.com/ptitSeb/gl4es/c9895df34cd466c23bc60c2bd3db3d87e98fcbe7/src/glx/streaming.h",
+          "bytes": 2124,
+          "sha256": "5fc2dbc9eca2a336e1554b3530adaa44a495cf0e860c1cd391823599184af9b5",
+          "decodeEncoding": "utf-8"
+        },
+        {
+          "path": "src/glx/utils.c",
+          "url": "https://raw.githubusercontent.com/ptitSeb/gl4es/c9895df34cd466c23bc60c2bd3db3d87e98fcbe7/src/glx/utils.c",
+          "bytes": 2352,
+          "sha256": "7828f9bb5c92250273ea88683c09f1078f7d5961858f4f17c801e13c71b8476b",
+          "decodeEncoding": "utf-8"
+        },
+        {
+          "path": "src/glx/utils.h",
+          "url": "https://raw.githubusercontent.com/ptitSeb/gl4es/c9895df34cd466c23bc60c2bd3db3d87e98fcbe7/src/glx/utils.h",
+          "bytes": 459,
+          "sha256": "a8d7a672d67f023bcb6fe29da7c137f586eb31772b2caa6997c4ee14c74a2d7b",
+          "decodeEncoding": "utf-8"
+        },
+        {
+          "path": "test.cmake",
+          "url": "https://raw.githubusercontent.com/ptitSeb/gl4es/c9895df34cd466c23bc60c2bd3db3d87e98fcbe7/test.cmake",
+          "bytes": 1738,
+          "sha256": "6168aba99503b5a8ebfb0539c30b2a781cb615d226d60b1a40b762f481f246d0",
+          "decodeEncoding": "utf-8"
+        },
+        {
+          "path": "version.h",
+          "url": "https://raw.githubusercontent.com/ptitSeb/gl4es/c9895df34cd466c23bc60c2bd3db3d87e98fcbe7/version.h",
+          "bytes": 129,
+          "sha256": "d369b25b3ff2a6f65807b546b7b058f434f63db3fdb381241b1da3d0411ec066",
+          "decodeEncoding": "utf-8"
+        },
+        {
+          "path": "src/gl/glesfuncs.inc",
+          "url": "https://raw.githubusercontent.com/ptitSeb/gl4es/c9895df34cd466c23bc60c2bd3db3d87e98fcbe7/src/gl/glesfuncs.inc",
+          "bytes": 5104,
+          "sha256": "57d60de4b131f1b7873b191792f40efccb16a41a8568513d218dbe8c01d78d92",
+          "decodeEncoding": "utf-8"
+        }
+      ],
+      "treeInventory": {
+        "entries": 302,
+        "truncated": false,
+        "sha256": "79865fb23304e34d9ec55c157ddeab360ada760bc45beb4f751394914f7250b4"
+      }
+    }
+  ],
+  "authorPermissionPublication": {
+    "url": "https://devnonsense.com/posts/glfighters/",
+    "bytes": 32359,
+    "sha256": "4095f6793eb8d3e845aa34b0982b23d90055c9a28cbb755de1f636404e2296f8",
+    "finding": "Porter explicitly reports David permission to publish source under MIT; not an independently observed private letter or asset grant"
+  },
+  "excludedDownloads": [
+    "Original GLFighters source/game StuffIt archives and all port/data media",
+    "Overgrowth purchased Data and SDK/library binaries",
+    "GLFighters bundled gl4es prebuilt library and hosted player"
+  ],
+  "deduplication": {
+    "fields": [
+      "id",
+      "title",
+      "aliases",
+      "source"
+    ],
+    "matches": []
+  }
+}

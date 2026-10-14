@@ -1,0 +1,278 @@
+{
+  "date": "2026-10-14",
+  "catalogCount": 88,
+  "strictDecompilationMilestone": "4/5 unchanged; GLFighters is original released-source port",
+  "status": "Private source-only compiler and strict-link milestone passed; not integrated or accepted gameplay",
+  "compile": {
+    "date": "2026-10-14",
+    "classification": "Source-only compiler probe, not linked runnable game or gameplay",
+    "repository": "wedaly/GLFighters-SDL",
+    "pin": "4dffdbd665767baae87bec749f18d689ab53c534",
+    "compilerVersion": "emcc (Emscripten gcc/clang-like replacement + linker emulating GNU ld) 6.0.10 (d6c521a7f05449857c76bd99e396895583cf2083)",
+    "objects": [
+      {
+        "source": "game.cpp",
+        "exitCode": 0,
+        "logBytes": 0,
+        "bytes": 739305,
+        "sha256": "1cdf45e779e822b22d4809ebace9fa41465666e9945c5ce1116bc316dc3bbc4d",
+        "wasmObjectMagic": true
+      },
+      {
+        "source": "input.cpp",
+        "exitCode": 0,
+        "logBytes": 0,
+        "bytes": 1924,
+        "sha256": "41be62802669e73d425cf03a2180aab8f13e5eaaa4468dace497c67837727f25",
+        "wasmObjectMagic": true
+      },
+      {
+        "source": "main.cpp",
+        "exitCode": 0,
+        "logBytes": 0,
+        "bytes": 2280,
+        "sha256": "d891cf24a5195a43d1145b1738b7e598ab14f55ab347f84adb35ec88279832c1",
+        "wasmObjectMagic": true
+      },
+      {
+        "source": "models.cpp",
+        "exitCode": 0,
+        "logBytes": 0,
+        "bytes": 6803,
+        "sha256": "7305a76c1e374267e656e15dca485b5d7fdbfbf85ed49e7340e7d70da098cb0c",
+        "wasmObjectMagic": true
+      },
+      {
+        "source": "perspective.cpp",
+        "exitCode": 0,
+        "logBytes": 0,
+        "bytes": 829,
+        "sha256": "955cde537c083bd6e8e53db6a5f30c7fa05e95a8f2e6d973af8b342e6654f848",
+        "wasmObjectMagic": true
+      },
+      {
+        "source": "print.cpp",
+        "exitCode": 0,
+        "logBytes": 0,
+        "bytes": 3149,
+        "sha256": "5d563d8a5b4b774141bdf3e70b57af61faab871970f7581319b4e922f2fb41e5",
+        "wasmObjectMagic": true
+      },
+      {
+        "source": "sound.cpp",
+        "exitCode": 0,
+        "logBytes": 0,
+        "bytes": 4688,
+        "sha256": "dcc860818db4a99e2a304f2836eca452f599539c08742225a4bf145c087e3b96",
+        "wasmObjectMagic": true
+      },
+      {
+        "source": "textures.cpp",
+        "exitCode": 0,
+        "logBytes": 0,
+        "bytes": 8007,
+        "sha256": "79ba7cc8ff88203361103b3846a5a75eda9b730cca8401be9f162cba1995e958",
+        "wasmObjectMagic": true
+      }
+    ],
+    "contentDownloaded": false,
+    "playerStarted": false,
+    "linkAttempted": false
+  },
+  "rendererBuild": {
+    "date": "2026-10-14",
+    "repository": "ptitSeb/gl4es",
+    "pin": "c9895df34cd466c23bc60c2bd3db3d87e98fcbe7",
+    "sourceInputs": 198,
+    "configureExitCode": 0,
+    "buildExitCode": 0,
+    "unmodifiedSource": true,
+    "cmakePolicyOverride": "CMAKE_POLICY_VERSION_MINIMUM=3.5",
+    "buildFlags": [
+      "NOX11",
+      "NOEGL",
+      "STATICLIB",
+      "NO_LOADER",
+      "NO_INIT_CONSTRUCTOR",
+      "DEFAULT_ES=2",
+      "GLX_STUBS"
+    ],
+    "archive": {
+      "bytes": 1941112,
+      "sha256": "ffd9624a7f9f2f7adbbff712a094b815bcca4960ee1d46b65c49d0412392f676",
+      "members": [
+        "arbconverter.c.o",
+        "arbgenerator.c.o",
+        "arbhelper.c.o",
+        "arbparser.c.o",
+        "array.c.o",
+        "blit.c.o",
+        "blend.c.o",
+        "buffers.c.o",
+        "build_info.c.o",
+        "debug.c.o",
+        "decompress.c.o",
+        "depth.c.o",
+        "directstate.c.o",
+        "drawing.c.o",
+        "enable.c.o",
+        "envvars.c.o",
+        "eval.c.o",
+        "face.c.o",
+        "fog.c.o",
+        "fpe.c.o",
+        "fpe_cache.c.o",
+        "fpe_shader.c.o",
+        "framebuffers.c.o",
+        "gl_lookup.c.o",
+        "getter.c.o",
+        "gl4es.c.o",
+        "glstate.c.o",
+        "hint.c.o",
+        "init.c.o",
+        "light.c.o",
+        "line.c.o",
+        "list.c.o",
+        "listdraw.c.o",
+        "listrl.c.o",
+        "loader.c.o",
+        "logs.c.o",
+        "matrix.c.o",
+        "matvec.c.o",
+        "oldprogram.c.o",
+        "pixel.c.o",
+        "planes.c.o",
+        "pointsprite.c.o",
+        "preproc.c.o",
+        "program.c.o",
+        "queries.c.o",
+        "raster.c.o",
+        "render.c.o",
+        "samplers.c.o",
+        "shader.c.o",
+        "shaderconv.c.o",
+        "shader_hacks.c.o",
+        "stack.c.o",
+        "stencil.c.o",
+        "string_utils.c.o",
+        "stubs.c.o",
+        "texenv.c.o",
+        "texgen.c.o",
+        "texture.c.o",
+        "texture_compressed.c.o",
+        "texture_params.c.o",
+        "texture_read.c.o",
+        "texture_3d.c.o",
+        "uniform.c.o",
+        "vertexattrib.c.o",
+        "gl4eswraps.c.o",
+        "gles.c.o",
+        "glstub.c.o",
+        "matheval.c.o",
+        "hardext.c.o"
+      ]
+    },
+    "wasmObjectsChecked": 69,
+    "buildLogSha256": "daff19f639bb3ab2e6485aef7a2f7df9ed97314386d8a3d41dd785ee690e5cb2",
+    "playerStarted": false,
+    "remaining": "Full selected source/runtime notices and actual rendering/gameplay unverified"
+  },
+  "strictLink": {
+    "date": "2026-10-14",
+    "classification": "Private source-only strict link, not a game or gameplay result",
+    "gameObjects": 8,
+    "gl4esSourcePin": "c9895df34cd466c23bc60c2bd3db3d87e98fcbe7",
+    "gl4esSourceInputs": 198,
+    "gl4esLibraryBytes": 1941112,
+    "gl4esLibrarySha256": "ffd9624a7f9f2f7adbbff712a094b815bcca4960ee1d46b65c49d0412392f676",
+    "linkExitCode": 0,
+    "undefinedSymbolAllowance": false,
+    "sourceModified": false,
+    "gameContentDownloaded": false,
+    "playersStarted": 0,
+    "runtimeFiles": [
+      {
+        "path": "probe.js",
+        "bytes": 211058,
+        "sha256": "3a69b55fb46e89a159a19138b84715d00caf76ea13e5f674a1ec1daff5238f56"
+      },
+      {
+        "path": "probe.wasm",
+        "bytes": 1467730,
+        "sha256": "4ee9d24ad17a4e5b1331f07345c8993fdc307ea3515ff37df9bd274e52fc8793"
+      }
+    ]
+  },
+  "failedStagesPreserved": [
+    {
+      "stage": "legacy GL plus FULL_ES2",
+      "cause": "Backend options are explicitly incompatible; compiler assertion",
+      "receipt": {
+        "path": "source-only-legacy-link.json",
+        "bytes": 515,
+        "sha256": "57c54aa229704b41d9fe16fdbf790f2eb31d43efa62e2c3f4741217a5ef200e8"
+      }
+    },
+    {
+      "stage": "legacy backend with gl4es headers",
+      "cause": "gl4es prefixed symbols remain unresolved",
+      "receipt": {
+        "path": "source-only-legacy-link-v2.json",
+        "bytes": 515,
+        "sha256": "57c54aa229704b41d9fe16fdbf790f2eb31d43efa62e2c3f4741217a5ef200e8"
+      }
+    },
+    {
+      "stage": "legacy backend with Emscripten headers",
+      "cause": "glLightf unresolved; glLightfv attenuation pnames abort in SDK implementation",
+      "receipt": {
+        "path": "source-only-legacy-link-v3.json",
+        "bytes": 2015,
+        "sha256": "0e6466254445276fe46f023b2b754bbc5da1f383397f1c7ab497e6bd343ad170"
+      }
+    },
+    {
+      "stage": "gl4es configure",
+      "cause": "CMake4 rejects original minimum policy, resolved by minimum-policy flag without source edits",
+      "receipt": {
+        "path": "gl4es-source-build.json",
+        "bytes": 312,
+        "sha256": "6556bbcfd2365e8c923dd03a97f6615a44c88d766d39b1152d5c3251537f5780"
+      }
+    },
+    {
+      "stage": "gl4es initial source build",
+      "cause": "Textual glesfuncs.inc omitted from allowlist, added as exact pinned source; final build passes",
+      "receipt": {
+        "path": "gl4es-source-build-v2.json",
+        "bytes": 309,
+        "sha256": "50e3bb91e1e0f505c50be8c9b9cd0f1556b89953c39ec82cfd201be0a52a2055"
+      }
+    }
+  ],
+  "verification": {
+    "objectMagicChecks": 77,
+    "firstPartySourceFilesModifiedInSuccessfulLink": 0,
+    "playerStarted": false,
+    "gameplay": "unverified",
+    "assets": "No complete independent pack yet; no original media downloaded",
+    "runtimeLicenseClosure": "unreviewed",
+    "browserPersistence": "unverified; upstream map load/save unimplemented",
+    "audio": "unverified; stock audio initialization must be adapted before test player",
+    "catalogRuntimeChanges": 0,
+    "runtimeUploads": 0,
+    "websiteDeployments": 0
+  },
+  "privateReproductionScripts": [
+    {
+      "path": "compiler-version.txt",
+      "bytes": 336,
+      "sha256": "b6f307a2fb615b846ef5afecce8e79c3e7c14912597b75c8588599394f0a9e6b"
+    }
+  ],
+  "nextWork": [
+    "Generate complete independently authored content with raw payload/format validation and provenance",
+    "Close selected library/header/helper/compiler/runtime notice boundary; audio backend must default silent",
+    "Rebuild playable private package and test native normal controls/combat/death/restart/Stop/persistence before source packaging/integration"
+  ]
+}
