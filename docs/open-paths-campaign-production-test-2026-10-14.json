@@ -1,0 +1,368 @@
+{
+  "date": "2026-10-14",
+  "game": "Open Paths",
+  "gameId": "supaplex",
+  "url": "https://decompgames.com/play/supaplex/",
+  "scope": "All six independently authored CC0 navigation levels in the existing production OpenSupaplex package; normal menu and keyboard input, followed by a complete browser close/relaunch. No original retail campaign verification.",
+  "browser": "Headless Microsoft Edge on Windows, isolated persistent profile, --mute-audio, Sound: off",
+  "audioBackend": "null",
+  "audibleVerification": false,
+  "classification": "Existing decompilation-derived engine with independently authored replacement campaign; no new clean-room certification or code-license clearance is asserted.",
+  "codeLicense": "Previously accepted GPL-3.0-only C implementation; MIT disassembly. This verification does not expand new intake license acceptance.",
+  "assetScope": "Existing 14 explicitly allowlisted CC0 replacement files; no original game files required.",
+  "sourceRevision": "bad56a4e174e628643995284ea55d4c49af3137c",
+  "packageRevision": "bad56a4e174e-026301f2dd",
+  "gameplay": {
+    "initialProgress": {
+      "index": 0,
+      "name": "PATH14B",
+      "states": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "next": 0,
+      "completedAll": 0
+    },
+    "levels": [
+      {
+        "level": 1,
+        "routeSteps": 2,
+        "progress": {
+          "index": 0,
+          "name": "PATH14B",
+          "states": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "next": 1,
+          "completedAll": 0
+        }
+      },
+      {
+        "level": 2,
+        "routeSteps": 82,
+        "progress": {
+          "index": 0,
+          "name": "PATH14B",
+          "states": [
+            1,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          "next": 2,
+          "completedAll": 0
+        }
+      },
+      {
+        "level": 3,
+        "routeSteps": 50,
+        "progress": {
+          "index": 0,
+          "name": "PATH14B",
+          "states": [
+            1,
+            1,
+            1,
+            0,
+            0,
+            0
+          ],
+          "next": 3,
+          "completedAll": 0
+        }
+      },
+      {
+        "level": 4,
+        "routeSteps": 70,
+        "progress": {
+          "index": 0,
+          "name": "PATH14B",
+          "states": [
+            1,
+            1,
+            1,
+            1,
+            0,
+            0
+          ],
+          "next": 4,
+          "completedAll": 0
+        }
+      },
+      {
+        "level": 5,
+        "routeSteps": 70,
+        "progress": {
+          "index": 0,
+          "name": "PATH14B",
+          "states": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            0
+          ],
+          "next": 5,
+          "completedAll": 0
+        }
+      },
+      {
+        "level": 6,
+        "routeSteps": 82,
+        "progress": {
+          "index": 0,
+          "name": "PATH14B",
+          "states": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "next": 6,
+          "completedAll": 1
+        }
+      }
+    ],
+    "totalKeyboardMoves": 356,
+    "finalProgress": {
+      "index": 0,
+      "name": "PATH14B",
+      "states": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "next": 6,
+      "completedAll": 1
+    },
+    "levelDataMatchesPublishedHash": true,
+    "gameStateWritesByHarness": false,
+    "nativeSaveReadOnly": true
+  },
+  "nativeSaveInterpretation": {
+    "recordBytes": 128,
+    "completionStatesOffset": 12,
+    "completedValue": 1,
+    "skippedValue": 2,
+    "nextLevelOffset": 126,
+    "completedAllOffset": 127,
+    "source": "Published corresponding source: engine/src/globals.h PlayerEntry and engine/src/supaplex.c native completion/save flow"
+  },
+  "browserRestart": {
+    "date": "2026-10-14T10:20:27.498Z",
+    "restoredProgress": {
+      "index": 0,
+      "name": "PATH14B",
+      "states": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "next": 6,
+      "completedAll": 1
+    },
+    "verified": true
+  },
+  "diagnostics": [
+    {
+      "phase": "campaign",
+      "date": "2026-10-14T10:16:29.188Z",
+      "pageErrors": [],
+      "gameConsoleErrors": [],
+      "missingResources": [],
+      "blockedAnalyticsRequests": 3,
+      "expectedBlockedAnalyticsDiagnostics": 3,
+      "stopGameSaveSyncAcknowledged": true,
+      "browserClosed": true
+    },
+    {
+      "phase": "new-browser-process",
+      "date": "2026-10-14T10:20:27.498Z",
+      "pageErrors": [],
+      "gameConsoleErrors": [],
+      "missingResources": [],
+      "blockedAnalyticsRequests": 3,
+      "expectedBlockedAnalyticsDiagnostics": 3,
+      "stopGameSaveSyncAcknowledged": true,
+      "browserClosed": true
+    }
+  ],
+  "distribution": {
+    "date": "2026-10-14T10:22:55.146Z",
+    "packageRevision": "bad56a4e174e-026301f2dd",
+    "files": [
+      {
+        "path": "/runtime/supaplex/bad56a4e174e-026301f2dd/supaplex.js",
+        "status": 206,
+        "bytes": 198751,
+        "sha256": "17e639ed0c674753d99c51799af8e98981a2855f4291d67bfe5ad10e85dc0b03"
+      },
+      {
+        "path": "/runtime/supaplex/bad56a4e174e-026301f2dd/supaplex.wasm",
+        "status": 206,
+        "bytes": 1055169,
+        "sha256": "8bde797a8c381d8436d4cdada2703734bbc4c691a325c21290d68fac2ef4eaa5"
+      },
+      {
+        "path": "/runtime/supaplex/bad56a4e174e-026301f2dd/assets/CHARS6.DAT",
+        "status": 206,
+        "bytes": 512,
+        "sha256": "f1ad9b07226ad98a27fec6f26182b15dde71fb73625660876887c60fe0ad37df"
+      },
+      {
+        "path": "/runtime/supaplex/bad56a4e174e-026301f2dd/assets/CHARS8.DAT",
+        "status": 206,
+        "bytes": 512,
+        "sha256": "dfd95456760956a194fd31dd599f7074f1f98b12654a22557351cb186658243c"
+      },
+      {
+        "path": "/runtime/supaplex/bad56a4e174e-026301f2dd/assets/FIXED.DAT",
+        "status": 206,
+        "bytes": 5120,
+        "sha256": "224f4466813e9798dd15364e0486727528729ccc3294046711cf22482d0af4ef"
+      },
+      {
+        "path": "/runtime/supaplex/bad56a4e174e-026301f2dd/assets/MOVING.DAT",
+        "status": 206,
+        "bytes": 73920,
+        "sha256": "5562a6f00c7dddf3d347379dea107aa7aca5f23c51e5ead5b41b8d84621aa3e4"
+      },
+      {
+        "path": "/runtime/supaplex/bad56a4e174e-026301f2dd/assets/PALETTES.DAT",
+        "status": 206,
+        "bytes": 256,
+        "sha256": "b3ec10e197c6644f5baefddd36c155f03b15b3e2c0f7935877f167f65e7cbf6f"
+      },
+      {
+        "path": "/runtime/supaplex/bad56a4e174e-026301f2dd/assets/MENU.DAT",
+        "status": 206,
+        "bytes": 32000,
+        "sha256": "382f706f6a91ae4bf8f86b6a0bd9a86611df98d842d11f4267cba6824821f04f"
+      },
+      {
+        "path": "/runtime/supaplex/bad56a4e174e-026301f2dd/assets/BACK.DAT",
+        "status": 206,
+        "bytes": 32000,
+        "sha256": "0c92bddb4e96f3ea9ec9f0f64a668255a6c15527ac09f6f119cafde60c7c4a39"
+      },
+      {
+        "path": "/runtime/supaplex/bad56a4e174e-026301f2dd/assets/CONTROLS.DAT",
+        "status": 206,
+        "bytes": 32000,
+        "sha256": "9302b6346a84adcd797338e64ddbb8e6db3f2361389cdfaa225db55e9e623885"
+      },
+      {
+        "path": "/runtime/supaplex/bad56a4e174e-026301f2dd/assets/GFX.DAT",
+        "status": 206,
+        "bytes": 32000,
+        "sha256": "a0ba233ff84ef4033105b7847355bbe0769c0f3ec6254fe3bcb0e794f06d3003"
+      },
+      {
+        "path": "/runtime/supaplex/bad56a4e174e-026301f2dd/assets/TITLE.DAT",
+        "status": 206,
+        "bytes": 32000,
+        "sha256": "3606dfa3238b17dc4e705c22e8828bc900592501ce1d0ab005e8cccfcc4758d4"
+      },
+      {
+        "path": "/runtime/supaplex/bad56a4e174e-026301f2dd/assets/TITLE1.DAT",
+        "status": 206,
+        "bytes": 32000,
+        "sha256": "3606dfa3238b17dc4e705c22e8828bc900592501ce1d0ab005e8cccfcc4758d4"
+      },
+      {
+        "path": "/runtime/supaplex/bad56a4e174e-026301f2dd/assets/TITLE2.DAT",
+        "status": 206,
+        "bytes": 32000,
+        "sha256": "3606dfa3238b17dc4e705c22e8828bc900592501ce1d0ab005e8cccfcc4758d4"
+      },
+      {
+        "path": "/runtime/supaplex/bad56a4e174e-026301f2dd/assets/PANEL.DAT",
+        "status": 206,
+        "bytes": 3840,
+        "sha256": "d58ab8293b3d8e32314d68eeb707f42b689d703ad37fc19616b9ca46a6a80a24"
+      },
+      {
+        "path": "/runtime/supaplex/bad56a4e174e-026301f2dd/assets/LEVELS.DAT",
+        "status": 206,
+        "bytes": 9216,
+        "sha256": "42129a281b05dd82f4fd1d1fe489e42d30a1f9e986a248b0b869affdba609e38"
+      },
+      {
+        "path": "/sources/open-paths-bad56a4e174e-026301f2dd.tar.gz",
+        "status": 206,
+        "bytes": 158310,
+        "sha256": "df925352659c51ee6c0ac3f202b37b23b4bbbe8a4b0a56c62fe619951e7071a0"
+      }
+    ],
+    "passed": true
+  },
+  "evidence": [
+    {
+      "name": "campaign-report.json",
+      "sha256": "48cac5ada04e866556dab4802c59ae38f733d3d5e8616cbccfa96035f5a08ccc",
+      "retained": "Private test artifacts"
+    },
+    {
+      "name": "restart-report.json",
+      "sha256": "e3d341ad5437e77d7bfb1e709901c8190193d48c42b96355c2b23004103ed6f4",
+      "retained": "Private test artifacts"
+    },
+    {
+      "name": "distribution.json",
+      "sha256": "d65f6d335aefd0474fd7c4dd7cd12ee58bf7248baaf94d979470eb0b44f3f737",
+      "retained": "Private test artifacts"
+    },
+    {
+      "name": "campaign-completed.png",
+      "sha256": "768e6f2542c1537410e16b5e935bfdcdd0acf7c841b619d4817151d1fbf9db64",
+      "retained": "Private test artifacts"
+    },
+    {
+      "name": "level-6-start.png",
+      "sha256": "0f48de38bedabefc8207ff7473066c1bce222e4711df7c456e3438fe46c43902",
+      "retained": "Private test artifacts"
+    },
+    {
+      "name": "browser-restart-menu.png",
+      "sha256": "0dd52603ed5fc2686391c34427b8804ced29e57804c8513bfbcc431c929e3ed1",
+      "retained": "Private test artifacts"
+    }
+  ],
+  "visualReview": [
+    "Campaign-completed canvas",
+    "Level six start canvas",
+    "Browser-restart menu"
+  ],
+  "excludedTrial": "An initial harness trial missed Go after canvas resizing and stayed on the menu. Its failed receipt and screenshots remain private and are not accepted gameplay evidence. The accepted run used normalized 320x200 menu coordinates in a fresh test profile.",
+  "earlierEvidence": "September 22 first-level and export/delete/import restoration remain historical records; no new backup/delete/import cycle was performed here.",
+  "unverified": [
+    "Original retail campaign and excluded collectibles/hazards/enemies",
+    "Other browsers and touch devices",
+    "Rapid-close save durability",
+    "Audible playback"
+  ],
+  "passed": true,
+  "catalogCount": 87,
+  "decompilationMilestone": "4/5 unchanged",
+  "runtimeAndSourceBytesChanged": false
+}

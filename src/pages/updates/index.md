@@ -3,6 +3,10 @@ layout: ../../layouts/Article.astro
 title: What’s new
 description: Release notes and compatibility changes for Decomp Games.
 ---
+## October 14, 2026 — Open Paths: all six authored levels verified
+
+Muted production testing completed the full six-level CC0 navigation campaign through ordinary keyboard input. Native completion states and the all-levels-completed flag survived a full browser close and relaunch. The runtime is unchanged, and both test players stopped with save synchronization and closed. This covers the authored replacement campaign; other browsers and rapid-close save durability remain unverified. [Campaign evidence](https://github.com/andrewnakas/decompgames/blob/main/docs/open-paths-campaign-production-test-2026-10-14.json). [Play Open Paths](/games/supaplex/).
+
 ## October 14, 2026 — Open Cadet: live native flipper contacts observed
 
 Read-only debugger stepping in Open Cadet's unchanged live WASM recorded eight ball/flipper contacts, with velocity changes and speed increases on both native flipper components. Tests stayed muted and the player stopped with save synchronization. Debugger pauses affect timing; calibrated forces, every contact case and a full playthrough remain unverified. [Contact evidence](https://github.com/andrewnakas/decompgames/blob/main/docs/open-cadet-contacts-production-test-2026-10-14.json). [Play Open Cadet](/games/open-cadet/).
@@ -37,7 +41,7 @@ Open Junction pairs the documented reSL decompilation with independently authore
 
 ## September 22, 2026 — Open Paths is playable
 
-Open Paths combines the documented OpenSupaplex decompilation with six original CC0 navigation mazes and independently generated graphics, screens, fonts, palettes, and panel data. The null-audio WebAssembly build passed muted local and production tests for launch, menu input, player creation, movement, first-level completion, fresh-start progress, and backup export/delete/import restoration. The full six-level playthrough remains unverified.
+Open Paths combines the documented OpenSupaplex decompilation with six original CC0 navigation mazes and independently generated graphics, screens, fonts, palettes, and panel data. The null-audio WebAssembly build passed muted local and production tests for launch, menu input, player creation, movement, first-level completion, fresh-start progress, and backup export/delete/import restoration. At this September checkpoint, the full six-level playthrough remained unverified; the October 14 record above verifies the authored campaign.
 
 ## September 22, 2026 — Open Digger is playable
 
