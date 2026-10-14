@@ -1,6 +1,6 @@
 {
   "date": "2026-10-14",
-  "status": "Integrated locally; scoped assets/source uploaded; production acceptance pending",
+  "status": "Released; ordinary-input production acceptance passed",
   "classification": "Developer-released GLFighters source port with independently authored robot arena/content; not decompilation, original campaign, emulation or clean-room certificate",
   "catalogCount": 89,
   "strictDecompMilestone": "4/5 unchanged: developer-released source port",
@@ -33,6 +33,27 @@
     "External SDK objects and other browsers/devices not independently rebuilt/tested"
   ],
   "productionUrl": "https://decompgames.com/games/vector-duel/",
-  "releaseCommit": null,
-  "deployment": null
+  "releaseCommit": "77819a3",
+  "deployment": "https://b1661389.decompgames.pages.dev",
+  "productionTests": {
+    "receipt": "vector-duel-production-acceptance.json",
+    "nativePracticeWinAndRetry": true,
+    "journalFullBrowserRestart": true,
+    "hostStopNativeCleanup": true,
+    "productStopTicksFrozen": true,
+    "exactLiveRuntimeAndSourceHashes": 11,
+    "allMuted": true,
+    "playersClosed": true
+  },
+  "retainedFailures": [
+    "Earlier private animation/source-selection/global-name/loading failures remain documented in private-candidate checkpoint",
+    "First source-archive build under expanded Windows MSIX path failed path-bound checks before compilation; short-directory extraction/rebuild passed",
+    "First live harness read iframe body before it existed; all11hashes passed, gameplay was not counted. Guarded readiness with a fresh profile passed native gameplay/journal/shutdown."
+  ],
+  "httpAcceptance": {
+    "gamePage": 200,
+    "manifest": 200,
+    "updates": 200,
+    "feed": 200
+  }
 }

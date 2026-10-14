@@ -1,0 +1,1630 @@
+{
+  "date": "2026-10-14T18:24:59.198Z",
+  "scope": "Production normal controls, native match/result/retry, journal full-browser restart, host/product Stop and distribution hashes",
+  "muted": true,
+  "errors": [],
+  "missing": [],
+  "external": [
+    "https://static.cloudflareinsights.com/beacon.min.js/v4bc70e2c01a94c73b74392e4234840661791215815920",
+    "https://www.googletagmanager.com/gtag/js?id=G-GQ6627GN8H",
+    "https://static.cloudflareinsights.com/beacon.min.js/v4bc70e2c01a94c73b74392e4234840661791215815920",
+    "https://www.googletagmanager.com/gtag/js?id=G-GQ6627GN8H"
+  ],
+  "states": [
+    {
+      "label": "initial",
+      "ready": true,
+      "stopped": false,
+      "ticks": 16,
+      "round": 1,
+      "paused": false,
+      "offensive": false,
+      "players": [
+        {
+          "x": -100,
+          "y": 0.5,
+          "hp": 100,
+          "dead": 0,
+          "exists": 1,
+          "activity": 45,
+          "frame": 0,
+          "animation": 26,
+          "ai": 0
+        },
+        {
+          "x": -40,
+          "y": 0.5,
+          "hp": 100,
+          "dead": 0,
+          "exists": 1,
+          "activity": 1,
+          "frame": 0,
+          "animation": 0,
+          "ai": 1
+        }
+      ]
+    },
+    {
+      "label": "moved",
+      "ready": true,
+      "stopped": false,
+      "ticks": 91,
+      "round": 1,
+      "paused": false,
+      "offensive": false,
+      "players": [
+        {
+          "x": -81.7391,
+          "y": 0.5,
+          "hp": 100,
+          "dead": 0,
+          "exists": 1,
+          "activity": 4,
+          "frame": 4,
+          "animation": 2,
+          "ai": 0
+        },
+        {
+          "x": -40,
+          "y": 0.5,
+          "hp": 100,
+          "dead": 0,
+          "exists": 1,
+          "activity": 2,
+          "frame": 0,
+          "animation": 1,
+          "ai": 1
+        }
+      ]
+    },
+    {
+      "label": "jump-0",
+      "ready": true,
+      "stopped": false,
+      "ticks": 140,
+      "round": 1,
+      "paused": false,
+      "offensive": false,
+      "players": [
+        {
+          "x": -81.7391,
+          "y": 1.5784,
+          "hp": 100,
+          "dead": 0,
+          "exists": 1,
+          "activity": 6,
+          "frame": 3,
+          "animation": 6,
+          "ai": 0
+        },
+        {
+          "x": -40,
+          "y": 0.5,
+          "hp": 100,
+          "dead": 0,
+          "exists": 1,
+          "activity": 1,
+          "frame": 7,
+          "animation": 1,
+          "ai": 1
+        }
+      ]
+    },
+    {
+      "label": "jump-1",
+      "ready": true,
+      "stopped": false,
+      "ticks": 156,
+      "round": 1,
+      "paused": false,
+      "offensive": false,
+      "players": [
+        {
+          "x": -81.7391,
+          "y": 6.3855,
+          "hp": 100,
+          "dead": 0,
+          "exists": 1,
+          "activity": 6,
+          "frame": 3,
+          "animation": 6,
+          "ai": 0
+        },
+        {
+          "x": -40,
+          "y": 0.5,
+          "hp": 100,
+          "dead": 0,
+          "exists": 1,
+          "activity": 1,
+          "frame": 0,
+          "animation": 0,
+          "ai": 1
+        }
+      ]
+    },
+    {
+      "label": "jump-2",
+      "ready": true,
+      "stopped": false,
+      "ticks": 172,
+      "round": 1,
+      "paused": false,
+      "offensive": false,
+      "players": [
+        {
+          "x": -81.7391,
+          "y": 8.4079,
+          "hp": 100,
+          "dead": 0,
+          "exists": 1,
+          "activity": 6,
+          "frame": 0,
+          "animation": 4,
+          "ai": 0
+        },
+        {
+          "x": -40,
+          "y": 0.5,
+          "hp": 100,
+          "dead": 0,
+          "exists": 1,
+          "activity": 1,
+          "frame": 3,
+          "animation": 0,
+          "ai": 1
+        }
+      ]
+    },
+    {
+      "label": "jump-3",
+      "ready": true,
+      "stopped": false,
+      "ticks": 189,
+      "round": 1,
+      "paused": false,
+      "offensive": false,
+      "players": [
+        {
+          "x": -81.7391,
+          "y": 7.515,
+          "hp": 100,
+          "dead": 0,
+          "exists": 1,
+          "activity": 6,
+          "frame": 1,
+          "animation": 4,
+          "ai": 0
+        },
+        {
+          "x": -40,
+          "y": 0.5,
+          "hp": 100,
+          "dead": 0,
+          "exists": 1,
+          "activity": 2,
+          "frame": 7,
+          "animation": 0,
+          "ai": 1
+        }
+      ]
+    },
+    {
+      "label": "jump-4",
+      "ready": true,
+      "stopped": false,
+      "ticks": 205,
+      "round": 1,
+      "paused": false,
+      "offensive": false,
+      "players": [
+        {
+          "x": -81.7391,
+          "y": 3.736,
+          "hp": 100,
+          "dead": 0,
+          "exists": 1,
+          "activity": 6,
+          "frame": 2,
+          "animation": 4,
+          "ai": 0
+        },
+        {
+          "x": -40,
+          "y": 0.5,
+          "hp": 100,
+          "dead": 0,
+          "exists": 1,
+          "activity": 2,
+          "frame": 7,
+          "animation": 0,
+          "ai": 1
+        }
+      ]
+    },
+    {
+      "label": "jump-5",
+      "ready": true,
+      "stopped": false,
+      "ticks": 221,
+      "round": 1,
+      "paused": false,
+      "offensive": false,
+      "players": [
+        {
+          "x": -81.7391,
+          "y": 0.5,
+          "hp": 100,
+          "dead": 0,
+          "exists": 1,
+          "activity": 45,
+          "frame": 2,
+          "animation": 3,
+          "ai": 0
+        },
+        {
+          "x": -40,
+          "y": 0.5,
+          "hp": 100,
+          "dead": 0,
+          "exists": 1,
+          "activity": 2,
+          "frame": 0,
+          "animation": 1,
+          "ai": 1
+        }
+      ]
+    },
+    {
+      "label": "jump-6",
+      "ready": true,
+      "stopped": false,
+      "ticks": 238,
+      "round": 1,
+      "paused": false,
+      "offensive": false,
+      "players": [
+        {
+          "x": -81.7391,
+          "y": 0.5,
+          "hp": 100,
+          "dead": 0,
+          "exists": 1,
+          "activity": 45,
+          "frame": 2,
+          "animation": 26,
+          "ai": 0
+        },
+        {
+          "x": -40,
+          "y": 0.5,
+          "hp": 100,
+          "dead": 0,
+          "exists": 1,
+          "activity": 2,
+          "frame": 3,
+          "animation": 1,
+          "ai": 1
+        }
+      ]
+    },
+    {
+      "label": "jump-7",
+      "ready": true,
+      "stopped": false,
+      "ticks": 254,
+      "round": 1,
+      "paused": false,
+      "offensive": false,
+      "players": [
+        {
+          "x": -81.7391,
+          "y": 0.5,
+          "hp": 100,
+          "dead": 0,
+          "exists": 1,
+          "activity": 45,
+          "frame": 2,
+          "animation": 26,
+          "ai": 0
+        },
+        {
+          "x": -40,
+          "y": 0.5,
+          "hp": 100,
+          "dead": 0,
+          "exists": 1,
+          "activity": 2,
+          "frame": 3,
+          "animation": 1,
+          "ai": 1
+        }
+      ]
+    },
+    {
+      "label": "jump-8",
+      "ready": true,
+      "stopped": false,
+      "ticks": 270,
+      "round": 1,
+      "paused": false,
+      "offensive": false,
+      "players": [
+        {
+          "x": -81.7391,
+          "y": 0.5,
+          "hp": 100,
+          "dead": 0,
+          "exists": 1,
+          "activity": 45,
+          "frame": 3,
+          "animation": 26,
+          "ai": 0
+        },
+        {
+          "x": -40,
+          "y": 0.5,
+          "hp": 100,
+          "dead": 0,
+          "exists": 1,
+          "activity": 1,
+          "frame": 7,
+          "animation": 1,
+          "ai": 1
+        }
+      ]
+    },
+    {
+      "label": "jump-9",
+      "ready": true,
+      "stopped": false,
+      "ticks": 285,
+      "round": 1,
+      "paused": false,
+      "offensive": false,
+      "players": [
+        {
+          "x": -81.7391,
+          "y": 0.5,
+          "hp": 100,
+          "dead": 0,
+          "exists": 1,
+          "activity": 45,
+          "frame": 4,
+          "animation": 26,
+          "ai": 0
+        },
+        {
+          "x": -40,
+          "y": 0.5,
+          "hp": 100,
+          "dead": 0,
+          "exists": 1,
+          "activity": 1,
+          "frame": 0,
+          "animation": 0,
+          "ai": 1
+        }
+      ]
+    },
+    {
+      "label": "jump-10",
+      "ready": true,
+      "stopped": false,
+      "ticks": 301,
+      "round": 1,
+      "paused": false,
+      "offensive": false,
+      "players": [
+        {
+          "x": -81.7391,
+          "y": 0.5,
+          "hp": 100,
+          "dead": 0,
+          "exists": 1,
+          "activity": 45,
+          "frame": 5,
+          "animation": 26,
+          "ai": 0
+        },
+        {
+          "x": -40,
+          "y": 0.5,
+          "hp": 100,
+          "dead": 0,
+          "exists": 1,
+          "activity": 1,
+          "frame": 2,
+          "animation": 0,
+          "ai": 1
+        }
+      ]
+    },
+    {
+      "label": "jump-11",
+      "ready": true,
+      "stopped": false,
+      "ticks": 317,
+      "round": 1,
+      "paused": false,
+      "offensive": false,
+      "players": [
+        {
+          "x": -81.7391,
+          "y": 0.5,
+          "hp": 100,
+          "dead": 0,
+          "exists": 1,
+          "activity": 45,
+          "frame": 5,
+          "animation": 26,
+          "ai": 0
+        },
+        {
+          "x": -40,
+          "y": 0.5,
+          "hp": 100,
+          "dead": 0,
+          "exists": 1,
+          "activity": 1,
+          "frame": 2,
+          "animation": 0,
+          "ai": 1
+        }
+      ]
+    },
+    {
+      "label": "jump-12",
+      "ready": true,
+      "stopped": false,
+      "ticks": 332,
+      "round": 1,
+      "paused": false,
+      "offensive": false,
+      "players": [
+        {
+          "x": -81.7391,
+          "y": 0.5,
+          "hp": 100,
+          "dead": 0,
+          "exists": 1,
+          "activity": 45,
+          "frame": 6,
+          "animation": 26,
+          "ai": 0
+        },
+        {
+          "x": -40,
+          "y": 0.5,
+          "hp": 100,
+          "dead": 0,
+          "exists": 1,
+          "activity": 2,
+          "frame": 5,
+          "animation": 0,
+          "ai": 1
+        }
+      ]
+    },
+    {
+      "label": "jump-13",
+      "ready": true,
+      "stopped": false,
+      "ticks": 348,
+      "round": 1,
+      "paused": false,
+      "offensive": false,
+      "players": [
+        {
+          "x": -81.7391,
+          "y": 0.5,
+          "hp": 100,
+          "dead": 0,
+          "exists": 1,
+          "activity": 45,
+          "frame": 7,
+          "animation": 26,
+          "ai": 0
+        },
+        {
+          "x": -40,
+          "y": 0.5,
+          "hp": 100,
+          "dead": 0,
+          "exists": 1,
+          "activity": 2,
+          "frame": 0,
+          "animation": 1,
+          "ai": 1
+        }
+      ]
+    },
+    {
+      "label": "jump-14",
+      "ready": true,
+      "stopped": false,
+      "ticks": 363,
+      "round": 1,
+      "paused": false,
+      "offensive": false,
+      "players": [
+        {
+          "x": -81.7391,
+          "y": 0.5,
+          "hp": 100,
+          "dead": 0,
+          "exists": 1,
+          "activity": 45,
+          "frame": 7,
+          "animation": 26,
+          "ai": 0
+        },
+        {
+          "x": -40,
+          "y": 0.5,
+          "hp": 100,
+          "dead": 0,
+          "exists": 1,
+          "activity": 2,
+          "frame": 0,
+          "animation": 1,
+          "ai": 1
+        }
+      ]
+    },
+    {
+      "label": "jump-15",
+      "ready": true,
+      "stopped": false,
+      "ticks": 379,
+      "round": 1,
+      "paused": false,
+      "offensive": false,
+      "players": [
+        {
+          "x": -81.7391,
+          "y": 0.5,
+          "hp": 100,
+          "dead": 0,
+          "exists": 1,
+          "activity": 45,
+          "frame": 8,
+          "animation": 26,
+          "ai": 0
+        },
+        {
+          "x": -40,
+          "y": 0.5,
+          "hp": 100,
+          "dead": 0,
+          "exists": 1,
+          "activity": 2,
+          "frame": 2,
+          "animation": 1,
+          "ai": 1
+        }
+      ]
+    },
+    {
+      "label": "jump-16",
+      "ready": true,
+      "stopped": false,
+      "ticks": 395,
+      "round": 1,
+      "paused": false,
+      "offensive": false,
+      "players": [
+        {
+          "x": -81.7391,
+          "y": 0.5,
+          "hp": 100,
+          "dead": 0,
+          "exists": 1,
+          "activity": 45,
+          "frame": 9,
+          "animation": 26,
+          "ai": 0
+        },
+        {
+          "x": -40,
+          "y": 0.5,
+          "hp": 100,
+          "dead": 0,
+          "exists": 1,
+          "activity": 2,
+          "frame": 6,
+          "animation": 1,
+          "ai": 1
+        }
+      ]
+    },
+    {
+      "label": "jump-17",
+      "ready": true,
+      "stopped": false,
+      "ticks": 411,
+      "round": 1,
+      "paused": false,
+      "offensive": false,
+      "players": [
+        {
+          "x": -81.7391,
+          "y": 0.5,
+          "hp": 100,
+          "dead": 0,
+          "exists": 1,
+          "activity": 45,
+          "frame": 10,
+          "animation": 26,
+          "ai": 0
+        },
+        {
+          "x": -40,
+          "y": 0.5,
+          "hp": 100,
+          "dead": 0,
+          "exists": 1,
+          "activity": 2,
+          "frame": 0,
+          "animation": 1,
+          "ai": 1
+        }
+      ]
+    },
+    {
+      "label": "jump-18",
+      "ready": true,
+      "stopped": false,
+      "ticks": 426,
+      "round": 1,
+      "paused": false,
+      "offensive": false,
+      "players": [
+        {
+          "x": -81.7391,
+          "y": 0.5,
+          "hp": 100,
+          "dead": 0,
+          "exists": 1,
+          "activity": 45,
+          "frame": 10,
+          "animation": 26,
+          "ai": 0
+        },
+        {
+          "x": -40,
+          "y": 0.5,
+          "hp": 100,
+          "dead": 0,
+          "exists": 1,
+          "activity": 2,
+          "frame": 0,
+          "animation": 1,
+          "ai": 1
+        }
+      ]
+    },
+    {
+      "label": "jump-19",
+      "ready": true,
+      "stopped": false,
+      "ticks": 442,
+      "round": 1,
+      "paused": false,
+      "offensive": false,
+      "players": [
+        {
+          "x": -81.7391,
+          "y": 0.5,
+          "hp": 100,
+          "dead": 0,
+          "exists": 1,
+          "activity": 45,
+          "frame": 11,
+          "animation": 26,
+          "ai": 0
+        },
+        {
+          "x": -40,
+          "y": 0.5,
+          "hp": 100,
+          "dead": 0,
+          "exists": 1,
+          "activity": 2,
+          "frame": 3,
+          "animation": 1,
+          "ai": 1
+        }
+      ]
+    },
+    {
+      "label": "jump-20",
+      "ready": true,
+      "stopped": false,
+      "ticks": 458,
+      "round": 1,
+      "paused": false,
+      "offensive": false,
+      "players": [
+        {
+          "x": -81.7391,
+          "y": 0.5,
+          "hp": 100,
+          "dead": 0,
+          "exists": 1,
+          "activity": 45,
+          "frame": 12,
+          "animation": 26,
+          "ai": 0
+        },
+        {
+          "x": -40,
+          "y": 0.5,
+          "hp": 100,
+          "dead": 0,
+          "exists": 1,
+          "activity": 2,
+          "frame": 6,
+          "animation": 1,
+          "ai": 1
+        }
+      ]
+    },
+    {
+      "label": "jump-21",
+      "ready": true,
+      "stopped": false,
+      "ticks": 473,
+      "round": 1,
+      "paused": false,
+      "offensive": false,
+      "players": [
+        {
+          "x": -81.7391,
+          "y": 0.5,
+          "hp": 100,
+          "dead": 0,
+          "exists": 1,
+          "activity": 45,
+          "frame": 12,
+          "animation": 26,
+          "ai": 0
+        },
+        {
+          "x": -40,
+          "y": 0.5,
+          "hp": 100,
+          "dead": 0,
+          "exists": 1,
+          "activity": 2,
+          "frame": 6,
+          "animation": 1,
+          "ai": 1
+        }
+      ]
+    },
+    {
+      "label": "jump-22",
+      "ready": true,
+      "stopped": false,
+      "ticks": 489,
+      "round": 1,
+      "paused": false,
+      "offensive": false,
+      "players": [
+        {
+          "x": -81.7391,
+          "y": 0.5,
+          "hp": 100,
+          "dead": 0,
+          "exists": 1,
+          "activity": 45,
+          "frame": 13,
+          "animation": 26,
+          "ai": 0
+        },
+        {
+          "x": -40,
+          "y": 0.5,
+          "hp": 100,
+          "dead": 0,
+          "exists": 1,
+          "activity": 2,
+          "frame": 0,
+          "animation": 1,
+          "ai": 1
+        }
+      ]
+    },
+    {
+      "label": "jump-23",
+      "ready": true,
+      "stopped": false,
+      "ticks": 504,
+      "round": 1,
+      "paused": false,
+      "offensive": false,
+      "players": [
+        {
+          "x": -81.7391,
+          "y": 0.5,
+          "hp": 100,
+          "dead": 0,
+          "exists": 1,
+          "activity": 45,
+          "frame": 14,
+          "animation": 26,
+          "ai": 0
+        },
+        {
+          "x": -40,
+          "y": 0.5,
+          "hp": 100,
+          "dead": 0,
+          "exists": 1,
+          "activity": 2,
+          "frame": 4,
+          "animation": 1,
+          "ai": 1
+        }
+      ]
+    },
+    {
+      "label": "jump-24",
+      "ready": true,
+      "stopped": false,
+      "ticks": 520,
+      "round": 1,
+      "paused": false,
+      "offensive": false,
+      "players": [
+        {
+          "x": -81.7391,
+          "y": 0.5,
+          "hp": 100,
+          "dead": 0,
+          "exists": 1,
+          "activity": 45,
+          "frame": 14,
+          "animation": 26,
+          "ai": 0
+        },
+        {
+          "x": -40,
+          "y": 0.5,
+          "hp": 100,
+          "dead": 0,
+          "exists": 1,
+          "activity": 2,
+          "frame": 4,
+          "animation": 1,
+          "ai": 1
+        }
+      ]
+    },
+    {
+      "label": "landed",
+      "ready": true,
+      "stopped": false,
+      "ticks": 520,
+      "round": 1,
+      "paused": false,
+      "offensive": false,
+      "players": [
+        {
+          "x": -81.7391,
+          "y": 0.5,
+          "hp": 100,
+          "dead": 0,
+          "exists": 1,
+          "activity": 45,
+          "frame": 14,
+          "animation": 26,
+          "ai": 0
+        },
+        {
+          "x": -40,
+          "y": 0.5,
+          "hp": 100,
+          "dead": 0,
+          "exists": 1,
+          "activity": 2,
+          "frame": 4,
+          "animation": 1,
+          "ai": 1
+        }
+      ]
+    },
+    {
+      "label": "approach-0",
+      "ready": true,
+      "stopped": false,
+      "ticks": 521,
+      "round": 1,
+      "paused": false,
+      "offensive": false,
+      "players": [
+        {
+          "x": -81.7391,
+          "y": 0.5,
+          "hp": 100,
+          "dead": 0,
+          "exists": 1,
+          "activity": 45,
+          "frame": 15,
+          "animation": 26,
+          "ai": 0
+        },
+        {
+          "x": -40,
+          "y": 0.5,
+          "hp": 100,
+          "dead": 0,
+          "exists": 1,
+          "activity": 2,
+          "frame": 0,
+          "animation": 1,
+          "ai": 1
+        }
+      ]
+    },
+    {
+      "label": "approach-1",
+      "ready": true,
+      "stopped": false,
+      "ticks": 538,
+      "round": 1,
+      "paused": false,
+      "offensive": false,
+      "players": [
+        {
+          "x": -77.7431,
+          "y": 0.5,
+          "hp": 100,
+          "dead": 0,
+          "exists": 1,
+          "activity": 4,
+          "frame": 1,
+          "animation": 2,
+          "ai": 0
+        },
+        {
+          "x": -40,
+          "y": 0.5,
+          "hp": 100,
+          "dead": 0,
+          "exists": 1,
+          "activity": 2,
+          "frame": 0,
+          "animation": 1,
+          "ai": 1
+        }
+      ]
+    },
+    {
+      "label": "approach-2",
+      "ready": true,
+      "stopped": false,
+      "ticks": 554,
+      "round": 1,
+      "paused": false,
+      "offensive": false,
+      "players": [
+        {
+          "x": -73.7292,
+          "y": 0.5,
+          "hp": 100,
+          "dead": 0,
+          "exists": 1,
+          "activity": 4,
+          "frame": 2,
+          "animation": 2,
+          "ai": 0
+        },
+        {
+          "x": -40,
+          "y": 0.5,
+          "hp": 100,
+          "dead": 0,
+          "exists": 1,
+          "activity": 2,
+          "frame": 4,
+          "animation": 1,
+          "ai": 1
+        }
+      ]
+    },
+    {
+      "label": "approach-3",
+      "ready": true,
+      "stopped": false,
+      "ticks": 569,
+      "round": 1,
+      "paused": false,
+      "offensive": false,
+      "players": [
+        {
+          "x": -69.9852,
+          "y": 0.5,
+          "hp": 100,
+          "dead": 0,
+          "exists": 1,
+          "activity": 4,
+          "frame": 3,
+          "animation": 2,
+          "ai": 0
+        },
+        {
+          "x": -40,
+          "y": 0.5,
+          "hp": 100,
+          "dead": 0,
+          "exists": 1,
+          "activity": 1,
+          "frame": 7,
+          "animation": 1,
+          "ai": 1
+        }
+      ]
+    },
+    {
+      "label": "approach-4",
+      "ready": true,
+      "stopped": false,
+      "ticks": 585,
+      "round": 1,
+      "paused": false,
+      "offensive": false,
+      "players": [
+        {
+          "x": -66.4842,
+          "y": 0.5,
+          "hp": 100,
+          "dead": 0,
+          "exists": 1,
+          "activity": 4,
+          "frame": 1,
+          "animation": 2,
+          "ai": 0
+        },
+        {
+          "x": -40,
+          "y": 0.5,
+          "hp": 100,
+          "dead": 0,
+          "exists": 1,
+          "activity": 1,
+          "frame": 7,
+          "animation": 1,
+          "ai": 1
+        }
+      ]
+    },
+    {
+      "label": "approach-5",
+      "ready": true,
+      "stopped": false,
+      "ticks": 601,
+      "round": 1,
+      "paused": false,
+      "offensive": false,
+      "players": [
+        {
+          "x": -62.7402,
+          "y": 0.5,
+          "hp": 100,
+          "dead": 0,
+          "exists": 1,
+          "activity": 45,
+          "frame": 2,
+          "animation": 2,
+          "ai": 0
+        },
+        {
+          "x": -40,
+          "y": 0.5,
+          "hp": 100,
+          "dead": 0,
+          "exists": 1,
+          "activity": 1,
+          "frame": 0,
+          "animation": 0,
+          "ai": 1
+        }
+      ]
+    },
+    {
+      "label": "approach-6",
+      "ready": true,
+      "stopped": false,
+      "ticks": 616,
+      "round": 1,
+      "paused": false,
+      "offensive": false,
+      "players": [
+        {
+          "x": -59.2483,
+          "y": 0.5,
+          "hp": 100,
+          "dead": 0,
+          "exists": 1,
+          "activity": 4,
+          "frame": 1,
+          "animation": 2,
+          "ai": 0
+        },
+        {
+          "x": -40,
+          "y": 0.5,
+          "hp": 100,
+          "dead": 0,
+          "exists": 1,
+          "activity": 1,
+          "frame": 3,
+          "animation": 0,
+          "ai": 1
+        }
+      ]
+    },
+    {
+      "label": "approach-7",
+      "ready": true,
+      "stopped": false,
+      "ticks": 632,
+      "round": 1,
+      "paused": false,
+      "offensive": false,
+      "players": [
+        {
+          "x": -55.2523,
+          "y": 0.5,
+          "hp": 100,
+          "dead": 0,
+          "exists": 1,
+          "activity": 4,
+          "frame": 2,
+          "animation": 2,
+          "ai": 0
+        },
+        {
+          "x": -40,
+          "y": 0.5,
+          "hp": 100,
+          "dead": 0,
+          "exists": 1,
+          "activity": 2,
+          "frame": 5,
+          "animation": 0,
+          "ai": 1
+        }
+      ]
+    },
+    {
+      "label": "approach-8",
+      "ready": true,
+      "stopped": false,
+      "ticks": 650,
+      "round": 1,
+      "paused": false,
+      "offensive": false,
+      "players": [
+        {
+          "x": -50.9953,
+          "y": 0.5,
+          "hp": 100,
+          "dead": 0,
+          "exists": 1,
+          "activity": 45,
+          "frame": 3,
+          "animation": 2,
+          "ai": 0
+        },
+        {
+          "x": -40,
+          "y": 0.5,
+          "hp": 100,
+          "dead": 0,
+          "exists": 1,
+          "activity": 2,
+          "frame": 5,
+          "animation": 0,
+          "ai": 1
+        }
+      ]
+    },
+    {
+      "label": "approach-9",
+      "ready": true,
+      "stopped": false,
+      "ticks": 665,
+      "round": 1,
+      "paused": false,
+      "offensive": false,
+      "players": [
+        {
+          "x": -47.4763,
+          "y": 0.5,
+          "hp": 100,
+          "dead": 0,
+          "exists": 1,
+          "activity": 4,
+          "frame": 1,
+          "animation": 2,
+          "ai": 0
+        },
+        {
+          "x": -40,
+          "y": 0.5,
+          "hp": 100,
+          "dead": 0,
+          "exists": 1,
+          "activity": 2,
+          "frame": 0,
+          "animation": 1,
+          "ai": 1
+        }
+      ]
+    },
+    {
+      "label": "strike-0",
+      "ready": true,
+      "stopped": false,
+      "ticks": 741,
+      "round": 1,
+      "paused": false,
+      "offensive": false,
+      "players": [
+        {
+          "x": -47.4763,
+          "y": 0.5,
+          "hp": 100,
+          "dead": 0,
+          "exists": 1,
+          "activity": 46,
+          "frame": 3,
+          "animation": 27,
+          "ai": 0
+        },
+        {
+          "x": -40,
+          "y": 0.5,
+          "hp": 47,
+          "dead": 0,
+          "exists": 1,
+          "activity": 41,
+          "frame": 1,
+          "animation": 23,
+          "ai": 1
+        }
+      ]
+    },
+    {
+      "label": "strike-1",
+      "ready": true,
+      "stopped": false,
+      "ticks": 815,
+      "round": 1,
+      "paused": false,
+      "offensive": false,
+      "players": [
+        {
+          "x": -47.4763,
+          "y": 0.5,
+          "hp": 100,
+          "dead": 0,
+          "exists": 1,
+          "activity": 46,
+          "frame": 6,
+          "animation": 27,
+          "ai": 0
+        },
+        {
+          "x": -40,
+          "y": 0.5,
+          "hp": 47,
+          "dead": 0,
+          "exists": 1,
+          "activity": 41,
+          "frame": 4,
+          "animation": 23,
+          "ai": 1
+        }
+      ]
+    },
+    {
+      "label": "strike-2",
+      "ready": true,
+      "stopped": false,
+      "ticks": 889,
+      "round": 1,
+      "paused": false,
+      "offensive": false,
+      "players": [
+        {
+          "x": -47.4763,
+          "y": 0.5,
+          "hp": 100,
+          "dead": 0,
+          "exists": 1,
+          "activity": 46,
+          "frame": 10,
+          "animation": 27,
+          "ai": 0
+        },
+        {
+          "x": -38,
+          "y": 0.5,
+          "hp": 47,
+          "dead": 0,
+          "exists": 1,
+          "activity": 41,
+          "frame": 8,
+          "animation": 23,
+          "ai": 1
+        }
+      ]
+    },
+    {
+      "label": "strike-3",
+      "ready": true,
+      "stopped": false,
+      "ticks": 965,
+      "round": 1,
+      "paused": false,
+      "offensive": false,
+      "players": [
+        {
+          "x": -47.4763,
+          "y": 0.5,
+          "hp": 100,
+          "dead": 0,
+          "exists": 1,
+          "activity": 46,
+          "frame": 13,
+          "animation": 27,
+          "ai": 0
+        },
+        {
+          "x": -38,
+          "y": 0.5,
+          "hp": 47,
+          "dead": 0,
+          "exists": 1,
+          "activity": 41,
+          "frame": 11,
+          "animation": 23,
+          "ai": 1
+        }
+      ]
+    },
+    {
+      "label": "strike-4",
+      "ready": true,
+      "stopped": false,
+      "ticks": 1038,
+      "round": 1,
+      "paused": false,
+      "offensive": false,
+      "players": [
+        {
+          "x": -47.4763,
+          "y": 0.5,
+          "hp": 100,
+          "dead": 0,
+          "exists": 1,
+          "activity": 46,
+          "frame": 16,
+          "animation": 27,
+          "ai": 0
+        },
+        {
+          "x": -38,
+          "y": 0.5,
+          "hp": 47,
+          "dead": 0,
+          "exists": 1,
+          "activity": 41,
+          "frame": 14,
+          "animation": 23,
+          "ai": 1
+        }
+      ]
+    },
+    {
+      "label": "strike-5",
+      "ready": true,
+      "stopped": false,
+      "ticks": 1112,
+      "round": 1,
+      "paused": false,
+      "offensive": false,
+      "players": [
+        {
+          "x": -47.4763,
+          "y": 0.5,
+          "hp": 100,
+          "dead": 0,
+          "exists": 1,
+          "activity": 45,
+          "frame": 0,
+          "animation": 26,
+          "ai": 0
+        },
+        {
+          "x": -38,
+          "y": 0.5,
+          "hp": 47,
+          "dead": 0,
+          "exists": 1,
+          "activity": 41,
+          "frame": 18,
+          "animation": 23,
+          "ai": 1
+        }
+      ]
+    },
+    {
+      "label": "strike-6",
+      "ready": true,
+      "stopped": false,
+      "ticks": 1185,
+      "round": 1,
+      "paused": false,
+      "offensive": false,
+      "players": [
+        {
+          "x": -47.4763,
+          "y": 0.5,
+          "hp": 100,
+          "dead": 0,
+          "exists": 1,
+          "activity": 46,
+          "frame": 3,
+          "animation": 27,
+          "ai": 0
+        },
+        {
+          "x": -38,
+          "y": 0.5,
+          "hp": -6,
+          "dead": 1,
+          "exists": 1,
+          "activity": 20,
+          "frame": 1,
+          "animation": 13,
+          "ai": 1
+        }
+      ]
+    },
+    {
+      "label": "product-stopped",
+      "ready": true,
+      "stopped": true,
+      "ticks": 23,
+      "round": 1,
+      "paused": true,
+      "offensive": false,
+      "players": [
+        {
+          "x": -100,
+          "y": 0.5,
+          "hp": 100,
+          "dead": 0,
+          "exists": 1,
+          "activity": 45,
+          "frame": 0,
+          "animation": 26,
+          "ai": 0
+        },
+        {
+          "x": -40,
+          "y": 0.5,
+          "hp": 100,
+          "dead": 0,
+          "exists": 1,
+          "activity": 1,
+          "frame": 0,
+          "animation": 0,
+          "ai": 1
+        }
+      ]
+    },
+    {
+      "label": "product-stopped-later",
+      "ready": true,
+      "stopped": true,
+      "ticks": 23,
+      "round": 1,
+      "paused": true,
+      "offensive": false,
+      "players": [
+        {
+          "x": -100,
+          "y": 0.5,
+          "hp": 100,
+          "dead": 0,
+          "exists": 1,
+          "activity": 45,
+          "frame": 0,
+          "animation": 26,
+          "ai": 0
+        },
+        {
+          "x": -40,
+          "y": 0.5,
+          "hp": 100,
+          "dead": 0,
+          "exists": 1,
+          "activity": 1,
+          "frame": 0,
+          "animation": 0,
+          "ai": 1
+        }
+      ]
+    }
+  ],
+  "distribution": [
+    {
+      "path": "/runtime/vector-duel/foundry-v1/asset-provenance.json",
+      "bytes": 76827,
+      "sha256": "df82e33eed9a9b719cf29ee6ff122ef0033a8e5a61252bf7f203c5553612a531"
+    },
+    {
+      "path": "/runtime/vector-duel/foundry-v1/build-inputs.json",
+      "bytes": 209784,
+      "sha256": "c37bce2df550e6c6fddaf6bd2cde9e059596422da525addff66d47d255d6a528"
+    },
+    {
+      "path": "/runtime/vector-duel/foundry-v1/game.data",
+      "bytes": 1502238,
+      "sha256": "0a36f760fb81e5e615f80e70f77822f9c8060ead8326f82130f59242138d3e5c"
+    },
+    {
+      "path": "/runtime/vector-duel/foundry-v1/game.js",
+      "bytes": 229059,
+      "sha256": "82c2744c682702f70eafc3a4c366139b6cde72f937c320fccb5c6c9c89e8336e"
+    },
+    {
+      "path": "/runtime/vector-duel/foundry-v1/game.wasm",
+      "bytes": 1075352,
+      "sha256": "46b71afc585b5b196faa13dafa0d7f3f44249f3ee543f6f80d456539a5b5d3d9"
+    },
+    {
+      "path": "/runtime/vector-duel/foundry-v1/index.html",
+      "bytes": 2089,
+      "sha256": "1b5963f14c1c95b5c9b647f88eab75b924244e65d5cd61e4fe47bef3c3ebd09a"
+    },
+    {
+      "path": "/runtime/vector-duel/foundry-v1/NOTICE.txt",
+      "bytes": 683741,
+      "sha256": "f44f781a934664041496936b129eab73c7f675a971dba670aa56ef6779ae2d17"
+    },
+    {
+      "path": "/runtime/vector-duel/foundry-v1/player.css",
+      "bytes": 1395,
+      "sha256": "31a01a6b6fb01f198436f53d67a27bebed0f935bcdfb5347cc263429f741d38b"
+    },
+    {
+      "path": "/runtime/vector-duel/foundry-v1/player.js",
+      "bytes": 5719,
+      "sha256": "e1cd226d68bbe3f1d3067643175e2552b63fb3038ee81e64e13121b02424ddf5"
+    },
+    {
+      "path": "/runtime/vector-duel/foundry-v1/THIRD_PARTY_NOTICES.md",
+      "bytes": 1858,
+      "sha256": "ed33bdfa703e9566314c6c1e05b2387ff2925f12cf54c77b6bc607c99b8edd13"
+    },
+    {
+      "path": "/sources/vector-duel-foundry-v1-source.zip",
+      "bytes": 2881987,
+      "sha256": "794a8a1bebf172400955077ff801ed3d61e936f915ee1683771c76ee0b4f2146"
+    }
+  ],
+  "nativePracticeWin": true,
+  "nativeRetry": true,
+  "hostStopNativeCleanup": true,
+  "fullBrowserRestartJournal": true,
+  "status": "passed",
+  "playersClosed": true,
+  "serverClosed": false
+}
