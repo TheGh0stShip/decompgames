@@ -1,0 +1,61 @@
+{
+  "date": "2026-10-14T19:12:21.637Z",
+  "muted": true,
+  "scope": "Malformed browser checkpoint rejected before native main/restore, no native save file written",
+  "cases": [
+    {
+      "label": "wrong build",
+      "failed": "Checkpoint rejected: Checkpoint belongs to a different build",
+      "noInitialRun": true,
+      "ready": false,
+      "frames": 0,
+      "fileWritten": false,
+      "audioCalls": 0
+    },
+    {
+      "label": "invalid byte",
+      "failed": "Checkpoint rejected: Invalid checkpoint bytes",
+      "noInitialRun": true,
+      "ready": false,
+      "frames": 0,
+      "fileWritten": false,
+      "audioCalls": 0
+    },
+    {
+      "label": "truncated native file",
+      "failed": "Checkpoint rejected: Truncated window-cell-1919 at byte 39106",
+      "noInitialRun": true,
+      "ready": false,
+      "frames": 0,
+      "fileWritten": false,
+      "audioCalls": 0
+    },
+    {
+      "label": "oversized JSON",
+      "failed": "Checkpoint rejected: Checkpoint exceeds size limit",
+      "noInitialRun": true,
+      "ready": false,
+      "frames": 0,
+      "fileWritten": false,
+      "audioCalls": 0
+    },
+    {
+      "label": "invalid JSON",
+      "failed": "Checkpoint rejected: Expected property name or '}' in JSON at position 1 (line 1 column 2)",
+      "noInitialRun": true,
+      "ready": false,
+      "frames": 0,
+      "fileWritten": false,
+      "audioCalls": 0
+    }
+  ],
+  "errors": [],
+  "status": "passed",
+  "playersClosed": true,
+  "privateReceipt": {
+    "bytes": 1477,
+    "sha256": "b4604518ca698c78bb96873c4c04d792ac90de5c7a60f78a32aa0dc37012b305"
+  },
+  "publicReleaseAccepted": false,
+  "independentContentComplete": false
+}

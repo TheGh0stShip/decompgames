@@ -1,0 +1,157 @@
+{
+  "date": "2026-10-14T19:16:20.613Z",
+  "muted": true,
+  "scope": "Simulated window blur/focus input gating; native Stop at input wait and while WASM download is held",
+  "errors": [],
+  "cases": [
+    {
+      "label": "simulated blur/focus and waiting Stop",
+      "status": "passed",
+      "before": {
+        "x": 44,
+        "y": 11,
+        "hp": 12,
+        "maxHp": 12,
+        "depth": 1,
+        "gold": 0,
+        "experience": 0,
+        "food": 1300,
+        "playing": 1,
+        "pack": [
+          [
+            58,
+            0,
+            1,
+            97
+          ],
+          [
+            93,
+            1,
+            1,
+            98
+          ],
+          [
+            41,
+            0,
+            1,
+            99
+          ],
+          [
+            41,
+            2,
+            1,
+            100
+          ],
+          [
+            41,
+            3,
+            25,
+            101
+          ]
+        ],
+        "monsters": [
+          [
+            83,
+            10,
+            9,
+            7
+          ],
+          [
+            83,
+            62,
+            3,
+            1
+          ],
+          [
+            66,
+            10,
+            2,
+            7
+          ]
+        ]
+      },
+      "after": {
+        "x": 44,
+        "y": 11,
+        "hp": 12,
+        "maxHp": 12,
+        "depth": 1,
+        "gold": 0,
+        "experience": 0,
+        "food": 1299,
+        "playing": 1,
+        "pack": [
+          [
+            58,
+            0,
+            1,
+            97
+          ],
+          [
+            93,
+            1,
+            1,
+            98
+          ],
+          [
+            41,
+            0,
+            1,
+            99
+          ],
+          [
+            41,
+            2,
+            1,
+            100
+          ],
+          [
+            41,
+            3,
+            25,
+            101
+          ]
+        ],
+        "monsters": [
+          [
+            83,
+            10,
+            9,
+            7
+          ],
+          [
+            83,
+            62,
+            3,
+            1
+          ],
+          [
+            66,
+            10,
+            2,
+            7
+          ]
+        ]
+      },
+      "nativeExit": true
+    },
+    {
+      "label": "Stop during held WASM download",
+      "status": "passed",
+      "native": true,
+      "exited": true,
+      "stopped": true,
+      "frames": 0,
+      "ready": false,
+      "audioCalls": 0
+    }
+  ],
+  "status": "passed",
+  "playersClosed": true,
+  "privateReceipt": {
+    "bytes": 2505,
+    "sha256": "2e4902c57c7e85d9e1eb4fb9164e4af8fe8c132a103f28c049e00a29a03a42a7"
+  },
+  "publicReleaseAccepted": false,
+  "independentContentComplete": false
+}

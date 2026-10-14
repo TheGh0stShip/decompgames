@@ -1,0 +1,3593 @@
+{
+  "date": "2026-10-14T19:17:29.941Z",
+  "scope": "Bounded standalone native-save format and reference validation; no native loader invoked for malformed cases",
+  "validBytes": 39236,
+  "parsedFields": 11877,
+  "sampleSha256": "f643da33f46cb79f274dd94f927249af095f98852b5a683363f0e602b61747d6",
+  "validatorSha256": "e23b31afa79d7c32b646fa00e677028e0732b3d27d02aa1baef259509b7576f0",
+  "cases": [
+    {
+      "label": "empty",
+      "reason": "Invalid native save size"
+    },
+    {
+      "label": "oversized",
+      "reason": "Invalid native save size"
+    },
+    {
+      "label": "truncated-tail",
+      "reason": "Truncated window-cell-1919 at byte 39232"
+    },
+    {
+      "label": "extra-tail",
+      "reason": "Trailing native save bytes at byte 39236"
+    },
+    {
+      "label": "global-0 not boolean",
+      "reason": "Invalid boolean global-0 at byte 109"
+    },
+    {
+      "label": "global-1 not boolean",
+      "reason": "Invalid boolean global-1 at byte 110"
+    },
+    {
+      "label": "global-3 not boolean",
+      "reason": "Invalid boolean global-3 at byte 115"
+    },
+    {
+      "label": "global-4 not boolean",
+      "reason": "Invalid boolean global-4 at byte 116"
+    },
+    {
+      "label": "global-5 not boolean",
+      "reason": "Invalid boolean global-5 at byte 117"
+    },
+    {
+      "label": "global-6 not boolean",
+      "reason": "Invalid boolean global-6 at byte 118"
+    },
+    {
+      "label": "global-7 not boolean",
+      "reason": "Invalid boolean global-7 at byte 119"
+    },
+    {
+      "label": "global-8 not boolean",
+      "reason": "Invalid boolean global-8 at byte 120"
+    },
+    {
+      "label": "global-9 not boolean",
+      "reason": "Invalid boolean global-9 at byte 121"
+    },
+    {
+      "label": "global-10 not boolean",
+      "reason": "Invalid boolean global-10 at byte 122"
+    },
+    {
+      "label": "global-11 not boolean",
+      "reason": "Invalid boolean global-11 at byte 123"
+    },
+    {
+      "label": "global-12 not boolean",
+      "reason": "Invalid boolean global-12 at byte 124"
+    },
+    {
+      "label": "global-13 not boolean",
+      "reason": "Invalid boolean global-13 at byte 125"
+    },
+    {
+      "label": "global-14 not boolean",
+      "reason": "Invalid boolean global-14 at byte 126"
+    },
+    {
+      "label": "global-15 not boolean",
+      "reason": "Invalid boolean global-15 at byte 127"
+    },
+    {
+      "label": "global-16 not boolean",
+      "reason": "Invalid boolean global-16 at byte 128"
+    },
+    {
+      "label": "global-17 not boolean",
+      "reason": "Invalid boolean global-17 at byte 129"
+    },
+    {
+      "label": "global-18 not boolean",
+      "reason": "Invalid boolean global-18 at byte 130"
+    },
+    {
+      "label": "global-19 not boolean",
+      "reason": "Invalid boolean global-19 at byte 131"
+    },
+    {
+      "label": "global-20 not boolean",
+      "reason": "Invalid boolean global-20 at byte 132"
+    },
+    {
+      "label": "global-21 not boolean",
+      "reason": "Invalid boolean global-21 at byte 133"
+    },
+    {
+      "label": "global-22 not boolean",
+      "reason": "Invalid boolean global-22 at byte 134"
+    },
+    {
+      "label": "global-23 not boolean",
+      "reason": "Invalid boolean global-23 at byte 135"
+    },
+    {
+      "label": "global-24 not boolean",
+      "reason": "Invalid boolean global-24 at byte 136"
+    },
+    {
+      "label": "global-25 not boolean",
+      "reason": "Invalid boolean global-25 at byte 137"
+    },
+    {
+      "label": "global-26 not boolean",
+      "reason": "Invalid boolean global-26 at byte 138"
+    },
+    {
+      "label": "pack-used-count negative",
+      "reason": "Invalid count pack-used-count at byte 146"
+    },
+    {
+      "label": "pack-used-count oversized",
+      "reason": "Invalid count pack-used-count at byte 146"
+    },
+    {
+      "label": "pack-used-0 not boolean",
+      "reason": "Invalid boolean pack-used-0 at byte 147"
+    },
+    {
+      "label": "pack-used-1 not boolean",
+      "reason": "Invalid boolean pack-used-1 at byte 148"
+    },
+    {
+      "label": "pack-used-2 not boolean",
+      "reason": "Invalid boolean pack-used-2 at byte 149"
+    },
+    {
+      "label": "pack-used-3 not boolean",
+      "reason": "Invalid boolean pack-used-3 at byte 150"
+    },
+    {
+      "label": "pack-used-4 not boolean",
+      "reason": "Invalid boolean pack-used-4 at byte 151"
+    },
+    {
+      "label": "pack-used-5 not boolean",
+      "reason": "Invalid boolean pack-used-5 at byte 152"
+    },
+    {
+      "label": "pack-used-6 not boolean",
+      "reason": "Invalid boolean pack-used-6 at byte 153"
+    },
+    {
+      "label": "pack-used-7 not boolean",
+      "reason": "Invalid boolean pack-used-7 at byte 154"
+    },
+    {
+      "label": "pack-used-8 not boolean",
+      "reason": "Invalid boolean pack-used-8 at byte 155"
+    },
+    {
+      "label": "pack-used-9 not boolean",
+      "reason": "Invalid boolean pack-used-9 at byte 156"
+    },
+    {
+      "label": "pack-used-10 not boolean",
+      "reason": "Invalid boolean pack-used-10 at byte 157"
+    },
+    {
+      "label": "pack-used-11 not boolean",
+      "reason": "Invalid boolean pack-used-11 at byte 158"
+    },
+    {
+      "label": "pack-used-12 not boolean",
+      "reason": "Invalid boolean pack-used-12 at byte 159"
+    },
+    {
+      "label": "pack-used-13 not boolean",
+      "reason": "Invalid boolean pack-used-13 at byte 160"
+    },
+    {
+      "label": "pack-used-14 not boolean",
+      "reason": "Invalid boolean pack-used-14 at byte 161"
+    },
+    {
+      "label": "pack-used-15 not boolean",
+      "reason": "Invalid boolean pack-used-15 at byte 162"
+    },
+    {
+      "label": "pack-used-16 not boolean",
+      "reason": "Invalid boolean pack-used-16 at byte 163"
+    },
+    {
+      "label": "pack-used-17 not boolean",
+      "reason": "Invalid boolean pack-used-17 at byte 164"
+    },
+    {
+      "label": "pack-used-18 not boolean",
+      "reason": "Invalid boolean pack-used-18 at byte 165"
+    },
+    {
+      "label": "pack-used-19 not boolean",
+      "reason": "Invalid boolean pack-used-19 at byte 166"
+    },
+    {
+      "label": "pack-used-20 not boolean",
+      "reason": "Invalid boolean pack-used-20 at byte 167"
+    },
+    {
+      "label": "pack-used-21 not boolean",
+      "reason": "Invalid boolean pack-used-21 at byte 168"
+    },
+    {
+      "label": "pack-used-22 not boolean",
+      "reason": "Invalid boolean pack-used-22 at byte 169"
+    },
+    {
+      "label": "pack-used-23 not boolean",
+      "reason": "Invalid boolean pack-used-23 at byte 170"
+    },
+    {
+      "label": "pack-used-24 not boolean",
+      "reason": "Invalid boolean pack-used-24 at byte 171"
+    },
+    {
+      "label": "pack-used-25 not boolean",
+      "reason": "Invalid boolean pack-used-25 at byte 172"
+    },
+    {
+      "label": "save-path-count negative",
+      "reason": "Invalid count save-path-count at byte 177"
+    },
+    {
+      "label": "save-path-count oversized",
+      "reason": "Invalid count save-path-count at byte 177"
+    },
+    {
+      "label": "message-count negative",
+      "reason": "Invalid count message-count at byte 1205"
+    },
+    {
+      "label": "message-count oversized",
+      "reason": "Invalid count message-count at byte 1205"
+    },
+    {
+      "label": "print-buffer-count negative",
+      "reason": "Invalid count print-buffer-count at byte 2289"
+    },
+    {
+      "label": "print-buffer-count oversized",
+      "reason": "Invalid count print-buffer-count at byte 2289"
+    },
+    {
+      "label": "release-length negative",
+      "reason": "Invalid release-length at byte 4397"
+    },
+    {
+      "label": "release-length oversized",
+      "reason": "Invalid release-length at byte 4397"
+    },
+    {
+      "label": "release-count negative",
+      "reason": "Invalid count release-count at byte 4401"
+    },
+    {
+      "label": "release-count oversized",
+      "reason": "Invalid count release-count at byte 4401"
+    },
+    {
+      "label": "scroll-name-0-length negative",
+      "reason": "Invalid scroll-name-0-length at byte 4412"
+    },
+    {
+      "label": "scroll-name-0-length oversized",
+      "reason": "Invalid scroll-name-0-length at byte 4412"
+    },
+    {
+      "label": "scroll-name-0-count negative",
+      "reason": "Invalid count scroll-name-0-count at byte 4416"
+    },
+    {
+      "label": "scroll-name-0-count oversized",
+      "reason": "Invalid count scroll-name-0-count at byte 4416"
+    },
+    {
+      "label": "scroll-name-1-length negative",
+      "reason": "Invalid scroll-name-1-length at byte 4451"
+    },
+    {
+      "label": "scroll-name-1-length oversized",
+      "reason": "Invalid scroll-name-1-length at byte 4451"
+    },
+    {
+      "label": "scroll-name-1-count negative",
+      "reason": "Invalid count scroll-name-1-count at byte 4455"
+    },
+    {
+      "label": "scroll-name-1-count oversized",
+      "reason": "Invalid count scroll-name-1-count at byte 4455"
+    },
+    {
+      "label": "scroll-name-2-length negative",
+      "reason": "Invalid scroll-name-2-length at byte 4484"
+    },
+    {
+      "label": "scroll-name-2-length oversized",
+      "reason": "Invalid scroll-name-2-length at byte 4484"
+    },
+    {
+      "label": "scroll-name-2-count negative",
+      "reason": "Invalid count scroll-name-2-count at byte 4488"
+    },
+    {
+      "label": "scroll-name-2-count oversized",
+      "reason": "Invalid count scroll-name-2-count at byte 4488"
+    },
+    {
+      "label": "scroll-name-3-length negative",
+      "reason": "Invalid scroll-name-3-length at byte 4515"
+    },
+    {
+      "label": "scroll-name-3-length oversized",
+      "reason": "Invalid scroll-name-3-length at byte 4515"
+    },
+    {
+      "label": "scroll-name-3-count negative",
+      "reason": "Invalid count scroll-name-3-count at byte 4519"
+    },
+    {
+      "label": "scroll-name-3-count oversized",
+      "reason": "Invalid count scroll-name-3-count at byte 4519"
+    },
+    {
+      "label": "scroll-name-4-length negative",
+      "reason": "Invalid scroll-name-4-length at byte 4556"
+    },
+    {
+      "label": "scroll-name-4-length oversized",
+      "reason": "Invalid scroll-name-4-length at byte 4556"
+    },
+    {
+      "label": "scroll-name-4-count negative",
+      "reason": "Invalid count scroll-name-4-count at byte 4560"
+    },
+    {
+      "label": "scroll-name-4-count oversized",
+      "reason": "Invalid count scroll-name-4-count at byte 4560"
+    },
+    {
+      "label": "scroll-name-5-length negative",
+      "reason": "Invalid scroll-name-5-length at byte 4575"
+    },
+    {
+      "label": "scroll-name-5-length oversized",
+      "reason": "Invalid scroll-name-5-length at byte 4575"
+    },
+    {
+      "label": "scroll-name-5-count negative",
+      "reason": "Invalid count scroll-name-5-count at byte 4579"
+    },
+    {
+      "label": "scroll-name-5-count oversized",
+      "reason": "Invalid count scroll-name-5-count at byte 4579"
+    },
+    {
+      "label": "scroll-name-6-length negative",
+      "reason": "Invalid scroll-name-6-length at byte 4602"
+    },
+    {
+      "label": "scroll-name-6-length oversized",
+      "reason": "Invalid scroll-name-6-length at byte 4602"
+    },
+    {
+      "label": "scroll-name-6-count negative",
+      "reason": "Invalid count scroll-name-6-count at byte 4606"
+    },
+    {
+      "label": "scroll-name-6-count oversized",
+      "reason": "Invalid count scroll-name-6-count at byte 4606"
+    },
+    {
+      "label": "scroll-name-7-length negative",
+      "reason": "Invalid scroll-name-7-length at byte 4623"
+    },
+    {
+      "label": "scroll-name-7-length oversized",
+      "reason": "Invalid scroll-name-7-length at byte 4623"
+    },
+    {
+      "label": "scroll-name-7-count negative",
+      "reason": "Invalid count scroll-name-7-count at byte 4627"
+    },
+    {
+      "label": "scroll-name-7-count oversized",
+      "reason": "Invalid count scroll-name-7-count at byte 4627"
+    },
+    {
+      "label": "scroll-name-8-length negative",
+      "reason": "Invalid scroll-name-8-length at byte 4651"
+    },
+    {
+      "label": "scroll-name-8-length oversized",
+      "reason": "Invalid scroll-name-8-length at byte 4651"
+    },
+    {
+      "label": "scroll-name-8-count negative",
+      "reason": "Invalid count scroll-name-8-count at byte 4655"
+    },
+    {
+      "label": "scroll-name-8-count oversized",
+      "reason": "Invalid count scroll-name-8-count at byte 4655"
+    },
+    {
+      "label": "scroll-name-9-length negative",
+      "reason": "Invalid scroll-name-9-length at byte 4684"
+    },
+    {
+      "label": "scroll-name-9-length oversized",
+      "reason": "Invalid scroll-name-9-length at byte 4684"
+    },
+    {
+      "label": "scroll-name-9-count negative",
+      "reason": "Invalid count scroll-name-9-count at byte 4688"
+    },
+    {
+      "label": "scroll-name-9-count oversized",
+      "reason": "Invalid count scroll-name-9-count at byte 4688"
+    },
+    {
+      "label": "scroll-name-10-length negative",
+      "reason": "Invalid scroll-name-10-length at byte 4716"
+    },
+    {
+      "label": "scroll-name-10-length oversized",
+      "reason": "Invalid scroll-name-10-length at byte 4716"
+    },
+    {
+      "label": "scroll-name-10-count negative",
+      "reason": "Invalid count scroll-name-10-count at byte 4720"
+    },
+    {
+      "label": "scroll-name-10-count oversized",
+      "reason": "Invalid count scroll-name-10-count at byte 4720"
+    },
+    {
+      "label": "scroll-name-11-length negative",
+      "reason": "Invalid scroll-name-11-length at byte 4735"
+    },
+    {
+      "label": "scroll-name-11-length oversized",
+      "reason": "Invalid scroll-name-11-length at byte 4735"
+    },
+    {
+      "label": "scroll-name-11-count negative",
+      "reason": "Invalid count scroll-name-11-count at byte 4739"
+    },
+    {
+      "label": "scroll-name-11-count oversized",
+      "reason": "Invalid count scroll-name-11-count at byte 4739"
+    },
+    {
+      "label": "scroll-name-12-length negative",
+      "reason": "Invalid scroll-name-12-length at byte 4758"
+    },
+    {
+      "label": "scroll-name-12-length oversized",
+      "reason": "Invalid scroll-name-12-length at byte 4758"
+    },
+    {
+      "label": "scroll-name-12-count negative",
+      "reason": "Invalid count scroll-name-12-count at byte 4762"
+    },
+    {
+      "label": "scroll-name-12-count oversized",
+      "reason": "Invalid count scroll-name-12-count at byte 4762"
+    },
+    {
+      "label": "scroll-name-13-length negative",
+      "reason": "Invalid scroll-name-13-length at byte 4787"
+    },
+    {
+      "label": "scroll-name-13-length oversized",
+      "reason": "Invalid scroll-name-13-length at byte 4787"
+    },
+    {
+      "label": "scroll-name-13-count negative",
+      "reason": "Invalid count scroll-name-13-count at byte 4791"
+    },
+    {
+      "label": "scroll-name-13-count oversized",
+      "reason": "Invalid count scroll-name-13-count at byte 4791"
+    },
+    {
+      "label": "scroll-name-14-length negative",
+      "reason": "Invalid scroll-name-14-length at byte 4825"
+    },
+    {
+      "label": "scroll-name-14-length oversized",
+      "reason": "Invalid scroll-name-14-length at byte 4825"
+    },
+    {
+      "label": "scroll-name-14-count negative",
+      "reason": "Invalid count scroll-name-14-count at byte 4829"
+    },
+    {
+      "label": "scroll-name-14-count oversized",
+      "reason": "Invalid count scroll-name-14-count at byte 4829"
+    },
+    {
+      "label": "scroll-name-15-length negative",
+      "reason": "Invalid scroll-name-15-length at byte 4858"
+    },
+    {
+      "label": "scroll-name-15-length oversized",
+      "reason": "Invalid scroll-name-15-length at byte 4858"
+    },
+    {
+      "label": "scroll-name-15-count negative",
+      "reason": "Invalid count scroll-name-15-count at byte 4862"
+    },
+    {
+      "label": "scroll-name-15-count oversized",
+      "reason": "Invalid count scroll-name-15-count at byte 4862"
+    },
+    {
+      "label": "scroll-name-16-length negative",
+      "reason": "Invalid scroll-name-16-length at byte 4891"
+    },
+    {
+      "label": "scroll-name-16-length oversized",
+      "reason": "Invalid scroll-name-16-length at byte 4891"
+    },
+    {
+      "label": "scroll-name-16-count negative",
+      "reason": "Invalid count scroll-name-16-count at byte 4895"
+    },
+    {
+      "label": "scroll-name-16-count oversized",
+      "reason": "Invalid count scroll-name-16-count at byte 4895"
+    },
+    {
+      "label": "scroll-name-17-length negative",
+      "reason": "Invalid scroll-name-17-length at byte 4920"
+    },
+    {
+      "label": "scroll-name-17-length oversized",
+      "reason": "Invalid scroll-name-17-length at byte 4920"
+    },
+    {
+      "label": "scroll-name-17-count negative",
+      "reason": "Invalid count scroll-name-17-count at byte 4924"
+    },
+    {
+      "label": "scroll-name-17-count oversized",
+      "reason": "Invalid count scroll-name-17-count at byte 4924"
+    },
+    {
+      "label": "player-name-count negative",
+      "reason": "Invalid count player-name-count at byte 4963"
+    },
+    {
+      "label": "player-name-count oversized",
+      "reason": "Invalid count player-name-count at byte 4963"
+    },
+    {
+      "label": "fruit-count negative",
+      "reason": "Invalid count fruit-count at byte 6107"
+    },
+    {
+      "label": "fruit-count oversized",
+      "reason": "Invalid count fruit-count at byte 6107"
+    },
+    {
+      "label": "home-count negative",
+      "reason": "Invalid count home-count at byte 7135"
+    },
+    {
+      "label": "home-count oversized",
+      "reason": "Invalid count home-count at byte 7135"
+    },
+    {
+      "label": "inventory-style-array negative",
+      "reason": "Invalid count inventory-style-array at byte 8163"
+    },
+    {
+      "label": "inventory-style-array oversized",
+      "reason": "Invalid count inventory-style-array at byte 8163"
+    },
+    {
+      "label": "inventory-style-0-length negative",
+      "reason": "Invalid inventory-style-0-length at byte 8167"
+    },
+    {
+      "label": "inventory-style-0-length oversized",
+      "reason": "Invalid inventory-style-0-length at byte 8167"
+    },
+    {
+      "label": "inventory-style-0-count negative",
+      "reason": "Invalid count inventory-style-0-count at byte 8171"
+    },
+    {
+      "label": "inventory-style-0-count oversized",
+      "reason": "Invalid count inventory-style-0-count at byte 8171"
+    },
+    {
+      "label": "inventory-style-1-length negative",
+      "reason": "Invalid inventory-style-1-length at byte 8185"
+    },
+    {
+      "label": "inventory-style-1-length oversized",
+      "reason": "Invalid inventory-style-1-length at byte 8185"
+    },
+    {
+      "label": "inventory-style-1-count negative",
+      "reason": "Invalid count inventory-style-1-count at byte 8189"
+    },
+    {
+      "label": "inventory-style-1-count oversized",
+      "reason": "Invalid count inventory-style-1-count at byte 8189"
+    },
+    {
+      "label": "inventory-style-2-length negative",
+      "reason": "Invalid inventory-style-2-length at byte 8198"
+    },
+    {
+      "label": "inventory-style-2-length oversized",
+      "reason": "Invalid inventory-style-2-length at byte 8198"
+    },
+    {
+      "label": "inventory-style-2-count negative",
+      "reason": "Invalid count inventory-style-2-count at byte 8202"
+    },
+    {
+      "label": "inventory-style-2-count oversized",
+      "reason": "Invalid count inventory-style-2-count at byte 8202"
+    },
+    {
+      "label": "trap-names-array negative",
+      "reason": "Invalid count trap-names-array at byte 8216"
+    },
+    {
+      "label": "trap-names-array oversized",
+      "reason": "Invalid count trap-names-array at byte 8216"
+    },
+    {
+      "label": "trap-names-0-length negative",
+      "reason": "Invalid trap-names-0-length at byte 8220"
+    },
+    {
+      "label": "trap-names-0-length oversized",
+      "reason": "Invalid trap-names-0-length at byte 8220"
+    },
+    {
+      "label": "trap-names-0-count negative",
+      "reason": "Invalid count trap-names-0-count at byte 8224"
+    },
+    {
+      "label": "trap-names-0-count oversized",
+      "reason": "Invalid count trap-names-0-count at byte 8224"
+    },
+    {
+      "label": "trap-names-1-length negative",
+      "reason": "Invalid trap-names-1-length at byte 8239"
+    },
+    {
+      "label": "trap-names-1-length oversized",
+      "reason": "Invalid trap-names-1-length at byte 8239"
+    },
+    {
+      "label": "trap-names-1-count negative",
+      "reason": "Invalid count trap-names-1-count at byte 8243"
+    },
+    {
+      "label": "trap-names-1-count oversized",
+      "reason": "Invalid count trap-names-1-count at byte 8243"
+    },
+    {
+      "label": "trap-names-2-length negative",
+      "reason": "Invalid trap-names-2-length at byte 8261"
+    },
+    {
+      "label": "trap-names-2-length oversized",
+      "reason": "Invalid trap-names-2-length at byte 8261"
+    },
+    {
+      "label": "trap-names-2-count negative",
+      "reason": "Invalid count trap-names-2-count at byte 8265"
+    },
+    {
+      "label": "trap-names-2-count oversized",
+      "reason": "Invalid count trap-names-2-count at byte 8265"
+    },
+    {
+      "label": "trap-names-3-length negative",
+      "reason": "Invalid trap-names-3-length at byte 8289"
+    },
+    {
+      "label": "trap-names-3-length oversized",
+      "reason": "Invalid trap-names-3-length at byte 8289"
+    },
+    {
+      "label": "trap-names-3-count negative",
+      "reason": "Invalid count trap-names-3-count at byte 8293"
+    },
+    {
+      "label": "trap-names-3-count oversized",
+      "reason": "Invalid count trap-names-3-count at byte 8293"
+    },
+    {
+      "label": "trap-names-4-length negative",
+      "reason": "Invalid trap-names-4-length at byte 8308"
+    },
+    {
+      "label": "trap-names-4-length oversized",
+      "reason": "Invalid trap-names-4-length at byte 8308"
+    },
+    {
+      "label": "trap-names-4-count negative",
+      "reason": "Invalid count trap-names-4-count at byte 8312"
+    },
+    {
+      "label": "trap-names-4-count oversized",
+      "reason": "Invalid count trap-names-4-count at byte 8312"
+    },
+    {
+      "label": "trap-names-5-length negative",
+      "reason": "Invalid trap-names-5-length at byte 8332"
+    },
+    {
+      "label": "trap-names-5-length oversized",
+      "reason": "Invalid trap-names-5-length at byte 8332"
+    },
+    {
+      "label": "trap-names-5-count negative",
+      "reason": "Invalid count trap-names-5-count at byte 8336"
+    },
+    {
+      "label": "trap-names-5-count oversized",
+      "reason": "Invalid count trap-names-5-count at byte 8336"
+    },
+    {
+      "label": "trap-names-6-length negative",
+      "reason": "Invalid trap-names-6-length at byte 8359"
+    },
+    {
+      "label": "trap-names-6-length oversized",
+      "reason": "Invalid trap-names-6-length at byte 8359"
+    },
+    {
+      "label": "trap-names-6-count negative",
+      "reason": "Invalid count trap-names-6-count at byte 8363"
+    },
+    {
+      "label": "trap-names-6-count oversized",
+      "reason": "Invalid count trap-names-6-count at byte 8363"
+    },
+    {
+      "label": "trap-names-7-length negative",
+      "reason": "Invalid trap-names-7-length at byte 8379"
+    },
+    {
+      "label": "trap-names-7-length oversized",
+      "reason": "Invalid trap-names-7-length at byte 8379"
+    },
+    {
+      "label": "trap-names-7-count negative",
+      "reason": "Invalid count trap-names-7-count at byte 8383"
+    },
+    {
+      "label": "trap-names-7-count oversized",
+      "reason": "Invalid count trap-names-7-count at byte 8383"
+    },
+    {
+      "label": "object-count negative",
+      "reason": "Invalid object-count at byte 8405"
+    },
+    {
+      "label": "object-count oversized",
+      "reason": "Invalid object-count at byte 8405"
+    },
+    {
+      "label": "trap-count negative",
+      "reason": "Invalid trap-count at byte 8409"
+    },
+    {
+      "label": "trap-count oversized",
+      "reason": "Invalid trap-count at byte 8409"
+    },
+    {
+      "label": "armor-values-array negative",
+      "reason": "Invalid count armor-values-array at byte 8441"
+    },
+    {
+      "label": "armor-values-array oversized",
+      "reason": "Invalid count armor-values-array at byte 8441"
+    },
+    {
+      "label": "repeat-count negative",
+      "reason": "Invalid repeat-count at byte 8477"
+    },
+    {
+      "label": "repeat-count oversized",
+      "reason": "Invalid repeat-count at byte 8477"
+    },
+    {
+      "label": "experience-levels-array negative",
+      "reason": "Invalid count experience-levels-array at byte 8517"
+    },
+    {
+      "label": "experience-levels-array oversized",
+      "reason": "Invalid count experience-levels-array at byte 8517"
+    },
+    {
+      "label": "player-stats-damage-count negative",
+      "reason": "Invalid count player-stats-damage-count at byte 8683"
+    },
+    {
+      "label": "player-stats-damage-count oversized",
+      "reason": "Invalid count player-stats-damage-count at byte 8683"
+    },
+    {
+      "label": "player-pack-count negative",
+      "reason": "Invalid player-pack-count at byte 8712"
+    },
+    {
+      "label": "player-pack-count oversized",
+      "reason": "Invalid player-pack-count at byte 8712"
+    },
+    {
+      "label": "player-pack-0-damage-count negative",
+      "reason": "Invalid count player-pack-0-damage-count at byte 8737"
+    },
+    {
+      "label": "player-pack-0-damage-count oversized",
+      "reason": "Invalid count player-pack-0-damage-count at byte 8737"
+    },
+    {
+      "label": "player-pack-0-throw-count negative",
+      "reason": "Invalid count player-pack-0-throw-count at byte 8749"
+    },
+    {
+      "label": "player-pack-0-throw-count oversized",
+      "reason": "Invalid count player-pack-0-throw-count at byte 8749"
+    },
+    {
+      "label": "player-pack-0-count negative",
+      "reason": "Invalid player-pack-0-count at byte 8761"
+    },
+    {
+      "label": "player-pack-0-count oversized",
+      "reason": "Invalid player-pack-0-count at byte 8761"
+    },
+    {
+      "label": "player-pack-0-label-length negative",
+      "reason": "Invalid player-pack-0-label-length at byte 8789"
+    },
+    {
+      "label": "player-pack-0-label-length oversized",
+      "reason": "Invalid player-pack-0-label-length at byte 8789"
+    },
+    {
+      "label": "player-pack-0-label-count negative",
+      "reason": "Invalid count player-pack-0-label-count at byte 8793"
+    },
+    {
+      "label": "player-pack-0-label-count oversized",
+      "reason": "Invalid count player-pack-0-label-count at byte 8793"
+    },
+    {
+      "label": "player-pack-1-damage-count negative",
+      "reason": "Invalid count player-pack-1-damage-count at byte 8818"
+    },
+    {
+      "label": "player-pack-1-damage-count oversized",
+      "reason": "Invalid count player-pack-1-damage-count at byte 8818"
+    },
+    {
+      "label": "player-pack-1-throw-count negative",
+      "reason": "Invalid count player-pack-1-throw-count at byte 8830"
+    },
+    {
+      "label": "player-pack-1-throw-count oversized",
+      "reason": "Invalid count player-pack-1-throw-count at byte 8830"
+    },
+    {
+      "label": "player-pack-1-count negative",
+      "reason": "Invalid player-pack-1-count at byte 8842"
+    },
+    {
+      "label": "player-pack-1-count oversized",
+      "reason": "Invalid player-pack-1-count at byte 8842"
+    },
+    {
+      "label": "player-pack-1-label-length negative",
+      "reason": "Invalid player-pack-1-label-length at byte 8870"
+    },
+    {
+      "label": "player-pack-1-label-length oversized",
+      "reason": "Invalid player-pack-1-label-length at byte 8870"
+    },
+    {
+      "label": "player-pack-1-label-count negative",
+      "reason": "Invalid count player-pack-1-label-count at byte 8874"
+    },
+    {
+      "label": "player-pack-1-label-count oversized",
+      "reason": "Invalid count player-pack-1-label-count at byte 8874"
+    },
+    {
+      "label": "player-pack-2-damage-count negative",
+      "reason": "Invalid count player-pack-2-damage-count at byte 8899"
+    },
+    {
+      "label": "player-pack-2-damage-count oversized",
+      "reason": "Invalid count player-pack-2-damage-count at byte 8899"
+    },
+    {
+      "label": "player-pack-2-throw-count negative",
+      "reason": "Invalid count player-pack-2-throw-count at byte 8911"
+    },
+    {
+      "label": "player-pack-2-throw-count oversized",
+      "reason": "Invalid count player-pack-2-throw-count at byte 8911"
+    },
+    {
+      "label": "player-pack-2-count negative",
+      "reason": "Invalid player-pack-2-count at byte 8923"
+    },
+    {
+      "label": "player-pack-2-count oversized",
+      "reason": "Invalid player-pack-2-count at byte 8923"
+    },
+    {
+      "label": "player-pack-2-label-length negative",
+      "reason": "Invalid player-pack-2-label-length at byte 8951"
+    },
+    {
+      "label": "player-pack-2-label-length oversized",
+      "reason": "Invalid player-pack-2-label-length at byte 8951"
+    },
+    {
+      "label": "player-pack-2-label-count negative",
+      "reason": "Invalid count player-pack-2-label-count at byte 8955"
+    },
+    {
+      "label": "player-pack-2-label-count oversized",
+      "reason": "Invalid count player-pack-2-label-count at byte 8955"
+    },
+    {
+      "label": "player-pack-3-damage-count negative",
+      "reason": "Invalid count player-pack-3-damage-count at byte 8980"
+    },
+    {
+      "label": "player-pack-3-damage-count oversized",
+      "reason": "Invalid count player-pack-3-damage-count at byte 8980"
+    },
+    {
+      "label": "player-pack-3-throw-count negative",
+      "reason": "Invalid count player-pack-3-throw-count at byte 8992"
+    },
+    {
+      "label": "player-pack-3-throw-count oversized",
+      "reason": "Invalid count player-pack-3-throw-count at byte 8992"
+    },
+    {
+      "label": "player-pack-3-count negative",
+      "reason": "Invalid player-pack-3-count at byte 9004"
+    },
+    {
+      "label": "player-pack-3-count oversized",
+      "reason": "Invalid player-pack-3-count at byte 9004"
+    },
+    {
+      "label": "player-pack-3-label-length negative",
+      "reason": "Invalid player-pack-3-label-length at byte 9032"
+    },
+    {
+      "label": "player-pack-3-label-length oversized",
+      "reason": "Invalid player-pack-3-label-length at byte 9032"
+    },
+    {
+      "label": "player-pack-3-label-count negative",
+      "reason": "Invalid count player-pack-3-label-count at byte 9036"
+    },
+    {
+      "label": "player-pack-3-label-count oversized",
+      "reason": "Invalid count player-pack-3-label-count at byte 9036"
+    },
+    {
+      "label": "player-pack-4-damage-count negative",
+      "reason": "Invalid count player-pack-4-damage-count at byte 9061"
+    },
+    {
+      "label": "player-pack-4-damage-count oversized",
+      "reason": "Invalid count player-pack-4-damage-count at byte 9061"
+    },
+    {
+      "label": "player-pack-4-throw-count negative",
+      "reason": "Invalid count player-pack-4-throw-count at byte 9073"
+    },
+    {
+      "label": "player-pack-4-throw-count oversized",
+      "reason": "Invalid count player-pack-4-throw-count at byte 9073"
+    },
+    {
+      "label": "player-pack-4-count negative",
+      "reason": "Invalid player-pack-4-count at byte 9085"
+    },
+    {
+      "label": "player-pack-4-count oversized",
+      "reason": "Invalid player-pack-4-count at byte 9085"
+    },
+    {
+      "label": "player-pack-4-label-length negative",
+      "reason": "Invalid player-pack-4-label-length at byte 9113"
+    },
+    {
+      "label": "player-pack-4-label-length oversized",
+      "reason": "Invalid player-pack-4-label-length at byte 9113"
+    },
+    {
+      "label": "player-pack-4-label-count negative",
+      "reason": "Invalid count player-pack-4-label-count at byte 9117"
+    },
+    {
+      "label": "player-pack-4-label-count oversized",
+      "reason": "Invalid count player-pack-4-label-count at byte 9117"
+    },
+    {
+      "label": "ground-count negative",
+      "reason": "Invalid ground-count at byte 9149"
+    },
+    {
+      "label": "ground-count oversized",
+      "reason": "Invalid ground-count at byte 9149"
+    },
+    {
+      "label": "ground-0-damage-count negative",
+      "reason": "Invalid count ground-0-damage-count at byte 9174"
+    },
+    {
+      "label": "ground-0-damage-count oversized",
+      "reason": "Invalid count ground-0-damage-count at byte 9174"
+    },
+    {
+      "label": "ground-0-throw-count negative",
+      "reason": "Invalid count ground-0-throw-count at byte 9186"
+    },
+    {
+      "label": "ground-0-throw-count oversized",
+      "reason": "Invalid count ground-0-throw-count at byte 9186"
+    },
+    {
+      "label": "ground-0-count negative",
+      "reason": "Invalid ground-0-count at byte 9198"
+    },
+    {
+      "label": "ground-0-count oversized",
+      "reason": "Invalid ground-0-count at byte 9198"
+    },
+    {
+      "label": "ground-0-label-length negative",
+      "reason": "Invalid ground-0-label-length at byte 9226"
+    },
+    {
+      "label": "ground-0-label-length oversized",
+      "reason": "Invalid ground-0-label-length at byte 9226"
+    },
+    {
+      "label": "ground-0-label-count negative",
+      "reason": "Invalid count ground-0-label-count at byte 9230"
+    },
+    {
+      "label": "ground-0-label-count oversized",
+      "reason": "Invalid count ground-0-label-count at byte 9230"
+    },
+    {
+      "label": "ground-1-damage-count negative",
+      "reason": "Invalid count ground-1-damage-count at byte 9255"
+    },
+    {
+      "label": "ground-1-damage-count oversized",
+      "reason": "Invalid count ground-1-damage-count at byte 9255"
+    },
+    {
+      "label": "ground-1-throw-count negative",
+      "reason": "Invalid count ground-1-throw-count at byte 9267"
+    },
+    {
+      "label": "ground-1-throw-count oversized",
+      "reason": "Invalid count ground-1-throw-count at byte 9267"
+    },
+    {
+      "label": "ground-1-count negative",
+      "reason": "Invalid ground-1-count at byte 9279"
+    },
+    {
+      "label": "ground-1-count oversized",
+      "reason": "Invalid ground-1-count at byte 9279"
+    },
+    {
+      "label": "ground-1-label-length negative",
+      "reason": "Invalid ground-1-label-length at byte 9307"
+    },
+    {
+      "label": "ground-1-label-length oversized",
+      "reason": "Invalid ground-1-label-length at byte 9307"
+    },
+    {
+      "label": "ground-1-label-count negative",
+      "reason": "Invalid count ground-1-label-count at byte 9311"
+    },
+    {
+      "label": "ground-1-label-count oversized",
+      "reason": "Invalid count ground-1-label-count at byte 9311"
+    },
+    {
+      "label": "ground-2-damage-count negative",
+      "reason": "Invalid count ground-2-damage-count at byte 9336"
+    },
+    {
+      "label": "ground-2-damage-count oversized",
+      "reason": "Invalid count ground-2-damage-count at byte 9336"
+    },
+    {
+      "label": "ground-2-throw-count negative",
+      "reason": "Invalid count ground-2-throw-count at byte 9348"
+    },
+    {
+      "label": "ground-2-throw-count oversized",
+      "reason": "Invalid count ground-2-throw-count at byte 9348"
+    },
+    {
+      "label": "ground-2-count negative",
+      "reason": "Invalid ground-2-count at byte 9360"
+    },
+    {
+      "label": "ground-2-count oversized",
+      "reason": "Invalid ground-2-count at byte 9360"
+    },
+    {
+      "label": "ground-2-label-length negative",
+      "reason": "Invalid ground-2-label-length at byte 9388"
+    },
+    {
+      "label": "ground-2-label-length oversized",
+      "reason": "Invalid ground-2-label-length at byte 9388"
+    },
+    {
+      "label": "ground-2-label-count negative",
+      "reason": "Invalid count ground-2-label-count at byte 9392"
+    },
+    {
+      "label": "ground-2-label-count oversized",
+      "reason": "Invalid count ground-2-label-count at byte 9392"
+    },
+    {
+      "label": "ground-3-damage-count negative",
+      "reason": "Invalid count ground-3-damage-count at byte 9417"
+    },
+    {
+      "label": "ground-3-damage-count oversized",
+      "reason": "Invalid count ground-3-damage-count at byte 9417"
+    },
+    {
+      "label": "ground-3-throw-count negative",
+      "reason": "Invalid count ground-3-throw-count at byte 9429"
+    },
+    {
+      "label": "ground-3-throw-count oversized",
+      "reason": "Invalid count ground-3-throw-count at byte 9429"
+    },
+    {
+      "label": "ground-3-count negative",
+      "reason": "Invalid ground-3-count at byte 9441"
+    },
+    {
+      "label": "ground-3-count oversized",
+      "reason": "Invalid ground-3-count at byte 9441"
+    },
+    {
+      "label": "ground-3-label-length negative",
+      "reason": "Invalid ground-3-label-length at byte 9469"
+    },
+    {
+      "label": "ground-3-label-length oversized",
+      "reason": "Invalid ground-3-label-length at byte 9469"
+    },
+    {
+      "label": "ground-3-label-count negative",
+      "reason": "Invalid count ground-3-label-count at byte 9473"
+    },
+    {
+      "label": "ground-3-label-count oversized",
+      "reason": "Invalid count ground-3-label-count at byte 9473"
+    },
+    {
+      "label": "ground-4-damage-count negative",
+      "reason": "Invalid count ground-4-damage-count at byte 9498"
+    },
+    {
+      "label": "ground-4-damage-count oversized",
+      "reason": "Invalid count ground-4-damage-count at byte 9498"
+    },
+    {
+      "label": "ground-4-throw-count negative",
+      "reason": "Invalid count ground-4-throw-count at byte 9510"
+    },
+    {
+      "label": "ground-4-throw-count oversized",
+      "reason": "Invalid count ground-4-throw-count at byte 9510"
+    },
+    {
+      "label": "ground-4-count negative",
+      "reason": "Invalid ground-4-count at byte 9522"
+    },
+    {
+      "label": "ground-4-count oversized",
+      "reason": "Invalid ground-4-count at byte 9522"
+    },
+    {
+      "label": "ground-4-label-length negative",
+      "reason": "Invalid ground-4-label-length at byte 9550"
+    },
+    {
+      "label": "ground-4-label-length oversized",
+      "reason": "Invalid ground-4-label-length at byte 9550"
+    },
+    {
+      "label": "ground-4-label-count negative",
+      "reason": "Invalid count ground-4-label-count at byte 9554"
+    },
+    {
+      "label": "ground-4-label-count oversized",
+      "reason": "Invalid count ground-4-label-count at byte 9554"
+    },
+    {
+      "label": "ground-5-damage-count negative",
+      "reason": "Invalid count ground-5-damage-count at byte 9579"
+    },
+    {
+      "label": "ground-5-damage-count oversized",
+      "reason": "Invalid count ground-5-damage-count at byte 9579"
+    },
+    {
+      "label": "ground-5-throw-count negative",
+      "reason": "Invalid count ground-5-throw-count at byte 9591"
+    },
+    {
+      "label": "ground-5-throw-count oversized",
+      "reason": "Invalid count ground-5-throw-count at byte 9591"
+    },
+    {
+      "label": "ground-5-count negative",
+      "reason": "Invalid ground-5-count at byte 9603"
+    },
+    {
+      "label": "ground-5-count oversized",
+      "reason": "Invalid ground-5-count at byte 9603"
+    },
+    {
+      "label": "ground-5-label-length negative",
+      "reason": "Invalid ground-5-label-length at byte 9631"
+    },
+    {
+      "label": "ground-5-label-length oversized",
+      "reason": "Invalid ground-5-label-length at byte 9631"
+    },
+    {
+      "label": "ground-5-label-count negative",
+      "reason": "Invalid count ground-5-label-count at byte 9635"
+    },
+    {
+      "label": "ground-5-label-count oversized",
+      "reason": "Invalid count ground-5-label-count at byte 9635"
+    },
+    {
+      "label": "ground-6-damage-count negative",
+      "reason": "Invalid count ground-6-damage-count at byte 9660"
+    },
+    {
+      "label": "ground-6-damage-count oversized",
+      "reason": "Invalid count ground-6-damage-count at byte 9660"
+    },
+    {
+      "label": "ground-6-throw-count negative",
+      "reason": "Invalid count ground-6-throw-count at byte 9672"
+    },
+    {
+      "label": "ground-6-throw-count oversized",
+      "reason": "Invalid count ground-6-throw-count at byte 9672"
+    },
+    {
+      "label": "ground-6-count negative",
+      "reason": "Invalid ground-6-count at byte 9684"
+    },
+    {
+      "label": "ground-6-count oversized",
+      "reason": "Invalid ground-6-count at byte 9684"
+    },
+    {
+      "label": "ground-6-label-length negative",
+      "reason": "Invalid ground-6-label-length at byte 9712"
+    },
+    {
+      "label": "ground-6-label-length oversized",
+      "reason": "Invalid ground-6-label-length at byte 9712"
+    },
+    {
+      "label": "ground-6-label-count negative",
+      "reason": "Invalid count ground-6-label-count at byte 9716"
+    },
+    {
+      "label": "ground-6-label-count oversized",
+      "reason": "Invalid count ground-6-label-count at byte 9716"
+    },
+    {
+      "label": "ground-7-damage-count negative",
+      "reason": "Invalid count ground-7-damage-count at byte 9741"
+    },
+    {
+      "label": "ground-7-damage-count oversized",
+      "reason": "Invalid count ground-7-damage-count at byte 9741"
+    },
+    {
+      "label": "ground-7-throw-count negative",
+      "reason": "Invalid count ground-7-throw-count at byte 9753"
+    },
+    {
+      "label": "ground-7-throw-count oversized",
+      "reason": "Invalid count ground-7-throw-count at byte 9753"
+    },
+    {
+      "label": "ground-7-count negative",
+      "reason": "Invalid ground-7-count at byte 9765"
+    },
+    {
+      "label": "ground-7-count oversized",
+      "reason": "Invalid ground-7-count at byte 9765"
+    },
+    {
+      "label": "ground-7-label-length negative",
+      "reason": "Invalid ground-7-label-length at byte 9793"
+    },
+    {
+      "label": "ground-7-label-length oversized",
+      "reason": "Invalid ground-7-label-length at byte 9793"
+    },
+    {
+      "label": "ground-7-label-count negative",
+      "reason": "Invalid count ground-7-label-count at byte 9797"
+    },
+    {
+      "label": "ground-7-label-count oversized",
+      "reason": "Invalid count ground-7-label-count at byte 9797"
+    },
+    {
+      "label": "monster-count negative",
+      "reason": "Invalid monster-count at byte 9805"
+    },
+    {
+      "label": "monster-count oversized",
+      "reason": "Invalid monster-count at byte 9805"
+    },
+    {
+      "label": "monster-0-stats-damage-count negative",
+      "reason": "Invalid count monster-0-stats-damage-count at byte 9863"
+    },
+    {
+      "label": "monster-0-stats-damage-count oversized",
+      "reason": "Invalid count monster-0-stats-damage-count at byte 9863"
+    },
+    {
+      "label": "monster-0-pack-count negative",
+      "reason": "Invalid monster-0-pack-count at byte 9892"
+    },
+    {
+      "label": "monster-0-pack-count oversized",
+      "reason": "Invalid monster-0-pack-count at byte 9892"
+    },
+    {
+      "label": "monster-1-stats-damage-count negative",
+      "reason": "Invalid count monster-1-stats-damage-count at byte 9950"
+    },
+    {
+      "label": "monster-1-stats-damage-count oversized",
+      "reason": "Invalid count monster-1-stats-damage-count at byte 9950"
+    },
+    {
+      "label": "monster-1-pack-count negative",
+      "reason": "Invalid monster-1-pack-count at byte 9979"
+    },
+    {
+      "label": "monster-1-pack-count oversized",
+      "reason": "Invalid monster-1-pack-count at byte 9979"
+    },
+    {
+      "label": "monster-2-stats-damage-count negative",
+      "reason": "Invalid count monster-2-stats-damage-count at byte 10037"
+    },
+    {
+      "label": "monster-2-stats-damage-count oversized",
+      "reason": "Invalid count monster-2-stats-damage-count at byte 10037"
+    },
+    {
+      "label": "monster-2-pack-count negative",
+      "reason": "Invalid monster-2-pack-count at byte 10066"
+    },
+    {
+      "label": "monster-2-pack-count oversized",
+      "reason": "Invalid monster-2-pack-count at byte 10066"
+    },
+    {
+      "label": "monster-3-stats-damage-count negative",
+      "reason": "Invalid count monster-3-stats-damage-count at byte 10124"
+    },
+    {
+      "label": "monster-3-stats-damage-count oversized",
+      "reason": "Invalid count monster-3-stats-damage-count at byte 10124"
+    },
+    {
+      "label": "monster-3-pack-count negative",
+      "reason": "Invalid monster-3-pack-count at byte 10153"
+    },
+    {
+      "label": "monster-3-pack-count oversized",
+      "reason": "Invalid monster-3-pack-count at byte 10153"
+    },
+    {
+      "label": "monster-4-stats-damage-count negative",
+      "reason": "Invalid count monster-4-stats-damage-count at byte 10211"
+    },
+    {
+      "label": "monster-4-stats-damage-count oversized",
+      "reason": "Invalid count monster-4-stats-damage-count at byte 10211"
+    },
+    {
+      "label": "monster-4-pack-count negative",
+      "reason": "Invalid monster-4-pack-count at byte 10240"
+    },
+    {
+      "label": "monster-4-pack-count oversized",
+      "reason": "Invalid monster-4-pack-count at byte 10240"
+    },
+    {
+      "label": "maximum-stats-damage-count negative",
+      "reason": "Invalid count maximum-stats-damage-count at byte 25628"
+    },
+    {
+      "label": "maximum-stats-damage-count oversized",
+      "reason": "Invalid count maximum-stats-damage-count at byte 25628"
+    },
+    {
+      "label": "rooms-count negative",
+      "reason": "Invalid count rooms-count at byte 25649"
+    },
+    {
+      "label": "rooms-count oversized",
+      "reason": "Invalid count rooms-count at byte 25649"
+    },
+    {
+      "label": "passages-count negative",
+      "reason": "Invalid count passages-count at byte 26827"
+    },
+    {
+      "label": "passages-count oversized",
+      "reason": "Invalid count passages-count at byte 26827"
+    },
+    {
+      "label": "monster-template-count negative",
+      "reason": "Invalid count monster-template-count at byte 28525"
+    },
+    {
+      "label": "monster-template-count oversized",
+      "reason": "Invalid count monster-template-count at byte 28525"
+    },
+    {
+      "label": "template-0-damage-count negative",
+      "reason": "Invalid count template-0-damage-count at byte 28553"
+    },
+    {
+      "label": "template-0-damage-count oversized",
+      "reason": "Invalid count template-0-damage-count at byte 28553"
+    },
+    {
+      "label": "template-1-damage-count negative",
+      "reason": "Invalid count template-1-damage-count at byte 28598"
+    },
+    {
+      "label": "template-1-damage-count oversized",
+      "reason": "Invalid count template-1-damage-count at byte 28598"
+    },
+    {
+      "label": "template-2-damage-count negative",
+      "reason": "Invalid count template-2-damage-count at byte 28643"
+    },
+    {
+      "label": "template-2-damage-count oversized",
+      "reason": "Invalid count template-2-damage-count at byte 28643"
+    },
+    {
+      "label": "template-3-damage-count negative",
+      "reason": "Invalid count template-3-damage-count at byte 28688"
+    },
+    {
+      "label": "template-3-damage-count oversized",
+      "reason": "Invalid count template-3-damage-count at byte 28688"
+    },
+    {
+      "label": "template-4-damage-count negative",
+      "reason": "Invalid count template-4-damage-count at byte 28733"
+    },
+    {
+      "label": "template-4-damage-count oversized",
+      "reason": "Invalid count template-4-damage-count at byte 28733"
+    },
+    {
+      "label": "template-5-damage-count negative",
+      "reason": "Invalid count template-5-damage-count at byte 28778"
+    },
+    {
+      "label": "template-5-damage-count oversized",
+      "reason": "Invalid count template-5-damage-count at byte 28778"
+    },
+    {
+      "label": "template-6-damage-count negative",
+      "reason": "Invalid count template-6-damage-count at byte 28823"
+    },
+    {
+      "label": "template-6-damage-count oversized",
+      "reason": "Invalid count template-6-damage-count at byte 28823"
+    },
+    {
+      "label": "template-7-damage-count negative",
+      "reason": "Invalid count template-7-damage-count at byte 28868"
+    },
+    {
+      "label": "template-7-damage-count oversized",
+      "reason": "Invalid count template-7-damage-count at byte 28868"
+    },
+    {
+      "label": "template-8-damage-count negative",
+      "reason": "Invalid count template-8-damage-count at byte 28913"
+    },
+    {
+      "label": "template-8-damage-count oversized",
+      "reason": "Invalid count template-8-damage-count at byte 28913"
+    },
+    {
+      "label": "template-9-damage-count negative",
+      "reason": "Invalid count template-9-damage-count at byte 28958"
+    },
+    {
+      "label": "template-9-damage-count oversized",
+      "reason": "Invalid count template-9-damage-count at byte 28958"
+    },
+    {
+      "label": "template-10-damage-count negative",
+      "reason": "Invalid count template-10-damage-count at byte 29003"
+    },
+    {
+      "label": "template-10-damage-count oversized",
+      "reason": "Invalid count template-10-damage-count at byte 29003"
+    },
+    {
+      "label": "template-11-damage-count negative",
+      "reason": "Invalid count template-11-damage-count at byte 29048"
+    },
+    {
+      "label": "template-11-damage-count oversized",
+      "reason": "Invalid count template-11-damage-count at byte 29048"
+    },
+    {
+      "label": "template-12-damage-count negative",
+      "reason": "Invalid count template-12-damage-count at byte 29093"
+    },
+    {
+      "label": "template-12-damage-count oversized",
+      "reason": "Invalid count template-12-damage-count at byte 29093"
+    },
+    {
+      "label": "template-13-damage-count negative",
+      "reason": "Invalid count template-13-damage-count at byte 29138"
+    },
+    {
+      "label": "template-13-damage-count oversized",
+      "reason": "Invalid count template-13-damage-count at byte 29138"
+    },
+    {
+      "label": "template-14-damage-count negative",
+      "reason": "Invalid count template-14-damage-count at byte 29183"
+    },
+    {
+      "label": "template-14-damage-count oversized",
+      "reason": "Invalid count template-14-damage-count at byte 29183"
+    },
+    {
+      "label": "template-15-damage-count negative",
+      "reason": "Invalid count template-15-damage-count at byte 29228"
+    },
+    {
+      "label": "template-15-damage-count oversized",
+      "reason": "Invalid count template-15-damage-count at byte 29228"
+    },
+    {
+      "label": "template-16-damage-count negative",
+      "reason": "Invalid count template-16-damage-count at byte 29273"
+    },
+    {
+      "label": "template-16-damage-count oversized",
+      "reason": "Invalid count template-16-damage-count at byte 29273"
+    },
+    {
+      "label": "template-17-damage-count negative",
+      "reason": "Invalid count template-17-damage-count at byte 29318"
+    },
+    {
+      "label": "template-17-damage-count oversized",
+      "reason": "Invalid count template-17-damage-count at byte 29318"
+    },
+    {
+      "label": "template-18-damage-count negative",
+      "reason": "Invalid count template-18-damage-count at byte 29363"
+    },
+    {
+      "label": "template-18-damage-count oversized",
+      "reason": "Invalid count template-18-damage-count at byte 29363"
+    },
+    {
+      "label": "template-19-damage-count negative",
+      "reason": "Invalid count template-19-damage-count at byte 29408"
+    },
+    {
+      "label": "template-19-damage-count oversized",
+      "reason": "Invalid count template-19-damage-count at byte 29408"
+    },
+    {
+      "label": "template-20-damage-count negative",
+      "reason": "Invalid count template-20-damage-count at byte 29453"
+    },
+    {
+      "label": "template-20-damage-count oversized",
+      "reason": "Invalid count template-20-damage-count at byte 29453"
+    },
+    {
+      "label": "template-21-damage-count negative",
+      "reason": "Invalid count template-21-damage-count at byte 29498"
+    },
+    {
+      "label": "template-21-damage-count oversized",
+      "reason": "Invalid count template-21-damage-count at byte 29498"
+    },
+    {
+      "label": "template-22-damage-count negative",
+      "reason": "Invalid count template-22-damage-count at byte 29543"
+    },
+    {
+      "label": "template-22-damage-count oversized",
+      "reason": "Invalid count template-22-damage-count at byte 29543"
+    },
+    {
+      "label": "template-23-damage-count negative",
+      "reason": "Invalid count template-23-damage-count at byte 29588"
+    },
+    {
+      "label": "template-23-damage-count oversized",
+      "reason": "Invalid count template-23-damage-count at byte 29588"
+    },
+    {
+      "label": "template-24-damage-count negative",
+      "reason": "Invalid count template-24-damage-count at byte 29633"
+    },
+    {
+      "label": "template-24-damage-count oversized",
+      "reason": "Invalid count template-24-damage-count at byte 29633"
+    },
+    {
+      "label": "template-25-damage-count negative",
+      "reason": "Invalid count template-25-damage-count at byte 29678"
+    },
+    {
+      "label": "template-25-damage-count oversized",
+      "reason": "Invalid count template-25-damage-count at byte 29678"
+    },
+    {
+      "label": "things-info-count negative",
+      "reason": "Invalid count things-info-count at byte 29703"
+    },
+    {
+      "label": "things-info-count oversized",
+      "reason": "Invalid count things-info-count at byte 29703"
+    },
+    {
+      "label": "things-guess-0-length negative",
+      "reason": "Invalid things-guess-0-length at byte 29715"
+    },
+    {
+      "label": "things-guess-0-length oversized",
+      "reason": "Invalid things-guess-0-length at byte 29715"
+    },
+    {
+      "label": "things-guess-0-count negative",
+      "reason": "Invalid count things-guess-0-count at byte 29719"
+    },
+    {
+      "label": "things-guess-0-count oversized",
+      "reason": "Invalid count things-guess-0-count at byte 29719"
+    },
+    {
+      "label": "things-known-0 not boolean",
+      "reason": "Invalid boolean things-known-0 at byte 29720"
+    },
+    {
+      "label": "things-guess-1-length negative",
+      "reason": "Invalid things-guess-1-length at byte 29732"
+    },
+    {
+      "label": "things-guess-1-length oversized",
+      "reason": "Invalid things-guess-1-length at byte 29732"
+    },
+    {
+      "label": "things-guess-1-count negative",
+      "reason": "Invalid count things-guess-1-count at byte 29736"
+    },
+    {
+      "label": "things-guess-1-count oversized",
+      "reason": "Invalid count things-guess-1-count at byte 29736"
+    },
+    {
+      "label": "things-known-1 not boolean",
+      "reason": "Invalid boolean things-known-1 at byte 29737"
+    },
+    {
+      "label": "things-guess-2-length negative",
+      "reason": "Invalid things-guess-2-length at byte 29749"
+    },
+    {
+      "label": "things-guess-2-length oversized",
+      "reason": "Invalid things-guess-2-length at byte 29749"
+    },
+    {
+      "label": "things-guess-2-count negative",
+      "reason": "Invalid count things-guess-2-count at byte 29753"
+    },
+    {
+      "label": "things-guess-2-count oversized",
+      "reason": "Invalid count things-guess-2-count at byte 29753"
+    },
+    {
+      "label": "things-known-2 not boolean",
+      "reason": "Invalid boolean things-known-2 at byte 29754"
+    },
+    {
+      "label": "things-guess-3-length negative",
+      "reason": "Invalid things-guess-3-length at byte 29766"
+    },
+    {
+      "label": "things-guess-3-length oversized",
+      "reason": "Invalid things-guess-3-length at byte 29766"
+    },
+    {
+      "label": "things-guess-3-count negative",
+      "reason": "Invalid count things-guess-3-count at byte 29770"
+    },
+    {
+      "label": "things-guess-3-count oversized",
+      "reason": "Invalid count things-guess-3-count at byte 29770"
+    },
+    {
+      "label": "things-known-3 not boolean",
+      "reason": "Invalid boolean things-known-3 at byte 29771"
+    },
+    {
+      "label": "things-guess-4-length negative",
+      "reason": "Invalid things-guess-4-length at byte 29783"
+    },
+    {
+      "label": "things-guess-4-length oversized",
+      "reason": "Invalid things-guess-4-length at byte 29783"
+    },
+    {
+      "label": "things-guess-4-count negative",
+      "reason": "Invalid count things-guess-4-count at byte 29787"
+    },
+    {
+      "label": "things-guess-4-count oversized",
+      "reason": "Invalid count things-guess-4-count at byte 29787"
+    },
+    {
+      "label": "things-known-4 not boolean",
+      "reason": "Invalid boolean things-known-4 at byte 29788"
+    },
+    {
+      "label": "things-guess-5-length negative",
+      "reason": "Invalid things-guess-5-length at byte 29800"
+    },
+    {
+      "label": "things-guess-5-length oversized",
+      "reason": "Invalid things-guess-5-length at byte 29800"
+    },
+    {
+      "label": "things-guess-5-count negative",
+      "reason": "Invalid count things-guess-5-count at byte 29804"
+    },
+    {
+      "label": "things-guess-5-count oversized",
+      "reason": "Invalid count things-guess-5-count at byte 29804"
+    },
+    {
+      "label": "things-known-5 not boolean",
+      "reason": "Invalid boolean things-known-5 at byte 29805"
+    },
+    {
+      "label": "things-guess-6-length negative",
+      "reason": "Invalid things-guess-6-length at byte 29817"
+    },
+    {
+      "label": "things-guess-6-length oversized",
+      "reason": "Invalid things-guess-6-length at byte 29817"
+    },
+    {
+      "label": "things-guess-6-count negative",
+      "reason": "Invalid count things-guess-6-count at byte 29821"
+    },
+    {
+      "label": "things-guess-6-count oversized",
+      "reason": "Invalid count things-guess-6-count at byte 29821"
+    },
+    {
+      "label": "things-known-6 not boolean",
+      "reason": "Invalid boolean things-known-6 at byte 29822"
+    },
+    {
+      "label": "armor-info-count negative",
+      "reason": "Invalid count armor-info-count at byte 29830"
+    },
+    {
+      "label": "armor-info-count oversized",
+      "reason": "Invalid count armor-info-count at byte 29830"
+    },
+    {
+      "label": "armor-guess-0-length negative",
+      "reason": "Invalid armor-guess-0-length at byte 29842"
+    },
+    {
+      "label": "armor-guess-0-length oversized",
+      "reason": "Invalid armor-guess-0-length at byte 29842"
+    },
+    {
+      "label": "armor-guess-0-count negative",
+      "reason": "Invalid count armor-guess-0-count at byte 29846"
+    },
+    {
+      "label": "armor-guess-0-count oversized",
+      "reason": "Invalid count armor-guess-0-count at byte 29846"
+    },
+    {
+      "label": "armor-known-0 not boolean",
+      "reason": "Invalid boolean armor-known-0 at byte 29847"
+    },
+    {
+      "label": "armor-guess-1-length negative",
+      "reason": "Invalid armor-guess-1-length at byte 29859"
+    },
+    {
+      "label": "armor-guess-1-length oversized",
+      "reason": "Invalid armor-guess-1-length at byte 29859"
+    },
+    {
+      "label": "armor-guess-1-count negative",
+      "reason": "Invalid count armor-guess-1-count at byte 29863"
+    },
+    {
+      "label": "armor-guess-1-count oversized",
+      "reason": "Invalid count armor-guess-1-count at byte 29863"
+    },
+    {
+      "label": "armor-known-1 not boolean",
+      "reason": "Invalid boolean armor-known-1 at byte 29864"
+    },
+    {
+      "label": "armor-guess-2-length negative",
+      "reason": "Invalid armor-guess-2-length at byte 29876"
+    },
+    {
+      "label": "armor-guess-2-length oversized",
+      "reason": "Invalid armor-guess-2-length at byte 29876"
+    },
+    {
+      "label": "armor-guess-2-count negative",
+      "reason": "Invalid count armor-guess-2-count at byte 29880"
+    },
+    {
+      "label": "armor-guess-2-count oversized",
+      "reason": "Invalid count armor-guess-2-count at byte 29880"
+    },
+    {
+      "label": "armor-known-2 not boolean",
+      "reason": "Invalid boolean armor-known-2 at byte 29881"
+    },
+    {
+      "label": "armor-guess-3-length negative",
+      "reason": "Invalid armor-guess-3-length at byte 29893"
+    },
+    {
+      "label": "armor-guess-3-length oversized",
+      "reason": "Invalid armor-guess-3-length at byte 29893"
+    },
+    {
+      "label": "armor-guess-3-count negative",
+      "reason": "Invalid count armor-guess-3-count at byte 29897"
+    },
+    {
+      "label": "armor-guess-3-count oversized",
+      "reason": "Invalid count armor-guess-3-count at byte 29897"
+    },
+    {
+      "label": "armor-known-3 not boolean",
+      "reason": "Invalid boolean armor-known-3 at byte 29898"
+    },
+    {
+      "label": "armor-guess-4-length negative",
+      "reason": "Invalid armor-guess-4-length at byte 29910"
+    },
+    {
+      "label": "armor-guess-4-length oversized",
+      "reason": "Invalid armor-guess-4-length at byte 29910"
+    },
+    {
+      "label": "armor-guess-4-count negative",
+      "reason": "Invalid count armor-guess-4-count at byte 29914"
+    },
+    {
+      "label": "armor-guess-4-count oversized",
+      "reason": "Invalid count armor-guess-4-count at byte 29914"
+    },
+    {
+      "label": "armor-known-4 not boolean",
+      "reason": "Invalid boolean armor-known-4 at byte 29915"
+    },
+    {
+      "label": "armor-guess-5-length negative",
+      "reason": "Invalid armor-guess-5-length at byte 29927"
+    },
+    {
+      "label": "armor-guess-5-length oversized",
+      "reason": "Invalid armor-guess-5-length at byte 29927"
+    },
+    {
+      "label": "armor-guess-5-count negative",
+      "reason": "Invalid count armor-guess-5-count at byte 29931"
+    },
+    {
+      "label": "armor-guess-5-count oversized",
+      "reason": "Invalid count armor-guess-5-count at byte 29931"
+    },
+    {
+      "label": "armor-known-5 not boolean",
+      "reason": "Invalid boolean armor-known-5 at byte 29932"
+    },
+    {
+      "label": "armor-guess-6-length negative",
+      "reason": "Invalid armor-guess-6-length at byte 29944"
+    },
+    {
+      "label": "armor-guess-6-length oversized",
+      "reason": "Invalid armor-guess-6-length at byte 29944"
+    },
+    {
+      "label": "armor-guess-6-count negative",
+      "reason": "Invalid count armor-guess-6-count at byte 29948"
+    },
+    {
+      "label": "armor-guess-6-count oversized",
+      "reason": "Invalid count armor-guess-6-count at byte 29948"
+    },
+    {
+      "label": "armor-known-6 not boolean",
+      "reason": "Invalid boolean armor-known-6 at byte 29949"
+    },
+    {
+      "label": "armor-guess-7-length negative",
+      "reason": "Invalid armor-guess-7-length at byte 29961"
+    },
+    {
+      "label": "armor-guess-7-length oversized",
+      "reason": "Invalid armor-guess-7-length at byte 29961"
+    },
+    {
+      "label": "armor-guess-7-count negative",
+      "reason": "Invalid count armor-guess-7-count at byte 29965"
+    },
+    {
+      "label": "armor-guess-7-count oversized",
+      "reason": "Invalid count armor-guess-7-count at byte 29965"
+    },
+    {
+      "label": "armor-known-7 not boolean",
+      "reason": "Invalid boolean armor-known-7 at byte 29966"
+    },
+    {
+      "label": "potions-info-count negative",
+      "reason": "Invalid count potions-info-count at byte 29974"
+    },
+    {
+      "label": "potions-info-count oversized",
+      "reason": "Invalid count potions-info-count at byte 29974"
+    },
+    {
+      "label": "potions-guess-0-length negative",
+      "reason": "Invalid potions-guess-0-length at byte 29986"
+    },
+    {
+      "label": "potions-guess-0-length oversized",
+      "reason": "Invalid potions-guess-0-length at byte 29986"
+    },
+    {
+      "label": "potions-guess-0-count negative",
+      "reason": "Invalid count potions-guess-0-count at byte 29990"
+    },
+    {
+      "label": "potions-guess-0-count oversized",
+      "reason": "Invalid count potions-guess-0-count at byte 29990"
+    },
+    {
+      "label": "potions-known-0 not boolean",
+      "reason": "Invalid boolean potions-known-0 at byte 29991"
+    },
+    {
+      "label": "potions-guess-1-length negative",
+      "reason": "Invalid potions-guess-1-length at byte 30003"
+    },
+    {
+      "label": "potions-guess-1-length oversized",
+      "reason": "Invalid potions-guess-1-length at byte 30003"
+    },
+    {
+      "label": "potions-guess-1-count negative",
+      "reason": "Invalid count potions-guess-1-count at byte 30007"
+    },
+    {
+      "label": "potions-guess-1-count oversized",
+      "reason": "Invalid count potions-guess-1-count at byte 30007"
+    },
+    {
+      "label": "potions-known-1 not boolean",
+      "reason": "Invalid boolean potions-known-1 at byte 30008"
+    },
+    {
+      "label": "potions-guess-2-length negative",
+      "reason": "Invalid potions-guess-2-length at byte 30020"
+    },
+    {
+      "label": "potions-guess-2-length oversized",
+      "reason": "Invalid potions-guess-2-length at byte 30020"
+    },
+    {
+      "label": "potions-guess-2-count negative",
+      "reason": "Invalid count potions-guess-2-count at byte 30024"
+    },
+    {
+      "label": "potions-guess-2-count oversized",
+      "reason": "Invalid count potions-guess-2-count at byte 30024"
+    },
+    {
+      "label": "potions-known-2 not boolean",
+      "reason": "Invalid boolean potions-known-2 at byte 30025"
+    },
+    {
+      "label": "potions-guess-3-length negative",
+      "reason": "Invalid potions-guess-3-length at byte 30037"
+    },
+    {
+      "label": "potions-guess-3-length oversized",
+      "reason": "Invalid potions-guess-3-length at byte 30037"
+    },
+    {
+      "label": "potions-guess-3-count negative",
+      "reason": "Invalid count potions-guess-3-count at byte 30041"
+    },
+    {
+      "label": "potions-guess-3-count oversized",
+      "reason": "Invalid count potions-guess-3-count at byte 30041"
+    },
+    {
+      "label": "potions-known-3 not boolean",
+      "reason": "Invalid boolean potions-known-3 at byte 30042"
+    },
+    {
+      "label": "potions-guess-4-length negative",
+      "reason": "Invalid potions-guess-4-length at byte 30054"
+    },
+    {
+      "label": "potions-guess-4-length oversized",
+      "reason": "Invalid potions-guess-4-length at byte 30054"
+    },
+    {
+      "label": "potions-guess-4-count negative",
+      "reason": "Invalid count potions-guess-4-count at byte 30058"
+    },
+    {
+      "label": "potions-guess-4-count oversized",
+      "reason": "Invalid count potions-guess-4-count at byte 30058"
+    },
+    {
+      "label": "potions-known-4 not boolean",
+      "reason": "Invalid boolean potions-known-4 at byte 30059"
+    },
+    {
+      "label": "potions-guess-5-length negative",
+      "reason": "Invalid potions-guess-5-length at byte 30071"
+    },
+    {
+      "label": "potions-guess-5-length oversized",
+      "reason": "Invalid potions-guess-5-length at byte 30071"
+    },
+    {
+      "label": "potions-guess-5-count negative",
+      "reason": "Invalid count potions-guess-5-count at byte 30075"
+    },
+    {
+      "label": "potions-guess-5-count oversized",
+      "reason": "Invalid count potions-guess-5-count at byte 30075"
+    },
+    {
+      "label": "potions-known-5 not boolean",
+      "reason": "Invalid boolean potions-known-5 at byte 30076"
+    },
+    {
+      "label": "potions-guess-6-length negative",
+      "reason": "Invalid potions-guess-6-length at byte 30088"
+    },
+    {
+      "label": "potions-guess-6-length oversized",
+      "reason": "Invalid potions-guess-6-length at byte 30088"
+    },
+    {
+      "label": "potions-guess-6-count negative",
+      "reason": "Invalid count potions-guess-6-count at byte 30092"
+    },
+    {
+      "label": "potions-guess-6-count oversized",
+      "reason": "Invalid count potions-guess-6-count at byte 30092"
+    },
+    {
+      "label": "potions-known-6 not boolean",
+      "reason": "Invalid boolean potions-known-6 at byte 30093"
+    },
+    {
+      "label": "potions-guess-7-length negative",
+      "reason": "Invalid potions-guess-7-length at byte 30105"
+    },
+    {
+      "label": "potions-guess-7-length oversized",
+      "reason": "Invalid potions-guess-7-length at byte 30105"
+    },
+    {
+      "label": "potions-guess-7-count negative",
+      "reason": "Invalid count potions-guess-7-count at byte 30109"
+    },
+    {
+      "label": "potions-guess-7-count oversized",
+      "reason": "Invalid count potions-guess-7-count at byte 30109"
+    },
+    {
+      "label": "potions-known-7 not boolean",
+      "reason": "Invalid boolean potions-known-7 at byte 30110"
+    },
+    {
+      "label": "potions-guess-8-length negative",
+      "reason": "Invalid potions-guess-8-length at byte 30122"
+    },
+    {
+      "label": "potions-guess-8-length oversized",
+      "reason": "Invalid potions-guess-8-length at byte 30122"
+    },
+    {
+      "label": "potions-guess-8-count negative",
+      "reason": "Invalid count potions-guess-8-count at byte 30126"
+    },
+    {
+      "label": "potions-guess-8-count oversized",
+      "reason": "Invalid count potions-guess-8-count at byte 30126"
+    },
+    {
+      "label": "potions-known-8 not boolean",
+      "reason": "Invalid boolean potions-known-8 at byte 30127"
+    },
+    {
+      "label": "potions-guess-9-length negative",
+      "reason": "Invalid potions-guess-9-length at byte 30139"
+    },
+    {
+      "label": "potions-guess-9-length oversized",
+      "reason": "Invalid potions-guess-9-length at byte 30139"
+    },
+    {
+      "label": "potions-guess-9-count negative",
+      "reason": "Invalid count potions-guess-9-count at byte 30143"
+    },
+    {
+      "label": "potions-guess-9-count oversized",
+      "reason": "Invalid count potions-guess-9-count at byte 30143"
+    },
+    {
+      "label": "potions-known-9 not boolean",
+      "reason": "Invalid boolean potions-known-9 at byte 30144"
+    },
+    {
+      "label": "potions-guess-10-length negative",
+      "reason": "Invalid potions-guess-10-length at byte 30156"
+    },
+    {
+      "label": "potions-guess-10-length oversized",
+      "reason": "Invalid potions-guess-10-length at byte 30156"
+    },
+    {
+      "label": "potions-guess-10-count negative",
+      "reason": "Invalid count potions-guess-10-count at byte 30160"
+    },
+    {
+      "label": "potions-guess-10-count oversized",
+      "reason": "Invalid count potions-guess-10-count at byte 30160"
+    },
+    {
+      "label": "potions-known-10 not boolean",
+      "reason": "Invalid boolean potions-known-10 at byte 30161"
+    },
+    {
+      "label": "potions-guess-11-length negative",
+      "reason": "Invalid potions-guess-11-length at byte 30173"
+    },
+    {
+      "label": "potions-guess-11-length oversized",
+      "reason": "Invalid potions-guess-11-length at byte 30173"
+    },
+    {
+      "label": "potions-guess-11-count negative",
+      "reason": "Invalid count potions-guess-11-count at byte 30177"
+    },
+    {
+      "label": "potions-guess-11-count oversized",
+      "reason": "Invalid count potions-guess-11-count at byte 30177"
+    },
+    {
+      "label": "potions-known-11 not boolean",
+      "reason": "Invalid boolean potions-known-11 at byte 30178"
+    },
+    {
+      "label": "potions-guess-12-length negative",
+      "reason": "Invalid potions-guess-12-length at byte 30190"
+    },
+    {
+      "label": "potions-guess-12-length oversized",
+      "reason": "Invalid potions-guess-12-length at byte 30190"
+    },
+    {
+      "label": "potions-guess-12-count negative",
+      "reason": "Invalid count potions-guess-12-count at byte 30194"
+    },
+    {
+      "label": "potions-guess-12-count oversized",
+      "reason": "Invalid count potions-guess-12-count at byte 30194"
+    },
+    {
+      "label": "potions-known-12 not boolean",
+      "reason": "Invalid boolean potions-known-12 at byte 30195"
+    },
+    {
+      "label": "potions-guess-13-length negative",
+      "reason": "Invalid potions-guess-13-length at byte 30207"
+    },
+    {
+      "label": "potions-guess-13-length oversized",
+      "reason": "Invalid potions-guess-13-length at byte 30207"
+    },
+    {
+      "label": "potions-guess-13-count negative",
+      "reason": "Invalid count potions-guess-13-count at byte 30211"
+    },
+    {
+      "label": "potions-guess-13-count oversized",
+      "reason": "Invalid count potions-guess-13-count at byte 30211"
+    },
+    {
+      "label": "potions-known-13 not boolean",
+      "reason": "Invalid boolean potions-known-13 at byte 30212"
+    },
+    {
+      "label": "rings-info-count negative",
+      "reason": "Invalid count rings-info-count at byte 30220"
+    },
+    {
+      "label": "rings-info-count oversized",
+      "reason": "Invalid count rings-info-count at byte 30220"
+    },
+    {
+      "label": "rings-guess-0-length negative",
+      "reason": "Invalid rings-guess-0-length at byte 30232"
+    },
+    {
+      "label": "rings-guess-0-length oversized",
+      "reason": "Invalid rings-guess-0-length at byte 30232"
+    },
+    {
+      "label": "rings-guess-0-count negative",
+      "reason": "Invalid count rings-guess-0-count at byte 30236"
+    },
+    {
+      "label": "rings-guess-0-count oversized",
+      "reason": "Invalid count rings-guess-0-count at byte 30236"
+    },
+    {
+      "label": "rings-known-0 not boolean",
+      "reason": "Invalid boolean rings-known-0 at byte 30237"
+    },
+    {
+      "label": "rings-guess-1-length negative",
+      "reason": "Invalid rings-guess-1-length at byte 30249"
+    },
+    {
+      "label": "rings-guess-1-length oversized",
+      "reason": "Invalid rings-guess-1-length at byte 30249"
+    },
+    {
+      "label": "rings-guess-1-count negative",
+      "reason": "Invalid count rings-guess-1-count at byte 30253"
+    },
+    {
+      "label": "rings-guess-1-count oversized",
+      "reason": "Invalid count rings-guess-1-count at byte 30253"
+    },
+    {
+      "label": "rings-known-1 not boolean",
+      "reason": "Invalid boolean rings-known-1 at byte 30254"
+    },
+    {
+      "label": "rings-guess-2-length negative",
+      "reason": "Invalid rings-guess-2-length at byte 30266"
+    },
+    {
+      "label": "rings-guess-2-length oversized",
+      "reason": "Invalid rings-guess-2-length at byte 30266"
+    },
+    {
+      "label": "rings-guess-2-count negative",
+      "reason": "Invalid count rings-guess-2-count at byte 30270"
+    },
+    {
+      "label": "rings-guess-2-count oversized",
+      "reason": "Invalid count rings-guess-2-count at byte 30270"
+    },
+    {
+      "label": "rings-known-2 not boolean",
+      "reason": "Invalid boolean rings-known-2 at byte 30271"
+    },
+    {
+      "label": "rings-guess-3-length negative",
+      "reason": "Invalid rings-guess-3-length at byte 30283"
+    },
+    {
+      "label": "rings-guess-3-length oversized",
+      "reason": "Invalid rings-guess-3-length at byte 30283"
+    },
+    {
+      "label": "rings-guess-3-count negative",
+      "reason": "Invalid count rings-guess-3-count at byte 30287"
+    },
+    {
+      "label": "rings-guess-3-count oversized",
+      "reason": "Invalid count rings-guess-3-count at byte 30287"
+    },
+    {
+      "label": "rings-known-3 not boolean",
+      "reason": "Invalid boolean rings-known-3 at byte 30288"
+    },
+    {
+      "label": "rings-guess-4-length negative",
+      "reason": "Invalid rings-guess-4-length at byte 30300"
+    },
+    {
+      "label": "rings-guess-4-length oversized",
+      "reason": "Invalid rings-guess-4-length at byte 30300"
+    },
+    {
+      "label": "rings-guess-4-count negative",
+      "reason": "Invalid count rings-guess-4-count at byte 30304"
+    },
+    {
+      "label": "rings-guess-4-count oversized",
+      "reason": "Invalid count rings-guess-4-count at byte 30304"
+    },
+    {
+      "label": "rings-known-4 not boolean",
+      "reason": "Invalid boolean rings-known-4 at byte 30305"
+    },
+    {
+      "label": "rings-guess-5-length negative",
+      "reason": "Invalid rings-guess-5-length at byte 30317"
+    },
+    {
+      "label": "rings-guess-5-length oversized",
+      "reason": "Invalid rings-guess-5-length at byte 30317"
+    },
+    {
+      "label": "rings-guess-5-count negative",
+      "reason": "Invalid count rings-guess-5-count at byte 30321"
+    },
+    {
+      "label": "rings-guess-5-count oversized",
+      "reason": "Invalid count rings-guess-5-count at byte 30321"
+    },
+    {
+      "label": "rings-known-5 not boolean",
+      "reason": "Invalid boolean rings-known-5 at byte 30322"
+    },
+    {
+      "label": "rings-guess-6-length negative",
+      "reason": "Invalid rings-guess-6-length at byte 30334"
+    },
+    {
+      "label": "rings-guess-6-length oversized",
+      "reason": "Invalid rings-guess-6-length at byte 30334"
+    },
+    {
+      "label": "rings-guess-6-count negative",
+      "reason": "Invalid count rings-guess-6-count at byte 30338"
+    },
+    {
+      "label": "rings-guess-6-count oversized",
+      "reason": "Invalid count rings-guess-6-count at byte 30338"
+    },
+    {
+      "label": "rings-known-6 not boolean",
+      "reason": "Invalid boolean rings-known-6 at byte 30339"
+    },
+    {
+      "label": "rings-guess-7-length negative",
+      "reason": "Invalid rings-guess-7-length at byte 30351"
+    },
+    {
+      "label": "rings-guess-7-length oversized",
+      "reason": "Invalid rings-guess-7-length at byte 30351"
+    },
+    {
+      "label": "rings-guess-7-count negative",
+      "reason": "Invalid count rings-guess-7-count at byte 30355"
+    },
+    {
+      "label": "rings-guess-7-count oversized",
+      "reason": "Invalid count rings-guess-7-count at byte 30355"
+    },
+    {
+      "label": "rings-known-7 not boolean",
+      "reason": "Invalid boolean rings-known-7 at byte 30356"
+    },
+    {
+      "label": "rings-guess-8-length negative",
+      "reason": "Invalid rings-guess-8-length at byte 30368"
+    },
+    {
+      "label": "rings-guess-8-length oversized",
+      "reason": "Invalid rings-guess-8-length at byte 30368"
+    },
+    {
+      "label": "rings-guess-8-count negative",
+      "reason": "Invalid count rings-guess-8-count at byte 30372"
+    },
+    {
+      "label": "rings-guess-8-count oversized",
+      "reason": "Invalid count rings-guess-8-count at byte 30372"
+    },
+    {
+      "label": "rings-known-8 not boolean",
+      "reason": "Invalid boolean rings-known-8 at byte 30373"
+    },
+    {
+      "label": "rings-guess-9-length negative",
+      "reason": "Invalid rings-guess-9-length at byte 30385"
+    },
+    {
+      "label": "rings-guess-9-length oversized",
+      "reason": "Invalid rings-guess-9-length at byte 30385"
+    },
+    {
+      "label": "rings-guess-9-count negative",
+      "reason": "Invalid count rings-guess-9-count at byte 30389"
+    },
+    {
+      "label": "rings-guess-9-count oversized",
+      "reason": "Invalid count rings-guess-9-count at byte 30389"
+    },
+    {
+      "label": "rings-known-9 not boolean",
+      "reason": "Invalid boolean rings-known-9 at byte 30390"
+    },
+    {
+      "label": "rings-guess-10-length negative",
+      "reason": "Invalid rings-guess-10-length at byte 30402"
+    },
+    {
+      "label": "rings-guess-10-length oversized",
+      "reason": "Invalid rings-guess-10-length at byte 30402"
+    },
+    {
+      "label": "rings-guess-10-count negative",
+      "reason": "Invalid count rings-guess-10-count at byte 30406"
+    },
+    {
+      "label": "rings-guess-10-count oversized",
+      "reason": "Invalid count rings-guess-10-count at byte 30406"
+    },
+    {
+      "label": "rings-known-10 not boolean",
+      "reason": "Invalid boolean rings-known-10 at byte 30407"
+    },
+    {
+      "label": "rings-guess-11-length negative",
+      "reason": "Invalid rings-guess-11-length at byte 30419"
+    },
+    {
+      "label": "rings-guess-11-length oversized",
+      "reason": "Invalid rings-guess-11-length at byte 30419"
+    },
+    {
+      "label": "rings-guess-11-count negative",
+      "reason": "Invalid count rings-guess-11-count at byte 30423"
+    },
+    {
+      "label": "rings-guess-11-count oversized",
+      "reason": "Invalid count rings-guess-11-count at byte 30423"
+    },
+    {
+      "label": "rings-known-11 not boolean",
+      "reason": "Invalid boolean rings-known-11 at byte 30424"
+    },
+    {
+      "label": "rings-guess-12-length negative",
+      "reason": "Invalid rings-guess-12-length at byte 30436"
+    },
+    {
+      "label": "rings-guess-12-length oversized",
+      "reason": "Invalid rings-guess-12-length at byte 30436"
+    },
+    {
+      "label": "rings-guess-12-count negative",
+      "reason": "Invalid count rings-guess-12-count at byte 30440"
+    },
+    {
+      "label": "rings-guess-12-count oversized",
+      "reason": "Invalid count rings-guess-12-count at byte 30440"
+    },
+    {
+      "label": "rings-known-12 not boolean",
+      "reason": "Invalid boolean rings-known-12 at byte 30441"
+    },
+    {
+      "label": "rings-guess-13-length negative",
+      "reason": "Invalid rings-guess-13-length at byte 30453"
+    },
+    {
+      "label": "rings-guess-13-length oversized",
+      "reason": "Invalid rings-guess-13-length at byte 30453"
+    },
+    {
+      "label": "rings-guess-13-count negative",
+      "reason": "Invalid count rings-guess-13-count at byte 30457"
+    },
+    {
+      "label": "rings-guess-13-count oversized",
+      "reason": "Invalid count rings-guess-13-count at byte 30457"
+    },
+    {
+      "label": "rings-known-13 not boolean",
+      "reason": "Invalid boolean rings-known-13 at byte 30458"
+    },
+    {
+      "label": "scrolls-info-count negative",
+      "reason": "Invalid count scrolls-info-count at byte 30466"
+    },
+    {
+      "label": "scrolls-info-count oversized",
+      "reason": "Invalid count scrolls-info-count at byte 30466"
+    },
+    {
+      "label": "scrolls-guess-0-length negative",
+      "reason": "Invalid scrolls-guess-0-length at byte 30478"
+    },
+    {
+      "label": "scrolls-guess-0-length oversized",
+      "reason": "Invalid scrolls-guess-0-length at byte 30478"
+    },
+    {
+      "label": "scrolls-guess-0-count negative",
+      "reason": "Invalid count scrolls-guess-0-count at byte 30482"
+    },
+    {
+      "label": "scrolls-guess-0-count oversized",
+      "reason": "Invalid count scrolls-guess-0-count at byte 30482"
+    },
+    {
+      "label": "scrolls-known-0 not boolean",
+      "reason": "Invalid boolean scrolls-known-0 at byte 30483"
+    },
+    {
+      "label": "scrolls-guess-1-length negative",
+      "reason": "Invalid scrolls-guess-1-length at byte 30495"
+    },
+    {
+      "label": "scrolls-guess-1-length oversized",
+      "reason": "Invalid scrolls-guess-1-length at byte 30495"
+    },
+    {
+      "label": "scrolls-guess-1-count negative",
+      "reason": "Invalid count scrolls-guess-1-count at byte 30499"
+    },
+    {
+      "label": "scrolls-guess-1-count oversized",
+      "reason": "Invalid count scrolls-guess-1-count at byte 30499"
+    },
+    {
+      "label": "scrolls-known-1 not boolean",
+      "reason": "Invalid boolean scrolls-known-1 at byte 30500"
+    },
+    {
+      "label": "scrolls-guess-2-length negative",
+      "reason": "Invalid scrolls-guess-2-length at byte 30512"
+    },
+    {
+      "label": "scrolls-guess-2-length oversized",
+      "reason": "Invalid scrolls-guess-2-length at byte 30512"
+    },
+    {
+      "label": "scrolls-guess-2-count negative",
+      "reason": "Invalid count scrolls-guess-2-count at byte 30516"
+    },
+    {
+      "label": "scrolls-guess-2-count oversized",
+      "reason": "Invalid count scrolls-guess-2-count at byte 30516"
+    },
+    {
+      "label": "scrolls-known-2 not boolean",
+      "reason": "Invalid boolean scrolls-known-2 at byte 30517"
+    },
+    {
+      "label": "scrolls-guess-3-length negative",
+      "reason": "Invalid scrolls-guess-3-length at byte 30529"
+    },
+    {
+      "label": "scrolls-guess-3-length oversized",
+      "reason": "Invalid scrolls-guess-3-length at byte 30529"
+    },
+    {
+      "label": "scrolls-guess-3-count negative",
+      "reason": "Invalid count scrolls-guess-3-count at byte 30533"
+    },
+    {
+      "label": "scrolls-guess-3-count oversized",
+      "reason": "Invalid count scrolls-guess-3-count at byte 30533"
+    },
+    {
+      "label": "scrolls-known-3 not boolean",
+      "reason": "Invalid boolean scrolls-known-3 at byte 30534"
+    },
+    {
+      "label": "scrolls-guess-4-length negative",
+      "reason": "Invalid scrolls-guess-4-length at byte 30546"
+    },
+    {
+      "label": "scrolls-guess-4-length oversized",
+      "reason": "Invalid scrolls-guess-4-length at byte 30546"
+    },
+    {
+      "label": "scrolls-guess-4-count negative",
+      "reason": "Invalid count scrolls-guess-4-count at byte 30550"
+    },
+    {
+      "label": "scrolls-guess-4-count oversized",
+      "reason": "Invalid count scrolls-guess-4-count at byte 30550"
+    },
+    {
+      "label": "scrolls-known-4 not boolean",
+      "reason": "Invalid boolean scrolls-known-4 at byte 30551"
+    },
+    {
+      "label": "scrolls-guess-5-length negative",
+      "reason": "Invalid scrolls-guess-5-length at byte 30563"
+    },
+    {
+      "label": "scrolls-guess-5-length oversized",
+      "reason": "Invalid scrolls-guess-5-length at byte 30563"
+    },
+    {
+      "label": "scrolls-guess-5-count negative",
+      "reason": "Invalid count scrolls-guess-5-count at byte 30567"
+    },
+    {
+      "label": "scrolls-guess-5-count oversized",
+      "reason": "Invalid count scrolls-guess-5-count at byte 30567"
+    },
+    {
+      "label": "scrolls-known-5 not boolean",
+      "reason": "Invalid boolean scrolls-known-5 at byte 30568"
+    },
+    {
+      "label": "scrolls-guess-6-length negative",
+      "reason": "Invalid scrolls-guess-6-length at byte 30580"
+    },
+    {
+      "label": "scrolls-guess-6-length oversized",
+      "reason": "Invalid scrolls-guess-6-length at byte 30580"
+    },
+    {
+      "label": "scrolls-guess-6-count negative",
+      "reason": "Invalid count scrolls-guess-6-count at byte 30584"
+    },
+    {
+      "label": "scrolls-guess-6-count oversized",
+      "reason": "Invalid count scrolls-guess-6-count at byte 30584"
+    },
+    {
+      "label": "scrolls-known-6 not boolean",
+      "reason": "Invalid boolean scrolls-known-6 at byte 30585"
+    },
+    {
+      "label": "scrolls-guess-7-length negative",
+      "reason": "Invalid scrolls-guess-7-length at byte 30597"
+    },
+    {
+      "label": "scrolls-guess-7-length oversized",
+      "reason": "Invalid scrolls-guess-7-length at byte 30597"
+    },
+    {
+      "label": "scrolls-guess-7-count negative",
+      "reason": "Invalid count scrolls-guess-7-count at byte 30601"
+    },
+    {
+      "label": "scrolls-guess-7-count oversized",
+      "reason": "Invalid count scrolls-guess-7-count at byte 30601"
+    },
+    {
+      "label": "scrolls-known-7 not boolean",
+      "reason": "Invalid boolean scrolls-known-7 at byte 30602"
+    },
+    {
+      "label": "scrolls-guess-8-length negative",
+      "reason": "Invalid scrolls-guess-8-length at byte 30614"
+    },
+    {
+      "label": "scrolls-guess-8-length oversized",
+      "reason": "Invalid scrolls-guess-8-length at byte 30614"
+    },
+    {
+      "label": "scrolls-guess-8-count negative",
+      "reason": "Invalid count scrolls-guess-8-count at byte 30618"
+    },
+    {
+      "label": "scrolls-guess-8-count oversized",
+      "reason": "Invalid count scrolls-guess-8-count at byte 30618"
+    },
+    {
+      "label": "scrolls-known-8 not boolean",
+      "reason": "Invalid boolean scrolls-known-8 at byte 30619"
+    },
+    {
+      "label": "scrolls-guess-9-length negative",
+      "reason": "Invalid scrolls-guess-9-length at byte 30631"
+    },
+    {
+      "label": "scrolls-guess-9-length oversized",
+      "reason": "Invalid scrolls-guess-9-length at byte 30631"
+    },
+    {
+      "label": "scrolls-guess-9-count negative",
+      "reason": "Invalid count scrolls-guess-9-count at byte 30635"
+    },
+    {
+      "label": "scrolls-guess-9-count oversized",
+      "reason": "Invalid count scrolls-guess-9-count at byte 30635"
+    },
+    {
+      "label": "scrolls-known-9 not boolean",
+      "reason": "Invalid boolean scrolls-known-9 at byte 30636"
+    },
+    {
+      "label": "scrolls-guess-10-length negative",
+      "reason": "Invalid scrolls-guess-10-length at byte 30648"
+    },
+    {
+      "label": "scrolls-guess-10-length oversized",
+      "reason": "Invalid scrolls-guess-10-length at byte 30648"
+    },
+    {
+      "label": "scrolls-guess-10-count negative",
+      "reason": "Invalid count scrolls-guess-10-count at byte 30652"
+    },
+    {
+      "label": "scrolls-guess-10-count oversized",
+      "reason": "Invalid count scrolls-guess-10-count at byte 30652"
+    },
+    {
+      "label": "scrolls-known-10 not boolean",
+      "reason": "Invalid boolean scrolls-known-10 at byte 30653"
+    },
+    {
+      "label": "scrolls-guess-11-length negative",
+      "reason": "Invalid scrolls-guess-11-length at byte 30665"
+    },
+    {
+      "label": "scrolls-guess-11-length oversized",
+      "reason": "Invalid scrolls-guess-11-length at byte 30665"
+    },
+    {
+      "label": "scrolls-guess-11-count negative",
+      "reason": "Invalid count scrolls-guess-11-count at byte 30669"
+    },
+    {
+      "label": "scrolls-guess-11-count oversized",
+      "reason": "Invalid count scrolls-guess-11-count at byte 30669"
+    },
+    {
+      "label": "scrolls-known-11 not boolean",
+      "reason": "Invalid boolean scrolls-known-11 at byte 30670"
+    },
+    {
+      "label": "scrolls-guess-12-length negative",
+      "reason": "Invalid scrolls-guess-12-length at byte 30682"
+    },
+    {
+      "label": "scrolls-guess-12-length oversized",
+      "reason": "Invalid scrolls-guess-12-length at byte 30682"
+    },
+    {
+      "label": "scrolls-guess-12-count negative",
+      "reason": "Invalid count scrolls-guess-12-count at byte 30686"
+    },
+    {
+      "label": "scrolls-guess-12-count oversized",
+      "reason": "Invalid count scrolls-guess-12-count at byte 30686"
+    },
+    {
+      "label": "scrolls-known-12 not boolean",
+      "reason": "Invalid boolean scrolls-known-12 at byte 30687"
+    },
+    {
+      "label": "scrolls-guess-13-length negative",
+      "reason": "Invalid scrolls-guess-13-length at byte 30699"
+    },
+    {
+      "label": "scrolls-guess-13-length oversized",
+      "reason": "Invalid scrolls-guess-13-length at byte 30699"
+    },
+    {
+      "label": "scrolls-guess-13-count negative",
+      "reason": "Invalid count scrolls-guess-13-count at byte 30703"
+    },
+    {
+      "label": "scrolls-guess-13-count oversized",
+      "reason": "Invalid count scrolls-guess-13-count at byte 30703"
+    },
+    {
+      "label": "scrolls-known-13 not boolean",
+      "reason": "Invalid boolean scrolls-known-13 at byte 30704"
+    },
+    {
+      "label": "scrolls-guess-14-length negative",
+      "reason": "Invalid scrolls-guess-14-length at byte 30716"
+    },
+    {
+      "label": "scrolls-guess-14-length oversized",
+      "reason": "Invalid scrolls-guess-14-length at byte 30716"
+    },
+    {
+      "label": "scrolls-guess-14-count negative",
+      "reason": "Invalid count scrolls-guess-14-count at byte 30720"
+    },
+    {
+      "label": "scrolls-guess-14-count oversized",
+      "reason": "Invalid count scrolls-guess-14-count at byte 30720"
+    },
+    {
+      "label": "scrolls-known-14 not boolean",
+      "reason": "Invalid boolean scrolls-known-14 at byte 30721"
+    },
+    {
+      "label": "scrolls-guess-15-length negative",
+      "reason": "Invalid scrolls-guess-15-length at byte 30733"
+    },
+    {
+      "label": "scrolls-guess-15-length oversized",
+      "reason": "Invalid scrolls-guess-15-length at byte 30733"
+    },
+    {
+      "label": "scrolls-guess-15-count negative",
+      "reason": "Invalid count scrolls-guess-15-count at byte 30737"
+    },
+    {
+      "label": "scrolls-guess-15-count oversized",
+      "reason": "Invalid count scrolls-guess-15-count at byte 30737"
+    },
+    {
+      "label": "scrolls-known-15 not boolean",
+      "reason": "Invalid boolean scrolls-known-15 at byte 30738"
+    },
+    {
+      "label": "scrolls-guess-16-length negative",
+      "reason": "Invalid scrolls-guess-16-length at byte 30750"
+    },
+    {
+      "label": "scrolls-guess-16-length oversized",
+      "reason": "Invalid scrolls-guess-16-length at byte 30750"
+    },
+    {
+      "label": "scrolls-guess-16-count negative",
+      "reason": "Invalid count scrolls-guess-16-count at byte 30754"
+    },
+    {
+      "label": "scrolls-guess-16-count oversized",
+      "reason": "Invalid count scrolls-guess-16-count at byte 30754"
+    },
+    {
+      "label": "scrolls-known-16 not boolean",
+      "reason": "Invalid boolean scrolls-known-16 at byte 30755"
+    },
+    {
+      "label": "scrolls-guess-17-length negative",
+      "reason": "Invalid scrolls-guess-17-length at byte 30767"
+    },
+    {
+      "label": "scrolls-guess-17-length oversized",
+      "reason": "Invalid scrolls-guess-17-length at byte 30767"
+    },
+    {
+      "label": "scrolls-guess-17-count negative",
+      "reason": "Invalid count scrolls-guess-17-count at byte 30771"
+    },
+    {
+      "label": "scrolls-guess-17-count oversized",
+      "reason": "Invalid count scrolls-guess-17-count at byte 30771"
+    },
+    {
+      "label": "scrolls-known-17 not boolean",
+      "reason": "Invalid boolean scrolls-known-17 at byte 30772"
+    },
+    {
+      "label": "weapons-info-count negative",
+      "reason": "Invalid count weapons-info-count at byte 30780"
+    },
+    {
+      "label": "weapons-info-count oversized",
+      "reason": "Invalid count weapons-info-count at byte 30780"
+    },
+    {
+      "label": "weapons-guess-0-length negative",
+      "reason": "Invalid weapons-guess-0-length at byte 30792"
+    },
+    {
+      "label": "weapons-guess-0-length oversized",
+      "reason": "Invalid weapons-guess-0-length at byte 30792"
+    },
+    {
+      "label": "weapons-guess-0-count negative",
+      "reason": "Invalid count weapons-guess-0-count at byte 30796"
+    },
+    {
+      "label": "weapons-guess-0-count oversized",
+      "reason": "Invalid count weapons-guess-0-count at byte 30796"
+    },
+    {
+      "label": "weapons-known-0 not boolean",
+      "reason": "Invalid boolean weapons-known-0 at byte 30797"
+    },
+    {
+      "label": "weapons-guess-1-length negative",
+      "reason": "Invalid weapons-guess-1-length at byte 30809"
+    },
+    {
+      "label": "weapons-guess-1-length oversized",
+      "reason": "Invalid weapons-guess-1-length at byte 30809"
+    },
+    {
+      "label": "weapons-guess-1-count negative",
+      "reason": "Invalid count weapons-guess-1-count at byte 30813"
+    },
+    {
+      "label": "weapons-guess-1-count oversized",
+      "reason": "Invalid count weapons-guess-1-count at byte 30813"
+    },
+    {
+      "label": "weapons-known-1 not boolean",
+      "reason": "Invalid boolean weapons-known-1 at byte 30814"
+    },
+    {
+      "label": "weapons-guess-2-length negative",
+      "reason": "Invalid weapons-guess-2-length at byte 30826"
+    },
+    {
+      "label": "weapons-guess-2-length oversized",
+      "reason": "Invalid weapons-guess-2-length at byte 30826"
+    },
+    {
+      "label": "weapons-guess-2-count negative",
+      "reason": "Invalid count weapons-guess-2-count at byte 30830"
+    },
+    {
+      "label": "weapons-guess-2-count oversized",
+      "reason": "Invalid count weapons-guess-2-count at byte 30830"
+    },
+    {
+      "label": "weapons-known-2 not boolean",
+      "reason": "Invalid boolean weapons-known-2 at byte 30831"
+    },
+    {
+      "label": "weapons-guess-3-length negative",
+      "reason": "Invalid weapons-guess-3-length at byte 30843"
+    },
+    {
+      "label": "weapons-guess-3-length oversized",
+      "reason": "Invalid weapons-guess-3-length at byte 30843"
+    },
+    {
+      "label": "weapons-guess-3-count negative",
+      "reason": "Invalid count weapons-guess-3-count at byte 30847"
+    },
+    {
+      "label": "weapons-guess-3-count oversized",
+      "reason": "Invalid count weapons-guess-3-count at byte 30847"
+    },
+    {
+      "label": "weapons-known-3 not boolean",
+      "reason": "Invalid boolean weapons-known-3 at byte 30848"
+    },
+    {
+      "label": "weapons-guess-4-length negative",
+      "reason": "Invalid weapons-guess-4-length at byte 30860"
+    },
+    {
+      "label": "weapons-guess-4-length oversized",
+      "reason": "Invalid weapons-guess-4-length at byte 30860"
+    },
+    {
+      "label": "weapons-guess-4-count negative",
+      "reason": "Invalid count weapons-guess-4-count at byte 30864"
+    },
+    {
+      "label": "weapons-guess-4-count oversized",
+      "reason": "Invalid count weapons-guess-4-count at byte 30864"
+    },
+    {
+      "label": "weapons-known-4 not boolean",
+      "reason": "Invalid boolean weapons-known-4 at byte 30865"
+    },
+    {
+      "label": "weapons-guess-5-length negative",
+      "reason": "Invalid weapons-guess-5-length at byte 30877"
+    },
+    {
+      "label": "weapons-guess-5-length oversized",
+      "reason": "Invalid weapons-guess-5-length at byte 30877"
+    },
+    {
+      "label": "weapons-guess-5-count negative",
+      "reason": "Invalid count weapons-guess-5-count at byte 30881"
+    },
+    {
+      "label": "weapons-guess-5-count oversized",
+      "reason": "Invalid count weapons-guess-5-count at byte 30881"
+    },
+    {
+      "label": "weapons-known-5 not boolean",
+      "reason": "Invalid boolean weapons-known-5 at byte 30882"
+    },
+    {
+      "label": "weapons-guess-6-length negative",
+      "reason": "Invalid weapons-guess-6-length at byte 30894"
+    },
+    {
+      "label": "weapons-guess-6-length oversized",
+      "reason": "Invalid weapons-guess-6-length at byte 30894"
+    },
+    {
+      "label": "weapons-guess-6-count negative",
+      "reason": "Invalid count weapons-guess-6-count at byte 30898"
+    },
+    {
+      "label": "weapons-guess-6-count oversized",
+      "reason": "Invalid count weapons-guess-6-count at byte 30898"
+    },
+    {
+      "label": "weapons-known-6 not boolean",
+      "reason": "Invalid boolean weapons-known-6 at byte 30899"
+    },
+    {
+      "label": "weapons-guess-7-length negative",
+      "reason": "Invalid weapons-guess-7-length at byte 30911"
+    },
+    {
+      "label": "weapons-guess-7-length oversized",
+      "reason": "Invalid weapons-guess-7-length at byte 30911"
+    },
+    {
+      "label": "weapons-guess-7-count negative",
+      "reason": "Invalid count weapons-guess-7-count at byte 30915"
+    },
+    {
+      "label": "weapons-guess-7-count oversized",
+      "reason": "Invalid count weapons-guess-7-count at byte 30915"
+    },
+    {
+      "label": "weapons-known-7 not boolean",
+      "reason": "Invalid boolean weapons-known-7 at byte 30916"
+    },
+    {
+      "label": "weapons-guess-8-length negative",
+      "reason": "Invalid weapons-guess-8-length at byte 30928"
+    },
+    {
+      "label": "weapons-guess-8-length oversized",
+      "reason": "Invalid weapons-guess-8-length at byte 30928"
+    },
+    {
+      "label": "weapons-guess-8-count negative",
+      "reason": "Invalid count weapons-guess-8-count at byte 30932"
+    },
+    {
+      "label": "weapons-guess-8-count oversized",
+      "reason": "Invalid count weapons-guess-8-count at byte 30932"
+    },
+    {
+      "label": "weapons-known-8 not boolean",
+      "reason": "Invalid boolean weapons-known-8 at byte 30933"
+    },
+    {
+      "label": "weapons-guess-9-length negative",
+      "reason": "Invalid weapons-guess-9-length at byte 30945"
+    },
+    {
+      "label": "weapons-guess-9-length oversized",
+      "reason": "Invalid weapons-guess-9-length at byte 30945"
+    },
+    {
+      "label": "weapons-guess-9-count negative",
+      "reason": "Invalid count weapons-guess-9-count at byte 30949"
+    },
+    {
+      "label": "weapons-guess-9-count oversized",
+      "reason": "Invalid count weapons-guess-9-count at byte 30949"
+    },
+    {
+      "label": "weapons-known-9 not boolean",
+      "reason": "Invalid boolean weapons-known-9 at byte 30950"
+    },
+    {
+      "label": "sticks-info-count negative",
+      "reason": "Invalid count sticks-info-count at byte 30958"
+    },
+    {
+      "label": "sticks-info-count oversized",
+      "reason": "Invalid count sticks-info-count at byte 30958"
+    },
+    {
+      "label": "sticks-guess-0-length negative",
+      "reason": "Invalid sticks-guess-0-length at byte 30970"
+    },
+    {
+      "label": "sticks-guess-0-length oversized",
+      "reason": "Invalid sticks-guess-0-length at byte 30970"
+    },
+    {
+      "label": "sticks-guess-0-count negative",
+      "reason": "Invalid count sticks-guess-0-count at byte 30974"
+    },
+    {
+      "label": "sticks-guess-0-count oversized",
+      "reason": "Invalid count sticks-guess-0-count at byte 30974"
+    },
+    {
+      "label": "sticks-known-0 not boolean",
+      "reason": "Invalid boolean sticks-known-0 at byte 30975"
+    },
+    {
+      "label": "sticks-guess-1-length negative",
+      "reason": "Invalid sticks-guess-1-length at byte 30987"
+    },
+    {
+      "label": "sticks-guess-1-length oversized",
+      "reason": "Invalid sticks-guess-1-length at byte 30987"
+    },
+    {
+      "label": "sticks-guess-1-count negative",
+      "reason": "Invalid count sticks-guess-1-count at byte 30991"
+    },
+    {
+      "label": "sticks-guess-1-count oversized",
+      "reason": "Invalid count sticks-guess-1-count at byte 30991"
+    },
+    {
+      "label": "sticks-known-1 not boolean",
+      "reason": "Invalid boolean sticks-known-1 at byte 30992"
+    },
+    {
+      "label": "sticks-guess-2-length negative",
+      "reason": "Invalid sticks-guess-2-length at byte 31004"
+    },
+    {
+      "label": "sticks-guess-2-length oversized",
+      "reason": "Invalid sticks-guess-2-length at byte 31004"
+    },
+    {
+      "label": "sticks-guess-2-count negative",
+      "reason": "Invalid count sticks-guess-2-count at byte 31008"
+    },
+    {
+      "label": "sticks-guess-2-count oversized",
+      "reason": "Invalid count sticks-guess-2-count at byte 31008"
+    },
+    {
+      "label": "sticks-known-2 not boolean",
+      "reason": "Invalid boolean sticks-known-2 at byte 31009"
+    },
+    {
+      "label": "sticks-guess-3-length negative",
+      "reason": "Invalid sticks-guess-3-length at byte 31021"
+    },
+    {
+      "label": "sticks-guess-3-length oversized",
+      "reason": "Invalid sticks-guess-3-length at byte 31021"
+    },
+    {
+      "label": "sticks-guess-3-count negative",
+      "reason": "Invalid count sticks-guess-3-count at byte 31025"
+    },
+    {
+      "label": "sticks-guess-3-count oversized",
+      "reason": "Invalid count sticks-guess-3-count at byte 31025"
+    },
+    {
+      "label": "sticks-known-3 not boolean",
+      "reason": "Invalid boolean sticks-known-3 at byte 31026"
+    },
+    {
+      "label": "sticks-guess-4-length negative",
+      "reason": "Invalid sticks-guess-4-length at byte 31038"
+    },
+    {
+      "label": "sticks-guess-4-length oversized",
+      "reason": "Invalid sticks-guess-4-length at byte 31038"
+    },
+    {
+      "label": "sticks-guess-4-count negative",
+      "reason": "Invalid count sticks-guess-4-count at byte 31042"
+    },
+    {
+      "label": "sticks-guess-4-count oversized",
+      "reason": "Invalid count sticks-guess-4-count at byte 31042"
+    },
+    {
+      "label": "sticks-known-4 not boolean",
+      "reason": "Invalid boolean sticks-known-4 at byte 31043"
+    },
+    {
+      "label": "sticks-guess-5-length negative",
+      "reason": "Invalid sticks-guess-5-length at byte 31055"
+    },
+    {
+      "label": "sticks-guess-5-length oversized",
+      "reason": "Invalid sticks-guess-5-length at byte 31055"
+    },
+    {
+      "label": "sticks-guess-5-count negative",
+      "reason": "Invalid count sticks-guess-5-count at byte 31059"
+    },
+    {
+      "label": "sticks-guess-5-count oversized",
+      "reason": "Invalid count sticks-guess-5-count at byte 31059"
+    },
+    {
+      "label": "sticks-known-5 not boolean",
+      "reason": "Invalid boolean sticks-known-5 at byte 31060"
+    },
+    {
+      "label": "sticks-guess-6-length negative",
+      "reason": "Invalid sticks-guess-6-length at byte 31072"
+    },
+    {
+      "label": "sticks-guess-6-length oversized",
+      "reason": "Invalid sticks-guess-6-length at byte 31072"
+    },
+    {
+      "label": "sticks-guess-6-count negative",
+      "reason": "Invalid count sticks-guess-6-count at byte 31076"
+    },
+    {
+      "label": "sticks-guess-6-count oversized",
+      "reason": "Invalid count sticks-guess-6-count at byte 31076"
+    },
+    {
+      "label": "sticks-known-6 not boolean",
+      "reason": "Invalid boolean sticks-known-6 at byte 31077"
+    },
+    {
+      "label": "sticks-guess-7-length negative",
+      "reason": "Invalid sticks-guess-7-length at byte 31089"
+    },
+    {
+      "label": "sticks-guess-7-length oversized",
+      "reason": "Invalid sticks-guess-7-length at byte 31089"
+    },
+    {
+      "label": "sticks-guess-7-count negative",
+      "reason": "Invalid count sticks-guess-7-count at byte 31093"
+    },
+    {
+      "label": "sticks-guess-7-count oversized",
+      "reason": "Invalid count sticks-guess-7-count at byte 31093"
+    },
+    {
+      "label": "sticks-known-7 not boolean",
+      "reason": "Invalid boolean sticks-known-7 at byte 31094"
+    },
+    {
+      "label": "sticks-guess-8-length negative",
+      "reason": "Invalid sticks-guess-8-length at byte 31106"
+    },
+    {
+      "label": "sticks-guess-8-length oversized",
+      "reason": "Invalid sticks-guess-8-length at byte 31106"
+    },
+    {
+      "label": "sticks-guess-8-count negative",
+      "reason": "Invalid count sticks-guess-8-count at byte 31110"
+    },
+    {
+      "label": "sticks-guess-8-count oversized",
+      "reason": "Invalid count sticks-guess-8-count at byte 31110"
+    },
+    {
+      "label": "sticks-known-8 not boolean",
+      "reason": "Invalid boolean sticks-known-8 at byte 31111"
+    },
+    {
+      "label": "sticks-guess-9-length negative",
+      "reason": "Invalid sticks-guess-9-length at byte 31123"
+    },
+    {
+      "label": "sticks-guess-9-length oversized",
+      "reason": "Invalid sticks-guess-9-length at byte 31123"
+    },
+    {
+      "label": "sticks-guess-9-count negative",
+      "reason": "Invalid count sticks-guess-9-count at byte 31127"
+    },
+    {
+      "label": "sticks-guess-9-count oversized",
+      "reason": "Invalid count sticks-guess-9-count at byte 31127"
+    },
+    {
+      "label": "sticks-known-9 not boolean",
+      "reason": "Invalid boolean sticks-known-9 at byte 31128"
+    },
+    {
+      "label": "sticks-guess-10-length negative",
+      "reason": "Invalid sticks-guess-10-length at byte 31140"
+    },
+    {
+      "label": "sticks-guess-10-length oversized",
+      "reason": "Invalid sticks-guess-10-length at byte 31140"
+    },
+    {
+      "label": "sticks-guess-10-count negative",
+      "reason": "Invalid count sticks-guess-10-count at byte 31144"
+    },
+    {
+      "label": "sticks-guess-10-count oversized",
+      "reason": "Invalid count sticks-guess-10-count at byte 31144"
+    },
+    {
+      "label": "sticks-known-10 not boolean",
+      "reason": "Invalid boolean sticks-known-10 at byte 31145"
+    },
+    {
+      "label": "sticks-guess-11-length negative",
+      "reason": "Invalid sticks-guess-11-length at byte 31157"
+    },
+    {
+      "label": "sticks-guess-11-length oversized",
+      "reason": "Invalid sticks-guess-11-length at byte 31157"
+    },
+    {
+      "label": "sticks-guess-11-count negative",
+      "reason": "Invalid count sticks-guess-11-count at byte 31161"
+    },
+    {
+      "label": "sticks-guess-11-count oversized",
+      "reason": "Invalid count sticks-guess-11-count at byte 31161"
+    },
+    {
+      "label": "sticks-known-11 not boolean",
+      "reason": "Invalid boolean sticks-known-11 at byte 31162"
+    },
+    {
+      "label": "sticks-guess-12-length negative",
+      "reason": "Invalid sticks-guess-12-length at byte 31174"
+    },
+    {
+      "label": "sticks-guess-12-length oversized",
+      "reason": "Invalid sticks-guess-12-length at byte 31174"
+    },
+    {
+      "label": "sticks-guess-12-count negative",
+      "reason": "Invalid count sticks-guess-12-count at byte 31178"
+    },
+    {
+      "label": "sticks-guess-12-count oversized",
+      "reason": "Invalid count sticks-guess-12-count at byte 31178"
+    },
+    {
+      "label": "sticks-known-12 not boolean",
+      "reason": "Invalid boolean sticks-known-12 at byte 31179"
+    },
+    {
+      "label": "sticks-guess-13-length negative",
+      "reason": "Invalid sticks-guess-13-length at byte 31191"
+    },
+    {
+      "label": "sticks-guess-13-length oversized",
+      "reason": "Invalid sticks-guess-13-length at byte 31191"
+    },
+    {
+      "label": "sticks-guess-13-count negative",
+      "reason": "Invalid count sticks-guess-13-count at byte 31195"
+    },
+    {
+      "label": "sticks-guess-13-count oversized",
+      "reason": "Invalid count sticks-guess-13-count at byte 31195"
+    },
+    {
+      "label": "sticks-known-13 not boolean",
+      "reason": "Invalid boolean sticks-known-13 at byte 31196"
+    },
+    {
+      "label": "daemon-count negative",
+      "reason": "Invalid count daemon-count at byte 31204"
+    },
+    {
+      "label": "daemon-count oversized",
+      "reason": "Invalid count daemon-count at byte 31204"
+    },
+    {
+      "label": "player-pos-x invalid value",
+      "reason": "Invalid player-pos-x at byte 8637"
+    },
+    {
+      "label": "player-pos-y invalid value",
+      "reason": "Invalid player-pos-y at byte 8641"
+    },
+    {
+      "label": "player-stats-hp invalid value",
+      "reason": "Nonliving player checkpoint at byte 9117"
+    },
+    {
+      "label": "player-stats-maxhp invalid value",
+      "reason": "Nonliving player checkpoint at byte 9117"
+    },
+    {
+      "label": "depth invalid value",
+      "reason": "Invalid depth at byte 8425"
+    },
+    {
+      "label": "inventory-mode invalid value",
+      "reason": "Invalid inventory-mode at byte 8421"
+    },
+    {
+      "label": "hunger invalid value",
+      "reason": "Invalid hunger at byte 8413"
+    },
+    {
+      "label": "equipped-0 invalid value",
+      "reason": "Invalid equipment reference at byte 39236"
+    },
+    {
+      "label": "player-destination-list invalid value",
+      "reason": "Invalid player-destination-list at byte 8649"
+    },
+    {
+      "label": "player-room invalid value",
+      "reason": "Creature room differs from map at byte 39236"
+    },
+    {
+      "label": "potion-color-0 invalid value",
+      "reason": "Invalid potion-color-0 at byte 2233"
+    },
+    {
+      "label": "ring-stone-0 invalid value",
+      "reason": "Invalid ring-stone-0 at byte 4341"
+    },
+    {
+      "label": "stick-type-0 invalid value",
+      "reason": "Invalid stick-type-0 at byte 5991"
+    },
+    {
+      "label": "stick-material-0 invalid value",
+      "reason": "Invalid stick-material-0 at byte 5995"
+    },
+    {
+      "label": "window-height invalid value",
+      "reason": "Invalid count window-height at byte 31552"
+    },
+    {
+      "label": "window-width invalid value",
+      "reason": "Invalid count window-width at byte 31556"
+    },
+    {
+      "label": "window-cell-0 invalid value",
+      "reason": "Invalid window-cell-0 at byte 31560"
+    },
+    {
+      "label": "player-pack-2-which invalid value",
+      "reason": "Invalid object subtype at byte 8927"
+    },
+    {
+      "label": "map-monster-0 invalid value",
+      "reason": "Monster map position differs at byte 10246"
+    },
+    {
+      "label": "map-flags-0 invalid value",
+      "reason": "Invalid passage index at byte 10242"
+    },
+    {
+      "label": "map-char-0 invalid value",
+      "reason": "Invalid map glyph at byte 10241"
+    },
+    {
+      "label": "daemon-function-0 invalid value",
+      "reason": "Invalid daemon-function-0 at byte 31212"
+    },
+    {
+      "label": "marker-abcd0002 wrong signature",
+      "reason": "Invalid count marker-abcd0002 at byte 8629"
+    },
+    {
+      "label": "marker-abcd0001 wrong signature",
+      "reason": "Invalid count marker-abcd0001 at byte 8659"
+    },
+    {
+      "label": "marker-abcd0007 wrong signature",
+      "reason": "Invalid count marker-abcd0007 at byte 8708"
+    },
+    {
+      "label": "marker-abcd0003 wrong signature",
+      "reason": "Invalid count marker-abcd0003 at byte 8716"
+    },
+    {
+      "label": "marker-abcd0009 wrong signature",
+      "reason": "Invalid count marker-abcd0009 at byte 9801"
+    },
+    {
+      "label": "marker-abcd000b wrong signature",
+      "reason": "Invalid count marker-abcd000b at byte 28521"
+    },
+    {
+      "label": "marker-abcd0004 wrong signature",
+      "reason": "Invalid count marker-abcd0004 at byte 29699"
+    },
+    {
+      "label": "marker-abcd000e wrong signature",
+      "reason": "Invalid count marker-abcd000e at byte 31200"
+    },
+    {
+      "label": "marker-abcd000d wrong signature",
+      "reason": "Invalid count marker-abcd000d at byte 31548"
+    }
+  ],
+  "status": "passed",
+  "privateReceipt": {
+    "bytes": 112187,
+    "sha256": "9f9726c1c907f139f54d2e2a3db1ffafc15daedf3fb6089c143bbd958c1b14a4"
+  },
+  "publicReleaseAccepted": false,
+  "independentContentComplete": false
+}

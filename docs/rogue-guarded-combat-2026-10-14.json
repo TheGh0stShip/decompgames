@@ -1,0 +1,1713 @@
+{
+  "date": "2026-10-14T19:11:13.339Z",
+  "muted": true,
+  "scope": "Private original-content normal combat, damage/inventory, death and fresh retry; not dungeon completion",
+  "errors": [],
+  "runs": [
+    {
+      "attempt": 0,
+      "states": [
+        {
+          "observationIndex": 0,
+          "x": 30,
+          "y": 3,
+          "hp": 12,
+          "maxHp": 12,
+          "depth": 1,
+          "gold": 0,
+          "experience": 0,
+          "food": 1300,
+          "playing": 1,
+          "pack": [
+            [
+              58,
+              0,
+              1,
+              97
+            ],
+            [
+              93,
+              1,
+              1,
+              98
+            ],
+            [
+              41,
+              0,
+              1,
+              99
+            ],
+            [
+              41,
+              2,
+              1,
+              100
+            ],
+            [
+              41,
+              3,
+              33,
+              101
+            ]
+          ],
+          "monsters": [
+            [
+              75,
+              66,
+              18,
+              4
+            ],
+            [
+              75,
+              41,
+              21,
+              1
+            ]
+          ]
+        },
+        {
+          "observationIndex": 15,
+          "x": 40,
+          "y": 8,
+          "hp": 12,
+          "maxHp": 12,
+          "depth": 1,
+          "gold": 0,
+          "experience": 0,
+          "food": 1285,
+          "playing": 1,
+          "pack": [
+            [
+              58,
+              0,
+              1,
+              97
+            ],
+            [
+              93,
+              1,
+              1,
+              98
+            ],
+            [
+              41,
+              0,
+              1,
+              99
+            ],
+            [
+              41,
+              2,
+              1,
+              100
+            ],
+            [
+              41,
+              3,
+              33,
+              101
+            ]
+          ],
+          "monsters": [
+            [
+              75,
+              66,
+              18,
+              4
+            ],
+            [
+              75,
+              41,
+              21,
+              1
+            ]
+          ]
+        },
+        {
+          "observationIndex": 30,
+          "x": 32,
+          "y": 15,
+          "hp": 12,
+          "maxHp": 12,
+          "depth": 1,
+          "gold": 0,
+          "experience": 0,
+          "food": 1270,
+          "playing": 1,
+          "pack": [
+            [
+              58,
+              0,
+              1,
+              97
+            ],
+            [
+              93,
+              1,
+              1,
+              98
+            ],
+            [
+              41,
+              0,
+              1,
+              99
+            ],
+            [
+              41,
+              2,
+              1,
+              100
+            ],
+            [
+              41,
+              3,
+              33,
+              101
+            ]
+          ],
+          "monsters": [
+            [
+              75,
+              66,
+              18,
+              4
+            ],
+            [
+              75,
+              41,
+              21,
+              1
+            ]
+          ]
+        },
+        {
+          "observationIndex": 45,
+          "x": 37,
+          "y": 17,
+          "hp": 12,
+          "maxHp": 12,
+          "depth": 1,
+          "gold": 0,
+          "experience": 0,
+          "food": 1255,
+          "playing": 1,
+          "pack": [
+            [
+              58,
+              0,
+              1,
+              97
+            ],
+            [
+              93,
+              1,
+              1,
+              98
+            ],
+            [
+              41,
+              0,
+              1,
+              99
+            ],
+            [
+              41,
+              2,
+              1,
+              100
+            ],
+            [
+              41,
+              3,
+              33,
+              101
+            ]
+          ],
+          "monsters": [
+            [
+              75,
+              66,
+              18,
+              4
+            ],
+            [
+              75,
+              41,
+              21,
+              1
+            ]
+          ]
+        },
+        {
+          "observationIndex": 55,
+          "x": 41,
+          "y": 20,
+          "hp": 9,
+          "maxHp": 12,
+          "depth": 1,
+          "gold": 0,
+          "experience": 0,
+          "food": 1247,
+          "playing": 1,
+          "pack": [
+            [
+              58,
+              0,
+              1,
+              97
+            ],
+            [
+              93,
+              1,
+              1,
+              98
+            ],
+            [
+              41,
+              0,
+              1,
+              99
+            ],
+            [
+              41,
+              2,
+              1,
+              100
+            ],
+            [
+              41,
+              3,
+              33,
+              101
+            ]
+          ],
+          "monsters": [
+            [
+              75,
+              66,
+              18,
+              4
+            ],
+            [
+              75,
+              41,
+              21,
+              1
+            ]
+          ]
+        },
+        {
+          "observationIndex": 60,
+          "x": 41,
+          "y": 20,
+          "hp": 9,
+          "maxHp": 12,
+          "depth": 1,
+          "gold": 0,
+          "experience": 0,
+          "food": 1244,
+          "playing": 1,
+          "pack": [
+            [
+              58,
+              0,
+              1,
+              97
+            ],
+            [
+              93,
+              1,
+              1,
+              98
+            ],
+            [
+              41,
+              0,
+              1,
+              99
+            ],
+            [
+              41,
+              2,
+              1,
+              100
+            ],
+            [
+              41,
+              3,
+              33,
+              101
+            ]
+          ],
+          "monsters": [
+            [
+              75,
+              66,
+              18,
+              4
+            ],
+            [
+              75,
+              41,
+              21,
+              1
+            ]
+          ]
+        },
+        {
+          "observationIndex": 67,
+          "x": 41,
+          "y": 20,
+          "hp": 9,
+          "maxHp": 12,
+          "depth": 1,
+          "gold": 0,
+          "experience": 1,
+          "food": 1241,
+          "playing": 1,
+          "pack": [
+            [
+              58,
+              0,
+              1,
+              97
+            ],
+            [
+              93,
+              1,
+              1,
+              98
+            ],
+            [
+              41,
+              0,
+              1,
+              99
+            ],
+            [
+              41,
+              2,
+              1,
+              100
+            ],
+            [
+              41,
+              3,
+              33,
+              101
+            ]
+          ],
+          "monsters": [
+            [
+              75,
+              66,
+              18,
+              4
+            ]
+          ]
+        },
+        {
+          "observationIndex": 75,
+          "x": 41,
+          "y": 20,
+          "hp": 9,
+          "maxHp": 12,
+          "depth": 1,
+          "gold": 0,
+          "experience": 1,
+          "food": 1233,
+          "playing": 1,
+          "pack": [
+            [
+              58,
+              0,
+              1,
+              97
+            ],
+            [
+              93,
+              1,
+              1,
+              98
+            ],
+            [
+              41,
+              0,
+              1,
+              99
+            ],
+            [
+              41,
+              2,
+              1,
+              100
+            ],
+            [
+              41,
+              3,
+              33,
+              101
+            ]
+          ],
+          "monsters": [
+            [
+              75,
+              66,
+              18,
+              4
+            ]
+          ]
+        },
+        {
+          "observationIndex": 81,
+          "x": 41,
+          "y": 20,
+          "hp": 9,
+          "maxHp": 12,
+          "depth": 1,
+          "gold": 0,
+          "experience": 1,
+          "food": 1227,
+          "playing": 1,
+          "pack": [
+            [
+              58,
+              0,
+              1,
+              97
+            ],
+            [
+              93,
+              1,
+              1,
+              98
+            ],
+            [
+              41,
+              0,
+              1,
+              99
+            ],
+            [
+              41,
+              2,
+              1,
+              100
+            ],
+            [
+              41,
+              3,
+              33,
+              101
+            ]
+          ],
+          "monsters": [
+            [
+              75,
+              60,
+              4,
+              8
+            ],
+            [
+              75,
+              66,
+              18,
+              4
+            ]
+          ]
+        },
+        {
+          "observationIndex": 86,
+          "x": 41,
+          "y": 20,
+          "hp": 10,
+          "maxHp": 12,
+          "depth": 1,
+          "gold": 0,
+          "experience": 1,
+          "food": 1222,
+          "playing": 1,
+          "pack": [
+            [
+              58,
+              0,
+              1,
+              97
+            ],
+            [
+              93,
+              1,
+              1,
+              98
+            ],
+            [
+              41,
+              0,
+              1,
+              99
+            ],
+            [
+              41,
+              2,
+              1,
+              100
+            ],
+            [
+              41,
+              3,
+              33,
+              101
+            ]
+          ],
+          "monsters": [
+            [
+              75,
+              50,
+              4,
+              8
+            ],
+            [
+              75,
+              66,
+              18,
+              4
+            ]
+          ]
+        },
+        {
+          "observationIndex": 90,
+          "x": 41,
+          "y": 20,
+          "hp": 10,
+          "maxHp": 12,
+          "depth": 1,
+          "gold": 0,
+          "experience": 1,
+          "food": 1218,
+          "playing": 1,
+          "pack": [
+            [
+              58,
+              0,
+              1,
+              97
+            ],
+            [
+              93,
+              1,
+              1,
+              98
+            ],
+            [
+              41,
+              0,
+              1,
+              99
+            ],
+            [
+              41,
+              2,
+              1,
+              100
+            ],
+            [
+              41,
+              3,
+              33,
+              101
+            ]
+          ],
+          "monsters": [
+            [
+              75,
+              42,
+              4,
+              8
+            ],
+            [
+              75,
+              66,
+              18,
+              4
+            ]
+          ]
+        },
+        {
+          "observationIndex": 105,
+          "x": 41,
+          "y": 20,
+          "hp": 11,
+          "maxHp": 12,
+          "depth": 1,
+          "gold": 0,
+          "experience": 1,
+          "food": 1203,
+          "playing": 1,
+          "pack": [
+            [
+              58,
+              0,
+              1,
+              97
+            ],
+            [
+              93,
+              1,
+              1,
+              98
+            ],
+            [
+              41,
+              0,
+              1,
+              99
+            ],
+            [
+              41,
+              2,
+              1,
+              100
+            ],
+            [
+              41,
+              3,
+              33,
+              101
+            ]
+          ],
+          "monsters": [
+            [
+              75,
+              38,
+              14,
+              8
+            ],
+            [
+              75,
+              66,
+              18,
+              4
+            ]
+          ]
+        },
+        {
+          "observationIndex": 120,
+          "x": 41,
+          "y": 20,
+          "hp": 11,
+          "maxHp": 12,
+          "depth": 1,
+          "gold": 0,
+          "experience": 1,
+          "food": 1188,
+          "playing": 1,
+          "pack": [
+            [
+              58,
+              0,
+              1,
+              97
+            ],
+            [
+              93,
+              1,
+              1,
+              98
+            ],
+            [
+              41,
+              0,
+              1,
+              99
+            ],
+            [
+              41,
+              2,
+              1,
+              100
+            ],
+            [
+              41,
+              3,
+              33,
+              101
+            ]
+          ],
+          "monsters": [
+            [
+              75,
+              38,
+              14,
+              8
+            ],
+            [
+              75,
+              66,
+              18,
+              4
+            ]
+          ]
+        },
+        {
+          "observationIndex": 124,
+          "x": 41,
+          "y": 20,
+          "hp": 12,
+          "maxHp": 12,
+          "depth": 1,
+          "gold": 0,
+          "experience": 1,
+          "food": 1184,
+          "playing": 1,
+          "pack": [
+            [
+              58,
+              0,
+              1,
+              97
+            ],
+            [
+              93,
+              1,
+              1,
+              98
+            ],
+            [
+              41,
+              0,
+              1,
+              99
+            ],
+            [
+              41,
+              2,
+              1,
+              100
+            ],
+            [
+              41,
+              3,
+              33,
+              101
+            ]
+          ],
+          "monsters": [
+            [
+              75,
+              38,
+              14,
+              8
+            ],
+            [
+              75,
+              66,
+              18,
+              4
+            ]
+          ]
+        },
+        {
+          "observationIndex": 135,
+          "x": 41,
+          "y": 20,
+          "hp": 12,
+          "maxHp": 12,
+          "depth": 1,
+          "gold": 0,
+          "experience": 1,
+          "food": 1173,
+          "playing": 1,
+          "pack": [
+            [
+              58,
+              0,
+              1,
+              97
+            ],
+            [
+              93,
+              1,
+              1,
+              98
+            ],
+            [
+              41,
+              0,
+              1,
+              99
+            ],
+            [
+              41,
+              2,
+              1,
+              100
+            ],
+            [
+              41,
+              3,
+              33,
+              101
+            ]
+          ],
+          "monsters": [
+            [
+              75,
+              38,
+              14,
+              8
+            ],
+            [
+              75,
+              66,
+              18,
+              4
+            ]
+          ]
+        },
+        {
+          "observationIndex": 150,
+          "x": 41,
+          "y": 20,
+          "hp": 12,
+          "maxHp": 12,
+          "depth": 1,
+          "gold": 0,
+          "experience": 1,
+          "food": 1158,
+          "playing": 1,
+          "pack": [
+            [
+              58,
+              0,
+              1,
+              97
+            ],
+            [
+              93,
+              1,
+              1,
+              98
+            ],
+            [
+              41,
+              0,
+              1,
+              99
+            ],
+            [
+              41,
+              2,
+              1,
+              100
+            ],
+            [
+              41,
+              3,
+              33,
+              101
+            ]
+          ],
+          "monsters": [
+            [
+              75,
+              38,
+              14,
+              8
+            ],
+            [
+              75,
+              66,
+              18,
+              4
+            ]
+          ]
+        },
+        {
+          "observationIndex": 165,
+          "x": 41,
+          "y": 20,
+          "hp": 12,
+          "maxHp": 12,
+          "depth": 1,
+          "gold": 0,
+          "experience": 1,
+          "food": 1143,
+          "playing": 1,
+          "pack": [
+            [
+              58,
+              0,
+              1,
+              97
+            ],
+            [
+              93,
+              1,
+              1,
+              98
+            ],
+            [
+              41,
+              0,
+              1,
+              99
+            ],
+            [
+              41,
+              2,
+              1,
+              100
+            ],
+            [
+              41,
+              3,
+              33,
+              101
+            ]
+          ],
+          "monsters": [
+            [
+              75,
+              38,
+              14,
+              8
+            ],
+            [
+              75,
+              66,
+              18,
+              4
+            ]
+          ]
+        },
+        {
+          "observationIndex": 168,
+          "x": 41,
+          "y": 20,
+          "hp": 12,
+          "maxHp": 12,
+          "depth": 1,
+          "gold": 0,
+          "experience": 1,
+          "food": 1140,
+          "playing": 1,
+          "pack": [
+            [
+              58,
+              0,
+              1,
+              97
+            ],
+            [
+              93,
+              1,
+              1,
+              98
+            ],
+            [
+              41,
+              0,
+              1,
+              99
+            ],
+            [
+              41,
+              2,
+              1,
+              100
+            ],
+            [
+              41,
+              3,
+              33,
+              101
+            ]
+          ],
+          "monsters": [
+            [
+              83,
+              65,
+              18,
+              2
+            ],
+            [
+              75,
+              38,
+              14,
+              8
+            ],
+            [
+              75,
+              66,
+              18,
+              4
+            ]
+          ]
+        },
+        {
+          "observationIndex": 180,
+          "x": 41,
+          "y": 20,
+          "hp": 12,
+          "maxHp": 12,
+          "depth": 1,
+          "gold": 0,
+          "experience": 1,
+          "food": 1128,
+          "playing": 1,
+          "pack": [
+            [
+              58,
+              0,
+              1,
+              97
+            ],
+            [
+              93,
+              1,
+              1,
+              98
+            ],
+            [
+              41,
+              0,
+              1,
+              99
+            ],
+            [
+              41,
+              2,
+              1,
+              100
+            ],
+            [
+              41,
+              3,
+              33,
+              101
+            ]
+          ],
+          "monsters": [
+            [
+              83,
+              54,
+              19,
+              2
+            ],
+            [
+              75,
+              38,
+              14,
+              8
+            ],
+            [
+              75,
+              66,
+              18,
+              4
+            ]
+          ]
+        },
+        {
+          "observationIndex": 195,
+          "x": 41,
+          "y": 20,
+          "hp": 12,
+          "maxHp": 12,
+          "depth": 1,
+          "gold": 0,
+          "experience": 1,
+          "food": 1113,
+          "playing": 1,
+          "pack": [
+            [
+              58,
+              0,
+              1,
+              97
+            ],
+            [
+              93,
+              1,
+              1,
+              98
+            ],
+            [
+              41,
+              0,
+              1,
+              99
+            ],
+            [
+              41,
+              2,
+              1,
+              100
+            ],
+            [
+              41,
+              3,
+              33,
+              101
+            ]
+          ],
+          "monsters": [
+            [
+              83,
+              42,
+              20,
+              2
+            ],
+            [
+              75,
+              38,
+              14,
+              8
+            ],
+            [
+              75,
+              66,
+              18,
+              4
+            ]
+          ]
+        },
+        {
+          "observationIndex": 196,
+          "x": 41,
+          "y": 20,
+          "hp": 9,
+          "maxHp": 12,
+          "depth": 1,
+          "gold": 0,
+          "experience": 1,
+          "food": 1112,
+          "playing": 1,
+          "pack": [
+            [
+              58,
+              0,
+              1,
+              97
+            ],
+            [
+              93,
+              1,
+              1,
+              98
+            ],
+            [
+              41,
+              0,
+              1,
+              99
+            ],
+            [
+              41,
+              2,
+              1,
+              100
+            ],
+            [
+              41,
+              3,
+              33,
+              101
+            ]
+          ],
+          "monsters": [
+            [
+              83,
+              42,
+              20,
+              2
+            ],
+            [
+              75,
+              38,
+              14,
+              8
+            ],
+            [
+              75,
+              66,
+              18,
+              4
+            ]
+          ]
+        },
+        {
+          "observationIndex": 198,
+          "x": 41,
+          "y": 20,
+          "hp": 8,
+          "maxHp": 12,
+          "depth": 1,
+          "gold": 0,
+          "experience": 1,
+          "food": 1110,
+          "playing": 1,
+          "pack": [
+            [
+              58,
+              0,
+              1,
+              97
+            ],
+            [
+              93,
+              1,
+              1,
+              98
+            ],
+            [
+              41,
+              0,
+              1,
+              99
+            ],
+            [
+              41,
+              2,
+              1,
+              100
+            ],
+            [
+              41,
+              3,
+              33,
+              101
+            ]
+          ],
+          "monsters": [
+            [
+              83,
+              42,
+              20,
+              2
+            ],
+            [
+              75,
+              38,
+              14,
+              8
+            ],
+            [
+              75,
+              66,
+              18,
+              4
+            ]
+          ]
+        },
+        {
+          "observationIndex": 200,
+          "x": 41,
+          "y": 20,
+          "hp": 7,
+          "maxHp": 12,
+          "depth": 1,
+          "gold": 0,
+          "experience": 1,
+          "food": 1108,
+          "playing": 1,
+          "pack": [
+            [
+              58,
+              0,
+              1,
+              97
+            ],
+            [
+              93,
+              1,
+              1,
+              98
+            ],
+            [
+              41,
+              0,
+              1,
+              99
+            ],
+            [
+              41,
+              2,
+              1,
+              100
+            ],
+            [
+              41,
+              3,
+              33,
+              101
+            ]
+          ],
+          "monsters": [
+            [
+              83,
+              42,
+              20,
+              2
+            ],
+            [
+              75,
+              38,
+              14,
+              8
+            ],
+            [
+              75,
+              66,
+              18,
+              4
+            ]
+          ]
+        },
+        {
+          "observationIndex": 201,
+          "x": 41,
+          "y": 20,
+          "hp": 6,
+          "maxHp": 12,
+          "depth": 1,
+          "gold": 0,
+          "experience": 1,
+          "food": 1107,
+          "playing": 1,
+          "pack": [
+            [
+              58,
+              0,
+              1,
+              97
+            ],
+            [
+              93,
+              1,
+              1,
+              98
+            ],
+            [
+              41,
+              0,
+              1,
+              99
+            ],
+            [
+              41,
+              2,
+              1,
+              100
+            ],
+            [
+              41,
+              3,
+              33,
+              101
+            ]
+          ],
+          "monsters": [
+            [
+              83,
+              42,
+              20,
+              2
+            ],
+            [
+              75,
+              38,
+              14,
+              8
+            ],
+            [
+              75,
+              66,
+              18,
+              4
+            ]
+          ]
+        },
+        {
+          "observationIndex": 202,
+          "x": 41,
+          "y": 20,
+          "hp": 5,
+          "maxHp": 12,
+          "depth": 1,
+          "gold": 0,
+          "experience": 1,
+          "food": 1106,
+          "playing": 1,
+          "pack": [
+            [
+              58,
+              0,
+              1,
+              97
+            ],
+            [
+              93,
+              1,
+              1,
+              98
+            ],
+            [
+              41,
+              0,
+              1,
+              99
+            ],
+            [
+              41,
+              2,
+              1,
+              100
+            ],
+            [
+              41,
+              3,
+              33,
+              101
+            ]
+          ],
+          "monsters": [
+            [
+              83,
+              42,
+              20,
+              2
+            ],
+            [
+              75,
+              38,
+              14,
+              8
+            ],
+            [
+              75,
+              66,
+              18,
+              4
+            ]
+          ]
+        },
+        {
+          "observationIndex": 205,
+          "x": 41,
+          "y": 20,
+          "hp": 2,
+          "maxHp": 12,
+          "depth": 1,
+          "gold": 0,
+          "experience": 1,
+          "food": 1103,
+          "playing": 1,
+          "pack": [
+            [
+              58,
+              0,
+              1,
+              97
+            ],
+            [
+              93,
+              1,
+              1,
+              98
+            ],
+            [
+              41,
+              0,
+              1,
+              99
+            ],
+            [
+              41,
+              2,
+              1,
+              100
+            ],
+            [
+              41,
+              3,
+              33,
+              101
+            ]
+          ],
+          "monsters": [
+            [
+              83,
+              42,
+              20,
+              2
+            ],
+            [
+              75,
+              38,
+              14,
+              8
+            ],
+            [
+              75,
+              66,
+              18,
+              4
+            ]
+          ]
+        },
+        {
+          "observationIndex": 206,
+          "x": 41,
+          "y": 20,
+          "hp": -1,
+          "maxHp": 12,
+          "depth": 1,
+          "gold": 0,
+          "experience": 1,
+          "food": 1103,
+          "playing": 1,
+          "pack": [
+            [
+              58,
+              0,
+              1,
+              97
+            ],
+            [
+              93,
+              1,
+              1,
+              98
+            ],
+            [
+              41,
+              0,
+              1,
+              99
+            ],
+            [
+              41,
+              2,
+              1,
+              100
+            ],
+            [
+              41,
+              3,
+              33,
+              101
+            ]
+          ],
+          "monsters": [
+            [
+              83,
+              42,
+              20,
+              2
+            ],
+            [
+              75,
+              38,
+              14,
+              8
+            ],
+            [
+              75,
+              66,
+              18,
+              4
+            ]
+          ]
+        }
+      ],
+      "keys": [
+        "ArrowRight",
+        "ArrowRight",
+        "ArrowRight",
+        "ArrowRight",
+        "ArrowDown",
+        "ArrowDown",
+        "ArrowDown",
+        "ArrowDown",
+        "ArrowRight",
+        "ArrowRight",
+        "ArrowRight",
+        "ArrowRight",
+        "ArrowRight",
+        "ArrowRight",
+        "ArrowDown",
+        "ArrowDown",
+        "ArrowLeft",
+        "ArrowLeft",
+        "ArrowDown",
+        "ArrowDown",
+        "ArrowDown",
+        "ArrowDown",
+        "ArrowDown",
+        "ArrowDown",
+        "ArrowLeft",
+        "ArrowLeft",
+        "ArrowLeft",
+        "ArrowLeft",
+        "ArrowLeft",
+        "ArrowLeft",
+        "ArrowLeft",
+        "ArrowLeft",
+        "ArrowLeft",
+        "ArrowLeft",
+        "ArrowDown",
+        "ArrowDown",
+        "ArrowRight",
+        "ArrowRight",
+        "ArrowRight",
+        "ArrowRight",
+        "ArrowRight",
+        "ArrowRight",
+        "ArrowRight",
+        "ArrowRight",
+        "ArrowRight",
+        "ArrowRight",
+        "ArrowRight",
+        "ArrowRight",
+        "ArrowRight",
+        "ArrowDown",
+        "ArrowDown",
+        "ArrowDown",
+        "ArrowDown",
+        "Space",
+        "ArrowDown",
+        "Space",
+        "ArrowDown",
+        "Space",
+        "ArrowDown",
+        "Space",
+        "ArrowDown",
+        "Space",
+        "ArrowDown",
+        "Space",
+        "ArrowDown",
+        "Space",
+        "ArrowDown"
+      ],
+      "nativeDefeat": true,
+      "damage": true,
+      "death": true,
+      "observationCount": 207,
+      "observationSelection": "First/last, every fifteenth, and native HP/experience/monster-count changes; full sequence retained in the private receipt."
+    }
+  ],
+  "combatInventory": true,
+  "nativeDeath": true,
+  "freshRetry": true,
+  "audioCalls": 0,
+  "status": "passed",
+  "playersClosed": true,
+  "privateReceipt": {
+    "bytes": 208731,
+    "sha256": "2cf330d965cdf915de223069024033138bb4dd4ef8deb62880742e3d04a2d731"
+  },
+  "publicReleaseAccepted": false,
+  "independentContentComplete": false
+}

@@ -1,0 +1,28 @@
+{
+  "kind": "Independent font component only; full game content edition incomplete",
+  "license": "CC0-1.0",
+  "originalMediaInputs": [],
+  "referenceInputs": [
+    {
+      "path": "experiments/vector-duel/glyphs.json",
+      "sha256": "debb9a9b493473e17361bd644988b5507a5fbe88ac3156137f7ef64895ca4b26",
+      "origin": "Own Beacon Relay/Vector Duel CC0 block-glyph family"
+    }
+  ],
+  "design": "Independently authored 3x5 binary row patterns for punctuation and game symbols; lowercase deliberately shares uppercase forms. No retail font or screenshot reference.",
+  "files": [
+    {
+      "path": "glyphs.json",
+      "bytes": 2572,
+      "sha256": "4686f6fe1a8664ee20ec78725c110b9baa205fe17c087f471f72009022daa193",
+      "characters": 95,
+      "license": "CC0-1.0"
+    }
+  ],
+  "notClearedByThisComponent": [
+    "Game prose and names",
+    "Dungeon layouts",
+    "Full expressive content in compiled source",
+    "Renderer integration/visual acceptance"
+  ]
+}

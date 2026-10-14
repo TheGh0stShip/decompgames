@@ -7,6 +7,8 @@ int LINES=24,COLS=80;
 static WINDOW screen;
 static unsigned int physical[24*80];
 static int ended=0;
+static int stop_requested=0;
+EMSCRIPTEN_KEEPALIVE void dg_request_stop(void){stop_requested=1;}
 WINDOW *stdscr=&screen,*curscr=&screen;
 static unsigned int*cell(WINDOW*w,int y,int x){if(w->parent)return cell(w->parent,y+w->y-w->parent->y,x+w->x-w->parent->x);return &w->cells[y*80+x];}
 static void dirty(WINDOW*w){w->dirty=1;if(w->parent)dirty(w->parent);}
@@ -32,7 +34,7 @@ int wclrtoeol(WINDOW*w){for(int x=w->_curx;x<w->width;x++)*cell(w,w->_cury,x)=' 
 chtype winch(WINDOW*w){return *cell(w,w->_cury,w->_curx);}
 int wstandout(WINDOW*w){w->attr=A_STANDOUT;return OK;}
 int wstandend(WINDOW*w){w->attr=0;return OK;}
-int getch(void){if(stdscr->dirty)wrefresh(stdscr);EM_ASM({Module.waiting=true;});for(;;){int c=EM_ASM_INT({return Module.keys&&Module.keys.length?Module.keys.shift():-1;});if(c>=0){EM_ASM({Module.waiting=false;});return c;}emscripten_sleep(16);}}
+int getch(void){EM_ASM({Module.waiting=true;if(Module.onInputWait)Module.onInputWait();});for(;;){if(stop_requested){EM_ASM({Module.nativeStop=true;});exit(0);}int c=EM_ASM_INT({return Module.keys&&Module.keys.length?Module.keys.shift():-1;});if(c>=0){EM_ASM({Module.waiting=false;});return c;}emscripten_sleep(16);}}
 int wgetnstr(WINDOW*w,char*s,int n){int len=0,c;while((c=getch())!='\n'&&c!='\r'){if(c==8||c==127){if(len)len--;}else if(c>=32&&c<127&&len<n)s[len++]=c;}s[len]=0;return OK;}
 int raw(void){return OK;}int noecho(void){return OK;}int nocbreak(void){return OK;}
 int keypad(WINDOW*w,int b){return OK;}int idlok(WINDOW*w,int b){return OK;}

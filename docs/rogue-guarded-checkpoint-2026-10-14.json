@@ -1,0 +1,144 @@
+{
+  "date": "2026-10-14",
+  "status": "Private guarded compatibility tested; full independent content and distribution remain open",
+  "catalogCount": 89,
+  "strictAdditionalDecompilationMilestone": "4/5",
+  "classification": "Developer-source port; no clean-room certificate",
+  "upstreamPin": "f4653c2a2ee6981a73abe9dfda055134285e1e79",
+  "buildSourceCounts": {
+    "unchangedNativeC": 30,
+    "derivedNativeC": 1,
+    "authoredC": 3
+  },
+  "derivedNativeFixes": [
+    "Daemon loader null-slot clearing moved inside its 20-slot bounds",
+    "Serialize and restore room/passage/null references with explicit bounds"
+  ],
+  "platformFix": "Keyboard wait preserves explicitly refreshed modal window instead of implicitly redrawing dirty stdscr",
+  "originalRawSourceSnapshotUnchanged": true,
+  "nativeWasm": {
+    "bytes": 483032,
+    "sha256": "ba3c5d293f6136a880455d807376bfcfcdddc3b112654d4c07440bda686d725d"
+  },
+  "privatePayloads": {
+    "game.js": {
+      "bytes": 152940,
+      "sha256": "0edacca05e8674089c0f1b73bbfc03192ba0597761372b4f7d90e8a9afc833a5"
+    },
+    "game.wasm": {
+      "bytes": 483032,
+      "sha256": "ba3c5d293f6136a880455d807376bfcfcdddc3b112654d4c07440bda686d725d"
+    },
+    "probe.js": {
+      "bytes": 4418,
+      "sha256": "ad0dbef85b6f6177bf85bcc926661c134b2013228aead5ddfc984002b78a3f1a"
+    },
+    "index.html": {
+      "bytes": 674,
+      "sha256": "a81a1b98a2da7de61e1b486034f540d895bcb80e8a2e8cdaff4129970ff65a27"
+    },
+    "save-spec.json": {
+      "bytes": 997,
+      "sha256": "d1fa13b30f9fd08f5a51e81a755563f12b86e12e52a57d0991438a3336b40b77"
+    },
+    "save-spec.js": {
+      "bytes": 590,
+      "sha256": "dea200790194523953406200c6b03be8e0feae7c6266df4e273791f129da8320"
+    },
+    "validate-save.js": {
+      "bytes": 9659,
+      "sha256": "e23b31afa79d7c32b646fa00e677028e0732b3d27d02aa1baef259509b7576f0"
+    },
+    "guarded-state.c": {
+      "bytes": 50559,
+      "sha256": "ab44d0698706360a80e40521644168e404857315c3ef6c706b8eae75bed62437"
+    }
+  },
+  "recipes": {
+    "build-probe.py": {
+      "bytes": 4165,
+      "sha256": "866cc4b9f0967c897792d8f1ac4680e7e07b2e378db0c38cecb1e42609b14e1e"
+    },
+    "terminal.c": {
+      "bytes": 4450,
+      "sha256": "ec948b250de54e27007ddb6aeeb2bba60f81d372b99818e1deabd77ca196ca23"
+    },
+    "platform.c": {
+      "bytes": 1293,
+      "sha256": "0d141df5df73c697c79bb636b7de931690039810856ea331bd5e9993b5fd2515"
+    },
+    "observe.c": {
+      "bytes": 1070,
+      "sha256": "cdbb6f841ca5e15a3649bdca44d927286d2eef9c885d8634c13d19c7cab767a7"
+    },
+    "validate-save.js": {
+      "bytes": 9659,
+      "sha256": "e23b31afa79d7c32b646fa00e677028e0732b3d27d02aa1baef259509b7576f0"
+    },
+    "probe.js": {
+      "bytes": 4418,
+      "sha256": "ad0dbef85b6f6177bf85bcc926661c134b2013228aead5ddfc984002b78a3f1a"
+    }
+  },
+  "nativeSample": {
+    "bytes": 39236,
+    "sha256": "f643da33f46cb79f274dd94f927249af095f98852b5a683363f0e602b61747d6"
+  },
+  "latestMalformedNativeCases": 894,
+  "browserMalformedCheckpointCases": 5,
+  "browserControlCases": 2,
+  "tests": {
+    "save": {
+      "path": "rogue-guarded-save-2026-10-14.json",
+      "bytes": 7082,
+      "sha256": "a2aeec56cd8b46ecbafeb25c51bd6ee75bb0ae8b3a10f8d06e9ab6c172433b0a"
+    },
+    "combat": {
+      "path": "rogue-guarded-combat-2026-10-14.json",
+      "bytes": 32119,
+      "sha256": "c97c850d80dfe615bc0de9278ed675edcc2a0dd3235247946557589217cc5041"
+    },
+    "validation": {
+      "path": "rogue-guarded-validation-2026-10-14.json",
+      "bytes": 115982,
+      "sha256": "baa6c29385a5625956f09c4dd5ab6645164eefb1f5bd7bec424cb1fcba8752e4"
+    },
+    "invalidCheckpoints": {
+      "path": "rogue-guarded-invalidCheckpoints-2026-10-14.json",
+      "bytes": 1738,
+      "sha256": "41a79328c9f43e73ca89e977d1750ce268588db8403ca10d86c97883168dd522"
+    },
+    "controls": {
+      "path": "rogue-guarded-controls-2026-10-14.json",
+      "bytes": 2862,
+      "sha256": "c167b96199b61707b3a2b3f0eab0741f840d46b92ebffb61af675b996689f574"
+    }
+  },
+  "fontComponent": {
+    "path": "experiments/rogue-browser/font-provenance.json",
+    "characters": 95,
+    "license": "CC0-1.0",
+    "rendererIntegrated": false
+  },
+  "notVerified": [
+    "Complete original dungeon or independent challenge objectives",
+    "Every valid native save state, cryptographic integrity or security certification",
+    "Audible audio",
+    "Mobile, gamepad or other browsers",
+    "Exact SDK/linked members/emitted JS/header notices",
+    "Portable source replay",
+    "Site and production gameplay"
+  ],
+  "releaseGates": [
+    "Independent prose/names/maps/content edition and renderer font integration",
+    "Authored objective completion and save at later floors/items",
+    "All exact dependency notices",
+    "Portable source-only replay",
+    "Loading/site/production acceptance"
+  ],
+  "publicRuntimeUploaded": false,
+  "catalogChanged": false,
+  "deploymentPerformed": false,
+  "muted": true,
+  "playersClosed": true
+}
