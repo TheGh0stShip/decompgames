@@ -4770,5 +4770,59 @@
   "scope": "Fresh v3 source rebuild: all 438 native units; normal keyboard A/B/C and exit, early denial/duplicate rejection; product pause, partial/completed persistence across browser relaunch, seven damaged outer saves rejected, corrupt cold-start recovery and injected sync error/retry. Native GL and IDBFS cleanup verified. Final v4 notice/controller export packaging retains exact native code/assets/outputs; host validation is recorded separately in the dated release report. No retail campaign or audible verification.",
   "playthrough": true
  }
+},
+{
+ "id": "paper-rooms",
+ "title": "Paper Rooms (Glider 4 source port)",
+ "aliases": [
+  "Paper Rooms",
+  "Glider 4 engine challenge"
+ ],
+ "year": 2026,
+ "genre": "Arcade",
+ "kind": "Source port",
+ "mode": "embed",
+ "launch": "embed",
+ "embedUrl": "https://decompgames.com/runtime/paper-rooms/glider-rooms-v1/index.html",
+ "engine": "Developer-released Glider 4 flight code translated to standalone JavaScript / Canvas2D",
+ "description": "Guide a folded flyer through five original rooms using air columns, collect sun tokens and reach each exit.",
+ "overview": "Five independently authored rooms use the selected developer-released Glider 4 flight, collision, collection and room-transition code, translated to JavaScript. Original procedural graphics, animation and text replace the original campaign and media. This is a small source port with original content, not a decompilation, emulation or a certified clean-room reconstruction. It is silent and requires no ROM or original game files.",
+ "source": "https://github.com/kodogo/Glider",
+ "engineLicense": "MIT developer-source/JavaScript translation notice retained; authored host/renderer/utilities MIT; no third-party game libraries or native SDK binaries shipped",
+ "assetLicense": "CC0-1.0 independently authored rooms, procedural graphics/animation design and text; renderer implementation MIT; browser system fonts retain their terms",
+ "assetRequirements": "No ROM or original game files needed. Original houses, raster sprites/masks, recordings, converted house data and legacy Macintosh libraries/resources excluded.",
+ "controls": [
+  "Click flight area — focus keyboard controls",
+  "Left / Right arrows — steer",
+  "Release arrows — drift down",
+  "Escape or Pause — pause/resume",
+  "New flight — reset native progress",
+  "Save room / Restore room — room entrance checkpoint on this device",
+  "Stop — stop the player and clear held keys"
+ ],
+ "saveInstructions": "Save room stores your current room, lives, earned score, visited rooms and collected tokens under paper-rooms-v1 on this origin/profile. Wait for Room checkpoint saved. Restore begins at that room’s entrance, not the exact flight position. New flight keeps the durable checkpoint; Stop does not save unsaved progress. Clearing site data removes saves; no import/export.",
+ "limitations": [
+  "Five original rooms, not the retail campaign, matching decompilation or all legacy object/engine features.",
+  "Keyboard and Canvas2D required; touch, controllers and other browsers/devices unverified.",
+  "Room checkpoint only; tested damaged-record rejection and injected storage refusal/retry. Real quota exhaustion, adversarial records, crash/rapid-close, transfer and migration unverified.",
+  "Silent edition with no audio device/media files; audible playback unverified."
+ ],
+ "inputs": [
+  "Keyboard"
+ ],
+ "downloadMB": 0.1,
+ "complete": false,
+ "color": "#377d80",
+ "shelf": "classic",
+ "platform": "PC",
+ "verification": {
+  "status": "gameplay-tested",
+  "date": "2026-10-14",
+  "browsers": [
+   "Headless Microsoft Edge on Windows; muted"
+  ],
+  "scope": "Ordinary keyboard five-room completion, collected token and native score/progression; both-direction steering, pause, native floor loss and New flight reset. Earned partial room checkpoint restored after full browser restart and page reload; seven damaged checkpoints rejected before active-world replacement, injected storage refusal preserved the previous record and retry succeeded. Stop/host reopening and exact source-archive rebuild are recorded in the dated release receipt. No retail campaign, other-browser or audible verification.",
+  "playthrough": true
+ }
 }
 ]

@@ -32,6 +32,11 @@ async function stop() {
       }
     } catch (error) { console.error('Beacon Yard shutdown failed', error); }
   }
+  if (game === 'paper-rooms') {
+    try {
+      (closing.contentWindow as Window & { PaperRooms?: { stop: () => void } })?.PaperRooms?.stop();
+    } catch (error) { console.error('Paper Rooms shutdown failed', error); }
+  }
   closing.remove(); frame = undefined;
   closingFrame = false;
   clock.stop();
@@ -63,7 +68,7 @@ play.addEventListener('click', () => {
     clock.start();
     frame?.focus();
   });
-  frame.src = game === 'beacon-yard' ? new URL(url).pathname : url;
+  frame.src = game === 'beacon-yard' || game === 'paper-rooms' ? new URL(url).pathname : url;
   overlay.hidden = true; stopButton.disabled = false;
   stage.append(frame, bar);
   // The builds' touch controls expect the whole screen.

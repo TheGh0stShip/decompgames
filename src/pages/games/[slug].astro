@@ -6,7 +6,7 @@ import { games, playerUrl, slug, statusLabel } from '../../lib/catalog';
 export function getStaticPaths(){return games.map(game=>({params:{slug:game.id},props:{game}}));}
 const {game:g}=Astro.props;
 const embed=g.mode==='embed';
-const scopedSilent=g.id==='cinder-abuse'||g.id==='kiln-super-zzt'||g.id==='beacon-yard';
+const scopedSilent=g.id==='cinder-abuse'||g.id==='kiln-super-zzt'||g.id==='beacon-yard'||g.id==='paper-rooms';
 const manifestPath=`public/manifests/${g.id}.json`;
 const runtime=existsSync(manifestPath)?JSON.parse(readFileSync(manifestPath,'utf8')):null;
 const related=games.filter(x=>x.id!==g.id&&x.shelf===g.shelf&&(x.genre===g.genre||x.platform===g.platform)).slice(0,4);
@@ -74,10 +74,11 @@ const schema=[
     {g.id==='cinder-abuse'&&<p class="muted">See the <a href="https://github.com/andrewnakas/decompgames/blob/main/docs/cinder-abuse-release.json">dated distribution and gameplay record</a>.</p>}
     {g.id==='kiln-super-zzt'&&<p class="muted">See the <a href="https://github.com/andrewnakas/decompgames/blob/main/docs/kiln-super-zzt-release.json">dated distribution and gameplay record</a>.</p>}
     {g.id==='beacon-yard'&&<p class="muted">See the <a href="https://github.com/andrewnakas/decompgames/blob/main/docs/beacon-yard-release.json">dated distribution and gameplay record</a>.</p>}
+    {g.id==='paper-rooms'&&<p class="muted">See the <a href="https://github.com/andrewnakas/decompgames/blob/main/docs/paper-rooms-release.json">dated distribution and gameplay record</a>.</p>}
     {g.limitations.length>0&&<Fragment><h2>Known limitations</h2><ul>{g.limitations.map(l=><li>{l}</li>)}</ul></Fragment>}
     <h2>Saves</h2>
     <p>{g.saveInstructions}</p>
-    {runtime&&<Fragment><h2>Build and corresponding source</h2><p>Compiled with {runtime.toolchain} from revision <code>{runtime.sourceRevision}</code>.</p><ul><li><a href={runtime.sourceArchive}>Corresponding source and patches</a></li><li><a href={`/manifests/${g.id}.json`}>Runtime manifest and checksums</a></li><li><a href="https://github.com/andrewnakas/decompgames/tree/main/provenance">Asset sources and licence notices</a></li></ul></Fragment>}
+    {runtime&&<Fragment><h2>Build and corresponding source</h2><p>{g.id==='paper-rooms'?'Prepared with':'Compiled with'} {runtime.toolchain} from revision <code>{runtime.sourceRevision}</code>.</p><ul><li><a href={runtime.sourceArchive}>Corresponding source and patches</a></li><li><a href={`/manifests/${g.id}.json`}>Runtime manifest and checksums</a></li><li><a href="https://github.com/andrewnakas/decompgames/tree/main/provenance">Asset sources and licence notices</a></li></ul></Fragment>}
   </section>
   {related.length>0&&<section class="card"><h2>Play next</h2><ul class="poster-grid">{related.map(game=><GameCard game={game}/>)}</ul></section>}
   {schema.map(s=><script type="application/ld+json" set:html={JSON.stringify(s).replace(/</g,'\\u003c')}/>)}

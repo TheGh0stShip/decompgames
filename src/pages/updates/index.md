@@ -3,6 +3,10 @@ layout: ../../layouts/Article.astro
 title: What’s new
 description: Release notes and compatibility changes for Decomp Games.
 ---
+## October 14, 2026 — Paper Rooms: five original flights in Glider 4 code
+
+Guide a folded flyer through five original rooms, follow the air columns and collect sun tokens. Paper Rooms runs developer-released Glider 4 flight code translated to JavaScript, with independently authored CC0 rooms, procedural graphics, animation and text. It needs no original game files and starts silent. Room checkpoints, Pause, New flight and Stop are included. This is a source port with original content and does not count toward the decompilation milestone. [Play Paper Rooms](/games/paper-rooms/).
+
 ## October 14, 2026 — Beacon Yard: a courtyard in the Eldritch engine
 
 Activate three beacons and return to the exit terminal in an original courtyard built on developer-released Eldritch code. Beacon Yard uses independently authored replacement art, glyphs, animation, text and map, with no original game files required. This silent source port includes Pause, Save, Restore, New yard and Stop. Muted tests completed the challenge and restored native progress after a browser restart. It is an original challenge, not the retail campaign or a matching decompilation. [Play Beacon Yard](/games/beacon-yard/).

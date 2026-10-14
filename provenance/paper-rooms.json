@@ -1,0 +1,96 @@
+{
+  "edition": "paper-rooms-v1",
+  "status": "Release candidate; authored five-room route tested; archive replay and host acceptance recorded separately",
+  "classification": "Original replacement content using developer-released source port; browser JavaScript, not decompilation or WASM",
+  "upstreamCode": {
+    "repo": "kodogo/Glider",
+    "pin": "9d5ff29905531e2d3c238a4c988f29d4f4ab1802",
+    "grant": "MIT notice retained",
+    "originalDeveloperSource": "softdorothy/Glider4 d023891da740a41d192e25d0e748fd1c54d940b8",
+    "selectedInputs": [
+      {
+        "path": "js/g-quickdraw.js",
+        "originalSha256": "3703e23d14518927c5bbd99ff9479d6c2fd583f8e38cca44f0308b7b84a1f5b5",
+        "sha256": "3703e23d14518927c5bbd99ff9479d6c2fd583f8e38cca44f0308b7b84a1f5b5",
+        "modified": false,
+        "license": "MIT",
+        "source": "https://github.com/kodogo/Glider/blob/9d5ff29905531e2d3c238a4c988f29d4f4ab1802/glider/js/g-quickdraw.js"
+      },
+      {
+        "path": "js/g-globals.js",
+        "originalSha256": "66682da971116947b92454069ab4ba0d88c90a3f0ce79b699d7ba973fc7a0606",
+        "sha256": "173fa6574249a6bd0ac2e1166159f75960164816da9a99b9802b09659964a119",
+        "modified": true,
+        "license": "MIT",
+        "source": "https://github.com/kodogo/Glider/blob/9d5ff29905531e2d3c238a4c988f29d4f4ab1802/glider/js/g-globals.js"
+      },
+      {
+        "path": "js/g-initialize.js",
+        "originalSha256": "2828f8aff90bbae7f911d4d062a10acb02fd05664a8f68c8c979d085adc27e41",
+        "sha256": "2828f8aff90bbae7f911d4d062a10acb02fd05664a8f68c8c979d085adc27e41",
+        "modified": false,
+        "license": "MIT",
+        "source": "https://github.com/kodogo/Glider/blob/9d5ff29905531e2d3c238a4c988f29d4f4ab1802/glider/js/g-initialize.js"
+      },
+      {
+        "path": "js/g-eventrects.js",
+        "originalSha256": "b6654f698cab18afffa29ba85e233a6ef92844f75a08305d9fcbdc58f8493bcb",
+        "sha256": "b6654f698cab18afffa29ba85e233a6ef92844f75a08305d9fcbdc58f8493bcb",
+        "modified": false,
+        "license": "MIT",
+        "source": "https://github.com/kodogo/Glider/blob/9d5ff29905531e2d3c238a4c988f29d4f4ab1802/glider/js/g-eventrects.js"
+      },
+      {
+        "path": "js/g-playutils.js",
+        "originalSha256": "c098de7a995ecc1e7af767b9eb6eb781801cadbdeb0dd771748da16f13647b0a",
+        "sha256": "c098de7a995ecc1e7af767b9eb6eb781801cadbdeb0dd771748da16f13647b0a",
+        "modified": false,
+        "license": "MIT",
+        "source": "https://github.com/kodogo/Glider/blob/9d5ff29905531e2d3c238a4c988f29d4f4ab1802/glider/js/g-playutils.js"
+      },
+      {
+        "path": "js/g-playsetup.js",
+        "originalSha256": "af449e2ec5b1d7d75e48aa8050df7d01717b7d3ea303bae8e7695d3a3c2b1711",
+        "sha256": "af449e2ec5b1d7d75e48aa8050df7d01717b7d3ea303bae8e7695d3a3c2b1711",
+        "modified": false,
+        "license": "MIT",
+        "source": "https://github.com/kodogo/Glider/blob/9d5ff29905531e2d3c238a4c988f29d4f4ab1802/glider/js/g-playsetup.js"
+      },
+      {
+        "path": "js/g-idleinput.js",
+        "originalSha256": "48c95df5aa148b581806910a3a5915751a3c240a4d983739000bdfd49301b9f0",
+        "sha256": "48c95df5aa148b581806910a3a5915751a3c240a4d983739000bdfd49301b9f0",
+        "modified": false,
+        "license": "MIT",
+        "source": "https://github.com/kodogo/Glider/blob/9d5ff29905531e2d3c238a4c988f29d4f4ab1802/glider/js/g-idleinput.js"
+      },
+      {
+        "path": "js/g-playactive.js",
+        "originalSha256": "5a06e1331a768da7d882082756604bbfbbcdc4e10f85953be87a13f83778fa2a",
+        "sha256": "5a06e1331a768da7d882082756604bbfbbcdc4e10f85953be87a13f83778fa2a",
+        "modified": false,
+        "license": "MIT",
+        "source": "https://github.com/kodogo/Glider/blob/9d5ff29905531e2d3c238a4c988f29d4f4ab1802/glider/js/g-playactive.js"
+      }
+    ],
+    "dependencies": "Selected JavaScript is standalone and uses browser DOM/Canvas APIs; no third-party script, native SDK binary or original media is shipped. Legacy Macintosh libraries/resources are excluded."
+  },
+  "ownContent": {
+    "rooms": "Five independently authored layouts in js/owned-rooms.js, CC0-1.0",
+    "graphics": "Independently authored procedural plane, vent, token, obstacle, backdrop and title/ending design; no referenced raster art; graphic output/design CC0-1.0, renderer implementation MIT",
+    "text": "New room names, help, status/title/ending text; CC0 own content",
+    "audio": "Silent edition. No original or replacement audio files, AudioContext or media elements required. Audible verification not performed.",
+    "font": "Browser system fonts; no bundled font file",
+    "animation": "Independently authored geometric fold/orientation and mask-index fade interpretation; uses native flight/collision/fade phase logic but no original sprite/mask pixels."
+  },
+  "excluded": [
+    "Original authored/contributed house files",
+    "Original g-houses.js and converted house JSON",
+    "All original PNG/audio files",
+    "Original HTML/CSS and sound-loader code",
+    "Legacy Macintosh objects/libraries/resource binaries",
+    "Private original-source snapshots and prior ROM research"
+  ],
+  "cleanRoomCertified": false,
+  "savePolicy": "Room checkpoints, not exact flight position: room/lives/scores/visits/collected tokens persist under paper-rooms-v1 at this origin/profile. Restore spawns at the entrance."
+}

@@ -1,0 +1,115 @@
+{
+  "id": "paper-rooms",
+  "base": "/runtime/paper-rooms/glider-rooms-v1/",
+  "repository": "https://github.com/kodogo/Glider",
+  "sourceRevision": "9d5ff29905531e2d3c238a4c988f29d4f4ab1802",
+  "originalDeveloperSource": "https://github.com/softdorothy/Glider4/tree/d023891da740a41d192e25d0e748fd1c54d940b8",
+  "packageRevision": "glider-rooms-v1",
+  "classification": "Original replacement content using developer-released source port; browser JavaScript, not decompilation or WASM",
+  "toolchain": "Standalone JavaScript / browser Canvas2D; Python byte-preserving packaging; no WebAssembly or native libraries",
+  "sourceArchive": "/sources/paper-rooms-glider-rooms-v1-source.zip",
+  "sourceArchiveSha256": "30289efa4986d95fded65528eab4b39be833930043fc9deeeaea94166edb7c6f",
+  "sourceArchiveBytes": 45145,
+  "requirements": [
+    "Keyboard",
+    "Canvas2D",
+    "No ROM or original game files"
+  ],
+  "files": [
+    {
+      "path": "asset-provenance.json",
+      "bytes": 5394,
+      "sha256": "6aef9c90e4ea758afedb27b358816e0fdeaa36e1ce670f7edb4c2fec7bedf4b0"
+    },
+    {
+      "path": "BUILD-NOTES.md",
+      "bytes": 2818,
+      "sha256": "281ba0991c7a6cd338e4e8cc7ad35a1dc51d05fe648bc19a419370e4c9fb0102"
+    },
+    {
+      "path": "index.html",
+      "bytes": 2514,
+      "sha256": "82d49d24e2f8335c1247409afa2934372a9677f32f99246fb01dfdac849af65d"
+    },
+    {
+      "path": "js/g-eventrects.js",
+      "bytes": 13294,
+      "sha256": "b6654f698cab18afffa29ba85e233a6ef92844f75a08305d9fcbdc58f8493bcb"
+    },
+    {
+      "path": "js/g-globals.js",
+      "bytes": 8317,
+      "sha256": "173fa6574249a6bd0ac2e1166159f75960164816da9a99b9802b09659964a119"
+    },
+    {
+      "path": "js/g-idleinput.js",
+      "bytes": 1133,
+      "sha256": "48c95df5aa148b581806910a3a5915751a3c240a4d983739000bdfd49301b9f0"
+    },
+    {
+      "path": "js/g-initialize.js",
+      "bytes": 7485,
+      "sha256": "2828f8aff90bbae7f911d4d062a10acb02fd05664a8f68c8c979d085adc27e41"
+    },
+    {
+      "path": "js/g-playactive.js",
+      "bytes": 30377,
+      "sha256": "5a06e1331a768da7d882082756604bbfbbcdc4e10f85953be87a13f83778fa2a"
+    },
+    {
+      "path": "js/g-playsetup.js",
+      "bytes": 14575,
+      "sha256": "af449e2ec5b1d7d75e48aa8050df7d01717b7d3ea303bae8e7695d3a3c2b1711"
+    },
+    {
+      "path": "js/g-playutils.js",
+      "bytes": 18450,
+      "sha256": "c098de7a995ecc1e7af767b9eb6eb781801cadbdeb0dd771748da16f13647b0a"
+    },
+    {
+      "path": "js/g-quickdraw.js",
+      "bytes": 2446,
+      "sha256": "3703e23d14518927c5bbd99ff9479d6c2fd583f8e38cca44f0308b7b84a1f5b5"
+    },
+    {
+      "path": "js/owned-host.js",
+      "bytes": 4609,
+      "sha256": "82bd5f9b309f2125a69ef53480fae0817f6de3466c1baf466cae3932f4b79004"
+    },
+    {
+      "path": "js/owned-render.js",
+      "bytes": 4291,
+      "sha256": "5ea948ad18807d392f382169a2ce705745ee0e981d71c5561d74a97966e307b3"
+    },
+    {
+      "path": "js/owned-rooms.js",
+      "bytes": 1390,
+      "sha256": "e2e654cd6c6a8da7add941d020d34290f86b5b16493f20882c63d369d06a53c7"
+    },
+    {
+      "path": "js/owned-utils.js",
+      "bytes": 547,
+      "sha256": "92aa1eb5de82f5860b01b10bc11480d0b7b5579021e3d97d0d24d981e42b4b7c"
+    },
+    {
+      "path": "notices/authored-content-CC0.txt",
+      "bytes": 559,
+      "sha256": "4903212d2ab6d74be11332d4840276073556d718d99488000ab2ef2187939e44"
+    },
+    {
+      "path": "notices/Authored-MIT.txt",
+      "bytes": 1072,
+      "sha256": "dd706c072460625b619864d37dd00232d050f668a03383fb68e630beb1b3b5ed"
+    },
+    {
+      "path": "notices/CC0-1.0.txt",
+      "bytes": 7048,
+      "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499"
+    },
+    {
+      "path": "UPSTREAM-LICENSE.txt",
+      "bytes": 1078,
+      "sha256": "75b7e24c41fc385c802b8eb3e296fe9dfbc72018841e09dd7e3b9b8833e5e068"
+    }
+  ]
+}
