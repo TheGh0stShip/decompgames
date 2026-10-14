@@ -1,0 +1,525 @@
+{
+  "recordedAt": "2026-10-14T06:43:12.373999+00:00",
+  "scope": "Pinned selected textual source/build/notice evidence and exact gitlink metadata only; not full source/dependency license closure, original media acquisition, build or gameplay acceptance.",
+  "groups": [
+    {
+      "repo": "open-goal/jak-project",
+      "commit": "b6c8430c0b0a5cb139b939bcf0ffd25285b896c7",
+      "defaultBranch": "master",
+      "stars": 3568,
+      "treeEntries": 24597,
+      "treeTruncated": false,
+      "records": [
+        {
+          "path": "CMakeLists.txt",
+          "url": "https://raw.githubusercontent.com/open-goal/jak-project/b6c8430c0b0a5cb139b939bcf0ffd25285b896c7/CMakeLists.txt",
+          "bytes": 12482,
+          "sha256": "4a1b496d138ad822cee913b3c70dada0f591b105eed005da31edac5de358a335"
+        },
+        {
+          "path": "LICENSE",
+          "url": "https://raw.githubusercontent.com/open-goal/jak-project/b6c8430c0b0a5cb139b939bcf0ffd25285b896c7/LICENSE",
+          "bytes": 749,
+          "sha256": "64983c21481eeab85e9df874e4b452bf6df9005bb5f422fb154705a9931ece56"
+        },
+        {
+          "path": "README.md",
+          "url": "https://raw.githubusercontent.com/open-goal/jak-project/b6c8430c0b0a5cb139b939bcf0ffd25285b896c7/README.md",
+          "bytes": 9709,
+          "sha256": "d2c86641c079acba730de163a8f0717c52730e952a0c73f82f5efe229d3f99a2"
+        },
+        {
+          "path": "vendor.yaml",
+          "url": "https://raw.githubusercontent.com/open-goal/jak-project/b6c8430c0b0a5cb139b939bcf0ffd25285b896c7/vendor.yaml",
+          "bytes": 2341,
+          "sha256": "61675e2e570826b48a11c47b25672097545d1af16ac699e9658df1af7b175f28"
+        },
+        {
+          "path": "game/CMakeLists.txt",
+          "url": "https://raw.githubusercontent.com/open-goal/jak-project/b6c8430c0b0a5cb139b939bcf0ffd25285b896c7/game/CMakeLists.txt",
+          "bytes": 16054,
+          "sha256": "29a5c54b5a4121a37139f58cba4a863f7c5f32a24a794346fd610afbe4339119"
+        },
+        {
+          "path": "game/sound/CMakeLists.txt",
+          "url": "https://raw.githubusercontent.com/open-goal/jak-project/b6c8430c0b0a5cb139b939bcf0ffd25285b896c7/game/sound/CMakeLists.txt",
+          "bytes": 1051,
+          "sha256": "89601b7e076faa322c82f209621649fdeaebf0795758e9a3c55ffcc057538a22"
+        },
+        {
+          "path": "goalc/CMakeLists.txt",
+          "url": "https://raw.githubusercontent.com/open-goal/jak-project/b6c8430c0b0a5cb139b939bcf0ffd25285b896c7/goalc/CMakeLists.txt",
+          "bytes": 3751,
+          "sha256": "91d31aa2e5e045e5b1a0e37e6294b5f347d1c3f3f28defb565a0306a5695369b"
+        },
+        {
+          "path": "goalc/compiler/CodeGenerator.cpp",
+          "url": "https://raw.githubusercontent.com/open-goal/jak-project/b6c8430c0b0a5cb139b939bcf0ffd25285b896c7/goalc/compiler/CodeGenerator.cpp",
+          "bytes": 22455,
+          "sha256": "73a7725228ab07994608d51a9babd622a34ef725cec8b6174c18520f1be6584d"
+        },
+        {
+          "path": "game/kernel/common/codegen.h",
+          "url": "https://raw.githubusercontent.com/open-goal/jak-project/b6c8430c0b0a5cb139b939bcf0ffd25285b896c7/game/kernel/common/codegen.h",
+          "bytes": 2410,
+          "sha256": "ea2684cc19dcd526ae1714e785ebe9798172b096c14576b4c8c192901298f4f4"
+        },
+        {
+          "path": "game/kernel/common/fileio.cpp",
+          "url": "https://raw.githubusercontent.com/open-goal/jak-project/b6c8430c0b0a5cb139b939bcf0ffd25285b896c7/game/kernel/common/fileio.cpp",
+          "bytes": 7636,
+          "sha256": "c7ca78689bc88a8d30c5ba8f2f5d2039810e9e629f5c4f906bd154d6a1d32396"
+        },
+        {
+          "path": "third-party/libco/LICENSE",
+          "url": "https://raw.githubusercontent.com/open-goal/jak-project/b6c8430c0b0a5cb139b939bcf0ffd25285b896c7/third-party/libco/LICENSE",
+          "bytes": 892,
+          "sha256": "95ac067e0acaca3921444bb7ebedc7d2ecd7edf210921bed3ff06d40dcbc7919"
+        },
+        {
+          "path": "third-party/xdelta3/xdelta3/LICENSE",
+          "url": "https://raw.githubusercontent.com/open-goal/jak-project/b6c8430c0b0a5cb139b939bcf0ffd25285b896c7/third-party/xdelta3/xdelta3/LICENSE",
+          "bytes": 9156,
+          "sha256": "6cf63d87586c7c25c3ab8e62eef5c75bbaa982b0a6f9c00c59e2720255aac9ec"
+        },
+        {
+          "path": "third-party/SDL/LICENSE.txt",
+          "url": "https://raw.githubusercontent.com/open-goal/jak-project/b6c8430c0b0a5cb139b939bcf0ffd25285b896c7/third-party/SDL/LICENSE.txt",
+          "bytes": 884,
+          "sha256": "1c040b8271b37e5076359f8fd54240e371114112924d2df81ef87c7d6a1dfdfd"
+        },
+        {
+          "path": "third-party/cubeb/cubeb/LICENSE",
+          "url": "https://raw.githubusercontent.com/open-goal/jak-project/b6c8430c0b0a5cb139b939bcf0ffd25285b896c7/third-party/cubeb/cubeb/LICENSE",
+          "bytes": 732,
+          "sha256": "44c6b5ae5ec3fe2fbc608b00e6f4896f4d2d5c7e525fcbaa3eaa3cf2f3d5a983"
+        },
+        {
+          "path": "third-party/discord-rpc/LICENSE",
+          "url": "https://raw.githubusercontent.com/open-goal/jak-project/b6c8430c0b0a5cb139b939bcf0ffd25285b896c7/third-party/discord-rpc/LICENSE",
+          "bytes": 1053,
+          "sha256": "12054cc15e274c9a10966fd7d8740c12dbd679dec2468e370818d899f9a3a634"
+        },
+        {
+          "path": "third-party/fmt/LICENSE",
+          "url": "https://raw.githubusercontent.com/open-goal/jak-project/b6c8430c0b0a5cb139b939bcf0ffd25285b896c7/third-party/fmt/LICENSE",
+          "bytes": 1431,
+          "sha256": "07580f2a3b35709ce703d523f447b242f6dfec7582a8c0df102c7fa2849375f8"
+        }
+      ],
+      "skippedLargeTextPaths": [],
+      "gitlinks": []
+    },
+    {
+      "repo": "AliveTeam/alive_reversing",
+      "commit": "3be8967b71b29e6e61009d291bd64dce39abf7ac",
+      "defaultBranch": "master",
+      "stars": 441,
+      "treeEntries": 918,
+      "treeTruncated": false,
+      "records": [
+        {
+          "path": ".gitmodules",
+          "url": "https://raw.githubusercontent.com/AliveTeam/alive_reversing/3be8967b71b29e6e61009d291bd64dce39abf7ac/.gitmodules",
+          "bytes": 707,
+          "sha256": "11f16f532b2c8eb3dfccc0f7596b5b2cc47a7fbe827f0668f7f61c994c3ff10e"
+        },
+        {
+          "path": "CMakeLists.txt",
+          "url": "https://raw.githubusercontent.com/AliveTeam/alive_reversing/3be8967b71b29e6e61009d291bd64dce39abf7ac/CMakeLists.txt",
+          "bytes": 5787,
+          "sha256": "deae2e30fef1b11ec228220ad79116975c93f43c203e4521ef25ae4a8273ca14"
+        },
+        {
+          "path": "README.md",
+          "url": "https://raw.githubusercontent.com/AliveTeam/alive_reversing/3be8967b71b29e6e61009d291bd64dce39abf7ac/README.md",
+          "bytes": 3029,
+          "sha256": "35ec478d1f4264721009b292ea34abf1cabe7bb3fa4a2d1404d843d4a4ffc1ca"
+        },
+        {
+          "path": "options.cmake",
+          "url": "https://raw.githubusercontent.com/AliveTeam/alive_reversing/3be8967b71b29e6e61009d291bd64dce39abf7ac/options.cmake",
+          "bytes": 1624,
+          "sha256": "df83f6f3115eed4e671f938f979a1b11934169e723a1181c350139a840cb1b3a"
+        },
+        {
+          "path": "3rdParty/CMakeLists.txt",
+          "url": "https://raw.githubusercontent.com/AliveTeam/alive_reversing/3be8967b71b29e6e61009d291bd64dce39abf7ac/3rdParty/CMakeLists.txt",
+          "bytes": 2459,
+          "sha256": "7df2a6495be00a303eeb363ceb26a62fa130f22b5e114b83f770df9eda76e792"
+        },
+        {
+          "path": "Source/relive/CMakeLists.txt",
+          "url": "https://raw.githubusercontent.com/AliveTeam/alive_reversing/3be8967b71b29e6e61009d291bd64dce39abf7ac/Source/relive/CMakeLists.txt",
+          "bytes": 717,
+          "sha256": "e13189757d2bfcd72228dc9d71194fa8502ff7c6c7c48e8d2c582341b68cd23c"
+        },
+        {
+          "path": "Source/relive/Exe.cpp",
+          "url": "https://raw.githubusercontent.com/AliveTeam/alive_reversing/3be8967b71b29e6e61009d291bd64dce39abf7ac/Source/relive/Exe.cpp",
+          "bytes": 8598,
+          "sha256": "485b305a9921349390b75a29bb6aa3b3796df20524a06fdbb562047c3d736eb9"
+        },
+        {
+          "path": "Source/AliveLibAE/CMakeLists.txt",
+          "url": "https://raw.githubusercontent.com/AliveTeam/alive_reversing/3be8967b71b29e6e61009d291bd64dce39abf7ac/Source/AliveLibAE/CMakeLists.txt",
+          "bytes": 8807,
+          "sha256": "0eb3cf35833faa5b0f62fa30c4125e8263f97a13b0a33faaccb3af58462797a5"
+        },
+        {
+          "path": "Source/AliveLibAO/CMakeLists.txt",
+          "url": "https://raw.githubusercontent.com/AliveTeam/alive_reversing/3be8967b71b29e6e61009d291bd64dce39abf7ac/Source/AliveLibAO/CMakeLists.txt",
+          "bytes": 8329,
+          "sha256": "a605a9ee507f5260cdb3325f350af30836cf0a10d3999eac2dad9426519f8145"
+        },
+        {
+          "path": "Source/AliveLibCommon/CMakeLists.txt",
+          "url": "https://raw.githubusercontent.com/AliveTeam/alive_reversing/3be8967b71b29e6e61009d291bd64dce39abf7ac/Source/AliveLibCommon/CMakeLists.txt",
+          "bytes": 2461,
+          "sha256": "91c7015e607573ccbefb64c01d2f0c1b477101bf4cb9eac9a9fa4092870ded92"
+        },
+        {
+          "path": "Source/AliveLibAO/ResourceManager.cpp",
+          "url": "https://raw.githubusercontent.com/AliveTeam/alive_reversing/3be8967b71b29e6e61009d291bd64dce39abf7ac/Source/AliveLibAO/ResourceManager.cpp",
+          "bytes": 38982,
+          "sha256": "4288e63937617262153f17f5473b5f4d511631f0fec8aa27df5efb78285ada44"
+        },
+        {
+          "path": "Source/AliveLibCommon/Function.hpp",
+          "url": "https://raw.githubusercontent.com/AliveTeam/alive_reversing/3be8967b71b29e6e61009d291bd64dce39abf7ac/Source/AliveLibCommon/Function.hpp",
+          "bytes": 10472,
+          "sha256": "771fa0968402ba698f93da6d1b8a68c115122f99ae96b0d2573ccab471f9805e"
+        },
+        {
+          "path": "Source/AliveLibCommon/PSXMDECDecoder.cpp",
+          "url": "https://raw.githubusercontent.com/AliveTeam/alive_reversing/3be8967b71b29e6e61009d291bd64dce39abf7ac/Source/AliveLibCommon/PSXMDECDecoder.cpp",
+          "bytes": 22940,
+          "sha256": "c7a77431dfce5a856cbf3faa9d94dab72c2bb5bdf0539855339f5398449ee31e"
+        },
+        {
+          "path": "assets/CMakeLists.txt",
+          "url": "https://raw.githubusercontent.com/AliveTeam/alive_reversing/3be8967b71b29e6e61009d291bd64dce39abf7ac/assets/CMakeLists.txt",
+          "bytes": 487,
+          "sha256": "84d7232ff222fd851661d2eccdb1501f52dc00e2a5c8cc2a3d3c8982b0ca0e30"
+        }
+      ],
+      "skippedLargeTextPaths": [],
+      "gitlinks": [
+        {
+          "path": "3rdParty/Detours",
+          "sha": "5e081ec7a295b8b090392f579e4dd75e997b88bb"
+        },
+        {
+          "path": "3rdParty/googletest",
+          "sha": "98a0d007d7092b72eea0e501bb9ad17908a1a036"
+        },
+        {
+          "path": "3rdParty/json",
+          "sha": "293f67f9ff1a3c7d16cf0959c95761e89b9b64e9"
+        },
+        {
+          "path": "3rdParty/jsonxx",
+          "sha": "0b8e472a10b10af14b0a214c6377f9142f4f70a5"
+        },
+        {
+          "path": "3rdParty/lodepng",
+          "sha": "7fdcc96a5e5864eee72911c3ca79b1d9f0d12292"
+        },
+        {
+          "path": "3rdParty/magic_enum",
+          "sha": "58833fa067361a769892149b27b06cf60d89bf46"
+        },
+        {
+          "path": "3rdParty/stb",
+          "sha": "c9064e317699d2e495f36ba4f9ac037e88ee371a"
+        }
+      ]
+    },
+    {
+      "repo": "MrSapps/alive",
+      "commit": "9c3a45d618a4f7a33a6f3da3987e2c1947d1588b",
+      "defaultBranch": "dev",
+      "stars": 107,
+      "treeEntries": 420,
+      "treeTruncated": false,
+      "records": [
+        {
+          "path": ".gitmodules",
+          "url": "https://raw.githubusercontent.com/MrSapps/alive/9c3a45d618a4f7a33a6f3da3987e2c1947d1588b/.gitmodules",
+          "bytes": 2101,
+          "sha256": "76ef5102ab50f2bf6300ac4b433a41b541ccfcaea2cc6387adbddc1f1998447a"
+        },
+        {
+          "path": "CMakeLists.txt",
+          "url": "https://raw.githubusercontent.com/MrSapps/alive/9c3a45d618a4f7a33a6f3da3987e2c1947d1588b/CMakeLists.txt",
+          "bytes": 35191,
+          "sha256": "222f17d33a8f024bb3c44a474ec7da9bb8c6e8758872c1596fc523e5c302e2a0"
+        },
+        {
+          "path": "LICENSE",
+          "url": "https://raw.githubusercontent.com/MrSapps/alive/9c3a45d618a4f7a33a6f3da3987e2c1947d1588b/LICENSE",
+          "bytes": 1077,
+          "sha256": "74734e5c3965b444e1a63b79251a1a1adf104e455a378c2885578a612f93e704"
+        },
+        {
+          "path": "README.md",
+          "url": "https://raw.githubusercontent.com/MrSapps/alive/9c3a45d618a4f7a33a6f3da3987e2c1947d1588b/README.md",
+          "bytes": 2318,
+          "sha256": "0ad22cae83d969dedaf8470721f78e0a67114b3bb8d28a1548b50e81488c208e"
+        }
+      ],
+      "skippedLargeTextPaths": [],
+      "gitlinks": [
+        {
+          "path": "3rdParty/Detours",
+          "sha": "cee1c9ab42a33591d0ed7f4166b2a7d122d73348"
+        },
+        {
+          "path": "3rdParty/boost_1_63_mini",
+          "sha": "5be8a5c149ac95e1219a293f716013d0c1472e4d"
+        },
+        {
+          "path": "3rdParty/cotire",
+          "sha": "6a75b1e77def62063eb927228e353f4bf02a2690"
+        },
+        {
+          "path": "3rdParty/fontstash",
+          "sha": "7e837c205fde6ac416685131653e1f3c722bb027"
+        },
+        {
+          "path": "3rdParty/glm",
+          "sha": "773389c400f789e1ee20f388e3049ab0117f9dca"
+        },
+        {
+          "path": "3rdParty/googletest",
+          "sha": "0a439623f75c029912728d80cb7f1b8b48739ca4"
+        },
+        {
+          "path": "3rdParty/imgui",
+          "sha": "9da53bcecdc2273fef86f032ad55c36393c38ebd"
+        },
+        {
+          "path": "3rdParty/jsonxx",
+          "sha": "ee83361fa21f1cec5ee1cff3037e6a5d31f370d8"
+        },
+        {
+          "path": "3rdParty/libdeflate",
+          "sha": "021e692a7b7f6eebfb4c7de87402375f6ee29654"
+        },
+        {
+          "path": "3rdParty/lodepng",
+          "sha": "3fe852a6d3ba16bd56905d08bb5fb51d07790a5b"
+        },
+        {
+          "path": "3rdParty/nativefiledialog",
+          "sha": "3f9699912f3c1a723a113a79c3f5b0ed4b514d7f"
+        },
+        {
+          "path": "3rdParty/rapidjson",
+          "sha": "5e8a382c1978d3546349386063723cb713dbfcf9"
+        },
+        {
+          "path": "3rdParty/solar-cmake",
+          "sha": "73cfea0db0284c5e2010aca23989046e5bda95c9"
+        },
+        {
+          "path": "3rdParty/soxr-0.1.2",
+          "sha": "b12dc93ee615e725b867871e1237e09d6f793ca5"
+        },
+        {
+          "path": "3rdParty/sqrat",
+          "sha": "5793ae967d6a7faad773c1025c2c091093a83fba"
+        },
+        {
+          "path": "3rdParty/squirrel",
+          "sha": "2186a3fe2132d00ed89f0ee6769c382034435ac6"
+        },
+        {
+          "path": "3rdParty/stk",
+          "sha": "f13866e6964d61c92588927287fd0a063ee8b3ce"
+        },
+        {
+          "path": "3rdParty/vorbis",
+          "sha": "143caf4023a90c09a5eb685fdd46fb9b9c36b1ee"
+        }
+      ]
+    },
+    {
+      "repo": "N0zoM1z0/th08",
+      "commit": "4fe9ce6124f1e6008ef24592fe1ac2c4a2aeb3c4",
+      "defaultBranch": "main",
+      "stars": 112,
+      "treeEntries": 451,
+      "treeTruncated": false,
+      "records": [
+        {
+          "path": ".gitmodules",
+          "url": "https://raw.githubusercontent.com/N0zoM1z0/th08/4fe9ce6124f1e6008ef24592fe1ac2c4a2aeb3c4/.gitmodules",
+          "bytes": 125,
+          "sha256": "484a213e17fd157965ff4a3c8cbf63d95e96e99432ab6545bba4f7f58293cb9a"
+        },
+        {
+          "path": "CMakeLists.txt",
+          "url": "https://raw.githubusercontent.com/N0zoM1z0/th08/4fe9ce6124f1e6008ef24592fe1ac2c4a2aeb3c4/CMakeLists.txt",
+          "bytes": 8179,
+          "sha256": "d34eb5ff254cfb49a922c61ac4ec40d45dee366ba7817e64c9d9de3734d89af9"
+        },
+        {
+          "path": "LICENSE",
+          "url": "https://raw.githubusercontent.com/N0zoM1z0/th08/4fe9ce6124f1e6008ef24592fe1ac2c4a2aeb3c4/LICENSE",
+          "bytes": 1088,
+          "sha256": "1dce63a2114a93e6134c241e422c715d732dd0e742d9832c33b3649a07552a0c"
+        },
+        {
+          "path": "README.md",
+          "url": "https://raw.githubusercontent.com/N0zoM1z0/th08/4fe9ce6124f1e6008ef24592fe1ac2c4a2aeb3c4/README.md",
+          "bytes": 26945,
+          "sha256": "52eaab828345f3b80b60f01658f74d5721b7aebe1d3e1df588f7c4a173b4a329"
+        },
+        {
+          "path": "config/library-provenance.toml",
+          "url": "https://raw.githubusercontent.com/N0zoM1z0/th08/4fe9ce6124f1e6008ef24592fe1ac2c4a2aeb3c4/config/library-provenance.toml",
+          "bytes": 871,
+          "sha256": "4e8cda70eb9b9c77accef956597713e2940d750173115396920ab955dcae9e73"
+        },
+        {
+          "path": "scripts/analysis/report-import-provenance.py",
+          "url": "https://raw.githubusercontent.com/N0zoM1z0/th08/4fe9ce6124f1e6008ef24592fe1ac2c4a2aeb3c4/scripts/analysis/report-import-provenance.py",
+          "bytes": 10074,
+          "sha256": "8beeeaa4610371aac41313b8b2e4ff0b540c6d9dfbeef84e1a8462a85efa625a"
+        }
+      ],
+      "skippedLargeTextPaths": [],
+      "gitlinks": [
+        {
+          "path": "3rdparty/Detours",
+          "sha": "51c83d3537e42ab553728a6cb00b4c9bd52a6bb3"
+        }
+      ]
+    },
+    {
+      "repo": "N0zoM1z0/th08-web",
+      "commit": "e3485ab9a9af3b5a90ce51841667bbdf5a867e5c",
+      "defaultBranch": "main",
+      "stars": 57,
+      "treeEntries": 304,
+      "treeTruncated": false,
+      "records": [
+        {
+          "path": ".gitmodules",
+          "url": "https://raw.githubusercontent.com/N0zoM1z0/th08-web/e3485ab9a9af3b5a90ce51841667bbdf5a867e5c/.gitmodules",
+          "bytes": 125,
+          "sha256": "484a213e17fd157965ff4a3c8cbf63d95e96e99432ab6545bba4f7f58293cb9a"
+        },
+        {
+          "path": "CMakeLists.txt",
+          "url": "https://raw.githubusercontent.com/N0zoM1z0/th08-web/e3485ab9a9af3b5a90ce51841667bbdf5a867e5c/CMakeLists.txt",
+          "bytes": 12040,
+          "sha256": "8b6572e23f025f6dfafd838a50afdfd00e34e5c25bcab2624954818f6bd18142"
+        },
+        {
+          "path": "LICENSE",
+          "url": "https://raw.githubusercontent.com/N0zoM1z0/th08-web/e3485ab9a9af3b5a90ce51841667bbdf5a867e5c/LICENSE",
+          "bytes": 1088,
+          "sha256": "1dce63a2114a93e6134c241e422c715d732dd0e742d9832c33b3649a07552a0c"
+        },
+        {
+          "path": "README.md",
+          "url": "https://raw.githubusercontent.com/N0zoM1z0/th08-web/e3485ab9a9af3b5a90ce51841667bbdf5a867e5c/README.md",
+          "bytes": 11835,
+          "sha256": "e5cbede147056bb249158e828f55cd1e2d233dced5484a59af2805dbc1ff6d22"
+        },
+        {
+          "path": "config/library-provenance.toml",
+          "url": "https://raw.githubusercontent.com/N0zoM1z0/th08-web/e3485ab9a9af3b5a90ce51841667bbdf5a867e5c/config/library-provenance.toml",
+          "bytes": 871,
+          "sha256": "4e8cda70eb9b9c77accef956597713e2940d750173115396920ab955dcae9e73"
+        },
+        {
+          "path": "scripts/build-web-game.sh",
+          "url": "https://raw.githubusercontent.com/N0zoM1z0/th08-web/e3485ab9a9af3b5a90ce51841667bbdf5a867e5c/scripts/build-web-game.sh",
+          "bytes": 3375,
+          "sha256": "4766ab6f275888fe709fab28bf3b3041c780b87245b463de59a8e2a49f3287f2"
+        },
+        {
+          "path": "scripts/check-web-provenance.py",
+          "url": "https://raw.githubusercontent.com/N0zoM1z0/th08-web/e3485ab9a9af3b5a90ce51841667bbdf5a867e5c/scripts/check-web-provenance.py",
+          "bytes": 6686,
+          "sha256": "ba32a4486307d4774d719409d3bf614f9446021b62d5f960cea09ba5ee1832a8"
+        },
+        {
+          "path": "docs/WEB_ARCHITECTURE.md",
+          "url": "https://raw.githubusercontent.com/N0zoM1z0/th08-web/e3485ab9a9af3b5a90ce51841667bbdf5a867e5c/docs/WEB_ARCHITECTURE.md",
+          "bytes": 30552,
+          "sha256": "126910da82e7e199aadd86491f524e128aa8d140b76bb124b9dc0e58bbbc1fd2"
+        },
+        {
+          "path": "src/modern/linux/linux_runtime.cpp",
+          "url": "https://raw.githubusercontent.com/N0zoM1z0/th08-web/e3485ab9a9af3b5a90ce51841667bbdf5a867e5c/src/modern/linux/linux_runtime.cpp",
+          "bytes": 12692,
+          "sha256": "042a59ca2f53f638367938c57a485bc9ffe13fee4867cc08786f77249c05f11c"
+        },
+        {
+          "path": "src/modern/linux/linux_compat.cpp",
+          "url": "https://raw.githubusercontent.com/N0zoM1z0/th08-web/e3485ab9a9af3b5a90ce51841667bbdf5a867e5c/src/modern/linux/linux_compat.cpp",
+          "bytes": 63049,
+          "sha256": "a2b21582c556d06c3d22da9da383cc9f447c7a737f1da098203f66e661383faa"
+        },
+        {
+          "path": "src/modern/linux/include/d3d8.h",
+          "url": "https://raw.githubusercontent.com/N0zoM1z0/th08-web/e3485ab9a9af3b5a90ce51841667bbdf5a867e5c/src/modern/linux/include/d3d8.h",
+          "bytes": 4363,
+          "sha256": "e0baefd66a7dc4a8a2d125af8f3f6f821c793a54b9572b50ecb47c4c1d3f7cf4"
+        },
+        {
+          "path": "src/modern/web/shell.html",
+          "url": "https://raw.githubusercontent.com/N0zoM1z0/th08-web/e3485ab9a9af3b5a90ce51841667bbdf5a867e5c/src/modern/web/shell.html",
+          "bytes": 22162,
+          "sha256": "c17e26ee334f20412740434cf6f762e33ba90418f8c0224eb7883e8b7ca058e1"
+        },
+        {
+          "path": "config/i18n.csv",
+          "url": "https://raw.githubusercontent.com/N0zoM1z0/th08-web/e3485ab9a9af3b5a90ce51841667bbdf5a867e5c/config/i18n.csv",
+          "bytes": 19435,
+          "sha256": "6dc47b004e11ef4bdd0e2a39e9a4d2da303c191c9761e404523a669605373a2f"
+        },
+        {
+          "path": "src/Spellcard.cpp",
+          "url": "https://raw.githubusercontent.com/N0zoM1z0/th08-web/e3485ab9a9af3b5a90ce51841667bbdf5a867e5c/src/Spellcard.cpp",
+          "bytes": 77372,
+          "sha256": "4ae04ee0fe2842b265824df2838095c97d787a37c307877a491a435f35f6b6f4"
+        },
+        {
+          "path": "src/pbg/PbgArchive.cpp",
+          "url": "https://raw.githubusercontent.com/N0zoM1z0/th08-web/e3485ab9a9af3b5a90ce51841667bbdf5a867e5c/src/pbg/PbgArchive.cpp",
+          "bytes": 7202,
+          "sha256": "279b96e82e9afdf7e09556bd147393d6dad0bb87742795802f3abdf617ee2ffe"
+        }
+      ],
+      "skippedLargeTextPaths": [],
+      "gitlinks": [
+        {
+          "path": "3rdparty/Detours",
+          "sha": "51c83d3537e42ab553728a6cb00b4c9bd52a6bb3"
+        }
+      ]
+    }
+  ],
+  "selectedRecordedAt": "2026-10-14T06:48:17.984644+00:00",
+  "components": [
+    {
+      "repo": "N0zoM1z0/th08",
+      "commit": "7ad379297baf4ff07f117747ea4edf8c7ed739d4",
+      "scope": "Imported upstream snapshot license; authorship/history boundary is upstream documentation and not locally graph-replayed",
+      "records": [
+        {
+          "path": "LICENSE",
+          "url": "https://raw.githubusercontent.com/N0zoM1z0/th08/7ad379297baf4ff07f117747ea4edf8c7ed739d4/LICENSE",
+          "bytes": 1060,
+          "sha256": "5ecb9fcee54e69ef4d7965d98c1151fb4d40c4a9fd76d0d4dfb4d949bf0a2381"
+        }
+      ]
+    }
+  ],
+  "completedAt": "2026-10-14T07:06:18.478673+00:00"
+}

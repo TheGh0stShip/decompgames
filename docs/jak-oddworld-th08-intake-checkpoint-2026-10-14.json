@@ -1,0 +1,55 @@
+{
+  "recordedAt": "2026-10-14T07:09:27.180316+00:00",
+  "snapshot": "jak-oddworld-th08-source-snapshots-2026-10-14.json",
+  "catalogCount": 86,
+  "catalogBlobSha256": "327c3a57b881fb1cc57e955de58ba4dc073adcce4dc3360e88541220e48640ca",
+  "projectLineages": 3,
+  "titleCandidates": 6,
+  "repositoryPins": 5,
+  "historicalLicensePins": 1,
+  "textFiles": 56,
+  "allRecordedTextHashesVerified": true,
+  "catalogDeduplication": {
+    "jak": [],
+    "oddworld": [],
+    "touhou-8": []
+  },
+  "catalogDeduplicationFields": [
+    "id",
+    "title",
+    "aliases",
+    "source",
+    "engine"
+  ],
+  "eligibleAdditions": 0,
+  "buildAttempted": false,
+  "browserPlayerLaunched": false,
+  "gameplayTested": false,
+  "audioVerified": false,
+  "originalExternalMediaAcquired": false,
+  "romDiscExecutableLibrarySdkBinaryAcquired": false,
+  "cleanRoomCertified": false,
+  "matchingDecompilationMilestone": "4/5 unchanged",
+  "protectedTitlesUntouched": [
+    "mario-party-2",
+    "mario-party-3",
+    "halo-combat-evolved"
+  ],
+  "blockers": {
+    "jak": [
+      "Recovered retail code scope and complete independent resources unresolved",
+      "Compiler emits native X86/ARM64; executable kernel stubs and native assembly require a browser backend/runtime port",
+      "Exact selected dependency closure and silent ROM-free gameplay unverified"
+    ],
+    "oddworld": [
+      "Current root licence grant absent; README promises future licence; legacy MIT does not clear later contributions",
+      "GPL-2.0-or-later PSXMDECDecoder.cpp compiled in AliveLibCommon is outside current permissive intake",
+      "Original LVL resources required; complete independent pack and browser route unverified"
+    ],
+    "touhou-8": [
+      "MIT reconstruction notices verified, but original-code distribution and selected header scope unresolved",
+      "Original DAT resources required; complete independent pack absent; source-side expressive text also needs audit/replacement",
+      "Actual Emscripten SDL/image/font port versions/configuration/notice closure and DecompGames silent gameplay/lifecycle acceptance unverified"
+    ]
+  }
+}
