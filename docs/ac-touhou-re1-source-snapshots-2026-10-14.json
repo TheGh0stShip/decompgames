@@ -1,0 +1,473 @@
+{
+  "recordedAt": "2026-10-14T06:21:19.609486+00:00",
+  "scope": "Selected pinned raw textual source/build/notice byte hashes only. No complete inherited-code/dependency clearance, external media/ROM/executable/library/SDK binary acquisition or build/gameplay claim. Large pc_assets.c attempted source fetch exceeded review bound and was not saved/reviewed; raw research remains private.",
+  "groups": [
+    {
+      "repo": "flyngmt/ACGC-PC-Port",
+      "commit": "4099d246c927e75b4fd342ca13f4ac4395c55af5",
+      "defaultBranch": "master",
+      "stars": 1485,
+      "treeEntries": 6904,
+      "treeTruncated": false,
+      "records": [
+        {
+          "path": "LICENSE",
+          "url": "https://raw.githubusercontent.com/flyngmt/ACGC-PC-Port/4099d246c927e75b4fd342ca13f4ac4395c55af5/LICENSE",
+          "bytes": 2513,
+          "sha256": "d1baffc2f16f0e3cb7427706f3c78b893e011859481039d2a1fc1939fe0a1ef9"
+        },
+        {
+          "path": "README.md",
+          "url": "https://raw.githubusercontent.com/flyngmt/ACGC-PC-Port/4099d246c927e75b4fd342ca13f4ac4395c55af5/README.md",
+          "bytes": 3793,
+          "sha256": "e029fe3474e604bd80fba71a3981730dd498fb9fa5dc5654a066f24e10f11ff9"
+        },
+        {
+          "path": "build_pc.sh",
+          "url": "https://raw.githubusercontent.com/flyngmt/ACGC-PC-Port/4099d246c927e75b4fd342ca13f4ac4395c55af5/build_pc.sh",
+          "bytes": 1208,
+          "sha256": "789a8649c2e6d957cc7e7d463effd65eee01037c6870ca6601d0428788b33da6"
+        },
+        {
+          "path": "FAQ.md",
+          "url": "https://raw.githubusercontent.com/flyngmt/ACGC-PC-Port/4099d246c927e75b4fd342ca13f4ac4395c55af5/FAQ.md",
+          "bytes": 1753,
+          "sha256": "c00240321ebf807a7eed3b5c0e48417683f3f5ebdf34ddb5e998927d657cf474"
+        },
+        {
+          "path": "pc/CMakeLists.txt",
+          "url": "https://raw.githubusercontent.com/flyngmt/ACGC-PC-Port/4099d246c927e75b4fd342ca13f4ac4395c55af5/pc/CMakeLists.txt",
+          "bytes": 22001,
+          "sha256": "587dd210870841a0878d20fc97730e78d6716b57f26b4ba798673fb44bc155fb"
+        },
+        {
+          "path": "pc/src/pc_main.c",
+          "url": "https://raw.githubusercontent.com/flyngmt/ACGC-PC-Port/4099d246c927e75b4fd342ca13f4ac4395c55af5/pc/src/pc_main.c",
+          "bytes": 14777,
+          "sha256": "a3d381b9e60d281029a333db5173623a35651c2c246ac13570e059e58c76cc65"
+        },
+        {
+          "path": "pc/src/pc_dvd.c",
+          "url": "https://raw.githubusercontent.com/flyngmt/ACGC-PC-Port/4099d246c927e75b4fd342ca13f4ac4395c55af5/pc/src/pc_dvd.c",
+          "bytes": 6663,
+          "sha256": "43da8a7af2fb727f9e2aa61fdc9e619d6c8c94ddb7925ea25f0b4b0a09f57560"
+        },
+        {
+          "path": "pc/lib/fixnes/LICENSE",
+          "url": "https://raw.githubusercontent.com/flyngmt/ACGC-PC-Port/4099d246c927e75b4fd342ca13f4ac4395c55af5/pc/lib/fixnes/LICENSE",
+          "bytes": 1062,
+          "sha256": "f906a51cbcf80751c1d3cba9920e5ff87b95a2721587a509b632a76af09e89ce"
+        },
+        {
+          "path": "src/data/model/obj_notice.c",
+          "url": "https://raw.githubusercontent.com/flyngmt/ACGC-PC-Port/4099d246c927e75b4fd342ca13f4ac4395c55af5/src/data/model/obj_notice.c",
+          "bytes": 839,
+          "sha256": "1c8b166ae627e5db4fe65ffde224c96e5753552a9704c9317a9dad58d2ac0699"
+        },
+        {
+          "path": "pc/lib/glad/src/gl.c",
+          "url": "https://raw.githubusercontent.com/flyngmt/ACGC-PC-Port/4099d246c927e75b4fd342ca13f4ac4395c55af5/pc/lib/glad/src/gl.c",
+          "bytes": 611204,
+          "sha256": "6343c8f1d894533144ce1ce81e26c8afaf565a281b6c8b9ab1d49f2218957ab2"
+        },
+        {
+          "path": "pc/lib/glad/include/KHR/khrplatform.h",
+          "url": "https://raw.githubusercontent.com/flyngmt/ACGC-PC-Port/4099d246c927e75b4fd342ca13f4ac4395c55af5/pc/lib/glad/include/KHR/khrplatform.h",
+          "bytes": 11131,
+          "sha256": "7b1e01aaa7ad8f6fc34b5c7bdf79ebf5189bb09e2c4d2e79fc5d350623d11e83"
+        }
+      ],
+      "gitlinks": [],
+      "skippedLargeTextPaths": [
+        {
+          "path": "pc/src/pc_assets.c",
+          "bytes": 1927669,
+          "reason": "Outside bounded selected text review; earlier attempted fetch was not saved or reviewed"
+        }
+      ]
+    },
+    {
+      "repo": "ACreTeam/ac-decomp",
+      "commit": "09ca8e8b5b24e6ab44047ee980cf0088ad7ecb4c",
+      "defaultBranch": "master",
+      "stars": 1409,
+      "treeEntries": 6712,
+      "treeTruncated": false,
+      "records": [
+        {
+          "path": "LICENSE",
+          "url": "https://raw.githubusercontent.com/ACreTeam/ac-decomp/09ca8e8b5b24e6ab44047ee980cf0088ad7ecb4c/LICENSE",
+          "bytes": 6555,
+          "sha256": "36ffd9dc085d529a7e60e1276d73ae5a030b020313e6c5408593a6ae2af39673"
+        },
+        {
+          "path": "README.md",
+          "url": "https://raw.githubusercontent.com/ACreTeam/ac-decomp/09ca8e8b5b24e6ab44047ee980cf0088ad7ecb4c/README.md",
+          "bytes": 4172,
+          "sha256": "ae38ca75b89f19b6928aafe8fdd51e2e764b6c8fb17a24bf90243f6d3bb84f42"
+        },
+        {
+          "path": "configure.py",
+          "url": "https://raw.githubusercontent.com/ACreTeam/ac-decomp/09ca8e8b5b24e6ab44047ee980cf0088ad7ecb4c/configure.py",
+          "bytes": 281616,
+          "sha256": "c418e0409b2ecf6a0bb72b3f2d737032d811b69f0a8cae001a72b1c7921683bf"
+        },
+        {
+          "path": "include/libforest/emu64.h",
+          "url": "https://raw.githubusercontent.com/ACreTeam/ac-decomp/09ca8e8b5b24e6ab44047ee980cf0088ad7ecb4c/include/libforest/emu64.h",
+          "bytes": 270,
+          "sha256": "fd2155227b649ae9ed0a035055989c4263369302c81344f8402072d03603c9f0"
+        }
+      ],
+      "gitlinks": []
+    },
+    {
+      "repo": "GensokyoClub/th06",
+      "commit": "4b35ad00b59fa77f31a66e8a1db5b32bdf1d59b5",
+      "defaultBranch": "master",
+      "stars": 613,
+      "treeEntries": 165,
+      "treeTruncated": false,
+      "records": [
+        {
+          "path": ".gitmodules",
+          "url": "https://raw.githubusercontent.com/GensokyoClub/th06/4b35ad00b59fa77f31a66e8a1db5b32bdf1d59b5/.gitmodules",
+          "bytes": 112,
+          "sha256": "0bece9d3e33037538874ced82126ed1db661cfbb1fbe9e2b1135d833c2bb371d"
+        },
+        {
+          "path": "LICENSE",
+          "url": "https://raw.githubusercontent.com/GensokyoClub/th06/4b35ad00b59fa77f31a66e8a1db5b32bdf1d59b5/LICENSE",
+          "bytes": 7048,
+          "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499"
+        },
+        {
+          "path": "README.md",
+          "url": "https://raw.githubusercontent.com/GensokyoClub/th06/4b35ad00b59fa77f31a66e8a1db5b32bdf1d59b5/README.md",
+          "bytes": 4007,
+          "sha256": "917ec8798807c04196738d4681e54ef81c61a3388b2bdad5150fa21ce0186cb8"
+        },
+        {
+          "path": "scripts/build.py",
+          "url": "https://raw.githubusercontent.com/GensokyoClub/th06/4b35ad00b59fa77f31a66e8a1db5b32bdf1d59b5/scripts/build.py",
+          "bytes": 7134,
+          "sha256": "7a35a0d8bd618a73b0825866c16079fc7046e0a12cc316a62dbbe42e7678bdc8"
+        }
+      ],
+      "gitlinks": [
+        {
+          "path": "3rdparty/munit",
+          "sha": "4ea6716ba8080de99b963b15777510af9b125f9f"
+        }
+      ]
+    },
+    {
+      "repo": "Wavy667/th06-vita",
+      "commit": "41f4bec235fd0b6d2ad772862cb326f3a9634e26",
+      "defaultBranch": "master",
+      "stars": 10,
+      "treeEntries": 146,
+      "treeTruncated": false,
+      "records": [
+        {
+          "path": "CMakeLists.txt",
+          "url": "https://raw.githubusercontent.com/Wavy667/th06-vita/41f4bec235fd0b6d2ad772862cb326f3a9634e26/CMakeLists.txt",
+          "bytes": 4779,
+          "sha256": "73cc55335290b2186f09269d0fbdb0c3562d7093e8a0eba2b53a7b6b68f75e82"
+        },
+        {
+          "path": "LICENSE",
+          "url": "https://raw.githubusercontent.com/Wavy667/th06-vita/41f4bec235fd0b6d2ad772862cb326f3a9634e26/LICENSE",
+          "bytes": 35149,
+          "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
+        },
+        {
+          "path": "README.md",
+          "url": "https://raw.githubusercontent.com/Wavy667/th06-vita/41f4bec235fd0b6d2ad772862cb326f3a9634e26/README.md",
+          "bytes": 5095,
+          "sha256": "6894f2e357d2d2b2fdacbe82245716fdd780f2f126eb705069246fa19bab449e"
+        },
+        {
+          "path": "src/main.cpp",
+          "url": "https://raw.githubusercontent.com/Wavy667/th06-vita/41f4bec235fd0b6d2ad772862cb326f3a9634e26/src/main.cpp",
+          "bytes": 4536,
+          "sha256": "1275514330da549e4c51dd245b551217ac99dea783942954eccd6c18820b20a5"
+        },
+        {
+          "path": "src/FileSystem.cpp",
+          "url": "https://raw.githubusercontent.com/Wavy667/th06-vita/41f4bec235fd0b6d2ad772862cb326f3a9634e26/src/FileSystem.cpp",
+          "bytes": 3711,
+          "sha256": "c9325b5da4136f7f4d26f38484d110b180c24832bfa960c38443e6c1dd03733b"
+        },
+        {
+          "path": "src/Supervisor.cpp",
+          "url": "https://raw.githubusercontent.com/Wavy667/th06-vita/41f4bec235fd0b6d2ad772862cb326f3a9634e26/src/Supervisor.cpp",
+          "bytes": 29137,
+          "sha256": "547d809ef38bfac969ac54f3da5e59137fed24c80c32540803e61cb694b6d451"
+        }
+      ],
+      "gitlinks": []
+    },
+    {
+      "repo": "ecruells/resident-evil-pc-decomp",
+      "commit": "15004914527567a2b9cecf34997abe8c252bcbf9",
+      "defaultBranch": "main",
+      "stars": 133,
+      "treeEntries": 321,
+      "treeTruncated": false,
+      "records": [
+        {
+          "path": "CMakeLists.txt",
+          "url": "https://raw.githubusercontent.com/ecruells/resident-evil-pc-decomp/15004914527567a2b9cecf34997abe8c252bcbf9/CMakeLists.txt",
+          "bytes": 9933,
+          "sha256": "d0beada5704f1884df7aa35c14aebf729361c2d305fc1c09bb4e189c9984ac14"
+        },
+        {
+          "path": "LICENSE",
+          "url": "https://raw.githubusercontent.com/ecruells/resident-evil-pc-decomp/15004914527567a2b9cecf34997abe8c252bcbf9/LICENSE",
+          "bytes": 35111,
+          "sha256": "62b7fc53bd794e7dff21bb96aee5d022831e2eb4a6767bc21c66b14b7abf5650"
+        },
+        {
+          "path": "README.md",
+          "url": "https://raw.githubusercontent.com/ecruells/resident-evil-pc-decomp/15004914527567a2b9cecf34997abe8c252bcbf9/README.md",
+          "bytes": 21007,
+          "sha256": "548b6411595f66f3f6cd424c75d094f9feb1338b379472c6ae77eed3c58abb91"
+        },
+        {
+          "path": "docs/LINUX_PORT.md",
+          "url": "https://raw.githubusercontent.com/ecruells/resident-evil-pc-decomp/15004914527567a2b9cecf34997abe8c252bcbf9/docs/LINUX_PORT.md",
+          "bytes": 70359,
+          "sha256": "727f4df842d142b8f44f61ae91050fd67194a4f7aa917634b1e427e038e3fde6"
+        },
+        {
+          "path": "src/game/TaskScheduler.cpp",
+          "url": "https://raw.githubusercontent.com/ecruells/resident-evil-pc-decomp/15004914527567a2b9cecf34997abe8c252bcbf9/src/game/TaskScheduler.cpp",
+          "bytes": 16463,
+          "sha256": "7f764772407df4227c5e70e99d107f43ceb5d803ccbf67eea89b9c812b788ee1"
+        },
+        {
+          "path": "src/platform/linux/main.cpp",
+          "url": "https://raw.githubusercontent.com/ecruells/resident-evil-pc-decomp/15004914527567a2b9cecf34997abe8c252bcbf9/src/platform/linux/main.cpp",
+          "bytes": 11409,
+          "sha256": "c744affab2cc06ff0b17cfcecfc95c824866021e555d072875488e5ea2f01724"
+        },
+        {
+          "path": "src/system/AssetPath.cpp",
+          "url": "https://raw.githubusercontent.com/ecruells/resident-evil-pc-decomp/15004914527567a2b9cecf34997abe8c252bcbf9/src/system/AssetPath.cpp",
+          "bytes": 15305,
+          "sha256": "a23e9527c09269eb474be4733bf64ff903134f7621b1125cd21193928b6f7dc5"
+        }
+      ],
+      "gitlinks": []
+    },
+    {
+      "repo": "JRickey/BattleShip",
+      "commit": "b99406f0728c8258531e662272ae20ab45c7e998",
+      "defaultBranch": "main",
+      "stars": 478,
+      "treeEntries": 606,
+      "treeTruncated": false,
+      "records": [
+        {
+          "path": ".gitmodules",
+          "url": "https://raw.githubusercontent.com/JRickey/BattleShip/b99406f0728c8258531e662272ae20ab45c7e998/.gitmodules",
+          "bytes": 320,
+          "sha256": "740c0280964722dcbb6b949d695ea8feed1a79fa4be025febd0292867383393d"
+        },
+        {
+          "path": "BUILDING.md",
+          "url": "https://raw.githubusercontent.com/JRickey/BattleShip/b99406f0728c8258531e662272ae20ab45c7e998/BUILDING.md",
+          "bytes": 5998,
+          "sha256": "fa047a3e943d807c6c28e456dfde309c89a1266653c6cb8985c038436563cb16"
+        },
+        {
+          "path": "CMakeLists.txt",
+          "url": "https://raw.githubusercontent.com/JRickey/BattleShip/b99406f0728c8258531e662272ae20ab45c7e998/CMakeLists.txt",
+          "bytes": 74912,
+          "sha256": "c6a1a30347bff2e9b3395f664f08a4956b6929591e9711a1ae00b90267fdb958"
+        },
+        {
+          "path": "LICENSE",
+          "url": "https://raw.githubusercontent.com/JRickey/BattleShip/b99406f0728c8258531e662272ae20ab45c7e998/LICENSE",
+          "bytes": 7014,
+          "sha256": "fcb6d7a8011573ccaa8883e5cb32fa08674f479ae44f6156563683fdb5785548"
+        },
+        {
+          "path": "README.md",
+          "url": "https://raw.githubusercontent.com/JRickey/BattleShip/b99406f0728c8258531e662272ae20ab45c7e998/README.md",
+          "bytes": 25374,
+          "sha256": "418bf6f54e8d4ec2794c81f285e07aec0502d4f35ba5e1eec35ecf0ea1609c8c"
+        },
+        {
+          "path": "assets/custom/fonts/Inconsolata-OFL.txt",
+          "url": "https://raw.githubusercontent.com/JRickey/BattleShip/b99406f0728c8258531e662272ae20ab45c7e998/assets/custom/fonts/Inconsolata-OFL.txt",
+          "bytes": 4394,
+          "sha256": "5d362a6f8690517fd9a5573128a081d8bbbb2f92714cf00556e08fbbe9600426"
+        },
+        {
+          "path": "assets/custom/fonts/Montserrat-OFL.txt",
+          "url": "https://raw.githubusercontent.com/JRickey/BattleShip/b99406f0728c8258531e662272ae20ab45c7e998/assets/custom/fonts/Montserrat-OFL.txt",
+          "bytes": 4400,
+          "sha256": "8b7141c03fa4f8d44e6345d5d4931709290f0f67875e452e95ac1fd3a027802e"
+        },
+        {
+          "path": "port/resource/RelocFileTable.us.cpp",
+          "url": "https://raw.githubusercontent.com/JRickey/BattleShip/b99406f0728c8258531e662272ae20ab45c7e998/port/resource/RelocFileTable.us.cpp",
+          "bytes": 101114,
+          "sha256": "c103fd607b6413f44448dc8abf1b30fe3131ced4774dbe7a175bab161e7f9451"
+        },
+        {
+          "path": "port/resource/RelocFileTable.jp.cpp",
+          "url": "https://raw.githubusercontent.com/JRickey/BattleShip/b99406f0728c8258531e662272ae20ab45c7e998/port/resource/RelocFileTable.jp.cpp",
+          "bytes": 99980,
+          "sha256": "835403872438cd09e369dfd2a4b03e9be33d3f6176d5532a31faeb7ede172e0d"
+        }
+      ],
+      "gitlinks": [
+        {
+          "path": "decomp",
+          "sha": "df3170da4932ae5702db007625a2145bd9ce026f"
+        },
+        {
+          "path": "libultraship",
+          "sha": "3c1fdce9038c1d66e8f55f756eaefbfbdf0eba38"
+        },
+        {
+          "path": "torch",
+          "sha": "3aa9c9739af95659f19adc73afeb12df93957fc3"
+        }
+      ],
+      "missingSelectedPaths": [
+        "port/resource/RelocFileTable.cpp"
+      ]
+    },
+    {
+      "repo": "GensokyoClub/th06",
+      "branch": "portable",
+      "commit": "9719f2f9c45b42de81e892289096135dc153699a",
+      "stars": 613,
+      "treeEntries": 139,
+      "treeTruncated": false,
+      "records": [
+        {
+          "path": "README.md",
+          "url": "https://raw.githubusercontent.com/GensokyoClub/th06/9719f2f9c45b42de81e892289096135dc153699a/README.md",
+          "bytes": 3275,
+          "sha256": "4cb812238acfe40cefe7f9e8312e1c95e3adc4850ea9ad706a88562ed1b13da6"
+        },
+        {
+          "path": "LICENSE",
+          "url": "https://raw.githubusercontent.com/GensokyoClub/th06/9719f2f9c45b42de81e892289096135dc153699a/LICENSE",
+          "bytes": 35149,
+          "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
+        },
+        {
+          "path": "premake5.lua",
+          "url": "https://raw.githubusercontent.com/GensokyoClub/th06/9719f2f9c45b42de81e892289096135dc153699a/premake5.lua",
+          "bytes": 6930,
+          "sha256": "d8eb122f806f71e79a106859a77af33836ccfb95ce3271d33c472b5673dc9e8f"
+        },
+        {
+          "path": "src/main.cpp",
+          "url": "https://raw.githubusercontent.com/GensokyoClub/th06/9719f2f9c45b42de81e892289096135dc153699a/src/main.cpp",
+          "bytes": 4536,
+          "sha256": "1275514330da549e4c51dd245b551217ac99dea783942954eccd6c18820b20a5"
+        },
+        {
+          "path": "src/FileSystem.cpp",
+          "url": "https://raw.githubusercontent.com/GensokyoClub/th06/9719f2f9c45b42de81e892289096135dc153699a/src/FileSystem.cpp",
+          "bytes": 3711,
+          "sha256": "c9325b5da4136f7f4d26f38484d110b180c24832bfa960c38443e6c1dd03733b"
+        },
+        {
+          "path": "src/graphics/WebGL.cpp",
+          "url": "https://raw.githubusercontent.com/GensokyoClub/th06/9719f2f9c45b42de81e892289096135dc153699a/src/graphics/WebGL.cpp",
+          "bytes": 16445,
+          "sha256": "f14dbe08d2393ef09ece162ff11e5728cb5cdbbee7254295b9068d480bbd12d6"
+        },
+        {
+          "path": "src/thirdparty/sjis_converter.cpp",
+          "url": "https://raw.githubusercontent.com/GensokyoClub/th06/9719f2f9c45b42de81e892289096135dc153699a/src/thirdparty/sjis_converter.cpp",
+          "bytes": 1916,
+          "sha256": "6f9052bbdefdd07ebfe2246be8288a13d4d2e0465c897fc1d132753dab96ffdf"
+        },
+        {
+          "path": "src/thirdparty/sjis_converter.h",
+          "url": "https://raw.githubusercontent.com/GensokyoClub/th06/9719f2f9c45b42de81e892289096135dc153699a/src/thirdparty/sjis_converter.h",
+          "bytes": 50,
+          "sha256": "227e4ac6f7c2a5f96fb3ae037bb9d8fbce141bdc0d5cac469d94693f42e719bb"
+        }
+      ],
+      "gitlinks": []
+    },
+    {
+      "repo": "JRickey/libultraship",
+      "commit": "3c1fdce9038c1d66e8f55f756eaefbfbdf0eba38",
+      "relationship": "Exact BattleShip gitlink, selected notice evidence only",
+      "records": [
+        {
+          "path": "LICENSE",
+          "url": "https://raw.githubusercontent.com/JRickey/libultraship/3c1fdce9038c1d66e8f55f756eaefbfbdf0eba38/LICENSE",
+          "bytes": 1090,
+          "sha256": "fdd4f25c62f0a30865c4395d53e731be208c7b8912d5c068dbd93ca7fadc8a97"
+        }
+      ]
+    },
+    {
+      "repo": "JRickey/Torch",
+      "commit": "3aa9c9739af95659f19adc73afeb12df93957fc3",
+      "relationship": "Exact BattleShip gitlink, selected notice evidence only",
+      "records": [
+        {
+          "path": "LICENSE",
+          "url": "https://raw.githubusercontent.com/JRickey/Torch/3aa9c9739af95659f19adc73afeb12df93957fc3/LICENSE",
+          "bytes": 1081,
+          "sha256": "111037b48f3d60ad59a896ecc30913989451723ff468f85e847693dd6a7264af"
+        }
+      ]
+    },
+    {
+      "repo": "JRickey/ssb-decomp-re",
+      "commit": "df3170da4932ae5702db007625a2145bd9ce026f",
+      "relationship": "Exact BattleShip gitlink, selected notice evidence only",
+      "records": [],
+      "responses": [
+        {
+          "path": "README.md",
+          "status": 404,
+          "url": "https://raw.githubusercontent.com/JRickey/ssb-decomp-re/df3170da4932ae5702db007625a2145bd9ce026f/README.md"
+        },
+        {
+          "path": "LICENSE",
+          "status": 404,
+          "url": "https://raw.githubusercontent.com/JRickey/ssb-decomp-re/df3170da4932ae5702db007625a2145bd9ce026f/LICENSE"
+        }
+      ]
+    }
+  ],
+  "exactBattleShipDecompTreeProbes": [
+    {
+      "url": "https://api.github.com/repos/JRickey/ssb-decomp-re/git/trees/df3170da4932ae5702db007625a2145bd9ce026f?recursive=1",
+      "status": 200,
+      "treeEntries": 5214,
+      "rootTextPaths": [
+        ".clang-format",
+        ".gitignore",
+        "CLAUDE.md",
+        "relocData.md"
+      ]
+    },
+    {
+      "url": "https://api.github.com/repos/VetriTheRetri/ssb-decomp-re/git/trees/df3170da4932ae5702db007625a2145bd9ce026f?recursive=1",
+      "status": 200,
+      "treeEntries": 5214,
+      "rootTextPaths": [
+        ".clang-format",
+        ".gitignore",
+        "CLAUDE.md",
+        "relocData.md"
+      ]
+    }
+  ]
+}

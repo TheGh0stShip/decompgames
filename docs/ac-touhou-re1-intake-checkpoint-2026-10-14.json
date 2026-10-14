@@ -1,0 +1,53 @@
+{
+  "recordedAt": "2026-10-14T06:31:43.050979+00:00",
+  "snapshot": "ac-touhou-re1-source-snapshots-2026-10-14.json",
+  "catalogCount": 86,
+  "catalogBlobSha256": "327c3a57b881fb1cc57e955de58ba4dc073adcce4dc3360e88541220e48640ca",
+  "identitiesScreened": 4,
+  "newTitleCandidates": 3,
+  "textFiles": 51,
+  "repositoryBranchComponentRecords": 10,
+  "catalogDeduplication": {
+    "animal-crossing": [],
+    "touhou-6": [],
+    "resident-evil-1": [],
+    "battleship-smash": [
+      "super-smash-bros"
+    ]
+  },
+  "eligibleAdditions": 0,
+  "buildAttempted": false,
+  "browserPlayerLaunched": false,
+  "gameplayTested": false,
+  "originalExternalMediaAcquired": false,
+  "romDiscExecutableLibrarySdkBinaryAcquired": false,
+  "cleanRoomCertified": false,
+  "matchingDecompilationMilestone": "4/5 unchanged",
+  "protectedTitlesUntouched": [
+    "mario-party-2",
+    "mario-party-3",
+    "halo-combat-evolved"
+  ],
+  "blockers": {
+    "animal-crossing": [
+      "Reconstructed game/SDK grant and provenance unresolved",
+      "Complete independently authored expressive content absent; original disc/extracted file route remains",
+      "Exact selected source/dependency closure and yielding browser adapter/gameplay unverified"
+    ],
+    "touhou-6": [
+      "Actual portable and Vita routes GPL3 despite matching-branch CC0",
+      "Independent complete stages/scripts/art/animation/text/font/audio absent",
+      "Browser scheduler/storage, dependency versions and converter provenance unverified"
+    ],
+    "resident-evil-1": [
+      "GPL3 source outside current permissive route",
+      "Purchased game content required; no full independent pack",
+      "Native i386/ucontext host needs browser adaptation; FFmpeg/SDL exact configuration/closure unverified"
+    ],
+    "battleship-smash": [
+      "Catalog identity duplicate",
+      "MIT excludes inherited decomp and derived tables; exact inherited overall grant unestablished",
+      "ROM-derived resources required; browser and full independent data/closure unverified"
+    ]
+  }
+}
