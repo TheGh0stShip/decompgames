@@ -1,0 +1,385 @@
+{
+  "recordedAt": "2026-10-14T07:17:13.118991+00:00",
+  "scope": "Pinned selected text source/build/licence and official published textual notices/history; not complete source/dependency or per-asset provenance closure, original-media acquisition, build or gameplay acceptance.",
+  "groups": [
+    {
+      "repo": "openliero/openliero",
+      "commit": "86f2fae43380447db9a5b1ceb181cbe5e25b3f61",
+      "defaultBranch": "master",
+      "stars": 26,
+      "treeEntries": 466,
+      "treeTruncated": false,
+      "records": [
+        {
+          "path": "CMakeLists.txt",
+          "url": "https://raw.githubusercontent.com/openliero/openliero/86f2fae43380447db9a5b1ceb181cbe5e25b3f61/CMakeLists.txt",
+          "bytes": 25568,
+          "sha256": "d89868b79cac2b46d7133ae13d3b685cb884375260d88563d0ae6c17c1423d58"
+        },
+        {
+          "path": "LICENSE",
+          "url": "https://raw.githubusercontent.com/openliero/openliero/86f2fae43380447db9a5b1ceb181cbe5e25b3f61/LICENSE",
+          "bytes": 1533,
+          "sha256": "41ce29dc7ca2dc82b74891b509147301799940fa69c99cd6b6dbc913668db152"
+        },
+        {
+          "path": "README.md",
+          "url": "https://raw.githubusercontent.com/openliero/openliero/86f2fae43380447db9a5b1ceb181cbe5e25b3f61/README.md",
+          "bytes": 5325,
+          "sha256": "8204931477ce5d54de0f6e7bfdd985435ccb03de9569749555ad2a4c55928002"
+        },
+        {
+          "path": "data/README.md",
+          "url": "https://raw.githubusercontent.com/openliero/openliero/86f2fae43380447db9a5b1ceb181cbe5e25b3f61/data/README.md",
+          "bytes": 302,
+          "sha256": "3d255545ae6a40116c8b232e0f0d6c1753246ad80301b00810626ee6823cfef6",
+          "readingEncoding": "utf8"
+        },
+        {
+          "path": "data/TC/openliero/sounds/LICENSE",
+          "url": "https://raw.githubusercontent.com/openliero/openliero/86f2fae43380447db9a5b1ceb181cbe5e25b3f61/data/TC/openliero/sounds/LICENSE",
+          "bytes": 1092,
+          "sha256": "ddb236771b16ac739783f6595bb0f7ebbd477bda770eba6131e0cff00985f4e8",
+          "readingEncoding": "utf8"
+        },
+        {
+          "path": "docs/building.md",
+          "url": "https://raw.githubusercontent.com/openliero/openliero/86f2fae43380447db9a5b1ceb181cbe5e25b3f61/docs/building.md",
+          "bytes": 5656,
+          "sha256": "7d4be59d1b9bbe297c1b9f9818c710330a90f05ecfc7a721634502822fb4c0fe",
+          "readingEncoding": "utf8"
+        },
+        {
+          "path": "vcpkg.json",
+          "url": "https://raw.githubusercontent.com/openliero/openliero/86f2fae43380447db9a5b1ceb181cbe5e25b3f61/vcpkg.json",
+          "bytes": 473,
+          "sha256": "9d47123735ea24ebcbc8498901bd85a7e98ee465b595c2df194061118ad0dffa",
+          "readingEncoding": "utf8"
+        },
+        {
+          "path": "vcpkg-configuration.json",
+          "url": "https://raw.githubusercontent.com/openliero/openliero/86f2fae43380447db9a5b1ceb181cbe5e25b3f61/vcpkg-configuration.json",
+          "bytes": 474,
+          "sha256": "2e48cc23bff3463b21fd8bc39c5138415f62de1e0a582501db02e9434df57560",
+          "readingEncoding": "utf8"
+        },
+        {
+          "path": "tools/cmake/BootstrapVcpkg.cmake",
+          "url": "https://raw.githubusercontent.com/openliero/openliero/86f2fae43380447db9a5b1ceb181cbe5e25b3f61/tools/cmake/BootstrapVcpkg.cmake",
+          "bytes": 4054,
+          "sha256": "c71aae5079201641bb28acc0ef9ef153dccb6cb8f7b986b7eea13b5faeb2e055",
+          "readingEncoding": "utf8"
+        },
+        {
+          "path": "tools/vcpkg/overlay-ports/enet/portfile.cmake",
+          "url": "https://raw.githubusercontent.com/openliero/openliero/86f2fae43380447db9a5b1ceb181cbe5e25b3f61/tools/vcpkg/overlay-ports/enet/portfile.cmake",
+          "bytes": 600,
+          "sha256": "33562876a53a73f99c7a3b3183c408c717450841644cb0747b17a29e316fe836",
+          "readingEncoding": "utf8"
+        },
+        {
+          "path": "tools/vcpkg/overlay-ports/libjuice/portfile.cmake",
+          "url": "https://raw.githubusercontent.com/openliero/openliero/86f2fae43380447db9a5b1ceb181cbe5e25b3f61/tools/vcpkg/overlay-ports/libjuice/portfile.cmake",
+          "bytes": 912,
+          "sha256": "708b3bbf482f56082eca30f9f250f2a01008db50c5464eeb6ee245b48595929c",
+          "readingEncoding": "utf8"
+        },
+        {
+          "path": "tools/vcpkg/overlay-triplets/wasm32-emscripten.cmake",
+          "url": "https://raw.githubusercontent.com/openliero/openliero/86f2fae43380447db9a5b1ceb181cbe5e25b3f61/tools/vcpkg/overlay-triplets/wasm32-emscripten.cmake",
+          "bytes": 1447,
+          "sha256": "8f9dc54464a127d8e3b5f9b1289b2aa050307a449f6b965a716e970b21155862",
+          "readingEncoding": "utf8"
+        },
+        {
+          "path": "src/game/common.cpp",
+          "url": "https://raw.githubusercontent.com/openliero/openliero/86f2fae43380447db9a5b1ceb181cbe5e25b3f61/src/game/common.cpp",
+          "bytes": 13677,
+          "sha256": "9108b3a5065f471546114f954873bdc39a226757c1f06ce97b17064ffa29db5b",
+          "readingEncoding": "utf8"
+        },
+        {
+          "path": "src/game/main.cpp",
+          "url": "https://raw.githubusercontent.com/openliero/openliero/86f2fae43380447db9a5b1ceb181cbe5e25b3f61/src/game/main.cpp",
+          "bytes": 463,
+          "sha256": "37099dd8541e47a93697462620190e3c85507982dc96090b2a151812f5bebd1b",
+          "readingEncoding": "utf8"
+        },
+        {
+          "path": "src/game/gameEntry.cpp",
+          "url": "https://raw.githubusercontent.com/openliero/openliero/86f2fae43380447db9a5b1ceb181cbe5e25b3f61/src/game/gameEntry.cpp",
+          "bytes": 2222,
+          "sha256": "becc302924c30b685a7c5bea012922463e97f487bf310480456706d7472c173f",
+          "readingEncoding": "utf8"
+        },
+        {
+          "path": "src/game/mixer/player.cpp",
+          "url": "https://raw.githubusercontent.com/openliero/openliero/86f2fae43380447db9a5b1ceb181cbe5e25b3f61/src/game/mixer/player.cpp",
+          "bytes": 2727,
+          "sha256": "d6ce41023e8f50d30272e16bbe34a48deb4e2547a29047356630789e23c15692",
+          "readingEncoding": "utf8"
+        },
+        {
+          "path": "src/game/constants.cpp",
+          "url": "https://raw.githubusercontent.com/openliero/openliero/86f2fae43380447db9a5b1ceb181cbe5e25b3f61/src/game/constants.cpp",
+          "bytes": 138,
+          "sha256": "d8ad506d74e7fc60e76eaa6a997303fdf3419bc770569bbff9f545d960b69c21",
+          "readingEncoding": "utf8"
+        },
+        {
+          "path": "src/game/gfx.cpp",
+          "url": "https://raw.githubusercontent.com/openliero/openliero/86f2fae43380447db9a5b1ceb181cbe5e25b3f61/src/game/gfx.cpp",
+          "bytes": 65413,
+          "sha256": "2f34ce258c8d0e6f1347ee0a6a232e2b28f0a003c069d1526c7c5e6a66f6aa39",
+          "readingEncoding": "utf8"
+        }
+      ],
+      "skippedLargeTextPaths": [],
+      "gitlinks": [],
+      "canonicalRepo": "openliero/openliero"
+    },
+    {
+      "repo": "gliptic/liero",
+      "commit": "a2ed03cbbabc4fd0af0ed6f1e4f37aa4b69e45fa",
+      "defaultBranch": "master",
+      "stars": 284,
+      "treeEntries": 528,
+      "treeTruncated": false,
+      "records": [
+        {
+          "path": "CMakeLists.txt",
+          "url": "https://raw.githubusercontent.com/gliptic/liero/a2ed03cbbabc4fd0af0ed6f1e4f37aa4b69e45fa/CMakeLists.txt",
+          "bytes": 4333,
+          "sha256": "afaff34b0331ba148ad0edea35b1fdaa66512e5ecff834667f76375ef3dae18e"
+        },
+        {
+          "path": "README.md",
+          "url": "https://raw.githubusercontent.com/gliptic/liero/a2ed03cbbabc4fd0af0ed6f1e4f37aa4b69e45fa/README.md",
+          "bytes": 4250,
+          "sha256": "505710e6cd6e2375b2571e8a6e65ecaf1b0b2cec518f0219d9ef33dfb6ae239c"
+        },
+        {
+          "path": "src/game/common.cpp",
+          "url": "https://raw.githubusercontent.com/gliptic/liero/a2ed03cbbabc4fd0af0ed6f1e4f37aa4b69e45fa/src/game/common.cpp",
+          "bytes": 9696,
+          "sha256": "085b03fa0db8846dd41dfc7418a7b39388f366e42c3bc40cdea1a315124b9ff8",
+          "readingEncoding": "utf8"
+        },
+        {
+          "path": "src/game/main.cpp",
+          "url": "https://raw.githubusercontent.com/gliptic/liero/a2ed03cbbabc4fd0af0ed6f1e4f37aa4b69e45fa/src/game/main.cpp",
+          "bytes": 2959,
+          "sha256": "d620eb11e73ad791b4cd35462f2427b8ec899a066ca6828809543505bb773127",
+          "readingEncoding": "utf8"
+        }
+      ],
+      "skippedLargeTextPaths": [],
+      "gitlinks": [],
+      "canonicalRepo": "gliptic/liero"
+    },
+    {
+      "repo": "SethRobinson/RTDink",
+      "commit": "4ac274bea96247897316a3b61abfa480f939444b",
+      "defaultBranch": "master",
+      "stars": 86,
+      "treeEntries": 2010,
+      "treeTruncated": false,
+      "records": [
+        {
+          "path": "CMakeLists.txt",
+          "url": "https://raw.githubusercontent.com/SethRobinson/RTDink/4ac274bea96247897316a3b61abfa480f939444b/CMakeLists.txt",
+          "bytes": 5847,
+          "sha256": "f93e6edb8059d272344c438e6999837d3243917739f013c4ae07296d7a27b590"
+        },
+        {
+          "path": "LICENSE.md",
+          "url": "https://raw.githubusercontent.com/SethRobinson/RTDink/4ac274bea96247897316a3b61abfa480f939444b/LICENSE.md",
+          "bytes": 3216,
+          "sha256": "62018c84c6941f6d90f6047a0856b7ade38bc8e9ed782bc95378c57a32070e8c"
+        },
+        {
+          "path": "README.md",
+          "url": "https://raw.githubusercontent.com/SethRobinson/RTDink/4ac274bea96247897316a3b61abfa480f939444b/README.md",
+          "bytes": 3444,
+          "sha256": "21ccc73379882217ef23e2ff57a27aaaa7d055803bcfb449eaa011601174227e"
+        },
+        {
+          "path": "INSTALL.md",
+          "url": "https://raw.githubusercontent.com/SethRobinson/RTDink/4ac274bea96247897316a3b61abfa480f939444b/INSTALL.md",
+          "bytes": 10697,
+          "sha256": "fa9ce85b07e509151944331d89fe96df04f2db8ad2bf33b471d1bca21d966ddb",
+          "readingEncoding": "utf8"
+        },
+        {
+          "path": "html5/build_release.bat",
+          "url": "https://raw.githubusercontent.com/SethRobinson/RTDink/4ac274bea96247897316a3b61abfa480f939444b/html5/build_release.bat",
+          "bytes": 12629,
+          "sha256": "045b597aae7d4d90ae2a9ba278610d86d9843760c92cc9ee9e908f3339020f67",
+          "readingEncoding": "utf8"
+        },
+        {
+          "path": "html5/CustomMain4-3AspectRatioTemplate.html",
+          "url": "https://raw.githubusercontent.com/SethRobinson/RTDink/4ac274bea96247897316a3b61abfa480f939444b/html5/CustomMain4-3AspectRatioTemplate.html",
+          "bytes": 10661,
+          "sha256": "f05aed5dbfa01580175ae134d403c992f76d65fd8a9e04822a43c23072f3cc74",
+          "readingEncoding": "utf8"
+        },
+        {
+          "path": "bin/dink/midi/GeneralUser GS_LICENSE.txt",
+          "url": "https://raw.githubusercontent.com/SethRobinson/RTDink/4ac274bea96247897316a3b61abfa480f939444b/bin/dink/midi/GeneralUser%20GS_LICENSE.txt",
+          "bytes": 2227,
+          "sha256": "1bcbb56622f2708d73b852b14d633d058b36f615b71fabe4453bfe7f9512a716",
+          "readingEncoding": "utf8"
+        },
+        {
+          "path": "bin/dink/midi/TimGM6mb_LICENSE.txt",
+          "url": "https://raw.githubusercontent.com/SethRobinson/RTDink/4ac274bea96247897316a3b61abfa480f939444b/bin/dink/midi/TimGM6mb_LICENSE.txt",
+          "bytes": 668,
+          "sha256": "34de21d9069ea4c934fc8b991a3a6e3a9718fba5968cc9e73eca1d2e6f0ee25f",
+          "readingEncoding": "utf8"
+        }
+      ],
+      "skippedLargeTextPaths": [],
+      "gitlinks": [],
+      "canonicalRepo": "SethRobinson/RTDink"
+    },
+    {
+      "repo": "softdorothy/glider_4",
+      "commit": "d023891da740a41d192e25d0e748fd1c54d940b8",
+      "defaultBranch": "master",
+      "stars": 116,
+      "treeEntries": 106,
+      "treeTruncated": false,
+      "records": [
+        {
+          "path": "LICENSE",
+          "url": "https://raw.githubusercontent.com/softdorothy/glider_4/d023891da740a41d192e25d0e748fd1c54d940b8/LICENSE",
+          "bytes": 1078,
+          "sha256": "75b7e24c41fc385c802b8eb3e296fe9dfbc72018841e09dd7e3b9b8833e5e068"
+        },
+        {
+          "path": "README.md",
+          "url": "https://raw.githubusercontent.com/softdorothy/glider_4/d023891da740a41d192e25d0e748fd1c54d940b8/README.md",
+          "bytes": 110,
+          "sha256": "bdf7b872a2c75ab88b3f7ce22eac99f81f5a94b43eee7211960e792943c5f29d"
+        },
+        {
+          "path": "Glider_405/Sources/SMS.p",
+          "url": "https://raw.githubusercontent.com/softdorothy/glider_4/d023891da740a41d192e25d0e748fd1c54d940b8/Glider_405/Sources/SMS.p",
+          "bytes": 2267,
+          "sha256": "2794a6a4a00989cdfd4c0b89e0b3d893211d55b124279efd5a6804e941741e24",
+          "readingEncoding": "utf8"
+        },
+        {
+          "path": "Glider_405/Sources/G-Initialize.p",
+          "url": "https://raw.githubusercontent.com/softdorothy/glider_4/d023891da740a41d192e25d0e748fd1c54d940b8/Glider_405/Sources/G-Initialize.p",
+          "bytes": 40585,
+          "sha256": "6ebb12d1b38548f9cd31d4bf109d06fd7a109308cc39ac53588b0c4c58b29383",
+          "readingEncoding": "utf8"
+        },
+        {
+          "path": "Glider_405/Sources/G-GameBody.p",
+          "url": "https://raw.githubusercontent.com/softdorothy/glider_4/d023891da740a41d192e25d0e748fd1c54d940b8/Glider_405/Sources/G-GameBody.p",
+          "bytes": 6155,
+          "sha256": "60ce2b2674a7b95dbd27185e9e7c612a9904d1e0da520284c1c74a3a9c24bb95",
+          "readingEncoding": "utf8"
+        },
+        {
+          "path": "Houses/Usher House Read Me.txt",
+          "url": "https://raw.githubusercontent.com/softdorothy/glider_4/d023891da740a41d192e25d0e748fd1c54d940b8/Houses/Usher%20House%20Read%20Me.txt",
+          "bytes": 1345,
+          "sha256": "233b8f31eb81e81b59a8a12eff0c02646282c5be28774abc6e4f75e64665abdc",
+          "readingEncoding": "mac_roman"
+        }
+      ],
+      "skippedLargeTextPaths": [],
+      "gitlinks": [],
+      "canonicalRepo": "softdorothy/Glider4"
+    },
+    {
+      "repo": "kodogo/Glider",
+      "commit": "9d5ff29905531e2d3c238a4c988f29d4f4ab1802",
+      "defaultBranch": "master",
+      "stars": 27,
+      "treeEntries": 155,
+      "treeTruncated": false,
+      "records": [
+        {
+          "path": "LICENSE",
+          "url": "https://raw.githubusercontent.com/kodogo/Glider/9d5ff29905531e2d3c238a4c988f29d4f4ab1802/LICENSE",
+          "bytes": 1078,
+          "sha256": "75b7e24c41fc385c802b8eb3e296fe9dfbc72018841e09dd7e3b9b8833e5e068"
+        },
+        {
+          "path": "README.md",
+          "url": "https://raw.githubusercontent.com/kodogo/Glider/9d5ff29905531e2d3c238a4c988f29d4f4ab1802/README.md",
+          "bytes": 1539,
+          "sha256": "c36742e1bb18b7812e5380d1b2d487d3a05a3ab4169035a77c79bd9b9a1c1d9f"
+        },
+        {
+          "path": "glider/index.html",
+          "url": "https://raw.githubusercontent.com/kodogo/Glider/9d5ff29905531e2d3c238a4c988f29d4f4ab1802/glider/index.html",
+          "bytes": 2599,
+          "sha256": "545974a2fd7e08d4450fcb7b6946a0823ca249792b4555def988b9b9f53b273f",
+          "readingEncoding": "utf8"
+        },
+        {
+          "path": "glider/js/g-quickdraw.js",
+          "url": "https://raw.githubusercontent.com/kodogo/Glider/9d5ff29905531e2d3c238a4c988f29d4f4ab1802/glider/js/g-quickdraw.js",
+          "bytes": 2446,
+          "sha256": "3703e23d14518927c5bbd99ff9479d6c2fd583f8e38cca44f0308b7b84a1f5b5",
+          "readingEncoding": "utf8"
+        }
+      ],
+      "skippedLargeTextPaths": [
+        {
+          "path": "glider/js/g-houses.js",
+          "bytes": 1123559,
+          "reason": "Exceeds 1,000,000-byte selected-text screen; not fetched or reviewed"
+        }
+      ],
+      "gitlinks": [],
+      "canonicalRepo": "kodogo/Glider"
+    }
+  ],
+  "selectedRecordedAt": "2026-10-14T07:18:34.036051+00:00",
+  "webNotices": [
+    {
+      "path": "official-133-license.txt",
+      "url": "https://www.liero.be/licenses/133/license.txt",
+      "finalUrl": "https://www.liero.be/licenses/133/license.txt",
+      "recordedAt": "2026-10-14T07:21:54.767708+00:00",
+      "bytes": 24717,
+      "sha256": "fed3213e166e8f6d8c62b1cd43728704ef51b715e20cca85d3321fe369ed2a97",
+      "readingEncoding": "cp1252"
+    },
+    {
+      "path": "official-libre-license.txt",
+      "url": "https://www.liero.be/licenses/libre/license.txt",
+      "finalUrl": "https://www.liero.be/licenses/libre/license.txt",
+      "recordedAt": "2026-10-14T07:21:55.243909+00:00",
+      "bytes": 8486,
+      "sha256": "8aa47456e1c09046424ac8e96823a4828a6954b326dfad166d5a420f407596b9",
+      "readingEncoding": "utf-8-sig"
+    },
+    {
+      "path": "official-history.html",
+      "url": "https://www.liero.be/",
+      "finalUrl": "https://www.liero.be/",
+      "recordedAt": "2026-10-14T07:21:55.993558+00:00",
+      "bytes": 19890,
+      "sha256": "4a049efd6cfb8c322e1139e7101bab6f18907bd793a7dbe3b82fafea51070d02",
+      "readingEncoding": "utf-8-sig"
+    },
+    {
+      "path": "official-135-license.txt",
+      "url": "https://www.liero.be/licenses/135/license.txt",
+      "finalUrl": "https://www.liero.be/licenses/135/license.txt",
+      "recordedAt": "2026-10-14T07:22:15.659927+00:00",
+      "bytes": 658,
+      "sha256": "5d1343e314ae49fc56f3682e94ec8e9543950985ee1c9680f760f292905ae5fa",
+      "readingEncoding": "utf-8-sig"
+    }
+  ],
+  "completedAt": "2026-10-14T07:21:56.266921+00:00"
+}

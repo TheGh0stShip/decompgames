@@ -1,0 +1,53 @@
+{
+  "recordedAt": "2026-10-14T07:27:25.094184+00:00",
+  "snapshot": "liero-dink-glider-source-snapshots-2026-10-14.json",
+  "catalogCount": 86,
+  "catalogBlobSha256": "327c3a57b881fb1cc57e955de58ba4dc073adcce4dc3360e88541220e48640ca",
+  "titleCandidates": 3,
+  "repositoryPins": 5,
+  "officialWebsiteRecords": 4,
+  "selectedRepositoryTextFiles": 40,
+  "allTextRecords": 44,
+  "allRecordedTextHashesVerified": true,
+  "catalogDeduplication": {
+    "liero": [],
+    "dink-smallwood": [],
+    "glider-4": []
+  },
+  "catalogDeduplicationFields": [
+    "id",
+    "title",
+    "aliases",
+    "source",
+    "engine"
+  ],
+  "eligibleCompletedAdditions": 0,
+  "buildAttempted": false,
+  "browserPlayerLaunched": false,
+  "gameplayTested": false,
+  "audioVerified": false,
+  "originalExternalMediaAcquired": false,
+  "romDiscExecutableLibrarySdkBinaryAcquired": false,
+  "cleanRoomCertified": false,
+  "matchingDecompilationMilestone": "4/5 unchanged",
+  "protectedTitlesUntouched": [
+    "mario-party-2",
+    "mario-party-3",
+    "halo-combat-evolved"
+  ],
+  "candidateStatus": {
+    "liero": "Conditional ROM-free native/WASM recreation port lead; specific original graphics/configuration and replacement-sound grants established; broader recreation expansion paused; per-file/current-media/dependency closure and acceptance remain open",
+    "dink-smallwood": "Developer-released source port under custom conditions; selected Web build FMOD grant and staged Proton/data/media subset unresolved",
+    "glider-4": "Developer-released Pascal and JavaScript source port under MIT notices; embedded/contributed media, legacy libraries and exact browser source/acceptance closure unresolved"
+  },
+  "openBoundedTextReview": [
+    {
+      "repo": "kodogo/Glider",
+      "path": "glider/js/g-houses.js",
+      "bytes": 1123559,
+      "fetched": false,
+      "reviewed": false,
+      "reason": "Above 1,000,000-byte selected-text bound"
+    }
+  ]
+}
