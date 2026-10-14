@@ -1,0 +1,77 @@
+{
+  "date": "2026-10-14",
+  "catalogCount": 88,
+  "decompilationMilestone": "4/5 unchanged",
+  "titlesReviewed": 4,
+  "eligibleAdditions": 0,
+  "deduplication": {
+    "fields": [
+      "id",
+      "title",
+      "aliases",
+      "source"
+    ],
+    "matches": []
+  },
+  "findings": [
+    {
+      "project": "OpenDUNE/OpenDUNE",
+      "title": "Dune II",
+      "pin": "ebea79aeba025be2fe9004570e9255044aacc0be",
+      "classification": "Native ANSI-C Dune II reconstruction/recreation; no matching or clean-room certificate",
+      "codeGate": "GPLv2 outside current permissive intake route",
+      "dependencyGate": "SDL/SDL2/image and optional Munt/FluidSynth; exact selected grant/version/codec closure unverified; documented OS2 Munt requires separate CM32L ROMs",
+      "contentGate": "Original Dune II 1.07 files including dune2.exe required; no independent complete replacement pack",
+      "browserGate": "Native OS config only; no verified Web gameplay/scheduler/storage or silent voice-completion adaptation",
+      "decision": "Unintegrated; reopen only when identified code/content/runtime gates change"
+    },
+    {
+      "project": "dkfans/keeperfx",
+      "title": "Dungeon Keeper",
+      "pin": "7b88c8e7d6cc121fbf58d05db3de8be23022fa82",
+      "classification": "Decompilation-origin Dungeon Keeper source port/rewrite; upstream full rewrite not independently verified",
+      "codeGate": "GPLv2 outside current permissive intake route",
+      "dependencyGate": "Native Windows/MinGW and Linux branches; SDL3/image/mixer, OpenGL/glad, FFmpeg static libs, OpenAL, networking/compression/config libraries and curl; selected transitive notices unverified",
+      "contentGate": "Original game files required as ownership proof; separate graphics/sound repositories do not establish complete licensed replacement base content",
+      "browserGate": "Native CMake/Makefile build, not a verified browser target; renderer/scheduler/network/save adaptations untested",
+      "decision": "Unintegrated; reopen only when identified code/content/runtime gates change"
+    },
+    {
+      "project": "HighwayFrogs/frogger-psx",
+      "title": "Frogger: He's Back!",
+      "pin": "fa2d5185b19ae89aaceeb47b2828369e06566edf",
+      "classification": "Recovered original source backup modified through matching decompilation, not wholly independently reconstructed code",
+      "codeGate": "No identified overall permissive grant; README uncertain-owner/bankruptcy explanation is not permission",
+      "dependencyGate": "PsyQ original runtime libraries and historical SDK tools separately unresolved; Linux assembly conversion is console build tooling",
+      "contentGate": "No independently authored complete replacement pack or original-media grant",
+      "browserGate": "PS1 output, no native browser source port; emulator use would remain emulation",
+      "decision": "Unintegrated; reopen only when identified code/content/runtime gates change"
+    },
+    {
+      "project": "JRickey/frog-adv-temple-decomp",
+      "title": "Frogger's Adventures: Temple of the Frog",
+      "pin": "fed8033013cb0e8c546008c83e04d2b80fc6f19b",
+      "classification": "WIP fixed-address/nonshiftable GBA matching decompilation with original code/data blobs retained",
+      "codeGate": "Contributor MIT declared; original Konami game/middleware redistribution scope unresolved; anti-leaked-source policy not clean-room evidence",
+      "dependencyGate": "Shin-en GAX selected from ROM incbin bytes; reference decompiled C not built. MIT preprocessor and GPL standalone gbafix terms separately retained; external toolchain grants not whole-game permission",
+      "contentGate": "Baserom/extracted code/assets/tables required; no independently authored complete replacement content",
+      "browserGate": "ARM/GBA ROM target with hard-coded pointers; byte match not source-only native Web gameplay",
+      "decision": "Unintegrated; reopen only when identified code/content/runtime gates change"
+    }
+  ],
+  "verification": {
+    "exactRawTextHashes": 29,
+    "completeTrees": 4,
+    "builds": 0,
+    "players": 0,
+    "gameplay": "unverified",
+    "saves": "unverified",
+    "audio": "unverified",
+    "matching": "not reproduced",
+    "cleanRoom": "not certified",
+    "catalogRuntimeChanges": 0,
+    "runtimeUploads": 0,
+    "websiteDeployments": 0
+  },
+  "protectedScope": "Claude games and private ROM research unchanged"
+}

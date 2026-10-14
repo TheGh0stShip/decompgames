@@ -1,0 +1,259 @@
+{
+  "date": "2026-10-14",
+  "method": "GitHub REST current HEAD/untruncated tree and allowlisted raw UTF-8 documentation/build/notice text only",
+  "hashBasis": "Exact downloaded bytes; no line-ending normalization",
+  "textCount": 29,
+  "repositories": [
+    {
+      "repository": "OpenDUNE/OpenDUNE",
+      "pin": "ebea79aeba025be2fe9004570e9255044aacc0be",
+      "stars": 1695,
+      "treeTruncated": false,
+      "treeEntries": 298,
+      "texts": [
+        {
+          "path": "CONTRIBUTING.md",
+          "url": "https://raw.githubusercontent.com/OpenDUNE/OpenDUNE/ebea79aeba025be2fe9004570e9255044aacc0be/CONTRIBUTING.md",
+          "bytes": 129,
+          "sha256": "9d9f43a3ef26df05d70c8b8df117c8eccbb52372103a3ea4b5e4fd399bd3fdb8"
+        },
+        {
+          "path": "COPYING",
+          "url": "https://raw.githubusercontent.com/OpenDUNE/OpenDUNE/ebea79aeba025be2fe9004570e9255044aacc0be/COPYING",
+          "bytes": 18092,
+          "sha256": "8177f97513213526df2cf6184d8ff986c675afb514d4e68a404010521b880643"
+        },
+        {
+          "path": "README",
+          "url": "https://raw.githubusercontent.com/OpenDUNE/OpenDUNE/ebea79aeba025be2fe9004570e9255044aacc0be/README",
+          "bytes": 10,
+          "sha256": "b01eeed0ec6fc4f4799e44c7b4084e649d6eee4f1aca52ac935553ff82108398"
+        },
+        {
+          "path": "README.atari",
+          "url": "https://raw.githubusercontent.com/OpenDUNE/OpenDUNE/ebea79aeba025be2fe9004570e9255044aacc0be/README.atari",
+          "bytes": 2286,
+          "sha256": "3728a9018b4bbc6685d6c9dc1c90b416f185d9f815be4db401df9c470f047bb5"
+        },
+        {
+          "path": "README.os2",
+          "url": "https://raw.githubusercontent.com/OpenDUNE/OpenDUNE/ebea79aeba025be2fe9004570e9255044aacc0be/README.os2",
+          "bytes": 998,
+          "sha256": "bff6d5fd7048cc73d8b30ed70d0989a378e56fe01212fc185c962f7684064bb1"
+        },
+        {
+          "path": "README.txt",
+          "url": "https://raw.githubusercontent.com/OpenDUNE/OpenDUNE/ebea79aeba025be2fe9004570e9255044aacc0be/README.txt",
+          "bytes": 6403,
+          "sha256": "32aaabed466acf02491826272298e2d6d04f4255c30db7305fab29f8c6728ac3"
+        },
+        {
+          "path": "configure",
+          "url": "https://raw.githubusercontent.com/OpenDUNE/OpenDUNE/ebea79aeba025be2fe9004570e9255044aacc0be/configure",
+          "bytes": 4549,
+          "sha256": "9e6f72ca659008ff459899781e92370c517150907ec7c1047fca3b4d7785176f"
+        },
+        {
+          "path": "config.lib",
+          "url": "https://raw.githubusercontent.com/OpenDUNE/OpenDUNE/ebea79aeba025be2fe9004570e9255044aacc0be/config.lib",
+          "bytes": 66591,
+          "sha256": "5232f5a10f294ade2483df16f2ff2f9e4ecf162f985b3ba5daffbe9d305ea336"
+        },
+        {
+          "path": "Makefile.in",
+          "url": "https://raw.githubusercontent.com/OpenDUNE/OpenDUNE/ebea79aeba025be2fe9004570e9255044aacc0be/Makefile.in",
+          "bytes": 5586,
+          "sha256": "a317e23c2f4f7c91daf1fe6caf5eb54871962cfb117a86af73b4dd14bd969188"
+        }
+      ],
+      "treeInventory": {
+        "sha256": "e421e4e479ba27c967b3fdaad6204b3e901b4d2a172356e5443d76e9c5ea0dbd",
+        "entries": 298,
+        "truncated": false,
+        "grantNoticePaths": [
+          "COPYING"
+        ]
+      }
+    },
+    {
+      "repository": "dkfans/keeperfx",
+      "pin": "7b88c8e7d6cc121fbf58d05db3de8be23022fa82",
+      "stars": 1018,
+      "treeTruncated": false,
+      "treeEntries": 1870,
+      "texts": [
+        {
+          "path": "CMakeLists.txt",
+          "url": "https://raw.githubusercontent.com/dkfans/keeperfx/7b88c8e7d6cc121fbf58d05db3de8be23022fa82/CMakeLists.txt",
+          "bytes": 1832,
+          "sha256": "9b3133c54c7217cdcd4e3593b32c9b75b50c73d9ce4e7076e5af9758ca7c0ec4"
+        },
+        {
+          "path": "LICENSE",
+          "url": "https://raw.githubusercontent.com/dkfans/keeperfx/7b88c8e7d6cc121fbf58d05db3de8be23022fa82/LICENSE",
+          "bytes": 18092,
+          "sha256": "8177f97513213526df2cf6184d8ff986c675afb514d4e68a404010521b880643"
+        },
+        {
+          "path": "Makefile",
+          "url": "https://raw.githubusercontent.com/dkfans/keeperfx/7b88c8e7d6cc121fbf58d05db3de8be23022fa82/Makefile",
+          "bytes": 20290,
+          "sha256": "dc284e4198cd968a891ec9f29f3f1c015455935de141e830691455633a47f0fc"
+        },
+        {
+          "path": "README.md",
+          "url": "https://raw.githubusercontent.com/dkfans/keeperfx/7b88c8e7d6cc121fbf58d05db3de8be23022fa82/README.md",
+          "bytes": 4830,
+          "sha256": "8f86b5434629b78964d24a98f82f5cc1b8d50d53ce271b30666f3aac8872b409"
+        },
+        {
+          "path": "build/cmake/modules/Dependencies.cmake",
+          "url": "https://raw.githubusercontent.com/dkfans/keeperfx/7b88c8e7d6cc121fbf58d05db3de8be23022fa82/build/cmake/modules/Dependencies.cmake",
+          "bytes": 13683,
+          "sha256": "f2092b5bc92ef904f20358f8941225c7d635fda9ab86da19886acfda44094a67"
+        },
+        {
+          "path": "build/cmake/modules/Platforms.cmake",
+          "url": "https://raw.githubusercontent.com/dkfans/keeperfx/7b88c8e7d6cc121fbf58d05db3de8be23022fa82/build/cmake/modules/Platforms.cmake",
+          "bytes": 1414,
+          "sha256": "ba666b1ae12d1d83d97730c7373b88da12e11c442cd9b4b4fe18493b0e35b07e"
+        },
+        {
+          "path": "build/cmake/modules/BuildTargets.cmake",
+          "url": "https://raw.githubusercontent.com/dkfans/keeperfx/7b88c8e7d6cc121fbf58d05db3de8be23022fa82/build/cmake/modules/BuildTargets.cmake",
+          "bytes": 4475,
+          "sha256": "bacf3c59dd7939aad8c60e88861e7fc757d38563753153788431fde14969db7b"
+        }
+      ],
+      "treeInventory": {
+        "sha256": "0ad1050a2363b3a616025ddbb426921b471ec96cbe26541bd24a10a1ceb2a311",
+        "entries": 1870,
+        "truncated": false,
+        "grantNoticePaths": [
+          "LICENSE",
+          "deps/CUnit-2.1-3/COPYING"
+        ]
+      }
+    },
+    {
+      "repository": "HighwayFrogs/frogger-psx",
+      "pin": "fa2d5185b19ae89aaceeb47b2828369e06566edf",
+      "stars": 59,
+      "treeTruncated": false,
+      "treeEntries": 805,
+      "texts": [
+        {
+          "path": "README.MD",
+          "url": "https://raw.githubusercontent.com/HighwayFrogs/frogger-psx/fa2d5185b19ae89aaceeb47b2828369e06566edf/README.MD",
+          "bytes": 6918,
+          "sha256": "77199501a87678b34c408068b296c13fbd075919ab9f25cb4d08bdbfe9caa967"
+        },
+        {
+          "path": "sdk/README.MD",
+          "url": "https://raw.githubusercontent.com/HighwayFrogs/frogger-psx/fa2d5185b19ae89aaceeb47b2828369e06566edf/sdk/README.MD",
+          "bytes": 18375,
+          "sha256": "b02b8d0e8411fd74b0d567640e8c17b36806229b8e104c0f77e192cd85a3c181"
+        },
+        {
+          "path": "source/linux/README.MD",
+          "url": "https://raw.githubusercontent.com/HighwayFrogs/frogger-psx/fa2d5185b19ae89aaceeb47b2828369e06566edf/source/linux/README.MD",
+          "bytes": 566,
+          "sha256": "b0c58e9dfb76ba73ab40a67b3fbe964ec070370cf091af07457cb1c6b4134b66"
+        },
+        {
+          "path": "source/linux/Makefile",
+          "url": "https://raw.githubusercontent.com/HighwayFrogs/frogger-psx/fa2d5185b19ae89aaceeb47b2828369e06566edf/source/linux/Makefile",
+          "bytes": 16895,
+          "sha256": "f29add86a8818ebbfe7c5a4c533f94e4ab4971dcdcdff7ed32a2fbf58cbe7811"
+        },
+        {
+          "path": "setup-linux.sh",
+          "url": "https://raw.githubusercontent.com/HighwayFrogs/frogger-psx/fa2d5185b19ae89aaceeb47b2828369e06566edf/setup-linux.sh",
+          "bytes": 7960,
+          "sha256": "c96f41a9092aef3d4fbc82c618c34ba1ec027e7d5befd15f4ae0b7e5c0f560b5"
+        }
+      ],
+      "treeInventory": {
+        "sha256": "9b927e00a67772bd2b709d822a244da7cd656758b9c4c94432bc6b03431054bc",
+        "entries": 805,
+        "truncated": false,
+        "grantNoticePaths": [
+          "sdk/bin/DTL-S2110/COPYING",
+          "sdk/bin/mkpsxiso/share/psn00bsdk/doc/mkpsxiso/LICENSE.md"
+        ]
+      }
+    },
+    {
+      "repository": "JRickey/frog-adv-temple-decomp",
+      "pin": "fed8033013cb0e8c546008c83e04d2b80fc6f19b",
+      "stars": 5,
+      "treeTruncated": false,
+      "treeEntries": 1445,
+      "texts": [
+        {
+          "path": ".gitmodules",
+          "url": "https://raw.githubusercontent.com/JRickey/frog-adv-temple-decomp/fed8033013cb0e8c546008c83e04d2b80fc6f19b/.gitmodules",
+          "bytes": 246,
+          "sha256": "21e8047781922920b0257a47e7b4dbf05d9c506e429338e3cd62bcb5e1238962"
+        },
+        {
+          "path": "CONTRIBUTING.md",
+          "url": "https://raw.githubusercontent.com/JRickey/frog-adv-temple-decomp/fed8033013cb0e8c546008c83e04d2b80fc6f19b/CONTRIBUTING.md",
+          "bytes": 1508,
+          "sha256": "b27201424434f21089dedecda9e755bb27bb412af325436a1af6e105ae34ce1e"
+        },
+        {
+          "path": "LICENSE",
+          "url": "https://raw.githubusercontent.com/JRickey/frog-adv-temple-decomp/fed8033013cb0e8c546008c83e04d2b80fc6f19b/LICENSE",
+          "bytes": 2576,
+          "sha256": "31eef63489ab620721df109d558accb93f1a59861df9d28ef2bbc2514e986b0e"
+        },
+        {
+          "path": "Makefile",
+          "url": "https://raw.githubusercontent.com/JRickey/frog-adv-temple-decomp/fed8033013cb0e8c546008c83e04d2b80fc6f19b/Makefile",
+          "bytes": 8652,
+          "sha256": "3c78d23b9d27b00f84e462c5adcf5b994f2314bd998951dd6a800e0564f285d3"
+        },
+        {
+          "path": "README.md",
+          "url": "https://raw.githubusercontent.com/JRickey/frog-adv-temple-decomp/fed8033013cb0e8c546008c83e04d2b80fc6f19b/README.md",
+          "bytes": 10133,
+          "sha256": "798d5436509c3953b6a46b9949c570cc6f53b8030859f06cbc5e9bafe667fb18"
+        },
+        {
+          "path": "lib/gax/README.md",
+          "url": "https://raw.githubusercontent.com/JRickey/frog-adv-temple-decomp/fed8033013cb0e8c546008c83e04d2b80fc6f19b/lib/gax/README.md",
+          "bytes": 1677,
+          "sha256": "237b2e3fb292d2c3f978a69885356b88a6f5eef50a64a6bfed5ec03e77c46354"
+        },
+        {
+          "path": "tools/preproc/LICENSE",
+          "url": "https://raw.githubusercontent.com/JRickey/frog-adv-temple-decomp/fed8033013cb0e8c546008c83e04d2b80fc6f19b/tools/preproc/LICENSE",
+          "bytes": 1055,
+          "sha256": "809f71217c9a794bb915fbc615d8d3b003b861bdfff8e4a1af4760bf9248a058"
+        },
+        {
+          "path": "tools/gbafix/COPYING",
+          "url": "https://raw.githubusercontent.com/JRickey/frog-adv-temple-decomp/fed8033013cb0e8c546008c83e04d2b80fc6f19b/tools/gbafix/COPYING",
+          "bytes": 35147,
+          "sha256": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903"
+        }
+      ],
+      "treeInventory": {
+        "sha256": "25bfb63a6fcca0eebcab82d0887a56c5addee15bb94bbdf7105bf9f6f885ef47",
+        "entries": 1445,
+        "truncated": false,
+        "grantNoticePaths": [
+          "LICENSE",
+          "tools/gbafix/COPYING",
+          "tools/preproc/LICENSE"
+        ]
+      }
+    }
+  ],
+  "excludedDownloads": [
+    "original game code backup and retail media/executables/ROMs/discs",
+    "SDK/compiler/library binary packages",
+    "release bundles and players"
+  ]
+}
