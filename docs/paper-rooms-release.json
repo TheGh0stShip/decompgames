@@ -1735,7 +1735,554 @@
     ]
   },
   "productionAcceptance": {
-    "status": "pending"
+    "date": "2026-10-14T08:18:43.812Z",
+    "production": true,
+    "standalone": false,
+    "muted": true,
+    "errors": [],
+    "missing": [],
+    "external": [
+      "https://static.cloudflareinsights.com/beacon.min.js/v4bc70e2c01a94c73b74392e4234840661791215815920",
+      "https://www.googletagmanager.com/gtag/js?id=G-GQ6627GN8H",
+      "https://static.cloudflareinsights.com/beacon.min.js/v4bc70e2c01a94c73b74392e4234840661791215815920",
+      "https://www.googletagmanager.com/gtag/js?id=G-GQ6627GN8H",
+      "https://static.cloudflareinsights.com/beacon.min.js/v4bc70e2c01a94c73b74392e4234840661791215815920",
+      "https://www.googletagmanager.com/gtag/js?id=G-GQ6627GN8H"
+    ],
+    "externalGame": [],
+    "blockedAnalyticsDiagnostics": [
+      "Failed to find a valid digest in the 'integrity' attribute for resource 'https://static.cloudflareinsights.com/beacon.min.js/v4bc70e2c01a94c73b74392e4234840661791215815920' with computed SHA-512 integrity 'z4PhNX7vuL3xVChQ1m2AB9Yg5AULVxXcg/SpIdNs6c5H0NE8XYXysP+DGNKHfuwvY7kxvUdBeoGlODJ6+SfaPg=='. The resource has been blocked.",
+      "Failed to find a valid digest in the 'integrity' attribute for resource 'https://static.cloudflareinsights.com/beacon.min.js/v4bc70e2c01a94c73b74392e4234840661791215815920' with computed SHA-512 integrity 'z4PhNX7vuL3xVChQ1m2AB9Yg5AULVxXcg/SpIdNs6c5H0NE8XYXysP+DGNKHfuwvY7kxvUdBeoGlODJ6+SfaPg=='. The resource has been blocked.",
+      "Failed to find a valid digest in the 'integrity' attribute for resource 'https://static.cloudflareinsights.com/beacon.min.js/v4bc70e2c01a94c73b74392e4234840661791215815920' with computed SHA-512 integrity 'z4PhNX7vuL3xVChQ1m2AB9Yg5AULVxXcg/SpIdNs6c5H0NE8XYXysP+DGNKHfuwvY7kxvUdBeoGlODJ6+SfaPg=='. The resource has been blocked."
+    ],
+    "audioVerified": false,
+    "distribution": [
+      "asset-provenance.json",
+      "BUILD-NOTES.md",
+      "index.html",
+      "js/g-eventrects.js",
+      "js/g-globals.js",
+      "js/g-idleinput.js",
+      "js/g-initialize.js",
+      "js/g-playactive.js",
+      "js/g-playsetup.js",
+      "js/g-playutils.js",
+      "js/g-quickdraw.js",
+      "js/owned-host.js",
+      "js/owned-render.js",
+      "js/owned-rooms.js",
+      "js/owned-utils.js",
+      "notices/authored-content-CC0.txt",
+      "notices/Authored-MIT.txt",
+      "notices/CC0-1.0.txt",
+      "UPSTREAM-LICENSE.txt",
+      "corresponding source"
+    ],
+    "fullFiveRoomRoute": true,
+    "savedCheckpoint": {
+      "schema": 1,
+      "edition": "paper-rooms-v1",
+      "room": 2,
+      "lives": 5,
+      "score": 500,
+      "supp": 263,
+      "passed": 2,
+      "visits": [
+        false,
+        true,
+        false,
+        false,
+        false,
+        false
+      ],
+      "collected": [
+        [
+          true
+        ],
+        [
+          false
+        ],
+        [
+          false
+        ],
+        [
+          false
+        ],
+        [
+          false
+        ]
+      ]
+    },
+    "hostStop": {
+      "room": 1,
+      "lives": 5,
+      "score": 0,
+      "supp": 0,
+      "roll": 0,
+      "playing": false,
+      "paused": true,
+      "scrolling": false,
+      "mode": 0,
+      "x": 50,
+      "y": 28,
+      "phase": 0,
+      "won": false,
+      "stopped": true,
+      "frames": 660,
+      "soundOn": false,
+      "musicOn": false,
+      "cheatMode": false,
+      "keys": 0,
+      "checkpoint": null
+    },
+    "browserRestartCheckpointVerified": true,
+    "pageReloadVerified": true,
+    "floorLoss": {
+      "room": 1,
+      "lives": 4,
+      "score": 0,
+      "supp": 0,
+      "roll": 0,
+      "playing": true,
+      "paused": false,
+      "scrolling": false,
+      "mode": 1,
+      "x": 0,
+      "y": 40,
+      "phase": 0,
+      "won": false,
+      "stopped": false,
+      "frames": 463,
+      "soundOn": false,
+      "musicOn": false,
+      "cheatMode": false,
+      "keys": 0,
+      "checkpoint": {
+        "schema": 1,
+        "edition": "paper-rooms-v1",
+        "room": 1,
+        "lives": 4,
+        "score": 0,
+        "supp": 0,
+        "passed": 1,
+        "visits": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "collected": [
+          [
+            false
+          ],
+          [
+            false
+          ],
+          [
+            false
+          ],
+          [
+            false
+          ],
+          [
+            false
+          ]
+        ]
+      }
+    },
+    "steeringBothDirections": true,
+    "damagedCheckpointCases": 7,
+    "injectedStorageFailureRetryVerified": true,
+    "hostReopenAndProductStopVerified": true,
+    "passed": true,
+    "playersClosed": true,
+    "serverClosed": false,
+    "rawObservationCount": 102,
+    "rawReportSha256": "d36a284466ba361a538e29573f39480cd699153b9ff9175ec8198c653fd64e71",
+    "rawTracePreservedPrivately": true,
+    "observations": [
+      {
+        "label": "ready",
+        "room": 1,
+        "lives": 5,
+        "score": 0,
+        "supp": 0,
+        "roll": 0,
+        "playing": false,
+        "paused": false,
+        "scrolling": false,
+        "mode": 0,
+        "x": 0,
+        "y": 0,
+        "phase": 0,
+        "won": false,
+        "stopped": false,
+        "frames": 5,
+        "soundOn": false,
+        "musicOn": false,
+        "cheatMode": false,
+        "keys": 0,
+        "checkpoint": null
+      },
+      {
+        "label": "route-complete",
+        "room": 0,
+        "lives": 5,
+        "score": 2500,
+        "supp": 1038,
+        "roll": 3538,
+        "playing": false,
+        "paused": true,
+        "scrolling": false,
+        "mode": 0,
+        "x": 510,
+        "y": 64,
+        "phase": 0,
+        "won": true,
+        "stopped": false,
+        "frames": 2432,
+        "soundOn": false,
+        "musicOn": false,
+        "cheatMode": false,
+        "keys": 0,
+        "checkpoint": null
+      },
+      {
+        "label": "earned-partial",
+        "room": 2,
+        "lives": 5,
+        "score": 500,
+        "supp": 263,
+        "roll": 142,
+        "playing": true,
+        "paused": true,
+        "scrolling": false,
+        "mode": 0,
+        "x": 0,
+        "y": 58,
+        "phase": 0,
+        "won": false,
+        "stopped": false,
+        "frames": 2992,
+        "soundOn": false,
+        "musicOn": false,
+        "cheatMode": false,
+        "keys": 0,
+        "checkpoint": {
+          "schema": 1,
+          "edition": "paper-rooms-v1",
+          "room": 2,
+          "lives": 5,
+          "score": 500,
+          "supp": 263,
+          "passed": 2,
+          "visits": [
+            false,
+            true,
+            false,
+            false,
+            false,
+            false
+          ],
+          "collected": [
+            [
+              true
+            ],
+            [
+              false
+            ],
+            [
+              false
+            ],
+            [
+              false
+            ],
+            [
+              false
+            ]
+          ]
+        }
+      },
+      {
+        "label": "browser-restart-restored",
+        "room": 2,
+        "lives": 5,
+        "score": 500,
+        "supp": 263,
+        "roll": 763,
+        "playing": true,
+        "paused": false,
+        "scrolling": false,
+        "mode": 1,
+        "x": 0,
+        "y": 40,
+        "phase": 0,
+        "won": false,
+        "stopped": false,
+        "frames": 10,
+        "soundOn": false,
+        "musicOn": false,
+        "cheatMode": false,
+        "keys": 0,
+        "checkpoint": {
+          "schema": 1,
+          "edition": "paper-rooms-v1",
+          "room": 2,
+          "lives": 5,
+          "score": 500,
+          "supp": 263,
+          "passed": 2,
+          "visits": [
+            false,
+            true,
+            false,
+            false,
+            false,
+            false
+          ],
+          "collected": [
+            [
+              true
+            ],
+            [
+              false
+            ],
+            [
+              false
+            ],
+            [
+              false
+            ],
+            [
+              false
+            ]
+          ]
+        }
+      },
+      {
+        "label": "reload-restored",
+        "room": 2,
+        "lives": 5,
+        "score": 500,
+        "supp": 263,
+        "roll": 763,
+        "playing": true,
+        "paused": false,
+        "scrolling": false,
+        "mode": 1,
+        "x": 0,
+        "y": 40,
+        "phase": 0,
+        "won": false,
+        "stopped": false,
+        "frames": 8,
+        "soundOn": false,
+        "musicOn": false,
+        "cheatMode": false,
+        "keys": 0,
+        "checkpoint": {
+          "schema": 1,
+          "edition": "paper-rooms-v1",
+          "room": 2,
+          "lives": 5,
+          "score": 500,
+          "supp": 263,
+          "passed": 2,
+          "visits": [
+            false,
+            true,
+            false,
+            false,
+            false,
+            false
+          ],
+          "collected": [
+            [
+              true
+            ],
+            [
+              false
+            ],
+            [
+              false
+            ],
+            [
+              false
+            ],
+            [
+              false
+            ]
+          ]
+        }
+      },
+      {
+        "label": "native-floor-loss",
+        "room": 1,
+        "lives": 4,
+        "score": 0,
+        "supp": 0,
+        "roll": 0,
+        "playing": true,
+        "paused": false,
+        "scrolling": false,
+        "mode": 1,
+        "x": 0,
+        "y": 40,
+        "phase": 0,
+        "won": false,
+        "stopped": false,
+        "frames": 463,
+        "soundOn": false,
+        "musicOn": false,
+        "cheatMode": false,
+        "keys": 0,
+        "checkpoint": {
+          "schema": 1,
+          "edition": "paper-rooms-v1",
+          "room": 1,
+          "lives": 4,
+          "score": 0,
+          "supp": 0,
+          "passed": 1,
+          "visits": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "collected": [
+            [
+              false
+            ],
+            [
+              false
+            ],
+            [
+              false
+            ],
+            [
+              false
+            ],
+            [
+              false
+            ]
+          ]
+        }
+      },
+      {
+        "label": "new-flight",
+        "room": 1,
+        "lives": 5,
+        "score": 0,
+        "supp": 0,
+        "roll": 0,
+        "playing": true,
+        "paused": false,
+        "scrolling": false,
+        "mode": 1,
+        "x": 0,
+        "y": 40,
+        "phase": 0,
+        "won": false,
+        "stopped": false,
+        "frames": 467,
+        "soundOn": false,
+        "musicOn": false,
+        "cheatMode": false,
+        "keys": 0,
+        "checkpoint": {
+          "schema": 1,
+          "edition": "paper-rooms-v1",
+          "room": 1,
+          "lives": 5,
+          "score": 0,
+          "supp": 0,
+          "passed": 1,
+          "visits": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "collected": [
+            [
+              false
+            ],
+            [
+              false
+            ],
+            [
+              false
+            ],
+            [
+              false
+            ],
+            [
+              false
+            ]
+          ]
+        }
+      },
+      {
+        "label": "product-stop",
+        "room": 1,
+        "lives": 5,
+        "score": 0,
+        "supp": 0,
+        "roll": 0,
+        "playing": false,
+        "paused": true,
+        "scrolling": false,
+        "mode": 1,
+        "x": 0,
+        "y": 40,
+        "phase": 1,
+        "won": false,
+        "stopped": true,
+        "frames": 10,
+        "soundOn": false,
+        "musicOn": false,
+        "cheatMode": false,
+        "keys": 0,
+        "checkpoint": null
+      },
+      {
+        "label": "product-stop-frozen",
+        "room": 1,
+        "lives": 5,
+        "score": 0,
+        "supp": 0,
+        "roll": 0,
+        "playing": false,
+        "paused": true,
+        "scrolling": false,
+        "mode": 1,
+        "x": 0,
+        "y": 40,
+        "phase": 1,
+        "won": false,
+        "stopped": true,
+        "frames": 10,
+        "soundOn": false,
+        "musicOn": false,
+        "cheatMode": false,
+        "keys": 0,
+        "checkpoint": null
+      }
+    ],
+    "roomsObservedDuringRoute": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
   },
   "siteChecks": {
     "catalog": 87,
@@ -1866,5 +2413,13 @@
       }
     ],
     "failures": []
-  }
+  },
+  "deployment": {
+    "url": "https://dba79f84.decompgames.pages.dev",
+    "canonicalGame": "https://decompgames.com/games/paper-rooms/",
+    "integrationCommit": "1389ac2",
+    "scope": "Static catalog/player shell; 20 corresponding edition runtime/source objects uploaded separately from the scoped manifest."
+  },
+  "status": "Published; exact distribution and muted standalone/local/production gameplay accepted",
+  "visualReview": "Standalone rebuilt route completion, local catalog completion and production catalog completion screenshots inspected."
 }
