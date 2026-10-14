@@ -1,0 +1,316 @@
+{
+  "date": "2026-10-14",
+  "scope": "Rebuild from extracted corresponding-source archive with hash-pinned framework inputs; native framework/SDK not independently rebuilt",
+  "sourceArchiveSha256": "28c0c1bfafc2977cbf1f5389d6a1ffb264b84f76ff2980c5b3dbfd826ead7a54",
+  "files": [
+    {
+      "path": "_framework/dotnet.boot.json",
+      "expectedSha256": "2db3fb9ef18cfce7f24a0a5da317777743ecaf1ce5e17e6e69ba0a31ef1f3be3",
+      "replayedSha256": "2db3fb9ef18cfce7f24a0a5da317777743ecaf1ce5e17e6e69ba0a31ef1f3be3",
+      "identical": true
+    },
+    {
+      "path": "_framework/dotnet.js",
+      "expectedSha256": "e8012b32573b80caf6cd05eae1d958364a383a920f33f0db31a0603485c9a123",
+      "replayedSha256": "e8012b32573b80caf6cd05eae1d958364a383a920f33f0db31a0603485c9a123",
+      "identical": true
+    },
+    {
+      "path": "_framework/dotnet.native.js",
+      "expectedSha256": "2a2a449a71d53efdf8e8f4babcb14364983e61e1bf0f751894723db9da4a3a24",
+      "replayedSha256": "2a2a449a71d53efdf8e8f4babcb14364983e61e1bf0f751894723db9da4a3a24",
+      "identical": true
+    },
+    {
+      "path": "_framework/dotnet.native.wasm",
+      "expectedSha256": "916822a2cf79f802dd575f2a26dd33c57f7310dc5b17c89f05f74f85bf5592ac",
+      "replayedSha256": "916822a2cf79f802dd575f2a26dd33c57f7310dc5b17c89f05f74f85bf5592ac",
+      "identical": true
+    },
+    {
+      "path": "_framework/dotnet.runtime.js",
+      "expectedSha256": "74b1a24475d6e5d8a11856d5369153cf5522795b9a48ff4594576d934731405a",
+      "replayedSha256": "74b1a24475d6e5d8a11856d5369153cf5522795b9a48ff4594576d934731405a",
+      "identical": true
+    },
+    {
+      "path": "_framework/Probe.dll",
+      "expectedSha256": "289a8a2195eb127a2877c9f798be7d3b75177c2d3bc8532cbcb23f8d27af0da6",
+      "replayedSha256": "289a8a2195eb127a2877c9f798be7d3b75177c2d3bc8532cbcb23f8d27af0da6",
+      "identical": true
+    },
+    {
+      "path": "_framework/System.Collections.Concurrent.dll",
+      "expectedSha256": "b85dfe7447a65b1b60b5340bfa6c7dbb81a8a1fa076e5904ff4ae55b4a08f797",
+      "replayedSha256": "b85dfe7447a65b1b60b5340bfa6c7dbb81a8a1fa076e5904ff4ae55b4a08f797",
+      "identical": true
+    },
+    {
+      "path": "_framework/System.Collections.dll",
+      "expectedSha256": "ef4b4fdafcfb13088269a7def6047a5554d236dc6f32cdb5fef51dbb7800aa0b",
+      "replayedSha256": "ef4b4fdafcfb13088269a7def6047a5554d236dc6f32cdb5fef51dbb7800aa0b",
+      "identical": true
+    },
+    {
+      "path": "_framework/System.IO.Pipelines.dll",
+      "expectedSha256": "27889a74517ee276ea61fb3552c23c8211eb343730d7b4446e56514d882f02c3",
+      "replayedSha256": "27889a74517ee276ea61fb3552c23c8211eb343730d7b4446e56514d882f02c3",
+      "identical": true
+    },
+    {
+      "path": "_framework/System.Linq.dll",
+      "expectedSha256": "edf874d28c6637132fc8ea694b2c49055f8cbc69da0f741012919858d08be8d6",
+      "replayedSha256": "edf874d28c6637132fc8ea694b2c49055f8cbc69da0f741012919858d08be8d6",
+      "identical": true
+    },
+    {
+      "path": "_framework/System.Memory.dll",
+      "expectedSha256": "0a935c18b499d43b7413de2fa18dd8780aa4072a4552795d1526604a75bb5a2c",
+      "replayedSha256": "0a935c18b499d43b7413de2fa18dd8780aa4072a4552795d1526604a75bb5a2c",
+      "identical": true
+    },
+    {
+      "path": "_framework/System.Numerics.Vectors.dll",
+      "expectedSha256": "6bd7993a4657f04ae111194d2138c14ce00feeef6967ab57036bdf50b35e4bc9",
+      "replayedSha256": "6bd7993a4657f04ae111194d2138c14ce00feeef6967ab57036bdf50b35e4bc9",
+      "identical": true
+    },
+    {
+      "path": "_framework/System.Private.CoreLib.dll",
+      "expectedSha256": "ecc6a128fba9e4a20958ec4633afea416c1d1efdd0d49b69540c34e83b87527c",
+      "replayedSha256": "ecc6a128fba9e4a20958ec4633afea416c1d1efdd0d49b69540c34e83b87527c",
+      "identical": true
+    },
+    {
+      "path": "_framework/System.Private.Uri.dll",
+      "expectedSha256": "73929c0fab61229de4ccdf90ac40a26eb994b037af79015457566564a67ae144",
+      "replayedSha256": "73929c0fab61229de4ccdf90ac40a26eb994b037af79015457566564a67ae144",
+      "identical": true
+    },
+    {
+      "path": "_framework/System.Reflection.Emit.ILGeneration.dll",
+      "expectedSha256": "107ef49bbff409d059ed176030ca8979d3904194e6e01b67a14a457739553766",
+      "replayedSha256": "107ef49bbff409d059ed176030ca8979d3904194e6e01b67a14a457739553766",
+      "identical": true
+    },
+    {
+      "path": "_framework/System.Reflection.Emit.Lightweight.dll",
+      "expectedSha256": "8dbb4e707894673e484b17410a4b3ce8fb24364e4a72307fb756211c58e00fe0",
+      "replayedSha256": "8dbb4e707894673e484b17410a4b3ce8fb24364e4a72307fb756211c58e00fe0",
+      "identical": true
+    },
+    {
+      "path": "_framework/System.Reflection.Primitives.dll",
+      "expectedSha256": "d5ac2fe2e5c607a1ed8ab8038fc5d66e54ea5a71a67e59f66f9096929936a3ab",
+      "replayedSha256": "d5ac2fe2e5c607a1ed8ab8038fc5d66e54ea5a71a67e59f66f9096929936a3ab",
+      "identical": true
+    },
+    {
+      "path": "_framework/System.Runtime.dll",
+      "expectedSha256": "da6511629adf0a29de0be491f332ad634f1395bafccd1a5b44f88e672993e209",
+      "replayedSha256": "da6511629adf0a29de0be491f332ad634f1395bafccd1a5b44f88e672993e209",
+      "identical": true
+    },
+    {
+      "path": "_framework/System.Runtime.InteropServices.dll",
+      "expectedSha256": "3b06127d1cca0830cc6a93b9a5dd9a692816725b90c9923583a6997e9f2fafa1",
+      "replayedSha256": "3b06127d1cca0830cc6a93b9a5dd9a692816725b90c9923583a6997e9f2fafa1",
+      "identical": true
+    },
+    {
+      "path": "_framework/System.Runtime.InteropServices.JavaScript.dll",
+      "expectedSha256": "7e1556569e16b999210e7cafee8f1e403f6dc63eb6d7faac8bb3ef92f7f240b8",
+      "replayedSha256": "7e1556569e16b999210e7cafee8f1e403f6dc63eb6d7faac8bb3ef92f7f240b8",
+      "identical": true
+    },
+    {
+      "path": "_framework/System.Runtime.Intrinsics.dll",
+      "expectedSha256": "6d7ce7b8b4798f6a98d0693e8dbf7b09a11df8f0c2d50b9cd42ed9db961b8b07",
+      "replayedSha256": "6d7ce7b8b4798f6a98d0693e8dbf7b09a11df8f0c2d50b9cd42ed9db961b8b07",
+      "identical": true
+    },
+    {
+      "path": "_framework/System.Runtime.Loader.dll",
+      "expectedSha256": "22bdd32a583c2ab19a33736701c3bb8bcf23e2915d04fb880745103f71ac6e1e",
+      "replayedSha256": "22bdd32a583c2ab19a33736701c3bb8bcf23e2915d04fb880745103f71ac6e1e",
+      "identical": true
+    },
+    {
+      "path": "_framework/System.Text.Encoding.Extensions.dll",
+      "expectedSha256": "180efefa333a97cc6a6def2ccd14dc69c3300fa726887f6fc1720c8a3ba96b59",
+      "replayedSha256": "180efefa333a97cc6a6def2ccd14dc69c3300fa726887f6fc1720c8a3ba96b59",
+      "identical": true
+    },
+    {
+      "path": "_framework/System.Text.Encodings.Web.dll",
+      "expectedSha256": "3bd6c9463345667af634cb134f4688d5ddc8409cab75fe801225e538b6054d4a",
+      "replayedSha256": "3bd6c9463345667af634cb134f4688d5ddc8409cab75fe801225e538b6054d4a",
+      "identical": true
+    },
+    {
+      "path": "_framework/System.Text.Json.dll",
+      "expectedSha256": "181388c8ea17d98d551659d2bb873250443303219fb179d5bbd16e70bd625260",
+      "replayedSha256": "181388c8ea17d98d551659d2bb873250443303219fb179d5bbd16e70bd625260",
+      "identical": true
+    },
+    {
+      "path": "_framework/System.Text.RegularExpressions.dll",
+      "expectedSha256": "5e032f6652b4ebe72a395600d6aa4f5c817ce1ad1aa6e50823ff85d19af78916",
+      "replayedSha256": "5e032f6652b4ebe72a395600d6aa4f5c817ce1ad1aa6e50823ff85d19af78916",
+      "identical": true
+    },
+    {
+      "path": "_framework/System.Threading.dll",
+      "expectedSha256": "5d3eca39c74edb422c802ff9d7a63cf2917b1d40c2fd2eb1945e1916a6d9ae16",
+      "replayedSha256": "5d3eca39c74edb422c802ff9d7a63cf2917b1d40c2fd2eb1945e1916a6d9ae16",
+      "identical": true
+    },
+    {
+      "path": "_framework/System.Threading.ThreadPool.dll",
+      "expectedSha256": "553efa9f0d9e9770aebb2a5b0c445369fdbf134472232a2000b57d2e3dbaa0fd",
+      "replayedSha256": "553efa9f0d9e9770aebb2a5b0c445369fdbf134472232a2000b57d2e3dbaa0fd",
+      "identical": true
+    },
+    {
+      "path": "AUTHOR-SOURCE-LICENSE.txt",
+      "expectedSha256": "096b580c9b4f487596eeda22964610685018525a5af7bbb1518f2b5e442661d6",
+      "replayedSha256": "096b580c9b4f487596eeda22964610685018525a5af7bbb1518f2b5e442661d6",
+      "identical": true
+    },
+    {
+      "path": "AUTHORED-CODE-LICENSE.txt",
+      "expectedSha256": "2b6bc44b14fd25da9ca94eb32e7130d9ff2c6be792d0ffe512bf2924f94529bf",
+      "replayedSha256": "2b6bc44b14fd25da9ca94eb32e7130d9ff2c6be792d0ffe512bf2924f94529bf",
+      "identical": true
+    },
+    {
+      "path": "boot.json",
+      "expectedSha256": "2db3fb9ef18cfce7f24a0a5da317777743ecaf1ce5e17e6e69ba0a31ef1f3be3",
+      "replayedSha256": "2db3fb9ef18cfce7f24a0a5da317777743ecaf1ce5e17e6e69ba0a31ef1f3be3",
+      "identical": true
+    },
+    {
+      "path": "CONTENT-CC0.txt",
+      "expectedSha256": "175a9a8aa4daecdfca66d22aa3de873ff4a35bccdf85a621d594a5505260bfff",
+      "replayedSha256": "175a9a8aa4daecdfca66d22aa3de873ff4a35bccdf85a621d594a5505260bfff",
+      "identical": true
+    },
+    {
+      "path": "game.js",
+      "expectedSha256": "a1fd531051ff01b2f6d088fce4a5d1043a49b37b1c2fe31eb4111a77419f82d1",
+      "replayedSha256": "a1fd531051ff01b2f6d088fce4a5d1043a49b37b1c2fe31eb4111a77419f82d1",
+      "identical": true
+    },
+    {
+      "path": "index.html",
+      "expectedSha256": "afd3820cbede78a94f32d5be685e078060a7085dd9d2c5d2ab14bc3d34de573c",
+      "replayedSha256": "afd3820cbede78a94f32d5be685e078060a7085dd9d2c5d2ab14bc3d34de573c",
+      "identical": true
+    },
+    {
+      "path": "LICENSE.TXT",
+      "expectedSha256": "cfc21f5e8bd655ae997eec916138b707b1d290b83272c02a95c9f821b8c87310",
+      "replayedSha256": "cfc21f5e8bd655ae997eec916138b707b1d290b83272c02a95c9f821b8c87310",
+      "identical": true
+    },
+    {
+      "path": "notices/compiler-rt-LICENSE.txt",
+      "expectedSha256": "1a8f1058753f1ba890de984e48f0242a3a5c29a6a8f2ed9fd813f36985387e8d",
+      "replayedSha256": "1a8f1058753f1ba890de984e48f0242a3a5c29a6a8f2ed9fd813f36985387e8d",
+      "identical": true
+    },
+    {
+      "path": "notices/dlmalloc-attribution.txt",
+      "expectedSha256": "83ce9495ddb637caf82fdda73d17d310d92b0e1db37f72ddc879485393bc81c9",
+      "replayedSha256": "83ce9495ddb637caf82fdda73d17d310d92b0e1db37f72ddc879485393bc81c9",
+      "identical": true
+    },
+    {
+      "path": "notices/Emscripten-MIT-NCSA.txt",
+      "expectedSha256": "620a78084fc7ca97c0b5dea9abf891f3ffcadfdbf305276f099c9c4e12fc1d86",
+      "replayedSha256": "620a78084fc7ca97c0b5dea9abf891f3ffcadfdbf305276f099c9c4e12fc1d86",
+      "identical": true
+    },
+    {
+      "path": "notices/emsdk-MIT.txt",
+      "expectedSha256": "99d9a9616fbde3f5ee22a71d8645799a8522d48526130c5ba6dc27ad15ce01f1",
+      "replayedSha256": "99d9a9616fbde3f5ee22a71d8645799a8522d48526130c5ba6dc27ad15ce01f1",
+      "identical": true
+    },
+    {
+      "path": "notices/IANA-tzdb-2026c-LICENSE.txt",
+      "expectedSha256": "0613408568889f5739e5ae252b722a2659c02002839ad970a63dc5e9174b27cf",
+      "replayedSha256": "0613408568889f5739e5ae252b722a2659c02002839ad970a63dc5e9174b27cf",
+      "identical": true
+    },
+    {
+      "path": "notices/ICU-LICENSE.txt",
+      "expectedSha256": "25e21013a7bc2fad735e28c5278a120e4c7f1c327c8c8b9b4df1751748cddbb2",
+      "replayedSha256": "25e21013a7bc2fad735e28c5278a120e4c7f1c327c8c8b9b4df1751748cddbb2",
+      "identical": true
+    },
+    {
+      "path": "notices/ICU-vendored-LICENSE.txt",
+      "expectedSha256": "7915b19db903070778581ae05d8bf4ea241b34a05deb51ca4f5cbb15ea1cbba3",
+      "replayedSha256": "7915b19db903070778581ae05d8bf4ea241b34a05deb51ca4f5cbb15ea1cbba3",
+      "identical": true
+    },
+    {
+      "path": "notices/libcxx-LICENSE.txt",
+      "expectedSha256": "539dd7aed86e8a4f12cbdd0e6c50c189c7d74847e4fecc64ce2c6ee3a01da38b",
+      "replayedSha256": "539dd7aed86e8a4f12cbdd0e6c50c189c7d74847e4fecc64ce2c6ee3a01da38b",
+      "identical": true
+    },
+    {
+      "path": "notices/libcxxabi-LICENSE.txt",
+      "expectedSha256": "e2b35be49f7284a45b7baca8fc7b3ab7440e7902392b2528a457816b5bb2a15c",
+      "replayedSha256": "e2b35be49f7284a45b7baca8fc7b3ab7440e7902392b2528a457816b5bb2a15c",
+      "identical": true
+    },
+    {
+      "path": "notices/libunwind-LICENSE.txt",
+      "expectedSha256": "b5efebcaca80879234098e52d1725e6d9eb8fb96a19fce625d39184b705f7b6d",
+      "replayedSha256": "b5efebcaca80879234098e52d1725e6d9eb8fb96a19fce625d39184b705f7b6d",
+      "identical": true
+    },
+    {
+      "path": "notices/mono-libunwind-LICENSE.txt",
+      "expectedSha256": "cb5aedb296c5246d1f22e9099f925a65146f9f0d6b4eebba97fd27a6cdbbab2d",
+      "replayedSha256": "cb5aedb296c5246d1f22e9099f925a65146f9f0d6b4eebba97fd27a6cdbbab2d",
+      "identical": true
+    },
+    {
+      "path": "notices/mono-llvm-libunwind-LICENSE.txt",
+      "expectedSha256": "b5efebcaca80879234098e52d1725e6d9eb8fb96a19fce625d39184b705f7b6d",
+      "replayedSha256": "b5efebcaca80879234098e52d1725e6d9eb8fb96a19fce625d39184b705f7b6d",
+      "identical": true
+    },
+    {
+      "path": "notices/musl-COPYRIGHT.txt",
+      "expectedSha256": "f9bc4423732350eb0b3f7ed7e91d530298476f8fec0c6c427a1c04ade22655af",
+      "replayedSha256": "f9bc4423732350eb0b3f7ed7e91d530298476f8fec0c6c427a1c04ade22655af",
+      "identical": true
+    },
+    {
+      "path": "notices/zlib-ng-LICENSE.txt",
+      "expectedSha256": "6c9f0d975b41afaa34d22f55bb8986ce69e5cb7ad327cb2b28820cd425edf5ee",
+      "replayedSha256": "6c9f0d975b41afaa34d22f55bb8986ce69e5cb7ad327cb2b28820cd425edf5ee",
+      "identical": true
+    },
+    {
+      "path": "provenance.json",
+      "expectedSha256": "2cd1075735f86e5ee412346f544af2d9a561ab7c808b36d23187dc098be657e4",
+      "replayedSha256": "2cd1075735f86e5ee412346f544af2d9a561ab7c808b36d23187dc098be657e4",
+      "identical": true
+    },
+    {
+      "path": "THIRD-PARTY-NOTICES.TXT",
+      "expectedSha256": "fa3e9d0a2c52476f04fe798d7dc4f6e7edb7b68a3d2f4d5f59a39bce957eedc8",
+      "replayedSha256": "fa3e9d0a2c52476f04fe798d7dc4f6e7edb7b68a3d2f4d5f59a39bce957eedc8",
+      "identical": true
+    }
+  ],
+  "exactFileCount": 51,
+  "totalFileCount": 51,
+  "passed": true
+}

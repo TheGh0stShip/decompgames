@@ -6,6 +6,7 @@ No cartridge, commercial game, media pack, XNA, FNA or original Emulator.cs is r
 """
 from pathlib import Path
 import argparse,base64,hashlib,json,shutil,subprocess,urllib.request,zipfile
+import content_patch
 
 HERE=Path(__file__).resolve().parent
 PIN='1b0ce45c75e05649ae91b44a8bb6b196684e4352'
@@ -28,7 +29,7 @@ def main():
     source=cache/'Classic.cs';package=cache/'mono-browser-wasm-9.0.20.nupkg'
     fetch(f'https://raw.githubusercontent.com/NoelFB/Celeste/{PIN}/Source/PICO-8/Classic.cs',source,SOURCE_SHA);fetch(PACKAGE_URL,package,PACKAGE_SHA)
     if subprocess.check_output(['dotnet','--version'],text=True).strip()!='9.0.318':raise RuntimeError('This receipt requires .NET SDK 9.0.318')
-    shutil.copyfile(source,src/'Classic.cs')
+    patched=content_patch.apply(source.read_bytes());(src/'Classic.cs').write_bytes(patched)
     for name in ['Geometry.cs','Host.cs','Bridge.cs','Probe.csproj']:shutil.copyfile(HERE/name,src/name)
     p=subprocess.run(['dotnet','build',str(src/'Probe.csproj'),'-c','Release','--nologo'],cwd=src,capture_output=True,text=True,encoding='utf-8',errors='replace')
     (out/'build.log').write_text(p.stdout+p.stderr,encoding='utf-8')
@@ -48,7 +49,8 @@ def main():
     config={'mainAssemblyName':'Probe.dll','globalizationMode':'invariant','debugLevel':0,'environmentVariables':{'DOTNET_SYSTEM_GLOBALIZATION_INVARIANT':'1'},'resources':resources}
     for path in [site/'boot.json',fw/'dotnet.boot.json']:path.write_text(json.dumps(config),encoding='utf-8')
     for name in ['index.html','game.js','AUTHOR-SOURCE-LICENSE.txt','AUTHORED-CODE-LICENSE.txt','CONTENT-CC0.txt','provenance.json']:shutil.copyfile(HERE/name,site/name)
+    shutil.copytree(HERE/'notices',site/'notices',dirs_exist_ok=True)
     files=[{'path':p.relative_to(site).as_posix(),'bytes':p.stat().st_size,'sha256':digest(p.read_bytes())} for p in sorted(site.rglob('*')) if p.is_file()]
-    (out/'files.json').write_text(json.dumps({'scope':'Private source-port experiment; runtime dependency grant closure and production acceptance pending','sourceSha256':SOURCE_SHA,'packageSha256':PACKAGE_SHA,'managedAssemblies':assemblies,'files':files},indent=2)+'\n',encoding='utf-8')
+    (out/'files.json').write_text(json.dumps({'scope':'Three-course source-port candidate; selected grants reviewed, site/production acceptance separate','upstreamSourceSha256':SOURCE_SHA,'compiledSourceSha256':digest(patched),'contentPatch':'Six independently authored UI literals; gameplay algorithms retained','packageSha256':PACKAGE_SHA,'managedAssemblies':assemblies,'files':files},indent=2)+'\n',encoding='utf-8')
     print(json.dumps({'files':len(files),'managedAssemblies':len(assemblies),'probeSha256':digest((fw/'Probe.dll').read_bytes()),'buildErrors':0,'output':str(out)}))
 if __name__=='__main__':main()

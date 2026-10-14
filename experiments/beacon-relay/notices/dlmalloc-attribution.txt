@@ -1,0 +1,12 @@
+The following original notice excerpt is from Emscripten system/lib/dlmalloc.c at dotnet/emscripten b9e76c96569596d11f72543f41985eb93b8fe45e. The Emscripten modifications have separate MIT/NCSA terms. No allocator binary/source rebuild is claimed.
+
+ This is a version (aka dlmalloc) of malloc/free/realloc written by
+ Doug Lea and released to the public domain, as explained at
+ http://creativecommons.org/publicdomain/zero/1.0/ Send questions,
+ comments, complaints, performance data, etc to dl@cs.oswego.edu
+ 
+ * Version 2.8.6 Wed Aug 29 06:57:58 2012  Doug Lea
+ Note: There may be an updated version of this malloc obtainable at
+ ftp://gee.cs.oswego.edu/pub/misc/malloc.c
+ Check before installing!
+ 

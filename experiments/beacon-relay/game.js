@@ -1,6 +1,5 @@
 // Independently authored browser/controller code, MIT. Graphics, animation, font,
 // palette and presentation text authored in this file are dedicated under CC0-1.0.
-import {dotnet} from './_framework/dotnet.js';
 const canvas=document.querySelector('canvas'),ctx=canvas.getContext('2d'),status=document.querySelector('#status');
 const color=['#101c31','#14243a','#264057','#445c69','#70687d','#9a7a78','#abc9cc','#e5f8f3','#c3766c','#daa278','#f9d46a','#68cbb7','#419fa3','#388094','#587f9c','#c0e5da'];
 // Own five-row glyph definitions: no font file or cartridge font is used.
@@ -39,11 +38,12 @@ function loop(now){if(stopped)return;if(!last)last=now;acc+=Math.min(100,now-las
 function onDown(e){if(e.code==='KeyP'&&document.activeElement===canvas&&!e.repeat){e.preventDefault();pause();return}if(e.code in keyBits&&document.activeElement===canvas){e.preventDefault();held.add(e.code);pending|=1<<keyBits[e.code];inputs()}}
 function onUp(e){if(e.code in keyBits){held.delete(e.code);inputs()}}
 function blur(){clearInput();if(!stopped&&!paused)pause()}
-try{const config=await(await fetch('./boot.json')).json();runtime=await dotnet.withConfig(config).create();bridge=(await runtime.getAssemblyExports('Probe.dll')).GameBridge;
+let loadingTimer;
+try{const initialize=async()=>{const {dotnet}=await import('./_framework/dotnet.js');const response=await fetch('./boot.json',{signal:AbortSignal.timeout(30000)});if(!response.ok)throw Error('Boot manifest unavailable');const config=await response.json();if(stopped)throw Error('Loading canceled');const required=Object.values(config.resources).flatMap(group=>Object.keys(group));await Promise.all(required.map(async name=>{const asset=await fetch('./_framework/'+encodeURIComponent(name),{method:'HEAD',signal:AbortSignal.timeout(30000)});if(!asset.ok)throw Error('Required asset unavailable: '+name)}));if(stopped)throw Error('Loading canceled');runtime=await dotnet.withConfig(config).create();if(stopped){runtime.exit(0);throw Error('Loading canceled')}bridge=(await runtime.getAssemblyExports('Probe.dll')).GameBridge;if(stopped){runtime.exit(0);throw Error('Loading canceled')}};await Promise.race([initialize(),new Promise((_,reject)=>{loadingTimer=setTimeout(()=>reject(Error('Loading deadline exceeded')),30000)})]);clearTimeout(loadingTimer);
  setState(bridge.Init(0));document.querySelectorAll('button').forEach(b=>b.disabled=false);document.querySelector('#next').disabled=true;document.querySelector('#resume').disabled=!readSave();
  document.querySelector('#new').onclick=()=>restart(0);document.querySelector('#resume').onclick=()=>{const s=readSave();if(s)restart(s.course)};document.querySelector('#next').onclick=next;document.querySelector('#pause').onclick=pause;
  document.querySelector('#stop').onclick=()=>{stopped=true;clearInput();cancelAnimationFrame(raf);window.removeEventListener('keydown',onDown);window.removeEventListener('keyup',onUp);window.removeEventListener('blur',blur);runtime.exit(0);document.querySelectorAll('button').forEach(b=>b.disabled=true);status.textContent='Stopped. Reload this page to play.';document.body.dataset.stopped='true'};
  window.addEventListener('keydown',onDown);window.addEventListener('keyup',onUp);window.addEventListener('blur',blur);canvas.addEventListener('blur',clearInput);canvas.addEventListener('click',()=>canvas.focus());
  // Read-only observation for verification; no bridge or state mutation interface is exposed.
  Object.defineProperty(window,'relayObservation',{get:()=>JSON.parse(JSON.stringify({...state,commands:undefined,paused,stopped}))});document.body.dataset.ready='true';raf=requestAnimationFrame(loop);
-}catch(e){status.textContent='Runtime failed to load.';console.error(e)}
+}catch(e){clearTimeout(loadingTimer);stopped=true;clearInput();if(raf)cancelAnimationFrame(raf);try{runtime?.exit(0)}catch{}document.querySelectorAll('button').forEach(b=>b.disabled=true);status.textContent='Runtime failed to load. Reload this page to retry.';document.body.dataset.failed='true';console.error(e)}

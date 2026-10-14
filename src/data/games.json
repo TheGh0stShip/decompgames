@@ -4825,5 +4825,63 @@
   "scope": "Ordinary keyboard five-room completion, collected token and native score/progression; both-direction steering, pause, native floor loss and New flight reset. Earned partial room checkpoint restored after full browser restart and page reload; seven damaged checkpoints rejected before active-world replacement, injected storage refusal preserved the previous record and retry succeeded. Stop/host reopening and exact source-archive rebuild are recorded in the dated release receipt. No retail campaign, other-browser or audible verification.",
   "playthrough": true
  }
+},
+{
+ "id": "beacon-relay",
+ "title": "Beacon Relay (Celeste Classic source port)",
+ "aliases": [
+  "Beacon Relay",
+  "Celeste Classic engine challenge"
+ ],
+ "year": 2026,
+ "genre": "Platformer",
+ "kind": "Source port",
+ "mode": "embed",
+ "launch": "embed",
+ "embedUrl": "https://decompgames.com/runtime/beacon-relay/classic-relay-v1/index.html",
+ "engine": "Developer-released Celeste Classic C# gameplay algorithms with independently replaced UI literals in the Mono WebAssembly runtime; independently authored Canvas2D host",
+ "description": "Guide a service rover across three original courses, collect lights and reach each beacon.",
+ "overview": "Three independently authored courses use developer-released Celeste Classic movement, jump/dash, collision, collection, goal and respawn code. Own rover sprites and animation, glyphs, palette, text and maps replace original media. This is a source port with an original challenge, not a decompilation, ROM emulator, clean-room certificate or the original Celeste campaign. It is intentionally silent and needs no original game files.",
+ "source": "https://github.com/NoelFB/Celeste",
+ "engineLicense": "Author-released Classic.cs MIT; own geometry/host/controller MIT; separately retained .NET/Mono, Emscripten/musl/LLVM, Unicode/ICU, zlib and timezone grants/notices",
+ "assetLicense": "CC0-1.0 independently authored maps, graphics/animation designs, pixel glyphs, palette and text. Inherited native gameplay/procedural effect algorithms MIT; browser system fonts retain their terms. No audio implementation.",
+ "assetRequirements": "No ROM or original game files needed. Original cartridge/Lua, Emulator.cs, commercial engine/player code, art, font, maps, animation, audio and XNA/FNA/Monocle dependencies excluded.",
+ "controls": [
+  "Click the game \u2014 focus keyboard controls",
+  "Left / Right arrows \u2014 move",
+  "Up / Down / Left / Right arrows \u2014 aim a dash",
+  "Z or Space \u2014 jump / start a relay",
+  "X \u2014 dash / start a relay",
+  "P or Pause \u2014 pause/resume",
+  "Next course \u2014 continue after a native beacon collision and save checkpoint",
+  "New relay / Resume checkpoint \u2014 restart or return to a saved course entrance",
+  "Stop \u2014 stop the player"
+ ],
+ "saveInstructions": "Next course saves the next course index on this origin/profile; wait for Checkpoint saved. Resume starts at that course entrance or restores the completed relay. Position, lights, retries and elapsed time are not saved. New relay keeps the prior checkpoint until the next successful checkpoint. Clearing site data removes it; no portable import/export.",
+ "limitations": [
+  "Three original courses, not the original PICO-8 or commercial Celeste campaign, matching decompilation or all original object/rendering features.",
+  "Keyboard, Canvas2D and a modern browser supporting the selected Mono WASM runtime are required; touch, controllers and other browsers/devices unverified.",
+  "Checkpoint index only. Tested malformed/out-of-range saves and injected unavailable storage; real quota exhaustion, adversarial forgery, crash/rapid-close and migration unverified.",
+  "Required assets are preflighted and loading has a 30-second deadline; unusually slow connections may require reloading.",
+  "Silent edition with no audio implementation; audible playback unverified.",
+  "Prebuilt native framework/SDK objects not independently rebuilt; selected notices retain a conservative template/header superset. Game code remains managed IL inside Mono WASM, not game AOT."
+ ],
+ "inputs": [
+  "Keyboard"
+ ],
+ "downloadMB": 10.3,
+ "complete": false,
+ "color": "#419fa3",
+ "shelf": "classic",
+ "platform": "PC",
+ "verification": {
+  "status": "gameplay-tested",
+  "date": "2026-10-14",
+  "browsers": [
+   "Headless Microsoft Edge on Windows; muted"
+  ],
+  "scope": "Private ordinary keyboard/button completion of all three authored courses, all lights, native jump/dash consumption/recharge, deliberate fall/respawn and goal collision. Completed/unfinished checkpoint retained across full browser shutdown/new process; Pause/focus input release, short taps, malformed/out-of-range storage, unavailable-save feedback and Stop. Missing assets/stalled manifest fail before gameplay. Extracted corresponding-source archive replays all 51 packaged files exactly. Site/production acceptance recorded separately; no original campaign or audible claim.",
+  "playthrough": true
+ }
 }
 ]

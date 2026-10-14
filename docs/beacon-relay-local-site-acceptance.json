@@ -1,0 +1,524 @@
+{
+  "date": "2026-10-14T15:40:15.726Z",
+  "scope": "Local site ordinary keyboard three-course acceptance; source/runtime hashes checked separately",
+  "audioMuted": true,
+  "errors": [],
+  "missing": [],
+  "external": [
+    "https://www.googletagmanager.com/gtag/js?id=G-GQ6627GN8H",
+    "https://www.googletagmanager.com/gtag/js?id=G-GQ6627GN8H"
+  ],
+  "phases": [
+    {
+      "name": "course-1-spawn",
+      "state": {
+        "frames": 114,
+        "course": 0,
+        "cleared": false,
+        "completed": false,
+        "player": true,
+        "x": 16,
+        "y": 112,
+        "dx": 0,
+        "dy": 0,
+        "dashes": 1,
+        "mutedAudioCalls": 6,
+        "stats": {
+          "PICO_COMPLETES": 1
+        },
+        "paused": false,
+        "stopped": false
+      }
+    },
+    {
+      "name": "course-1-native-goal",
+      "state": {
+        "frames": 164,
+        "course": 0,
+        "cleared": true,
+        "completed": false,
+        "player": true,
+        "x": 112,
+        "y": 112,
+        "dx": 1,
+        "dy": 0,
+        "dashes": 1,
+        "mutedAudioCalls": 8,
+        "stats": {
+          "PICO_COMPLETES": 1,
+          "PICO_BERRIES": 1
+        },
+        "paused": false,
+        "stopped": false
+      }
+    },
+    {
+      "name": "course-2-jump",
+      "state": {
+        "frames": 224,
+        "course": 1,
+        "cleared": false,
+        "completed": false,
+        "player": true,
+        "x": 63,
+        "y": 97,
+        "dx": 1,
+        "dy": 0.835,
+        "dashes": 1,
+        "mutedAudioCalls": 12,
+        "stats": {
+          "PICO_COMPLETES": 2,
+          "PICO_BERRIES": 2
+        },
+        "paused": false,
+        "stopped": false
+      }
+    },
+    {
+      "name": "course-2-native-goal",
+      "state": {
+        "frames": 248,
+        "course": 1,
+        "cleared": true,
+        "completed": false,
+        "player": true,
+        "x": 111,
+        "y": 112,
+        "dx": 1,
+        "dy": 0,
+        "dashes": 1,
+        "mutedAudioCalls": 13,
+        "stats": {
+          "PICO_COMPLETES": 2,
+          "PICO_BERRIES": 2
+        },
+        "paused": false,
+        "stopped": false
+      }
+    },
+    {
+      "name": "course-3-death-and-respawn",
+      "state": {
+        "frames": 361,
+        "course": 2,
+        "cleared": false,
+        "completed": false,
+        "player": true,
+        "x": 16,
+        "y": 112,
+        "dx": 0,
+        "dy": 0,
+        "dashes": 1,
+        "mutedAudioCalls": 18,
+        "stats": {
+          "PICO_COMPLETES": 4,
+          "PICO_BERRIES": 2,
+          "PICO_DEATHS": 1
+        },
+        "paused": false,
+        "stopped": false
+      }
+    },
+    {
+      "name": "course-3-native-dash-consumed",
+      "state": {
+        "frames": 379,
+        "course": 2,
+        "cleared": false,
+        "completed": false,
+        "player": true,
+        "x": 50,
+        "y": 101,
+        "dx": 5,
+        "dy": 0,
+        "dashes": 0,
+        "mutedAudioCalls": 20,
+        "stats": {
+          "PICO_COMPLETES": 4,
+          "PICO_BERRIES": 2,
+          "PICO_DEATHS": 1
+        },
+        "paused": false,
+        "stopped": false
+      }
+    },
+    {
+      "name": "course-3-native-goal",
+      "state": {
+        "frames": 406,
+        "course": 2,
+        "cleared": true,
+        "completed": false,
+        "player": true,
+        "x": 112,
+        "y": 112,
+        "dx": 1,
+        "dy": 0,
+        "dashes": 1,
+        "mutedAudioCalls": 22,
+        "stats": {
+          "PICO_COMPLETES": 4,
+          "PICO_BERRIES": 3,
+          "PICO_DEATHS": 1
+        },
+        "paused": false,
+        "stopped": false
+      }
+    },
+    {
+      "name": "all-three-completed",
+      "state": {
+        "frames": 406,
+        "course": 3,
+        "cleared": false,
+        "completed": true,
+        "player": true,
+        "x": 112,
+        "y": 112,
+        "dx": 1,
+        "dy": 0,
+        "dashes": 1,
+        "mutedAudioCalls": 22,
+        "stats": {
+          "PICO_COMPLETES": 4,
+          "PICO_BERRIES": 3,
+          "PICO_DEATHS": 1
+        },
+        "paused": false,
+        "stopped": false
+      }
+    },
+    {
+      "name": "new-process-restored-completion",
+      "state": {
+        "frames": 0,
+        "course": 3,
+        "cleared": false,
+        "completed": true,
+        "player": false,
+        "x": 0,
+        "y": 0,
+        "dx": 0,
+        "dy": 0,
+        "dashes": 0,
+        "mutedAudioCalls": 2,
+        "stats": {
+          "PICO_COMPLETES": 1
+        },
+        "paused": false,
+        "stopped": false
+      }
+    },
+    {
+      "name": "product-stop",
+      "state": {
+        "frames": 0,
+        "course": 3,
+        "cleared": false,
+        "completed": true,
+        "player": false,
+        "x": 0,
+        "y": 0,
+        "dx": 0,
+        "dy": 0,
+        "dashes": 0,
+        "mutedAudioCalls": 2,
+        "stats": {
+          "PICO_COMPLETES": 1
+        },
+        "paused": false,
+        "stopped": true
+      }
+    },
+    {
+      "name": "stopped-frames-frozen",
+      "state": {
+        "frames": 0,
+        "course": 3,
+        "cleared": false,
+        "completed": true,
+        "player": false,
+        "x": 0,
+        "y": 0,
+        "dx": 0,
+        "dy": 0,
+        "dashes": 0,
+        "mutedAudioCalls": 2,
+        "stats": {
+          "PICO_COMPLETES": 1
+        },
+        "paused": false,
+        "stopped": true
+      }
+    }
+  ],
+  "distribution": [
+    {
+      "path": "/runtime/beacon-relay/classic-relay-v1/_framework/dotnet.boot.json",
+      "sha256": "2db3fb9ef18cfce7f24a0a5da317777743ecaf1ce5e17e6e69ba0a31ef1f3be3",
+      "bytes": 2468
+    },
+    {
+      "path": "/runtime/beacon-relay/classic-relay-v1/_framework/dotnet.js",
+      "sha256": "e8012b32573b80caf6cd05eae1d958364a383a920f33f0db31a0603485c9a123",
+      "bytes": 40677
+    },
+    {
+      "path": "/runtime/beacon-relay/classic-relay-v1/_framework/dotnet.native.js",
+      "sha256": "2a2a449a71d53efdf8e8f4babcb14364983e61e1bf0f751894723db9da4a3a24",
+      "bytes": 145424
+    },
+    {
+      "path": "/runtime/beacon-relay/classic-relay-v1/_framework/dotnet.native.wasm",
+      "sha256": "916822a2cf79f802dd575f2a26dd33c57f7310dc5b17c89f05f74f85bf5592ac",
+      "bytes": 2978727
+    },
+    {
+      "path": "/runtime/beacon-relay/classic-relay-v1/_framework/dotnet.runtime.js",
+      "sha256": "74b1a24475d6e5d8a11856d5369153cf5522795b9a48ff4594576d934731405a",
+      "bytes": 194767
+    },
+    {
+      "path": "/runtime/beacon-relay/classic-relay-v1/_framework/Probe.dll",
+      "sha256": "289a8a2195eb127a2877c9f798be7d3b75177c2d3bc8532cbcb23f8d27af0da6",
+      "bytes": 39936
+    },
+    {
+      "path": "/runtime/beacon-relay/classic-relay-v1/_framework/System.Collections.Concurrent.dll",
+      "sha256": "b85dfe7447a65b1b60b5340bfa6c7dbb81a8a1fa076e5904ff4ae55b4a08f797",
+      "bytes": 89384
+    },
+    {
+      "path": "/runtime/beacon-relay/classic-relay-v1/_framework/System.Collections.dll",
+      "sha256": "ef4b4fdafcfb13088269a7def6047a5554d236dc6f32cdb5fef51dbb7800aa0b",
+      "bytes": 126248
+    },
+    {
+      "path": "/runtime/beacon-relay/classic-relay-v1/_framework/System.IO.Pipelines.dll",
+      "sha256": "27889a74517ee276ea61fb3552c23c8211eb343730d7b4446e56514d882f02c3",
+      "bytes": 78160
+    },
+    {
+      "path": "/runtime/beacon-relay/classic-relay-v1/_framework/System.Linq.dll",
+      "sha256": "edf874d28c6637132fc8ea694b2c49055f8cbc69da0f741012919858d08be8d6",
+      "bytes": 148776
+    },
+    {
+      "path": "/runtime/beacon-relay/classic-relay-v1/_framework/System.Memory.dll",
+      "sha256": "0a935c18b499d43b7413de2fa18dd8780aa4072a4552795d1526604a75bb5a2c",
+      "bytes": 55592
+    },
+    {
+      "path": "/runtime/beacon-relay/classic-relay-v1/_framework/System.Numerics.Vectors.dll",
+      "sha256": "6bd7993a4657f04ae111194d2138c14ce00feeef6967ab57036bdf50b35e4bc9",
+      "bytes": 15696
+    },
+    {
+      "path": "/runtime/beacon-relay/classic-relay-v1/_framework/System.Private.CoreLib.dll",
+      "sha256": "ecc6a128fba9e4a20958ec4633afea416c1d1efdd0d49b69540c34e83b87527c",
+      "bytes": 4652368
+    },
+    {
+      "path": "/runtime/beacon-relay/classic-relay-v1/_framework/System.Private.Uri.dll",
+      "sha256": "73929c0fab61229de4ccdf90ac40a26eb994b037af79015457566564a67ae144",
+      "bytes": 102696
+    },
+    {
+      "path": "/runtime/beacon-relay/classic-relay-v1/_framework/System.Reflection.Emit.ILGeneration.dll",
+      "sha256": "107ef49bbff409d059ed176030ca8979d3904194e6e01b67a14a457739553766",
+      "bytes": 15656
+    },
+    {
+      "path": "/runtime/beacon-relay/classic-relay-v1/_framework/System.Reflection.Emit.Lightweight.dll",
+      "sha256": "8dbb4e707894673e484b17410a4b3ce8fb24364e4a72307fb756211c58e00fe0",
+      "bytes": 15696
+    },
+    {
+      "path": "/runtime/beacon-relay/classic-relay-v1/_framework/System.Reflection.Primitives.dll",
+      "sha256": "d5ac2fe2e5c607a1ed8ab8038fc5d66e54ea5a71a67e59f66f9096929936a3ab",
+      "bytes": 15656
+    },
+    {
+      "path": "/runtime/beacon-relay/classic-relay-v1/_framework/System.Runtime.dll",
+      "sha256": "da6511629adf0a29de0be491f332ad634f1395bafccd1a5b44f88e672993e209",
+      "bytes": 44328
+    },
+    {
+      "path": "/runtime/beacon-relay/classic-relay-v1/_framework/System.Runtime.InteropServices.dll",
+      "sha256": "3b06127d1cca0830cc6a93b9a5dd9a692816725b90c9923583a6997e9f2fafa1",
+      "bytes": 64296
+    },
+    {
+      "path": "/runtime/beacon-relay/classic-relay-v1/_framework/System.Runtime.InteropServices.JavaScript.dll",
+      "sha256": "7e1556569e16b999210e7cafee8f1e403f6dc63eb6d7faac8bb3ef92f7f240b8",
+      "bytes": 85288
+    },
+    {
+      "path": "/runtime/beacon-relay/classic-relay-v1/_framework/System.Runtime.Intrinsics.dll",
+      "sha256": "6d7ce7b8b4798f6a98d0693e8dbf7b09a11df8f0c2d50b9cd42ed9db961b8b07",
+      "bytes": 17192
+    },
+    {
+      "path": "/runtime/beacon-relay/classic-relay-v1/_framework/System.Runtime.Loader.dll",
+      "sha256": "22bdd32a583c2ab19a33736701c3bb8bcf23e2915d04fb880745103f71ac6e1e",
+      "bytes": 15656
+    },
+    {
+      "path": "/runtime/beacon-relay/classic-relay-v1/_framework/System.Text.Encoding.Extensions.dll",
+      "sha256": "180efefa333a97cc6a6def2ccd14dc69c3300fa726887f6fc1720c8a3ba96b59",
+      "bytes": 15656
+    },
+    {
+      "path": "/runtime/beacon-relay/classic-relay-v1/_framework/System.Text.Encodings.Web.dll",
+      "sha256": "3bd6c9463345667af634cb134f4688d5ddc8409cab75fe801225e538b6054d4a",
+      "bytes": 70440
+    },
+    {
+      "path": "/runtime/beacon-relay/classic-relay-v1/_framework/System.Text.Json.dll",
+      "sha256": "181388c8ea17d98d551659d2bb873250443303219fb179d5bbd16e70bd625260",
+      "bytes": 617256
+    },
+    {
+      "path": "/runtime/beacon-relay/classic-relay-v1/_framework/System.Text.RegularExpressions.dll",
+      "sha256": "5e032f6652b4ebe72a395600d6aa4f5c817ce1ad1aa6e50823ff85d19af78916",
+      "bytes": 368936
+    },
+    {
+      "path": "/runtime/beacon-relay/classic-relay-v1/_framework/System.Threading.dll",
+      "sha256": "5d3eca39c74edb422c802ff9d7a63cf2917b1d40c2fd2eb1945e1916a6d9ae16",
+      "bytes": 44880
+    },
+    {
+      "path": "/runtime/beacon-relay/classic-relay-v1/_framework/System.Threading.ThreadPool.dll",
+      "sha256": "553efa9f0d9e9770aebb2a5b0c445369fdbf134472232a2000b57d2e3dbaa0fd",
+      "bytes": 15656
+    },
+    {
+      "path": "/runtime/beacon-relay/classic-relay-v1/AUTHOR-SOURCE-LICENSE.txt",
+      "sha256": "096b580c9b4f487596eeda22964610685018525a5af7bbb1518f2b5e442661d6",
+      "bytes": 1067
+    },
+    {
+      "path": "/runtime/beacon-relay/classic-relay-v1/AUTHORED-CODE-LICENSE.txt",
+      "sha256": "2b6bc44b14fd25da9ca94eb32e7130d9ff2c6be792d0ffe512bf2924f94529bf",
+      "bytes": 1102
+    },
+    {
+      "path": "/runtime/beacon-relay/classic-relay-v1/boot.json",
+      "sha256": "2db3fb9ef18cfce7f24a0a5da317777743ecaf1ce5e17e6e69ba0a31ef1f3be3",
+      "bytes": 2468
+    },
+    {
+      "path": "/runtime/beacon-relay/classic-relay-v1/CONTENT-CC0.txt",
+      "sha256": "175a9a8aa4daecdfca66d22aa3de873ff4a35bccdf85a621d594a5505260bfff",
+      "bytes": 709
+    },
+    {
+      "path": "/runtime/beacon-relay/classic-relay-v1/game.js",
+      "sha256": "a1fd531051ff01b2f6d088fce4a5d1043a49b37b1c2fe31eb4111a77419f82d1",
+      "bytes": 8339
+    },
+    {
+      "path": "/runtime/beacon-relay/classic-relay-v1/index.html",
+      "sha256": "afd3820cbede78a94f32d5be685e078060a7085dd9d2c5d2ab14bc3d34de573c",
+      "bytes": 2906
+    },
+    {
+      "path": "/runtime/beacon-relay/classic-relay-v1/LICENSE.TXT",
+      "sha256": "cfc21f5e8bd655ae997eec916138b707b1d290b83272c02a95c9f821b8c87310",
+      "bytes": 1116
+    },
+    {
+      "path": "/runtime/beacon-relay/classic-relay-v1/notices/compiler-rt-LICENSE.txt",
+      "sha256": "1a8f1058753f1ba890de984e48f0242a3a5c29a6a8f2ed9fd813f36985387e8d",
+      "bytes": 16708
+    },
+    {
+      "path": "/runtime/beacon-relay/classic-relay-v1/notices/dlmalloc-attribution.txt",
+      "sha256": "83ce9495ddb637caf82fdda73d17d310d92b0e1db37f72ddc879485393bc81c9",
+      "bytes": 715
+    },
+    {
+      "path": "/runtime/beacon-relay/classic-relay-v1/notices/Emscripten-MIT-NCSA.txt",
+      "sha256": "620a78084fc7ca97c0b5dea9abf891f3ffcadfdbf305276f099c9c4e12fc1d86",
+      "bytes": 5093
+    },
+    {
+      "path": "/runtime/beacon-relay/classic-relay-v1/notices/emsdk-MIT.txt",
+      "sha256": "99d9a9616fbde3f5ee22a71d8645799a8522d48526130c5ba6dc27ad15ce01f1",
+      "bytes": 1326
+    },
+    {
+      "path": "/runtime/beacon-relay/classic-relay-v1/notices/IANA-tzdb-2026c-LICENSE.txt",
+      "sha256": "0613408568889f5739e5ae252b722a2659c02002839ad970a63dc5e9174b27cf",
+      "bytes": 252
+    },
+    {
+      "path": "/runtime/beacon-relay/classic-relay-v1/notices/ICU-LICENSE.txt",
+      "sha256": "25e21013a7bc2fad735e28c5278a120e4c7f1c327c8c8b9b4df1751748cddbb2",
+      "bytes": 21001
+    },
+    {
+      "path": "/runtime/beacon-relay/classic-relay-v1/notices/ICU-vendored-LICENSE.txt",
+      "sha256": "7915b19db903070778581ae05d8bf4ea241b34a05deb51ca4f5cbb15ea1cbba3",
+      "bytes": 21025
+    },
+    {
+      "path": "/runtime/beacon-relay/classic-relay-v1/notices/libcxx-LICENSE.txt",
+      "sha256": "539dd7aed86e8a4f12cbdd0e6c50c189c7d74847e4fecc64ce2c6ee3a01da38b",
+      "bytes": 16703
+    },
+    {
+      "path": "/runtime/beacon-relay/classic-relay-v1/notices/libcxxabi-LICENSE.txt",
+      "sha256": "e2b35be49f7284a45b7baca8fc7b3ab7440e7902392b2528a457816b5bb2a15c",
+      "bytes": 16706
+    },
+    {
+      "path": "/runtime/beacon-relay/classic-relay-v1/notices/libunwind-LICENSE.txt",
+      "sha256": "b5efebcaca80879234098e52d1725e6d9eb8fb96a19fce625d39184b705f7b6d",
+      "bytes": 16706
+    },
+    {
+      "path": "/runtime/beacon-relay/classic-relay-v1/notices/mono-libunwind-LICENSE.txt",
+      "sha256": "cb5aedb296c5246d1f22e9099f925a65146f9f0d6b4eebba97fd27a6cdbbab2d",
+      "bytes": 1023
+    },
+    {
+      "path": "/runtime/beacon-relay/classic-relay-v1/notices/mono-llvm-libunwind-LICENSE.txt",
+      "sha256": "b5efebcaca80879234098e52d1725e6d9eb8fb96a19fce625d39184b705f7b6d",
+      "bytes": 16706
+    },
+    {
+      "path": "/runtime/beacon-relay/classic-relay-v1/notices/musl-COPYRIGHT.txt",
+      "sha256": "f9bc4423732350eb0b3f7ed7e91d530298476f8fec0c6c427a1c04ade22655af",
+      "bytes": 6204
+    },
+    {
+      "path": "/runtime/beacon-relay/classic-relay-v1/notices/zlib-ng-LICENSE.txt",
+      "sha256": "6c9f0d975b41afaa34d22f55bb8986ce69e5cb7ad327cb2b28820cd425edf5ee",
+      "bytes": 867
+    },
+    {
+      "path": "/runtime/beacon-relay/classic-relay-v1/provenance.json",
+      "sha256": "2cd1075735f86e5ee412346f544af2d9a561ab7c808b36d23187dc098be657e4",
+      "bytes": 9183
+    },
+    {
+      "path": "/runtime/beacon-relay/classic-relay-v1/THIRD-PARTY-NOTICES.TXT",
+      "sha256": "fa3e9d0a2c52476f04fe798d7dc4f6e7edb7b68a3d2f4d5f59a39bce957eedc8",
+      "bytes": 74244
+    },
+    {
+      "path": "/sources/beacon-relay-classic-relay-v1-source.zip",
+      "sha256": "28c0c1bfafc2977cbf1f5389d6a1ffb264b84f76ff2980c5b3dbfd826ead7a54",
+      "bytes": 93762
+    }
+  ],
+  "allThreeCoursesCompleted": true,
+  "hostStopNativeCleanup": true,
+  "completedCheckpointSurvivedBrowserRestart": true,
+  "productStopVerified": true,
+  "passed": true,
+  "browsersClosed": true,
+  "serverClosed": true
+}

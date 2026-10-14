@@ -1,0 +1,595 @@
+{
+  "date": "2026-10-14",
+  "scope": "Selected source/native dependency grant review, including conservative retained template/header notices. Framework native runtime binary reuse; no complete native object-to-source rebuild or linker-map certificate.",
+  "projects": [
+    {
+      "repository": "dotnet/emsdk",
+      "pin": "b2bf6cec0cb4ce281802ac3951bdd14287aad112",
+      "treeTruncated": false,
+      "treeSha256": "bb0eb7cabf51698e88cf19abb493c2d8b8f7da91632ef317f3a7a12a4e484962",
+      "gitlinks": [],
+      "files": [
+        {
+          "repository": "dotnet/emsdk",
+          "pin": "b2bf6cec0cb4ce281802ac3951bdd14287aad112",
+          "path": "LICENSE",
+          "url": "https://raw.githubusercontent.com/dotnet/emsdk/b2bf6cec0cb4ce281802ac3951bdd14287aad112/LICENSE",
+          "bytes": 1326,
+          "sha256": "99d9a9616fbde3f5ee22a71d8645799a8522d48526130c5ba6dc27ad15ce01f1"
+        },
+        {
+          "repository": "dotnet/emsdk",
+          "pin": "b2bf6cec0cb4ce281802ac3951bdd14287aad112",
+          "path": "README.md",
+          "url": "https://raw.githubusercontent.com/dotnet/emsdk/b2bf6cec0cb4ce281802ac3951bdd14287aad112/README.md",
+          "bytes": 11489,
+          "sha256": "9631f597de789aa94d2314cab0ffc21fbbc5b5852c0f61c8d3ee833ad3d0dac4"
+        },
+        {
+          "repository": "dotnet/emsdk",
+          "pin": "b2bf6cec0cb4ce281802ac3951bdd14287aad112",
+          "path": "emsdk_manifest.json",
+          "url": "https://raw.githubusercontent.com/dotnet/emsdk/b2bf6cec0cb4ce281802ac3951bdd14287aad112/emsdk_manifest.json",
+          "bytes": 5181,
+          "sha256": "bcc55d8d73e393f5752935c28e6b16d6aade20885722ab88f55cb2c1475eb84d"
+        },
+        {
+          "repository": "dotnet/emsdk",
+          "pin": "b2bf6cec0cb4ce281802ac3951bdd14287aad112",
+          "path": "eng/Version.Details.xml",
+          "url": "https://raw.githubusercontent.com/dotnet/emsdk/b2bf6cec0cb4ce281802ac3951bdd14287aad112/eng/Version.Details.xml",
+          "bytes": 15076,
+          "sha256": "c43d33fa9ca55dcd813e8d78f5d21b68634d66bbd11d1e7d449cecd4898dafe8"
+        },
+        {
+          "repository": "dotnet/emsdk",
+          "pin": "b2bf6cec0cb4ce281802ac3951bdd14287aad112",
+          "path": "eng/Versions.props",
+          "url": "https://raw.githubusercontent.com/dotnet/emsdk/b2bf6cec0cb4ce281802ac3951bdd14287aad112/eng/Versions.props",
+          "bytes": 6916,
+          "sha256": "8c207984653aaa722efeea0613f19ec0457422a23023159240cd76b1a3a37b87"
+        }
+      ]
+    },
+    {
+      "repository": "dotnet/icu",
+      "pin": "9adc45770f79d8d0161ac8972a0036e36bd48ded",
+      "treeTruncated": false,
+      "treeSha256": "dc3df4de5603b3cdf5b13e4bcd5c4958c2c5defee609bf55db5e76781f17e9dd",
+      "gitlinks": [],
+      "files": [
+        {
+          "repository": "dotnet/icu",
+          "pin": "9adc45770f79d8d0161ac8972a0036e36bd48ded",
+          "path": "LICENSE",
+          "url": "https://raw.githubusercontent.com/dotnet/icu/9adc45770f79d8d0161ac8972a0036e36bd48ded/LICENSE",
+          "bytes": 21001,
+          "sha256": "25e21013a7bc2fad735e28c5278a120e4c7f1c327c8c8b9b4df1751748cddbb2"
+        },
+        {
+          "repository": "dotnet/icu",
+          "pin": "9adc45770f79d8d0161ac8972a0036e36bd48ded",
+          "path": "README.md",
+          "url": "https://raw.githubusercontent.com/dotnet/icu/9adc45770f79d8d0161ac8972a0036e36bd48ded/README.md",
+          "bytes": 103,
+          "sha256": "511f0dd5e8633ccf0a118d0bf8cfb2a51096e161b4a0637c178db2c12dc99d66"
+        },
+        {
+          "repository": "dotnet/icu",
+          "pin": "9adc45770f79d8d0161ac8972a0036e36bd48ded",
+          "path": "eng/Version.Details.xml",
+          "url": "https://raw.githubusercontent.com/dotnet/icu/9adc45770f79d8d0161ac8972a0036e36bd48ded/eng/Version.Details.xml",
+          "bytes": 1462,
+          "sha256": "24191e793eab7cdc5f6d2a40652f6f0ac30b6c1f4231bf3b5ca72f093ef05b2c"
+        },
+        {
+          "repository": "dotnet/icu",
+          "pin": "9adc45770f79d8d0161ac8972a0036e36bd48ded",
+          "path": "eng/Versions.props",
+          "url": "https://raw.githubusercontent.com/dotnet/icu/9adc45770f79d8d0161ac8972a0036e36bd48ded/eng/Versions.props",
+          "bytes": 944,
+          "sha256": "51113816c6cdc470df2b026c677f4b676da1d82c390cca2e4cb94628ff62923a"
+        },
+        {
+          "repository": "dotnet/icu",
+          "pin": "9adc45770f79d8d0161ac8972a0036e36bd48ded",
+          "path": "icu/icu4c/LICENSE",
+          "url": "https://raw.githubusercontent.com/dotnet/icu/9adc45770f79d8d0161ac8972a0036e36bd48ded/icu/icu4c/LICENSE",
+          "bytes": 21025,
+          "sha256": "7915b19db903070778581ae05d8bf4ea241b34a05deb51ca4f5cbb15ea1cbba3"
+        },
+        {
+          "repository": "dotnet/icu",
+          "pin": "9adc45770f79d8d0161ac8972a0036e36bd48ded",
+          "path": "icu/icu4c/license.html",
+          "url": "https://raw.githubusercontent.com/dotnet/icu/9adc45770f79d8d0161ac8972a0036e36bd48ded/icu/icu4c/license.html",
+          "bytes": 622,
+          "sha256": "c62d7697c03979f5056d28b338fafc7a1152820f7b379adf4a9d88cd37160f96"
+        }
+      ]
+    },
+    {
+      "repository": "dotnet/runtime-assets",
+      "pin": "12466630283f5e0fe1869b52184aece70d3967a4",
+      "treeTruncated": false,
+      "treeSha256": "ad0f557a565eb4f230d40eadf0aa3b26b97fd96698cf9f543ba45b6336e14b46",
+      "gitlinks": [],
+      "files": [
+        {
+          "repository": "dotnet/runtime-assets",
+          "pin": "12466630283f5e0fe1869b52184aece70d3967a4",
+          "path": "LICENSE.TXT",
+          "url": "https://raw.githubusercontent.com/dotnet/runtime-assets/12466630283f5e0fe1869b52184aece70d3967a4/LICENSE.TXT",
+          "bytes": 1139,
+          "sha256": "d7a68596ab69b06f51ca278a6545148e4269a9381c26d597c13df5d88e08cf5b"
+        },
+        {
+          "repository": "dotnet/runtime-assets",
+          "pin": "12466630283f5e0fe1869b52184aece70d3967a4",
+          "path": "README.md",
+          "url": "https://raw.githubusercontent.com/dotnet/runtime-assets/12466630283f5e0fe1869b52184aece70d3967a4/README.md",
+          "bytes": 3439,
+          "sha256": "c77feb0c8a1c5c80cda9c798d405ec361676807eb9f0e5ee3711b1fffb741d49"
+        },
+        {
+          "repository": "dotnet/runtime-assets",
+          "pin": "12466630283f5e0fe1869b52184aece70d3967a4",
+          "path": "THIRD-PARTY-NOTICES.TXT",
+          "url": "https://raw.githubusercontent.com/dotnet/runtime-assets/12466630283f5e0fe1869b52184aece70d3967a4/THIRD-PARTY-NOTICES.TXT",
+          "bytes": 7900,
+          "sha256": "eb9eea4abe832f7f2ba7a68c7f80f03bcd0f32c4d910eb10b9e601dcfc4f1f01"
+        },
+        {
+          "repository": "dotnet/runtime-assets",
+          "pin": "12466630283f5e0fe1869b52184aece70d3967a4",
+          "path": "eng/Version.Details.xml",
+          "url": "https://raw.githubusercontent.com/dotnet/runtime-assets/12466630283f5e0fe1869b52184aece70d3967a4/eng/Version.Details.xml",
+          "bytes": 375,
+          "sha256": "4f1addb674886b9526c731ea203ff164ed0155f6ad60e10a6f51df00663f446f"
+        },
+        {
+          "repository": "dotnet/runtime-assets",
+          "pin": "12466630283f5e0fe1869b52184aece70d3967a4",
+          "path": "eng/Versions.props",
+          "url": "https://raw.githubusercontent.com/dotnet/runtime-assets/12466630283f5e0fe1869b52184aece70d3967a4/eng/Versions.props",
+          "bytes": 384,
+          "sha256": "4f79e117bfc6b429a9f26d232422f6de5b26599745663fcf413a0e8e75255fc8"
+        },
+        {
+          "repository": "dotnet/runtime-assets",
+          "pin": "12466630283f5e0fe1869b52184aece70d3967a4",
+          "path": "src/System.Text.RegularExpressions.TestData/LICENSE",
+          "url": "https://raw.githubusercontent.com/dotnet/runtime-assets/12466630283f5e0fe1869b52184aece70d3967a4/src/System.Text.RegularExpressions.TestData/LICENSE",
+          "bytes": 2489,
+          "sha256": "7c9a015c3a90cbb1c601e78cf229bd75c0ad728834fcebf4da21b806b2855f8c"
+        }
+      ]
+    }
+  ],
+  "additionalFiles": [
+    {
+      "repository": "dotnet/emscripten",
+      "pin": "b9e76c96569596d11f72543f41985eb93b8fe45e",
+      "path": "LICENSE",
+      "url": "https://raw.githubusercontent.com/dotnet/emscripten/b9e76c96569596d11f72543f41985eb93b8fe45e/LICENSE",
+      "bytes": 5093,
+      "sha256": "620a78084fc7ca97c0b5dea9abf891f3ffcadfdbf305276f099c9c4e12fc1d86"
+    },
+    {
+      "repository": "dotnet/emscripten",
+      "pin": "b9e76c96569596d11f72543f41985eb93b8fe45e",
+      "path": "system/lib/libc/musl/COPYRIGHT",
+      "url": "https://raw.githubusercontent.com/dotnet/emscripten/b9e76c96569596d11f72543f41985eb93b8fe45e/system/lib/libc/musl/COPYRIGHT",
+      "bytes": 6204,
+      "sha256": "f9bc4423732350eb0b3f7ed7e91d530298476f8fec0c6c427a1c04ade22655af"
+    },
+    {
+      "repository": "dotnet/emscripten",
+      "pin": "b9e76c96569596d11f72543f41985eb93b8fe45e",
+      "path": "system/lib/libcxx/LICENSE.TXT",
+      "url": "https://raw.githubusercontent.com/dotnet/emscripten/b9e76c96569596d11f72543f41985eb93b8fe45e/system/lib/libcxx/LICENSE.TXT",
+      "bytes": 16703,
+      "sha256": "539dd7aed86e8a4f12cbdd0e6c50c189c7d74847e4fecc64ce2c6ee3a01da38b"
+    },
+    {
+      "repository": "dotnet/emscripten",
+      "pin": "b9e76c96569596d11f72543f41985eb93b8fe45e",
+      "path": "system/lib/libcxxabi/LICENSE.TXT",
+      "url": "https://raw.githubusercontent.com/dotnet/emscripten/b9e76c96569596d11f72543f41985eb93b8fe45e/system/lib/libcxxabi/LICENSE.TXT",
+      "bytes": 16706,
+      "sha256": "e2b35be49f7284a45b7baca8fc7b3ab7440e7902392b2528a457816b5bb2a15c"
+    },
+    {
+      "repository": "dotnet/emscripten",
+      "pin": "b9e76c96569596d11f72543f41985eb93b8fe45e",
+      "path": "system/lib/compiler-rt/LICENSE.TXT",
+      "url": "https://raw.githubusercontent.com/dotnet/emscripten/b9e76c96569596d11f72543f41985eb93b8fe45e/system/lib/compiler-rt/LICENSE.TXT",
+      "bytes": 16708,
+      "sha256": "1a8f1058753f1ba890de984e48f0242a3a5c29a6a8f2ed9fd813f36985387e8d"
+    },
+    {
+      "repository": "dotnet/emscripten",
+      "pin": "b9e76c96569596d11f72543f41985eb93b8fe45e",
+      "path": "system/lib/libunwind/LICENSE.TXT",
+      "url": "https://raw.githubusercontent.com/dotnet/emscripten/b9e76c96569596d11f72543f41985eb93b8fe45e/system/lib/libunwind/LICENSE.TXT",
+      "bytes": 16706,
+      "sha256": "b5efebcaca80879234098e52d1725e6d9eb8fb96a19fce625d39184b705f7b6d"
+    },
+    {
+      "repository": "dotnet/emscripten",
+      "pin": "b9e76c96569596d11f72543f41985eb93b8fe45e",
+      "path": "system/lib/emmalloc.c",
+      "url": "https://raw.githubusercontent.com/dotnet/emscripten/b9e76c96569596d11f72543f41985eb93b8fe45e/system/lib/emmalloc.c",
+      "bytes": 56339,
+      "sha256": "8e8d0e92287a607ad158deba4f83ceeb2cacece12bc81f7a08d42d02bbe2aea9"
+    },
+    {
+      "repository": "dotnet/emscripten",
+      "pin": "b9e76c96569596d11f72543f41985eb93b8fe45e",
+      "path": "system/lib/dlmalloc.c",
+      "url": "https://raw.githubusercontent.com/dotnet/emscripten/b9e76c96569596d11f72543f41985eb93b8fe45e/system/lib/dlmalloc.c",
+      "bytes": 236444,
+      "sha256": "de077adcccfc9fe18d91a4dc4d7bcc501156a9d28e982635c95931c763be7c96"
+    },
+    {
+      "repository": "dotnet/icu",
+      "pin": "9adc45770f79d8d0161ac8972a0036e36bd48ded",
+      "path": "icu/icu4c/source/common/unicode/uvernum.h",
+      "url": "https://raw.githubusercontent.com/dotnet/icu/9adc45770f79d8d0161ac8972a0036e36bd48ded/icu/icu4c/source/common/unicode/uvernum.h",
+      "bytes": 6843,
+      "sha256": "6621aaace43fb093108e7cd01bcc4a0c456bbb632236a10a63dca751f56aef69"
+    },
+    {
+      "repository": "dotnet/runtime-assets",
+      "pin": "12466630283f5e0fe1869b52184aece70d3967a4",
+      "path": "src/System.Runtime.TimeZoneData/System.Runtime.TimeZoneData.csproj",
+      "url": "https://raw.githubusercontent.com/dotnet/runtime-assets/12466630283f5e0fe1869b52184aece70d3967a4/src/System.Runtime.TimeZoneData/System.Runtime.TimeZoneData.csproj",
+      "bytes": 3125,
+      "sha256": "f8f858492b8180c7da5dd21a6a8e2c190d09b59c7e739c7d0ccd53b3d20c782f"
+    },
+    {
+      "repository": "dotnet/runtime-assets",
+      "pin": "12466630283f5e0fe1869b52184aece70d3967a4",
+      "path": "src/System.Runtime.TimeZoneData/README.md",
+      "url": "https://raw.githubusercontent.com/dotnet/runtime-assets/12466630283f5e0fe1869b52184aece70d3967a4/src/System.Runtime.TimeZoneData/README.md",
+      "bytes": 411,
+      "sha256": "016609f8c50996dd5d196b2dd196241075ed1b0b879e7be8f002bf04af29fc5d"
+    },
+    {
+      "repository": "dotnet/runtime-assets",
+      "pin": "12466630283f5e0fe1869b52184aece70d3967a4",
+      "path": "src/System.Runtime.TimeZoneData/data/tzdata.zi",
+      "url": "https://raw.githubusercontent.com/dotnet/runtime-assets/12466630283f5e0fe1869b52184aece70d3967a4/src/System.Runtime.TimeZoneData/data/tzdata.zi",
+      "status": 404
+    },
+    {
+      "repository": "dotnet/runtime-assets",
+      "pin": "12466630283f5e0fe1869b52184aece70d3967a4",
+      "path": "src/System.Runtime.TimeZoneData/data/COPYRIGHT",
+      "url": "https://raw.githubusercontent.com/dotnet/runtime-assets/12466630283f5e0fe1869b52184aece70d3967a4/src/System.Runtime.TimeZoneData/data/COPYRIGHT",
+      "status": 404
+    },
+    {
+      "repository": "dotnet/runtime",
+      "pin": "3879076d9a06ce098d37c3882fb1845a6627335b",
+      "path": "src/mono/browser/browser.proj",
+      "url": "https://raw.githubusercontent.com/dotnet/runtime/3879076d9a06ce098d37c3882fb1845a6627335b/src/mono/browser/browser.proj",
+      "bytes": 37332,
+      "sha256": "6d676e6485446a4ccbb108b128a42ce046876302683bc5d1c13faf07a528707b"
+    },
+    {
+      "repository": "dotnet/runtime",
+      "pin": "3879076d9a06ce098d37c3882fb1845a6627335b",
+      "path": "src/mono/browser/build/BrowserWasmApp.props",
+      "url": "https://raw.githubusercontent.com/dotnet/runtime/3879076d9a06ce098d37c3882fb1845a6627335b/src/mono/browser/build/BrowserWasmApp.props",
+      "bytes": 408,
+      "sha256": "8e4063ca82c82709c27e63436bc3d0e798e378f7de8776cd9bebd7462ae202e7"
+    },
+    {
+      "repository": "dotnet/runtime",
+      "pin": "3879076d9a06ce098d37c3882fb1845a6627335b",
+      "path": "src/mono/browser/build/BrowserWasmApp.targets",
+      "url": "https://raw.githubusercontent.com/dotnet/runtime/3879076d9a06ce098d37c3882fb1845a6627335b/src/mono/browser/build/BrowserWasmApp.targets",
+      "bytes": 40912,
+      "sha256": "3bc0288242e171b6431758d7ceaaa095f287f2906daf23df003cc3249fc7ad6b"
+    },
+    {
+      "repository": "dotnet/runtime",
+      "pin": "3879076d9a06ce098d37c3882fb1845a6627335b",
+      "path": "src/native/external/LinuxTracepoints/LICENSE",
+      "url": "https://raw.githubusercontent.com/dotnet/runtime/3879076d9a06ce098d37c3882fb1845a6627335b/src/native/external/LinuxTracepoints/LICENSE",
+      "bytes": 1141,
+      "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383"
+    },
+    {
+      "repository": "dotnet/runtime",
+      "pin": "3879076d9a06ce098d37c3882fb1845a6627335b",
+      "path": "src/native/external/LinuxTracepoints/libtracepoint/LICENSE",
+      "url": "https://raw.githubusercontent.com/dotnet/runtime/3879076d9a06ce098d37c3882fb1845a6627335b/src/native/external/LinuxTracepoints/libtracepoint/LICENSE",
+      "bytes": 1141,
+      "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383"
+    },
+    {
+      "repository": "dotnet/runtime",
+      "pin": "3879076d9a06ce098d37c3882fb1845a6627335b",
+      "path": "src/native/external/libunwind/LICENSE",
+      "url": "https://raw.githubusercontent.com/dotnet/runtime/3879076d9a06ce098d37c3882fb1845a6627335b/src/native/external/libunwind/LICENSE",
+      "bytes": 1023,
+      "sha256": "cb5aedb296c5246d1f22e9099f925a65146f9f0d6b4eebba97fd27a6cdbbab2d"
+    },
+    {
+      "repository": "dotnet/runtime",
+      "pin": "3879076d9a06ce098d37c3882fb1845a6627335b",
+      "path": "src/native/external/llvm-libunwind/LICENSE.TXT",
+      "url": "https://raw.githubusercontent.com/dotnet/runtime/3879076d9a06ce098d37c3882fb1845a6627335b/src/native/external/llvm-libunwind/LICENSE.TXT",
+      "bytes": 16706,
+      "sha256": "b5efebcaca80879234098e52d1725e6d9eb8fb96a19fce625d39184b705f7b6d"
+    },
+    {
+      "repository": "dotnet/runtime",
+      "pin": "3879076d9a06ce098d37c3882fb1845a6627335b",
+      "path": "src/native/external/zlib-ng/LICENSE.md",
+      "url": "https://raw.githubusercontent.com/dotnet/runtime/3879076d9a06ce098d37c3882fb1845a6627335b/src/native/external/zlib-ng/LICENSE.md",
+      "bytes": 867,
+      "sha256": "6c9f0d975b41afaa34d22f55bb8986ce69e5cb7ad327cb2b28820cd425edf5ee"
+    },
+    {
+      "repository": "dotnet/runtime",
+      "pin": "3879076d9a06ce098d37c3882fb1845a6627335b",
+      "path": "src/native/libs/System.IO.Compression.Native/CMakeLists.txt",
+      "url": "https://raw.githubusercontent.com/dotnet/runtime/3879076d9a06ce098d37c3882fb1845a6627335b/src/native/libs/System.IO.Compression.Native/CMakeLists.txt",
+      "bytes": 6693,
+      "sha256": "188b7c3d198acf343fb2b97b91b1b23ad75b580883de898858d1c6b1fecfc652"
+    },
+    {
+      "repository": "dotnet/runtime",
+      "pin": "3879076d9a06ce098d37c3882fb1845a6627335b",
+      "path": "src/native/libs/System.IO.Compression.Native/pal_zlib.c",
+      "url": "https://raw.githubusercontent.com/dotnet/runtime/3879076d9a06ce098d37c3882fb1845a6627335b/src/native/libs/System.IO.Compression.Native/pal_zlib.c",
+      "bytes": 4998,
+      "sha256": "002285224a151e21855c8ca9b59addd030cf569941a1d778cd3527a499cf07f8"
+    },
+    {
+      "repository": "dotnet/runtime",
+      "pin": "3879076d9a06ce098d37c3882fb1845a6627335b",
+      "path": "src/native/libs/System.IO.Compression.Native/pal_zlib.h",
+      "url": "https://raw.githubusercontent.com/dotnet/runtime/3879076d9a06ce098d37c3882fb1845a6627335b/src/native/libs/System.IO.Compression.Native/pal_zlib.h",
+      "bytes": 3695,
+      "sha256": "171d193a13fea71f312bf64d35b6b2f3f58297b9fc008cda09594dab553b8664"
+    },
+    {
+      "repository": "dotnet/emscripten",
+      "pin": "b9e76c96569596d11f72543f41985eb93b8fe45e",
+      "path": "emscripten-version.txt",
+      "url": "https://raw.githubusercontent.com/dotnet/emscripten/b9e76c96569596d11f72543f41985eb93b8fe45e/emscripten-version.txt",
+      "bytes": 11,
+      "sha256": "9cdb414016f8a2b4d7cce62e4fd1182d18258abf0513a5388c32fe65f24146c5"
+    },
+    {
+      "repository": "dotnet/emscripten",
+      "pin": "b9e76c96569596d11f72543f41985eb93b8fe45e",
+      "path": "emscripten-revision.txt",
+      "status": 404
+    },
+    {
+      "repository": "dotnet/emscripten",
+      "pin": "b9e76c96569596d11f72543f41985eb93b8fe45e",
+      "path": "tools/shared.py",
+      "url": "https://raw.githubusercontent.com/dotnet/emscripten/b9e76c96569596d11f72543f41985eb93b8fe45e/tools/shared.py",
+      "bytes": 28446,
+      "sha256": "0888249a03675507ddafc7b0a0764befb4df056741fd2c7f3ab41d7e3c4db293"
+    },
+    {
+      "repository": "dotnet/emscripten",
+      "pin": "b9e76c96569596d11f72543f41985eb93b8fe45e",
+      "path": "tools/utils.py",
+      "url": "https://raw.githubusercontent.com/dotnet/emscripten/b9e76c96569596d11f72543f41985eb93b8fe45e/tools/utils.py",
+      "bytes": 2761,
+      "sha256": "d786b040de3197fd8949bc407ef502f28dade58f7ffd1289197db8ff3bcf176f"
+    },
+    {
+      "repository": "dotnet/emscripten",
+      "pin": "b9e76c96569596d11f72543f41985eb93b8fe45e",
+      "path": "emcc.py",
+      "url": "https://raw.githubusercontent.com/dotnet/emscripten/b9e76c96569596d11f72543f41985eb93b8fe45e/emcc.py",
+      "bytes": 61122,
+      "sha256": "cd75e662914a2273b5f85166d1da51f25a7e8bdb9dbb9b6258104fc227403cac"
+    },
+    {
+      "repository": "dotnet/emscripten",
+      "pin": "b9e76c96569596d11f72543f41985eb93b8fe45e",
+      "path": "eng/Versions.props",
+      "url": "https://raw.githubusercontent.com/dotnet/emscripten/b9e76c96569596d11f72543f41985eb93b8fe45e/eng/Versions.props",
+      "bytes": 486,
+      "sha256": "ce145bba26ed9fb91861715d4a3aef74310b1ce430959cc9a508be7f3222169c"
+    },
+    {
+      "repository": "dotnet/emscripten",
+      "pin": "b9e76c96569596d11f72543f41985eb93b8fe45e",
+      "path": "eng/emscripten.proj",
+      "status": 404
+    },
+    {
+      "repository": "dotnet/emscripten",
+      "pin": "b9e76c96569596d11f72543f41985eb93b8fe45e",
+      "path": "eng/common/helixpublish.proj",
+      "url": "https://raw.githubusercontent.com/dotnet/emscripten/b9e76c96569596d11f72543f41985eb93b8fe45e/eng/common/helixpublish.proj",
+      "bytes": 923,
+      "sha256": "3cd7ef55c2057814b5a06e54e7535c6c02ce90c78ace2f40ce6a3816524efec8"
+    },
+    {
+      "repository": "dotnet/emscripten",
+      "pin": "b9e76c96569596d11f72543f41985eb93b8fe45e",
+      "path": "eng/nuget/Microsoft.NETCore.Runtime.Wasm.Emscripten.Transport/Microsoft.NETCore.Runtime.Wasm.Emscripten.Transport.pkgproj",
+      "url": "https://raw.githubusercontent.com/dotnet/emscripten/b9e76c96569596d11f72543f41985eb93b8fe45e/eng/nuget/Microsoft.NETCore.Runtime.Wasm.Emscripten.Transport/Microsoft.NETCore.Runtime.Wasm.Emscripten.Transport.pkgproj",
+      "bytes": 481,
+      "sha256": "89acbb4616e3eaa31476b379b63cb44c55ff770392919954783fa7e1f8899a92"
+    },
+    {
+      "repository": "dotnet/emscripten",
+      "pin": "b9e76c96569596d11f72543f41985eb93b8fe45e",
+      "path": "Directory.Build.props",
+      "url": "https://raw.githubusercontent.com/dotnet/emscripten/b9e76c96569596d11f72543f41985eb93b8fe45e/Directory.Build.props",
+      "bytes": 3988,
+      "sha256": "f8b24bcd2ab1eb359ab84cfe4f193413e95824c439421abc42f4bfb76a7e786d"
+    },
+    {
+      "repository": "dotnet/emscripten",
+      "pin": "b9e76c96569596d11f72543f41985eb93b8fe45e",
+      "path": "Directory.Build.targets",
+      "url": "https://raw.githubusercontent.com/dotnet/emscripten/b9e76c96569596d11f72543f41985eb93b8fe45e/Directory.Build.targets",
+      "bytes": 129,
+      "sha256": "e978da5b7bab483d4be50acbb52464d4770e206b7f95ddc037049cb7667f818d"
+    },
+    {
+      "repository": "dotnet/emscripten",
+      "pin": "b9e76c96569596d11f72543f41985eb93b8fe45e",
+      "path": "eng/emscripten-revision.txt",
+      "url": "https://raw.githubusercontent.com/dotnet/emscripten/b9e76c96569596d11f72543f41985eb93b8fe45e/eng/emscripten-revision.txt",
+      "bytes": 41,
+      "sha256": "f3efc2b64bd7520504b54d3d89a03eefb5e6a1c64fefe725c4bd5a3969db4a14"
+    },
+    {
+      "repository": "dotnet/emscripten",
+      "pin": "b9e76c96569596d11f72543f41985eb93b8fe45e",
+      "path": "eng/nuget/Microsoft.NETCore.Runtime.Wasm.Emscripten.Transport/Microsoft.NETCore.Runtime.Wasm.Emscripten.Transport.props",
+      "url": "https://raw.githubusercontent.com/dotnet/emscripten/b9e76c96569596d11f72543f41985eb93b8fe45e/eng/nuget/Microsoft.NETCore.Runtime.Wasm.Emscripten.Transport/Microsoft.NETCore.Runtime.Wasm.Emscripten.Transport.props",
+      "bytes": 304,
+      "sha256": "0ae817a59b864d4c824dbe70897dde170837a0d55a33a09f2887d5ae381e00e2"
+    },
+    {
+      "repository": "dotnet/runtime",
+      "pin": "3879076d9a06ce098d37c3882fb1845a6627335b",
+      "path": "src/libraries/System.Private.Xml/src/System.Private.Xml.csproj",
+      "url": "https://raw.githubusercontent.com/dotnet/runtime/3879076d9a06ce098d37c3882fb1845a6627335b/src/libraries/System.Private.Xml/src/System.Private.Xml.csproj",
+      "bytes": 49111,
+      "sha256": "3ccd23bf1cf280b3c44af6fd75b602c3eb964c10ac6de5f29e21bf799aecf352"
+    },
+    {
+      "repository": "dotnet/runtime",
+      "pin": "3879076d9a06ce098d37c3882fb1845a6627335b",
+      "path": "src/libraries/System.Private.Xml/src/Utils/DTDs/XHTML10/original/xhtml-lat1.ent",
+      "url": "https://raw.githubusercontent.com/dotnet/runtime/3879076d9a06ce098d37c3882fb1845a6627335b/src/libraries/System.Private.Xml/src/Utils/DTDs/XHTML10/original/xhtml-lat1.ent",
+      "bytes": 11775,
+      "sha256": "3da1daad08f93b8aff7a32d5447f94853d517561d9c7d0c7bc3ee5c002d12a38"
+    }
+  ],
+  "packCompilerProperties": [
+    {
+      "identity": "RuntimeEmccVersion",
+      "value": "3.1.56"
+    },
+    {
+      "identity": "RuntimeEmccVersionRaw",
+      "value": "emcc (Emscripten gcc/clang-like replacement + linker emulating GNU ld) 3.1.56 (57b21b8fdcbe3ebb523178b79465254668eab408)"
+    },
+    {
+      "identity": "RuntimeEmccVersionHash",
+      "value": "57b21b8fdcbe3ebb523178b79465254668eab408"
+    }
+  ],
+  "noticeFiles": [
+    {
+      "path": "notices/emsdk-MIT.txt",
+      "bytes": 1326,
+      "sha256": "99d9a9616fbde3f5ee22a71d8645799a8522d48526130c5ba6dc27ad15ce01f1",
+      "sourceFolder": "dotnet__emsdk",
+      "selectedText": "LICENSE"
+    },
+    {
+      "path": "notices/Emscripten-MIT-NCSA.txt",
+      "bytes": 5093,
+      "sha256": "620a78084fc7ca97c0b5dea9abf891f3ffcadfdbf305276f099c9c4e12fc1d86",
+      "sourceFolder": "dotnet__emscripten",
+      "selectedText": "LICENSE"
+    },
+    {
+      "path": "notices/musl-COPYRIGHT.txt",
+      "bytes": 6204,
+      "sha256": "f9bc4423732350eb0b3f7ed7e91d530298476f8fec0c6c427a1c04ade22655af",
+      "sourceFolder": "dotnet__emscripten",
+      "selectedText": "system__lib__libc__musl__COPYRIGHT"
+    },
+    {
+      "path": "notices/libcxx-LICENSE.txt",
+      "bytes": 16703,
+      "sha256": "539dd7aed86e8a4f12cbdd0e6c50c189c7d74847e4fecc64ce2c6ee3a01da38b",
+      "sourceFolder": "dotnet__emscripten",
+      "selectedText": "system__lib__libcxx__LICENSE.TXT"
+    },
+    {
+      "path": "notices/libcxxabi-LICENSE.txt",
+      "bytes": 16706,
+      "sha256": "e2b35be49f7284a45b7baca8fc7b3ab7440e7902392b2528a457816b5bb2a15c",
+      "sourceFolder": "dotnet__emscripten",
+      "selectedText": "system__lib__libcxxabi__LICENSE.TXT"
+    },
+    {
+      "path": "notices/compiler-rt-LICENSE.txt",
+      "bytes": 16708,
+      "sha256": "1a8f1058753f1ba890de984e48f0242a3a5c29a6a8f2ed9fd813f36985387e8d",
+      "sourceFolder": "dotnet__emscripten",
+      "selectedText": "system__lib__compiler-rt__LICENSE.TXT"
+    },
+    {
+      "path": "notices/libunwind-LICENSE.txt",
+      "bytes": 16706,
+      "sha256": "b5efebcaca80879234098e52d1725e6d9eb8fb96a19fce625d39184b705f7b6d",
+      "sourceFolder": "dotnet__emscripten",
+      "selectedText": "system__lib__libunwind__LICENSE.TXT"
+    },
+    {
+      "path": "notices/ICU-LICENSE.txt",
+      "bytes": 21001,
+      "sha256": "25e21013a7bc2fad735e28c5278a120e4c7f1c327c8c8b9b4df1751748cddbb2",
+      "sourceFolder": "dotnet__icu",
+      "selectedText": "LICENSE"
+    },
+    {
+      "path": "notices/ICU-vendored-LICENSE.txt",
+      "bytes": 21025,
+      "sha256": "7915b19db903070778581ae05d8bf4ea241b34a05deb51ca4f5cbb15ea1cbba3",
+      "sourceFolder": "dotnet__icu",
+      "selectedText": "icu__icu4c__LICENSE"
+    },
+    {
+      "path": "notices/zlib-ng-LICENSE.txt",
+      "bytes": 867,
+      "sha256": "6c9f0d975b41afaa34d22f55bb8986ce69e5cb7ad327cb2b28820cd425edf5ee",
+      "sourceFolder": "dotnet__runtime",
+      "selectedText": "src__native__external__zlib-ng__LICENSE.md"
+    },
+    {
+      "path": "notices/mono-libunwind-LICENSE.txt",
+      "bytes": 1023,
+      "sha256": "cb5aedb296c5246d1f22e9099f925a65146f9f0d6b4eebba97fd27a6cdbbab2d",
+      "sourceFolder": "dotnet__runtime",
+      "selectedText": "src__native__external__libunwind__LICENSE"
+    },
+    {
+      "path": "notices/mono-llvm-libunwind-LICENSE.txt",
+      "bytes": 16706,
+      "sha256": "b5efebcaca80879234098e52d1725e6d9eb8fb96a19fce625d39184b705f7b6d",
+      "sourceFolder": "dotnet__runtime",
+      "selectedText": "src__native__external__llvm-libunwind__LICENSE.TXT"
+    },
+    {
+      "path": "notices/IANA-tzdb-2026c-LICENSE.txt",
+      "bytes": 252,
+      "sha256": "0613408568889f5739e5ae252b722a2659c02002839ad970a63dc5e9174b27cf",
+      "url": "https://data.iana.org/time-zones/tzdb-2026c/LICENSE"
+    }
+  ],
+  "findings": {
+    "recipeCompilerSource": "dotnet/emscripten b9e76c96569596d11f72543f41985eb93b8fe45e",
+    "packReportedCompilerRevision": "57b21b8fdcbe3ebb523178b79465254668eab408",
+    "stampExplanation": "Transport.props copies eng/emscripten-*.txt into tools; eng/emscripten-revision.txt is the fixed base revision57b21. emcc.py uses that file when .git is omitted. The dotnet fork source version is3.1.56-git; the base upstream source version is3.1.34-git. Reported base stamp is not an exact fork commit.",
+    "icu": "vendored ICU68.2; full Unicode/ICU and third-party license collection retained; no external ICU data file included, native code not claimed absent",
+    "timezone": "System.Runtime.TimeZoneData input selects2026c; IANA public-domain data grant retained; zic/date/strftime sources not shipped",
+    "compression": "browser native CMake selects zlib-ng and excludes its Brotli branch; package-wide .NET notices are retained conservatively",
+    "isoSgml": "Exact ISO notice found in System.Private.Xml XHTML entity data, embedded by that csproj; System.Private.Xml.dll and its XML resources are absent from23-assembly closure and selected native/browser recipes. No blanket all-.NET MIT claim.",
+    "licenseSelection": "Game source/own adapter MIT. Selected framework/library grants MIT, BSD-style, Unicode/ICU, zlib, Apache2.0 with LLVM exceptions and public-domain; notices retained separately.",
+    "retailAssets": "No original cartridge/Lua/graphics/font/map/audio/retail SDK inputs",
+    "cleanRoomCertified": false
+  }
+}

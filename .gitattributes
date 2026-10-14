@@ -23,3 +23,5 @@ public/games/kiln-super-zzt/** -text
 public/sources/kiln-super-zzt-*.zip -text
 
 experiments/beacon-relay/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+# Preserve upstream notice whitespace verbatim for hash-verified grant copies.
+experiments/beacon-relay/notices/** -text whitespace=-blank-at-eol,-blank-at-eof,-space-before-tab,cr-at-eol

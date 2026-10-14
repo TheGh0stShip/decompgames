@@ -1,0 +1,151 @@
+{
+  "date": "2026-10-14T15:14:04.494Z",
+  "scope": "Private deliberate loader-failure injection; no gameplay or production claim",
+  "audioMuted": true,
+  "cases": [
+    {
+      "missing": "/boot.json",
+      "pageErrors": [],
+      "consoleErrors": [
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Error: Boot manifest unavailable\n    at initialize (http://127.0.0.1:4370/game.js:42:186)\n    at async http://127.0.0.1:4370/game.js:42:886"
+      ],
+      "requests": [
+        "/",
+        "/game.js",
+        "/_framework/dotnet.js",
+        "/boot.json"
+      ],
+      "status": "Runtime failed to load. Reload this page to retry.",
+      "allControlsDisabled": true,
+      "noGameplayStarted": true,
+      "browserClosed": true
+    },
+    {
+      "missing": "/_framework/dotnet.js",
+      "pageErrors": [],
+      "consoleErrors": [
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "TypeError: Failed to fetch dynamically imported module: http://127.0.0.1:4370/_framework/dotnet.js"
+      ],
+      "requests": [
+        "/",
+        "/game.js",
+        "/_framework/dotnet.js"
+      ],
+      "status": "Runtime failed to load. Reload this page to retry.",
+      "allControlsDisabled": true,
+      "noGameplayStarted": true,
+      "browserClosed": true
+    },
+    {
+      "missing": "/_framework/dotnet.native.wasm",
+      "pageErrors": [],
+      "consoleErrors": [
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Error: Required asset unavailable: dotnet.native.wasm\n    at http://127.0.0.1:4370/game.js:42:560\n    at async Promise.all (index 25)\n    at async initialize (http://127.0.0.1:4370/game.js:42:381)\n    at async http://127.0.0.1:4370/game.js:42:886"
+      ],
+      "requests": [
+        "/",
+        "/game.js",
+        "/_framework/dotnet.js",
+        "/boot.json",
+        "/_framework/System.Collections.Concurrent.dll",
+        "/_framework/System.Collections.dll",
+        "/_framework/System.IO.Pipelines.dll",
+        "/_framework/System.Linq.dll",
+        "/_framework/System.Memory.dll",
+        "/_framework/System.Numerics.Vectors.dll",
+        "/_framework/System.Private.CoreLib.dll",
+        "/_framework/System.Private.Uri.dll",
+        "/_framework/System.Reflection.Emit.ILGeneration.dll",
+        "/_framework/System.Reflection.Emit.Lightweight.dll",
+        "/_framework/System.Reflection.Primitives.dll",
+        "/_framework/System.Runtime.InteropServices.JavaScript.dll",
+        "/_framework/System.Runtime.InteropServices.dll",
+        "/_framework/System.Runtime.Intrinsics.dll",
+        "/_framework/System.Runtime.Loader.dll",
+        "/_framework/System.Runtime.dll",
+        "/_framework/System.Text.Encoding.Extensions.dll",
+        "/_framework/System.Text.Encodings.Web.dll",
+        "/_framework/System.Text.Json.dll",
+        "/_framework/System.Text.RegularExpressions.dll",
+        "/_framework/System.Threading.ThreadPool.dll",
+        "/_framework/System.Threading.dll",
+        "/_framework/Probe.dll",
+        "/_framework/dotnet.native.js",
+        "/_framework/dotnet.runtime.js",
+        "/_framework/dotnet.native.wasm"
+      ],
+      "status": "Runtime failed to load. Reload this page to retry.",
+      "allControlsDisabled": true,
+      "noGameplayStarted": true,
+      "browserClosed": true
+    },
+    {
+      "missing": "/_framework/Probe.dll",
+      "pageErrors": [],
+      "consoleErrors": [
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Error: Required asset unavailable: Probe.dll\n    at http://127.0.0.1:4370/game.js:42:560\n    at async Promise.all (index 22)\n    at async initialize (http://127.0.0.1:4370/game.js:42:381)\n    at async http://127.0.0.1:4370/game.js:42:886"
+      ],
+      "requests": [
+        "/",
+        "/game.js",
+        "/_framework/dotnet.js",
+        "/boot.json",
+        "/_framework/System.Collections.Concurrent.dll",
+        "/_framework/System.Collections.dll",
+        "/_framework/System.IO.Pipelines.dll",
+        "/_framework/System.Linq.dll",
+        "/_framework/System.Memory.dll",
+        "/_framework/System.Numerics.Vectors.dll",
+        "/_framework/System.Private.CoreLib.dll",
+        "/_framework/System.Private.Uri.dll",
+        "/_framework/System.Reflection.Emit.ILGeneration.dll",
+        "/_framework/System.Reflection.Emit.Lightweight.dll",
+        "/_framework/System.Reflection.Primitives.dll",
+        "/_framework/System.Runtime.InteropServices.JavaScript.dll",
+        "/_framework/System.Runtime.InteropServices.dll",
+        "/_framework/System.Runtime.Intrinsics.dll",
+        "/_framework/System.Runtime.Loader.dll",
+        "/_framework/System.Runtime.dll",
+        "/_framework/System.Text.Encoding.Extensions.dll",
+        "/_framework/System.Text.Encodings.Web.dll",
+        "/_framework/System.Text.Json.dll",
+        "/_framework/System.Text.RegularExpressions.dll",
+        "/_framework/System.Threading.ThreadPool.dll",
+        "/_framework/System.Threading.dll",
+        "/_framework/Probe.dll",
+        "/_framework/dotnet.native.js",
+        "/_framework/dotnet.runtime.js",
+        "/_framework/dotnet.native.wasm"
+      ],
+      "status": "Runtime failed to load. Reload this page to retry.",
+      "allControlsDisabled": true,
+      "noGameplayStarted": true,
+      "browserClosed": true
+    },
+    {
+      "missing": "stall:/boot.json",
+      "pageErrors": [],
+      "consoleErrors": [
+        "Error: Loading deadline exceeded\n    at http://127.0.0.1:4370/game.js:42:979"
+      ],
+      "requests": [
+        "/",
+        "/game.js",
+        "/_framework/dotnet.js",
+        "/boot.json"
+      ],
+      "status": "Runtime failed to load. Reload this page to retry.",
+      "allControlsDisabled": true,
+      "noGameplayStarted": true,
+      "browserClosed": true
+    }
+  ],
+  "external": [],
+  "passed": true,
+  "browsersClosed": true,
+  "serverClosed": true
+}

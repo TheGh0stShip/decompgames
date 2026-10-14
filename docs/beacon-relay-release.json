@@ -1,0 +1,39 @@
+{
+  "date": "2026-10-14",
+  "status": "Local acceptance and corresponding-source replay passed; production pending",
+  "classification": "Developer-released source port with three independently authored courses; managed IL inside Mono WASM, not decompilation, ROM emulation or commercial campaign",
+  "catalogCount": 88,
+  "strictDecompMilestone": "4/5 unchanged; this entry is a developer-source port",
+  "runtimeBase": "/runtime/beacon-relay/classic-relay-v1/",
+  "sourceArchive": "/sources/beacon-relay-classic-relay-v1-source.zip",
+  "sourceArchiveSha256": "28c0c1bfafc2977cbf1f5389d6a1ffb264b84f76ff2980c5b3dbfd826ead7a54",
+  "sourceArchiveBytes": 93762,
+  "runtimeFileCount": 51,
+  "upstreamSourceSha256": "657515f88328d0269fca3d5b83acbafb8bc61b24db7f5b6bff8a7d442fcb833d",
+  "compiledSourceSha256": "17130a890545cdb5ec2b148d8ddfac4c50750c16b4763ee673f96127aa1c65d0",
+  "gameAssemblySha256": "289a8a2195eb127a2877c9f798be7d3b75177c2d3bc8532cbcb23f8d27af0da6",
+  "contentPatch": "Six UI/content literals independently replaced; original expressive message excluded from compiled class and source archive; gameplay algorithms retained",
+  "localTests": [
+    "Standalone all3 courses,3 lights, native jump/dash consumption/recharge, fall/respawn, completed and unfinished checkpoint full-browser restart, Pause/focus release, short tap, malformed/out-of-range/refused saves, product Stop",
+    "Local site same-origin Play, all3 courses,3 lights, fall/respawn,dash, host Stop reaches product native exit, fresh browser completed checkpoint, product Stop freezes frames",
+    "5 deliberate loader failures: missing manifest/module/WASM/game assembly and stalled manifest; all disabled controls/no gameplay/no page errors",
+    "Extracted corresponding-source archive reproduces all51 distribution files exactly with hash-pinned framework input"
+  ],
+  "runtimeReview": "beacon-relay-runtime-review-2026-10-14.md",
+  "limits": [
+    "Own3-course challenge, not original/commercial campaign, matching decompilation or clean-room certificate",
+    "Managed IL inside Mono WASM, not game AOT",
+    "Native framework/SDK binary-to-source rebuild not independently reproduced; conservative notices retained",
+    "Other browsers/devices, audible playback, real quota/crash/rapid-close, adversarial saves and migration unverified"
+  ],
+  "retainedFailures": [
+    "Initial component missing-CoreLib startup failure, short-key trial and copied-context storage trial retained privately and excluded",
+    "Loader game-assembly404 initially hung; new preflight/deadline guard passed5 cases",
+    "Early unchanged-source component/prototype receipts are historical; final release has6 authored UI literal substitutions"
+  ],
+  "allTestsMuted": true,
+  "testPlayersStopped": true,
+  "browsersClosed": true,
+  "serversClosed": true,
+  "cleanRoomCertified": false
+}

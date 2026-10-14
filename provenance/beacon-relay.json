@@ -1,0 +1,223 @@
+{
+  "scope": "Three-course developer-source port edition with independently authored presentation and separate selected runtime grants",
+  "classification": "developer-released-source-port-with-authored-replacement-content",
+  "cleanRoomCertified": false,
+  "upstream": {
+    "date": "2026-10-14",
+    "repository": "NoelFB/Celeste",
+    "pin": "1b0ce45c75e05649ae91b44a8bb6b196684e4352",
+    "starsAtRead": 3997,
+    "archived": true,
+    "treeTruncated": false,
+    "treeSha256": "79b3385e5eec95386e4df7dc431451361882c6672a6e0e4cdc92e65cd4554303",
+    "files": [
+      {
+        "repository": "NoelFB/Celeste",
+        "pin": "1b0ce45c75e05649ae91b44a8bb6b196684e4352",
+        "path": "LICENSE",
+        "url": "https://raw.githubusercontent.com/NoelFB/Celeste/1b0ce45c75e05649ae91b44a8bb6b196684e4352/LICENSE",
+        "bytes": 1067,
+        "sha256": "096b580c9b4f487596eeda22964610685018525a5af7bbb1518f2b5e442661d6"
+      },
+      {
+        "repository": "NoelFB/Celeste",
+        "pin": "1b0ce45c75e05649ae91b44a8bb6b196684e4352",
+        "path": "README.md",
+        "url": "https://raw.githubusercontent.com/NoelFB/Celeste/1b0ce45c75e05649ae91b44a8bb6b196684e4352/README.md",
+        "bytes": 970,
+        "sha256": "87615045926a881a764adfea769dcc6aea998838533af70ad133acb33c432825"
+      },
+      {
+        "repository": "NoelFB/Celeste",
+        "pin": "1b0ce45c75e05649ae91b44a8bb6b196684e4352",
+        "path": "Source/PICO-8/Classic.cs",
+        "url": "https://raw.githubusercontent.com/NoelFB/Celeste/1b0ce45c75e05649ae91b44a8bb6b196684e4352/Source/PICO-8/Classic.cs",
+        "bytes": 54775,
+        "sha256": "657515f88328d0269fca3d5b83acbafb8bc61b24db7f5b6bff8a7d442fcb833d"
+      },
+      {
+        "repository": "NoelFB/Celeste",
+        "pin": "1b0ce45c75e05649ae91b44a8bb6b196684e4352",
+        "path": "Source/PICO-8/Readme.md",
+        "url": "https://raw.githubusercontent.com/NoelFB/Celeste/1b0ce45c75e05649ae91b44a8bb6b196684e4352/Source/PICO-8/Readme.md",
+        "bytes": 611,
+        "sha256": "64be81701a50f5e491232a25550f5d0e7da15ec96b74a9ff40ac306fd92596d1"
+      },
+      {
+        "repository": "NoelFB/Celeste",
+        "pin": "1b0ce45c75e05649ae91b44a8bb6b196684e4352",
+        "path": "Source/Player/Readme.md",
+        "url": "https://raw.githubusercontent.com/NoelFB/Celeste/1b0ce45c75e05649ae91b44a8bb6b196684e4352/Source/Player/Readme.md",
+        "bytes": 4311,
+        "sha256": "8112be04ce7b94eec802a74362c2bdc24165fb91971fe9c5c4be13960de1713f"
+      }
+    ]
+  },
+  "authoredCodeLicense": "MIT",
+  "authoredContentLicense": "CC0-1.0",
+  "authoredContent": [
+    {
+      "path": "Bridge.cs",
+      "portion": "OwnMaps three original room layouts; content only"
+    },
+    {
+      "path": "game.js",
+      "portion": "glyphs, palette, sprite designs/animation, text and square exhaust presentation; renderer/controller code separately MIT"
+    },
+    {
+      "path": "Host.cs",
+      "portion": "authored text substitutions; host code separately MIT"
+    },
+    {
+      "path": "index.html",
+      "portion": "authored instructions/presentation text"
+    },
+    {
+      "path": "content_patch.py",
+      "portion": "Six independent replacement UI/content literals; patch implementation MIT"
+    }
+  ],
+  "originalAssetInputs": [],
+  "excluded": [
+    "original cartridge and Lua payload",
+    "original Emulator.cs",
+    "commercial Celeste engine/player implementation",
+    "original maps/graphics/font/animation/audio",
+    "actual XNA/FNA/Monocle dependencies"
+  ],
+  "audio": "no audio implementation; silent-only prototype",
+  "nativeAlgorithmLicense": "author MIT, including original procedural effect/gameplay algorithms; not CC0",
+  "runtimePackage": {
+    "package": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm",
+    "version": "9.0.20",
+    "url": "https://api.nuget.org/v3-flatcontainer/microsoft.netcore.app.runtime.mono.browser-wasm/9.0.20/microsoft.netcore.app.runtime.mono.browser-wasm.9.0.20.nupkg",
+    "bytes": 23329791,
+    "sha256": "4ee7b9a1b32a1a57638e51cd809d8f507ef26de17eb27e97ef50594e791c364c",
+    "scope": "Private browser runtime experiment. Selected runtime/transitive grant closure not certified; no original game media."
+  },
+  "runtimeClearance": "Selected source/native grant review recorded in beacon-relay-runtime-source-review-2026-10-14.json; conservative complete notices retained; native framework binary not rebuilt",
+  "managedAssemblyReferenceClosure": [
+    "Probe.dll",
+    "System.Collections.Concurrent.dll",
+    "System.Collections.dll",
+    "System.IO.Pipelines.dll",
+    "System.Linq.dll",
+    "System.Memory.dll",
+    "System.Numerics.Vectors.dll",
+    "System.Private.CoreLib.dll",
+    "System.Private.Uri.dll",
+    "System.Reflection.Emit.ILGeneration.dll",
+    "System.Reflection.Emit.Lightweight.dll",
+    "System.Reflection.Primitives.dll",
+    "System.Runtime.InteropServices.JavaScript.dll",
+    "System.Runtime.InteropServices.dll",
+    "System.Runtime.Intrinsics.dll",
+    "System.Runtime.Loader.dll",
+    "System.Runtime.dll",
+    "System.Text.Encoding.Extensions.dll",
+    "System.Text.Encodings.Web.dll",
+    "System.Text.Json.dll",
+    "System.Text.RegularExpressions.dll",
+    "System.Threading.ThreadPool.dll",
+    "System.Threading.dll"
+  ],
+  "noticeFiles": [
+    {
+      "path": "notices/emsdk-MIT.txt",
+      "bytes": 1326,
+      "sha256": "99d9a9616fbde3f5ee22a71d8645799a8522d48526130c5ba6dc27ad15ce01f1",
+      "sourceFolder": "dotnet__emsdk",
+      "selectedText": "LICENSE"
+    },
+    {
+      "path": "notices/Emscripten-MIT-NCSA.txt",
+      "bytes": 5093,
+      "sha256": "620a78084fc7ca97c0b5dea9abf891f3ffcadfdbf305276f099c9c4e12fc1d86",
+      "sourceFolder": "dotnet__emscripten",
+      "selectedText": "LICENSE"
+    },
+    {
+      "path": "notices/musl-COPYRIGHT.txt",
+      "bytes": 6204,
+      "sha256": "f9bc4423732350eb0b3f7ed7e91d530298476f8fec0c6c427a1c04ade22655af",
+      "sourceFolder": "dotnet__emscripten",
+      "selectedText": "system__lib__libc__musl__COPYRIGHT"
+    },
+    {
+      "path": "notices/libcxx-LICENSE.txt",
+      "bytes": 16703,
+      "sha256": "539dd7aed86e8a4f12cbdd0e6c50c189c7d74847e4fecc64ce2c6ee3a01da38b",
+      "sourceFolder": "dotnet__emscripten",
+      "selectedText": "system__lib__libcxx__LICENSE.TXT"
+    },
+    {
+      "path": "notices/libcxxabi-LICENSE.txt",
+      "bytes": 16706,
+      "sha256": "e2b35be49f7284a45b7baca8fc7b3ab7440e7902392b2528a457816b5bb2a15c",
+      "sourceFolder": "dotnet__emscripten",
+      "selectedText": "system__lib__libcxxabi__LICENSE.TXT"
+    },
+    {
+      "path": "notices/compiler-rt-LICENSE.txt",
+      "bytes": 16708,
+      "sha256": "1a8f1058753f1ba890de984e48f0242a3a5c29a6a8f2ed9fd813f36985387e8d",
+      "sourceFolder": "dotnet__emscripten",
+      "selectedText": "system__lib__compiler-rt__LICENSE.TXT"
+    },
+    {
+      "path": "notices/libunwind-LICENSE.txt",
+      "bytes": 16706,
+      "sha256": "b5efebcaca80879234098e52d1725e6d9eb8fb96a19fce625d39184b705f7b6d",
+      "sourceFolder": "dotnet__emscripten",
+      "selectedText": "system__lib__libunwind__LICENSE.TXT"
+    },
+    {
+      "path": "notices/ICU-LICENSE.txt",
+      "bytes": 21001,
+      "sha256": "25e21013a7bc2fad735e28c5278a120e4c7f1c327c8c8b9b4df1751748cddbb2",
+      "sourceFolder": "dotnet__icu",
+      "selectedText": "LICENSE"
+    },
+    {
+      "path": "notices/ICU-vendored-LICENSE.txt",
+      "bytes": 21025,
+      "sha256": "7915b19db903070778581ae05d8bf4ea241b34a05deb51ca4f5cbb15ea1cbba3",
+      "sourceFolder": "dotnet__icu",
+      "selectedText": "icu__icu4c__LICENSE"
+    },
+    {
+      "path": "notices/zlib-ng-LICENSE.txt",
+      "bytes": 867,
+      "sha256": "6c9f0d975b41afaa34d22f55bb8986ce69e5cb7ad327cb2b28820cd425edf5ee",
+      "sourceFolder": "dotnet__runtime",
+      "selectedText": "src__native__external__zlib-ng__LICENSE.md"
+    },
+    {
+      "path": "notices/mono-libunwind-LICENSE.txt",
+      "bytes": 1023,
+      "sha256": "cb5aedb296c5246d1f22e9099f925a65146f9f0d6b4eebba97fd27a6cdbbab2d",
+      "sourceFolder": "dotnet__runtime",
+      "selectedText": "src__native__external__libunwind__LICENSE"
+    },
+    {
+      "path": "notices/mono-llvm-libunwind-LICENSE.txt",
+      "bytes": 16706,
+      "sha256": "b5efebcaca80879234098e52d1725e6d9eb8fb96a19fce625d39184b705f7b6d",
+      "sourceFolder": "dotnet__runtime",
+      "selectedText": "src__native__external__llvm-libunwind__LICENSE.TXT"
+    },
+    {
+      "path": "notices/IANA-tzdb-2026c-LICENSE.txt",
+      "bytes": 252,
+      "sha256": "0613408568889f5739e5ae252b722a2659c02002839ad970a63dc5e9174b27cf",
+      "url": "https://data.iana.org/time-zones/tzdb-2026c/LICENSE"
+    }
+  ],
+  "runtimeNativeRebuildCertified": false,
+  "gameplayAlgorithmsRetained": true,
+  "contentPatch": {
+    "script": "content_patch.py",
+    "scope": "Six authored display/content literals only; no gameplay algorithm patch",
+    "sourceArchive": "Patched class only; original expressive message excluded"
+  }
+}
