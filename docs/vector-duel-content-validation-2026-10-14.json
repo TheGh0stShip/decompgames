@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "files": 173,
+  "counts": {
+    "texture": 71,
+    "glyph atlas": 1,
+    "mesh": 24,
+    "animation": 45,
+    "map": 1,
+    "audio": 31
+  },
+  "bytes": 1502238,
+  "originalMediaRead": false,
+  "formatOnlyNotGameplay": true
+}

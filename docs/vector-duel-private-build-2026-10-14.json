@@ -1,0 +1,108 @@
+{
+  "date": "2026-10-14",
+  "status": "Private candidate strict build; ordinary gameplay/journal and negative loading tests passed; distribution notice/source-package gates remain",
+  "sourcePatches": [
+    {
+      "path": "game.cpp",
+      "beforeSha256": "c53041479ba11289eb8d83292e565fe9d1997981b14f423988d7f1b929885bd1",
+      "afterSha256": "115a3eca9b2f53f41a1ac2799ebb989129c1244eb56974bc2be97a24a10e92b2",
+      "purpose": "Bound own animations; preserve own poses; record native round boundaries; pause with input release and frame-clock reset; prevent zero-time division; rename energy equipment"
+    },
+    {
+      "path": "main.cpp",
+      "beforeSha256": "2a27c1a3aab7b1bbf9b37488dcc7543a9ccf29fcc7a3e962302df4c4478e5dd4",
+      "afterSha256": "b51b2416da2c54f037282dcb66d9dc7fd1cc9f4629d53244bbe944cb4e308741",
+      "purpose": "Silent initialization, real-current-context renderer startup, native cleanup/Stop and read-only tick observer"
+    },
+    {
+      "path": "sound.cpp",
+      "beforeSha256": "728de276415983f291f6aeaaa894a8342d0858c553c937ddc81a9b803e7c2e60",
+      "afterSha256": "454893a9274951b6083a6259f93966ba712e65c6571944bd0956408cbd6497ec",
+      "purpose": "Explicit silent edition; no mixer/codec/audio device in selected link"
+    }
+  ],
+  "objects": [
+    {
+      "source": "game.cpp",
+      "exitCode": 0
+    },
+    {
+      "source": "input.cpp",
+      "exitCode": 0
+    },
+    {
+      "source": "main.cpp",
+      "exitCode": 0
+    },
+    {
+      "source": "models.cpp",
+      "exitCode": 0
+    },
+    {
+      "source": "observer.cpp",
+      "exitCode": 0
+    },
+    {
+      "source": "perspective.cpp",
+      "exitCode": 0
+    },
+    {
+      "source": "print.cpp",
+      "exitCode": 0
+    },
+    {
+      "source": "sound.cpp",
+      "exitCode": 0
+    },
+    {
+      "source": "textures.cpp",
+      "exitCode": 0
+    }
+  ],
+  "silentBackend": true,
+  "mixerLinked": false,
+  "originalMediaLoaded": false,
+  "runtimeFiles": [
+    {
+      "path": "game.data",
+      "bytes": 1502238,
+      "sha256": "0a36f760fb81e5e615f80e70f77822f9c8060ead8326f82130f59242138d3e5c"
+    },
+    {
+      "path": "game.js",
+      "bytes": 229278,
+      "sha256": "20d0ce01f3678184e4482770fc0a520d4659efcb12940abb0258555a008ddd78"
+    },
+    {
+      "path": "game.wasm",
+      "bytes": 1077528,
+      "sha256": "18aaba8a2a2b760b8fcdc267368efe3a1e1d8160031fda9de329bea0e640f31d"
+    },
+    {
+      "path": "index.html",
+      "bytes": 1986,
+      "sha256": "830c8f1dbd98e8b528760766f24c49d5a8e95a548c934cbd6739d348ab46bdc0"
+    },
+    {
+      "path": "player.css",
+      "bytes": 1395,
+      "sha256": "31a01a6b6fb01f198436f53d67a27bebed0f935bcdfb5347cc263429f741d38b"
+    },
+    {
+      "path": "player.js",
+      "bytes": 5389,
+      "sha256": "8458ffed2821ffe6099a51cc8d3fae24429bb3352f87b7b1af00f1943e29d3c4"
+    }
+  ],
+  "renderer": {
+    "bytes": 1941112,
+    "sha256": "38483c93ee5d74bd973234b51b61d08f508cd61d19f962b1cbe43053b18fd52f"
+  },
+  "rendererPlatformOverlay": {
+    "path": "GLES/glplatform.h",
+    "origin": "Current Emscripten6.0.10 sysroot Khronos2017 header",
+    "license": "Apache-2.0",
+    "sha256": "857bf0685ecb0dddf692157ea9ef98c95e9f58b5ed0c41b26fd3fe51ed1a3624",
+    "purpose": "Use supported SDK platform declarations rather than separately licensed historical SGI platform header; real GL backend retained"
+  }
+}

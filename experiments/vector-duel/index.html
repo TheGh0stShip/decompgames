@@ -1,0 +1,12 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Vector Duel · Foundry Deck</title><link rel="stylesheet" href="player.css"></head>
+<body data-state="loading"><main>
+<header><p class="eyebrow">Foundry Deck · silent edition</p><h1>Vector Duel</h1><p>Guide the green robot into range, strike and block. Win a round against the gold robot, then try the attacking opponent.</p></header>
+<div class="toolbar"><button id="pause" disabled>Pause</button><button id="retry" disabled>New round</button><button id="mode" disabled>Opponent: practice</button><button id="stop" disabled>Stop</button><button id="reload" hidden>Reload player</button><span>Audio unavailable</span></div>
+<p id="status" role="status" aria-live="polite">Loading the arena…</p>
+<div class="score"><span id="health">Green — · Gold —</span><span id="journal">Round journal loading…</span></div>
+<canvas id="canvas" width="640" height="480" tabindex="0" aria-label="Foundry Deck combat arena; keyboard controls below"></canvas>
+<p class="controls"><kbd>A</kbd>/<kbd>D</kbd> move · <kbd>W</kbd> jump · <kbd>R</kbd> strike · <kbd>T</kbd> block · <kbd>Q</kbd>/<kbd>E</kbd> ranged action with a compatible tool · <kbd>Z</kbd> new round · <kbd>Shift</kbd>+<kbd>Z</kbd> change tool</p>
+<p id="storage">Completed-round totals are saved in this browser. Unfinished rounds restart on reload.</p>
+<details><summary>About this edition</summary><p>A source port of David Rosen’s GLFighters, via Will Daly’s SDL port, with independently authored robot meshes, motion, pixels, glyphs and arena. This is a private release candidate. Source and runtime notices are still under review. Original game media and ROMs are excluded. Audio is disabled in this edition.</p></details>
+</main><script src="player.js"></script><script src="game.js" onerror="vectorDuelLoadFailed('The game script could not be loaded.')"></script></body></html>

@@ -1,0 +1,18 @@
+// Independently authored MIT. Negative loading/storage tests; no audible playback.
+const fs=require('fs'),path=require('path'),http=require('http'),assert=require('assert'),{chromium}=require(path.resolve('node_modules/@playwright/test'));
+const root='C:/Users/andre/AppData/Local/decomp-builds/glfighters-overgrowth-source-only-2026-10-14/vector-duel-candidate-v4',site=path.join(root,'site'),report={muted:true,cases:[]};let browser,server;
+(async()=>{try{
+ server=http.createServer((req,res)=>{const u=new URL(req.url,'http://localhost'),f=path.resolve(site,'.'+(u.pathname==='/'?'/index.html':u.pathname));if(u.pathname==='/favicon.ico'){res.writeHead(204);return res.end();}if(!f.startsWith(path.resolve(site)+path.sep)||!fs.existsSync(f)){res.writeHead(404);return res.end();}res.writeHead(200,{'Content-Type':{'.html':'text/html','.js':'application/javascript','.css':'text/css','.wasm':'application/wasm'}[path.extname(f)]||'application/octet-stream'});res.end(fs.readFileSync(f));});await new Promise(r=>server.listen(0,'127.0.0.1',r));browser=await chromium.launch({channel:'msedge',headless:true,args:['--mute-audio','--enable-unsafe-swiftshader']});
+ for(const test of ['missing-script','missing-wasm','missing-data','no-webgl','invalid-journal']){
+  const context=await browser.newContext(),page=await context.newPage(),result={test,errors:[]};page.on('pageerror',e=>result.errors.push(e.message));
+  await page.addInitScript(()=>{for(const k of ['AudioContext','webkitAudioContext'])if(window[k])window[k]=class{constructor(){throw Error('Forbidden audio initialization');}};});
+  if(test.startsWith('missing-')){const suffix={'missing-script':'game.js','missing-wasm':'game.wasm','missing-data':'game.data'}[test];await page.route('**/'+suffix,route=>route.fulfill({status:404,body:'Missing test resource'}));}
+  if(test==='no-webgl')await page.addInitScript(()=>{const get=HTMLCanvasElement.prototype.getContext;HTMLCanvasElement.prototype.getContext=function(type,...args){return type.includes('webgl')?null:get.call(this,type,...args);};});
+  if(test==='invalid-journal')await page.addInitScript(()=>localStorage.setItem('decompgames.vector-duel.foundry-v1.round-journal',JSON.stringify({version:1,practiceWins:-5,practiceLosses:2,duelWins:'bad',duelLosses:0,draws:0})));
+  await page.goto(`http://127.0.0.1:${server.address().port}/`);await page.waitForFunction(()=>['ready','failed'].includes(document.body.dataset.state),{timeout:35000});result.state=await page.locator('body').getAttribute('data-state');result.statusText=await page.locator('#status').innerText();
+  if(test==='invalid-journal'){assert.equal(result.state,'ready');assert((await page.locator('#journal').innerText()).includes('Practice 0W / 0L'));await page.locator('#stop').click();await page.waitForFunction(()=>document.body.dataset.state==='stopped');}
+  else{assert.equal(result.state,'failed');assert.equal(await page.locator('#reload').isVisible(),true);assert.equal(await page.locator('#stop').isDisabled(),true);}
+  result.nativeMessages=await page.evaluate(()=>window.probeMessages);result.status='passed';report.cases.push(result);await context.close();
+ }
+ report.status='passed';
+}catch(e){report.status='failed';report.failure=e.stack;}finally{if(browser)await browser.close();if(server)await new Promise(r=>server.close(r));report.playersClosed=true;report.serverClosed=true;fs.writeFileSync(path.join(root,'private-loading-report.json'),JSON.stringify(report,null,2)+'\n');console.log(JSON.stringify({status:report.status,cases:report.cases.length,failure:report.failure}));if(report.status!=='passed')process.exitCode=1;}})();

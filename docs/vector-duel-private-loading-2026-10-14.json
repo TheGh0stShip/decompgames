@@ -1,0 +1,73 @@
+{
+  "muted": true,
+  "cases": [
+    {
+      "test": "missing-script",
+      "errors": [],
+      "state": "failed",
+      "statusText": "The game script could not be loaded. Reload to retry.",
+      "nativeMessages": [],
+      "status": "passed"
+    },
+    {
+      "test": "missing-wasm",
+      "errors": [
+        "Aborted(both async and sync fetching of the wasm failed)"
+      ],
+      "state": "failed",
+      "statusText": "The arena could not start. Reload to retry.",
+      "nativeMessages": [
+        "stderr: wasm streaming compile failed: TypeError: Failed to execute 'compile' on 'WebAssembly': HTTP status code is not ok",
+        "stderr: falling back to ArrayBuffer instantiation",
+        "stderr: failed to asynchronously prepare wasm: both async and sync fetching of the wasm failed",
+        "stderr: Aborted(both async and sync fetching of the wasm failed)"
+      ],
+      "status": "passed"
+    },
+    {
+      "test": "missing-data",
+      "errors": [
+        "404: http://127.0.0.1:62624/game.data",
+        "404: http://127.0.0.1:62624/game.data"
+      ],
+      "state": "failed",
+      "statusText": "An arena resource could not be loaded. Reload to retry.",
+      "nativeMessages": [],
+      "status": "passed"
+    },
+    {
+      "test": "no-webgl",
+      "errors": [],
+      "state": "failed",
+      "statusText": "The arena could not start. Reload to retry.",
+      "nativeMessages": [
+        "Could not create OpenGL context. SDL_Error: Could not create EGL context (call to eglCreateContext failed, reporting an error of EGL_BAD_MATCH)"
+      ],
+      "status": "passed"
+    },
+    {
+      "test": "invalid-journal",
+      "errors": [],
+      "state": "ready",
+      "statusText": "Practice round: approach the gold robot and strike.",
+      "nativeMessages": [
+        "LIBGL: Initialising gl4es",
+        "LIBGL: v1.1.6 built on Oct 14 2026 11:39:11",
+        "LIBGL: Using GLES 2.0 backend",
+        "LIBGL: Hardware test disabled, nothing activated...",
+        "LIBGL: Targeting OpenGL 2.1",
+        "LIBGL: Not forcing NPOT support",
+        "LIBGL: Not trying to batch small subsequent glDrawXXXX",
+        "LIBGL: Trying to use VBO",
+        "LIBGL: Force texture for Attachment color0 on FBO",
+        "LIBGL: Hack to trigger a SwapBuffers when a Full Framebuffer Blit on default FBO is done",
+        "LIBGL: Current folder is:/",
+        "LIBGL: Not using PSA (prgbin_n=0, notexarray=0)"
+      ],
+      "status": "passed"
+    }
+  ],
+  "status": "passed",
+  "playersClosed": true,
+  "serverClosed": true
+}

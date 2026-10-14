@@ -1,0 +1,134 @@
+{
+  "date": "2026-10-14",
+  "edition": "Vector Duel Foundry Deck private candidate v4",
+  "classification": "Developer-released source port with independent content; not decompilation, emulation or clean-room certification",
+  "sourcePin": "4dffdbd665767baae87bec749f18d689ab53c534",
+  "rendererPin": "c9895df34cd466c23bc60c2bd3db3d87e98fcbe7",
+  "codeGrantEvidence": "MIT author notice plus porter report of original-author permission, documented in glfighters-overgrowth-source-intake-2026-10-14.md; not asset permission or private-letter inspection",
+  "content": {
+    "status": "passed",
+    "files": 173,
+    "counts": {
+      "texture": 71,
+      "glyph atlas": 1,
+      "mesh": 24,
+      "animation": 45,
+      "map": 1,
+      "audio": 31
+    },
+    "bytes": 1502238,
+    "originalMediaRead": false,
+    "formatOnlyNotGameplay": true
+  },
+  "build": {
+    "nativeObjects": 8,
+    "ownObjects": 1,
+    "undefinedSymbolsAllowed": false,
+    "rendererBuildObjects": 69,
+    "rendererExtractedMembers": 64,
+    "allExtractedMembers": 375,
+    "runtimeArchives": 10,
+    "compileInputs": 503,
+    "javascriptDefinitions": 438,
+    "javascriptLibraries": 17,
+    "observedDuplicateLinkWasmDataEqual": true,
+    "normalizedObservedJavaScriptEqual": true,
+    "rendererPlatformOverlay": {
+      "path": "GLES/glplatform.h",
+      "origin": "Current Emscripten6.0.10 sysroot Khronos2017 header",
+      "license": "Apache-2.0",
+      "sha256": "857bf0685ecb0dddf692157ea9ef98c95e9f58b5ed0c41b26fd3fe51ed1a3624",
+      "purpose": "Use supported SDK platform declarations rather than separately licensed historical SGI platform header; real GL backend retained"
+    }
+  },
+  "gameplay": {
+    "normalControlStateSamples": 157,
+    "practiceWins": 3,
+    "nativeJumpPeakY": 8.4104,
+    "landed": true,
+    "nativeDuelResult": "Green lost to attacking gold opponent",
+    "nativeDuelFinalPlayers": [
+      {
+        "x": 16.0111,
+        "y": 0.5,
+        "hp": -12,
+        "dead": 1,
+        "exists": 1,
+        "activity": 20,
+        "frame": 2,
+        "animation": 13,
+        "ai": 0
+      },
+      {
+        "x": -20,
+        "y": 0.5,
+        "hp": 100,
+        "dead": 0,
+        "exists": 1,
+        "activity": 16,
+        "frame": 4,
+        "animation": 10,
+        "ai": 1
+      }
+    ],
+    "focusPauseAndKeyRelease": true,
+    "fullBrowserRestartCompletedRoundJournal": true,
+    "nativeUnfinishedMatchSaveClaim": false,
+    "StopFreezesNativeTicks": true,
+    "positivePageErrors": [],
+    "positiveMissingResources": [],
+    "negativeCases": [
+      "missing-script",
+      "missing-wasm",
+      "missing-data",
+      "no-webgl",
+      "invalid-journal"
+    ],
+    "expectedFailureErrorsPreserved": true,
+    "playersAndServersClosed": true,
+    "muted": true,
+    "audiblePlayback": "Unavailable and unverified"
+  },
+  "failedProbesPreserved": [
+    "v1 long jump animation never demonstrated height; replaced own jump frame/rate design, no native actor-state forcing",
+    "v3 observer action forward declaration repair",
+    "First platform-overlay rebuild selected wrong source for build_info due greedy source parser; strict link rejected it; exact source/object and uniqueness assertions added",
+    "First v4 host flag collided with emitted runtime global; host now scoped and startup polling gated",
+    "Missing-media pre-init observer assertion and delayed WebGL failure repaired; actual source/compiler failure records preserved privately"
+  ],
+  "remaining": [
+    "Retain/review imported helper and system-header notices, exact SDK templates and preload generator notices",
+    "Portable allowlisted source package and complete independent rebuild replay",
+    "Final source/runtime/content packaging and local/production acceptance"
+  ],
+  "integration": {
+    "catalog": 88,
+    "strictAdditionalDecompMilestone": "4/5",
+    "entryAdded": false,
+    "deployed": false,
+    "claudeOwnedGamesTouched": false,
+    "privateROMResearchPublished": false
+  },
+  "evidence": [
+    {
+      "path": "docs/vector-duel-private-gameplay-2026-10-14.json",
+      "sha256": "1e4a6aa94d7b6cc6dbbef9697ce2d51eca2a82e3e7cc5ef6839b16ffd58831e7"
+    },
+    {
+      "path": "docs/vector-duel-private-loading-2026-10-14.json",
+      "sha256": "0e7176e5b933db88b0add3c1536150c0cdf7864820b13762ff53107244eafa9f"
+    },
+    {
+      "path": "docs/vector-duel-content-validation-2026-10-14.json",
+      "sha256": "dc552296f92f9aa0feed2b9b6352dfc035a6f9ce0242c2a609ca34afcae0d83b"
+    },
+    {
+      "path": "docs/vector-duel-private-build-2026-10-14.json",
+      "sha256": "5dd7bec6f40d7f9136b0018d7e8b20718fb2d5fddbd0f9a0995d8aca7e41b0db"
+    },
+    {
+      "path": "docs/vector-duel-runtime-mapping-2026-10-14.json",
+      "sha256": "5fb3f6a410be0a3749ac0a61ae9e9091c20a75d923756248c3bdcbd6b7621efb"
+    }
+  ]
+}
