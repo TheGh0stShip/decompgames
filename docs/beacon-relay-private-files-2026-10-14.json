@@ -1,0 +1,217 @@
+{
+  "scope": "Private source-port experiment; runtime dependency grant closure and production acceptance pending",
+  "sourceSha256": "657515f88328d0269fca3d5b83acbafb8bc61b24db7f5b6bff8a7d442fcb833d",
+  "packageSha256": "4ee7b9a1b32a1a57638e51cd809d8f507ef26de17eb27e97ef50594e791c364c",
+  "managedAssemblies": [
+    "Probe.dll",
+    "System.Collections.Concurrent.dll",
+    "System.Collections.dll",
+    "System.IO.Pipelines.dll",
+    "System.Linq.dll",
+    "System.Memory.dll",
+    "System.Numerics.Vectors.dll",
+    "System.Private.CoreLib.dll",
+    "System.Private.Uri.dll",
+    "System.Reflection.Emit.ILGeneration.dll",
+    "System.Reflection.Emit.Lightweight.dll",
+    "System.Reflection.Primitives.dll",
+    "System.Runtime.InteropServices.JavaScript.dll",
+    "System.Runtime.InteropServices.dll",
+    "System.Runtime.Intrinsics.dll",
+    "System.Runtime.Loader.dll",
+    "System.Runtime.dll",
+    "System.Text.Encoding.Extensions.dll",
+    "System.Text.Encodings.Web.dll",
+    "System.Text.Json.dll",
+    "System.Text.RegularExpressions.dll",
+    "System.Threading.ThreadPool.dll",
+    "System.Threading.dll"
+  ],
+  "files": [
+    {
+      "path": "_framework/dotnet.boot.json",
+      "bytes": 2468,
+      "sha256": "08f7c74c6341c541cd49ce8e1ad47ca0645894bace9d97e93462913d2cc0c591"
+    },
+    {
+      "path": "_framework/dotnet.js",
+      "bytes": 40677,
+      "sha256": "e8012b32573b80caf6cd05eae1d958364a383a920f33f0db31a0603485c9a123"
+    },
+    {
+      "path": "_framework/dotnet.native.js",
+      "bytes": 145424,
+      "sha256": "2a2a449a71d53efdf8e8f4babcb14364983e61e1bf0f751894723db9da4a3a24"
+    },
+    {
+      "path": "_framework/dotnet.native.wasm",
+      "bytes": 2978727,
+      "sha256": "916822a2cf79f802dd575f2a26dd33c57f7310dc5b17c89f05f74f85bf5592ac"
+    },
+    {
+      "path": "_framework/dotnet.runtime.js",
+      "bytes": 194767,
+      "sha256": "74b1a24475d6e5d8a11856d5369153cf5522795b9a48ff4594576d934731405a"
+    },
+    {
+      "path": "_framework/Probe.dll",
+      "bytes": 39936,
+      "sha256": "71c4971724233433a611a640859d2ead8ef9fc4b97b84b21b92dca130575e70e"
+    },
+    {
+      "path": "_framework/System.Collections.Concurrent.dll",
+      "bytes": 89384,
+      "sha256": "b85dfe7447a65b1b60b5340bfa6c7dbb81a8a1fa076e5904ff4ae55b4a08f797"
+    },
+    {
+      "path": "_framework/System.Collections.dll",
+      "bytes": 126248,
+      "sha256": "ef4b4fdafcfb13088269a7def6047a5554d236dc6f32cdb5fef51dbb7800aa0b"
+    },
+    {
+      "path": "_framework/System.IO.Pipelines.dll",
+      "bytes": 78160,
+      "sha256": "27889a74517ee276ea61fb3552c23c8211eb343730d7b4446e56514d882f02c3"
+    },
+    {
+      "path": "_framework/System.Linq.dll",
+      "bytes": 148776,
+      "sha256": "edf874d28c6637132fc8ea694b2c49055f8cbc69da0f741012919858d08be8d6"
+    },
+    {
+      "path": "_framework/System.Memory.dll",
+      "bytes": 55592,
+      "sha256": "0a935c18b499d43b7413de2fa18dd8780aa4072a4552795d1526604a75bb5a2c"
+    },
+    {
+      "path": "_framework/System.Numerics.Vectors.dll",
+      "bytes": 15696,
+      "sha256": "6bd7993a4657f04ae111194d2138c14ce00feeef6967ab57036bdf50b35e4bc9"
+    },
+    {
+      "path": "_framework/System.Private.CoreLib.dll",
+      "bytes": 4652368,
+      "sha256": "ecc6a128fba9e4a20958ec4633afea416c1d1efdd0d49b69540c34e83b87527c"
+    },
+    {
+      "path": "_framework/System.Private.Uri.dll",
+      "bytes": 102696,
+      "sha256": "73929c0fab61229de4ccdf90ac40a26eb994b037af79015457566564a67ae144"
+    },
+    {
+      "path": "_framework/System.Reflection.Emit.ILGeneration.dll",
+      "bytes": 15656,
+      "sha256": "107ef49bbff409d059ed176030ca8979d3904194e6e01b67a14a457739553766"
+    },
+    {
+      "path": "_framework/System.Reflection.Emit.Lightweight.dll",
+      "bytes": 15696,
+      "sha256": "8dbb4e707894673e484b17410a4b3ce8fb24364e4a72307fb756211c58e00fe0"
+    },
+    {
+      "path": "_framework/System.Reflection.Primitives.dll",
+      "bytes": 15656,
+      "sha256": "d5ac2fe2e5c607a1ed8ab8038fc5d66e54ea5a71a67e59f66f9096929936a3ab"
+    },
+    {
+      "path": "_framework/System.Runtime.dll",
+      "bytes": 44328,
+      "sha256": "da6511629adf0a29de0be491f332ad634f1395bafccd1a5b44f88e672993e209"
+    },
+    {
+      "path": "_framework/System.Runtime.InteropServices.dll",
+      "bytes": 64296,
+      "sha256": "3b06127d1cca0830cc6a93b9a5dd9a692816725b90c9923583a6997e9f2fafa1"
+    },
+    {
+      "path": "_framework/System.Runtime.InteropServices.JavaScript.dll",
+      "bytes": 85288,
+      "sha256": "7e1556569e16b999210e7cafee8f1e403f6dc63eb6d7faac8bb3ef92f7f240b8"
+    },
+    {
+      "path": "_framework/System.Runtime.Intrinsics.dll",
+      "bytes": 17192,
+      "sha256": "6d7ce7b8b4798f6a98d0693e8dbf7b09a11df8f0c2d50b9cd42ed9db961b8b07"
+    },
+    {
+      "path": "_framework/System.Runtime.Loader.dll",
+      "bytes": 15656,
+      "sha256": "22bdd32a583c2ab19a33736701c3bb8bcf23e2915d04fb880745103f71ac6e1e"
+    },
+    {
+      "path": "_framework/System.Text.Encoding.Extensions.dll",
+      "bytes": 15656,
+      "sha256": "180efefa333a97cc6a6def2ccd14dc69c3300fa726887f6fc1720c8a3ba96b59"
+    },
+    {
+      "path": "_framework/System.Text.Encodings.Web.dll",
+      "bytes": 70440,
+      "sha256": "3bd6c9463345667af634cb134f4688d5ddc8409cab75fe801225e538b6054d4a"
+    },
+    {
+      "path": "_framework/System.Text.Json.dll",
+      "bytes": 617256,
+      "sha256": "181388c8ea17d98d551659d2bb873250443303219fb179d5bbd16e70bd625260"
+    },
+    {
+      "path": "_framework/System.Text.RegularExpressions.dll",
+      "bytes": 368936,
+      "sha256": "5e032f6652b4ebe72a395600d6aa4f5c817ce1ad1aa6e50823ff85d19af78916"
+    },
+    {
+      "path": "_framework/System.Threading.dll",
+      "bytes": 44880,
+      "sha256": "5d3eca39c74edb422c802ff9d7a63cf2917b1d40c2fd2eb1945e1916a6d9ae16"
+    },
+    {
+      "path": "_framework/System.Threading.ThreadPool.dll",
+      "bytes": 15656,
+      "sha256": "553efa9f0d9e9770aebb2a5b0c445369fdbf134472232a2000b57d2e3dbaa0fd"
+    },
+    {
+      "path": "AUTHOR-SOURCE-LICENSE.txt",
+      "bytes": 1067,
+      "sha256": "096b580c9b4f487596eeda22964610685018525a5af7bbb1518f2b5e442661d6"
+    },
+    {
+      "path": "AUTHORED-CODE-LICENSE.txt",
+      "bytes": 1102,
+      "sha256": "2b6bc44b14fd25da9ca94eb32e7130d9ff2c6be792d0ffe512bf2924f94529bf"
+    },
+    {
+      "path": "boot.json",
+      "bytes": 2468,
+      "sha256": "08f7c74c6341c541cd49ce8e1ad47ca0645894bace9d97e93462913d2cc0c591"
+    },
+    {
+      "path": "CONTENT-CC0.txt",
+      "bytes": 709,
+      "sha256": "175a9a8aa4daecdfca66d22aa3de873ff4a35bccdf85a621d594a5505260bfff"
+    },
+    {
+      "path": "game.js",
+      "bytes": 7248,
+      "sha256": "cbe2dcf4fdd72bc38ba80dd565422cbb000dc83c59d7f2a57521323d57e02738"
+    },
+    {
+      "path": "index.html",
+      "bytes": 2162,
+      "sha256": "c37279e12410c397ea12681d0da3f5fd7a78512618a4b4de4498c423662d60df"
+    },
+    {
+      "path": "LICENSE.TXT",
+      "bytes": 1116,
+      "sha256": "cfc21f5e8bd655ae997eec916138b707b1d290b83272c02a95c9f821b8c87310"
+    },
+    {
+      "path": "provenance.json",
+      "bytes": 5170,
+      "sha256": "88e3ae53b18504d2d4f04c8a3111a09b24787dbc9e60cd641cd8294d8aedb39c"
+    },
+    {
+      "path": "THIRD-PARTY-NOTICES.TXT",
+      "bytes": 74244,
+      "sha256": "fa3e9d0a2c52476f04fe798d7dc4f6e7edb7b68a3d2f4d5f59a39bce957eedc8"
+    }
+  ]
+}

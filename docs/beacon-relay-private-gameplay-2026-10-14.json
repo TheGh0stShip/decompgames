@@ -1,0 +1,336 @@
+{
+  "date": "2026-10-14T14:39:12.550Z",
+  "scope": "Private minimal-runtime three-course source-port prototype; ordinary browser keyboard/buttons at 30 ticks/second. Read-only native observation. Storage fault injection is a separately labeled guard check. No original assets, no audible audio test.",
+  "phases": [
+    {
+      "name": "course-1-spawn",
+      "state": {
+        "frames": 114,
+        "course": 0,
+        "cleared": false,
+        "completed": false,
+        "player": true,
+        "x": 16,
+        "y": 112,
+        "dx": 0,
+        "dy": 0,
+        "dashes": 1,
+        "mutedAudioCalls": 6,
+        "stats": {
+          "PICO_COMPLETES": 1
+        },
+        "paused": false,
+        "stopped": false
+      }
+    },
+    {
+      "name": "course-1-native-beacon",
+      "state": {
+        "frames": 165,
+        "course": 0,
+        "cleared": true,
+        "completed": false,
+        "player": true,
+        "x": 112,
+        "y": 112,
+        "dx": 1,
+        "dy": 0,
+        "dashes": 1,
+        "mutedAudioCalls": 8,
+        "stats": {
+          "PICO_COMPLETES": 1,
+          "PICO_BERRIES": 1
+        },
+        "paused": false,
+        "stopped": false
+      }
+    },
+    {
+      "name": "course-2-spawn-and-checkpoint",
+      "state": {
+        "frames": 199,
+        "course": 1,
+        "cleared": false,
+        "completed": false,
+        "player": true,
+        "x": 16,
+        "y": 112,
+        "dx": 0,
+        "dy": 0,
+        "dashes": 1,
+        "mutedAudioCalls": 10,
+        "stats": {
+          "PICO_COMPLETES": 2,
+          "PICO_BERRIES": 1
+        },
+        "paused": false,
+        "stopped": false
+      }
+    },
+    {
+      "name": "course-2-raised-ledge",
+      "state": {
+        "frames": 225,
+        "course": 1,
+        "cleared": false,
+        "completed": false,
+        "player": true,
+        "x": 63,
+        "y": 97,
+        "dx": 1,
+        "dy": 0.835,
+        "dashes": 1,
+        "mutedAudioCalls": 12,
+        "stats": {
+          "PICO_COMPLETES": 2,
+          "PICO_BERRIES": 2
+        },
+        "paused": false,
+        "stopped": false
+      }
+    },
+    {
+      "name": "course-2-native-beacon",
+      "state": {
+        "frames": 249,
+        "course": 1,
+        "cleared": true,
+        "completed": false,
+        "player": true,
+        "x": 111,
+        "y": 112,
+        "dx": 1,
+        "dy": 0,
+        "dashes": 1,
+        "mutedAudioCalls": 13,
+        "stats": {
+          "PICO_COMPLETES": 2,
+          "PICO_BERRIES": 2
+        },
+        "paused": false,
+        "stopped": false
+      }
+    },
+    {
+      "name": "course-3-spawn-and-checkpoint",
+      "state": {
+        "frames": 283,
+        "course": 2,
+        "cleared": false,
+        "completed": false,
+        "player": true,
+        "x": 16,
+        "y": 112,
+        "dx": 0,
+        "dy": 0,
+        "dashes": 1,
+        "mutedAudioCalls": 15,
+        "stats": {
+          "PICO_COMPLETES": 3,
+          "PICO_BERRIES": 2
+        },
+        "paused": false,
+        "stopped": false
+      }
+    },
+    {
+      "name": "course-3-fall-and-respawn",
+      "state": {
+        "frames": 362,
+        "course": 2,
+        "cleared": false,
+        "completed": false,
+        "player": true,
+        "x": 16,
+        "y": 112,
+        "dx": 0,
+        "dy": 0,
+        "dashes": 1,
+        "mutedAudioCalls": 18,
+        "stats": {
+          "PICO_COMPLETES": 4,
+          "PICO_BERRIES": 2,
+          "PICO_DEATHS": 1
+        },
+        "paused": false,
+        "stopped": false
+      }
+    },
+    {
+      "name": "course-3-dash-consumed",
+      "state": {
+        "frames": 380,
+        "course": 2,
+        "cleared": false,
+        "completed": false,
+        "player": true,
+        "x": 50,
+        "y": 101,
+        "dx": 5,
+        "dy": 0,
+        "dashes": 0,
+        "mutedAudioCalls": 20,
+        "stats": {
+          "PICO_COMPLETES": 4,
+          "PICO_BERRIES": 2,
+          "PICO_DEATHS": 1
+        },
+        "paused": false,
+        "stopped": false
+      }
+    },
+    {
+      "name": "course-3-jump-dash-over-trench",
+      "state": {
+        "frames": 393,
+        "course": 2,
+        "cleared": false,
+        "completed": false,
+        "player": true,
+        "x": 84,
+        "y": 108,
+        "dx": 1,
+        "dy": 1.26,
+        "dashes": 1,
+        "mutedAudioCalls": 21,
+        "stats": {
+          "PICO_COMPLETES": 4,
+          "PICO_BERRIES": 3,
+          "PICO_DEATHS": 1
+        },
+        "paused": false,
+        "stopped": false
+      }
+    },
+    {
+      "name": "course-3-native-beacon",
+      "state": {
+        "frames": 407,
+        "course": 2,
+        "cleared": true,
+        "completed": false,
+        "player": true,
+        "x": 112,
+        "y": 112,
+        "dx": 1,
+        "dy": 0,
+        "dashes": 1,
+        "mutedAudioCalls": 22,
+        "stats": {
+          "PICO_COMPLETES": 4,
+          "PICO_BERRIES": 3,
+          "PICO_DEATHS": 1
+        },
+        "paused": false,
+        "stopped": false
+      }
+    },
+    {
+      "name": "three-courses-complete",
+      "state": {
+        "frames": 407,
+        "course": 3,
+        "cleared": false,
+        "completed": true,
+        "player": true,
+        "x": 112,
+        "y": 112,
+        "dx": 1,
+        "dy": 0,
+        "dashes": 1,
+        "mutedAudioCalls": 22,
+        "stats": {
+          "PICO_COMPLETES": 4,
+          "PICO_BERRIES": 3,
+          "PICO_DEATHS": 1
+        },
+        "paused": false,
+        "stopped": false
+      }
+    },
+    {
+      "name": "fresh-browser-durable-checkpoint-restore",
+      "state": {
+        "frames": 0,
+        "course": 3,
+        "cleared": false,
+        "completed": true,
+        "player": false,
+        "x": 0,
+        "y": 0,
+        "dx": 0,
+        "dy": 0,
+        "dashes": 0,
+        "mutedAudioCalls": 2,
+        "stats": {
+          "PICO_COMPLETES": 1
+        },
+        "paused": false,
+        "stopped": false
+      }
+    },
+    {
+      "name": "unfinished-course-checkpoint-created",
+      "state": {
+        "frames": 197,
+        "course": 1,
+        "cleared": false,
+        "completed": false,
+        "player": true,
+        "x": 16,
+        "y": 112,
+        "dx": 0,
+        "dy": 0,
+        "dashes": 1,
+        "mutedAudioCalls": 10,
+        "stats": {
+          "PICO_COMPLETES": 2,
+          "PICO_BERRIES": 1
+        },
+        "paused": false,
+        "stopped": false
+      }
+    },
+    {
+      "name": "fresh-browser-unfinished-course-resume",
+      "state": {
+        "frames": 34,
+        "course": 1,
+        "cleared": false,
+        "completed": false,
+        "player": true,
+        "x": 16,
+        "y": 112,
+        "dx": 0,
+        "dy": 0,
+        "dashes": 1,
+        "mutedAudioCalls": 3,
+        "stats": {
+          "PICO_COMPLETES": 1
+        },
+        "paused": false,
+        "stopped": false
+      }
+    }
+  ],
+  "errors": [],
+  "missing": [],
+  "external": [],
+  "audioMuted": true,
+  "briefStartTapBuffered": true,
+  "pauseHeldInputIgnored": true,
+  "checkpoint": "{\"version\":1,\"course\":3}",
+  "stopped": true,
+  "durableProfileRestart": true,
+  "unfinishedCourseDurableResume": true,
+  "canvasBlurReleasesHeldInput": true,
+  "storageFaultInjection": true,
+  "invalidCheckpointRejected": true,
+  "malformedCheckpointRejected": true,
+  "unavailableStorageReported": true,
+  "saveFailureFeedbackRetainedAcrossFrames": true,
+  "restoredPlayerStopped": true,
+  "passed": true,
+  "browserClosed": true,
+  "serverClosed": true
+}

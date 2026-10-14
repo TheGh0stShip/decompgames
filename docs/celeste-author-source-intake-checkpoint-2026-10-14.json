@@ -1,0 +1,62 @@
+{
+  "date": "2026-10-14",
+  "catalogCount": 87,
+  "strictDecompMilestone": "4/5 unchanged",
+  "duplicateMatches": [],
+  "candidate": "Celeste Classic developer C# source / Beacon Relay own three-course prototype",
+  "classification": "developer-released-source-port",
+  "integrated": false,
+  "sourceCodeGrant": "MIT explicit author archive scope; does not cover commercial Celeste assets or other forks",
+  "sourceSha256": "657515f88328d0269fca3d5b83acbafb8bc61b24db7f5b6bff8a7d442fcb833d",
+  "browserRuntime": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm 9.0.20; SDK 9.0.318; managed IL inside Mono WASM, not game AOT",
+  "runtimePackageSignatureVerification": "dotnet nuget verify --all exit 0; author Microsoft and repository NuGet.org signatures reported",
+  "privateGameplay": "all three authored courses cleared with normal browser keyboard/buttons; three lights, native dash consumption/recharge, deliberate fall and native respawn; completed checkpoint retained across full browser close/new process; Stop; muted and closed; unfinished-course durable resume, brief start tap buffering, pause/focus-loss input release, malformed/out-of-range storage and unavailable-storage feedback across subsequent frames passed in final acceptance",
+  "failedTrials": [
+    {
+      "trial": "initial browser component boot",
+      "failure": "System.Private.CoreLib.dll was absent from staged/configured coreAssembly; Mono corlib assertion before any game ticks",
+      "correction": "stage native/System.Private.CoreLib.dll with SRI; new browser run passed",
+      "claimExcluded": true
+    },
+    {
+      "trial": "first playable normal-keyboard trial",
+      "failure": "instant key down/up occurred between game ticks and did not start title",
+      "correction": "held normal-key input test; then buffer brief key-down edges through next native tick",
+      "claimExcluded": true
+    },
+    {
+      "trial": "initial checkpoint check",
+      "limit": "checkpoint bytes copied between isolated contexts; not durable storage proof",
+      "correction": "separate new browser process with same persistent profile passed without copying bytes",
+      "durableClaimExcluded": true
+    }
+  ],
+  "pendingGates": [
+    "selected native runtime/toolchain/component dependency notices, exact Emscripten/system-library provenance and runtime-wide notice applicability",
+    "browser loading-failure acceptance and source/runtime packaging after dependency grant closure",
+    "runtime/source archive with selected complete grants, reproducible package and provenance hashes",
+    "site/catalog Play/Stop integration and production ordinary-input gameplay/hash acceptance"
+  ],
+  "audioAudibleTest": false,
+  "cleanRoomCertified": false,
+  "playersStopped": true,
+  "browsersClosed": true,
+  "serversClosed": true,
+  "runtimeBuildSelection": {
+    "sourceCommit": "3879076d9a06ce098d37c3882fb1845a6627335b",
+    "emsdkVersionInPinnedProps": "3.1.56",
+    "sourceAndPackageGrantNoticeBytesIdentical": true,
+    "nativeCMakeLinks": [
+      "ICU uc/i18n",
+      "Mono interpreter/runtime and components",
+      "zlib",
+      "bundled timezones",
+      "System.Native",
+      "System.Globalization.Native",
+      "System.IO.Compression.Native"
+    ],
+    "limit": "Pinned selected recipes list link inputs, not a reproduced complete final binary linker map; invariant boot does not prove native ICU code exclusion"
+  },
+  "reproducibleFiles": 37,
+  "auditedManagedReferenceClosureCount": 23
+}

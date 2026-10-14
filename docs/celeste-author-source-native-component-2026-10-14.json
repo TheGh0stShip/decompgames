@@ -1,0 +1,62 @@
+{
+  "scope": "Original author-released Classic.cs unchanged; independently authored host and diagnostic map; scripted fixed-tick native component probe, not browser gameplay",
+  "start": {
+    "player": true,
+    "x": 16,
+    "y": 112,
+    "dx": 0,
+    "dy": 0,
+    "dashes": 1
+  },
+  "moved": {
+    "player": true,
+    "x": 52,
+    "y": 112,
+    "dx": 0,
+    "dy": 0,
+    "dashes": 1
+  },
+  "jump": {
+    "player": true,
+    "x": 52,
+    "y": 99,
+    "dx": 0,
+    "dy": -0.94999987,
+    "dashes": 1
+  },
+  "dash": {
+    "player": true,
+    "x": 72,
+    "y": 97,
+    "dx": 1.85,
+    "dy": 0.105,
+    "dashes": 0
+  },
+  "settled": {
+    "player": true,
+    "x": 90,
+    "y": 112,
+    "dx": 0,
+    "dy": 0,
+    "dashes": 1
+  },
+  "after": {
+    "player": true,
+    "x": 16,
+    "y": 112,
+    "dx": 0,
+    "dy": 0,
+    "dashes": 1
+  },
+  "stats": {
+    "PICO_COMPLETES": 2,
+    "PICO_BERRIES": 1,
+    "PICO_DEATHS": 1
+  },
+  "flagShow": false,
+  "completionStatCaveat": "PICO_COMPLETES increments in flag.init, not on collision; it is not a completion test",
+  "DrawCommands": 29587,
+  "MutedAudioCalls": 11,
+  "originalAssetInputs": 0,
+  "audibleAudio": false
+}

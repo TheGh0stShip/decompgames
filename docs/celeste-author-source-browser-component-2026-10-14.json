@@ -1,0 +1,198 @@
+{
+  "date": "2026-10-14T11:28:11.305Z",
+  "scope": "Private .NET browser-WASM portability/component probe of unchanged author-released Classic.cs and independently authored compatibility host/diagnostic map. Scripted exported input-mask ticks; no normal browser gameplay or complete renderer/campaign/save claim.",
+  "pageErrors": [],
+  "consoleErrors": [],
+  "missing": [],
+  "external": [],
+  "phases": [
+    {
+      "name": "title-jump-start",
+      "inputMask": 16,
+      "scriptedTicks": 100,
+      "state": {
+        "frames": 100,
+        "player": false,
+        "x": 0,
+        "y": 0,
+        "dx": 0,
+        "dy": 0,
+        "dashes": 0,
+        "drawCommands": 4769,
+        "mutedAudioCalls": 6,
+        "stats": {
+          "PICO_COMPLETES": 1
+        }
+      }
+    },
+    {
+      "name": "spawn-and-settle",
+      "inputMask": 0,
+      "scriptedTicks": 120,
+      "state": {
+        "frames": 220,
+        "player": true,
+        "x": 16,
+        "y": 112,
+        "dx": 0,
+        "dy": 0,
+        "dashes": 1,
+        "drawCommands": 12774,
+        "mutedAudioCalls": 6,
+        "stats": {
+          "PICO_COMPLETES": 1
+        }
+      }
+    },
+    {
+      "name": "right-held",
+      "inputMask": 2,
+      "scriptedTicks": 18,
+      "state": {
+        "frames": 238,
+        "player": true,
+        "x": 50,
+        "y": 112,
+        "dx": 1,
+        "dy": 0,
+        "dashes": 1,
+        "drawCommands": 13962,
+        "mutedAudioCalls": 6,
+        "stats": {
+          "PICO_COMPLETES": 1
+        }
+      }
+    },
+    {
+      "name": "right-released",
+      "inputMask": 0,
+      "scriptedTicks": 12,
+      "state": {
+        "frames": 250,
+        "player": true,
+        "x": 52,
+        "y": 112,
+        "dx": 0,
+        "dy": 0,
+        "dashes": 1,
+        "drawCommands": 14754,
+        "mutedAudioCalls": 7,
+        "stats": {
+          "PICO_COMPLETES": 1,
+          "PICO_BERRIES": 1
+        }
+      }
+    },
+    {
+      "name": "jump-held",
+      "inputMask": 16,
+      "scriptedTicks": 6,
+      "state": {
+        "frames": 256,
+        "player": true,
+        "x": 52,
+        "y": 99,
+        "dx": 0,
+        "dy": -0.94999987,
+        "dashes": 1,
+        "drawCommands": 15156,
+        "mutedAudioCalls": 7,
+        "stats": {
+          "PICO_COMPLETES": 1,
+          "PICO_BERRIES": 1
+        }
+      }
+    },
+    {
+      "name": "right-dash-held",
+      "inputMask": 34,
+      "scriptedTicks": 8,
+      "state": {
+        "frames": 264,
+        "player": true,
+        "x": 72,
+        "y": 97,
+        "dx": 1.85,
+        "dy": 0.105,
+        "dashes": 0,
+        "drawCommands": 15714,
+        "mutedAudioCalls": 7,
+        "stats": {
+          "PICO_COMPLETES": 1,
+          "PICO_BERRIES": 1
+        }
+      }
+    },
+    {
+      "name": "released-and-settled",
+      "inputMask": 0,
+      "scriptedTicks": 80,
+      "state": {
+        "frames": 344,
+        "player": true,
+        "x": 90,
+        "y": 112,
+        "dx": 0,
+        "dy": 0,
+        "dashes": 1,
+        "drawCommands": 21431,
+        "mutedAudioCalls": 8,
+        "stats": {
+          "PICO_COMPLETES": 1,
+          "PICO_BERRIES": 1
+        }
+      }
+    },
+    {
+      "name": "right-to-authored-gap",
+      "inputMask": 2,
+      "scriptedTicks": 40,
+      "state": {
+        "frames": 384,
+        "player": false,
+        "x": 0,
+        "y": 0,
+        "dx": 0,
+        "dy": 0,
+        "dashes": 0,
+        "drawCommands": 24237,
+        "mutedAudioCalls": 10,
+        "stats": {
+          "PICO_COMPLETES": 2,
+          "PICO_BERRIES": 1,
+          "PICO_DEATHS": 1
+        }
+      }
+    },
+    {
+      "name": "death-and-respawn",
+      "inputMask": 0,
+      "scriptedTicks": 80,
+      "state": {
+        "frames": 464,
+        "player": true,
+        "x": 16,
+        "y": 112,
+        "dx": 0,
+        "dy": 0,
+        "dashes": 1,
+        "drawCommands": 29587,
+        "mutedAudioCalls": 11,
+        "stats": {
+          "PICO_COMPLETES": 2,
+          "PICO_BERRIES": 1,
+          "PICO_DEATHS": 1
+        }
+      }
+    }
+  ],
+  "audioMuted": true,
+  "audibleTest": false,
+  "started": true,
+  "componentChecksPassed": true,
+  "completionStatNotWinProof": true,
+  "componentStopped": true,
+  "passed": true,
+  "browserClosed": true,
+  "serverClosed": true
+}

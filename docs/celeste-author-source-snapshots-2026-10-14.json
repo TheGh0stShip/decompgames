@@ -1,0 +1,51 @@
+{
+  "date": "2026-10-14",
+  "repository": "NoelFB/Celeste",
+  "pin": "1b0ce45c75e05649ae91b44a8bb6b196684e4352",
+  "starsAtRead": 3997,
+  "archived": true,
+  "treeTruncated": false,
+  "treeSha256": "79b3385e5eec95386e4df7dc431451361882c6672a6e0e4cdc92e65cd4554303",
+  "files": [
+    {
+      "repository": "NoelFB/Celeste",
+      "pin": "1b0ce45c75e05649ae91b44a8bb6b196684e4352",
+      "path": "LICENSE",
+      "url": "https://raw.githubusercontent.com/NoelFB/Celeste/1b0ce45c75e05649ae91b44a8bb6b196684e4352/LICENSE",
+      "bytes": 1067,
+      "sha256": "096b580c9b4f487596eeda22964610685018525a5af7bbb1518f2b5e442661d6"
+    },
+    {
+      "repository": "NoelFB/Celeste",
+      "pin": "1b0ce45c75e05649ae91b44a8bb6b196684e4352",
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/NoelFB/Celeste/1b0ce45c75e05649ae91b44a8bb6b196684e4352/README.md",
+      "bytes": 970,
+      "sha256": "87615045926a881a764adfea769dcc6aea998838533af70ad133acb33c432825"
+    },
+    {
+      "repository": "NoelFB/Celeste",
+      "pin": "1b0ce45c75e05649ae91b44a8bb6b196684e4352",
+      "path": "Source/PICO-8/Classic.cs",
+      "url": "https://raw.githubusercontent.com/NoelFB/Celeste/1b0ce45c75e05649ae91b44a8bb6b196684e4352/Source/PICO-8/Classic.cs",
+      "bytes": 54775,
+      "sha256": "657515f88328d0269fca3d5b83acbafb8bc61b24db7f5b6bff8a7d442fcb833d"
+    },
+    {
+      "repository": "NoelFB/Celeste",
+      "pin": "1b0ce45c75e05649ae91b44a8bb6b196684e4352",
+      "path": "Source/PICO-8/Readme.md",
+      "url": "https://raw.githubusercontent.com/NoelFB/Celeste/1b0ce45c75e05649ae91b44a8bb6b196684e4352/Source/PICO-8/Readme.md",
+      "bytes": 611,
+      "sha256": "64be81701a50f5e491232a25550f5d0e7da15ec96b74a9ff40ac306fd92596d1"
+    },
+    {
+      "repository": "NoelFB/Celeste",
+      "pin": "1b0ce45c75e05649ae91b44a8bb6b196684e4352",
+      "path": "Source/Player/Readme.md",
+      "url": "https://raw.githubusercontent.com/NoelFB/Celeste/1b0ce45c75e05649ae91b44a8bb6b196684e4352/Source/Player/Readme.md",
+      "bytes": 4311,
+      "sha256": "8112be04ce7b94eec802a74362c2bdc24165fb91971fe9c5c4be13960de1713f"
+    }
+  ]
+}

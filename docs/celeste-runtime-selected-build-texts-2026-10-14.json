@@ -1,0 +1,58 @@
+{
+  "repository": "dotnet/runtime",
+  "pin": "3879076d9a06ce098d37c3882fb1845a6627335b",
+  "scope": "Selected framework build/notice texts; no final linked-component closure claim",
+  "files": [
+    {
+      "path": "LICENSE.TXT",
+      "url": "https://raw.githubusercontent.com/dotnet/runtime/3879076d9a06ce098d37c3882fb1845a6627335b/LICENSE.TXT",
+      "bytes": 1116,
+      "sha256": "cfc21f5e8bd655ae997eec916138b707b1d290b83272c02a95c9f821b8c87310"
+    },
+    {
+      "path": "THIRD-PARTY-NOTICES.TXT",
+      "url": "https://raw.githubusercontent.com/dotnet/runtime/3879076d9a06ce098d37c3882fb1845a6627335b/THIRD-PARTY-NOTICES.TXT",
+      "bytes": 74244,
+      "sha256": "fa3e9d0a2c52476f04fe798d7dc4f6e7edb7b68a3d2f4d5f59a39bce957eedc8"
+    },
+    {
+      "path": "eng/Versions.props",
+      "url": "https://raw.githubusercontent.com/dotnet/runtime/3879076d9a06ce098d37c3882fb1845a6627335b/eng/Versions.props",
+      "bytes": 24011,
+      "sha256": "29eb9126c0a7ce9c42f9a456b89a5f88318b38e29db3a2cc459c58af5ffff172"
+    },
+    {
+      "path": "eng/Version.Details.xml",
+      "url": "https://raw.githubusercontent.com/dotnet/runtime/3879076d9a06ce098d37c3882fb1845a6627335b/eng/Version.Details.xml",
+      "bytes": 28053,
+      "sha256": "890c9ff14bf420cd53a02d4705370f8e1bf13338611242d26b3d11a7b2e4c0af"
+    },
+    {
+      "path": "src/mono/wasm/wasm.proj",
+      "url": "https://raw.githubusercontent.com/dotnet/runtime/3879076d9a06ce098d37c3882fb1845a6627335b/src/mono/wasm/wasm.proj",
+      "status": 404
+    },
+    {
+      "path": "src/mono/wasm/runtime/CMakeLists.txt",
+      "url": "https://raw.githubusercontent.com/dotnet/runtime/3879076d9a06ce098d37c3882fb1845a6627335b/src/mono/wasm/runtime/CMakeLists.txt",
+      "status": 404
+    },
+    {
+      "path": "src/mono/wasm/CMakeLists.txt",
+      "url": "https://raw.githubusercontent.com/dotnet/runtime/3879076d9a06ce098d37c3882fb1845a6627335b/src/mono/wasm/CMakeLists.txt",
+      "status": 404
+    },
+    {
+      "path": "src/mono/browser/runtime/CMakeLists.txt",
+      "url": "https://raw.githubusercontent.com/dotnet/runtime/3879076d9a06ce098d37c3882fb1845a6627335b/src/mono/browser/runtime/CMakeLists.txt",
+      "bytes": 3006,
+      "sha256": "f65d5592a642d8769c1a1a53ca7912500c3b22e2b946abe05757442a17692a1c"
+    },
+    {
+      "path": "src/mono/mono/eglib/CMakeLists.txt",
+      "url": "https://raw.githubusercontent.com/dotnet/runtime/3879076d9a06ce098d37c3882fb1845a6627335b/src/mono/mono/eglib/CMakeLists.txt",
+      "bytes": 1583,
+      "sha256": "1bbaf6fa460d9e51bdf7347dd428787c13e085be44fc6bd9f1659a0c3940e6c1"
+    }
+  ]
+}
