@@ -1,0 +1,78 @@
+{
+  "date": "2026-10-14T10:06:19.928Z",
+  "deployment": "https://962e1c46.decompgames.pages.dev",
+  "commit": "c8bcf94",
+  "checks": [
+    {
+      "url": "https://962e1c46.decompgames.pages.dev/games/open-cadet/?verify=c8bcf94",
+      "status": 200,
+      "newScopeAndOldScoreAndDatedLink": true
+    },
+    {
+      "url": "https://962e1c46.decompgames.pages.dev/manifests/open-cadet.json?verify=c8bcf94",
+      "status": 200,
+      "exactManifestMetadata": true,
+      "originalPackageRevision": "0bc12d3ca97a-authored-c51f8473a6"
+    },
+    {
+      "url": "https://decompgames.com/games/open-cadet/?verify=c8bcf94",
+      "status": 200,
+      "newScopeAndOldScoreAndDatedLink": true
+    },
+    {
+      "url": "https://decompgames.com/manifests/open-cadet.json?verify=c8bcf94",
+      "status": 200,
+      "exactManifestMetadata": true,
+      "originalPackageRevision": "0bc12d3ca97a-authored-c51f8473a6"
+    },
+    {
+      "url": "https://decompgames.com/games/mario-party-2/",
+      "status": 200,
+      "playerStarted": false
+    },
+    {
+      "url": "https://decompgames.com/games/mario-party-3/",
+      "status": 200,
+      "playerStarted": false
+    },
+    {
+      "url": "https://decompgames.com/games/halo-combat-evolved/",
+      "status": 200,
+      "playerStarted": false
+    },
+    {
+      "url": "https://decompgames.com/games/paper-rooms/",
+      "status": 200,
+      "playerStarted": false
+    },
+    {
+      "url": "https://decompgames.com/games/beacon-yard/",
+      "status": 200,
+      "playerStarted": false
+    },
+    {
+      "url": "https://decompgames.com/updates/?verify=c8bcf94",
+      "status": 200,
+      "newUpdateVisible": true
+    }
+  ],
+  "playersStarted": false,
+  "passed": true,
+  "scope": "Verification-metadata shell publication and read-only HTTP acceptance; earlier native contact player was muted/stopped/closed. No new gameplay or audio test after publication.",
+  "catalogCount": 87,
+  "matchingDecompilationMilestone": "4/5 unchanged",
+  "runtimeAndSourceBytesChanged": false,
+  "runtimeAssetUploads": 0,
+  "checksBeforePublication": {
+    "astroErrors": 0,
+    "astroWarnings": 0,
+    "existingHints": 3,
+    "catalogEntries": 87,
+    "distributionRecords": 733,
+    "auditedDistributions": 11,
+    "builtPages": 151,
+    "indexablePages": 113,
+    "feedItems": 11,
+    "otherCatalogObjectsUnchanged": 86
+  }
+}

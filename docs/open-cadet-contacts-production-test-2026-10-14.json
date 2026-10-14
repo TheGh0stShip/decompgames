@@ -389,5 +389,11 @@
     "Mario Party 2",
     "Mario Party 3",
     "Halo"
-  ]
+  ],
+  "publication": {
+    "commit": "c8bcf94",
+    "deployment": "https://962e1c46.decompgames.pages.dev",
+    "canonicalGame": "https://decompgames.com/games/open-cadet/",
+    "publicationRecord": "open-cadet-contacts-release-2026-10-14.json"
+  }
 }
