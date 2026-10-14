@@ -1,0 +1,73 @@
+{
+  "date": "2026-10-14",
+  "catalogCount": 88,
+  "decompilationMilestone": "4/5 unchanged",
+  "titlesReviewed": 4,
+  "eligibleAdditions": 0,
+  "deduplication": {
+    "fields": [
+      "id",
+      "title",
+      "aliases",
+      "source",
+      "sourceUrl",
+      "github",
+      "repository"
+    ],
+    "matches": []
+  },
+  "findings": [
+    {
+      "project": "Vorta/RecoilRebuild",
+      "title": "Recoil",
+      "pin": "1ca9763422e3d5c4bec7cd192b9156b8443037cc",
+      "classification": "Ongoing decompilation-derived native C/C++ reconstruction; no complete matching or gameplay certificate",
+      "codeGate": "Contributor MIT declaration with original-game rights reserved; inherited-code permission unresolved",
+      "dependencyGate": "MFC/Win32, Windows MCI, legacy SDK/compiler and external build references; selected transitive grants unverified",
+      "contentGate": "Original game materials excluded upstream; no full independently authored replacement pack",
+      "browserGate": "Not standalone build package; no verified end-to-end native or browser play; Windows adapter work required"
+    },
+    {
+      "project": "rainchus/glover",
+      "title": "Glover",
+      "pin": "f2d2b2824e29a5d9b00718a283a3cb243be3ca52",
+      "classification": "Incomplete matching N64 decompilation scaffold; its emulator test would be emulation",
+      "codeGate": "No identified overall grant in untruncated pinned tree",
+      "dependencyGate": "Reviewed SGI SDK header expressly proprietary/restricted; bundled old compiler binaries not fetched or executed",
+      "contentGate": "Required base ROM and extracted code/data/assembly; no independent complete pack",
+      "browserGate": "MIPS ROM generation and Mupen64Plus test, no native Web target"
+    },
+    {
+      "project": "widberg/FUELDecompilation",
+      "title": "FUEL",
+      "pin": "bd6b69976602b2758ab8559a1557fde24861f193",
+      "classification": "Partial decompilation/native reconstruction linked with original delinked object material",
+      "codeGate": "No identified overall game grant in untruncated pinned tree",
+      "dependencyGate": "Bink/XLive/DirectX/native Windows runtime; optional dmalloc and mimalloc notices do not clear default runtime or game",
+      "contentGate": "Retail installation and libfuel.obj required; no independent complete content/data pack",
+      "browserGate": "MSVC/custom Clang x86 extension checks and Windows renderer/input/threads/storage; no verified Web target"
+    },
+    {
+      "project": "andresj-sanchez/frfi-decomp",
+      "title": "Freedom Fighters",
+      "pin": "4becacf5aa16da622cbd756c70a36f2717982ff4",
+      "classification": "Work-in-progress GameCube matching-decompilation scaffold, no game-source files in pinned tree",
+      "codeGate": "Root CC0 declaration, original game/SDK permission not established",
+      "dependencyGate": "ProDG/PowerPC runtime objects and matching tooling separately unreviewed for redistribution; no SDK binary downloaded",
+      "contentGate": "Original disc and sys/main.dol required; no independent complete pack",
+      "browserGate": "No reconstructed gameplay sources or Web target, only matching toolkit scaffold"
+    }
+  ],
+  "verification": {
+    "exactTextHashes": 24,
+    "untruncatedRepositoryTrees": 4,
+    "buildsRun": 0,
+    "playersStarted": 0,
+    "runtimeUploads": 0,
+    "websiteDeployments": 0,
+    "gameplay": "unverified",
+    "audio": "unverified",
+    "cleanRoom": "not certified"
+  },
+  "scope": "Only new audit documents; existing catalog/runtime/Claude-owned work and private ROM research unchanged"
+}

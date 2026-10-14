@@ -1,0 +1,233 @@
+{
+  "date": "2026-10-14",
+  "method": "GitHub REST HEAD/tree metadata and exact allowlisted raw UTF-8 text; no archive clones, original binary/media or compiler/SDK binary packages",
+  "hashBasis": "Raw downloaded bytes; no newline conversion",
+  "textCount": 24,
+  "repositories": [
+    {
+      "repository": "Vorta/RecoilRebuild",
+      "pin": "1ca9763422e3d5c4bec7cd192b9156b8443037cc",
+      "stars": 4,
+      "treeTruncated": false,
+      "files": 283,
+      "texts": [
+        {
+          "path": "LICENSE",
+          "url": "https://raw.githubusercontent.com/Vorta/RecoilRebuild/1ca9763422e3d5c4bec7cd192b9156b8443037cc/LICENSE",
+          "bytes": 1083,
+          "sha256": "4b87f05e2bb2f58648d30e098a3dece45584a1e9a81794a61edc61723d8d8175"
+        },
+        {
+          "path": "README.md",
+          "url": "https://raw.githubusercontent.com/Vorta/RecoilRebuild/1ca9763422e3d5c4bec7cd192b9156b8443037cc/README.md",
+          "bytes": 2469,
+          "sha256": "be67e54eec551ecc024c2bd3aa753769a177a5a72a26e64e75b88d1650c447cf"
+        },
+        {
+          "path": "docs/reconstruction-status.md",
+          "url": "https://raw.githubusercontent.com/Vorta/RecoilRebuild/1ca9763422e3d5c4bec7cd192b9156b8443037cc/docs/reconstruction-status.md",
+          "bytes": 2619,
+          "sha256": "3c7942b64c54cb2b1ea010b6ef108b6bced4d10a078d24bcfdfc957614ba110a"
+        },
+        {
+          "path": "docs/source-guide.md",
+          "url": "https://raw.githubusercontent.com/Vorta/RecoilRebuild/1ca9763422e3d5c4bec7cd192b9156b8443037cc/docs/source-guide.md",
+          "bytes": 2304,
+          "sha256": "b2758a09f5131def4a4978f78222734b52a719129c2697e9a807db0fee882179"
+        },
+        {
+          "path": "src/WinMain.cpp",
+          "url": "https://raw.githubusercontent.com/Vorta/RecoilRebuild/1ca9763422e3d5c4bec7cd192b9156b8443037cc/src/WinMain.cpp",
+          "bytes": 841,
+          "sha256": "832a6314761042699882d25131cc496bd994ec786b3db4974b7d7eeb96d3dbea"
+        },
+        {
+          "path": "src/GameZRecoil/zFMV/fmv_main.cpp",
+          "url": "https://raw.githubusercontent.com/Vorta/RecoilRebuild/1ca9763422e3d5c4bec7cd192b9156b8443037cc/src/GameZRecoil/zFMV/fmv_main.cpp",
+          "bytes": 6925,
+          "sha256": "6ac77d8a76f1adb1a0afee43460d29538cd05645ff2bf727198d5e9b70ab5634"
+        }
+      ],
+      "treeInventory": {
+        "sha256": "6e057d1657df577c26fd92e2b65a5ce66bb22de6ccaeccbb31d7124f05e22ad8",
+        "entries": 283,
+        "blobs": 242,
+        "truncated": false,
+        "grantNoticePaths": [
+          "LICENSE"
+        ],
+        "gameSourceFiles": null
+      }
+    },
+    {
+      "repository": "rainchus/glover",
+      "pin": "f2d2b2824e29a5d9b00718a283a3cb243be3ca52",
+      "stars": 12,
+      "treeTruncated": false,
+      "files": 79,
+      "texts": [
+        {
+          "path": "Makefile",
+          "url": "https://raw.githubusercontent.com/rainchus/glover/f2d2b2824e29a5d9b00718a283a3cb243be3ca52/Makefile",
+          "bytes": 7032,
+          "sha256": "d15928a66ce0e108beefb01a6493a530b7598f6307691b492b1c7621273a8402"
+        },
+        {
+          "path": "glover.yaml",
+          "url": "https://raw.githubusercontent.com/rainchus/glover/f2d2b2824e29a5d9b00718a283a3cb243be3ca52/glover.yaml",
+          "bytes": 1779,
+          "sha256": "888e92aceccd56736a6dfb86dff7a815f5295ac4a3546f434e4526dc9c007b6e"
+        },
+        {
+          "path": "include/PR/os.h",
+          "url": "https://raw.githubusercontent.com/rainchus/glover/f2d2b2824e29a5d9b00718a283a3cb243be3ca52/include/PR/os.h",
+          "bytes": 29128,
+          "sha256": "a4674934d5e3472cab92daea95e599d3a4d7a82bc236e7033f79ee4f5ab151f0"
+        },
+        {
+          "path": "src/D920.c",
+          "url": "https://raw.githubusercontent.com/rainchus/glover/f2d2b2824e29a5d9b00718a283a3cb243be3ca52/src/D920.c",
+          "bytes": 2219,
+          "sha256": "f1e1c6c241c7bc6ecce67f891323927632aeca4d1ce0cc532e3bf72fa38c7640"
+        }
+      ],
+      "treeInventory": {
+        "sha256": "d4b21ab7be862f29d58144854fe74de9dcdbc1742014f091385908c4f8960236",
+        "entries": 79,
+        "blobs": 69,
+        "truncated": false,
+        "grantNoticePaths": [],
+        "gameSourceFiles": null
+      }
+    },
+    {
+      "repository": "widberg/FUELDecompilation",
+      "pin": "bd6b69976602b2758ab8559a1557fde24861f193",
+      "stars": 27,
+      "treeTruncated": false,
+      "files": 576,
+      "texts": [
+        {
+          "path": ".gitmodules",
+          "url": "https://raw.githubusercontent.com/widberg/FUELDecompilation/bd6b69976602b2758ab8559a1557fde24861f193/.gitmodules",
+          "bytes": 99,
+          "sha256": "f08956eee122e79ceb06b242fec658023ef8b7d98d7840628fb663454999487a"
+        },
+        {
+          "path": "CMakeLists.txt",
+          "url": "https://raw.githubusercontent.com/widberg/FUELDecompilation/bd6b69976602b2758ab8559a1557fde24861f193/CMakeLists.txt",
+          "bytes": 32706,
+          "sha256": "2d1e2785a5b076ad9c1852188385c0dfd11dde61b8b0145620f6c84752486601"
+        },
+        {
+          "path": "README.md",
+          "url": "https://raw.githubusercontent.com/widberg/FUELDecompilation/bd6b69976602b2758ab8559a1557fde24861f193/README.md",
+          "bytes": 3660,
+          "sha256": "127acfe691a31cf4a557eb55a27193ed9deb65aceb038a7a0cef76ba188b3fbc"
+        },
+        {
+          "path": "libs/dmalloc/LICENSE.txt",
+          "url": "https://raw.githubusercontent.com/widberg/FUELDecompilation/bd6b69976602b2758ab8559a1557fde24861f193/libs/dmalloc/LICENSE.txt",
+          "bytes": 745,
+          "sha256": "8657f6bc5ebb765dd792b2c3c54d5dc37b8b4e6bbe8aa48d464fd92081b1e720"
+        },
+        {
+          "path": "tools/comments2coffdrop.py",
+          "url": "https://raw.githubusercontent.com/widberg/FUELDecompilation/bd6b69976602b2758ab8559a1557fde24861f193/tools/comments2coffdrop.py",
+          "bytes": 9016,
+          "sha256": "4a07d9dfb9ad2549252a12b861a7854109d4d2f386846fb0304148e6b23bf58f"
+        },
+        {
+          "path": "LIBPC_Common/WinMain_Z.cpp",
+          "url": "https://raw.githubusercontent.com/widberg/FUELDecompilation/bd6b69976602b2758ab8559a1557fde24861f193/LIBPC_Common/WinMain_Z.cpp",
+          "bytes": 19803,
+          "sha256": "f997bd2160371e7a6688c7a77bb1f77a638b5dfd983b1cc440f1f96f12cbf87a"
+        }
+      ],
+      "treeInventory": {
+        "sha256": "7696e278afc18380d30cef335d0fe9ef177e4bf39bc59481d659a7639fc1d3fa",
+        "entries": 576,
+        "blobs": 549,
+        "truncated": false,
+        "grantNoticePaths": [
+          "libs/dmalloc/LICENSE.txt"
+        ],
+        "gameSourceFiles": null
+      }
+    },
+    {
+      "repository": "andresj-sanchez/frfi-decomp",
+      "pin": "4becacf5aa16da622cbd756c70a36f2717982ff4",
+      "stars": 2,
+      "treeTruncated": false,
+      "files": 48,
+      "texts": [
+        {
+          "path": "LICENSE",
+          "url": "https://raw.githubusercontent.com/andresj-sanchez/frfi-decomp/4becacf5aa16da622cbd756c70a36f2717982ff4/LICENSE",
+          "bytes": 6555,
+          "sha256": "36ffd9dc085d529a7e60e1276d73ae5a030b020313e6c5408593a6ae2af39673"
+        },
+        {
+          "path": "README.md",
+          "url": "https://raw.githubusercontent.com/andresj-sanchez/frfi-decomp/4becacf5aa16da622cbd756c70a36f2717982ff4/README.md",
+          "bytes": 3281,
+          "sha256": "cc98b57e0df27234065d49e3921575c58dca77efcd5f12a8b1f1f12bd1335781"
+        },
+        {
+          "path": "configure.py",
+          "url": "https://raw.githubusercontent.com/andresj-sanchez/frfi-decomp/4becacf5aa16da622cbd756c70a36f2717982ff4/configure.py",
+          "bytes": 8343,
+          "sha256": "f0cc614ad856688dccdf9d4dfb8718aadfc04d2cae91dd2a50968693bc612b14"
+        },
+        {
+          "path": "config/GFDE69/config.yml",
+          "url": "https://raw.githubusercontent.com/andresj-sanchez/frfi-decomp/4becacf5aa16da622cbd756c70a36f2717982ff4/config/GFDE69/config.yml",
+          "bytes": 329,
+          "sha256": "9cfd33843236b6d9872fa6ea8eda77e98c7de7219f8b96d145373d56e8360392"
+        },
+        {
+          "path": "docs/dependencies.md",
+          "url": "https://raw.githubusercontent.com/andresj-sanchez/frfi-decomp/4becacf5aa16da622cbd756c70a36f2717982ff4/docs/dependencies.md",
+          "bytes": 1409,
+          "sha256": "f4b0a1eeee9afe31e973a7474d4275066995b7d344f8972feb2ac97e7bfadc46"
+        },
+        {
+          "path": "docs/getting_started.md",
+          "url": "https://raw.githubusercontent.com/andresj-sanchez/frfi-decomp/4becacf5aa16da622cbd756c70a36f2717982ff4/docs/getting_started.md",
+          "bytes": 5286,
+          "sha256": "e0c48c8633311096b0e3096728d78681e9b6454f82baba03557720c8248e69b5"
+        },
+        {
+          "path": "tools/project.py",
+          "url": "https://raw.githubusercontent.com/andresj-sanchez/frfi-decomp/4becacf5aa16da622cbd756c70a36f2717982ff4/tools/project.py",
+          "bytes": 69203,
+          "sha256": "50f7ae26ab26fc4566e76f59c2852b6c62cd4561567f8c298dfac33aca28538f"
+        }
+      ],
+      "treeInventory": {
+        "sha256": "32a10ebe195ba66664cf83d90b8e8ee3d170b00c6a911eecb0a0f721dbec779c",
+        "entries": 48,
+        "blobs": 37,
+        "truncated": false,
+        "grantNoticePaths": [
+          "LICENSE"
+        ],
+        "gameSourceFiles": []
+      }
+    },
+    {
+      "repository": "microsoft/mimalloc",
+      "pin": "a479aaba94a9b7b1d64f5199ae018d564b34700a",
+      "role": "FUEL optional allocator gitlink; default msvcrt, not selected runtime clearance",
+      "texts": [
+        {
+          "path": "LICENSE",
+          "url": "https://raw.githubusercontent.com/microsoft/mimalloc/a479aaba94a9b7b1d64f5199ae018d564b34700a/LICENSE",
+          "bytes": 1096,
+          "sha256": "82ade5d7d9b029044b5fbbc326207fc47c2d44ee4dd71e8a559c36d728217de9"
+        }
+      ]
+    }
+  ]
+}
