@@ -1,0 +1,210 @@
+{
+  "recordedAt": "2026-10-14T07:31:10.141978+00:00",
+  "scope": "Pinned selected textual source/build/licence evidence only; not complete source or dependency closure, media acquisition, original matching/build or gameplay acceptance.",
+  "groups": [
+    {
+      "repo": "slippedandmissed/zbtools",
+      "commit": "e3c55c74a046c4925097e1bf13a2554ba61b292e",
+      "defaultBranch": "main",
+      "stars": 3,
+      "treeEntries": 18399,
+      "treeTruncated": false,
+      "records": [
+        {
+          "path": "README.md",
+          "url": "https://raw.githubusercontent.com/slippedandmissed/zbtools/e3c55c74a046c4925097e1bf13a2554ba61b292e/README.md",
+          "bytes": 9808,
+          "sha256": "adf481674184f1ae8a44a033fb615283a4dd6aec23bae093885915ee034afb88"
+        },
+        {
+          "path": "port/CMakeLists.txt",
+          "url": "https://raw.githubusercontent.com/slippedandmissed/zbtools/e3c55c74a046c4925097e1bf13a2554ba61b292e/port/CMakeLists.txt",
+          "bytes": 10047,
+          "sha256": "62716d9c7914389553525967c6f42e03de573a09bcef8c325ae8b8cdbd355d6b"
+        },
+        {
+          "path": "port/host/emscripten.cpp",
+          "url": "https://raw.githubusercontent.com/slippedandmissed/zbtools/e3c55c74a046c4925097e1bf13a2554ba61b292e/port/host/emscripten.cpp",
+          "bytes": 3536,
+          "sha256": "fffde3cdc3259ed719f977612289edd1ebf68e64e5f8c93a5fd07a24759e8c42"
+        },
+        {
+          "path": "port/web/pre.js",
+          "url": "https://raw.githubusercontent.com/slippedandmissed/zbtools/e3c55c74a046c4925097e1bf13a2554ba61b292e/port/web/pre.js",
+          "bytes": 4605,
+          "sha256": "8e3baa3eaeaad8822f490e5081a2fee0d753acfca757c035d926588f288e5697"
+        },
+        {
+          "path": "docs/src/port/web.md",
+          "url": "https://raw.githubusercontent.com/slippedandmissed/zbtools/e3c55c74a046c4925097e1bf13a2554ba61b292e/docs/src/port/web.md",
+          "bytes": 3492,
+          "sha256": "106bb81055146e540c6cb1cea109cb1f6d291beca5eb8bfaa3b6f16910e10da8"
+        },
+        {
+          "path": "src/zbtools/port.py",
+          "url": "https://raw.githubusercontent.com/slippedandmissed/zbtools/e3c55c74a046c4925097e1bf13a2554ba61b292e/src/zbtools/port.py",
+          "bytes": 32503,
+          "sha256": "4ee1feeaf24da35a130029db0fdcf1538dcb5a267954f7266e1f6fc51aa5f86d"
+        },
+        {
+          "path": "pyproject.toml",
+          "url": "https://raw.githubusercontent.com/slippedandmissed/zbtools/e3c55c74a046c4925097e1bf13a2554ba61b292e/pyproject.toml",
+          "bytes": 2784,
+          "sha256": "9398e598f69728104e291ab646ad45e7f6e67967f8a364b734b2cb4217686f28"
+        }
+      ],
+      "skippedLargeTextPaths": [],
+      "gitlinks": []
+    },
+    {
+      "repo": "HectorBailey/byte-tactics",
+      "commit": "97d7ac59b460417bcdfa629cf90da99f31818c65",
+      "defaultBranch": "main",
+      "stars": 35,
+      "treeEntries": 503,
+      "treeTruncated": false,
+      "records": [
+        {
+          "path": "LICENSE",
+          "url": "https://raw.githubusercontent.com/HectorBailey/byte-tactics/97d7ac59b460417bcdfa629cf90da99f31818c65/LICENSE",
+          "bytes": 1284,
+          "sha256": "2dd0e62294014b341494b8c4e4e0c56cb7ae45ea03d8bb3628111329846f3322"
+        },
+        {
+          "path": "README.md",
+          "url": "https://raw.githubusercontent.com/HectorBailey/byte-tactics/97d7ac59b460417bcdfa629cf90da99f31818c65/README.md",
+          "bytes": 12982,
+          "sha256": "98a65054ee316a792ab55f6de6071022c4a6bdfbe553bc34fa7fe191bedfeca1"
+        },
+        {
+          "path": "docs/linking.md",
+          "url": "https://raw.githubusercontent.com/HectorBailey/byte-tactics/97d7ac59b460417bcdfa629cf90da99f31818c65/docs/linking.md",
+          "bytes": 79200,
+          "sha256": "0c5c74ec7a4a30f2552198692bca9978c947c84e6676d2f1ef376465a86d6479"
+        },
+        {
+          "path": "tools/place.py",
+          "url": "https://raw.githubusercontent.com/HectorBailey/byte-tactics/97d7ac59b460417bcdfa629cf90da99f31818c65/tools/place.py",
+          "bytes": 117398,
+          "sha256": "0a452d6dcb66897b31abe4e96630645eebdb996bbdef77dc7864889e2bfc3068"
+        },
+        {
+          "path": "tools/link.py",
+          "url": "https://raw.githubusercontent.com/HectorBailey/byte-tactics/97d7ac59b460417bcdfa629cf90da99f31818c65/tools/link.py",
+          "bytes": 42020,
+          "sha256": "bf5ea437f18e6ed74da8e8708df57f08dc4e70e04c400bd93f53441b29342186"
+        },
+        {
+          "path": "tools/setup_toolchain.sh",
+          "url": "https://raw.githubusercontent.com/HectorBailey/byte-tactics/97d7ac59b460417bcdfa629cf90da99f31818c65/tools/setup_toolchain.sh",
+          "bytes": 6006,
+          "sha256": "b94d581d5b6e64c05db6819b4e80d7046e98adce77652744e4891b2b1e35d150"
+        }
+      ],
+      "skippedLargeTextPaths": [],
+      "gitlinks": []
+    },
+    {
+      "repo": "openprototype-game/openprototype",
+      "commit": "9085d81a67612c8bd52f4863b7d4089377935be4",
+      "defaultBranch": "main",
+      "stars": 16,
+      "treeEntries": 186,
+      "treeTruncated": false,
+      "records": [
+        {
+          "path": "LICENSE",
+          "url": "https://raw.githubusercontent.com/openprototype-game/openprototype/9085d81a67612c8bd52f4863b7d4089377935be4/LICENSE",
+          "bytes": 35150,
+          "sha256": "f891e12d75c1d914547a88ca8914530c7c89d5088e0adac37f06da85439be987"
+        },
+        {
+          "path": "README.md",
+          "url": "https://raw.githubusercontent.com/openprototype-game/openprototype/9085d81a67612c8bd52f4863b7d4089377935be4/README.md",
+          "bytes": 4788,
+          "sha256": "c5b769f59d12f7bef1ca9c2cae11d89691ae510943d44546a5f29fa74bc05bcb"
+        },
+        {
+          "path": "Cargo.toml",
+          "url": "https://raw.githubusercontent.com/openprototype-game/openprototype/9085d81a67612c8bd52f4863b7d4089377935be4/Cargo.toml",
+          "bytes": 645,
+          "sha256": "0d4ec3c319e6b81d9a8bb7cfde0c61ef0b4a25265f5a2915083abb216fefa552"
+        },
+        {
+          "path": "rust-toolchain.toml",
+          "url": "https://raw.githubusercontent.com/openprototype-game/openprototype/9085d81a67612c8bd52f4863b7d4089377935be4/rust-toolchain.toml",
+          "bytes": 64,
+          "sha256": "39a746ceb60b50ab9dc241f41b13d033a4144ed8b1c8056e4778f967860722df"
+        },
+        {
+          "path": "crates/backend/Cargo.toml",
+          "url": "https://raw.githubusercontent.com/openprototype-game/openprototype/9085d81a67612c8bd52f4863b7d4089377935be4/crates/backend/Cargo.toml",
+          "bytes": 874,
+          "sha256": "47e82cdd31fe229f5b89c793757092f819785774323039cb2103e613b011a9c6"
+        },
+        {
+          "path": "crates/game/Cargo.toml",
+          "url": "https://raw.githubusercontent.com/openprototype-game/openprototype/9085d81a67612c8bd52f4863b7d4089377935be4/crates/game/Cargo.toml",
+          "bytes": 1627,
+          "sha256": "c9cec5e9df5621be93126e9a16d690677711fb801dfdfaa30ac57c234cff592f"
+        },
+        {
+          "path": "crates/game/src/main.rs",
+          "url": "https://raw.githubusercontent.com/openprototype-game/openprototype/9085d81a67612c8bd52f4863b7d4089377935be4/crates/game/src/main.rs",
+          "bytes": 10153,
+          "sha256": "4623a60effd3d16de6db8338c6b947340cca3d531751a8aeb8b4e88135fa9100"
+        },
+        {
+          "path": "reference/formats/disc.md",
+          "url": "https://raw.githubusercontent.com/openprototype-game/openprototype/9085d81a67612c8bd52f4863b7d4089377935be4/reference/formats/disc.md",
+          "bytes": 2561,
+          "sha256": "26af3d203bad0bfb1b45c044f8cfd2c11198c4ab397dfff7fa226069478c530d"
+        }
+      ],
+      "skippedLargeTextPaths": [],
+      "gitlinks": []
+    }
+  ],
+  "completedAt": "2026-10-14T07:35:41.385692+00:00",
+  "components": [
+    {
+      "repo": "nothings/stb",
+      "commit": "2c980bb59875b0d32144a71867fbdebb2f77cd20",
+      "scope": "Exact revision referenced by Zoombinis port build; notice text only, component source/media/runtime not acquired",
+      "records": [
+        {
+          "path": "LICENSE",
+          "url": "https://raw.githubusercontent.com/nothings/stb/2c980bb59875b0d32144a71867fbdebb2f77cd20/LICENSE",
+          "bytes": 2510,
+          "sha256": "bebfe904b14301657e4e5d655c811d51fd31b97c455b9cc2d8600d6bac6cff63"
+        }
+      ]
+    },
+    {
+      "repo": "schellingb/TinySoundFont",
+      "commit": "853a0a171759f1ddba0de1442133a75912bbeffa",
+      "scope": "Exact revision referenced by Zoombinis port build; notice text only, component source/media/runtime not acquired",
+      "records": [
+        {
+          "path": "LICENSE",
+          "url": "https://raw.githubusercontent.com/schellingb/TinySoundFont/853a0a171759f1ddba0de1442133a75912bbeffa/LICENSE",
+          "bytes": 1155,
+          "sha256": "ef10cb839de73fb6d5d32ea7151979e87809a6df70dc7e7ee8457ae1c9e7aa7e"
+        }
+      ]
+    },
+    {
+      "repo": "mrbumpy409/GeneralUser-GS",
+      "commit": "684543d5e5efaef08d02be50dcda8d552478fa60",
+      "scope": "Exact revision referenced by Zoombinis port build; notice text only, component source/media/runtime not acquired",
+      "records": [
+        {
+          "path": "documentation/LICENSE.txt",
+          "url": "https://raw.githubusercontent.com/mrbumpy409/GeneralUser-GS/684543d5e5efaef08d02be50dcda8d552478fa60/documentation/LICENSE.txt",
+          "bytes": 2317,
+          "sha256": "7b32efefdf95ce38a043799f0659853ddc00fbaa14d8c50f0aca16b9b8b405be"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "recordedAt": "2026-10-14T07:39:32.147615+00:00",
+  "snapshot": "zoombinis-ta-prototype-source-snapshots-2026-10-14.json",
+  "catalogCount": 86,
+  "catalogBlobSha256": "327c3a57b881fb1cc57e955de58ba4dc073adcce4dc3360e88541220e48640ca",
+  "titleCandidates": 3,
+  "repositoryPins": 3,
+  "componentNoticePins": 3,
+  "textFiles": 24,
+  "allRecordedTextHashesVerified": true,
+  "catalogDeduplication": {
+    "zoombinis": [],
+    "total-annihilation": [],
+    "prototype-1995": []
+  },
+  "catalogDeduplicationFields": [
+    "id",
+    "title",
+    "aliases",
+    "source",
+    "engine"
+  ],
+  "eligibleAdditions": 0,
+  "buildAttempted": false,
+  "matchingClaimsLocallyReproduced": false,
+  "browserPlayerLaunched": false,
+  "gameplayTested": false,
+  "audioVerified": false,
+  "originalExternalMediaAcquired": false,
+  "romDiscExecutableLibrarySdkBinaryAcquired": false,
+  "cleanRoomCertified": false,
+  "matchingDecompilationMilestone": "4/5 unchanged",
+  "protectedTitlesUntouched": [
+    "mario-party-2",
+    "mario-party-3",
+    "halo-combat-evolved"
+  ],
+  "blockers": {
+    "total-annihilation": [
+      "MIT explicitly tools-only; reconstructed src not offered under any licence",
+      "Recovered content/resources and legacy Windows/compiler/runtime dependencies not independently closed",
+      "No verified browser build or complete independent asset package"
+    ],
+    "zoombinis": [
+      "No overall project/reconstructed-source permissive grant identified",
+      "Existing no-ISO packaging includes converted retail data and personal-use font; not independent content",
+      "Exact dependency/runtime/media provenance and silent normal gameplay/lifecycle acceptance unverified"
+    ],
+    "prototype-1995": [
+      "GPL-3.0-or-later outside current permissive route",
+      "Original mixed-mode CD data/music required; complete independent pack absent",
+      "Documented from-scratch reverse-engineered port, matching reconstruction not established; browser host/dependency/acceptance unresolved"
+    ]
+  }
+}
