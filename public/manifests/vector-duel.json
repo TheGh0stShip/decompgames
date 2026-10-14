@@ -1,0 +1,75 @@
+{
+  "id": "vector-duel",
+  "base": "/runtime/vector-duel/foundry-v1/",
+  "repository": "https://github.com/wedaly/GLFighters-SDL",
+  "sourceRevision": "4dffdbd665767baae87bec749f18d689ab53c534",
+  "rendererRevision": "c9895df34cd466c23bc60c2bd3db3d87e98fcbe7",
+  "packageRevision": "foundry-v1",
+  "classification": "Developer-released GLFighters source port with independently authored robot arena/content; not decompilation, original campaign, emulation or clean-room certificate",
+  "toolchain": "Emscripten6.0.10 / SDL2 2.32.10 / rebuilt gl4es1.1.6; native game and renderer rebuilt from corresponding source; external SDK standard objects",
+  "SDKRevision": "e566f7bdcc7735f44037911c24b87a58a3c93145",
+  "sourceArchive": "/sources/vector-duel-foundry-v1-source.zip",
+  "sourceArchiveBytes": 2881987,
+  "sourceArchiveSha256": "794a8a1bebf172400955077ff801ed3d61e936f915ee1683771c76ee0b4f2146",
+  "requirements": [
+    "Keyboard",
+    "Modern WebAssembly browser with WebGL",
+    "No ROM or original media",
+    "Silent edition"
+  ],
+  "cleanRoomCertified": false,
+  "nativeRendererRebuilt": true,
+  "wholeSDKIndependentlyRebuilt": false,
+  "files": [
+    {
+      "path": "asset-provenance.json",
+      "bytes": 76827,
+      "sha256": "df82e33eed9a9b719cf29ee6ff122ef0033a8e5a61252bf7f203c5553612a531"
+    },
+    {
+      "path": "build-inputs.json",
+      "bytes": 209784,
+      "sha256": "c37bce2df550e6c6fddaf6bd2cde9e059596422da525addff66d47d255d6a528"
+    },
+    {
+      "path": "game.data",
+      "bytes": 1502238,
+      "sha256": "0a36f760fb81e5e615f80e70f77822f9c8060ead8326f82130f59242138d3e5c"
+    },
+    {
+      "path": "game.js",
+      "bytes": 229059,
+      "sha256": "82c2744c682702f70eafc3a4c366139b6cde72f937c320fccb5c6c9c89e8336e"
+    },
+    {
+      "path": "game.wasm",
+      "bytes": 1075352,
+      "sha256": "46b71afc585b5b196faa13dafa0d7f3f44249f3ee543f6f80d456539a5b5d3d9"
+    },
+    {
+      "path": "index.html",
+      "bytes": 2089,
+      "sha256": "1b5963f14c1c95b5c9b647f88eab75b924244e65d5cd61e4fe47bef3c3ebd09a"
+    },
+    {
+      "path": "NOTICE.txt",
+      "bytes": 683741,
+      "sha256": "f44f781a934664041496936b129eab73c7f675a971dba670aa56ef6779ae2d17"
+    },
+    {
+      "path": "player.css",
+      "bytes": 1395,
+      "sha256": "31a01a6b6fb01f198436f53d67a27bebed0f935bcdfb5347cc263429f741d38b"
+    },
+    {
+      "path": "player.js",
+      "bytes": 5719,
+      "sha256": "e1cd226d68bbe3f1d3067643175e2552b63fb3038ee81e64e13121b02424ddf5"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "bytes": 1858,
+      "sha256": "ed33bdfa703e9566314c6c1e05b2387ff2925f12cf54c77b6bc607c99b8edd13"
+    }
+  ]
+}

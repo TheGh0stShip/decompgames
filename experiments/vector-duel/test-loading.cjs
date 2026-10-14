@@ -1,6 +1,6 @@
 // Independently authored MIT. Negative loading/storage tests; no audible playback.
 const fs=require('fs'),path=require('path'),http=require('http'),assert=require('assert'),{chromium}=require(path.resolve('node_modules/@playwright/test'));
-const root='C:/Users/andre/AppData/Local/decomp-builds/glfighters-overgrowth-source-only-2026-10-14/vector-duel-candidate-v4',site=path.join(root,'site'),report={muted:true,cases:[]};let browser,server;
+const root=process.env.VECTOR_DUEL_BUILD||'C:/Users/andre/AppData/Local/decomp-builds/glfighters-overgrowth-source-only-2026-10-14/vector-duel-candidate-v4',site=path.join(root,'site'),report={muted:true,cases:[]};let browser,server;
 (async()=>{try{
  server=http.createServer((req,res)=>{const u=new URL(req.url,'http://localhost'),f=path.resolve(site,'.'+(u.pathname==='/'?'/index.html':u.pathname));if(u.pathname==='/favicon.ico'){res.writeHead(204);return res.end();}if(!f.startsWith(path.resolve(site)+path.sep)||!fs.existsSync(f)){res.writeHead(404);return res.end();}res.writeHead(200,{'Content-Type':{'.html':'text/html','.js':'application/javascript','.css':'text/css','.wasm':'application/wasm'}[path.extname(f)]||'application/octet-stream'});res.end(fs.readFileSync(f));});await new Promise(r=>server.listen(0,'127.0.0.1',r));browser=await chromium.launch({channel:'msedge',headless:true,args:['--mute-audio','--enable-unsafe-swiftshader']});
  for(const test of ['missing-script','missing-wasm','missing-data','no-webgl','invalid-journal']){

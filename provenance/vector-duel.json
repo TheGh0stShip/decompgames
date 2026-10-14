@@ -1,0 +1,1580 @@
+{
+  "edition": "Vector Duel Foundry Deck v1",
+  "generator": "Independently authored MIT code; generated content CC0-1.0",
+  "contentCompleteForStartupLoaders": true,
+  "releaseComplete": true,
+  "originalMediaInputs": [],
+  "referenceInputs": [
+    "Pinned native loader path/format declarations",
+    "Own Beacon Relay CC0 glyph definitions (glyphs.json)"
+  ],
+  "audio": "Own PCM supplied; silent edition initializes no audio device",
+  "gameplay": "Standalone extracted-source rebuild verified movement, jump/landing, three native practice wins/retries, attacking-opponent loss, focus input release, completed-round journal full-browser restart, Stop and negative loading/storage cases; no original campaign/all-modes/audio claim",
+  "files": [
+    {
+      "path": "data/images/PenguinBody.bmp",
+      "bytes": 12342,
+      "sha256": "544389473d00ab0f3e1a4a3c840f4299195a9f8550b101d383392e5e93eb7d0b",
+      "kind": "texture",
+      "license": "CC0-1.0",
+      "origin": "Independently authored procedural design; no original media input",
+      "description": "Own teal/copper plates, woven diagonal grids or abstract horizon/effect patterns; no reference images"
+    },
+    {
+      "path": "data/images/PenguinFeet.bmp",
+      "bytes": 12342,
+      "sha256": "4291f16f5bd67c6549198b9cc5e1ab020112ebbbfb46ebb389e15879d738c45f",
+      "kind": "texture",
+      "license": "CC0-1.0",
+      "origin": "Independently authored procedural design; no original media input",
+      "description": "Own teal/copper plates, woven diagonal grids or abstract horizon/effect patterns; no reference images"
+    },
+    {
+      "path": "data/images/Smoke.bmp",
+      "bytes": 12342,
+      "sha256": "080dfa9cdcf92e86f33ceb2aa95ec6fef4461bf45047392c3c38a52f656449f0",
+      "kind": "texture",
+      "license": "CC0-1.0",
+      "origin": "Independently authored procedural design; no original media input",
+      "description": "Own teal/copper plates, woven diagonal grids or abstract horizon/effect patterns; no reference images"
+    },
+    {
+      "path": "data/images/Marble.bmp",
+      "bytes": 12342,
+      "sha256": "21327876b7f782508bd80087f2c949a3bca84d913bcf53fd6b45352ea1488689",
+      "kind": "texture",
+      "license": "CC0-1.0",
+      "origin": "Independently authored procedural design; no original media input",
+      "description": "Own teal/copper plates, woven diagonal grids or abstract horizon/effect patterns; no reference images"
+    },
+    {
+      "path": "data/images/Blue/Torso.bmp",
+      "bytes": 12342,
+      "sha256": "a30894eb3e27a9e271f5b37fb5d0562c0cc1907e377255040881da9bbbe80d65",
+      "kind": "texture",
+      "license": "CC0-1.0",
+      "origin": "Independently authored procedural design; no original media input",
+      "description": "Own teal/copper plates, woven diagonal grids or abstract horizon/effect patterns; no reference images"
+    },
+    {
+      "path": "data/images/Bluepurple.bmp",
+      "bytes": 12342,
+      "sha256": "4636381c091b07962cd53aaaf1f5241b40a655dfa472eed81eefadb724acd33b",
+      "kind": "texture",
+      "license": "CC0-1.0",
+      "origin": "Independently authored procedural design; no original media input",
+      "description": "Own teal/copper plates, woven diagonal grids or abstract horizon/effect patterns; no reference images"
+    },
+    {
+      "path": "data/images/Blue/Helmet.bmp",
+      "bytes": 12342,
+      "sha256": "de80f65fbac09ff658e5a1f599d0178b64616d2f411dccad03fed95d27be477a",
+      "kind": "texture",
+      "license": "CC0-1.0",
+      "origin": "Independently authored procedural design; no original media input",
+      "description": "Own teal/copper plates, woven diagonal grids or abstract horizon/effect patterns; no reference images"
+    },
+    {
+      "path": "data/images/Blue/Upperarm.bmp",
+      "bytes": 12342,
+      "sha256": "700041ce51dec333d12d8df7570817c4cabb0ea37b2c45cddce4539ebe1d95a7",
+      "kind": "texture",
+      "license": "CC0-1.0",
+      "origin": "Independently authored procedural design; no original media input",
+      "description": "Own teal/copper plates, woven diagonal grids or abstract horizon/effect patterns; no reference images"
+    },
+    {
+      "path": "data/images/Blue/Lowerleg.bmp",
+      "bytes": 12342,
+      "sha256": "6f97a8defd28e530e57e706425e7902dd8685dfa0fbdd83be5367f24fe21e068",
+      "kind": "texture",
+      "license": "CC0-1.0",
+      "origin": "Independently authored procedural design; no original media input",
+      "description": "Own teal/copper plates, woven diagonal grids or abstract horizon/effect patterns; no reference images"
+    },
+    {
+      "path": "data/images/Blue/Shoes.bmp",
+      "bytes": 12342,
+      "sha256": "8fb44fef0df6f75eb998ce4572e65f9ca55434f7afe4fe1ae4047ed543181604",
+      "kind": "texture",
+      "license": "CC0-1.0",
+      "origin": "Independently authored procedural design; no original media input",
+      "description": "Own teal/copper plates, woven diagonal grids or abstract horizon/effect patterns; no reference images"
+    },
+    {
+      "path": "data/images/Rope.bmp",
+      "bytes": 12342,
+      "sha256": "17cf5f88806687cbcc681a80b3d6af53640c5a095b98fa2ed32090109775be39",
+      "kind": "texture",
+      "license": "CC0-1.0",
+      "origin": "Independently authored procedural design; no original media input",
+      "description": "Own teal/copper plates, woven diagonal grids or abstract horizon/effect patterns; no reference images"
+    },
+    {
+      "path": "data/images/Grid.bmp",
+      "bytes": 12342,
+      "sha256": "4790cb290b5a5c14da0199c04a3bf3bf9d85ac2f57621e12e384354c2ccad048",
+      "kind": "texture",
+      "license": "CC0-1.0",
+      "origin": "Independently authored procedural design; no original media input",
+      "description": "Own teal/copper plates, woven diagonal grids or abstract horizon/effect patterns; no reference images"
+    },
+    {
+      "path": "data/images/star.bmp",
+      "bytes": 12342,
+      "sha256": "080dfa9cdcf92e86f33ceb2aa95ec6fef4461bf45047392c3c38a52f656449f0",
+      "kind": "texture",
+      "license": "CC0-1.0",
+      "origin": "Independently authored procedural design; no original media input",
+      "description": "Own teal/copper plates, woven diagonal grids or abstract horizon/effect patterns; no reference images"
+    },
+    {
+      "path": "data/images/Red/Torso.bmp",
+      "bytes": 12342,
+      "sha256": "7490cd3139bf3097973e1538c6633019bfcd1c739e611f1b193b33d5931b967c",
+      "kind": "texture",
+      "license": "CC0-1.0",
+      "origin": "Independently authored procedural design; no original media input",
+      "description": "Own teal/copper plates, woven diagonal grids or abstract horizon/effect patterns; no reference images"
+    },
+    {
+      "path": "data/images/Red/Shoes.bmp",
+      "bytes": 12342,
+      "sha256": "746cad7fb28554fbb36ea1bd48238875f400e76010c49081fd8a41576f5ec38b",
+      "kind": "texture",
+      "license": "CC0-1.0",
+      "origin": "Independently authored procedural design; no original media input",
+      "description": "Own teal/copper plates, woven diagonal grids or abstract horizon/effect patterns; no reference images"
+    },
+    {
+      "path": "data/images/Red/Helmet.bmp",
+      "bytes": 12342,
+      "sha256": "90f02e99123e806f56a0630ab827e7725f4cd041faa238ff698d7ce65ab37297",
+      "kind": "texture",
+      "license": "CC0-1.0",
+      "origin": "Independently authored procedural design; no original media input",
+      "description": "Own teal/copper plates, woven diagonal grids or abstract horizon/effect patterns; no reference images"
+    },
+    {
+      "path": "data/images/Red/Upperarm.bmp",
+      "bytes": 12342,
+      "sha256": "ff698773cb10c371c0a63b27b36e8f124f8e23e2ecd98c5d192c155ba71455c1",
+      "kind": "texture",
+      "license": "CC0-1.0",
+      "origin": "Independently authored procedural design; no original media input",
+      "description": "Own teal/copper plates, woven diagonal grids or abstract horizon/effect patterns; no reference images"
+    },
+    {
+      "path": "data/images/Red/Lowerleg.bmp",
+      "bytes": 12342,
+      "sha256": "6c76a2eaf12893e7846e6fd00e05e7dd343f8adac6a775fa0fd8c620be1505dd",
+      "kind": "texture",
+      "license": "CC0-1.0",
+      "origin": "Independently authored procedural design; no original media input",
+      "description": "Own teal/copper plates, woven diagonal grids or abstract horizon/effect patterns; no reference images"
+    },
+    {
+      "path": "data/images/Green/Torso.bmp",
+      "bytes": 12342,
+      "sha256": "39c859a76e95151679b32179c34bcf1068c5a5e7825c8a68e3e384ceb748f73c",
+      "kind": "texture",
+      "license": "CC0-1.0",
+      "origin": "Independently authored procedural design; no original media input",
+      "description": "Own teal/copper plates, woven diagonal grids or abstract horizon/effect patterns; no reference images"
+    },
+    {
+      "path": "data/images/Green/Shoes.bmp",
+      "bytes": 12342,
+      "sha256": "ff850f14e662c779d808b9f6985c8e6c97ceeec2ef1a1cc8e3ffeaf8d3ee030b",
+      "kind": "texture",
+      "license": "CC0-1.0",
+      "origin": "Independently authored procedural design; no original media input",
+      "description": "Own teal/copper plates, woven diagonal grids or abstract horizon/effect patterns; no reference images"
+    },
+    {
+      "path": "data/images/Green/Helmet.bmp",
+      "bytes": 12342,
+      "sha256": "b00fa642ea5f46203fb064efe0ce414e70315e9d6b144a2963b39458da7a9fb4",
+      "kind": "texture",
+      "license": "CC0-1.0",
+      "origin": "Independently authored procedural design; no original media input",
+      "description": "Own teal/copper plates, woven diagonal grids or abstract horizon/effect patterns; no reference images"
+    },
+    {
+      "path": "data/images/Green/Upperarm.bmp",
+      "bytes": 12342,
+      "sha256": "c9179d32f804c3ce893828d8e398b7a5786822a62940489c9efbbc502ae6516f",
+      "kind": "texture",
+      "license": "CC0-1.0",
+      "origin": "Independently authored procedural design; no original media input",
+      "description": "Own teal/copper plates, woven diagonal grids or abstract horizon/effect patterns; no reference images"
+    },
+    {
+      "path": "data/images/Green/Lowerleg.bmp",
+      "bytes": 12342,
+      "sha256": "12a7d5cc79236661b6f6aaf538501f9981c0f74ca173ad4d182aa7811351d9ce",
+      "kind": "texture",
+      "license": "CC0-1.0",
+      "origin": "Independently authored procedural design; no original media input",
+      "description": "Own teal/copper plates, woven diagonal grids or abstract horizon/effect patterns; no reference images"
+    },
+    {
+      "path": "data/images/Yellow/Torso.bmp",
+      "bytes": 12342,
+      "sha256": "b100960ff889210b4c6f1876ad076b503e5ebd6eaf4799ec79c567824493c893",
+      "kind": "texture",
+      "license": "CC0-1.0",
+      "origin": "Independently authored procedural design; no original media input",
+      "description": "Own teal/copper plates, woven diagonal grids or abstract horizon/effect patterns; no reference images"
+    },
+    {
+      "path": "data/images/Yellow/Shoes.bmp",
+      "bytes": 12342,
+      "sha256": "e14f6a403c8f8db6a22b4ee4074feda6574f0cf2033033ecffdd04c391338b8f",
+      "kind": "texture",
+      "license": "CC0-1.0",
+      "origin": "Independently authored procedural design; no original media input",
+      "description": "Own teal/copper plates, woven diagonal grids or abstract horizon/effect patterns; no reference images"
+    },
+    {
+      "path": "data/images/Yellow/Helmet.bmp",
+      "bytes": 12342,
+      "sha256": "79325eebbc72935c2b74584c6e1d967bc3eb2b4c20982330dd714df2166c3425",
+      "kind": "texture",
+      "license": "CC0-1.0",
+      "origin": "Independently authored procedural design; no original media input",
+      "description": "Own teal/copper plates, woven diagonal grids or abstract horizon/effect patterns; no reference images"
+    },
+    {
+      "path": "data/images/Yellow/Upperarm.bmp",
+      "bytes": 12342,
+      "sha256": "ad45ba66023ce279042e93a7a0029f0de5af6553557afb2becaefd60984f12f4",
+      "kind": "texture",
+      "license": "CC0-1.0",
+      "origin": "Independently authored procedural design; no original media input",
+      "description": "Own teal/copper plates, woven diagonal grids or abstract horizon/effect patterns; no reference images"
+    },
+    {
+      "path": "data/images/Yellow/Lowerleg.bmp",
+      "bytes": 12342,
+      "sha256": "7e01dc5b2e9ed5dbc498dc608dd31c2000c6907b1646b0076223a5b48743f9bc",
+      "kind": "texture",
+      "license": "CC0-1.0",
+      "origin": "Independently authored procedural design; no original media input",
+      "description": "Own teal/copper plates, woven diagonal grids or abstract horizon/effect patterns; no reference images"
+    },
+    {
+      "path": "data/images/Metal.bmp",
+      "bytes": 12342,
+      "sha256": "92981f27750d54ba155cb03d4467ae1132f3e8027a7b4a2de51a53e7880d6d58",
+      "kind": "texture",
+      "license": "CC0-1.0",
+      "origin": "Independently authored procedural design; no original media input",
+      "description": "Own teal/copper plates, woven diagonal grids or abstract horizon/effect patterns; no reference images"
+    },
+    {
+      "path": "data/images/Matrix.bmp",
+      "bytes": 12342,
+      "sha256": "82539849f1f2f610d69071cc8274ca510da95342f2ea7c38c87106b7b6aa8d91",
+      "kind": "texture",
+      "license": "CC0-1.0",
+      "origin": "Independently authored procedural design; no original media input",
+      "description": "Own teal/copper plates, woven diagonal grids or abstract horizon/effect patterns; no reference images"
+    },
+    {
+      "path": "data/images/MatrixDark.bmp",
+      "bytes": 12342,
+      "sha256": "bf2a6ee7b5adacca356933d77591582ecc97de2bc564857888e15a082a13ccc1",
+      "kind": "texture",
+      "license": "CC0-1.0",
+      "origin": "Independently authored procedural design; no original media input",
+      "description": "Own teal/copper plates, woven diagonal grids or abstract horizon/effect patterns; no reference images"
+    },
+    {
+      "path": "data/images/MetalMesh.bmp",
+      "bytes": 12342,
+      "sha256": "7a9214f13f98a7952a028cc839cfa07145b4bfba993002dc87e2912d77b39bcd",
+      "kind": "texture",
+      "license": "CC0-1.0",
+      "origin": "Independently authored procedural design; no original media input",
+      "description": "Own teal/copper plates, woven diagonal grids or abstract horizon/effect patterns; no reference images"
+    },
+    {
+      "path": "data/images/LaserRifle.bmp",
+      "bytes": 12342,
+      "sha256": "080dfa9cdcf92e86f33ceb2aa95ec6fef4461bf45047392c3c38a52f656449f0",
+      "kind": "texture",
+      "license": "CC0-1.0",
+      "origin": "Independently authored procedural design; no original media input",
+      "description": "Own teal/copper plates, woven diagonal grids or abstract horizon/effect patterns; no reference images"
+    },
+    {
+      "path": "data/images/Black/Torso.bmp",
+      "bytes": 12342,
+      "sha256": "454a85a157c7fc1df48e046d0b0fe589e0199e14f454321cf002bc7c93b336d9",
+      "kind": "texture",
+      "license": "CC0-1.0",
+      "origin": "Independently authored procedural design; no original media input",
+      "description": "Own teal/copper plates, woven diagonal grids or abstract horizon/effect patterns; no reference images"
+    },
+    {
+      "path": "data/images/Black/Shoes.bmp",
+      "bytes": 12342,
+      "sha256": "2d0d950ac188702a9c0b9074217940e77c5277c35c56f9bd9eff9b6b64b517e3",
+      "kind": "texture",
+      "license": "CC0-1.0",
+      "origin": "Independently authored procedural design; no original media input",
+      "description": "Own teal/copper plates, woven diagonal grids or abstract horizon/effect patterns; no reference images"
+    },
+    {
+      "path": "data/images/Black/Helmet.bmp",
+      "bytes": 12342,
+      "sha256": "211e94958b2e738090a64b46cf7b4c68ebf58e8f2b268c5d6eb8e50662d46194",
+      "kind": "texture",
+      "license": "CC0-1.0",
+      "origin": "Independently authored procedural design; no original media input",
+      "description": "Own teal/copper plates, woven diagonal grids or abstract horizon/effect patterns; no reference images"
+    },
+    {
+      "path": "data/images/Black/Upperarm.bmp",
+      "bytes": 12342,
+      "sha256": "9462ae291e57e174726f74f46de8723f97286ef87163c4e992ff7f6c44753031",
+      "kind": "texture",
+      "license": "CC0-1.0",
+      "origin": "Independently authored procedural design; no original media input",
+      "description": "Own teal/copper plates, woven diagonal grids or abstract horizon/effect patterns; no reference images"
+    },
+    {
+      "path": "data/images/Black/Lowerleg.bmp",
+      "bytes": 12342,
+      "sha256": "19e1e74a48153044360ce8938754e57896aa16c0acb34689594d192b38dd2c9c",
+      "kind": "texture",
+      "license": "CC0-1.0",
+      "origin": "Independently authored procedural design; no original media input",
+      "description": "Own teal/copper plates, woven diagonal grids or abstract horizon/effect patterns; no reference images"
+    },
+    {
+      "path": "data/images/Laser.bmp",
+      "bytes": 12342,
+      "sha256": "080dfa9cdcf92e86f33ceb2aa95ec6fef4461bf45047392c3c38a52f656449f0",
+      "kind": "texture",
+      "license": "CC0-1.0",
+      "origin": "Independently authored procedural design; no original media input",
+      "description": "Own teal/copper plates, woven diagonal grids or abstract horizon/effect patterns; no reference images"
+    },
+    {
+      "path": "data/images/LaserFront.bmp",
+      "bytes": 12342,
+      "sha256": "080dfa9cdcf92e86f33ceb2aa95ec6fef4461bf45047392c3c38a52f656449f0",
+      "kind": "texture",
+      "license": "CC0-1.0",
+      "origin": "Independently authored procedural design; no original media input",
+      "description": "Own teal/copper plates, woven diagonal grids or abstract horizon/effect patterns; no reference images"
+    },
+    {
+      "path": "data/images/MachineGun.bmp",
+      "bytes": 12342,
+      "sha256": "72a881062f8f93450f904832e164dd6ba9702969a19efbcfc6b27d21d613131b",
+      "kind": "texture",
+      "license": "CC0-1.0",
+      "origin": "Independently authored procedural design; no original media input",
+      "description": "Own teal/copper plates, woven diagonal grids or abstract horizon/effect patterns; no reference images"
+    },
+    {
+      "path": "data/images/Sword.bmp",
+      "bytes": 12342,
+      "sha256": "a333ea08a57d701f92488c0d02c0a36016ad79a01c9f51a7b3a6dc944b50e671",
+      "kind": "texture",
+      "license": "CC0-1.0",
+      "origin": "Independently authored procedural design; no original media input",
+      "description": "Own teal/copper plates, woven diagonal grids or abstract horizon/effect patterns; no reference images"
+    },
+    {
+      "path": "data/images/Rifle.bmp",
+      "bytes": 12342,
+      "sha256": "a3a2f0190d460a242a9f8164b7c5d85f004b3ed7353572dd5f32bee3c19b4069",
+      "kind": "texture",
+      "license": "CC0-1.0",
+      "origin": "Independently authored procedural design; no original media input",
+      "description": "Own teal/copper plates, woven diagonal grids or abstract horizon/effect patterns; no reference images"
+    },
+    {
+      "path": "data/images/Island/Right.bmp",
+      "bytes": 12342,
+      "sha256": "e10c8e31238a7e7090f97ec5cd5f18ad34f8f1883b3d801df7c6bcda59a2ed92",
+      "kind": "texture",
+      "license": "CC0-1.0",
+      "origin": "Independently authored procedural design; no original media input",
+      "description": "Own teal/copper plates, woven diagonal grids or abstract horizon/effect patterns; no reference images"
+    },
+    {
+      "path": "data/images/Island/Back.bmp",
+      "bytes": 12342,
+      "sha256": "debeffbb9ad8b097254a853d186501444fe82380ea00d39257067aca68db1b32",
+      "kind": "texture",
+      "license": "CC0-1.0",
+      "origin": "Independently authored procedural design; no original media input",
+      "description": "Own teal/copper plates, woven diagonal grids or abstract horizon/effect patterns; no reference images"
+    },
+    {
+      "path": "data/images/Island/Left.bmp",
+      "bytes": 12342,
+      "sha256": "fccea9b6ee7d692d2a4c316e022387a03b8f0acc9490807ba83035a9e2b243fc",
+      "kind": "texture",
+      "license": "CC0-1.0",
+      "origin": "Independently authored procedural design; no original media input",
+      "description": "Own teal/copper plates, woven diagonal grids or abstract horizon/effect patterns; no reference images"
+    },
+    {
+      "path": "data/images/Island/Front.bmp",
+      "bytes": 12342,
+      "sha256": "a2448aedb41e1a89b52b76f5b3eb617d0a23f416a05f7065de688ec546a21dfc",
+      "kind": "texture",
+      "license": "CC0-1.0",
+      "origin": "Independently authored procedural design; no original media input",
+      "description": "Own teal/copper plates, woven diagonal grids or abstract horizon/effect patterns; no reference images"
+    },
+    {
+      "path": "data/images/Island/Down.bmp",
+      "bytes": 12342,
+      "sha256": "0fe4cc3b43639fce85bc4e3c075b9dcea24fc32f3447ec150aeb53f010784dae",
+      "kind": "texture",
+      "license": "CC0-1.0",
+      "origin": "Independently authored procedural design; no original media input",
+      "description": "Own teal/copper plates, woven diagonal grids or abstract horizon/effect patterns; no reference images"
+    },
+    {
+      "path": "data/images/Island/Up.bmp",
+      "bytes": 12342,
+      "sha256": "fe6890e4241f9d7489c781f9b488c9265ad4d470994df3c769af6126b5b13747",
+      "kind": "texture",
+      "license": "CC0-1.0",
+      "origin": "Independently authored procedural design; no original media input",
+      "description": "Own teal/copper plates, woven diagonal grids or abstract horizon/effect patterns; no reference images"
+    },
+    {
+      "path": "data/images/JetPack.bmp",
+      "bytes": 12342,
+      "sha256": "cfbc1fbd5addc5601e88ca80bf48a6bcc6c4aef0185c592f8f2ede53d33d517a",
+      "kind": "texture",
+      "license": "CC0-1.0",
+      "origin": "Independently authored procedural design; no original media input",
+      "description": "Own teal/copper plates, woven diagonal grids or abstract horizon/effect patterns; no reference images"
+    },
+    {
+      "path": "data/images/LightSabre.bmp",
+      "bytes": 12342,
+      "sha256": "c998ea378d22811392e8536108111586d3c86dba65e4c549bb2ed36785bfbb2a",
+      "kind": "texture",
+      "license": "CC0-1.0",
+      "origin": "Independently authored procedural design; no original media input",
+      "description": "Own teal/copper plates, woven diagonal grids or abstract horizon/effect patterns; no reference images"
+    },
+    {
+      "path": "data/images/LightBlade.bmp",
+      "bytes": 12342,
+      "sha256": "080dfa9cdcf92e86f33ceb2aa95ec6fef4461bf45047392c3c38a52f656449f0",
+      "kind": "texture",
+      "license": "CC0-1.0",
+      "origin": "Independently authored procedural design; no original media input",
+      "description": "Own teal/copper plates, woven diagonal grids or abstract horizon/effect patterns; no reference images"
+    },
+    {
+      "path": "data/images/LightBladeFront.bmp",
+      "bytes": 12342,
+      "sha256": "080dfa9cdcf92e86f33ceb2aa95ec6fef4461bf45047392c3c38a52f656449f0",
+      "kind": "texture",
+      "license": "CC0-1.0",
+      "origin": "Independently authored procedural design; no original media input",
+      "description": "Own teal/copper plates, woven diagonal grids or abstract horizon/effect patterns; no reference images"
+    },
+    {
+      "path": "data/images/smokepuff.bmp",
+      "bytes": 12342,
+      "sha256": "080dfa9cdcf92e86f33ceb2aa95ec6fef4461bf45047392c3c38a52f656449f0",
+      "kind": "texture",
+      "license": "CC0-1.0",
+      "origin": "Independently authored procedural design; no original media input",
+      "description": "Own teal/copper plates, woven diagonal grids or abstract horizon/effect patterns; no reference images"
+    },
+    {
+      "path": "data/images/Lava/Right.bmp",
+      "bytes": 12342,
+      "sha256": "0fe4cc3b43639fce85bc4e3c075b9dcea24fc32f3447ec150aeb53f010784dae",
+      "kind": "texture",
+      "license": "CC0-1.0",
+      "origin": "Independently authored procedural design; no original media input",
+      "description": "Own teal/copper plates, woven diagonal grids or abstract horizon/effect patterns; no reference images"
+    },
+    {
+      "path": "data/images/Lava/Back.bmp",
+      "bytes": 12342,
+      "sha256": "fe6890e4241f9d7489c781f9b488c9265ad4d470994df3c769af6126b5b13747",
+      "kind": "texture",
+      "license": "CC0-1.0",
+      "origin": "Independently authored procedural design; no original media input",
+      "description": "Own teal/copper plates, woven diagonal grids or abstract horizon/effect patterns; no reference images"
+    },
+    {
+      "path": "data/images/Lava/Left.bmp",
+      "bytes": 12342,
+      "sha256": "fe1f6c164e6ee4e8955bff651d1be156d66ff12a970250b017d03efa1e4d5b71",
+      "kind": "texture",
+      "license": "CC0-1.0",
+      "origin": "Independently authored procedural design; no original media input",
+      "description": "Own teal/copper plates, woven diagonal grids or abstract horizon/effect patterns; no reference images"
+    },
+    {
+      "path": "data/images/Lava/Front.bmp",
+      "bytes": 12342,
+      "sha256": "e10c8e31238a7e7090f97ec5cd5f18ad34f8f1883b3d801df7c6bcda59a2ed92",
+      "kind": "texture",
+      "license": "CC0-1.0",
+      "origin": "Independently authored procedural design; no original media input",
+      "description": "Own teal/copper plates, woven diagonal grids or abstract horizon/effect patterns; no reference images"
+    },
+    {
+      "path": "data/images/Lava/Down.bmp",
+      "bytes": 12342,
+      "sha256": "debeffbb9ad8b097254a853d186501444fe82380ea00d39257067aca68db1b32",
+      "kind": "texture",
+      "license": "CC0-1.0",
+      "origin": "Independently authored procedural design; no original media input",
+      "description": "Own teal/copper plates, woven diagonal grids or abstract horizon/effect patterns; no reference images"
+    },
+    {
+      "path": "data/images/Lava/Up.bmp",
+      "bytes": 12342,
+      "sha256": "fccea9b6ee7d692d2a4c316e022387a03b8f0acc9490807ba83035a9e2b243fc",
+      "kind": "texture",
+      "license": "CC0-1.0",
+      "origin": "Independently authored procedural design; no original media input",
+      "description": "Own teal/copper plates, woven diagonal grids or abstract horizon/effect patterns; no reference images"
+    },
+    {
+      "path": "data/images/Snowy/Right.bmp",
+      "bytes": 12342,
+      "sha256": "a2448aedb41e1a89b52b76f5b3eb617d0a23f416a05f7065de688ec546a21dfc",
+      "kind": "texture",
+      "license": "CC0-1.0",
+      "origin": "Independently authored procedural design; no original media input",
+      "description": "Own teal/copper plates, woven diagonal grids or abstract horizon/effect patterns; no reference images"
+    },
+    {
+      "path": "data/images/Snowy/Back.bmp",
+      "bytes": 12342,
+      "sha256": "0fe4cc3b43639fce85bc4e3c075b9dcea24fc32f3447ec150aeb53f010784dae",
+      "kind": "texture",
+      "license": "CC0-1.0",
+      "origin": "Independently authored procedural design; no original media input",
+      "description": "Own teal/copper plates, woven diagonal grids or abstract horizon/effect patterns; no reference images"
+    },
+    {
+      "path": "data/images/Snowy/Left.bmp",
+      "bytes": 12342,
+      "sha256": "fe6890e4241f9d7489c781f9b488c9265ad4d470994df3c769af6126b5b13747",
+      "kind": "texture",
+      "license": "CC0-1.0",
+      "origin": "Independently authored procedural design; no original media input",
+      "description": "Own teal/copper plates, woven diagonal grids or abstract horizon/effect patterns; no reference images"
+    },
+    {
+      "path": "data/images/Snowy/Front.bmp",
+      "bytes": 12342,
+      "sha256": "fe1f6c164e6ee4e8955bff651d1be156d66ff12a970250b017d03efa1e4d5b71",
+      "kind": "texture",
+      "license": "CC0-1.0",
+      "origin": "Independently authored procedural design; no original media input",
+      "description": "Own teal/copper plates, woven diagonal grids or abstract horizon/effect patterns; no reference images"
+    },
+    {
+      "path": "data/images/Snowy/Down.bmp",
+      "bytes": 12342,
+      "sha256": "e10c8e31238a7e7090f97ec5cd5f18ad34f8f1883b3d801df7c6bcda59a2ed92",
+      "kind": "texture",
+      "license": "CC0-1.0",
+      "origin": "Independently authored procedural design; no original media input",
+      "description": "Own teal/copper plates, woven diagonal grids or abstract horizon/effect patterns; no reference images"
+    },
+    {
+      "path": "data/images/Snowy/Up.bmp",
+      "bytes": 12342,
+      "sha256": "debeffbb9ad8b097254a853d186501444fe82380ea00d39257067aca68db1b32",
+      "kind": "texture",
+      "license": "CC0-1.0",
+      "origin": "Independently authored procedural design; no original media input",
+      "description": "Own teal/copper plates, woven diagonal grids or abstract horizon/effect patterns; no reference images"
+    },
+    {
+      "path": "data/images/Grenskin.bmp",
+      "bytes": 12342,
+      "sha256": "d524ed69454bfcb827f86e32335fab5d11b5840cad119af6b02deee60599f84f",
+      "kind": "texture",
+      "license": "CC0-1.0",
+      "origin": "Independently authored procedural design; no original media input",
+      "description": "Own teal/copper plates, woven diagonal grids or abstract horizon/effect patterns; no reference images"
+    },
+    {
+      "path": "data/images/Grenade.bmp",
+      "bytes": 12342,
+      "sha256": "c8d7264317a7ca8a3cee1cdd6f56afc3b2d3232a509e15662c217ab1fbb9a71a",
+      "kind": "texture",
+      "license": "CC0-1.0",
+      "origin": "Independently authored procedural design; no original media input",
+      "description": "Own teal/copper plates, woven diagonal grids or abstract horizon/effect patterns; no reference images"
+    },
+    {
+      "path": "data/images/LightningGun.bmp",
+      "bytes": 12342,
+      "sha256": "080dfa9cdcf92e86f33ceb2aa95ec6fef4461bf45047392c3c38a52f656449f0",
+      "kind": "texture",
+      "license": "CC0-1.0",
+      "origin": "Independently authored procedural design; no original media input",
+      "description": "Own teal/copper plates, woven diagonal grids or abstract horizon/effect patterns; no reference images"
+    },
+    {
+      "path": "data/images/Lightning.bmp",
+      "bytes": 12342,
+      "sha256": "080dfa9cdcf92e86f33ceb2aa95ec6fef4461bf45047392c3c38a52f656449f0",
+      "kind": "texture",
+      "license": "CC0-1.0",
+      "origin": "Independently authored procedural design; no original media input",
+      "description": "Own teal/copper plates, woven diagonal grids or abstract horizon/effect patterns; no reference images"
+    },
+    {
+      "path": "data/images/BladeTrail.bmp",
+      "bytes": 12342,
+      "sha256": "080dfa9cdcf92e86f33ceb2aa95ec6fef4461bf45047392c3c38a52f656449f0",
+      "kind": "texture",
+      "license": "CC0-1.0",
+      "origin": "Independently authored procedural design; no original media input",
+      "description": "Own teal/copper plates, woven diagonal grids or abstract horizon/effect patterns; no reference images"
+    },
+    {
+      "path": "data/images/Font.bmp",
+      "bytes": 196662,
+      "sha256": "8ccb747284be697990296f2e0d0dbd01a6c0ed331246a6d98ad6a6e1bb012d9a",
+      "kind": "glyph atlas",
+      "license": "CC0-1.0",
+      "origin": "Independently authored procedural design; no original media input",
+      "description": "Reuses our Beacon Relay independently authored CC0 five-row glyphs, rescaled into native256-cell atlas"
+    },
+    {
+      "path": "data/models/Chunk",
+      "bytes": 1156,
+      "sha256": "16873ea7b47718a778e14ca96c9a03b2c336c55cf2a5d34df46683d08dd8a42a",
+      "kind": "mesh",
+      "license": "CC0-1.0",
+      "origin": "Independently authored procedural design; no original media input",
+      "description": "Own block-robot/arena/tool cuboid geometry with outward normals; dimensions fit native attachment contract"
+    },
+    {
+      "path": "data/models/Floor",
+      "bytes": 1156,
+      "sha256": "525c891b7a8e09d1189b0a71d54d43cb92035f8de1048758ef8289e92a777e57",
+      "kind": "mesh",
+      "license": "CC0-1.0",
+      "origin": "Independently authored procedural design; no original media input",
+      "description": "Own block-robot/arena/tool cuboid geometry with outward normals; dimensions fit native attachment contract"
+    },
+    {
+      "path": "data/models/Foot",
+      "bytes": 1156,
+      "sha256": "976b9291ac76f2f7fe6ad9057c12d703810de697934d1853871fec64afe44a60",
+      "kind": "mesh",
+      "license": "CC0-1.0",
+      "origin": "Independently authored procedural design; no original media input",
+      "description": "Own block-robot/arena/tool cuboid geometry with outward normals; dimensions fit native attachment contract"
+    },
+    {
+      "path": "data/models/Grenade",
+      "bytes": 1156,
+      "sha256": "16873ea7b47718a778e14ca96c9a03b2c336c55cf2a5d34df46683d08dd8a42a",
+      "kind": "mesh",
+      "license": "CC0-1.0",
+      "origin": "Independently authored procedural design; no original media input",
+      "description": "Own block-robot/arena/tool cuboid geometry with outward normals; dimensions fit native attachment contract"
+    },
+    {
+      "path": "data/models/Grenlauncher",
+      "bytes": 1156,
+      "sha256": "16873ea7b47718a778e14ca96c9a03b2c336c55cf2a5d34df46683d08dd8a42a",
+      "kind": "mesh",
+      "license": "CC0-1.0",
+      "origin": "Independently authored procedural design; no original media input",
+      "description": "Own block-robot/arena/tool cuboid geometry with outward normals; dimensions fit native attachment contract"
+    },
+    {
+      "path": "data/models/Hand",
+      "bytes": 1156,
+      "sha256": "d17ddc250925c83112e8e82d6c0bb059449f3e9f5fda80d940664daab73b8b9d",
+      "kind": "mesh",
+      "license": "CC0-1.0",
+      "origin": "Independently authored procedural design; no original media input",
+      "description": "Own block-robot/arena/tool cuboid geometry with outward normals; dimensions fit native attachment contract"
+    },
+    {
+      "path": "data/models/Head",
+      "bytes": 1156,
+      "sha256": "fa78833c5774dd5480c23738e5527c5fdff9bc13b09e3f87879de77f38369279",
+      "kind": "mesh",
+      "license": "CC0-1.0",
+      "origin": "Independently authored procedural design; no original media input",
+      "description": "Own block-robot/arena/tool cuboid geometry with outward normals; dimensions fit native attachment contract"
+    },
+    {
+      "path": "data/models/Head2",
+      "bytes": 1156,
+      "sha256": "da202806da41bec8483f6dfc45af8885729afbc0370819b90c73fcf6f8a462ef",
+      "kind": "mesh",
+      "license": "CC0-1.0",
+      "origin": "Independently authored procedural design; no original media input",
+      "description": "Own block-robot/arena/tool cuboid geometry with outward normals; dimensions fit native attachment contract"
+    },
+    {
+      "path": "data/models/Hip",
+      "bytes": 1156,
+      "sha256": "2710e2cf48e69cf638caa29c1a00459f0cea6aee869b44d507ed4c4e29b26d9b",
+      "kind": "mesh",
+      "license": "CC0-1.0",
+      "origin": "Independently authored procedural design; no original media input",
+      "description": "Own block-robot/arena/tool cuboid geometry with outward normals; dimensions fit native attachment contract"
+    },
+    {
+      "path": "data/models/JetPack",
+      "bytes": 1156,
+      "sha256": "ff925baef3d7f3488ef6e8625d24f8fb7a70abfd95bf1b169bcea211186a1d12",
+      "kind": "mesh",
+      "license": "CC0-1.0",
+      "origin": "Independently authored procedural design; no original media input",
+      "description": "Own block-robot/arena/tool cuboid geometry with outward normals; dimensions fit native attachment contract"
+    },
+    {
+      "path": "data/models/LaserRifle",
+      "bytes": 1156,
+      "sha256": "16873ea7b47718a778e14ca96c9a03b2c336c55cf2a5d34df46683d08dd8a42a",
+      "kind": "mesh",
+      "license": "CC0-1.0",
+      "origin": "Independently authored procedural design; no original media input",
+      "description": "Own block-robot/arena/tool cuboid geometry with outward normals; dimensions fit native attachment contract"
+    },
+    {
+      "path": "data/models/LightningGun",
+      "bytes": 1156,
+      "sha256": "16873ea7b47718a778e14ca96c9a03b2c336c55cf2a5d34df46683d08dd8a42a",
+      "kind": "mesh",
+      "license": "CC0-1.0",
+      "origin": "Independently authored procedural design; no original media input",
+      "description": "Own block-robot/arena/tool cuboid geometry with outward normals; dimensions fit native attachment contract"
+    },
+    {
+      "path": "data/models/LightSabre",
+      "bytes": 1156,
+      "sha256": "aa03d2512cdba9daaae89c0c2b373b36e65844b387079f1a26b8c49ae0b86d91",
+      "kind": "mesh",
+      "license": "CC0-1.0",
+      "origin": "Independently authored procedural design; no original media input",
+      "description": "Own block-robot/arena/tool cuboid geometry with outward normals; dimensions fit native attachment contract"
+    },
+    {
+      "path": "data/models/Lowerarm",
+      "bytes": 1156,
+      "sha256": "f011a57c96e963e5bd1813112aefbf30c6b849ed8ada1bde39fed3f93cfb814e",
+      "kind": "mesh",
+      "license": "CC0-1.0",
+      "origin": "Independently authored procedural design; no original media input",
+      "description": "Own block-robot/arena/tool cuboid geometry with outward normals; dimensions fit native attachment contract"
+    },
+    {
+      "path": "data/models/Lowerleg",
+      "bytes": 1156,
+      "sha256": "77413468d4f67bb5a89e62f88ecf21cb68a43ebf1d18205ec0169c93bbc6ca12",
+      "kind": "mesh",
+      "license": "CC0-1.0",
+      "origin": "Independently authored procedural design; no original media input",
+      "description": "Own block-robot/arena/tool cuboid geometry with outward normals; dimensions fit native attachment contract"
+    },
+    {
+      "path": "data/models/Machinegun",
+      "bytes": 1156,
+      "sha256": "16873ea7b47718a778e14ca96c9a03b2c336c55cf2a5d34df46683d08dd8a42a",
+      "kind": "mesh",
+      "license": "CC0-1.0",
+      "origin": "Independently authored procedural design; no original media input",
+      "description": "Own block-robot/arena/tool cuboid geometry with outward normals; dimensions fit native attachment contract"
+    },
+    {
+      "path": "data/models/One",
+      "bytes": 1156,
+      "sha256": "16873ea7b47718a778e14ca96c9a03b2c336c55cf2a5d34df46683d08dd8a42a",
+      "kind": "mesh",
+      "license": "CC0-1.0",
+      "origin": "Independently authored procedural design; no original media input",
+      "description": "Own block-robot/arena/tool cuboid geometry with outward normals; dimensions fit native attachment contract"
+    },
+    {
+      "path": "data/models/Rifle",
+      "bytes": 1156,
+      "sha256": "16873ea7b47718a778e14ca96c9a03b2c336c55cf2a5d34df46683d08dd8a42a",
+      "kind": "mesh",
+      "license": "CC0-1.0",
+      "origin": "Independently authored procedural design; no original media input",
+      "description": "Own block-robot/arena/tool cuboid geometry with outward normals; dimensions fit native attachment contract"
+    },
+    {
+      "path": "data/models/Rope",
+      "bytes": 1156,
+      "sha256": "bd6806f2df91f867dbe4980dd19b592cbd0b6f7b6abbea93d1e0fbe0b971af84",
+      "kind": "mesh",
+      "license": "CC0-1.0",
+      "origin": "Independently authored procedural design; no original media input",
+      "description": "Own block-robot/arena/tool cuboid geometry with outward normals; dimensions fit native attachment contract"
+    },
+    {
+      "path": "data/models/Sword",
+      "bytes": 1156,
+      "sha256": "8eccf341f696d685e6a9b440ce09a21200baba664e5b7a9465d27da3799e858a",
+      "kind": "mesh",
+      "license": "CC0-1.0",
+      "origin": "Independently authored procedural design; no original media input",
+      "description": "Own block-robot/arena/tool cuboid geometry with outward normals; dimensions fit native attachment contract"
+    },
+    {
+      "path": "data/models/Torso",
+      "bytes": 1156,
+      "sha256": "20b87327c2258fd3182a17a53fde13ce4cefb9f51c2448ac19299b620ff94238",
+      "kind": "mesh",
+      "license": "CC0-1.0",
+      "origin": "Independently authored procedural design; no original media input",
+      "description": "Own block-robot/arena/tool cuboid geometry with outward normals; dimensions fit native attachment contract"
+    },
+    {
+      "path": "data/models/Upperarm",
+      "bytes": 1156,
+      "sha256": "0043ce637ae772cb1c1ab51e60b62fbdfca2f0695db1a419be7b2573f19cf250",
+      "kind": "mesh",
+      "license": "CC0-1.0",
+      "origin": "Independently authored procedural design; no original media input",
+      "description": "Own block-robot/arena/tool cuboid geometry with outward normals; dimensions fit native attachment contract"
+    },
+    {
+      "path": "data/models/Upperleg",
+      "bytes": 1156,
+      "sha256": "45971bbd17852bb99e2f163bd9fe31501a576cf19f3b7374f8491b3fdea22871",
+      "kind": "mesh",
+      "license": "CC0-1.0",
+      "origin": "Independently authored procedural design; no original media input",
+      "description": "Own block-robot/arena/tool cuboid geometry with outward normals; dimensions fit native attachment contract"
+    },
+    {
+      "path": "data/models/Wall",
+      "bytes": 1156,
+      "sha256": "d8e72fafce42ba6cb43651a76357219b144f949ed562e6efb76cfc490f0171b7",
+      "kind": "mesh",
+      "license": "CC0-1.0",
+      "origin": "Independently authored procedural design; no original media input",
+      "description": "Own block-robot/arena/tool cuboid geometry with outward normals; dimensions fit native attachment contract"
+    },
+    {
+      "path": "data/animations/Idle",
+      "bytes": 1732,
+      "sha256": "d80532f166902d3adad9fe6721d0ad7f96357e8fcb56bfc51f12e5bf8ca1c4d1",
+      "kind": "animation",
+      "license": "CC0-1.0",
+      "origin": "Independently authored procedural design; no original media input",
+      "description": "Own deterministic4/8/20-frame joint-angle action design; native animation IDs retained solely as loader contracts"
+    },
+    {
+      "path": "data/animations/Idle2",
+      "bytes": 1732,
+      "sha256": "d80532f166902d3adad9fe6721d0ad7f96357e8fcb56bfc51f12e5bf8ca1c4d1",
+      "kind": "animation",
+      "license": "CC0-1.0",
+      "origin": "Independently authored procedural design; no original media input",
+      "description": "Own deterministic4/8/20-frame joint-angle action design; native animation IDs retained solely as loader contracts"
+    },
+    {
+      "path": "data/animations/Run",
+      "bytes": 1732,
+      "sha256": "7d36133eac152cc831c1e780edf8fdc0b7dd329237274126b14d6bdea880d01b",
+      "kind": "animation",
+      "license": "CC0-1.0",
+      "origin": "Independently authored procedural design; no original media input",
+      "description": "Own deterministic4/8/20-frame joint-angle action design; native animation IDs retained solely as loader contracts"
+    },
+    {
+      "path": "data/animations/Duck",
+      "bytes": 4324,
+      "sha256": "91950cdf1b720fec363d2ec077b3efd75b6a43cf8342c98e4596911b3dc40d82",
+      "kind": "animation",
+      "license": "CC0-1.0",
+      "origin": "Independently authored procedural design; no original media input",
+      "description": "Own deterministic4/8/20-frame joint-angle action design; native animation IDs retained solely as loader contracts"
+    },
+    {
+      "path": "data/animations/Falling",
+      "bytes": 4324,
+      "sha256": "28ab300fd20243c345fe4d1a10e632fbe2bee12ab3a2d30325a12e4065b56494",
+      "kind": "animation",
+      "license": "CC0-1.0",
+      "origin": "Independently authored procedural design; no original media input",
+      "description": "Own deterministic4/8/20-frame joint-angle action design; native animation IDs retained solely as loader contracts"
+    },
+    {
+      "path": "data/animations/RopeClimb",
+      "bytes": 4324,
+      "sha256": "ed048f8ef52ac07313f98eac275bf06b3e42852157511f4b6ca2919e725ba0a3",
+      "kind": "animation",
+      "license": "CC0-1.0",
+      "origin": "Independently authored procedural design; no original media input",
+      "description": "Own deterministic4/8/20-frame joint-angle action design; native animation IDs retained solely as loader contracts"
+    },
+    {
+      "path": "data/animations/JumpStraight",
+      "bytes": 868,
+      "sha256": "d3ca54dd3b202b113cf3770deb5ae36b30b04c6ff9700b17b4fb31702bb9bdbf",
+      "kind": "animation",
+      "license": "CC0-1.0",
+      "origin": "Independently authored procedural design; no original media input",
+      "description": "Own deterministic4/8/20-frame joint-angle action design; native animation IDs retained solely as loader contracts"
+    },
+    {
+      "path": "data/animations/Flip",
+      "bytes": 4324,
+      "sha256": "e4e95f2583e1fe08453279cc92c0147b49dd91000df0a3753bd38dcec5d0143d",
+      "kind": "animation",
+      "license": "CC0-1.0",
+      "origin": "Independently authored procedural design; no original media input",
+      "description": "Own deterministic4/8/20-frame joint-angle action design; native animation IDs retained solely as loader contracts"
+    },
+    {
+      "path": "data/animations/Roll",
+      "bytes": 4324,
+      "sha256": "e4e95f2583e1fe08453279cc92c0147b49dd91000df0a3753bd38dcec5d0143d",
+      "kind": "animation",
+      "license": "CC0-1.0",
+      "origin": "Independently authored procedural design; no original media input",
+      "description": "Own deterministic4/8/20-frame joint-angle action design; native animation IDs retained solely as loader contracts"
+    },
+    {
+      "path": "data/animations/Splat",
+      "bytes": 4324,
+      "sha256": "28ab300fd20243c345fe4d1a10e632fbe2bee12ab3a2d30325a12e4065b56494",
+      "kind": "animation",
+      "license": "CC0-1.0",
+      "origin": "Independently authored procedural design; no original media input",
+      "description": "Own deterministic4/8/20-frame joint-angle action design; native animation IDs retained solely as loader contracts"
+    },
+    {
+      "path": "data/animations/Shoot Left w_ right hand",
+      "bytes": 4324,
+      "sha256": "bb7a1097bc4fb88fb86a06428c032cb6ce61ebc2140e9a1a960f2ff2b89b0027",
+      "kind": "animation",
+      "license": "CC0-1.0",
+      "origin": "Independently authored procedural design; no original media input",
+      "description": "Own deterministic4/8/20-frame joint-angle action design; native animation IDs retained solely as loader contracts"
+    },
+    {
+      "path": "data/animations/Wallhit",
+      "bytes": 4324,
+      "sha256": "28ab300fd20243c345fe4d1a10e632fbe2bee12ab3a2d30325a12e4065b56494",
+      "kind": "animation",
+      "license": "CC0-1.0",
+      "origin": "Independently authored procedural design; no original media input",
+      "description": "Own deterministic4/8/20-frame joint-angle action design; native animation IDs retained solely as loader contracts"
+    },
+    {
+      "path": "data/animations/Gah",
+      "bytes": 4324,
+      "sha256": "28ab300fd20243c345fe4d1a10e632fbe2bee12ab3a2d30325a12e4065b56494",
+      "kind": "animation",
+      "license": "CC0-1.0",
+      "origin": "Independently authored procedural design; no original media input",
+      "description": "Own deterministic4/8/20-frame joint-angle action design; native animation IDs retained solely as loader contracts"
+    },
+    {
+      "path": "data/animations/FallBackwards",
+      "bytes": 4324,
+      "sha256": "28ab300fd20243c345fe4d1a10e632fbe2bee12ab3a2d30325a12e4065b56494",
+      "kind": "animation",
+      "license": "CC0-1.0",
+      "origin": "Independently authored procedural design; no original media input",
+      "description": "Own deterministic4/8/20-frame joint-angle action design; native animation IDs retained solely as loader contracts"
+    },
+    {
+      "path": "data/animations/LandBackwards",
+      "bytes": 4324,
+      "sha256": "28ab300fd20243c345fe4d1a10e632fbe2bee12ab3a2d30325a12e4065b56494",
+      "kind": "animation",
+      "license": "CC0-1.0",
+      "origin": "Independently authored procedural design; no original media input",
+      "description": "Own deterministic4/8/20-frame joint-angle action design; native animation IDs retained solely as loader contracts"
+    },
+    {
+      "path": "data/animations/Die",
+      "bytes": 4324,
+      "sha256": "28ab300fd20243c345fe4d1a10e632fbe2bee12ab3a2d30325a12e4065b56494",
+      "kind": "animation",
+      "license": "CC0-1.0",
+      "origin": "Independently authored procedural design; no original media input",
+      "description": "Own deterministic4/8/20-frame joint-angle action design; native animation IDs retained solely as loader contracts"
+    },
+    {
+      "path": "data/animations/NeckBreaker",
+      "bytes": 4324,
+      "sha256": "1dfd8c700bfa16e58d24c4592b80605b4e32bde34fe794664e7611de5da90172",
+      "kind": "animation",
+      "license": "CC0-1.0",
+      "origin": "Independently authored procedural design; no original media input",
+      "description": "Own deterministic4/8/20-frame joint-angle action design; native animation IDs retained solely as loader contracts"
+    },
+    {
+      "path": "data/animations/NeckBreakee",
+      "bytes": 4324,
+      "sha256": "28ab300fd20243c345fe4d1a10e632fbe2bee12ab3a2d30325a12e4065b56494",
+      "kind": "animation",
+      "license": "CC0-1.0",
+      "origin": "Independently authored procedural design; no original media input",
+      "description": "Own deterministic4/8/20-frame joint-angle action design; native animation IDs retained solely as loader contracts"
+    },
+    {
+      "path": "data/animations/Stabber",
+      "bytes": 4324,
+      "sha256": "bb7a1097bc4fb88fb86a06428c032cb6ce61ebc2140e9a1a960f2ff2b89b0027",
+      "kind": "animation",
+      "license": "CC0-1.0",
+      "origin": "Independently authored procedural design; no original media input",
+      "description": "Own deterministic4/8/20-frame joint-angle action design; native animation IDs retained solely as loader contracts"
+    },
+    {
+      "path": "data/animations/Stabbee",
+      "bytes": 4324,
+      "sha256": "bb7a1097bc4fb88fb86a06428c032cb6ce61ebc2140e9a1a960f2ff2b89b0027",
+      "kind": "animation",
+      "license": "CC0-1.0",
+      "origin": "Independently authored procedural design; no original media input",
+      "description": "Own deterministic4/8/20-frame joint-angle action design; native animation IDs retained solely as loader contracts"
+    },
+    {
+      "path": "data/animations/Thrower",
+      "bytes": 4324,
+      "sha256": "1dfd8c700bfa16e58d24c4592b80605b4e32bde34fe794664e7611de5da90172",
+      "kind": "animation",
+      "license": "CC0-1.0",
+      "origin": "Independently authored procedural design; no original media input",
+      "description": "Own deterministic4/8/20-frame joint-angle action design; native animation IDs retained solely as loader contracts"
+    },
+    {
+      "path": "data/animations/Throwee",
+      "bytes": 4324,
+      "sha256": "28ab300fd20243c345fe4d1a10e632fbe2bee12ab3a2d30325a12e4065b56494",
+      "kind": "animation",
+      "license": "CC0-1.0",
+      "origin": "Independently authored procedural design; no original media input",
+      "description": "Own deterministic4/8/20-frame joint-angle action design; native animation IDs retained solely as loader contracts"
+    },
+    {
+      "path": "data/animations/Pain1",
+      "bytes": 4324,
+      "sha256": "28ab300fd20243c345fe4d1a10e632fbe2bee12ab3a2d30325a12e4065b56494",
+      "kind": "animation",
+      "license": "CC0-1.0",
+      "origin": "Independently authored procedural design; no original media input",
+      "description": "Own deterministic4/8/20-frame joint-angle action design; native animation IDs retained solely as loader contracts"
+    },
+    {
+      "path": "data/animations/Pain2",
+      "bytes": 4324,
+      "sha256": "28ab300fd20243c345fe4d1a10e632fbe2bee12ab3a2d30325a12e4065b56494",
+      "kind": "animation",
+      "license": "CC0-1.0",
+      "origin": "Independently authored procedural design; no original media input",
+      "description": "Own deterministic4/8/20-frame joint-angle action design; native animation IDs retained solely as loader contracts"
+    },
+    {
+      "path": "data/animations/GetUpFromBack",
+      "bytes": 4324,
+      "sha256": "1dfd8c700bfa16e58d24c4592b80605b4e32bde34fe794664e7611de5da90172",
+      "kind": "animation",
+      "license": "CC0-1.0",
+      "origin": "Independently authored procedural design; no original media input",
+      "description": "Own deterministic4/8/20-frame joint-angle action design; native animation IDs retained solely as loader contracts"
+    },
+    {
+      "path": "data/animations/GetUpFromFront",
+      "bytes": 4324,
+      "sha256": "1dfd8c700bfa16e58d24c4592b80605b4e32bde34fe794664e7611de5da90172",
+      "kind": "animation",
+      "license": "CC0-1.0",
+      "origin": "Independently authored procedural design; no original media input",
+      "description": "Own deterministic4/8/20-frame joint-angle action design; native animation IDs retained solely as loader contracts"
+    },
+    {
+      "path": "data/animations/Swordidle",
+      "bytes": 4324,
+      "sha256": "bb7a1097bc4fb88fb86a06428c032cb6ce61ebc2140e9a1a960f2ff2b89b0027",
+      "kind": "animation",
+      "license": "CC0-1.0",
+      "origin": "Independently authored procedural design; no original media input",
+      "description": "Own deterministic4/8/20-frame joint-angle action design; native animation IDs retained solely as loader contracts"
+    },
+    {
+      "path": "data/animations/SwordRightThrust",
+      "bytes": 4324,
+      "sha256": "bb7a1097bc4fb88fb86a06428c032cb6ce61ebc2140e9a1a960f2ff2b89b0027",
+      "kind": "animation",
+      "license": "CC0-1.0",
+      "origin": "Independently authored procedural design; no original media input",
+      "description": "Own deterministic4/8/20-frame joint-angle action design; native animation IDs retained solely as loader contracts"
+    },
+    {
+      "path": "data/animations/SwordRightThrustBlocked",
+      "bytes": 4324,
+      "sha256": "bb7a1097bc4fb88fb86a06428c032cb6ce61ebc2140e9a1a960f2ff2b89b0027",
+      "kind": "animation",
+      "license": "CC0-1.0",
+      "origin": "Independently authored procedural design; no original media input",
+      "description": "Own deterministic4/8/20-frame joint-angle action design; native animation IDs retained solely as loader contracts"
+    },
+    {
+      "path": "data/animations/SwordRightParry",
+      "bytes": 4324,
+      "sha256": "bb7a1097bc4fb88fb86a06428c032cb6ce61ebc2140e9a1a960f2ff2b89b0027",
+      "kind": "animation",
+      "license": "CC0-1.0",
+      "origin": "Independently authored procedural design; no original media input",
+      "description": "Own deterministic4/8/20-frame joint-angle action design; native animation IDs retained solely as loader contracts"
+    },
+    {
+      "path": "data/animations/Shoot In Air",
+      "bytes": 4324,
+      "sha256": "bb7a1097bc4fb88fb86a06428c032cb6ce61ebc2140e9a1a960f2ff2b89b0027",
+      "kind": "animation",
+      "license": "CC0-1.0",
+      "origin": "Independently authored procedural design; no original media input",
+      "description": "Own deterministic4/8/20-frame joint-angle action design; native animation IDs retained solely as loader contracts"
+    },
+    {
+      "path": "data/animations/Shoot Left w_ right hand M16",
+      "bytes": 4324,
+      "sha256": "bb7a1097bc4fb88fb86a06428c032cb6ce61ebc2140e9a1a960f2ff2b89b0027",
+      "kind": "animation",
+      "license": "CC0-1.0",
+      "origin": "Independently authored procedural design; no original media input",
+      "description": "Own deterministic4/8/20-frame joint-angle action design; native animation IDs retained solely as loader contracts"
+    },
+    {
+      "path": "data/animations/Gah M16",
+      "bytes": 4324,
+      "sha256": "28ab300fd20243c345fe4d1a10e632fbe2bee12ab3a2d30325a12e4065b56494",
+      "kind": "animation",
+      "license": "CC0-1.0",
+      "origin": "Independently authored procedural design; no original media input",
+      "description": "Own deterministic4/8/20-frame joint-angle action design; native animation IDs retained solely as loader contracts"
+    },
+    {
+      "path": "data/animations/JetUp",
+      "bytes": 4324,
+      "sha256": "fa18ad625e2fbe949b5c3b00a9a3695989673f462558c12cfb25356861f46769",
+      "kind": "animation",
+      "license": "CC0-1.0",
+      "origin": "Independently authored procedural design; no original media input",
+      "description": "Own deterministic4/8/20-frame joint-angle action design; native animation IDs retained solely as loader contracts"
+    },
+    {
+      "path": "data/animations/JetFront",
+      "bytes": 4324,
+      "sha256": "fa18ad625e2fbe949b5c3b00a9a3695989673f462558c12cfb25356861f46769",
+      "kind": "animation",
+      "license": "CC0-1.0",
+      "origin": "Independently authored procedural design; no original media input",
+      "description": "Own deterministic4/8/20-frame joint-angle action design; native animation IDs retained solely as loader contracts"
+    },
+    {
+      "path": "data/animations/JetIdle",
+      "bytes": 4324,
+      "sha256": "73eeac9d1279cb911432d541859b13cb3ac6668aa0255b9ba488d386d73c4db6",
+      "kind": "animation",
+      "license": "CC0-1.0",
+      "origin": "Independently authored procedural design; no original media input",
+      "description": "Own deterministic4/8/20-frame joint-angle action design; native animation IDs retained solely as loader contracts"
+    },
+    {
+      "path": "data/animations/JetStabber",
+      "bytes": 4324,
+      "sha256": "bb7a1097bc4fb88fb86a06428c032cb6ce61ebc2140e9a1a960f2ff2b89b0027",
+      "kind": "animation",
+      "license": "CC0-1.0",
+      "origin": "Independently authored procedural design; no original media input",
+      "description": "Own deterministic4/8/20-frame joint-angle action design; native animation IDs retained solely as loader contracts"
+    },
+    {
+      "path": "data/animations/JetStabbee",
+      "bytes": 4324,
+      "sha256": "bb7a1097bc4fb88fb86a06428c032cb6ce61ebc2140e9a1a960f2ff2b89b0027",
+      "kind": "animation",
+      "license": "CC0-1.0",
+      "origin": "Independently authored procedural design; no original media input",
+      "description": "Own deterministic4/8/20-frame joint-angle action design; native animation IDs retained solely as loader contracts"
+    },
+    {
+      "path": "data/animations/DuckStabber",
+      "bytes": 4324,
+      "sha256": "bb7a1097bc4fb88fb86a06428c032cb6ce61ebc2140e9a1a960f2ff2b89b0027",
+      "kind": "animation",
+      "license": "CC0-1.0",
+      "origin": "Independently authored procedural design; no original media input",
+      "description": "Own deterministic4/8/20-frame joint-angle action design; native animation IDs retained solely as loader contracts"
+    },
+    {
+      "path": "data/animations/DuckStabbee",
+      "bytes": 4324,
+      "sha256": "bb7a1097bc4fb88fb86a06428c032cb6ce61ebc2140e9a1a960f2ff2b89b0027",
+      "kind": "animation",
+      "license": "CC0-1.0",
+      "origin": "Independently authored procedural design; no original media input",
+      "description": "Own deterministic4/8/20-frame joint-angle action design; native animation IDs retained solely as loader contracts"
+    },
+    {
+      "path": "data/animations/SpinAttack",
+      "bytes": 4324,
+      "sha256": "e4e95f2583e1fe08453279cc92c0147b49dd91000df0a3753bd38dcec5d0143d",
+      "kind": "animation",
+      "license": "CC0-1.0",
+      "origin": "Independently authored procedural design; no original media input",
+      "description": "Own deterministic4/8/20-frame joint-angle action design; native animation IDs retained solely as loader contracts"
+    },
+    {
+      "path": "data/animations/FallForwards",
+      "bytes": 4324,
+      "sha256": "28ab300fd20243c345fe4d1a10e632fbe2bee12ab3a2d30325a12e4065b56494",
+      "kind": "animation",
+      "license": "CC0-1.0",
+      "origin": "Independently authored procedural design; no original media input",
+      "description": "Own deterministic4/8/20-frame joint-angle action design; native animation IDs retained solely as loader contracts"
+    },
+    {
+      "path": "data/animations/Pain3",
+      "bytes": 4324,
+      "sha256": "28ab300fd20243c345fe4d1a10e632fbe2bee12ab3a2d30325a12e4065b56494",
+      "kind": "animation",
+      "license": "CC0-1.0",
+      "origin": "Independently authored procedural design; no original media input",
+      "description": "Own deterministic4/8/20-frame joint-angle action design; native animation IDs retained solely as loader contracts"
+    },
+    {
+      "path": "data/animations/Grenidle",
+      "bytes": 4324,
+      "sha256": "bb7a1097bc4fb88fb86a06428c032cb6ce61ebc2140e9a1a960f2ff2b89b0027",
+      "kind": "animation",
+      "license": "CC0-1.0",
+      "origin": "Independently authored procedural design; no original media input",
+      "description": "Own deterministic4/8/20-frame joint-angle action design; native animation IDs retained solely as loader contracts"
+    },
+    {
+      "path": "data/animations/Grenlaunch",
+      "bytes": 4324,
+      "sha256": "bb7a1097bc4fb88fb86a06428c032cb6ce61ebc2140e9a1a960f2ff2b89b0027",
+      "kind": "animation",
+      "license": "CC0-1.0",
+      "origin": "Independently authored procedural design; no original media input",
+      "description": "Own deterministic4/8/20-frame joint-angle action design; native animation IDs retained solely as loader contracts"
+    },
+    {
+      "path": "data/maps/NormalMap",
+      "bytes": 80128,
+      "sha256": "fdde1da376ffa7c1247e26f01b9d82bdc4c3503b6605b91698d586dd7bb6729d",
+      "kind": "map",
+      "license": "CC0-1.0",
+      "origin": "Independently authored procedural design; no original media input",
+      "description": "Own enclosed Foundry Deck arena, two raised shelves and sixteen safe spawn candidates; no original map read"
+    },
+    {
+      "path": "data/sounds/128.Roll.wav",
+      "bytes": 4454,
+      "sha256": "54157842407d1e5d2a820e8e91b3be07253fe7fccf5e692911b6f13fdd303c5e",
+      "kind": "audio",
+      "license": "CC0-1.0",
+      "origin": "Independently authored procedural design; no original media input",
+      "description": "Own deterministic synthesized PCM chirp/noise; retained as authored content but not played by silent edition"
+    },
+    {
+      "path": "data/sounds/129.Step.wav",
+      "bytes": 4454,
+      "sha256": "7933164902e811090936282a62fc49002a26f174c6bc7ddb1fb81d4985b3205e",
+      "kind": "audio",
+      "license": "CC0-1.0",
+      "origin": "Independently authored procedural design; no original media input",
+      "description": "Own deterministic synthesized PCM chirp/noise; retained as authored content but not played by silent edition"
+    },
+    {
+      "path": "data/sounds/130.Land.wav",
+      "bytes": 4454,
+      "sha256": "1bc6f0458ff93aa6702535455db52af62ca5e3951938fa0176c86692c71d0618",
+      "kind": "audio",
+      "license": "CC0-1.0",
+      "origin": "Independently authored procedural design; no original media input",
+      "description": "Own deterministic synthesized PCM chirp/noise; retained as authored content but not played by silent edition"
+    },
+    {
+      "path": "data/sounds/131.Break.wav",
+      "bytes": 4454,
+      "sha256": "2db65909a41b3d7da937bc1ed42f7b8aca492e8de1748665cca873db6a8d27b1",
+      "kind": "audio",
+      "license": "CC0-1.0",
+      "origin": "Independently authored procedural design; no original media input",
+      "description": "Own deterministic synthesized PCM chirp/noise; retained as authored content but not played by silent edition"
+    },
+    {
+      "path": "data/sounds/132.Break2.wav",
+      "bytes": 4454,
+      "sha256": "e2897b254a77ddc6a6e0dcf489b8f17179aae0ef39a7b6840169085131912061",
+      "kind": "audio",
+      "license": "CC0-1.0",
+      "origin": "Independently authored procedural design; no original media input",
+      "description": "Own deterministic synthesized PCM chirp/noise; retained as authored content but not played by silent edition"
+    },
+    {
+      "path": "data/sounds/133.Zap.wav",
+      "bytes": 4454,
+      "sha256": "18a064a527529bb66a7bde5e9359e287319a85bd4314100d5da4dad62338f51b",
+      "kind": "audio",
+      "license": "CC0-1.0",
+      "origin": "Independently authored procedural design; no original media input",
+      "description": "Own deterministic synthesized PCM chirp/noise; retained as authored content but not played by silent edition"
+    },
+    {
+      "path": "data/sounds/134.Boom.wav",
+      "bytes": 4454,
+      "sha256": "9afef43597ca29c3386e76253b2b23a2c858fe71c3694ab35acf14415667dff5",
+      "kind": "audio",
+      "license": "CC0-1.0",
+      "origin": "Independently authored procedural design; no original media input",
+      "description": "Own deterministic synthesized PCM chirp/noise; retained as authored content but not played by silent edition"
+    },
+    {
+      "path": "data/sounds/135.Snap.wav",
+      "bytes": 4454,
+      "sha256": "b5b156ea0f7651ed5f4561d0cb298ecdb459dec094d92ed9fa9b2059cabb99fe",
+      "kind": "audio",
+      "license": "CC0-1.0",
+      "origin": "Independently authored procedural design; no original media input",
+      "description": "Own deterministic synthesized PCM chirp/noise; retained as authored content but not played by silent edition"
+    },
+    {
+      "path": "data/sounds/136.Metalslide.wav",
+      "bytes": 4454,
+      "sha256": "d477c3c9ecb3c5e7854fcf9fd359a01ccc3715f1965948a5c6554551d4627a8c",
+      "kind": "audio",
+      "license": "CC0-1.0",
+      "origin": "Independently authored procedural design; no original media input",
+      "description": "Own deterministic synthesized PCM chirp/noise; retained as authored content but not played by silent edition"
+    },
+    {
+      "path": "data/sounds/137.MetalSlide2.wav",
+      "bytes": 4454,
+      "sha256": "d8407a4566a3d1768cd0120bec4b69a03de07227745e3ba088a64c9e5241602a",
+      "kind": "audio",
+      "license": "CC0-1.0",
+      "origin": "Independently authored procedural design; no original media input",
+      "description": "Own deterministic synthesized PCM chirp/noise; retained as authored content but not played by silent edition"
+    },
+    {
+      "path": "data/sounds/138.MachineGun.wav",
+      "bytes": 4454,
+      "sha256": "b2d087e726140aed8b9076b128b8de7b0f6a6ae1587cc1993b191cf7046c0904",
+      "kind": "audio",
+      "license": "CC0-1.0",
+      "origin": "Independently authored procedural design; no original media input",
+      "description": "Own deterministic synthesized PCM chirp/noise; retained as authored content but not played by silent edition"
+    },
+    {
+      "path": "data/sounds/139.Jetpack.wav",
+      "bytes": 4454,
+      "sha256": "677c9b38a0b88d846e058ee10bdd23342770779eff219662043f8320381ca7a8",
+      "kind": "audio",
+      "license": "CC0-1.0",
+      "origin": "Independently authored procedural design; no original media input",
+      "description": "Own deterministic synthesized PCM chirp/noise; retained as authored content but not played by silent edition"
+    },
+    {
+      "path": "data/sounds/140.Lightsabre.wav",
+      "bytes": 4454,
+      "sha256": "55978882a55c29741603848e8cdaaa5ba9033345dc935e9538243b9d83b0e019",
+      "kind": "audio",
+      "license": "CC0-1.0",
+      "origin": "Independently authored procedural design; no original media input",
+      "description": "Own deterministic synthesized PCM chirp/noise; retained as authored content but not played by silent edition"
+    },
+    {
+      "path": "data/sounds/141.Bink.wav",
+      "bytes": 4454,
+      "sha256": "f5c813768970a9fb02c58f4eca9528322ea48d210dca19d5b0630e4cb9877b36",
+      "kind": "audio",
+      "license": "CC0-1.0",
+      "origin": "Independently authored procedural design; no original media input",
+      "description": "Own deterministic synthesized PCM chirp/noise; retained as authored content but not played by silent edition"
+    },
+    {
+      "path": "data/sounds/142.Gunshot1.wav",
+      "bytes": 4454,
+      "sha256": "0962d955ed515dd858edaea17b337c4df7d0d6be872ce485e52dba3b16c50fd8",
+      "kind": "audio",
+      "license": "CC0-1.0",
+      "origin": "Independently authored procedural design; no original media input",
+      "description": "Own deterministic synthesized PCM chirp/noise; retained as authored content but not played by silent edition"
+    },
+    {
+      "path": "data/sounds/143.Gunshot2.wav",
+      "bytes": 4454,
+      "sha256": "45b4ccb3723b461aca3aa4fde8a81b51dc5fd0c4420a12e3a9765334805d9c37",
+      "kind": "audio",
+      "license": "CC0-1.0",
+      "origin": "Independently authored procedural design; no original media input",
+      "description": "Own deterministic synthesized PCM chirp/noise; retained as authored content but not played by silent edition"
+    },
+    {
+      "path": "data/sounds/144.Gunshot3.wav",
+      "bytes": 4454,
+      "sha256": "3999244ad611dace053c98158c870152679279d2d2608044203dee4df52252bd",
+      "kind": "audio",
+      "license": "CC0-1.0",
+      "origin": "Independently authored procedural design; no original media input",
+      "description": "Own deterministic synthesized PCM chirp/noise; retained as authored content but not played by silent edition"
+    },
+    {
+      "path": "data/sounds/145.Grenlaunch2.wav",
+      "bytes": 4454,
+      "sha256": "372116ca3b5efd896830dbd7b617f93bd0c4b4b7b92ab489413d47f3f5fe4370",
+      "kind": "audio",
+      "license": "CC0-1.0",
+      "origin": "Independently authored procedural design; no original media input",
+      "description": "Own deterministic synthesized PCM chirp/noise; retained as authored content but not played by silent edition"
+    },
+    {
+      "path": "data/sounds/146.mgunshot1sys7.wav",
+      "bytes": 4454,
+      "sha256": "14eb9610c52d741bce37351baa2a03fd0993cd13933e828d898bff3e4a119aca",
+      "kind": "audio",
+      "license": "CC0-1.0",
+      "origin": "Independently authored procedural design; no original media input",
+      "description": "Own deterministic synthesized PCM chirp/noise; retained as authored content but not played by silent edition"
+    },
+    {
+      "path": "data/sounds/147.mgunshot2sys7.wav",
+      "bytes": 4454,
+      "sha256": "f63ffc82ce61b9689d62c3569df7a7343ccd0a0b1a78fd69bb9ab5afc8cc019c",
+      "kind": "audio",
+      "license": "CC0-1.0",
+      "origin": "Independently authored procedural design; no original media input",
+      "description": "Own deterministic synthesized PCM chirp/noise; retained as authored content but not played by silent edition"
+    },
+    {
+      "path": "data/sounds/148.mgunshot3sys7.wav",
+      "bytes": 4454,
+      "sha256": "991bae76efba92ef951de85c349360c6cdf25be826c5b47afcdbae41497d8c7c",
+      "kind": "audio",
+      "license": "CC0-1.0",
+      "origin": "Independently authored procedural design; no original media input",
+      "description": "Own deterministic synthesized PCM chirp/noise; retained as authored content but not played by silent edition"
+    },
+    {
+      "path": "data/sounds/149.BigBoom.wav",
+      "bytes": 4454,
+      "sha256": "d4997c52183a0f7b05737c802aaf23a86f630e76af37927850815256c66dd8e8",
+      "kind": "audio",
+      "license": "CC0-1.0",
+      "origin": "Independently authored procedural design; no original media input",
+      "description": "Own deterministic synthesized PCM chirp/noise; retained as authored content but not played by silent edition"
+    },
+    {
+      "path": "data/sounds/150.Lightningsys7.wav",
+      "bytes": 4454,
+      "sha256": "17880eb617c403f63538a9e068fb0afa494f4926595d093a4bfcc7577bcef892",
+      "kind": "audio",
+      "license": "CC0-1.0",
+      "origin": "Independently authored procedural design; no original media input",
+      "description": "Own deterministic synthesized PCM chirp/noise; retained as authored content but not played by silent edition"
+    },
+    {
+      "path": "data/sounds/151.Lightninglowsys7.wav",
+      "bytes": 4454,
+      "sha256": "b96a55c2e10f1305af7ffbf22dd8073c9df4334ae3e4d9312dca88137962890b",
+      "kind": "audio",
+      "license": "CC0-1.0",
+      "origin": "Independently authored procedural design; no original media input",
+      "description": "Own deterministic synthesized PCM chirp/noise; retained as authored content but not played by silent edition"
+    },
+    {
+      "path": "data/sounds/152.Lightninghighsys7.wav",
+      "bytes": 4454,
+      "sha256": "60654c58250017bd06ece046697779158d2c33e0eb240611c051e8738c0480ed",
+      "kind": "audio",
+      "license": "CC0-1.0",
+      "origin": "Independently authored procedural design; no original media input",
+      "description": "Own deterministic synthesized PCM chirp/noise; retained as authored content but not played by silent edition"
+    },
+    {
+      "path": "data/sounds/153.woosh1sys7.wav",
+      "bytes": 4454,
+      "sha256": "105a2f722410c5312218e3ac5bf932c6acaff958fe1a8c260bf7d6cdf1a7b700",
+      "kind": "audio",
+      "license": "CC0-1.0",
+      "origin": "Independently authored procedural design; no original media input",
+      "description": "Own deterministic synthesized PCM chirp/noise; retained as authored content but not played by silent edition"
+    },
+    {
+      "path": "data/sounds/154.woosh2sys7.wav",
+      "bytes": 4454,
+      "sha256": "2b80d411621b90a25f4529ef9ee3e2fc9295651987ea08fe815f17647949f71b",
+      "kind": "audio",
+      "license": "CC0-1.0",
+      "origin": "Independently authored procedural design; no original media input",
+      "description": "Own deterministic synthesized PCM chirp/noise; retained as authored content but not played by silent edition"
+    },
+    {
+      "path": "data/sounds/155.woosh3sys7.wav",
+      "bytes": 4454,
+      "sha256": "264e49eb5cddc41c520008524a0a443ca3f6050e90ebd5a1ef81591f5f900a94",
+      "kind": "audio",
+      "license": "CC0-1.0",
+      "origin": "Independently authored procedural design; no original media input",
+      "description": "Own deterministic synthesized PCM chirp/noise; retained as authored content but not played by silent edition"
+    },
+    {
+      "path": "data/sounds/156.Saber3sys7.wav",
+      "bytes": 4454,
+      "sha256": "e5d3fab768cb745a20524a4014302a11470246efb6fb146ad4c032ba347bac75",
+      "kind": "audio",
+      "license": "CC0-1.0",
+      "origin": "Independently authored procedural design; no original media input",
+      "description": "Own deterministic synthesized PCM chirp/noise; retained as authored content but not played by silent edition"
+    },
+    {
+      "path": "data/sounds/157.Saber1sys7.wav",
+      "bytes": 4454,
+      "sha256": "7903dffa45f7bb3cf66ed9f68e2e468b67d90aa789b1bcbee7e235225ee79a8e",
+      "kind": "audio",
+      "license": "CC0-1.0",
+      "origin": "Independently authored procedural design; no original media input",
+      "description": "Own deterministic synthesized PCM chirp/noise; retained as authored content but not played by silent edition"
+    },
+    {
+      "path": "data/sounds/158.Saber2sys7.wav",
+      "bytes": 4454,
+      "sha256": "1042234e989fdc5f03a609cc3a8876633ffc1f16e7f39ae3b39ac2fccb4d32aa",
+      "kind": "audio",
+      "license": "CC0-1.0",
+      "origin": "Independently authored procedural design; no original media input",
+      "description": "Own deterministic synthesized PCM chirp/noise; retained as authored content but not played by silent edition"
+    }
+  ],
+  "classification": "Developer-released source port with independent content; not decompilation, emulation or clean-room certification",
+  "sourcePin": "4dffdbd665767baae87bec749f18d689ab53c534",
+  "cover": {
+    "path": "/images/vector-duel.png",
+    "sha256": "86ea033f24fa37d3f3a60dad755c158dec7e72744ab02ecbf16b492cb3b0738c",
+    "license": "CC0-1.0 own rendered visual designs",
+    "origin": "Direct muted native-canvas capture of independently authored meshes/pixels/glyphs; no original screenshot or reference image used"
+  }
+}

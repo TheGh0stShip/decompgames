@@ -1,0 +1,38 @@
+{
+  "date": "2026-10-14",
+  "status": "Integrated locally; scoped assets/source uploaded; production acceptance pending",
+  "classification": "Developer-released GLFighters source port with independently authored robot arena/content; not decompilation, original campaign, emulation or clean-room certificate",
+  "catalogCount": 89,
+  "strictDecompMilestone": "4/5 unchanged: developer-released source port",
+  "sourcePin": "4dffdbd665767baae87bec749f18d689ab53c534",
+  "rendererPin": "c9895df34cd466c23bc60c2bd3db3d87e98fcbe7",
+  "SDKRevision": "e566f7bdcc7735f44037911c24b87a58a3c93145",
+  "runtimeBase": "/runtime/vector-duel/foundry-v1/",
+  "runtimeFileCount": 10,
+  "sourceArchive": "/sources/vector-duel-foundry-v1-source.zip",
+  "sourceArchiveSha256": "794a8a1bebf172400955077ff801ed3d61e936f915ee1683771c76ee0b4f2146",
+  "sourceArchiveBytes": 2881987,
+  "sourceReplay": "vector-duel-source-replay.json",
+  "runtimeReview": "vector-duel-runtime-review-2026-10-14.md",
+  "normalInputTests": [
+    "Extracted source movement, jump/landing, three practice wins/retries, one native attacking-opponent loss",
+    "Focus pause and key release, completed-round journal full-browser restart, product Stop freezes ticks",
+    "Missing script/WASM/data, absent WebGL and invalid journal failure handling",
+    "Local catalog Play/native win/retry, catalog host awaits native shutdown, journal browser restart, product Stop; eleven runtime/source hashes"
+  ],
+  "allTestsMuted": true,
+  "playersAndServersClosed": true,
+  "audiblePlayback": "Unavailable and unverified",
+  "cleanRoomCertified": false,
+  "originalMediaIncluded": false,
+  "wholeSDKIndependentlyRebuilt": false,
+  "limits": [
+    "One original replacement arena, not retail campaign or all weapon/editor/debug modes",
+    "No competitive full-playthrough or native world/map-save claim",
+    "Local journal is not tamper-proof; real quota/crash/rapid-close and migration unverified",
+    "External SDK objects and other browsers/devices not independently rebuilt/tested"
+  ],
+  "productionUrl": "https://decompgames.com/games/vector-duel/",
+  "releaseCommit": null,
+  "deployment": null
+}

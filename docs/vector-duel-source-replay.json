@@ -1,0 +1,50 @@
+{
+  "date": "2026-10-14",
+  "sourceArchive": "/sources/vector-duel-foundry-v1-source.zip",
+  "sourceArchiveSha256": "794a8a1bebf172400955077ff801ed3d61e936f915ee1683771c76ee0b4f2146",
+  "sourceArchiveBytes": 2881987,
+  "extractedSourceFiles": 934,
+  "verifiedInputHashes": 932,
+  "regeneratedContentFiles": 173,
+  "nativeGameObjects": 8,
+  "ownObjects": 1,
+  "realRendererObjects": 69,
+  "undefinedSymbolsAllowed": false,
+  "prebuiltGameRendererObjects": false,
+  "standardSDKObjects": "External Emscripten6.0.10; not independently rebuilt",
+  "separateArchiveExtraction": true,
+  "comparison": {
+    "game.wasm": {
+      "same": true,
+      "sha256": "46b71afc585b5b196faa13dafa0d7f3f44249f3ee543f6f80d456539a5b5d3d9"
+    },
+    "game.data": {
+      "same": true,
+      "sha256": "0a36f760fb81e5e615f80e70f77822f9c8060ead8326f82130f59242138d3e5c"
+    },
+    "game.js": {
+      "normalizedEqual": true
+    }
+  },
+  "normalizedJavaScriptOnly": [
+    "Compiler include/end-include path comments",
+    "Absolute output data-package paths"
+  ],
+  "compilerFlags": [
+    "Fixed renderer diagnostic __DATE__/__TIME__",
+    "Own source and SDK diagnostic -ffile-prefix-map"
+  ],
+  "retainedFailure": "First rebuild under expanded Windows MSIX path exceeded path limits before compilation; relocated archive extraction to a short directory, all source hashes/build passed",
+  "referenceSnapshot": {
+    "files": 1163,
+    "notices": 708,
+    "SPDX": {
+      "Apache-2.0 WITH LLVM-exception": 180,
+      "Apache-2.0": 1,
+      "MIT": 61
+    },
+    "SDLdeps": 80,
+    "rendererFiles": 240,
+    "GPLorRestrictiveMentions": []
+  }
+}

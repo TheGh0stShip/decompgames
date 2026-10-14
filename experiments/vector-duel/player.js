@@ -39,6 +39,7 @@ ui('retry').onclick=()=>{if(active&&!finished){Module._vector_duel_action(0);foc
 ui('mode').onclick=()=>{if(active&&!finished){Module._vector_duel_action(1);Module._vector_duel_action(0);focusArena();}};
 ui('stop').onclick=()=>{if(active&&!finished)Module._vector_duel_request_stop();};
 ui('reload').onclick=()=>location.reload();canvas.addEventListener('click',focusArena);
+window.VectorDuel={get ready(){return active;},get stopped(){return finished;},async stop(){if(!active||finished)return;Module._vector_duel_request_stop();const until=performance.now()+3000;while(!finished){if(performance.now()>until)throw Error('Native shutdown timed out');await new Promise(resolve=>setTimeout(resolve,20));}}};
 canvas.addEventListener('blur',()=>setPause(true));window.addEventListener('blur',()=>setPause(true));document.addEventListener('visibilitychange',()=>{if(document.hidden)setPause(true);});
 window.addEventListener('pagehide',()=>{if(active&&!finished){Module._vector_duel_pause(1);Module._vector_duel_request_stop();}});
 

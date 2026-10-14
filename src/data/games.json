@@ -4883,5 +4883,66 @@
   "scope": "Private ordinary keyboard/button completion of all three authored courses, all lights, native jump/dash consumption/recharge, deliberate fall/respawn and goal collision. Completed/unfinished checkpoint retained across full browser shutdown/new process; Pause/focus input release, short taps, malformed/out-of-range storage, unavailable-save feedback and Stop. Missing assets/stalled manifest fail before gameplay. Extracted corresponding-source archive replays all 51 packaged files exactly. Site/production acceptance recorded separately; no original campaign or audible claim.",
   "playthrough": true
  }
+},
+{
+ "id": "vector-duel",
+ "title": "Vector Duel (GLFighters source port)",
+ "aliases": [
+  "Vector Duel",
+  "GLFighters Foundry Deck"
+ ],
+ "year": 2026,
+ "genre": "Fighting",
+ "kind": "Source port",
+ "mode": "embed",
+ "launch": "embed",
+ "embedUrl": "https://decompgames.com/runtime/vector-duel/foundry-v1/index.html",
+ "engine": "David Rosen GLFighters gameplay via Will Daly SDL source port; native WebAssembly with real rebuilt gl4es rendering",
+ "description": "Spar with a gold robot on an original arena. Practice close strikes, then face an attacking opponent.",
+ "overview": "Foundry Deck replaces original game media with independently authored block-robot meshes, action poses, pixels, glyphs, synthesized PCM and an arena. GLFighters native movement, combat, AI, health and round reset code drive the matches. This is a developer-released source port with original replacement content, not a decompilation, emulator, clean-room certificate or the original campaign. It requires no ROM or original game files and is intentionally silent.",
+ "source": "https://github.com/wedaly/GLFighters-SDL",
+ "engineLicense": "Author-permission-backed GLFighters MIT; own adapters MIT; separately retained gl4es/helper MIT/public-domain, SDL zlib/BSD, Emscripten MIT/NCSA, musl/individual math grants and LLVM/Khronos Apache notices. See bundled NOTICE.txt.",
+ "assetLicense": "CC0-1.0 independently authored meshes, joint poses, textures/glyph pixels, arena/spawns, edition text and synthesized PCM. Native gameplay/procedural-effect algorithms retain code grants. System fonts are not bundled.",
+ "assetRequirements": "No ROM or original media needed. All upstream textures, models, motion, maps, font and WAVs excluded. Own generated PCM is present but not played by this silent edition.",
+ "controls": [
+  "Click arena \u2014 focus keyboard / resume",
+  "A / D \u2014 move left / right",
+  "W \u2014 jump",
+  "R \u2014 close strike",
+  "T \u2014 block",
+  "Q / E \u2014 ranged action with a compatible tool",
+  "Shift + Z \u2014 change tool",
+  "Z / New round \u2014 restart native round",
+  "Opponent button \u2014 switch practice / attacking duel and restart",
+  "Pause / Resume \u2014 pause or resume",
+  "Stop \u2014 stop the native player"
+ ],
+ "saveInstructions": "Completed practice/duel wins and losses and draws are stored in this origin/profile. Unfinished matches restart on reload; this is not a native world/map save. New round keeps the journal. Clearing browser site data erases it. Storage failure shows a message and leaves visit-only totals; no portable import/export.",
+ "limitations": [
+  "One independently authored robot arena, not retail GLFighters or all original features.",
+  "Normal-input movement/jump/landing, three practice wins/retries and an attacking-opponent loss are tested. No full competitive playthrough or all weapon, camera/editor/debug modes are claimed.",
+  "Keyboard, WebAssembly and WebGL required. Touch/controllers and other browsers/devices unverified.",
+  "Local journal is not tamper-proof. Real quota exhaustion, crash/rapid-close and save migration unverified.",
+  "Silent backend with video-only initialization; dormant SDL audio support remains linked. Audible playback unavailable/unverified.",
+  "Portable source builds game and renderer; external SDK standard-library/SDL objects are not independently rebuilt. Conservative notice/header/template reference superset retained."
+ ],
+ "inputs": [
+  "Keyboard"
+ ],
+ "downloadMB": 2.9,
+ "complete": false,
+ "color": "#65c1ad",
+ "image": "/images/vector-duel.png",
+ "shelf": "classic",
+ "platform": "PC",
+ "verification": {
+  "status": "gameplay-tested",
+  "date": "2026-10-14",
+  "browsers": [
+   "Headless Microsoft Edge on Windows; muted"
+  ],
+  "scope": "Extracted corresponding-source native/renderer rebuild. Ordinary keyboard movement, actual jump/landing, three native practice wins and resets, one attacking-opponent loss, focus pause/input release, completed-round journal across full browser shutdown/new process, and Stop. Missing JS/WASM/data, absent WebGL and invalid journal handled. Site/production checks recorded separately; no original campaign, all modes or audible claim.",
+  "playthrough": false
+ }
 }
 ]

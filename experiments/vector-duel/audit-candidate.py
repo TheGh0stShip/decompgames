@@ -44,7 +44,7 @@ for p in sorted(selected):
  category='gl4es' if p.is_relative_to(gl) else 'game-and-adapter' if p.is_relative_to(o/'src') else 'renderer-platform-overlay' if p.is_relative_to(overlay) else 'toolchain-system'
  text=p.read_bytes().decode('utf-8',errors='replace');inventory.append({'path':p.relative_to(gl if category=='gl4es' else o/'src' if category=='game-and-adapter' else overlay if category=='renderer-platform-overlay' else Path('D:/n64work/emsdk/upstream')).as_posix(),'category':category,'sha256':sha(p),'noticePrefix':text[:text.find('*/')+2]if text.lstrip().startswith('/*')else None})
 dump('compile-inputs.json',{'selectedRendererMembers':len(glmembers),'rendererBuildObjects':len(blocks),'files':inventory,'method':'Renderer rebuild -MD dependency graph filtered to linker-extracted renderer objects, plus native game -MD inputs'})
-data=json.loads(max(c.glob('emitted-js-*.json'),key=lambda p:p.stat().st_mtime).read_text());symbols=[]
+data=json.loads(max((p for p in c.glob('emitted-js-*.json')if re.fullmatch(r'emitted-js-\d+\.json',p.name)),key=lambda p:p.stat().st_mtime).read_text());symbols=[]
 for symbol in data['metadata']['librarySymbols']:
  keys=[key for key in set([symbol[1:] if symbol.startswith('_')else '$'+symbol,'$'+symbol])if key in data['origins']];assert len(keys)==1,(symbol,keys);raw=keys[0];p=Path(data['origins'][raw]);symbols.append({'symbol':symbol,'rawKey':raw,'source':p.relative_to(sdk).as_posix(),'sha256':sha(p)})
 def norm(p):

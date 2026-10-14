@@ -3,6 +3,10 @@ layout: ../../layouts/Article.astro
 title: What’s new
 description: Release notes and compatibility changes for Decomp Games.
 ---
+## October 14, 2026 — Vector Duel: robot rounds in GLFighters code
+
+Spar with a gold robot on the original Foundry Deck arena, then switch to an attacking opponent. Vector Duel runs permission-backed GLFighters source through SDL/WebAssembly with independently authored CC0 meshes, motion, pixels, glyphs and arena content. It needs no ROM or original game media and is intentionally silent. Completed-round journals persist between browser sessions; unfinished matches restart. This is a source port and does not count toward the decompilation milestone. [Play Vector Duel](/games/vector-duel/).
+
 ## October 14, 2026 — Beacon Relay: three original courses in Celeste Classic code
 
 Guide a service rover through three original courses, collect lights and reach the beacons. Beacon Relay runs developer-released Celeste Classic C# code in the Mono WebAssembly runtime with independently authored CC0 graphics, animation, glyphs, text and maps. It needs no original game files and is intentionally silent. Course checkpoints, Pause, New relay and Stop are included. This source port does not count toward the decompilation milestone. [Play Beacon Relay](/games/beacon-relay/).

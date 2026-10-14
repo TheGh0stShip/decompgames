@@ -43,6 +43,11 @@ async function stop() {
       if (relayStop && !relayStop.disabled) relayStop.click();
     } catch (error) { console.error('Beacon Relay shutdown failed', error); }
   }
+  if (game === 'vector-duel') {
+    try {
+      await (closing.contentWindow as Window & { VectorDuel?: { stop: () => Promise<void> } })?.VectorDuel?.stop();
+    } catch (error) { console.error('Vector Duel shutdown failed', error); }
+  }
   closing.remove(); frame = undefined;
   closingFrame = false;
   clock.stop();
@@ -74,7 +79,7 @@ play.addEventListener('click', () => {
     clock.start();
     frame?.focus();
   });
-  frame.src = game === 'beacon-yard' || game === 'paper-rooms' || game === 'beacon-relay' ? new URL(url).pathname : url;
+  frame.src = game === 'beacon-yard' || game === 'paper-rooms' || game === 'beacon-relay' || game === 'vector-duel' ? new URL(url).pathname : url;
   overlay.hidden = true; stopButton.disabled = false;
   stage.append(frame, bar);
   // The builds' touch controls expect the whole screen.
