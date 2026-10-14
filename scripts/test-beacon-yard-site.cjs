@@ -5,7 +5,7 @@ const repo=path.resolve(__dirname,'..'),cache=path.join(repo,'.cache');fs.mkdirS
 const source=process.env.BEACON_SOURCE_DIR;assert(source,'Set BEACON_SOURCE_DIR to the extracted, hash-verified corresponding source archive.');
 const manifest=JSON.parse(fs.readFileSync(path.join(repo,'public/manifests/beacon-yard.json')));
 const production=process.env.BEACON_BASE_URL;const profile=path.join(cache,'beacon-profile-'+Date.now());
-const report={date:new Date().toISOString(),production:!!production,muted:true,errors:[],missing:[],external:[],logs:[],audioContextsCreated:0,audibleAudioVerified:false};
+const report={date:new Date().toISOString(),production:!!production,muted:true,errors:[],missing:[],external:[],logs:[],blockedAnalyticsDiagnostics:[],audioContextsCreated:0,audibleAudioVerified:false};
 let server,context,base;
 async function open(){
  context=await chromium.launchPersistentContext(profile,{channel:'msedge',headless:true,viewport:{width:1200,height:1000},args:['--mute-audio','--enable-unsafe-swiftshader']});
@@ -21,7 +21,12 @@ async function open(){
   }
  });
  await context.route('**/*',route=>{if(new URL(route.request().url()).origin!==base){report.external.push(route.request().url());return route.fulfill({status:200,contentType:'application/javascript',body:''});}return route.continue();});
- const page=await context.newPage();page.on('pageerror',e=>report.errors.push(String(e.stack||e)));page.on('console',m=>{report.logs.push(m.text());if(m.type()==='error')report.errors.push(m.text());});page.on('response',r=>{if(r.status()>=400)report.missing.push(r.url());});
+ const page=await context.newPage();page.on('pageerror',e=>report.errors.push(String(e.stack||e)));page.on('console',m=>{const text=m.text();report.logs.push(text);if(m.type()==='error'){
+  // An empty analytics stub intentionally fails Cloudflare's script integrity check.
+  // Keep that diagnostic; every other console error still fails acceptance.
+  if(text.startsWith("Failed to find a valid digest in the 'integrity' attribute for resource 'https://static.cloudflareinsights.com/beacon.min.js/")&&report.external.some(url=>text.includes(url)))report.blockedAnalyticsDiagnostics.push(text);
+  else report.errors.push(text);
+ }});page.on('response',r=>{if(r.status()>=400)report.missing.push(r.url());});
  await page.goto(base+'/games/beacon-yard/');assert((await page.locator('#stage-note').textContent()).includes('Silent edition'));
  await page.locator('#play').click();await page.waitForFunction(()=>document.querySelector('#stage iframe')?.contentWindow?.BeaconYard?.state.ready,null,{timeout:60000});
  const frame=page.frames().find(f=>f.url().includes(manifest.base));assert(frame);await frame.locator('#canvas').click();
@@ -59,5 +64,5 @@ async function stopHost(p){await p.locator('#stop').click();await p.waitForFunct
  await require(path.join(source,'objective-journey.cjs'))(adapter,report);
  assert.equal(report.errors.length,0);assert.equal(report.missing.length,0);assert.equal(report.audioContextsCreated,0);assert(!report.logs.some(s=>s.includes('Assertion failed:')));report.assertionsPassed=true;
 }catch(e){report.failure=String(e.stack||e);process.exitCode=1;if(context)try{await context.pages().at(-1).screenshot({path:path.join(cache,'beacon-site-failure.png')});}catch{}}
-finally{if(context)await context.close();report.browserClosed=true;if(server){server.closeAllConnections();await new Promise(r=>server.close(r));}report.serverClosed=!production;delete report.afterPartial;delete report.afterComplete;fs.writeFileSync(path.join(cache,'beacon-'+(production?'production':'local')+'-site.json'),JSON.stringify(report,null,2)+'\n');console.log(JSON.stringify({passed:!!report.assertionsPassed,failure:report.failure,distributionFiles:report.distributionFiles?.length,interactions:report.journey?.length,browserClosed:true,serverClosed:report.serverClosed}));}
+finally{if(context)await context.close();report.browserClosed=true;report.serverStarted=!!server;if(server){server.closeAllConnections();await new Promise(r=>server.close(r));}report.serverClosed=server?true:null;delete report.afterPartial;delete report.afterComplete;fs.writeFileSync(path.join(cache,'beacon-'+(production?'production':'local')+'-site.json'),JSON.stringify(report,null,2)+'\n');console.log(JSON.stringify({passed:!!report.assertionsPassed,failure:report.failure,distributionFiles:report.distributionFiles?.length,interactions:report.journey?.length,browserClosed:true,serverClosed:report.serverClosed}));}
 })();
