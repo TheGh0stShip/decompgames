@@ -1,0 +1,67 @@
+{
+  "date": "2026-10-14T09:02:28.606Z",
+  "scope": "Publication verification only; no additional gameplay or audio test",
+  "deployment": "https://12cc5370.decompgames.pages.dev",
+  "commit": "e91e58b",
+  "pages": [
+    {
+      "base": "https://12cc5370.decompgames.pages.dev",
+      "status": 200,
+      "flipperScope": true,
+      "beforeLaunch": true,
+      "scoreScope": true,
+      "flipperRecord": true,
+      "scoreRecord": true,
+      "clearControls": true,
+      "correctedOverview": true
+    },
+    {
+      "base": "https://decompgames.com",
+      "status": 200,
+      "flipperScope": true,
+      "beforeLaunch": true,
+      "scoreScope": true,
+      "flipperRecord": true,
+      "scoreRecord": true,
+      "clearControls": true,
+      "correctedOverview": true
+    }
+  ],
+  "preserved": [
+    {
+      "id": "mario-party-2",
+      "status": 200
+    },
+    {
+      "id": "mario-party-3",
+      "status": 200
+    },
+    {
+      "id": "halo-combat-evolved",
+      "status": 200
+    },
+    {
+      "id": "paper-rooms",
+      "status": 200
+    },
+    {
+      "id": "beacon-yard",
+      "status": 200
+    }
+  ],
+  "siteChecks": {
+    "catalog": 87,
+    "astroErrors": 0,
+    "astroWarnings": 0,
+    "astroHints": 3,
+    "staticPages": 151,
+    "distributionFiles": 733,
+    "auditedEntries": 11
+  },
+  "manifest": {
+    "status": 200,
+    "matches": true,
+    "revision": "0bc12d3ca97a-authored-c51f8473a6"
+  },
+  "pass": true
+}
