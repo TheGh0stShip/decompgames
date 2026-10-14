@@ -1,0 +1,896 @@
+{
+  "recordedAt": "2026-10-14T04:29:53.691701+00:00",
+  "previousMilestone": "eldritch-native-persistence-2026-10-14.json",
+  "classification": "Original replacement-content challenge on original developer-released Eldritch code; not decompilation, emulation, retail campaign or clean-room-certified work",
+  "sourceArchiveUrl": "https://eldritchgame.com/bin/Eldritch-Source-2019-04-16.zip",
+  "sourceArchiveSha256": "7bee255de9943e805bbd591ae7fb6ca1d9ac6609b5ba84374ab694eb7edb6774",
+  "freshExtraction": {
+    "originalTextFiles": 1091,
+    "originalFilesHashVerified": true,
+    "alteredUpstreamFiles": [
+      {
+        "path": "Code/Libraries/3D/src/GL2/gl2.h",
+        "originalSha256": "b93e3c9fbf179acfcfdec3304e6ede9326d715eaf262dfcb467b37413ef11543",
+        "alteredSha256": "a8900c1e254075bf080103b96f36f4feb065fc0eca394b4b2b10c083a2f66f03"
+      },
+      {
+        "path": "Code/Libraries/3D/src/GL2/gl2cubemap.cpp",
+        "originalSha256": "fada6313792f0601e2fcf49c68e82d93d1cd90fea7aaaa79e4e45c9046a6767b",
+        "alteredSha256": "638d032956022a3f668ca9feae3409ba912bd72fd9236bd4b973d9e6fbd0f582"
+      },
+      {
+        "path": "Code/Libraries/3D/src/GL2/gl2cuberendertarget.cpp",
+        "originalSha256": "4b8fa447c338c731348e7cf49d2c6495fe583baa9d30897594818b7b383a0bdf",
+        "alteredSha256": "444ff3e1769097ae2fbf164bd2a3938af6fa421059c8410a814dd7f6b68a5615"
+      },
+      {
+        "path": "Code/Libraries/3D/src/GL2/gl2renderer.cpp",
+        "originalSha256": "a063705e85129d1db6d2623c8bb275a38600df137c2847cac01e8406f8c75408",
+        "alteredSha256": "322f1f6f571e99eabfb984c218a6c477aa9067bc9b64449098e221bc81bf70d0"
+      },
+      {
+        "path": "Code/Libraries/3D/src/GL2/gl2renderer.h",
+        "originalSha256": "e24cca97cfa2836a980bb5fcf4e045232b9afbceb5e7408d760fe2e8e6702b5e",
+        "alteredSha256": "e7e7b57cd057d61f9f3849ac2c83e258ca760fb8340528bb845ab090664c2f54"
+      },
+      {
+        "path": "Code/Libraries/3D/src/GL2/gl2rendertarget.cpp",
+        "originalSha256": "eb40c6996801ad16287123ac075ec26457ac605ab495aac2c5110b7244962b2a",
+        "alteredSha256": "c33909f840dfd67d36c87388eb6c8b007923bf40db8041e01f4f9e4add959c05"
+      },
+      {
+        "path": "Code/Libraries/3D/src/GL2/gl2texture.cpp",
+        "originalSha256": "9d7449b723fd168b90c92145ee0b487d38393291c339de9640ffb09b5e9142aa",
+        "alteredSha256": "2e242d7c8009770d800001615359e6e222373c1159eff1d909e03b8bc82536b8"
+      },
+      {
+        "path": "Code/Libraries/3D/src/GL2/gl2vertexbuffer.cpp",
+        "originalSha256": "cc0cd55f28d75c1e97dafd750cdeb7757b7bbabe2c6ef4bf8c9e09ce91bac2c9",
+        "alteredSha256": "8cea11a8e6c59683e72e52f1d74044c549697826cd341faed9253f6abc24bfde"
+      },
+      {
+        "path": "Code/Libraries/3D/src/renderercommon.cpp",
+        "originalSha256": "3e4e914abaebfaa57a12a87b713b02dc1967e3c5e391f4ff0b9c9122778b5e7e",
+        "alteredSha256": "af6d216561a57f27acb5911f01fab245a7c1a2f11aa3014eb34f9bd8d42f1d76"
+      },
+      {
+        "path": "Code/Libraries/3D/src/renderercommon.h",
+        "originalSha256": "124cbd81581c90f7183f3e0b1ebead54c2be02f99482b0a375724682b734e945",
+        "alteredSha256": "45208f822cafb27a2e268137e01bbdadea56aafacda1c3d525ca60051833c523"
+      },
+      {
+        "path": "Code/Libraries/3D/src/surface.h",
+        "originalSha256": "f6941d4badd8bc863c9bc51674a2b7ce7aec8f1c52427c1edd5c12253d6a3b34",
+        "alteredSha256": "52f3f329ce713504435840c8880beeb950963a8a2dc2026377d16563e1dcf116"
+      },
+      {
+        "path": "Code/Libraries/3D/src/texturecommon.cpp",
+        "originalSha256": "cb5b9275889c15e961e5788ea5019c00179d86e2c822627e6144b8e7fdcbaeda",
+        "alteredSha256": "6ae17b3e81f639fedda019709a28cac992bd2725e88aa7ea50c55d7df7ec148d"
+      },
+      {
+        "path": "Code/Libraries/Audio/src/soloudaudiosystem.cpp",
+        "originalSha256": "50025d00f36321b38450290ff055cd10f2d4dd109ce529a86568c6a631573217",
+        "alteredSha256": "93fc973f1c16d17153a1d892144203c265f3482aca8bca1e8713c2f1fe404c2b"
+      },
+      {
+        "path": "Code/Libraries/Core/src/clock.h",
+        "originalSha256": "3aecf985fa37c127dcfc80870f8bbd4e0a6c000c6f103f188e62e799ddb92578",
+        "alteredSha256": "5efd79d49ba5c9b90013679317ae36c1473e6d292c5a9adf6bc097b54435ca94"
+      },
+      {
+        "path": "Code/Libraries/Core/src/display.cpp",
+        "originalSha256": "0976a752381e769d3637ac168835605bdc754b2546ded9ddef987d2252309728",
+        "alteredSha256": "aaf2b750a346a419ff0f4e9f76963b9e8f883b127b762c93ad89115f251c7c7f"
+      },
+      {
+        "path": "Code/Libraries/Core/src/exceptionhandler.cpp",
+        "originalSha256": "b5bfd146c075968dd8445d0da48f2b4007effc00c860bfb6b3e3db57dacbc234",
+        "alteredSha256": "efdac4c0b9efde6d6bd8b7a3b8cc9f1f8c7febfefe0aa8e55e851f90f02fe21f"
+      },
+      {
+        "path": "Code/Libraries/Core/src/fileutil.cpp",
+        "originalSha256": "b29a29ec1401fc87f7950a52d35ad88dafe8c9e26f06036eba1a49ba637e2b99",
+        "alteredSha256": "4b529c01ff548bbbafdd67f32968114d2dcb1f7a038a64fb1c9939d36f95f2fb"
+      },
+      {
+        "path": "Code/Libraries/Core/src/keyboard.cpp",
+        "originalSha256": "68351c3deb2d81dbfa9937ac34f5120f213f9174e1bb6fe2396c0636ae377d16",
+        "alteredSha256": "8ddefd503dbbe777086234d825a064d8d5e925b2c8dc54cb91b69ec4d63f59b7"
+      },
+      {
+        "path": "Code/Libraries/Core/src/mouse.cpp",
+        "originalSha256": "6f5f8194b31e27ff555d9b264cf4e55a3f1b35b8063c27e89fe42d52f04c2e85",
+        "alteredSha256": "90e6921bd7298d2f91168176637bc7902fc70d3515988fee2abcd32acf47dee2"
+      },
+      {
+        "path": "Code/Libraries/Core/src/timedate.cpp",
+        "originalSha256": "ca1fc7443e5ee0242584634e50097cb8f95c85b89267041e4f48a375c20e6add",
+        "alteredSha256": "843dc7df0434f768ee41f91c36b3f0f3b32270b9a315b4cd023ab8014abe8092"
+      },
+      {
+        "path": "Code/Libraries/Core/src/timedate.h",
+        "originalSha256": "ecec64131356fc0d56f5650f2571b2ad34e16401634aa985da325e9153980188",
+        "alteredSha256": "e5d0f452f55fa42ac45f7d85b1cd8589d6b1206de9d91d336fc72eb4b2da1cf4"
+      },
+      {
+        "path": "Code/Libraries/Core/src/versions.h",
+        "originalSha256": "0fcf4cf5200d2e55ea0f63a7c8059ceed07802332d462a7c01b1bee9a996cf3e",
+        "alteredSha256": "ef313415cf8a957b5701057cbb3b055439e22678f31b8b9f931fba6a3284713b"
+      },
+      {
+        "path": "Code/Libraries/Core/src/windowwrapper.cpp",
+        "originalSha256": "b3b0e6e41da5de7237a41db6ecd704841727ab9eabd051dc3baca3278b31ca63",
+        "alteredSha256": "6a31fc8d75bcf82d371a62406f9f92fadb6359a9e6f0b7e90620bab6be31c0f2"
+      },
+      {
+        "path": "Code/Libraries/Core/src/xinputcontroller.h",
+        "originalSha256": "8d1556a06af1863d39ec9356b671257be2c4aa40e22bc045220c72c55806f7de",
+        "alteredSha256": "a9e402f0807329cb34ebd6a3181f8405b4c6d38688d24890c348d5f2ae1e2c50"
+      },
+      {
+        "path": "Code/Libraries/Framework/src/framework3d.cpp",
+        "originalSha256": "a43e27cb2188d2e92a0c61b569b90216b5faf153f4892ae080fb1a96b15587da",
+        "alteredSha256": "cdf3b9082dfb6b85a87f5194e5951f7068c17f98354a193eb54a30f72f6cfc1a"
+      },
+      {
+        "path": "Code/Libraries/SoLoud/src/backend/sdl2_static/soloud_sdl2_static.cpp",
+        "originalSha256": "8d67561e8693ccbad6529ee8f8830a4554e282bcc07a9d4c4e74feab1acbbd52",
+        "alteredSha256": "6ac7c6a5a89e7c750cc3e88c5206fde455c674c61c7f7921710f21e602d1e4c4"
+      },
+      {
+        "path": "Code/Projects/Eld/src/eldframework.cpp",
+        "originalSha256": "ffa51c89db6637cb5d7c69b18c3152e955814fd82edc159b9afbd69de379e8eb",
+        "alteredSha256": "26fe3899f0d8bc40f090a7625eea5cbd844c7a20cc8df5b0b4bbba8bf2aacbc7"
+      },
+      {
+        "path": "Code/Projects/Eld/src/main.cpp",
+        "originalSha256": "cf84812ea7e1f3a8982c2a4c759307f71d48be1e9d18657cb45995a65b396484",
+        "alteredSha256": "2741e971bbb41af23f999968b222672468a543454f9fdc2422bf7b3e856354df"
+      }
+    ],
+    "authoredHeaders": [
+      {
+        "path": "Code/Libraries/3D/src/GL2/decompgames_webgl_buffers.h",
+        "sha256": "a2ef6c0cce31e3efcdddbc56b9bb9152ab8fdb85e4a3305a1afb24fe0f7cb99e",
+        "license": "MIT"
+      }
+    ],
+    "alteredVersionExplicitlyIdentified": true,
+    "suppliedBinaryObjectsOrLibrariesReused": false,
+    "baselineCandidateObjectsReused": 0,
+    "originalRetailAssetsOrRomInputs": false
+  },
+  "nativeBuild": {
+    "freshArchiveExtraction": true,
+    "selectedNativeTranslationUnits": 438,
+    "baselineObjectsReused": 0,
+    "compileFailed": 0,
+    "linkExitCode": 0,
+    "alteredUpstreamFiles": 28,
+    "compilerRepair": "stb_vorbis.c compiled as C++ using the accepted original recipe; previous erroneous C-driver attempt preserved",
+    "outputs": [
+      {
+        "path": "entry.js",
+        "bytes": 445592,
+        "sha256": "1746d0e690e407aff79cedce0c11ff7bbf84d0cd9d19182ce698d9665f435433"
+      },
+      {
+        "path": "entry.wasm",
+        "bytes": 3431702,
+        "sha256": "f0f3abda33a6f4029e49794cfa1acf2d7748ef1f6a44d2db8f3a869672f2bcd7"
+      },
+      {
+        "path": "entry.data",
+        "bytes": 192048,
+        "sha256": "07bc220196d5dfd95a8d07ac23b697c94696ac3e4f05e2326a3354f6504d1a5b"
+      }
+    ],
+    "wholeSelectedNoticeClosureCertified": false,
+    "gameplayVerified": false,
+    "distributed": false
+  },
+  "freshCompilation": {
+    "units": 438,
+    "failed": 0,
+    "privateReceiptSha256": "0587f70ccac09df98829be20a3493d9ca8df119659883f7721e4e046ea7d156f",
+    "firstAttemptFailedUnits": 1,
+    "firstAttemptSha256": "d5e8f5d3fc2a07cf192bc50a252cce8c9ef1355973d123cdecc73bf47e913969",
+    "repair": "stb_vorbis.c compiled as C++ using the accepted original recipe; previous erroneous C-driver attempt preserved",
+    "warningsRemain": true
+  },
+  "actualCompilerInputInventory": {
+    "dependencyFiles": 438,
+    "uniqueInputFiles": 1674,
+    "groups": {
+      "authored MIT": 4,
+      "developer source": 836,
+      "TinyXML": 4,
+      "SoLoud / stb_vorbis separate": 49,
+      "vendored zlib 1.2.3": 22,
+      "SDK other; per-file notice review pending": 44,
+      "libc++ Apache-2.0 WITH LLVM-exception": 624,
+      "Emscripten MIT": 12,
+      "Khronos API headers": 4,
+      "SDK SDL2 2.32.10": 51,
+      "LLVM Apache-2.0 WITH LLVM-exception": 24
+    },
+    "unparsed": 0,
+    "privateFullInventorySha256": "f7c84c03c1a9394213593f51d6d9009928158f35cbd0b6feae4a545be95eaecf",
+    "groupLabelsAreAuditRoutingNotLicenseCertification": true,
+    "projectSourceAndHeaderInputs": 915,
+    "externalSdkAndCompilerInputs": 759,
+    "GLEWInputsSelected": false,
+    "noticeClosureCertified": false
+  },
+  "linkedSdkArchives": [
+    {
+      "name": "libGL-webgl2-getprocaddr.a",
+      "selectedMembers": 4,
+      "archiveBytes": 71786,
+      "archiveSha256": "d683b3137d12c75c858adab629060ab2bb82781752bd99e708c6c92fd0a17f2f"
+    },
+    {
+      "name": "libSDL2.a",
+      "selectedMembers": 84,
+      "archiveBytes": 4135512,
+      "archiveSha256": "070be80eae59a4596d860db4c7116ee73836233ee93fc8f1323f452f9f3a0577"
+    },
+    {
+      "name": "libc++-debug-noexcept.a",
+      "selectedMembers": 14,
+      "archiveBytes": 7208730,
+      "archiveSha256": "f00ae52d1ab38c2945b60d13c6f6162f43aa0b1506bc2491084ebb072e20489b"
+    },
+    {
+      "name": "libc++abi-debug-noexcept.a",
+      "selectedMembers": 9,
+      "archiveBytes": 1249422,
+      "archiveSha256": "0ecf18eeed5fcbdbeea07c18c4656c6fee9f498edf0b94dd0af6b4ac7bb0d13e"
+    },
+    {
+      "name": "libc-debug.a",
+      "selectedMembers": 263,
+      "archiveBytes": 3349672,
+      "archiveSha256": "0e24243840adb99f3651bb740921886257bac6458097a880e96a56b9087c2ac6"
+    },
+    {
+      "name": "libclang_rt.builtins.a",
+      "selectedMembers": 18,
+      "archiveBytes": 747162,
+      "archiveSha256": "ea6806df6d883bd8ad9d1da9817d61dadaaae7fbaf56fd665034aa1fb8794916"
+    },
+    {
+      "name": "libdlmalloc-debug.a",
+      "selectedMembers": 2,
+      "archiveBytes": 78470,
+      "archiveSha256": "10cdf4642de76731c01bc7b2abcda645afaac4f70e56cab6cb792297545b527f"
+    },
+    {
+      "name": "libhtml5.a",
+      "selectedMembers": 1,
+      "archiveBytes": 55208,
+      "archiveSha256": "01435b3f7f7b416b6da3ff9af4b5fb9fe57c4179fe8b65156edfa1a88a70b19d"
+    },
+    {
+      "name": "libnoexit.a",
+      "selectedMembers": 1,
+      "archiveBytes": 1712,
+      "archiveSha256": "cd26326a8cfc7f70015b78adcec1b915c695657ef9977087bc1951afbbeebbbc"
+    },
+    {
+      "name": "libstubs-debug.a",
+      "selectedMembers": 2,
+      "archiveBytes": 24666,
+      "archiveSha256": "35e44e59de8c5921cbfdb46cb2eac7f5332c46cfb5a00b3ea2306afebe3d4077"
+    }
+  ],
+  "runtimeNoticeSamplesRead": [
+    {
+      "path": "LICENSE",
+      "sha256": "620a78084fc7ca97c0b5dea9abf891f3ffcadfdbf305276f099c9c4e12fc1d86"
+    },
+    {
+      "path": "src/lib/libidbfs.js",
+      "sha256": "a250ef1bd2e9c2ae7816c887576b85f32a5aebb63db1dd31ea7d651b6091c375"
+    },
+    {
+      "path": "system/lib/libc/musl/COPYRIGHT",
+      "sha256": "b870108ec5e7790e9f9919064f1b9421d62d5f9b0e6c230c6adf7ea2da62e97b"
+    },
+    {
+      "path": "system/lib/libcxx/LICENSE.TXT",
+      "sha256": "539dd7aed86e8a4f12cbdd0e6c50c189c7d74847e4fecc64ce2c6ee3a01da38b"
+    },
+    {
+      "path": "system/lib/libcxxabi/LICENSE.TXT",
+      "sha256": "e2b35be49f7284a45b7baca8fc7b3ab7440e7902392b2528a457816b5bb2a15c"
+    },
+    {
+      "path": "system/lib/compiler-rt/LICENSE.TXT",
+      "sha256": "1a8f1058753f1ba890de984e48f0242a3a5c29a6a8f2ed9fd813f36985387e8d"
+    },
+    {
+      "path": "cache/ports/sdl2/SDL-release-2.32.10/LICENSE.txt",
+      "sha256": "97f35b302b361680ec1e891e95d2d52097bb95abff361434916d99dc1305f127"
+    },
+    {
+      "path": "system/lib/dlmalloc.c",
+      "sha256": "175ef7cab6d59b858471ad8ba16ee8a2f0536ddf666742b5e044b187171695d6"
+    }
+  ],
+  "runtimeNoticeAuditScope": "Emscripten MIT/NCSA and Node-derived paths notice, IDBFS MIT, SDL2 2.32.10 zlib-style, musl MIT plus individual third-party BSD/math notices, libc++/libc++abi/compiler-rt Apache-2.0 WITH LLVM-exception and allocator-specific notice. Exact selected archive-member source mapping and emitted-JS closure/notice bundle remain pending; these are sampled/source-family evidence, not complete certification.",
+  "nativeAcceptance": {
+    "date": "2026-10-14T04:26:33.508Z",
+    "muted": true,
+    "errors": [],
+    "missing": [],
+    "external": [],
+    "logs": [
+      "Checking user data path...",
+      "  /beacon-save/",
+      "Version: ",
+      "Initializing factories...",
+      "Initializing SDP factories.",
+      "Initializing UI factories.",
+      "Initializing anim event factories.",
+      "Initializing PE factories.",
+      "Initializing action factories.",
+      "Initializing BT factories.",
+      "Initializing component factories.",
+      "Factories initialized.",
+      "Initializing input system.",
+      "Framework3D::Initialize",
+      "Random seed is 17",
+      "Initializing display...",
+      "Desired display mode: 960x540 / windowed / no upscaling / no vsync",
+      "Setting display resolution...",
+      "Enumerating SDL display modes...",
+      "Enumerated mode 1000x580",
+      "Could not find a more suitable display mode.",
+      "Using display mode 960x540",
+      "SoLoud backend: null driver",
+      "Using OpenGL renderer.",
+      "DecompGames float render targets: enabled",
+      "EldFramework::CreateHUDView",
+      "EldFramework::CreateMirrorView",
+      "EldFramework::CreateMinimapView",
+      "EldFramework::CreateBuckets",
+      "Checking saved game path",
+      "Initializing game.",
+      "Voxel mem.: 1960 Irradiance mem.: 188160",
+      "Eld initialization complete.",
+      "Beacon Yard activated slot 0; mask 1.",
+      "S/L: Creating master file /beacon-save/checkpoint.eldritchmastersave",
+      "S/L: Creating master file /beacon-save/main.eldritchmastersave",
+      "S/L: Creating master file /beacon-save/main.eldritchmastersave",
+      "Traveling to level YardLevel",
+      "S/L: Flushing world files:",
+      "Voxel mem.: 1960 Irradiance mem.: 188160",
+      "Travel finished",
+      "S/L: Creating master file /beacon-save/main.eldritchmastersave",
+      "S/L: Flushing world files:",
+      "S/L: Restoring master file /beacon-save/checkpoint.eldritchmastersave",
+      "S/L: Restoring world files:",
+      "Beacon Yard activated slot 1; mask 3.",
+      "Beacon Yard activated slot 2; mask 7.",
+      "Beacon Yard objective complete.",
+      "S/L: Creating master file /beacon-save/checkpoint.eldritchmastersave",
+      "S/L: Creating master file /beacon-save/main.eldritchmastersave",
+      "Shutting down game",
+      "S/L: Creating master file /beacon-save/main.eldritchmastersave",
+      "S/L: Flushing world files:",
+      "Shutting down framework",
+      "Checking user data path...",
+      "  /beacon-save/",
+      "Version: ",
+      "Initializing factories...",
+      "Initializing SDP factories.",
+      "Initializing UI factories.",
+      "Initializing anim event factories.",
+      "Initializing PE factories.",
+      "Initializing action factories.",
+      "Initializing BT factories.",
+      "Initializing component factories.",
+      "Factories initialized.",
+      "Initializing input system.",
+      "Framework3D::Initialize",
+      "Random seed is 17",
+      "Initializing display...",
+      "Desired display mode: 960x540 / windowed / no upscaling / no vsync",
+      "Setting display resolution...",
+      "Enumerating SDL display modes...",
+      "Enumerated mode 1000x580",
+      "Could not find a more suitable display mode.",
+      "Using display mode 960x540",
+      "SoLoud backend: null driver",
+      "Using OpenGL renderer.",
+      "DecompGames float render targets: enabled",
+      "EldFramework::CreateHUDView",
+      "EldFramework::CreateMirrorView",
+      "EldFramework::CreateMinimapView",
+      "EldFramework::CreateBuckets",
+      "Checking saved game path",
+      "Initializing game.",
+      "Voxel mem.: 1960 Irradiance mem.: 188160",
+      "S/L: Flushing world files:",
+      "S/L: Restoring master file /beacon-save/main.eldritchmastersave",
+      "S/L: Restoring world files:",
+      "Eld initialization complete.",
+      "Shutting down game",
+      "S/L: Creating master file /beacon-save/main.eldritchmastersave",
+      "S/L: Flushing world files:",
+      "Shutting down framework"
+    ],
+    "audioContextsCreated": 0,
+    "audibleAudioVerified": false,
+    "scope": "Actual native authored courtyard objective via keyboard movement/turning/raycast interaction",
+    "journey": [
+      {
+        "interaction": "gate before beacons",
+        "player": true,
+        "position": [
+          4.669253,
+          9.900952,
+          2.75
+        ],
+        "dimensions": [
+          14,
+          14,
+          10
+        ],
+        "health": 5,
+        "landed": true,
+        "gameTime": 7.950049,
+        "focus": true,
+        "glError": 0,
+        "yaw": 1.1,
+        "pitch": 0,
+        "mask": 0,
+        "complete": false,
+        "gateDenied": 1,
+        "actorCount": 4,
+        "animationTime": 0.949998,
+        "target": "EXIT GATE",
+        "status": "GATE LOCKED - ACTIVATE ALL THREE BEACONS",
+        "eyeZ": 3.55,
+        "rayHitSelf": false,
+        "rayHitT": 0.998366,
+        "actorActivatedMask": 0
+      },
+      {
+        "interaction": "beacon A",
+        "player": true,
+        "position": [
+          4.799757,
+          8.482384,
+          2.75
+        ],
+        "dimensions": [
+          14,
+          14,
+          10
+        ],
+        "health": 5,
+        "landed": true,
+        "gameTime": 11.983322,
+        "focus": true,
+        "glError": 0,
+        "yaw": 1.6,
+        "pitch": 0,
+        "mask": 1,
+        "complete": false,
+        "gateDenied": 1,
+        "actorCount": 4,
+        "animationTime": 0.98333,
+        "target": "BEACON A",
+        "status": "BEACONS 1/3 - FIND THE NEXT BEACON",
+        "eyeZ": 3.55,
+        "rayHitSelf": false,
+        "rayHitT": 0.93365,
+        "actorActivatedMask": 1
+      },
+      {
+        "interaction": "beacon A duplicate",
+        "player": true,
+        "position": [
+          4.799757,
+          8.482384,
+          2.75
+        ],
+        "dimensions": [
+          14,
+          14,
+          10
+        ],
+        "health": 5,
+        "landed": true,
+        "gameTime": 13.183304,
+        "focus": true,
+        "glError": 0,
+        "yaw": 1.6,
+        "pitch": 0,
+        "mask": 1,
+        "complete": false,
+        "gateDenied": 1,
+        "actorCount": 4,
+        "animationTime": 0.816664,
+        "target": "BEACON A",
+        "status": "THIS BEACON IS ALREADY ACTIVE",
+        "eyeZ": 3.55,
+        "rayHitSelf": false,
+        "rayHitT": 0.93365,
+        "actorActivatedMask": 1
+      },
+      {
+        "interaction": "beacon B",
+        "player": true,
+        "position": [
+          10.500787,
+          8.015924,
+          2.75
+        ],
+        "dimensions": [
+          14,
+          14,
+          10
+        ],
+        "health": 5,
+        "landed": true,
+        "gameTime": 23.249817,
+        "focus": true,
+        "glError": 0,
+        "yaw": 6.333329,
+        "pitch": 0,
+        "mask": 3,
+        "complete": false,
+        "gateDenied": 1,
+        "actorCount": 4,
+        "animationTime": 0.883328,
+        "target": "BEACON B",
+        "status": "BEACONS 2/3 - FIND THE NEXT BEACON",
+        "eyeZ": 3.55,
+        "rayHitSelf": false,
+        "rayHitT": 1,
+        "actorActivatedMask": 3
+      },
+      {
+        "interaction": "beacon C",
+        "player": true,
+        "position": [
+          10.493224,
+          5.038787,
+          2.75
+        ],
+        "dimensions": [
+          14,
+          14,
+          10
+        ],
+        "health": 5,
+        "landed": true,
+        "gameTime": 28.049744,
+        "focus": true,
+        "glError": 0,
+        "yaw": 9.400012,
+        "pitch": 0,
+        "mask": 7,
+        "complete": false,
+        "gateDenied": 1,
+        "actorCount": 4,
+        "animationTime": 0.683327,
+        "target": "BEACON C",
+        "status": "BEACONS 3/3 - RETURN TO THE GATE",
+        "eyeZ": 3.55,
+        "rayHitSelf": false,
+        "rayHitT": 1,
+        "actorActivatedMask": 7
+      },
+      {
+        "interaction": "gate after three beacons",
+        "player": true,
+        "position": [
+          4.685966,
+          9.907732,
+          2.75
+        ],
+        "dimensions": [
+          14,
+          14,
+          10
+        ],
+        "health": 5,
+        "landed": true,
+        "gameTime": 39.249573,
+        "focus": true,
+        "glError": 0,
+        "yaw": 7.399994,
+        "pitch": 0,
+        "mask": 7,
+        "complete": true,
+        "gateDenied": 1,
+        "actorCount": 4,
+        "animationTime": 0.883324,
+        "target": "EXIT GATE",
+        "status": "BEACONS 3/3 - YARD RESTORED",
+        "eyeZ": 3.55,
+        "rayHitSelf": false,
+        "rayHitT": 0.996235,
+        "actorActivatedMask": 15
+      }
+    ],
+    "initial": {
+      "player": true,
+      "position": [
+        3.5,
+        3.5,
+        2.75
+      ],
+      "dimensions": [
+        14,
+        14,
+        10
+      ],
+      "health": 5,
+      "landed": true,
+      "gameTime": 0.816667,
+      "focus": true,
+      "glError": 0,
+      "yaw": 0,
+      "pitch": 0,
+      "mask": 0,
+      "complete": false,
+      "gateDenied": 0,
+      "actorCount": 4,
+      "animationTime": 0.816667,
+      "target": "",
+      "status": "BEACONS 0/3 - FIND THE NEXT BEACON",
+      "eyeZ": 3.55,
+      "rayHitSelf": false,
+      "rayHitT": 1,
+      "actorActivatedMask": 0
+    },
+    "partialBefore": {
+      "player": true,
+      "position": [
+        4.799757,
+        8.482384,
+        2.75
+      ],
+      "dimensions": [
+        14,
+        14,
+        10
+      ],
+      "health": 5,
+      "landed": true,
+      "gameTime": 11.983322,
+      "focus": true,
+      "glError": 0,
+      "yaw": 1.6,
+      "pitch": 0,
+      "mask": 1,
+      "complete": false,
+      "gateDenied": 1,
+      "actorCount": 4,
+      "animationTime": 0.98333,
+      "target": "BEACON A",
+      "status": "BEACONS 1/3 - FIND THE NEXT BEACON",
+      "eyeZ": 3.55,
+      "rayHitSelf": false,
+      "rayHitT": 0.93365,
+      "actorActivatedMask": 1
+    },
+    "partialSaveBytes": 589,
+    "partialSaveSha256": "f35c052ed6fab7f673f6394d603279f8dd8986b7cff0c05b8cac5d5209f135ba",
+    "restart": {
+      "player": true,
+      "position": [
+        3.5,
+        3.5,
+        2.75
+      ],
+      "dimensions": [
+        14,
+        14,
+        10
+      ],
+      "health": 5,
+      "landed": true,
+      "gameTime": 12.349983,
+      "focus": true,
+      "glError": 0,
+      "yaw": 0,
+      "pitch": 0,
+      "mask": 0,
+      "complete": false,
+      "gateDenied": 0,
+      "actorCount": 4,
+      "animationTime": 0.35,
+      "target": "BEACON A",
+      "status": "BEACONS 0/3 - FIND THE NEXT BEACON",
+      "eyeZ": 3.55,
+      "rayHitSelf": false,
+      "rayHitT": 1,
+      "actorActivatedMask": 0
+    },
+    "restartVerified": true,
+    "partialRestored": {
+      "player": true,
+      "position": [
+        4.799757,
+        8.482384,
+        2.75
+      ],
+      "dimensions": [
+        14,
+        14,
+        10
+      ],
+      "health": 5,
+      "landed": true,
+      "gameTime": 12.699978,
+      "focus": true,
+      "glError": 0,
+      "yaw": 1.6,
+      "pitch": 0,
+      "mask": 1,
+      "complete": false,
+      "gateDenied": 1,
+      "actorCount": 4,
+      "animationTime": 0.333331,
+      "target": "BEACON A",
+      "status": "BEACONS 1/3 - FIND THE NEXT BEACON",
+      "eyeZ": 3.55,
+      "rayHitSelf": false,
+      "rayHitT": 0.93365,
+      "actorActivatedMask": 1
+    },
+    "nativePartialSaveRestoreVerified": true,
+    "objectiveVerified": true,
+    "gameplayVerified": true,
+    "gameplayScope": "Authored courtyard objective through native movement, keyboard turning and raycast activation; no retail campaign",
+    "keyboardTurnVerified": true,
+    "nativeAnimationPlaybackObserved": true,
+    "duplicateActivationRejected": true,
+    "earlyGateRejected": true,
+    "persistenceVerified": true,
+    "completedBeforeSave": {
+      "player": true,
+      "position": [
+        4.685966,
+        9.907732,
+        2.75
+      ],
+      "dimensions": [
+        14,
+        14,
+        10
+      ],
+      "health": 5,
+      "landed": true,
+      "gameTime": 39.249573,
+      "focus": true,
+      "glError": 0,
+      "yaw": 7.399994,
+      "pitch": 0,
+      "mask": 7,
+      "complete": true,
+      "gateDenied": 1,
+      "actorCount": 4,
+      "animationTime": 0.883324,
+      "target": "EXIT GATE",
+      "status": "BEACONS 3/3 - YARD RESTORED",
+      "eyeZ": 3.55,
+      "rayHitSelf": false,
+      "rayHitT": 0.996235,
+      "actorActivatedMask": 15
+    },
+    "completedSaveBytes": 566,
+    "shutdown": {
+      "completed": true,
+      "currentContext": "absent",
+      "registeredContexts": 0,
+      "objects": {
+        "Buffer": {
+          "created": 352,
+          "deleted": 352,
+          "live": 0
+        },
+        "Texture": {
+          "created": 14,
+          "deleted": 14,
+          "live": 0
+        },
+        "Framebuffer": {
+          "created": 5,
+          "deleted": 5,
+          "live": 0
+        },
+        "Renderbuffer": {
+          "created": 3,
+          "deleted": 3,
+          "live": 0
+        },
+        "Shader": {
+          "created": 5,
+          "deleted": 5,
+          "live": 0
+        },
+        "Program": {
+          "created": 5,
+          "deleted": 5,
+          "live": 0
+        },
+        "VertexArray": {
+          "created": 0,
+          "deleted": 0,
+          "live": 0
+        }
+      }
+    },
+    "nativeShutdownVerified": true,
+    "completedAfterBrowserRestart": {
+      "player": true,
+      "position": [
+        4.685966,
+        9.907732,
+        2.75
+      ],
+      "dimensions": [
+        14,
+        14,
+        10
+      ],
+      "health": 5,
+      "landed": true,
+      "gameTime": 0.3,
+      "focus": true,
+      "glError": 0,
+      "yaw": 7.399994,
+      "pitch": 0,
+      "mask": 7,
+      "complete": true,
+      "gateDenied": 1,
+      "actorCount": 4,
+      "animationTime": 0.449991,
+      "target": "EXIT GATE",
+      "status": "BEACONS 3/3 - YARD RESTORED",
+      "eyeZ": 3.55,
+      "rayHitSelf": false,
+      "rayHitT": 0.996235,
+      "actorActivatedMask": 15
+    },
+    "nativeCompletedDurableRestoreVerified": true,
+    "assertionsPassed": true,
+    "browserClosed": true,
+    "serverClosed": true
+  },
+  "screenshot": {
+    "sha256": "a715c06319d7b77669bbd9be9f98c28ca3301e713e9c8f6366a3bda4ee620782",
+    "visuallyInspected": true,
+    "scope": "Fresh-built native restored completed HUD and green exit terminal"
+  },
+  "sourcePackagingScope": "Fresh selected extraction tree, original file hash manifest, 28 altered-file hashes and one authored header manifest prepared privately. A standalone distribution source archive/rebuild recipe and its extraction replay are not yet delivered. Current fresh builder reads earlier source-selection flags; it proves no candidate-object reuse, not self-contained packaging.",
+  "entireHeapCleanupCertified": false,
+  "sameModuleReinitializationVerified": false,
+  "audibleAudioVerified": false,
+  "integrated": false,
+  "distributed": false,
+  "deployed": false,
+  "catalog": {
+    "entries": 85,
+    "unchanged": true,
+    "blob": "10a69b5a9dc3e20ba9a75b4b51f34e02d271d81c"
+  },
+  "matchingDecompilationMilestone": "4/5 unchanged",
+  "remaining": [
+    "Standalone selected-source distribution package and portable build recipe; extract/replay that exact package",
+    "Exact selected SDK archive-member and emitted-JavaScript source/license closure plus notices (including new IDBFS)",
+    "Product save/restore/restart/pause/help and storage-error feedback",
+    "Malformed/unsupported save validation and recovery",
+    "Clear stale target label after native restart/load",
+    "One current authored asset provenance manifest; remove prototype metadata/help"
+  ],
+  "protectedWork": "Mario Party 2/3 and Halo untouched; prior ROM research remains private"
+}
