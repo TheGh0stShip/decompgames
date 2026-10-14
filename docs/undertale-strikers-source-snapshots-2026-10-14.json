@@ -1,0 +1,468 @@
+{
+  "date": "2026-10-14",
+  "scope": "47 selected technical/build/grant texts; three projects and three exact component records. Metadata and source review only, not full source/dependency closure or gameplay.",
+  "projects": [
+    {
+      "repository": "doldecomp/dolsdk2001",
+      "requestedRef": "eb1234c45e6df75757c652c835507ca89674f9a8",
+      "pin": "eb1234c45e6df75757c652c835507ca89674f9a8",
+      "starsAtRead": 30,
+      "treeTruncated": false,
+      "treeSha256": "bc88d21f0f73e374880f1fdf7ec17e5b67de38fb67713eb03966f892f53f770d",
+      "gitlinks": [],
+      "selectedTextCount": 1
+    },
+    {
+      "repository": "kittibyte/UndertaleDecomp",
+      "pin": "249ffa27ee7e7eee0d7ce84b736c294458b38685",
+      "starsAtRead": 126,
+      "defaultBranch": "main",
+      "treeTruncated": false,
+      "treeSha256": "2a1d4551ff8f38748216f3d86f1a370ec99bc2c10a1c5d6b972c3f13e29d92a4",
+      "gitlinks": [],
+      "selectedTextCount": 9
+    },
+    {
+      "repository": "UnderminersTeam/UndertaleModTool",
+      "requestedRef": "0.8.2.0",
+      "pin": "473b731a8d16b75ac889972466470dc05d9c90ed",
+      "starsAtRead": 2079,
+      "treeTruncated": false,
+      "treeSha256": "6a757ca8c6ff714abd472430b8129c9afe7a016d1d3d9edf3db322369df1475e",
+      "gitlinks": [
+        {
+          "path": "Underanalyzer",
+          "pin": "4c3e8c094c9c1931de7507747d1f3d144d7b1e66"
+        }
+      ],
+      "selectedTextCount": 2
+    },
+    {
+      "repository": "yannicksuter/musyx",
+      "requestedRef": "98ecfd21b3cdb550e5f22a90696591fede1c3cc6",
+      "pin": "98ecfd21b3cdb550e5f22a90696591fede1c3cc6",
+      "starsAtRead": 0,
+      "treeTruncated": false,
+      "treeSha256": "75e551857f6b480fa6d962e9e663b17e5b15885f3e6c3dad2c0c590127098bc6",
+      "gitlinks": [],
+      "selectedTextCount": 1
+    },
+    {
+      "repository": "yannicksuter/smstrikers-decomp",
+      "pin": "d1f357ffeb1d8e89311edebf9a4b304b05ece7bb",
+      "starsAtRead": 101,
+      "defaultBranch": "main",
+      "treeTruncated": false,
+      "treeSha256": "9a58e24678bbbb40ec2b6f0798c716a2c4bc989aebebe310f6304671243bd067",
+      "gitlinks": [
+        {
+          "path": "extern/dolphin",
+          "pin": "eb1234c45e6df75757c652c835507ca89674f9a8"
+        },
+        {
+          "path": "extern/musyx",
+          "pin": "98ecfd21b3cdb550e5f22a90696591fede1c3cc6"
+        }
+      ],
+      "selectedTextCount": 13
+    },
+    {
+      "repository": "YlPorts/strikers-android",
+      "pin": "bf27d6da7821479a17c1cc888473e743e3e985c1",
+      "starsAtRead": 3,
+      "defaultBranch": "main",
+      "treeTruncated": false,
+      "treeSha256": "a733fe4c22f25241013dc36b14e34c4f5adfe61d828426a269a534ef9223ce22",
+      "gitlinks": [],
+      "selectedTextCount": 21
+    }
+  ],
+  "selectedTexts": [
+    {
+      "repository": "kittibyte/UndertaleDecomp",
+      "pin": "249ffa27ee7e7eee0d7ce84b736c294458b38685",
+      "path": "LICENSE",
+      "url": "https://raw.githubusercontent.com/kittibyte/UndertaleDecomp/249ffa27ee7e7eee0d7ce84b736c294458b38685/LICENSE",
+      "bytes": 1101,
+      "sha256": "2c07cbcd55cd055113f7872e814b1ca0e3276f3f188613ea0fb9ef8ab849087a"
+    },
+    {
+      "repository": "kittibyte/UndertaleDecomp",
+      "pin": "249ffa27ee7e7eee0d7ce84b736c294458b38685",
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/kittibyte/UndertaleDecomp/249ffa27ee7e7eee0d7ce84b736c294458b38685/README.md",
+      "bytes": 4912,
+      "sha256": "93249f2dee569738cb4781271b6a64985c2b512200ab78588752c28534fe4abe"
+    },
+    {
+      "repository": "kittibyte/UndertaleDecomp",
+      "pin": "249ffa27ee7e7eee0d7ce84b736c294458b38685",
+      "path": "setup.sh",
+      "url": "https://raw.githubusercontent.com/kittibyte/UndertaleDecomp/249ffa27ee7e7eee0d7ce84b736c294458b38685/setup.sh",
+      "bytes": 2268,
+      "sha256": "6016497d2f600e071b45c6b2aa900f8f5f35393406ae5b189eeecbf6e49b6698"
+    },
+    {
+      "repository": "kittibyte/UndertaleDecomp",
+      "pin": "249ffa27ee7e7eee0d7ce84b736c294458b38685",
+      "path": "setup.bat",
+      "url": "https://raw.githubusercontent.com/kittibyte/UndertaleDecomp/249ffa27ee7e7eee0d7ce84b736c294458b38685/setup.bat",
+      "bytes": 982,
+      "sha256": "5526c676aac787426fcbb7ffc2c172b8eee474c15a2f5bcebace42d91edd9fce"
+    },
+    {
+      "repository": "kittibyte/UndertaleDecomp",
+      "pin": "249ffa27ee7e7eee0d7ce84b736c294458b38685",
+      "path": "options/html5/options_html5.yy",
+      "url": "https://raw.githubusercontent.com/kittibyte/UndertaleDecomp/249ffa27ee7e7eee0d7ce84b736c294458b38685/options/html5/options_html5.yy",
+      "bytes": 1257,
+      "sha256": "7da68d7c668a5e2ee9cadc27b71681afaf93919972229bfaa5885ff317d1b569"
+    },
+    {
+      "repository": "kittibyte/UndertaleDecomp",
+      "pin": "249ffa27ee7e7eee0d7ce84b736c294458b38685",
+      "path": "utils/asset_importer/README.md",
+      "url": "https://raw.githubusercontent.com/kittibyte/UndertaleDecomp/249ffa27ee7e7eee0d7ce84b736c294458b38685/utils/asset_importer/README.md",
+      "bytes": 337,
+      "sha256": "732899c61ead276aa07792e5ca6fd98f09859a711e1e7ded8fa744d597ecfff7"
+    },
+    {
+      "repository": "kittibyte/UndertaleDecomp",
+      "pin": "249ffa27ee7e7eee0d7ce84b736c294458b38685",
+      "path": "utils/asset_importer/external_assets/fonts/README.md",
+      "url": "https://raw.githubusercontent.com/kittibyte/UndertaleDecomp/249ffa27ee7e7eee0d7ce84b736c294458b38685/utils/asset_importer/external_assets/fonts/README.md",
+      "bytes": 84,
+      "sha256": "ef971f66cf88452eb827de332b69aaa5f14e04dd70e29e4d111d1747f0a85111"
+    },
+    {
+      "repository": "kittibyte/UndertaleDecomp",
+      "pin": "249ffa27ee7e7eee0d7ce84b736c294458b38685",
+      "path": "utils/asset_importer/external_assets/sounds/README.md",
+      "url": "https://raw.githubusercontent.com/kittibyte/UndertaleDecomp/249ffa27ee7e7eee0d7ce84b736c294458b38685/utils/asset_importer/external_assets/sounds/README.md",
+      "bytes": 84,
+      "sha256": "ef971f66cf88452eb827de332b69aaa5f14e04dd70e29e4d111d1747f0a85111"
+    },
+    {
+      "repository": "kittibyte/UndertaleDecomp",
+      "pin": "249ffa27ee7e7eee0d7ce84b736c294458b38685",
+      "path": "utils/asset_importer/external_assets/sprites/README.md",
+      "url": "https://raw.githubusercontent.com/kittibyte/UndertaleDecomp/249ffa27ee7e7eee0d7ce84b736c294458b38685/utils/asset_importer/external_assets/sprites/README.md",
+      "bytes": 84,
+      "sha256": "ef971f66cf88452eb827de332b69aaa5f14e04dd70e29e4d111d1747f0a85111"
+    },
+    {
+      "repository": "YlPorts/strikers-android",
+      "pin": "bf27d6da7821479a17c1cc888473e743e3e985c1",
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/YlPorts/strikers-android/bf27d6da7821479a17c1cc888473e743e3e985c1/README.md",
+      "bytes": 5157,
+      "sha256": "80881b35075f64bb3488b8aa808af05edfc3673a2c4b043cee291bede46904f2"
+    },
+    {
+      "repository": "YlPorts/strikers-android",
+      "pin": "bf27d6da7821479a17c1cc888473e743e3e985c1",
+      "path": "smstrikers-port/CMakeLists.txt",
+      "url": "https://raw.githubusercontent.com/YlPorts/strikers-android/bf27d6da7821479a17c1cc888473e743e3e985c1/smstrikers-port/CMakeLists.txt",
+      "bytes": 27927,
+      "sha256": "da4f51f1137f328828db882215782542f09d7c11e5897963aa165e1311c1be41"
+    },
+    {
+      "repository": "YlPorts/strikers-android",
+      "pin": "bf27d6da7821479a17c1cc888473e743e3e985c1",
+      "path": "smstrikers-port/LICENSE-BSD.TXT",
+      "url": "https://raw.githubusercontent.com/YlPorts/strikers-android/bf27d6da7821479a17c1cc888473e743e3e985c1/smstrikers-port/LICENSE-BSD.TXT",
+      "bytes": 1626,
+      "sha256": "e205c5c9a1a0cd0ae6d59de258bf76d00edec15ef4779bc37e5e74c2747c565a"
+    },
+    {
+      "repository": "YlPorts/strikers-android",
+      "pin": "bf27d6da7821479a17c1cc888473e743e3e985c1",
+      "path": "smstrikers-port/LICENSE-CC0.txt",
+      "url": "https://raw.githubusercontent.com/YlPorts/strikers-android/bf27d6da7821479a17c1cc888473e743e3e985c1/smstrikers-port/LICENSE-CC0.txt",
+      "bytes": 6555,
+      "sha256": "36ffd9dc085d529a7e60e1276d73ae5a030b020313e6c5408593a6ae2af39673"
+    },
+    {
+      "repository": "YlPorts/strikers-android",
+      "pin": "bf27d6da7821479a17c1cc888473e743e3e985c1",
+      "path": "smstrikers-port/LICENSE-LGPL-2.1.txt",
+      "url": "https://raw.githubusercontent.com/YlPorts/strikers-android/bf27d6da7821479a17c1cc888473e743e3e985c1/smstrikers-port/LICENSE-LGPL-2.1.txt",
+      "bytes": 26419,
+      "sha256": "20e50fe7aae3e56378ebf0417d9de904f55a0e61e4df315333e632a4d3555d95"
+    },
+    {
+      "repository": "YlPorts/strikers-android",
+      "pin": "bf27d6da7821479a17c1cc888473e743e3e985c1",
+      "path": "smstrikers-port/extern/aurora/LICENSE",
+      "url": "https://raw.githubusercontent.com/YlPorts/strikers-android/bf27d6da7821479a17c1cc888473e743e3e985c1/smstrikers-port/extern/aurora/LICENSE",
+      "bytes": 1072,
+      "sha256": "40c03cee04cda570d1029b85b6c2ee7ba78431ab1a754b9d912091d73b8ecb18"
+    },
+    {
+      "repository": "YlPorts/strikers-android",
+      "pin": "bf27d6da7821479a17c1cc888473e743e3e985c1",
+      "path": "smstrikers-port/extern/aurora/README.md",
+      "url": "https://raw.githubusercontent.com/YlPorts/strikers-android/bf27d6da7821479a17c1cc888473e743e3e985c1/smstrikers-port/extern/aurora/README.md",
+      "bytes": 2048,
+      "sha256": "05f3031bb170eb1df4d9fc7f5bb4936c993c868f8d1ee9d642fccab07f983b2a"
+    },
+    {
+      "repository": "YlPorts/strikers-android",
+      "pin": "bf27d6da7821479a17c1cc888473e743e3e985c1",
+      "path": "smstrikers-port/extern/aurora/CMakeLists.txt",
+      "url": "https://raw.githubusercontent.com/YlPorts/strikers-android/bf27d6da7821479a17c1cc888473e743e3e985c1/smstrikers-port/extern/aurora/CMakeLists.txt",
+      "bytes": 2877,
+      "sha256": "303ab8cba210769023c7db6052d893ee1dd7f116efe9f9632a715bc68c838927"
+    },
+    {
+      "repository": "YlPorts/strikers-android",
+      "pin": "bf27d6da7821479a17c1cc888473e743e3e985c1",
+      "path": "smstrikers-port/extern/aurora/cmake/AuroraDependencyVersions.cmake",
+      "url": "https://raw.githubusercontent.com/YlPorts/strikers-android/bf27d6da7821479a17c1cc888473e743e3e985c1/smstrikers-port/extern/aurora/cmake/AuroraDependencyVersions.cmake",
+      "bytes": 1435,
+      "sha256": "3d458bb6c8ecf21985a1992e2b297b87529be79ca25dd6e1d6bbf18e05cac686"
+    },
+    {
+      "repository": "YlPorts/strikers-android",
+      "pin": "bf27d6da7821479a17c1cc888473e743e3e985c1",
+      "path": "smstrikers-port/extern/aurora/cmake/AuroraDawnProvider.cmake",
+      "url": "https://raw.githubusercontent.com/YlPorts/strikers-android/bf27d6da7821479a17c1cc888473e743e3e985c1/smstrikers-port/extern/aurora/cmake/AuroraDawnProvider.cmake",
+      "bytes": 10663,
+      "sha256": "cbb5c330ab3c866857ad47fecd0d25a5e153632af7f73112e656833d3c20a1db"
+    },
+    {
+      "repository": "YlPorts/strikers-android",
+      "pin": "bf27d6da7821479a17c1cc888473e743e3e985c1",
+      "path": "smstrikers-port/extern/aurora/cmake/AuroraSDL3Provider.cmake",
+      "url": "https://raw.githubusercontent.com/YlPorts/strikers-android/bf27d6da7821479a17c1cc888473e743e3e985c1/smstrikers-port/extern/aurora/cmake/AuroraSDL3Provider.cmake",
+      "bytes": 6989,
+      "sha256": "5573d6cae9f68a436965e6fa4c03aa98b760a47ae713168c6ba89584a3344ab6"
+    },
+    {
+      "repository": "YlPorts/strikers-android",
+      "pin": "bf27d6da7821479a17c1cc888473e743e3e985c1",
+      "path": "smstrikers-port/extern/aurora/cmake/AuroraTargetPlatform.cmake",
+      "url": "https://raw.githubusercontent.com/YlPorts/strikers-android/bf27d6da7821479a17c1cc888473e743e3e985c1/smstrikers-port/extern/aurora/cmake/AuroraTargetPlatform.cmake",
+      "bytes": 511,
+      "sha256": "19d4b610962b69422250897d38192988ced7a7eeb527ee377dfaa61e8360072e"
+    },
+    {
+      "repository": "YlPorts/strikers-android",
+      "pin": "bf27d6da7821479a17c1cc888473e743e3e985c1",
+      "path": "smstrikers-port/extern/aurora/extern/CMakeLists.txt",
+      "url": "https://raw.githubusercontent.com/YlPorts/strikers-android/bf27d6da7821479a17c1cc888473e743e3e985c1/smstrikers-port/extern/aurora/extern/CMakeLists.txt",
+      "bytes": 13240,
+      "sha256": "5869a2f981e1c15c780be691ae005693be00b78b67767f4dc711f2d3894717b7"
+    },
+    {
+      "repository": "YlPorts/strikers-android",
+      "pin": "bf27d6da7821479a17c1cc888473e743e3e985c1",
+      "path": "smstrikers-port/extern/musyx/LICENSE",
+      "url": "https://raw.githubusercontent.com/YlPorts/strikers-android/bf27d6da7821479a17c1cc888473e743e3e985c1/smstrikers-port/extern/musyx/LICENSE",
+      "bytes": 1084,
+      "sha256": "a0084b30910441e2b778b73344343d9439a261c8137d23224aea5cefee0f01ad"
+    },
+    {
+      "repository": "YlPorts/strikers-android",
+      "pin": "bf27d6da7821479a17c1cc888473e743e3e985c1",
+      "path": "smstrikers-port/src/ode/LICENSE",
+      "url": "https://raw.githubusercontent.com/YlPorts/strikers-android/bf27d6da7821479a17c1cc888473e743e3e985c1/smstrikers-port/src/ode/LICENSE",
+      "bytes": 2478,
+      "sha256": "478a4148f73f0ce4908b80e98d3dde00d487058571e345f08ce12a030603d094"
+    },
+    {
+      "repository": "YlPorts/strikers-android",
+      "pin": "bf27d6da7821479a17c1cc888473e743e3e985c1",
+      "path": "smstrikers-port/tools/build-ffmpeg.sh",
+      "url": "https://raw.githubusercontent.com/YlPorts/strikers-android/bf27d6da7821479a17c1cc888473e743e3e985c1/smstrikers-port/tools/build-ffmpeg.sh",
+      "bytes": 2204,
+      "sha256": "a4e7a1c51b310c266841a9f639920b8ba470a9c0c6e1aca414f95b7b84234fbc"
+    },
+    {
+      "repository": "YlPorts/strikers-android",
+      "pin": "bf27d6da7821479a17c1cc888473e743e3e985c1",
+      "path": "smstrikers-port/src/platform/audio_out.cpp",
+      "url": "https://raw.githubusercontent.com/YlPorts/strikers-android/bf27d6da7821479a17c1cc888473e743e3e985c1/smstrikers-port/src/platform/audio_out.cpp",
+      "bytes": 7962,
+      "sha256": "a3b6f2c5cc62fcf65450c5728a4ff14639673d1383c2b614d89759ae37fac08e"
+    },
+    {
+      "repository": "YlPorts/strikers-android",
+      "pin": "bf27d6da7821479a17c1cc888473e743e3e985c1",
+      "path": "smstrikers-port/src/platform/launch.cpp",
+      "url": "https://raw.githubusercontent.com/YlPorts/strikers-android/bf27d6da7821479a17c1cc888473e743e3e985c1/smstrikers-port/src/platform/launch.cpp",
+      "bytes": 14234,
+      "sha256": "8600fe6df875649e64810b6056fac504269cd5d48040600c6aba2d76159bfc44"
+    },
+    {
+      "repository": "YlPorts/strikers-android",
+      "pin": "bf27d6da7821479a17c1cc888473e743e3e985c1",
+      "path": "smstrikers-port/src/platform/disc.c",
+      "url": "https://raw.githubusercontent.com/YlPorts/strikers-android/bf27d6da7821479a17c1cc888473e743e3e985c1/smstrikers-port/src/platform/disc.c",
+      "bytes": 20361,
+      "sha256": "e9030c1a57c788bf3c9f85bc3857f42045d4160d1a66f3b95a9ce8bbef08d31a"
+    },
+    {
+      "repository": "yannicksuter/smstrikers-decomp",
+      "pin": "d1f357ffeb1d8e89311edebf9a4b304b05ece7bb",
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/yannicksuter/smstrikers-decomp/d1f357ffeb1d8e89311edebf9a4b304b05ece7bb/README.md",
+      "bytes": 10277,
+      "sha256": "6f31afdf5744fa9bc0e94420811d42a7273ef8cb5f0520516b468bb0ec8c28ab"
+    },
+    {
+      "repository": "yannicksuter/smstrikers-decomp",
+      "pin": "d1f357ffeb1d8e89311edebf9a4b304b05ece7bb",
+      "path": "LICENSE",
+      "url": "https://raw.githubusercontent.com/yannicksuter/smstrikers-decomp/d1f357ffeb1d8e89311edebf9a4b304b05ece7bb/LICENSE",
+      "bytes": 5498,
+      "sha256": "f400c2ebe5f25dfbbe39444ed77cce5545ceb46e72387b9e0aca0157330e3e96"
+    },
+    {
+      "repository": "yannicksuter/smstrikers-decomp",
+      "pin": "d1f357ffeb1d8e89311edebf9a4b304b05ece7bb",
+      "path": "THIRD_PARTY_NOTICES.md",
+      "url": "https://raw.githubusercontent.com/yannicksuter/smstrikers-decomp/d1f357ffeb1d8e89311edebf9a4b304b05ece7bb/THIRD_PARTY_NOTICES.md",
+      "bytes": 4897,
+      "sha256": "d1251609033930f80b34329c4d299561a13b4d749e92b210c1add5567e92070f"
+    },
+    {
+      "repository": "yannicksuter/smstrikers-decomp",
+      "pin": "d1f357ffeb1d8e89311edebf9a4b304b05ece7bb",
+      "path": "LICENSE-CC0.txt",
+      "url": "https://raw.githubusercontent.com/yannicksuter/smstrikers-decomp/d1f357ffeb1d8e89311edebf9a4b304b05ece7bb/LICENSE-CC0.txt",
+      "bytes": 6555,
+      "sha256": "36ffd9dc085d529a7e60e1276d73ae5a030b020313e6c5408593a6ae2af39673"
+    },
+    {
+      "repository": "yannicksuter/smstrikers-decomp",
+      "pin": "d1f357ffeb1d8e89311edebf9a4b304b05ece7bb",
+      "path": "LICENSE-BSD.TXT",
+      "url": "https://raw.githubusercontent.com/yannicksuter/smstrikers-decomp/d1f357ffeb1d8e89311edebf9a4b304b05ece7bb/LICENSE-BSD.TXT",
+      "bytes": 1626,
+      "sha256": "e205c5c9a1a0cd0ae6d59de258bf76d00edec15ef4779bc37e5e74c2747c565a"
+    },
+    {
+      "repository": "yannicksuter/smstrikers-decomp",
+      "pin": "d1f357ffeb1d8e89311edebf9a4b304b05ece7bb",
+      "path": ".gitmodules",
+      "url": "https://raw.githubusercontent.com/yannicksuter/smstrikers-decomp/d1f357ffeb1d8e89311edebf9a4b304b05ece7bb/.gitmodules",
+      "bytes": 236,
+      "sha256": "b57cb54ba9a6287c9d4c8d0a0ae87cee08009eaeb47cb2c64fed4bc05ef14140"
+    },
+    {
+      "repository": "yannicksuter/smstrikers-decomp",
+      "pin": "d1f357ffeb1d8e89311edebf9a4b304b05ece7bb",
+      "path": "docs/ode-provenance.md",
+      "url": "https://raw.githubusercontent.com/yannicksuter/smstrikers-decomp/d1f357ffeb1d8e89311edebf9a4b304b05ece7bb/docs/ode-provenance.md",
+      "bytes": 6986,
+      "sha256": "7995e00db566f62257fa29a8ef3d2a48f909f7354c314743272c3da5d7b0ead5"
+    },
+    {
+      "repository": "yannicksuter/smstrikers-decomp",
+      "pin": "d1f357ffeb1d8e89311edebf9a4b304b05ece7bb",
+      "path": "include/ode/README-LICENSE.md",
+      "url": "https://raw.githubusercontent.com/yannicksuter/smstrikers-decomp/d1f357ffeb1d8e89311edebf9a4b304b05ece7bb/include/ode/README-LICENSE.md",
+      "bytes": 873,
+      "sha256": "35a1beb4a0bd9580fcb47d11d7a95a0831220a2016c5d00f7b17163aa1e4786e"
+    },
+    {
+      "repository": "yannicksuter/smstrikers-decomp",
+      "pin": "d1f357ffeb1d8e89311edebf9a4b304b05ece7bb",
+      "path": "src/ode/README-LICENSE.md",
+      "url": "https://raw.githubusercontent.com/yannicksuter/smstrikers-decomp/d1f357ffeb1d8e89311edebf9a4b304b05ece7bb/src/ode/README-LICENSE.md",
+      "bytes": 997,
+      "sha256": "1c36554681dccab8e4c5ee9bc2c015371ff4fb7293236d1a8b5a01c572eb3564"
+    },
+    {
+      "repository": "yannicksuter/smstrikers-decomp",
+      "pin": "d1f357ffeb1d8e89311edebf9a4b304b05ece7bb",
+      "path": "configure.py",
+      "url": "https://raw.githubusercontent.com/yannicksuter/smstrikers-decomp/d1f357ffeb1d8e89311edebf9a4b304b05ece7bb/configure.py",
+      "bytes": 122843,
+      "sha256": "0451c4873bb6d8942dbaede33ebcedc16f08f539e4768d30c5cb8635d7dc6415"
+    },
+    {
+      "repository": "yannicksuter/smstrikers-decomp",
+      "pin": "d1f357ffeb1d8e89311edebf9a4b304b05ece7bb",
+      "path": "docs/dependencies.md",
+      "url": "https://raw.githubusercontent.com/yannicksuter/smstrikers-decomp/d1f357ffeb1d8e89311edebf9a4b304b05ece7bb/docs/dependencies.md",
+      "bytes": 1409,
+      "sha256": "f4b0a1eeee9afe31e973a7474d4275066995b7d344f8972feb2ac97e7bfadc46"
+    },
+    {
+      "repository": "yannicksuter/musyx",
+      "pin": "98ecfd21b3cdb550e5f22a90696591fede1c3cc6",
+      "path": "LICENSE",
+      "url": "https://raw.githubusercontent.com/yannicksuter/musyx/98ecfd21b3cdb550e5f22a90696591fede1c3cc6/LICENSE",
+      "bytes": 1084,
+      "sha256": "a0084b30910441e2b778b73344343d9439a261c8137d23224aea5cefee0f01ad"
+    },
+    {
+      "repository": "doldecomp/dolsdk2001",
+      "pin": "eb1234c45e6df75757c652c835507ca89674f9a8",
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/doldecomp/dolsdk2001/eb1234c45e6df75757c652c835507ca89674f9a8/README.md",
+      "bytes": 2376,
+      "sha256": "ce82cc38056ea3cdf4f37aa53be1c618150316d321c0e15064f1c9ababee5ef6"
+    },
+    {
+      "repository": "UnderminersTeam/UndertaleModTool",
+      "pin": "473b731a8d16b75ac889972466470dc05d9c90ed",
+      "path": "LICENSE.txt",
+      "url": "https://raw.githubusercontent.com/UnderminersTeam/UndertaleModTool/473b731a8d16b75ac889972466470dc05d9c90ed/LICENSE.txt",
+      "bytes": 35147,
+      "sha256": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903"
+    },
+    {
+      "repository": "UnderminersTeam/UndertaleModTool",
+      "pin": "473b731a8d16b75ac889972466470dc05d9c90ed",
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/UnderminersTeam/UndertaleModTool/473b731a8d16b75ac889972466470dc05d9c90ed/README.md",
+      "bytes": 7184,
+      "sha256": "688511c83e47756e6f9d03e327edddc971d033e0f1bee40bad3d43a8d3d7ecb1"
+    },
+    {
+      "repository": "yannicksuter/smstrikers-decomp",
+      "pin": "d1f357ffeb1d8e89311edebf9a4b304b05ece7bb",
+      "path": "src/PowerPC_EABI_Support/MSL/MSL_C/MSL_Common/e_pow.c",
+      "url": "https://raw.githubusercontent.com/yannicksuter/smstrikers-decomp/d1f357ffeb1d8e89311edebf9a4b304b05ece7bb/src/PowerPC_EABI_Support/MSL/MSL_C/MSL_Common/e_pow.c",
+      "bytes": 14997,
+      "sha256": "66395d9e939fb64c591e96c3848908ecfbeba6cee735962525fde5685fbc7dfa"
+    },
+    {
+      "repository": "yannicksuter/smstrikers-decomp",
+      "pin": "d1f357ffeb1d8e89311edebf9a4b304b05ece7bb",
+      "path": "src/PowerPC_EABI_Support/MSL/MSL_C/MSL_Common/k_tan.c",
+      "url": "https://raw.githubusercontent.com/yannicksuter/smstrikers-decomp/d1f357ffeb1d8e89311edebf9a4b304b05ece7bb/src/PowerPC_EABI_Support/MSL/MSL_C/MSL_Common/k_tan.c",
+      "bytes": 7081,
+      "sha256": "26e292975f2e05a0a61aabc1f5fcde30d8aaadde91a5874eed5f5a2076e5f87d"
+    },
+    {
+      "repository": "YlPorts/strikers-android",
+      "pin": "bf27d6da7821479a17c1cc888473e743e3e985c1",
+      "path": "smstrikers-port/assets/icon/strikers.rc",
+      "url": "https://raw.githubusercontent.com/YlPorts/strikers-android/bf27d6da7821479a17c1cc888473e743e3e985c1/smstrikers-port/assets/icon/strikers.rc",
+      "bytes": 2877,
+      "sha256": "dd51ebbf76c0a16c8309f1cec23d11cc1a211ea13667be2b576177951f2f5a96"
+    },
+    {
+      "repository": "YlPorts/strikers-android",
+      "pin": "bf27d6da7821479a17c1cc888473e743e3e985c1",
+      "path": "smstrikers-port/assets/icon/settings.rc",
+      "url": "https://raw.githubusercontent.com/YlPorts/strikers-android/bf27d6da7821479a17c1cc888473e743e3e985c1/smstrikers-port/assets/icon/settings.rc",
+      "bytes": 1701,
+      "sha256": "2b22cc8657da2857041f7a897a8378fe8612fea3f89045ffde61a7ae6e272cdd"
+    }
+  ],
+  "excludedDownloads": [
+    "Original executable/disc/SDK archives",
+    "Release binaries/bundles",
+    "Image/font/audio/icon payloads",
+    "Original maps/dialogue payloads",
+    "Correspondence image"
+  ],
+  "scriptsExecuted": false,
+  "buildsStarted": false,
+  "playersStarted": false
+}

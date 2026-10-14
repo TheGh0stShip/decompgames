@@ -1,0 +1,45 @@
+{
+  "date": "2026-10-14",
+  "catalogCount": 87,
+  "matchingDecompilationMilestone": "4/5 unchanged",
+  "eligibleAdditions": 0,
+  "findings": [
+    {
+      "project": "kittibyte/UndertaleDecomp",
+      "classification": "Reported Xbox v1.13X GameMaker/GML reconstruction; not official released-source port",
+      "codeGate": "Custom noncommercial licence prohibits compiled distribution and requires ownership of original game. Reported conditional permission to publish asset-free source is not an observed permissive whole-game browser redistribution grant.",
+      "dependencyGate": "Exact UndertaleModTool 0.8.2.0 tag has GPLv3 licence text; external importer tool, not assumed linked game runtime. GameMaker compiler/export runner terms and exact runtime dependencies unclosed.",
+      "contentGate": "Imports original data.win; external asset directories are not a complete independent content pack. Full graphics/animation/audio/fonts/maps/dialogue and provenance absent.",
+      "browserGate": "Real HTML5/WebGL options observed; no successful export, WASM evidence, silent startup, gameplay, save or cleanup verification.",
+      "decision": "Ineligible under current requirements; obtain applicable permissive modified-compiled-distribution rights before browser integration work."
+    },
+    {
+      "project": "yannicksuter/smstrikers-decomp",
+      "classification": "Matching-target GameCube reconstruction; reported complete code/linking for three regions, not reproduced here",
+      "codeGate": "CC0 only for owned original contributions. Root rights notice excludes third-party game-derived expression and grants no blanket retail-equivalent output permission.",
+      "dependencyGate": "Historical ODE BSD separate from game-specific changes and nested OPCODE uncertainty. eCos GPLv2+ with linking exception and Sun headers read separately. Exact MusyX MIT notice does not prove inherited middleware rights. Exact Dolphin SDK reconstruction tree has no identified overall licence.",
+      "contentGate": "Original input remains required, no complete independently authored model/world/text/audio content.",
+      "browserGate": "Original console matching target, not a verified browser port.",
+      "decision": "Ineligible; same game identity as native port, not two additions."
+    },
+    {
+      "project": "YlPorts/strikers-android",
+      "classification": "Decompilation-derived native Super Mario Strikers port with Android dependency adaptations; not browser-tested",
+      "codeGate": "CC0 contributor code does not grant original game rights; source-only policy explicitly does not certify all reconstructed source.",
+      "dependencyGate": "Vendored Aurora MIT; MusyX MIT and ODE BSD notices separately read, inherited modifications unclosed. FFmpeg default can select system/vendor binaries; dedicated THP-only build disables autodetection and does not request GPL/nonfree flags, no actual binary terms certified. Full selected dependency inventory absent.",
+      "contentGate": "Requires original data. CMake identifies game memory-card-derived Windows icon and resource script selects tracked strikers.ico; media payloads not acquired. README asset-free description is not full provenance.",
+      "browserGate": "Native Dawn WebGPU/SDL3 does not prove Emscripten/browser delivery. Selected audio transport opens and resumes default playback; browser silent-start/save/scheduler/stop implementation unverified.",
+      "decision": "Ineligible; establish inherited code/runtime rights and full authored assets before audited browser build and silent gameplay acceptance."
+    }
+  ],
+  "catalogDeduplication": "Neither title occurs in existing catalog; upstream/port and regional editions treated as one Strikers game identity. Main/vanilla Undertale branches treated as one title.",
+  "privateRecordsPreserved": true,
+  "protectedEntriesUntouched": [
+    "Mario Party 2",
+    "Mario Party 3",
+    "Halo"
+  ],
+  "cleanRoomCertified": false,
+  "playersStarted": false,
+  "audibleVerification": false
+}
