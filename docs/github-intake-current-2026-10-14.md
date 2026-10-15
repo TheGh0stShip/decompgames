@@ -1,5 +1,7 @@
 # Current GitHub intake — October 14, 2026
 
+[Prism Foundry SDK-source follow-up](prism-foundry-sdk-sources-2026-10-15.md): all 380 traced SDK member sources and both build recipes match pinned primary versions; preserves an additional SDL YUV BSD-3-Clause license and 62 notice-bearing source-comment blocks. Transitive headers/runtime inputs, remaining expressive source, complete distribution/source packaging and production acceptance remain open. Private candidate, catalog **90**, no new decompilation or release.
+
 [Prism Foundry campaign-root/runtime follow-up](prism-foundry-roots-runtime-2026-10-15.md): removes original descriptor/trigger/initializer roots, trims the private WASM by 250,925 bytes, and re-passes the full muted save/restart campaign. A link trace inventories ten actual SDK archives; eight primary notices match local inputs. Remaining expressive source review, per-file SDK/source/notice reconciliation, packaging and production acceptance remain open. Catalog **90**, no new decompilation or release.
 
 [Prism Foundry save follow-up](prism-foundry-save-2026-10-15.md): an earned two-prism checkpoint survives a full browser restart, a real fall respawns at that checkpoint with pickups intact, the resumed three-course run earns victory, and completed progress survives a second full browser restart. Validation, loading cancellation and native shutdown checks pass. Broader save/hazard cases, source-content cleanup, dependency notices/packaging and production acceptance remain open. Catalog **90**, no new decompilation or release.
