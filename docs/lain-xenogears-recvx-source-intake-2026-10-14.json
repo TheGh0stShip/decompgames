@@ -1,0 +1,334 @@
+{
+  "auditedAtUtc": "2026-10-14T23:58:54.136364+00:00",
+  "basisCommit": "36904ed205766f9692f5abe7593f0cddc754c0ed",
+  "catalogCount": 90,
+  "strictAdditionalDecompilationMilestone": {
+    "completed": 4,
+    "target": 5,
+    "newlyCompleted": 0
+  },
+  "scope": "Source-only code/content/dependency/build gate review, not a compiled-distribution audit or gameplay test",
+  "snapshots": [
+    {
+      "repo": "AshfordFamily/recvx-decomp",
+      "branch": "master",
+      "commit": "b1516946d388a5285149d8bdb618543e767f3c7c",
+      "stars": 273,
+      "tree_files": 525,
+      "tree_truncated": false,
+      "retrieved_utc": "2026-10-14T23:55:28.583170+00:00",
+      "files": [
+        {
+          "path": ".gitmodules",
+          "bytes": 405,
+          "sha256": "f6647f8227867fc8a78835d1792695fa27d7267a2027451bbe70078e6f499384",
+          "url": "https://github.com/AshfordFamily/recvx-decomp/blob/b1516946d388a5285149d8bdb618543e767f3c7c/.gitmodules"
+        },
+        {
+          "path": "LICENSE",
+          "bytes": 1075,
+          "sha256": "d97a7a35d8f6b686018b2d1b65c3a1ce9ecde959013e6d6f8bd983d9c6cf8466",
+          "url": "https://github.com/AshfordFamily/recvx-decomp/blob/b1516946d388a5285149d8bdb618543e767f3c7c/LICENSE"
+        },
+        {
+          "path": "README.md",
+          "bytes": 4700,
+          "sha256": "9cb3429156439d193fd74157969ad1c1992ff7d3cab2d23e403438018b145a60",
+          "url": "https://github.com/AshfordFamily/recvx-decomp/blob/b1516946d388a5285149d8bdb618543e767f3c7c/README.md"
+        },
+        {
+          "path": "compile.py",
+          "bytes": 22250,
+          "sha256": "542627035502871b5cd3cbc32e5b5bd1f4a78174a2e7f8ec37105a2a2a8a876d",
+          "url": "https://github.com/AshfordFamily/recvx-decomp/blob/b1516946d388a5285149d8bdb618543e767f3c7c/compile.py"
+        },
+        {
+          "path": "compile_config.json",
+          "bytes": 20875,
+          "sha256": "df49b7433dab54ff47c69b9d791bcc1ea7a381d2fe8406b9f5eefbfc291c99c4",
+          "url": "https://github.com/AshfordFamily/recvx-decomp/blob/b1516946d388a5285149d8bdb618543e767f3c7c/compile_config.json"
+        },
+        {
+          "path": "config/requirements.txt",
+          "bytes": 30,
+          "sha256": "c355de79a7e1c25ad2c27a85082ed3edd00fe43abdedffd3b39e3fbc7e9aba0f",
+          "url": "https://github.com/AshfordFamily/recvx-decomp/blob/b1516946d388a5285149d8bdb618543e767f3c7c/config/requirements.txt"
+        }
+      ],
+      "gitlinks": [
+        {
+          "path": "include/recvx-decomp-cri",
+          "commit": "ed21f6c8f1332dcf79a48f774e4ff57c8bb7a273"
+        },
+        {
+          "path": "include/recvx-decomp-katana",
+          "commit": "9dc75fcb2f8d4369b3644d0432c7f209c2e0b1b6"
+        },
+        {
+          "path": "include/recvx-decomp-mwcc",
+          "commit": "3f597037aeb6d1c3dbcf4bf686c47d97149ccfe5"
+        }
+      ]
+    },
+    {
+      "repo": "yaz0r/Noah",
+      "branch": "master",
+      "commit": "d725fe231e56a895c17df0554042b9e2bd1acb78",
+      "stars": 77,
+      "tree_files": 291,
+      "tree_truncated": false,
+      "retrieved_utc": "2026-10-14T23:55:28.857872+00:00",
+      "files": [
+        {
+          "path": ".gitmodules",
+          "bytes": 669,
+          "sha256": "b94c3b975e24bbb2df7124f1155e4c536e78f9ae2263d1f39704e0fc05b515c7",
+          "url": "https://github.com/yaz0r/Noah/blob/d725fe231e56a895c17df0554042b9e2bd1acb78/.gitmodules"
+        },
+        {
+          "path": "CMakeLists.txt",
+          "bytes": 3382,
+          "sha256": "b49f7ae69a5016b0147459ddc0aaef8f0964411f7f59dfd102ed05a9d5bcb0eb",
+          "url": "https://github.com/yaz0r/Noah/blob/d725fe231e56a895c17df0554042b9e2bd1acb78/CMakeLists.txt"
+        },
+        {
+          "path": "LICENSE",
+          "bytes": 1069,
+          "sha256": "07bcba599cacc8e4314040c5a7e5dcdb69c9e07b9889cb410184f1f74456e22a",
+          "url": "https://github.com/yaz0r/Noah/blob/d725fe231e56a895c17df0554042b9e2bd1acb78/LICENSE"
+        },
+        {
+          "path": "README.md",
+          "bytes": 2336,
+          "sha256": "c343ad03ad8f5a485042efde697ced40f238a1e1f16d809cbd1a385ad2c23fcf",
+          "url": "https://github.com/yaz0r/Noah/blob/d725fe231e56a895c17df0554042b9e2bd1acb78/README.md"
+        },
+        {
+          "path": "Noah/CMakeLists.txt",
+          "bytes": 1177,
+          "sha256": "82b8d1aa87a470a1fa34a1d6ccb71f4bba4de2e2eaad51e79329145a5a745263",
+          "url": "https://github.com/yaz0r/Noah/blob/d725fe231e56a895c17df0554042b9e2bd1acb78/Noah/CMakeLists.txt"
+        },
+        {
+          "path": "NoahLib/CMakeLists.txt",
+          "bytes": 4093,
+          "sha256": "10343cc89541b14eafcaa0a7151f427a9cedbc307ce786093b4afae5dd10c038",
+          "url": "https://github.com/yaz0r/Noah/blob/d725fe231e56a895c17df0554042b9e2bd1acb78/NoahLib/CMakeLists.txt"
+        },
+        {
+          "path": "ThirdParty/soloud.cmake/CMakeLists.txt",
+          "bytes": 743,
+          "sha256": "3d677804ee817e5e735b502bf8b99e06037b16da56ba464e0294dd42783bce28",
+          "url": "https://github.com/yaz0r/Noah/blob/d725fe231e56a895c17df0554042b9e2bd1acb78/ThirdParty/soloud.cmake/CMakeLists.txt"
+        },
+        {
+          "path": "Noah/noah.cpp",
+          "bytes": 265,
+          "sha256": "301aca2c2e925b58894f3b97c1e28e6b6bd37419b9dd04803916c306207f0df2",
+          "url": "https://github.com/yaz0r/Noah/blob/d725fe231e56a895c17df0554042b9e2bd1acb78/Noah/noah.cpp"
+        },
+        {
+          "path": "NoahLib/kernel/audio/spuEmu/spu.cpp",
+          "bytes": 62007,
+          "sha256": "2bb590ade671ab33cfc121b47e7dd441ccff06a7d33f4ac85d5eb8d022413299",
+          "url": "https://github.com/yaz0r/Noah/blob/d725fe231e56a895c17df0554042b9e2bd1acb78/NoahLib/kernel/audio/spuEmu/spu.cpp"
+        },
+        {
+          "path": "NoahLib/kernel/isoManager.cpp",
+          "bytes": 1362,
+          "sha256": "42c03c1a896a74ee7a19c1d1b99eaa627449c5428139ef61d68f1082c155ee86",
+          "url": "https://github.com/yaz0r/Noah/blob/d725fe231e56a895c17df0554042b9e2bd1acb78/NoahLib/kernel/isoManager.cpp"
+        }
+      ],
+      "gitlinks": [
+        {
+          "path": "ThirdParty/SDL",
+          "commit": "8d604353a53853fa56d1bdce0363535605ca868f"
+        },
+        {
+          "path": "ThirdParty/bgfx.cmake",
+          "commit": "2c330502579fc15c263c4811b282dae41a64a6ce"
+        },
+        {
+          "path": "ThirdParty/imgui",
+          "commit": "368123ab06b2b573d585e52f84cd782c5c006697"
+        },
+        {
+          "path": "ThirdParty/imgui_club",
+          "commit": "17510b03602c8b6c7ed48fd8fa29d9a75eb10dc6"
+        },
+        {
+          "path": "ThirdParty/soloud.cmake/soloud",
+          "commit": "e9e8aea38d65a6f3a565ccf6103a4883ae8bb9c6"
+        },
+        {
+          "path": "ThirdParty/tinyxml2",
+          "commit": "2c5a6bfdd42ab919e55a613d33c83eb53de71af4"
+        }
+      ]
+    },
+    {
+      "repo": "Y0oshi/lain-psx-decompiled",
+      "branch": "main",
+      "commit": "205c1977e2aa8d26128fcdbab19170c2c2bbde0e",
+      "stars": 120,
+      "tree_files": 395,
+      "tree_truncated": false,
+      "retrieved_utc": "2026-10-14T23:55:29.034555+00:00",
+      "files": [
+        {
+          "path": "LICENSE",
+          "bytes": 1063,
+          "sha256": "e6d1ec3d4a063ddd80f329d4e16a65d43167f19f74b8d78f7bd26a1e50c9f6e8",
+          "url": "https://github.com/Y0oshi/lain-psx-decompiled/blob/205c1977e2aa8d26128fcdbab19170c2c2bbde0e/LICENSE"
+        },
+        {
+          "path": "Makefile",
+          "bytes": 3254,
+          "sha256": "6fcd4296d865924ac95b5666e001ae8b99a16574680c983c7f2cf7d9a6985792",
+          "url": "https://github.com/Y0oshi/lain-psx-decompiled/blob/205c1977e2aa8d26128fcdbab19170c2c2bbde0e/Makefile"
+        },
+        {
+          "path": "README.md",
+          "bytes": 7254,
+          "sha256": "69a026ec6688fbcf0d0c4e8dcdcee23827aa9192c4dc1b3fbf01c9b6c6c29ea1",
+          "url": "https://github.com/Y0oshi/lain-psx-decompiled/blob/205c1977e2aa8d26128fcdbab19170c2c2bbde0e/README.md"
+        },
+        {
+          "path": "port/CMakeLists.txt",
+          "bytes": 6964,
+          "sha256": "f584f3f940bd82fa43cf207dc2ab6f52dce6a45fb3224bc76e9070414a8a8581",
+          "url": "https://github.com/Y0oshi/lain-psx-decompiled/blob/205c1977e2aa8d26128fcdbab19170c2c2bbde0e/port/CMakeLists.txt"
+        },
+        {
+          "path": "port/psx/CMakeLists.txt",
+          "bytes": 2023,
+          "sha256": "0e7f07a6036cbb90634d62b9d26e0cf280cb72855adbd964603f3c962a08001e",
+          "url": "https://github.com/Y0oshi/lain-psx-decompiled/blob/205c1977e2aa8d26128fcdbab19170c2c2bbde0e/port/psx/CMakeLists.txt"
+        },
+        {
+          "path": "port/PORTING.md",
+          "bytes": 26606,
+          "sha256": "24938dc935fb536c4a42c8422aab9e8a35834215115c17de5dd49f4e437e77c2",
+          "url": "https://github.com/Y0oshi/lain-psx-decompiled/blob/205c1977e2aa8d26128fcdbab19170c2c2bbde0e/port/PORTING.md"
+        },
+        {
+          "path": "port/src/main.c",
+          "bytes": 38199,
+          "sha256": "32563125cfdb341f4b0b5068aa90c5774c371f6c7f2364c897365b7f75b451a1",
+          "url": "https://github.com/Y0oshi/lain-psx-decompiled/blob/205c1977e2aa8d26128fcdbab19170c2c2bbde0e/port/src/main.c"
+        },
+        {
+          "path": "thirdparty/README.md",
+          "bytes": 3483,
+          "sha256": "206d81bf0aca17c31ae32dd3ad640a913021bd551955dad6ce819d7e2e15c81b",
+          "url": "https://github.com/Y0oshi/lain-psx-decompiled/blob/205c1977e2aa8d26128fcdbab19170c2c2bbde0e/thirdparty/README.md"
+        },
+        {
+          "path": "thirdparty/PsyCross-LICENSE.txt",
+          "bytes": 1074,
+          "sha256": "fa03bfe5810413a38d363e003472bd9e7b36384ac5f82ad8d7c902fd83b51539",
+          "url": "https://github.com/Y0oshi/lain-psx-decompiled/blob/205c1977e2aa8d26128fcdbab19170c2c2bbde0e/thirdparty/PsyCross-LICENSE.txt"
+        },
+        {
+          "path": "thirdparty/SDL2-LICENSE.txt",
+          "bytes": 884,
+          "sha256": "97f35b302b361680ec1e891e95d2d52097bb95abff361434916d99dc1305f127",
+          "url": "https://github.com/Y0oshi/lain-psx-decompiled/blob/205c1977e2aa8d26128fcdbab19170c2c2bbde0e/thirdparty/SDL2-LICENSE.txt"
+        },
+        {
+          "path": "thirdparty/openal-soft-pffft-LICENSE.txt",
+          "bytes": 1669,
+          "sha256": "64056328b3e7bc104e24ef96accc1a7abead156f0c02d1b87c97e3f3a28030de",
+          "url": "https://github.com/Y0oshi/lain-psx-decompiled/blob/205c1977e2aa8d26128fcdbab19170c2c2bbde0e/thirdparty/openal-soft-pffft-LICENSE.txt"
+        },
+        {
+          "path": "port/client/psx_mem.c",
+          "bytes": 2046,
+          "sha256": "f3b2e8a801de781612673f542f1aec5612fb312a381b2374940b9bbfad61b4fa",
+          "url": "https://github.com/Y0oshi/lain-psx-decompiled/blob/205c1977e2aa8d26128fcdbab19170c2c2bbde0e/port/client/psx_mem.c"
+        },
+        {
+          "path": "port/psx/src/PsyX_main.cpp",
+          "bytes": 26196,
+          "sha256": "4c8b584bb3bb93438c17960e6a869c89be675f8576490d47d5e4d82e99061f64",
+          "url": "https://github.com/Y0oshi/lain-psx-decompiled/blob/205c1977e2aa8d26128fcdbab19170c2c2bbde0e/port/psx/src/PsyX_main.cpp"
+        },
+        {
+          "path": "thirdparty/openal-soft-COPYING.txt",
+          "bytes": 23330,
+          "sha256": "d808ce217e5b611854da622b57ec29fe545584c48bc5352fae72a4b6e5074a15",
+          "url": "https://github.com/Y0oshi/lain-psx-decompiled/blob/205c1977e2aa8d26128fcdbab19170c2c2bbde0e/thirdparty/openal-soft-COPYING.txt"
+        }
+      ],
+      "gitlinks": []
+    }
+  ],
+  "rawTextFiles": 30,
+  "rawTextBytes": 270483,
+  "decisions": [
+    {
+      "title": "Resident Evil: Code Veronica X",
+      "repo": "AshfordFamily/recvx-decomp",
+      "classification": "Upstream-reported completed matching PS2 decompilation; matching executable/ISO build, not established native browser runtime",
+      "eligible": false,
+      "duplicate": false,
+      "codeGrant": "MIT declaration copyright 2024\u20132026 AshfordFamily; no separately verified original Capcom or compiled SDK/CRI permission",
+      "dependencies": "Selected config names Sony EE SDK libraries plus Metrowerks tooling and CRI headers/compiled source; three gitlinks recorded without fetching their proprietary payloads",
+      "blockers": [
+        "Original SLUS_201.84 and disc content required",
+        "Sony PS2 SDK versions 2.0.0/3.0.3, SDK runtime and CRI permission outside root MIT clearance",
+        "Full independently authored content and portable browser renderer/input/scheduler/runtime not established"
+      ]
+    },
+    {
+      "title": "Xenogears / Noah",
+      "repo": "yaz0r/Noah",
+      "classification": "Nonmatching decompilation-derived C++ reimplementation with SPU emulation; not a general console emulator",
+      "eligible": false,
+      "duplicate": false,
+      "codeGrant": "MIT declaration copyright 2024 Noah authors; separately verified whole reconstructed game/content provenance not established",
+      "dependencies": "Pinned SDL, bgfx.cmake, SoLoud, ImGui/club and tinyxml2 gitlinks recorded; included SPU source tagged BSD-3-Clause with pSXAuthor/R. Belmont, not root MIT. Full selected/transitive notice closure unverified",
+      "blockers": [
+        "Disc-based iso/1.bin loader; no independent complete field/battle/world content",
+        "Upstream documents missing VM opcodes, collision/battle/world gaps that block normal progression",
+        "No verified Emscripten game path; shader generator, embedded battleCursor.bin provenance, runtime dependencies and SDK closure still need audit"
+      ]
+    },
+    {
+      "title": "Serial Experiments Lain",
+      "repo": "Y0oshi/lain-psx-decompiled",
+      "classification": "Upstream-reported matching decompilation plus native C port with PsyCross-derived SDK replacement; no matching/gameplay reproduction here",
+      "eligible": false,
+      "duplicate": false,
+      "codeGrant": "MIT declaration copyright 2026 Y0oshi; no separately verified inherited retail code/table grant",
+      "dependencies": "Vendored PsyCross MIT and SDL2 zlib notices inspected separately; native OpenAL Soft LGPL-2.1-or-later notice/docs, with static linkage in release recipe. Additional listed notices and selection/transitive closure not cleared",
+      "blockers": [
+        "Both original disc dumps required for narrative/media/tables",
+        "psx_mem_load reads SLPS_016.03/04 and copies retail text/rodata/data into PSX arena; native function calls do not establish ROM-free bootstrap",
+        "No complete independent narrative/content/table/arena package; memory-card-derived icon excluded from independent-content clearance",
+        "No verified browser target; native OpenGL/OpenAL/file-dialog/threads and generated assembly-arena adaptation required"
+      ]
+    }
+  ],
+  "verification": {
+    "sourceHashes": "passed",
+    "catalogDeduplication": "passed reviewed titles and aliases against 90 entries",
+    "buildPerformed": false,
+    "browserLaunched": false,
+    "gameplayVerified": false,
+    "audioVerified": false,
+    "originalMediaDownloaded": false,
+    "executablesOrSDKPayloadsDownloaded": false,
+    "catalogEntriesAdded": 0,
+    "runtimeUploaded": false,
+    "deployed": false,
+    "cleanRoomCertified": false
+  },
+  "preservedScope": [
+    "Mario Party 2 and 3",
+    "Halo",
+    "Prior private ROM research",
+    "Existing catalog entries"
+  ]
+}

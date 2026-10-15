@@ -2,6 +2,8 @@
 
 Later October 14 checkpoint: catalog **90** after [Vector Duel](vector-duel-release.json) and [Signal Survey](signal-survey-release.json), both source ports. The strict milestone remains **4/5**. [Three subsequently reviewed decompilation leads and their precise blockers](vandal-silent-roller-source-intake-2026-10-14.md) add no entries. The catalog-88 report and machine-readable snapshot below freeze the earlier reconciliation; they are not the latest totals.
 
+The following [Lain/Xenogears/Code Veronica X review](lain-xenogears-recvx-source-intake-2026-10-14.md) also adds no entries. It records original-executable/disc dependencies, incomplete native progression or a matching-only console build, and separate code/SDK/dependency gates despite MIT declarations. Catalog **90**, milestone **4/5** still apply.
+
 Catalog **88**; eleven scoped intake additions have shipped, plus the existing Open Cadet repair. The strict additional-decompilation milestone remains **4/5**. This checkpoint supersedes chronological “pending”, “private prototype” and older catalog-count statements for the entries below. Those earlier records remain evidence of their respective stages.
 
 The latest release is [Beacon Relay](beacon-relay-release.json). Its source port does not count as a new decompilation. Open Paths and Open Skyways are existing milestone entries whose authored campaigns received additional production verification today; they are not new intake additions.
