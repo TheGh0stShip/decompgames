@@ -280,7 +280,14 @@
       "renderedGuideManifestPairs": 3,
       "renderedUpdateChecked": true
     },
-    "publication": "pending",
+    "publication": {
+      "result": "passed",
+      "implementationCommit": "8b7d912",
+      "deployment": "https://975cb907.decompgames.pages.dev",
+      "previewCanonicalMetadataChecks": 14,
+      "unchangedCanonicalPayloadHashes": 10,
+      "receipt": "milestone-provenance-publication-2026-10-14.json"
+    },
     "implementationNote": "First metadata patch completed catalog and two manifests before a final-property shape assertion stopped insertion; the array-ending third manifest was handled, all JSON revalidated and all original manifest fields compared unchanged before build."
   },
   "limits": [

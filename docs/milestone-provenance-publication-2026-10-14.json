@@ -1,0 +1,194 @@
+{
+  "verifiedAtUtc": "2026-10-15T02:15:28.584871+00:00",
+  "implementationCommit": "8b7d912",
+  "deployment": "https://975cb907.decompgames.pages.dev",
+  "scope": "Three guide/manifest pairs plus update, preview/canonical; unchanged existing runtime/source hashes, no new gameplay or legal clearance",
+  "metadataChecks": [
+    {
+      "url": "https://975cb907.decompgames.pages.dev/games/digger/?verify=8b7d912",
+      "scope": "digger guide",
+      "status": 200,
+      "passed": true,
+      "sha256": "9d828db0fee7822dbe42115692499d3e47427433d9c4ac3f1fe36f59e22cd66b"
+    },
+    {
+      "url": "https://975cb907.decompgames.pages.dev/manifests/digger.json?verify=8b7d912",
+      "scope": "digger manifest",
+      "status": 200,
+      "passed": true,
+      "sha256": "23d2f4cfecf639b3e660b636d702b52c955450c9f4a4c8f4f6326f75efd4db16"
+    },
+    {
+      "url": "https://975cb907.decompgames.pages.dev/games/skyways/?verify=8b7d912",
+      "scope": "skyways guide",
+      "status": 200,
+      "passed": true,
+      "sha256": "b29259d78765f44c806cfbbfdcfca218cd5e64921b902292893fa671f6e3b850"
+    },
+    {
+      "url": "https://975cb907.decompgames.pages.dev/manifests/skyways.json?verify=8b7d912",
+      "scope": "skyways manifest",
+      "status": 200,
+      "passed": true,
+      "sha256": "e837c3123121f71c38e7c116a5c96d3661eb0fe29ec6b6bbee0f657d7a1f51be"
+    },
+    {
+      "url": "https://975cb907.decompgames.pages.dev/games/shortline/?verify=8b7d912",
+      "scope": "shortline guide",
+      "status": 200,
+      "passed": true,
+      "sha256": "7d6fbeb9358793872d4b3aa53dac52daa5170d96135ffeb52ae49c207eb16585"
+    },
+    {
+      "url": "https://975cb907.decompgames.pages.dev/manifests/shortline.json?verify=8b7d912",
+      "scope": "shortline manifest",
+      "status": 200,
+      "passed": true,
+      "sha256": "a3a15cdea39c4c0beeb63abe740cf3258c350aa557b9373578a12793bed61c35"
+    },
+    {
+      "url": "https://decompgames.com/games/digger/?verify=8b7d912",
+      "scope": "digger guide",
+      "status": 200,
+      "passed": true,
+      "sha256": "6bd99a75def2a1fba1791c31598df2f772b06fd8972044d2daa959a7bfed9148"
+    },
+    {
+      "url": "https://decompgames.com/manifests/digger.json?verify=8b7d912",
+      "scope": "digger manifest",
+      "status": 200,
+      "passed": true,
+      "sha256": "23d2f4cfecf639b3e660b636d702b52c955450c9f4a4c8f4f6326f75efd4db16"
+    },
+    {
+      "url": "https://decompgames.com/games/skyways/?verify=8b7d912",
+      "scope": "skyways guide",
+      "status": 200,
+      "passed": true,
+      "sha256": "18fe5b1f1aee795c4e7b4a0ba718b17b058b6a27185a19b1523c92b6b4ada7de"
+    },
+    {
+      "url": "https://decompgames.com/manifests/skyways.json?verify=8b7d912",
+      "scope": "skyways manifest",
+      "status": 200,
+      "passed": true,
+      "sha256": "e837c3123121f71c38e7c116a5c96d3661eb0fe29ec6b6bbee0f657d7a1f51be"
+    },
+    {
+      "url": "https://decompgames.com/games/shortline/?verify=8b7d912",
+      "scope": "shortline guide",
+      "status": 200,
+      "passed": true,
+      "sha256": "c682af4a769be1b925804f329bb33c6d964ac5dfb5cab1f80130c2cf150af147"
+    },
+    {
+      "url": "https://decompgames.com/manifests/shortline.json?verify=8b7d912",
+      "scope": "shortline manifest",
+      "status": 200,
+      "passed": true,
+      "sha256": "a3a15cdea39c4c0beeb63abe740cf3258c350aa557b9373578a12793bed61c35"
+    },
+    {
+      "url": "https://975cb907.decompgames.pages.dev/updates/?verify=8b7d912",
+      "scope": "updates",
+      "status": 200,
+      "passed": true,
+      "sha256": "6a9e0d82c2a7f50f6657829a59ad5b0f952eb2cef4c54d011d635b7539ecf686"
+    },
+    {
+      "url": "https://decompgames.com/updates/?verify=8b7d912",
+      "scope": "updates",
+      "status": 200,
+      "passed": true,
+      "sha256": "2492990533f6967758f6d084e791c5efcb76f36f71703789b08a5aee3f2eb6e2"
+    }
+  ],
+  "unchangedPayloadChecks": [
+    {
+      "game": "digger",
+      "url": "https://decompgames.com/runtime/digger/e85cab1164f0-b7e87a0852/digger.js?verify=8b7d912",
+      "status": 206,
+      "bytes": 381957,
+      "sha256": "1f13719a3803e6f771d0f83a5dbc886b4c703b029e2227127373ed2414275d98",
+      "passed": true
+    },
+    {
+      "game": "digger",
+      "url": "https://decompgames.com/runtime/digger/e85cab1164f0-b7e87a0852/digger.wasm?verify=8b7d912",
+      "status": 206,
+      "bytes": 4885753,
+      "sha256": "2ba36234c08ca632483ff7613010a45a077c4a941585e7de2c9caa0cd604d394",
+      "passed": true
+    },
+    {
+      "game": "digger",
+      "url": "https://decompgames.com/sources/digger-e85cab1164f0-b7e87a0852.tar.gz?verify=8b7d912",
+      "status": 206,
+      "bytes": 676316,
+      "sha256": "60661381ad0e3a31e039ef65c1e92bfd4c5ad5e8fef666d203f8d3bf4af76af3",
+      "passed": true
+    },
+    {
+      "game": "shortline",
+      "url": "https://decompgames.com/runtime/shortline/470cca330ee9-d1e3c65b2a/resl.js?verify=8b7d912",
+      "status": 206,
+      "bytes": 189627,
+      "sha256": "a709ab510dbb796957ec1b7ee8a1a18d9dceba0bddb623dadc21e397c5d3cbbd",
+      "passed": true
+    },
+    {
+      "game": "shortline",
+      "url": "https://decompgames.com/runtime/shortline/470cca330ee9-d1e3c65b2a/resl.wasm?verify=8b7d912",
+      "status": 206,
+      "bytes": 1559982,
+      "sha256": "28207909c831b7198a55f1c7406fcfc117b5d4b09b9532cc7c37e748c15e11ff",
+      "passed": true
+    },
+    {
+      "game": "shortline",
+      "url": "https://decompgames.com/sources/open-junction-470cca330ee9-d1e3c65b2a.tar.gz?verify=8b7d912",
+      "status": 206,
+      "bytes": 195615,
+      "sha256": "ccfd3a56d55329c4b1a6b83293de504410a0bbcfe0b8167545e98b8c0f1fb6e6",
+      "passed": true
+    },
+    {
+      "game": "skyways",
+      "url": "https://decompgames.com/runtime/skyways/df219e03b854-59b1a2a61bd4/skyroads.js?verify=8b7d912",
+      "status": 206,
+      "bytes": 180656,
+      "sha256": "260f9afe0edfc87ad0b25333956b6b2c8e94f25340852e3858cba98e5c1bd6e3",
+      "passed": true
+    },
+    {
+      "game": "skyways",
+      "url": "https://decompgames.com/runtime/skyways/df219e03b854-59b1a2a61bd4/skyroads.wasm?verify=8b7d912",
+      "status": 206,
+      "bytes": 685541,
+      "sha256": "d28ac44c6abf4188a575a119917a5d31909efe330c9f4d6bf190c79b83cc7cd3",
+      "passed": true
+    },
+    {
+      "game": "skyways",
+      "url": "https://decompgames.com/runtime/skyways/df219e03b854-59b1a2a61bd4/skyroads.data?verify=8b7d912",
+      "status": 206,
+      "bytes": 1402541,
+      "sha256": "59b1a2a61bd46d813f5f7f8d5763c4c6ada53137ee865bf89cb08ccd0e5b3f37",
+      "passed": true
+    },
+    {
+      "game": "skyways",
+      "url": "https://decompgames.com/sources/open-skyways-df219e03b854-59b1a2a61bd4.tar.gz?verify=8b7d912",
+      "status": 206,
+      "bytes": 68279,
+      "sha256": "0276af350558edc7e89b008fde9ce7f382ccc55dbfbefcb1ced544683e95cf85",
+      "passed": true
+    }
+  ],
+  "newGameEntries": 0,
+  "catalogCount": 90,
+  "other87GameObjectsUnchanged": true,
+  "all90GameplayEvidenceObjectsUnchanged": true,
+  "newPlayerOrAudioTest": false,
+  "result": "passed"
+}
