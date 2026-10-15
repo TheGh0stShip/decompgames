@@ -1,0 +1,184 @@
+{
+  "schemaVersion": 1,
+  "dateUtc": "2026-10-15T03:42:41.933381+00:00",
+  "project": "Prism Foundry",
+  "status": "native animation/descriptor bounds and course-descriptor selection pass; startup not wired",
+  "classification": "integration groundwork for original-developer Moon Child FE source port",
+  "catalogCount": 90,
+  "newCatalogEntries": 0,
+  "newDecompilations": 0,
+  "files": [
+    {
+      "path": "experiments/prism-foundry-integration/animation.cpp",
+      "bytes": 3038,
+      "sha256": "bb249bd2cfdf636aa5e18f0550900911f0604e7a0e4f750cffae73643c52f5ba"
+    },
+    {
+      "path": "experiments/prism-foundry-integration/assets.cpp",
+      "bytes": 8486,
+      "sha256": "79f78fc59e5c2be7d76be0720b59e5fe7eaab739b57b62e7061638c5cef93a5e"
+    },
+    {
+      "path": "experiments/prism-foundry-integration/build-bounds.py",
+      "bytes": 9074,
+      "sha256": "0ef00dca063712c6c2ef6a96def7cacb385c94b6b9fe64b0bfebc892528d9d35"
+    },
+    {
+      "path": "experiments/prism-foundry-integration/FoundryLevels.cpp",
+      "bytes": 2755,
+      "sha256": "9d411fede528e4c07772a3ada940658ec7accf73bb6113c80bd6201450e1066a"
+    },
+    {
+      "path": "experiments/prism-foundry-integration/FoundryLevels.h",
+      "bytes": 358,
+      "sha256": "48a2893cac6454bd4ac10ce36b1f040c978b0d08b9c3f29d540228300fef14ce"
+    },
+    {
+      "path": "experiments/prism-foundry-integration/LICENSE",
+      "bytes": 1081,
+      "sha256": "60467f5568656ebd3d3ca46d98e2f2a47bf4d1f0f7518ff325199a5946a6515e"
+    },
+    {
+      "path": "experiments/prism-foundry-integration/make-levels.py",
+      "bytes": 1684,
+      "sha256": "9fa3b1889d5e34d15ec9b06a2827ac3359c7580bdfbc4feae29061972e99cf4c"
+    },
+    {
+      "path": "experiments/prism-foundry-integration/README.md",
+      "bytes": 3322,
+      "sha256": "932c2ca9f95c1fc5220f7b2e5cff625bd5b56cc64ba8351739f92ce4a859d209"
+    },
+    {
+      "path": "experiments/prism-foundry-integration/test-animation-bounds.cpp",
+      "bytes": 6645,
+      "sha256": "cfef03c560ee018bee178d0b96d6d495e34987d690d694b9e91edd66938eefaa"
+    }
+  ],
+  "licenses": {
+    "authoredAdapterCode": "MIT",
+    "generatedCourseConstants": "CC0-1.0 from existing authored campaign.json",
+    "nativeRetainedCodeAndDependencies": "separate original-programmer/dependency scopes; final release notice closure open",
+    "originalRetailMediaInputs": false,
+    "cleanRoomIsolationCertified": false
+  },
+  "inputs": {
+    "adaptedBaseTextRecordChecks": 221,
+    "scope": "Pinned adapted tree checks explicit prior overlays and removed ffent.h; original source tree not edited",
+    "retainedObjectsChecked": 85,
+    "retainedObjectSha256Reference": "prism-foundry-content-2026-10-15.json#/nativeVerification/linkedAdaptedObjects",
+    "packManifestSha256": "c418e6a2e9adb88d06061b76e7030a5dea516eb9042bcc99578532330eacc356",
+    "packPayloadFilesUnchanged": 276,
+    "generatedCourseData": {
+      "path": "FoundryCourseData.h",
+      "bytes": 483,
+      "sha256": "cab2e6d8d48895df088a855d22e0d5b01398b91ec5b2e2c560f3983c3bd6b2c5",
+      "sourceCampaignSha256": "522e5f872638e0f6ea51b796039d234c2a414697d20cd8d6125fa97c48388ecf"
+    },
+    "courseDataMatchesTwoOutputDirectories": true
+  },
+  "compile": {
+    "sdk": "Emscripten 6.0.10 d6c521a7f05449857c76bd99e396895583cf2083",
+    "node": "24.19.0",
+    "newUnits": [
+      {
+        "path": "animation.cpp",
+        "bytes": 3038,
+        "sha256": "bb249bd2cfdf636aa5e18f0550900911f0604e7a0e4f750cffae73643c52f5ba",
+        "exitCode": 0
+      },
+      {
+        "path": "assets.cpp",
+        "bytes": 8486,
+        "sha256": "79f78fc59e5c2be7d76be0720b59e5fe7eaab739b57b62e7061638c5cef93a5e",
+        "exitCode": 0
+      },
+      {
+        "path": "FoundryLevels.cpp",
+        "bytes": 2755,
+        "sha256": "9d411fede528e4c07772a3ada940658ec7accf73bb6113c80bd6201450e1066a",
+        "exitCode": 0
+      },
+      {
+        "path": "test-animation-bounds.cpp",
+        "bytes": 6645,
+        "sha256": "cfef03c560ee018bee178d0b96d6d495e34987d690d694b9e91edd66938eefaa",
+        "exitCode": 0
+      }
+    ],
+    "authoredSourceWarnings": "-Wall -Wextra -Werror",
+    "retainedHeaders": "-isystem; existing header diagnostics not fixed or recertified",
+    "strictUndefinedSymbols": true,
+    "linkExitCode": 0,
+    "assertions": true,
+    "safeHeap": "SAFE_HEAP enabled at final link; retained native objects reused, not independently rebuilt here"
+  },
+  "boundsVerification": {
+    "runExitCode": 0,
+    "summary": "PASS: three authored native level descriptors, other 17 absent; animation index/null/zero-count/wrap bounds; 21-slot and 100-frame limits; 21 rejected descriptor/image cases leave empty lists; authored 258-frame pack accepted; course initialization not executed",
+    "rejectedDescriptorOrImageCases": 21,
+    "failedCaseTargetListsEmpty": true,
+    "positiveMaxSlots": 21,
+    "positiveMaxFramesPerSequence": 100,
+    "positiveSpritePixelBudgetBytes": 16777216,
+    "four4MiBSpritesAccepted": true,
+    "fifth4MiBSpriteRejected": true,
+    "nullZeroCountIndexAndWrapTestsPassed": true,
+    "authored258FramePackAccepted": true,
+    "testArtifact": {
+      "bytes": 1874099,
+      "sha256": "642922c5b301277fba27fc4bc4164ffadc5314602c25be3006f2b60af8a21ebf"
+    },
+    "courseInitializationExecuted": false,
+    "gateCallbackExecuted": false
+  },
+  "descriptorSelection": {
+    "configuredNativeDescriptors": 3,
+    "otherRuntimeDescriptorsEmpty": 17,
+    "rangeCheckedLookup": true,
+    "dimensionsAndMapAssetPathsChecked": true,
+    "initializerPointersChecked": true,
+    "actorInitializerCompiled": true,
+    "actorInitializerExecuted": false,
+    "originalSourceTablesPurged": false
+  },
+  "contentReplay": {
+    "harnessSha256": "1afa70fbc15202eefd9c25bb202b911e77e8e9f51b44a3744c549d02e9c68d76",
+    "compileExitCode": 0,
+    "runExitCode": 0,
+    "allNativePixelAndPaletteSha256Match": true,
+    "nativeImagesCompared": 265,
+    "summary": "PASS: 265 native PCX images, 258 frames, 32 sequences, 12 animations/252 slots, 3 maps, 3 native collision grids; no game loop, video or audio initialized",
+    "testArtifact": {
+      "bytes": 1862274,
+      "sha256": "5bd154cf1354e60901fd2098864ebd0a578a29e5beb02b5e046268a982eb7f55"
+    }
+  },
+  "earlierHarnessFailures": [
+    "Linker-only ASSERTIONS setting was mistakenly used in compile command; moved to final link",
+    "Retained headers trigger legacy pragma/tag/private-field diagnostics with strict warnings; final recipe classifies hash-verified retained headers as system headers"
+  ],
+  "remaining": [
+    "wire authored startup/next-course/victory/retry flow and execute course initialization",
+    "review/remove remaining source-side original campaign/UI/story/font/special-effect data and unsupported paths",
+    "ordinary gameplay, three-course objectives, hazards/death/retry, checkpoint/save restoration and Stop",
+    "selected SDK/runtime notices, shipping allowlists, corresponding source, muted production verification"
+  ],
+  "limits": {
+    "generalPcxCompatibilityCertificate": false,
+    "arbitraryInputSafetyCertificate": false,
+    "completeMemorySafetyOrLeakCertificate": false,
+    "gameHostInitialized": false,
+    "gameLoopStarted": false,
+    "videoInitialized": false,
+    "audioInitialized": false,
+    "gameplayVerified": false,
+    "browserPlayerStarted": false,
+    "audibleAudioTest": false,
+    "runtimePublished": false,
+    "websiteDeployed": false,
+    "marioParty2or3Touched": false,
+    "haloTouched": false,
+    "privateRomResearchPublished": false,
+    "playersLeftRunning": false
+  }
+}

@@ -18,6 +18,8 @@ Existing Open Paths has a [code provenance correction](open-paths-code-provenanc
 
 [Prism Foundry content checkpoint](prism-foundry-content-2026-10-15.md) adds three independently authored CC0 course specifications, 265 images and native map/animation data with a per-file manifest. Actual native PCX/animation/map/collision checks pass; the game is not integrated or gameplay-tested. Source-side content selection, bounds/init work, final notices and full release verification remain. Catalog **90**, no new decompilation.
 
+[Prism Foundry bounds/level-selection follow-up](prism-foundry-bounds-levels-2026-10-15.md) passes 21 negative descriptor/image cases, animation bounds, the three-course native descriptor selector and full native content replay. The initializer/gate callbacks only compile; startup/gameplay, remaining source-side content, notices and full release verification remain open. No new catalog or decompilation count.
+
 Existing Open Cadet now has [one unpaused native launch-skill bonus case and a separate debugger score pairing](open-cadet-skill-shot-production-test-2026-10-14.md). Runtime/source bytes are unchanged. This narrows its objective-verification gap; it does not complete all missions or add a game.
 
 Catalog **88**; eleven scoped intake additions have shipped, plus the existing Open Cadet repair. The strict additional-decompilation milestone remains **4/5**. This checkpoint supersedes chronological “pending”, “private prototype” and older catalog-count statements for the entries below. Those earlier records remain evidence of their respective stages.

@@ -32,3 +32,4 @@ public/notices/open-paths-upstream.txt -text whitespace=-blank-at-eol,-blank-at-
 experiments/moon-child-source-probe/** -text
 experiments/moon-child-independent-adapters/** -text
 experiments/prism-foundry-content/** -text
+experiments/prism-foundry-integration/** -text
