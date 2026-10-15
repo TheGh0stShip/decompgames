@@ -18,15 +18,30 @@ await new Promise(r=>server.listen(0,'127.0.0.1',r));
 let browser;
 try{
   browser=await chromium.launch({channel:'msedge',headless:true,args:['--mute-audio']});
+  report.browserVersion=browser.version();report.dateUtc=new Date().toISOString();
   const page=await browser.newPage({viewport:{width:1000,height:1000}});
   page.on('pageerror',e=>report.errors.push(e.stack));
   page.on('console',m=>{report.console.push(m.text());if(m.type()==='error')report.consoleErrors.push(m.text());});
   page.on('request',r=>report.requests.push(r.url().replace(/127\.0\.0\.1:\d+/,'127.0.0.1:PORT')));
+  if(process.argv.includes('--loading-stop')){
+    let delayed=false;
+    await page.route('**/foundry.wasm',async r=>{if(!delayed){delayed=true;await new Promise(resolve=>setTimeout(resolve,1000));}try{await r.continue();}catch{}});
+  }
   await page.goto(`http://127.0.0.1:${server.address().port}/`);
+  if(process.argv.includes('--loading-stop')){
+    await page.locator('#start').click();
+    const loading=await (await page.locator('iframe').elementHandle()).contentFrame();
+    await loading.waitForFunction(()=>typeof Module!=='undefined'&&typeof Module._FoundryStatus==='function'&&!foundryReady);
+    assert.equal(await loading.evaluate(()=>foundrySnapshot()),null);
+    await page.locator('#stop').click();
+    await page.waitForFunction(()=>document.querySelector('#state').textContent==='Stopped — player context removed');
+    assert.equal(await page.locator('iframe').count(),0);
+    report.stoppedDuringLoadingWithoutNativeExportCall=true;
+  }
   await page.locator('#start').click();
   let frame=await page.locator('iframe').elementHandle();
   let game=await frame.contentFrame();
-  await game.waitForFunction(()=>window.foundrySnapshot?.()?.ticks>20,{timeout:30000});
+  await game.waitForFunction(()=>window.foundrySnapshot?.()?.ticks>20,null,{timeout:30000});
   const snapshot=()=>game.evaluate(()=>foundrySnapshot());
   const tap=async key=>{await page.keyboard.down(key);await page.waitForTimeout(90);await page.keyboard.up(key);};
   report.checkpoints.push({name:'startup',state:await snapshot()});
@@ -67,12 +82,12 @@ try{
     assert.equal((await snapshot()).prisms,2);
   }
   await page.screenshot({path:path.join(root,'startup-controls.png')});
-  await page.locator('#stop').click();await page.waitForFunction(()=>document.querySelector('#state').textContent==='Stopped — native shutdown observed');
+  await page.locator('#stop').click();await page.waitForFunction(()=>document.querySelector('#state').textContent==='Stopped \u2014 native shutdown observed');
   assert.equal(await page.locator('iframe').count(),0);report.nativeShutdownObserved=true;
   await page.locator('#start').click();frame=await page.locator('iframe').elementHandle();game=await frame.contentFrame();
   await game.waitForFunction(()=>window.foundrySnapshot?.()?.ticks>20,{timeout:30000});
   report.checkpoints.push({name:'fresh restart',state:await snapshot()});
-  await page.locator('#stop').click();await page.waitForFunction(()=>document.querySelector('#state').textContent==='Stopped — native shutdown observed');
+  await page.locator('#stop').click();await page.waitForFunction(()=>document.querySelector('#state').textContent==='Stopped \u2014 native shutdown observed');
   report.secondNativeShutdownObserved=true;
   assert.deepEqual(report.errors,[]);assert.deepEqual(report.consoleErrors,[]);
   report.passed=true;

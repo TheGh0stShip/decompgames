@@ -1,0 +1,1746 @@
+{
+  "schemaVersion": 1,
+  "dateUtc": "2026-10-15T06:23:51.556329+00:00",
+  "project": "Prism Foundry",
+  "status": "private full three-course ordinary-input victory and loading cancellation pass; no release",
+  "classification": "original-developer source port with independently authored replacement content",
+  "catalogCount": 90,
+  "newCatalogEntries": 0,
+  "newDecompilations": 0,
+  "recipeFiles": [
+    {
+      "path": "experiments/prism-foundry-integration/build-player.py",
+      "bytes": 11148,
+      "sha256": "90fe9a07333dfb8a4d2e7df0c807dc579627e5aba8815d990d5e2d4e28bee171"
+    },
+    {
+      "path": "experiments/prism-foundry-integration/index.html",
+      "bytes": 1991,
+      "sha256": "4bbcffd30eb1b5c1fc61304af697fb2f9e9a0a1fc1e13a68aec9c6631d171307"
+    },
+    {
+      "path": "experiments/prism-foundry-integration/player.html",
+      "bytes": 1761,
+      "sha256": "cd313a2ca335d9d0cd45191d8302c7aa03d64c35969adc655e6216cf429ebe08"
+    },
+    {
+      "path": "experiments/prism-foundry-integration/test-player.mjs",
+      "bytes": 7117,
+      "sha256": "d6e3a46f09353fa669062b88e85c6407eda42dc1d56c30d885d672331aa6950d"
+    },
+    {
+      "path": "experiments/prism-foundry-integration/test-campaign.mjs",
+      "bytes": 7094,
+      "sha256": "c5b3fea671f5dccb1129c5f15fc5133a9285259ff832b2ff4d71771a837b1706"
+    },
+    {
+      "path": "experiments/prism-foundry-integration/animation.cpp",
+      "bytes": 3038,
+      "sha256": "bb249bd2cfdf636aa5e18f0550900911f0604e7a0e4f750cffae73643c52f5ba"
+    },
+    {
+      "path": "experiments/prism-foundry-integration/assets.cpp",
+      "bytes": 8486,
+      "sha256": "79f78fc59e5c2be7d76be0720b59e5fe7eaab739b57b62e7061638c5cef93a5e"
+    },
+    {
+      "path": "experiments/prism-foundry-integration/FoundryLevels.cpp",
+      "bytes": 2755,
+      "sha256": "9d411fede528e4c07772a3ada940658ec7accf73bb6113c80bd6201450e1066a"
+    },
+    {
+      "path": "experiments/prism-foundry-integration/FoundryLevels.h",
+      "bytes": 358,
+      "sha256": "48a2893cac6454bd4ac10ce36b1f040c978b0d08b9c3f29d540228300fef14ce"
+    },
+    {
+      "path": "experiments/prism-foundry-integration/make-levels.py",
+      "bytes": 1684,
+      "sha256": "9fa3b1889d5e34d15ec9b06a2827ac3359c7580bdfbc4feae29061972e99cf4c"
+    }
+  ],
+  "build": {
+    "retainedObjectCount": 83,
+    "retainedObjects": [
+      {
+        "source": "Classes/moonchild/asteroid.cpp",
+        "bytes": 6167,
+        "sha256": "44ea24f7d9deddbd1c4f2669d810c9ccb15aebb966fc1e4d84c713e2f062e4b9"
+      },
+      {
+        "source": "Classes/moonchild/basic.cpp",
+        "bytes": 5337,
+        "sha256": "2cde92e479c8f370d3427ccca9fa5de7c2be29e5ce61991b71170b929b473456"
+      },
+      {
+        "source": "Classes/moonchild/bat.cpp",
+        "bytes": 3321,
+        "sha256": "bd2fe1136a985a4b3e5527d21134cbe459978aaecc3d30002130649175f58c82"
+      },
+      {
+        "source": "Classes/moonchild/bbot.cpp",
+        "bytes": 4031,
+        "sha256": "d4fcf02808871d10feba26fae84d2e788bd0ec6a55501f685740865dcdd08f08"
+      },
+      {
+        "source": "Classes/moonchild/bee.cpp",
+        "bytes": 3453,
+        "sha256": "2f49d67928a297497a05c5ea4ea6c89fe90234aa527d1453205b049a93587bbe"
+      },
+      {
+        "source": "Classes/moonchild/bolt.cpp",
+        "bytes": 4008,
+        "sha256": "4e89b9eca4ac2ea982584b3ce39e514844afabe816daa44db8d9a5827ab31c16"
+      },
+      {
+        "source": "Classes/moonchild/bonus.cpp",
+        "bytes": 1884,
+        "sha256": "5241f127bf555ad1bfa2cf0a1053edfb63dae3654a2157bf3698b49f192fea26"
+      },
+      {
+        "source": "Classes/moonchild/boss.cpp",
+        "bytes": 8993,
+        "sha256": "6dd82f827ca84b908bc4af3b13f3632a917771c4f7826c713029cbce5c155061"
+      },
+      {
+        "source": "Classes/moonchild/bouncey.cpp",
+        "bytes": 3662,
+        "sha256": "fdda34477027d9fae33b92b54c6b5f631e25b7a1e8548b1bb30f403d5c01a915"
+      },
+      {
+        "source": "Classes/moonchild/bullet.cpp",
+        "bytes": 3528,
+        "sha256": "a2df8dd7a6ae381061208a3ba149e39cd4ca022c6c4292afde2a6de68818c4b2"
+      },
+      {
+        "source": "Classes/moonchild/bump.cpp",
+        "bytes": 2335,
+        "sha256": "cae37eec357b041270f21df5117273491d1684a3894e48ec71c2d06cd665eb7c"
+      },
+      {
+        "source": "Classes/moonchild/cannon.cpp",
+        "bytes": 6649,
+        "sha256": "4935d0c4e20fcad6307ff034c5d9c3c50d4348d0d008392e82ef880219d62b28"
+      },
+      {
+        "source": "Classes/moonchild/chain.cpp",
+        "bytes": 4203,
+        "sha256": "17da6a4a74ce412a4efadcf1eeb0764d908f78d2fe7b4c0d6268cf3262e2f914"
+      },
+      {
+        "source": "Classes/moonchild/claw.cpp",
+        "bytes": 3997,
+        "sha256": "0ef3c12afd50c3ca0391e3de1c3a45a7dd9810753badfa9a5c7ed52cf8d83b9b"
+      },
+      {
+        "source": "Classes/moonchild/cloud.cpp",
+        "bytes": 2225,
+        "sha256": "fb5521fc4f7e8500665b509b97ed35336fd14616b1ba9a21ddcc5ebded1faa3a"
+      },
+      {
+        "source": "Classes/moonchild/diamond.cpp",
+        "bytes": 1936,
+        "sha256": "b0f6b04aaf8c848d0702984896652a8e02dafaedb1390c2ccaf9deaa7816fa09"
+      },
+      {
+        "source": "Classes/moonchild/doldoler.cpp",
+        "bytes": 3096,
+        "sha256": "21b928c1dbca9824afe706a50764dd31a350731fdedb1eff99542acff583b1c1"
+      },
+      {
+        "source": "Classes/moonchild/editor.cpp",
+        "bytes": 3715,
+        "sha256": "c7f5ad0687632d38ff7e3fbb4ed2bb97d5ea4932fa9abdde45881acdbbde5024"
+      },
+      {
+        "source": "Classes/moonchild/element.cpp",
+        "bytes": 6989,
+        "sha256": "ff2fe8c673cf6f778f9544e7922773a2a8f9373fc2b0f14f3e27eeb81dfed491"
+      },
+      {
+        "source": "Classes/moonchild/elevat.cpp",
+        "bytes": 3596,
+        "sha256": "259df05d46d8c2da3406885ef95476a40750dec3f476875cb68bfb8b93ca5c28"
+      },
+      {
+        "source": "Classes/moonchild/glim.cpp",
+        "bytes": 1666,
+        "sha256": "3f940959d722a83222bb750a327103c0d67a9b557941d61be8304b2fd0027e4d"
+      },
+      {
+        "source": "Classes/moonchild/globals.cpp",
+        "bytes": 28620,
+        "sha256": "a360bd7e1ce9eeead51ccdd2c634ebf0cf0dc89f3c460ba4b8a3e7518a13d5c9"
+      },
+      {
+        "source": "Classes/moonchild/goodday.cpp",
+        "bytes": 1261,
+        "sha256": "5f47bf3ff3940e47992ddd2699908aa17b7c19721c9b78bd6398fd446f213488"
+      },
+      {
+        "source": "Classes/moonchild/gravlift.cpp",
+        "bytes": 2325,
+        "sha256": "5ec55e930db3b0e0bc7e96666a830a6fc5b81e856e55462982afd3d14085c653"
+      },
+      {
+        "source": "Classes/moonchild/gumbal.cpp",
+        "bytes": 2135,
+        "sha256": "e62d744240a37a48f1d48043b5bb25c9235e40a650d6d23e4d9f941d2ca39373"
+      },
+      {
+        "source": "Classes/moonchild/hoi.cpp",
+        "bytes": 51797,
+        "sha256": "49b000a05cb3c63a2102035fe4e0301c4c1c897423a15d350a5abeaa9198f5ad"
+      },
+      {
+        "source": "Classes/moonchild/ironauto.cpp",
+        "bytes": 3944,
+        "sha256": "08fba3c6499562326c8b5f34f63224ce207ce5c2761a2c91084807df2de8ec63"
+      },
+      {
+        "source": "Classes/moonchild/ironring.cpp",
+        "bytes": 3667,
+        "sha256": "b0c49d48cf450d038d8344572e56b8f461dc0d6798f7b89406f311cb597d195e"
+      },
+      {
+        "source": "Classes/moonchild/levinits.cpp",
+        "bytes": 89556,
+        "sha256": "f74ce386c903f1b64022c6232f45999bd285306df68b8b3cc2544ac7c38dd56a"
+      },
+      {
+        "source": "Classes/moonchild/lift.cpp",
+        "bytes": 1947,
+        "sha256": "62b9a1893ce72f0217ac2af749d08d69503a169a7cbb2c1c01b6175f66a39d47"
+      },
+      {
+        "source": "Classes/moonchild/metbal.cpp",
+        "bytes": 2116,
+        "sha256": "16dd5cb844b02bb877f27a92e60e2b8def40dd90bc33f7becf80e01fccc0a3c9"
+      },
+      {
+        "source": "Classes/moonchild/metcan.cpp",
+        "bytes": 2311,
+        "sha256": "bc4e5af50e3a112d2ea86113513da1f2514110135b27ff1f26aa39567c44717a"
+      },
+      {
+        "source": "Classes/moonchild/mine.cpp",
+        "bytes": 2962,
+        "sha256": "6071c812309e878670a26810ec2d47619a14e0d7095a8c081360e3558028193a"
+      },
+      {
+        "source": "Classes/moonchild/mixer.cpp",
+        "bytes": 2871,
+        "sha256": "522c53045d9c94e3e20f78d3fd9a1ec43be9028979a7362983a228529c6e7b9e"
+      },
+      {
+        "source": "Classes/moonchild/mouth.cpp",
+        "bytes": 3395,
+        "sha256": "70ef08befe15c2748be7bcc35fc988bc2849c7d1ea3775c29e32cde5c72b70f0"
+      },
+      {
+        "source": "Classes/moonchild/mushroom.cpp",
+        "bytes": 4369,
+        "sha256": "844b8b19ebba6155747aa577e4a9f508d32245a628ffe87674acc69d52693af6"
+      },
+      {
+        "source": "Classes/moonchild/objects.cpp",
+        "bytes": 4485,
+        "sha256": "9c8e756cb0534f7167938c08a2a1ab48da5ca1025e3ef3608c0c2351df125e54"
+      },
+      {
+        "source": "Classes/moonchild/paal.cpp",
+        "bytes": 1531,
+        "sha256": "6716d8296823e621e2df8ed67286157ec8fa1ab440595526cad695c79507b2a1"
+      },
+      {
+        "source": "Classes/moonchild/plant.cpp",
+        "bytes": 5587,
+        "sha256": "2b06d48a7e6ee1d0800a2dec9c7d479abdc35376b303ee71e806bd0909d232e5"
+      },
+      {
+        "source": "Classes/moonchild/plof.cpp",
+        "bytes": 2672,
+        "sha256": "76c1c5b8adb6c7fae43f452852c786bfa6d9847ca7db601c576ceee3f799893d"
+      },
+      {
+        "source": "Classes/moonchild/prefs.cpp",
+        "bytes": 483,
+        "sha256": "f72988958d27153568c6bedee4422e12e253c705825557dacee872bd5e1bb952"
+      },
+      {
+        "source": "Classes/moonchild/ptoei.cpp",
+        "bytes": 1917,
+        "sha256": "f4518645204443de15fba4476fe460a20094c46e05309e4d656eeadef80a9215"
+      },
+      {
+        "source": "Classes/moonchild/punt.cpp",
+        "bytes": 1980,
+        "sha256": "4530723af40f120abd1e2e35844da2d94ce656419166dc8fa57da0f60bb0b328"
+      },
+      {
+        "source": "Classes/moonchild/robyn.cpp",
+        "bytes": 2898,
+        "sha256": "792db59d537ef38f99b29fd98ef2b44941770f7671a62a2b58efc07470d74048"
+      },
+      {
+        "source": "Classes/moonchild/rock.cpp",
+        "bytes": 3090,
+        "sha256": "739d2ec69811b6c8b4ee62212680ad470c055b93ae28343f59a3e75128d3f90c"
+      },
+      {
+        "source": "Classes/moonchild/rocket.cpp",
+        "bytes": 2632,
+        "sha256": "b0c0a0f2bade6a168c248c200023579ef653df9ccc30bcad50e10799f87cc22e"
+      },
+      {
+        "source": "Classes/moonchild/score.cpp",
+        "bytes": 10004,
+        "sha256": "e9431f43b4750244467bc018a33e980878e62b6b1558cba3706076433b753c86"
+      },
+      {
+        "source": "Classes/moonchild/scroll.cpp",
+        "bytes": 37531,
+        "sha256": "2da94ba7ed214d495f4e85a214afc9576f81ae738ffad05162d63573f6e32264"
+      },
+      {
+        "source": "Classes/moonchild/seamine.cpp",
+        "bytes": 1261,
+        "sha256": "25a7f50aec3277b1bf0ae3692ff3429c76e0a704a9ea9c78a80cdd03342c42fc"
+      },
+      {
+        "source": "Classes/moonchild/smlheart.cpp",
+        "bytes": 2709,
+        "sha256": "f5b086fdd4c47be933e6b37105a1659b52bf58cdbbdac56fbd88970910263170"
+      },
+      {
+        "source": "Classes/moonchild/snake.cpp",
+        "bytes": 4583,
+        "sha256": "8f31dc897d32ebb892a2582caad59a8605f5f227f376d3532690b34d27f17ddb"
+      },
+      {
+        "source": "Classes/moonchild/sneak.cpp",
+        "bytes": 4511,
+        "sha256": "908091b25f6961fc77474eec42a76178eab08c48cc3fa2f975a3315f4faf1cdb"
+      },
+      {
+        "source": "Classes/moonchild/sokoban.cpp",
+        "bytes": 6192,
+        "sha256": "d96608abb0cc0e6d68f5f52eed1057008554852c18e674537dd35b85e6bb35c0"
+      },
+      {
+        "source": "Classes/moonchild/sound.cpp",
+        "bytes": 55159,
+        "sha256": "e6ad9996056df95a6ce52fc4eb8aceef6fa6507f07da3adfd7c2ab5fbf875060"
+      },
+      {
+        "source": "Classes/moonchild/spies.cpp",
+        "bytes": 2059,
+        "sha256": "72124a45032b95952e6394302f03f4b187e5a99e10161749783a00b22e85a393"
+      },
+      {
+        "source": "Classes/moonchild/spike.cpp",
+        "bytes": 1846,
+        "sha256": "674122ee920afee1f34bf17e79dfd30598671ada40ba2413f268e5c3b9e3c6de"
+      },
+      {
+        "source": "Classes/moonchild/stukhout.cpp",
+        "bytes": 2730,
+        "sha256": "5665007411012c083a905cd22df2f188ef4e4cdc168b504af76b48ecaefaf459"
+      },
+      {
+        "source": "Classes/moonchild/switsj.cpp",
+        "bytes": 4366,
+        "sha256": "ebffba4700254c9243d97a6b4f44fcde1d7d0781f0ee8c785b014ebac636fc68"
+      },
+      {
+        "source": "Classes/moonchild/trigger.cpp",
+        "bytes": 20407,
+        "sha256": "a7a4e9b0030104ab70033d2781a36ab031a50780b3a11de8f42f14bde928f608"
+      },
+      {
+        "source": "Classes/moonchild/vgdll.cpp",
+        "bytes": 6040,
+        "sha256": "5a3337c1d1533960a01e56a31da4922151ec268d11bbef9292e5e3cb6a2d6d1d"
+      },
+      {
+        "source": "Classes/moonchild/warp.cpp",
+        "bytes": 2344,
+        "sha256": "42a0095e848caa67e874da3176a8ae4279fb71f645c9f3799c4d33a4ecddbf99"
+      },
+      {
+        "source": "Classes/moonchild/weight.cpp",
+        "bytes": 2366,
+        "sha256": "10a0806ce6a5b35381b88e912ce32329b293a6cba0223d8bcd99e2358939320c"
+      },
+      {
+        "source": "Classes/moonchild/wheel.cpp",
+        "bytes": 2866,
+        "sha256": "bc54c6b4e2a5115c748f68159489105b2eb822a5ffdfa94ec052e3216e6f4bd6"
+      },
+      {
+        "source": "Classes/framewrk/blitbuf.cpp",
+        "bytes": 4663,
+        "sha256": "b0d31527f908d795966a83c613047e991459c3c749407b78387bd57916aefef5"
+      },
+      {
+        "source": "Classes/framewrk/fastfile.cpp",
+        "bytes": 75968,
+        "sha256": "b81de4b1348c3c71d9713a59a19d251041d99b5dba3361cd6be46752ab2a5e8a"
+      },
+      {
+        "source": "Classes/framewrk/pcxff.cpp",
+        "bytes": 2908,
+        "sha256": "d7afb3ad1e461577b03acd39d92ca572426e8fbd5d443545dfb25e6aec259637"
+      },
+      {
+        "source": "Classes/framewrk/sprite.cpp",
+        "bytes": 6231,
+        "sha256": "f749c1da35345291ae701af8a2cdefc8caa56464b4b9649c0dcdc2b5a0c7607d"
+      },
+      {
+        "source": "Classes/framewrk/timer.cpp",
+        "bytes": 333,
+        "sha256": "83c5832fcd9f54a26f7173622b5c47fa47d86b2995db60d78f3fd34ce15b18c3"
+      },
+      {
+        "source": "Classes/framewrk/unzip.c",
+        "bytes": 450,
+        "sha256": "f41503258893c0ac1f5a9b68d47916c4933f40aeb3ef15df096d3f41ac884504"
+      },
+      {
+        "source": "Classes/framewrk/video.cpp",
+        "bytes": 18569,
+        "sha256": "a1b1b57d99dc7df94dd58faa059e0841d9c726d8eaac64252fa3a737b517fb2f"
+      },
+      {
+        "source": "Platform/App/PlatformBackends.cpp",
+        "bytes": 9186,
+        "sha256": "62d7a9084250140f1ab9fec3ce7adda6ccc04f6c452340f9dac56e4cb4ba54b0"
+      },
+      {
+        "source": "Platform/App/Resources.cpp",
+        "bytes": 23329,
+        "sha256": "f5f4b534fb039cd161f8f87a5a4f107fdb8fdd38502a2dd6df2eab6ce7a5b851"
+      },
+      {
+        "source": "Platform/App/FrameworkGlue.cpp",
+        "bytes": 1132,
+        "sha256": "d172f1ff6732e0d3bcbf75fe0b656bcab8972ae2509636f83a84860eed1b42ee"
+      },
+      {
+        "source": "Platform/App/MediaCatalog.cpp",
+        "bytes": 7533,
+        "sha256": "8ba45b222ac9e2949e73f57a0264570f109222743c3b53ab4cf6c32f2771de95"
+      },
+      {
+        "source": "Platform/Core/Random.cpp",
+        "bytes": 1134,
+        "sha256": "af55af1bce7292f67130f647d01fae97d76c0c8ab7126582fe484f3706d63941"
+      },
+      {
+        "source": "Platform/Bridges/AudioBridge.cpp",
+        "bytes": 2850,
+        "sha256": "978db27abc45a5b3d34036e0591d05b42fac00bd9e8291cbdc80866285554172"
+      },
+      {
+        "source": "Platform/Bridges/DisplayBridge.cpp",
+        "bytes": 1658,
+        "sha256": "afae3c018c763685763a6e0359080ca01cff0737e7c4fba82da2cdb29f16bace"
+      },
+      {
+        "source": "Platform/Bridges/InputBridge.cpp",
+        "bytes": 107434,
+        "sha256": "66d48197f87c2463c9fb35fb43b886df28b9492a370bff2ce65f1ceb19e7f005"
+      },
+      {
+        "source": "Platform/Bridges/MovieBridge.cpp",
+        "bytes": 96224,
+        "sha256": "aaaa99961aaa37244849ce1fbef90360036fce4e332caf19e2741a066c6e2d71"
+      },
+      {
+        "source": "Platform/Backends/Window/SDL2Window.cpp",
+        "bytes": 11230,
+        "sha256": "7afd352e89ca72a8c808928a030c11abcd4585e675b91d3ab7b673179d6030d6"
+      },
+      {
+        "source": "Platform/Backends/Renderer/GLESRenderer.cpp",
+        "bytes": 33865,
+        "sha256": "3de53d49b6422d56a662aef7df1e87adeb29e82130ef09168251421a2878f21e"
+      },
+      {
+        "source": "Libraries/glad/glad.c",
+        "bytes": 120555,
+        "sha256": "c00e90cef9ef8240b6395b05dfc5a89c55ddc7f5602cdd09d16929048501753b"
+      },
+      {
+        "source": "Platform/Backends/Input/SDL2Input.cpp",
+        "bytes": 53143,
+        "sha256": "8ee2f3a93ea9246413930838405e4b4809025c28a426180c7ee734e54190b0b0"
+      }
+    ],
+    "changedOrNewCompileExitCodes": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "linkExitCode": 0,
+    "outputs": [
+      {
+        "path": "foundry.js",
+        "bytes": 361173,
+        "sha256": "c7bf132ad1d0d7e308f044ed4bd788041b06bd5b98e8790b7299bdf53dadf1cf"
+      },
+      {
+        "path": "foundry.wasm",
+        "bytes": 2174219,
+        "sha256": "7e8dd38144ccdf226d13baeb947fd41152d1afed21f5f6ec82a89fca228f6d65"
+      },
+      {
+        "path": "player.html",
+        "bytes": 1761,
+        "sha256": "cd313a2ca335d9d0cd45191d8302c7aa03d64c35969adc655e6216cf429ebe08"
+      },
+      {
+        "path": "index.html",
+        "bytes": 1991,
+        "sha256": "4bbcffd30eb1b5c1fc61304af697fb2f9e9a0a1fc1e13a68aec9c6631d171307"
+      }
+    ],
+    "wasmAndJsIdenticalToV3AndV4": true,
+    "assertions": 2,
+    "safeHeapAtFinalLink": true,
+    "allRetainedObjectsRebuilt": false,
+    "legacyMcWarningCount": 86,
+    "dataPackManifestSha256": "c418e6a2e9adb88d06061b76e7030a5dea516eb9042bcc99578532330eacc356"
+  },
+  "browser": {
+    "channel": "msedge",
+    "headless": true,
+    "muteAudioFlag": true,
+    "ordinaryInputsOnly": true,
+    "stateExportsReadOnly": true,
+    "loadingAndControls": {
+      "scope": "Startup and ordinary control smoke test, not campaign completion",
+      "muted": true,
+      "checkpoints": [
+        {
+          "name": "startup",
+          "state": {
+            "loaded": 1,
+            "course": 0,
+            "paused": 0,
+            "prisms": 0,
+            "complete": 0,
+            "ticks": 21,
+            "respawns": 0,
+            "checkpointX": 80,
+            "checkpointY": 584,
+            "editor": 0,
+            "x": 80,
+            "y": 592,
+            "running": 1
+          }
+        },
+        {
+          "name": "right movement",
+          "state": {
+            "loaded": 1,
+            "course": 0,
+            "paused": 0,
+            "prisms": 0,
+            "complete": 0,
+            "ticks": 47,
+            "respawns": 0,
+            "checkpointX": 80,
+            "checkpointY": 584,
+            "editor": 0,
+            "x": 147,
+            "y": 592,
+            "running": 1
+          }
+        },
+        {
+          "name": "jump",
+          "state": {
+            "loaded": 1,
+            "course": 0,
+            "paused": 0,
+            "prisms": 0,
+            "complete": 0,
+            "ticks": 53,
+            "respawns": 0,
+            "checkpointX": 80,
+            "checkpointY": 584,
+            "editor": 0,
+            "x": 169,
+            "y": 557,
+            "running": 1
+          }
+        },
+        {
+          "name": "pause remains stationary",
+          "state": {
+            "loaded": 1,
+            "course": 0,
+            "paused": 1,
+            "prisms": 0,
+            "complete": 0,
+            "ticks": 54,
+            "respawns": 0,
+            "checkpointX": 80,
+            "checkpointY": 584,
+            "editor": 0,
+            "x": 172,
+            "y": 550,
+            "running": 1
+          }
+        },
+        {
+          "name": "editor skip disabled",
+          "state": {
+            "loaded": 1,
+            "course": 0,
+            "paused": 0,
+            "prisms": 0,
+            "complete": 0,
+            "ticks": 82,
+            "respawns": 0,
+            "checkpointX": 80,
+            "checkpointY": 584,
+            "editor": 0,
+            "x": 202,
+            "y": 459,
+            "running": 1
+          }
+        },
+        {
+          "name": "ordinary retry",
+          "state": {
+            "loaded": 1,
+            "course": 0,
+            "paused": 0,
+            "prisms": 0,
+            "complete": 0,
+            "ticks": 117,
+            "respawns": 0,
+            "checkpointX": 80,
+            "checkpointY": 584,
+            "editor": 0,
+            "x": 80,
+            "y": 592,
+            "running": 1
+          }
+        },
+        {
+          "name": "fresh restart",
+          "state": {
+            "loaded": 1,
+            "course": 0,
+            "paused": 0,
+            "prisms": 0,
+            "complete": 0,
+            "ticks": 21,
+            "respawns": 0,
+            "checkpointX": 80,
+            "checkpointY": 584,
+            "editor": 0,
+            "x": 80,
+            "y": 592,
+            "running": 1
+          }
+        }
+      ],
+      "errors": [],
+      "consoleErrors": [],
+      "console": [
+        "WebGL: INVALID_ENUM: disable: invalid capability",
+        "WebGL: INVALID_ENUM: disable: invalid capability"
+      ],
+      "requests": [
+        "http://127.0.0.1:PORT/",
+        "http://127.0.0.1:PORT/player.html",
+        "http://127.0.0.1:PORT/foundry.js",
+        "http://127.0.0.1:PORT/foundry.wasm",
+        "http://127.0.0.1:PORT/player.html",
+        "http://127.0.0.1:PORT/foundry.js",
+        "http://127.0.0.1:PORT/foundry.wasm",
+        "http://127.0.0.1:PORT/player.html",
+        "http://127.0.0.1:PORT/foundry.js",
+        "http://127.0.0.1:PORT/foundry.wasm"
+      ],
+      "browserVersion": "154.0.4258.62",
+      "dateUtc": "2026-10-15T06:23:42.231Z",
+      "stoppedDuringLoadingWithoutNativeExportCall": true,
+      "nativeShutdownObserved": true,
+      "secondNativeShutdownObserved": true,
+      "passed": true
+    },
+    "fullCampaign": {
+      "scope": "Ordinary three-course campaign attempt",
+      "dateUtc": "2026-10-15T06:21:45.160Z",
+      "muted": true,
+      "checkpoints": [
+        {
+          "name": "startup",
+          "state": {
+            "loaded": 1,
+            "course": 0,
+            "paused": 0,
+            "prisms": 0,
+            "complete": 0,
+            "ticks": 23,
+            "respawns": 0,
+            "checkpointX": 80,
+            "checkpointY": 584,
+            "editor": 0,
+            "x": 80,
+            "y": 592,
+            "running": 1
+          }
+        },
+        {
+          "name": "first launch",
+          "state": {
+            "loaded": 1,
+            "course": 0,
+            "paused": 0,
+            "prisms": 0,
+            "complete": 0,
+            "ticks": 181,
+            "respawns": 0,
+            "checkpointX": 80,
+            "checkpointY": 584,
+            "editor": 0,
+            "x": 243,
+            "y": 592,
+            "running": 1
+          }
+        },
+        {
+          "name": "first ledge landing",
+          "state": {
+            "loaded": 1,
+            "course": 0,
+            "paused": 0,
+            "prisms": 0,
+            "complete": 0,
+            "ticks": 283,
+            "respawns": 0,
+            "checkpointX": 80,
+            "checkpointY": 584,
+            "editor": 0,
+            "x": 421,
+            "y": 528,
+            "running": 1
+          }
+        },
+        {
+          "name": "first prism",
+          "state": {
+            "loaded": 1,
+            "course": 0,
+            "paused": 0,
+            "prisms": 1,
+            "complete": 0,
+            "ticks": 358,
+            "respawns": 0,
+            "checkpointX": 80,
+            "checkpointY": 584,
+            "editor": 0,
+            "x": 421,
+            "y": 528,
+            "running": 1
+          }
+        },
+        {
+          "name": "second ledge landing",
+          "state": {
+            "loaded": 1,
+            "course": 0,
+            "paused": 0,
+            "prisms": 2,
+            "complete": 0,
+            "ticks": 662,
+            "respawns": 0,
+            "checkpointX": 80,
+            "checkpointY": 584,
+            "editor": 0,
+            "x": 855,
+            "y": 464,
+            "running": 1
+          }
+        },
+        {
+          "name": "second prism",
+          "state": {
+            "loaded": 1,
+            "course": 0,
+            "paused": 0,
+            "prisms": 2,
+            "complete": 0,
+            "ticks": 737,
+            "respawns": 0,
+            "checkpointX": 80,
+            "checkpointY": 584,
+            "editor": 0,
+            "x": 855,
+            "y": 464,
+            "running": 1
+          }
+        },
+        {
+          "name": "first gap crossing",
+          "state": {
+            "loaded": 1,
+            "course": 0,
+            "paused": 0,
+            "prisms": 2,
+            "complete": 0,
+            "ticks": 850,
+            "respawns": 0,
+            "checkpointX": 80,
+            "checkpointY": 584,
+            "editor": 0,
+            "x": 1139,
+            "y": 592,
+            "running": 1
+          }
+        },
+        {
+          "name": "third approach ledge",
+          "state": {
+            "loaded": 1,
+            "course": 0,
+            "paused": 0,
+            "prisms": 2,
+            "complete": 0,
+            "ticks": 1038,
+            "respawns": 0,
+            "checkpointX": 1168,
+            "checkpointY": 584,
+            "editor": 0,
+            "x": 1302,
+            "y": 528,
+            "running": 1
+          }
+        },
+        {
+          "name": "third high ledge",
+          "state": {
+            "loaded": 1,
+            "course": 0,
+            "paused": 0,
+            "prisms": 2,
+            "complete": 0,
+            "ticks": 1359,
+            "respawns": 0,
+            "checkpointX": 1168,
+            "checkpointY": 584,
+            "editor": 0,
+            "x": 1481,
+            "y": 464,
+            "running": 1
+          }
+        },
+        {
+          "name": "third prism",
+          "state": {
+            "loaded": 1,
+            "course": 0,
+            "paused": 0,
+            "prisms": 3,
+            "complete": 0,
+            "ticks": 1526,
+            "respawns": 0,
+            "checkpointX": 1168,
+            "checkpointY": 584,
+            "editor": 0,
+            "x": 1515,
+            "y": 464,
+            "running": 1
+          }
+        },
+        {
+          "name": "first gate",
+          "state": {
+            "loaded": 1,
+            "course": 1,
+            "paused": 0,
+            "prisms": 0,
+            "complete": 0,
+            "ticks": 1625,
+            "respawns": 0,
+            "checkpointX": 80,
+            "checkpointY": 584,
+            "editor": 0,
+            "x": 80,
+            "y": 592,
+            "running": 1
+          }
+        },
+        {
+          "name": "Cooling Loop reached",
+          "state": {
+            "loaded": 1,
+            "course": 1,
+            "paused": 0,
+            "prisms": 0,
+            "complete": 0,
+            "ticks": 1625,
+            "respawns": 0,
+            "checkpointX": 80,
+            "checkpointY": 584,
+            "editor": 0,
+            "x": 80,
+            "y": 592,
+            "running": 1
+          }
+        },
+        {
+          "name": "cooling first step",
+          "state": {
+            "loaded": 1,
+            "course": 1,
+            "paused": 0,
+            "prisms": 0,
+            "complete": 0,
+            "ticks": 1916,
+            "respawns": 0,
+            "checkpointX": 80,
+            "checkpointY": 584,
+            "editor": 0,
+            "x": 327,
+            "y": 528,
+            "running": 1
+          }
+        },
+        {
+          "name": "cooling first prism",
+          "state": {
+            "loaded": 1,
+            "course": 1,
+            "paused": 0,
+            "prisms": 1,
+            "complete": 0,
+            "ticks": 2446,
+            "respawns": 0,
+            "checkpointX": 80,
+            "checkpointY": 584,
+            "editor": 0,
+            "x": 535,
+            "y": 464,
+            "running": 1
+          }
+        },
+        {
+          "name": "cooling first gap",
+          "state": {
+            "loaded": 1,
+            "course": 1,
+            "paused": 0,
+            "prisms": 1,
+            "complete": 0,
+            "ticks": 2803,
+            "respawns": 0,
+            "checkpointX": 80,
+            "checkpointY": 584,
+            "editor": 0,
+            "x": 1077,
+            "y": 528,
+            "running": 1
+          }
+        },
+        {
+          "name": "cooling second prism",
+          "state": {
+            "loaded": 1,
+            "course": 1,
+            "paused": 0,
+            "prisms": 2,
+            "complete": 0,
+            "ticks": 3113,
+            "respawns": 0,
+            "checkpointX": 80,
+            "checkpointY": 584,
+            "editor": 0,
+            "x": 1173,
+            "y": 464,
+            "running": 1
+          }
+        },
+        {
+          "name": "cooling second gap",
+          "state": {
+            "loaded": 1,
+            "course": 1,
+            "paused": 0,
+            "prisms": 2,
+            "complete": 0,
+            "ticks": 3244,
+            "respawns": 0,
+            "checkpointX": 1504,
+            "checkpointY": 584,
+            "editor": 0,
+            "x": 1662,
+            "y": 528,
+            "running": 1
+          }
+        },
+        {
+          "name": "cooling third approach",
+          "state": {
+            "loaded": 1,
+            "course": 1,
+            "paused": 0,
+            "prisms": 2,
+            "complete": 0,
+            "ticks": 3496,
+            "respawns": 0,
+            "checkpointX": 1504,
+            "checkpointY": 584,
+            "editor": 0,
+            "x": 1599,
+            "y": 528,
+            "running": 1
+          }
+        },
+        {
+          "name": "cooling third prism",
+          "state": {
+            "loaded": 1,
+            "course": 1,
+            "paused": 0,
+            "prisms": 3,
+            "complete": 0,
+            "ticks": 4028,
+            "respawns": 0,
+            "checkpointX": 1504,
+            "checkpointY": 584,
+            "editor": 0,
+            "x": 1817,
+            "y": 464,
+            "running": 1
+          }
+        },
+        {
+          "name": "Night Shift reached",
+          "state": {
+            "loaded": 1,
+            "course": 2,
+            "paused": 0,
+            "prisms": 0,
+            "complete": 0,
+            "ticks": 4122,
+            "respawns": 0,
+            "checkpointX": 80,
+            "checkpointY": 712,
+            "editor": 0,
+            "x": 80,
+            "y": 720,
+            "running": 1
+          }
+        },
+        {
+          "name": "night first step",
+          "state": {
+            "loaded": 1,
+            "course": 2,
+            "paused": 0,
+            "prisms": 0,
+            "complete": 0,
+            "ticks": 4385,
+            "respawns": 0,
+            "checkpointX": 80,
+            "checkpointY": 712,
+            "editor": 0,
+            "x": 437,
+            "y": 656,
+            "running": 1
+          }
+        },
+        {
+          "name": "night first prism",
+          "state": {
+            "loaded": 1,
+            "course": 2,
+            "paused": 0,
+            "prisms": 1,
+            "complete": 0,
+            "ticks": 4700,
+            "respawns": 0,
+            "checkpointX": 80,
+            "checkpointY": 712,
+            "editor": 0,
+            "x": 601,
+            "y": 592,
+            "running": 1
+          }
+        },
+        {
+          "name": "night first gap",
+          "state": {
+            "loaded": 1,
+            "course": 2,
+            "paused": 0,
+            "prisms": 1,
+            "complete": 0,
+            "ticks": 5165,
+            "respawns": 0,
+            "checkpointX": 80,
+            "checkpointY": 712,
+            "editor": 0,
+            "x": 1213,
+            "y": 656,
+            "running": 1
+          }
+        },
+        {
+          "name": "night second prism",
+          "state": {
+            "loaded": 1,
+            "course": 2,
+            "paused": 0,
+            "prisms": 2,
+            "complete": 0,
+            "ticks": 5444,
+            "respawns": 0,
+            "checkpointX": 80,
+            "checkpointY": 712,
+            "editor": 0,
+            "x": 1309,
+            "y": 592,
+            "running": 1
+          }
+        },
+        {
+          "name": "night second gap",
+          "state": {
+            "loaded": 1,
+            "course": 2,
+            "paused": 0,
+            "prisms": 2,
+            "complete": 0,
+            "ticks": 5902,
+            "respawns": 0,
+            "checkpointX": 1696,
+            "checkpointY": 712,
+            "editor": 0,
+            "x": 1920,
+            "y": 656,
+            "running": 1
+          }
+        },
+        {
+          "name": "night third prism",
+          "state": {
+            "loaded": 1,
+            "course": 2,
+            "paused": 0,
+            "prisms": 3,
+            "complete": 0,
+            "ticks": 6295,
+            "respawns": 0,
+            "checkpointX": 1696,
+            "checkpointY": 712,
+            "editor": 0,
+            "x": 2005,
+            "y": 592,
+            "running": 1
+          }
+        },
+        {
+          "name": "all three courses complete",
+          "state": {
+            "loaded": 1,
+            "course": 2,
+            "paused": 1,
+            "prisms": 3,
+            "complete": 1,
+            "ticks": 6365,
+            "respawns": 0,
+            "checkpointX": 1696,
+            "checkpointY": 712,
+            "editor": 0,
+            "x": 2370,
+            "y": 637,
+            "running": 1
+          }
+        }
+      ],
+      "errors": [],
+      "warnings": [
+        "WebGL: INVALID_ENUM: disable: invalid capability"
+      ],
+      "browserVersion": "154.0.4258.62",
+      "firstCoursePassed": true,
+      "secondCoursePassed": true,
+      "campaignPassed": true,
+      "visibleVictoryMessage": true,
+      "passed": true,
+      "nativeShutdownObserved": true,
+      "browserClosed": true,
+      "serverClosed": true
+    },
+    "priorFullNativeCampaign": {
+      "scope": "Ordinary three-course campaign attempt",
+      "dateUtc": "2026-10-15T06:17:49.935Z",
+      "muted": true,
+      "checkpoints": [
+        {
+          "name": "startup",
+          "state": {
+            "loaded": 1,
+            "course": 0,
+            "paused": 0,
+            "prisms": 0,
+            "complete": 0,
+            "ticks": 23,
+            "respawns": 0,
+            "checkpointX": 80,
+            "checkpointY": 584,
+            "editor": 0,
+            "x": 80,
+            "y": 592,
+            "running": 1
+          }
+        },
+        {
+          "name": "first launch",
+          "state": {
+            "loaded": 1,
+            "course": 0,
+            "paused": 0,
+            "prisms": 0,
+            "complete": 0,
+            "ticks": 181,
+            "respawns": 0,
+            "checkpointX": 80,
+            "checkpointY": 584,
+            "editor": 0,
+            "x": 243,
+            "y": 592,
+            "running": 1
+          }
+        },
+        {
+          "name": "first ledge landing",
+          "state": {
+            "loaded": 1,
+            "course": 0,
+            "paused": 0,
+            "prisms": 0,
+            "complete": 0,
+            "ticks": 282,
+            "respawns": 0,
+            "checkpointX": 80,
+            "checkpointY": 584,
+            "editor": 0,
+            "x": 412,
+            "y": 528,
+            "running": 1
+          }
+        },
+        {
+          "name": "first prism",
+          "state": {
+            "loaded": 1,
+            "course": 0,
+            "paused": 0,
+            "prisms": 1,
+            "complete": 0,
+            "ticks": 357,
+            "respawns": 0,
+            "checkpointX": 80,
+            "checkpointY": 584,
+            "editor": 0,
+            "x": 412,
+            "y": 528,
+            "running": 1
+          }
+        },
+        {
+          "name": "second ledge landing",
+          "state": {
+            "loaded": 1,
+            "course": 0,
+            "paused": 0,
+            "prisms": 2,
+            "complete": 0,
+            "ticks": 705,
+            "respawns": 0,
+            "checkpointX": 80,
+            "checkpointY": 584,
+            "editor": 0,
+            "x": 838,
+            "y": 464,
+            "running": 1
+          }
+        },
+        {
+          "name": "second prism",
+          "state": {
+            "loaded": 1,
+            "course": 0,
+            "paused": 0,
+            "prisms": 2,
+            "complete": 0,
+            "ticks": 780,
+            "respawns": 0,
+            "checkpointX": 80,
+            "checkpointY": 584,
+            "editor": 0,
+            "x": 838,
+            "y": 464,
+            "running": 1
+          }
+        },
+        {
+          "name": "first gap crossing",
+          "state": {
+            "loaded": 1,
+            "course": 0,
+            "paused": 0,
+            "prisms": 2,
+            "complete": 0,
+            "ticks": 898,
+            "respawns": 0,
+            "checkpointX": 1168,
+            "checkpointY": 584,
+            "editor": 0,
+            "x": 1179,
+            "y": 592,
+            "running": 1
+          }
+        },
+        {
+          "name": "third approach ledge",
+          "state": {
+            "loaded": 1,
+            "course": 0,
+            "paused": 0,
+            "prisms": 2,
+            "complete": 0,
+            "ticks": 994,
+            "respawns": 0,
+            "checkpointX": 1168,
+            "checkpointY": 584,
+            "editor": 0,
+            "x": 1301,
+            "y": 528,
+            "running": 1
+          }
+        },
+        {
+          "name": "third high ledge",
+          "state": {
+            "loaded": 1,
+            "course": 0,
+            "paused": 0,
+            "prisms": 2,
+            "complete": 0,
+            "ticks": 1315,
+            "respawns": 0,
+            "checkpointX": 1168,
+            "checkpointY": 584,
+            "editor": 0,
+            "x": 1480,
+            "y": 464,
+            "running": 1
+          }
+        },
+        {
+          "name": "third prism",
+          "state": {
+            "loaded": 1,
+            "course": 0,
+            "paused": 0,
+            "prisms": 3,
+            "complete": 0,
+            "ticks": 1482,
+            "respawns": 0,
+            "checkpointX": 1168,
+            "checkpointY": 584,
+            "editor": 0,
+            "x": 1514,
+            "y": 464,
+            "running": 1
+          }
+        },
+        {
+          "name": "first gate",
+          "state": {
+            "loaded": 1,
+            "course": 1,
+            "paused": 0,
+            "prisms": 0,
+            "complete": 0,
+            "ticks": 1581,
+            "respawns": 0,
+            "checkpointX": 80,
+            "checkpointY": 584,
+            "editor": 0,
+            "x": 80,
+            "y": 592,
+            "running": 1
+          }
+        },
+        {
+          "name": "Cooling Loop reached",
+          "state": {
+            "loaded": 1,
+            "course": 1,
+            "paused": 0,
+            "prisms": 0,
+            "complete": 0,
+            "ticks": 1581,
+            "respawns": 0,
+            "checkpointX": 80,
+            "checkpointY": 584,
+            "editor": 0,
+            "x": 80,
+            "y": 592,
+            "running": 1
+          }
+        },
+        {
+          "name": "cooling first step",
+          "state": {
+            "loaded": 1,
+            "course": 1,
+            "paused": 0,
+            "prisms": 0,
+            "complete": 0,
+            "ticks": 1873,
+            "respawns": 0,
+            "checkpointX": 80,
+            "checkpointY": 584,
+            "editor": 0,
+            "x": 327,
+            "y": 528,
+            "running": 1
+          }
+        },
+        {
+          "name": "cooling first prism",
+          "state": {
+            "loaded": 1,
+            "course": 1,
+            "paused": 0,
+            "prisms": 1,
+            "complete": 0,
+            "ticks": 2403,
+            "respawns": 0,
+            "checkpointX": 80,
+            "checkpointY": 584,
+            "editor": 0,
+            "x": 535,
+            "y": 464,
+            "running": 1
+          }
+        },
+        {
+          "name": "cooling first gap",
+          "state": {
+            "loaded": 1,
+            "course": 1,
+            "paused": 0,
+            "prisms": 1,
+            "complete": 0,
+            "ticks": 2760,
+            "respawns": 0,
+            "checkpointX": 80,
+            "checkpointY": 584,
+            "editor": 0,
+            "x": 1077,
+            "y": 528,
+            "running": 1
+          }
+        },
+        {
+          "name": "cooling second prism",
+          "state": {
+            "loaded": 1,
+            "course": 1,
+            "paused": 0,
+            "prisms": 2,
+            "complete": 0,
+            "ticks": 3070,
+            "respawns": 0,
+            "checkpointX": 80,
+            "checkpointY": 584,
+            "editor": 0,
+            "x": 1173,
+            "y": 464,
+            "running": 1
+          }
+        },
+        {
+          "name": "cooling second gap",
+          "state": {
+            "loaded": 1,
+            "course": 1,
+            "paused": 0,
+            "prisms": 2,
+            "complete": 0,
+            "ticks": 3202,
+            "respawns": 0,
+            "checkpointX": 1504,
+            "checkpointY": 584,
+            "editor": 0,
+            "x": 1662,
+            "y": 528,
+            "running": 1
+          }
+        },
+        {
+          "name": "cooling third approach",
+          "state": {
+            "loaded": 1,
+            "course": 1,
+            "paused": 0,
+            "prisms": 2,
+            "complete": 0,
+            "ticks": 3454,
+            "respawns": 0,
+            "checkpointX": 1504,
+            "checkpointY": 584,
+            "editor": 0,
+            "x": 1599,
+            "y": 528,
+            "running": 1
+          }
+        },
+        {
+          "name": "cooling third prism",
+          "state": {
+            "loaded": 1,
+            "course": 1,
+            "paused": 0,
+            "prisms": 3,
+            "complete": 0,
+            "ticks": 3987,
+            "respawns": 0,
+            "checkpointX": 1504,
+            "checkpointY": 584,
+            "editor": 0,
+            "x": 1814,
+            "y": 464,
+            "running": 1
+          }
+        },
+        {
+          "name": "Night Shift reached",
+          "state": {
+            "loaded": 1,
+            "course": 2,
+            "paused": 0,
+            "prisms": 0,
+            "complete": 0,
+            "ticks": 4081,
+            "respawns": 0,
+            "checkpointX": 80,
+            "checkpointY": 712,
+            "editor": 0,
+            "x": 80,
+            "y": 720,
+            "running": 1
+          }
+        },
+        {
+          "name": "night first step",
+          "state": {
+            "loaded": 1,
+            "course": 2,
+            "paused": 0,
+            "prisms": 0,
+            "complete": 0,
+            "ticks": 4343,
+            "respawns": 0,
+            "checkpointX": 80,
+            "checkpointY": 712,
+            "editor": 0,
+            "x": 437,
+            "y": 656,
+            "running": 1
+          }
+        },
+        {
+          "name": "night first prism",
+          "state": {
+            "loaded": 1,
+            "course": 2,
+            "paused": 0,
+            "prisms": 1,
+            "complete": 0,
+            "ticks": 4692,
+            "respawns": 0,
+            "checkpointX": 80,
+            "checkpointY": 712,
+            "editor": 0,
+            "x": 594,
+            "y": 592,
+            "running": 1
+          }
+        },
+        {
+          "name": "night first gap",
+          "state": {
+            "loaded": 1,
+            "course": 2,
+            "paused": 0,
+            "prisms": 1,
+            "complete": 0,
+            "ticks": 5016,
+            "respawns": 0,
+            "checkpointX": 80,
+            "checkpointY": 712,
+            "editor": 0,
+            "x": 1182,
+            "y": 656,
+            "running": 1
+          }
+        },
+        {
+          "name": "night second prism",
+          "state": {
+            "loaded": 1,
+            "course": 2,
+            "paused": 0,
+            "prisms": 2,
+            "complete": 0,
+            "ticks": 5230,
+            "respawns": 0,
+            "checkpointX": 80,
+            "checkpointY": 712,
+            "editor": 0,
+            "x": 1308,
+            "y": 592,
+            "running": 1
+          }
+        },
+        {
+          "name": "night second gap",
+          "state": {
+            "loaded": 1,
+            "course": 2,
+            "paused": 0,
+            "prisms": 2,
+            "complete": 0,
+            "ticks": 5687,
+            "respawns": 0,
+            "checkpointX": 1696,
+            "checkpointY": 712,
+            "editor": 0,
+            "x": 1920,
+            "y": 656,
+            "running": 1
+          }
+        },
+        {
+          "name": "night third prism",
+          "state": {
+            "loaded": 1,
+            "course": 2,
+            "paused": 0,
+            "prisms": 3,
+            "complete": 0,
+            "ticks": 6080,
+            "respawns": 0,
+            "checkpointX": 1696,
+            "checkpointY": 712,
+            "editor": 0,
+            "x": 2005,
+            "y": 592,
+            "running": 1
+          }
+        },
+        {
+          "name": "all three courses complete",
+          "state": {
+            "loaded": 1,
+            "course": 2,
+            "paused": 1,
+            "prisms": 3,
+            "complete": 1,
+            "ticks": 6149,
+            "respawns": 0,
+            "checkpointX": 1696,
+            "checkpointY": 712,
+            "editor": 0,
+            "x": 2370,
+            "y": 637,
+            "running": 1
+          }
+        }
+      ],
+      "errors": [],
+      "warnings": [
+        "WebGL: INVALID_ENUM: disable: invalid capability"
+      ],
+      "browserVersion": "154.0.4258.62",
+      "firstCoursePassed": true,
+      "secondCoursePassed": true,
+      "campaignPassed": true,
+      "passed": true,
+      "nativeShutdownObserved": true,
+      "browserClosed": true,
+      "serverClosed": true
+    },
+    "audioAudiblyVerified": false,
+    "browserClosed": true,
+    "serverClosed": true
+  },
+  "earlierAttempts": [
+    {
+      "issue": "read-only export call before WASM initialization",
+      "resolution": "onRuntimeInitialized readiness guard; delayed loading cancellation passed"
+    },
+    {
+      "issue": "test launched before generated HTML was available",
+      "resolution": "waited for build completion; no native game started in this attempt"
+    },
+    {
+      "issue": "test shutdown text encoding mismatch",
+      "resolution": "Unicode escape in expected text; subsequent two native shutdowns passed"
+    },
+    {
+      "issue": "missed pickups, overshot ledges or short direction taps",
+      "resolution": "ordinary positioning waits for observed movement and native deceleration; successful route leaves physics/content unchanged"
+    },
+    {
+      "issue": "positioning continued toward old target after earned gate transition",
+      "resolution": "stop positioning on observed course change"
+    },
+    {
+      "issue": "first native victory fades canvas to black and inner status is clipped",
+      "resolution": "outer wrapper now displays course, pickup, pause and visible terminal victory message"
+    }
+  ],
+  "remainingGates": [
+    "respawn at activated checkpoint",
+    "save implementation and restoration",
+    "shooting and broader animation/hazard paths",
+    "retained WebGL INVALID_ENUM warning",
+    "original source-side content review/removal",
+    "selected SDK/runtime dependency and notice closure",
+    "source packaging and shipping allowlist",
+    "muted production acceptance"
+  ],
+  "screenshot": {
+    "path": "docs/assets/prism-foundry-victory-2026-10-15.png",
+    "bytes": 20088,
+    "sha256": "e36e611fe8fa78211c48c8b193707aac4edc12afe44009c373b3634d89c5ba6c",
+    "scope": "earned final victory with visible outer-wrapper message before native Stop"
+  },
+  "runtimeUploaded": false,
+  "websiteDeployed": false,
+  "cleanRoomCertification": false,
+  "protectedWorkUntouched": [
+    "Mario Party 2/3",
+    "Halo",
+    "private ROM research"
+  ]
+}
