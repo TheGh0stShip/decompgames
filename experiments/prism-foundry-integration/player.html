@@ -1,0 +1,10 @@
+<!doctype html><meta charset="utf-8"><title>Prism Foundry private player</title>
+<style>body{margin:0;background:#101720;color:#eee;font:16px system-ui}canvas{display:block;width:100%;image-rendering:pixelated}#status{padding:10px}</style>
+<canvas id="canvas" width="640" height="480" tabindex="0" aria-label="Prism Foundry game"></canvas><div id="status" role="status">Loading authored content…</div>
+<script>
+var Module={canvas:document.querySelector('canvas'),print:console.log,printErr:console.error,onRuntimeInitialized(){document.querySelector('canvas').focus()}};
+window.foundrySnapshot=()=>typeof Module._FoundryStatus==='function'?{loaded:Module._FoundryStatus(0),course:Module._FoundryStatus(1),paused:Module._FoundryStatus(2),prisms:Module._FoundryStatus(3),complete:Module._FoundryStatus(4),ticks:Module._FoundryStatus(5),respawns:Module._FoundryStatus(6),checkpointX:Module._FoundryStatus(7),checkpointY:Module._FoundryStatus(8),editor:Module._FoundryStatus(9),x:Module._FoundryX(),y:Module._FoundryY(),running:Module._FoundryIsRunning()}:null;
+window.stopFoundry=()=>Module._FoundryStop?.();
+setInterval(()=>{const s=foundrySnapshot();if(!s)return;document.querySelector('#status').textContent=s.complete?'All three courses complete. Replay to begin again.':s.paused?'Paused — P or Escape to resume.':`${['Assembly Floor','Cooling Loop','Night Shift'][s.course]} · Prisms ${s.prisms}/3 · Arrows move · Space jump · R retry · P pause · Sound off`;},200);
+addEventListener('pagehide',()=>stopFoundry());
+</script><script src="foundry.js"></script>

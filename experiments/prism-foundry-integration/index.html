@@ -1,0 +1,9 @@
+<!doctype html><meta charset="utf-8"><title>Prism Foundry private candidate</title>
+<style>body{background:#101720;color:#eee;font:16px system-ui;max-width:860px;margin:30px auto}button{font:inherit;padding:10px;margin:5px}iframe{border:0;width:100%;height:700px}p{line-height:1.5}</style>
+<h1>Prism Foundry</h1><p>Private source-port experiment using authored replacement content. Collect three prisms and reach the gate in each course. Arrows move, Space jumps, X fires, R retries, P or Escape pauses. Sound off.</p>
+<button id="start">Start</button><button id="stop" disabled>Stop</button><div id="slot"></div><p id="state" role="status">Stopped</p>
+<script>
+const start=document.querySelector('#start'),stop=document.querySelector('#stop'),slot=document.querySelector('#slot'),state=document.querySelector('#state');
+start.onclick=()=>{slot.replaceChildren();const f=document.createElement('iframe');f.title='Prism Foundry player';f.src='player.html';slot.append(f);start.disabled=true;stop.disabled=false;state.textContent='Running — sound off';};
+stop.onclick=async()=>{stop.disabled=true;const f=slot.querySelector('iframe');f?.contentWindow.stopFoundry?.();let clean=false;for(let i=0;i<50;i++){if(!f?.contentWindow.foundrySnapshot?.()?.running){clean=true;break;}await new Promise(r=>setTimeout(r,20));}slot.replaceChildren();start.disabled=false;state.textContent=clean?'Stopped — native shutdown observed':'Stopped — player context removed';};
+</script>
