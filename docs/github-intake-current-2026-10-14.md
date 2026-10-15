@@ -6,6 +6,8 @@ The following [Lain/Xenogears/Code Veronica X review](lain-xenogears-recvx-sourc
 
 Existing Open Paths has a [code provenance correction](open-paths-code-provenance-2026-10-14.md): contributor GPL/MIT declarations do not establish original rights-holder permission for inherited code. The six-level CC0 gameplay result remains; it is not code-permission evidence. Historical **4/5** records are preserved, not recertified as current permissive-code eligibility. No new entry is added.
 
+[UMK3 / Stunts / Urban Chaos review](umk3-stunts-urban-source-intake-2026-10-14.md) records three further nonduplicate game identities across five source trees. UMK3 has distinct native/full-game versus stand-in Web targets and original-app/table requirements; Stunts has separate DOS/TypeScript reconstructions and code/content gates. Urban Chaos is preserved as a developer-source MIT lead with independent-content, dependency and desktop-OpenGL browser work outstanding. No entry is added; source ports are not new decompilations.
+
 Existing Open Cadet now has [one unpaused native launch-skill bonus case and a separate debugger score pairing](open-cadet-skill-shot-production-test-2026-10-14.md). Runtime/source bytes are unchanged. This narrows its objective-verification gap; it does not complete all missions or add a game.
 
 Catalog **88**; eleven scoped intake additions have shipped, plus the existing Open Cadet repair. The strict additional-decompilation milestone remains **4/5**. This checkpoint supersedes chronological “pending”, “private prototype” and older catalog-count statements for the entries below. Those earlier records remain evidence of their respective stages.

@@ -1,0 +1,394 @@
+{
+  "auditedAtUtc": "2026-10-15T01:07:36.148386+00:00",
+  "localAuditDate": "2026-10-14 America/Denver",
+  "basisCommit": "2b9c800f29dd95eef1aefcb189d2e5149e98cf12",
+  "catalogCount": 90,
+  "scope": "Selected source/license/content/build gate review; not full compiled dependency audit, game completion test or legal clearance",
+  "snapshots": [
+    {
+      "repo": "MaryNCRT/Ultimate-Mortal-Kombat-3-iOS-Recomp",
+      "branch": "main",
+      "commit": "8b16441efdc47f9b1eea6ce3a036552a8e827cb2",
+      "stars": 37,
+      "retrievedUtc": "2026-10-15T01:02:28.396105+00:00",
+      "treeFiles": 324,
+      "treeTruncated": false,
+      "files": [
+        {
+          "path": "LICENSE",
+          "bytes": 1626,
+          "sha256": "b41930d59ce9a8936dad55e4043a85255042ca4cce8eb2a7a7a794c968cdcb91",
+          "url": "https://github.com/MaryNCRT/Ultimate-Mortal-Kombat-3-iOS-Recomp/blob/8b16441efdc47f9b1eea6ce3a036552a8e827cb2/LICENSE"
+        },
+        {
+          "path": "README.md",
+          "bytes": 75775,
+          "sha256": "4b9b4c28dfaa05d295ad3d10a4acef0ee9f45fb4cd7187faa7eabeb196b67210",
+          "url": "https://github.com/MaryNCRT/Ultimate-Mortal-Kombat-3-iOS-Recomp/blob/8b16441efdc47f9b1eea6ce3a036552a8e827cb2/README.md"
+        },
+        {
+          "path": "CMakeLists.txt",
+          "bytes": 16242,
+          "sha256": "d392661d41f5c858ec7380b202ec5f28936e658d3d407563d0d8eee424f89f01",
+          "url": "https://github.com/MaryNCRT/Ultimate-Mortal-Kombat-3-iOS-Recomp/blob/8b16441efdc47f9b1eea6ce3a036552a8e827cb2/CMakeLists.txt"
+        },
+        {
+          "path": "web/README.md",
+          "bytes": 4271,
+          "sha256": "6c73434dce7d41be660fef4f608e12a7657c9fa58fef41cbcc1aaa6515f948be",
+          "url": "https://github.com/MaryNCRT/Ultimate-Mortal-Kombat-3-iOS-Recomp/blob/8b16441efdc47f9b1eea6ce3a036552a8e827cb2/web/README.md"
+        },
+        {
+          "path": "web/asset_mount.js",
+          "bytes": 2223,
+          "sha256": "d6c933881d037182fc35b13ac73cc206e3635e0d5b049dd9acca16eba876bb8f",
+          "url": "https://github.com/MaryNCRT/Ultimate-Mortal-Kombat-3-iOS-Recomp/blob/8b16441efdc47f9b1eea6ce3a036552a8e827cb2/web/asset_mount.js"
+        },
+        {
+          "path": "web/ipa.js",
+          "bytes": 13144,
+          "sha256": "a7b6b2659ed3a87b3ee4f228cc8ec496e89723c293eba48892660bf26e7abe58",
+          "url": "https://github.com/MaryNCRT/Ultimate-Mortal-Kombat-3-iOS-Recomp/blob/8b16441efdc47f9b1eea6ce3a036552a8e827cb2/web/ipa.js"
+        },
+        {
+          "path": "docs/METHODOLOGY.md",
+          "bytes": 19418,
+          "sha256": "3f57db48fe9fd82c45106d623fec20b8c9e8b99acd4346e24149d58125dde66b",
+          "url": "https://github.com/MaryNCRT/Ultimate-Mortal-Kombat-3-iOS-Recomp/blob/8b16441efdc47f9b1eea6ce3a036552a8e827cb2/docs/METHODOLOGY.md"
+        },
+        {
+          "path": "docs/VERIFICATION.md",
+          "bytes": 9026,
+          "sha256": "71f0fbef8b7338051b1fa64443ddfec24b8d9cb2d45c5c88dce40af527c36141",
+          "url": "https://github.com/MaryNCRT/Ultimate-Mortal-Kombat-3-iOS-Recomp/blob/8b16441efdc47f9b1eea6ce3a036552a8e827cb2/docs/VERIFICATION.md"
+        },
+        {
+          "path": "runtime/fight_scene.c",
+          "bytes": 56126,
+          "sha256": "0ac679ff333af81e44b5cdd606ef74e633249f143d06326820660167c9850437",
+          "url": "https://github.com/MaryNCRT/Ultimate-Mortal-Kombat-3-iOS-Recomp/blob/8b16441efdc47f9b1eea6ce3a036552a8e827cb2/runtime/fight_scene.c"
+        },
+        {
+          "path": "runtime/emscripten_entry.c",
+          "bytes": 209,
+          "sha256": "abd5684dc16d26b8957625ba2d5b0f3c9c0c31b238981ff3e0f62d08e41e613c",
+          "url": "https://github.com/MaryNCRT/Ultimate-Mortal-Kombat-3-iOS-Recomp/blob/8b16441efdc47f9b1eea6ce3a036552a8e827cb2/runtime/emscripten_entry.c"
+        },
+        {
+          "path": "runtime/platform/sdl_audio.c",
+          "bytes": 6920,
+          "sha256": "88ae8c465626a54e4d2fd81c398c0fe6e5d997e4843127a533822ff3d5e0a8f6",
+          "url": "https://github.com/MaryNCRT/Ultimate-Mortal-Kombat-3-iOS-Recomp/blob/8b16441efdc47f9b1eea6ce3a036552a8e827cb2/runtime/platform/sdl_audio.c"
+        },
+        {
+          "path": "tools/logic_tables.py",
+          "bytes": 16192,
+          "sha256": "20a4a7eeebd18c881d71edd86b92df27ab747ea690908ec10cb2ffc51209fc75",
+          "url": "https://github.com/MaryNCRT/Ultimate-Mortal-Kombat-3-iOS-Recomp/blob/8b16441efdc47f9b1eea6ce3a036552a8e827cb2/tools/logic_tables.py"
+        },
+        {
+          "path": "tools/logic_tables.map",
+          "bytes": 2513,
+          "sha256": "aab4f027819f3fdffb37648c7be0b08407a9bfd4a37ef6237e44f17199c32631",
+          "url": "https://github.com/MaryNCRT/Ultimate-Mortal-Kombat-3-iOS-Recomp/blob/8b16441efdc47f9b1eea6ce3a036552a8e827cb2/tools/logic_tables.map"
+        }
+      ],
+      "gitlinks": []
+    },
+    {
+      "repo": "4d-stunts/restunts",
+      "branch": "master",
+      "commit": "5c38f258f482e7d28f1ccce73da8992dccbbee89",
+      "stars": 18,
+      "retrievedUtc": "2026-10-15T01:02:28.651061+00:00",
+      "treeFiles": 687,
+      "treeTruncated": false,
+      "files": [
+        {
+          "path": "readme.md",
+          "bytes": 11904,
+          "sha256": "024344a4e84ab33c406454e7d547679562ff7399db86bc9da67f9444fadddc1b",
+          "url": "https://github.com/4d-stunts/restunts/blob/5c38f258f482e7d28f1ccce73da8992dccbbee89/readme.md"
+        },
+        {
+          "path": "src/restunts/makefile",
+          "bytes": 1692,
+          "sha256": "ca98cadd9a860cf1ca274ce727b8ade389a4ae4c3bf11827ee234b71731e9103",
+          "url": "https://github.com/4d-stunts/restunts/blob/5c38f258f482e7d28f1ccce73da8992dccbbee89/src/restunts/makefile"
+        },
+        {
+          "path": "src/restunts/sdl/makefile",
+          "bytes": 907,
+          "sha256": "3400913d4936f1d2bf2e49e9fea46bd9f9f18a30c51f5346ece373592f857f8b",
+          "url": "https://github.com/4d-stunts/restunts/blob/5c38f258f482e7d28f1ccce73da8992dccbbee89/src/restunts/sdl/makefile"
+        },
+        {
+          "path": "src/restunts/sdl/main.cpp",
+          "bytes": 14881,
+          "sha256": "079b87dacffb7be6b49da976beca2cc3aa44934d259c5ac61dae9cb17c1be2da",
+          "url": "https://github.com/4d-stunts/restunts/blob/5c38f258f482e7d28f1ccce73da8992dccbbee89/src/restunts/sdl/main.cpp"
+        },
+        {
+          "path": "src/restunts/c/makefile",
+          "bytes": 762,
+          "sha256": "1153b92f201857b50b690d9a28fe851ee6259f7094fa68e7c0744122a0e66963",
+          "url": "https://github.com/4d-stunts/restunts/blob/5c38f258f482e7d28f1ccce73da8992dccbbee89/src/restunts/c/makefile"
+        }
+      ],
+      "gitlinks": []
+    },
+    {
+      "repo": "ACatWithEbola/playstunts",
+      "branch": "main",
+      "commit": "20b358c6491c6cc0aaebaa78c4ac2200f942b13c",
+      "stars": 39,
+      "retrievedUtc": "2026-10-15T01:04:26.605799+00:00",
+      "treeFiles": 2457,
+      "treeTruncated": false,
+      "files": [
+        {
+          "path": "LICENSE",
+          "bytes": 35150,
+          "sha256": "e57f1c320b8cf8798a7d2ff83a6f9e06a33a03585f6e065fea97f1d86db84052",
+          "url": "https://github.com/ACatWithEbola/playstunts/blob/20b358c6491c6cc0aaebaa78c4ac2200f942b13c/LICENSE"
+        },
+        {
+          "path": "README.md",
+          "bytes": 29104,
+          "sha256": "5f4444199181b9f844172a4ba4fb62a66187a5cf9a3d45b0b92cc2da8eee6514",
+          "url": "https://github.com/ACatWithEbola/playstunts/blob/20b358c6491c6cc0aaebaa78c4ac2200f942b13c/README.md"
+        },
+        {
+          "path": "package.json",
+          "bytes": 31154,
+          "sha256": "77c9414380249176703f55f6d720ce3f81775844a94f1115c328348c413426a7",
+          "url": "https://github.com/ACatWithEbola/playstunts/blob/20b358c6491c6cc0aaebaa78c4ac2200f942b13c/package.json"
+        },
+        {
+          "path": "THIRD_PARTY_NOTICES.md",
+          "bytes": 2013,
+          "sha256": "d3cf583e0383dd0e13c6c0f65d2a3ea4f612c10045d3a0ea7375f34f21bdfeed",
+          "url": "https://github.com/ACatWithEbola/playstunts/blob/20b358c6491c6cc0aaebaa78c4ac2200f942b13c/THIRD_PARTY_NOTICES.md"
+        },
+        {
+          "path": "tools/prepare_assets.py",
+          "bytes": 10063,
+          "sha256": "57ae317648776ddedfb567b97a025c677d0a06e9a2c0ce4a2c9f9c95f74d4f62",
+          "url": "https://github.com/ACatWithEbola/playstunts/blob/20b358c6491c6cc0aaebaa78c4ac2200f942b13c/tools/prepare_assets.py"
+        },
+        {
+          "path": "docs/required-runtime-files.json",
+          "bytes": 15264,
+          "sha256": "f0320aa289b1c49d8dc42221096bd8e641b7a45636819874c65dc62747659c46",
+          "url": "https://github.com/ACatWithEbola/playstunts/blob/20b358c6491c6cc0aaebaa78c4ac2200f942b13c/docs/required-runtime-files.json"
+        }
+      ],
+      "gitlinks": []
+    },
+    {
+      "repo": "dizzy2003/MuckyFoot-UrbanChaos",
+      "branch": "master",
+      "commit": "81aa5cfe18ef7fe2d1b1f9911bd33a47c22d5390",
+      "stars": 267,
+      "retrievedUtc": "2026-10-15T01:02:28.654031+00:00",
+      "treeFiles": 1144,
+      "treeTruncated": false,
+      "files": [
+        {
+          "path": "LICENSE.md",
+          "bytes": 1066,
+          "sha256": "592c384df61adb7dc26b84243131537e99800f4c874dd5e48a0455cba21f4279",
+          "url": "https://github.com/dizzy2003/MuckyFoot-UrbanChaos/blob/81aa5cfe18ef7fe2d1b1f9911bd33a47c22d5390/LICENSE.md"
+        },
+        {
+          "path": "README.md",
+          "bytes": 2823,
+          "sha256": "bd12c60cf87783cb3b1067920374da5df94cd1ca29840915b207a6ec934f84ec",
+          "url": "https://github.com/dizzy2003/MuckyFoot-UrbanChaos/blob/81aa5cfe18ef7fe2d1b1f9911bd33a47c22d5390/README.md"
+        },
+        {
+          "path": "fallen/Fallen.dsp",
+          "bytes": 18804,
+          "sha256": "f4f304ffe7020dc2fe7ced47a868b80879c01243fd8181c0e80913c341dab612",
+          "url": "https://github.com/dizzy2003/MuckyFoot-UrbanChaos/blob/81aa5cfe18ef7fe2d1b1f9911bd33a47c22d5390/fallen/Fallen.dsp"
+        },
+        {
+          "path": "fallen/DDLibrary/Source/BinkClient.cpp",
+          "bytes": 4598,
+          "sha256": "d7e6071b5d49c02f4a0dca43860a7fa49a99b50345d22ef54cce32b865adcd86",
+          "url": "https://github.com/dizzy2003/MuckyFoot-UrbanChaos/blob/81aa5cfe18ef7fe2d1b1f9911bd33a47c22d5390/fallen/DDLibrary/Source/BinkClient.cpp"
+        },
+        {
+          "path": "fallen/DDLibrary/Headers/MFX_Miles.h",
+          "bytes": 2891,
+          "sha256": "eb168ac1a8748a2e39f1f90083ef33111d82954632740cdda2b9e5e37dda6762",
+          "url": "https://github.com/dizzy2003/MuckyFoot-UrbanChaos/blob/81aa5cfe18ef7fe2d1b1f9911bd33a47c22d5390/fallen/DDLibrary/Headers/MFX_Miles.h"
+        }
+      ],
+      "gitlinks": []
+    },
+    {
+      "repo": "UltimaBeaR/OpenChaos",
+      "branch": "main",
+      "commit": "87e0a9a6309cf09ea12f7590411033d7412feb89",
+      "stars": 10,
+      "retrievedUtc": "2026-10-15T01:03:27.225236+00:00",
+      "treeFiles": 2102,
+      "treeTruncated": false,
+      "files": [
+        {
+          "path": "README.md",
+          "bytes": 9155,
+          "sha256": "dae4c718c3475c84eaac0d8ad719a6d7d298919465d3d5c7fc2b384eddb8fb20",
+          "url": "https://github.com/UltimaBeaR/OpenChaos/blob/87e0a9a6309cf09ea12f7590411033d7412feb89/README.md"
+        },
+        {
+          "path": "LICENSE",
+          "bytes": 1159,
+          "sha256": "d9f5b77248d9f16823812cef133aa56bcca7d932f8ed4e617f7ec05d53bafaf5",
+          "url": "https://github.com/UltimaBeaR/OpenChaos/blob/87e0a9a6309cf09ea12f7590411033d7412feb89/LICENSE"
+        },
+        {
+          "path": "THIRD_PARTY_LICENSES.md",
+          "bytes": 10295,
+          "sha256": "90041a84230d917f33dc30c1194beb78274b7c4e9392301bf7cb98a679b7c845",
+          "url": "https://github.com/UltimaBeaR/OpenChaos/blob/87e0a9a6309cf09ea12f7590411033d7412feb89/THIRD_PARTY_LICENSES.md"
+        },
+        {
+          "path": "legal/README.md",
+          "bytes": 413,
+          "sha256": "e3b36b4fa38584e3c55285af2489b73ce337534c52e2ab0f352b17890154a640",
+          "url": "https://github.com/UltimaBeaR/OpenChaos/blob/87e0a9a6309cf09ea12f7590411033d7412feb89/legal/README.md"
+        },
+        {
+          "path": "legal/rights_history.md",
+          "bytes": 7818,
+          "sha256": "1bc27ac2bfea0de78af6ce6e5beea8388943bc1e01e58b36bc4ce6f4943b1f93",
+          "url": "https://github.com/UltimaBeaR/OpenChaos/blob/87e0a9a6309cf09ea12f7590411033d7412feb89/legal/rights_history.md"
+        },
+        {
+          "path": "new_game/CMakeLists.txt",
+          "bytes": 35653,
+          "sha256": "24a63f5090178e10a15c6ef31e728a5d47126e1604af3539f7b154d0d6d5be25",
+          "url": "https://github.com/UltimaBeaR/OpenChaos/blob/87e0a9a6309cf09ea12f7590411033d7412feb89/new_game/CMakeLists.txt"
+        },
+        {
+          "path": "new_game/vcpkg.json",
+          "bytes": 335,
+          "sha256": "c4985aed76a3a1b3aa13bd9d68570bee2d6ff9b51c44653b0c7d8d6cf17c26a4",
+          "url": "https://github.com/UltimaBeaR/OpenChaos/blob/87e0a9a6309cf09ea12f7590411033d7412feb89/new_game/vcpkg.json"
+        },
+        {
+          "path": "new_game/SETUP.md",
+          "bytes": 9666,
+          "sha256": "b2a1125c68ea503ac5319aba40ad70e7dadeb835861a16e363eba600503964a9",
+          "url": "https://github.com/UltimaBeaR/OpenChaos/blob/87e0a9a6309cf09ea12f7590411033d7412feb89/new_game/SETUP.md"
+        },
+        {
+          "path": "legal/custom_content.md",
+          "bytes": 1349,
+          "sha256": "fabcbbb9b140fa97e04b95516ea3704240130f8ef1c106a9f4c1a7d679809d70",
+          "url": "https://github.com/UltimaBeaR/OpenChaos/blob/87e0a9a6309cf09ea12f7590411033d7412feb89/legal/custom_content.md"
+        },
+        {
+          "path": "libDualsense/THIRD_PARTY_LICENSES.md",
+          "bytes": 8787,
+          "sha256": "41ff22067aabb083e74f95886c34ed62c1f37cc248ece1ee27f2a8fb3509f272",
+          "url": "https://github.com/UltimaBeaR/OpenChaos/blob/87e0a9a6309cf09ea12f7590411033d7412feb89/libDualsense/THIRD_PARTY_LICENSES.md"
+        }
+      ],
+      "gitlinks": []
+    }
+  ],
+  "selectedTextFiles": 39,
+  "selectedTextBytes": 491391,
+  "catalogDeduplication": {
+    "aliasesChecked": [
+      "Ultimate Mortal Kombat 3",
+      "Ultimate Mortal Kombat 3 iOS",
+      "UMK3 iOS",
+      "Stunts",
+      "4D Sports Driving",
+      "Restunts",
+      "Play Stunts",
+      "Urban Chaos",
+      "OpenChaos"
+    ],
+    "sourceRepositoriesChecked": [
+      "MaryNCRT/Ultimate-Mortal-Kombat-3-iOS-Recomp",
+      "4d-stunts/restunts",
+      "ACatWithEbola/playstunts",
+      "dizzy2003/MuckyFoot-UrbanChaos",
+      "UltimaBeaR/OpenChaos"
+    ],
+    "matchingExistingEntries": [],
+    "uniqueCandidateGameIdentities": 3
+  },
+  "dispositions": [
+    {
+      "identity": "Ultimate Mortal Kombat 3 iOS",
+      "classification": "Decompilation-derived handwritten C; separate static ARM-to-C oracle, native game and experimental browser harness",
+      "eligibleForCurrentIntake": false,
+      "code": "Contributor MIT explicitly excludes original game rights; no separate inherited-game-code permission established",
+      "content": "Original app resources and executable-derived fight tables, arena names and scripts required; no complete independent pack",
+      "browser": "Emscripten entry selects umk3-test and stand-in fight scene; full umk3-game has distinct original-binary-generated inputs and platform selection",
+      "dependencies": "SDL2/mixer with MP3 decoder and SDK/emitted runtime closure unaudited",
+      "matchingOrCleanRoomCertified": false
+    },
+    {
+      "identity": "Stunts / 4D Sports Driving",
+      "classification": "Partial C/disassembly DOS reconstruction and separate TypeScript browser reconstruction; optional DOS reference emulation and audio synthesis are distinct",
+      "eligibleForCurrentIntake": false,
+      "code": "Restunts whole-project permissive grant not established; PlayStunts GPL-3.0-only contributor route excludes retail/extracted materials",
+      "content": "Original installation, extracted displays/tables/car/cockpit/menu/sound resources; optional Roland ROMs do not remove the base retail-resource gate",
+      "browser": "PlayStunts browser path documented; not independently built/tested here. Restunts SDL scaffold is not verified complete gameplay",
+      "dependencies": "Munt GPL/LGPL, OPL GPL, optional DOS emulator, npm/fonts/music retain separate terms; exact compiled/served closure unaudited",
+      "matchingOrCleanRoomCertified": false
+    },
+    {
+      "identity": "Urban Chaos",
+      "classification": "Developer-released source and modern source port, not decompilation",
+      "eligibleForCurrentIntake": false,
+      "conditionalLead": true,
+      "code": "Original developer source-release MIT evidence plus modern MIT modifications; not dismissed as contributor-only reconstruction. External selected components separate",
+      "content": "Retail installation still required; custom-content plans not a complete independent pack",
+      "browser": "Modern selected renderer desktop OpenGL 4.1 Core only; WebGL/yielding/FS/control/save platform work and complete gameplay unverified",
+      "dependencies": "Historical Bink/Miles/Windows target separate from modern SDL3/OpenAL/FFmpeg/JSON/libDualsense target; exact selected grants/relinking/runtime closure unresolved",
+      "matchingOrCleanRoomCertified": false
+    }
+  ],
+  "newEligibleEntries": 0,
+  "newQualifyingDecompilations": 0,
+  "verification": {
+    "snapshotHashesChecked": 39,
+    "treePathsChecked": 39,
+    "truncatedTrees": 0,
+    "nonTextPayloadsFetched": 0,
+    "upstreamScriptsExecuted": false,
+    "dependencyInstallerExecuted": false,
+    "gameOrSDKBinaryFetched": false,
+    "retailMediaOrROMFetched": false,
+    "buildAttempted": false,
+    "playerStarted": false,
+    "audibleTest": false,
+    "catalogChanged": false,
+    "runtimeUploaded": false,
+    "websiteDeployed": false,
+    "catalogValidation": {
+      "result": "passed",
+      "entries": 90
+    },
+    "catalogUnchanged": {
+      "gitDiffQuiet": true,
+      "contentComparison": "equal after existing checkout line-ending normalization",
+      "note": "Initial direct Git-blob/checkout byte comparison differed solely by CRLF; no catalog edits were made."
+    }
+  },
+  "limits": [
+    "Upstream full-decompilation/native-playability claims are not independently reproduced or certified as byte matching.",
+    "Project notices and rights-history narrative are evidence about declarations, not a legal opinion or certification of all current ownership.",
+    "Source port and conditional content plans do not count as new decompilations.",
+    "Historical milestone records are preserved without recertifying current permissive-code eligibility.",
+    "No private ROM research is imported into this public receipt."
+  ]
+}
