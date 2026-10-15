@@ -69,5 +69,14 @@
       "bytes": 127269,
       "sha256": "8bebe6c24b2638f7227373e3b7d81a1556dbe79650185717f82f4fe774d43b80"
     }
+  },
+  "codeProvenance": {
+    "classification": "Reconstruction-derived source port; no byte-for-byte matching or clean-room verification",
+    "codeDeclaration": "Mixed per-file Public Domain, Beer-Ware, BSD-2-Clause and GPL-2.0",
+    "permissionEvidence": "Andrew Jenner reports Rob Sleath retained rights for new products and granted rights in Digger Remastered; distinct from original retail distribution",
+    "permissionEvidenceStatus": "Author-reported permission; not independently authenticated",
+    "newPermissiveIntakeEligibility": "Not certified; GPL/mixed historical route differs from current permissive-code intake",
+    "assetGrantSeparate": true,
+    "audit": "https://github.com/andrewnakas/decompgames/blob/main/docs/milestone-source-provenance-2026-10-14.md"
   }
 }

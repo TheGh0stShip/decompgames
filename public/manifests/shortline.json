@@ -199,5 +199,14 @@
       "url": "https://github.com/andrewnakas/decompgames/actions/runs/36277343530",
       "recipeRevision": "188c20cda49e67345b4ab3311ab81ba80c305af7"
     }
-  ]
+  ],
+  "codeProvenance": {
+    "classification": "Reconstruction-derived C++ source; original binary offsets documented; no verified byte matching or clean-room isolation",
+    "codeDeclaration": "GPL-3.0 contributor reconstruction declaration",
+    "permissionEvidence": "Upstream legal notes explicitly say original-author permission was not obtained",
+    "permissionEvidenceStatus": "Original rights-holder code permission unresolved",
+    "newPermissiveIntakeEligibility": "Not cleared; contributor GPL and replacement CC0 assets do not resolve inherited-code permission",
+    "assetGrantSeparate": true,
+    "audit": "https://github.com/andrewnakas/decompgames/blob/main/docs/milestone-source-provenance-2026-10-14.md"
+  }
 }

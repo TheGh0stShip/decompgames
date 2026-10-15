@@ -1,0 +1,292 @@
+{
+  "auditedAtUtc": "2026-10-15T02:11:21.493182+00:00",
+  "basisCommit": "7e5b20be89674081a6acc1f6aa729c366004a362",
+  "catalogCount": 90,
+  "scope": "Historical milestone classification and code-permission declarations; metadata correction, no game rebuild or new legal clearance",
+  "snapshots": [
+    {
+      "repo": "sobomax/digger",
+      "commit": "e85cab1164f0304b3e66f371a5997d83f7a0090a",
+      "treeTruncated": false,
+      "treeFiles": 331,
+      "files": [
+        {
+          "path": "README.md",
+          "bytes": 5029,
+          "sha256": "5bd2cb9a3f2c103e4d27ff4693c939ce4c9eb39988ac8748c985959c5ce8f282",
+          "url": "https://github.com/sobomax/digger/blob/e85cab1164f0304b3e66f371a5997d83f7a0090a/README.md"
+        },
+        {
+          "path": "digger.txt",
+          "bytes": 43791,
+          "sha256": "53aa98ee2bf061360841e12031076e592b204ec236ad4a70791ae07631515f87",
+          "url": "https://github.com/sobomax/digger/blob/e85cab1164f0304b3e66f371a5997d83f7a0090a/digger.txt"
+        },
+        {
+          "path": "digger.c",
+          "bytes": 27632,
+          "sha256": "a0607f575db7407c0e9dca86607948d9b976da5500e45e5c1136d5e9440e4158",
+          "url": "https://github.com/sobomax/digger/blob/e85cab1164f0304b3e66f371a5997d83f7a0090a/digger.c"
+        },
+        {
+          "path": "main.c",
+          "bytes": 27204,
+          "sha256": "044f67946bd0bffca479952e38d39bc5d08675be626488ae1055c1de90c7d4a6",
+          "url": "https://github.com/sobomax/digger/blob/e85cab1164f0304b3e66f371a5997d83f7a0090a/main.c"
+        },
+        {
+          "path": "GNUmakefile",
+          "bytes": 7414,
+          "sha256": "4554284850282178e7ac8f44ace7a545d8ce73ada884d6cf98b75ae7f34cce6d",
+          "url": "https://github.com/sobomax/digger/blob/e85cab1164f0304b3e66f371a5997d83f7a0090a/GNUmakefile"
+        },
+        {
+          "path": "sdl_kbd.c",
+          "bytes": 3944,
+          "sha256": "b4d2a511cd5725174035f2a71e71ebdbf9ea282d1f041381f156af2af3a69c20",
+          "url": "https://github.com/sobomax/digger/blob/e85cab1164f0304b3e66f371a5997d83f7a0090a/sdl_kbd.c"
+        },
+        {
+          "path": "sprite.c",
+          "bytes": 6589,
+          "sha256": "f86e2fd2f242c8c89e88048073625eb36e3deb662d6346dbf3abf345a7c12a9d",
+          "url": "https://github.com/sobomax/digger/blob/e85cab1164f0304b3e66f371a5997d83f7a0090a/sprite.c"
+        },
+        {
+          "path": "drawing.c",
+          "bytes": 9058,
+          "sha256": "cf59798d72a252c022b307f142847d4affa0e2a3a011b36ca9d04dd3cef100d5",
+          "url": "https://github.com/sobomax/digger/blob/e85cab1164f0304b3e66f371a5997d83f7a0090a/drawing.c"
+        }
+      ]
+    },
+    {
+      "repo": "haroldo-ok/skyroads-32x",
+      "commit": "df219e03b854153291b32224593013b60d861d40",
+      "treeTruncated": false,
+      "treeFiles": 76,
+      "files": [
+        {
+          "path": "README.md",
+          "bytes": 4472,
+          "sha256": "b7307ea348eb48ae66f329ce12bc198485872d7dcd27698ae0fe8efeebd8dd84",
+          "url": "https://github.com/haroldo-ok/skyroads-32x/blob/df219e03b854153291b32224593013b60d861d40/README.md"
+        },
+        {
+          "path": "LICENSE",
+          "bytes": 1498,
+          "sha256": "28d3cc9e995e21ab33d08449071b84b745cd6b53559128008079591074795eff",
+          "url": "https://github.com/haroldo-ok/skyroads-32x/blob/df219e03b854153291b32224593013b60d861d40/LICENSE"
+        },
+        {
+          "path": "SOURCE_PACKAGE_README.txt",
+          "bytes": 690,
+          "sha256": "77b276642f16cbc0b4f060d596d01a472ab93729fee25b58fe901205549d56d3",
+          "url": "https://github.com/haroldo-ok/skyroads-32x/blob/df219e03b854153291b32224593013b60d861d40/SOURCE_PACKAGE_README.txt"
+        }
+      ]
+    },
+    {
+      "repo": "konovalov-aleks/reSL",
+      "commit": "470cca330ee9abcf6173c843f4c89686c0c7e525",
+      "treeTruncated": false,
+      "treeFiles": 289,
+      "files": [
+        {
+          "path": "README.md",
+          "bytes": 8849,
+          "sha256": "50cb5a6d798ed87412c647a518aa9624bc586d215f3ebece2d1f99b87239773d",
+          "url": "https://github.com/konovalov-aleks/reSL/blob/470cca330ee9abcf6173c843f4c89686c0c7e525/README.md"
+        },
+        {
+          "path": "LICENSE",
+          "bytes": 35149,
+          "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
+          "url": "https://github.com/konovalov-aleks/reSL/blob/470cca330ee9abcf6173c843f4c89686c0c7e525/LICENSE"
+        },
+        {
+          "path": "resources/README.md",
+          "bytes": 74,
+          "sha256": "5ee2f5ad469475979a59916e1c05a3b6f8c1278c1ade38e3a6c580843f7bfe53",
+          "url": "https://github.com/konovalov-aleks/reSL/blob/470cca330ee9abcf6173c843f4c89686c0c7e525/resources/README.md"
+        },
+        {
+          "path": "src/game/main_loop.cpp",
+          "bytes": 11642,
+          "sha256": "52aa8cfa80cef34a5378c32123f70caf986e27b8531239a17be6274be6e03047",
+          "url": "https://github.com/konovalov-aleks/reSL/blob/470cca330ee9abcf6173c843f4c89686c0c7e525/src/game/main_loop.cpp"
+        }
+      ]
+    }
+  ],
+  "externalStatements": [
+    {
+      "url": "https://www.digger.org/faq.html",
+      "bytes": 23900,
+      "sha256": "1fca50b564c4b9244e853aee44626782aed783e838a43c577ae6aa77d9960daf",
+      "retrievedAtUtc": "2026-10-15T02:09:12.081187+00:00"
+    }
+  ],
+  "unavailableExternalPages": [
+    {
+      "url": "https://www.bluemoon.ee/history/skyroads/",
+      "status": 502,
+      "scope": "Web reader; not permission evidence"
+    },
+    {
+      "url": "https://www.bluemoon.ee/history/skyroads/index.html",
+      "status": 502,
+      "scope": "Web reader; not permission evidence"
+    }
+  ],
+  "selectedTextFiles": 15,
+  "selectedTextBytes": 193035,
+  "changes": [
+    {
+      "id": "digger",
+      "changedFields": [
+        "overview",
+        "limitations"
+      ],
+      "previousKind": "Decompilation",
+      "currentKind": "Decompilation",
+      "gameplayEvidenceUnchanged": true
+    },
+    {
+      "id": "shortline",
+      "changedFields": [
+        "overview",
+        "engineLicense",
+        "limitations"
+      ],
+      "previousKind": "Decompilation",
+      "currentKind": "Decompilation",
+      "gameplayEvidenceUnchanged": true
+    },
+    {
+      "id": "skyways",
+      "changedFields": [
+        "kind",
+        "overview",
+        "engineLicense",
+        "limitations"
+      ],
+      "previousKind": "Decompilation",
+      "currentKind": "Engine recreation",
+      "gameplayEvidenceUnchanged": true
+    }
+  ],
+  "milestoneDisposition": {
+    "historicalReleasedCount": 4,
+    "historicalTarget": 5,
+    "historicalDecompilationLabelsAfterCorrection": 3,
+    "historicalEngineRecreationLabelsAfterCorrection": 1,
+    "currentFullyPermissionAuditedPermissiveTotal": null,
+    "currentTotalStatus": "Not established by this selected metadata/source review",
+    "newEntries": 0,
+    "newQualifyingDecompilations": 0,
+    "openPathsPriorReview": "open-paths-code-provenance-2026-10-14.json"
+  },
+  "unchangedPayloads": [
+    {
+      "game": "digger",
+      "path": "digger.js",
+      "bytes": 381957,
+      "sha256": "1f13719a3803e6f771d0f83a5dbc886b4c703b029e2227127373ed2414275d98",
+      "url": "/runtime/digger/e85cab1164f0-b7e87a0852/digger.js"
+    },
+    {
+      "game": "digger",
+      "path": "digger.wasm",
+      "bytes": 4885753,
+      "sha256": "2ba36234c08ca632483ff7613010a45a077c4a941585e7de2c9caa0cd604d394",
+      "url": "/runtime/digger/e85cab1164f0-b7e87a0852/digger.wasm"
+    },
+    {
+      "game": "digger",
+      "url": "/sources/digger-e85cab1164f0-b7e87a0852.tar.gz",
+      "sha256": "60661381ad0e3a31e039ef65c1e92bfd4c5ad5e8fef666d203f8d3bf4af76af3",
+      "bytes": 676316
+    },
+    {
+      "game": "shortline",
+      "path": "resl.js",
+      "bytes": 189627,
+      "sha256": "a709ab510dbb796957ec1b7ee8a1a18d9dceba0bddb623dadc21e397c5d3cbbd",
+      "url": "/runtime/shortline/470cca330ee9-d1e3c65b2a/resl.js"
+    },
+    {
+      "game": "shortline",
+      "path": "resl.wasm",
+      "bytes": 1559982,
+      "sha256": "28207909c831b7198a55f1c7406fcfc117b5d4b09b9532cc7c37e748c15e11ff",
+      "url": "/runtime/shortline/470cca330ee9-d1e3c65b2a/resl.wasm"
+    },
+    {
+      "game": "shortline",
+      "url": "/sources/open-junction-470cca330ee9-d1e3c65b2a.tar.gz",
+      "sha256": "ccfd3a56d55329c4b1a6b83293de504410a0bbcfe0b8167545e98b8c0f1fb6e6",
+      "bytes": 195615
+    },
+    {
+      "game": "skyways",
+      "path": "skyroads.js",
+      "bytes": 180656,
+      "sha256": "260f9afe0edfc87ad0b25333956b6b2c8e94f25340852e3858cba98e5c1bd6e3",
+      "url": "/runtime/skyways/df219e03b854-59b1a2a61bd4/skyroads.js"
+    },
+    {
+      "game": "skyways",
+      "path": "skyroads.wasm",
+      "bytes": 685541,
+      "sha256": "d28ac44c6abf4188a575a119917a5d31909efe330c9f4d6bf190c79b83cc7cd3",
+      "url": "/runtime/skyways/df219e03b854-59b1a2a61bd4/skyroads.wasm"
+    },
+    {
+      "game": "skyways",
+      "path": "skyroads.data",
+      "bytes": 1402541,
+      "sha256": "59b1a2a61bd46d813f5f7f8d5763c4c6ada53137ee865bf89cb08ccd0e5b3f37",
+      "url": "/runtime/skyways/df219e03b854-59b1a2a61bd4/skyroads.data"
+    },
+    {
+      "game": "skyways",
+      "url": "/sources/open-skyways-df219e03b854-59b1a2a61bd4.tar.gz",
+      "sha256": "0276af350558edc7e89b008fde9ce7f382ccc55dbfbefcb1ced544683e95cf85",
+      "bytes": 68279
+    }
+  ],
+  "verification": {
+    "sourceHashesChecked": 15,
+    "unchangedOtherGameObjects": 87,
+    "gameplayEvidenceObjectsUnchanged": true,
+    "unchangedPayloadHashesChecked": 10,
+    "playerStarted": false,
+    "audibleTest": false,
+    "upstreamScriptsExecuted": false,
+    "newRetailMediaROMOrSDKBinaryFetched": false,
+    "runtimeOrSourceUploaded": false,
+    "staticChecks": {
+      "catalogEntries": 90,
+      "astroFiles": 108,
+      "errors": 0,
+      "warnings": 0,
+      "existingHints": 7,
+      "distributionGuardRecords": 816,
+      "distributionGuardEntries": 14,
+      "builtPages": 154,
+      "indexablePages": 116,
+      "feedItems": 19,
+      "renderedGuideManifestPairs": 3,
+      "renderedUpdateChecked": true
+    },
+    "publication": "pending",
+    "implementationNote": "First metadata patch completed catalog and two manifests before a final-property shape assertion stopped insertion; the array-ending third manifest was handled, all JSON revalidated and all original manifest fields compared unchanged before build."
+  },
+  "limits": [
+    "Digger permission evidence is author-reported and is not discarded; no independent authentication of underlying agreement.",
+    "reSL contributor GPL and authored assets do not resolve upstream-stated lack of original-author permission.",
+    "SkyRoads contributor rewrite/MIT does not certify matching or clean-room isolation; no inference of infringement is made.",
+    "This is not a full re-audit of dependency closure or replacement asset authorship."
+  ]
+}

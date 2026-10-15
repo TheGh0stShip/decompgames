@@ -2049,7 +2049,7 @@
   "mode": "instant",
   "engine": "Digger Remastered",
   "description": "Dig through eight new geometric mazes, collect every emerald, and avoid roaming enemies.",
-  "overview": "Open Digger pairs the documented Digger Remastered decompilation with eight independently designed levels and a complete CC0 visual set. The browser build contains no original maps, graphics, title, icon, font, or tune data. Its deliberately simple geometric artwork makes the replacement campaign visually distinct.",
+  "overview": "Open Digger pairs the reconstruction-derived Digger Remastered source port with eight independently designed levels and a complete CC0 visual set. Andrew Jenner reports permission for Digger Remastered from original author Rob Sleath; this does not establish permission for the original retail distribution or verify byte matching. The browser build contains no original maps, graphics, title, icon, font, or tune data. Its deliberately simple geometric artwork makes the replacement campaign visually distinct.",
   "source": "https://github.com/sobomax/digger",
   "engineLicense": "Mixed: Public Domain, Beer-Ware, BSD-2-Clause, and GPL-2.0; see individual source files",
   "assetLicense": "CC0-1.0 replacement levels, graphics, font, title, and icon",
@@ -2063,6 +2063,7 @@
   ],
   "saveInstructions": "High scores and settings are stored in this browser. Use Export saves in the player toolbar before clearing browser data.",
   "limitations": [
+    "The mixed source licenses include GPL; this historical entry is not a new permissive-code addition. The author-reported Digger Remastered permission is separate from original game distribution rights and has not been independently authenticated.",
    "Audio is intentionally absent from this replacement build.",
    "The opening level and representative second-level play have been tested; a complete eight-level playthrough has not been verified."
   ],
@@ -2573,13 +2574,13 @@
   ],
   "year": 1993,
   "genre": "Arcade racing",
-  "kind": "Decompilation",
+  "kind": "Engine recreation",
   "mode": "instant",
   "engine": "skyroads-32x",
   "description": "Steer and jump a spacecraft through independently authored sky roads.",
-  "overview": "Open Skyways pairs a disassembly-derived SkyRoads engine with thirty independently authored roads and replacement menus, graphics, dashboard, HUD and geometric objects. It excludes Bluemoon’s original game data and music. Muted production keyboard play completed the full thirty-road authored campaign, and all completion markers survived a full browser restart.",
+  "overview": "Open Skyways pairs a new C engine rewritten from SkyRoads disassembly with thirty independently authored roads and replacement menus, graphics, dashboard, HUD and geometric objects. Upstream describes a reverse-engineered recreation; byte-for-byte matching and clean-room isolation are not verified. It excludes Bluemoon’s original game data and music. Muted production keyboard play completed the full thirty-road authored campaign, and all completion markers survived a full browser restart.",
   "source": "https://github.com/haroldo-ok/skyroads-32x",
-  "engineLicense": "MIT engine reconstruction; bundled third-party code retains its upstream license",
+  "engineLicense": "MIT contributor C rewrite; original SkyRoads excluded; third-party code retains separate terms",
   "assetLicense": "CC0-1.0 independent Open Skyways replacement data",
   "assetRequirements": "No original SkyRoads files needed. The package contains its own roads, graphics and interface data, with audio disabled.",
   "controls": [
@@ -2591,6 +2592,7 @@
   ],
   "saveInstructions": "Completing a road records a completion marker automatically in this browser. Use Export saves for a portable backup before clearing browser data; export/delete/import restoration passed the September 27 production test.",
   "limitations": [
+    "This reverse-engineered C recreation does not count as a strict matching-decompilation addition. The contributor MIT notice excludes the original game; complete code-origin and dependency clearance are not certified.",
    "All thirty authored courses completed through their safe central routes, and completion counts survived a full browser restart. Long-term balance and all off-center collision/death cases remain unverified.",
    "Sound is permanently disabled in this build; audible playback has not been tested.",
    "A keyboard is required."
@@ -2628,9 +2630,9 @@
   "mode": "instant",
   "engine": "reSL",
   "description": "Build connecting rails and dispatch trains across a new six-station network.",
-  "overview": "Open Junction pairs the reSL reconstruction of ShortLine with independently authored CC0 screens, fonts, vehicles, rails, buttons, cursor, colors, and scenario data. The browser package excludes the upstream game-data directory and original speaker sequences. Private silent browser tests completed multiple naturally assigned deliveries, including later-station journeys after player-built rails and switch operation. The published build has no private trace hooks. Its continuous 1800-to-2000 progression and full repeat-level campaign remain unverified.",
+  "overview": "Open Junction pairs the reSL reconstruction of ShortLine with independently authored CC0 screens, fonts, vehicles, rails, buttons, cursor, colors, and scenario data. Upstream says original-author permission was not obtained; its GPL notice and our replacement data do not resolve that code-provenance gap. The browser package excludes the upstream game-data directory and original speaker sequences. Private silent browser tests completed multiple naturally assigned deliveries, including later-station journeys after player-built rails and switch operation. The published build has no private trace hooks. Its continuous 1800-to-2000 progression and full repeat-level campaign remain unverified.",
   "source": "https://github.com/konovalov-aleks/reSL",
-  "engineLicense": "GPL-3.0",
+  "engineLicense": "GPL-3.0 reconstruction declaration; original-code permission not obtained per upstream",
   "assetLicense": "CC0-1.0 independently authored Open Junction replacement data",
   "assetRequirements": "No original ShortLine files needed. The included replacement package supplies its own graphics, text, six-station board, and silent audio backend.",
   "controls": [
@@ -2643,6 +2645,7 @@
   ],
   "saveInstructions": "Use the in-game Pause menuâ€™s Save action, then Archive and Go from the main menu to resume. Saves stay in this browser. Use Export saves in the player toolbar for a portable backup before clearing browser data; production export/delete/import restoration passed.",
   "limitations": [
+    "Upstream explicitly reports no original-author permission. Contributor GPL and CC0 replacement assets do not clear inherited game-code rights; this existing entry is not a cleared new permissive-code addition.",
    "A train needs its departure and destination switches set before it reaches each junction; a missed turn can leave it circling the board.",
    "The complete 1800-to-2000 period, repeat-level campaign, and long-term economic balance have not been verified.",
    "This build has a null audio backend. Audible sound has not been tested or enabled."

@@ -29,5 +29,14 @@
     "count": 25,
     "record": "build-record.json in source archive",
     "provenance": "Procedural authored roads, geometric graphics, hand-authored font, HUD, objects, animation and inert demo; no original Bluemoon files"
+  },
+  "codeProvenance": {
+    "classification": "Engine recreation: portable C rewritten from disassembly; no verified byte matching or clean-room isolation",
+    "codeDeclaration": "MIT for contributor rewrite; original SkyRoads excluded; component exceptions separate",
+    "permissionEvidence": "Upstream attributes rewrite to contributors and cites original readme welcoming modification/reverse engineering; independent original grant scope not verified here",
+    "permissionEvidenceStatus": "Contributor declaration and rewrite claim; no blanket retail-code or asset grant",
+    "newPermissiveIntakeEligibility": "Not recertified by this metadata review; broad recreation expansion remains paused",
+    "assetGrantSeparate": true,
+    "audit": "https://github.com/andrewnakas/decompgames/blob/main/docs/milestone-source-provenance-2026-10-14.md"
   }
 }

@@ -3,6 +3,10 @@ layout: ../../layouts/Article.astro
 title: What’s new
 description: Release notes and compatibility changes for Decomp Games.
 ---
+## October 14, 2026 — Source classifications and permission scope clarified
+
+Open Skyways is now labeled Engine recreation, following upstream’s description of new C rewritten from disassembly. Open Junction now discloses upstream’s statement that original-author permission was not obtained. Open Digger records Andrew Jenner’s reported permission for Digger Remastered, separately from original retail distribution rights. Existing replacement campaigns, runtime packages and gameplay evidence remain. Historical milestone counts are not a current permission certificate. [Source review](https://github.com/andrewnakas/decompgames/blob/main/docs/milestone-source-provenance-2026-10-14.md).
+
 ## October 14, 2026 — Open Paths: code provenance clarified
 
 OpenSupaplex declares GPL for its C implementation and MIT for upstream disassembly work. The upstream MIT rationale does not establish original rights-holder permission for inherited game code; CC0 replacement assets address a separate grant. The existing game and six-level gameplay evidence remain, with this unresolved code scope recorded. The licenses page now uses per-project evidence instead of a blanket clean-room claim. [Source review](https://github.com/andrewnakas/decompgames/blob/main/docs/open-paths-code-provenance-2026-10-14.md).
