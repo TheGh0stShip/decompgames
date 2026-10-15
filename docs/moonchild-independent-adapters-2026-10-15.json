@@ -1,0 +1,226 @@
+{
+  "schemaVersion": 1,
+  "dateUtc": "2026-10-15T02:54:13.254382+00:00",
+  "project": "Moon Child FE independent adapters",
+  "classification": "original-developer source port",
+  "status": "private adapted build and synthetic tests; not integrated",
+  "catalogCount": 90,
+  "newCatalogEntries": 0,
+  "newDecompilations": 0,
+  "upstream": {
+    "repository": "MorsGames/MoonChildFE",
+    "commit": "fb35b9441f89f24cc512636bb6390a2cdfaa0257",
+    "firstPartyCodeGrant": "See moonchild-gnukem-chromium-source-intake-2026-10-14.json; does not clear separately noticed third-party components",
+    "originalMedia": "excluded; no CC0 assertion"
+  },
+  "componentReplacement": {
+    "reason": "Selected Microsoft 1995-1996 files contain copyright/disclaimer without a permission grant; no determination that no historical SDK license exists",
+    "originalInputs": [
+      {
+        "path": "Classes/framewrk/fastfile.cpp",
+        "bytes": 9708,
+        "sha256": "22f80c8daea29e5bab2969829365ca108a6532b2cfd7996dbb4c717b2eb21d8f",
+        "url": "https://github.com/MorsGames/MoonChildFE/blob/fb35b9441f89f24cc512636bb6390a2cdfaa0257/Classes/framewrk/fastfile.cpp"
+      },
+      {
+        "path": "Classes/framewrk/fastfile.h",
+        "bytes": 1216,
+        "sha256": "5021cfa69d9cc6d7b4b25acd0dad1a7e0ee4f41ad7d57ad493b6cadccc969a86",
+        "url": "https://github.com/MorsGames/MoonChildFE/blob/fb35b9441f89f24cc512636bb6390a2cdfaa0257/Classes/framewrk/fastfile.h"
+      },
+      {
+        "path": "Classes/framewrk/ffent.h",
+        "bytes": 773,
+        "sha256": "4b852921f67d7e5d438dfd3c7609f2bc43266ad5d4c3a7facac69b6cb11564d6",
+        "url": "https://github.com/MorsGames/MoonChildFE/blob/fb35b9441f89f24cc512636bb6390a2cdfaa0257/Classes/framewrk/ffent.h"
+      }
+    ],
+    "interfaceAndCallersInspected": true,
+    "cleanRoomIsolationCertified": false,
+    "originalArchiveParserReused": false,
+    "removedHeader": "Classes/framewrk/ffent.h",
+    "overlays": [
+      {
+        "local": "fastfile.cpp",
+        "target": "Classes/framewrk/fastfile.cpp",
+        "bytes": 4702,
+        "sha256": "d87ab9c86725d0705365cfe301d2ac1750ff2c319d377f0fd0774757863808a3"
+      },
+      {
+        "local": "fastfile.h",
+        "target": "Classes/framewrk/fastfile.h",
+        "bytes": 448,
+        "sha256": "6eec273071021f403daad1c898f34fd5cef498e2877d92d446fb3845c2b3919b"
+      },
+      {
+        "local": "PlatformBackends.cpp",
+        "target": "Platform/App/PlatformBackends.cpp",
+        "bytes": 497,
+        "sha256": "faabbf1182e5cab3d165b0bc0aa095f50b7b36b3adf5e0d51ab6254e83070680"
+      },
+      {
+        "local": "NullAudio.h",
+        "target": "Platform/App/NullAudio.h",
+        "bytes": 962,
+        "sha256": "1517f7b8a54477634b10401efe483dbcd0f1152233bf3cc5f54814355e75e64a"
+      }
+    ]
+  },
+  "recipeFiles": [
+    {
+      "path": "experiments/moon-child-independent-adapters/build.py",
+      "bytes": 6522,
+      "sha256": "9905889c4e192dbdcf12d380e27645c72c94fe72c5eee555c82844d9477209f0"
+    },
+    {
+      "path": "experiments/moon-child-independent-adapters/fastfile.cpp",
+      "bytes": 4702,
+      "sha256": "d87ab9c86725d0705365cfe301d2ac1750ff2c319d377f0fd0774757863808a3"
+    },
+    {
+      "path": "experiments/moon-child-independent-adapters/fastfile.h",
+      "bytes": 448,
+      "sha256": "6eec273071021f403daad1c898f34fd5cef498e2877d92d446fb3845c2b3919b"
+    },
+    {
+      "path": "experiments/moon-child-independent-adapters/glad-generation.json",
+      "bytes": 16725,
+      "sha256": "1a94813c0f0ea9f06a0423c97881ec9da582e29ccdea24a25953c0d5a6636a3e"
+    },
+    {
+      "path": "experiments/moon-child-independent-adapters/LICENSE",
+      "bytes": 1081,
+      "sha256": "60467f5568656ebd3d3ca46d98e2f2a47bf4d1f0f7518ff325199a5946a6515e"
+    },
+    {
+      "path": "experiments/moon-child-independent-adapters/NullAudio.h",
+      "bytes": 962,
+      "sha256": "1517f7b8a54477634b10401efe483dbcd0f1152233bf3cc5f54814355e75e64a"
+    },
+    {
+      "path": "experiments/moon-child-independent-adapters/PlatformBackends.cpp",
+      "bytes": 497,
+      "sha256": "faabbf1182e5cab3d165b0bc0aa095f50b7b36b3adf5e0d51ab6254e83070680"
+    },
+    {
+      "path": "experiments/moon-child-independent-adapters/README.md",
+      "bytes": 3371,
+      "sha256": "075d9d34821343ed58bf42539a3d31abe2c393c901358e88d4b7e2d322850fad"
+    },
+    {
+      "path": "experiments/moon-child-independent-adapters/test-adapters.cpp",
+      "bytes": 5250,
+      "sha256": "9187db8d893e72e9bfe6b418a522109622d32e2ccb0953783712dd695e121de2"
+    }
+  ],
+  "build": {
+    "compiler": "Emscripten 6.0.10 d6c521a7f05449857c76bd99e396895583cf2083",
+    "node": "24.19.0",
+    "sdkSdl2": "2.32.10",
+    "sdkZlibRequested": false,
+    "optimization": "-O0",
+    "pinnedInputsVerified": 221,
+    "pinnedInputDirectoryUnchanged": true,
+    "selectedUnits": 88,
+    "allCompiled": true,
+    "strictUndefinedSymbols": true,
+    "linkExitCode": 0,
+    "sourceWarningUnits": [
+      "Classes/moonchild/asset.cpp",
+      "Classes/moonchild/asteroid.cpp",
+      "Classes/moonchild/bullet.cpp",
+      "Classes/moonchild/globals.cpp",
+      "Classes/moonchild/hoi.cpp",
+      "Classes/moonchild/mc.cpp",
+      "Classes/moonchild/sneak.cpp",
+      "Classes/moonchild/wheel.cpp"
+    ],
+    "excludedUnits": [
+      "Platform/Audio/AudioEngine.cpp",
+      "Platform/Audio/MP3MusicTrack.cpp",
+      "Platform/Backends/Audio/SDL2Audio.cpp"
+    ],
+    "dataPreloaded": false,
+    "invokeRun": false,
+    "gameInstantiated": false,
+    "gameMainCalled": false,
+    "elapsedSeconds": 15.988,
+    "outputs": [
+      {
+        "path": "moon-fe.js",
+        "bytes": 386769,
+        "sha256": "55519808750d16343c716092a0e74e10b9c85e6e1eec34966d0d6bd2a96e69b6"
+      },
+      {
+        "path": "moon-fe.wasm",
+        "bytes": 1073019,
+        "sha256": "a66b81da6288e32374186d499d749d7b84f841a15bbcf149ff843f53b7352a6d"
+      },
+      {
+        "path": "test-adapters.js",
+        "bytes": 241192,
+        "sha256": "138dcc2549215fc7eee56ad10b1f1d4d25c4986e77e8d1266a633a52d9414474"
+      }
+    ],
+    "wasmValidation": true,
+    "wasmModuleImports": 243,
+    "wasmModuleExports": 21
+  },
+  "verification": {
+    "testCompilerFlags": [
+      "-O0",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-sASSERTIONS=2"
+    ],
+    "testCompileExitCode": 0,
+    "nodeTestExitCode": 0,
+    "syntheticTestSummary": "PASS: loose-file boundaries, isolated handles, fail-closed marker, file cap, native PCX decode and null-audio API",
+    "nativePcxDecoderUnchanged": true,
+    "fixture": {
+      "independentlyGenerated": true,
+      "width": 8,
+      "height": 4,
+      "pixelIndicesCompared": 32,
+      "paletteBytesCompared": 768,
+      "retailReferenceUsed": false
+    },
+    "threeAdaptedWasmOutputsIdentical": true,
+    "javascriptByteIdenticalAcrossAllThree": false,
+    "javascriptEqualAfterOnlyPreJsLocationCommentNormalization": true,
+    "earlierFailedHarness": "Missing initializer_list include; fixed before passing v2/v3; first two links retained now-removed zlib flag",
+    "browserPlayerStarted": false,
+    "gameplayVerified": false,
+    "audioAudibleTest": false,
+    "genericSdlWebAudioHelpersStillPresent": true
+  },
+  "glad": {
+    "receipt": "../experiments/moon-child-independent-adapters/glad-generation.json",
+    "repository": "Dav1dde/glad",
+    "commit": "1ecd45775d96f35170458e6b148eb0708967e402",
+    "tag": "v0.1.36",
+    "inputFiles": 52,
+    "inputBytes": 3331404,
+    "selectedCAndHeaderEqualAfterOnlyCrLfNormalization": true,
+    "selectedKhronosHeaderByteIdentical": true,
+    "generatorPatched": false,
+    "completeDistributionNoticeClosure": false
+  },
+  "remaining": [
+    "independent complete graphics/animation/palette/text/map/trigger/placement content and provenance manifest",
+    "source-side expressive-content selection and safe initialization/content validation",
+    "complete selected SDK/runtime/dependency notices and final shipping allowlist",
+    "ordinary gameplay, objectives, hazards/death/retry, save restoration and Stop",
+    "corresponding source package and muted live release verification"
+  ],
+  "safety": {
+    "originalMediaFetched": false,
+    "romNeededForNewBuild": false,
+    "privateResearchPublished": false,
+    "marioParty2or3Touched": false,
+    "haloTouched": false,
+    "playersLeftRunning": false,
+    "websiteDeployment": false
+  }
+}

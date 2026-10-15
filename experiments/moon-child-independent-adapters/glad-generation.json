@@ -1,0 +1,370 @@
+{
+  "repository": "Dav1dde/glad",
+  "tag": "v0.1.36",
+  "commit": "1ecd45775d96f35170458e6b148eb0708967e402",
+  "files": [
+    {
+      "path": "LICENSE",
+      "url": "https://raw.githubusercontent.com/Dav1dde/glad/1ecd45775d96f35170458e6b148eb0708967e402/LICENSE",
+      "bytes": 3014,
+      "sha256": "3d6e8bb9a06887b182a1da966937678b69fb8faeacf05dbf058cec8d0e4dc872"
+    },
+    {
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/Dav1dde/glad/1ecd45775d96f35170458e6b148eb0708967e402/README.md",
+      "bytes": 7503,
+      "sha256": "1fe8a9fbf2f1c683ba644b4aa357556afa257629a9be11c83639ea81925e858d"
+    },
+    {
+      "path": "glad/__init__.py",
+      "url": "https://raw.githubusercontent.com/Dav1dde/glad/1ecd45775d96f35170458e6b148eb0708967e402/glad/__init__.py",
+      "bytes": 25,
+      "sha256": "411885e3bdcfb9e458bdf92391b1a781c32b5f7cae3929e5e3d86e93626290fe"
+    },
+    {
+      "path": "glad/__main__.py",
+      "url": "https://raw.githubusercontent.com/Dav1dde/glad/1ecd45775d96f35170458e6b148eb0708967e402/glad/__main__.py",
+      "bytes": 7063,
+      "sha256": "d43282680c931f08995b58c2af29399e49d2d9d8c4efaf9a89bf8eeef6e7f9bd"
+    },
+    {
+      "path": "glad/files/__init__.py",
+      "url": "https://raw.githubusercontent.com/Dav1dde/glad/1ecd45775d96f35170458e6b148eb0708967e402/glad/files/__init__.py",
+      "bytes": 922,
+      "sha256": "28ba86e8e1891502987442bcf57a74154530c9ed3dbe48236e81bacb21eaac58"
+    },
+    {
+      "path": "glad/files/egl.xml",
+      "url": "https://raw.githubusercontent.com/Dav1dde/glad/1ecd45775d96f35170458e6b148eb0708967e402/glad/files/egl.xml",
+      "bytes": 190417,
+      "sha256": "da2e94ee736368f1771fac5223158c0cbff2c441841e992080baa28e485a1a6c"
+    },
+    {
+      "path": "glad/files/gl.xml",
+      "url": "https://raw.githubusercontent.com/Dav1dde/glad/1ecd45775d96f35170458e6b148eb0708967e402/glad/files/gl.xml",
+      "bytes": 2735738,
+      "sha256": "3e28e0e56cc9564196f36a046eece2a11e710be97f7caf5103d371b81512b419"
+    },
+    {
+      "path": "glad/files/glx.xml",
+      "url": "https://raw.githubusercontent.com/Dav1dde/glad/1ecd45775d96f35170458e6b148eb0708967e402/glad/files/glx.xml",
+      "bytes": 115156,
+      "sha256": "4f00f20e507c353e8cc7765cd414b659a53628a12c5c22459afdc7ddd0f620b6"
+    },
+    {
+      "path": "glad/files/khrplatform.h",
+      "url": "https://raw.githubusercontent.com/Dav1dde/glad/1ecd45775d96f35170458e6b148eb0708967e402/glad/files/khrplatform.h",
+      "bytes": 11131,
+      "sha256": "7b1e01aaa7ad8f6fc34b5c7bdf79ebf5189bb09e2c4d2e79fc5d350623d11e83"
+    },
+    {
+      "path": "glad/files/wgl.xml",
+      "url": "https://raw.githubusercontent.com/Dav1dde/glad/1ecd45775d96f35170458e6b148eb0708967e402/glad/files/wgl.xml",
+      "bytes": 104311,
+      "sha256": "4f36192884ce3e95b3a27d4ae1763fa57aba677fd31b421f8c496140f17538b6"
+    },
+    {
+      "path": "glad/lang/__init__.py",
+      "url": "https://raw.githubusercontent.com/Dav1dde/glad/1ecd45775d96f35170458e6b148eb0708967e402/glad/lang/__init__.py",
+      "bytes": 432,
+      "sha256": "b936a0f60b305b379fdffb98db789f0ebcc6ea8b313c288f2ffec80bd6502e76"
+    },
+    {
+      "path": "glad/lang/c/__init__.py",
+      "url": "https://raw.githubusercontent.com/Dav1dde/glad/1ecd45775d96f35170458e6b148eb0708967e402/glad/lang/c/__init__.py",
+      "bytes": 577,
+      "sha256": "6c1633c53ca6d143053aeebd08faa285db057cdf4dbc9d8c483d2ef4fd0424f1"
+    },
+    {
+      "path": "glad/lang/c/debug.py",
+      "url": "https://raw.githubusercontent.com/Dav1dde/glad/1ecd45775d96f35170458e6b148eb0708967e402/glad/lang/c/debug.py",
+      "bytes": 4950,
+      "sha256": "a5e376b3a1500759221ebc8b98d67e3289ddfb91d56ad9b41daaa446fbdd40f4"
+    },
+    {
+      "path": "glad/lang/c/generator.py",
+      "url": "https://raw.githubusercontent.com/Dav1dde/glad/1ecd45775d96f35170458e6b148eb0708967e402/glad/lang/c/generator.py",
+      "bytes": 14607,
+      "sha256": "870b8b6f1bc53f9d0519792b1cd6d76f3c0c5d755eb3ce5110308bc9dc522037"
+    },
+    {
+      "path": "glad/lang/c/loader/__init__.py",
+      "url": "https://raw.githubusercontent.com/Dav1dde/glad/1ecd45775d96f35170458e6b148eb0708967e402/glad/lang/c/loader/__init__.py",
+      "bytes": 3660,
+      "sha256": "4e4b536fb6ed99730356f53352cc3a0d18e2293fde3716cd43c9d8e7eca4b1f4"
+    },
+    {
+      "path": "glad/lang/c/loader/egl.py",
+      "url": "https://raw.githubusercontent.com/Dav1dde/glad/1ecd45775d96f35170458e6b148eb0708967e402/glad/lang/c/loader/egl.py",
+      "bytes": 1504,
+      "sha256": "a23963eb31ef919e8d8534b2e0e55a283d4af441cf1cf7c4dbb8104cd3ac4b4a"
+    },
+    {
+      "path": "glad/lang/c/loader/gl.py",
+      "url": "https://raw.githubusercontent.com/Dav1dde/glad/1ecd45775d96f35170458e6b148eb0708967e402/glad/lang/c/loader/gl.py",
+      "bytes": 6326,
+      "sha256": "b628113e265d16b4fd86ccd852e63844bc2d0c5c5565f5a9ecce9173e985b115"
+    },
+    {
+      "path": "glad/lang/c/loader/glx.py",
+      "url": "https://raw.githubusercontent.com/Dav1dde/glad/1ecd45775d96f35170458e6b148eb0708967e402/glad/lang/c/loader/glx.py",
+      "bytes": 3575,
+      "sha256": "65b33e6073955b9e7f592a73ff0e7d6e1c44976bc137e42cfbeb06441bdf07da"
+    },
+    {
+      "path": "glad/lang/c/loader/wgl.py",
+      "url": "https://raw.githubusercontent.com/Dav1dde/glad/1ecd45775d96f35170458e6b148eb0708967e402/glad/lang/c/loader/wgl.py",
+      "bytes": 3424,
+      "sha256": "61d861d1d40a32ad594129a7d29fe62c83dee19acf6d4693f0db6669b0be4022"
+    },
+    {
+      "path": "glad/lang/common/__init__.py",
+      "url": "https://raw.githubusercontent.com/Dav1dde/glad/1ecd45775d96f35170458e6b148eb0708967e402/glad/lang/common/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "glad/lang/common/generator.py",
+      "url": "https://raw.githubusercontent.com/Dav1dde/glad/1ecd45775d96f35170458e6b148eb0708967e402/glad/lang/common/generator.py",
+      "bytes": 7956,
+      "sha256": "40fc702b324b870392079dcb56a3f2df1b9928bfed7fbb73ce9fbaf38163227e"
+    },
+    {
+      "path": "glad/lang/common/loader.py",
+      "url": "https://raw.githubusercontent.com/Dav1dde/glad/1ecd45775d96f35170458e6b148eb0708967e402/glad/lang/common/loader.py",
+      "bytes": 1270,
+      "sha256": "59f5fc1dfc4612e3922463e481b0f2d9f12752315b0cf21f2469f1b95759ca7c"
+    },
+    {
+      "path": "glad/lang/common/util.py",
+      "url": "https://raw.githubusercontent.com/Dav1dde/glad/1ecd45775d96f35170458e6b148eb0708967e402/glad/lang/common/util.py",
+      "bytes": 216,
+      "sha256": "8c55e1e675c6691aaf17ff62839f9153d98d394b9bfb6a338c7cc322698794ae"
+    },
+    {
+      "path": "glad/lang/d/__init__.py",
+      "url": "https://raw.githubusercontent.com/Dav1dde/glad/1ecd45775d96f35170458e6b148eb0708967e402/glad/lang/d/__init__.py",
+      "bytes": 499,
+      "sha256": "47dcde11eb9f114e6d094775a877f9927740ac6dceca26d43e412e17d385970e"
+    },
+    {
+      "path": "glad/lang/d/generator.py",
+      "url": "https://raw.githubusercontent.com/Dav1dde/glad/1ecd45775d96f35170458e6b148eb0708967e402/glad/lang/d/generator.py",
+      "bytes": 28937,
+      "sha256": "7490b88fcae7a27662838f0a0600edead71538b452de60cf395048ad44b2c2dd"
+    },
+    {
+      "path": "glad/lang/d/loader/__init__.py",
+      "url": "https://raw.githubusercontent.com/Dav1dde/glad/1ecd45775d96f35170458e6b148eb0708967e402/glad/lang/d/loader/__init__.py",
+      "bytes": 2373,
+      "sha256": "105e3635567353f8831a1914014a7515b21ac82505ec8809ca04065e35ad8563"
+    },
+    {
+      "path": "glad/lang/d/loader/egl.py",
+      "url": "https://raw.githubusercontent.com/Dav1dde/glad/1ecd45775d96f35170458e6b148eb0708967e402/glad/lang/d/loader/egl.py",
+      "bytes": 777,
+      "sha256": "aeccc0bbdf4b5db5fdf4bb94ac82970eddb3008afd51c64c1e08014bf65ec3f5"
+    },
+    {
+      "path": "glad/lang/d/loader/gl.py",
+      "url": "https://raw.githubusercontent.com/Dav1dde/glad/1ecd45775d96f35170458e6b148eb0708967e402/glad/lang/d/loader/gl.py",
+      "bytes": 3394,
+      "sha256": "a2cdf50b8143bd26ded9e46953ca44183326581b139382b067e242fd0a269431"
+    },
+    {
+      "path": "glad/lang/d/loader/glx.py",
+      "url": "https://raw.githubusercontent.com/Dav1dde/glad/1ecd45775d96f35170458e6b148eb0708967e402/glad/lang/d/loader/glx.py",
+      "bytes": 1042,
+      "sha256": "2a2dacd5c595300d6255019dda485d98913e09cd6760d339d72a29f5dec983d6"
+    },
+    {
+      "path": "glad/lang/d/loader/wgl.py",
+      "url": "https://raw.githubusercontent.com/Dav1dde/glad/1ecd45775d96f35170458e6b148eb0708967e402/glad/lang/d/loader/wgl.py",
+      "bytes": 777,
+      "sha256": "34bfce5d9bbe53b470e09473af88a1c196e7617fb4e47c9556e5a19b7a2afd67"
+    },
+    {
+      "path": "glad/lang/nim/__init__.py",
+      "url": "https://raw.githubusercontent.com/Dav1dde/glad/1ecd45775d96f35170458e6b148eb0708967e402/glad/lang/nim/__init__.py",
+      "bytes": 593,
+      "sha256": "27f26767737430decd5b106624477898652466a317bd64302d86ac8f79e33a9b"
+    },
+    {
+      "path": "glad/lang/nim/generator.py",
+      "url": "https://raw.githubusercontent.com/Dav1dde/glad/1ecd45775d96f35170458e6b148eb0708967e402/glad/lang/nim/generator.py",
+      "bytes": 18057,
+      "sha256": "746acd57562382a694e17fc91f7b5fde4e870f04585f31a6322bf06b8b7ae4d7"
+    },
+    {
+      "path": "glad/lang/nim/loader/__init__.py",
+      "url": "https://raw.githubusercontent.com/Dav1dde/glad/1ecd45775d96f35170458e6b148eb0708967e402/glad/lang/nim/loader/__init__.py",
+      "bytes": 2370,
+      "sha256": "d3c0ecf80c6282b9cfc30aa3ff39cd612ca0f6f8b32ead7e547412509be1b66b"
+    },
+    {
+      "path": "glad/lang/nim/loader/egl.py",
+      "url": "https://raw.githubusercontent.com/Dav1dde/glad/1ecd45775d96f35170458e6b148eb0708967e402/glad/lang/nim/loader/egl.py",
+      "bytes": 771,
+      "sha256": "2967033c9248d249369179122c92d891c420ba615b1fbb7cb50c45ce3bc2f5f2"
+    },
+    {
+      "path": "glad/lang/nim/loader/gl.py",
+      "url": "https://raw.githubusercontent.com/Dav1dde/glad/1ecd45775d96f35170458e6b148eb0708967e402/glad/lang/nim/loader/gl.py",
+      "bytes": 3480,
+      "sha256": "ffbffb8bd7061352086ec74bc363c786433abf170e1fbb6c80c695a0c8804a7b"
+    },
+    {
+      "path": "glad/lang/nim/loader/glx.py",
+      "url": "https://raw.githubusercontent.com/Dav1dde/glad/1ecd45775d96f35170458e6b148eb0708967e402/glad/lang/nim/loader/glx.py",
+      "bytes": 1103,
+      "sha256": "f86fc8e1a00978475c5e1c3f03952e57c9b3f4d7d506c7334361fce65bf0a4ed"
+    },
+    {
+      "path": "glad/lang/nim/loader/wgl.py",
+      "url": "https://raw.githubusercontent.com/Dav1dde/glad/1ecd45775d96f35170458e6b148eb0708967e402/glad/lang/nim/loader/wgl.py",
+      "bytes": 844,
+      "sha256": "cd8cb4e2ad57c6dab9c2144bbd69c55f24740b613fe73392ba3e6ba29303af92"
+    },
+    {
+      "path": "glad/lang/pascal/__init__.py",
+      "url": "https://raw.githubusercontent.com/Dav1dde/glad/1ecd45775d96f35170458e6b148eb0708967e402/glad/lang/pascal/__init__.py",
+      "bytes": 325,
+      "sha256": "5d2f1eeef8eaa931203245b8349c7db48369b33db7a4c96668c5c8cd3640df83"
+    },
+    {
+      "path": "glad/lang/pascal/generator.py",
+      "url": "https://raw.githubusercontent.com/Dav1dde/glad/1ecd45775d96f35170458e6b148eb0708967e402/glad/lang/pascal/generator.py",
+      "bytes": 14072,
+      "sha256": "4908c76ed632dfa2f55693361acdfe26f8c023fb29ff409db5254f7626acf470"
+    },
+    {
+      "path": "glad/lang/pascal/loader/__init__.py",
+      "url": "https://raw.githubusercontent.com/Dav1dde/glad/1ecd45775d96f35170458e6b148eb0708967e402/glad/lang/pascal/loader/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "glad/lang/pascal/loader/gl.py",
+      "url": "https://raw.githubusercontent.com/Dav1dde/glad/1ecd45775d96f35170458e6b148eb0708967e402/glad/lang/pascal/loader/gl.py",
+      "bytes": 2632,
+      "sha256": "d6fa7fb48c1e318c8d477aea228cfef7ca058f9b36ef606bae78390d40cbadc1"
+    },
+    {
+      "path": "glad/lang/volt/__init__.py",
+      "url": "https://raw.githubusercontent.com/Dav1dde/glad/1ecd45775d96f35170458e6b148eb0708967e402/glad/lang/volt/__init__.py",
+      "bytes": 547,
+      "sha256": "caefe300276624d3b6f954118ff9a681d15eb3701e83463373ab5d1f72ed214a"
+    },
+    {
+      "path": "glad/lang/volt/generator.py",
+      "url": "https://raw.githubusercontent.com/Dav1dde/glad/1ecd45775d96f35170458e6b148eb0708967e402/glad/lang/volt/generator.py",
+      "bytes": 2198,
+      "sha256": "e87eb45c8d8633d145a5637a042e3a07f23dfb65de10941d28c3d88a5d1bca61"
+    },
+    {
+      "path": "glad/lang/volt/loader/__init__.py",
+      "url": "https://raw.githubusercontent.com/Dav1dde/glad/1ecd45775d96f35170458e6b148eb0708967e402/glad/lang/volt/loader/__init__.py",
+      "bytes": 1540,
+      "sha256": "d777d7c5b26c6385ecc109d2f741f4218880ba178ce573bb9c02ebdb01e05c74"
+    },
+    {
+      "path": "glad/lang/volt/loader/egl.py",
+      "url": "https://raw.githubusercontent.com/Dav1dde/glad/1ecd45775d96f35170458e6b148eb0708967e402/glad/lang/volt/loader/egl.py",
+      "bytes": 995,
+      "sha256": "21bb781f1de69cb0d8cb8a8229ac29ec1cf543a91aafd08ab4e0dedbbca9c30d"
+    },
+    {
+      "path": "glad/lang/volt/loader/gl.py",
+      "url": "https://raw.githubusercontent.com/Dav1dde/glad/1ecd45775d96f35170458e6b148eb0708967e402/glad/lang/volt/loader/gl.py",
+      "bytes": 1863,
+      "sha256": "7c5af187f760d02c2fb131a3d3477c1cce6029e2ffb282418c7c95cbc8fc3d49"
+    },
+    {
+      "path": "glad/lang/volt/loader/glx.py",
+      "url": "https://raw.githubusercontent.com/Dav1dde/glad/1ecd45775d96f35170458e6b148eb0708967e402/glad/lang/volt/loader/glx.py",
+      "bytes": 1015,
+      "sha256": "7943764640bcb31782f2521fef35ebdc908917ef552ba159a6e1dc44a045100a"
+    },
+    {
+      "path": "glad/lang/volt/loader/wgl.py",
+      "url": "https://raw.githubusercontent.com/Dav1dde/glad/1ecd45775d96f35170458e6b148eb0708967e402/glad/lang/volt/loader/wgl.py",
+      "bytes": 751,
+      "sha256": "91f75f41b6ddb0048af480a1445dffccf39401c8d9df2f1228a5feb8ca701dfe"
+    },
+    {
+      "path": "glad/opener.py",
+      "url": "https://raw.githubusercontent.com/Dav1dde/glad/1ecd45775d96f35170458e6b148eb0708967e402/glad/opener.py",
+      "bytes": 3225,
+      "sha256": "0e67b71fe1cbbec1e940af60f0136f0801718cc3791a55c92dea94432815d731"
+    },
+    {
+      "path": "glad/parse.py",
+      "url": "https://raw.githubusercontent.com/Dav1dde/glad/1ecd45775d96f35170458e6b148eb0708967e402/glad/parse.py",
+      "bytes": 11857,
+      "sha256": "a687f6f64731f33821d3e031b1b09c5fc94ceafa9130cd991b550e0e3d8b98c8"
+    },
+    {
+      "path": "glad/spec.py",
+      "url": "https://raw.githubusercontent.com/Dav1dde/glad/1ecd45775d96f35170458e6b148eb0708967e402/glad/spec.py",
+      "bytes": 1268,
+      "sha256": "496633ce861f35cb3b5c4e90fb3d4c07ec480dbe1ebb3eb08a9af62147541682"
+    },
+    {
+      "path": "glad/util.py",
+      "url": "https://raw.githubusercontent.com/Dav1dde/glad/1ecd45775d96f35170458e6b148eb0708967e402/glad/util.py",
+      "bytes": 322,
+      "sha256": "294666c432d74db69b7c2568e495b480ca7a0e08c09b839ed1e8f131d9d682aa"
+    }
+  ],
+  "generation": {
+    "argv": [
+      "python",
+      "-X",
+      "utf8",
+      "-m",
+      "glad",
+      "--profile=compatibility",
+      "--api=gl=2.1,gles2=2.0",
+      "--generator=c",
+      "--spec=gl",
+      "--local-files",
+      "--extensions=",
+      "--reproducible",
+      "--out-path",
+      "generated"
+    ],
+    "exitCode": 0,
+    "generatorPatched": false,
+    "packagedRegistry": true,
+    "comparisons": [
+      {
+        "path": "glad.c",
+        "generatedBytes": 89642,
+        "generatedSha256": "60a07ece368ad03631829736d51534780dc6f1f54e860874faff1be92d37a04c",
+        "selectedBytes": 87947,
+        "selectedSha256": "47a8ae31ff9495713b3ae672eb8308df99b2c3f98edb337a31b1eeb344022c46",
+        "byteIdentical": false,
+        "equalAfterCrLfNormalization": true
+      },
+      {
+        "path": "glad.h",
+        "generatedBytes": 139058,
+        "generatedSha256": "326b8be465f4168054ee674c9dcceb7282893a7fc91ba0def5fb0a5345affc97",
+        "selectedBytes": 136240,
+        "selectedSha256": "899c3221f81dbd090acb966dbf9557360a1e252cbd14feb8fda9193c2425d9cd",
+        "byteIdentical": false,
+        "equalAfterCrLfNormalization": true
+      },
+      {
+        "path": "khrplatform.h",
+        "generatedBytes": 11131,
+        "generatedSha256": "7b1e01aaa7ad8f6fc34b5c7bdf79ebf5189bb09e2c4d2e79fc5d350623d11e83",
+        "selectedBytes": 11131,
+        "selectedSha256": "7b1e01aaa7ad8f6fc34b5c7bdf79ebf5189bb09e2c4d2e79fc5d350623d11e83",
+        "byteIdentical": true,
+        "equalAfterCrLfNormalization": true
+      }
+    ],
+    "limits": "Generator/registry provenance only; complete SDK and final distribution notice closure remain open."
+  }
+}

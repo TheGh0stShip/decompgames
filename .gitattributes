@@ -30,3 +30,4 @@ public/notices/open-paths-upstream.txt -text whitespace=-blank-at-eol,-blank-at-
 
 # Preserve source-only probe recipe and hash-record bytes.
 experiments/moon-child-source-probe/** -text
+experiments/moon-child-independent-adapters/** -text
