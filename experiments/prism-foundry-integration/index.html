@@ -1,10 +1,18 @@
 <!doctype html><meta charset="utf-8"><title>Prism Foundry private candidate</title>
 <style>body{background:#101720;color:#eee;font:16px system-ui;max-width:860px;margin:30px auto}button{font:inherit;padding:10px;margin:5px}iframe{border:0;width:100%;height:700px}p{line-height:1.5}</style>
 <h1>Prism Foundry</h1><p>Private source-port experiment using authored replacement content. Collect three prisms and reach the gate in each course. Arrows move, Space jumps, X fires, R retries, P or Escape pauses. Sound off.</p>
-<button id="start">Start</button><button id="stop" disabled>Stop</button><div id="slot"></div><p id="state" role="status">Stopped</p>
-<script>
-const start=document.querySelector('#start'),stop=document.querySelector('#stop'),slot=document.querySelector('#slot'),state=document.querySelector('#state');
-start.onclick=()=>{slot.replaceChildren();const f=document.createElement('iframe');f.title='Prism Foundry player';f.src='player.html';slot.append(f);start.disabled=true;stop.disabled=false;state.textContent='Running — sound off';};
-stop.onclick=async()=>{stop.disabled=true;const f=slot.querySelector('iframe'),started=f?.contentWindow.foundrySnapshot?.()?.running===1;f?.contentWindow.stopFoundry?.();let clean=false;if(started)for(let i=0;i<50;i++){if(f?.contentWindow.foundrySnapshot?.()?.running===0){clean=true;break;}await new Promise(r=>setTimeout(r,20));}slot.replaceChildren();start.disabled=false;state.textContent=clean?'Stopped — native shutdown observed':'Stopped — player context removed';};
-setInterval(()=>{const f=slot.querySelector('iframe');if(!f)return;const s=f.contentWindow.foundrySnapshot?.();if(!s?.loaded){state.textContent='Loading authored content — sound off';return;}state.textContent=s.complete?'All three courses complete. Stop and Start to play again.':s.paused?'Paused — P or Escape to resume. Sound off.':`${['Assembly Floor','Cooling Loop','Night Shift'][s.course]} — Prisms ${s.prisms}/3 — Sound off`;},100);
+<button id="start">New game</button><button id="resume" disabled>Resume</button><button id="stop" disabled>Stop</button><p id="saved" role="status">No saved campaign.</p><div id="slot"></div><p id="state" role="status">Stopped</p>
+<script src="save.js"></script><script>
+const start=document.querySelector('#start'),resume=document.querySelector('#resume'),stop=document.querySelector('#stop'),slot=document.querySelector('#slot'),state=document.querySelector('#state'),saved=document.querySelector('#saved');
+const courses=['Assembly Floor','Cooling Loop','Night Shift'];
+let lastSaved=null,storageIssue=false;
+function readSave(){try{return FoundrySave.parse(localStorage.getItem(FoundrySave.key));}catch{storageIssue=true;return null;}}
+function showSave(){const r=readSave();resume.disabled=!!slot.querySelector('iframe')||!r;saved.textContent=storageIssue?'Saving is unavailable in this browser.':r?`Saved: ${r.complete?'campaign complete':courses[r.course]} — ${r.prisms.toString(2).replaceAll('0','').length}/3 prisms${r.checkpoint?' — checkpoint':''}.`:'No saved campaign.';}
+function writeSave(s){const r=FoundrySave.fromState(s);if(!r)return;const text=JSON.stringify(r);if(text===lastSaved)return;try{localStorage.setItem(FoundrySave.key,text);lastSaved=text;storageIssue=false;}catch{storageIssue=true;}showSave();}
+function launch(mode){if(mode==='resume'&&!readSave())return;slot.replaceChildren();lastSaved=null;const f=document.createElement('iframe');f.title='Prism Foundry player';f.src='player.html?mode='+mode;slot.append(f);start.disabled=true;resume.disabled=true;stop.disabled=false;state.textContent='Loading authored content — sound off';}
+start.onclick=()=>launch('new');resume.onclick=()=>launch('resume');
+stop.onclick=async()=>{stop.disabled=true;const f=slot.querySelector('iframe'),s=f?.contentWindow.foundrySnapshot?.(),started=s?.running===1;writeSave(s);f?.contentWindow.stopFoundry?.();let clean=false;if(started)for(let i=0;i<50;i++){if(f?.contentWindow.foundrySnapshot?.()?.running===0){clean=true;break;}await new Promise(r=>setTimeout(r,20));}slot.replaceChildren();start.disabled=false;showSave();state.textContent=clean?'Stopped — native shutdown observed':'Stopped — player context removed';};
+setInterval(()=>{const f=slot.querySelector('iframe');if(!f)return;const s=f.contentWindow.foundrySnapshot?.();if(!s?.loaded){state.textContent='Loading authored content — sound off';return;}writeSave(s);state.textContent=s.complete?'All three courses complete. Stop and New game to play again.':s.paused?'Paused — P or Escape to resume. Sound off.':`${courses[s.course]} — Prisms ${s.prisms}/3 — Sound off`;},100);
+addEventListener('pagehide',()=>writeSave(slot.querySelector('iframe')?.contentWindow.foundrySnapshot?.()));
+showSave();
 </script>

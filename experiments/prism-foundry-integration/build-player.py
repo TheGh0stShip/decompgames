@@ -41,6 +41,9 @@ assert {r.relative_to(pack).as_posix() for r in pack.rglob('*') if r.is_file()} 
 out.mkdir(parents=True)
 generated = out/'FoundryCourseData.h'
 subprocess.run([sys.executable, str(here/'make-levels.py'), '--pack', str(pack), '--output', str(generated)], check=True)
+revision = reference['pack']['manifestSha256']
+assert revision in (here/'save.js').read_text(encoding='utf-8')
+(out/'FoundrySaveRevision.h').write_text('static const char FoundrySaveRevision[]="'+revision+'";\n',encoding='utf-8',newline='\n')
 
 def replace_function(text, signature, body):
     start = text.index(signature+'\n{')
@@ -53,7 +56,7 @@ def replace_function(text, signature, body):
 mc = (source/'Classes/moonchild/mc.cpp').read_text()
 assert mc.count('#define EDITOR\n') == 1
 mc = mc.replace('#define EDITOR\n', '// Editor disabled for the authored campaign.\n')
-mc = '#include "FoundryLevels.h"\n#include <emscripten.h>\n'+mc
+mc = '#include "FoundryLevels.h"\n#include "FoundryProgress.h"\n#include <emscripten.h>\n'+mc
 # No retail settings, recordings, movie/menu flow or progress imports are used.
 mc = mc.replace('  load_highscores();', '  // Authored campaign: no retail high scores.')
 mc = mc.replace('  load_options();', '  // Authored campaign: fixed ordinary controls.')
@@ -61,7 +64,7 @@ mc = mc.replace('  rec_prepmap();', '  // No recording playback.')
 mc = mc.replace('  save_highscores();', '  // No retail high-score writes.')
 mc = mc.replace('  save_options();', '  // No retail option writes.')
 mc = mc.replace('configure_level(1,1);   // numbers starting from 1 (not 0)', '''FoundryConfigureLevels();
-  configure_level(1,1);
+  configure_level(1,FoundryReadResume()+1);
   ingameflg=1; puzzleactiveflg=0; editflg=0; recplay=0;
   musicflg=0; sfxflg=0;
   prefs->leftkey=VK_LEFT; prefs->rightkey=VK_RIGHT;
@@ -95,6 +98,7 @@ EMSCRIPTEN_KEEPALIVE int FoundryStatus(int field) {
     case 3:return 7-player1.nrofblack; case 4:return FoundryComplete;
     case 5:return FoundryTicks; case 6:return FoundryRespawns;
     case 7:return restartx; case 8:return restarty; case 9:return editflg;
+    case 10:return FoundryPrismMask(); case 11:return FoundryCheckpointActive(); case 12:return FoundryResumeUsed();
     default:return -1;
   }
 }
@@ -108,6 +112,7 @@ mc = mc.replace('  check_keys();\n', '''  check_keys();
   if (FoundryRetry) {
     FoundryRetry=0; FoundryComplete=0; pauseflg=0;
     const int target=level;
+    FoundryResetCourse();
     killlevel(); configure_level(1,target+1); fadeout=0;
     return (HEARTBEAT_FN) MC_loadlevel;
   }
@@ -136,6 +141,20 @@ mc = mc.replace('  level_init();\n', '''  level_init();
   for(int slot=0;slot<8;++slot) { scoreposhold[slot*2]=24+slot*28; scoreposhold[slot*2+1]=24; }
 ''', 1)
 (out/'mc.cpp').write_text(mc, encoding='utf-8', newline='\n')
+start=mc.index('HEARTBEAT_FN MC_heartbeatstart(void)\n{')
+end=mc.index('\n}',start)
+mc=mc[:start]+mc[start:end].replace('  pauseflg = 0;','  pauseflg = FoundryComplete?1:0;')+mc[end:]
+(out/'mc.cpp').write_text(mc, encoding='utf-8', newline='\n')
+levels=(here/'FoundryLevels.cpp').read_text(encoding='utf-8')
+levels='#include "FoundryProgress.h"\n'+levels
+levels=levels.replace('    hoi=hoi_globinit(', '    FoundryBeginCourse(level);\n    hoi=hoi_globinit(',1)
+levels=levels.replace('for (int i=0;i<3;++i) diamond_init(', 'for (int i=0;i<3;++i) if(FoundryPrismAvailable(i)) diamond_init(',1)
+levels=levels.replace('    object_add(gate);', '    object_add(gate);\n    FoundryRestoreCourse();',1)
+(out/'FoundryLevels.cpp').write_text(levels,encoding='utf-8',newline='\n')
+diamond=(source/'Classes/moonchild/diamond.cpp').read_text(encoding='utf-8')
+diamond='#include "FoundryProgress.h"\n'+diamond
+diamond=diamond.replace('      bonus_init(object->x, object->y, 1, 1);','      FoundryPrismCollected(object->x,diamondblood->y);\n      bonus_init(object->x, object->y, 1, 1);',1)
+(out/'diamond.cpp').write_text(diamond,encoding='utf-8',newline='\n')
 host = (source/'Platform/App/Host.cpp').read_text().replace('"Moon Child FE"', '"Prism Foundry"')
 host = host.replace('    LoadProgress();', '    // Authored campaign has no retail progress import.')
 host = host.replace('    SaveProgress();', '    // No retail progress export.')
@@ -154,7 +173,7 @@ env = dict(os.environ, EM_CONFIG=str(a.em_config.resolve()))
 includes = ['-I'+str(out), '-I'+str(here)]+['-I'+str(p) for p in sorted({p.parent for p in source.rglob('*') if p.suffix in ['.h','.hpp']})]
 definitions = ['MOONCHILD_WINDOW_SDL2','MOONCHILD_RENDERER_GLES','MOONCHILD_INPUT_SDL2','MOONCHILD_AUDIO_NULL','MOONCHILD_USE_SDL','MOONCHILD_USE_SDL2','MOONCHILD_USE_OPENGL','MOONCHILD_DESKTOP_MODE','MOONCHILD_WEB','SDL_MAIN_HANDLED','MOONCHILD_APP_VERSION_STR="Prism Foundry private candidate"']
 common = ['-O0','-g2','-std=c++11','-sUSE_SDL=2','-UNDEBUG', *['-D'+d for d in definitions], *includes]
-replaced = {'Classes/moonchild/mc.cpp','Classes/moonchild/anim.cpp','Classes/moonchild/asset.cpp','Platform/App/Host.cpp'}
+replaced = {'Classes/moonchild/mc.cpp','Classes/moonchild/anim.cpp','Classes/moonchild/asset.cpp','Classes/moonchild/diamond.cpp','Platform/App/Host.cpp'}
 objects = []
 retained = []
 for r in reference['nativeVerification']['linkedAdaptedObjects']:
@@ -171,7 +190,7 @@ def run(command, log):
     (out/log).write_text(result.stdout+result.stderr, encoding='utf-8')
     return {'command':command,'exitCode':result.returncode,'log':log}
 
-for path in [out/'mc.cpp', out/'Host.cpp', out/'Main.cpp', here/'animation.cpp', here/'assets.cpp', here/'FoundryLevels.cpp']:
+for path in [out/'mc.cpp', out/'Host.cpp', out/'Main.cpp', here/'animation.cpp', here/'assets.cpp', out/'FoundryLevels.cpp', here/'FoundryProgress.cpp', out/'diamond.cpp']:
     obj = out/(path.name+'.o')
     result = run([sys.executable,str(a.emscripten.resolve()/'em++.py'),*common,'-c',str(path),'-o',str(obj)], path.name+'.log')
     result.update({'source':str(path),'sha256':sha(path.read_bytes())})
@@ -179,13 +198,13 @@ for path in [out/'mc.cpp', out/'Host.cpp', out/'Main.cpp', here/'animation.cpp',
     if result['exitCode']:
         break
     objects.append(obj)
-if len(receipt['newUnits'])==6 and all(r['exitCode']==0 for r in receipt['newUnits']):
+if len(receipt['newUnits'])==8 and all(r['exitCode']==0 for r in receipt['newUnits']):
     flags = ['-O0','-g2','-sUSE_SDL=2','-sENVIRONMENT=web','-sALLOW_MEMORY_GROWTH=1','-sFORCE_FILESYSTEM=1','-sEXIT_RUNTIME=0','-sMIN_WEBGL_VERSION=1','-sMAX_WEBGL_VERSION=1','-sASSERTIONS=2','-sSAFE_HEAP=1','-sERROR_ON_UNDEFINED_SYMBOLS=1','--embed-file',str(pack)+'@/data']
     receipt['link'] = run([sys.executable,str(a.emscripten.resolve()/'em++.py'),*[str(o) for o in objects],*flags,'-o',str(out/'foundry.js')], 'link.log')
     if receipt['link']['exitCode']==0:
-        for name in ['player.html','index.html']:
+        for name in ['player.html','index.html','save.js']:
             (out/name).write_bytes((here/name).read_bytes())
-        receipt['outputs'] = [{'path':p.name,'bytes':p.stat().st_size,'sha256':sha(p.read_bytes())} for p in [out/'foundry.js',out/'foundry.wasm',out/'player.html',out/'index.html']]
+        receipt['outputs'] = [{'path':p.name,'bytes':p.stat().st_size,'sha256':sha(p.read_bytes())} for p in [out/'foundry.js',out/'foundry.wasm',out/'player.html',out/'index.html',out/'save.js']]
 (out/'result.json').write_text(json.dumps(receipt,indent=2)+'\n', encoding='utf-8')
 print(json.dumps({'units':[r['exitCode'] for r in receipt['newUnits']], 'link':receipt.get('link',{}).get('exitCode'),'gameStarted':False}))
 sys.exit(0 if receipt.get('link',{}).get('exitCode')==0 else 1)

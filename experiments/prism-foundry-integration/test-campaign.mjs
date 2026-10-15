@@ -6,6 +6,8 @@ import path from 'node:path';
 import http from 'node:http';
 import assert from 'node:assert/strict';
 const root=path.resolve(process.argv[2]);
+const saveRestart=process.argv.includes('--save-restart');
+const profile=saveRestart?fs.mkdtempSync(path.join(root,'save-profile-')):null;
 const report={scope:'Ordinary three-course campaign attempt',dateUtc:new Date().toISOString(),muted:true,checkpoints:[],errors:[],warnings:[]};
 const server=http.createServer((req,res)=>{
   if(req.url==='/favicon.ico'){res.writeHead(204).end();return;}
@@ -17,11 +19,16 @@ const server=http.createServer((req,res)=>{
 await new Promise(r=>server.listen(0,'127.0.0.1',r));
 let browser,page,game;
 try{
-  browser=await chromium.launch({channel:'msedge',headless:true,args:['--mute-audio']});report.browserVersion=browser.version();
-  page=await browser.newPage({viewport:{width:1000,height:1100}});
-  page.on('pageerror',e=>report.errors.push(e.message));
-  page.on('console',m=>{if(m.type()==='warning'||m.type()==='error')report.warnings.push(m.text());});
-  await page.goto(`http://127.0.0.1:${server.address().port}/`);await page.locator('#start').click();
+  const launch=()=>saveRestart?chromium.launchPersistentContext(profile,{channel:'msedge',headless:true,args:['--mute-audio'],viewport:{width:1000,height:1100}}):chromium.launch({channel:'msedge',headless:true,args:['--mute-audio']});
+  const openPage=async()=>{
+    page=saveRestart?await browser.newPage():await browser.newPage({viewport:{width:1000,height:1100}});
+    page.on('pageerror',e=>report.errors.push(e.message));
+    page.on('console',m=>{if(m.type()==='warning'||m.type()==='error')report.warnings.push(m.text());});
+    await page.goto(`http://127.0.0.1:${server.address().port}/`);
+  };
+  const stop=async()=>{await page.locator('#stop').click();await page.waitForFunction(()=>document.querySelector('#state').textContent==='Stopped \u2014 native shutdown observed');};
+  browser=await launch();report.browserVersion=saveRestart?browser.browser().version():browser.version();
+  await openPage();await page.locator('#start').click();
   game=await (await page.locator('iframe').elementHandle()).contentFrame();
   await game.waitForFunction(()=>window.foundrySnapshot?.()?.ticks>20,null,{timeout:30000});
   await game.locator('canvas').focus();
@@ -65,6 +72,22 @@ try{
   await move(500);await jump(740);await record('second ledge landing');
   await ticks(75);await record('second prism');assert.equal((await state()).prisms,2);
   await jump(1080);await record('first gap crossing');
+  if(saveRestart){
+    await game.waitForFunction(()=>foundrySnapshot().checkpointActive===1);
+    await page.waitForFunction(()=>{const r=FoundrySave.parse(localStorage.getItem(FoundrySave.key));return r?.course===0&&r.prisms===3&&r.checkpoint&&!r.complete;});
+    report.earnedCheckpointSave=await page.evaluate(()=>FoundrySave.parse(localStorage.getItem(FoundrySave.key)));
+    await stop();await browser.close();report.firstBrowserFullyClosed=true;
+    browser=await launch();await openPage();await page.locator('#resume').click();
+    game=await (await page.locator('iframe').elementHandle()).contentFrame();
+    await game.waitForFunction(()=>window.foundrySnapshot?.()?.ticks>20);
+    await game.locator('canvas').focus();await record('earned checkpoint restored after browser restart');
+    const restored=await state();assert.equal(restored.resumed,1);assert.equal(restored.course,0);assert.equal(restored.prismMask,3);assert.equal(restored.prisms,2);assert.equal(restored.checkpointActive,1);assert.equal(restored.x,1168);assert.equal(restored.y,592);
+    await page.keyboard.down('ArrowLeft');
+    try{await game.waitForFunction(()=>foundrySnapshot().x<=1060,null,{timeout:5000});}finally{await page.keyboard.up('ArrowLeft');}
+    await ticks(160);await record('activated checkpoint respawn');
+    const respawn=await state();assert(respawn.respawns>=1);assert.equal(respawn.x,1168);assert.equal(respawn.prismMask,3);assert.equal(respawn.prisms,2);assert.equal(respawn.checkpointActive,1);
+    report.earnedCheckpointRestored=true;report.activatedCheckpointRespawn=true;
+  }
   await move(1180);await jump(1330);await record('third approach ledge');
   await move(1390);await jump(1520);await record('third high ledge');
   await move(1520);await ticks(75);await record('third prism');assert.equal((await state()).prisms,3);
@@ -88,8 +111,19 @@ try{
     await move(1430);await jump(1740);await record('night second gap');
     await move(1900);await jump(2020);await collect(2016,3);await record('night third prism');
     await move(2420);await game.waitForFunction(()=>foundrySnapshot().complete===1,null,{timeout:5000});await record('all three courses complete');report.campaignPassed=true;
-    await page.waitForFunction(()=>document.querySelector('#state').textContent==='All three courses complete. Stop and Start to play again.');
+    await page.waitForFunction(()=>document.querySelector('#state').textContent==='All three courses complete. Stop and New game to play again.');
     report.visibleVictoryMessage=true;
+    if(saveRestart){
+      await page.waitForFunction(()=>FoundrySave.parse(localStorage.getItem(FoundrySave.key))?.complete===true);
+      report.earnedCompletionSave=await page.evaluate(()=>FoundrySave.parse(localStorage.getItem(FoundrySave.key)));
+      await stop();await browser.close();report.secondBrowserFullyClosed=true;
+      browser=await launch();await openPage();await page.locator('#resume').click();
+      game=await (await page.locator('iframe').elementHandle()).contentFrame();
+      await game.waitForFunction(()=>window.foundrySnapshot?.()?.loaded===1&&foundrySnapshot().complete===1&&foundrySnapshot().resumed===1);
+      await page.waitForFunction(()=>document.querySelector('#state').textContent==='All three courses complete. Stop and New game to play again.');
+      await record('earned completion restored after second browser restart');
+      const restored=await state();assert.equal(restored.course,2);assert.equal(restored.prismMask,7);assert.equal(restored.prisms,3);assert.equal(restored.paused,1);report.earnedCompletionRestored=true;
+    }
   }
   assert.deepEqual(report.errors,[]);report.passed=true;
 }catch(e){report.passed=false;report.failure=e.message;process.exitCode=1;if(game){try{report.finalState=await game.evaluate(()=>foundrySnapshot());}catch{}}console.error(e.message);}
