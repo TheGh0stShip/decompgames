@@ -1,0 +1,285 @@
+{
+  "auditedAtUtc": "2026-10-15T02:23:43.197228+00:00",
+  "basisCommit": "21810fa77150fc272bc6c33a8a05fb6725468d85",
+  "scope": "Selected developer-source/port eligibility review; not full code, compiled dependency, asset or browser gameplay audit",
+  "catalogCount": 90,
+  "snapshots": [
+    {
+      "repo": "HurricanGame/Hurrican",
+      "branch": "master",
+      "commit": "0d91d1f2d40f38d21e7f41afc01369ee55649fb6",
+      "stars": 86,
+      "retrievedUtc": "2026-10-15T02:20:15.169206+00:00",
+      "treeFiles": 1346,
+      "treeTruncated": false,
+      "gitlinks": [
+        {
+          "path": "Hurrican/3rdparty/glm",
+          "commit": "8d1fd52e5ab5590e2c81768ace50c72bae28f2ed"
+        },
+        {
+          "path": "Hurrican/3rdparty/sdl2-cmake-scripts",
+          "commit": "e037fb54f32973343fada6a051d3a3f8adf3a4a0"
+        }
+      ],
+      "files": [
+        {
+          "path": "README.md",
+          "bytes": 3397,
+          "sha256": "5d0f00399c8e1d714866eccbc74deabad16dceec802f7403de099f90994c679b",
+          "url": "https://github.com/HurricanGame/Hurrican/blob/0d91d1f2d40f38d21e7f41afc01369ee55649fb6/README.md"
+        },
+        {
+          "path": "README.txt",
+          "bytes": 3088,
+          "sha256": "f9cca9a3c1aa3145d68763fa701eb924709c8119abc60c907dff1765f057a5cc",
+          "url": "https://github.com/HurricanGame/Hurrican/blob/0d91d1f2d40f38d21e7f41afc01369ee55649fb6/README.txt"
+        },
+        {
+          "path": "Hurrican/readme.txt",
+          "bytes": 5311,
+          "sha256": "9e188f28398a363b21f3c638ba4d6109a4a97d38435dfbde432dc1b272da63e5",
+          "url": "https://github.com/HurricanGame/Hurrican/blob/0d91d1f2d40f38d21e7f41afc01369ee55649fb6/Hurrican/readme.txt"
+        },
+        {
+          "path": "Hurrican/CMakeLists.txt",
+          "bytes": 21459,
+          "sha256": "a0462c17db0df42c825338a2424d0eef096c4f39f864dc17232d055225cc7b93",
+          "url": "https://github.com/HurricanGame/Hurrican/blob/0d91d1f2d40f38d21e7f41afc01369ee55649fb6/Hurrican/CMakeLists.txt"
+        },
+        {
+          "path": ".gitmodules",
+          "bytes": 262,
+          "sha256": "f6e52900fd0c579007b34693b83b62a5aa8558d5a5693eeec4f63308ccdab318",
+          "url": "https://github.com/HurricanGame/Hurrican/blob/0d91d1f2d40f38d21e7f41afc01369ee55649fb6/.gitmodules"
+        },
+        {
+          "path": "Hurrican/src/Main.cpp",
+          "bytes": 44956,
+          "sha256": "af8ca6c2900904ec17add04920c901b89c2a4e53585c7b015e15a306c695acc0",
+          "url": "https://github.com/HurricanGame/Hurrican/blob/0d91d1f2d40f38d21e7f41afc01369ee55649fb6/Hurrican/src/Main.cpp"
+        },
+        {
+          "path": "Hurrican/src/SDLPort/SDL_fmod.cpp",
+          "bytes": 11712,
+          "sha256": "b5edbe64030fa92282782516193df25125d6ef869972ba59ff94ad90b50e9a74",
+          "url": "https://github.com/HurricanGame/Hurrican/blob/0d91d1f2d40f38d21e7f41afc01369ee55649fb6/Hurrican/src/SDLPort/SDL_fmod.cpp"
+        },
+        {
+          "path": "Hurrican/src/SDLPort/SDL_fmod.hpp",
+          "bytes": 3708,
+          "sha256": "fc3d28544718448bb47327be3cbc71f82d200f1a1fda2ce7d97d676b6f298576",
+          "url": "https://github.com/HurricanGame/Hurrican/blob/0d91d1f2d40f38d21e7f41afc01369ee55649fb6/Hurrican/src/SDLPort/SDL_fmod.hpp"
+        },
+        {
+          "path": "Hurrican/src/SDLPort/opengl.hpp",
+          "bytes": 798,
+          "sha256": "bccbda966595466bc521380d5ca9f28f74175db205fae5880cee298e4797c460",
+          "url": "https://github.com/HurricanGame/Hurrican/blob/0d91d1f2d40f38d21e7f41afc01369ee55649fb6/Hurrican/src/SDLPort/opengl.hpp"
+        }
+      ]
+    },
+    {
+      "repo": "NebuPookins/hurrican",
+      "branch": "master",
+      "commit": "dc23fa2a52939b2366dbaee3cfb5c965ef5fcb34",
+      "stars": 35,
+      "retrievedUtc": "2026-10-15T02:19:33.113872+00:00",
+      "treeFiles": 1416,
+      "treeTruncated": false,
+      "gitlinks": [],
+      "files": [
+        {
+          "path": "README.md",
+          "bytes": 3314,
+          "sha256": "886f277412cf28b6d3994058150975abd8f41849a923fdda6ab7b6834a1b3cda",
+          "url": "https://github.com/NebuPookins/hurrican/blob/dc23fa2a52939b2366dbaee3cfb5c965ef5fcb34/README.md"
+        },
+        {
+          "path": "LICENSE.md",
+          "bytes": 1625,
+          "sha256": "1f5ce79951217219e3c7f0f7ae52cef3f1034282b023943f925ee4c1925c5136",
+          "url": "https://github.com/NebuPookins/hurrican/blob/dc23fa2a52939b2366dbaee3cfb5c965ef5fcb34/LICENSE.md"
+        },
+        {
+          "path": "Hurrican/readme.txt",
+          "bytes": 5311,
+          "sha256": "9e188f28398a363b21f3c638ba4d6109a4a97d38435dfbde432dc1b272da63e5",
+          "url": "https://github.com/NebuPookins/hurrican/blob/dc23fa2a52939b2366dbaee3cfb5c965ef5fcb34/Hurrican/readme.txt"
+        },
+        {
+          "path": "Hurrican/src/unrarlib040/license.txt",
+          "bytes": 789,
+          "sha256": "91667844d47379d35aaaab243d488d24813ed2d60ae0b4d81d13cce48b5dfb9b",
+          "url": "https://github.com/NebuPookins/hurrican/blob/dc23fa2a52939b2366dbaee3cfb5c965ef5fcb34/Hurrican/src/unrarlib040/license.txt"
+        },
+        {
+          "path": "Hurrican/src/unrarlib040/unrarlib-license.txt",
+          "bytes": 904,
+          "sha256": "72ba6c6ac7ee8659732d34bd23734a34cf8a4061076fd964b44339e9c05c565c",
+          "url": "https://github.com/NebuPookins/hurrican/blob/dc23fa2a52939b2366dbaee3cfb5c965ef5fcb34/Hurrican/src/unrarlib040/unrarlib-license.txt"
+        }
+      ]
+    },
+    {
+      "repo": "ptitSeb/hydracastlelabyrinth",
+      "branch": "master",
+      "commit": "e31648688434a789e3056e52cdf1b9a842eeed48",
+      "stars": 97,
+      "retrievedUtc": "2026-10-15T02:20:57.695410+00:00",
+      "treeFiles": 843,
+      "treeTruncated": false,
+      "gitlinks": [],
+      "files": [
+        {
+          "path": "README.md",
+          "bytes": 2635,
+          "sha256": "4debc34e82b8dcc618d22f83b4904306aa98568b1b2233f7d95399f5e534dea4",
+          "url": "https://github.com/ptitSeb/hydracastlelabyrinth/blob/e31648688434a789e3056e52cdf1b9a842eeed48/README.md"
+        },
+        {
+          "path": "LICENSE",
+          "bytes": 18046,
+          "sha256": "db296f2f7f35bca3a174efb0eb392b3b17bd94b341851429a3dff411b1c2fc73",
+          "url": "https://github.com/ptitSeb/hydracastlelabyrinth/blob/e31648688434a789e3056e52cdf1b9a842eeed48/LICENSE"
+        },
+        {
+          "path": "CMakeLists.txt",
+          "bytes": 7478,
+          "sha256": "e78002a14ebbcd96a7b5ac08916b165d8bbc0b9aab2d38ab3172c6f9c37a5c99",
+          "url": "https://github.com/ptitSeb/hydracastlelabyrinth/blob/e31648688434a789e3056e52cdf1b9a842eeed48/CMakeLists.txt"
+        },
+        {
+          "path": "src/xBRZ/License.txt",
+          "bytes": 33093,
+          "sha256": "321429c853d59b621414832581e93ff38586c348aa2de43c7e571b33423d670a",
+          "url": "https://github.com/ptitSeb/hydracastlelabyrinth/blob/e31648688434a789e3056e52cdf1b9a842eeed48/src/xBRZ/License.txt"
+        }
+      ]
+    },
+    {
+      "repo": "videogamepreservation/spelunky",
+      "branch": "master",
+      "commit": "183a8382f58aec1d343cfc8af0e1d1474b0cf7f0",
+      "stars": 21,
+      "retrievedUtc": "2026-10-15T02:20:57.251131+00:00",
+      "treeFiles": 4,
+      "treeTruncated": false,
+      "gitlinks": [],
+      "files": [
+        {
+          "path": "readme.txt",
+          "bytes": 2821,
+          "sha256": "57a55ae9364573ab8297e905026299f9bee5df1f27ad0792834a2db6d7a92f13",
+          "url": "https://github.com/videogamepreservation/spelunky/blob/183a8382f58aec1d343cfc8af0e1d1474b0cf7f0/readme.txt"
+        },
+        {
+          "path": "COPYING.txt",
+          "bytes": 2851,
+          "sha256": "abac43054591ec038492a2cb2f0a6240bf2f1cffcabe9c401ae4fad25c4abae6",
+          "url": "https://github.com/videogamepreservation/spelunky/blob/183a8382f58aec1d343cfc8af0e1d1474b0cf7f0/COPYING.txt"
+        }
+      ]
+    }
+  ],
+  "officialSnapshots": [
+    {
+      "url": "https://www.winterworks.de/project/hurrican/",
+      "bytes": 10724,
+      "sha256": "5100b8864ee25495eb1343eb454290a52345f70981e663262cc03bc8484652da",
+      "retrievedUtc": "2026-10-15T02:21:47.393314+00:00"
+    },
+    {
+      "url": "https://spelunkyworld.com/original.html",
+      "bytes": 4684,
+      "sha256": "e06c775e55ee1b7d67d8e54d095e355b75d59470057b832962cc2ec26d7dc446",
+      "retrievedUtc": "2026-10-15T02:21:46.536856+00:00"
+    },
+    {
+      "url": "https://www.spelunkyworld.com/files/COPYING.txt",
+      "bytes": 2851,
+      "sha256": "abac43054591ec038492a2cb2f0a6240bf2f1cffcabe9c401ae4fad25c4abae6",
+      "retrievedUtc": "2026-10-15T02:21:59.962892+00:00",
+      "encoding": "Windows-1252; web reader reported Unicode decoding error; exact bytes fetched separately"
+    }
+  ],
+  "sourceTextFiles": 20,
+  "sourceTextBytes": 173558,
+  "officialSnapshotBytes": 18259,
+  "deduplication": {
+    "uniqueTitleIdentities": 3,
+    "aliasesChecked": [
+      "Hurrican",
+      "Hydra Castle Labyrinth",
+      "HydraCastleLabyrinth",
+      "OpenHCL",
+      "Spelunky",
+      "Spelunky Classic"
+    ],
+    "repositoriesChecked": [
+      "HurricanGame/Hurrican",
+      "NebuPookins/hurrican",
+      "ptitSeb/hydracastlelabyrinth",
+      "videogamepreservation/spelunky"
+    ],
+    "matchingExistingEntries": []
+  },
+  "dispositions": [
+    {
+      "identity": "Hurrican",
+      "classification": "Developer-released source port, not decompilation",
+      "code": "Original developer no-charge/archive terms plus separately MIT porter-original files; no blanket permissive grant established",
+      "content": "Original/custom user data and original-media exceptions not cleared by porter MIT; no complete independent pack",
+      "dependencySelection": "Current SDL_fmod is SDL_mixer/libopenmpt adapter, not proof of linked FMOD; old UnRAR dual custom/GPL terms separate from current target; SDL/image/mixer/libepoxy/GLM/renderer dependencies unresolved",
+      "browser": "GLES branches concrete, but selected blocking main/libepoxy target not a verified yielding Web build",
+      "eligibleForCurrentPermissiveIntake": false
+    },
+    {
+      "identity": "Hydra Castle Labyrinth",
+      "classification": "Fan-made source port; no established matching decompilation",
+      "code": "Reported original-author permission for GPLv2; underlying agreement/identity/scope not independently authenticated; outside present permissive route",
+      "content": "Preloads game data; complete independent pack not established",
+      "dependencies": "Web SDL2/mixer/Ogg/Vorbis; xBRZ GPLv3 notice separate from root GPLv2, selected compatibility and closure unaudited",
+      "browser": "Explicit Emscripten target, not independently built or played",
+      "eligibleForCurrentPermissiveIntake": false
+    },
+    {
+      "identity": "Spelunky Classic",
+      "classification": "Developer-released GameMaker source under custom license, not decompilation",
+      "code": "Official User License covers source and modified covered works with no-sale restriction; exact official bytes match selected mirror",
+      "content": "Same restricted game/source expression and additional component grants separate; no complete independent pack",
+      "browser": "Original .gmk requires framework/toolchain work; no Web build established by selected release docs",
+      "eligibleForCurrentPermissiveIntake": false
+    }
+  ],
+  "verification": {
+    "snapshotHashesChecked": 20,
+    "treePathsChecked": 20,
+    "officialLicenseMatchesMirror": true,
+    "newEligibleEntries": 0,
+    "newQualifyingDecompilations": 0,
+    "catalogContentUnchanged": true,
+    "catalogValidation": {
+      "result": "passed",
+      "entries": 90
+    },
+    "upstreamScriptsExecuted": false,
+    "dependencyInstallerOrBuild": false,
+    "gameROMExecutableMediaOrSDKBinaryFetched": false,
+    "playerStarted": false,
+    "audibleTest": false,
+    "runtimeUploaded": false,
+    "websiteDeployed": false,
+    "unchangedCatalogManifestPageDiffCheck": true
+  },
+  "limits": [
+    "Official Hurrican page corroborates source release but does not supply an independently verified later whole-code MIT relicense.",
+    "Hydra Castle author-permission statement is recorded as reported evidence, not authenticated or discarded.",
+    "No linked dependency closure or full asset grant is inferred from a filename, root badge or browser startup.",
+    "Historical milestone records not recertified; no clean-room isolation certified."
+  ],
+  "retrievalNotes": [
+    "Initial GitHub recursive-tree read failed with IncompleteRead; retry completed; incomplete response not used.",
+    "Spelunky official COPYING web-reader Unicode decoding failure resolved by bounded raw fetch and Windows-1252 read; exact bytes match pinned mirror."
+  ]
+}
