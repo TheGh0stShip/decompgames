@@ -1,0 +1,261 @@
+{
+  "auditedAtUtc": "2026-10-15T00:11:10.104819+00:00",
+  "localAuditDate": "2026-10-14 America/Denver",
+  "basisCommit": "41ae8cc5c75ad23c40f8f64b6901c06cf2f1b496",
+  "catalogCount": 90,
+  "strictAdditionalDecompilationMilestone": {
+    "completed": 4,
+    "target": 5,
+    "newlyCompleted": 0
+  },
+  "scope": "Source/doc/build/license gate review of three projects, plus exact KH submodule scope and ReXGlue root notice; not full compiled dependency audit",
+  "snapshots": [
+    {
+      "repo": "Yokimitsuro/khdays-port",
+      "branch": "main",
+      "commit": "43621fb4fd0ea9c907cc2aa7c6e4d0e0ce77cf97",
+      "stars": 64,
+      "tree_files": 187,
+      "tree_truncated": false,
+      "retrieved_utc": "2026-10-15T00:06:37.903507+00:00",
+      "files": [
+        {
+          "path": ".gitmodules",
+          "bytes": 120,
+          "sha256": "dbcf0b6423f3cfeb14976f14757d48dfbb07a2db60359a1b98e201e1146bf5eb",
+          "url": "https://github.com/Yokimitsuro/khdays-port/blob/43621fb4fd0ea9c907cc2aa7c6e4d0e0ce77cf97/.gitmodules"
+        },
+        {
+          "path": "CMakeLists.txt",
+          "bytes": 18407,
+          "sha256": "f916c1a48b1b6d4b83b81ed70ad50292092c6791f0b9b625f0df13231813f8b2",
+          "url": "https://github.com/Yokimitsuro/khdays-port/blob/43621fb4fd0ea9c907cc2aa7c6e4d0e0ce77cf97/CMakeLists.txt"
+        },
+        {
+          "path": "LICENSE",
+          "bytes": 1085,
+          "sha256": "10dbb3b24b7d9665e26d9265d53af1de21fc77690713b065d147723f1a0b6345",
+          "url": "https://github.com/Yokimitsuro/khdays-port/blob/43621fb4fd0ea9c907cc2aa7c6e4d0e0ce77cf97/LICENSE"
+        },
+        {
+          "path": "README.md",
+          "bytes": 12816,
+          "sha256": "08941779a40594a7a3bb6801a45bef3aef4cadd8c2d25a2adf6d426911f8b8a6",
+          "url": "https://github.com/Yokimitsuro/khdays-port/blob/43621fb4fd0ea9c907cc2aa7c6e4d0e0ce77cf97/README.md"
+        },
+        {
+          "path": "THIRD_PARTY_NOTICES.md",
+          "bytes": 3734,
+          "sha256": "9d7e93053bcb7f5495aba55eb7a78b01540423f3f85c974825c928e990460a46",
+          "url": "https://github.com/Yokimitsuro/khdays-port/blob/43621fb4fd0ea9c907cc2aa7c6e4d0e0ce77cf97/THIRD_PARTY_NOTICES.md"
+        }
+      ],
+      "gitlinks": [
+        {
+          "path": "external/khdays-decomp",
+          "commit": "d418c18302e538265b6a891580d77bb7f647d887"
+        }
+      ]
+    },
+    {
+      "repo": "spacestate1/namco22-decompile",
+      "branch": "main",
+      "commit": "a9dab183eb29e941629b473e4172b16835576d94",
+      "stars": 187,
+      "tree_files": 605,
+      "tree_truncated": false,
+      "retrieved_utc": "2026-10-15T00:07:10.121665+00:00",
+      "files": [
+        {
+          "path": "CMakeLists.txt",
+          "bytes": 14365,
+          "sha256": "4a77086d2870207c529e0b109cba9d70cfacfc447162776456e6e053f5b95af4",
+          "url": "https://github.com/spacestate1/namco22-decompile/blob/a9dab183eb29e941629b473e4172b16835576d94/CMakeLists.txt"
+        },
+        {
+          "path": "LICENSE",
+          "bytes": 1064,
+          "sha256": "23e93025ca8e5a03fd0e9da5795babecb7ddb18832218c9970c92f3ff79f1a59",
+          "url": "https://github.com/spacestate1/namco22-decompile/blob/a9dab183eb29e941629b473e4172b16835576d94/LICENSE"
+        },
+        {
+          "path": "README.md",
+          "bytes": 27992,
+          "sha256": "fb8f90a04a924922bbeb44fa868c274d72b349bf7028395d65bd94c1d055ebb5",
+          "url": "https://github.com/spacestate1/namco22-decompile/blob/a9dab183eb29e941629b473e4172b16835576d94/README.md"
+        },
+        {
+          "path": "engine/engine.cmake",
+          "bytes": 4945,
+          "sha256": "f11d62569e6888460226b037cd5d41564139e3aa09faf676e682c2ff89cdcfd8",
+          "url": "https://github.com/spacestate1/namco22-decompile/blob/a9dab183eb29e941629b473e4172b16835576d94/engine/engine.cmake"
+        },
+        {
+          "path": "tc2/README.md",
+          "bytes": 2168,
+          "sha256": "55012fb35e205c934c02c714abf897c1c31d8dc4d240c1a69e9d285711f1e579",
+          "url": "https://github.com/spacestate1/namco22-decompile/blob/a9dab183eb29e941629b473e4172b16835576d94/tc2/README.md"
+        },
+        {
+          "path": "tc2/LICENSE",
+          "bytes": 1064,
+          "sha256": "23e93025ca8e5a03fd0e9da5795babecb7ddb18832218c9970c92f3ff79f1a59",
+          "url": "https://github.com/spacestate1/namco22-decompile/blob/a9dab183eb29e941629b473e4172b16835576d94/tc2/LICENSE"
+        }
+      ],
+      "gitlinks": []
+    },
+    {
+      "repo": "Dyotson/ForzaHorizon1-ReImagined",
+      "branch": "main",
+      "commit": "e635fa8e3f33873acca33e609013bb9b57077925",
+      "stars": 118,
+      "tree_files": 254,
+      "tree_truncated": false,
+      "retrieved_utc": "2026-10-15T00:06:37.237014+00:00",
+      "files": [
+        {
+          "path": "LICENSE",
+          "bytes": 1109,
+          "sha256": "8cc37fd55128372ba3e4c9feeef65c283bbaea7317fde0650e53d63c3131a76e",
+          "url": "https://github.com/Dyotson/ForzaHorizon1-ReImagined/blob/e635fa8e3f33873acca33e609013bb9b57077925/LICENSE"
+        },
+        {
+          "path": "README.md",
+          "bytes": 15394,
+          "sha256": "0611cab1c3395a2c957336de5cae448e722786565b7c133702ad4f52a45b4708",
+          "url": "https://github.com/Dyotson/ForzaHorizon1-ReImagined/blob/e635fa8e3f33873acca33e609013bb9b57077925/README.md"
+        },
+        {
+          "path": "forza-recomp/CMakeLists.txt",
+          "bytes": 9617,
+          "sha256": "400cf99b0fd86b265dabdddc8c171a098f8c9bbd809f84b424d48bbb244d4f01",
+          "url": "https://github.com/Dyotson/ForzaHorizon1-ReImagined/blob/e635fa8e3f33873acca33e609013bb9b57077925/forza-recomp/CMakeLists.txt"
+        },
+        {
+          "path": "tools/build_rexglue_sdk.sh",
+          "bytes": 9141,
+          "sha256": "688bad14f3b1ac602cd6e860b748dcf141624ac2ab39c18d8fb154e3e6fab6d2",
+          "url": "https://github.com/Dyotson/ForzaHorizon1-ReImagined/blob/e635fa8e3f33873acca33e609013bb9b57077925/tools/build_rexglue_sdk.sh"
+        },
+        {
+          "path": "docs/sdk_patches.md",
+          "bytes": 3093,
+          "sha256": "b06d8297f912981712cd346d53be4b20182a61869707e63456f2c60626099f48",
+          "url": "https://github.com/Dyotson/ForzaHorizon1-ReImagined/blob/e635fa8e3f33873acca33e609013bb9b57077925/docs/sdk_patches.md"
+        }
+      ],
+      "gitlinks": []
+    },
+    {
+      "repo": "Yokimitsuro/khdays-decomp",
+      "commit": "d418c18302e538265b6a891580d77bb7f647d887",
+      "purpose": "Pinned decompilation submodule scope review only",
+      "files": [
+        {
+          "path": "LICENSE",
+          "bytes": 7048,
+          "sha256": "2f976aeae6ab25f75a68b01189b58e9be68baac37f1bad7ca34621a82084d835",
+          "url": "https://github.com/Yokimitsuro/khdays-decomp/blob/d418c18302e538265b6a891580d77bb7f647d887/LICENSE"
+        },
+        {
+          "path": "README.md",
+          "bytes": 6016,
+          "sha256": "4574e24963a9d8e3a2725de2497c11e15fdb9bc6082ed273cac9b41f9e657c38",
+          "url": "https://github.com/Yokimitsuro/khdays-decomp/blob/d418c18302e538265b6a891580d77bb7f647d887/README.md"
+        }
+      ]
+    },
+    {
+      "repo": "rexglue/rexglue-sdk",
+      "commit": "bd833a2ab69d305f99ddf57418fc38ffec8af93d",
+      "purpose": "Pinned runtime root-license scope only; no SDK binaries or full dependency closure",
+      "files": [
+        {
+          "path": "LICENSE",
+          "bytes": 1659,
+          "sha256": "8e065be1da2ff9a16b1f063d4636d8b67e6a654bb90583ea4332e66ac421bb18",
+          "url": "https://github.com/rexglue/rexglue-sdk/blob/bd833a2ab69d305f99ddf57418fc38ffec8af93d/LICENSE"
+        }
+      ]
+    }
+  ],
+  "rawTextFiles": 19,
+  "rawTextBytes": 140837,
+  "deduplicatedTitles": [
+    "Kingdom Hearts 358/2 Days",
+    "Forza Horizon",
+    "Prop Cycle",
+    "Rave Racer",
+    "Tokyo Wars",
+    "Dirt Dash",
+    "Armadillo Racing",
+    "Time Crisis",
+    "Ace Driver",
+    "Cyber Commando",
+    "Cyber Sled",
+    "Time Crisis II"
+  ],
+  "decisions": [
+    {
+      "project": "Kingdom Hearts 358/2 Days / khdays-port",
+      "classification": "Experimental decompilation-informed native runtime beside an incomplete matching decompilation",
+      "eligible": false,
+      "codeGrant": "Original port work MIT; pinned decomp CC0 expressly contributor-work-only",
+      "dependencies": "SDL3 3.4.12 pinned archive hash; stb and cgltf track master by default; default-on ImGui v1.91.6 selected in CMake but not in inspected component notice list; tool-only apicula/Vulkan shaderc not runtime grants",
+      "blockers": [
+        "Original ROM/NitroFS media/scripts/skeletons/text required; overrides do not establish complete independent content",
+        "Native harness is expressly not reconstructed mission/combat gameplay",
+        "Incomplete matching C coverage (upstream reports 75.3% functions, 49.26% bytes) and SDK/middleware separately tracked; no whole retail grant from CC0",
+        "SDL_GPU/SPIR-V native path, exact dependency pin/notice closure and complete browser gameplay unverified"
+      ]
+    },
+    {
+      "project": "Namco 2x Systems / namco22-decompile",
+      "classification": "Mixed: Prop Cycle hand-corrected decompilation-derived C; other listed main/DSP/sound programs largely static translation with partial manual rewriting",
+      "eligible": false,
+      "codeGrant": "MIT original project work; README explicitly excludes Namco-derived generated programs in */gen/ and original game files",
+      "dependencies": "Native recipes select SDL2/OpenGL/zlib and Nuklear; Windows Mesa has own mixed terms; exact selection and transitive notices unverified",
+      "blockers": [
+        "Translated Namco programs lack grant from project MIT",
+        "Original game and applicable controller/DSP/sound ROMs required during build and play",
+        "No independently authored complete content/program replacement path",
+        "Native build recipes not a verified WebAssembly release; no independent gameplay acceptance"
+      ]
+    },
+    {
+      "project": "Forza Horizon 1: ReImagined",
+      "classification": "PowerPC static recompilation to C++ through ReXGlue plus platform/HLE runtime; not source decompilation",
+      "eligible": false,
+      "codeGrant": "MIT declaration for project code; generated original Microsoft game program not granted by root project license",
+      "dependencies": "Patch script pins ReXGlue bd833a2ab69d305f99ddf57418fc38ffec8af93d; its BSD-3-Clause root notice retains Tom Clay and Xenia attribution. Patched GPU/runtime/transitive closure unverified; native Vulkan/OS components and separately licensed Windows CRT/SDK not flattened to MIT",
+      "blockers": [
+        "Requires original Xbox 360 executable and game assets; code generated locally from them",
+        "No complete independent vehicle/world/animation/audio/text/script package or original translated-code permission",
+        "Native Vulkan/fiber/thread/HLE adaptation and verified browser build absent from inspected evidence",
+        "Does not count toward strict decompilation milestone regardless of future browser compatibility"
+      ]
+    }
+  ],
+  "verification": {
+    "sourceHashes": "passed",
+    "catalogDeduplication": "passed listed 12 title names against 90 entries",
+    "buildPerformed": false,
+    "playerLaunched": false,
+    "audioVerified": false,
+    "originalROMsOrMediaDownloaded": false,
+    "SDKOrCompilerBinariesDownloaded": false,
+    "runtimeUploaded": false,
+    "deployed": false,
+    "catalogEntriesAdded": 0,
+    "cleanRoomCertified": false
+  },
+  "retainedFailures": [
+    "Initial Namco recursive-tree HTTP body ended early; discarded incomplete response, retried and accepted full tree with truncated=false"
+  ],
+  "excludedScope": [
+    "Mario Party 2 and 3",
+    "Halo",
+    "Prior private ROM research"
+  ]
+}
