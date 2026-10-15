@@ -264,6 +264,17 @@
     "astroHints": 7,
     "hintsPreExisting": true,
     "gameObjectScope": "Only Open Cadet changed; all other parsed catalog objects equal before/after",
+    "runtimeAndSourceAllFourHashesUnchanged": true,
+    "buildPages": 154,
+    "indexableSitemapPages": 116,
+    "feedItems": 17
+  },
+  "publication": {
+    "commit": "2bbd60f",
+    "deployment": "https://776d1a6d.decompgames.pages.dev",
+    "canonicalGame": "https://decompgames.com/games/open-cadet/",
+    "receipt": "open-cadet-skill-shot-release-2026-10-14.json",
+    "tenPublicationChecksPassed": true,
     "runtimeAndSourceAllFourHashesUnchanged": true
   }
 }

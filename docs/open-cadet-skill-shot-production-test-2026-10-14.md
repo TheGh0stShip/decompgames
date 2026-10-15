@@ -25,3 +25,5 @@ This run used ordinary F2 and Space inputs; the accepted award occurred during t
 ## Preserved limits
 
 All missions, remaining objectives, every collision state/device, full playthrough, rapid-close save durability and audible audio remain unverified. No new code-license, asset-provenance or clean-room certification follows from gameplay. Runtime/source bytes and all other game entries remain unchanged. Mario Party 2/3, Halo and prior private ROM research were untouched. Backlog/test-log records were byte-appended; unrelated local history was not staged.
+
+Verification notes were published from `2bbd60f` in deployment `776d1a6d`. Preview and canonical guide/manifest/update checks passed, as did all four unchanged runtime/source hashes. No new player was started by these publication checks. [Publication receipt](open-cadet-skill-shot-release-2026-10-14.json).
