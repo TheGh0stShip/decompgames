@@ -196,9 +196,18 @@
       "existingHints": 7,
       "distributionGuardRecords": 816,
       "distributionGuardEntries": 14,
-      "builtPages": 154
+      "builtPages": 154,
+      "indexablePages": 116,
+      "feedItems": 18
     },
-    "liveMetadataAndPayloadChecks": "pending"
+    "liveMetadataAndPayloadChecks": {
+      "result": "passed",
+      "implementationCommit": "d993e29",
+      "deployment": "https://2f1b0623.decompgames.pages.dev",
+      "previewAndCanonicalMetadataChecks": 10,
+      "unchangedCanonicalPayloadChecks": 17,
+      "receipt": "open-paths-provenance-publication-2026-10-14.json"
+    }
   },
   "limits": [
     "No finding that the original rights holder prohibited this project is made. No separate original-code grant was established by the reviewed records.",

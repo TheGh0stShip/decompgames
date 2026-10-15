@@ -1,0 +1,216 @@
+{
+  "verifiedAtUtc": "2026-10-15T01:01:18.165388+00:00",
+  "commit": "d993e29",
+  "deployment": "https://2f1b0623.decompgames.pages.dev",
+  "canonical": "https://decompgames.com",
+  "scope": "Licensing metadata and notice delivery; unchanged existing game/source payloads. No new gameplay test or license clearance.",
+  "metadataChecks": [
+    {
+      "url": "https://2f1b0623.decompgames.pages.dev/games/supaplex/?verify=d993e29",
+      "status": 200,
+      "scope": "guide",
+      "passed": true,
+      "bytes": 10658,
+      "sha256": "68adad8ae3076aeb7b2731e18d316603d7bb741c2722c8a6f4c73cf3e884c98e"
+    },
+    {
+      "url": "https://2f1b0623.decompgames.pages.dev/licenses/?verify=d993e29",
+      "status": 200,
+      "scope": "licenses",
+      "passed": true,
+      "bytes": 27762,
+      "sha256": "5f5f0f325ef4e5b8f267826b997842054e165c50600303012d4d7b698559fee2"
+    },
+    {
+      "url": "https://2f1b0623.decompgames.pages.dev/updates/?verify=d993e29",
+      "status": 200,
+      "scope": "updates",
+      "passed": true,
+      "bytes": 14922,
+      "sha256": "b93c28fbaee34c044473bcb492649dfb312f0fc1714acd5ce8e5f2d3bbf63059"
+    },
+    {
+      "url": "https://2f1b0623.decompgames.pages.dev/manifests/supaplex.json?verify=d993e29",
+      "status": 200,
+      "scope": "manifest",
+      "passed": true,
+      "bytes": 5387,
+      "sha256": "b990ad2876f71f1d4068a415e514a35281cd86144c5b02b20d4c5fbdd6f2e0e7"
+    },
+    {
+      "url": "https://2f1b0623.decompgames.pages.dev/notices/open-paths-upstream.txt?verify=d993e29",
+      "status": 200,
+      "scope": "notice",
+      "passed": true,
+      "bytes": 36845,
+      "sha256": "803186c9ec3c3327500dddfadfd205bae0b5e584e3e40af86225a39767529809"
+    },
+    {
+      "url": "https://decompgames.com/games/supaplex/?verify=d993e29",
+      "status": 200,
+      "scope": "guide",
+      "passed": true,
+      "bytes": 11025,
+      "sha256": "1b8ab4063e57830349e168f9e45188fe93c4d5b142c5d89b070d46cb11ac8d09"
+    },
+    {
+      "url": "https://decompgames.com/licenses/?verify=d993e29",
+      "status": 200,
+      "scope": "licenses",
+      "passed": true,
+      "bytes": 28129,
+      "sha256": "adeece143c5f8ac3f088dd72228d7dced7108c4c1bd465e8cc129055e8490b4a"
+    },
+    {
+      "url": "https://decompgames.com/updates/?verify=d993e29",
+      "status": 200,
+      "scope": "updates",
+      "passed": true,
+      "bytes": 15289,
+      "sha256": "3c8e80c86b097ee28784611fe33b84b14f7940c705452b7dbba8385accc7d0c8"
+    },
+    {
+      "url": "https://decompgames.com/manifests/supaplex.json?verify=d993e29",
+      "status": 200,
+      "scope": "manifest",
+      "passed": true,
+      "bytes": 5387,
+      "sha256": "b990ad2876f71f1d4068a415e514a35281cd86144c5b02b20d4c5fbdd6f2e0e7"
+    },
+    {
+      "url": "https://decompgames.com/notices/open-paths-upstream.txt?verify=d993e29",
+      "status": 200,
+      "scope": "notice",
+      "passed": true,
+      "bytes": 36845,
+      "sha256": "803186c9ec3c3327500dddfadfd205bae0b5e584e3e40af86225a39767529809"
+    }
+  ],
+  "unchangedPayloadChecks": [
+    {
+      "url": "https://decompgames.com/runtime/supaplex/bad56a4e174e-026301f2dd/supaplex.js?verify=d993e29",
+      "status": 206,
+      "bytes": 198751,
+      "sha256": "17e639ed0c674753d99c51799af8e98981a2855f4291d67bfe5ad10e85dc0b03",
+      "passed": true
+    },
+    {
+      "url": "https://decompgames.com/runtime/supaplex/bad56a4e174e-026301f2dd/supaplex.wasm?verify=d993e29",
+      "status": 206,
+      "bytes": 1055169,
+      "sha256": "8bde797a8c381d8436d4cdada2703734bbc4c691a325c21290d68fac2ef4eaa5",
+      "passed": true
+    },
+    {
+      "url": "https://decompgames.com/runtime/supaplex/bad56a4e174e-026301f2dd/assets/CHARS6.DAT?verify=d993e29",
+      "status": 206,
+      "bytes": 512,
+      "sha256": "f1ad9b07226ad98a27fec6f26182b15dde71fb73625660876887c60fe0ad37df",
+      "passed": true
+    },
+    {
+      "url": "https://decompgames.com/runtime/supaplex/bad56a4e174e-026301f2dd/assets/CHARS8.DAT?verify=d993e29",
+      "status": 206,
+      "bytes": 512,
+      "sha256": "dfd95456760956a194fd31dd599f7074f1f98b12654a22557351cb186658243c",
+      "passed": true
+    },
+    {
+      "url": "https://decompgames.com/runtime/supaplex/bad56a4e174e-026301f2dd/assets/FIXED.DAT?verify=d993e29",
+      "status": 206,
+      "bytes": 5120,
+      "sha256": "224f4466813e9798dd15364e0486727528729ccc3294046711cf22482d0af4ef",
+      "passed": true
+    },
+    {
+      "url": "https://decompgames.com/runtime/supaplex/bad56a4e174e-026301f2dd/assets/MOVING.DAT?verify=d993e29",
+      "status": 206,
+      "bytes": 73920,
+      "sha256": "5562a6f00c7dddf3d347379dea107aa7aca5f23c51e5ead5b41b8d84621aa3e4",
+      "passed": true
+    },
+    {
+      "url": "https://decompgames.com/runtime/supaplex/bad56a4e174e-026301f2dd/assets/PALETTES.DAT?verify=d993e29",
+      "status": 206,
+      "bytes": 256,
+      "sha256": "b3ec10e197c6644f5baefddd36c155f03b15b3e2c0f7935877f167f65e7cbf6f",
+      "passed": true
+    },
+    {
+      "url": "https://decompgames.com/runtime/supaplex/bad56a4e174e-026301f2dd/assets/MENU.DAT?verify=d993e29",
+      "status": 206,
+      "bytes": 32000,
+      "sha256": "382f706f6a91ae4bf8f86b6a0bd9a86611df98d842d11f4267cba6824821f04f",
+      "passed": true
+    },
+    {
+      "url": "https://decompgames.com/runtime/supaplex/bad56a4e174e-026301f2dd/assets/BACK.DAT?verify=d993e29",
+      "status": 206,
+      "bytes": 32000,
+      "sha256": "0c92bddb4e96f3ea9ec9f0f64a668255a6c15527ac09f6f119cafde60c7c4a39",
+      "passed": true
+    },
+    {
+      "url": "https://decompgames.com/runtime/supaplex/bad56a4e174e-026301f2dd/assets/CONTROLS.DAT?verify=d993e29",
+      "status": 206,
+      "bytes": 32000,
+      "sha256": "9302b6346a84adcd797338e64ddbb8e6db3f2361389cdfaa225db55e9e623885",
+      "passed": true
+    },
+    {
+      "url": "https://decompgames.com/runtime/supaplex/bad56a4e174e-026301f2dd/assets/GFX.DAT?verify=d993e29",
+      "status": 206,
+      "bytes": 32000,
+      "sha256": "a0ba233ff84ef4033105b7847355bbe0769c0f3ec6254fe3bcb0e794f06d3003",
+      "passed": true
+    },
+    {
+      "url": "https://decompgames.com/runtime/supaplex/bad56a4e174e-026301f2dd/assets/TITLE.DAT?verify=d993e29",
+      "status": 206,
+      "bytes": 32000,
+      "sha256": "3606dfa3238b17dc4e705c22e8828bc900592501ce1d0ab005e8cccfcc4758d4",
+      "passed": true
+    },
+    {
+      "url": "https://decompgames.com/runtime/supaplex/bad56a4e174e-026301f2dd/assets/TITLE1.DAT?verify=d993e29",
+      "status": 206,
+      "bytes": 32000,
+      "sha256": "3606dfa3238b17dc4e705c22e8828bc900592501ce1d0ab005e8cccfcc4758d4",
+      "passed": true
+    },
+    {
+      "url": "https://decompgames.com/runtime/supaplex/bad56a4e174e-026301f2dd/assets/TITLE2.DAT?verify=d993e29",
+      "status": 206,
+      "bytes": 32000,
+      "sha256": "3606dfa3238b17dc4e705c22e8828bc900592501ce1d0ab005e8cccfcc4758d4",
+      "passed": true
+    },
+    {
+      "url": "https://decompgames.com/runtime/supaplex/bad56a4e174e-026301f2dd/assets/PANEL.DAT?verify=d993e29",
+      "status": 206,
+      "bytes": 3840,
+      "sha256": "d58ab8293b3d8e32314d68eeb707f42b689d703ad37fc19616b9ca46a6a80a24",
+      "passed": true
+    },
+    {
+      "url": "https://decompgames.com/runtime/supaplex/bad56a4e174e-026301f2dd/assets/LEVELS.DAT?verify=d993e29",
+      "status": 206,
+      "bytes": 9216,
+      "sha256": "42129a281b05dd82f4fd1d1fe489e42d30a1f9e986a248b0b869affdba609e38",
+      "passed": true
+    },
+    {
+      "url": "https://decompgames.com/sources/open-paths-bad56a4e174e-026301f2dd.tar.gz?verify=d993e29",
+      "status": 206,
+      "bytes": 158310,
+      "sha256": "df925352659c51ee6c0ac3f202b37b23b4bbbe8a4b0a56c62fe619951e7071a0",
+      "passed": true
+    }
+  ],
+  "newGameplayTest": false,
+  "newAudibleTest": false,
+  "playerStarted": false,
+  "catalogCount": 90,
+  "otherGameObjectsUnchanged": 89,
+  "result": "passed"
+}
