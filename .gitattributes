@@ -27,3 +27,6 @@ experiments/beacon-relay/** -text whitespace=blank-at-eol,blank-at-eof,space-bef
 experiments/beacon-relay/notices/** -text whitespace=-blank-at-eol,-blank-at-eof,-space-before-tab,cr-at-eol
 
 public/notices/open-paths-upstream.txt -text whitespace=-blank-at-eol,-blank-at-eof,-space-before-tab,cr-at-eol
+
+# Preserve source-only probe recipe and hash-record bytes.
+experiments/moon-child-source-probe/** -text

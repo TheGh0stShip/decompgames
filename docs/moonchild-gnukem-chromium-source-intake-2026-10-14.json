@@ -1,0 +1,1225 @@
+{
+  "auditedAtUtc": "2026-10-15T02:38:27.889079+00:00",
+  "basisCommit": "090674c76874c6a0090990b96950c825982a2d34",
+  "catalogCount": 90,
+  "scope": "Permission and selected-source feasibility audit; strict private source-only WASM link and portable recipe replay, no original assets or execution",
+  "snapshots": [
+    {
+      "repo": "HybridEidolon/moonchild-sr",
+      "commit": "642d6d92648e04f62f2d7cdc9e1e6ad9f31b0b86",
+      "branch": "main",
+      "stars": 9,
+      "retrievedUtc": "2026-10-15T02:25:54.020280+00:00",
+      "treeFiles": 341,
+      "treeTruncated": false,
+      "gitlinks": [],
+      "files": [
+        {
+          "path": "README.md",
+          "bytes": 6625,
+          "sha256": "cff62f62ed5e8072c0e2bff528c3c9fa0a0073b4ac02a4b74f8311dc3216a659",
+          "url": "https://github.com/HybridEidolon/moonchild-sr/blob/642d6d92648e04f62f2d7cdc9e1e6ad9f31b0b86/README.md"
+        },
+        {
+          "path": "LICENSE",
+          "bytes": 2114,
+          "sha256": "ca02b520d491f15d16335fe375591da0dacf23c0670bf555caa1795ad03245ae",
+          "url": "https://github.com/HybridEidolon/moonchild-sr/blob/642d6d92648e04f62f2d7cdc9e1e6ad9f31b0b86/LICENSE"
+        },
+        {
+          "path": "CMakeLists.txt",
+          "bytes": 1167,
+          "sha256": "e4d8ef98b4dceee2e7866273e04a8a79512f2f80b79ebd8dba63eb33b33e0d20",
+          "url": "https://github.com/HybridEidolon/moonchild-sr/blob/642d6d92648e04f62f2d7cdc9e1e6ad9f31b0b86/CMakeLists.txt"
+        }
+      ]
+    },
+    {
+      "repo": "MorsGames/MoonChildFE",
+      "commit": "fb35b9441f89f24cc512636bb6390a2cdfaa0257",
+      "branch": "master",
+      "stars": 80,
+      "retrievedUtc": "2026-10-15T02:27:18.214511+00:00",
+      "treeFiles": 383,
+      "treeTruncated": false,
+      "gitlinks": [
+        {
+          "path": "Libraries/SDL2",
+          "commit": "5d249570393f7a37e037abf22cd6012a4cc56a71"
+        },
+        {
+          "path": "Libraries/SDL3",
+          "commit": "8e37db5e797b6167f3a00d697d816a684bd259c7"
+        },
+        {
+          "path": "Libraries/SDL_GameControllerDB",
+          "commit": "c6062ec4b92254aced84843d94d379410774d907"
+        },
+        {
+          "path": "Libraries/pl_mpeg",
+          "commit": "c871f2be022ece7ef4f64230b4fb8e1fb9eb6023"
+        },
+        {
+          "path": "Libraries/zlib",
+          "commit": "f9dd6009be3ed32415edf1e89d1bc38380ecb95d"
+        }
+      ],
+      "files": [
+        {
+          "path": "README.md",
+          "bytes": 5518,
+          "sha256": "c7de84fc81c830b8ec47e4afea1083cc6ad4a011419b4f8c3ee5decf8081fed4",
+          "url": "https://github.com/MorsGames/MoonChildFE/blob/fb35b9441f89f24cc512636bb6390a2cdfaa0257/README.md"
+        },
+        {
+          "path": "LICENSE",
+          "bytes": 2236,
+          "sha256": "222920983c8996dd242069bb4af289990c49151553d60b708356cb48c01126e1",
+          "url": "https://github.com/MorsGames/MoonChildFE/blob/fb35b9441f89f24cc512636bb6390a2cdfaa0257/LICENSE"
+        },
+        {
+          "path": ".gitmodules",
+          "bytes": 536,
+          "sha256": "2e396fb1f62ab172f1f2659d97ea8ee331c11328e1137043eda49abe56942662",
+          "url": "https://github.com/MorsGames/MoonChildFE/blob/fb35b9441f89f24cc512636bb6390a2cdfaa0257/.gitmodules"
+        },
+        {
+          "path": "CMakeLists.txt",
+          "bytes": 21362,
+          "sha256": "0d93a5ac198c9b2b2695c9b4f0002485f4fc0f947ac27a4c9947a9656ea0c44a",
+          "url": "https://github.com/MorsGames/MoonChildFE/blob/fb35b9441f89f24cc512636bb6390a2cdfaa0257/CMakeLists.txt"
+        },
+        {
+          "path": "CMakePresets.json",
+          "bytes": 4984,
+          "sha256": "2d7509c1c4fa7851af02e522034fb64c990db4f5312b57149313a9311acdba2d",
+          "url": "https://github.com/MorsGames/MoonChildFE/blob/fb35b9441f89f24cc512636bb6390a2cdfaa0257/CMakePresets.json"
+        },
+        {
+          "path": "Scripts/BuildGameWeb.bat",
+          "bytes": 1593,
+          "sha256": "e91e79357580814c94f51ef7164d78aa84fb5aa1da1fb591f758d37a211089ef",
+          "url": "https://github.com/MorsGames/MoonChildFE/blob/fb35b9441f89f24cc512636bb6390a2cdfaa0257/Scripts/BuildGameWeb.bat"
+        }
+      ]
+    },
+    {
+      "repo": "davidjoffe/dave_gnukem",
+      "commit": "fbda206d0aac575146b01179330484ccf1569aab",
+      "branch": "main",
+      "stars": 84,
+      "retrievedUtc": "2026-10-15T02:25:53.938406+00:00",
+      "treeFiles": 201,
+      "treeTruncated": false,
+      "gitlinks": [],
+      "files": [
+        {
+          "path": "README.md",
+          "bytes": 34615,
+          "sha256": "db235a698b2ab15b80f775262f01fcb16c089f3668aaae66649f62e01a416acf",
+          "url": "https://github.com/davidjoffe/dave_gnukem/blob/fbda206d0aac575146b01179330484ccf1569aab/README.md"
+        },
+        {
+          "path": "MIT-LICENSE.txt",
+          "bytes": 1056,
+          "sha256": "ee42821ea7aebe170b79a1f91dec54ab9dcd3b034759ab5c55fb47f18810e99b",
+          "url": "https://github.com/davidjoffe/dave_gnukem/blob/fbda206d0aac575146b01179330484ccf1569aab/MIT-LICENSE.txt"
+        },
+        {
+          "path": "Makefile.em",
+          "bytes": 3135,
+          "sha256": "a8718d4bb4d02b7925a4bd7bb74d4b0e51fbb20795a385ef874128e4cadab09f",
+          "url": "https://github.com/davidjoffe/dave_gnukem/blob/fbda206d0aac575146b01179330484ccf1569aab/Makefile.em"
+        },
+        {
+          "path": "get_datafolders.sh",
+          "bytes": 2427,
+          "sha256": "3989d309c1b6d4d14066c12a58bed57479e68164929b83f22daebce03f23dd05",
+          "url": "https://github.com/davidjoffe/dave_gnukem/blob/fbda206d0aac575146b01179330484ccf1569aab/get_datafolders.sh"
+        },
+        {
+          "path": "Makefile",
+          "bytes": 5663,
+          "sha256": "56371620ea351d65794554afb4e628f6680810a0ea450f72a74335001a1b9c19",
+          "url": "https://github.com/davidjoffe/dave_gnukem/blob/fbda206d0aac575146b01179330484ccf1569aab/Makefile"
+        }
+      ]
+    },
+    {
+      "repo": "midzer/chromium-bsu",
+      "commit": "1afca1a77d51e8ae2d2198eac5b618d43af7d9f6",
+      "branch": "master",
+      "stars": 4,
+      "retrievedUtc": "2026-10-15T02:25:53.899805+00:00",
+      "treeFiles": 264,
+      "treeTruncated": false,
+      "gitlinks": [],
+      "files": [
+        {
+          "path": "README",
+          "bytes": 396,
+          "sha256": "7086deb4cb2a4aee834a5a752a7c95a6a2e3b11b8cf4bcaea20947ecb94430d1",
+          "url": "https://github.com/midzer/chromium-bsu/blob/1afca1a77d51e8ae2d2198eac5b618d43af7d9f6/README"
+        },
+        {
+          "path": "COPYING",
+          "bytes": 6557,
+          "sha256": "547d1db21124cbb6e9707f32229e7d09b958a1a143c345d2378e58f5ea061b12",
+          "url": "https://github.com/midzer/chromium-bsu/blob/1afca1a77d51e8ae2d2198eac5b618d43af7d9f6/COPYING"
+        },
+        {
+          "path": "configure.ac",
+          "bytes": 11137,
+          "sha256": "df32604cfc83c95e263be6133945822efe63a6e15ae3efd513c4d33ade74aa6e",
+          "url": "https://github.com/midzer/chromium-bsu/blob/1afca1a77d51e8ae2d2198eac5b618d43af7d9f6/configure.ac"
+        },
+        {
+          "path": "data/wav/license.txt",
+          "bytes": 1053,
+          "sha256": "258216f6fd34bd76a7c5c8342fd342a066436fa84f99e4302cff2660895de63e",
+          "url": "https://github.com/midzer/chromium-bsu/blob/1afca1a77d51e8ae2d2198eac5b618d43af7d9f6/data/wav/license.txt"
+        },
+        {
+          "path": "src/Makefile.am",
+          "bytes": 2028,
+          "sha256": "8c386237570e64fe832709819944f389a0cf3deaa72a4c1019aac32fb7169c1a",
+          "url": "https://github.com/midzer/chromium-bsu/blob/1afca1a77d51e8ae2d2198eac5b618d43af7d9f6/src/Makefile.am"
+        }
+      ]
+    }
+  ],
+  "selectedScreenTextFiles": 19,
+  "selectedScreenTextBytes": 114202,
+  "originalAuthorLicense": {
+    "url": "https://api.bitbucket.org/2.0/repositories/rhinoid/moonchild/src/f8e0ff358432f4b6324ab74547d6fa8135d49d71/LICENSE",
+    "repo": "rhinoid/moonchild",
+    "commit": "f8e0ff358432f4b6324ab74547d6fa8135d49d71",
+    "path": "LICENSE",
+    "bytes": 2091,
+    "sha256": "2bc0f7b7751f9e949a0e7c206ce24409faf2364673a5b7c09a20f2c7f3754f00",
+    "retrievedUtc": "2026-10-15T02:31:23.831839+00:00"
+  },
+  "originalAuthorRetrievalHistory": [
+    {
+      "url": "https://api.bitbucket.org/2.0/repositories/rhinoid/moonchild",
+      "status": 200,
+      "bytes": 3024,
+      "sha256": "68d1f922a3ceb9f76736c47023311797ff3af77577c3d58a2f1f14a71555229e",
+      "retrievedUtc": "2026-10-15T02:31:08.279974+00:00",
+      "mainbranch": {
+        "name": "main",
+        "type": "branch"
+      },
+      "owner": "Reinier van Vliet"
+    },
+    {
+      "url": "https://api.bitbucket.org/2.0/repositories/rhinoid/moonchild/src/master/LICENSE",
+      "error": "HTTP Error 404: Not Found",
+      "retrievedUtc": "2026-10-15T02:31:08.685099+00:00"
+    },
+    {
+      "url": "https://api.bitbucket.org/2.0/repositories/rhinoid/moonchild/refs/branches/main",
+      "commit": "f8e0ff358432f4b6324ab74547d6fa8135d49d71",
+      "retrievedUtc": "2026-10-15T02:31:23.226345+00:00"
+    },
+    {
+      "url": "https://api.bitbucket.org/2.0/repositories/rhinoid/moonchild/src/f8e0ff358432f4b6324ab74547d6fa8135d49d71/LICENSE",
+      "repo": "rhinoid/moonchild",
+      "commit": "f8e0ff358432f4b6324ab74547d6fa8135d49d71",
+      "path": "LICENSE",
+      "bytes": 2091,
+      "sha256": "2bc0f7b7751f9e949a0e7c206ce24409faf2364673a5b7c09a20f2c7f3754f00",
+      "retrievedUtc": "2026-10-15T02:31:23.831839+00:00"
+    }
+  ],
+  "officialReleasePage": [
+    {
+      "url": "https://metinseven.itch.io/moon-child-1997-windows-platform-game",
+      "bytes": 44277,
+      "sha256": "ae065ebfbe89b3d5a4a0957586750de743db9b34ca386afb03e38ad2cb226218",
+      "retrievedUtc": "2026-10-15T02:27:20.679442+00:00"
+    }
+  ],
+  "sourceProbe": {
+    "classification": "Developer-source port; not decompilation or emulation",
+    "repository": "MorsGames/MoonChildFE",
+    "commit": "fb35b9441f89f24cc512636bb6390a2cdfaa0257",
+    "sourceInputs": {
+      "manifest": "../experiments/moon-child-source-probe/source-inputs.json",
+      "files": 221,
+      "bytes": 1574417,
+      "sha256": "4277dea013f1eecb5c5fea9acbe80d04384b7ebe7f0307d9c3801e28ae891fa8",
+      "testedWindowsCrlfManifestSha256": "32e548d7f7e295de58eba7b05937b90196c24d4c7ef02fa68c8a10ffb1a3981a"
+    },
+    "recipe": {
+      "path": "../experiments/moon-child-source-probe/build.py",
+      "sha256": "7cc9f2e713367c2427febbcf1214ae7819a6cd0a01aa2ee3cdf1e1e45bc69292",
+      "testedWindowsCrlfSha256": "0ff6f2e73b18aec209c485415f29919b6fee8d635f73bd6f17f6123bdd900b0b",
+      "lineEndingNote": "Checked-in recipe normalized to LF after tested Windows CRLF form; normalized text is identical, no behavior/source/flags changed."
+    },
+    "sourcePatched": false,
+    "selectedPlatform": "SDL2/GLES2 using installed Emscripten ports, separate from default vendored SDL3",
+    "optimization": "O0",
+    "sourceUnits": 91,
+    "succeededUnits": 91,
+    "strictUndefinedSymbolRejection": true,
+    "linkExitCode": 0,
+    "invokeRun": false,
+    "originalDataPreloaded": false,
+    "controllerDatabasePreloaded": false,
+    "units": [
+      {
+        "source": "Classes/moonchild/anim.cpp",
+        "exitCode": 0,
+        "objectBytes": 2198,
+        "objectSha256": "00008999272c53f9a8a8c14a16a59bd23b1d6f5c65c623ddeb53d3bbb5fda740",
+        "wasmObject": true
+      },
+      {
+        "source": "Classes/moonchild/asset.cpp",
+        "exitCode": 0,
+        "objectBytes": 5868,
+        "objectSha256": "e0f7e37fd9f864fa22ac10d3e7939a1e871befe999c86e753de2f56098459e3e",
+        "wasmObject": true
+      },
+      {
+        "source": "Classes/moonchild/asteroid.cpp",
+        "exitCode": 0,
+        "objectBytes": 6167,
+        "objectSha256": "44ea24f7d9deddbd1c4f2669d810c9ccb15aebb966fc1e4d84c713e2f062e4b9",
+        "wasmObject": true
+      },
+      {
+        "source": "Classes/moonchild/basic.cpp",
+        "exitCode": 0,
+        "objectBytes": 5337,
+        "objectSha256": "2cde92e479c8f370d3427ccca9fa5de7c2be29e5ce61991b71170b929b473456",
+        "wasmObject": true
+      },
+      {
+        "source": "Classes/moonchild/bat.cpp",
+        "exitCode": 0,
+        "objectBytes": 3321,
+        "objectSha256": "bd2fe1136a985a4b3e5527d21134cbe459978aaecc3d30002130649175f58c82",
+        "wasmObject": true
+      },
+      {
+        "source": "Classes/moonchild/bbot.cpp",
+        "exitCode": 0,
+        "objectBytes": 4031,
+        "objectSha256": "d4fcf02808871d10feba26fae84d2e788bd0ec6a55501f685740865dcdd08f08",
+        "wasmObject": true
+      },
+      {
+        "source": "Classes/moonchild/bee.cpp",
+        "exitCode": 0,
+        "objectBytes": 3453,
+        "objectSha256": "2f49d67928a297497a05c5ea4ea6c89fe90234aa527d1453205b049a93587bbe",
+        "wasmObject": true
+      },
+      {
+        "source": "Classes/moonchild/bolt.cpp",
+        "exitCode": 0,
+        "objectBytes": 4008,
+        "objectSha256": "4e89b9eca4ac2ea982584b3ce39e514844afabe816daa44db8d9a5827ab31c16",
+        "wasmObject": true
+      },
+      {
+        "source": "Classes/moonchild/bonus.cpp",
+        "exitCode": 0,
+        "objectBytes": 1884,
+        "objectSha256": "5241f127bf555ad1bfa2cf0a1053edfb63dae3654a2157bf3698b49f192fea26",
+        "wasmObject": true
+      },
+      {
+        "source": "Classes/moonchild/boss.cpp",
+        "exitCode": 0,
+        "objectBytes": 8993,
+        "objectSha256": "6dd82f827ca84b908bc4af3b13f3632a917771c4f7826c713029cbce5c155061",
+        "wasmObject": true
+      },
+      {
+        "source": "Classes/moonchild/bouncey.cpp",
+        "exitCode": 0,
+        "objectBytes": 3662,
+        "objectSha256": "fdda34477027d9fae33b92b54c6b5f631e25b7a1e8548b1bb30f403d5c01a915",
+        "wasmObject": true
+      },
+      {
+        "source": "Classes/moonchild/bullet.cpp",
+        "exitCode": 0,
+        "objectBytes": 3528,
+        "objectSha256": "a2df8dd7a6ae381061208a3ba149e39cd4ca022c6c4292afde2a6de68818c4b2",
+        "wasmObject": true
+      },
+      {
+        "source": "Classes/moonchild/bump.cpp",
+        "exitCode": 0,
+        "objectBytes": 2335,
+        "objectSha256": "cae37eec357b041270f21df5117273491d1684a3894e48ec71c2d06cd665eb7c",
+        "wasmObject": true
+      },
+      {
+        "source": "Classes/moonchild/cannon.cpp",
+        "exitCode": 0,
+        "objectBytes": 6649,
+        "objectSha256": "4935d0c4e20fcad6307ff034c5d9c3c50d4348d0d008392e82ef880219d62b28",
+        "wasmObject": true
+      },
+      {
+        "source": "Classes/moonchild/chain.cpp",
+        "exitCode": 0,
+        "objectBytes": 4203,
+        "objectSha256": "17da6a4a74ce412a4efadcf1eeb0764d908f78d2fe7b4c0d6268cf3262e2f914",
+        "wasmObject": true
+      },
+      {
+        "source": "Classes/moonchild/claw.cpp",
+        "exitCode": 0,
+        "objectBytes": 3997,
+        "objectSha256": "0ef3c12afd50c3ca0391e3de1c3a45a7dd9810753badfa9a5c7ed52cf8d83b9b",
+        "wasmObject": true
+      },
+      {
+        "source": "Classes/moonchild/cloud.cpp",
+        "exitCode": 0,
+        "objectBytes": 2225,
+        "objectSha256": "fb5521fc4f7e8500665b509b97ed35336fd14616b1ba9a21ddcc5ebded1faa3a",
+        "wasmObject": true
+      },
+      {
+        "source": "Classes/moonchild/diamond.cpp",
+        "exitCode": 0,
+        "objectBytes": 1936,
+        "objectSha256": "b0f6b04aaf8c848d0702984896652a8e02dafaedb1390c2ccaf9deaa7816fa09",
+        "wasmObject": true
+      },
+      {
+        "source": "Classes/moonchild/doldoler.cpp",
+        "exitCode": 0,
+        "objectBytes": 3096,
+        "objectSha256": "21b928c1dbca9824afe706a50764dd31a350731fdedb1eff99542acff583b1c1",
+        "wasmObject": true
+      },
+      {
+        "source": "Classes/moonchild/editor.cpp",
+        "exitCode": 0,
+        "objectBytes": 3715,
+        "objectSha256": "c7f5ad0687632d38ff7e3fbb4ed2bb97d5ea4932fa9abdde45881acdbbde5024",
+        "wasmObject": true
+      },
+      {
+        "source": "Classes/moonchild/element.cpp",
+        "exitCode": 0,
+        "objectBytes": 6989,
+        "objectSha256": "ff2fe8c673cf6f778f9544e7922773a2a8f9373fc2b0f14f3e27eeb81dfed491",
+        "wasmObject": true
+      },
+      {
+        "source": "Classes/moonchild/elevat.cpp",
+        "exitCode": 0,
+        "objectBytes": 3596,
+        "objectSha256": "259df05d46d8c2da3406885ef95476a40750dec3f476875cb68bfb8b93ca5c28",
+        "wasmObject": true
+      },
+      {
+        "source": "Classes/moonchild/glim.cpp",
+        "exitCode": 0,
+        "objectBytes": 1666,
+        "objectSha256": "3f940959d722a83222bb750a327103c0d67a9b557941d61be8304b2fd0027e4d",
+        "wasmObject": true
+      },
+      {
+        "source": "Classes/moonchild/globals.cpp",
+        "exitCode": 0,
+        "objectBytes": 28620,
+        "objectSha256": "a360bd7e1ce9eeead51ccdd2c634ebf0cf0dc89f3c460ba4b8a3e7518a13d5c9",
+        "wasmObject": true
+      },
+      {
+        "source": "Classes/moonchild/goodday.cpp",
+        "exitCode": 0,
+        "objectBytes": 1261,
+        "objectSha256": "5f47bf3ff3940e47992ddd2699908aa17b7c19721c9b78bd6398fd446f213488",
+        "wasmObject": true
+      },
+      {
+        "source": "Classes/moonchild/gravlift.cpp",
+        "exitCode": 0,
+        "objectBytes": 2325,
+        "objectSha256": "5ec55e930db3b0e0bc7e96666a830a6fc5b81e856e55462982afd3d14085c653",
+        "wasmObject": true
+      },
+      {
+        "source": "Classes/moonchild/gumbal.cpp",
+        "exitCode": 0,
+        "objectBytes": 2135,
+        "objectSha256": "e62d744240a37a48f1d48043b5bb25c9235e40a650d6d23e4d9f941d2ca39373",
+        "wasmObject": true
+      },
+      {
+        "source": "Classes/moonchild/hoi.cpp",
+        "exitCode": 0,
+        "objectBytes": 51797,
+        "objectSha256": "49b000a05cb3c63a2102035fe4e0301c4c1c897423a15d350a5abeaa9198f5ad",
+        "wasmObject": true
+      },
+      {
+        "source": "Classes/moonchild/ironauto.cpp",
+        "exitCode": 0,
+        "objectBytes": 3944,
+        "objectSha256": "08fba3c6499562326c8b5f34f63224ce207ce5c2761a2c91084807df2de8ec63",
+        "wasmObject": true
+      },
+      {
+        "source": "Classes/moonchild/ironring.cpp",
+        "exitCode": 0,
+        "objectBytes": 3667,
+        "objectSha256": "b0c49d48cf450d038d8344572e56b8f461dc0d6798f7b89406f311cb597d195e",
+        "wasmObject": true
+      },
+      {
+        "source": "Classes/moonchild/levinits.cpp",
+        "exitCode": 0,
+        "objectBytes": 89556,
+        "objectSha256": "f74ce386c903f1b64022c6232f45999bd285306df68b8b3cc2544ac7c38dd56a",
+        "wasmObject": true
+      },
+      {
+        "source": "Classes/moonchild/lift.cpp",
+        "exitCode": 0,
+        "objectBytes": 1947,
+        "objectSha256": "62b9a1893ce72f0217ac2af749d08d69503a169a7cbb2c1c01b6175f66a39d47",
+        "wasmObject": true
+      },
+      {
+        "source": "Classes/moonchild/mc.cpp",
+        "exitCode": 0,
+        "objectBytes": 177832,
+        "objectSha256": "c0ca4066565ba276781d7ca4be101e02997ae057b9921eb7b3fb08fb15ed5138",
+        "wasmObject": true
+      },
+      {
+        "source": "Classes/moonchild/metbal.cpp",
+        "exitCode": 0,
+        "objectBytes": 2116,
+        "objectSha256": "16dd5cb844b02bb877f27a92e60e2b8def40dd90bc33f7becf80e01fccc0a3c9",
+        "wasmObject": true
+      },
+      {
+        "source": "Classes/moonchild/metcan.cpp",
+        "exitCode": 0,
+        "objectBytes": 2311,
+        "objectSha256": "bc4e5af50e3a112d2ea86113513da1f2514110135b27ff1f26aa39567c44717a",
+        "wasmObject": true
+      },
+      {
+        "source": "Classes/moonchild/mine.cpp",
+        "exitCode": 0,
+        "objectBytes": 2962,
+        "objectSha256": "6071c812309e878670a26810ec2d47619a14e0d7095a8c081360e3558028193a",
+        "wasmObject": true
+      },
+      {
+        "source": "Classes/moonchild/mixer.cpp",
+        "exitCode": 0,
+        "objectBytes": 2871,
+        "objectSha256": "522c53045d9c94e3e20f78d3fd9a1ec43be9028979a7362983a228529c6e7b9e",
+        "wasmObject": true
+      },
+      {
+        "source": "Classes/moonchild/mouth.cpp",
+        "exitCode": 0,
+        "objectBytes": 3395,
+        "objectSha256": "70ef08befe15c2748be7bcc35fc988bc2849c7d1ea3775c29e32cde5c72b70f0",
+        "wasmObject": true
+      },
+      {
+        "source": "Classes/moonchild/mushroom.cpp",
+        "exitCode": 0,
+        "objectBytes": 4369,
+        "objectSha256": "844b8b19ebba6155747aa577e4a9f508d32245a628ffe87674acc69d52693af6",
+        "wasmObject": true
+      },
+      {
+        "source": "Classes/moonchild/objects.cpp",
+        "exitCode": 0,
+        "objectBytes": 4485,
+        "objectSha256": "9c8e756cb0534f7167938c08a2a1ab48da5ca1025e3ef3608c0c2351df125e54",
+        "wasmObject": true
+      },
+      {
+        "source": "Classes/moonchild/paal.cpp",
+        "exitCode": 0,
+        "objectBytes": 1531,
+        "objectSha256": "6716d8296823e621e2df8ed67286157ec8fa1ab440595526cad695c79507b2a1",
+        "wasmObject": true
+      },
+      {
+        "source": "Classes/moonchild/plant.cpp",
+        "exitCode": 0,
+        "objectBytes": 5587,
+        "objectSha256": "2b06d48a7e6ee1d0800a2dec9c7d479abdc35376b303ee71e806bd0909d232e5",
+        "wasmObject": true
+      },
+      {
+        "source": "Classes/moonchild/plof.cpp",
+        "exitCode": 0,
+        "objectBytes": 2672,
+        "objectSha256": "76c1c5b8adb6c7fae43f452852c786bfa6d9847ca7db601c576ceee3f799893d",
+        "wasmObject": true
+      },
+      {
+        "source": "Classes/moonchild/prefs.cpp",
+        "exitCode": 0,
+        "objectBytes": 483,
+        "objectSha256": "f72988958d27153568c6bedee4422e12e253c705825557dacee872bd5e1bb952",
+        "wasmObject": true
+      },
+      {
+        "source": "Classes/moonchild/ptoei.cpp",
+        "exitCode": 0,
+        "objectBytes": 1917,
+        "objectSha256": "f4518645204443de15fba4476fe460a20094c46e05309e4d656eeadef80a9215",
+        "wasmObject": true
+      },
+      {
+        "source": "Classes/moonchild/punt.cpp",
+        "exitCode": 0,
+        "objectBytes": 1980,
+        "objectSha256": "4530723af40f120abd1e2e35844da2d94ce656419166dc8fa57da0f60bb0b328",
+        "wasmObject": true
+      },
+      {
+        "source": "Classes/moonchild/robyn.cpp",
+        "exitCode": 0,
+        "objectBytes": 2898,
+        "objectSha256": "792db59d537ef38f99b29fd98ef2b44941770f7671a62a2b58efc07470d74048",
+        "wasmObject": true
+      },
+      {
+        "source": "Classes/moonchild/rock.cpp",
+        "exitCode": 0,
+        "objectBytes": 3090,
+        "objectSha256": "739d2ec69811b6c8b4ee62212680ad470c055b93ae28343f59a3e75128d3f90c",
+        "wasmObject": true
+      },
+      {
+        "source": "Classes/moonchild/rocket.cpp",
+        "exitCode": 0,
+        "objectBytes": 2632,
+        "objectSha256": "b0c0a0f2bade6a168c248c200023579ef653df9ccc30bcad50e10799f87cc22e",
+        "wasmObject": true
+      },
+      {
+        "source": "Classes/moonchild/score.cpp",
+        "exitCode": 0,
+        "objectBytes": 10004,
+        "objectSha256": "e9431f43b4750244467bc018a33e980878e62b6b1558cba3706076433b753c86",
+        "wasmObject": true
+      },
+      {
+        "source": "Classes/moonchild/scroll.cpp",
+        "exitCode": 0,
+        "objectBytes": 37531,
+        "objectSha256": "2da94ba7ed214d495f4e85a214afc9576f81ae738ffad05162d63573f6e32264",
+        "wasmObject": true
+      },
+      {
+        "source": "Classes/moonchild/seamine.cpp",
+        "exitCode": 0,
+        "objectBytes": 1261,
+        "objectSha256": "25a7f50aec3277b1bf0ae3692ff3429c76e0a704a9ea9c78a80cdd03342c42fc",
+        "wasmObject": true
+      },
+      {
+        "source": "Classes/moonchild/smlheart.cpp",
+        "exitCode": 0,
+        "objectBytes": 2709,
+        "objectSha256": "f5b086fdd4c47be933e6b37105a1659b52bf58cdbbdac56fbd88970910263170",
+        "wasmObject": true
+      },
+      {
+        "source": "Classes/moonchild/snake.cpp",
+        "exitCode": 0,
+        "objectBytes": 4583,
+        "objectSha256": "8f31dc897d32ebb892a2582caad59a8605f5f227f376d3532690b34d27f17ddb",
+        "wasmObject": true
+      },
+      {
+        "source": "Classes/moonchild/sneak.cpp",
+        "exitCode": 0,
+        "objectBytes": 4511,
+        "objectSha256": "908091b25f6961fc77474eec42a76178eab08c48cc3fa2f975a3315f4faf1cdb",
+        "wasmObject": true
+      },
+      {
+        "source": "Classes/moonchild/sokoban.cpp",
+        "exitCode": 0,
+        "objectBytes": 6192,
+        "objectSha256": "d96608abb0cc0e6d68f5f52eed1057008554852c18e674537dd35b85e6bb35c0",
+        "wasmObject": true
+      },
+      {
+        "source": "Classes/moonchild/sound.cpp",
+        "exitCode": 0,
+        "objectBytes": 55159,
+        "objectSha256": "e6ad9996056df95a6ce52fc4eb8aceef6fa6507f07da3adfd7c2ab5fbf875060",
+        "wasmObject": true
+      },
+      {
+        "source": "Classes/moonchild/spies.cpp",
+        "exitCode": 0,
+        "objectBytes": 2059,
+        "objectSha256": "72124a45032b95952e6394302f03f4b187e5a99e10161749783a00b22e85a393",
+        "wasmObject": true
+      },
+      {
+        "source": "Classes/moonchild/spike.cpp",
+        "exitCode": 0,
+        "objectBytes": 1846,
+        "objectSha256": "674122ee920afee1f34bf17e79dfd30598671ada40ba2413f268e5c3b9e3c6de",
+        "wasmObject": true
+      },
+      {
+        "source": "Classes/moonchild/stukhout.cpp",
+        "exitCode": 0,
+        "objectBytes": 2730,
+        "objectSha256": "5665007411012c083a905cd22df2f188ef4e4cdc168b504af76b48ecaefaf459",
+        "wasmObject": true
+      },
+      {
+        "source": "Classes/moonchild/switsj.cpp",
+        "exitCode": 0,
+        "objectBytes": 4366,
+        "objectSha256": "ebffba4700254c9243d97a6b4f44fcde1d7d0781f0ee8c785b014ebac636fc68",
+        "wasmObject": true
+      },
+      {
+        "source": "Classes/moonchild/trigger.cpp",
+        "exitCode": 0,
+        "objectBytes": 20407,
+        "objectSha256": "a7a4e9b0030104ab70033d2781a36ab031a50780b3a11de8f42f14bde928f608",
+        "wasmObject": true
+      },
+      {
+        "source": "Classes/moonchild/vgdll.cpp",
+        "exitCode": 0,
+        "objectBytes": 6040,
+        "objectSha256": "5a3337c1d1533960a01e56a31da4922151ec268d11bbef9292e5e3cb6a2d6d1d",
+        "wasmObject": true
+      },
+      {
+        "source": "Classes/moonchild/warp.cpp",
+        "exitCode": 0,
+        "objectBytes": 2344,
+        "objectSha256": "42a0095e848caa67e874da3176a8ae4279fb71f645c9f3799c4d33a4ecddbf99",
+        "wasmObject": true
+      },
+      {
+        "source": "Classes/moonchild/weight.cpp",
+        "exitCode": 0,
+        "objectBytes": 2366,
+        "objectSha256": "10a0806ce6a5b35381b88e912ce32329b293a6cba0223d8bcd99e2358939320c",
+        "wasmObject": true
+      },
+      {
+        "source": "Classes/moonchild/wheel.cpp",
+        "exitCode": 0,
+        "objectBytes": 2866,
+        "objectSha256": "bc54c6b4e2a5115c748f68159489105b2eb822a5ffdfa94ec052e3216e6f4bd6",
+        "wasmObject": true
+      },
+      {
+        "source": "Classes/framewrk/blitbuf.cpp",
+        "exitCode": 0,
+        "objectBytes": 4663,
+        "objectSha256": "b0d31527f908d795966a83c613047e991459c3c749407b78387bd57916aefef5",
+        "wasmObject": true
+      },
+      {
+        "source": "Classes/framewrk/fastfile.cpp",
+        "exitCode": 0,
+        "objectBytes": 6921,
+        "objectSha256": "681b6a01eaf4b51106b71f744b47daeef37c29a244e1d4db5058cb82c816d5b4",
+        "wasmObject": true
+      },
+      {
+        "source": "Classes/framewrk/pcxff.cpp",
+        "exitCode": 0,
+        "objectBytes": 2908,
+        "objectSha256": "d7afb3ad1e461577b03acd39d92ca572426e8fbd5d443545dfb25e6aec259637",
+        "wasmObject": true
+      },
+      {
+        "source": "Classes/framewrk/sprite.cpp",
+        "exitCode": 0,
+        "objectBytes": 6231,
+        "objectSha256": "f749c1da35345291ae701af8a2cdefc8caa56464b4b9649c0dcdc2b5a0c7607d",
+        "wasmObject": true
+      },
+      {
+        "source": "Classes/framewrk/timer.cpp",
+        "exitCode": 0,
+        "objectBytes": 333,
+        "objectSha256": "83c5832fcd9f54a26f7173622b5c47fa47d86b2995db60d78f3fd34ce15b18c3",
+        "wasmObject": true
+      },
+      {
+        "source": "Classes/framewrk/unzip.c",
+        "exitCode": 0,
+        "objectBytes": 450,
+        "objectSha256": "f41503258893c0ac1f5a9b68d47916c4933f40aeb3ef15df096d3f41ac884504",
+        "wasmObject": true
+      },
+      {
+        "source": "Classes/framewrk/video.cpp",
+        "exitCode": 0,
+        "objectBytes": 18569,
+        "objectSha256": "a1b1b57d99dc7df94dd58faa059e0841d9c726d8eaac64252fa3a737b517fb2f",
+        "wasmObject": true
+      },
+      {
+        "source": "Platform/App/Main.cpp",
+        "exitCode": 0,
+        "objectBytes": 1329,
+        "objectSha256": "94c03c5237c2968c08281b6b7d6c2598816a9d4b1124d7a52e65bafdfbef7f57",
+        "wasmObject": true
+      },
+      {
+        "source": "Platform/App/Host.cpp",
+        "exitCode": 0,
+        "objectBytes": 28049,
+        "objectSha256": "ee60a77c1792e075e331c449c4e1242ac1c01dfc4b73c1594e6d3677452b466c",
+        "wasmObject": true
+      },
+      {
+        "source": "Platform/App/PlatformBackends.cpp",
+        "exitCode": 0,
+        "objectBytes": 6089,
+        "objectSha256": "53703b613d632cb833c164a82b63fc2d5dd5223f1b80576e602032711c256147",
+        "wasmObject": true
+      },
+      {
+        "source": "Platform/App/Resources.cpp",
+        "exitCode": 0,
+        "objectBytes": 23329,
+        "objectSha256": "f5f4b534fb039cd161f8f87a5a4f107fdb8fdd38502a2dd6df2eab6ce7a5b851",
+        "wasmObject": true
+      },
+      {
+        "source": "Platform/App/FrameworkGlue.cpp",
+        "exitCode": 0,
+        "objectBytes": 1132,
+        "objectSha256": "d172f1ff6732e0d3bcbf75fe0b656bcab8972ae2509636f83a84860eed1b42ee",
+        "wasmObject": true
+      },
+      {
+        "source": "Platform/App/MediaCatalog.cpp",
+        "exitCode": 0,
+        "objectBytes": 7533,
+        "objectSha256": "8ba45b222ac9e2949e73f57a0264570f109222743c3b53ab4cf6c32f2771de95",
+        "wasmObject": true
+      },
+      {
+        "source": "Platform/Core/Random.cpp",
+        "exitCode": 0,
+        "objectBytes": 1134,
+        "objectSha256": "af55af1bce7292f67130f647d01fae97d76c0c8ab7126582fe484f3706d63941",
+        "wasmObject": true
+      },
+      {
+        "source": "Platform/Bridges/AudioBridge.cpp",
+        "exitCode": 0,
+        "objectBytes": 2850,
+        "objectSha256": "978db27abc45a5b3d34036e0591d05b42fac00bd9e8291cbdc80866285554172",
+        "wasmObject": true
+      },
+      {
+        "source": "Platform/Bridges/DisplayBridge.cpp",
+        "exitCode": 0,
+        "objectBytes": 1658,
+        "objectSha256": "afae3c018c763685763a6e0359080ca01cff0737e7c4fba82da2cdb29f16bace",
+        "wasmObject": true
+      },
+      {
+        "source": "Platform/Bridges/InputBridge.cpp",
+        "exitCode": 0,
+        "objectBytes": 107434,
+        "objectSha256": "66d48197f87c2463c9fb35fb43b886df28b9492a370bff2ce65f1ceb19e7f005",
+        "wasmObject": true
+      },
+      {
+        "source": "Platform/Bridges/MovieBridge.cpp",
+        "exitCode": 0,
+        "objectBytes": 96224,
+        "objectSha256": "aaaa99961aaa37244849ce1fbef90360036fce4e332caf19e2741a066c6e2d71",
+        "wasmObject": true
+      },
+      {
+        "source": "Platform/Audio/AudioEngine.cpp",
+        "exitCode": 0,
+        "objectBytes": 13072,
+        "objectSha256": "a9804fdbb1865fb5ebc5a0a8d3e91d6397f572813fe82765990fd673b414df75",
+        "wasmObject": true
+      },
+      {
+        "source": "Platform/Audio/MP3MusicTrack.cpp",
+        "exitCode": 0,
+        "objectBytes": 81916,
+        "objectSha256": "0c4dd6d71f4de19cd88c4d6bbf63fcd5e2b7eed41db4072a6e9069cc4e8b6d75",
+        "wasmObject": true
+      },
+      {
+        "source": "Platform/Backends/Window/SDL2Window.cpp",
+        "exitCode": 0,
+        "objectBytes": 11230,
+        "objectSha256": "7afd352e89ca72a8c808928a030c11abcd4585e675b91d3ab7b673179d6030d6",
+        "wasmObject": true
+      },
+      {
+        "source": "Platform/Backends/Renderer/GLESRenderer.cpp",
+        "exitCode": 0,
+        "objectBytes": 33865,
+        "objectSha256": "3de53d49b6422d56a662aef7df1e87adeb29e82130ef09168251421a2878f21e",
+        "wasmObject": true
+      },
+      {
+        "source": "Libraries/glad/glad.c",
+        "exitCode": 0,
+        "objectBytes": 120555,
+        "objectSha256": "c00e90cef9ef8240b6395b05dfc5a89c55ddc7f5602cdd09d16929048501753b",
+        "wasmObject": true
+      },
+      {
+        "source": "Platform/Backends/Input/SDL2Input.cpp",
+        "exitCode": 0,
+        "objectBytes": 53143,
+        "objectSha256": "8ee2f3a93ea9246413930838405e4b4809025c28a426180c7ee734e54190b0b0",
+        "wasmObject": true
+      },
+      {
+        "source": "Platform/Backends/Audio/SDL2Audio.cpp",
+        "exitCode": 0,
+        "objectBytes": 133105,
+        "objectSha256": "3fbd16ab575f25db2f34bd94c882ea3bd31471b6919f98602291253db2a02ba4",
+        "wasmObject": true
+      }
+    ],
+    "warnings": [
+      {
+        "source": "Classes/moonchild/asset.cpp",
+        "warnings": [
+          "using the result of an assignment as a condition without parentheses [-Wparentheses]"
+        ]
+      },
+      {
+        "source": "Classes/moonchild/asteroid.cpp",
+        "warnings": [
+          "using the result of an assignment as a condition without parentheses [-Wparentheses]"
+        ]
+      },
+      {
+        "source": "Classes/moonchild/bullet.cpp",
+        "warnings": [
+          "using the result of an assignment as a condition without parentheses [-Wparentheses]"
+        ]
+      },
+      {
+        "source": "Classes/moonchild/globals.cpp",
+        "warnings": [
+          "ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]",
+          "ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]",
+          "ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]",
+          "ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]",
+          "ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]",
+          "ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]",
+          "ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]",
+          "ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]",
+          "ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]",
+          "ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]",
+          "ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]",
+          "ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]",
+          "ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]",
+          "ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]",
+          "ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]",
+          "ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]",
+          "ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]",
+          "ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]",
+          "ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]",
+          "ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]",
+          "ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]",
+          "ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]",
+          "ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]",
+          "ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]",
+          "ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]",
+          "ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]",
+          "ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]",
+          "ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]",
+          "ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]",
+          "ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]",
+          "ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]",
+          "ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]",
+          "ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]",
+          "ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]",
+          "ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]",
+          "ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]",
+          "ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]",
+          "ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]",
+          "ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]",
+          "ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]",
+          "ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]",
+          "ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]",
+          "ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]",
+          "ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]",
+          "ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]",
+          "ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]",
+          "ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]",
+          "ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]",
+          "ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]",
+          "ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]",
+          "ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]",
+          "ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]",
+          "ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]",
+          "ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]",
+          "ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]",
+          "ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]",
+          "ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]",
+          "ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]",
+          "ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]",
+          "ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]",
+          "ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]",
+          "ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]",
+          "ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]",
+          "ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]",
+          "ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]",
+          "ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]",
+          "ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]",
+          "ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]",
+          "ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]",
+          "ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]"
+        ]
+      },
+      {
+        "source": "Classes/moonchild/hoi.cpp",
+        "warnings": [
+          "using the result of an assignment as a condition without parentheses [-Wparentheses]",
+          "using the result of an assignment as a condition without parentheses [-Wparentheses]",
+          "using the result of an assignment as a condition without parentheses [-Wparentheses]",
+          "using the result of an assignment as a condition without parentheses [-Wparentheses]",
+          "using the result of an assignment as a condition without parentheses [-Wparentheses]",
+          "using the result of an assignment as a condition without parentheses [-Wparentheses]",
+          "expression result unused [-Wunused-value]",
+          "expression result unused [-Wunused-value]",
+          "expression result unused [-Wunused-value]",
+          "expression result unused [-Wunused-value]",
+          "using the result of an assignment as a condition without parentheses [-Wparentheses]",
+          "using the result of an assignment as a condition without parentheses [-Wparentheses]",
+          "using the result of an assignment as a condition without parentheses [-Wparentheses]",
+          "using the result of an assignment as a condition without parentheses [-Wparentheses]"
+        ]
+      },
+      {
+        "source": "Classes/moonchild/mc.cpp",
+        "warnings": [
+          "ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]",
+          "ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]",
+          "ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]",
+          "ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]",
+          "ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]",
+          "ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]",
+          "ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]",
+          "ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]",
+          "ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]",
+          "ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]",
+          "ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]",
+          "ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]",
+          "ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]",
+          "ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]",
+          "ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]",
+          "ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]",
+          "ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]",
+          "ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]",
+          "ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]",
+          "ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]",
+          "ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]",
+          "ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]",
+          "ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]",
+          "ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]",
+          "ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]",
+          "ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]",
+          "ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]",
+          "ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]",
+          "ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]",
+          "ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]",
+          "ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]",
+          "ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]",
+          "ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]",
+          "ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]",
+          "ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]",
+          "ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]",
+          "ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]",
+          "ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]",
+          "ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]",
+          "ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]",
+          "ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]",
+          "ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]",
+          "ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]",
+          "ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]",
+          "equality comparison result unused [-Wunused-comparison]",
+          "equality comparison with extraneous parentheses [-Wparentheses-equality]",
+          "ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]",
+          "ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]",
+          "using the result of an assignment as a condition without parentheses [-Wparentheses]",
+          "ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]",
+          "ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]",
+          "ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]",
+          "ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]",
+          "ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]",
+          "ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]",
+          "ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]",
+          "ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]",
+          "ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]",
+          "ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]",
+          "ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]",
+          "ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]",
+          "ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]",
+          "ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]",
+          "ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]",
+          "ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]",
+          "ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]",
+          "ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]",
+          "ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]",
+          "ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]",
+          "ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]",
+          "ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]",
+          "ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]",
+          "ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]",
+          "ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]",
+          "ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]",
+          "ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]",
+          "ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]",
+          "ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]",
+          "ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]",
+          "ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]",
+          "ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]",
+          "ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]",
+          "ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]",
+          "ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]",
+          "ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]",
+          "ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]"
+        ]
+      },
+      {
+        "source": "Classes/moonchild/sneak.cpp",
+        "warnings": [
+          "using the result of an assignment as a condition without parentheses [-Wparentheses]"
+        ]
+      },
+      {
+        "source": "Classes/moonchild/wheel.cpp",
+        "warnings": [
+          "using the result of an assignment as a condition without parentheses [-Wparentheses]"
+        ]
+      }
+    ],
+    "warningSourceUnits": 8,
+    "outputs": [
+      {
+        "path": "moon-fe.js",
+        "bytes": 386915,
+        "sha256": "08480cfece14e1ed1ee77f6bf0e5f0d1a06699573e5ef15b58a4c0a669e42b9d"
+      },
+      {
+        "path": "moon-fe.wasm",
+        "bytes": 1226055,
+        "sha256": "01f35254e677122cad812b2982bcebb2066776d88b658dc168a2523a0cb8972f"
+      }
+    ],
+    "twoBuilds": {
+      "initialElapsedSeconds": 39.155,
+      "portableReplayElapsedSeconds": 11.647,
+      "all91ObjectsIdentical": true,
+      "jsIdentical": true,
+      "wasmIdentical": true,
+      "sourceInputsUnchanged": true
+    },
+    "wasmValidation": {
+      "valid": true,
+      "imports": 244,
+      "exports": 21,
+      "instantiated": false,
+      "mainCalled": false
+    },
+    "releaseGates": [
+      "All original media excluded; author independent complete graphics/animation/text/maps/etc with provenance, including embedded expressive-source audit",
+      "Implement null audio before any player execution; current audio code remains compiled",
+      "Close exact GLAD/generated header and SDK SDL2/zlib/system/JS grants and source obligations; external SDK not independently rebuilt",
+      "Verify normal controls/objectives/damage/death/retry/persistence/Stop and negative loads",
+      "Package corresponding source and reproduce final candidate, then local/production acceptance"
+    ],
+    "toolchain": "emcc 6.0.10 (d6c521a7f05449857c76bd99e396895583cf2083)",
+    "audioBackendStillCompiled": true,
+    "safeToRunAsSilentPlayer": false
+  },
+  "otherLeads": [
+    {
+      "identity": "Dave Gnukem",
+      "classification": "Original implementation, not Duke decompilation or engine for loading Duke retail data",
+      "code": "Original author MIT/GPL dual choice",
+      "content": "Separate data repo with mixed MIT/GPL, CC BY and CC0 per-item notices; complete selected pack not fetched or audited; independent replacements required for uncovered/non-CC0 presentation",
+      "browser": "Legacy in-progress Emscripten makefile; current source/dependency selection and actual browser gameplay unverified",
+      "disposition": "Conditional original-implementation lead; lower priority than actual decomps and selected Moon Child source port"
+    },
+    {
+      "identity": "Chromium B.S.U.",
+      "classification": "Original game/browser source port, not decompilation",
+      "code": "Clarified Artistic package terms read separately from MIT sound notice; not silently treated as already user-accepted MIT/permissive route",
+      "content": "Sounds grant not full artwork/font/prose clearance; no complete independent pack",
+      "browser": "Source port intent, but selected emitted dependency/runtime closure and gameplay unverified",
+      "disposition": "Conditional lower-priority lead; no claim the custom license is non-free"
+    }
+  ],
+  "deduplication": {
+    "aliasesChecked": [
+      "Moon Child",
+      "MoonChildFE",
+      "Moon Child FE",
+      "Moon Child SR",
+      "Dave Gnukem",
+      "Chromium B.S.U.",
+      "Chromium BSU"
+    ],
+    "repositoriesChecked": [
+      "HybridEidolon/moonchild-sr",
+      "MorsGames/MoonChildFE",
+      "davidjoffe/dave_gnukem",
+      "midzer/chromium-bsu"
+    ],
+    "matches": [],
+    "uniqueGameIdentities": 3
+  },
+  "verification": {
+    "newEligiblePublishedEntries": 0,
+    "newQualifyingDecompilations": 0,
+    "catalogValidation": {
+      "result": "passed",
+      "entries": 90
+    },
+    "catalogRuntimeAndPagesUnchanged": true,
+    "gameMediaROMRetailExecutableOrPrebuiltLibraryFetched": false,
+    "upstreamScriptOrDependencyInstallerExecuted": false,
+    "privateCompiledOutputsCreated": true,
+    "playerStarted": false,
+    "audibleTest": false,
+    "runtimeUploaded": false,
+    "sourceArchivePublished": false,
+    "websiteDeployed": false
+  },
+  "limits": [
+    "Source link/validation is not engine startup or completed gameplay.",
+    "Original author asset NC-SA and FE NC descriptions are not reconciled into permission to redistribute; all original media is excluded.",
+    "Original-developer MIT evidence does not replace separate third-party or retained expressive-content review.",
+    "No clean-room or matching certification; historical milestone not recertified."
+  ]
+}

@@ -1,0 +1,44 @@
+# Moon Child, Dave Gnukem and Chromium source intake — October 14, 2026
+
+**Moon Child FE is a viable source-port engineering lead:** original-programmer MIT code evidence, an explicit Web platform, and a strict asset-free 91-unit WASM link. A fresh portable-recipe build reproduced all objects and JS/WASM bytes. It is not yet an eligible playable release: independently authored content, silent runtime adaptation and complete dependency/gameplay gates remain. No new catalog entry or decompilation is added; catalog remains **90**.
+
+The [machine-readable checkpoint](moonchild-gnukem-chromium-source-intake-2026-10-14.json) records exact source pins, permission scope, compile evidence and limits. The [portable source probe](../experiments/moon-child-source-probe/README.md) contains the recipe and input hashes, without upstream game media or compiled runtime payloads.
+
+## Moon Child: original-programmer source permission, separate media terms
+
+The original team's [release page](https://metinseven.itch.io/moon-child-1997-windows-platform-game) links programmer Reinier van Vliet's Bitbucket repository and the Friend Edition directly. The Bitbucket account identifies that programmer; its [pinned license](https://api.bitbucket.org/2.0/repositories/rhinoid/moonchild/src/f8e0ff358432f4b6324ab74547d6fa8135d49d71/LICENSE) explicitly assigns MIT to source and CC BY-NC-SA 4.0 to non-code assets. This is original-developer code-release evidence, rather than a root MIT badge from a retail-code decompilation contributor.
+
+The selected [Friend Edition license](https://github.com/MorsGames/MoonChildFE/blob/fb35b9441f89f24cc512636bb6390a2cdfaa0257/LICENSE) retains MIT code attribution but describes assets as CC BY-NC 4.0. That difference is recorded, not resolved by assuming the fork can remove ShareAlike. All original graphics, audio, story, maps and media remain excluded from this experiment. A complete independent pack with CC0 provenance is required for the intended release. Text/initializers embedded in source also need expressive-content review; code licensing is not an automatic asset grant.
+
+The archived [SR fork](https://github.com/HybridEidolon/moonchild-sr/blob/642d6d92648e04f62f2d7cdc9e1e6ad9f31b0b86/README.md), nine stars at read, led to the discovery. Its Clang Release warning and copied retail sound changes are not imported as verified behavior or cleared media. The selected implementation is instead `MorsGames/MoonChildFE` at `fb35b9441f89f24cc512636bb6390a2cdfaa0257` (80 stars), explicitly linked by the original team. These forks represent one title.
+
+The [FE build selection](https://github.com/MorsGames/MoonChildFE/blob/fb35b9441f89f24cc512636bb6390a2cdfaa0257/CMakeLists.txt) has SDL2/SDL3 and OpenGL/GLES choices. Its `Host.cpp` actually yields through `emscripten_set_main_loop_arg`; Web configuration mounts persistent storage and normally preloads original `Data` and a controller database. The probe retains the selected SDL2/GLES2 code but omits both preloads. Default vendored SDL3 and this installed-SDK SDL2 selection are different dependency inputs.
+
+The fetch allowlist includes 220 FE source/build text files (1,432,993 bytes) and the exact 141,424-byte MIT-SPDX pl_mpeg header from FE's pinned gitlink. It excludes all original `Data` media, executables and unselected submodule payloads. The selected 91 translation units compile unchanged at `-O0`; every object has a WASM header. Strict linking reports no unresolved symbols. The portable recipe repeats the build in a fresh directory after verifying every input hash; all 91 object hashes and both output hashes match. Compiler warnings occur in eight source units, including assignment conditions and legacy writable string pointers. They are not hidden or fixed by this feasibility check; runtime behavior and optimized builds remain unverified.
+
+| Private artifact | Bytes | SHA-256 |
+| --- | ---: | --- |
+| Source-only JS | 386,915 | `08480cfece14e1ed1ee77f6bf0e5f0d1a06699573e5ef15b58a4c0a669e42b9d` |
+| Source-only WASM | 1,226,055 | `01f35254e677122cad812b2982bcebb2066776d88b658dc168a2523a0cb8972f` |
+
+WASM validation passed (244 imports, 21 exports) without instantiation or main execution. `INVOKE_RUN=0` is a loader setting, not a gameplay modification. The artifact still contains audio initialization code and is not run or shipped. A null-audio backend must precede any browser test. No engine startup or gameplay acceptance is claimed.
+
+Dependencies remain separate: the exact pl_mpeg header says MIT; dr_mp3 offers public-domain/MIT-0 alternatives; the Khronos platform header has its own permissive notice. The generated GLAD implementation/header origins and license closure, installed SDK SDL2/zlib/system objects and emitted JS need exact release treatment. FE's upstream SDL2/SDL3/zlib/controller gitlinks are inventoried, not claimed to be the libraries used by this probe. Root MIT does not close all third-party runtime grants. No complete independently rebuilt SDK or portable corresponding-source distribution is claimed.
+
+Next work is an independently authored complete campaign/presentation pack, retained source-expression replacements, null audio, dependency/runtime notices, ordinary controls/objectives/collisions/damage/death/retry/persistence/Stop, then source replay and production acceptance. Classification is **developer-source port with a future replacement campaign**, not a decompilation, emulation or certified clean-room rewrite.
+
+## Dave Gnukem: permissive original implementation, content/build gates
+
+`davidjoffe/dave_gnukem` at `fbda206d0aac575146b01179330484ccf1569aab` (84 stars) is an original platform shooter inspired by Duke Nukem, not Duke's decompilation or an engine intended to load its retail data. Its [README](https://github.com/davidjoffe/dave_gnukem/blob/fbda206d0aac575146b01179330484ccf1569aab/README.md) and [MIT notice](https://github.com/davidjoffe/dave_gnukem/blob/fbda206d0aac575146b01179330484ccf1569aab/MIT-LICENSE.txt) offer MIT/GPL choices for its own code. This is a conditional original-implementation lead, not a new decompilation.
+
+Content is in a separate data repository: the inspected helper would clone/pull it and optional editable sources, but was not run. The README identifies MIT/GPL data alongside CC BY fonts/icons/sounds and documented CC0 components. Those notices do not prove a complete per-file manifest for the current separate data revision. No data/media was acquired. Under the present preference, documented CC0 subsets can be considered after verification; uncovered/non-CC0 presentation needs independently authored replacements.
+
+The [Emscripten makefile](https://github.com/davidjoffe/dave_gnukem/blob/fbda206d0aac575146b01179330484ccf1569aab/Makefile.em) explicitly calls itself in-progress and uses legacy SDL/mixer/preload settings. A file named Makefile.em is concrete intent, not a verified current Web build or gameplay result. Modern selected source/dependency closure, silent build, full independent content, persistence and Stop remain gates. No Dave Gnukem compiler/player was launched in this review.
+
+## Chromium B.S.U.: custom code terms and separate sounds
+
+`midzer/chromium-bsu` at `1afca1a77d51e8ae2d2198eac5b618d43af7d9f6` (four stars) is a browser-port lead for an original game, not a decompilation. The [README](https://github.com/midzer/chromium-bsu/blob/1afca1a77d51e8ae2d2198eac5b618d43af7d9f6/README) declares Clarified Artistic terms for the package and separately MIT sounds. The actual [COPYING](https://github.com/midzer/chromium-bsu/blob/1afca1a77d51e8ae2d2198eac5b618d43af7d9f6/COPYING) was read; it is not silently relabeled MIT or certified as part of the user's currently accepted code route. No legal conclusion that this license is non-free is made.
+
+Selected configure/Makefile text retains OpenGL/GLU, selectable text/image/window/audio backends, gettext and codec/font dependencies. A complete current emitted browser/runtime closure and asset manifest were not established. The sounds' MIT notice does not clear all artwork/font/text resources. No browser, media, runtime executable, build or dependency installer was used for this lead. It remains lower priority than the more explicit Moon Child permission and Web selection.
+
+All leads were deduplicated by title aliases and source repositories. Existing catalog, runtime manifests and gameplay records are unchanged. No game media, ROM, retail executable or prebuilt game/library payload was fetched. Only local compiled objects/JS/WASM were produced; none was uploaded. An initial Bitbucket request used a nonexistent master branch; metadata identified main, which was then pinned and read successfully. Historical milestone counts are not recertified. Mario Party 2/3, Halo and private ROM research remain untouched.
