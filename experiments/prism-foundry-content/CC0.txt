@@ -1,0 +1,16 @@
+Prism Foundry original content
+Copyright (c) 2026 DecompGames contributors
+
+To the extent possible under law, the authors have waived all copyright and
+related or neighboring rights to the independently authored content generated
+by generate.py: graphics, palette, animation poses, block glyphs, maps, course
+placement specifications, and original campaign text. This work is dedicated
+under CC0 1.0 Universal (CC0-1.0).
+
+https://creativecommons.org/publicdomain/zero/1.0/legalcode
+The full legal code is included in CC0-1.0-legalcode.txt.
+
+This dedication covers only the newly authored content. It does not cover
+upstream Moon Child FE source, external libraries, original retail media,
+trademarks, or other third-party material. The generator and verification
+code use the separate MIT license in this directory.
