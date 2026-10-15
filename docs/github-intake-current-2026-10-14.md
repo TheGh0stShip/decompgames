@@ -4,6 +4,8 @@ Later October 14 checkpoint: catalog **90** after [Vector Duel](vector-duel-rele
 
 The following [Lain/Xenogears/Code Veronica X review](lain-xenogears-recvx-source-intake-2026-10-14.md) and [Kingdom Hearts/Namco/Forza review](kh-namco-forza-source-intake-2026-10-14.md) also add no entries. They record original-executable/disc/ROM dependencies, incomplete native gameplay, matching-only console builds and static-recompilation distinctions, plus separate code/SDK/dependency gates despite MIT declarations. Catalog **90**, milestone **4/5** still apply.
 
+Existing Open Paths has a [code provenance correction](open-paths-code-provenance-2026-10-14.md): contributor GPL/MIT declarations do not establish original rights-holder permission for inherited code. The six-level CC0 gameplay result remains; it is not code-permission evidence. Historical **4/5** records are preserved, not recertified as current permissive-code eligibility. No new entry is added.
+
 Existing Open Cadet now has [one unpaused native launch-skill bonus case and a separate debugger score pairing](open-cadet-skill-shot-production-test-2026-10-14.md). Runtime/source bytes are unchanged. This narrows its objective-verification gap; it does not complete all missions or add a game.
 
 Catalog **88**; eleven scoped intake additions have shipped, plus the existing Open Cadet repair. The strict additional-decompilation milestone remains **4/5**. This checkpoint supersedes chronological “pending”, “private prototype” and older catalog-count statements for the entries below. Those earlier records remain evidence of their respective stages.

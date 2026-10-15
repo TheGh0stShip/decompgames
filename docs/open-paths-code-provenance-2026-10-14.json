@@ -1,0 +1,209 @@
+{
+  "auditedAtUtc": "2026-10-15T00:57:35.490471+00:00",
+  "basisCommit": "eee3df363173cfb8797253fa61192356e79f530e",
+  "catalogCount": 90,
+  "scope": "Existing Open Paths code-declaration audit and licensing metadata correction; not a new game or legal clearance",
+  "snapshots": [
+    {
+      "repo": "sergiou87/open-supaplex",
+      "commit": "bad56a4e174e628643995284ea55d4c49af3137c",
+      "stars": 304,
+      "retrievedUtc": "2026-10-15T00:55:29.813881+00:00",
+      "treeFiles": 7692,
+      "treeTruncated": false,
+      "files": [
+        {
+          "path": "README.md",
+          "bytes": 6178,
+          "sha256": "9aef88931fd3746110f469dc93724b378b274ccec81cb3cc3bd36bc41bd68ef3",
+          "url": "https://github.com/sergiou87/open-supaplex/blob/bad56a4e174e628643995284ea55d4c49af3137c/README.md"
+        },
+        {
+          "path": "asm/LICENSE",
+          "bytes": 36845,
+          "sha256": "803186c9ec3c3327500dddfadfd205bae0b5e584e3e40af86225a39767529809",
+          "url": "https://github.com/sergiou87/open-supaplex/blob/bad56a4e174e628643995284ea55d4c49af3137c/asm/LICENSE"
+        },
+        {
+          "path": "src/supaplex.c",
+          "bytes": 501689,
+          "sha256": "4016d8f60c98274e9f9df74d7aca600f6b3a5300f9f2161f79041030b8f7fef9",
+          "url": "https://github.com/sergiou87/open-supaplex/blob/bad56a4e174e628643995284ea55d4c49af3137c/src/supaplex.c"
+        }
+      ]
+    },
+    {
+      "repo": "cilliemalan/supaplex",
+      "commit": "72292a798f8bc71cb5743478437bc0b520ec5b60",
+      "stars": 35,
+      "retrievedUtc": "2026-10-15T00:55:26.087763+00:00",
+      "treeFiles": 15,
+      "treeTruncated": false,
+      "files": [
+        {
+          "path": "README.md",
+          "bytes": 2332,
+          "sha256": "916b885bfa929b06a6154f46875662f8a58803fbc4f5a8c11efeb21b453b05d2",
+          "url": "https://github.com/cilliemalan/supaplex/blob/72292a798f8bc71cb5743478437bc0b520ec5b60/README.md"
+        },
+        {
+          "path": "LICENSE",
+          "bytes": 1367,
+          "sha256": "1eca890c53b73be3c5297518437b96ff57fba799832698a1379858f4cf29ffdf",
+          "url": "https://github.com/cilliemalan/supaplex/blob/72292a798f8bc71cb5743478437bc0b520ec5b60/LICENSE"
+        }
+      ]
+    }
+  ],
+  "externalStatement": {
+    "url": "https://www.elmerproductions.com/sp/faq.html#q_license",
+    "bytes": 47337,
+    "sha256": "8c59d8f36084e98a0764038e45fff50d8883f9901d97764427e44c30966bf354",
+    "scope": "Historical maintainer FAQ denies authority to grant clone/source rights; not a current rights-holder opinion"
+  },
+  "findings": {
+    "contributorGPLDeclaration": true,
+    "ancestorMITDeclaration": true,
+    "originalRightsHolderPermissionVerified": false,
+    "byteMatchingVerified": false,
+    "cleanRoomIsolationVerified": false,
+    "clearedForCurrentPermissiveIntake": false,
+    "replacementAssetGrantIsSeparate": true,
+    "newCatalogEntries": 0,
+    "newQualifyingDecompilations": 0
+  },
+  "unchangedPublishedPayloads": [
+    {
+      "path": "supaplex.js",
+      "bytes": 198751,
+      "sha256": "17e639ed0c674753d99c51799af8e98981a2855f4291d67bfe5ad10e85dc0b03",
+      "url": "/runtime/supaplex/bad56a4e174e-026301f2dd/supaplex.js"
+    },
+    {
+      "path": "supaplex.wasm",
+      "bytes": 1055169,
+      "sha256": "8bde797a8c381d8436d4cdada2703734bbc4c691a325c21290d68fac2ef4eaa5",
+      "url": "/runtime/supaplex/bad56a4e174e-026301f2dd/supaplex.wasm"
+    },
+    {
+      "path": "/games/supaplex/CHARS6.DAT",
+      "url": "/runtime/supaplex/bad56a4e174e-026301f2dd/assets/CHARS6.DAT",
+      "bytes": 512,
+      "sha256": "f1ad9b07226ad98a27fec6f26182b15dde71fb73625660876887c60fe0ad37df"
+    },
+    {
+      "path": "/games/supaplex/CHARS8.DAT",
+      "url": "/runtime/supaplex/bad56a4e174e-026301f2dd/assets/CHARS8.DAT",
+      "bytes": 512,
+      "sha256": "dfd95456760956a194fd31dd599f7074f1f98b12654a22557351cb186658243c"
+    },
+    {
+      "path": "/games/supaplex/FIXED.DAT",
+      "url": "/runtime/supaplex/bad56a4e174e-026301f2dd/assets/FIXED.DAT",
+      "bytes": 5120,
+      "sha256": "224f4466813e9798dd15364e0486727528729ccc3294046711cf22482d0af4ef"
+    },
+    {
+      "path": "/games/supaplex/MOVING.DAT",
+      "url": "/runtime/supaplex/bad56a4e174e-026301f2dd/assets/MOVING.DAT",
+      "bytes": 73920,
+      "sha256": "5562a6f00c7dddf3d347379dea107aa7aca5f23c51e5ead5b41b8d84621aa3e4"
+    },
+    {
+      "path": "/games/supaplex/PALETTES.DAT",
+      "url": "/runtime/supaplex/bad56a4e174e-026301f2dd/assets/PALETTES.DAT",
+      "bytes": 256,
+      "sha256": "b3ec10e197c6644f5baefddd36c155f03b15b3e2c0f7935877f167f65e7cbf6f"
+    },
+    {
+      "path": "/games/supaplex/MENU.DAT",
+      "url": "/runtime/supaplex/bad56a4e174e-026301f2dd/assets/MENU.DAT",
+      "bytes": 32000,
+      "sha256": "382f706f6a91ae4bf8f86b6a0bd9a86611df98d842d11f4267cba6824821f04f"
+    },
+    {
+      "path": "/games/supaplex/BACK.DAT",
+      "url": "/runtime/supaplex/bad56a4e174e-026301f2dd/assets/BACK.DAT",
+      "bytes": 32000,
+      "sha256": "0c92bddb4e96f3ea9ec9f0f64a668255a6c15527ac09f6f119cafde60c7c4a39"
+    },
+    {
+      "path": "/games/supaplex/CONTROLS.DAT",
+      "url": "/runtime/supaplex/bad56a4e174e-026301f2dd/assets/CONTROLS.DAT",
+      "bytes": 32000,
+      "sha256": "9302b6346a84adcd797338e64ddbb8e6db3f2361389cdfaa225db55e9e623885"
+    },
+    {
+      "path": "/games/supaplex/GFX.DAT",
+      "url": "/runtime/supaplex/bad56a4e174e-026301f2dd/assets/GFX.DAT",
+      "bytes": 32000,
+      "sha256": "a0ba233ff84ef4033105b7847355bbe0769c0f3ec6254fe3bcb0e794f06d3003"
+    },
+    {
+      "path": "/games/supaplex/TITLE.DAT",
+      "url": "/runtime/supaplex/bad56a4e174e-026301f2dd/assets/TITLE.DAT",
+      "bytes": 32000,
+      "sha256": "3606dfa3238b17dc4e705c22e8828bc900592501ce1d0ab005e8cccfcc4758d4"
+    },
+    {
+      "path": "/games/supaplex/TITLE1.DAT",
+      "url": "/runtime/supaplex/bad56a4e174e-026301f2dd/assets/TITLE1.DAT",
+      "bytes": 32000,
+      "sha256": "3606dfa3238b17dc4e705c22e8828bc900592501ce1d0ab005e8cccfcc4758d4"
+    },
+    {
+      "path": "/games/supaplex/TITLE2.DAT",
+      "url": "/runtime/supaplex/bad56a4e174e-026301f2dd/assets/TITLE2.DAT",
+      "bytes": 32000,
+      "sha256": "3606dfa3238b17dc4e705c22e8828bc900592501ce1d0ab005e8cccfcc4758d4"
+    },
+    {
+      "path": "/games/supaplex/PANEL.DAT",
+      "url": "/runtime/supaplex/bad56a4e174e-026301f2dd/assets/PANEL.DAT",
+      "bytes": 3840,
+      "sha256": "d58ab8293b3d8e32314d68eeb707f42b689d703ad37fc19616b9ca46a6a80a24"
+    },
+    {
+      "path": "/games/supaplex/LEVELS.DAT",
+      "url": "/runtime/supaplex/bad56a4e174e-026301f2dd/assets/LEVELS.DAT",
+      "bytes": 9216,
+      "sha256": "42129a281b05dd82f4fd1d1fe489e42d30a1f9e986a248b0b869affdba609e38"
+    },
+    {
+      "url": "/sources/open-paths-bad56a4e174e-026301f2dd.tar.gz",
+      "bytes": 158310,
+      "sha256": "df925352659c51ee6c0ac3f202b37b23b4bbbe8a4b0a56c62fe619951e7071a0"
+    }
+  ],
+  "newNotice": {
+    "url": "/notices/open-paths-upstream.txt",
+    "bytes": 36845,
+    "sha256": "803186c9ec3c3327500dddfadfd205bae0b5e584e3e40af86225a39767529809",
+    "source": "https://github.com/sergiou87/open-supaplex/blob/bad56a4e174e628643995284ea55d4c49af3137c/asm/LICENSE",
+    "scope": "Verbatim upstream contributor notices; not an original rights-holder grant"
+  },
+  "verification": {
+    "newGameplayTest": false,
+    "newAudibleTest": false,
+    "playerStarted": false,
+    "catalogAndStaticChecks": {
+      "catalogEntries": 90,
+      "unchangedOtherGameObjects": 89,
+      "unchangedPayloadHashes": 17,
+      "astroFiles": 108,
+      "errors": 0,
+      "warnings": 0,
+      "existingHints": 7,
+      "distributionGuardRecords": 816,
+      "distributionGuardEntries": 14,
+      "builtPages": 154
+    },
+    "liveMetadataAndPayloadChecks": "pending"
+  },
+  "limits": [
+    "No finding that the original rights holder prohibited this project is made. No separate original-code grant was established by the reviewed records.",
+    "The six-level gameplay receipt remains gameplay evidence, not permission evidence.",
+    "This review does not independently audit every compiled dependency or re-prove replacement asset authorship.",
+    "Historical 4/5 milestone records are not recertified as current permissive-code intake eligibility."
+  ]
+}

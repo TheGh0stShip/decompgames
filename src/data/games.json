@@ -2525,9 +2525,9 @@
   "mode": "instant",
   "engine": "OpenSupaplex",
   "description": "Guide a geometric rover through six independently designed circuit mazes and reach each exit.",
-  "overview": "Open Paths pairs the decompilation-derived OpenSupaplex engine with a new six-level navigation campaign. Every distributed level, screen, tile, sprite, font, palette, and panel is independently generated and released under CC0. The campaign intentionally focuses on maze navigation and exits, without the original game’s collectibles, hazards, enemies, music, or sound effects.",
+  "overview": "Open Paths pairs the reconstruction-derived OpenSupaplex C reimplementation with a new six-level navigation campaign. This is a source rewrite based on disassembly, without verified byte-for-byte matching or clean-room isolation. Every distributed level, screen, tile, sprite, font, palette, and panel is independently generated and released under CC0. The campaign intentionally focuses on maze navigation and exits, without the original game’s collectibles, hazards, enemies, music, or sound effects.",
   "source": "https://github.com/sergiou87/open-supaplex",
-  "engineLicense": "GPL-3.0-only (C implementation); MIT disassembly",
+  "engineLicense": "GPL-3.0-only C implementation; upstream MIT declaration, inherited-code permission unresolved",
   "assetLicense": "CC0-1.0 Open Paths replacement campaign",
   "assetRequirements": "No original game files needed.",
   "controls": [
@@ -2538,6 +2538,7 @@
   ],
   "saveInstructions": "Player progress is stored locally in this browser. Use Export saves for a portable backup before clearing browser data; export/delete/import restoration passed the September 22 test.",
   "limitations": [
+    "The contributor GPL/MIT declarations do not establish original rights-holder permission for inherited game code. This existing entry is not a cleared addition under the current permissive-code intake.",
    "Six navigation-and-exit puzzles; this campaign intentionally has no collectibles, hazards, enemies, music, or sound effects.",
    "All six authored levels and completed progress after a full browser restart are verified. Other browsers and rapid-close save durability remain unverified.",
    "Mouse is currently required for menu buttons."

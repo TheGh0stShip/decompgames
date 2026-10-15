@@ -3,6 +3,10 @@ layout: ../../layouts/Article.astro
 title: What’s new
 description: Release notes and compatibility changes for Decomp Games.
 ---
+## October 14, 2026 — Open Paths: code provenance clarified
+
+OpenSupaplex declares GPL for its C implementation and MIT for upstream disassembly work. The upstream MIT rationale does not establish original rights-holder permission for inherited game code; CC0 replacement assets address a separate grant. The existing game and six-level gameplay evidence remain, with this unresolved code scope recorded. The licenses page now uses per-project evidence instead of a blanket clean-room claim. [Source review](https://github.com/andrewnakas/decompgames/blob/main/docs/open-paths-code-provenance-2026-10-14.md).
+
 ## October 14, 2026 — Open Cadet: native launch-skill bonus verified
 
 Unpaused muted keyboard play displayed Open Cadet's launch-skill bonus and a 7,500-point score. A separate read-only debugger run paired a native award with a 30,000-point score increase. The game package is unchanged, both players stopped with save synchronization, and exact plunger timing, all missions and full playthrough remain unverified. [Skill-shot evidence](https://github.com/andrewnakas/decompgames/blob/main/docs/open-cadet-skill-shot-production-test-2026-10-14.json). [Play Open Cadet](/games/open-cadet/).

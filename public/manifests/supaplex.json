@@ -125,5 +125,23 @@
     "campaignLevels": 6,
     "scope": "Navigation and exit puzzles; no collectibles, hazards or enemies.",
     "manifestSha256": "fa7807bc5f54ad03277abee8d3693f22a53fc100003f513a4014f3a55a651801"
-  }
+  },
+  "codeProvenance": {
+    "classification": "Reconstruction-derived C source rewrite; no verified matching or clean-room isolation",
+    "selectedCodeDeclaration": "GPL-3.0-only, Sergio Padrino",
+    "ancestorDeclaration": "MIT, Cillie Malan; based on absence of a prohibiting notice, not verified original rights-holder permission",
+    "originalRightsHolderPermissionVerified": false,
+    "clearedForCurrentPermissiveIntake": false,
+    "assetGrantSeparate": true,
+    "audit": "https://github.com/andrewnakas/decompgames/blob/main/docs/open-paths-code-provenance-2026-10-14.md"
+  },
+  "licenseNotices": [
+    {
+      "url": "/notices/open-paths-upstream.txt",
+      "bytes": 36845,
+      "sha256": "803186c9ec3c3327500dddfadfd205bae0b5e584e3e40af86225a39767529809",
+      "source": "https://github.com/sergiou87/open-supaplex/blob/bad56a4e174e628643995284ea55d4c49af3137c/asm/LICENSE",
+      "scope": "Verbatim upstream contributor notices; not an original rights-holder grant"
+    }
+  ]
 }
