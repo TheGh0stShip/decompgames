@@ -3,6 +3,10 @@ layout: ../../layouts/Article.astro
 title: What’s new
 description: Release notes and compatibility changes for Decomp Games.
 ---
+## October 14, 2026 — Open Cadet: native launch-skill bonus verified
+
+Unpaused muted keyboard play displayed Open Cadet's launch-skill bonus and a 7,500-point score. A separate read-only debugger run paired a native award with a 30,000-point score increase. The game package is unchanged, both players stopped with save synchronization, and exact plunger timing, all missions and full playthrough remain unverified. [Skill-shot evidence](https://github.com/andrewnakas/decompgames/blob/main/docs/open-cadet-skill-shot-production-test-2026-10-14.json). [Play Open Cadet](/games/open-cadet/).
+
 ## October 14, 2026 — Signal Survey: three stations in Rogue code
 
 Retrieve a survey lens, then carry it back through three stations to the surface. Signal Survey runs native Rogue source with independently authored CC0 layouts, encounters, glyphs, names and messages. It requires no ROM or original media and is silent. Save and exit, Continue saved, New expedition and Stop are included. This is a source port with an original replacement campaign and does not advance the decompilation milestone. [Play Signal Survey](/games/signal-survey/).

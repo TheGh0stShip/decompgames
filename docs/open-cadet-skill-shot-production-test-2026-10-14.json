@@ -1,0 +1,269 @@
+{
+  "date": "2026-10-15T00:45:30.327446+00:00",
+  "localDate": "2026-10-14 America/Denver",
+  "scope": "Existing Open Cadet: one unpaused native launch-skill bonus; separate read-only debugger score pairing. No new game, mission completion, clean-room, rights-clearance or full-playthrough claim.",
+  "catalogCount": 90,
+  "strictAdditionalDecompilationMilestone": "4/5 unchanged",
+  "sourceBuild": {
+    "sourceArchiveSHA256": "33d4502ff6f3d8023b0248b9fff68c2a1f709a12cee9584625618be658f04a42",
+    "sourceArchiveBytes": 1489466,
+    "sourceUnits": 68,
+    "sourceModified": false,
+    "compiler": "Emscripten 6.0.10",
+    "recipeExtraFlag": "--emit-symbol-map",
+    "compilerInvocation": "Python em++.py launcher on this Windows SDK; original C++/resource inputs unchanged",
+    "wasmSHA256": "06edc08c83025f2de2d7024111186a2ebf8059081f929c17eb4ca554e243d891",
+    "matchesPublishedWasm": true,
+    "symbolMap": {
+      "path": "authored-cadet.js.symbols",
+      "bytes": 186177,
+      "sha256": "0f68a7b7247acd0a7b04a4f6093a329b1b0f3a60390589c3106b6b540d06bf28"
+    },
+    "abiQuery": "#include \"pch.h\"\n#include \"TPinballTable.h\"\nextern \"C\" int cadet_current_score_offset(){return __builtin_offsetof(TPinballTable,CurScore);}\n",
+    "abiQueryLinkedIntoGame": false,
+    "currentScoreOffset": 84,
+    "abiLLVM": {
+      "path": "abi.ll",
+      "bytes": 841,
+      "sha256": "483968125c2a242493b5ea33361b87f030fa43150fc9adb02ca46af73ec9c55c"
+    }
+  },
+  "unpaused": {
+    "date": "2026-10-15T00:29:43.106Z",
+    "scope": "Unpaused canonical Open Cadet ordinary F2/Space keyboard launch; read-only scan for runtime-formatted native bonus message plus screenshot. No debugger, native function calls or game-state writes.",
+    "muted": true,
+    "errors": [],
+    "missing": [],
+    "external": [
+      "https://static.cloudflareinsights.com/beacon.min.js/v4bc70e2c01a94c73b74392e4234840661791215815920",
+      "https://www.googletagmanager.com/gtag/js?id=G-GQ6627GN8H",
+      "https://static.cloudflareinsights.com/beacon.min.js/v4bc70e2c01a94c73b74392e4234840661791215815920"
+    ],
+    "attempts": [
+      {
+        "hold": 900,
+        "observed": [
+          {
+            "elapsedMs": 5763,
+            "hits": [
+              {
+                "address": 6553544,
+                "text": "Launch skill bonus\n7500"
+              }
+            ]
+          }
+        ],
+        "keys": [
+          "F2",
+          "wait1700ms",
+          "Space down 900ms",
+          "Space up"
+        ],
+        "screenshot": "unpaused-award-900.png",
+        "stopSync": true
+      }
+    ],
+    "soundOff": true,
+    "formattedBonusObserved": true,
+    "status": "passed",
+    "playersClosed": true
+  },
+  "unpausedScreenshot": {
+    "path": "open-cadet-skill-shot-unpaused-2026-10-14.png",
+    "bytes": 286845,
+    "sha256": "c6af19eca11b28512e58bc95560fe4f8c47136bd2e8d9dc373d66d50f1bdab93",
+    "visuallyInspected": true,
+    "visibleText": "LAUNCH SKILL BONUS",
+    "visibleScore": 7500,
+    "role": "Direct native canvas screenshot; no image editing"
+  },
+  "debuggerPair": {
+    "scope": "Live unchanged Open Cadet WASM: ordinary F2/Space input; read-only debugger entry/step-out score and native message observation. Debugger pauses alter timing.",
+    "liveBytecodeMatches": true,
+    "functions": [
+      {
+        "index": 268,
+        "bodyOffset": 18719,
+        "codeOffset": 18722,
+        "endOffset": 19150,
+        "symbol": "control::DeploymentChuteToEscapeChuteOneWayControl(int, TPinballComponent*)"
+      },
+      {
+        "index": 1654,
+        "bodyOffset": 762824,
+        "codeOffset": 762827,
+        "endOffset": 763017,
+        "symbol": "TPinballTable::AddScore(int)"
+      },
+      {
+        "index": 1723,
+        "bodyOffset": 778194,
+        "codeOffset": 778197,
+        "endOffset": 778450,
+        "symbol": "TTextBox::Display(char*, float)"
+      }
+    ],
+    "awards": [
+      {
+        "phase": "launch-650",
+        "table": 6276336,
+        "points": 30000,
+        "before": 0,
+        "entryLocals": {
+          "$var0": 6276336,
+          "$var1": 30000,
+          "$var2": 0
+        },
+        "stack": [
+          {
+            "index": 1654,
+            "name": "TPinballTable::AddScore(int)",
+            "offset": 762829
+          },
+          {
+            "index": 268,
+            "name": "control::DeploymentChuteToEscapeChuteOneWayControl(int, TPinballComponent*)",
+            "offset": 18842
+          },
+          {
+            "index": 323,
+            "name": "control::handler(int, TPinballComponent*)",
+            "offset": 39412
+          },
+          {
+            "index": 1633,
+            "name": "TOneway::Collision(TBall*, vector_type*, vector_type*, float, TEdgeSegment*)",
+            "offset": 756215
+          },
+          {
+            "index": 1629,
+            "name": "TLine::EdgeCollision(TBall*, float)",
+            "offset": 754499
+          },
+          {
+            "index": 1402,
+            "name": "pb::collide(float, float, TBall*)",
+            "offset": 688653
+          }
+        ],
+        "after": 30000,
+        "returnStack": [
+          {
+            "index": 268,
+            "name": "control::DeploymentChuteToEscapeChuteOneWayControl(int, TPinballComponent*)",
+            "offset": 18848
+          },
+          {
+            "index": 323,
+            "name": "control::handler(int, TPinballComponent*)",
+            "offset": 39412
+          },
+          {
+            "index": 1633,
+            "name": "TOneway::Collision(TBall*, vector_type*, vector_type*, float, TEdgeSegment*)",
+            "offset": 756215
+          },
+          {
+            "index": 1629,
+            "name": "TLine::EdgeCollision(TBall*, float)",
+            "offset": 754499
+          }
+        ]
+      }
+    ],
+    "messages": [
+      {
+        "phase": "launch-650",
+        "text": "Launch skill bonus\n30000",
+        "stack": [
+          {
+            "index": 1723,
+            "name": "TTextBox::Display(char*, float)",
+            "offset": 778199
+          },
+          {
+            "index": 268,
+            "name": "control::DeploymentChuteToEscapeChuteOneWayControl(int, TPinballComponent*)",
+            "offset": 18907
+          },
+          {
+            "index": 323,
+            "name": "control::handler(int, TPinballComponent*)",
+            "offset": 39412
+          },
+          {
+            "index": 1633,
+            "name": "TOneway::Collision(TBall*, vector_type*, vector_type*, float, TEdgeSegment*)",
+            "offset": 756215
+          },
+          {
+            "index": 1629,
+            "name": "TLine::EdgeCollision(TBall*, float)",
+            "offset": 754499
+          }
+        ]
+      }
+    ],
+    "errors": [],
+    "missing": [],
+    "debugErrors": [],
+    "soundOff": true,
+    "stopSync": true,
+    "playersClosed": true,
+    "screenshot": {
+      "path": "live-skill-bonus.png",
+      "bytes": 317658,
+      "sha256": "be0e5872bad21ed70435f3dc96eb661e003bc32d7ad67fb906b847c2e6698499"
+    }
+  },
+  "harnesses": {
+    "debugger": {
+      "path": "test-objective.cjs",
+      "bytes": 8043,
+      "sha256": "c840647388d9848f1538f0cf12ae3ed9fe8b34e1cc2455b39dc01c05d06c645e"
+    },
+    "unpausedAccepted": {
+      "path": "test-unpaused-scan.cjs",
+      "bytes": 3453,
+      "sha256": "b8ae8d4efd4915c79e6bc3749463b2418f2152f30bece7b4c7fbaa3474cc591c"
+    }
+  },
+  "limits": [
+    "One unpaused 7500-point case, not calibrated or reliably repeatable hold-time advice; other short/timed attempts did not reproduce the bonus. Native RNG, frame scheduling and input timing vary.",
+    "Separate debugger run awarded 30000 and verified native score delta; pauses change wall-clock timing. Do not call that a real-time force or timing calibration.",
+    "A read-only scan finds the runtime-formatted message; the static %ld format alone is rejected. Screenshot visually confirms actual native text and score.",
+    "All missions, remaining objectives, complete table playthrough, every collision state/device, rapid-close persistence and audible sound remain unverified.",
+    "No new license, asset-provenance or clean-room conclusion from gameplay. Existing distribution is unchanged."
+  ],
+  "failedOrLimitedAttempts": [
+    "First harness opened the guide route instead of /play/open-cadet/; no gameplay evidence.",
+    "Initial observer did not unwrap CDP wasmvalue objects; those attempts do not establish an absence of native messages.",
+    "Earlier short holds began before the documented ball-feed delay finished; they are not valid positive skill-shot evidence.",
+    "Initial unpaused 650ms run captured only zero-score/ready frames, not a bonus.",
+    "A subsequent portable harness candidate observed no bonus for 900/1100/1300ms and then hit a page-navigation timeout. It is retained privately and is not claimed as a stable regression test.",
+    "Initial build helper referenced absent em++.bat; retried successfully using the installed Python launcher."
+  ],
+  "playersClosed": true,
+  "sound": "Shared shell Sound: off plus headless Edge --mute-audio; audible audio unverified",
+  "gameStateWrites": false,
+  "nativeFunctionCallsFromHarness": false,
+  "runtimeOrSourceUploaded": false,
+  "runtimeOrSourceChanged": false,
+  "protectedEntriesUntouched": [
+    "Mario Party 2",
+    "Mario Party 3",
+    "Halo"
+  ],
+  "staticVerification": {
+    "catalogEntries": 90,
+    "distributionFilesAndSourceArchives": 816,
+    "auditedEntries": 14,
+    "astroFiles": 108,
+    "astroErrors": 0,
+    "astroWarnings": 0,
+    "astroHints": 7,
+    "hintsPreExisting": true,
+    "gameObjectScope": "Only Open Cadet changed; all other parsed catalog objects equal before/after",
+    "runtimeAndSourceAllFourHashesUnchanged": true
+  }
+}
