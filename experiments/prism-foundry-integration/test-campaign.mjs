@@ -57,9 +57,10 @@ try{
     const s=await state(),key=target>s.x?'ArrowRight':'ArrowLeft';
     await page.keyboard.down(key);await page.keyboard.down('Space');
     await ticks(6);await page.keyboard.up('Space');
-    const delta=Math.abs(target-s.x),cutoff=Math.max(6,Math.round(delta/4-13));
-    if(cutoff>6)await ticks(cutoff-6);
-    await page.keyboard.up(key);await ticks(70);
+    const right=target>s.x,threshold=target+(right?-80:80);
+    try{await game.waitForFunction(({threshold,right})=>{const s=foundrySnapshot();return right?s.x>=threshold:s.x<=threshold;},{threshold,right},{timeout:4000});}
+    finally{await page.keyboard.up(key);}
+    await ticks(70);
   };
   const collect=async (x,count)=>{
     if((await state()).prisms<count){await move(x);await ticks(75);}
@@ -70,7 +71,7 @@ try{
   await move(250);await record('first launch');await jump(420);await record('first ledge landing');
   await move(420);await ticks(75);await record('first prism');assert.equal((await state()).prisms,1);
   await move(500);await jump(740);await record('second ledge landing');
-  await ticks(75);await record('second prism');assert.equal((await state()).prisms,2);
+  await collect(752,2);await record('second prism');
   await jump(1080);await record('first gap crossing');
   if(saveRestart){
     await game.waitForFunction(()=>foundrySnapshot().checkpointActive===1);

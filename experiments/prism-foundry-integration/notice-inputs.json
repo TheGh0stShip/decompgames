@@ -1,0 +1,91 @@
+{
+  "scope": "Eight primary notices matched to local inputs; partial notice groundwork, not complete selected dependency/source closure",
+  "files": [
+    {
+      "path": "experiments/prism-foundry-integration/notices/Emscripten-LICENSE.txt",
+      "url": "https://raw.githubusercontent.com/emscripten-core/emscripten/6.0.10/LICENSE",
+      "bytes": 5093,
+      "sha256": "620a78084fc7ca97c0b5dea9abf891f3ffcadfdbf305276f099c9c4e12fc1d86",
+      "localBytes": 5093,
+      "localSha256": "620a78084fc7ca97c0b5dea9abf891f3ffcadfdbf305276f099c9c4e12fc1d86",
+      "newlineEquivalentToInstalledOrPinnedInput": true,
+      "scope": "Emscripten runtime; MIT/NCSA and included Node MIT notice"
+    },
+    {
+      "path": "experiments/prism-foundry-integration/notices/SDL2-LICENSE.txt",
+      "url": "https://raw.githubusercontent.com/libsdl-org/SDL/release-2.32.10/LICENSE.txt",
+      "bytes": 884,
+      "sha256": "97f35b302b361680ec1e891e95d2d52097bb95abff361434916d99dc1305f127",
+      "localBytes": 884,
+      "localSha256": "97f35b302b361680ec1e891e95d2d52097bb95abff361434916d99dc1305f127",
+      "newlineEquivalentToInstalledOrPinnedInput": true,
+      "scope": "SDL2 2.32.10; zlib-style notice"
+    },
+    {
+      "path": "experiments/prism-foundry-integration/notices/musl-COPYRIGHT.txt",
+      "url": "https://raw.githubusercontent.com/emscripten-core/emscripten/6.0.10/system/lib/libc/musl/COPYRIGHT",
+      "bytes": 6196,
+      "sha256": "b870108ec5e7790e9f9919064f1b9421d62d5f9b0e6c230c6adf7ea2da62e97b",
+      "localBytes": 6196,
+      "localSha256": "b870108ec5e7790e9f9919064f1b9421d62d5f9b0e6c230c6adf7ea2da62e97b",
+      "newlineEquivalentToInstalledOrPinnedInput": true,
+      "scope": "musl umbrella MIT and separate-file/attribution scope"
+    },
+    {
+      "path": "experiments/prism-foundry-integration/notices/libcxx-LICENSE.txt",
+      "url": "https://raw.githubusercontent.com/emscripten-core/emscripten/6.0.10/system/lib/libcxx/LICENSE.TXT",
+      "bytes": 16703,
+      "sha256": "539dd7aed86e8a4f12cbdd0e6c50c189c7d74847e4fecc64ce2c6ee3a01da38b",
+      "localBytes": 16703,
+      "localSha256": "539dd7aed86e8a4f12cbdd0e6c50c189c7d74847e4fecc64ce2c6ee3a01da38b",
+      "newlineEquivalentToInstalledOrPinnedInput": true,
+      "scope": "libc++; Apache-2.0 with LLVM exceptions and legacy alternatives"
+    },
+    {
+      "path": "experiments/prism-foundry-integration/notices/libcxxabi-LICENSE.txt",
+      "url": "https://raw.githubusercontent.com/emscripten-core/emscripten/6.0.10/system/lib/libcxxabi/LICENSE.TXT",
+      "bytes": 16706,
+      "sha256": "e2b35be49f7284a45b7baca8fc7b3ab7440e7902392b2528a457816b5bb2a15c",
+      "localBytes": 16706,
+      "localSha256": "e2b35be49f7284a45b7baca8fc7b3ab7440e7902392b2528a457816b5bb2a15c",
+      "newlineEquivalentToInstalledOrPinnedInput": true,
+      "scope": "libc++abi; Apache-2.0 with LLVM exceptions and legacy alternatives"
+    },
+    {
+      "path": "experiments/prism-foundry-integration/notices/compiler-rt-LICENSE.txt",
+      "url": "https://raw.githubusercontent.com/emscripten-core/emscripten/6.0.10/system/lib/compiler-rt/LICENSE.TXT",
+      "bytes": 16708,
+      "sha256": "1a8f1058753f1ba890de984e48f0242a3a5c29a6a8f2ed9fd813f36985387e8d",
+      "localBytes": 16708,
+      "localSha256": "1a8f1058753f1ba890de984e48f0242a3a5c29a6a8f2ed9fd813f36985387e8d",
+      "newlineEquivalentToInstalledOrPinnedInput": true,
+      "scope": "compiler-rt; Apache-2.0 with LLVM exceptions and legacy alternatives"
+    },
+    {
+      "path": "experiments/prism-foundry-integration/notices/GLAD-LICENSE.txt",
+      "url": "https://raw.githubusercontent.com/Dav1dde/glad/1ecd45775d96f35170458e6b148eb0708967e402/LICENSE",
+      "bytes": 3014,
+      "sha256": "3d6e8bb9a06887b182a1da966937678b69fb8faeacf05dbf058cec8d0e4dc872",
+      "localBytes": 3014,
+      "localSha256": "3d6e8bb9a06887b182a1da966937678b69fb8faeacf05dbf058cec8d0e4dc872",
+      "newlineEquivalentToInstalledOrPinnedInput": true,
+      "scope": "GLAD generator and its registry/header scope"
+    },
+    {
+      "path": "experiments/prism-foundry-integration/notices/MoonChildFE-LICENSE.txt",
+      "url": "https://raw.githubusercontent.com/MorsGames/MoonChildFE/fb35b9441f89f24cc512636bb6390a2cdfaa0257/LICENSE",
+      "bytes": 2236,
+      "sha256": "222920983c8996dd242069bb4af289990c49151553d60b708356cb48c01126e1",
+      "localBytes": 2236,
+      "localSha256": "222920983c8996dd242069bb4af289990c49151553d60b708356cb48c01126e1",
+      "newlineEquivalentToInstalledOrPinnedInput": true,
+      "scope": "FE code MIT and separately excluded NC original-media statement"
+    }
+  ],
+  "remaining": [
+    "selected musl math and other per-file notice reconciliation",
+    "SDL/SDK selected-source mapping and reproducible SDK source capture",
+    "dlmalloc and remaining selected header/generated-code notice packaging",
+    "final distribution allowlist and corresponding source"
+  ]
+}

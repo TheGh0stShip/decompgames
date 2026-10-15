@@ -12,6 +12,7 @@ import sys
 p = argparse.ArgumentParser(description=__doc__)
 for name in ['base-build', 'pack', 'output', 'emscripten', 'em-config']:
     p.add_argument('--'+name, type=Path, required=True)
+p.add_argument('--strip-campaign-tables',action='store_true',help='Generate a private globals/trigger derivative without original campaign placement roots.')
 a = p.parse_args()
 here = Path(__file__).resolve().parent
 repo = here.parent.parent
@@ -132,6 +133,19 @@ heartbeat = heartbeat.replace('  if (pauseflg) return (HEARTBEAT_FN) MC_heartbea
   }''')
 heartbeat = heartbeat.replace('  score_display(&player1);', '  // The wrapper presents the authored objective and pickup count.')
 mc = mc[:start]+heartbeat+mc[end:]
+if a.strip_campaign_tables:
+    mc=replace_function(mc,'void framework_ExitGame(void)','''  killlevel();
+  free(dotbase); dotbase=nullptr;
+  free(dotcolbase); dotcolbase=nullptr;
+  delete vidblitbuf; vidblitbuf=nullptr;
+  disablefastfile();''')
+    start=mc.index('HEARTBEAT_FN MC_heartbeat(void)\n{');end=mc.index('\nvoid fullversion_display',start)
+    body=mc[start:end]
+    oldstart=body.index('  if (exitflg == 1)')
+    oldend=body.index('  if (nextlvlflg)',oldstart)
+    body=body[:oldstart]+'''  if (exitflg) { FoundryRetry=1; return (HEARTBEAT_FN) MC_heartbeat; }
+'''+body[oldend:]
+    mc=mc[:start]+body+mc[end:]
 mc = mc.replace('orgbonus = anim_retrieveanim("bonus");', 'orgbonus = anim_retrieveanim("bump"); // Authored pickup burst.')
 mc = mc.replace('  sound_load();', '  // No audio files are shipped or opened.')
 mc = mc.replace('  sound_destroy();', '  // No campaign sounds were loaded.')
@@ -155,6 +169,15 @@ diamond=(source/'Classes/moonchild/diamond.cpp').read_text(encoding='utf-8')
 diamond='#include "FoundryProgress.h"\n'+diamond
 diamond=diamond.replace('      bonus_init(object->x, object->y, 1, 1);','      FoundryPrismCollected(object->x,diamondblood->y);\n      bonus_init(object->x, object->y, 1, 1);',1)
 (out/'diamond.cpp').write_text(diamond,encoding='utf-8',newline='\n')
+if a.strip_campaign_tables:
+    globalsText=(source/'Classes/moonchild/globals.cpp').read_text(encoding='utf-8')
+    start=globalsText.index('SCR_TRIGGER_ITEM scr_triggertab[] = {');end=globalsText.index('\n};',start)+3
+    globalsText=globalsText[:start]+'SCR_TRIGGER_ITEM scr_triggertab[]={{65535,0,nullptr}};'+globalsText[end:]
+    start=globalsText.index('/* trigger lijsten voor level */')
+    globalsText=globalsText[:start]+'// Authored descriptors are installed by FoundryConfigureLevels.\nLEVEL_DESCR levels[5][4]={};\n'
+    assert 'init_level_' not in globalsText and 'triggerlist_' not in globalsText and 'lvl11.map' not in globalsText
+    (out/'globals.cpp').write_text(globalsText,encoding='utf-8',newline='\n')
+    (out/'campaign-trigger.cpp').write_text('// SPDX-License-Identifier: MIT\n// Authored campaign uses object callbacks for pickups/checkpoints/gates.\nvoid trigger() {}\n',encoding='utf-8',newline='\n')
 host = (source/'Platform/App/Host.cpp').read_text().replace('"Moon Child FE"', '"Prism Foundry"')
 host = host.replace('    LoadProgress();', '    // Authored campaign has no retail progress import.')
 host = host.replace('    SaveProgress();', '    // No retail progress export.')
@@ -174,6 +197,7 @@ includes = ['-I'+str(out), '-I'+str(here)]+['-I'+str(p) for p in sorted({p.paren
 definitions = ['MOONCHILD_WINDOW_SDL2','MOONCHILD_RENDERER_GLES','MOONCHILD_INPUT_SDL2','MOONCHILD_AUDIO_NULL','MOONCHILD_USE_SDL','MOONCHILD_USE_SDL2','MOONCHILD_USE_OPENGL','MOONCHILD_DESKTOP_MODE','MOONCHILD_WEB','SDL_MAIN_HANDLED','MOONCHILD_APP_VERSION_STR="Prism Foundry private candidate"']
 common = ['-O0','-g2','-std=c++11','-sUSE_SDL=2','-UNDEBUG', *['-D'+d for d in definitions], *includes]
 replaced = {'Classes/moonchild/mc.cpp','Classes/moonchild/anim.cpp','Classes/moonchild/asset.cpp','Classes/moonchild/diamond.cpp','Platform/App/Host.cpp'}
+if a.strip_campaign_tables:replaced|={'Classes/moonchild/globals.cpp','Classes/moonchild/levinits.cpp','Classes/moonchild/trigger.cpp'}
 objects = []
 retained = []
 for r in reference['nativeVerification']['linkedAdaptedObjects']:
@@ -183,14 +207,16 @@ for r in reference['nativeVerification']['linkedAdaptedObjects']:
     assert sha(path.read_bytes()) == r['sha256'], r['source']
     retained.append(r)
     objects.append(path)
-receipt = {'scope':'Private authored campaign candidate; distribution/license closure and gameplay acceptance pending', 'retainedObjects':retained, 'newUnits':[], 'packManifestSha256':reference['pack']['manifestSha256'], 'gameStarted':False}
+receipt = {'scope':'Private authored campaign candidate; distribution/license closure and gameplay acceptance pending', 'retainedObjects':retained, 'newUnits':[], 'packManifestSha256':reference['pack']['manifestSha256'], 'gameStarted':False,'originalCampaignPlacementRootsRemoved':a.strip_campaign_tables}
 
 def run(command, log):
     result = subprocess.run(command, env=env, capture_output=True, text=True)
     (out/log).write_text(result.stdout+result.stderr, encoding='utf-8')
     return {'command':command,'exitCode':result.returncode,'log':log}
 
-for path in [out/'mc.cpp', out/'Host.cpp', out/'Main.cpp', here/'animation.cpp', here/'assets.cpp', out/'FoundryLevels.cpp', here/'FoundryProgress.cpp', out/'diamond.cpp']:
+newPaths=[out/'mc.cpp', out/'Host.cpp', out/'Main.cpp', here/'animation.cpp', here/'assets.cpp', out/'FoundryLevels.cpp', here/'FoundryProgress.cpp', out/'diamond.cpp']
+if a.strip_campaign_tables:newPaths+=[out/'globals.cpp',out/'campaign-trigger.cpp']
+for path in newPaths:
     obj = out/(path.name+'.o')
     result = run([sys.executable,str(a.emscripten.resolve()/'em++.py'),*common,'-c',str(path),'-o',str(obj)], path.name+'.log')
     result.update({'source':str(path),'sha256':sha(path.read_bytes())})
@@ -198,7 +224,7 @@ for path in [out/'mc.cpp', out/'Host.cpp', out/'Main.cpp', here/'animation.cpp',
     if result['exitCode']:
         break
     objects.append(obj)
-if len(receipt['newUnits'])==8 and all(r['exitCode']==0 for r in receipt['newUnits']):
+if len(receipt['newUnits'])==len(newPaths) and all(r['exitCode']==0 for r in receipt['newUnits']):
     flags = ['-O0','-g2','-sUSE_SDL=2','-sENVIRONMENT=web','-sALLOW_MEMORY_GROWTH=1','-sFORCE_FILESYSTEM=1','-sEXIT_RUNTIME=0','-sMIN_WEBGL_VERSION=1','-sMAX_WEBGL_VERSION=1','-sASSERTIONS=2','-sSAFE_HEAP=1','-sERROR_ON_UNDEFINED_SYMBOLS=1','--embed-file',str(pack)+'@/data']
     receipt['link'] = run([sys.executable,str(a.emscripten.resolve()/'em++.py'),*[str(o) for o in objects],*flags,'-o',str(out/'foundry.js')], 'link.log')
     if receipt['link']['exitCode']==0:

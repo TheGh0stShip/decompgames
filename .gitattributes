@@ -33,3 +33,4 @@ experiments/moon-child-source-probe/** -text
 experiments/moon-child-independent-adapters/** -text
 experiments/prism-foundry-content/** -text
 experiments/prism-foundry-integration/** -text
+experiments/prism-foundry-integration/notices/** -text whitespace=-blank-at-eol,-blank-at-eof,-space-before-tab,cr-at-eol
