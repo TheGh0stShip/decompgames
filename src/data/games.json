@@ -5010,5 +5010,47 @@
   "scope": "Ordinary keys complete all three authored stations, collect the native lens and return to native victory; collision, capped descent, damage, native death and fresh retry. Floor-two native checkpoint survives full browser shutdown with equal position, health, depth, food, equipment and actors; Continue saved, checkpoint consumption, simulated focus and native Stop tested. Invalid checkpoints and missing/changed/stalled payloads fail before native gameplay. Extracted source-only package reproduces WASM. Site and production receipts recorded separately; no original dungeon, all modes or audible claim.",
   "playthrough": true
  }
-}
+ },
+ {
+  "id": "battletanx-gbc",
+  "title": "BattleTanx",
+  "aliases": [
+   "BattleTanx GBC",
+   "BattleTanx Game Boy Color"
+  ],
+  "year": 2000,
+  "genre": "Vehicular combat",
+  "kind": "Decompilation",
+  "mode": "files",
+  "engine": "Byte-exact RGBDS 1.0.4 SM83 disassembly",
+  "description": "Rebuild the Game Boy Color tank-combat game byte for byte from reviewed RGBDS source.",
+  "overview": "BattleTanx reconstructed as readable SM83 assembly, structured data and tracked assets for Game Boy Color. The project maps every byte of the 1 MiB cartridge, names all 288 recovered function entries, validates relocations and data invariants, and rebuilds the USA ROM with the retail SHA-1. This is a source-project listing; Decomp Games does not currently host a browser player for it.",
+  "source": "https://github.com/TheGh0stShip/BattleTanx-GBC",
+  "engineLicense": "GPL-3.0. The repository applies GPL-3.0 to its source, tools and included material; the BattleTanx name and original-game rights remain with their respective owners.",
+  "assetLicense": "GPL-3.0 as distributed by the source repository; the BattleTanx name and original-game copyrights and trademarks remain with their respective owners.",
+  "assetRequirements": "The tracked source and assets assemble without an original ROM. A legally obtained BattleTanx USA Game Boy Color ROM (1,048,576 bytes, SHA-1 5078584e86c0b6f4687c424cc00bbd762ba6573a) is required for the complete comparison and structural-validation suite.",
+  "controls": [
+   "No hosted player is available; consult the original release for controls."
+  ],
+  "saveInstructions": "No browser save support is provided. The original game uses its password system for progress.",
+  "limitations": [
+   "Directory entry only; no browser build or hosted player has been submitted.",
+   "The ROM reconstructs completely, but some data meanings, automatic branch labels and interrupt-banking timing questions remain under investigation.",
+   "No full playthrough or physical-hardware verification is claimed.",
+   "Browser input, saving and audible audio have not been tested."
+  ],
+  "inputs": [],
+  "downloadMB": null,
+  "complete": false,
+  "color": "#66713b",
+  "shelf": "classic",
+  "platform": "Game Boy Color",
+  "verification": {
+   "status": "unverified",
+   "date": null,
+   "browsers": [],
+   "scope": "The upstream project reports and checks a byte-identical USA ROM build with SHA-1 5078584e86c0b6f4687c424cc00bbd762ba6573a. The source was assembled with RGBDS 1.0.4 and its complete validation suite passed. No browser gameplay is claimed.",
+   "playthrough": false
+  }
+ }
 ]
